@@ -1,12 +1,24 @@
+@import "tailwindcss";
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #131313a1;
+}
+
+@font-face {
+  font-family: "Basel-Grotesk";
+  src:
+    url("/fonts/MyFont.woff2") format("woff2"),
+    url("/fonts/MyFont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #131313;
+    --foreground: #ffffffa6;
   }
 }
 
@@ -39,4 +51,16 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+@theme {
+  --color-pink: #ff37c7;
+  --color-pink-hover: #e500a5;
+  --color-pink-bg: #ff37c714;
+  --color-gray-light: #ffffffa6; /* dark mode text color */
+  --color-gray-light-surface: #f9f9f9;
+  --color-gray-medium: #ffffff1f;
+  --color-gray-neutral: #131313a1; /* light mode text color */
+  --color-gray-dark-surface: #1f1f1f;
+  --color-dark: #131313; /* light mode active text color */
 }
