@@ -6,7 +6,7 @@ import ShowMoreIcon from "./show-more-icon";
 
 export default function Header() {
   return (
-    <div className="grid-area-[header] sticky">
+    <div className="row-[1] col-[1] sticky">
       <div className="relative box-content flex h-[72px] w-screen shrink-0 flex-col items-stretch justify-center border-b border-b-transparent">
         <nav className="font-basel flex w-full shrink-0 basis-auto items-center justify-center px-3">
           <div className="flex w-full gap-3">

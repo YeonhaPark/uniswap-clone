@@ -167,7 +167,7 @@ a {
 }
 
 @theme {
-  --color-light: #FCFCFC;
+  --color-light: #fcfcfc;
   --color-pink-50: #ff37c714;
   --color-pink-100: #ff37c71f;
   --color-pink-500: #ff37c7;
@@ -177,5 +177,8 @@ a {
   --color-gray-200: #ffffff1f;
   --color-gray-600: #131313a1; /* light mode text color */
   --color-gray-900: #1f1f1f;
-  --color-gray-950: #131313; /* light mode active text color */
+  --color-surface3: rgba(34, 34, 34, 0.05);
+  --color-surface3-hovered: rgba(19, 19, 19, 0.1);
+  --color-neutral1: #131313; /* light mode active text color */
+  --color-neutral2: rgba(19, 19, 19, 0.63);
 }

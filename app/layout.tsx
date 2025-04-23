@@ -13,7 +13,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="grid min-h-screen grid-cols-1 grid-rows-[auto_1fr]">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
