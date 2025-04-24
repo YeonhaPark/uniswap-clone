@@ -6,7 +6,7 @@ const SvgComponent = () => (
     style={{
       width: 24,
       height: 24,
-      color: "rgba(19,19,19,.63)",
+      color: "currentColor",
     }}
     viewBox="0 0 16 16"
   >

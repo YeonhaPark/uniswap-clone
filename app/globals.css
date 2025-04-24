@@ -182,7 +182,7 @@ a {
   --color-surface2-hovered: #f2f2f2;
   --color-surface3: rgba(34, 34, 34, 0.05);
   --color-surface3-hovered: rgba(19, 19, 19, 0.1);
-  --color-neutral1: #131313; /* light mode active text color */
+  --color-neutral1: rgb(19, 19, 19); /* light mode active text color */
   --color-neutral2: rgba(19, 19, 19, 0.63);
   --color-neutral3: rgba(19, 19, 19, 0.35);
   --color-accent1: #ff37c7;
@@ -191,7 +191,20 @@ a {
   --color-accent2-hovered: rgba(255, 55, 199, 0.12);
 }
 
-.PopoverContent {
-  top: -181px !important;
-  left: -20px !important;
+.dark {
+  --color-surface1: rgb(19, 19, 19);
+  --color-surface1-hovered: #1a1a1a;
+  --color-surface2: #1f1f1f;
+  --color-surface2-hovered: #242424;
+  --color-surface3: rgba(255, 255, 255, 0.12);
+  --color-surface3-hovered: rgba(255, 255, 255, 0.16);
+
+  --color-neutral1: #ffffff;
+  --color-neutral2: rgba(255, 255, 255, 0.63);
+  --color-neutral3: rgba(255, 255, 255, 0.35);
+
+  --color-accent1: #ff37c7;
+  --color-accent1-hovered: #e500a5;
+  --color-accent2: rgba(255, 55, 199, 0.08);
+  --color-accent2-hovered: rgba(255, 55, 199, 0.12);
 }

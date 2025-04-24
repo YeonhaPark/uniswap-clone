@@ -14,10 +14,10 @@ export default function Tab({
       size={"none"}
       onClick={onClick}
       className={cn(
-        "text-neutral2 hover:text-neutral1 font-basel flex h-[32px] w-[64px] basis-auto rounded-full px-3 py-2 hover:bg-white",
+        "text-neutral2 hover:text-neutral1 font-basel flex h-[32px] w-[64px] basis-auto rounded-full px-3 py-2 hover:bg-transparent",
         currentTab === children.charAt(0).toLowerCase() + children.slice(1)
           ? "bg-surface3 hover:bg-surface3-hovered text-neutral1"
-          : "bg-white"
+          : "bg-transparent"
       )}
     >
       {children}

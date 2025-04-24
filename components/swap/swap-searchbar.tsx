@@ -11,7 +11,7 @@ export default function SwapSearchbar() {
 
   return (
     <div className="flex shrink grow basis-auto self-center py-1">
-      <div className="flex h-[48px] w-full max-w-[400px] min-w-[280px] rounded-full bg-gray-100 px-1 py-2">
+      <div className="bg-surface2 flex h-[48px] w-full max-w-[400px] min-w-[280px] rounded-full px-1 py-2">
         <div className="mx-4 flex w-full items-center gap-2">
           <NavSearchIcon />
           <span className="contents">

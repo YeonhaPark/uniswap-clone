@@ -36,7 +36,7 @@ export default function CurrencyPanel({
     <div
       className={cn(
         "rounded-[20px] border border-transparent",
-        isActive ? "border-surface3 bg-white" : "bg-surface2"
+        isActive ? "border-surface3 bg-transparent" : "bg-surface2"
       )}
     >
       <div className="flex shrink-0 cursor-pointer flex-col">
@@ -65,7 +65,7 @@ export default function CurrencyPanel({
                   Select token
                   <ChevronDown />
                 </div>
-              </Button> */}
+              </Button> TODO */}
             </div>
           </div>
           <div className="flex shrink-0 items-center gap-2">

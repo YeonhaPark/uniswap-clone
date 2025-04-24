@@ -31,7 +31,7 @@ export default function CurrencySelectModal({
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger onClick={() => setOpen(true)}>{trigger}</DialogTrigger>
       {open && (
-        <DialogContent className="flex flex-col gap-2 sm:max-w-[425px]">
+        <DialogContent className="bg-surface1 flex flex-col gap-2 sm:max-w-[425px]">
           <DialogHeader>
             <DialogTitle className="font-basel text-neutral1 text-lg font-light">
               Select a token
@@ -41,7 +41,7 @@ export default function CurrencySelectModal({
             <SwapSearchbar />
             <div className="relative h-[586px] overflow-auto">
               <AvailableTokens setCurrency={setCurrency} />
-              <div className="sticky top-0 z-10 bg-white pt-3 pb-1">
+              <div className="bg-surface1 sticky top-0 z-10 pt-3 pb-1">
                 <div className="font-basel text-neutral2 flex h-[40px] items-center gap-2">
                   <StarIcon />
                   Tokens by 24H volume

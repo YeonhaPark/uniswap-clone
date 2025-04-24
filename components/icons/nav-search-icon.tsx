@@ -1,11 +1,10 @@
-import * as React from "react";
-const SvgComponent = () => (
+const NavSearchIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={20}
     height={20}
     fill="none"
-    stroke="rgba(19, 19, 19, 0.63)"
+    stroke="currentColor"
     strokeLinecap="round"
     strokeLinejoin="round"
     strokeWidth={2}
@@ -15,4 +14,4 @@ const SvgComponent = () => (
     <path d="m21 21-4.35-4.35" />
   </svg>
 );
-export default SvgComponent;
+export default NavSearchIcon;

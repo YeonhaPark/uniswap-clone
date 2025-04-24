@@ -6,7 +6,7 @@ const SvgComponent = () => (
     style={{
       width: 24,
       height: 24,
-      color: "#131313",
+      color: "currentColor",
       transform: "rotateZ(0deg)",
     }}
     viewBox="0 0 24 24"
