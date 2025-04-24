@@ -15,7 +15,7 @@ export default function TabList({
     { name: "Buy", link: "buy" },
   ];
   return (
-    <div className="flex h-[42px] items-center gap-3 overflow-hidden p-1">
+    <div className="flex h-[42px] items-center gap-3 overflow-hidden p-1 pb-1.5">
       {tabs.map((tab) => (
         <Link href={tab.link} key={tab.name}>
           <Tab

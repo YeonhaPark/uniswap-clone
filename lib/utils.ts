@@ -6,14 +6,17 @@ import { twMerge } from "tailwind-merge";
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
+const usdRates: Record<Currency, number> = {
+  ETH: ETH_USD,
+  WBTC: WBTC_USD,
+  USDC: USDC,
+};
+
+export function rate(from: Currency, to: Currency): number {
+  return usdRates[to] / usdRates[from];
+}
 
 export function swap(from: Currency, to: Currency, amount: number): number {
-  const usdRates: Record<Currency, number> = {
-    ETH: ETH_USD,
-    WBTC: WBTC_USD,
-    USDC: USDC,
-  };
-
   if (from === to) return amount;
 
   const valueInUSD = amount * usdRates[from]; // 1단계: USD로 환산

@@ -185,6 +185,10 @@ a {
   --color-neutral1: #131313; /* light mode active text color */
   --color-neutral2: rgba(19, 19, 19, 0.63);
   --color-neutral3: rgba(19, 19, 19, 0.35);
+  --color-accent1: #ff37c7;
+  --color-accent1-hovered: #e500a5;
+  --color-accent2: rgba(255, 55, 199, 0.08);
+  --color-accent2-hovered: rgba(255, 55, 199, 0.12);
 }
 
 .PopoverContent {
