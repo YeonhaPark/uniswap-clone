@@ -167,7 +167,6 @@ a {
 }
 
 @theme {
-  --color-light: #fcfcfc;
   --color-pink-50: #ff37c714;
   --color-pink-100: #ff37c71f;
   --color-pink-500: #ff37c7;
@@ -177,6 +176,8 @@ a {
   --color-gray-200: #ffffff1f;
   --color-gray-600: #131313a1; /* light mode text color */
   --color-gray-900: #1f1f1f;
+  --color-surface1: #ffffff;
+  --color-surface1-hovered: #fcfcfc;
   --color-surface2: #f9f9f9;
   --color-surface2-hovered: #f2f2f2;
   --color-surface3: rgba(34, 34, 34, 0.05);
@@ -184,4 +185,9 @@ a {
   --color-neutral1: #131313; /* light mode active text color */
   --color-neutral2: rgba(19, 19, 19, 0.63);
   --color-neutral3: rgba(19, 19, 19, 0.35);
+}
+
+.PopoverContent {
+  top: -181px !important;
+  left: -20px !important;
 }

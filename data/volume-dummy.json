@@ -1,0 +1,3989 @@
+{
+  "tokens": [
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1752.75,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.32329
+      },
+      "volume1Day": {
+        "value": 632535304.8019193,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 904110363.4000126,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "logo": "https://token-icons.s3.amazonaws.com/eth.png"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999952,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 577371928.5948486,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 237510268.7054424,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 145670919024,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00656
+      },
+      "volume1Day": {
+        "value": 305874760.6591797,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 127405395.86368567,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "symbol": "USDT",
+      "name": "Tether",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 920846775,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.002,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.1041
+      },
+      "volume1Day": {
+        "value": 265244468.20388556,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 46174588.89999262,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 6,
+      "address": "0x9151434b16b9763660705744891fA906F660EcC5",
+      "symbol": "USD₮0",
+      "name": "USDT0",
+      "logo": "https://coin-images.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 61812465970,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.0059
+      },
+      "volume1Day": {
+        "value": 246280165.16464102,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 88282543.96816,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 11874824187,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92204,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.22562
+      },
+      "volume1Day": {
+        "value": 234458810.13250732,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 208430873.37170544,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "logo": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1696507857"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.9526816571984953
+      },
+      "volume1Day": {
+        "value": 227485656.8897705,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 33403177.533344623,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1752.75,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.32329
+      },
+      "volume1Day": {
+        "value": 196632437.69719127,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 93254484.6153998,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "ETH",
+      "name": "Base ETH",
+      "logo": "https://token-icons.s3.amazonaws.com/eth.png"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1732.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 196615871.64767945,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 571463.5590596115,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "ETH",
+      "name": "Unichain ETH",
+      "logo": "https://token-icons.s3.amazonaws.com/eth.png"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 99121441.93528748,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 36418629.890318,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 145669946377,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00656
+      },
+      "volume1Day": {
+        "value": 84503627.04014587,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 14742116.72722443,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "symbol": "USDT",
+      "name": "USDT0",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 11874824187,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92204,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.22562
+      },
+      "volume1Day": {
+        "value": 83682064.93656921,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 23869275.548130482,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+      "symbol": "WBTC",
+      "name": "Arbitrum Bridged WBTC (Arbitrum One)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39532/large/wbtc.png?1722810336"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 11874824187,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92007,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.614733406134695
+      },
+      "volume1Day": {
+        "value": 58913799.72098571,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 17138619.7923193,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0x927B51f251480a681271180DA4de28D44EC4AfB8",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "logo": "https://coin-images.coingecko.com/coins/images/7598/large/wrapped_bitcoin_wbtc.png?1696507857"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 1.0501818338656025e21,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1850.0614534483623,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.3040340538216895
+      },
+      "volume1Day": {
+        "value": 34246584.20884521,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 22316843.527835067,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+      "symbol": "weETH",
+      "name": "Wrapped eETH",
+      "logo": ""
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 3677690094,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92233,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.6642364888483594
+      },
+      "volume1Day": {
+        "value": 32626958.676473618,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 40926656.44789165,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "symbol": "cbBTC",
+      "name": "Coinbase Wrapped BTC",
+      "logo": "https://coin-images.coingecko.com/coins/images/40143/large/cbbtc.webp?1726136727"
+    },
+    {
+      "chain": "AVALANCHE",
+      "fullyDilutedValuation": {
+        "value": 245084609,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 21.76,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -4.920086476321261
+      },
+      "volume1Day": {
+        "value": 27533548.697886035,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 13121270.444544883,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "AVAX",
+      "name": "AVAX",
+      "logo": "https://coin-images.coingecko.com/coins/images/15075/large/wrapped-avax.png?1696514734"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 3677690094,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92233,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.6642364888483594
+      },
+      "volume1Day": {
+        "value": 24885309.64859438,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 6450812.688192194,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+      "symbol": "cbBTC",
+      "name": "Coinbase Wrapped BTC",
+      "logo": "https://coin-images.coingecko.com/coins/images/40143/large/cbbtc.webp?1726136727"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 895652808,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 602.97,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.9747416758931777
+      },
+      "volume1Day": {
+        "value": 23473201.90678419,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4170811.7512847856,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "BNB",
+      "name": "BNB Smart Chain",
+      "logo": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 240158817,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.02396024,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": null,
+      "volume1Day": {
+        "value": 20613493.672695506,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 875922.8525679884,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x1111111111166b7FE7bd91427724B487980aFc69",
+      "symbol": "ZORA",
+      "name": "Zora",
+      "logo": "https://coin-images.coingecko.com/coins/images/54693/large/zora.jpg?1741094751"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 3269495943,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999986,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.02546
+      },
+      "volume1Day": {
+        "value": 20610022.509857178,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 53012041.715562664,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "symbol": "DAI",
+      "name": "Dai",
+      "logo": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996"
+    },
+    {
+      "chain": "AVALANCHE",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.0059
+      },
+      "volume1Day": {
+        "value": 17070874.420718193,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3884808.665608,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 682838083,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.682653,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -10.07927
+      },
+      "volume1Day": {
+        "value": 16758745.270648956,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 18999993.041407146,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+      "symbol": "VIRTUAL",
+      "name": "Virtuals Protocol",
+      "logo": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 145669946377,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00656
+      },
+      "volume1Day": {
+        "value": 15648566.492221832,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 7220747.888746559,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "symbol": "USDT",
+      "name": "Binance Bridged USDT (BNB Smart Chain)",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 3283281142,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.327956,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.36107778266462054
+      },
+      "volume1Day": {
+        "value": 15335256.163764954,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3855634.843178817,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "symbol": "ARB",
+      "name": "Arbitrum",
+      "logo": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 14770712.526367188,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 8727617.922867257,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "symbol": "USDC.e",
+      "name": "Bridged USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/33000/large/usdc.png?1700119918"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 4763264494,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.04216
+      },
+      "volume1Day": {
+        "value": 13774537.32723236,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 7225750.430033354,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+      "symbol": "USDe",
+      "name": "Ethena USDe",
+      "logo": "https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1732.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 12511247.566207886,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 13489976.725137481,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "symbol": "WETH",
+      "name": "Polygon PoS Bridged WETH (Polygon POS)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39708/large/WETH.PNG?1723730343"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 7388966554,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 2081.43,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.69405
+      },
+      "volume1Day": {
+        "value": 10872631.154094696,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 10438569.622259654,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "MEDIUM_WARNING",
+      "decimals": 18,
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "symbol": "wstETH",
+      "name": "Wrapped stETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295"
+    },
+    {
+      "chain": "AVALANCHE",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1732.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 10244644.101624131,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2952088.9549729372,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
+      "symbol": "WETH.e",
+      "name": "Avalanche Bridged WETH (Avalanche)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39707/large/WETH.PNG?1723730205"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 418907448,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 91810,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.49014
+      },
+      "volume1Day": {
+        "value": 10222481.155401707,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 8294862.165727547,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+      "symbol": "tBTC",
+      "name": "tBTC",
+      "logo": "https://coin-images.coingecko.com/coins/images/11224/large/0x18084fba666a33d37592fa2633fd49a74dd93a88.png?1696511155"
+    },
+    {
+      "chain": "OPTIMISM",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1752.75,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 9526242.239868576,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4432982.278207839,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "ETH",
+      "name": "Optimistic ETH",
+      "logo": "https://token-icons.s3.amazonaws.com/eth.png"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.0059
+      },
+      "volume1Day": {
+        "value": 9232081.68557167,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 9511816.294702515,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 50415114,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.222394,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 1.66501
+      },
+      "volume1Day": {
+        "value": 9139763.885307815,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 6370609.308163628,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x0000000000000000000000000000000000001010",
+      "symbol": "POL",
+      "name": "Polygon",
+      "logo": "https://coin-images.coingecko.com/coins/images/32440/large/polygon.png?1698233684:"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 145669946377,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00656
+      },
+      "volume1Day": {
+        "value": 7852756.282413483,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 8824597.693135496,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "symbol": "USDT",
+      "name": "Polygon Bridged USDT (Polygon)",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 4488775,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.188766,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -4.06514
+      },
+      "volume1Day": {
+        "value": 7791504.5030530095,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3105546.937635336,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0xbdF43ecAdC5ceF51B7D1772F722E40596BC1788B",
+      "symbol": "SEI",
+      "name": "LayerZero Bridged Sei",
+      "logo": "https://coin-images.coingecko.com/coins/images/54862/large/sei.jpg?1742182276"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 790645188,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 3354.64,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.50126
+      },
+      "volume1Day": {
+        "value": 7149254.460935831,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 13815871.384283274,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+      "symbol": "PAXG",
+      "name": "PAX Gold",
+      "logo": "https://coin-images.coingecko.com/coins/images/9519/large/paxgold.png?1696509604"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 5698150845,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 5.69,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -4.640808461755053
+      },
+      "volume1Day": {
+        "value": 6883571.871822357,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 28297872.0298323,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+    },
+    {
+      "chain": "OPTIMISM",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 6868023.49751091,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2503992.604163051,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 2101485063,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.17,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00131
+      },
+      "volume1Day": {
+        "value": 6653972.936781883,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 344488.043436279,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+      "symbol": "sUSDe",
+      "name": "Ethena Staked USDe",
+      "logo": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 671393182,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.997778,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.0175
+      },
+      "volume1Day": {
+        "value": 6324230.32346499,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1129471.7091095096,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x73A15FeD60Bf67631dC6cd7Bc5B6e8da8190aCF5",
+      "symbol": "USD0",
+      "name": "Usual USD",
+      "logo": "https://coin-images.coingecko.com/coins/images/38272/large/USD0LOGO.png?1716962811"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 2560031355,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 160,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -1.84032
+      },
+      "volume1Day": {
+        "value": 6286545.216251373,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 6838880.676807078,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "logo": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 14234741114,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 14.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.3964319875873783
+      },
+      "volume1Day": {
+        "value": 5587859.587287903,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 7403240.596822444,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "logo": "https://coin-images.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1696502009"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 6027509005,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92304,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.5128294378721105
+      },
+      "volume1Day": {
+        "value": 5544342.50143528,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1403314.6831586498,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "symbol": "BTCB",
+      "name": "Binance Bitcoin",
+      "logo": "https://coin-images.coingecko.com/coins/images/14108/large/Binance-bitcoin.png?1696513829"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 7388966554,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 2101.91,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.41831
+      },
+      "volume1Day": {
+        "value": 5434895.560267583,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 62402290.59718918,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "MEDIUM_WARNING",
+      "decimals": 18,
+      "address": "0xc02fE7317D4eb8753a02c35fe019786854A92001",
+      "symbol": "wstETH",
+      "name": "Wrapped stETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/18834/large/wstETH.png?1696518295"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 11874824187,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92007,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.4345
+      },
+      "volume1Day": {
+        "value": 5383847.133922577,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3603808.74181814,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+      "symbol": "WBTC",
+      "name": "Polygon Bridged WBTC (Polygon POS)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39530/large/wbtc.png?1722809402"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 498435139,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.05039,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 10.41572
+      },
+      "volume1Day": {
+        "value": 4595053.158257961,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4827836.14959334,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+      "symbol": "BRETT",
+      "name": "Brett",
+      "logo": "https://coin-images.coingecko.com/coins/images/35529/large/1000050750.png?1709031995"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1732.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 4574108.812228203,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3607889.8940477245,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "symbol": "ETH",
+      "name": "Binance-Peg WETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/39580/large/weth.png?1723006716"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 884424018,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 3.14,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -10.048065208976787
+      },
+      "volume1Day": {
+        "value": 4400882.666211128,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2875732.958781115,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8",
+      "symbol": "PENDLE",
+      "name": "Pendle",
+      "logo": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 4810257125,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1732.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.46641
+      },
+      "volume1Day": {
+        "value": 3927530.8612347245,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 90850645.96473944,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": null,
+      "symbol": "ETH",
+      "name": "Arbitrum ETH",
+      "logo": "https://token-icons.s3.amazonaws.com/eth.png"
+    },
+    {
+      "chain": "CELO",
+      "fullyDilutedValuation": {
+        "value": 35637210,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.001,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.12776
+      },
+      "volume1Day": {
+        "value": 3677127.7292490005,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 958656.3084952423,
+        "currency": "USD"
+      },
+      "protectionInfo": null,
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x765DE816845861e75A25fCA122bb6898B8B1282a",
+      "symbol": "cUSD",
+      "name": "Celo Dollar",
+      "logo": "https://coin-images.coingecko.com/coins/images/13161/large/icon-celo-dollar-color-1000-circle-cropped.png?1696512945"
+    },
+    {
+      "chain": "CELO",
+      "fullyDilutedValuation": {
+        "value": 317257866,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.318172,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -4.07526568755655
+      },
+      "volume1Day": {
+        "value": 3531756.252861023,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4409375.706434434,
+        "currency": "USD"
+      },
+      "protectionInfo": null,
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "symbol": "CELO",
+      "name": "Celo",
+      "logo": "https://coin-images.coingecko.com/coins/images/11090/large/InjXBNx9_400x400.jpg?1696511031"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 294052082,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.02582
+      },
+      "volume1Day": {
+        "value": 3436228.5803069994,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1060305.8780801953,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+      "symbol": "RLUSD",
+      "name": "Ripple USD",
+      "logo": "https://coin-images.coingecko.com/coins/images/39651/large/RLUSD_200x200_%281%29.png?1727376633"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 4949616307,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.329972,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.35393
+      },
+      "volume1Day": {
+        "value": 3436130.422376156,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4989769.001659587,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+      "symbol": "ENA",
+      "name": "Ethena",
+      "logo": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png?1711701436"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 137052010,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.01352
+      },
+      "volume1Day": {
+        "value": 3379175.2919805646,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 5499209.170060129,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2",
+      "symbol": "USDf",
+      "name": "Falcon USD",
+      "logo": "https://coin-images.coingecko.com/coins/images/54558/large/ff_200_X_200.png?1740741076"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 299425037,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.300671,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 18.4846
+      },
+      "volume1Day": {
+        "value": 3330536.9388588667,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1364504.3809125058,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x28d38dF637dB75533bD3F71426F3410a82041544",
+      "symbol": "PROMPT",
+      "name": "Wayfinder",
+      "logo": "https://coin-images.coingecko.com/coins/images/55169/large/wayfinder.jpg?1744336900"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 231008672,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.097,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.11902
+      },
+      "volume1Day": {
+        "value": 3212453.0083140023,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 6792467.54978004,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 6,
+      "address": "0x80ac24aA929eaF5013f6436cdA2a7ba190f5Cc0b",
+      "symbol": "syrupUSDC",
+      "name": "SyrupUSDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/54658/large/syrup_logo-_200x200.jpg?1740895597"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 226255046,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.14,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.07884
+      },
+      "volume1Day": {
+        "value": 3090402.676779568,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 564678.8325474225,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "symbol": "EURC",
+      "name": "EURC",
+      "logo": "https://coin-images.coingecko.com/coins/images/26045/large/euro.png?1696525125"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 1250827079,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1447.08,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.37288
+      },
+      "volume1Day": {
+        "value": 3035978.78561306,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 38183770.691762954,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "symbol": "MKR",
+      "name": "Maker",
+      "logo": "https://coin-images.coingecko.com/coins/images/1364/large/Mark_Maker.png?1696502423"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 789858509,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.790501,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.7036
+      },
+      "volume1Day": {
+        "value": 2979662.7287597656,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 5117956.335026599,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+      "symbol": "LDO",
+      "name": "Lido DAO",
+      "logo": "https://coin-images.coingecko.com/coins/images/13573/large/Lido_DAO.png?1696513326"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 88591689,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999291,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.07355
+      },
+      "volume1Day": {
+        "value": 2799381.2922130227,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 7129767.158328356,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 6,
+      "address": "0x437cc33344a0B27A429f795ff6B469C72698B291",
+      "symbol": "wM",
+      "name": "WrappedM by M^0",
+      "logo": "https://coin-images.coingecko.com/coins/images/55070/large/wm.jpg?1743589588"
+    },
+    {
+      "chain": "OPTIMISM",
+      "fullyDilutedValuation": {
+        "value": 145669946377,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00645
+      },
+      "volume1Day": {
+        "value": 2764461.1394729614,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": -1420218.3164920001,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "symbol": "USDT",
+      "name": "Bridged USDT",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 37911661,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 38,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -30.13526
+      },
+      "volume1Day": {
+        "value": 2674385.085278839,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 744881.9538036861,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
+      "symbol": "CLANKER",
+      "name": "tokenbot",
+      "logo": "https://coin-images.coingecko.com/coins/images/51440/large/CLANKER.png?1731232869"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 3534710160,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00000841,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -7.881121769278698
+      },
+      "volume1Day": {
+        "value": 2627076.0276031494,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 19254396.940226085,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "logo": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 5911393644247352,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 146.72,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.96715
+      },
+      "volume1Day": {
+        "value": 2620969.1757240295,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1091496.434758178,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 9,
+      "address": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
+      "symbol": "SOL",
+      "name": "SOL (Wormhole)",
+      "logo": "https://coin-images.coingecko.com/coins/images/22876/large/SOL_wh_small.png?1696522175"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 2577402.482503891,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1116491.195984884,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "symbol": "USDC",
+      "name": "Binance Bridged USDC (BNB Smart Chain)",
+      "logo": "https://coin-images.coingecko.com/coins/images/35220/large/USDC.jpg?1707919050"
+    },
+    {
+      "chain": "CELO",
+      "fullyDilutedValuation": {
+        "value": 145669946377,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00656
+      },
+      "volume1Day": {
+        "value": 2525416.411983967,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1458090.5708463797,
+        "currency": "USD"
+      },
+      "protectionInfo": null,
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e",
+      "symbol": "USD₮",
+      "name": "Tether",
+      "logo": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661"
+    },
+    {
+      "chain": "OPTIMISM",
+      "fullyDilutedValuation": {
+        "value": 11874824187,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 92204,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.4345
+      },
+      "volume1Day": {
+        "value": 2450563.043513298,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": -1189085.0017863552,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+      "symbol": "WBTC",
+      "name": "Optimism Bridged WBTC (Optimism)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39553/large/wbtc.png?1722897341"
+    },
+    {
+      "chain": "BNB",
+      "fullyDilutedValuation": {
+        "value": 721883654,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.94,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -5.313926380708667
+      },
+      "volume1Day": {
+        "value": 2439635.740088463,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 3649380.859228536,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "symbol": "Cake",
+      "name": "PancakeSwap",
+      "logo": "https://coin-images.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_%281%29.png?1696512440"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 461926227,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.496872,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -10.85818745218351
+      },
+      "volume1Day": {
+        "value": 2424170.9997296333,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 5405092.493931019,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 8,
+      "address": "0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C",
+      "symbol": "SPX",
+      "name": "SPX6900",
+      "logo": "https://coin-images.coingecko.com/coins/images/31401/large/centeredcoin_%281%29.png?1737048493"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 1073511610,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.075,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 3.29789
+      },
+      "volume1Day": {
+        "value": 2397332.5121899843,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2545785.2465706225,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
+      "symbol": "MORPHO",
+      "name": "Morpho",
+      "logo": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png?1726771230"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 3269495943,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999844,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.03965
+      },
+      "volume1Day": {
+        "value": 2338903.3193354607,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 751950.5739611296,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+      "symbol": "DAI",
+      "name": "Polygon PoS Bridged DAI (Polygon POS)",
+      "logo": "https://coin-images.coingecko.com/coins/images/39787/large/dai.png?1724110678"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 201456233,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 5.17205e-7,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -11.36587381037356
+      },
+      "volume1Day": {
+        "value": 2276797.925635338,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4415509.533123588,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xaaeE1A9723aaDB7afA2810263653A34bA2C21C7a",
+      "symbol": "Mog",
+      "name": "Mog Coin",
+      "logo": "https://coin-images.coingecko.com/coins/images/31059/large/MOG_LOGO_200x200.png?1696529893"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 1.1722618492445245e22,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1815.1279142363755,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.3373331512441977
+      },
+      "volume1Day": {
+        "value": 2274498.7319630217,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 13495442.779083062,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+      "symbol": "ezETH",
+      "name": "Renzo Restaked ETH",
+      "logo": ""
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 59643674,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.059601,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 14.02201
+      },
+      "volume1Day": {
+        "value": 2231221.9487513304,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 953788.3728285485,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 9,
+      "address": "0x768BE13e1680b5ebE0024C42c896E3dB59ec0149",
+      "symbol": "SKI",
+      "name": "Ski Mask Dog",
+      "logo": "https://coin-images.coingecko.com/coins/images/37195/large/32992128-F52F-4346-84CA-8E0C48F43606.jpeg?1713676521"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 1011260150,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.02087973,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 10.471611480537902
+      },
+      "volume1Day": {
+        "value": 2222783.0548684597,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1083550.6027043432,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18",
+      "symbol": "XCN",
+      "name": "Onyxcoin",
+      "logo": "https://coin-images.coingecko.com/coins/images/24210/large/onyxlogo.jpg?1696523397"
+    },
+    {
+      "chain": "CELO",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 2186945.8633503914,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 584138.087302,
+        "currency": "USD"
+      },
+      "protectionInfo": null,
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xcebA9300f2b948710d2653dD7B07f33A8B32118C",
+      "symbol": "USDC",
+      "name": "USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 3241963,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00322272,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -37.48243056575951
+      },
+      "volume1Day": {
+        "value": 2048655.5120982379,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 270874.5259504795,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0xD769d56f479E9E72a77bB1523e866A33098Feec5",
+      "symbol": "Base is for everyone",
+      "name": "Base is for everyone",
+      "logo": "https://coin-images.coingecko.com/coins/images/55231/large/baseisforeveryone.jpg?1744862972"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 2560031355,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 159.86,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -1.98913
+      },
+      "volume1Day": {
+        "value": 1982981.9488657713,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1074486.4405311102,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+      "symbol": "AAVE",
+      "name": "Aave",
+      "logo": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 60486813,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.059408,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -5.25383
+      },
+      "volume1Day": {
+        "value": 1972711.5787267685,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 839853.2824715388,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 9,
+      "address": "0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637",
+      "symbol": "NEIRO",
+      "name": "Neiro on ETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/39438/large/Neiro.png?1722915026"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 3827041799,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1860.82,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.6532572337405025
+      },
+      "volume1Day": {
+        "value": 1955232.9528903961,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1646369.0782425455,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee",
+      "symbol": "weETH",
+      "name": "Wrapped eETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 36042285,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 331.81,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -1.83839
+      },
+      "volume1Day": {
+        "value": 1914288.3241286278,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1268341.3326630217,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "MEDIUM_WARNING",
+      "decimals": 9,
+      "address": "0x77E06c9eCCf2E797fd462A92B6D7642EF85b0A44",
+      "symbol": "wTAO",
+      "name": "Wrapped TAO",
+      "logo": "https://coin-images.coingecko.com/coins/images/29087/large/wtao.png?1696528051"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 37310683,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00055205,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -1.8731347845903912
+      },
+      "volume1Day": {
+        "value": 1705364.4207655191,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2379050.972891286,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
+      "symbol": "doginme",
+      "name": "doginme",
+      "logo": "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 8716472920,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.872592,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -8.03636
+      },
+      "volume1Day": {
+        "value": 1692731.9401302338,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1654112.7690094032,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+      "symbol": "ONDO",
+      "name": "Ondo",
+      "logo": "https://coin-images.coingecko.com/coins/images/26580/large/ONDO.png?1696525656"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 103798821,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.103864,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -6.917695045456595
+      },
+      "volume1Day": {
+        "value": 1609784.183715582,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2350664.10337315,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
+      "symbol": "AIXBT",
+      "name": "aixbt by Virtuals",
+      "logo": "https://coin-images.coingecko.com/coins/images/51784/large/3.png?1731981138"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 841303362,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1965.62,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.2240456189744693
+      },
+      "volume1Day": {
+        "value": 1572644.4565992355,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1273781.1368901792,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "MEDIUM_WARNING",
+      "decimals": 18,
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "symbol": "rETH",
+      "name": "Rocket Pool ETH",
+      "logo": "https://coin-images.coingecko.com/coins/images/20764/large/reth.png?1696520159"
+    },
+    {
+      "chain": "UNICHAIN",
+      "fullyDilutedValuation": {
+        "value": 5688221053,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 5.69,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -4.3249
+      },
+      "volume1Day": {
+        "value": 1565368.38170519,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4680080.027555916,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x8f187aA05619a017077f5308904739877ce9eA21",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 151244059,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00035942,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -7.738386295618948
+      },
+      "volume1Day": {
+        "value": 1533642.9490001202,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1587586.6586915331,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
+      "symbol": "TOSHI",
+      "name": "Toshi",
+      "logo": "https://coin-images.coingecko.com/coins/images/31126/large/Toshi_Logo_-_Circular.png?1721677476"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 28124893,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00281142,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -10.58044
+      },
+      "volume1Day": {
+        "value": 1528420.7849721909,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 897917.7718931427,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x9a26F5433671751C3276a065f57e5a02D2817973",
+      "symbol": "KEYCAT",
+      "name": "Keyboard Cat (Base)",
+      "logo": "https://coin-images.coingecko.com/coins/images/36608/large/keyboard_cat.jpeg?1711965348"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 801660667,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.502169,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 3.69568
+      },
+      "volume1Day": {
+        "value": 1482106.2963614464,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 778815.7786767053,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+      "symbol": "AERO",
+      "name": "Aerodrome Finance",
+      "logo": "https://coin-images.coingecko.com/coins/images/31745/large/token.png?1696530564"
+    },
+    {
+      "chain": "ARBITRUM",
+      "fullyDilutedValuation": {
+        "value": 2629870883,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 2.63,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.27847
+      },
+      "volume1Day": {
+        "value": 1415616.8546363115,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1023869.1803090996,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+      "symbol": "ZRO",
+      "name": "LayerZero",
+      "logo": "https://coin-images.coingecko.com/coins/images/28206/large/ftxG9_TJ_400x400.jpeg?1696527208"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 22762004,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.02279107,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -34.237286819597465
+      },
+      "volume1Day": {
+        "value": 1370263.1457669586,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 389135.9273674356,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": null,
+        "externalTransferFailed": null,
+        "sellReverted": null
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
+      "symbol": "TIBBIR",
+      "name": "Ribbita by Virtuals",
+      "logo": "https://coin-images.coingecko.com/coins/images/54970/large/Untitled_design.png?1742941268"
+    },
+    {
+      "chain": "OPTIMISM",
+      "fullyDilutedValuation": {
+        "value": 61814052516,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.999957,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.00438
+      },
+      "volume1Day": {
+        "value": 1359275.355895996,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": -1417571.761097,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+      "symbol": "USDC.e",
+      "name": "Bridged USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/31580/large/USDC-icon.png?1696530397"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 118069804,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.0146661,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -11.82987
+      },
+      "volume1Day": {
+        "value": 1333528.1593395472,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1462244.3709829478,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x8eD97a637A790Be1feff5e888d43629dc05408F6",
+      "symbol": "NPC",
+      "name": "Non-Playable Coin",
+      "logo": "https://coin-images.coingecko.com/coins/images/31193/large/NPC_200x200.png?1696530021"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 1514641853,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.672949,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -0.25276
+      },
+      "volume1Day": {
+        "value": 1329260.3009037971,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1029514.0366357279,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+      "symbol": "CRV",
+      "name": "Curve DAO",
+      "logo": "https://coin-images.coingecko.com/coins/images/12124/large/Curve.png?1696511967"
+    },
+    {
+      "chain": "POLYGON",
+      "fullyDilutedValuation": {
+        "value": 14234741114,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 14.24,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -3.566451198590981
+      },
+      "volume1Day": {
+        "value": 1321665.6914739609,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 992968.7834261777,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 18,
+      "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "logo": "https://coin-images.coingecko.com/coins/images/877/large/chainlink-new-logo.png?1696502009"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 87967881,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00020911,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -9.2476
+      },
+      "volume1Day": {
+        "value": 1310472.248512745,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 2264611.5153279016,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 9,
+      "address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
+      "symbol": "Neiro",
+      "name": "Neiro",
+      "logo": "https://coin-images.coingecko.com/coins/images/39488/large/neiro.jpg?1731449567"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 104092596,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.00281701,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -13.68266
+      },
+      "volume1Day": {
+        "value": 1272094.193608284,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 1199424.8324136585,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 18,
+      "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+      "symbol": "DEGEN",
+      "name": "Degen",
+      "logo": "https://coin-images.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225"
+    },
+    {
+      "chain": "ETHEREUM",
+      "fullyDilutedValuation": {
+        "value": 866395117,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.03192
+      },
+      "volume1Day": {
+        "value": 1211488.7321049273,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 569233.6391056883,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+      "symbol": "PYUSD",
+      "name": "PayPal USD",
+      "logo": "https://coin-images.coingecko.com/coins/images/31212/large/PYUSD_Logo_%282%29.png?1696530039"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 14697198,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 1.001,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": 0.13963
+      },
+      "volume1Day": {
+        "value": 1211016.0717144012,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 281851.5078717575,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "VERIFIED",
+      "decimals": 6,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "symbol": "USDbC",
+      "name": "Bridged USDC",
+      "logo": "https://coin-images.coingecko.com/coins/images/31164/large/baseusdc.jpg?1696529993"
+    },
+    {
+      "chain": "BASE",
+      "fullyDilutedValuation": {
+        "value": 134597062,
+        "currency": "USD"
+      },
+      "price": {
+        "value": 0.699255,
+        "currency": "USD"
+      },
+      "pricePercentChange1Day": {
+        "currency": "USD",
+        "value": -2.63279
+      },
+      "volume1Day": {
+        "value": 1155275.8651915789,
+        "currency": "USD"
+      },
+      "totalValueLocked": {
+        "value": 4132804.581965934,
+        "currency": "USD"
+      },
+      "protectionInfo": {
+        "result": "BENIGN",
+        "attackTypes": []
+      },
+      "feeData": {
+        "sellFeeBps": null,
+        "buyFeeBps": null,
+        "feeTakenOnTransfer": false,
+        "externalTransferFailed": false,
+        "sellReverted": false
+      },
+      "safetyLevel": "STRONG_WARNING",
+      "decimals": 8,
+      "address": "0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
+      "symbol": "MAG7.ssi",
+      "name": "MAG7.ssi",
+      "logo": "https://coin-images.coingecko.com/coins/images/52962/large/mag7.png?1734863745"
+    }
+  ]
+}
