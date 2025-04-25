@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Igényeljen {{amount}} jutalmat"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "A {{cloudProviderName}}több helyreállítási kifejezésről van mentve.",
+        "title": "Válassza ki a visszaállítani kívánt biztonsági másolatot"
+      },
+      "button": {
+        "restore": {
+          "android": "Visszaállítás a Google Drive-ból",
+          "ios": "Visszaállítás az iCloudból"
+        }
+      },
+      "empty": {
+        "description": "Úgy tűnik, nem készített biztonsági másolatot a helyreállítási kifejezésekről a {{cloudProviderName}}címre.",
+        "title": "0 biztonsági mentés található"
+      },
+      "error": {
+        "backup": {
+          "message": "Nem sikerült a biztonsági másolatok importálása engedélyek hiánya, az engedélyezés megszakadása vagy felhőhiba miatt",
+          "title": "Hiba a biztonsági másolatok importálása közben"
+        },
+        "password": {
+          "title": "Érvénytelen jelszó. Kérlek próbáld újra."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Nem most",
+            "settings": "Menj a beállításokhoz"
+          },
+          "message": {
+            "android": "Kérjük, ellenőrizze, hogy olyan Google-fiókba jelentkezett-e be, amelyben a Google Drive engedélyezve van ezen az eszközön, majd próbálja újra.",
+            "ios": "Kérjük, ellenőrizze, hogy olyan Apple ID-vel jelentkezett-e be, amelyen az iCloud Drive engedélyezve van ezen az eszközön, majd próbálja újra."
+          },
+          "title": {
+            "android": "A Google Drive nem érhető el",
+            "ios": "Az iCloud Drive nem érhető el"
+          }
+        }
+      },
+      "loading": {
+        "title": "Biztonsági másolatok keresése..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Túl sok próbálkozás. Próbálja újra 1 óra múlva.",
+          "hours_other": "Túl sok próbálkozás. Próbálja újra {{count}} óra múlva.",
+          "minutes_one": "Túl sok próbálkozás. Próbálja újra 1 perc múlva.",
+          "minutes_other": "Túl sok próbálkozás. Próbálja újra {{count}} perc múlva."
+        }
+      },
+      "password": {
+        "input": "Írd be a jelszót",
+        "recoveryPhrase": "Ehelyett írja be a helyreállítási kifejezést",
+        "subtitle": "Ez a jelszó szükséges a helyreállítási kifejezés biztonsági másolatának helyreállításához a {{cloudProviderName}}címről.",
+        "title": "Írja be a biztonsági jelszót"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Változat: ",
+      "modal": {
+        "body": "Tárolja és cserélje biztonságosan a tokeneket az Uniswap alkalmazással. Elérhető iOS és Android rendszeren.",
+        "dont": "Nincs Uniswap pénztárcája?",
+        "scan": "Szkennelés az Uniswap Wallet segítségével"
+      },
+      "spamToggle": "Ismeretlen tokenek és NFT-k elrejtése"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "Biztonsági másolatot készítettem a helyreállítási kifejezésemről, és megértettem, hogy a Uniswap Labs nem tud segíteni a pénztárcám visszaszerzésében, ha ezt nem tenném meg.",
+        "description": "Győződjön meg arról, hogy biztonsági másolatot készített a helyreállítási kifejezésről az Uniswap mobilalkalmazás vagy böngészőbővítmény segítségével.",
+        "descriptionEmphasized": "A helyreállítási kifejezés nélkül előfordulhat, hogy nem tud hozzáférni pénztárcájához.",
+        "speedbump": {
+          "description": "Mielőtt folytatná, hajtsa végre a következő lépéseket, hogy elkerülje a pénztárcájához és az összes pénzeszközhöz való hozzáférését.",
+          "step1": "Töltse le az Uniswap mobilalkalmazást vagy böngészőbővítményt",
+          "step2": "Készítsen biztonsági másolatot a helyreállítási kifejezésről",
+          "title": "biztos vagy ebben?"
+        },
+        "title": "Törli a jelszót?"
+      },
+      "sign": {
+        "in": {
+          "title": "Jelentkezzen be a jelszóval"
+        }
+      },
+      "type": {
+        "crossplatform": "Telefon, táblagép vagy biztonsági kulcs",
+        "platform": "Böngésző vagy operációs rendszer"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Ezt a rendelést töröltük, mert egyenlege a bevitt összeg alá csökkent."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Ez a rendelés nem fog teljesülni, mert egyenlege a bevitt összeg alá csökkent. Növelje az egyensúlyt a javításhoz."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "A helyreállítási kifejezés (vagy kezdő kifejezés) <highlight></highlight> szókészlet, amely a pénztárca eléréséhez szükséges, <highlight>, mint a jelszó.</highlight>",
+        "part2": "<highlight>beírhatja a</highlight> helyreállítási kifejezést egy új eszközön <highlight>, hogy visszaállítsa pénztárcáját</highlight> és annak tartalmát.",
+        "part3": "De ha <highlight>elveszíti a</highlight>helyreállítási kifejezést, akkor <highlight>elveszíti</highlight> hozzáférését a pénztárcájához.",
+        "part4": "Ahelyett, hogy megjegyezné a helyreállítási kifejezést, <highlight>biztonsági másolatot készíthet {{cloudProviderName}}</highlight> értékre, és jelszóval védheti meg.",
+        "part5": "A helyreállítási kifejezésről manuálisan is biztonsági másolatot készíthet, ha <highlight>lejegyzi</highlight> és biztonságos helyen tárolja.",
+        "part6": "Javasoljuk, hogy használjon <highlight>mindkét típusú biztonsági másolatot</highlight>, mert ha elveszíti a helyreállítási kifejezést, nem tudja visszaállítani pénztárcáját."
+      },
+      "error": {
+        "invalid": "Érvénytelen kifejezés",
+        "invalidWord": "Érvénytelen szó: {{word}}",
+        "phraseLength": "A helyreállítási kifejezésnek 12-24 szóból kell állnia",
+        "wrong": "Hibás helyreállítási kifejezés"
+      },
+      "helpText": {
+        "import": "Hogyan találhatom meg a helyreállítási kifejezést?",
+        "restoring": "Próbáljon újra keresni"
+      },
+      "input": "Írja be a helyreállítási kifejezést",
+      "remove": {
+        "final": {
+          "description": "Győződjön meg arról, hogy felírta a helyreállítási kifejezést, vagy biztonsági másolatot készített róla a {{cloudProviderName}}címen. <highlight>Máskülönben nem férhet hozzá pénzeszközeihez.</highlight>",
+          "title": "Eltávolítja a <highlight></highlight>helyreállítási kifejezést"
+        },
+        "import": {
+          "description": "Egyszerre csak egy helyreállítási kifejezést tárolhat. Az új importálás folytatásához el kell távolítania a jelenlegi helyreállítási kifejezést és a kapcsolódó pénztárcákat erről az eszközről."
+        },
+        "initial": {
+          "description": "Ezzel eltávolítja pénztárcáját az eszközről a helyreállítási kifejezéssel együtt.",
+          "title": "Eltávolítja a <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "A helyreállítási kifejezés mindaddig tárolva marad, amíg nem törli az összes fennmaradó pénztárcát."
+        }
+      },
+      "subtitle": {
+        "import": "A helyreállítási kifejezés csak helyileg tárolódik az eszközén.",
+        "restoring": "Írja be alább a helyreállítási kifejezést, vagy próbálja meg újra megkeresni a biztonsági másolatokat."
+      },
+      "title": {
+        "import": "Írja be a helyreállítási kifejezést",
+        "restoring": "Nem találhatók biztonsági mentések"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Cím másolása",
+        "manageConnections": "Kapcsolatok kezelése",
+        "report": "Profil bejelentése",
+        "viewExplorer": "Megtekintés itt: {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Pénztárca hozzáadása",
+        "addViewOnly": "Adjon hozzá egy csak megtekinthető pénztárcát",
+        "create": "Hozzon létre egy új pénztárcát",
+        "import": "Új pénztárca importálása",
+        "manage": "Pénztárca beállításai",
+        "remove": "Távolítsa el a pénztárcát",
+        "restore": "Szerezze vissza pénztárcáját",
+        "watch": "Vigyázz a pénztárcára"
+      },
+      "create": {
+        "placeholder": "Pénztárca {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Pénztárca címke"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Profil szerkesztése"
+          },
+          "title": "Címke szerkesztése"
+        },
+        "viewOnly": "Csak megtekinthető pénztárcák"
+      },
+      "menu": {
+        "claimUsername": "Felhasználónév igénylése",
+        "copy": {
+          "title": "Másolja a pénztárca címét"
+        },
+        "edit": {
+          "title": "Címke szerkesztése"
+        },
+        "manageConnections": "Kapcsolatok kezelése",
+        "remove": {
+          "title": "Távolítsa el a pénztárcát"
+        }
+      },
+      "remove": {
+        "check": "Biztonsági másolatot készítettem a helyreállítási kifejezésemről, és megértettem, hogy a Uniswap Labs nem tud segíteni a pénztárcám visszaszerzésében, ha ezt nem tenném meg.",
+        "title": "Távolítsa el a {{name}}",
+        "viewOnly": "A pénztárca címének megadásával bármikor hozzáadhat csak megtekinthető pénztárcákat."
+      },
+      "restore": {
+        "description": "Mivel új eszközt használ, vissza kell állítania a helyreállítási kifejezést, vagy meg kell adnia a felhőalapú biztonsági mentés jelszavát a folytatáshoz."
+      },
+      "select": {
+        "error": "Nem sikerült betölteni a címeket",
+        "loading": {
+          "subtitle": "A pénztárcái lent jelennek meg.",
+          "title": "Pénztárcák keresése"
+        },
+        "title_one_one": "Egy pénztárcát találtak",
+        "title_one_other": "Válassza ki az importálni kívánt pénztárcákat"
+      },
+      "viewOnly": {
+        "button": "Import pénztárca",
+        "description": "A tokenek cseréjéhez, vásárlásához, küldéséhez és fogadásához importálnia kell a pénztárca helyreállítási kifejezését.",
+        "title": "Ez a pénztárca csak megtekinthető"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Ez a cím már importálva van",
+          "notFound": "A cím nem található",
+          "smartContract": "A cím egy intelligens szerződés"
+        },
+        "message": "A csak megtekinthető pénztárca hozzáadásával kipróbálhatja az alkalmazást, vagy nyomon követheti a pénztárcát. Nem cserélhet vagy küldhet pénzt.",
+        "placeholder": "ENS vagy cím",
+        "title": "Adja meg a pénztárca címét"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Függőben",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} jutalmak gyűjtve"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} innen: {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} a {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} {{amountWithSymbolB}}esetén"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} és {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "A medence részesedése"
+  },
+  "addressInput": {
+    "recipient": "Befogadó"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Anonimizált adatokat használunk, hogy javítsuk az Uniswap Labs termékeivel kapcsolatos élményt."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Nem igazán"
+    },
+    "description": "Ossza meg velünk, ha jó tapasztalatai vannak ezzel az alkalmazással",
+    "extension": {
+      "review": {
+        "description": "Válasszon csillagos értékelést, és írjon véleményt a Chrome Internetes áruházban.",
+        "title": "Áttekinti az Uniswap bővítményt?"
+      },
+      "title": "Élvezi az Uniswap bővítményt?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Visszajelzés küldése"
+      },
+      "description": "Ossza meg velünk, hogyan javíthatjuk az élményét",
+      "title": "Sajnálattal halljuk."
+    },
+    "mobile": {
+      "title": "Tetszik az Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Gyertyatartó",
+    "error": {
+      "pools": "Nem lehet megjeleníteni az aktuális készlet előzményadatait.",
+      "tokens": "Nem lehet megjeleníteni az aktuális token előzményadatait."
+    },
+    "line": "Vonaldiagram",
+    "missingData": "Hiányzó diagramadatok",
+    "price": {
+      "label": {
+        "close": "Bezárás",
+        "high": "Magas",
+        "low": "Alacsony",
+        "open": "Nyisd ki"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Ez a beállítás nem érhető el az aktuális diagramhoz"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Köszönjük, hogy tagja vagy az Uniswap közösségnek <heart />",
+    "uni": {
+      "arrived": "Megérkezett az UNI"
+    }
+  },
+  "common": {
+    "accept": "Elfogad",
+    "activity": "Tevékenység",
+    "add": {
+      "label": "Hozzáadás",
+      "liquidity": {
+        "cancelled": "Likviditás hozzáadása törölve",
+        "failed": "Nem sikerült a likviditás hozzáadása"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "V2 likviditás hozzáadása törölve",
+          "failed": "A V2 likviditás hozzáadása nem sikerült"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Hozzáadott likviditás",
+      "v2": {
+        "liquidity": "V2 likviditás hozzáadva"
+      }
+    },
+    "addedLiquidity": "Hozzáadott likviditás",
+    "adding": {
+      "liquidity": "Likviditás hozzáadása",
+      "v2": {
+        "liquidity": "V2 likviditás hozzáadása"
+      }
+    },
+    "addLiquidity": "Adjon hozzá likviditást",
+    "addressOrENS": "Pénztárca címe vagy ENS neve",
+    "advanced": "Fejlett",
+    "all": "Minden",
+    "allTime": "Mindig",
+    "and": "és",
+    "app": "App",
+    "approval": {
+      "cancelled": "A jóváhagyás visszavonva",
+      "failed": "A jóváhagyás sikertelen"
+    },
+    "approve": "Jóváhagy",
+    "approved": "Jóváhagyott",
+    "approvePending": "Kérelem folyamatban...",
+    "approveSpend": "{{symbol}} kiadás jóváhagyása",
+    "approving": "Jóváhagyás",
+    "areYouSure": "biztos vagy ebben?",
+    "automatic": "Auto",
+    "availableIn": "Uniswap elérhető: <locale />",
+    "availableOnIOSAndroid": "Elérhető iOS és Android rendszeren",
+    "availableOnIOSAndroidChrome": "Elérhető iOS, Android és Chrome rendszeren",
+    "backToPositions": "Vissza a pozíciókhoz",
+    "blocked": {
+      "ifError": "Ha úgy gondolja, hogy ez hiba, kérjük, küldjön egy e-mailt a címével együtt a <emailAddress />címre",
+      "reason": "Ez a cím le van tiltva az Uniswap Labs felületén, mert egy vagy több <link>letiltott tevékenységhez van társítva</link>."
+    },
+    "blockedAddress": "Letiltott cím",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Kölcsönzés lemondva",
+      "failed": "A kölcsönzés nem sikerült"
+    },
+    "borrowed": "Kölcsönözve",
+    "borrowing": "Hitelfelvétel",
+    "bought": "Vásárolt",
+    "brandAssets": "Márkaeszközök",
+    "burn": {
+      "cancelled": "Égés megszakítva",
+      "failed": "Az égés nem sikerült"
+    },
+    "burned": "Leégett",
+    "burning": "Égő",
+    "button": {
+      "accept": "Elfogad",
+      "back": "Vissza",
+      "buy": "megvesz",
+      "cancel": "Megszünteti",
+      "checkin": "Becsekkolás",
+      "close": "Bezárás",
+      "confirm": "megerősít",
+      "connect": "Csatlakozás",
+      "continue": "Folytatni",
+      "copied": "Másolva",
+      "copy": "Másolat",
+      "create": "Teremt",
+      "delete": "Töröl",
+      "disconnect": "Leválasztás",
+      "dismiss": "Elvetés",
+      "done": "Kész",
+      "edit": "Szerkesztés",
+      "enable": "Engedélyezze",
+      "finish": "Befejezés",
+      "goBack": "Menjen vissza",
+      "later": "Talán később",
+      "learn": "Tudj meg többet",
+      "next": "Következő",
+      "notNow": "Nem most",
+      "ok": "rendben",
+      "paste": "Paszta",
+      "pay": "Fizetés",
+      "proceed": "Folytassa",
+      "receive": "Kap",
+      "remove": "Távolítsa el",
+      "reset": "Reset",
+      "retry": "Próbálja újra",
+      "reveal": "Felfedni",
+      "review": "Felülvizsgálat",
+      "save": "Megment",
+      "scrollDown": "Görgessen le",
+      "sell": "Elad",
+      "send": "Küld",
+      "setup": "Beállít",
+      "share": "Ossza meg",
+      "showLess": "Mutass kevesebbet",
+      "showMore": "Mutass többet",
+      "sign": "Jel",
+      "skip": "Kihagyás",
+      "swap": "Csere",
+      "tryAgain": "Próbáld újra",
+      "understand": "Megértem",
+      "unlock": "Kinyit",
+      "view": "Kilátás",
+      "viewDetails": "Részletek megtekintése",
+      "yes": "Igen"
+    },
+    "buy": {
+      "cancelled": "Vásárlás lemondva",
+      "failed": "A vásárlás nem sikerült",
+      "label": "megvesz"
+    },
+    "buyAndSell": "Vásároljon és adjon el Uniswap-on",
+    "buying": "Vásárlás",
+    "by": "Által",
+    "cancel": {
+      "failed": "A törlés nem sikerült"
+    },
+    "cancellation": {
+      "cancelled": "Lemondás törölve"
+    },
+    "cancellationSubmitted": "Lemondás benyújtva",
+    "cancellationSuccessful": "A törlés sikeres",
+    "cancelled": "Törölve",
+    "cancelling": "Törlés",
+    "cancelOrder": "Megrendelés törlése",
+    "card": {
+      "error": {
+        "description": "Valami elromlott",
+        "title": "Hoppá! Valami elromlott."
+      }
+    },
+    "careers": "Karrierek",
+    "chart": "Diagram",
+    "checkNetwork": "Ellenőrizze a hálózat állapotát <link>itt.</link>",
+    "chromeExtension": "Kiterjesztés",
+    "claim": {
+      "cancelled": "Követelés törölve",
+      "failed": "A követelés sikertelen"
+    },
+    "claimed": "Azt állította",
+    "claiming": "Állítás",
+    "claimUnis": "Igényelje UNI tokenjeit",
+    "clear": "Világos",
+    "close": "Bezárás",
+    "closed": "Zárva",
+    "collect": {
+      "button": "Gyűjt",
+      "fees": {
+        "cancelled": "Törölt díjak beszedése",
+        "failed": "A díjak beszedése nem sikerült"
+      }
+    },
+    "collected": {
+      "fees": "Beszedett díjak"
+    },
+    "collecting": {
+      "fees": "Díjak beszedése"
+    },
+    "company": "Vállalat",
+    "confirm": "megerősít",
+    "confirmCancellation": "Erősítse meg a törlést",
+    "confirmSend": {
+      "button": "Küldés megerősítése"
+    },
+    "confirmSwap": "Erősítse meg a cserét a pénztárcában",
+    "confirmTimedOut": "A megerősítés időtúllépést szenvedett. Kérjük, próbálja újra.",
+    "confirmWallet": "Erősítse meg a pénztárcában",
+    "connect": {
+      "button": "Csatlakozás"
+    },
+    "connectAWallet": {
+      "button": "Csatlakoztasson egy pénztárcát"
+    },
+    "connectWallet": {
+      "button": "Csatlakoztassa a pénztárcát"
+    },
+    "contactUs": {
+      "button": "Lépjen kapcsolatba velünk"
+    },
+    "contractInteraction": "Szerződés kölcsönhatás",
+    "copied": "Másolva",
+    "copy": {
+      "address": "Cím másolása"
+    },
+    "copyLink": {
+      "button": "Link másolása"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "A készlet létrehozása megszakítva",
+        "failed": "A készlet létrehozása nem sikerült"
+      }
+    },
+    "created": {
+      "date": "Létrehozva {{date}}",
+      "pool": "Létrehozva medence"
+    },
+    "creating": {
+      "pool": "Medence létrehozása"
+    },
+    "currency": "Valuta",
+    "custom": "Egyedi",
+    "customRange": "Egyedi tartomány",
+    "dataOutdated": "Az adatok elavultak lehetnek",
+    "default": "Alapértelmezett",
+    "defaultTradeOptions": "Alapértelmezett kereskedési opciók",
+    "delegate": {
+      "cancelled": "A delegált törölve",
+      "failed": "A delegálás nem sikerült"
+    },
+    "delegated": "Delegált",
+    "delegating": "Delegálás",
+    "deploy": {
+      "cancelled": "Telepítés megszakítva",
+      "failed": "A telepítés sikertelen"
+    },
+    "deployed": "Telepítve",
+    "deploying": "Telepítés",
+    "deposit": {
+      "cancelled": "A letét törölve",
+      "failed": "A befizetés sikertelen",
+      "toNetwork": "Befizetési tokenek a {{label}} hálózatba."
+    },
+    "deposited": "Letétbe helyezve",
+    "depositing": "Befizetés",
+    "depositTokens": "Befizetési tokenek",
+    "detected": "Észlelve",
+    "developers": "Fejlesztők",
+    "device": {
+      "other": "Más készülék"
+    },
+    "dismiss": "Elvetés",
+    "displaySettings": "Megjelenítési beállítások",
+    "dnsRegistrar": "DNS Regisztrátor",
+    "donate": "Adományoz",
+    "done": "Kész",
+    "dontShowAgain": "Ne mutasd ezt újra",
+    "download": "Letöltés",
+    "downloadAppStore": "Töltse le az App Store-ból",
+    "downloadPlayStore": "Töltse le a Play Áruházból",
+    "downloadUniswap": "Letöltés Uniswap",
+    "downloadUniswapApp": "Töltse le az Uniswap alkalmazást",
+    "dynamic": "Dinamikus",
+    "edit": {
+      "button": "Szerkesztés"
+    },
+    "error": {
+      "details": "Hiba részletei",
+      "general": "Valami elromlott",
+      "label": "Hiba",
+      "request": "Sajnáljuk, hiba történt kérésének feldolgozása közben. Ha támogatást kér, feltétlenül másolja át a hiba részleteit.",
+      "somethingWrong": "Valami elromlott!",
+      "wrong": {
+        "tryAgain": "Valami elromlott. Kérlek próbáld újra."
+      }
+    },
+    "errorConnecting": {
+      "error": "Hiba a csatlakozáskor"
+    },
+    "errorLoadingData": {
+      "error": "Hiba az adatok betöltésekor"
+    },
+    "ethereumNameService": "Ethereum névszolgáltatás",
+    "etherscan": {
+      "link": "Megtekintés az Etherscan-en"
+    },
+    "ethRegistrarController": "ETH Regisztrátor Ellenőr",
+    "execute": {
+      "cancelled": "Végrehajtás törölve",
+      "failed": "A végrehajtás nem sikerült"
+    },
+    "executed": "Végrehajtott",
+    "executing": "Végrehajtó",
+    "expired": "Lejárt",
+    "expiry": "Lejárat",
+    "explore": "Fedezd fel",
+    "explorer": "Felfedező",
+    "exploreTokens": "Fedezze fel a tokeneket",
+    "extension": "Uniswap bővítmény",
+    "failed": {
+      "error": "nem sikerült"
+    },
+    "failedSwitchNetwork": "Nem sikerült a hálózatváltás",
+    "fee": "Díj",
+    "fees": "Díjak",
+    "feesEarned": "Beszerzett díjak",
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Útvonal lekérése",
+    "floor": "Padló",
+    "floorPrice": "Padló ár",
+    "for": "Mert",
+    "fullRange": "Teljes körű",
+    "getApp": "Alkalmazás beszerzése",
+    "getHelp": {
+      "button": "Kaphat segítséget"
+    },
+    "getStarted": "Kezdje el",
+    "getSupport": {
+      "button": "Támogatást kapni"
+    },
+    "getTheApp": "Szerezd meg az alkalmazást",
+    "getUniswapWallet": "Szerezze be az Uniswap Walletet",
+    "governance": "Kormányzás",
+    "happyHolidays": "Kellemes ünnepeket kíván az Uniswap csapata!",
+    "helpCenter": "Segítség Központ",
+    "hidden": "Rejtett",
+    "hide": {
+      "button": "Elrejt"
+    },
+    "highPrice": "Magas ár",
+    "includes": "Magába foglalja",
+    "info": {
+      "label": "Info"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Válassza ki a címzettet"
+      },
+      "password": {
+        "confirm": "Jelszó megerősítése",
+        "error": {
+          "mismatch": "A jelszavak nem egyeznek",
+          "weak": "Ez a jelszó túl gyenge"
+        },
+        "new": "Új jelszó",
+        "placeholder": "Jelszó",
+        "strength": {
+          "medium": "Közepes",
+          "strong": "Erős",
+          "weak": "Gyenge"
+        }
+      },
+      "search": "Keresés"
+    },
+    "insufficient": {
+      "funds": "Fedezethiány"
+    },
+    "insufficientBalance": {
+      "error": "Fedezethiány"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Nincs elegendő forrás a hálózati költségek fedezésére"
+    },
+    "insufficientLiquidity": "Elégtelen likviditás",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Elégtelen {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Érvénytelen pár",
+    "invalidRecipient": {
+      "error": "érvénytelen címzett"
+    },
+    "iOSAndroid": "iOS és Android",
+    "language": "Nyelv",
+    "lastPrice": "Utolsó ár",
+    "learnMoreSwap": "Tudjon meg többet a swapokról",
+    "legalAndPrivacy": "Jogi és adatvédelem",
+    "less": "Kevesebb",
+    "limit": {
+      "cancel_one": "Limit törlése",
+      "cancel_other": "Törölje a {{count}} korlátokat",
+      "cancelled": "Limit törölve",
+      "executed": "Limit végrehajtva",
+      "expired": "A limit lejárt",
+      "failed": "A limit nem sikerült",
+      "opened": "Limit nyitva",
+      "pending": "Limit függőben"
+    },
+    "limits": {
+      "approachMax": "A maximum 100-hoz közelít",
+      "cancelProceed": "A folytatáshoz törölje a korlátozásokat",
+      "expires": "{{timestamp}}lejár",
+      "open": "Nyitott limitek",
+      "when": "amikor {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Linkek",
+    "liquidity": {
+      "removed": "Likviditás eltávolítva"
+    },
+    "loading": "Betöltés",
+    "loadingAllowance": "Rakodási juttatás",
+    "loadMore": "Töltsön be többet",
+    "longText": {
+      "button": {
+        "less": "Olvass kevesebbet",
+        "more": "Olvass tovább"
+      }
+    },
+    "lowPrice": "Alacsony ár",
+    "manage": "Kezelése",
+    "market": {
+      "label": "Piac"
+    },
+    "marketPrice": {
+      "fetching": "Piaci ár lekérése...",
+      "label": "Piaci ár:",
+      "unavailable": "A piaci ár nem található. Kérjük, végezzen saját kutatást, hogy elkerülje a pénzvesztést."
+    },
+    "max": "Max",
+    "message": "Üzenet",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "A likviditás migrálása törölve",
+        "failed": "A likviditás migrálása nem sikerült"
+      },
+      "position": "Pozíció áttelepítése",
+      "v3": "Migráció a V3-ra"
+    },
+    "migrated": {
+      "liquidity": "Migrált likviditás"
+    },
+    "migrating": {
+      "liquidity": "Likviditás migrációja"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Mint törölték",
+      "failed": "Mint nem sikerült"
+    },
+    "minted": "Verés",
+    "minting": "Pénzverés",
+    "mobile": "Mozgó",
+    "more": "Több",
+    "multiDevice": "Több eszköz",
+    "navigation": {
+      "settings": "Beállítások",
+      "systemSettings": "Beállítások"
+    },
+    "navigationButton": "Navigációs gomb",
+    "needHelp": "Kell segítség?",
+    "networkCost": "Hálózati költség",
+    "neverMind": "Nem fontos",
+    "new": {
+      "exclamation": "Új!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT-k",
+    "noActivity": "Még nincs tevékenység",
+    "noAmount": {
+      "error": "Adjon meg egy összeget"
+    },
+    "noData": "Nincs adat",
+    "noResults": "Nincs találat.",
+    "notAvailableInRegion": {
+      "error": "Nem érhető el az Ön régiójában"
+    },
+    "notCreated": {
+      "label": "Nem jött létre"
+    },
+    "notSupported": "Nem támogatott",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 hónap",
+    "oneWeek": "1 hét",
+    "oneYear": "1 év",
+    "opensea": {
+      "link": "Megtekintés az OpenSea-n"
+    },
+    "orderCancelled": "Megrendelés törölve",
+    "orderExecuted": "Megbízás végrehajtva",
+    "orderExpired": "A rendelés lejárt",
+    "orderPending": "Megrendelés függőben",
+    "outOfRange": "Hatótávolságon kívül",
+    "pageNotFound": "Az oldal nem található!",
+    "passkey": {
+      "count": "Jelszó {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Válassza ki, hová szeretné menteni az új jelszót."
+      }
+    },
+    "pastDay": "Múlt nap",
+    "pastFiveMinutes": "Elmúlt öt perc",
+    "pastHour": "Elmúlt óra",
+    "pastMonth": "Múlt hónap",
+    "pastWeek": "Múlt hét",
+    "pastYear": "Múlt év",
+    "pay": {
+      "button": "Fizetés"
+    },
+    "pending": {
+      "cancellation": "Függőben lévő lemondás"
+    },
+    "pendingEllipsis": "Függőben levő...",
+    "permit2": "Engedély 2",
+    "pool": "Medence",
+    "pools": "Medencék",
+    "poweredBy": "Üzemeltető: <name />",
+    "price": "Ár",
+    "priceImpact": "Figyelmeztetés az ár hatásáról",
+    "priceUpdated": "Ár frissítve",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Ha be van jelölve, adatait nem osztjuk meg harmadik fél partnerekkel személyre szabott hirdetés céljából. A megosztást bármikor engedélyezheti, ha törli a négyzet bejelölését.",
+        "label": "Ne oszd meg az információimat"
+      },
+      "description": "Eszközazonosítókat megoszthatunk hirdetési partnereinkkel, hogy szolgáltatásainkat más webhelyeken és platformokon népszerűsítsük. Ahol ez a vonatkozó törvények értelmében értékesítésnek, megosztásnak vagy célzott hirdetésnek minősül, a \"Ne ossza meg adataimat\" négyzet bejelölésével leiratkozhat. Az adatvédelmi gyakorlatunkkal kapcsolatos további információkért tekintse át <privacyLink>Adatvédelmi szabályzatunkat</privacyLink>.",
+      "disclaimer": "Kérjük, vegye figyelembe, hogy a választása csak erre a böngészőre vonatkozik ezen az eszközön. Leiratkozhat a szolgáltatásaink eléréséhez használt böngészőben a Globális adatvédelmi beállítások engedélyezésével is. További lehetőségek megtekintéséhez lépjen a beállításokhoz."
+    },
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "proceed": "Folytassa",
+    "proceedInWallet": {
+      "short": "Tovább a pénztárcában"
+    },
+    "protocol": {
+      "v2": "Unswap v2",
+      "v3": "Unswap v3",
+      "v4": "Unswap v4"
+    },
+    "publicResolver": "Nyilvános megoldó",
+    "purchased": "Vásárolt",
+    "queue": {
+      "cancelled": "A sor törölve",
+      "failed": "A várólista nem sikerült"
+    },
+    "queued": "Sorban",
+    "queuing": "Sorban állás",
+    "rate": "Mérték",
+    "readMore": "Olvass tovább",
+    "receive": {
+      "cancelled": "Fogadás törölve",
+      "failed": "Sikertelen fogadás"
+    },
+    "received": "Megérkezett",
+    "receiving": "Fogadás",
+    "recent": "Friss",
+    "rejected": "Elutasítva",
+    "reload": {
+      "label": "Töltse be újra az alkalmazást"
+    },
+    "remove": {
+      "label": "Távolítsa el",
+      "liquidity": {
+        "cancelled": "Likviditás eltávolítása törölve",
+        "failed": "A likviditás eltávolítása nem sikerült"
+      }
+    },
+    "removedLiquidity": "Likviditás eltávolítva",
+    "removeItem": "Elem eltávolítása",
+    "removing": {
+      "liquidity": "A likviditás eltávolítása"
+    },
+    "repaid": "Visszafizetve",
+    "repay": {
+      "cancelled": "Visszafizetés törölve",
+      "failed": "A visszafizetés nem sikerült"
+    },
+    "repaying": "Visszafizetés",
+    "resetLimit": "Állítsa vissza a {{symbol}} korlátot",
+    "resetLimitWallet": "Állítsa vissza a {{symbol}} korlátot a pénztárcában",
+    "resettingLimit": "{{symbol}} korlát visszaállítása...",
+    "resolveIssues_one": "Probléma megoldása",
+    "resolveIssues_other": "Oldja meg a {{count}} problémákat",
+    "restricted": {
+      "region": "Korlátozott régió"
+    },
+    "reverseRegistrar": "Fordított iktató",
+    "revoke": {
+      "approval": {
+        "failed": "A jóváhagyás visszavonása sikertelen"
+      }
+    },
+    "revoked": {
+      "approval": "Visszavont jóváhagyás"
+    },
+    "revokedApproval": "Visszavont jóváhagyás",
+    "revoking": {
+      "approval": "Jóváhagyás visszavonása"
+    },
+    "samePrice": "Ugyanaz az ár",
+    "scanQRDownload": "A letöltéshez olvassa be a QR-kódot telefonjával",
+    "selectRegion": {
+      "label": "Válassza ki régióját"
+    },
+    "selectToken": {
+      "label": "Válasszon ki egy tokent"
+    },
+    "selfCustodial": "Öngondnokság",
+    "sell": {
+      "label": "Elad"
+    },
+    "send": {
+      "button": "Küld",
+      "cancelled": "Küldés törölve",
+      "failed": "A küldés sikertelen"
+    },
+    "sending": "Küldés",
+    "sent": "Küldött",
+    "settings": "Beállítások",
+    "share": {
+      "shareToTwitter": "Megosztás a Twitteren",
+      "twitter": "Oszd meg a Twitteren"
+    },
+    "show": {
+      "button": "Előadás"
+    },
+    "showLess": {
+      "button": "Mutass kevesebbet"
+    },
+    "showMore": {
+      "button": "Mutass többet"
+    },
+    "signatureExpired": "Az aláírása lejárt.",
+    "signMessage": "Írd alá az üzenetet",
+    "signMessageWallet": "Írja alá az üzenetet a pénztárcában",
+    "sold": "Eladott",
+    "stats": "Statisztika",
+    "status": "Állapot",
+    "stayConnected": "Maradj kapcsolatban",
+    "step": {
+      "number": "Lépés {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Az ajánlat benyújtása visszavonva",
+        "failed": "Az ajánlat elküldése sikertelen"
+      }
+    },
+    "submitted": {
+      "proposal": "Benyújtott javaslat"
+    },
+    "submitting": {
+      "proposal": "Javaslat benyújtása"
+    },
+    "swap": {
+      "cancelled": "A csere törölve",
+      "expired": "A csere lejárt",
+      "failed": "A csere nem sikerült"
+    },
+    "swapped": "Cserélve",
+    "swapPending": "Csere függőben...",
+    "swapping": "Csere",
+    "switchNetworks": "Váltson hálózatot",
+    "termsOfService": "Szolgáltatás feltételei",
+    "text": {
+      "connected": "csatlakoztatva",
+      "contract": "Szerződés",
+      "disconnected": "Szétkapcsolt",
+      "error": "Hiba",
+      "notAvailable": "N/A",
+      "recipient": "Nak nek",
+      "sender": "Tól től",
+      "unknown": "Ismeretlen"
+    },
+    "thisMonth": "Ebben a hónapban",
+    "thisToken": "Ezt a jelzőt",
+    "thisWeek": "Ezen a héten",
+    "thisYear": "Idén",
+    "time": {
+      "days": "napok",
+      "days_one": "nap",
+      "days_other": "napok",
+      "hours": "órák",
+      "hours_one": "óra",
+      "hours_other": "órák",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "percek",
+      "months": "hónapok",
+      "months_one": "hónap",
+      "months_other": "hónapok",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}h"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "hétig",
+      "weeks_one": "hét",
+      "weeks_other": "hétig"
+    },
+    "to": "nak nek",
+    "today": "Ma",
+    "tokenA": "Token A",
+    "tokenAmount": "Jelképes összeg",
+    "tokenB": "Token B",
+    "tokenName": "Token név",
+    "tokens": "Tokenek",
+    "totalUniswapTVL": "Összes Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Kereskedelmi",
+    "trademarkPolicy": "Védjegypolitika",
+    "transactionDetails": "Tranzakció részletek",
+    "transactionId": "Tranzakció azonosítója",
+    "transactionPending": "Tranzakció függőben",
+    "transactions": "Tranzakciók",
+    "transactionSettings": "Tranzakció beállításai",
+    "transfer_one": "átruházás",
+    "transfer_other": "transzferek",
+    "tryAgain": {
+      "error": "Próbáld újra"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "típus"
+    },
+    "unavailable": "Nem érhető el",
+    "unhide": "Felfed",
+    "uniGovernance": "UNI kormányzás",
+    "uniswapMobile": "Uniswap Mobil",
+    "uniswapProtocol": "Uniswap protokoll",
+    "uniswapWallet": "Unswap pénztárca",
+    "uniswapX": "UniswapX",
+    "unknown": "Ismeretlen",
+    "unknownApproval": "Ismeretlen jóváhagyás",
+    "unknownBridge": "Ismeretlen híd",
+    "unknownError": {
+      "error": "Ismeretlen hiba"
+    },
+    "unknownLend": "Ismeretlen kölcsön",
+    "unknownMint": "Ismeretlen pénzverde",
+    "unknownSend": "Ismeretlen küldés",
+    "unknownSwap": "Ismeretlen csere",
+    "unsupportedAsset_one": "Nem támogatott elem",
+    "unsupportedAsset_other": "Nem támogatott eszközök",
+    "unwrap": {
+      "button": "Kibont",
+      "failed": "A kibontás nem sikerült"
+    },
+    "unwrapped": "Kibontva",
+    "unwrapping": "Kicsomagolás",
+    "view": {
+      "profile": "Profil megtekintése"
+    },
+    "viewOnExplorer": "Megtekintés az Intézőben",
+    "volume": "Hangerő",
+    "vote": {
+      "cancelled": "A szavazás törölve",
+      "failed": "A szavazás nem sikerült"
+    },
+    "voted": "Szavazott",
+    "voting": "Szavazás",
+    "wallet": {
+      "approve": "Jóváhagyás a pénztárcában",
+      "label": "Pénztárca"
+    },
+    "walletForSwapping": "A pénztárca cserére készült. Elérhető iOS és Android rendszeren.",
+    "warning": "Figyelem",
+    "webApp": "Webes alkalmazás",
+    "website": "Weboldal",
+    "whyApprove": "Miért kell jóváhagynom egy tokent?",
+    "whySign": "Miért szükségesek az aláírások?",
+    "whyWrap": "Miért kell becsomagolnom a {{symbol}}-t?",
+    "withdraw": {
+      "failed": "A visszavonás nem sikerült"
+    },
+    "withdrawal": {
+      "amount": "Kivételi összeg",
+      "cancelled": "Visszavonás törölve"
+    },
+    "withdrawing": "Visszavonás",
+    "withdrew": "Visszavonult",
+    "withinRange": "Hatótávolságban",
+    "wrap": {
+      "cancelled": "A pakolás törölve",
+      "failed": "A becsomagolás nem sikerült"
+    },
+    "wrapIn": "Csomagolja be a  {{symbol}} tárcába",
+    "wrapped": "Csomagolt",
+    "wrapping": "Csomagolás",
+    "wrappingToken": "Csomagolás  {{symbol}}...",
+    "wrongNetwork": "Hibás hálózat",
+    "yesterday": "Tegnap",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Fiókjában nem volt elegendő fedezet a csere végrehajtásához."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Fiókjában nincs elegendő fedezet a csere végrehajtásához."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "A korlátot jelenleg nem sikerült teljesíteni. Kérlek próbáld újra."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "A csere jelenleg nem teljesíthető. Kérlek próbáld újra."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Vásárolsz",
+    "youRecieve": "Megkapod",
+    "youreSending": "Te küldöd"
+  },
+  "currency": {
+    "aud": "Ausztrál dollár",
+    "brl": "brazil real",
+    "cad": "Kanadai dollár",
+    "cny": "kínai jüan",
+    "eur": "Euro",
+    "gbp": "Angol font",
+    "hkd": "hongkongi dollár",
+    "idr": "indonéz rúpia",
+    "inr": "indiai rúpia",
+    "jpy": "japán jen",
+    "krw": "dél-koreai won",
+    "ngn": "nigériai Naira",
+    "pkr": "pakisztáni rúpia",
+    "rub": "orosz rubel",
+    "sgd": "szingapúri dollár",
+    "thb": "thai baht",
+    "try": "török líra",
+    "uah": "Ukrán hrivnya",
+    "usd": "Amerikai dollár",
+    "vnd": "vietnami dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Jóváhagy",
+        "fallbackTitle": "Jóváhagyja ezt a webhelyet a tokenek eléréséhez",
+        "helptext": "Engedélyezze ennek a webhelynek, hogy hozzáférjen ehhez a tokenhez, és tranzakciókhoz költse el. Győződjön meg arról, hogy megbízik ebben a webhelyben.",
+        "label": "Pénztárca",
+        "title": "A {{tokenSymbol}}hozzáférés jóváhagyása"
+      },
+      "base": {
+        "title": "Tranzakciókérés"
+      },
+      "bridge": {
+        "description": "Az ETH, USDC és egyebek áthelyezése {{numChains}}+ hálózatokon keresztül.",
+        "title": "Megpróbál áthidalni?"
+      },
+      "connect": {
+        "helptext": "Engedélyezze a webhelynek, hogy megtekintse pénztárcája címét, egyenlegét, és jóváhagyást kérjen a tranzakciókhoz.",
+        "title": "Csatlakozás a webhelyhez"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Nyers adatok"
+        },
+        "function": {
+          "label": "Funkció"
+        }
+      },
+      "permit2": {
+        "description": "A Permit2 több dapp-on keresztül kezeli a token jóváhagyásokat.",
+        "header": "Írja alá az engedélyt 2"
+      },
+      "reject": {
+        "action": "Az összes elutasítása",
+        "info": "<highlight>{{totalRequestCount}}</highlight> tranzakciós kérelme van"
+      },
+      "revoke": {
+        "action": "Visszavonás",
+        "helptext": "Engedélyezze a webhelynek, hogy visszavonja a hozzáférést a token tranzakciókhoz való elköltéséhez. Győződjön meg arról, hogy megbízik ebben a webhelyben.",
+        "title": "A {{tokenSymbol}}hozzáférésének visszavonása"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Ez az üzenet megjeleníthetetlen karaktereket tartalmaz. Győződjön meg arról, hogy megbízik ebben a webhelyben.",
+        "decodeError": "Nem sikerült dekódolni az üzenetet",
+        "header": "Aláírási kérés",
+        "irregular": {
+          "description": "A folytatás előtt győződjön meg arról, hogy megbízik ebben a webhelyben",
+          "understand": "Megértem a kockázatokat"
+        },
+        "toggleDataView": {
+          "raw": "Nyers adatok megtekintése",
+          "readable": "Eredeti adatok megtekintése"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Győződjön meg róla, hogy a megfelelő",
+          "title": "Ez nem az Ön aktív pénztárcája"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Jelentkezzen be itt"
+      },
+      "getStarted": {
+        "description": "Kezdje a Uniswap Wallet letöltésével, amely elérhető telefonján vagy böngészőjében.",
+        "title": "Kezdje el az Uniswap használatát"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Kezdje el pillanatok alatt, ha alább regisztrál, vagy töltse le pénztárcánkat, amely elérhető telefonján vagy böngészőjében."
+        },
+        "title": "Regisztráljon az Uniswap segítségével"
+      },
+      "uniswapProducts": {
+        "subtitle": "Az Uniswap termékek zökkenőmentesen működnek együtt a legjobb onchain élmény megteremtése érdekében."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Ez hozzáférést biztosít az Uniswap protokoll számára a tokenhez kereskedés céljából. A biztonság kedvéért 30 nap után lejár."
+    },
+    "dataUnavailable": "Az adatok jelenleg nem állnak rendelkezésre; dolgozunk a javításon",
+    "id": "Hibaazonosító: {{eventId}}",
+    "noData": "Nem található adat",
+    "request": {
+      "provideId": "Sajnáljuk, hiba történt kérésének feldolgozása közben. Ha támogatást kér, feltétlenül adja meg hibaazonosítóját."
+    },
+    "tokenApproval": "A token jóváhagyása sikertelen",
+    "tokenApprovalEdited": {
+      "message": "A pénztárcájában beállított jóváhagyási összeg túl alacsony a tranzakció befejezéséhez. Kérjük, próbálja újra, és növelje az összeget."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Valami összeomlott.",
+      "restart": "Indítsa újra az alkalmazást",
+      "title": "UH Oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Fedezzen fel további medencéket"
+    },
+    "search": {
+      "action": {
+        "clear": "Világos",
+        "viewEtherscan": "Megtekintés itt: {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Nincs találat a következőre: <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Nem sikerült betölteni a keresési eredményeket",
+      "label": {
+        "ownedBy": "{{ownerAddress}}tulajdonosa"
+      },
+      "placeholder": "Keresés tokenek és pénztárcák",
+      "section": {
+        "nft": "NFT gyűjtemények",
+        "popularNFT": "Népszerű NFT gyűjtemények",
+        "popularTokenInfo": "A népszerű tokenek azonosítása az elmúlt 24 óra Uniswap-on történt kereskedési mennyisége alapján történik.",
+        "popularTokens": "Népszerű tokenek",
+        "recent": "Legutóbbi keresések",
+        "tokens": "Tokenek",
+        "wallets": "Pénztárcák"
+      }
+    },
+    "tokens": {
+      "error": "Nem sikerült betölteni a tokeneket",
+      "favorite": {
+        "action": {
+          "add": "Kedvenc token",
+          "edit": "Kedvencek szerkesztése",
+          "remove": "Kedvenc eltávolítása"
+        },
+        "title": {
+          "default": "Kedvenc tokenek",
+          "edit": "Szerkessze a kedvenc tokeneket"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Köt"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Piac sapka",
+          "priceDecrease": "Árcsökkenés",
+          "priceIncrease": "Ár növekedés",
+          "totalValueLocked": "TVL",
+          "volume": "Hangerő"
+        },
+        "option": {
+          "marketCap": "Piac sapka",
+          "priceDecrease": "Árcsökkenés (24H)",
+          "priceIncrease": "Áremelés (24H)",
+          "totalValueLocked": "A TVL lecserélése",
+          "volume": "Unswap hangerő (24H)"
+        }
+      },
+      "top": {
+        "title": "Legjobb tokenek"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Kedvenc pénztárca",
+          "edit": "Kedvencek szerkesztése",
+          "remove": "Kedvenc eltávolítása"
+        },
+        "title": {
+          "default": "Kedvenc pénztárcák",
+          "edit": "Szerkessze kedvenc pénztárcáját"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Hálózat",
+      "networks": "Hálózatok",
+      "popup": {
+        "trouble": "Hiba történt a csatlakozással?"
+      },
+      "titleConnected": "csatlakoztatva",
+      "titleNotConnected": "Nem kapcsolódik"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Elfelejtett jelszó?",
+        "reset": "Állítsa vissza a pénztárcát",
+        "submit": "Kinyit"
+      },
+      "password": {
+        "error": "Rossz jelszó. Próbáld újra",
+        "reset": {
+          "initial": {
+            "description": "Az Uniswap nem tud segíteni a jelszó visszaállításában. A 12 szavas helyreállítási kifejezés újbóli megadásával alaphelyzetbe kell állítania pénztárcáját.",
+            "help": "Hol találom a helyreállítási kifejezést?",
+            "title": "Elfelejtetted a jelszavad"
+          },
+          "speedbump": {
+            "description": "Győződjön meg róla, hogy rendelkezik a 12 szavas helyreállítási kifejezéssel, mielőtt visszaállítja a pénztárcáját. Ellenkező esetben nem tudja visszaszerezni a pénzét.",
+            "help": "Elvesztettem a helyreállítási mondatomat",
+            "title": "Mielőtt folytatná"
+          }
+        }
+      },
+      "subtitle": "A feloldáshoz adja meg jelszavát",
+      "title": "Üdv újra"
+    },
+    "network": {
+      "notSupported": "Nem támogatott hálózat"
+    },
+    "open": "Nyissa meg az Uniswap bővítményt",
+    "popup": {
+      "chrome": {
+        "button": "Nyissa meg a bővítményt",
+        "description": "Hajtsa végre ezt a műveletet az Uniswap bővítmény megnyitásával.",
+        "title": "Folytatás az Uniswapban"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Alkalmazásokhoz való csatlakozáskor előnyben részesítse az Uniswap bővítményt.",
+        "title": "Legyen alapértelmezett pénztárca"
+      },
+      "password": {
+        "enter": {
+          "title": "Írd be a jelenlegi jelszavad"
+        },
+        "error": {
+          "wrong": "Rossz jelszó"
+        },
+        "placeholder": "Jelenlegi jelszó"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Biztonsági mentés",
+        "message": "Győződjön meg róla, hogy biztonsági másolatot készít a helyreállítási kifejezésről, nehogy elveszítse hozzáférését pénztárcájához és pénzeszközeihez.",
+        "title": "Böngészőjének tárhelye kifogy"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Importálja Uniswap-fiókját, ha bejelentkezik egy meglévő jelszóval.",
+    "invalidReferrer": "Kérjük, zárja be ezt az oldalt, és próbálja újra."
+  },
+  "fee": {
+    "bestForExotic": "A legjobb egzotikus pároknak.",
+    "bestForMost": "A legtöbb pár számára a legjobb.",
+    "bestForStablePairs": "A legjobb stabil pároknak.",
+    "bestForVeryStable": "A legjobb nagyon stabil párok számára.",
+    "dynamic": "Dinamikus díj",
+    "percentEarned": "Az a %, amelyet díjakból fog keresni.",
+    "selectPercent": "{{pct}}% kiválaszt",
+    "selectPercentDescription": "A likviditás {{pct}}%-a választotta ezt a szintet",
+    "tier": {
+      "create": {
+        "button": "Hozzon létre új díjszintet",
+        "description": "Az új szint létrehozása egy új készletben inicializálódik, és a szokásosnál magasabb hálózati költségeket eredményez."
+      },
+      "description": {
+        "v2": "A likviditást biztosító keresett összeg. Minden v2 pool fix 0,3%-os díjakat tartalmaz. További lehetőségekért biztosítson likviditást a 4-es verzióban."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Egy dinamikus díjszintű pool létrehozására készül. Mielőtt folytatná, ellenőrizze, hogy a kiválasztott horog támogatja-e a dinamikus díjakat."
+        }
+      },
+      "highestTvl": "Legmagasabb TVL",
+      "label": "Az a %, amelyet díjakból fog keresni",
+      "missing": {
+        "description": "Nem találja a keresett szintet?"
+      },
+      "new": "Új szint",
+      "percent": {
+        "select": "{{percentage}} válassza ki"
+      },
+      "recommended": {
+        "description": "Javasolt a kiválasztott tokenpár legmagasabb likviditási részesedése alapján."
+      },
+      "search": {
+        "short": "Keresési szintek"
+      },
+      "select": {
+        "existing": {
+          "button": "Válassza ki a meglévő díjszintet"
+        }
+      }
+    },
+    "tierExact": "{{fee}} díjszint",
+    "unavailable": "A megkeresett díjak nem láthatók a v2-es pozícióknál, amíg a likviditást meg nem szüntetik.",
+    "uncollected": "Tartalmazza a be nem fizetett díjakat:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Eladni vele"
+    },
+    "connection": {
+      "quote": "Eladás {{amount}} értékben {{currencySymbol}}értékben"
+    },
+    "error": {
+      "balance": "Túllépi az egyensúlyt"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} {{fiatAmount}}esetén"
+    },
+    "unsupportedToken": {
+      "back": "Menjen vissza",
+      "divider": "Nem támogatott tokenek",
+      "message": "Ennek a tokennek az értékesítése nem támogatott. Cserélje le ezt az eszközt a támogatott tokenek egyikére.",
+      "swap": "Cserélj támogatott tokenre",
+      "title": "Nem támogatott token"
+    },
+    "welcome": {
+      "tooltip": "Adja el kriptopénzét bankszámlájára vagy betéti kártyájára."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Válassza ki a tokent"
+    },
+    "cexTransferModal": {
+      "description": "Az Ön régiójában nem támogatott a kriptokártya vásárlása. Vigyen át eszközöket egy központi csereszámláról, hogy feltöltse pénztárcáját.",
+      "title": "Átvitel az induláshoz"
+    },
+    "checkout": {
+      "title": "Check out with"
+    },
+    "checkoutWith": "Check out with",
+    "chooseProvider": {
+      "description": "Továbbjut a szolgáltató portáljára, ahol megtekintheti a tranzakciójához kapcsolódó díjakat."
+    },
+    "completeTransactionHeader": "A tranzakció befejezése {{serviceProvider}}-vel",
+    "connection": {
+      "error": "Kapcsolat nem sikerült",
+      "errorDescription": "Hiba történt a {{serviceProvider}}csatlakoztatásakor.",
+      "message": "Csatlakoztatja Önt a {{serviceProvider}}-hez",
+      "quote": "{{amount}} értékű {{currencySymbol}}vásárlása",
+      "terms": "A folytatással tudomásul veszi, hogy a Általános Szerződési Feltételek és Adatvédelmi szabályzat és {{serviceProvider}}vonatkoznak rád."
+    },
+    "continueInTab": "A folytatáshoz lépjen a {{serviceProvider}} fülre. Most már biztonságosan bezárhatja ezt a modált.",
+    "disclaimer": "A folytatással tudomásul veszi, hogy a <tosLink>Általános Szerződési Feltételek</tosLink> és <privacyLink>Adatvédelmi szabályzat</privacyLink> és {{serviceProvider}}vonatkoznak rád.",
+    "error": {
+      "default": "Valami elromlott.",
+      "load": "Nem sikerült betölteni a vásárolni kívánt tokeneket",
+      "max": "Maximum {{amount}}",
+      "min": "Minimum {{amount}}",
+      "noQuotes": "Nem található idézet.",
+      "unavailable": "Ez a szolgáltatás nem érhető el az Ön régiójában",
+      "unsupported": "A régióban nem támogatott",
+      "usd": "Csak USD-ben vásárolható meg"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Nem található idézet"
+    },
+    "purchasedOn": "Vásárlás: {{serviceProvider}}",
+    "quote": {
+      "advice": "Továbbjut a szolgáltató portáljára, ahol megtekintheti a tranzakciójához kapcsolódó díjakat.",
+      "type": {
+        "list": "{{optionsList}}és egyéb lehetőségek",
+        "other": "Egyéb opciók",
+        "recent": "Nemrég használt"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Egy fiókból"
+        }
+      },
+      "title": "Kap kriptot",
+      "transferFunds": "Finanszírozza pénztárcáját egy másik pénztárcáról vagy számláról történő kriptográfiai átutalással"
+    },
+    "region": {
+      "placeholder": "Keresés ország vagy régió szerint",
+      "title": "Válassza ki régióját"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} {{fiatAmount}}esetén"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Frissítse most",
+      "learn": "Ismerje meg a frissítés módját",
+      "recoveryPhrase": "A helyreállítási kifejezés megtekintése"
+    },
+    "description": {
+      "extension": "Elérhető az alkalmazás új verziója. Az Uniswap bővítmény használatának folytatásához frissítse a legújabb verzióra.",
+      "wallet": "Elérhető az alkalmazás új verziója. Az Uniswap Wallet használatának folytatásához frissítse a legújabb verzióra."
+    },
+    "label": {
+      "recoveryPhrase": "Helyreállítási kifejezés"
+    },
+    "title": {
+      "recommendedStatus": "Új verzió érhető el"
+    }
+  },
+  "globalPreferences": {
+    "title": "Globális preferenciák"
+  },
+  "hero": {
+    "scroll": "További információért görgessen",
+    "subtitle": "A legnagyobb onchain piactér. Vásároljon és adjon el kriptot az Ethereumon és 11+ másik láncon.",
+    "swap": {
+      "title": "Csere bármikor, <br/> bárhol."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "További információ a rejtett NFT-kről"
+        },
+        "text": {
+          "button": "Rejtett NFT-k ({{numHidden}})",
+          "extension": "Ezek potenciális csalások és NFT-k, amelyeket elrejtett. Az NFT-re jobb gombbal kattintva felfedheti.",
+          "mobile": "Ezek potenciális csalások és NFT-k, amelyeket elrejtett. Az NFT-t hosszan lenyomva felfedheti.",
+          "title": "Rejtett NFT-k"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "További információ a rejtett tokenekről"
+        },
+        "text": {
+          "button": "Rejtett tokenek ({{numHidden}})",
+          "info": "Ezek potenciális csalások, kis egyenlegek és elrejtett tokenek. A rejtett tokenek nem számítanak bele a pénztárca teljes egyenlegébe.",
+          "title": "Rejtett tokenek"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Token vagy NFT fogadása",
+        "description": {
+          "default": "Amikor jóváhagyja, kereskedik vagy átad tokeneket vagy NFT-ket, a tranzakciói itt jelennek meg.",
+          "external": "Amikor ez a pénztárca tranzakciókat hajt végre, azok itt jelennek meg."
+        },
+        "title": "Még nincs tevékenység"
+      },
+      "error": {
+        "load": "Nem sikerült betölteni a tevékenységet"
+      },
+      "title": "Tevékenység"
+    },
+    "banner": {
+      "offline": "Ön offline módban van",
+      "testnetMode": {
+        "nav": "Testnet módban van. Kapcsolja ki ezt a beállításokban.",
+        "outage": {
+          "monad": {
+            "description": "A Monad Testnethez való hozzáférés átmenetileg szünetel az Uniswap interfészen keresztül a hálózati stabilitási problémák miatt. A Testnet alapokat ez nem érinti. A problémák megoldása után a hozzáférés helyreáll.",
+            "title": "Monad átmenetileg szünetel"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Koppintson ide több ezer token, NFT és egyebek felfedezéséhez",
+      "title": "Fedezze fel a tokeneket"
+    },
+    "extension": {
+      "error": "Hiba a fiókok betöltésekor"
+    },
+    "label": {
+      "buy": "megvesz",
+      "for": "Vásárlás/eladás",
+      "receive": "Kap",
+      "send": "Küld",
+      "swap": "Csere"
+    },
+    "nfts": {
+      "title": "NFT-k"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Vásároljon bankkártyával vagy bankszámlával.",
+            "title": "Vásároljon kriptot"
+          },
+          "import": {
+            "description": "A csere és a küldés megkezdéséhez írja be a pénztárca helyreállítási kifejezését.",
+            "title": "Import pénztárca"
+          },
+          "receive": {
+            "description": "Átutalás másik pénztárcáról vagy számláról.",
+            "title": "Kap kriptot"
+          }
+        },
+        "description": "Amikor ez a pénztárca tokeneket vásárol vagy kap, azok itt jelennek meg.",
+        "title": "Még nincsenek tokenek",
+        "welcome": {
+          "description": "Úgy tűnik, új pénztárcája van. Az első csere előtt biztosítsuk a finanszírozást."
+        }
+      },
+      "error": {
+        "fetch": "Nem sikerült lekérni a token egyenlegeket",
+        "load": "Nem sikerült betölteni a token egyenlegeket"
+      },
+      "title": "Tokenek"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Egy fiókból",
+        "description": "Finanszírozza pénztárcáját egy másik pénztárcáról vagy számláról történő kriptográfiai átutalással",
+        "title": "Kap kriptot"
+      }
+    },
+    "warning": {
+      "viewOnly": "Ez egy csak megtekinthető pénztárca"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Cserélj vagy biztosíts likviditást az Uniswap protokollon",
+      "title": "Uniswap interfész"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Építse meg a nyílt alkalmazások és eszközök következő generációját.",
+    "connectWithUs": "Kapcsolatba lép velünk",
+    "devDocs": "Fejlesztői dokumentumok",
+    "directToDeFi": "Menjen közvetlenül a DeFi-hez",
+    "followOnX": "Kövesse az @Uniswap oldalt X-en a legújabb frissítésekért",
+    "protocolDescription": "Az Uniswap termékeket az Uniswap Protokoll táplálja. A protokoll a legnagyobb onchain piactér, heti több milliárd dollárnyi mennyiséggel több ezer tokenen keresztül az Ethereum és 7+ további láncok között.",
+    "provideLiquidity": {
+      "message": "Biztosítson likviditást az Uniswap Protokollban szereplő poolok számára, és keressen díjakat a swapok után."
+    },
+    "swapSimple": "Egyszerű a csere. Hozzáférhet több ezer tokenhez 11+ láncokon.",
+    "teamInsights": "Meglátások és hírek a csapattól",
+    "trusted": "Milliók bíznak benne"
+  },
+  "language": {
+    "afrikaans": "afrikaans",
+    "arabic": "arab",
+    "catalan": "katalán",
+    "chineseSimplified": "Kínai, egyszerűsítve",
+    "chineseTraditional": "Kínai (hagyományos",
+    "czech": "cseh",
+    "danish": "dán",
+    "dutch": "holland",
+    "english": "angol",
+    "finnish": "finn",
+    "french": "Francia",
+    "greek": "görög",
+    "hebrew": "héber",
+    "hindi": "hindi",
+    "hungarian": "magyar",
+    "indonesian": "indonéz",
+    "italian": "olasz",
+    "japanese": "japán",
+    "korean": "koreai",
+    "malay": "maláj",
+    "norwegian": "norvég",
+    "polish": "lengyel",
+    "portuguese": "portugál",
+    "romanian": "román",
+    "russian": "orosz",
+    "serbian": "szerb",
+    "spanishLatam": "spanyol (Latin-Amerika)",
+    "spanishSpain": "spanyol (Spanyolország)",
+    "spanishUs": "spanyol (USA)",
+    "swahili": "szuahéli",
+    "swedish": "svéd",
+    "turkish": "török",
+    "ukrainian": "ukrán",
+    "urdu": "urdu",
+    "vietnamese": "vietnami"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 nyitott limit",
+      "count_other": "{{count}} nyitott limitek"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "A limitár {{percentage}}%-kal magasabb a piacinál. A folytatáshoz módosítsa a limitárat.",
+        "title": "{{tokenSymbol}} piaci ár feletti vásárlás"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "A jelenlegi piaci árat nem tudjuk kiszámítani. A piaci ár alatti megrendelés elkerülése érdekében ellenőrizze a hálózati kapcsolatot, és próbálja újra.",
+        "title": "Piaci ár nem elérhető"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "A limitár {{percentage}}%-kal alacsonyabb a piacinál. A folytatáshoz módosítsa a limitárat.",
+        "title": "{{tokenSymbol}} piaci ár alatt eladó"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Csak Mainnet tokenek állnak rendelkezésre limitekhez."
+        },
+        "uniswapx": "Előfordulhat, hogy a limitek nem érvényesülnek pontosan, amikor a tokenek elérik a megadott árat. <link />"
+      }
+    },
+    "learnMore": "Tudjon meg többet a korlátokról",
+    "price": {
+      "input": {
+        "label": "Amikor 1 <tokenSymbol /> ér"
+      },
+      "label": "Limit ár"
+    },
+    "selectSupportedTokens": "Válassza ki a támogatott tokeneket"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Írja be a horog címét"
+      }
+    },
+    "learnMoreLabel": "Tudjon meg többet a likviditásbiztosításról",
+    "notEnough": {
+      "label": "Nincs elég likviditás a pontos USD-érték megjelenítéséhez."
+    },
+    "provideOnProtocols": "Likviditás biztosítása különböző protokollokon"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likviditás: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Likviditás hozzáadása a{{version}} poolokhoz Uniswap esetén"
+    },
+    "positions": {
+      "closed": {
+        "title": "Zárt pozíciók"
+      },
+      "page": {
+        "title": "{{quoteSymbol}}/{{baseSymbol}} pool likviditás kezelése Uniswap esetén",
+        "version": {
+          "description": "Tekintse meg aktív {{version}} likviditási pozícióit. Új pozíciók hozzáadása.",
+          "title": "A{{version}} pool likviditásának kezelése Uniswapon"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Engedélyezett",
+    "allowLpMigration": "LP token migráció engedélyezése",
+    "connectAccount": "Csatlakoznia kell egy fiókhoz, amely ezt a pozíciót birtokolja.",
+    "connectWallet": "Csatlakozzon egy pénztárcához, hogy megtekinthesse V2 likviditását.",
+    "contract": "Unswap migrációs szerződés",
+    "firstLP": "Ön az első likviditásszolgáltató ehhez az Uniswap V3-készlethez. Likviditása a jelenlegi {{source}} áron fog migrálni.",
+    "highGasCost": "A tranzakciós költsége sokkal magasabb lesz, mivel tartalmazza a medence létrehozásához szükséges gázt.",
+    "invalidRange": "Érvénytelen tartomány van kiválasztva. A minimális árnak alacsonyabbnak kell lennie, mint a maximális ár.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP tokenek",
+    "migrating": "Migráció",
+    "missingV2Position": "Nem látja az egyik v2-pozíciót? <link>Importálja.</link>",
+    "noV2Liquidity": "Nem található V2 likviditás.",
+    "positionNoFees": "Pozíciód nem jár díjat, és nem használható fel kereskedésekben, amíg a piaci ár be nem költözik a tartományodba.",
+    "priceDifference": "Árkülönbség: ",
+    "priceWarning": "Csak a megfelelőnek vélt áron helyezzen el likviditást az Uniswap V3-ba. <br /> Ha az ár hibásnak tűnik, vagy cserét hajthat végre az ár mozgatásához, vagy megvárhatja, amíg valaki más megteszi.",
+    "refund": "Legalább {{amtA}} {{symA}} és {{amtB}} {{symB}} visszatérítésre kerül a pénztárcájába a kiválasztott ártartomány miatt.",
+    "selectFeeTier": "Válassza ki a díjszintet",
+    "setRange": "Állítsa be az árkategóriát",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Ár:",
+    "v2Description": "Ez az eszköz biztonságosan migrálja a {{source}} likviditását a V3-ra. A folyamat teljesen megbízhatatlan az <0>Uniswap migrációs szerződésnek köszönhetően</0> ↗",
+    "v2Instruction": "Minden alább látható készletnél kattintson az áttelepítés gombra, hogy eltávolítsa likviditását az Uniswap V2-ből, és helyezze el a Uniswap V3-ba.",
+    "v2Title": "V2 likviditás migrálása",
+    "v3Price": "V3 {{sym}} Ár:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Érvénytelen árbevitel"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Töltse le az Uniswap Wallet alkalmazást"
+      },
+      "title": "Unswap: Crypto & NFT Wallet"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "A Fiat rámpát a MoonPay USA LLC működteti",
+    "restricted": {
+      "region": "A Moonpay egyes régiókban nem érhető el. Kattintson a további információért."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Hozzon létre fiókot"
+    },
+    "logIn": {
+      "button": "Jelentkezzen be"
+    },
+    "signIn": {
+      "button": "Jelentkezzen be"
+    },
+    "signInOrConnect": {
+      "title": "Jelentkezzen be vagy csatlakozzon"
+    },
+    "signUp": {
+      "button": "Regisztráljon"
+    },
+    "tabs": {
+      "createPosition": "Pozíció létrehozása",
+      "viewPositions": "Pozíciók megtekintése"
+    }
+  },
+  "network": {
+    "lostConnection": "Lehet, hogy megszakadt a hálózati kapcsolat.",
+    "mightBeDown": "Lehet, hogy a {{network}} jelenleg nem működik, vagy megszakadt a hálózati kapcsolat.",
+    "warning": "Hálózati figyelmeztetés"
+  },
+  "nft": {
+    "addToBag": "Zacskóba tesz",
+    "authorsCollectionOnUni": "{{name}}NFT-gyűjteménye Uniswap-on",
+    "bag": "Táska",
+    "blockedCollection": "Ez a gyűjtemény le van tiltva",
+    "blockedOpenSea": "Letiltva az OpenSea-n",
+    "buyTransferNFTToStart": "A kezdéshez vásároljon vagy vigyen át NFT-ket ebbe a pénztárcába.",
+    "buyTransferTokensToStart": "A kezdéshez vásároljon vagy utaljon át tokeneket ebbe a pénztárcába.",
+    "card": {
+      "notAvailable": "A tartalom <br /> még nem érhető el"
+    },
+    "chainSupportComingSoon": "{{chainName}} támogatás hamarosan",
+    "collectionOnUni": "NFT-gyűjtemény Uniswap-on",
+    "collectonOnAddress": "NFT-gyűjtemény Uniswap-on - {{address}}",
+    "complete": "Teljes!",
+    "editListings": "Adatok szerkesztése",
+    "event": "Esemény",
+    "explore": "Fedezze fel az NFT-ket",
+    "learnWhy": "Tudja meg, miért",
+    "list": {
+      "header": {
+        "lastPrice": "Utolsó"
+      },
+      "title": "Sorolja fel az NFT-ket"
+    },
+    "listedSignificantly_one": "Egy NFT {{percentage}} a kollekció minimális ára alatt van feltüntetve. Biztos vagy benne, hogy folytatni akarod?",
+    "listedSignificantly_other": "{{count}} Az NFT-k listája jelentősen a kollekció minimális ára alatt van. Biztos vagy benne, hogy folytatni akarod?",
+    "listForSale": "Eladó lista",
+    "lowPrice": "Alacsony tőzsdei ár",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} díjak"
+      }
+    },
+    "maxFees": "Max díjak",
+    "maxRoyalties": "Maximális alkotói jogdíj",
+    "noItems": "Nincs megjeleníthető elem",
+    "noneAtAddress": "Ezen a címen nem találhatók gyűjteményi eszközök",
+    "noPools": "Még nincsenek medencék",
+    "notListed": "Nem felsorolt",
+    "proceedsIfSold": "Eladás esetén bevétel",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Már szerepel a {{tokenAmountWithSymbol}}helyen",
+          "belowFloor": "{{percentage}} minimális ár alatt."
+        }
+      }
+    },
+    "refundsInEth": "A nem elérhető tételek visszatérítése ETH-ban történik",
+    "removeFromBag": "Vegye ki a zsákból",
+    "reportSpam": "Jelentés spamként",
+    "returnToExplore": "Térjen vissza az NFT Explore-hoz",
+    "returnToMy": "Vissza a Saját NFT-hez",
+    "setPrices": "Állítsa be az árakat a folytatáshoz",
+    "startListing": "Kezdje el a listázást",
+    "successListed": "Sikeresen listázva",
+    "unavailableToList": "Nem elérhető a listára",
+    "whyTransaction": {
+      "reason": "Az NFT listázásához egyszeri piactéri jóváhagyásra van szükség minden NFT-gyűjteményhez."
+    },
+    "willAppearHere": "Itt jelennek meg az Ön onchain tranzakciói és kriptovásárlásai.",
+    "wishGranted": "Az Uniswap teljesítette kívánságát!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Gyűjtemény jóváhagyása",
+        "approve_other": "Gyűjtemények jóváhagyása",
+        "sign_one": "Jelölje ki a listát",
+        "sign_other": "Jelölje ki a listákat"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} max"
+      }
+    },
+    "my": "NFT-jeim",
+    "noneYet": "Még nincsenek NFT-k",
+    "sell": "NFT-k eladása"
+  },
+  "notFound": {
+    "oops": "Hoppá, vigyél vissza a Swapba"
+  },
+  "notice": {
+    "uk": {
+      "label": "UK felelősségi nyilatkozat:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} rejtve",
+      "unhidden": "{{assetName}} feloldva"
+    },
+    "copied": {
+      "address": "Cím másolva",
+      "calldata": "Hívásadatok másolva",
+      "contractAddress": "A szerződés címe másolva",
+      "failed": "Nem sikerült a vágólapra másolni",
+      "image": "Kép másolva",
+      "nftUrl": "NFT URL másolva",
+      "tokenUrl": "Token URL másolva",
+      "transactionId": "Tranzakcióazonosító másolva",
+      "unitag": "Felhasználónév másolva"
+    },
+    "countryChange": "Átváltva {{countryName}}-ra",
+    "network": {
+      "changed": "Átváltva {{network}}-ra"
+    },
+    "passwordChanged": "A jelszó megváltozott",
+    "restore": {
+      "success": "A pénztárca helyreállított!"
+    },
+    "send": {
+      "network": "Küldés ekkor: {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Jelentették"
+      }
+    },
+    "swap": {
+      "network": "Csere {{network}}-ra",
+      "pending": {
+        "swap": "Csere függőben",
+        "unwrap": "Felbontás függőben",
+        "wrap": "Becsomagolás függőben"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Törölve {{currencySymbol}} jóváhagyás.",
+        "fail": "Nem sikerült a {{currencySymbol}} jóváhagyása a {{address}}használatához.",
+        "success": "Jóváhagyva {{currencySymbol}} {{address}}használatához."
+      },
+      "pending": "Tranzakció függőben",
+      "swap": {
+        "canceled": "Törölt {{inputCurrencySymbol}}-{{outputCurrencySymbol}} csere.",
+        "expired": "A {{inputCurrencyAmountWithSymbol}} {{outputCurrencyAmountWithSymbol}} csere lejárt.",
+        "fail": "Nem sikerült a {{inputCurrencyAmountWithSymbol}} cseréje {{outputCurrencyAmountWithSymbol}}értékre.",
+        "success": "A {{inputCurrencyAmountWithSymbol}} {{outputCurrencyAmountWithSymbol}}értékre cserélve."
+      },
+      "transfer": {
+        "canceled": "Törölt {{tokenNameOrAddress}} küldés",
+        "fail": "Nem sikerült elküldeni a {{tokenNameOrAddress}} {{walletNameOrAddress}}címre",
+        "received": "{{tokenNameOrAddress}} érkezett a {{walletNameOrAddress}}címről",
+        "success": "{{tokenNameOrAddress}} elküldve a {{walletNameOrAddress}}címre"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Nem sikerült a tranzakció a következővel: {{addressOrEnsName}}",
+          "short": "sikertelen tranzakció"
+        },
+        "success": {
+          "full": "Tranzakció a következővel: {{addressOrEnsName}}",
+          "short": "Az ügylet megerősítve"
+        }
+      },
+      "unwrap": {
+        "canceled": "Törölve {{inputCurrencySymbol}} kibontás.",
+        "fail": "Nem sikerült kicsomagolni {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Kibontva {{inputCurrencyAmountWithSymbol}} és {{outputCurrencyAmountWithSymbol}}érkezett."
+      },
+      "wrap": {
+        "canceled": "Törölt {{inputCurrencySymbol}} wrap.",
+        "fail": "Nem sikerült becsomagolni {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Becsomagolt {{inputCurrencyAmountWithSymbol}} és {{outputCurrencyAmountWithSymbol}}kapott."
+      }
+    },
+    "transfer": {
+      "pending": "Küldés függőben"
+    },
+    "walletConnect": {
+      "confirmed": "A tranzakció megerősítve a következővel: {{dappName}}",
+      "connected": "csatlakoztatva",
+      "disconnected": "Szétkapcsolt",
+      "failed": "A tranzakció sikertelen a következővel: {{dappName}}",
+      "networkChanged": {
+        "full": "Átváltva {{networkName}}-ra",
+        "short": "Kapcsolt hálózatok"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Folytassa az Uniswap kiterjesztéssel",
+      "title": "Siker!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Javasoljuk, hogy írja fel ezt egy darab papírra, és tárolja biztonságos helyen, például széfben.",
+        "displayWarning": {
+          "description": "Mielőtt folytatná, figyelmesen olvassa el az alábbiakat.",
+          "note": {
+            "access": "Ez a helyreállítási kifejezés teljes hozzáférést biztosít pénztárcájához és pénzeszközeihez",
+            "secure": "Tekintse meg ezt privátban, és ne ossza meg senkivel",
+            "storage": "Írja le és tartsa biztonságos helyen"
+          },
+          "title": "Néhány fontos tudnivaló"
+        },
+        "error": "Érvénytelen vagy hibásan írt szó",
+        "placeholder": "Titkos világ",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} kész",
+        "selectedWordPlaceholder": "Válassza ki a szót",
+        "subtitle_one": "Mi a {{count}}első szó a helyreállítási kifejezésben?",
+        "subtitle_two": "Mi a {{count}}második szó a helyreállítási kifejezésben?",
+        "subtitle_few": "Mi a {{count}}második szó a helyreállítási kifejezésben?",
+        "subtitle_other": "Mi a {{count}}. szó a helyreállítási kifejezésben?",
+        "title": "Győződjön meg arról, hogy helyesen rögzítette"
+      },
+      "option": {
+        "badge": {
+          "quick": "Gyors"
+        },
+        "cloud": {
+          "description": "Készítsen biztonsági másolatot pénztárcájáról a {{cloudProviderName}}segítségével, amelyet helyreállítási jelszó véd.",
+          "title": "Állítson be helyreállítási jelszót"
+        },
+        "manual": {
+          "description": "Rögzítse a 12 titkos szavát egy papírra, és tárolja biztonságos helyen.",
+          "title": "Írja le a helyreállítási kifejezést"
+        }
+      },
+      "reminder": {
+        "description": "A pénztárca biztonsági mentése biztosítja, hogy bármikor visszaszerezze eszközeit, ha elveszíti telefonját vagy új eszközt vásárol.",
+        "title": "Ideje tartalékolni a pénztárcáját",
+        "warning": {
+          "description": "Ha nem állít be biztonsági mentési módszert, nem tudja visszaállítani pénztárcáját, ha elveszíti telefonját, törli az alkalmazást vagy új eszközt vásárol.",
+          "title": "Elveszítheti a pénzét"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Ha elfelejtené, nem tudjuk visszaállítani. Írja le biztonságos helyre, vagy tárolja biztonságosan a jelszókezelőben.",
+          "disclaimer": "Megértettem, hogy a Uniswap Labs nem tudja visszaállítani a helyreállítási jelszavamat.",
+          "title": "Fontos, hogy mentse ezt a jelszót"
+        },
+        "manual": {
+          "description": "Győződjön meg arról, hogy helyesen írta fel a helyreállítási kifejezést, és van egy biztonságos hely a tárolására.",
+          "disclaimer": "Tudomásul veszem, hogy az Uniswap Labs nem tudja visszaszerezni a pénztárcámat, ha ezt elveszítem.",
+          "title": "Mielőtt befejezné..."
+        }
+      },
+      "subtitle": "Így állíthatja vissza pénztárcáját, ha törli az alkalmazást vagy elveszíti eszközét.",
+      "title": {
+        "existing": "Mentse el a pénztárcáját",
+        "new": "Válassza ki a biztonsági mentés módját"
+      },
+      "view": {
+        "disclaimer": "Megértem, hogy ha elveszítem a helyreállítási kifejezést, a Uniswap Labs nem tud segíteni annak visszaállításában.",
+        "subtitle": {
+          "message1": "Mielőtt folytatná, figyelmesen olvassa el az alábbiakat",
+          "message2": "A pénztárcája visszaszerzéséhez meg kell adnia mind a 12 titkos szót."
+        },
+        "title": "Írja le a helyreállítási kifejezést",
+        "warning": {
+          "message1": "Ez a helyreállítási kifejezés teljes hozzáférést biztosít pénztárcájához és pénzeszközeihez",
+          "message2": "Írja le és tartsa biztonságos helyen",
+          "message3": "Tekintse meg ezt privátban, és <u>ne ossza meg senkivel</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Ezt meg kell adnia az összeg visszaszerzéséhez. Ha elfelejtené, nem tudjuk visszaszerezni.",
+        "title": "Erősítse meg helyreállítási jelszavát"
+      },
+      "createPassword": {
+        "description": "Ezt meg kell adnia az összeg visszaszerzéséhez. Ha elfelejtené, nem tudjuk visszaszerezni.",
+        "title": "Hozza létre helyreállítási jelszavát"
+      }
+    },
+    "complete": {
+      "button": "Nyissa meg az Uniswap bővítményt",
+      "description": "Pénztárcája készen áll a kriptográfia küldésére és fogadására. Nyissa meg az Uniswap bővítményt az alábbi parancsikonnal.",
+      "go_to_uniswap": "Nyissa meg az Uniswap webalkalmazást",
+      "pin": {
+        "description": "Kattintson a kitűző ikonra az Uniswap bővítmény hozzáadásához az eszköztárhoz.",
+        "title": "Pin Uniswap bővítmény"
+      },
+      "title": "Minden készen áll"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Erre a pénztárca feloldásához és a helyreállítási kifejezés eléréséhez lesz szüksége",
+        "title": {
+          "default": "Jelszó létrehozása",
+          "reset": "Állítsd vissza a jelszavad"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Az Uniswap bővítmény csak az asztali Chrome-mal kompatibilis.",
+          "title": "A Chrome mobileszközön nem támogatott (még)"
+        },
+        "description": "Az Uniswap bővítmény jelenleg csak a Chrome-mal kompatibilis.",
+        "title": "Ez a böngésző nem támogatott (még)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Állítson be helyreállítási tervet, ha elveszíti telefonját, vagy újat vásárol.",
+          "title": "Mentse el a pénztárcáját"
+        },
+        "fund": {
+          "description": "Finanszírozza pénztárcáját kriptovásárlással vagy másik számláról történő átutalással.",
+          "title": "Szerezd meg az első tokenedet"
+        },
+        "label": {
+          "required": "Kívánt",
+          "swipe": "Elcsór"
+        },
+        "pushNotifications": {
+          "description": "Értesítéseket kaphat a kedvenc tokenekről, a piaci trendekről és egyebekről.",
+          "title": "Maradjon tájékozott"
+        },
+        "unitag": {
+          "description": "Hozzon létre egy személyre szabott web3-profilt, és egyszerűen ossza meg címét barátaival.",
+          "title": "Igényelje {{unitagDomain}} felhasználónevét"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 szó érvénytelen vagy hibásan van írva",
+        "invalidWords_other": "A {{count}} szavak érvénytelenek vagy hibásan vannak írva"
+      },
+      "method": {
+        "import": {
+          "message": "Írja be a helyreállítási kifejezést egy másik kriptotárcából.",
+          "title": "Importáljon pénztárcát"
+        },
+        "passkey": {
+          "message": "Szinkronizálja Uniswap pénztárcáját egy meglévő jelszóval.",
+          "title": "Jelentkezzen be a jelszóval"
+        },
+        "restore": {
+          "message": {
+            "android": "Adja hozzá azokat a pénztárcákat, amelyekről biztonsági másolatot készített Google Drive-fiókjába.",
+            "ios": "Adja hozzá azokat a pénztárcákat, amelyekről biztonsági másolatot készített iCloud-fiókjába."
+          },
+          "title": "Állítsa vissza a pénztárcát"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Nem szeretnél a fentiek közül semmit?"
+        },
+        "subtitle": "Válassza ki, melyik pénztárcába szeretne újra bejelentkezni.",
+        "title": "Üdvözöljük újra az Uniswapban",
+        "wallet": {
+          "button": "A helyreállítási kifejezés megtekintése",
+          "count_one": "+1 másik pénztárca",
+          "count_other": "+{{count}} egyéb pénztárcák"
+        },
+        "warning": {
+          "caption": "Kérjük, győződjön meg róla, hogy az összes többi pénztárcáról biztonsági másolatot készített. Ha valaha is vissza szeretné állítani őket, szüksége lesz a helyreállítási kifejezéseikre vagy a megfelelő {{cloudProvider}} biztonsági másolatokra.",
+          "title": "biztos vagy ebben?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Importáljon pénztárcát a mobilalkalmazásból QR-kóddal.",
+          "title": "Használja az Uniswap Mobile-t"
+        },
+        "passkey": {
+          "subtitle": "Szinkronizálja Uniswap pénztárcáját egy meglévő jelszóval.",
+          "title": "Jelentkezzen be a jelszóval"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Írja be a helyreállítási kifejezést egy másik kriptotárcából.",
+          "title": "Importáljon pénztárcát"
+        },
+        "title": "Jelentkezzen be vagy importáljon pénztárcát"
+      },
+      "title": "Válassza ki, hogyan szeretné hozzáadni pénztárcáját"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "A helyreállítási kifejezésem 12 szó",
+        "importing": "Importálás...",
+        "longPhrase": "A helyreállítási mondatom hosszabb"
+      },
+      "error": {
+        "invalidPhrase": "A megadott kifejezés érvénytelen"
+      },
+      "subtitle": "Írja be vagy illessze be a 12 szavas helyreállítási kifejezést",
+      "title": "Írja be a helyreállítási kifejezést"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Folytassa a biztonságos bejelentkezési ablakban."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Már van pénztárcám",
+        "signInOrImport": "Jelentkezzen be vagy importáljon"
+      },
+      "mobileScan": {
+        "button": "Az importáláshoz olvassa be a QR-kódot",
+        "title": "Rendelkezik Uniswap alkalmazással?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Adjon hozzá egy meglévő pénztárcát",
+        "create": "Hozzon létre egy pénztárcát",
+        "createAccount": "Hozzon létre egy fiókot"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "Ez egy nyilvános név, amelyet bárki használhat kriptográfiai adatok küldésére."
+      },
+      "wallet": {
+        "button": {
+          "text": "Befejezés"
+        },
+        "subtitle": "Ezt a becenevet csak te láthatod",
+        "title": "Adjon nevet a pénztárcájának"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Értesítések fogadásához kapcsolja be az Uniswap Wallet értesítéseit az eszköz beállításaiban.",
+        "title": "Értesítési engedély"
+      },
+      "subtitle": "Legyen naprakész a tranzakciók állapotáról és a kedvenc tokenek főbb árváltozásairól.",
+      "title": "Kapcsolja be az értesítéseket"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Fiókját saját, biztonságos jelszótárolója védi."
+      },
+      "biometric": {
+        "scan": "Telefon, táblagép vagy böngésző – csak olvassa be biometrikus adatait, és máris bejelentkezik."
+      },
+      "create": "Hozd létre a jelszót",
+      "use": {
+        "recovery": {
+          "phrase": "Használjon helyette helyreállítási kifejezést"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Győződjön meg arról, hogy jól tette. Ha elveszíti vagy hibásan írja le, akkor nem tudja visszaszerezni az összeget.",
+          "default": "Ha elveszíti vagy hibásan írja le, akkor nem tudja visszaszerezni az összeget."
+        },
+        "title": "Győződjünk meg arról, hogy jól tetted"
+      },
+      "view": {
+        "subtitle": "A pénztárcája visszaszerzéséhez meg kell adnia mind a 12 titkos szót.",
+        "title": {
+          "hasPassword": "Ha valaha elfelejtené jelszavát..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "készen állok",
+          "message": "A helyreállítási kifejezés az, ami hozzáférést biztosít Önnek (és bárkinek, aki rendelkezik ezzel) a pénzeszközökhöz. Feltétlenül tartsa meg magának.",
+          "title": "Ezt a lépést privát helyen végezze el"
+        },
+        "screenshot": {
+          "message": "Bárki, aki hozzáfér a fényképeihez, hozzáférhet pénztárcájához. Javasoljuk, hogy inkább írja le szavait.",
+          "title": "A képernyőképek nem biztonságosak"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Tudjon meg többet a pénztárca biztonságáról",
+        "subtitle": "Használja új jelszavát a pénztárca feloldásához.",
+        "title": "Jelszó visszaállítása"
+      }
+    },
+    "scan": {
+      "error": "Hiba történt a QR-kód betöltésekor",
+      "otp": {
+        "error": "A beküldött kód helytelen, vagy hiba történt a beküldés során. Kérlek próbáld újra.",
+        "failed": "Sikertelen próbálkozások: {{number}}",
+        "subtitle": "Nézze meg Uniswap mobilalkalmazásában a 6 karakteres kódot",
+        "title": "Adja meg az egyszeri kódot"
+      },
+      "subtitle": "A pénztárca importálásának megkezdéséhez olvassa be a QR-kódot az Uniswap mobilalkalmazással.",
+      "title": "Importáljon pénztárcát az alkalmazásból",
+      "troubleScanning": {
+        "message": "Importálás helyreállítási kifejezéssel",
+        "title": "Hiba történt a beolvasással?"
+      },
+      "wifi": "Csatlakoztassa telefonját ugyanahhoz a WiFi hálózathoz, mint a számítógépéhez."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "A biometrikus adatok használatához először állítsa be a beállításokban",
+            "ios": "A {{biometricsMethod}}használatához engedélyezze a hozzáférést a rendszerbeállításokban"
+          },
+          "title": {
+            "android": "A biometria le van tiltva",
+            "ios": "A {{biometricsMethod}} le van tiltva"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Biometrikus adatok engedélyezése",
+          "ios": "{{biometricsMethod}}engedélyezése"
+        },
+        "setup": "Beállít"
+      },
+      "subtitle": {
+        "android": "A tranzakciók elküldéséhez biometrikus adatokat írjon elő, és növelheti a biztonságot.",
+        "ios": "A tranzakciók küldéséhez a {{biometricsMethod}} megköveteli a további biztonsági réteget."
+      },
+      "title": "Védje pénztárcáját"
+    },
+    "selectWallets": {
+      "error": "Nem sikerült betölteni a címeket",
+      "title": {
+        "default": "Válassza ki az importálandó pénztárcákat",
+        "error": "Hiba a pénztárcák importálásakor"
+      }
+    },
+    "termsOfService": "A folytatással elfogadom a<highlightTerms> Általános Szerződési Feltételeket </highlightTerms>és a<highlightPrivacy> Adatvédelmi szabályzatot</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Mi a helyreállítási kifejezés?"
+      }
+    },
+    "wallet": {
+      "continue": "Vigyázzunk rá",
+      "defaultName": "Pénztárca {{number}}",
+      "description": {
+        "full": "Ez az Ön személyes tere a tokeneknek, NFT-knek és az összes kereskedésének. Fejezze be a beállítást, hogy pénzei biztonságban legyenek."
+      },
+      "title": "Üdvözöljük új pénztárcájában"
+    },
+    "welcome": {
+      "subtitle": "Végezzük el a pénztárca beállítását.",
+      "title": "Üdvözöljük!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Továbbra is probléma nélkül cserélhet és biztosíthat likviditást ezen a láncon."
+    },
+    "title": "{{versionName}} hamarosan visszatér"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Problémái vannak a jelszó használatával vagy a hozzáféréssel? Segítségért keresse fel a Uniswap ügyfélszolgálatát.",
+        "title": "Segítség a jelszóhoz"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "A Permit2 lehetővé teszi a token jóváhagyások megosztását és kezelését különböző alkalmazások között."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktív kullancs tartomány",
+    "addAs": "Hozzáadás mint {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Évesített 1 napi díj alapján"
+    },
+    "aprText": "Medence THM",
+    "balances": "Pool egyenlegek",
+    "closedCTA": {
+      "description": "Megtekintheti őket az oldal tetején található szűrő használatával.",
+      "title": "Zárt pozícióit keresi?"
+    },
+    "collectAs": "Gyűjtés {{nativeWrappedSymbol}}-ként",
+    "collectFees": "Díjak beszedése",
+    "create": {
+      "info": "Az Ön választása új likviditási készletet hoz létre, amely alacsonyabb kezdeti likviditást és megnövekedett volatilitást eredményezhet. E kockázatok minimalizálása érdekében fontolja meg egy meglévő készlet hozzáadását."
+    },
+    "createdPosition": {
+      "cancelled": "Pozíció létrehozása megszakítva",
+      "failed": "A pozíció létrehozása nem sikerült"
+    },
+    "details": "A medence részletei",
+    "earnings": {
+      "empty": "Még nincs bevétele"
+    },
+    "explorers": "Felfedezők",
+    "import": {
+      "link": {
+        "description": "Egyes v2-pozíciók nem jelennek meg automatikusan."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Egyes v2-pozíciók nem jelennek meg automatikusan. Válasszon ki egy tokenpárt az importáláshoz és a pozíciók megtekintéséhez."
+          }
+        }
+      },
+      "success": "Medence importálva"
+    },
+    "incentives": {
+      "administeredRewards": "A likviditási tartalékolásért járó jutalmakat az Uniswap Alapítvány kezeli.",
+      "collect": "Gyűjt",
+      "collectedRewards": "Gyűjtött jutalmak",
+      "collectFailed": "A begyűjtés sikertelen, próbálkozzon újra.",
+      "collectFailedNoRetry": "A jutalmak begyűjtése nem sikerült.",
+      "collectingRewards": "Jutalmak gyűjtése",
+      "collectRewards": "Gyűjts jutalmakat",
+      "collectRewardsCancelled": "Törölt jutalmak gyűjtése",
+      "eligible": "A jogosult poolok jelképes jutalmakkal rendelkeznek, így többet kereshet",
+      "rewardsEarned": "Megszerzett jutalmak",
+      "uni": {
+        "description": "Szerezzen UNI jutalmakat azzal, hogy likviditást biztosít a jogosult pooloknak",
+        "findMore": "Keressen több medencét UNI jutalmakkal"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "A jutalmakat nem lehetett lekérni. Ennek oka lehet hálózati probléma. Próbáld meg újratölteni az oldalt."
+        }
+      }
+    },
+    "info": "Medence információk",
+    "limitFluctuation": {
+      "warning": "Kérjük, vegye figyelembe, hogy a limitek végrehajtása a valós idejű piaci ingadozások és az Ethereum hálózat torlódásai miatt változhat. Előfordulhat, hogy a limitek nem érvényesülnek pontosan, amikor a tokenek elérik a megadott árat."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Hiba történt a tranzakcióhoz szükséges adatok lekérésekor."
+        }
+      },
+      "outOfSync": {
+        "message": "Ebben a készletben az árak különböznek a kiválasztott tokenek piaci árától. Ennek megfelelően állítsa be az ártartományt, vagy várja meg, amíg a medence egyensúlyba kerül a veszteségek elkerülése érdekében."
+      }
+    },
+    "maxPrice": "Max ár",
+    "migrateLiquidity": "Likviditás migrálása",
+    "migrateLiquidityDisabledTooltip": "Ez a lánc nem támogatja a v4 likviditási poolokat.",
+    "migrateToV4": "Migráció v4-re",
+    "minPrice": "Minimális ár",
+    "newPosition": {
+      "plus": "+ Új pozíció",
+      "title": "Új pozíció"
+    },
+    "newSpecificPosition": "Új {{symbol}} pozíció",
+    "openPosition": {
+      "cta": "Adjon likviditást egy poolhoz, és tekintse meg pozícióit itt"
+    },
+    "openToStart": "A kezdéshez nyisson új pozíciót vagy hozzon létre egy készletet.",
+    "percent": "{{pct}}% pool",
+    "pooled": "Összevonva {{sym}}:",
+    "position": "Pozíció",
+    "positions": {
+      "title": "A pozícióid",
+      "transaction": {
+        "settings": "Tranzakció beállításai"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "USD érték jelenleg nem érhető el ehhez a pozícióhoz. Lásd a pozíció részleteit a befizetett token összegekről."
+      }
+    },
+    "priceRange": "Árkategória",
+    "refresh": {
+      "prices": "Frissítse az árakat"
+    },
+    "removeLiquidity": "Távolítsa el a likviditást",
+    "rewardAPR": {
+      "percent": "{{pct}} jutalom THM"
+    },
+    "rewards": "Jutalmak",
+    "rewardsPool": {
+      "label": "Pool tokenek a jutalom poolban:"
+    },
+    "selectPair": "Válasszon párat",
+    "share": {
+      "label": "Az Ön medencerészesedése:"
+    },
+    "specificPosition": "{{symbol}} pozíció",
+    "tokenPair": "Token pár",
+    "top": {
+      "tvl": "A legjobb medencék a TVL-től"
+    },
+    "totalAPR": "Teljes THM",
+    "totalTokens": "Az összes készlet token:",
+    "uncollectedFees": "Be nem fizetett díjak",
+    "v2": "v2 poolok",
+    "v3": "v3 poolok",
+    "viewPools": "Nézd meg a medencéket",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D köt"
+      }
+    },
+    "withdrawAs": "Visszavonás {{nativeWrappedSymbol}}-ként"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 poolok, amelyek megfelelnek a párválasztásnak."
+      },
+      "notFound": {
+        "description": "Nem található megfelelő v2-készlet. Ellenőrizze még egyszer a token kiválasztását, és győződjön meg arról, hogy a megfelelő pénztárcához csatlakozik."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Fedezze fel a medencéket"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "A horgok egy olyan fejlett funkció, amely lehetővé teszi a poolok számára, hogy kölcsönhatásba léphessenek az intelligens szerződésekkel, felszabadítva ezzel a különféle képességeket. Legyen körültekintő a horgok felszerelésekor, mivel egyesek rosszindulatúak lehetnek, vagy nem kívánt következményekkel járhatnak."
+    },
+    "addingHook": {
+      "disclaimer": "A horgok hozzáadása nem kívánt következményekkel járhat. Végezze el a kutatást, és folytassa a saját felelősségére.",
+      "hideProperties": "Tulajdonságok elrejtése",
+      "invalidAddress": "Adjon meg egy érvényes horogcímet",
+      "viewProperties": "Tulajdonságok megtekintése"
+    },
+    "create": {
+      "invalidPrice": "Érvénytelen ár",
+      "invalidRange": "Érvénytelen tartomány",
+      "modal": {
+        "header": "Pozíció létrehozása"
+      }
+    },
+    "currentValue": "Aktuális pozíció értéke",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "A beírt kezdeti ár {{value}}%-kal alacsonyabb, mint a piaci ár, és forráskiesést eredményezhet. Szeretné folytatni?",
+            "more": "A beírt kezdeti ár {{value}}%-kal magasabb, mint a piaci ár, és forráskiesést eredményezhet. Szeretné folytatni?"
+          },
+          "title": "Nagy árkülönbség a piachoz képest"
+        }
+      },
+      "description": "Adja meg a likviditási hozzájárulás jelképes összegét."
+    },
+    "depositedCurrency": "Letétbe helyezve {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Hozzon létre egy v2 pozíciót"
+      }
+    },
+    "hook": {
+      "disclaimer": "Megértem a horog hozzáadásával járó lehetséges kockázatokat.",
+      "donateWarning": "Ez a megjelölés a megszerzett díjak változását eredményezheti.",
+      "liquidityWarning": "Ez a jelző azt okozhatja, hogy a pool blokkolja az új likviditás hozzáadását. A tranzakció visszaállhat.",
+      "removeWarning": "Előfordulhat, hogy pénzeszközeit zároljuk, vagy megakadályozhatja a díjak beszedését.",
+      "swapWarning": "Ez a jelző lehetővé teheti a likviditásszolgáltatók számára, hogy könnyebben kihasználják a Just-In-Time likviditást, ami alacsonyabb díjakat eredményezhet.",
+      "warningHeader": "Fontos: a horoggal kapcsolatos kockázatok azonosítva",
+      "warningInfo": "Azonosítottuk a lehetséges kockázatokat ezzel a horoggal. Kérjük, győződjön meg arról, hogy megértette, hogyan működik ez a horog, mielőtt úgy dönt, hogy továbblép."
+    },
+    "increase": {
+      "fot": "A {{token}} és más „Átutalási díj” tokenek likviditásának hozzáadása nem támogatott."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}%-kal kevesebb a piaci árnál",
+        "positive": "{{ value }}%-kal több, mint a piaci ár"
+      },
+      "info": "Új készlet létrehozásakor mindkét token kezdő árfolyamát be kell állítani. Ez az árfolyam a kezdeti piaci árat fogja tükrözni.",
+      "set": "Állítsa be a kezdeti árat",
+      "useMarketPrice": "Használja a piaci árat"
+    },
+    "migrate": {
+      "liquidity": "Pozíciók áttelepítésekor nem módosíthatja a tokenpárt, de hozzáadhat egy horogot a funkcionalitás javítása érdekében.",
+      "v4unsupportedChain": "Ez a lánc nem támogatott v4-készleteknél."
+    },
+    "new": {
+      "protocol": "Új {{protocol}} pozíció"
+    },
+    "notFound": {
+      "description": "Ennek a pozíciónak a részletei nem állnak rendelkezésre. Kérjük, ellenőrizze, hogy a megfelelő pénztárcához csatlakozik-e."
+    },
+    "protocol": "{{protocol}} pozíció",
+    "provide": {
+      "liquidity": "Válassza ki azokat a tokeneket, amelyekhez likviditást kíván biztosítani. Az összes támogatott hálózaton kiválaszthat tokeneket.",
+      "liquidityDescription": {
+        "creatingPool": "A teljes körű likviditás beállítása a pool létrehozása során biztosítja a folyamatos piaci részvételt minden lehetséges áron, egyszerűséget kínálva, de nagyobb múlhatatlan veszteség lehetőségével.",
+        "custom": "Az egyedi kínálat lehetővé teszi, hogy likviditását meghatározott árhatárokon belül koncentrálja, növelve a tőkehatékonyságot és a díjbevételt, de aktívabb kezelést igényel."
+      },
+      "outOfRange": {
+        "closePosition": "Pozíció bezárása",
+        "description": "Ennek a pozíciónak a tartománya nem módosítható az áttelepítés során. Új tartomány beállításához zárja be ezt a pozíciót, és nyisson meg egy új v4 pozíciót.",
+        "title": "Ön egy hatótávolságon kívüli pozíciót helyez át"
+      }
+    },
+    "removeHook": "Távolítsa el a horgot",
+    "resetDescription": "A tokenek, az ár és a tartomány beállításai visszaállnak.",
+    "setRange": {
+      "inputsBelow": "Használja az alábbi bemeneteket a tartomány beállításához."
+    },
+    "step": {
+      "deposit": "Adja meg a betét összegét",
+      "price": "Állítsa be a kezdeti árat és a befizetés összegét",
+      "range": "Állítsa be az ártartományt és a betét összegét",
+      "select": "Válassza ki a tokenpárt és a díjakat"
+    },
+    "value": "Pozíció értéke",
+    "valueUnavailable": "USD érték jelenleg nem érhető el ehhez a pozícióhoz. Lásd a pozíció részleteit a befizetett token összegekről.",
+    "wrapped": {
+      "unwrap": "Kicsomagolás {{wrappedToken}}",
+      "warning": {
+        "info": "Csomagolja ki {{wrappedToken}} -ját, és helyezze be {{nativeToken}} , hogy költséghatékonyabb és hatékonyabb likviditást biztosítson."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Csatlakoztassa pénztárcáját az aktuális pozíciók megtekintéséhez."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Az alkalmazás anonimizált használati statisztikákat naplóz, hogy idővel javítsa.",
+    "autoRouter": "Az alkalmazás lekéri az optimális kereskedelmi útvonalat egy Uniswap Labs szerverről.",
+    "infura": "Az alkalmazás lekéri a láncon belüli adatokat, és szerződéshívásokat hoz létre egy Infura API-val.",
+    "thirdPartyApis": "Ez az alkalmazás a következő harmadik féltől származó API-kat használja:",
+    "trm": "Az alkalmazás biztonságosan összegyűjti a pénztárca címét, és kockázati és megfelelőségi okokból megosztja a TRM Labs Inc.-vel.",
+    "uniswaptos": "Az Uniswap Labs szolgáltatási feltételei"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 alkalmazás csatlakoztatva",
+      "connections_other": "{{count}} alkalmazások csatlakoztatva"
+    },
+    "error": {
+      "camera": {
+        "message": "Kód beolvasásához engedélyezze a kamera hozzáférését a rendszerbeállításokban",
+        "title": "A kamera le van tiltva"
+      },
+      "none": "Nem található QR-kód"
+    },
+    "recipient": {
+      "action": {
+        "scan": "QR-kód beolvasása",
+        "show": "Mutasd a QR-kódomat"
+      },
+      "error": {
+        "message": "Mielőtt újra próbálkozna, győződjön meg arról, hogy érvényes Ethereum-cím QR-kódját olvassa be.",
+        "title": "Érvénytelen QR-kód"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Nem található üzenet."
+      },
+      "method": {
+        "default": "Kérelem tőle: {{dappNameOrUrl}}",
+        "signature": "Aláírási kérés tőle: {{dappNameOrUrl}}",
+        "transaction": "Tranzakciókérés innen: {{dappNameOrUrl}}"
+      },
+      "withAmount": "Engedélyezi a {{dappName}}<highlight> {{amount}} </highlight>{{currencySymbol}}használatát?",
+      "withoutAmount": "Engedélyezi {{dappName}} számára a {{currencySymbol}}használatát?"
+    },
+    "status": {
+      "connecting": "Csatlakozás...",
+      "loading": "Betöltés..."
+    },
+    "title": "QR-kód beolvasása",
+    "wallet": {
+      "networks": "Támogatott hálózatok",
+      "title": "Tokeneket és NFT-ket küldhet és fogadhat az összes {{numOfNetworks}} támogatott hálózatunkon."
+    }
+  },
+  "range": {
+    "outOfView": "Tartomány látótávolságon kívül"
+  },
+  "removeLiquidity": {
+    "pooled": "Összevonva {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Ez hozzáférést biztosít az Uniswap protokoll számára a tokenhez kereskedés céljából."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Ha elérhető, összesíti a likviditási forrásokat a jobb árak és a gázmentes csereügyletek érdekében.",
+    "cheapest": {
+      "v4": "Az Uniswap kliens az ár és a hálózati költségek figyelembevételével választja ki az optimális kereskedési lehetőséget."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Lejárt",
+      "subtitle": "Írja be ezt a kódot az Uniswap kiterjesztésbe. A helyreállítási kifejezést biztonságosan titkosítjuk és továbbítjuk.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Új kód {{hours}}h {{minutes}}m {{seconds}}s múlva",
+          "minutes": "Új kód {{minutes}}m {{seconds}}s alatt",
+          "seconds": "Új kód {{seconds}}másodperc múlva"
+        }
+      },
+      "title": "Unswap egyszeri kód"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Igen, folytasd"
+      },
+      "label": {
+        "browser": "Böngésző",
+        "device": "Eszköz"
+      },
+      "subtitle": "Csak akkor folytassa, ha megbízható eszközön olvas be QR-kódot az Uniswap bővítményből.",
+      "title": "Megpróbálja importálni a pénztárcáját?",
+      "warning": "Óvakodjon az Uniswap-t megszemélyesítő webhelyektől és alkalmazásoktól. Ellenkező esetben a pénztárcája veszélybe kerülhet."
+    },
+    "error": {
+      "encryption": "Nem sikerült előkészíteni a kezdő kifejezést.",
+      "noCode": "Nem érkezett OTP. Kérlek próbáld újra.",
+      "timeout": {
+        "message": "A pénztárca szinkronizálásának folytatásához olvassa be újra a QR-kódot az Uniswap bővítményen.",
+        "title": "A kapcsolat ideje lejárt"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "A QR-kód beolvasásához telefonjának ugyanahhoz a WiFi hálózathoz kell csatlakoznia, mint a számítógépének, és ideiglenesen ki kell kapcsolnia a VPN-eket.",
+        "title": "Váltsa át a WiFi hálózatot"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Hamarosan: keressen és fedezzen fel tokeneket a {{chainName}} láncon",
+    "input": {
+      "placeholder": "Tokenek és készletek keresése"
+    },
+    "results": {
+      "count_one": "1 elem",
+      "count_other": "{{count}} elem"
+    },
+    "ukDisclaimer": "Jogi nyilatkozat az Egyesült Királyság lakosai számára"
+  },
+  "send": {
+    "button": {
+      "review": "Átvitel áttekintése"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Hálózati költség"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Egyenleg: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Válassza ki a címzettet",
+      "input": {
+        "placeholder": "Keressen az ENS-en vagy a címen"
+      },
+      "previous_one": "1 korábbi átutalás",
+      "previous_other": "{{count}} korábbi átutalások",
+      "results": {
+        "empty": "Nincs találat",
+        "error": "A beírt cím nem létezik, vagy hibásan van írva."
+      },
+      "section": {
+        "favorite": "Kedvenc pénztárcák",
+        "recent": "Friss",
+        "search": "Keresési eredmények",
+        "viewOnly": "Csak megtekinthető pénztárcák",
+        "yours": "A pénztárcádat"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Csak akkor küldjön pénzt ebbe a tárcába, ha rendelkezik a helyreállítási kifejezéssel, vagy ismeri a pénztárca tulajdonosát.",
+          "title": "Ez csak megtekinthető pénztárca"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Ha tokeneket küld egy pénztárca címére, azok itt fognak megjelenni",
+          "title": "Nincs mentett pénztárca"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Te küldöd"
+      },
+      "summary": {
+        "button": {
+          "title": "Küldés megerősítése"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "A beírt cím nem létezik, vagy hibásan van írva.",
+        "title": "Nincs találat"
+      },
+      "placeholder": "Keressen az ENS-en vagy a címen"
+    },
+    "title": "Küld",
+    "warning": {
+      "blocked": {
+        "default": "Ez a pénztárca le van tiltva",
+        "modal": {
+          "message": "Ez a cím le van tiltva az Uniswap Wallet szolgáltatásban, mert egy vagy több blokkolt tevékenységhez kapcsolódik. Ha úgy gondolja, hogy ez hiba, kérjük, írjon e-mailt a compliance@uniswap.org címre.",
+          "title": "Letiltott cím"
+        },
+        "recipient": "A címzett pénztárcája blokkolva van"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Ön egy token címre próbál pénzt küldeni. Ez tartós pénzkiesést eredményezhet.",
+          "heading": "Token cím észlelve"
+        },
+        "message": "Ön egy token címre próbál pénzt küldeni. A kriptográfiai adatok ilyen típusú címre történő küldése tartós pénzkiesést eredményezhet.",
+        "title": "Ez egy token cím"
+      },
+      "insufficientFunds": {
+        "message": "{{currencySymbol}} egyenlege csökkent, mióta megadta az elküldeni kívánt összeget",
+        "title": "Nem elég {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Nincs elég <highlight>{{currencySymbol}} {{networkName}}</highlight> a küldéshez",
+          "withoutNetwork": "Nem elég <highlight>{{currencySymbol}}</highlight> a küldéshez"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "rendben",
+            "cancel": "Megszünteti",
+            "confirm": "megerősít"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Felhasználónév",
+          "walletAddress": "Pénztárca címe"
+        },
+        "message": "Még nem kötött tranzakciót ezzel a címmel. Kérjük, ellenőrizze, hogy a cím helyes-e, mielőtt folytatná.",
+        "title": "Új cím"
+      },
+      "self": {
+        "message": "Pénzt próbál küldeni jelenlegi pénztárcájába. A kriptográfiai adatok erre a címre történő küldése szükségtelen hálózati költségekkel jár.",
+        "title": "Ez a jelenlegi pénztárcája"
+      },
+      "smartContract": {
+        "message": "Arra készül, hogy pénzt küldjön egy intelligens szerződéses címre. Győződjön meg arról, hogy ez a helyes cím, és hogy képes tokeneket fogadni. Ellenkező esetben ez tartós pénzkiesést eredményezhet.",
+        "title": "Ez egy intelligens szerződéses cím"
+      },
+      "viewOnly": {
+        "message": "Az eszközök küldéséhez importálnia kell ezt a pénztárcát a helyreállítási kifejezésen keresztül.",
+        "title": "Ez a pénztárca csak megtekinthető"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Legutóbbiak"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Értékelés küldése"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Helyreállítási kifejezés megjelenítése"
+      },
+      "action": {
+        "hide": "Helyreállítási kifejezés elrejtése"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Tudomásul veszem, hogy az Uniswap Labs nem tud segíteni a pénztárcám visszaszerzésében, ha ezt nem tenném meg.",
+          "title": "Mentettem a helyreállítási mondatomat"
+        },
+        "initial": {
+          "subtitle": "Győződjön meg arról, hogy elmentette a helyreállítási kifejezést. Ellenkező esetben elveszíti hozzáférését a pénztárcájához",
+          "title": "Mielőtt folytatná"
+        },
+        "password": {
+          "error": "Rossz jelszó. Próbáld újra"
+        },
+        "subtitle": "A megerősítéshez adja meg jelszavát",
+        "title": "Eltávolítja a helyreállítási kifejezést"
+      },
+      "title": "A helyreállítási kifejezés",
+      "view": {
+        "warning": {
+          "message1": "Bárki, aki ismeri a helyreállítási kifejezést, hozzáférhet pénztárcájához és pénzeszközeihez",
+          "message2": "Nézze meg privátban",
+          "message3": "Ne ossza meg senkivel",
+          "message4": "Soha ne írja be semmilyen webhelyen vagy alkalmazásban",
+          "title": "Mielőtt folytatná"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Bárki, aki ismeri a helyreállítási kifejezést, hozzáférhet pénztárcájához és pénzeszközeihez.",
+          "title": "Tekintse meg ezt privát helyen"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Engedélyezze a Beállításokban",
+      "feedback": "Visszajelzés küldése",
+      "help": "Kaphat segítséget",
+      "lock": "Zárható pénztárca",
+      "privacy": "Adatvédelmi irányelvek",
+      "terms": "Szolgáltatás feltételei"
+    },
+    "footer": "Szeretettel készült, \nUniswap Team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Az 1 USD alatti egyenlegek el lesznek rejtve a portfóliójában."
+    },
+    "maxSlippage": "Max. csúszás",
+    "section": {
+      "about": "Ról ről",
+      "preferences": "preferenciák",
+      "privacyAndSecurity": "Adatvédelem és biztonság",
+      "support": "Támogatás",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} egyéb pénztárcák"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Mindig használjon sötét témát.",
+            "title": "Sötét"
+          },
+          "device": {
+            "subtitle": "Alkalmazkodik a készülék beállításaihoz.",
+            "title": "Auto"
+          },
+          "light": {
+            "subtitle": "Mindig használjon világos témát.",
+            "title": "Fény"
+          }
+        },
+        "title": "Téma"
+      },
+      "backup": {
+        "create": {
+          "description": "A jelszó beállítása titkosítja a helyreállítási kifejezés biztonsági másolatát, ami további védelmet biztosít, ha {{cloudProviderName}} fiókját valaha is feltörik.",
+          "title": "Vissza a {{cloudProviderName}}-ig"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Mivel ezek a pénztárcák egy helyreállítási kifejezést használnak, az alábbi biztonsági másolatokat is törli ezekről a pénztárcákról",
+            "title": "biztos vagy ebben?"
+          },
+          "warning": "Ha törli {{cloudProviderName}} biztonsági másolatát, csak a helyreállítási kifejezés manuális biztonsági másolatával tudja visszaállítani pénztárcáját. Az Uniswap Labs nem tudja visszaállítani az eszközöket, ha elveszíti a helyreállítási kifejezést."
+        },
+        "error": {
+          "message": {
+            "full": "Nem sikerült biztonsági másolatot készíteni a helyreállítási kifejezésről a {{cloudProviderName}}címre. Győződjön meg arról, hogy a {{cloudProviderName}} engedélyezve van a szabad tárhellyel, és próbálja újra.",
+            "short": "Nem sikerült törölni a biztonsági másolatot"
+          },
+          "title": "{{cloudProviderName}} hiba"
+        },
+        "modal": {
+          "description": "Még nem készített biztonsági másolatot a helyreállítási kifejezésről a {{cloudProviderName}} értékre. Ezzel helyreállíthatja pénztárcáját, ha bármely eszközön bejelentkezik a {{cloudProviderName}} fiókba.",
+          "title": "Menti a helyreállítási kifejezést a {{cloudProviderName}}címre?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "A jelszavak nem egyeznek"
+          },
+          "medium": "Ez egy közepes jelszó",
+          "placeholder": {
+            "confirm": "Jelszó megerősítése",
+            "create": "Jelszó létrehozása"
+          },
+          "strong": "Ez egy erős jelszó",
+          "weak": "Ez egy gyenge jelszó"
+        },
+        "recoveryPhrase": {
+          "label": "Helyreállítási kifejezés"
+        },
+        "selected": "{{cloudProviderName}} biztonsági mentés",
+        "status": {
+          "action": {
+            "delete": "Biztonsági másolat törlése"
+          },
+          "complete": "Biztonsági mentés a {{cloudProviderName}}értékre",
+          "description": "Ha a helyreállítási kifejezésről biztonsági másolatot készít {{cloudProviderName}}értékre, akkor visszaállíthatja pénztárcáját, ha bármelyik eszközön bejelentkezik {{cloudProviderName}} fiókjába.",
+          "inProgress": "Biztonsági mentés {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Alátámasztva"
+          },
+          "title": "{{cloudProviderName}} biztonsági mentés"
+        }
+      },
+      "beta": {
+        "tooltip": "Hamarosan"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Az alkalmazás megnyitásához arc/ujjlenyomat szükséges.",
+            "ios": "Az alkalmazás megnyitásához {{biometricsMethod}} szükséges."
+          },
+          "title": "Alkalmazás hozzáférés"
+        },
+        "auth": "Kérjük, hitelesítse",
+        "off": {
+          "message": {
+            "android": "A biometria jelenleg ki van kapcsolva az Uniswap Wallet esetében – a rendszerbeállításokban kapcsolhatja be.",
+            "ios": "A {{biometricsMethod}} jelenleg ki van kapcsolva az Uniswap Wallet esetében – a rendszerbeállításokban kapcsolhatja be."
+          },
+          "title": {
+            "android": "A biometria ki van kapcsolva",
+            "ios": "A {{biometricsMethod}} ki van kapcsolva"
+          }
+        },
+        "title": "Arc/ujjlenyomatos feloldás",
+        "transactions": {
+          "subtitle": {
+            "android": "Arc/ujjlenyomat szükséges a tranzakcióhoz.",
+            "ios": "A tranzakcióhoz {{biometricsMethod}} szükséges."
+          },
+          "title": "Tranzakciók"
+        },
+        "unavailable": {
+          "message": {
+            "android": "A biometria nincs beállítva az eszközön. A biometrikus adatok használatához először állítsa be a Beállításokban.",
+            "ios": "A {{biometricsMethod}} nincs beállítva az eszközön. A {{biometricsMethod}}használatához először állítsa be a Beállításokban."
+          },
+          "title": {
+            "android": "A biometria nincs beállítva",
+            "ios": "A {{biometricsMethod}} nincs beállítva"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Ha nem kapcsolja be a biometrikus adatokat, bárki, aki hozzáfér az eszközéhez, megnyithatja az Uniswap Wallet alkalmazást, és tranzakciókat hajthat végre.",
+            "ios": "Ha nem kapcsolja be a {{biometricsMethod}}funkciót, bárki, aki hozzáfér az eszközéhez, megnyithatja az Uniswap Wallet alkalmazást, és tranzakciókat hajthat végre."
+          },
+          "title": "biztos vagy ebben?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Válassza le az összeset",
+        "noConnectionsDescription": "Csatlakozzon egy alkalmazáshoz a „pénztárca csatlakoztatása” vagy a „Bejelentkezés” gomb megkeresésével."
+      },
+      "currency": {
+        "title": "Helyi pénznem"
+      },
+      "hapticTouch": {
+        "title": "Haptikus érintés"
+      },
+      "helpCenter": {
+        "title": "Segítség Központ"
+      },
+      "language": {
+        "button": {
+          "navigate": "Menj a beállításokhoz"
+        },
+        "description": {
+          "extension": "Uniswap alapértelmezés szerint a rendszer nyelvi beállításai. A preferált nyelv megváltoztatásához lépjen a rendszerbeállításokhoz.",
+          "mobile": "Az Uniswap alapértelmezett beállításai az eszköz nyelvi beállításai. Az előnyben részesített nyelv megváltoztatásához lépjen az eszközbeállítások „Uniswap” elemére, és érintse meg a „Nyelv” elemet."
+        },
+        "title": "Nyelv"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Átutalások, kérések és egyéb tevékenységek",
+            "title": "Pénztárca tevékenység"
+          },
+          "priceAlerts": {
+            "description": "Nagy árváltozások a kedvenc tokeneknél",
+            "title": "Árriasztások"
+          },
+          "updates": {
+            "description": "Ajánlások és új funkciók",
+            "title": "Frissítések az Uniswapból"
+          }
+        },
+        "title": "Értesítések"
+      },
+      "password": {
+        "title": "Jelszó módosítása"
+      },
+      "permissions": {
+        "title": "Engedélyek"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Anonim használati adatokat használunk, hogy javítsuk az Uniswap Labs termékeinél tapasztalt élményt. Ha le van tiltva, csak a hibákat és az alapvető használatot követjük nyomon.",
+          "title": "Alkalmazáselemzés"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Írd be a jelszavad"
+        },
+        "title": "Helyreállítási kifejezés"
+      },
+      "smallBalances": {
+        "title": "Portfólió egyensúly"
+      },
+      "unknownTokens": {
+        "subtitle": "A lehetséges átverési tokenek el lesznek rejtve a portfóliójában.",
+        "title": "Ismeretlen tokenek elrejtése"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Címke szerkesztése",
+          "editProfile": "Profil szerkesztése",
+          "remove": "Távolítsa el a pénztárcát"
+        },
+        "connection": {
+          "banner": {
+            "description": "A profilképére kattintva kezelheti a kapcsolatokat a pénztárca beállításain keresztül.",
+            "title": "A kapcsolatok elköltöztek"
+          }
+        },
+        "connections": {
+          "title": "Kapcsolatok"
+        },
+        "editLabel": {
+          "description": "A címkék nem nyilvánosak. Helyben tárolják őket, és csak Ön láthatja őket.",
+          "save": "Változtatások mentése"
+        },
+        "label": "Becenév",
+        "testnetMode": {
+          "description": "Ez bekapcsolja a teszthálózatokat a fejlesztők számára, hogy valódi eszközök használata nélkül próbálhassák ki a funkciókat és a tranzakciókat. A teszthálózatokon lévő tokenek nem rendelkeznek valós értékkel.",
+          "title": "Testnet mód"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Az Uniswap használatához {{label}}esetén váltson hálózatot a pénztárca beállításaiban."
+    },
+    "title": "Beállítások",
+    "version": "{{appVersion}}verzió"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Az intelligens pénztárcák gyorsabb, olcsóbb tranzakciókat tesznek lehetővé biztonságos intelligens szerződések segítségével.",
+      "info": "Ez nem érinti azokat a pénztárcákat, amelyek már használnak egy másik alkalmazás intelligens pénztárca funkcióit."
+    },
+    "enabledModal": {
+      "description": "A frissítések a következő cserénél lépnek életbe.",
+      "title": "Intelligens pénztárca engedélyezve"
+    },
+    "postSwapNudge": {
+      "description": "Az intelligens pénztárca gyorsabb, olcsóbb tranzakciókat tesz lehetővé biztonságos intelligens szerződések segítségével.",
+      "enable": "Intelligens pénztárca engedélyezése",
+      "title": "Takarítson meg a következő cserénél"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Még nem kötött tranzakciót ezzel a címmel. Mielőtt folytatná, győződjön meg arról, hogy ez a helyes cím.",
+        "title": "Új cím"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Arra készül, hogy tokeneket küldjön egy speciális címre – egy intelligens szerződésre. Ellenőrizze még egyszer, hogy az a cím, amelyre küldeni kívánt. Ha rossz, a tokenek örökre elveszhetnek.",
+        "title": "Ez egy pénztárca cím?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24 órás díjak",
+    "24volume": "24 órás hangerő",
+    "allTimeFees": "Mindenkori LP díjak",
+    "allTimeSwappers": "Mindenkori cserélők",
+    "allTimeVolume": "Mindenkori hangerő",
+    "fdv": {
+      "description": "A teljesen hígított értékelés (FDV) a teljes piaci értéket számítja ki, feltételezve, hogy az összes token forgalomban van."
+    },
+    "marketCap": {
+      "description": "A piaci kapitalizáció egy eszköz forgalomban lévő készletének teljes piaci értéke."
+    },
+    "tvl": {
+      "description": "A teljes zárolt érték (TVL) az összes Uniswap likviditási poolban elérhető eszköz összesített összege."
+    },
+    "volume": {
+      "1d": {
+        "description": "Az 1 napos mennyiség annak az eszköznek az összege, amellyel az elmúlt 24 órában Uniswapon kereskedtek.",
+        "long": "1D kötet",
+        "short": "1D köt"
+      },
+      "description": "A mennyiség annak az eszköznek az összege, amellyel az Uniswapon kereskedtek a kiválasztott időtartam alatt."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} engedélyezése (egyszer)"
+    },
+    "approvalNeeded": "A token használatához jóváhagyásra van szükség. ",
+    "approvalPending": "Kérelem folyamatban",
+    "approveAndSubmit": "Jóváhagyás és benyújtás",
+    "approveAndSwap": "Jóváhagyás és csere",
+    "approveInWallet": "Jóváhagyja a pénztárcájában",
+    "balance": {
+      "amount": "Egyenleg: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "A leghatékonyabb útvonal a becslések szerint ~{{gasPrice}} hálózati költségekbe kerül. "
+    },
+    "bridging": {
+      "estimatedTime": "Becs. idő",
+      "title": "Csere a hálózatok között",
+      "warning": {
+        "description": "A {{fromNetwork}} értékről a {{toNetwork}}értékre vált. Ezt \"áthidalásnak\" is nevezik, amely áthelyezi a tokeneket egyik hálózatról a másikra."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Felülvizsgálat",
+      "submitting": {
+        "keep": {
+          "open": "Tartsa nyitva a pénztárcáját..."
+        }
+      },
+      "swap": "Csere",
+      "swapAnyways": "Cserélj mindenképp",
+      "unwrap": "Kibont",
+      "wrap": "Betakar"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Keresés ország vagy régió szerint"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "A csere még a törlés feldolgozása előtt végrehajtható. Hálózati költségei nem téríthetők vissza. Szeretné folytatni?",
+      "cannotExecute_other": "A csereügyletek még a törlés feldolgozása előtt végrehajthatók. Hálózati költségei nem téríthetők vissza. Szeretné folytatni?"
+    },
+    "confirmLimit": "Erősítse meg a limitet",
+    "confirmSwap": "Erősítse meg a cserét",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. határidő"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Jelképes díj"
+      },
+      "newQuote": {
+        "input": "Új bemenet",
+        "output": "Új kimenet"
+      },
+      "orderRouting": "Rendelési útválasztás",
+      "orderRoutingInfo": "Ez a csere az Acrosson keresztül történik, egy decentralizált protokollon, amely az eszközöket a hálózatok között mozgatja, miközben előnyben részesíti a biztonságot, a gyors végrehajtást és az alacsony árakat.",
+      "poweredBy": "Powered by",
+      "rate": "Mérték",
+      "slippage": "Max csúszás",
+      "uniswapFee": "Díj"
+    },
+    "error": {
+      "default": "Előfordulhat, hogy növelnie kell a csúszástűrő képességét. Megjegyzés: az átviteli díjak és az alapjogkivonatok nem kompatibilisek az Uniswap V3-mal.",
+      "expectedToFail": "A csere várhatóan sikertelen lesz.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} bemenet nem érhető el",
+      "modifiedByWallet": "A cseréjét a pénztárcáján keresztül módosították. Ha ez tévedés volt, kérjük, azonnal mondja le, vagy kockáztatja a pénzeszközök elvesztését.",
+      "rejected": "Tranzakció elutasítva",
+      "undefinedObject": "Hiba történt a csere végrehajtásakor. Előfordulhat, hogy növelnie kell a csúszástűrő képességét. Ha ez nem működik, előfordulhat, hogy nem kompatibilis az Ön által kereskedett tokennel. Megjegyzés: az átviteli díjak és az alapjogkivonatok nem kompatibilisek az Uniswap V3-mal.",
+      "unknown": "Ismeretlen hiba.",
+      "v2": {
+        "expired": "Ezt a tranzakciót nem lehetett elküldeni, mert lejárt a határidő. Kérjük, ellenőrizze, hogy a tranzakció határideje nem túl rövid.",
+        "k": "Az x*y=k Uniswap invariáns nem volt kielégítve a swap által. Ez általában azt jelenti, hogy az Ön által cserélt tokenek egyike egyéni viselkedést tartalmaz az átvitel során.",
+        "slippage": "Ez a tranzakció sem ármozgás, sem átutalási díj miatt nem fog sikerülni. Próbálja meg növelni a csúszástűrő képességét",
+        "transferInput": "A bemeneti token nem vihető át. Probléma lehet a beviteli tokennel.",
+        "transferOutput": "A kimeneti token nem vihető át. Probléma lehet a kimeneti tokennel."
+      },
+      "v3": {
+        "slippage": "Ez a tranzakció az ármozgás miatt nem fog sikerülni. Próbálja meg növelni a csúszástűrő képességét. Megjegyzés: Az átviteli díj és az újraalapozási tokenek nem kompatibilisek az Uniswap V3-mal.",
+        "transferOutput": "A kimeneti token nem vihető át. Probléma lehet a kimeneti tokennel. Megjegyzés: Az átviteli díj és az újraalapozási tokenek nem kompatibilisek az Uniswap V3-mal."
+      }
+    },
+    "estimatedDifference": {
+      "label": "A jelenlegi likviditás miatt nagy különbségek lesznek a bemeneti és kimeneti értékek között."
+    },
+    "fail": {
+      "message": "Próbálja meg magasabb értékre állítani a csúszást.",
+      "uniswapX": "A csere nem hajtható végre UniswapX-szel. Próbálja újra a cserét, hogy a klasszikus Uniswap API-n keresztül irányítsa."
+    },
+    "fees": {
+      "experience": "Ezt a díjat egyes tokenpárokra alkalmazzák a legjobb Uniswap élmény biztosítása érdekében. Kifizetik a kimeneti tokenben, és már bekerült az árajánlatba.",
+      "noFee": "A kiválasztott tokenpárokra díjat számítanak fel, hogy a legjobb Uniswap élményt biztosítsák. Ehhez a cseréhez nem jár díj."
+    },
+    "fetchingBestPrice": "A legjobb ár lekérése...",
+    "fetchingPrice": "Ár lekérése...",
+    "finalizingQuote": "Árajánlat véglegesítése...",
+    "form": {
+      "header": "Csere",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "A swap összegek a jelképes díjak miatt csak a beviteli mező használatával adhatók meg"
+          }
+        },
+        "restore": "Helyezze vissza pénztárcáját a cseréhez"
+      }
+    },
+    "frontrun": {
+      "warning": "Előfordulhat, hogy az Ön tranzakciója előre lebonyolított, és kedvezőtlen kereskedést eredményezhet."
+    },
+    "header": {
+      "viewOnly": "Csak megtekintésre"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Előfordulhat, hogy az alacsony likviditású párok esetében nem állnak rendelkezésre árhatás számítások."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "A bemenet becsült. Legfeljebb <amount /> ad el, különben a tranzakció visszaáll."
+    },
+    "limit": "Határ",
+    "limitedAssets": {
+      "warning": "Egyes eszközök nem érhetők el ezen a felületen, mert előfordulhat, hogy nem működnek jól az intelligens szerződésekkel, vagy jogi okokból nem tudjuk engedélyezni a kereskedést."
+    },
+    "limitFilled": "Limit betöltött!",
+    "limitSubmitted": "Limit elküldve",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "A piaci ár kívül esik a megadott ártartományon. Csak egy eszköz betét."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "A garantáltan elkölthető maximális összeg. Ha az ár tovább csúszik, a tranzakció visszaáll."
+    },
+    "minPriceSlip": {
+      "revert": "Ha az ár úgy változik, hogy {{amount}}-nál kevesebbet kap, a tranzakció visszaáll."
+    },
+    "networkCost": {
+      "paidIn": "A hálózati költséget {{sym}} -ban kell fizetni a {{chainName}} hálózaton az ügylet lebonyolítása érdekében."
+    },
+    "orderRouting": "Rendelési útválasztás",
+    "outputEstimated": {
+      "atLeast": "A kimenet becsült. Legalább <amount /> érkezik, különben a tranzakció visszaáll."
+    },
+    "payAnyway": "Fizessen egyébként",
+    "payAtMost": "Fizetni legfeljebb",
+    "payWith": "Fizessen ezzel",
+    "placeOrder": "Rendelés leadása",
+    "priceImpact": "Árhatás",
+    "receive": {
+      "atLeast": "Fogadjon legalább"
+    },
+    "request": {
+      "title": {
+        "full": "Csere {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Cserélje ki a tokeneket"
+      }
+    },
+    "review": {
+      "summary": "Cserélsz"
+    },
+    "reviewLimit": "Ellenőrzési korlát",
+    "route": {
+      "optimizedGasCost": "Ez az útvonal minden lépésnél figyelembe veszi a megosztott útvonalakat, a többszörös ugrásokat és a hálózati költségeket."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "A tranzakció visszaáll, ha az ennél hosszabb ideig függőben van. (Maximum: 3 nap).",
+        "warning": "Magas határidő"
+      },
+      "protection": {
+        "description": "A cserevédelem bekapcsolásával az Ethereum-tranzakciói védettek lesznek a szendvicstámadásokkal szemben, és csökken a kudarc esélye.",
+        "subtitle": {
+          "supported": "{{chainName}} Hálózat",
+          "unavailable": "Nem érhető el itt: {{chainName}}"
+        },
+        "title": "Cserevédelem"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Az Uniswap kliens az ár és a hálózati költségek figyelembevételével a legolcsóbb kereskedési lehetőséget választja."
+            },
+            "tooltip": "Az útvonal a v2, v3 és bizonyos v4 készletek alapján kerül meghatározásra, figyelembe véve a becsült árhatást és a hálózati költségeket."
+          },
+          "v2": {
+            "title": "v2 poolok"
+          },
+          "v3": {
+            "title": "v3 poolok"
+          },
+          "v4": {
+            "title": "v4 poolok"
+          }
+        },
+        "title": "Kereskedelmi lehetőségek"
+      },
+      "slippage": {
+        "alert": "Magas csúszás",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "A tranzakció visszaáll, ha az ár a csúszási százaléknál nagyobb mértékben változik.",
+        "input": {
+          "message": "Ha az ár tovább csúszik, a tranzakció visszaáll. Az alábbiakban látható a garantáltan megkapott minimális összeg.",
+          "receive": {
+            "title": "Fogadjon legalább"
+          }
+        },
+        "output": {
+          "message": "Ha az ár tovább csúszik, a tranzakció visszaáll. Az alábbiakban látható a maximálisan elkölthető összeg.",
+          "spend": {
+            "title": "Legfeljebb költeni"
+          }
+        },
+        "warning": {
+          "description": "A 20% feletti csúszás valószínűleg kedvezőtlen kereskedést eredményez. Csökkentse a beállításokat az első lépések kockázatának csökkentése érdekében.",
+          "hover": "Ez kedvezőtlen kereskedést eredményezhet. Próbálja csökkenteni a csúszási beállítást.",
+          "max": "Adjon meg egy kisebb értéket, mint {{maxSlippageTolerance}}",
+          "message": "A csúszás a szükségesnél nagyobb lehet",
+          "min": "Adjon meg 0-nál nagyobb értéket"
+        }
+      },
+      "title": "Cserélje ki a beállításokat",
+      "transactionRevertPrice": "A tranzakció visszaáll, ha az ár ennél a százaléknál nagyobb mértékben változik kedvezőtlenül."
+    },
+    "signAndSwap": "Írd alá és cseréld",
+    "slippage": {
+      "amt": "{{amt}} csúszás",
+      "bridging": "Nincs csúszás a hálózatok közötti csere során",
+      "settings": {
+        "title": "Csúszási beállítások"
+      },
+      "tooltip": "A tranzakció előtti maximális ármozgás visszaáll."
+    },
+    "slippageBelow": {
+      "warning": "A {{amt}} alatti elcsúszás sikertelen tranzakcióhoz vezethet"
+    },
+    "submitted": "Csere beküldve",
+    "success": "Csere siker!",
+    "tokenOwnFees": "Egyes tokenek vásárlásukkor vagy eladásukkor díjat számítanak fel, amelyet a token kibocsátója határoz meg. Az Uniswap nem kapja meg ezeket a díjakat.",
+    "total": "Teljes",
+    "tradeRoutes": "Kereskedelmi utak",
+    "transaction": {
+      "deadline": "Tranzakció határideje",
+      "revertAfter": "A tranzakció visszaáll, ha az ennél hosszabb ideig függőben van."
+    },
+    "unsupportedAssets": {
+      "readMore": "További információ a nem támogatott eszközökről"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Adjon meg nagyobb összeget"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Próbálja meg növelni a csúszását.",
+        "titleMay": "Ez a csere sikertelen lehet"
+      },
+      "insufficientBalance": {
+        "title": "Nincs elég {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Csere {{ tokenSymbol }} értékre {{networkName}}-n",
+          "buy": "Vásároljon {{ tokenSymbol }}",
+          "buyWithCard": "Vásároljon kártyával"
+        },
+        "message": {
+          "withNetwork": "Nem elég <highlight>{{currencySymbol}} {{networkName}}</highlight> a cseréhez",
+          "withoutNetwork": "Nem elég <highlight>{{currencySymbol}}</highlight> a cseréhez"
+        },
+        "title": "Nincs elég {{currencySymbol}} a hálózati költségek fedezésére"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} engedélyezése (egyszer)",
+        "highRelativeToValue": {
+          "unichain": "A hálózati költség meghaladja a tranzakció teljes értékének 10%-át. Ez a tranzakció feldolgozási költsége a blokkláncon."
+        },
+        "message": {
+          "unichain": "Ez a tranzakció folyamatának költsége a blokkláncon.",
+          "uniswapX": {
+            "unichain": "Ez a tranzakció feldolgozási költsége a blokkláncon. <gradient>UniswapX</gradient> aggregálja a likviditási forrásokat a jobb árak és a gázmentes csereügyletek érdekében."
+          }
+        },
+        "wrap": "Csomagolja be az ETH-t"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Nem található áthidaló idézet. Próbálja meg most a hivatalos hidat használni."
+        },
+        "title": "Nem található idézet"
+      },
+      "noRoutesFound": {
+        "message": "Jelenleg nincsenek elérhető útvonalak a kiválasztott tokenekhez. Próbálkozzon másik párral, vagy ellenőrizze később.",
+        "title": "Nincsenek elérhető útvonalak"
+      },
+      "offline": {
+        "message": "Lehetséges, hogy megszakadt az internetkapcsolat, vagy a hálózat nem működik. Kérjük, ellenőrizze internetkapcsolatát, és próbálja újra.",
+        "title": "Ön offline állapotban van"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Ez a tranzakció {{priceImpactValue}} árhatást fog okozni ennek a poolnak a piaci árára, és forráskiesést eredményez."
+        },
+        "title": {
+          "veryHigh": "Nagyon nagy árhatás ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "A tranzakciót nem küldte el, mert bezárta az alkalmazást.",
+        "approvalFailed": "A tranzakció nem lett elküldve, mert a token jóváhagyása nem sikerült.",
+        "stale": "A tranzakció nem lett elküldve, mert bezárta az alkalmazást, vagy a jóváhagyás túl sokáig tartott.",
+        "submissionFailed": "Hiba történt a tranzakció elküldésekor.",
+        "title": "A csere törölve",
+        "wrap": {
+          "message": "ETH-ja WETH-ként csomagolva marad."
+        },
+        "wrapFailed": "A tranzakció nem lett elküldve, mert a wrap tranzakció sikertelen volt."
+      },
+      "rateLimit": {
+        "message": "Kérjük, próbálja újra néhány perc múlva.",
+        "title": "A díjkorlát túllépve"
+      },
+      "router": {
+        "message": "Lehetséges, hogy megszakadt a kapcsolat, vagy nem működik a hálózat. Ha a probléma továbbra is fennáll, próbálkozzon újra később.",
+        "title": "Ez a kereskedés jelenleg nem fejezhető be"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} le van tiltva"
+      },
+      "tokenBlockedFallback": {
+        "button": "A token le van tiltva"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "A díjakat a legjobb Uniswap-élmény biztosítása érdekében alkalmazzuk. Ehhez a cseréhez nem jár díj.",
+          "included": "A díjakat a legjobb Uniswap-élmény biztosítása érdekében alkalmazzuk, és ezeket már figyelembe vettük ebben az árajánlatban."
+        },
+        "title": "Cseredíj"
+      },
+      "viewOnly": {
+        "message": "A tokenek cseréjéhez a helyreállítási kifejezésen keresztül importálnia kell ezt a pénztárcát."
+      }
+    },
+    "wrap": {
+      "token": "Burkolj {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Más hálózatokon",
+      "otherNetworksBalance": "Egyensúly más hálózatokon",
+      "title": "Az egyensúlyod"
+    },
+    "button": {
+      "getToken": "Szerezz {{ tokenSymbol }}",
+      "getTokenFallback": "Szerezzen be Tokent"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Váltás {{network}}-ra",
+      "title": "Ez a token nem létezik",
+      "titleWithChain": "Ez a token nem létezik itt: {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "token adatok a <tokenLink />számára",
+        "withChain": "<tokenLink /> tokenadatok a {{chainName}}-n"
+      }
+    },
+    "nameNotFound": "A név nem található",
+    "noInfoAvailable": "Nem áll rendelkezésre token információ",
+    "noTestnetSupportDescription": "Egyes teszthálózatok nem támogatják a tokenek cseréjét, küldését vagy vásárlását.",
+    "stats": {
+      "unsupportedChainDescription": "A {{chain}} tokenstatisztikái és diagramjai a {{infoLink}}oldalon érhetők el"
+    },
+    "symbolNotFound": "A szimbólum nem található"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Ehhez a művelethez le kell tiltani a teszthálózati módot. A Testnet mód a beállításokon belül bármikor újra engedélyezhető.",
+          "toTestnetMode": "Ehhez a művelethez engedélyezni kell a teszthálózati módot. A teszthálókon található tokenek nem rendelkeznek valós értékkel. A Testnet mód bármikor letiltható a beállításokon belül."
+        },
+        "title": {
+          "toProdMode": "A tesztnet mód letiltása",
+          "toTestnetMode": "Engedélyezze a teszthálózati módot"
+        }
+      }
+    },
+    "unsupported": "Ez a funkció nem támogatott tesztnet módban."
+  },
+  "themeToggle": {
+    "theme": "Téma"
+  },
+  "title": {
+    "buySellTradeEthereum": "Vásárolj, adj el és cserélj Ethereumot és más legjobb tokeneket az Uniswap-on",
+    "createGovernanceOn": "Hozzon létre új irányítási javaslatot az Uniswapban",
+    "createGovernanceTo": "Hozzon létre egy új irányítási javaslatot, amelyről az UNI tulajdonosai szavazhatnak. Az UNI tokenek az Uniswap irányításának szavazati jogát képviselik.",
+    "earnFees": "Szerezzen díjat, amikor mások Uniswapban cserélnek, ha tokeneket adnak a likviditási készletekhez.",
+    "easilyRemove": "Könnyen távolítsa el likviditását az Uniswap v2-ből, és helyezzen be a Uniswap v3-ba.",
+    "easilyRemoveV4": "Könnyen távolítsa el likviditását az Uniswap v2-ből és v3-ból, hogy befizesse az Uniswap v4-be.",
+    "explore": "Fedezze fel az Uniswap NFT-jét",
+    "extensionPasskeySignIn": "Jelentkezzen be a jelszóval",
+    "manageNFT": "Kezelje NFT-gyűjteményét. Tekintse meg NFT-jei jellemzőit, kereskedési tevékenységét, leírásait és egyéb részleteit.",
+    "migratev2": "A v2 pool likviditásának migrálása az Uniswap v3-ra",
+    "migratev3": "A készlet likviditásának migrálása az Uniswap v4-re",
+    "placeLimit": "Adjon le limites megbízásokat az Uniswap oldalon",
+    "realTime": "Valós idejű árak, diagramok, tranzakciós adatok és egyebek.",
+    "removeLiquidityv2": "Távolítsa el a pool likviditását (v2) az Uniswapnál",
+    "removePoolLiquidity": "Távolítsa el a pool likviditását az Uniswap során",
+    "removeTokensv2": "Távolítsa el a tokeneket a v2 likviditási készletekből.",
+    "removev3Liquidity": "Távolítsa el a tokeneket a v3 likviditási készletekből.",
+    "sendTokens": "Token küldése Uniswap-on",
+    "swappingMadeSimple": "Egyszerű a csere. Vásároljon és adjon el kriptot az Ethereum, a Base, az Arbitrum, a Polygon és más oldalakon. Milliók bíznak meg benne.",
+    "tradeTokens": "Kereskedjen tokenekkel és biztosítson likviditást. Valós idejű árak, diagramok, tranzakciós adatok és egyebek.",
+    "uniswapTradeCrypto": "Unswap | Kereskedjen biztonságosan kriptoval és NFT-vel a felső DeFi platformon",
+    "uniToken": "Az UNI tokenek az Uniswap irányításának szavazati jogát képviselik. Minden javaslatról szavazhat saját maga, vagy átruházhatja szavazatait harmadik félre.",
+    "voteOnGov": "Szavazás az Uniswap irányítási javaslatairól"
+  },
+  "token": {
+    "balances": {
+      "main": "Az egyensúlyod",
+      "other": "Egyenlegek más hálózatokon",
+      "viewOnly": "{{ownerAddress}}egyenlege"
+    },
+    "bridge": "{{label}} token híd",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Ehhez a tokenhez nem állnak rendelkezésre gyertyatartó diagramok"
+      },
+      "tooltip": "Díjak: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "A token részletei nem érhetők el a testnet tokenek esetében."
+      }
+    },
+    "error": {
+      "unknown": "Ismeretlen token"
+    },
+    "fee": {
+      "buy": {
+        "label": "vásárlási díj"
+      },
+      "label": "díj",
+      "sell": {
+        "label": "eladási díj"
+      }
+    },
+    "links": {
+      "title": "Linkek",
+      "twitter": "Twitter",
+      "website": "Weboldal"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Valami elromlott.",
+        "title": "Nem sikerült betölteni az árdiagramot"
+      },
+      "timeRangeLabel": {
+        "all": "Mindig",
+        "day": {
+          "verbose": "1 nap"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 hónap"
+        },
+        "week": {
+          "verbose": "1 hét"
+        },
+        "year": {
+          "verbose": "1 év"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "A {{tokenSymbol}} nem érhető el",
+          "tokensNotAvailable": "A {{tokenSymbol0}} és {{tokenSymbol1}} nem elérhető"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Az Uniswap Labs nem kapja meg ezeket a díjakat."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Mindig végezzen kutatást",
+        "blocked": {
+          "description": {
+            "default_one": "Ezzel a tokent nem lehet kereskedni az Uniswap alkalmazással.",
+            "default_other": "Ezekkel a tokenekkel nem kereskedhet az Uniswap alkalmazással."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Ez egy szerződési cím, amely a blokkláncon lévő tokenek egyedi azonosítójaként működik. Az erre a címre küldött kriptográfiai adatok elvesznek.",
+          "title": "Ne küldjön titkosítást erre a címre"
+        },
+        "dontShowWarningAgain": "Ne mutasd többé ezt a figyelmeztetést",
+        "doYourOwnResearch": "Mindig végezzen saját kutatást, mielőtt folytatná.",
+        "feeDescription": "<fee /> -t tölt fel, amikor {{action}}",
+        "flaggedAsMalicious": "Rosszindulatúként megjelölve",
+        "fotHigh": {
+          "title": "Magas díj észlelve"
+        },
+        "fotLow": {
+          "title": "Díj észlelve"
+        },
+        "fotVeryHigh": {
+          "title": "Nagyon magas díjat észleltek"
+        },
+        "honeypot": {
+          "message": "A {{tokenSymbol}} eladhatatlanként lett megjelölve. Ennek a tokennek a cseréje a pénzeszközök elvesztését eredményezheti.",
+          "title": "100%-os eladási díj észlelve"
+        },
+        "impersonator": {
+          "title": "Megszemélyesítő token észlelve"
+        },
+        "malicious": {
+          "general": {
+            "message": "A {{tokenSymbol}} rosszindulatúként jelölte meg a Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "Előfordulhat, hogy a {{tokenSymbol}} nem az a token, amelyet cserélni szeretne."
+            }
+          },
+          "title": "Rosszindulatú token észlelve"
+        },
+        "mayResultInLoss": "A csere pénzkiesést okozhat.",
+        "medium": {
+          "heading": {
+            "named": "A {{tokenSymbol}} -vel nem kereskednek a vezető amerikai központosított tőzsdéken."
+          }
+        },
+        "notListedOnExchanges": "Nem jegyzik a vezető amerikai tőzsdéken",
+        "potentialHoneypot": {
+          "card": {
+            "message": "A Blockaid {{tokenSymbol}} gyanúsként jelölte meg."
+          },
+          "modal": {
+            "message": "A {{tokenSymbol}} potenciális mézesedényként jelölte meg a Blockaid. Mindig végezzen saját kutatást, mielőtt továbblép."
+          },
+          "title": "Lehetséges mézesedény észlelve"
+        },
+        "sellFee100": {
+          "message": "A {{ tokenSymbol }} eladhatatlanként lett megjelölve.",
+          "title": "100%-os eladási díj észlelve"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} a Blockaid spamként jelölte meg.",
+          "title": "Spam token észlelve"
+        },
+        "spamsUsers": "Spam felhasználók",
+        "tokenChargesFee": {
+          "both": {
+            "message": "A {{tokenSymbol}} {{buyFeePercent}} díjat számít fel vásárláskor és {{sellFeePercent}} adásvétel esetén."
+          },
+          "buy": {
+            "message": "A {{tokenSymbol}} {{feePercent}} díjat számít fel vásárláskor."
+          },
+          "sell": {
+            "message": "A {{tokenSymbol}} {{feePercent}} díjat számít fel eladáskor."
+          },
+          "unknownFee": {
+            "message": "A {{tokenSymbol}} vásárláskor vagy eladáskor díjat számít fel."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Ezzel a tokennel nem kereskedhet az Uniswap Wallet használatával."
+      },
+      "medium": {
+        "message": {
+          "plural": "Ezekkel a tokenekkel nem kereskednek a vezető amerikai központosított tőzsdéken. Mindig végezzen saját kutatást, mielőtt folytatná."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Nem sikerült betölteni a keresési eredményeket"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Teljesen hígított értékelés",
+      "marketCap": "Piac Cap",
+      "priceHighYear": "52W magas",
+      "priceLowYear": "52W alacsony",
+      "section": {
+        "about": "Körülbelül {{token}}"
+      },
+      "title": "Statisztika",
+      "translation": {
+        "original": "Mutasd az eredetit",
+        "translate": "Fordítás {{language}}nyelvre"
+      },
+      "volume": "24 órás hangerő"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Beviteli token"
+      },
+      "output": {
+        "fallback": "Kimeneti token"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Az Uniswap protokollon a swapok ETH-val kezdődhetnek és végződhetnek. A csere során azonban az ETH WETH-ba kerül."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "A {{ tokenSymbol }}eléréséhez {{ nativeTokenSymbol }} szükséges a hálózati költségek fedezésére.",
+      "title": "{{ nativeTokenName }} kell  "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Token elrejtése",
+      "unhide": "Token felfedése"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Megtekintés itt: {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Nem sikerült betölteni az NFT-gyűjteményt"
+          }
+        },
+        "label": {
+          "items": "Tételek",
+          "owners": "Tulajdonosok",
+          "priceFloor": "Padló",
+          "swapVolume": "Hangerő"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Szerződés címe"
+        },
+        "error": {
+          "load": {
+            "title": "Nem sikerült betölteni az NFT-adatokat"
+          }
+        },
+        "network": "Hálózat",
+        "owner": "Tulajdonában lévő",
+        "price": "Jelenlegi ár",
+        "recentPrice": "Utolsó eladási ár",
+        "traits": "Tulajdonságok"
+      },
+      "empty": {
+        "description": "Nem található NFT"
+      },
+      "error": {
+        "unavailable": "A tartalom nem érhető el"
+      },
+      "hidden": {
+        "action": {
+          "hide": "NFT elrejtése",
+          "unhide": "NFT felfedése"
+        }
+      },
+      "link": {
+        "collection": "Gyűjtemény weboldala"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Nem sikerült betölteni az NFT-ket"
+          }
+        },
+        "none": {
+          "button": "NFT-k fogadása",
+          "description": {
+            "default": "A kezdéshez vigye át NFT-ket egy másik pénztárcából.",
+            "external": "Amikor ez a pénztárca NFT-ket vásárol vagy fogad, azok itt fognak megjelenni."
+          },
+          "title": "Még nincsenek NFT-k"
+        }
+      }
+    },
+    "noneFound": "Nem található token.",
+    "selector": {
+      "button": {
+        "choose": "Válassza ki a tokent",
+        "clear": "Mindent kitöröl"
+      },
+      "empty": {
+        "buy": {
+          "message": "Vásároljon kriptot kártyával vagy bankkal tokenek küldéséhez.",
+          "title": "Vásároljon kriptot"
+        },
+        "receive": {
+          "title": "Token fogadása"
+        },
+        "title": "Még nincsenek tokenek"
+      },
+      "error": {
+        "load": "Nem sikerült betölteni a tokeneket"
+      },
+      "search": {
+        "empty": "Nincs találat a következőre: <highlight>{{searchText}}</highlight>",
+        "placeholder": "Tokenek keresése"
+      },
+      "section": {
+        "bridging": "Csere a hálózatok között",
+        "favorite": "Kedvencek",
+        "otherNetworksSearchResults": "Más hálózatokon található tokenek",
+        "otherSearchResults": "Egyéb tokenek a {{network}}oldalon",
+        "recent": "Legutóbbi keresések",
+        "search": "Keresési eredmények",
+        "trending": "Tokenek 24 órás hangerővel",
+        "yours": "A tokenek"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Keresés a medencékben",
+          "tokens": "Tokenek keresése",
+          "transactions": "Keressen tranzakciókat"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Tranzakció törlése",
+        "description": "Ha törli ezt a tranzakciót, mielőtt a hálózat feldolgozná, akkor új hálózati költséget kell fizetnie az eredeti helyett.",
+        "title": "Törli ezt a tranzakciót?"
+      },
+      "copy": "Tranzakcióazonosító másolása",
+      "copyProvider": "Másolja a {{providerName}} tranzakcióazonosítót"
+    },
+    "amount": {
+      "unlimited": "Korlátlan"
+    },
+    "date": "Beküldve: {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Tól től",
+      "networkFee": "Hálózati költség",
+      "providerFee": "Szolgáltatói díj",
+      "swapRate": "Mérték",
+      "transaction": "Tranzakció",
+      "uniswapFee": "Díj ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Nincs elegendő pool likviditás a tranzakció befejezéséhez",
+    "network": {
+      "all": "Minden hálózat"
+    },
+    "networkCost": {
+      "label": "Hálózati költség",
+      "maxNativeBalance": {
+        "description": "A hálózati token egyenlegének egy kis része a tranzakció hálózati költségének fedezésére van fenntartva.",
+        "title": "Miért nem tudom kihasználni a maximális egyenlegemet?"
+      },
+      "veryHigh": {
+        "label": "Nagyon magas hálózati költség"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Nem lehet törölni a tranzakciót",
+        "replace": "A tranzakció nem pótolható"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Jóváhagyás visszavonva",
+        "canceling": "Jóváhagyás visszavonása",
+        "failed": "Nem sikerült jóváhagyni",
+        "pending": "Jóváhagyás",
+        "success": "Jóváhagyott",
+        "successDapp": "Jóváhagyva: {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Törölt vásárlás",
+        "canceling": "Vásárlás törlése",
+        "failed": "Nem sikerült vásárolni",
+        "pending": "Vásárlás",
+        "success": "Vásárolt",
+        "successDapp": "Vásárlás: {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Megerősítés visszavonva",
+        "canceling": "Függőben lévő lemondás",
+        "failed": "Nem sikerült megerősíteni",
+        "pending": "Tranzakció folyamatban",
+        "success": "Az ügylet megerősítve",
+        "successDapp": "A tranzakció megerősítve ekkor: {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Törölt menta",
+        "canceling": "Menta törlése",
+        "failed": "Nem sikerült menteni",
+        "pending": "Pénzverés",
+        "success": "Verés",
+        "successDapp": "Verés: {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Törölt vásárlás",
+        "canceling": "Vásárlás törlése",
+        "failedOn": "Nem sikerült vásárolni a {{serviceProvider}}napon",
+        "pendingOn": "Vásárlás itt: {{serviceProvider}}",
+        "successOn": "Vásárlás: {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Fogadás megszakítva",
+        "canceling": "Fogadás megszakítása",
+        "failedFrom": "Nem sikerült fogadni a {{serviceProvider}}címről",
+        "pendingFrom": "Fogadás innen: {{serviceProvider}}",
+        "success": "Megérkezett",
+        "successDapp": "Beérkezett {{externalDappName}}",
+        "successFrom": "Kapva innen: {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Visszavonás visszavonva",
+        "canceling": "Visszavonás visszavonása",
+        "failed": "Nem sikerült visszavonni",
+        "pending": "Visszavonás",
+        "success": "Visszavonva",
+        "successDapp": "Visszavonva ekkor: {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Törölt értékesítés",
+        "canceling": "Eladás törlése",
+        "failedOn": "Az értékesítés sikertelen a következőn keresztül: {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Tudjon meg többet a kriptoértékesítésről.",
+          "title": "Miért van még folyamatban az eladásom?"
+        },
+        "pendingOn": "Eladás: {{serviceProvider}}",
+        "successOn": "{{serviceProvider}}keresztül értékesítve"
+      },
+      "sell": {
+        "canceled": "Eladás törölve",
+        "canceling": "Eladás visszavonása",
+        "failed": "Nem sikerült eladni",
+        "pending": "Eladási",
+        "success": "Eladott",
+        "successDapp": "Eladás dátuma: {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Küldés megszakítva",
+        "canceling": "Küldés megszakítása",
+        "failed": "nem sikerült elküldeni",
+        "pending": "Küldés",
+        "success": "Küldött",
+        "successDapp": "Elküldve: {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Törölt csere",
+        "canceling": "Csere lemondása",
+        "expired": "A csere lejárt",
+        "failed": "Nem sikerült a csere",
+        "insufficientFunds": "Fedezethiány",
+        "pending": "Csere",
+        "success": "Cserélve",
+        "successDapp": "Cserélve a {{externalDappName}}-ra"
+      },
+      "unwrap": {
+        "canceled": "Kibontás megszakítva",
+        "canceling": "Kibontás megszakítása",
+        "failed": "Nem sikerült kicsomagolni",
+        "pending": "Kicsomagolás",
+        "success": "Kibontva",
+        "successDapp": "Kibontva: {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Törölt pakolás",
+        "canceling": "A pakolás visszavonása",
+        "failed": "Nem sikerült becsomagolni",
+        "pending": "Csomagolás",
+        "success": "Csomagolt",
+        "successDapp": "{{externalDappName}}-ra burkolva"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} a {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} innen: {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "A tranzakció hálózati költségeinek fedezéséhez ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) szükséges a {{networkName}} oldalon."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Az erre a tokenre való cseréhez több {{tokenSymbol}} kell a {{networkName}}oldalon."
+          },
+          "title": {
+            "withNetwork": "Nem elég {{tokenSymbol}} a {{networkName}}-n",
+            "withoutNetwork": "Nem elég {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Hamarosan elkölti hálózati token egyenlegének nagy részét. Ez nem hagyhat elegendő forrást a jövőbeli hálózati költségek fedezésére.",
+        "title": "Alacsony hálózati token egyenleg"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Nem lehet törölni a tranzakciót",
+        "status": "Hiba a tranzakció állapotának ellenőrzése közben"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> aggregálja a likviditási forrásokat a jobb árak és a gázmentes csereügyletek érdekében.",
+    "learnMore": "Tudjon meg többet az UniswapX-szel való cseréről"
+  },
+  "uniswapx": {
+    "description": "Az UniswapX összesíti a likviditási forrásokat a jobb árak és a gázmentes csereügyletek érdekében.",
+    "included": "Tartalmazza a <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "Az UniswapX v2 kemény árajánlat nem sikerült. Próbálja újra a klasszikus cserével."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Igényeljen most"
+      },
+      "subtitle": "Hozzon létre egy személyre szabott web3-profilt, és egyszerűen ossza meg címét barátaival.",
+      "title": {
+        "compact": "<highlight>Igényelje {{unitagDomain}}</highlight> felhasználónevét, és készítse el testreszabható profilját.",
+        "full": "Igényelje {{unitagDomain}} felhasználónevét"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Válasszon a fényképezőgép tekercséből",
+        "computer": "Feltöltés számítógépről",
+        "nft": "Válasszon egy NFT-t",
+        "remove": "Profilkép eltávolítása"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Profil testreszabása",
+        "description": "A {{unitagAddress}} készen áll a kriptográfia küldésére és fogadására. Folytassa a pénztárca bővítését web3-profilja testreszabásával.",
+        "success": {
+          "long": "Megcsináltad!",
+          "short": "megvan!"
+        }
+      },
+      "error": {
+        "addressLimit": "Már végrehajtotta a maximális számú módosítást ehhez a címhez tartozó felhasználónevében",
+        "avatar": "Nem sikerült beállítani az avatart. Próbáld újra később.",
+        "default": "A felhasználónév nem igényelhető. Próbáld újra később.",
+        "deviceLimit": "Elérte az eszközhöz használható felhasználónevek maximális számát",
+        "general": "A felhasználónév nem igényelhető",
+        "unavailable": "Ez a felhasználónév nem áll rendelkezésre",
+        "unknown": "Ismeretlen hiba"
+      },
+      "username": {
+        "default": "a neved"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Törölni készül felhasználónevét és testreszabható profiladatait. Nem fogja tudni visszaigényelni.",
+        "title": "biztos vagy ebben?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "felhasználónév"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "A felhasználónév megváltoztatására készül. Ha egyszer megváltoztatja, soha többé nem igényelheti.",
+        "title": "biztos vagy ebben?"
+      },
+      "title": "Szerkessze a felhasználónevét",
+      "warning": {
+        "default": "Miután megváltoztatta a felhasználónevét, soha többé nem igényelheti azt. Csak <highlight>2</highlight> alkalommal módosíthatja.",
+        "max": "Elérte a maximum 2 felhasználónév-módosítások számát."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Kérjen felhasználónevet",
+        "description": "Mondjon búcsút a 0x címeknek. A felhasználónevek olvasható nevek, amelyek megkönnyítik a kriptográfia küldését és fogadását.",
+        "title": "Felhasználónevek bemutatása",
+        "upsell": {
+          "customizable": "Testreszabható profilok",
+          "ens": "Az ENS aldomainek üzemeltetik",
+          "free": "Szabadon igényelhető"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Az ENS aldomainek üzemeltetik",
+        "free": "Szabadon igényelhető",
+        "profile": "Testreszabható profilok"
+      },
+      "subtitle": "Mondjon búcsút a 0x címeknek. A felhasználónevek olvasható nevek, amelyek megkönnyítik a kriptográfia küldését és fogadását.",
+      "title": "Felhasználónevek bemutatása"
+    },
+    "notification": {
+      "delete": {
+        "error": "Nem sikerült törölni a felhasználónevet. Próbáld újra később.",
+        "title": "Felhasználónév törölve"
+      },
+      "profile": {
+        "error": "Nem sikerült frissíteni a profilt. Próbáld újra később.",
+        "title": "profil frissítve"
+      },
+      "username": {
+        "error": "Nem sikerült módosítani a felhasználónevet. Próbáld újra később.",
+        "title": "Felhasználónév megváltozott"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Ez az Ön személyre szabott címe, amelyre az emberek kriptot küldhetnek.",
+        "title": {
+          "choose": "Hozd létre a felhasználóneved",
+          "claim": "Igényelje felhasználónevét"
+        }
+      },
+      "info": {
+        "description": "A felhasználónevek az összetett 0x címeket olvasható nevekké alakítják. A {{unitagDomain}} felhasználónév igénylésével könnyen küldhet és fogadhat titkosítást, valamint nyilvános web3-profilt hozhat létre.",
+        "title": "Egyszerűsített cím"
+      },
+      "profile": {
+        "subtitle": "Töltsd fel sajátodat, vagy ragaszkodj egyedi Uniconodhoz. Ezt később bármikor módosíthatja.",
+        "title": "Válasszon egy profilfotót"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Felhasználónév törlése",
+        "edit": "Felhasználónév szerkesztése"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Írjon be egy életrajzot a profiljához"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "A felhasználónevek csak betűket és számokat tartalmazhatnak",
+        "max": "A felhasználónevek nem lehetnek hosszabbak {{number}} karakternél",
+        "min": "A felhasználóneveknek legalább {{number}} karakterből kell állniuk",
+        "uppercase": "A felhasználónevek csak kisbetűket és számokat tartalmazhatnak"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Nem elég {{tokenSymbol}} a {{chain}}-n"
+    }
+  },
+  "v2": {
+    "notAvailable": "Az Uniswap V2 nem érhető el ezen a hálózaton."
+  },
+  "wallet": {
+    "appSignIn": "Jelentkezzen be az alkalmazással",
+    "connectingAgreement": "A pénztárca csatlakoztatásával Ön elfogadja az Uniswap Labs <termsLink>szolgáltatási feltételeit</termsLink> és <privacyLink>adatvédelmi szabályzatát</privacyLink>.",
+    "connectionFailed": {
+      "message": "A csatlakozási kísérlet sikertelen volt. Kérjük, kattintson az Újrapróbálás gombra, és kövesse a lépéseket a pénztárcájához való csatlakozáshoz."
+    },
+    "other": "Egyéb pénztárcák",
+    "scanToConnect": "A csatlakozáshoz olvassa be a QR-kódot",
+    "wrongNet": "A pénztárcája rossz hálózathoz csatlakozik."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Csatlakozzon egy alkalmazáshoz a kód beolvasásával a WalletConnect segítségével"
+      },
+      "manage": {
+        "empty": {
+          "title": "Nincsenek csatlakoztatott alkalmazások"
+        },
+        "title": "Kapcsolatok"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Az Uniswap Wallet jelenleg a {{chainNames}}funkciót támogatja. Kérjük, csak a \"{{dappName}}\"-t használja ezeken a láncokon",
+        "title": "Kapcsolati hiba"
+      },
+      "general": {
+        "message": "Probléma lépett fel a WalletConnect szolgáltatással. Kérlek próbáld újra",
+        "title": "WalletConnect hiba"
+      },
+      "scantastic": {
+        "message": "Probléma lépett fel a QR-kóddal. Kérlek próbáld újra",
+        "title": "Érvénytelen QR-kód"
+      },
+      "unsupported": {
+        "message": "Mielőtt újra próbálkozna, győződjön meg arról, hogy érvényes WalletConnect-, Ethereum-címet vagy Uniswap-bővítmény QR-kódot olvas be.",
+        "title": "Érvénytelen QR-kód"
+      },
+      "unsupportedV1": {
+        "message": "A WalletConnect v1 már nem támogatott. Az alkalmazásnak, amelyhez csatlakozni próbál, frissítenie kell a WalletConnect v2-re.",
+        "title": "Érvénytelen QR-kód"
+      },
+      "uwu": {
+        "scan": "Hiba történt a QR-kód beolvasása közben.",
+        "title": "UwU Link hiba",
+        "unsupported": "Ez a QR-kód nem támogatott."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Csatlakozás",
+        "scrollDown": "A csatlakozáshoz görgessen lefelé"
+      },
+      "switchAccount": "Fiók váltása",
+      "title": "Csatlakozás ehhez: {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Vigye át eszközeit beleegyezés nélkül",
+        "viewTokenBalances": "Tekintse meg token egyenlegét",
+        "viewWalletAddress": "Tekintse meg pénztárcája címét"
+      },
+      "title": "Webhely engedélyei"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Görgessen le az aláíráshoz",
+        "sign": "Jel"
+      },
+      "details": {
+        "label": {
+          "function": "Funkció",
+          "sending": "Küldés",
+          "token": "Jelképes",
+          "tokens": "Tokenek"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Nincs elég {{currencySymbol}} a tranzakció befejezéséhez.",
+        "network": "Internet vagy hálózati csatlakozási hiba"
+      },
+      "warning": {
+        "general": {
+          "message": "Legyen óvatos: ez az üzenet eszközöket helyezhet át"
+        },
+        "message": "Üzenetek vagy tranzakciók aláírásához importálnia kell a pénztárca helyreállítási kifejezését.",
+        "title": "Ez a pénztárca csak megtekintés módban van"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Fedezze fel és kutasson tokeneket a {{network}}oldalon. Fedezze fel a legjobb medencéket. Valós idejű árak, kereskedési volumen, TVL, diagramok és tranzakciós adatok megtekintése.",
+      "title": {
+        "pools": "Fedezze fel a legnépszerűbb medencéket a {{network}} oldalon az Uniswapon",
+        "tokens": "Fedezze fel a legjobb tokeneket a {{network}} oldalon az Uniswapon",
+        "transactions": "Fedezze fel a legjobb tranzakciókat a {{network}} oldalon az Uniswapon"
+      }
+    }
+  }
+}

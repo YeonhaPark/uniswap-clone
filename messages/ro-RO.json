@@ -1,0 +1,4508 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Revendicați {{amount}} recompensă"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Există mai multe fraze de recuperare pentru care au fost salvate în {{cloudProviderName}}.",
+        "title": "Selectați o copie de rezervă pentru restaurare"
+      },
+      "button": {
+        "restore": {
+          "android": "Restaurați din Google Drive",
+          "ios": "Restaurați din iCloud"
+        }
+      },
+      "empty": {
+        "description": "Se pare că nu ați făcut copii de rezervă pentru niciuna dintre frazele dvs. de recuperare în {{cloudProviderName}}.",
+        "title": "0 copii de rezervă găsite"
+      },
+      "error": {
+        "backup": {
+          "message": "Nu s-au putut importa copii de rezervă din cauza lipsei de permisiuni, a întreruperii autorizației sau din cauza unei erori în cloud",
+          "title": "Eroare la importul copiilor de rezervă"
+        },
+        "password": {
+          "title": "Parolă Invalidă. Vă rugăm să încercați din nou."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Nu acum",
+            "settings": "Mergi la Setari"
+          },
+          "message": {
+            "android": "Verificați dacă sunteți conectat la un cont Google cu Google Drive activat pe acest dispozitiv și încercați din nou.",
+            "ios": "Verificați dacă sunteți conectat la un ID Apple cu iCloud Drive activat pe acest dispozitiv și încercați din nou."
+          },
+          "title": {
+            "android": "Google Drive nu este disponibil",
+            "ios": "iCloud Drive nu este disponibil"
+          }
+        }
+      },
+      "loading": {
+        "title": "Se caută copii de rezervă..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Prea multe incercari. Încercați din nou peste 1 oră.",
+          "hours_other": "Prea multe incercari. Încercați din nou peste {{count}} ore.",
+          "minutes_one": "Prea multe incercari. Încercați din nou peste 1 minut.",
+          "minutes_other": "Prea multe incercari. Încercați din nou peste {{count}} minute."
+        }
+      },
+      "password": {
+        "input": "Introdu parola",
+        "recoveryPhrase": "Introduceți expresia de recuperare",
+        "subtitle": "Această parolă este necesară pentru a recupera copia de rezervă a frazei de recuperare din {{cloudProviderName}}.",
+        "title": "Introduceți parola de rezervă"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Versiune: ",
+      "modal": {
+        "body": "Stocați și schimbați în siguranță jetoanele cu aplicația Uniswap. Disponibil pe iOS și Android.",
+        "dont": "Nu aveți un portofel Uniswap?",
+        "scan": "Scanați cu Uniswap Wallet"
+      },
+      "spamToggle": "Ascundeți jetoanele și NFT-urile necunoscute"
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Această comandă a fost anulată deoarece soldul dvs. a scăzut sub valoarea introdusă."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Această comandă nu se va completa deoarece soldul dvs. a scăzut sub valoarea introdusă. Măriți-vă soldul pentru a repara."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "O expresie de recuperare (sau o expresie de bază) este un <highlight>set de cuvinte</highlight> necesare pentru a vă accesa portofelul, <highlight>ca o parolă.</highlight>",
+        "part2": "Puteți să <highlight>să introduceți</highlight> fraza dvs. de recuperare pe un dispozitiv nou <highlight>pentru a vă restaura portofelul</highlight> și conținutul acestuia.",
+        "part3": "Dar, dacă <highlight>pierdeți expresia de recuperare</highlight>, veți pierde <highlight>accesul</highlight> la portofel.",
+        "part4": "În loc să memorezi fraza de recuperare, poți să o faci o copie de rezervă pe <highlight>la {{cloudProviderName}}</highlight> și să o protejezi cu o parolă.",
+        "part5": "Puteți, de asemenea, să faceți o copie de rezervă manuală a frazei de recuperare prin <highlight>notând-o</highlight> și păstrând-o într-un loc sigur.",
+        "part6": "Vă recomandăm să utilizați <highlight>ambele tipuri de copii de rezervă</highlight>, deoarece dacă vă pierdeți expresia de recuperare, nu vă veți putea restaura portofelul."
+      },
+      "error": {
+        "invalid": "Expresie nevalidă",
+        "invalidWord": "Cuvânt nevalid: {{word}}",
+        "phraseLength": "Expresia de recuperare trebuie să aibă 12-24 de cuvinte",
+        "wrong": "Fraza de recuperare greșită"
+      },
+      "helpText": {
+        "import": "Cum îmi găsesc fraza de recuperare?",
+        "restoring": "Încercați să căutați din nou"
+      },
+      "input": "Introduceți expresia de recuperare",
+      "remove": {
+        "final": {
+          "description": "Asigurați-vă că ați notat fraza de recuperare sau ați făcut o copie de rezervă pe {{cloudProviderName}}. <highlight>Altfel, nu vă veți putea accesa fondurile.</highlight>",
+          "title": "Îți elimini expresia de recuperare <highlight></highlight>"
+        },
+        "import": {
+          "description": "Puteți stoca doar o singură frază de recuperare la un moment dat. Pentru a continua să importați unul nou, va trebui să eliminați fraza de recuperare actuală și orice portofel asociat de pe acest dispozitiv."
+        },
+        "initial": {
+          "description": "Aceasta vă va elimina portofelul de pe acest dispozitiv împreună cu expresia de recuperare.",
+          "title": "Îndepărtezi <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Are aceeași expresie de recuperare ca {{walletNames, list}}. Fraza dvs. de recuperare va rămâne stocată până când ștergeți toate portofelele rămase."
+        }
+      },
+      "subtitle": {
+        "import": "Fraza dvs. de recuperare va fi stocată numai local pe dispozitivul dvs.",
+        "restoring": "Introduceți mai jos expresia de recuperare sau încercați din nou să căutați copii de rezervă."
+      },
+      "title": {
+        "import": "Introduceți expresia de recuperare",
+        "restoring": "Nu s-au găsit copii de rezervă"
+      }
+    },
+    "transactionSummary": {
+      "addLiquidity": "Adăugați lichiditate {{baseSymbol}}/{{quoteSymbol}} V3",
+      "addLiquidityv2": "Adăugați <baseAmountAndToken /> și <quoteAmountAndToken /> la Uniswap V2",
+      "approve": "Aprobați {{tokenSymbol}}",
+      "claimFor": "Revendicați <currency /> pentru {{username}}",
+      "claimReward": "Solicitați recompensa UNI pentru {{username}}",
+      "collectFees": "Colectați taxe {{symbol0}}/{{symbol1}}",
+      "createAddLiquidity": "Creați un pool și adăugați lichiditate {{baseSymbol}}/{{quoteSymbol}} V3",
+      "createPool": "Creați grupul {{baseSymbol}}/{{quoteSymbol}} V3",
+      "decision": {
+        "abstain": "Votează abținerea la propunere {{proposalKey}} cu motive &quot;{{reason}}&quot;",
+        "against": "Votează împotriva propunerii {{proposalKey}} cu motive &quot;{{reason}}&quot;",
+        "for": "Votați propunerea {{proposalKey}} cu motiv &quot;{{reason: info.reason}}&quot;"
+      },
+      "delegateSummary": "Delegați puterea de vot către {{username}}",
+      "depositLiquidity": "Lichiditatea depozitului",
+      "executeProposal": "Executați propunerea {{proposalKey}}.",
+      "migrateLiquidity": "Migrați lichiditatea {{baseSymbol}}/{{quoteSymbol}} la V3",
+      "queueProposal": "Propunere de coadă {{proposalKey}}.",
+      "removeLiquiditySummary": "Eliminați <base /> și <quote />",
+      "revoke": "Revocați {{tokenSymbol}}",
+      "sendSummary": "Trimis <amount /> către {{recipient}}",
+      "submitProposal": "Trimiteți o nouă propunere",
+      "swapExactIn": "Schimbați exact <amount1 /> cu <amount2 />",
+      "swapExactOut": "Schimbați <amount1 /> cu exact <amount2 />",
+      "unwrapTo": "Desfaceți <amount /> în {{symbol}}",
+      "vote": {
+        "abstain": "Votează pentru abținerea la propunere {{proposalKey}}",
+        "against": "Votează împotriva propunerii {{proposalKey}}",
+        "for": "Votează propunerea {{proposalKey}}"
+      },
+      "withdrawLiquidity": "Retrageți lichiditatea depozitată",
+      "wrapTo": "Înfășurați <amount /> în {{symbol}}"
+    },
+    "wallet": {
+      "action": {
+        "copy": "Copiați adresa portofelului",
+        "report": "Raportați profilul",
+        "settings": "Setări portofel",
+        "viewExplorer": "Vizualizați pe {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Adăugați portofel",
+        "addViewOnly": "Adăugați un portofel numai pentru vizualizare",
+        "create": "Creați un portofel nou",
+        "import": "Importați un portofel nou",
+        "manage": "Gestionați portofelul",
+        "remove": "Scoateți portofelul",
+        "restore": "Restaurați portofelul",
+        "watch": "Urmăriți un portofel"
+      },
+      "create": {
+        "placeholder": "Portofel {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Eticheta portofel"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Editează profilul"
+          },
+          "title": "Editați eticheta"
+        },
+        "other": "Celelalte portofele tale",
+        "viewOnly": "Portofele pentru vizualizare"
+      },
+      "menu": {
+        "copy": {
+          "title": "Copiați adresa portofelului"
+        },
+        "edit": {
+          "title": "Editați eticheta"
+        },
+        "remove": {
+          "title": "Scoateți portofelul"
+        }
+      },
+      "remove": {
+        "check": "Am făcut o copie de rezervă a frazei mele de recuperare și am înțeles că Uniswap Labs nu mă poate ajuta să-mi recuperez portofelele dacă nu reușesc să fac acest lucru.",
+        "title": "Eliminați {{name}}",
+        "viewOnly": "Puteți adăuga oricând portofele pentru vizualizare din spate introducând adresa portofelului."
+      },
+      "restore": {
+        "description": "Deoarece sunteți pe un dispozitiv nou, va trebui să vă restabiliți expresia de recuperare. Acest lucru vă va permite să schimbați și să trimiteți jetoane."
+      },
+      "select": {
+        "error": "Nu s-au putut încărca adresele",
+        "loading": {
+          "subtitle": "Portofelele dvs. vor apărea mai jos.",
+          "title": "Caut portofele"
+        },
+        "title_one_one": "Un portofel găsit",
+        "title_one_other": "Selectați portofelele de importat"
+      },
+      "viewOnly": {
+        "button": "Import portofel",
+        "description": "Pentru a schimba, cumpăra, trimite și primi jetoane, trebuie să importați fraza de recuperare a acestui portofel.",
+        "title": "Acest portofel este doar pentru vizualizare"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Această adresă este deja importată",
+          "notFound": "Adresa nu a fost găsită",
+          "smartContract": "Adresa este un contract inteligent"
+        },
+        "message": "Adăugarea unui portofel numai pentru vizualizare vă permite să încercați aplicația sau să urmăriți un portofel. Nu veți putea schimba sau trimite fonduri.",
+        "placeholder": "ENS sau adresa",
+        "title": "Introduceți o adresă de portofel"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} În așteptare",
+    "transaction": {
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} din {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} la {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> pentru <amountWithSymbolB />"
+        }
+      },
+      "tokens": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> și <amountWithSymbolB />"
+        }
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Cota din bazin"
+  },
+  "addressInput": {
+    "recipient": "Destinatar"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Folosim date anonimizate pentru a vă îmbunătăți experiența cu produsele Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Nu chiar"
+    },
+    "description": "Anunțați-ne dacă aveți o experiență bună cu această aplicație",
+    "extension": {
+      "review": {
+        "description": "Alegeți o evaluare cu stele și lăsați o recenzie în Magazinul web Chrome.",
+        "title": "Examinați extensia Uniswap?"
+      },
+      "title": "Vă bucurați de extensia Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Trimite feedback"
+      },
+      "description": "Spuneți-ne cum vă putem îmbunătăți experiența",
+      "title": "Ne pare rău să auzim asta."
+    },
+    "mobile": {
+      "title": "Vă place Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "burn": {
+    "input": {
+      "enterAPercent": {
+        "error": "Introduceți un procent"
+      }
+    }
+  },
+  "chart": {
+    "candlestick": "Sfeşnic",
+    "error": {
+      "pools": "Nu se pot afișa datele istorice pentru grupul curent.",
+      "tokens": "Nu se pot afișa datele istorice pentru simbolul curent."
+    },
+    "line": "Diagramă cu linii",
+    "missingData": "Lipsesc date din diagramă",
+    "price": {
+      "label": {
+        "close": "Închide",
+        "high": "Înalt",
+        "low": "Scăzut",
+        "open": "Deschis"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Această setare nu este disponibilă pentru diagrama curentă"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Vă mulțumim că faceți parte din comunitatea Uniswap <heart />",
+    "uni": {
+      "arrived": "UNI a sosit"
+    }
+  },
+  "common": {
+    "accept": "Accepta",
+    "activity": "Activitate",
+    "add": {
+      "label": "Adăuga",
+      "liquidity": {
+        "cancelled": "Adăugați lichiditate anulată",
+        "failed": "Adăugarea lichidității a eșuat"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Adăugați lichiditate V2 anulată",
+          "failed": "Adăugarea lichidității V2 a eșuat"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Lichiditate adăugată",
+      "v2": {
+        "liquidity": "S-a adăugat lichiditate V2"
+      }
+    },
+    "addedLiquidity": "Lichiditate adăugată",
+    "adding": {
+      "liquidity": "Adăugarea lichidității",
+      "v2": {
+        "liquidity": "Adăugarea lichidității V2"
+      }
+    },
+    "addLiquidity": "Adăugați lichiditate",
+    "addressOrENS": "Adresa portofelului sau numele ENS",
+    "advanced": "Avansat",
+    "all": "Toate",
+    "allTime": "Tot timpul",
+    "amount": {
+      "label": "Cantitate"
+    },
+    "amountDeposited": {
+      "label": "{{amount}} Depus"
+    },
+    "and": "şi",
+    "app": "App",
+    "approval": {
+      "cancelled": "Aprobare anulată",
+      "failed": "Aprobarea a eșuat"
+    },
+    "approve": "Aproba",
+    "approved": "Aprobat",
+    "approvePending": "În curs de aprobare...",
+    "approveSpend": "Aprobați cheltuielile de {{symbol}}",
+    "approving": "Aprobarea",
+    "areYouSure": "Esti sigur?",
+    "automatic": "Auto",
+    "availableIn": "Uniswap disponibil în: <locale />",
+    "availableOnIOSAndroid": "Disponibil pe iOS și Android",
+    "availableOnIOSAndroidChrome": "Disponibil pe iOS, Android și Chrome",
+    "backToPositions": "Înapoi la poziții",
+    "blocked": {
+      "ifError": "Dacă credeți că aceasta este o eroare, vă rugăm să trimiteți un e-mail cu adresa dvs. la <emailAddress />",
+      "reason": "Această adresă este blocată în interfața Uniswap Labs deoarece este asociată cu una sau mai multe <link>activități blocate</link>."
+    },
+    "blockedAddress": "Adresă blocată",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Împrumut anulat",
+      "failed": "Împrumutul a eșuat"
+    },
+    "borrowed": "Împrumutat",
+    "borrowing": "Împrumutarea",
+    "bought": "Cumparat",
+    "brandAssets": "Activele mărcii",
+    "burn": {
+      "cancelled": "Arderea a fost anulată",
+      "failed": "Arderea a eșuat"
+    },
+    "burned": "Ars",
+    "burning": "Ardere",
+    "button": {
+      "accept": "Accepta",
+      "back": "Înapoi",
+      "buy": "Cumpără",
+      "cancel": "Anulare",
+      "checkin": "Check-in",
+      "close": "Închide",
+      "confirm": "A confirma",
+      "connect": "Conectați",
+      "continue": "Continua",
+      "copied": "Copiat",
+      "copy": "Copie",
+      "create": "Crea",
+      "delete": "Șterge",
+      "disconnect": "Deconectat",
+      "dismiss": "Respingeți",
+      "done": "Terminat",
+      "edit": "Editați | ×",
+      "enable": "Permite",
+      "finish": "Termina",
+      "goBack": "Întoarce-te",
+      "later": "Poate mai târziu",
+      "learn": "Află mai multe",
+      "next": "Următorul",
+      "notNow": "Nu acum",
+      "ok": "Bine",
+      "paste": "Pastă",
+      "pay": "A plati",
+      "receive": "A primi",
+      "remove": "Elimina",
+      "reset": "Resetați",
+      "restore": "Restabili",
+      "retry": "Reîncercați",
+      "reveal": "Dezvăluie",
+      "review": "Revizuire",
+      "save": "Salvați",
+      "scrollDown": "Deruleaza in jos",
+      "sell": "Vinde",
+      "send": "Trimite",
+      "setup": "Înființat",
+      "share": "Acțiune",
+      "showLess": "Arata mai putin",
+      "showMore": "Afișați mai multe",
+      "sign": "Semn",
+      "skip": "Ocolire",
+      "swap": "Schimbați",
+      "tryAgain": "Încearcă din nou",
+      "understand": "Am înțeles",
+      "view": "Vedere",
+      "viewDetails": "Vezi detalii",
+      "yes": "da"
+    },
+    "buy": {
+      "cancelled": "Cumpărare anulată",
+      "failed": "Cumpărarea a eșuat",
+      "label": "Cumpără"
+    },
+    "buyAndSell": "Cumpărați și vindeți pe Uniswap",
+    "buying": "Cumpărare",
+    "by": "De",
+    "cancel": {
+      "failed": "Anularea a eșuat"
+    },
+    "cancellation": {
+      "cancelled": "Anularea a fost anulată"
+    },
+    "cancellationSubmitted": "Anularea a fost trimisă",
+    "cancellationSuccessful": "Anulare reușită",
+    "cancelled": "Anulat",
+    "cancelling": "Anulare",
+    "cancelOrder": "Anulați comanda",
+    "card": {
+      "error": {
+        "description": "Ceva n-a mers bine",
+        "title": "Hopa! Ceva n-a mers bine."
+      }
+    },
+    "careers": "Cariere",
+    "chartType": "Tipul graficului",
+    "checkNetwork": "Verificați starea rețelei <link>aici.</link>",
+    "chromeExtension": "Extensie",
+    "claim": {
+      "cancelled": "Revendicare anulată",
+      "failed": "Revendicarea a eșuat"
+    },
+    "claimed": "Revendicat",
+    "claiming": "Revendicarea",
+    "claimUnis": "Revendicați-vă jetoanele UNI",
+    "clear": "Clar",
+    "close": "Închide",
+    "closed": "Închis",
+    "collect": {
+      "button": "Colectarea",
+      "fees": {
+        "cancelled": "Comisioane de colectare anulate",
+        "failed": "Colectarea taxelor nu a reușit"
+      }
+    },
+    "collected": {
+      "fees": "Taxe colectate"
+    },
+    "collecting": {
+      "fees": "Comisioane de colectare"
+    },
+    "company": "Companie",
+    "confirm": "A confirma",
+    "confirmCancellation": "Confirmați anularea",
+    "confirmSend": {
+      "button": "Confirmați trimiterea"
+    },
+    "confirmSwap": "Confirmați schimbul în portofel",
+    "confirmTimedOut": "Confirmarea a expirat. Vă rugăm să reîncercați.",
+    "confirmTransaction": {
+      "button": "Confirmați această tranzacție în portofel"
+    },
+    "confirmWallet": "Confirmați în portofel",
+    "connect": {
+      "button": "Conectați"
+    },
+    "connectAWallet": {
+      "button": "Conectați un portofel"
+    },
+    "connectingWallet": "Se conectează portofelul...",
+    "connectWallet": {
+      "button": "Conectați portofelul"
+    },
+    "contactUs": {
+      "button": "Contactaţi-ne"
+    },
+    "contractInteraction": "Interacțiunea contractului",
+    "copied": "Copiat",
+    "copy": {
+      "address": "Copiați adresa"
+    },
+    "copyLink": {
+      "button": "Copiază legătură"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Crearea grupului a fost anulată",
+        "failed": "Crearea grupului nu a reușit"
+      }
+    },
+    "created": {
+      "pool": "Piscina creată"
+    },
+    "creating": {
+      "pool": "Crearea piscinei"
+    },
+    "currency": "Valută",
+    "currentPrice": {
+      "label": "Pretul curent:",
+      "unavailable": "Prețul actual nu este disponibil"
+    },
+    "custom": "Personalizat",
+    "customRange": "Gamă personalizată",
+    "dataOutdated": "Datele pot fi depășite",
+    "default": "Mod implicit",
+    "defaultTradeOptions": "Opțiuni comerciale implicite",
+    "delegate": {
+      "cancelled": "Delegat anulat",
+      "failed": "Delegatul a eșuat"
+    },
+    "delegated": "Delegat",
+    "delegating": "Delegarea",
+    "deploy": {
+      "cancelled": "Implementarea a fost anulată",
+      "failed": "Implementarea a eșuat"
+    },
+    "deployed": "Desfăşurat",
+    "deploying": "Desfășurare",
+    "deposit": {
+      "cancelled": "Depozit anulat",
+      "failed": "Depunerea nu a reușit",
+      "toNetwork": "Depuneți jetoane în rețeaua {{label}} ."
+    },
+    "deposited": "Depus",
+    "depositing": "Depozitare",
+    "depositTokens": "Jetoane de depozit",
+    "detailed": {
+      "label": "Detaliat"
+    },
+    "detected": "Detectat",
+    "developers": "Dezvoltatori",
+    "dismiss": "Respingeți",
+    "displaySettings": "Setări de afișare",
+    "dnsRegistrar": "Registrul DNS",
+    "donate": "Dona",
+    "dontShowAgain": "Nu mai arăta asta",
+    "download": "Descarca",
+    "downloadAppStore": "Descărcați în App Store",
+    "downloadPlayStore": "Descărcați în Magazinul Play",
+    "downloadUniswap": "Descărcați Uniswap",
+    "downloadUniswapApp": "Descărcați aplicația Uniswap",
+    "dynamic": "Dinamic",
+    "edit": {
+      "button": "Editați | ×"
+    },
+    "error": {
+      "general": "Ceva n-a mers bine",
+      "label": "Eroare",
+      "request": "Ne pare rău, a apărut o eroare la procesarea solicitării dvs. Dacă solicitați asistență, asigurați-vă că copiați detaliile acestei erori.",
+      "somethingWrong": "Ceva n-a mers bine!",
+      "wrong": {
+        "tryAgain": "Ceva n-a mers bine. Vă rugăm să încercați din nou."
+      }
+    },
+    "errorConnecting": {
+      "error": "Eroare la conectare"
+    },
+    "errorLoadingData": {
+      "error": "Eroare la încărcarea datelor"
+    },
+    "ethereumNameService": "Serviciul de nume Ethereum",
+    "etherscan": {
+      "link": "Vizualizare pe Etherscan"
+    },
+    "ethRegistrarController": "Controller al registratorului ETH",
+    "execute": {
+      "cancelled": "Executare anulată",
+      "failed": "Executarea a eșuat"
+    },
+    "executed": "Executat",
+    "executing": "Executarea",
+    "expired": "Expirat",
+    "expiry": "Expirare",
+    "explore": "Explora",
+    "explorer": "Explorator",
+    "exploreTokens": "Explorați jetoanele",
+    "extension": "Extensia Uniswap",
+    "failed": {
+      "error": "A eșuat"
+    },
+    "failedSwitchNetwork": "Schimbarea rețelelor a eșuat",
+    "fee": "Taxa",
+    "fees": "Taxe",
+    "feesEarned": {
+      "label": "{{symbol}} Taxe câștigate:"
+    },
+    "feesEarnedPerBase": "{{symbolA}} pe {{symbolB}}",
+    "fetchingRoute": "Preluare traseu",
+    "floor": "Podea",
+    "floorPrice": "Preț la etaj",
+    "for": "Pentru",
+    "fullRange": "Gamă completă",
+    "getApp": "Obține aplicația",
+    "getHelp": {
+      "button": "Obține ajutor"
+    },
+    "getStarted": "Începeți",
+    "getSupport": {
+      "button": "Obțineți sprijin"
+    },
+    "getTheApp": "Ia aplicatia",
+    "getUniswapWallet": "Obțineți portofel Uniswap",
+    "governance": "Guvernare",
+    "happyHolidays": "Sărbători fericite din partea echipei Uniswap!",
+    "helpCenter": "Centru de ajutor",
+    "hidden": "Ascuns",
+    "hide": {
+      "button": "Ascunde"
+    },
+    "highPrice": "Preț mare",
+    "includes": "Include",
+    "info": {
+      "label": "Info"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Selectați destinatarul"
+      },
+      "password": {
+        "confirm": "Confirmă parola",
+        "error": {
+          "mismatch": "Parolele nu se potrivesc",
+          "weak": "Această parolă este prea slabă"
+        },
+        "new": "Parolă Nouă",
+        "placeholder": "Parola",
+        "strength": {
+          "medium": "Mediu",
+          "strong": "Puternic",
+          "weak": "Slab"
+        }
+      },
+      "search": "Căutare"
+    },
+    "insufficient": {
+      "funds": "Fonduri insuficiente"
+    },
+    "insufficientBalance": {
+      "error": "Echilibru insuficient"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Fonduri insuficiente pentru a acoperi costul rețelei"
+    },
+    "insufficientLiquidity": "Lichiditate insuficientă",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Insuficient {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Pereche nevalidă",
+    "invalidRecipient": {
+      "error": "Destinatar nevalid"
+    },
+    "iOSAndroid": "iOS și Android",
+    "language": "Limba",
+    "lastPrice": "Ultimul pret",
+    "learnMoreSwap": "Aflați mai multe despre schimburi",
+    "legalAndPrivacy": "Legal și confidențialitate",
+    "less": "Mai puțin",
+    "limit": {
+      "cancel_one": "Anulați limita",
+      "cancel_other": "Anulați limitele {{count}}",
+      "cancelled": "Limită anulată",
+      "executed": "Limită executată",
+      "expired": "Limita a expirat",
+      "failed": "Limita a eșuat",
+      "opened": "Limită deschisă",
+      "pending": "Limită în așteptare"
+    },
+    "limits": {
+      "approachMax": "Se apropie limita maximă de 100",
+      "cancelProceed": "Anulați limitele pentru a continua",
+      "expires": "Expiră {{timestamp}}",
+      "open": "Limite deschise",
+      "when": "când {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Legături",
+    "liquidity": {
+      "removed": "Lichiditatea eliminată"
+    },
+    "loading": "Se încarcă",
+    "loadingAllowance": "Indemnizație de încărcare",
+    "loadMore": "Încărcați mai multe",
+    "longText": {
+      "button": {
+        "less": "Citiți mai puțin",
+        "more": "Citeşte mai mult"
+      }
+    },
+    "lowPrice": "Preț scăzut",
+    "manage": "Administra",
+    "market": {
+      "label": "Piaţă"
+    },
+    "max": "Max",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Migrarea lichidității a fost anulată",
+        "failed": "Migrarea lichidității a eșuat"
+      },
+      "position": "Migrați poziția",
+      "v3": "Migrați la V3"
+    },
+    "migrated": {
+      "liquidity": "Lichiditate migrată"
+    },
+    "migrating": {
+      "liquidity": "Migrarea lichidității"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Monetăria anulată",
+      "failed": "Mint a eșuat"
+    },
+    "minted": "Bateriat",
+    "minting": "Mint",
+    "mobile": "Mobil",
+    "more": "Mai mult",
+    "multiDevice": "Multi-dispozitiv",
+    "navigation": {
+      "settings": "Setări",
+      "systemSettings": "Setări"
+    },
+    "navigationButton": "Buton de navigare",
+    "needHelp": "Nevoie de ajutor?",
+    "networkCost": "Costul rețelei",
+    "neverMind": "Nu face nimic",
+    "new": {
+      "exclamation": "Nou!"
+    },
+    "nfts": "NFT-uri",
+    "noActivity": "Nicio activitate încă",
+    "noAmount": {
+      "error": "Introduceți o sumă"
+    },
+    "noData": "Nu există date",
+    "noResults": "Nici un rezultat gasit.",
+    "notAvailableInRegion": {
+      "error": "Nu este disponibil în regiunea dvs"
+    },
+    "notCreated": {
+      "label": "Nu este creat"
+    },
+    "notSupported": "Nu este acceptat",
+    "oneDay": "1 zi",
+    "oneHour": "1 oră",
+    "oneMonth": "1 lună",
+    "oneWeek": "1 săptămână",
+    "oneYear": "1 an",
+    "orderCancelled": "Comanda anulata",
+    "orderExecuted": "Ordin executat",
+    "orderExpired": "Comanda a expirat",
+    "orderPending": "Comanda în așteptare",
+    "outOfRange": "În afara razei",
+    "pageNotFound": "Pagina nu a fost gasita!",
+    "passkey": "Cheie de acces",
+    "pastDay": "Ziua trecută",
+    "pastFiveMinutes": "Ultimele cinci minute",
+    "pastHour": "Ora trecută",
+    "pastMonth": "Luna trecuta",
+    "pastWeek": "Saptamana trecuta",
+    "pastYear": "Anul trecut",
+    "pay": {
+      "button": "A plati"
+    },
+    "pending": {
+      "cancellation": "În așteptarea anulării"
+    },
+    "pendingEllipsis": "In asteptarea...",
+    "permit2": "Permisul 2",
+    "pool": "Bazin",
+    "pools": "Piscine",
+    "positionUnavailable": "Poziție indisponibilă",
+    "poweredBy": "Produs de <name />",
+    "preview": "previzualizare",
+    "price": "Preț",
+    "priceImpact": "Avertisment de impact asupra prețului",
+    "priceUpdated": "Preț actualizat",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Când este bifată, nu vom împărtăși datele dumneavoastră cu parteneri terți pentru publicitate personalizată. Puteți activa oricând partajarea debifând această casetă.",
+        "label": "Nu împărtășiți informațiile mele"
+      },
+      "description": "Este posibil să împărtășim identificatori de dispozitiv cu partenerii noștri de publicitate pentru a ne promova serviciile pe alte site-uri web și platforme. În cazul în care aceasta se califică drept vânzare, partajare sau publicitate direcționată în conformitate cu legile aplicabile, puteți renunța bifând caseta „nu-mi partajați informațiile”. Pentru mai multe informații despre practicile noastre de confidențialitate, consultați <privacyLink>Politica noastră de confidențialitate</privacyLink>.",
+      "disclaimer": "Vă rugăm să rețineți că selecția dvs. se va aplica numai acestui browser pe acest dispozitiv. De asemenea, puteți renunța activând setarea Global Privacy Control în browserul pe care îl utilizați pentru a accesa serviciile noastre. Pentru a vedea mai multe opțiuni, accesați setările dvs."
+    },
+    "privacyPolicy": "Politica de confidențialitate",
+    "proceed": "Continua",
+    "proceedInWallet": {
+      "short": "Continuați în portofel"
+    },
+    "protocol": "Protocol",
+    "publicResolver": "Rezolvant public",
+    "purchased": "Cumparat",
+    "queue": {
+      "cancelled": "Coada anulată",
+      "failed": "Coada a eșuat"
+    },
+    "queued": "În așteptare",
+    "queuing": "La coadă",
+    "rate": "Rată",
+    "readMore": "Citeşte mai mult",
+    "receive": {
+      "cancelled": "Primire anulată",
+      "failed": "Primirea a eșuat"
+    },
+    "received": "Primit",
+    "receiving": "Primirea",
+    "recent": "Recent",
+    "rejected": "Respins",
+    "reload": {
+      "label": "Reîncărcați aplicația"
+    },
+    "remove": {
+      "label": "Elimina",
+      "liquidity": {
+        "cancelled": "Eliminați lichiditatea anulată",
+        "failed": "Eliminarea lichidității a eșuat"
+      }
+    },
+    "removeAmount": "Eliminați cantitatea",
+    "removedLiquidity": "Lichiditatea eliminată",
+    "removeItem": "Eliminați elementul",
+    "removing": {
+      "liquidity": "Eliminarea lichidității"
+    },
+    "repaid": "Rambursat",
+    "repay": {
+      "cancelled": "Rambursare anulată",
+      "failed": "Rambursarea eșuată"
+    },
+    "repaying": "Rambursare",
+    "resetLimit": "Resetați limita {{symbol}}",
+    "resetLimitWallet": "Resetați limita de {{symbol}} în portofel",
+    "resettingLimit": "Se resetează limita {{symbol}} ...",
+    "resolveIssues_one": "Rezolvați problema",
+    "resolveIssues_other": "Rezolvați problemele {{count}}",
+    "restricted": {
+      "region": "Regiunea restrânsă"
+    },
+    "return": {
+      "label": "Întoarcere"
+    },
+    "returnToTop": "Înapoi sus",
+    "reverseRegistrar": "Registrator invers",
+    "revoke": {
+      "approval": {
+        "failed": "Revocarea aprobării a eșuat"
+      }
+    },
+    "revoked": {
+      "approval": "Aprobare revocată"
+    },
+    "revokedApproval": "Aprobare revocată",
+    "revoking": {
+      "approval": "Revocarea aprobării"
+    },
+    "samePrice": "Același preț",
+    "scanQRDownload": "Scanați codul QR cu telefonul pentru a descărca",
+    "selectRegion": {
+      "label": "Selectați regiunea dvs"
+    },
+    "selectToken": {
+      "label": "Selectați un simbol"
+    },
+    "selfCustodial": "Auto-custodie",
+    "sell": {
+      "label": "Vinde"
+    },
+    "send": {
+      "button": "Trimite",
+      "cancelled": "Trimite anulat",
+      "failed": "Trimiterea a eșuat"
+    },
+    "sending": "Trimiterea",
+    "sent": "Trimis",
+    "settings": "Setări",
+    "share": {
+      "shareToTwitter": "Distribuie pe Twitter",
+      "twitter": "Distribuie pe Twitter"
+    },
+    "show": {
+      "button": "Spectacol"
+    },
+    "showLess": {
+      "button": "Arata mai putin"
+    },
+    "showMore": {
+      "button": "Afișați mai multe"
+    },
+    "signatureExpired": "Semnătura dvs. a expirat.",
+    "signMessage": "Semnează mesajul",
+    "signMessageWallet": "Semnează mesajul în portofel",
+    "simple": {
+      "label": "Simplu"
+    },
+    "sold": "Vândut",
+    "stats": "Statistici",
+    "status": "Stare",
+    "stayConnected": "Rămâi conectat",
+    "step": {
+      "number": "Pasul {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Trimiterea propunerii a fost anulată",
+        "failed": "Trimiterea propunerii a eșuat"
+      }
+    },
+    "submitted": {
+      "proposal": "Propunerea depusă"
+    },
+    "submitting": {
+      "proposal": "Depunerea propunerii"
+    },
+    "success": "Succes",
+    "swap": {
+      "cancelled": "Schimbul a fost anulat",
+      "expired": "Schimbul a expirat",
+      "failed": "Schimbarea a eșuat"
+    },
+    "swapped": "Schimbat",
+    "swapPending": "Schimb în așteptare...",
+    "swapping": "Schimbarea",
+    "switchNetworks": "Schimbați rețele",
+    "termsOfService": "Termenii serviciului",
+    "text": {
+      "connected": "Conectat",
+      "contract": "Contracta",
+      "disconnected": "Deconectat",
+      "error": "Eroare",
+      "notAvailable": "N / A",
+      "recipient": "La",
+      "sender": "Din",
+      "unknown": "Necunoscut"
+    },
+    "thisMonth": "Luna aceasta",
+    "thisWeek": "În această săptămână",
+    "thisYear": "Anul acesta",
+    "time": {
+      "days": "zile",
+      "days_one": "zi",
+      "days_other": "zile",
+      "hours": "ore",
+      "hours_one": "ora",
+      "hours_other": "ore",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minute",
+      "months": "luni",
+      "months_one": "lună",
+      "months_other": "luni",
+      "past": {
+        "days": "acum {{days}}zi",
+        "hours": "{{hours}}h în urmă",
+        "minutes": "{{minutes}}m în urmă",
+        "months": "{{months}}lună în urmă",
+        "seconds": "{{seconds}}acum"
+      },
+      "weeks": "săptămâni",
+      "weeks_one": "săptămână",
+      "weeks_other": "săptămâni"
+    },
+    "tip": {
+      "label": "Bacsis:"
+    },
+    "to": "la",
+    "today": "Astăzi",
+    "tokenA": "Jetonul A",
+    "tokenAmount": "Suma simbolului",
+    "tokenB": "Jetonul B",
+    "tokenName": "Nume simbol",
+    "tokens": "Jetoane",
+    "totalValueLocked": "TVL",
+    "trade": "Comerț",
+    "trademarkPolicy": "Politica privind mărcile comerciale",
+    "transactionDetails": "Detalii tranzacție",
+    "transactionId": "ID-ul de tranzacție",
+    "transactionPending": "Tranzacție în așteptare",
+    "transactions": "Tranzacții",
+    "transactionSettings": "Setări de tranzacție",
+    "transactionSubmitted": "Tranzacție trimisă",
+    "transfer_one": "transfer",
+    "transfer_other": "transferuri",
+    "tryAgain": {
+      "error": "Încearcă din nou"
+    },
+    "twitter": "Stare de nervozitate",
+    "type": {
+      "label": "Tip"
+    },
+    "unavailable": "Indisponibil",
+    "uniGovernance": "Guvernarea UNI",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Protocolul Uniswap",
+    "uniswapTVL": "Uniswap TVL",
+    "uniswapWallet": "Portofel Uniswap",
+    "uniswapX": "UniswapX",
+    "unknown": "Necunoscut",
+    "unknownApproval": "Aprobare necunoscută",
+    "unknownBridge": "Podul necunoscut",
+    "unknownError": {
+      "error": "Eroare necunoscută"
+    },
+    "unknownLend": "Împrumut necunoscut",
+    "unknownMint": "Monetărie necunoscută",
+    "unknownSend": "Trimitere necunoscută",
+    "unknownSwap": "Schimb necunoscut",
+    "unsupportedAsset_one": "Activ neacceptat",
+    "unsupportedAsset_other": "Active neacceptate",
+    "unwrap": {
+      "button": "Desfaceți",
+      "failed": "Desfacerea eșuată"
+    },
+    "unwrapped": "Desfăcut",
+    "unwrapping": "Desfacerea",
+    "view": {
+      "profile": "Vezi profilul"
+    },
+    "viewOnBlockExplorer": "Vizualizați în Block Explorer",
+    "viewOnExplorer": "Vizualizare pe Explorer",
+    "volume": "Volum",
+    "vote": {
+      "cancelled": "Votul a fost anulat",
+      "failed": "Votul nu a reușit"
+    },
+    "voted": "Votat",
+    "voting": "Vot",
+    "wallet": {
+      "approve": "Aprobați în portofel",
+      "label": "Portofel"
+    },
+    "walletForSwapping": "Portofelul construit pentru schimb. Disponibil pe iOS și Android.",
+    "warning": "Avertizare",
+    "webApp": "aplicație web",
+    "website": "Site-ul web",
+    "whyApprove": "De ce trebuie să aprob un token?",
+    "whySign": "De ce sunt necesare semnături?",
+    "whyWrap": "De ce trebuie să-mi împachetez {{symbol}}?",
+    "withdraw": {
+      "failed": "Retragerea a eșuat"
+    },
+    "withdrawal": {
+      "amount": "Suma de retragere",
+      "cancelled": "Retragerea anulată"
+    },
+    "withdrawing": "Retragerea",
+    "withdrew": "S-a retras",
+    "withinRange": "In raza de actiune",
+    "wrap": {
+      "button": "Înfășurați",
+      "cancelled": "Wrap anulat",
+      "failed": "Încheierea eșuată"
+    },
+    "wrapIn": "Înfășurați  {{symbol}} în portofel",
+    "wrapped": "Înfășurat",
+    "wrapping": "Ambalaj",
+    "wrappingToken": "Se împachetează  {{symbol}}...",
+    "wrongNetwork": "Rețea greșită",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Contul dvs. nu avea fonduri suficiente pentru a finaliza acest schimb."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Contul dvs. nu are fonduri suficiente pentru a finaliza acest schimb."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Limita dvs. nu a putut fi îndeplinită în acest moment. Vă rugăm să încercați din nou."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Schimbul dvs. nu a putut fi îndeplinit în acest moment. Vă rugăm să încercați din nou."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Tu cumperi",
+    "youRecieve": "Primesti",
+    "youreSending": "Tu trimiți",
+    "youWillReceive": "Vei primi"
+  },
+  "currency": {
+    "aud": "Dolarul australian",
+    "brl": "Real brazilian",
+    "cad": "Dolarul canadian",
+    "cny": "Yuan chinezesc",
+    "eur": "Euro",
+    "gbp": "Lira sterlină",
+    "hkd": "Dolarul Hong Kong",
+    "idr": "Rupia indoneziană",
+    "inr": "Rupia indiană",
+    "jpy": "Yen japonez",
+    "krw": "Won sud-coreean",
+    "ngn": "Naira nigeriană",
+    "pkr": "Rupia pakistaneză",
+    "rub": "Rubla rusă",
+    "sgd": "Dolarul din Singapore",
+    "thb": "Baht thailandez",
+    "try": "Lira turceasca",
+    "uah": "Grivnia ucraineană",
+    "usd": "Dolarul Statelor Unite",
+    "vnd": "Dong vietnamez"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Aproba",
+        "fallbackTitle": "Aprobați acest site pentru a accesa jetoane",
+        "helptext": "Permiteți acestui site să acceseze și să cheltuiască acest simbol pentru tranzacții. Asigurați-vă că aveți încredere în acest site.",
+        "label": "Portofel",
+        "title": "Aprobați accesul la {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Cerere de tranzacție"
+      },
+      "bridge": {
+        "description": "Mutați ETH, USDC și multe altele prin rețele {{numChains}}+.",
+        "title": "Încercați să faceți o punte?"
+      },
+      "connect": {
+        "helptext": "Permiteți acestui site să vadă adresa portofelului, soldul și să solicite aprobări pentru tranzacții.",
+        "title": "Conectați-vă la site"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Date neprelucrate"
+        },
+        "function": {
+          "label": "Funcţie"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 gestionează aprobările token-urilor în mai multe aplicații.",
+        "header": "Semnează permisul2"
+      },
+      "reject": {
+        "action": "Respinge totul",
+        "info": "Aveți <highlight>{{totalRequestCount}}</highlight> solicitări de tranzacție"
+      },
+      "revoke": {
+        "action": "Revoca",
+        "helptext": "Permiteți acestui site să revoce accesul pentru a cheltui acest simbol pentru tranzacții. Asigurați-vă că aveți încredere în acest site.",
+        "title": "Revocați accesul la {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Acest mesaj conține caractere care nu pot fi redate. Asigurați-vă că aveți încredere în acest site.",
+        "error": {
+          "712-spec-compliance": "SignTypedDataRequestContent a primit date pentru semnare care nu sunt conforme cu specificațiile EIP-712."
+        },
+        "header": "Cerere de semnătură",
+        "toggleDataView": {
+          "raw": "Vedeți datele brute",
+          "readable": "Vedeți datele originale"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Asigurați-vă că este cea potrivită",
+          "title": "Acesta nu este portofelul tău activ"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Conectați-vă aici"
+      },
+      "getStarted": {
+        "description": "Începeți prin a descărca portofelul Uniswap, disponibil pe telefon sau browser.",
+        "title": "Începeți cu Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Începeți în câteva secunde înregistrându-vă mai jos sau descărcați portofelul nostru, disponibil pe telefon sau browser."
+        },
+        "title": "Înscrieți-vă la Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Produsele Uniswap funcționează perfect împreună pentru a crea cea mai bună experiență onchain."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Acest lucru oferă protocolul Uniswap acces la tokenul dvs. pentru tranzacționare. Pentru securitate, expiră după 30 de zile."
+    },
+    "dataUnavailable": "Datele nu sunt disponibile momentan; lucrăm la o remediere",
+    "id": "ID eroare: {{eventId}}",
+    "noData": "Nu s-au gasit date",
+    "request": {
+      "provideId": "Ne pare rău, a apărut o eroare la procesarea solicitării dvs. Dacă solicitați asistență, asigurați-vă că furnizați ID-ul dvs. de eroare."
+    },
+    "tokenApproval": "Aprobarea simbolului nu a reușit",
+    "tokenApprovalEdited": {
+      "message": "Suma de aprobare setată în portofel este prea mică pentru a finaliza această tranzacție. Vă rugăm să încercați din nou și să măriți suma."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Ceva sa prăbușit.",
+      "restart": "Reporniți aplicația",
+      "title": "Uh oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Explorează mai multe piscine"
+    },
+    "search": {
+      "action": {
+        "clear": "Clar",
+        "viewEtherscan": "Vizualizați pe {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Nu s-au găsit rezultate pentru <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Nu s-au putut încărca rezultatele căutării",
+      "label": {
+        "ownedBy": "Deținut de {{ownerAddress}}"
+      },
+      "placeholder": "Căutați jetoane și portofele",
+      "section": {
+        "nft": "Colecții NFT",
+        "popularNFT": "Colecții populare NFT",
+        "popularTokenInfo": "Jetoanele populare sunt identificate pe baza volumului lor de tranzacționare pe Uniswap în ultimele 24 de ore.",
+        "popularTokens": "Jetoane populare",
+        "recent": "Căutări recente",
+        "tokens": "Jetoane",
+        "wallets": "Portofele"
+      }
+    },
+    "tokens": {
+      "error": "Nu s-au putut încărca jetoanele",
+      "favorite": {
+        "action": {
+          "add": "Jetonul preferat",
+          "edit": "Editeaza favoritele",
+          "remove": "Eliminați preferatul"
+        },
+        "title": {
+          "default": "Jetoane preferate",
+          "edit": "Editați jetoanele preferate"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Capitalizarea pieței",
+          "priceDecrease": "Scăderea prețului",
+          "priceIncrease": "Cresterea preturilor",
+          "totalValueLocked": "TVL",
+          "volume": "Volum"
+        },
+        "option": {
+          "marketCap": "Capitalizarea pieței",
+          "priceDecrease": "Scădere de preț (24 ore)",
+          "priceIncrease": "Creștere de preț (24 ore)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Volum uniswap (24 ore)"
+        }
+      },
+      "top": {
+        "title": "Jetoane de top"
+      }
+    },
+    "unableToDisplayHistorical": "Nu se pot afișa datele istorice privind volumul pentru lanțul curent.",
+    "unableToDisplayHistoricalTVL": "Nu se pot afișa datele istorice TVL pentru lanțul curent.",
+    "uniVolume": "Volumul uniswap",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Portofelul preferat",
+          "edit": "Editeaza favoritele",
+          "remove": "Eliminați preferatul"
+        },
+        "title": {
+          "default": "Portofelele preferate",
+          "edit": "Editați portofelele preferate"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "networks": "Rețele",
+      "popup": {
+        "trouble": "Probleme la conectare?"
+      },
+      "popupWithButton": "Portofelul dvs. nu este conectat la acest site.",
+      "titleConnected": "Conectat",
+      "titleNotConnected": "Nu este conectat"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Aţi uitat parola?",
+        "reset": "Resetați portofelul",
+        "submit": "Deblocați"
+      },
+      "password": {
+        "error": "Parola gresita. Încearcă din nou",
+        "reset": {
+          "initial": {
+            "description": "Uniswap nu vă poate ajuta să vă recuperați parola. Trebuie să vă resetați portofelul introducând din nou expresia de recuperare de 12 cuvinte.",
+            "help": "Unde îmi găsesc fraza de recuperare?",
+            "title": "Aţi uitat parola"
+          },
+          "speedbump": {
+            "description": "Asigurați-vă că aveți expresia de recuperare de 12 cuvinte înainte de a vă reseta portofelul. În caz contrar, nu vă veți putea recupera fondurile.",
+            "help": "Mi-am pierdut fraza de recuperare",
+            "title": "Înainte de a continua"
+          }
+        }
+      },
+      "subtitle": "Introduceți parola pentru deblocare",
+      "title": "Bine ai revenit"
+    },
+    "network": {
+      "notSupported": "Rețea neacceptată"
+    },
+    "open": "Deschideți extensia Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "Deschideți extensia",
+        "description": "Finalizați această acțiune deschizând extensia Uniswap.",
+        "title": "Continuați în Uniswap"
+      }
+    },
+    "settings": {
+      "password": {
+        "enter": {
+          "title": "Introduceti parola curenta"
+        },
+        "error": {
+          "wrong": "Parola gresita"
+        },
+        "placeholder": "Parola actuală"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Backup",
+        "message": "Asigurați-vă că faceți o copie de rezervă a frazei de recuperare pentru a preveni pierderea accesului la portofel și la fonduri.",
+        "title": "Browserul tău rămâne fără spațiu de stocare"
+      }
+    }
+  },
+  "fee": {
+    "bestForExotic": "Cel mai bun pentru perechi exotice.",
+    "bestForMost": "Cel mai bun pentru majoritatea perechilor.",
+    "bestForStablePairs": "Cel mai bun pentru perechi stabile.",
+    "bestForVeryStable": "Cel mai bun pentru perechi foarte stabile.",
+    "dynamic": "Taxa dinamica",
+    "percentEarned": "Procentul pe care îl veți câștiga în comisioane.",
+    "selectPercent": "{{pct}}% selectare",
+    "selectPercentDescription": "{{pct}}% din lichiditate a selectat acest nivel",
+    "tier": {
+      "create": {
+        "button": "Creați un nou nivel de taxe",
+        "description": "Crearea unui nou nivel se va inițializa într-un grup nou și va avea ca rezultat costuri de rețea mai mari decât de obicei."
+      },
+      "description": {
+        "v2": "Suma câștigată oferind lichiditate. Toate pool-urile v2 au taxe fixe de 0,3%. Pentru mai multe opțiuni, furnizați lichiditate pe v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Sunteți pe cale să creați un pool cu un nivel de taxe dinamic. Înainte de a continua, asigurați-vă că cârligul selectat acceptă taxe dinamice."
+        }
+      },
+      "highestTvl": "Cel mai mare TVL",
+      "label": "Procentul pe care îl veți câștiga în comisioane",
+      "missing": {
+        "description": "Nu găsiți nivelul pe care îl căutați?"
+      },
+      "new": "Nivel nou",
+      "percent": {
+        "select": "{{percentage}} selectează"
+      },
+      "recommended": {
+        "description": "Recomandat pe baza faptului că are cea mai mare cotă de lichiditate pentru perechea de jetoane selectată."
+      },
+      "search": {
+        "short": "Căutare niveluri"
+      },
+      "select": {
+        "existing": {
+          "button": "Selectați nivelul de taxă existent"
+        }
+      }
+    },
+    "tierExact": "{{fee}} nivel de taxă",
+    "unavailable": "Taxele câștigate nu sunt vizibile pentru pozițiile v2 până când lichiditatea este eliminată.",
+    "uncollected": "Include taxe neîncasate:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Vinde cu"
+    },
+    "connection": {
+      "quote": "Vând {{amount}} în valoare de {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Depășește echilibrul"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} pentru {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Întoarce-te",
+      "divider": "Jetoane neacceptate",
+      "message": "Acest token nu este acceptat pentru vânzare. Schimbați acest activ cu unul dintre jetoanele acceptate.",
+      "swap": "Schimbați la un token acceptat",
+      "title": "Jeton neacceptat"
+    },
+    "welcome": {
+      "tooltip": "Vinde-ți cripto-ul în contul tău bancar sau pe cardul de debit."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Alegeți jetonul"
+    },
+    "cexTransferModal": {
+      "description": "Cumpărarea cripto cu un card nu este acceptată în regiunea dvs. Transferați active dintr-un cont de schimb centralizat pentru a vă finanța portofelul.",
+      "title": "Transferați pentru a începe"
+    },
+    "checkout": {
+      "title": "Checkout cu"
+    },
+    "checkoutWith": "Checkout cu",
+    "chooseProvider": {
+      "description": "Veți continua către portalul furnizorului pentru a vedea taxele asociate tranzacției dvs."
+    },
+    "completeTransactionHeader": "Finalizați tranzacția cu {{serviceProvider}}",
+    "connection": {
+      "error": "Conexiune esuata",
+      "errorDescription": "A apărut o eroare la conectarea cu {{serviceProvider}}.",
+      "message": "Vă conectez la {{serviceProvider}}",
+      "quote": "Cumpărați {{amount}} în valoare de {{currencySymbol}}",
+      "terms": "Continuând, recunoașteți că veți fi supus Termenilor și condițiilor și Politica de confidențialitate cu {{serviceProvider}}, după caz."
+    },
+    "continueInTab": "Accesați fila {{serviceProvider}} pentru a continua. Este sigur să închideți acest modal acum.",
+    "disclaimer": "Continuând, recunoașteți că veți fi supus <tosLink>Termenilor și condițiilor</tosLink> și <privacyLink>Politica de confidențialitate</privacyLink> cu {{serviceProvider}}, după caz.",
+    "error": {
+      "default": "Ceva n-a mers bine.",
+      "load": "Nu s-au putut încărca jetoane pentru a cumpăra",
+      "max": "Maxim {{amount}}",
+      "min": "Minimum {{amount}}",
+      "noQuotes": "Nu s-au găsit ghilimele.",
+      "unavailable": "Acest serviciu nu este disponibil în regiunea dvs",
+      "unsupported": "Nu este acceptat în regiune",
+      "usd": "Disponibil pentru cumpărare numai în USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} pentru {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Nu s-au găsit ghilimele"
+    },
+    "purchasedOn": "Achiziționat pe {{serviceProvider}}",
+    "quote": {
+      "advice": "Veți continua către portalul furnizorului pentru a vedea taxele asociate tranzacției dvs.",
+      "type": {
+        "list": "{{optionsList}}și alte opțiuni",
+        "other": "Alte optiuni",
+        "recent": "Folosit recent"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Dintr-un cont"
+        }
+      },
+      "title": "Primește cripto",
+      "transferFunds": "Finanțați-vă portofelul prin transferul criptomonelor dintr-un alt portofel sau cont"
+    },
+    "region": {
+      "placeholder": "Căutați după țară sau regiune",
+      "title": "Selectați regiunea dvs"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} pentru {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Actualizați acum",
+      "learn": "Aflați cum să actualizați",
+      "recoveryPhrase": "Vedeți fraza de recuperare"
+    },
+    "description": {
+      "extension": "Este disponibilă o nouă versiune a aplicației. Pentru a continua să utilizați extensia Uniswap, actualizați-o la cea mai recentă versiune.",
+      "wallet": "Este disponibilă o nouă versiune a aplicației. Pentru a continua să utilizați portofelul Uniswap, actualizați-l la cea mai recentă versiune."
+    },
+    "label": {
+      "recoveryPhrase": "Fraza de recuperare"
+    },
+    "title": "Actualizați la cea mai recentă versiune"
+  },
+  "globalPreferences": {
+    "title": "Preferințe globale"
+  },
+  "hero": {
+    "scroll": "Derulați pentru a afla mai multe",
+    "subtitle": "Cea mai mare piață onchain. Cumpărați și vindeți cripto pe Ethereum și peste 11 alte lanțuri.",
+    "swap": {
+      "title": "Schimbați oricând, <br/> oriunde."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Aflați mai multe despre NFT-urile ascunse"
+        },
+        "text": {
+          "button": "NFT ascunse ({{numHidden}})",
+          "extension": "Acestea sunt potențiale escrocherii și NFT pe care le-ați ascuns. Puteți face clic dreapta pe un NFT pentru a-l afișa.",
+          "mobile": "Acestea sunt potențiale escrocherii și NFT pe care le-ați ascuns. Puteți apăsa lung pe un NFT pentru a-l afișa.",
+          "title": "NFT ascunse"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Aflați mai multe despre jetoanele ascunse"
+        },
+        "text": {
+          "button": "Jetoane ascunse ({{numHidden}})",
+          "info": "Acestea sunt potențiale înșelătorii, solduri mici și jetoane pe care le-ați ascuns. Jetoanele ascunse nu sunt incluse în soldul total al portofelului.",
+          "title": "Jetoane ascunse"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Primiți jetoane sau NFT",
+        "description": {
+          "default": "Când aprobați, tranzacționați sau transferați jetoane sau NFT, tranzacțiile dvs. vor apărea aici.",
+          "external": "Când acest portofel face tranzacții, acestea vor apărea aici."
+        },
+        "title": "Nicio activitate încă"
+      },
+      "error": {
+        "load": "Activitatea nu a putut fi încărcată"
+      },
+      "title": "Activitate"
+    },
+    "banner": {
+      "offline": "Sunteți în modul offline",
+      "testnetMode": {
+        "nav": "Sunteți în modul testnet. Dezactivați această opțiune în setări."
+      }
+    },
+    "explore": {
+      "footer": "Atingeți aici pentru a explora mii de jetoane, NFT-uri și multe altele",
+      "title": "Explorați jetoanele"
+    },
+    "extension": {
+      "error": "Eroare la încărcarea conturilor"
+    },
+    "label": {
+      "buy": "Cumpără",
+      "for": "Cumpărați/Vând",
+      "receive": "A primi",
+      "send": "Trimite",
+      "swap": "Schimbați"
+    },
+    "nfts": {
+      "title": "NFT-uri"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Cumpărați cu card de debit sau cont bancar.",
+            "title": "Cumpărați Crypto"
+          },
+          "import": {
+            "description": "Introduceți fraza de recuperare a acestui portofel pentru a începe schimbarea și trimiterea.",
+            "title": "Import portofel"
+          },
+          "receive": {
+            "description": "Transfer din alt portofel sau cont.",
+            "title": "Primește cripto"
+          }
+        },
+        "description": "Când acest portofel cumpără sau primește jetoane, acestea vor apărea aici.",
+        "title": "Nu există încă jetoane",
+        "welcome": {
+          "description": "Se pare că ai un portofel nou. Să-l finanțăm înainte de a face primul schimb."
+        }
+      },
+      "error": {
+        "fetch": "Nu s-au putut prelua soldurile de simboluri",
+        "load": "Nu s-au putut încărca soldurile de simboluri"
+      },
+      "title": "Jetoane"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Dintr-un cont",
+        "description": "Finanțați-vă portofelul prin transferul criptomonelor dintr-un alt portofel sau cont",
+        "title": "Primește cripto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Acesta este un portofel pentru vizualizare"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Schimbați sau furnizați lichiditate prin Protocolul Uniswap",
+      "title": "Interfață Uniswap"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Construiți următoarea generație de aplicații și instrumente deschise.",
+    "connectWithUs": "conecteaza-te cu noi",
+    "devDocs": "Documente pentru dezvoltatori",
+    "directToDeFi": "Mergeți direct la DeFi",
+    "followOnX": "Urmărește @Uniswap pe X pentru cele mai recente actualizări",
+    "protocolDescription": "Produsele Uniswap sunt alimentate de Protocolul Uniswap. Protocolul este cea mai mare piață onchain, cu un volum săptămânal de miliarde de dolari în mii de jetoane pe Ethereum și peste 7 lanțuri suplimentare.",
+    "provideLiquidity": {
+      "message": "Oferiți lichidități pool-urilor pe protocolul Uniswap și câștigați comisioane pe swap."
+    },
+    "swapSimple": "Schimbarea este simplă. Accesați mii de jetoane pe 11+ lanțuri.",
+    "teamInsights": "Perspective și știri de la echipă",
+    "trusted": "De încredere de milioane"
+  },
+  "language": {
+    "afrikaans": "afrikaans",
+    "arabic": "arabic",
+    "catalan": "catalan",
+    "chineseSimplified": "Chineză simplificată",
+    "chineseTraditional": "Tradițional chinezesc",
+    "czech": "ceh",
+    "danish": "danez",
+    "dutch": "olandeză",
+    "english": "Engleză",
+    "finnish": "finlandeză",
+    "french": "limba franceza",
+    "greek": "greacă",
+    "hebrew": "ebraică",
+    "hindi": "hindi",
+    "hungarian": "maghiară",
+    "indonesian": "indoneziană",
+    "italian": "italian",
+    "japanese": "japonez",
+    "korean": "coreean",
+    "malay": "Malaeză",
+    "norwegian": "norvegian",
+    "polish": "Lustrui",
+    "portuguese": "portugheză",
+    "romanian": "română",
+    "russian": "Rusă",
+    "serbian": "sârb",
+    "spanishLatam": "spaniolă (America Latină)",
+    "spanishSpain": "spaniolă (Spania)",
+    "spanishUs": "spaniolă (SUA)",
+    "swahili": "Swahili",
+    "swedish": "suedez",
+    "turkish": "turc",
+    "ukrainian": "ucrainean",
+    "urdu": "Urdu",
+    "vietnamese": "vietnamez"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 limită deschisă",
+      "count_other": "{{count}} limite deschise"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Prețul dvs. limită este cu {{percentage}}% mai mare decât pe piață. Ajustați prețul limită pentru a continua.",
+        "title": "Cumpărați cu {{tokenSymbol}} peste prețul pieței"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Nu putem calcula prețul actual de piață. Pentru a evita trimiterea unei comenzi sub prețul pieței, vă rugăm să verificați conexiunea la rețea și să încercați din nou.",
+        "title": "Prețul pieței nu este disponibil"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Prețul dvs. limită este cu {{percentage}}% mai mic decât pe piață. Ajustați prețul limită pentru a continua.",
+        "title": "Vând cu {{tokenSymbol}} sub prețul pieței"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Doar jetoanele Mainnet sunt disponibile pentru limite."
+        },
+        "uniswapx": "Este posibil ca limitele să nu se execute exact când jetoanele ating prețul specificat. <link />"
+      }
+    },
+    "learnMore": "Aflați mai multe despre limite",
+    "price": {
+      "input": {
+        "label": "Când 1 <tokenSymbol /> valorează"
+      },
+      "label": "Preț limită"
+    },
+    "selectSupportedTokens": "Selectați jetoanele acceptate"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Introduceți adresa cârligului"
+      }
+    },
+    "learnMoreLabel": "Aflați mai multe despre furnizarea de lichidități",
+    "notEnough": {
+      "label": "Lichiditate insuficientă pentru a afișa valoarea exactă a USD."
+    },
+    "provideOnProtocols": "Furnizarea de lichiditate pe diferite protocoale"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} lichiditate: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Adăugați lichiditate în pool-uri{{version}} pe Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Poziții închise"
+      },
+      "page": {
+        "title": "Gestionați lichiditatea pool-ului de {{quoteSymbol}}/{{baseSymbol}} pe Uniswap",
+        "version": {
+          "description": "Vedeți pozițiile dvs. active de lichiditate {{version}} . Adăugați noi poziții.",
+          "title": "Gestionați lichiditatea poolului{{version}} pe Uniswap"
+        }
+      },
+      "price": {
+        "formatted": "<amountWithSymbol /> pe <outputToken />"
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Permis",
+    "allowLpMigration": "Permite migrarea jetonului LP",
+    "connectAccount": "Trebuie să conectați un cont.",
+    "connectWallet": "Conectați-vă la un portofel pentru a vă vedea lichiditatea V2.",
+    "contract": "Contract de migrare Uniswap",
+    "firstLP": "Sunteți primul furnizor de lichidități pentru acest pool Uniswap V3. Lichiditatea dvs. va migra la prețul actual de {{source}} .",
+    "highGasCost": "Costul dvs. de tranzacție va fi mult mai mare, deoarece include gazul pentru a crea pool-ul.",
+    "invalidRange": "Interval nevalid selectat. Prețul minim trebuie să fie mai mic decât prețul maxim.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} jetoane LP",
+    "migrating": "Migrare",
+    "missingV2Position": "Nu vedeți una dintre pozițiile dvs. v2? <link>Importă-l.</link>",
+    "noV2Liquidity": "Nu a fost găsită nicio lichiditate V2.",
+    "positionNoFees": "Poziția dvs. nu va câștiga comisioane și nu va fi utilizată în tranzacții până când prețul pieței nu se va muta în intervalul dvs.",
+    "priceDifference": "Diferenta de pret: ",
+    "priceWarning": "Ar trebui să depuneți lichiditate în Uniswap V3 doar la un preț pe care îl considerați corect. <br /> Dacă prețul pare incorect, puteți fie să faceți un schimb pentru a muta prețul, fie să așteptați ca altcineva să facă acest lucru.",
+    "refund": "Cel puțin {{amtA}} {{symA}} și {{amtB}} {{symB}} vor fi rambursate în portofel din cauza intervalului de preț selectat.",
+    "selectFeeTier": "Selectați nivelul de taxă",
+    "setRange": "Setați intervalul de preț",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Preț:",
+    "v2Description": "Acest instrument va migra în siguranță lichiditatea dvs. {{source}} la V3. Procesul este complet lipsit de încredere datorită contractului de migrare <0>Uniswap</0> ↗",
+    "v2Instruction": "Pentru fiecare grup afișat mai jos, faceți clic pe migrați pentru a elimina lichiditatea din Uniswap V2 și a o depune în Uniswap V3.",
+    "v2Title": "Migrați lichiditatea V2",
+    "v3Price": "V3 {{sym}} Preț:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Preț introdus nevalid"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Obțineți aplicația Uniswap Wallet"
+      },
+      "title": "Uniswap: portofel Crypto și NFT"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp alimentat de MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay nu este disponibil în unele regiuni. Faceți clic pentru a afla mai multe."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Creează cont"
+    },
+    "logIn": {
+      "button": "Log in"
+    },
+    "signIn": {
+      "button": "Conectare"
+    },
+    "signUp": {
+      "button": "Înscrie-te"
+    },
+    "tabs": {
+      "createPosition": "Creați poziție",
+      "viewPositions": "Vedeți pozițiile"
+    }
+  },
+  "network": {
+    "lostConnection": "Este posibil să fi pierdut conexiunea la rețea.",
+    "mightBeDown": "Este posibil ca {{network}} să fie întrerupt în acest moment sau este posibil să fi pierdut conexiunea la rețea.",
+    "warning": "Avertisment de rețea"
+  },
+  "nft": {
+    "addToBag": "Adăugați în coș",
+    "authorsCollectionOnUni": "Colecția NFT a lui {{name}}pe Uniswap",
+    "bag": "Sac",
+    "blockedCollection": "Această colecție este blocată",
+    "blockedOpenSea": "Blocat pe OpenSea",
+    "buyTransferNFTToStart": "Cumpărați sau transferați NFT-uri în acest portofel pentru a începe.",
+    "buyTransferTokensToStart": "Cumpărați sau transferați jetoane în acest portofel pentru a începe.",
+    "card": {
+      "notAvailable": "Conținutul nu este încă <br /> disponibil"
+    },
+    "chainSupportComingSoon": "{{chainName}} asistență va veni în curând",
+    "collection": {
+      "title": "Explorează și cumpără pe Uniswap"
+    },
+    "collectionOnUni": "Colecția NFT pe Uniswap",
+    "collectonOnAddress": "Colecție NFT pe Uniswap - {{address}}",
+    "complete": "Complet!",
+    "editListings": "Editați listele",
+    "event": "Eveniment",
+    "explore": "Explorați NFT-urile",
+    "learnWhy": "Află de ce",
+    "list": {
+      "header": {
+        "lastPrice": "Ultimul"
+      },
+      "title": "Listați NFT-urile"
+    },
+    "listedSignificantly_one": "Un NFT este listat {{percentage}} sub prețul minim al colecției. Esti sigur ca vrei sa continui?",
+    "listedSignificantly_other": "{{count}} NFT-urile sunt listate semnificativ sub prețul minim al colecției. Esti sigur ca vrei sa continui?",
+    "listForSale": "Lista de vanzare",
+    "lowPrice": "Preț de listare scăzut",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} taxe"
+      }
+    },
+    "maxFees": "Taxe maxime",
+    "maxRoyalties": "Redevențe maxime pentru creatori",
+    "noItems": "Nu există elemente de afișat",
+    "noneAtAddress": "Nu există bunuri de colectare la această adresă",
+    "noPools": "Încă nu există piscine",
+    "notListed": "Nu e in lista",
+    "proceedsIfSold": "Încasări dacă sunt vândute",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Deja listat la {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} sub prețul minim."
+        }
+      }
+    },
+    "refundsInEth": "Rambursările pentru articolele indisponibile vor fi acordate în ETH",
+    "removeFromBag": "Scoateți din sac",
+    "reportSpam": "Raportați ca spam",
+    "returnToExplore": "Reveniți la NFT Explore",
+    "returnToMy": "Reveniți la NFT-urile mele",
+    "setPrices": "Setați prețurile pentru a continua",
+    "startListing": "Începeți listarea",
+    "successListed": "Listat cu succes",
+    "sweep": "Mătura",
+    "unavailableToList": "Indisponibil pentru listare",
+    "whyTransaction": {
+      "reason": "Listarea unui NFT necesită o aprobare unică a pieței pentru fiecare colecție NFT."
+    },
+    "willAppearHere": "Tranzacțiile dvs. onchain și achizițiile cripto vor apărea aici.",
+    "wishGranted": "Uniswap ți-a îndeplinit dorința!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Aprobați colectarea",
+        "approve_other": "Aprobați colecțiile",
+        "sign_one": "Semnează lista",
+        "sign_other": "Semnează liste"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} max"
+      }
+    },
+    "my": "NFT-urile mele",
+    "noneYet": "Nu există încă NFT",
+    "sell": "Vinde NFT-uri",
+    "viewAndSell": "Vizualizați și vindeți NFT-uri"
+  },
+  "notFound": {
+    "oops": "Hopa, du-mă înapoi la Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Disclaimer Marea Britanie:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} ascuns",
+      "unhidden": "{{assetName}} neascuns"
+    },
+    "copied": {
+      "address": "Adresă copiată",
+      "calldata": "Datele apelului au fost copiate",
+      "contractAddress": "Adresa contractului a fost copiată",
+      "failed": "Copierea eșuată în clipboard",
+      "image": "Imaginea a fost copiată",
+      "nftUrl": "Adresa URL NFT a fost copiată",
+      "tokenUrl": "Adresa URL a simbolului a fost copiată",
+      "transactionId": "ID-ul tranzacției a fost copiat",
+      "unitag": "Numele de utilizator a fost copiat"
+    },
+    "countryChange": "S-a schimbat la {{countryName}}",
+    "network": {
+      "changed": "S-a schimbat la {{network}}"
+    },
+    "passwordChanged": "parolă schimbată",
+    "restore": {
+      "success": "Portofelul a fost restaurat!"
+    },
+    "send": {
+      "network": "Se trimite pe {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Raportat"
+      }
+    },
+    "swap": {
+      "network": "Schimbarea pe {{network}}",
+      "pending": {
+        "swap": "Schimb în așteptare",
+        "unwrap": "Desfacere în așteptare",
+        "wrap": "Wrap în așteptare"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Anulat {{currencySymbol}} aprobare.",
+        "fail": "Nu s-a aprobat {{currencySymbol}} pentru utilizare cu {{address}}.",
+        "success": "Aprobat {{currencySymbol}} pentru utilizare cu {{address}}."
+      },
+      "pending": "Tranzacție în așteptare",
+      "swap": {
+        "canceled": "Schimbarea {{inputCurrencySymbol}}-{{outputCurrencySymbol}} a fost anulată.",
+        "expired": "{{inputCurrencyAmountWithSymbol}} pentru {{outputCurrencyAmountWithSymbol}} schimbul a expirat.",
+        "fail": "Nu s-a putut schimba {{inputCurrencyAmountWithSymbol}} cu {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Schimbat {{inputCurrencyAmountWithSymbol}} cu {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Trimitere {{tokenNameOrAddress}} anulată",
+        "fail": "Nu s-a putut trimite {{tokenNameOrAddress}} către {{walletNameOrAddress}}",
+        "received": "Primit {{tokenNameOrAddress}} de la {{walletNameOrAddress}}",
+        "success": "Trimis {{tokenNameOrAddress}} către {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Tranzacția cu {{addressOrEnsName}}",
+          "short": "tranzactie nereusita"
+        },
+        "success": {
+          "full": "S-a tranzacționat cu {{addressOrEnsName}}",
+          "short": "Tranzacție confirmată"
+        }
+      },
+      "unwrap": {
+        "canceled": "Anulat {{inputCurrencySymbol}} despachetare.",
+        "fail": "Nu s-a desfășurat {{inputCurrencyAmountWithSymbol}}.",
+        "success": "S-a despachetat {{inputCurrencyAmountWithSymbol}} și a primit {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Încheierea {{inputCurrencySymbol}} anulată.",
+        "fail": "Nu s-a putut încheia {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Înfășurat {{inputCurrencyAmountWithSymbol}} și primit {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Trimite în așteptare"
+    },
+    "walletConnect": {
+      "confirmed": "Tranzacție confirmată cu {{dappName}}",
+      "connected": "Conectat",
+      "disconnected": "Deconectat",
+      "failed": "Tranzacția a eșuat cu {{dappName}}",
+      "networkChanged": {
+        "full": "S-a schimbat la {{networkName}}",
+        "short": "Rețele comutate"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Continuați pe Extensia Uniswap",
+      "title": "Succes!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Vă sugerăm să scrieți acest lucru pe o bucată de hârtie și să o depozitați într-un loc sigur, ca un seif.",
+        "displayWarning": {
+          "description": "Citiți cu atenție următoarele înainte de a continua.",
+          "note": {
+            "access": "Această expresie de recuperare vă oferă acces deplin la portofel și la fonduri",
+            "secure": "Vizualizați acest lucru în privat și nu îl distribuiți nimănui",
+            "storage": "Notează-l și păstrează-l într-un loc sigur"
+          },
+          "title": "Câteva lucruri importante de știut"
+        },
+        "error": "Cuvânt nevalid sau scris greșit",
+        "placeholder": "Cuvant secret",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} finalizat",
+        "selectedWordPlaceholder": "Selectați cuvântul",
+        "subtitle_one": "Care este {{count}}primul cuvânt din fraza ta de recuperare?",
+        "subtitle_two": "Care este cuvântul {{count}}din fraza ta de recuperare?",
+        "subtitle_few": "Care este {{count}}al doilea cuvânt din fraza ta de recuperare?",
+        "subtitle_other": "Care este {{count}}al-lea cuvânt din fraza ta de recuperare?",
+        "title": "Să ne asigurăm că ai înregistrat-o corect"
+      },
+      "option": {
+        "badge": {
+          "quick": "Rapid"
+        },
+        "cloud": {
+          "description": "Faceți backup pentru portofel prin {{cloudProviderName}}, protejat de o parolă de recuperare.",
+          "title": "Setați o parolă de recuperare"
+        },
+        "manual": {
+          "description": "Înregistrați-vă 12 cuvinte secrete pe o bucată de hârtie și păstrați-o într-un loc sigur.",
+          "title": "Notează fraza de recuperare"
+        }
+      },
+      "reminder": {
+        "description": "Efectuarea unei copii de rezervă a portofelului vă asigură că vă puteți recupera întotdeauna bunurile dacă vă pierdeți telefonul sau obțineți un dispozitiv nou.",
+        "title": "Este timpul să-ți faci o copie de rezervă a portofelului",
+        "warning": {
+          "description": "Dacă nu configurați o metodă de rezervă, nu veți avea o modalitate de a vă recupera portofelul dacă vă pierdeți telefonul, ștergeți aplicația sau obțineți un dispozitiv nou.",
+          "title": "Ai putea să-ți pierzi fondurile"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Dacă îl uiți vreodată, nu îl putem reseta pentru tine. Notează-l într-un loc sigur sau păstrează-l în siguranță într-un manager de parole.",
+          "disclaimer": "Înțeleg că Uniswap Labs nu poate reseta parola mea de recuperare.",
+          "title": "Este important să salvați această parolă"
+        },
+        "manual": {
+          "description": "Asigurați-vă că ați scris corect fraza de recuperare și aveți un loc sigur pentru a o stoca.",
+          "disclaimer": "Înțeleg că Uniswap Labs nu-mi poate recupera portofelul dacă pierd asta.",
+          "title": "Înainte să termini..."
+        }
+      },
+      "subtitle": "Acesta este modul în care vă veți recupera portofelul dacă ștergeți aplicația sau pierdeți dispozitivul.",
+      "title": {
+        "existing": "Faceți backup pentru portofel",
+        "new": "Alegeți metoda de backup"
+      },
+      "view": {
+        "disclaimer": "Înțeleg că, dacă îmi pierd fraza de recuperare, Uniswap Labs nu mă poate ajuta să o repar.",
+        "subtitle": {
+          "message1": "Citiți cu atenție următoarele înainte de a continua",
+          "message2": "Va trebui să introduceți toate aceste 12 cuvinte secrete pentru a vă recupera portofelul."
+        },
+        "title": "Notează-ți fraza de recuperare",
+        "warning": {
+          "message1": "Această expresie de recuperare vă oferă acces deplin la portofel și la fonduri",
+          "message2": "Notează-l și păstrează-l într-un loc sigur",
+          "message3": "Vizualizați acest lucru în privat și <u>nu îl distribuiți nimănui</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Va trebui să introduceți acest lucru pentru a vă recupera fondurile. Dacă îl uiți vreodată, nu îl putem recupera pentru tine.",
+        "title": "Confirmați parola de recuperare"
+      },
+      "createPassword": {
+        "description": "Va trebui să introduceți acest lucru pentru a vă recupera fondurile. Dacă îl uiți vreodată, nu îl putem recupera pentru tine.",
+        "title": "Creați-vă parola de recuperare"
+      }
+    },
+    "complete": {
+      "button": "Deschideți extensia Uniswap",
+      "description": "Portofelul tău este gata să trimită și să primească cripto. Deschideți extensia Uniswap cu comanda rapidă de mai jos.",
+      "go_to_uniswap": "Accesați aplicația web Uniswap",
+      "pin": {
+        "description": "Faceți clic pe pictograma PIN pentru a adăuga Extensia Uniswap în bara de instrumente.",
+        "title": "Fixați extensia Uniswap"
+      },
+      "title": "Ești gata"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Veți avea nevoie de acesta pentru a vă debloca portofelul și pentru a accesa expresia de recuperare",
+        "title": {
+          "default": "Creaza parola",
+          "reset": "reseteaza parola"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Extensia Uniswap este compatibilă numai cu Chrome pe desktop.",
+          "title": "Chrome pe mobil nu este acceptat (încă)"
+        },
+        "description": "Extensia Uniswap este compatibilă doar cu Chrome acum.",
+        "title": "Acest browser nu este acceptat (încă)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Configurați un plan de recuperare dacă vă pierdeți vreodată telefonul sau obțineți unul nou.",
+          "title": "Faceți backup pentru portofel"
+        },
+        "bridging": {
+          "description_one": "Mutați ETH, USDC și multe altele prin rețele {{count}}+.",
+          "description_other": "Mutați ETH, USDC și multe altele prin rețele {{count}}+."
+        },
+        "fund": {
+          "description": "Finanțați-vă portofelul cumpărând cripto sau transferând dintr-un alt cont.",
+          "title": "Obține primul tău simbol"
+        },
+        "label": {
+          "required": "Necesar",
+          "swipe": "Beţivan"
+        },
+        "unitag": {
+          "description": "Creați un profil web3 personalizat și partajați-vă cu ușurință adresa prietenilor.",
+          "title": "Revendicați-vă numele de utilizator {{unitagDomain}}"
+        },
+        "welcome": {
+          "description": "Termină de configurat portofelul pentru a începe schimbul în câteva secunde.",
+          "title": "Bun venit la Uniswap"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 cuvânt este invalid sau scris greșit",
+        "invalidWords_other": "{{count}} cuvintele sunt nevalide sau scrise greșit"
+      },
+      "method": {
+        "import": {
+          "message": "Introduceți expresia de recuperare dintr-un alt portofel cripto",
+          "title": "Importă un portofel"
+        },
+        "restore": {
+          "message": {
+            "android": "Adăugați portofelele pentru care ați făcut backup în contul dvs. Google Drive",
+            "ios": "Adăugați portofelele pentru care ați făcut backup în contul dvs. iCloud"
+          },
+          "title": "Restaurați un portofel"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Nu vrei nimic din cele de mai sus?"
+        },
+        "subtitle": "Alegeți la ce portofel doriți să vă conectați din nou.",
+        "title": "Bine ați revenit la Uniswap",
+        "wallet": {
+          "button": "Vedeți fraza de recuperare",
+          "count_one": "+1 alt portofel",
+          "count_other": "+{{count}} alte portofele"
+        },
+        "warning": {
+          "caption": "Asigurați-vă că ați făcut backup pentru toate celelalte portofele. Dacă doriți vreodată să le restaurați, veți avea nevoie de frazele lor de recuperare sau de copiile de rezervă corespunzătoare {{cloudProvider}} .",
+          "title": "Esti sigur?"
+        }
+      },
+      "title": "Alegeți cum doriți să adăugați portofelul"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Expresia mea de recuperare are 12 cuvinte",
+        "importing": "Se importă...",
+        "longPhrase": "Fraza mea de recuperare este mai lungă"
+      },
+      "error": {
+        "invalidPhrase": "Expresia introdusă este nevalidă"
+      },
+      "subtitle": "Introduceți sau inserați expresia de recuperare de 12 cuvinte",
+      "title": "Introduceți expresia de recuperare"
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Am deja un portofel"
+      },
+      "mobileScan": {
+        "button": "Scanați codul QR pentru a importa",
+        "title": "Ai aplicația Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Adăugați un portofel existent",
+        "create": "Creați un portofel"
+      }
+    },
+    "name": {
+      "wallet": {
+        "button": {
+          "text": "Termina"
+        },
+        "subtitle": "Acest pseudonim este vizibil doar pentru tine",
+        "title": "Dă-ți portofel un nume"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Pentru a primi notificări, activați notificările pentru Uniswap Wallet în setările dispozitivului dvs.",
+        "title": "Permisiune de notificări"
+      },
+      "subtitle": "Rămâneți la curent cu starea tranzacțiilor și modificările majore ale prețurilor pentru jetoanele preferate",
+      "title": "Activați notificările"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Contul dvs. este protejat de propria dvs. stocare sigură a parolei."
+      },
+      "biometric": {
+        "scan": "Telefon, tabletă sau browser — scanați-vă datele biometrice și veți fi conectat."
+      },
+      "create": "Creați-vă cheia de acces",
+      "use": {
+        "recovery": {
+          "phrase": "Utilizați în schimb o expresie de recuperare"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Să confirmăm că ai înțeles bine. Dacă pierdeți sau notați acest lucru incorect, nu vă veți putea recupera fondurile.",
+          "default": "Dacă pierdeți sau notați acest lucru incorect, nu vă veți putea recupera fondurile."
+        },
+        "title": "Să confirmăm că ai înțeles bine"
+      },
+      "view": {
+        "subtitle": "Va trebui să introduceți toate aceste 12 cuvinte secrete pentru a vă recupera portofelul.",
+        "title": {
+          "hasPassword": "Dacă îți uiți vreodată parola..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Sunt gata",
+          "message": "Expresia dvs. de recuperare este cea care vă oferă (și oricui o are) acces la fondurile dvs. Asigurați-vă că o păstrați pentru dvs.",
+          "title": "Faceți acest pas într-un loc privat"
+        },
+        "screenshot": {
+          "message": "Oricine are acces la fotografiile tale poate accesa portofelul tău. Vă recomandăm să vă scrieți cuvintele.",
+          "title": "Capturile de ecran nu sunt sigure"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Aflați mai multe despre siguranța portofelului",
+        "subtitle": "Utilizați noua parolă pentru a vă debloca portofelul.",
+        "title": "Resetare parola"
+      }
+    },
+    "scan": {
+      "button": "Scanați cu aplicația Uniswap",
+      "error": "Ne pare rău, nu putem încărca codul QR în acest moment. Vă rugăm să încercați o altă metodă de integrare.",
+      "otp": {
+        "error": "Codul pe care l-ați trimis este incorect sau a apărut o eroare la trimitere. Vă rugăm să încercați din nou.",
+        "failed": "Încercări eșuate: {{number}}",
+        "subtitle": "Verificați aplicația mobilă Uniswap pentru codul de 6 caractere",
+        "title": "Introduceți codul unic"
+      },
+      "subtitle": "Scanați codul QR cu aplicația mobilă Uniswap pentru a începe să vă importați portofelul.",
+      "title": "Importați portofelul din aplicație",
+      "wifi": "Conectați-vă telefonul la aceeași rețea WiFi ca și computerul dvs."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Pentru a utiliza datele biometrice, configurați-o mai întâi în setări",
+            "ios": "Pentru a utiliza {{biometricsMethod}}, permiteți accesul în setările sistemului"
+          },
+          "title": {
+            "android": "Biometria este dezactivată",
+            "ios": "{{biometricsMethod}} este dezactivat"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Activați biometria",
+          "ios": "Activați {{biometricsMethod}}"
+        },
+        "setup": "Înființat"
+      },
+      "subtitle": {
+        "android": "Adăugați un nivel suplimentar de securitate solicitând datele biometrice pentru a trimite tranzacții.",
+        "ios": "Adăugați un nivel suplimentar de securitate solicitând {{biometricsMethod}} pentru a trimite tranzacții."
+      },
+      "title": "Protejați-vă portofelul"
+    },
+    "selectWallets": {
+      "error": "Nu s-au putut încărca adresele",
+      "title": {
+        "default": "Alegeți portofelele de importat",
+        "error": "Eroare la importarea portofelelor"
+      }
+    },
+    "termsOfService": "Continuând, sunt de acord cu<highlightTerms> Termenii și condițiile </highlightTerms>și sunt de acord cu<highlightPrivacy> Politica de confidențialitate</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Ce este o frază de recuperare?"
+      }
+    },
+    "wallet": {
+      "continue": "Să-l păstrăm în siguranță",
+      "defaultName": "Portofel {{number}}",
+      "description": {
+        "full": "Acesta este spațiul tău personal pentru jetoane, NFT-uri și toate tranzacțiile tale. Finalizați configurarea pentru a vă păstra fondurile în siguranță."
+      },
+      "title": "Bun venit la noul tău portofel"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Puteți încă schimba și furniza lichiditate pe acest lanț fără probleme."
+    },
+    "title": "{{versionName}} va reveni în curând"
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permisul2 permite aprobările jetonelor să fie partajate și gestionate în diferite aplicații."
+      }
+    }
+  },
+  "pool": {
+    "activePositions": {
+      "appear": "Pozițiile dvs. active de lichiditate V3 vor apărea aici."
+    },
+    "activeRange": "Interval de bifă activ",
+    "addAs": "Adăugați ca {{nativeWrappedSymbol}}",
+    "addLiquidity": {
+      "seoTitle": "Adăugați lichiditate la {{tokenPair}} ({{chain}}) pe Uniswap"
+    },
+    "addMoreLiquidity": "Adăugați mai multă lichiditate",
+    "apr": {
+      "description": "Anualizat pe baza taxelor de 1 zi"
+    },
+    "areCreating": "Creezi un bazin",
+    "areFirst": "Sunteți primul furnizor de lichidități.",
+    "back": "Înapoi la piscină",
+    "balances": "Soldurile piscinei",
+    "closedCTA": {
+      "description": "Le puteți vedea folosind filtrul din partea de sus a paginii.",
+      "title": "Căutați pozițiile dvs. închise?"
+    },
+    "collectAs": "Colectați ca {{nativeWrappedSymbol}}",
+    "collected": " Colectat",
+    "collectFees": "Colectați taxe",
+    "collecting": "Colectare",
+    "collectingFeesWithdraw": "Taxele de colectare vor retrage taxele disponibile în prezent pentru dvs.",
+    "confirmSupply": "Confirmați aprovizionarea",
+    "connection": {
+      "networkUnsupported": "Rețeaua dvs. conectată nu este acceptată."
+    },
+    "create": {
+      "info": "Selecțiile dvs. vor crea un nou grup de lichidități care poate duce la o lichiditate inițială mai mică și o volatilitate crescută. Luați în considerare adăugarea la un pool existent pentru a minimiza aceste riscuri.",
+      "pair": "Creați o pereche"
+    },
+    "createAndSupply": "Creați bazin și aprovizionare",
+    "createdPosition": {
+      "cancelled": "Crearea poziției a fost anulată",
+      "failed": "Crearea poziției nu a reușit"
+    },
+    "depositAmounts": "Sume de depozit",
+    "earnFees": "Adăugând lichiditate, veți câștiga 0,3% din toate tranzacțiile pe această pereche proporțional cu cota dvs. din pool. Taxele sunt adăugate la pool, se acumulează în timp real și pot fi solicitate prin retragerea lichidității.",
+    "estimatePercentToRevert": "Ieșirea este estimată. Dacă prețul se modifică cu mai mult de {{allowed}}%, tranzacția dvs. se va reveni.",
+    "explorers": "Exploratori",
+    "exporeAnalytics": "Explorați Uniswap Analytics.",
+    "hideClosed": "Ascunde pozițiile închise",
+    "import": {
+      "link": {
+        "description": "Unele poziții v2 nu sunt afișate automat."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Unele poziții v2 nu sunt afișate automat. Selectați o pereche de jetoane pentru a vă importa și vizualiza pozițiile."
+          }
+        }
+      },
+      "success": "Pool importat"
+    },
+    "increaseLiquidity": "Creșteți lichiditatea",
+    "info": "Informații despre piscină",
+    "initialShare": "Prețurile inițiale și cota de la piscină",
+    "learn": "Învăța",
+    "learnAbout": "Citiți mai multe despre furnizarea de lichidități",
+    "learnLiquidity": "Aflați despre furnizarea de lichidități",
+    "learnv3LP": "Consultați ghidurile noastre de trecere și migrare v3 LP.",
+    "limitFluctuation": {
+      "warning": "Vă rugăm să rețineți că execuția pentru limite poate varia în funcție de fluctuațiile pieței în timp real și de congestionarea rețelei Ethereum. Este posibil ca limitele să nu se execute exact când jetoanele ating prețul specificat."
+    },
+    "liquidity": {
+      "connectToAdd": "Conectați-vă la un portofel pentru a vă vedea lichiditatea.",
+      "data": {
+        "error": {
+          "message": "A apărut o eroare la preluarea datelor necesare pentru tranzacția dvs."
+        }
+      },
+      "earn": {
+        "fee": "Furnizorii de lichiditate câștigă o taxă de 0,3% pentru toate tranzacțiile proporțional cu cota lor din pool. Taxele sunt adăugate la pool, se acumulează în timp real și pot fi solicitate prin retragerea lichidității."
+      },
+      "outOfSync": {
+        "message": "Prețurile din acest pool diferă în funcție de prețurile de piață ale jetoanelor selectate. Ajustați-vă intervalul de preț în consecință sau așteptați ca grupul să se reechilibreze pentru a evita pierderile."
+      },
+      "ownershipWarning": {
+        "message": "Nu sunteți proprietarul acestei poziții LP. Nu veți putea retrage lichiditatea din această poziție decât dacă dețineți următoarea adresă: {{ownerAddress}}"
+      },
+      "rewards": "Recompense ale furnizorului de lichiditate",
+      "taxWarning": {
+        "message": "Unul sau mai multe dintre aceste jetoane au taxe pe transferuri. Adăugarea de lichiditate cu V3 poate duce la pierderea de fonduri. Încercați să utilizați V2 în schimb."
+      }
+    },
+    "liquidityPoolFeesNotice": "Când adăugați lichiditate, veți primi jetoane de grup reprezentând poziția dvs. Aceste jetoane câștigă automat taxe proporționale cu cota dvs. din fond și pot fi răscumpărate în orice moment.",
+    "manageRewardsLiquidity": "Gestionați lichiditatea în fondul de recompense",
+    "max": {
+      "label": "Max:"
+    },
+    "maxPrice": "Pret maxim",
+    "migrateLiquidity": "Migrați lichiditatea",
+    "migrateLiquidityDisabledTooltip": "Acest lanț nu acceptă fonduri de lichiditate v4.",
+    "migrateToV4": "Migrați la v4",
+    "min": {
+      "label": "Min:"
+    },
+    "minPrice": "Preț minim",
+    "mustBeInitialized": "Acest pool trebuie inițializat înainte de a putea adăuga lichiditate. Pentru a inițializa, selectați un preț de pornire pentru piscină. Apoi, introduceți intervalul de preț al lichidității și suma depozitului. Taxele de gaz vor fi mai mari decât de obicei din cauza tranzacției de inițializare.",
+    "newPosition": {
+      "plus": "+ Pozitie noua",
+      "title": "Poziție nouă"
+    },
+    "newSpecificPosition": "Poziție nouă {{symbol}}",
+    "noLiquidity": "Nu s-a găsit lichiditate.",
+    "onceHappyReview": "Odată ce sunteți mulțumit de rata, faceți clic pe furnizarea de revizuire.",
+    "openPosition": {
+      "cta": "Adăugați lichiditate la un pool și vedeți-vă pozițiile aici"
+    },
+    "openToStart": "Deschideți o poziție nouă sau creați un grup pentru a începe.",
+    "owner": "Proprietar",
+    "percent": "{{pct}}% pool",
+    "pooled": "Grupat {{sym}}:",
+    "position": {
+      "100": {
+        "at": "Poziția ta va fi 100% {{symbol}} la acest preț."
+      },
+      "networkConnect": "Pentru a vizualiza o poziție, trebuie să fiți conectat la rețeaua căreia îi aparține.",
+      "willBe100": "Poziția ta va fi compusă 100% din {{sym}} la acest preț"
+    },
+    "positions": {
+      "title": "Pozițiile tale",
+      "transaction": {
+        "settings": "Setări de tranzacție"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Valoarea USD este momentan indisponibilă pentru această poziție. Consultați detaliile poziției pentru sumele de simboluri depuse."
+      }
+    },
+    "priceRange": "Gama de prețuri",
+    "rangeBadge": {
+      "tooltip": {
+        "outsideRange": "Prețul acestui bazin este în afara intervalului selectat de dvs. Poziția dvs. nu câștigă în prezent comisioane.",
+        "text": "Poziția dvs. are 0 lichiditate și nu câștigă comisioane.",
+        "withinRange": "Prețul acestui bazin se încadrează în intervalul selectat de dvs. Poziția dvs. câștigă în prezent comisioane."
+      }
+    },
+    "rates": "Tarife",
+    "ratioTokenToPrice": "Raportul de jetoane pe care îl adăugați va stabili prețul acestui pool.",
+    "refresh": {
+      "prices": "Actualizează prețurile"
+    },
+    "removeLiquidity": "Eliminați lichiditatea",
+    "rewardsPool": {
+      "label": "Jetoane din grupul de recompense:"
+    },
+    "selectedRange": "Gama selectată",
+    "selectPair": "Selectați perechea",
+    "share": {
+      "label": "Cota dvs. de piscină:"
+    },
+    "shareOf": "Cota de fond:",
+    "showClosed": "Afișează pozițiile închise",
+    "specificPosition": "poziţia {{symbol}}",
+    "startingPrice": "Începând de {{sym}} Preț:",
+    "supply": "Livra",
+    "supplyingMaths": "Furnizarea {{amtA}} {{symA}} și {{amtB}} {{symB}}",
+    "tokenPair": "Pereche de jetoane",
+    "top": {
+      "tvl": "Top piscine de la TVL"
+    },
+    "totalTokens": "Numărul total de jetoane de la piscină:",
+    "uncollectedFees": "Taxe neîncasate",
+    "v2": {
+      "add": "Adăugați lichiditate V2",
+      "migratev3": "Migrați lichiditatea la V3"
+    },
+    "v2liquidity": "Lichiditatea V2",
+    "v3": "piscine v3",
+    "v4": "piscine v4",
+    "viewUncollectedFees": "Vedeți taxele și analizele neîncasate",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Retrageți ca {{nativeWrappedSymbol}}",
+    "yourv2": "Lichiditatea dvs. V2"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 pool-uri care se potrivesc cu selecția dvs. de pereche."
+      },
+      "notFound": {
+        "description": "Nu s-au găsit pool-uri v2 care se potrivesc. Verificați din nou selecția de simboluri și asigurați-vă că sunteți conectat la portofelul corect."
+      }
+    }
+  },
+  "pools": {
+    "approving": {
+      "amount": "Se aprobă {{amount}}"
+    },
+    "explore": "Explorează piscinele"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Cârligele sunt o caracteristică avansată care permite grupurilor să interacționeze cu contractele inteligente, deblocând diverse capabilități. Fiți atenți când adăugați cârlige, deoarece unele pot fi rău intenționate sau pot provoca consecințe nedorite."
+    },
+    "addingHook": {
+      "disclaimer": "Adăugarea de cârlige poate avea consecințe nedorite. Faceți-vă cercetările și continuați pe propriul risc.",
+      "hideProperties": "Ascunde proprietățile",
+      "invalidAddress": "Introduceți o adresă de cârlig validă",
+      "viewProperties": "Vizualizați proprietăți"
+    },
+    "appearHere": "Poziția ta va apărea aici.",
+    "create": {
+      "invalidPrice": "Preț nevalid",
+      "invalidRange": "Interval nevalid",
+      "modal": {
+        "header": "Crearea poziției"
+      }
+    },
+    "currentValue": "Valoarea poziției curente",
+    "deposit": {
+      "description": "Specificați sumele simbolice pentru contribuția dvs. de lichiditate."
+    },
+    "depositedCurrency": "Depus {{currencySymbol}}",
+    "hook": {
+      "disclaimer": "Înțeleg potențialele riscuri implicate în adăugarea acestui cârlig.",
+      "donateWarning": "Acest semnalizare poate duce la modificări ale taxelor câștigate.",
+      "liquidityWarning": "Acest indicator poate determina ca pool-ul să blocheze adăugarea de noi lichidități. Tranzacția dvs. poate reveni.",
+      "removeWarning": "Poate cauza blocarea fondurilor sau blocarea taxelor.",
+      "swapWarning": "Acest indicator poate permite furnizorilor de lichidități să folosească mai ușor lichiditatea Just-In-Time, ceea ce poate duce la comisioane câștigate mai mici.",
+      "warningHeader": "Important: riscurile legate de cârlig identificate",
+      "warningInfo": "Am identificat riscuri potențiale cu acest cârlig. Vă rugăm să vă asigurați că înțelegeți cum funcționează acest cârlig înainte de a decide să continuați."
+    },
+    "initialPrice": {
+      "info": "Setați cursul de schimb inițial între cele două jetoane pe care le furnizați."
+    },
+    "migrate": {
+      "liquidity": "Când migrați pozițiile, nu vă puteți schimba perechea de jetoane, dar puteți adăuga un cârlig pentru a îmbunătăți funcționalitatea.",
+      "v4unsupportedChain": "Acest lanț nu este acceptat pentru pool-urile v4."
+    },
+    "new": {
+      "protocol": "Poziție nouă {{protocol}}"
+    },
+    "noLiquidity": "Datele de lichiditate nu sunt disponibile.",
+    "noLiquidityData": "Nu există date de lichiditate.",
+    "notFound": {
+      "description": "Detalii despre această poziție nu sunt disponibile. Vă rugăm să verificați dacă sunteți conectat cu portofelul corect."
+    },
+    "protocol": "poziţia {{protocol}}",
+    "provide": {
+      "liquidity": "Alegeți jetoanele pentru care doriți să furnizați lichiditate. Puteți selecta jetoane pe toate rețelele acceptate.",
+      "liquidityDescription": {
+        "custom": "Gama personalizată vă permite să vă concentrați lichiditatea în limite specifice de preț, sporind eficiența capitalului și câștigurile din comisioane, dar necesitând o gestionare mai activă."
+      }
+    },
+    "removeHook": "Scoateți cârligul",
+    "resetDescription": "Selecțiile dvs. de jetoane, preț și intervale vor fi resetate.",
+    "setRange": {
+      "inputsBelow": "Utilizați intrările de mai jos pentru a vă seta intervalul."
+    },
+    "step": {
+      "deposit": "Introduceți sumele de depozit",
+      "price": "Setați prețul inițial",
+      "range": "Setați intervalul de preț",
+      "select": "Selectați perechea de jetoane și taxe"
+    },
+    "value": "Valoarea poziției",
+    "valueUnavailable": "Valoarea USD este momentan indisponibilă pentru această poziție. Consultați detaliile poziției pentru sumele de simboluri depuse.",
+    "your": "Pozitia ta"
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Conectați-vă portofelul pentru a vă vedea pozițiile curente."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Aplicația înregistrează statistici de utilizare anonimizate pentru a se îmbunătăți în timp.",
+    "autoRouter": "Aplicația preia ruta comercială optimă de pe un server Uniswap Labs.",
+    "infura": "Aplicația preia date în lanț și construiește apeluri contractuale cu un API Infura.",
+    "thirdPartyApis": "Această aplicație folosește următoarele API-uri terță parte:",
+    "trm": "Aplicația vă colectează în siguranță adresa portofelului și o partajează cu TRM Labs Inc. din motive de risc și de conformitate.",
+    "uniswaptos": "Termenii și condițiile Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 aplicație conectată",
+      "connections_other": "{{count}} aplicații conectate"
+    },
+    "error": {
+      "camera": {
+        "message": "Pentru a scana un cod, permiteți accesul la Cameră în setările de sistem",
+        "title": "Camera este dezactivată"
+      },
+      "none": "Nu a fost găsit niciun cod QR"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Scanați un cod QR",
+        "show": "Arată-mi codul QR"
+      },
+      "error": {
+        "message": "Asigurați-vă că scanați un cod QR valid de adresă Ethereum înainte de a încerca din nou.",
+        "title": "Cod QR nevalid"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Nu a fost găsit niciun mesaj."
+      },
+      "method": {
+        "default": "Solicitare de la {{dappNameOrUrl}}",
+        "signature": "Solicitare de semnătură de la {{dappNameOrUrl}}",
+        "transaction": "Solicitare de tranzacție de la {{dappNameOrUrl}}"
+      },
+      "withAmount": "Permite {{dappName}} să utilizeze până la<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Permiteți lui {{dappName}} să utilizeze {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Se conectează...",
+      "loading": "Se încarcă..."
+    },
+    "title": "Scanați un cod QR",
+    "wallet": {
+      "networks": "Rețele acceptate",
+      "title": "Puteți trimite și primi jetoane și NFT-uri pe toate rețelele noastre acceptate de {{numOfNetworks}} ."
+    }
+  },
+  "range": {
+    "outOfView": "Raza în afara vederii"
+  },
+  "removeLiquidity": {
+    "collectFees": "De asemenea, veți încasa taxele câștigate din această poziție.",
+    "outputEstimated": "Ieșirea este estimată. Dacă prețul se modifică cu mai mult de {{allowed}}%, tranzacția dvs. se va reveni.",
+    "pendingText": "Se elimină {{amtA}} {{symA}} și {{amtB}} {{symB}}",
+    "pooled": "Grupat {{symbol}}:",
+    "removing": "Se elimină {{amt1}} {{symbol1}} și {{amt2}} {{symbol2}}",
+    "removingTokensTip": "Sfat: eliminarea jetoanelor de grup vă transformă poziția înapoi în jetoane de bază la rata actuală, proporțională cu cota dvs. din pool. Taxele neîncasate sunt incluse în sumele pe care le primiți.",
+    "uniBurned": "UNI {{a}}/{{b}} Ars"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Acest lucru oferă protocolul Uniswap acces la jetonul dvs. pentru tranzacționare."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Când este disponibil, cumulează sursele de lichiditate pentru prețuri mai bune și swap fără gaz.",
+    "cheapest": {
+      "v4": "Clientul Uniswap selectează opțiunea de tranzacționare optimă luând în considerare prețul și costurile de rețea."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Expirat",
+      "subtitle": "Introduceți acest cod în extensia Uniswap. Fraza dvs. de recuperare va fi criptată și transferată în siguranță.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Cod nou în {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Cod nou în {{minutes}}m {{seconds}}s",
+          "seconds": "Cod nou în {{seconds}}s"
+        }
+      },
+      "title": "Cod unic de schimb unic"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Da, continua"
+      },
+      "label": {
+        "browser": "Browser",
+        "device": "Dispozitiv"
+      },
+      "subtitle": "Continuați doar dacă scanați un cod QR de la Extensia Uniswap pe un dispozitiv de încredere.",
+      "title": "Încercați să vă importați portofelul?",
+      "warning": "Atenție la site-urile și aplicațiile care usurează identitatea Uniswap. În caz contrar, portofelul dvs. poate fi compromis."
+    },
+    "error": {
+      "encryption": "Nu s-a putut pregăti fraza de bază.",
+      "noCode": "Nu s-a primit OTP. Vă rugăm să încercați din nou.",
+      "timeout": {
+        "message": "Scanați din nou codul QR de pe extensia Uniswap pentru a continua sincronizarea portofelului.",
+        "title": "Conexiunea dvs. a expirat"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Pentru a scana acest cod QR, telefonul trebuie să fie conectat la aceeași rețea WiFi ca computerul și orice VPN ar trebui să fie temporar oprit.",
+        "title": "Schimbați-vă rețeaua WiFi"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "În curând: căutați și explorați jetoane pe lanțul {{chainName}}",
+    "results": {
+      "count_one": "1 articol",
+      "count_other": "{{count}} articole"
+    },
+    "ukDisclaimer": "Disclaimer pentru rezidenții din Marea Britanie"
+  },
+  "send": {
+    "button": {
+      "review": "Examinați transferul"
+    },
+    "gas": {
+      "error": {
+        "title": "N / A"
+      },
+      "networkCost": {
+        "title": "Costul rețelei"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Sold: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Selectați destinatarul",
+      "input": {
+        "placeholder": "Căutați ENS sau adresa"
+      },
+      "previous_one": "1 transfer anterior",
+      "previous_other": "{{count}} transferuri anterioare",
+      "results": {
+        "empty": "Nici un rezultat gasit",
+        "error": "Adresa pe care ați introdus-o fie nu există, fie este scrisă greșit."
+      },
+      "section": {
+        "favorite": "Portofelele preferate",
+        "recent": "Recent",
+        "search": "Rezultatele cautarii",
+        "viewOnly": "Portofele pentru vizualizare",
+        "yours": "Portofelele tale"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Trimiteți fonduri către acest portofel numai dacă aveți expresia de recuperare sau cunoașteți proprietarul portofelului.",
+          "title": "Aveți asta ca portofel numai pentru vizualizare"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Când trimiteți jetoane la o adresă de portofel, acestea vor apărea aici",
+          "title": "Niciun portofel salvat"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Tu trimiți"
+      },
+      "summary": {
+        "button": {
+          "title": "Confirmați trimiterea"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Adresa pe care ați introdus-o fie nu există, fie este scrisă greșit.",
+        "title": "Nici un rezultat gasit"
+      },
+      "placeholder": "Căutați ENS sau adresa"
+    },
+    "title": "Trimite",
+    "warning": {
+      "blocked": {
+        "default": "Acest portofel este blocat",
+        "modal": {
+          "message": "Această adresă este blocată pe Uniswap Wallet deoarece este asociată cu una sau mai multe activități blocate. Dacă credeți că aceasta este o eroare, vă rugăm să trimiteți un e-mail la compliance@uniswap.org.",
+          "title": "Adresă blocată"
+        },
+        "recipient": "Portofelul destinatarului este blocat"
+      },
+      "erc20": {
+        "message": "Încercați să trimiteți fonduri la o adresă indicativă. Trimiterea criptografică la acest tip de adresă poate duce la o pierdere permanentă de fonduri.",
+        "title": "Aceasta este o adresă simbol"
+      },
+      "insufficientFunds": {
+        "message": "Soldul dvs. de {{currencySymbol}} a scăzut de când ați introdus suma pe care doriți să o trimiteți",
+        "title": "Nu este suficient {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Nu este suficient <highlight>{{currencySymbol}} pe {{networkName}}</highlight> pentru a trimite",
+          "withoutNetwork": "Nu este suficient <highlight>{{currencySymbol}}</highlight> pentru a trimite"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "Bine",
+            "cancel": "Anulare",
+            "confirm": "A confirma"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Nume de utilizator",
+          "walletAddress": "Adresa portofel"
+        },
+        "message": "Nu ați făcut tranzacții cu această adresă până acum. Vă rugăm să confirmați că adresa este corectă înainte de a continua.",
+        "title": "Adresa noua"
+      },
+      "restore": "Restabiliți-vă portofelul pentru a trimite",
+      "self": {
+        "message": "Încercați să trimiteți fonduri în portofelul dvs. actual. Trimiterea criptografiei la această adresă va implica costuri inutile de rețea.",
+        "title": "Acesta este portofelul dvs. actual"
+      },
+      "smartContract": {
+        "message": "Sunteți pe cale să trimiteți jetoane la un tip special de adresă - un contract inteligent. Verificați de două ori dacă este adresa la care intenționați să o trimiteți. Dacă este greșit, jetoanele tale ar putea fi pierdute pentru totdeauna.",
+        "title": "Aceasta este o adresă de portofel?"
+      },
+      "viewOnly": {
+        "message": "Trebuie să importați acest portofel prin expresia de recuperare pentru a trimite active.",
+        "title": "Acest portofel este doar pentru vizualizare"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Recente"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Trimitere recenzie"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Afișați fraza de recuperare"
+      },
+      "action": {
+        "hide": "Ascundeți expresia de recuperare"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Înțeleg că Uniswap Labs nu mă poate ajuta să-mi recuperez portofelul dacă nu reușesc să fac acest lucru.",
+          "title": "Mi-am salvat fraza de recuperare"
+        },
+        "initial": {
+          "subtitle": "Asigurați-vă că ați salvat expresia de recuperare. În caz contrar, veți pierde accesul la portofelele dvs",
+          "title": "Înainte de a continua"
+        },
+        "password": {
+          "error": "Parola gresita. Încearcă din nou"
+        },
+        "subtitle": "Introduceți parola pentru a confirma",
+        "title": "Îți elimini expresia de recuperare "
+      },
+      "title": "Fraza ta de recuperare",
+      "view": {
+        "warning": {
+          "message1": "Oricine vă cunoaște expresia de recuperare vă poate accesa portofelul și fondurile",
+          "message2": "Vedeți asta în privat",
+          "message3": "Nu împărtăși cu nimeni",
+          "message4": "Nu îl introduceți niciodată pe niciun site web sau aplicație",
+          "title": "Înainte de a continua"
+        }
+      },
+      "warning": {
+        "screenshot": {
+          "message": "Oricine are acces la fotografiile tale poate accesa portofelul tău. Vă recomandăm să vă scrieți cuvintele.",
+          "title": "Capturile de ecran nu sunt sigure"
+        },
+        "view": {
+          "message": "Oricine vă cunoaște expresia de recuperare vă poate accesa portofelul și fondurile.",
+          "title": "Vizualizați acest lucru într-un loc privat"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Activați în Setări",
+      "feedback": "Distribuiți feedback",
+      "help": "Obține ajutor",
+      "lock": "Blocați portofelul",
+      "privacy": "Politica de confidențialitate",
+      "terms": "Termenii serviciului"
+    },
+    "footer": "Făcut cu dragoste, \nUniswap Team 🦄",
+    "hideSmallBalances": "Ascunde soldurile mici",
+    "maxSlippage": "Max. alunecare",
+    "screen": {
+      "appearance": {
+        "title": "Aspect"
+      }
+    },
+    "section": {
+      "about": "Despre",
+      "preferences": "Preferințe",
+      "security": "Securitate",
+      "support": "A sustine",
+      "wallet": {
+        "button": {
+          "viewAll": "A vedea tot",
+          "viewLess": "Vedeți mai puțin"
+        },
+        "label": {
+          "viewOnly": "Doar vizualizare"
+        },
+        "title": "Setări portofel"
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Utilizați întotdeauna modul întunecat",
+            "title": "Modul întunecat"
+          },
+          "device": {
+            "subtitle": "Implicit la aspectul dispozitivului dvs",
+            "title": "Setările dispozitivului"
+          },
+          "light": {
+            "subtitle": "Utilizați întotdeauna modul de lumină",
+            "title": "Modul de lumină"
+          }
+        },
+        "title": "Aspect"
+      },
+      "backup": {
+        "create": {
+          "description": "Setarea unei parole va cripta copia de rezervă a frazei de recuperare, adăugând un nivel suplimentar de protecție dacă contul dvs. {{cloudProviderName}} este vreodată compromis.",
+          "title": "Faceți backup la {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Deoarece aceste portofele partajează o expresie de recuperare, vor șterge și copiile de rezervă pentru aceste portofele de mai jos",
+            "title": "Esti sigur?"
+          },
+          "warning": "Dacă ștergeți copia de rezervă {{cloudProviderName}} , veți putea recupera portofelul numai cu o copie de rezervă manuală a frazei de recuperare. Uniswap Labs nu vă poate recupera activele dacă vă pierdeți expresia de recuperare."
+        },
+        "error": {
+          "message": {
+            "full": "Nu se poate face backup pentru fraza de recuperare în {{cloudProviderName}}. Asigurați-vă că ați activat {{cloudProviderName}} cu spațiu de stocare disponibil și încercați din nou.",
+            "short": "Nu se poate șterge backupul"
+          },
+          "title": "eroare {{cloudProviderName}}"
+        },
+        "modal": {
+          "description": "Încă nu ați făcut backup pentru fraza de recuperare în {{cloudProviderName}} . Procedând astfel, vă puteți recupera portofelul doar dacă vă conectați la {{cloudProviderName}} de pe orice dispozitiv.",
+          "title": "Faceți backup pentru fraza de recuperare în {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "parolele nu se potrivesc"
+          },
+          "medium": "Aceasta este o parolă medie",
+          "placeholder": {
+            "confirm": "Confirmă parola",
+            "create": "Creaza parola"
+          },
+          "strong": "Aceasta este o parolă puternică",
+          "weak": "Aceasta este o parolă slabă"
+        },
+        "recoveryPhrase": {
+          "label": "Fraza de recuperare"
+        },
+        "selected": "{{cloudProviderName}} copie de rezervă",
+        "status": {
+          "action": {
+            "delete": "Ștergeți backupul"
+          },
+          "complete": "S-a făcut backup până la {{cloudProviderName}}",
+          "description": "Făcând o copie de rezervă a frazei de recuperare la {{cloudProviderName}}, vă puteți recupera portofelul doar dacă vă conectați la contul dvs. {{cloudProviderName}} pe orice dispozitiv.",
+          "inProgress": "Se face backup la {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "A făcut rezervă"
+          },
+          "title": "{{cloudProviderName}} copie de rezervă"
+        }
+      },
+      "beta": {
+        "tooltip": "In curand"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Solicitați datele biometrice pentru a deschide aplicația",
+            "ios": "Necesită {{biometricsMethod}} pentru a deschide aplicația"
+          },
+          "title": "Acces la aplicație"
+        },
+        "auth": "Vă rugăm să vă autentificați",
+        "off": {
+          "message": {
+            "android": "Biometria este în prezent dezactivată pentru Uniswap Wallet — o puteți activa în setările sistemului.",
+            "ios": "{{biometricsMethod}} este în prezent dezactivat pentru Uniswap Wallet — îl puteți activa în setările sistemului."
+          },
+          "title": {
+            "android": "Biometria este dezactivată",
+            "ios": "{{biometricsMethod}} este dezactivat"
+          }
+        },
+        "title": "Biometrie",
+        "transactions": {
+          "subtitle": {
+            "android": "Solicitați datele biometrice pentru a tranzacționa",
+            "ios": "Necesită {{biometricsMethod}} pentru a tranzacționa"
+          },
+          "title": "Tranzacții"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometria nu este configurată pe dispozitivul dvs. Pentru a utiliza datele biometrice, configurați-o mai întâi în Setări.",
+            "ios": "{{biometricsMethod}} nu este configurat pe dispozitivul dvs. Pentru a utiliza {{biometricsMethod}}, configurați-l mai întâi în Setări."
+          },
+          "title": {
+            "android": "Biometria nu este configurată",
+            "ios": "{{biometricsMethod}} nu este configurat"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Dacă nu activați datele biometrice, oricine obține acces la dispozitivul dvs. poate deschide Uniswap Wallet și poate face tranzacții.",
+            "ios": "Dacă nu activați {{biometricsMethod}}, oricine obține acces la dispozitivul dvs. poate deschide Uniswap Wallet și poate face tranzacții."
+          },
+          "title": "Esti sigur?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Deconectați toate",
+        "noConnectionsDescription": "Conectați-vă la o aplicație căutând un buton „Conectați portofel” sau „Conectați-vă”."
+      },
+      "currency": {
+        "title": "Monedă locală"
+      },
+      "hapticTouch": {
+        "title": "Atingere haptică"
+      },
+      "helpCenter": {
+        "title": "Centru de ajutor"
+      },
+      "language": {
+        "button": {
+          "navigate": "Mergi la Setari"
+        },
+        "description": {
+          "extension": "Uniswap are setările implicite pentru limba sistemului. Pentru a schimba limba preferată, accesați setările sistemului.",
+          "mobile": "Uniswap este implicit la setările de limbă ale dispozitivului dvs. Pentru a schimba limba preferată, accesați „Uniswap” în setările dispozitivului și atingeți „Limbă”."
+        },
+        "title": "Limba"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Transferuri, solicitări și alte activități",
+            "title": "Activitate din portofel"
+          },
+          "priceAlerts": {
+            "description": "Schimbări mari de preț pentru jetoanele preferate",
+            "title": "Alerte de preț"
+          },
+          "updates": {
+            "description": "Recomandări și funcții noi",
+            "title": "Actualizări de la Uniswap"
+          }
+        },
+        "title": "Notificări"
+      },
+      "password": {
+        "title": "Schimbaţi parola"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Folosim date anonime de utilizare pentru a vă îmbunătăți experiența în produsele Uniswap Labs. Când este dezactivată, urmărim doar erorile și utilizarea esențială.",
+          "title": "Permite analize"
+        },
+        "title": "Confidențialitate"
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Introduceți parola"
+        },
+        "title": "Fraza de recuperare"
+      },
+      "smallBalances": {
+        "title": "Ascunde soldurile mici"
+      },
+      "unknownTokens": {
+        "title": "Ascundeți jetoanele necunoscute"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Editați eticheta",
+          "editProfile": "Editează profilul",
+          "remove": "Scoateți portofelul"
+        },
+        "connections": {
+          "title": "Conexiuni"
+        },
+        "editLabel": {
+          "description": "Etichetele nu sunt publice. Sunt stocate local și sunt vizibile numai pentru dvs.",
+          "save": "Salvează modificările"
+        },
+        "label": "Poreclă",
+        "testnetMode": {
+          "description": "Acest lucru activează rețelele de testare pentru ca dezvoltatorii să încerce funcții și tranzacții fără a utiliza active reale. Tokenurile de pe rețelele de testare nu au nicio valoare reală.",
+          "title": "Modul Testnet"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Pentru a utiliza Uniswap pe {{label}}, comutați rețeaua în setările portofelului."
+    },
+    "title": "Setări",
+    "version": "Versiunea {{appVersion}}"
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Nu ați făcut tranzacții cu această adresă până acum. Asigurați-vă că este adresa corectă înainte de a continua.",
+        "title": "Adresa noua"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Sunteți pe cale să trimiteți jetoane la un tip special de adresă - un contract inteligent. Verificați de două ori dacă este adresa la care intenționați să o trimiteți. Dacă este greșit, jetoanele dvs. ar putea fi pierdute pentru totdeauna.",
+        "title": "Aceasta este o adresă de portofel?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "Taxe 24 de ore",
+    "24volume": "Volum 24 ore",
+    "allTimeFees": "Taxele LP tot timpul",
+    "allTimeSwappers": "Schimbători de timp",
+    "allTimeVolume": "Volumul tot timpul",
+    "fdv": {
+      "description": "Evaluarea complet diluată (FDV) calculează valoarea totală de piață presupunând că toate jetoanele sunt în circulație."
+    },
+    "marketCap": {
+      "description": "Capitalizarea pieței este valoarea totală de piață a ofertei circulante a unui activ."
+    },
+    "tvl": {
+      "description": "Valoarea totală blocată (TVL) este valoarea totală a activului disponibil în toate fondurile de lichiditate Uniswap v3."
+    },
+    "volume": {
+      "1d": {
+        "description": "Volumul pentru 1 zi este valoarea activului care a fost tranzacționat pe Uniswap v3 în ultimele 24 de ore.",
+        "short": "1D vol"
+      },
+      "description": "Volumul este valoarea activului care a fost tranzacționat pe Uniswap v3 în intervalul de timp selectat."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Permite {{sym}} (o singură dată)"
+    },
+    "approvalNeeded": "Este necesară o aprobare pentru a utiliza acest simbol. ",
+    "approvalPending": "În curs de aprobare",
+    "approveAndSubmit": "Aprobați și trimiteți",
+    "approveAndSwap": "Aprobați și schimbați",
+    "approveInWallet": "Aprobați în portofel",
+    "balance": {
+      "amount": "Sold: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Se estimează că cea mai eficientă rută costă ~{{gasPrice}} în costuri de rețea. "
+    },
+    "bridging": {
+      "estimatedTime": "EST. timp",
+      "title": "Schimbarea între rețele",
+      "warning": {
+        "description": "Schimbați de la {{fromNetwork}} la {{toNetwork}}. Acest lucru este cunoscut și sub denumirea de „punte”, care vă mută jetoanele de la o rețea la alta."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Revizuire",
+      "submitting": {
+        "keep": {
+          "open": "Ține-ți portofelul deschis..."
+        }
+      },
+      "swap": "Schimbați",
+      "swapAnyways": "Schimbați oricum",
+      "unwrap": "Desfaceți",
+      "wrap": "Înfășurați"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Căutați după țară sau regiune"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Schimbul dvs. se poate executa înainte ca anularea să fie procesată. Costurile de rețea nu pot fi rambursate. Doresti sa continui?",
+      "cannotExecute_other": "Schimburile dvs. se pot executa înainte ca anularea să fie procesată. Costurile de rețea nu pot fi rambursate. Doresti sa continui?"
+    },
+    "confirmLimit": "Confirmați limita",
+    "confirmSwap": "Confirmați schimbul",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. Termen limită"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Taxa de simbol"
+      },
+      "newQuote": {
+        "input": "Intrare nouă",
+        "output": "Ieșire nouă"
+      },
+      "orderRouting": "Dirijarea comenzilor",
+      "orderRoutingInfo": "Acest schimb este direcționat prin Across, un protocol descentralizat care mută activele peste rețele, acordând prioritate siguranței, execuției rapide și prețurilor scăzute.",
+      "poweredBy": "Cu sprijinul",
+      "rate": "Rată",
+      "slippage": "Alunecare maximă",
+      "uniswapFee": "Taxa"
+    },
+    "enterAmount": "Introduceți suma de {{sym}}",
+    "error": {
+      "default": "Poate fi necesar să vă măriți toleranța la alunecare. Notă: jetoanele cu taxă la transfer și rebase sunt incompatibile cu Uniswap V3.",
+      "expectedToFail": "Se așteaptă ca schimbul dvs. să eșueze.",
+      "modifiedByWallet": "Schimbul dvs. a fost modificat prin portofel. Dacă aceasta a fost o greșeală, vă rugăm să anulați imediat sau riscați să vă pierdeți fondurile.",
+      "rejected": "Tranzacție respinsă",
+      "undefinedObject": "A apărut o eroare la încercarea de a executa această schimbare. Poate fi necesar să vă măriți toleranța la alunecare. Dacă acest lucru nu funcționează, poate exista o incompatibilitate cu simbolul pe care îl tranzacționați. Notă: jetoanele cu taxă la transfer și rebase sunt incompatibile cu Uniswap V3.",
+      "unknown": "Eroare necunoscută.",
+      "v2": {
+        "expired": "Această tranzacție nu a putut fi trimisă deoarece termenul limită a depășit. Vă rugăm să verificați dacă termenul limită pentru tranzacție nu este prea mic.",
+        "k": "Invariantul Uniswap x*y=k nu a fost satisfăcut de swap. Acest lucru înseamnă de obicei că unul dintre jetoanele pe care le schimbați încorporează un comportament personalizat la transfer.",
+        "slippage": "Această tranzacție nu va reuși nici din cauza mișcării prețului, nici din cauza taxei de transfer. Încercați să vă creșteți toleranța la alunecare",
+        "transferInput": "Jetonul de intrare nu poate fi transferat. Este posibil să existe o problemă cu simbolul de intrare.",
+        "transferOutput": "Jetonul de ieșire nu poate fi transferat. Poate exista o problemă cu jetonul de ieșire."
+      },
+      "v3": {
+        "slippage": "Această tranzacție nu va reuși din cauza mișcării prețului. Încercați să vă creșteți toleranța la alunecare. Notă: taxa pentru transfer și jetoanele de rebazare sunt incompatibile cu Uniswap V3.",
+        "transferOutput": "Jetonul de ieșire nu poate fi transferat. Poate exista o problemă cu jetonul de ieșire. Notă: taxa pentru transfer și jetoanele de rebazare sunt incompatibile cu Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Va exista o mare diferență între valorile de intrare și de ieșire din cauza lichidității curente."
+    },
+    "fail": {
+      "message": "Încercați să ajustați alunecarea la o valoare mai mare.",
+      "uniswapX": "Schimbarea nu a putut fi finalizată cu UniswapX. Încercați din nou schimbul pentru a-l ruta prin API-ul clasic Uniswap."
+    },
+    "fees": {
+      "experience": "Această taxă se aplică unor perechi de jetoane pentru a asigura cea mai bună experiență cu Uniswap. Este plătit în simbolul de ieșire și a fost deja luat în considerare în cotație.",
+      "noFee": "Taxele sunt aplicate pe anumite perechi de jetoane pentru a asigura cea mai bună experiență cu Uniswap. Nu există nicio taxă asociată cu acest swap."
+    },
+    "fetchingBestPrice": "Se aduc cel mai bun preț...",
+    "fetchingPrice": "Se aduc prețul...",
+    "finalizingQuote": "Se finalizează oferta...",
+    "form": {
+      "header": "Schimbați",
+      "insufficientLiquidity": "Lichiditate insuficientă pentru această tranzacție.",
+      "pocketUniverseExtension": {
+        "warning": "Extensia Pocket Universe încalcă <termsLink /> prin modificarea produsului nostru într-un mod care induce în eroare și ar putea dăuna utilizatorilor. Dezactivați extensia și reîncărcați pagina."
+      },
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Datorită taxelor de simbol, sumele swap pot fi introduse numai folosind câmpul de introducere"
+          }
+        },
+        "restore": "Restaurați-vă portofelul pentru a schimba"
+      }
+    },
+    "frontrun": {
+      "warning": "Tranzacția dvs. poate fi în avans și poate duce la o tranzacție nefavorabilă."
+    },
+    "header": {
+      "viewOnly": "Doar vizualizare"
+    },
+    "impactOfTrade": "Impactul pe care îl are tranzacția dvs. asupra prețului de piață al acestui pool.",
+    "inputEstimated": {
+      "atMost": "Intrarea este estimată. Veți vinde cel mult <amount /> sau tranzacția va reveni."
+    },
+    "limit": "Limită",
+    "limitedAssets": {
+      "warning": "Unele active nu sunt disponibile prin această interfață, deoarece este posibil să nu funcționeze bine cu contractele inteligente sau nu putem permite tranzacționarea din motive legale."
+    },
+    "limitFilled": "Limită umplută!",
+    "limitSubmitted": "Limită trimisă",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Prețul de piață este în afara intervalului de preț specificat. Doar depozit pentru un singur activ."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Suma maximă pe care sunteți garantat să o cheltuiți. Dacă prețul scade și mai mult, tranzacția dvs. va reveni."
+    },
+    "minPriceSlip": {
+      "revert": "Dacă prețul se mișcă astfel încât să primiți mai puțin de {{amount}}, tranzacția dvs. va reveni."
+    },
+    "networkCost": {
+      "paidIn": "Costul rețelei este plătit în {{sym}} pe rețeaua {{chainName}} pentru a tranzacționa."
+    },
+    "orderRouting": "Dirijarea comenzilor",
+    "outputEstimated": {
+      "atLeast": "Ieșirea este estimată. Veți primi cel puțin <amount /> sau tranzacția va reveni."
+    },
+    "payAnyway": "Plătește oricum",
+    "payAtMost": "Plătește cel mult",
+    "payWith": "Plateste cu",
+    "placeOrder": "Plasați comanda",
+    "priceImpact": "Impactul prețului",
+    "receive": {
+      "atLeast": "Primește cel puțin"
+    },
+    "request": {
+      "title": {
+        "full": "Schimbați {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Schimbați jetoane"
+      }
+    },
+    "review": {
+      "summary": "Schimbați"
+    },
+    "reviewLimit": "Limita de revizuire",
+    "route": {
+      "optimizedGasCost": "Această rută ia în considerare rutele împărțite, hopurile multiple și costurile de rețea ale fiecărui pas."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Tranzacția dvs. va reveni dacă este în așteptare mai mult de această perioadă de timp. (Maximum: 3 zile).",
+        "warning": "Termen mare"
+      },
+      "protection": {
+        "description": "Cu protecția swap activată, tranzacțiile dvs. Ethereum vor fi protejate de atacurile tip sandwich, cu șanse reduse de eșec.",
+        "subtitle": {
+          "supported": "{{chainName}} Rețea",
+          "unavailable": "Nu este disponibil pe {{chainName}}"
+        },
+        "title": "Protecție la schimb"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Clientul Uniswap selectează cea mai ieftină opțiune de tranzacționare luând în considerare prețul și costurile de rețea."
+            },
+            "tooltip": "O rută este identificată luând în considerare v2, v3 și anumite grupuri v4, luând în considerare impactul estimat al prețului și costurile de rețea."
+          },
+          "v2": {
+            "title": "piscine v2"
+          },
+          "v3": {
+            "title": "piscine v3"
+          },
+          "v4": {
+            "title": "piscine v4"
+          }
+        },
+        "title": "Opțiuni comerciale"
+      },
+      "slippage": {
+        "alert": "Alunecare mare",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "Tranzacția dvs. va reveni dacă prețul se modifică mai mult decât procentul de alunecare.",
+        "input": {
+          "message": "Dacă prețul scade și mai mult, tranzacția dvs. va reveni. Mai jos este suma minimă pe care sunteți garantat să o primiți.",
+          "receive": {
+            "title": "Primește cel puțin"
+          }
+        },
+        "output": {
+          "message": "Dacă prețul scade și mai mult, tranzacția dvs. va reveni. Mai jos este suma maximă pe care ar trebui să o cheltuiți.",
+          "spend": {
+            "title": "Cheltuiește cel mult"
+          }
+        },
+        "warning": {
+          "description": "Alunecarea peste 20% este probabil să aibă ca rezultat o tranzacție nefavorabilă. Pentru a reduce riscul de a fi în avans, reduceți setările.",
+          "hover": "Acest lucru poate duce la o tranzacție nefavorabilă. Încercați să reduceți setarea de alunecare.",
+          "max": "Introduceți o valoare mai mică de {{maxSlippageTolerance}}",
+          "message": "Alunecarea poate fi mai mare decât este necesar",
+          "min": "Introduceți o valoare mai mare decât 0"
+        }
+      },
+      "title": "Schimbați setările",
+      "transactionRevertPrice": "Tranzacția dvs. va reveni dacă prețul se modifică nefavorabil cu mai mult de acest procent."
+    },
+    "signAndSwap": "Semnează și schimbă",
+    "slippage": {
+      "amt": "{{amt}} alunecare",
+      "bridging": "Fără alunecare la schimbarea între rețele",
+      "settings": {
+        "title": "Setări de alunecare"
+      },
+      "tooltip": "Mișcarea prețului maxim înainte de tranzacția dvs. se va reveni."
+    },
+    "slippageBelow": {
+      "warning": "Alunecarea sub {{amt}} poate duce la o tranzacție eșuată"
+    },
+    "submitted": "Schimb trimis",
+    "success": "Schimbați succes!",
+    "taxTooltip": {
+      "label": "Doar intrare exactă",
+      "noTokenSelected": "Taxele pentru simbolul de ieșire selectat nu permit rezultate exacte exacte. Utilizați în schimb câmpul „Vânzare”.",
+      "tokenSelected": "Taxele {{tokenSymbol}} nu permit rezultate exacte exacte. Utilizați în schimb câmpul „Vânzare”."
+    },
+    "tokenOwnFees": "Unele jetoane percep o taxă atunci când sunt cumpărate sau vândute, care este stabilită de emitentul token-ului. Uniswap nu primește niciuna dintre aceste taxe.",
+    "total": "Total",
+    "tradeRoutes": "Rute comerciale",
+    "transaction": {
+      "deadline": "Termenul limită pentru tranzacție",
+      "revertAfter": "Tranzacția dvs. va reveni dacă este în așteptare mai mult de această perioadă de timp."
+    },
+    "unsupportedAssets": {
+      "readMore": "Citiți mai multe despre materialele neacceptate"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Introduceți o sumă mai mare"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Încercați să vă măriți alunecarea.",
+        "titleMay": "Acest schimb poate eșua"
+      },
+      "insufficientBalance": {
+        "title": "Nu ai suficient {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Schimbați cu {{ tokenSymbol }} pe {{networkName}}",
+          "buy": "Cumpărați {{ tokenSymbol }}",
+          "buyWithCard": "Cumpărați cu cardul"
+        },
+        "message": {
+          "withNetwork": "Nu este suficient <highlight>{{currencySymbol}} pe {{networkName}}</highlight> pentru a schimba",
+          "withoutNetwork": "Nu este suficient <highlight>{{currencySymbol}}</highlight> pentru a schimba"
+        },
+        "title": "Nu aveți suficient {{currencySymbol}} pentru a acoperi costul rețelei"
+      },
+      "networkFee": {
+        "allow": "Permite {{ inputTokenSymbol }} (o singură dată)",
+        "highRelativeToValue": {
+          "unichain": "Costul rețelei depășește 10% din valoarea totală a tranzacției."
+        },
+        "message": {
+          "unichain": "Acesta este costul procesării tranzacției dvs. pe blockchain.",
+          "uniswapX": {
+            "unichain": "Acesta este costul procesării tranzacției dvs. pe blockchain. <gradient>UniswapX</gradient> reunește sursele de lichiditate pentru prețuri mai bune și swap fără gaz."
+          }
+        },
+        "wrap": "Înfășurați ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Nu s-au găsit citate de legătură. Încercați să utilizați bridge-ul oficial în acest moment."
+        },
+        "title": "Nu s-au găsit ghilimele"
+      },
+      "noRoutesFound": {
+        "message": "În prezent, nu există rute disponibile pentru jetoanele selectate. Vă rugăm să încercați o altă pereche sau verificați din nou mai târziu.",
+        "title": "Nu există rute disponibile"
+      },
+      "offline": {
+        "message": "Este posibil să fi pierdut conexiunea la internet sau este posibil ca rețeaua să fie oprită. Vă rugăm să vă verificați conexiunea la internet și să încercați din nou.",
+        "title": "Ești offline"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Această tranzacție va avea ca rezultat un impact al prețului de {{priceImpactValue}} asupra prețului de piață al acestui pool și va duce la o pierdere de fonduri."
+        },
+        "title": {
+          "veryHigh": "Impact foarte mare asupra prețului ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Tranzacția dvs. nu a fost trimisă deoarece ați închis aplicația.",
+        "approvalFailed": "Tranzacția dvs. nu a fost trimisă deoarece aprobarea simbolului nu a reușit.",
+        "stale": "Tranzacția dvs. nu a fost trimisă deoarece ați închis aplicația sau aprobarea a durat prea mult.",
+        "submissionFailed": "A apărut o problemă la trimiterea tranzacției dvs.",
+        "title": "Schimbul a fost anulat",
+        "wrap": {
+          "message": "ETH-ul dvs. va rămâne împachetat ca WETH."
+        },
+        "wrapFailed": "Tranzacția dvs. nu a fost trimisă deoarece tranzacția de împachetare a eșuat."
+      },
+      "rateLimit": {
+        "message": "Vă rugăm să încercați din nou în câteva minute.",
+        "title": "Limita ratei a fost depășită"
+      },
+      "router": {
+        "message": "Este posibil să fi pierdut conexiunea sau rețeaua poate fi oprită. Dacă problema persistă, încercați din nou mai târziu.",
+        "title": "Această tranzacție nu poate fi finalizată acum"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} este blocat"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Se aplică taxe pentru a asigura cea mai bună experiență cu Uniswap. Nu există nicio taxă asociată cu acest swap.",
+          "included": "Taxele sunt aplicate pentru a asigura cea mai bună experiență cu Uniswap și au fost deja luate în considerare în această cotație."
+        },
+        "title": "Taxa de schimb"
+      },
+      "viewOnly": {
+        "message": "Trebuie să importați acest portofel prin expresia de recuperare pentru a schimba jetoane."
+      }
+    },
+    "wrap": {
+      "token": "Înfășurați {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Pe alte rețele",
+      "otherNetworksBalance": "Echilibrul pe alte rețele",
+      "title": "Echilibrul tau"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Comutați la {{network}}",
+      "title": "Acest simbol nu există",
+      "titleWithChain": "Acest simbol nu există pe {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "date indicative pentru <tokenLink />",
+        "withChain": "date indicative pentru <tokenLink /> pe {{chainName}}"
+      }
+    },
+    "nameNotFound": "Numele nu a fost găsit",
+    "noInfoAvailable": "Nu există informații despre simboluri disponibile",
+    "noTestnetSupportDescription": "Unele rețele de testare nu acceptă schimbarea, trimiterea sau cumpărarea de jetoane.",
+    "stats": {
+      "unsupportedChainDescription": "Statisticile și graficele pentru token pentru {{chain}} sunt disponibile pe {{infoLink}}"
+    },
+    "symbolNotFound": "Simbolul nu a fost găsit"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Această acțiune necesită dezactivarea modului testnet. Modul Testnet poate fi reactivat oricând din setări.",
+          "toTestnetMode": "Această acțiune necesită activarea modului testnet. Tokenurile de pe rețelele de testare nu au nicio valoare reală. Modul Testnet poate fi dezactivat oricând din setări."
+        },
+        "title": {
+          "toProdMode": "Dezactivați modul testnet",
+          "toTestnetMode": "Activați modul testnet"
+        }
+      }
+    },
+    "unsupported": "Această funcționalitate nu este acceptată în modul testnet."
+  },
+  "themeToggle": {
+    "theme": "Temă"
+  },
+  "title": {
+    "betterPricesMoreListings": "Preturi mai bune. Mai multe listări. Cumpărați, vindeți și tranzacționați NFT-uri pe piețele de top precum OpenSea. Explorați colecțiile la modă.",
+    "buySellTradeEthereum": "Cumpărați, vindeți și tranzacționați Ethereum și alte jetoane de top pe Uniswap",
+    "createGovernanceOn": "Creați o nouă propunere de guvernare pe Uniswap",
+    "createGovernanceTo": "Creați o nouă propunere de guvernare care să fie votată de către titularii UNI. Jetoanele UNI reprezintă acțiuni cu drept de vot în guvernanța Uniswap.",
+    "earnFees": "Câștigați comisioane atunci când alții schimbă pe Uniswap adăugând jetoane la fondurile de lichiditate.",
+    "easilyRemove": "Eliminați cu ușurință lichiditatea din Uniswap v2 și depuneți în Uniswap v3.",
+    "easilyRemoveV4": "Eliminați cu ușurință lichiditatea din Uniswap v2 și v3 pentru a depune în Uniswap v4.",
+    "explore": "Explorați NFT-urile pe Uniswap",
+    "exploreNFTs": "Explorați și cumpărați NFT pe piețele de top pe Uniswap",
+    "manageNFT": "Gestionați-vă colecția NFT. Vizualizați trăsăturile, activitatea de tranzacționare, descrierile și alte detalii despre NFT-urile dvs.",
+    "migratev2": "Migrați lichiditatea pool-ului v2 la Uniswap v3",
+    "migratev3": "Migrați lichiditatea pool-ului la Uniswap v4",
+    "placeLimit": "Plasați comenzi limită pe Uniswap",
+    "realTime": "Prețuri în timp real, diagrame, date despre tranzacții și multe altele.",
+    "removeLiquidityv2": "Eliminați lichiditatea pool-ului (v2) pe Uniswap",
+    "removePoolLiquidity": "Eliminați lichiditatea pool-ului pe Uniswap",
+    "removeTokensv2": "Eliminați-vă jetoanele din fondurile de lichiditate v2.",
+    "removev3Liquidity": "Eliminați-vă jetoanele din fondurile de lichiditate v3.",
+    "sendTokens": "Trimiteți jetoane pe Uniswap",
+    "swappingMadeSimple": "Schimbarea este simplă. Cumpărați și vindeți criptomonede pe Ethereum, Base, Arbitrum, Polygon și multe altele. De încredere de milioane.",
+    "tradeTokens": "Tranzacționează cu jetoane și oferă lichiditate. Prețuri în timp real, diagrame, date despre tranzacții și multe altele.",
+    "uniswapTradeCrypto": "Uniswap | Comercializați cripto și NFT în siguranță pe platforma DeFi de top",
+    "uniToken": "Tokenurile UNI reprezintă acțiuni cu drept de vot în guvernanța Uniswap. Puteți vota singur pentru fiecare propunere sau puteți delega voturile unei terțe părți.",
+    "voteOnGov": "Votați propunerile de guvernare pe Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Echilibrul tau",
+      "other": "Solduri pe alte rețele",
+      "viewOnly": "soldul lui {{ownerAddress}}"
+    },
+    "bridge": "{{label}} token bridge",
+    "chart": {
+      "tooltip": "Taxe: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Detaliile tokenului nu sunt disponibile pentru tokenurile testnet."
+      }
+    },
+    "error": {
+      "unknown": "Jeton necunoscut"
+    },
+    "fee": {
+      "buy": {
+        "label": "taxa de cumparare"
+      },
+      "label": "taxa",
+      "sell": {
+        "label": "taxa de vanzare"
+      }
+    },
+    "links": {
+      "title": "Legături",
+      "twitter": "Stare de nervozitate",
+      "website": "Site-ul web"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Ceva n-a mers bine.",
+        "title": "Nu s-a putut încărca graficul de preț"
+      },
+      "timeRangeLabel": {
+        "all": "Tot timpul",
+        "day": {
+          "verbose": "1 zi"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 lună"
+        },
+        "week": {
+          "verbose": "1 saptamana"
+        },
+        "year": {
+          "verbose": "1 an"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} nu este disponibil",
+          "tokensNotAvailable": "{{tokenSymbol0}} și {{tokenSymbol1}} nu sunt disponibile"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs nu primește niciuna dintre aceste taxe."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Fă-ți întotdeauna cercetările",
+        "blocked": {
+          "description": {
+            "default_one": "Nu puteți tranzacționa acest token folosind aplicația Uniswap.",
+            "default_other": "Nu puteți tranzacționa aceste jetoane folosind aplicația Uniswap."
+          }
+        },
+        "dontShowWarningAgain": "Nu-mi mai arăta acest avertisment",
+        "doYourOwnResearch": "Fă-ți întotdeauna propria cercetare înainte de a continua.",
+        "feeDescription": "Încarcă un <fee /> când {{action}}",
+        "flaggedAsMalicious": "Semnalat ca rău intenționat",
+        "fotHigh": {
+          "title": "Taxa mare detectata"
+        },
+        "fotLow": {
+          "title": "Taxa detectată"
+        },
+        "fotVeryHigh": {
+          "title": "A fost detectată o taxă foarte mare"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} a fost semnalat ca nevândubil. Schimbarea acestui token poate duce la pierderea fondurilor dumneavoastră.",
+          "title": "Taxa de vânzare 100% detectată"
+        },
+        "impersonator": {
+          "title": "A fost detectat un simbol de imitator"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} a fost semnalat ca fiind rău intenționat de Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "Este posibil ca {{tokenSymbol}} să nu fie simbolul pe care doriți să îl schimbați."
+            }
+          },
+          "title": "A fost detectat un simbol rău intenționat"
+        },
+        "mayResultInLoss": "Schimbarea acestuia poate duce la o pierdere de fonduri.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} nu este tranzacționat pe principalele burse centralizate din SUA."
+          }
+        },
+        "notListedOnExchanges": "Nu este listat la bursele de top din SUA",
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} a fost semnalat ca nevândubil.",
+          "title": "Taxa de vânzare 100% detectată"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} a fost semnalat ca spam de Blockaid.",
+          "title": "Indicativ de spam detectat"
+        },
+        "spamsUsers": "Spam utilizatorii",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} percepe o taxă de {{buyFeePercent}} când este cumpărat și {{sellFeePercent}} când este vândut."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} percepe o taxă de {{feePercent}} atunci când este cumpărat."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} percepe o taxă de {{feePercent}} la vânzare."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} percepe o taxă atunci când este cumpărat sau vândut."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Nu puteți tranzacționa acest token utilizând portofelul Uniswap."
+      },
+      "medium": {
+        "message": {
+          "plural": "Aceste jetoane nu sunt tranzacționate pe principalele burse centralizate din SUA. Fă-ți întotdeauna propria cercetare înainte de a continua."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Nu s-au putut încărca rezultatele căutării"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Evaluare complet diluată",
+      "marketCap": "Capitalizarea pieței",
+      "priceHighYear": "52W ridicat",
+      "priceLowYear": "52W scăzut",
+      "section": {
+        "about": "Despre {{token}}"
+      },
+      "title": "Statistici",
+      "translation": {
+        "original": "Afișați originalul",
+        "translate": "Traduceți în {{language}}"
+      },
+      "volume": "Volum 24h"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Jeton de intrare"
+      },
+      "output": {
+        "fallback": "Jeton de ieșire"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Schimburile pe protocolul Uniswap pot începe și se pot termina cu ETH. Cu toate acestea, în timpul schimbului, ETH este împachetat în WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Pentru a obține {{ tokenSymbol }}, mai întâi aveți nevoie de {{ nativeTokenSymbol }} pentru a plăti costul rețelei. Începeți prin a vă finanța portofelul cu {{ nativeTokenSymbol }}.",
+      "title": "Ai nevoie de {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Ascunde simbolul",
+      "unhide": "Afișează simbolul"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Vizualizați pe {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Nu s-a putut încărca colecția NFT"
+          }
+        },
+        "label": {
+          "items": "Articole",
+          "owners": "Proprietarii",
+          "priceFloor": "Podea",
+          "swapVolume": "Volum"
+        }
+      },
+      "details": {
+        "error": {
+          "load": {
+            "title": "Nu s-au putut încărca detaliile NFT"
+          }
+        },
+        "network": "Reţea",
+        "owner": "Detinut de",
+        "price": "Pretul curent",
+        "recentPrice": "Ultimul preț de vânzare",
+        "traits": "Trăsături"
+      },
+      "empty": {
+        "description": "Nu s-au găsit NFT"
+      },
+      "error": {
+        "unavailable": "Conținutul nu este disponibil"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Ascunde NFT",
+          "unhide": "Afișează NFT"
+        }
+      },
+      "link": {
+        "collection": "Site-ul de colecție"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Nu s-au putut încărca NFT-urile"
+          }
+        },
+        "none": {
+          "button": "Primiți NFT-uri",
+          "description": {
+            "default": "Transferați NFT-uri dintr-un alt portofel pentru a începe.",
+            "external": "Când acest portofel cumpără sau primește NFT, acestea vor apărea aici."
+          },
+          "title": "Nu există încă NFT"
+        }
+      }
+    },
+    "noneFound": "Nu s-au găsit jetoane.",
+    "selector": {
+      "button": {
+        "choose": "Selectați jetonul",
+        "clear": "Curata tot"
+      },
+      "empty": {
+        "buy": {
+          "message": "Cumpărați cripto cu un card sau cu o bancă pentru a trimite jetoane.",
+          "title": "Cumpărați cripto"
+        },
+        "receive": {
+          "title": "Primiți jetoane"
+        },
+        "title": "Nu există încă jetoane"
+      },
+      "error": {
+        "load": "Nu s-au putut încărca jetoanele"
+      },
+      "search": {
+        "empty": "Nu s-au găsit rezultate pentru <highlight>{{searchText}}</highlight>",
+        "placeholder": "Jetoane de căutare"
+      },
+      "section": {
+        "bridging": "Schimbați între rețele",
+        "favorite": "Favorite",
+        "otherSearchResults": "Alte jetoane pe {{network}}",
+        "recent": "Căutări recente",
+        "search": "Rezultatele cautarii",
+        "trending": "Jetoane după volum 24 de ore",
+        "yours": "Jetoanele tale"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Căutați piscine",
+          "tokens": "Jetoane de căutare"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Anulați tranzacția",
+        "description": "Dacă anulați această tranzacție înainte ca aceasta să fie procesată de rețea, veți plăti un nou cost de rețea în locul celui inițial.",
+        "title": "Anulați această tranzacție?"
+      },
+      "copy": "Copiați ID-ul tranzacției",
+      "copyProvider": "Copiați {{providerName}} ID-ul tranzacției"
+    },
+    "amount": {
+      "unlimited": "Nelimitat"
+    },
+    "confirmation": {
+      "completionTime_one": "Tranzacție finalizată în <highlight>{{count}}</highlight> secunde 🎉",
+      "completionTime_other": "Tranzacție finalizată în <highlight>{{count}}</highlight> secunde 🎉",
+      "pending": {
+        "wallet": "Confirmați tranzacția în portofel"
+      },
+      "submitted": {
+        "currency": {
+          "add": "Adăugați {{currency}}",
+          "added": "S-a adăugat {{currency}}"
+        }
+      },
+      "waiting": "Se așteaptă confirmarea"
+    },
+    "date": "Trimis pe {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Din",
+      "networkFee": "Costul rețelei",
+      "providerFee": "Taxa de furnizor",
+      "swapRate": "Rată",
+      "transaction": "Tranzacţie",
+      "uniswapFee": "Comision ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Lichiditate insuficientă pentru a finaliza tranzacția",
+    "network": {
+      "all": "Toate rețelele"
+    },
+    "networkCost": {
+      "label": "Costul rețelei",
+      "maxNativeBalance": {
+        "description": "O cantitate mică din soldul jetonului de rețea este rezervată pentru a acoperi costul rețelei al acestei tranzacții.",
+        "title": "De ce nu pot folosi soldul meu maxim?"
+      },
+      "veryHigh": {
+        "label": "Cost de rețea foarte mare"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Nu se poate anula tranzacția",
+        "replace": "Nu se poate înlocui tranzacția"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Aprobare anulată",
+        "canceling": "Se anulează aprobarea",
+        "failed": "Nu s-a aprobat",
+        "pending": "Aprobarea",
+        "success": "Aprobat",
+        "successDapp": "Aprobat pe {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Cumpărare anulată",
+        "canceling": "Se anulează cumpărarea",
+        "failed": "Nu s-a putut cumpăra",
+        "pending": "Cumpărare",
+        "success": "Cumparat",
+        "successDapp": "Cumpărat pe {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Confirmare anulată",
+        "canceling": "În așteptarea anulării",
+        "failed": "Nu s-a putut confirma",
+        "pending": "Tranzacție în curs",
+        "success": "Tranzacție confirmată",
+        "successDapp": "Tranzacție confirmată pe {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Mentă anulată",
+        "canceling": "Anularea mentă",
+        "failed": "Nu a reușit să bată",
+        "pending": "Mint",
+        "success": "Bateriat",
+        "successDapp": "Banat pe {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Achiziție anulată",
+        "canceling": "Anularea achiziției",
+        "failedOn": "Nu s-a putut cumpăra pe {{serviceProvider}}",
+        "pendingOn": "Cumpărare pe {{serviceProvider}}",
+        "successOn": "Achiziționat pe {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Primire anulată",
+        "canceling": "Se anulează primirea",
+        "failedFrom": "Nu s-a putut primi de la {{serviceProvider}}",
+        "pendingFrom": "Se primesc de la {{serviceProvider}}",
+        "success": "Primit",
+        "successDapp": "Primit pe {{externalDappName}}",
+        "successFrom": "Primit de la {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Revocare anulată",
+        "canceling": "Anularea revocarii",
+        "failed": "Revocarea eșuată",
+        "pending": "Revocare",
+        "success": "Revocat",
+        "successDapp": "Revocat pe {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Vânzare anulată",
+        "canceling": "Anularea vânzării",
+        "failedOn": "Vânzarea eșuată prin {{serviceProvider}}",
+        "pendingOn": "Se vinde prin {{serviceProvider}}",
+        "successOn": "Vândut prin {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Vânzare anulată",
+        "canceling": "Anularea vânzării",
+        "failed": "Nu s-a putut vinde",
+        "pending": "De vânzare",
+        "success": "Vândut",
+        "successDapp": "Vândut pe {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Trimitere anulată",
+        "canceling": "Se anulează trimiterea",
+        "failed": "Nu s-a putut trimite",
+        "pending": "Trimiterea",
+        "success": "Trimis",
+        "successDapp": "Trimis pe {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Schimb anulat",
+        "canceling": "Se anulează schimbul",
+        "expired": "Schimbul a expirat",
+        "failed": "Schimbarea eșuată",
+        "insufficientFunds": "Fonduri insuficiente",
+        "pending": "Schimbarea",
+        "success": "Schimbat",
+        "successDapp": "Schimbat pe {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Desfacere anulată",
+        "canceling": "Se anulează despachetarea",
+        "failed": "Desfacerea eșuată",
+        "pending": "Desfacerea",
+        "success": "Desfăcut",
+        "successDapp": "Desfăcut pe {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Wrap anulat",
+        "canceling": "Se anulează împachetarea",
+        "failed": "Încheierea eșuată",
+        "pending": "Ambalaj",
+        "success": "Înfășurat",
+        "successDapp": "Înfășurat pe {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} la {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} din {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": "Aveți nevoie de ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) pe {{networkName}} pentru a acoperi costul rețelei acestei tranzacții.",
+          "title": {
+            "withNetwork": "Nu este suficient {{tokenSymbol}} pe {{networkName}}",
+            "withoutNetwork": "Nu este suficient {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Sunteți pe cale să cheltuiți cea mai mare parte din soldul de simboluri de rețea. Acest lucru poate lăsa fonduri insuficiente pentru a acoperi costurile viitoare ale rețelei.",
+        "title": "Echilibrul jetoanelor de rețea scăzut"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Nu se poate anula tranzacția",
+        "status": "Eroare la verificarea stării tranzacției"
+      }
+    }
+  },
+  "unichain": {
+    "promotion": {
+      "bridging": {
+        "description": "Schimbați la Unichain",
+        "tooltip": {
+          "description": "Conectează-ți ETH pentru a începe pe Unichain."
+        }
+      },
+      "cold": {
+        "description": "Schimbări mai rapide. Taxe mai mici. Unichain este casa pentru DeFi.",
+        "title": "Vă prezentăm Unichain"
+      },
+      "modal": {
+        "description": "Schimbări mai rapide. Taxe mai mici. Unichain este casa pentru lichiditatea cross-chain.",
+        "detail": {
+          "costs": "Costuri mai mici pentru crearea grupurilor și gestionarea pozițiilor.",
+          "fees": "Economisiți 95% la comisioane comparativ cu Ethereum.",
+          "instant": "Schimbați instantaneu"
+        }
+      },
+      "tooltip": {
+        "description": "Schimbări mai rapide. Taxe mai mici. Unichain este casa pentru lichiditatea cross-chain.",
+        "switch": "Comutați la Unichain",
+        "title": "Unichain este aici"
+      },
+      "warm": {
+        "description": "Schimbați jetoanele preferate mai rapid și cu costuri mai mici de gaz.",
+        "title": "Începeți să schimbați pe Unichain"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> reunește sursele de lichiditate pentru prețuri mai bune și swap fără gaz.",
+    "learnMore": "Aflați mai multe despre schimbarea cu UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX reunește sursele de lichiditate pentru prețuri mai bune și swap fără gaz.",
+    "included": "Include <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "Cotația hard UniswapX v2 a eșuat. Reîncercați cu schimbul clasic."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Revendicați acum"
+      },
+      "subtitle": "Creați un profil web3 personalizat și partajați-vă cu ușurință adresa prietenilor.",
+      "title": {
+        "compact": "<highlight>Revendicați-vă numele de utilizator {{unitagDomain}}</highlight> și construiți-vă profilul personalizabil.",
+        "full": "Revendicați-vă numele de utilizator {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Alegeți din rola camerei",
+        "computer": "Încărcați de pe computer",
+        "nft": "Alegeți un NFT",
+        "remove": "Eliminați fotografia de profil"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Personalizați profilul",
+        "description": "{{unitagAddress}} este gata să trimită și să primească cripto. Continuați să vă construiți portofelul personalizându-vă profilul web3.",
+        "success": {
+          "long": "Ai inteles!",
+          "short": "am înţeles!"
+        }
+      },
+      "error": {
+        "addressLimit": "Ați făcut deja numărul maxim de modificări la numele dvs. de utilizator pentru această adresă",
+        "appCheck": "Nu s-a putut revendica numele de utilizator. Vă rugăm să încercați din nou mâine.",
+        "avatar": "Nu s-a putut seta avatarul. Încercați mai târziu.",
+        "default": "Nu s-a putut revendica numele de utilizator. Încercați mai târziu.",
+        "deviceLimit": "Ați atins numărul maxim de nume de utilizator care pot fi active pentru acest dispozitiv",
+        "general": "Nu se poate revendica numele de utilizator",
+        "unavailable": "numele de utilizator nu este disponibil",
+        "unknown": "Eroare necunoscută"
+      },
+      "username": {
+        "default": "Numele dumneavoastră"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Sunteți pe cale să vă ștergeți numele de utilizator și detaliile de profil personalizabile. Nu veți putea să-l revendicați.",
+        "title": "Esti sigur?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "nume de utilizator"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Sunteți pe cale să vă schimbați numele de utilizator. Odată ce îl schimbați, nu îl mai puteți revendica niciodată.",
+        "title": "Esti sigur?"
+      },
+      "title": "Editează-ți numele de utilizator",
+      "warning": {
+        "default": "Odată ce îți schimbi numele de utilizator, nu-l mai poți revendica niciodată. Îl poți schimba doar de <highlight>de 2</highlight> ori.",
+        "max": "Ați atins numărul maxim de 2 modificări de nume de utilizator."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Revendicați un nume de utilizator",
+        "description": "Spune la revedere adreselor 0x. Numele de utilizator sunt nume lizibile care facilitează trimiterea și primirea cripto.",
+        "title": "Prezentarea numelor de utilizator",
+        "upsell": {
+          "customizable": "Profiluri personalizabile",
+          "ens": "Produs de subdomenii ENS",
+          "free": "Liber să revendice"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Produs de subdomenii ENS",
+        "free": "Liber să revendice",
+        "profile": "Profiluri personalizabile"
+      },
+      "subtitle": "Spune la revedere adreselor 0x. Numele de utilizator sunt nume lizibile care facilitează trimiterea și primirea cripto.",
+      "title": "Prezentarea numelor de utilizator"
+    },
+    "notification": {
+      "delete": {
+        "error": "Nu s-a putut șterge numele de utilizator. Încercați mai târziu.",
+        "title": "Numele de utilizator a fost șters"
+      },
+      "profile": {
+        "error": "Nu s-a putut actualiza profilul. Încercați mai târziu.",
+        "title": "profil actualizat"
+      },
+      "username": {
+        "error": "Nu s-a putut schimba numele de utilizator. Încercați mai târziu.",
+        "title": "Numele de utilizator a fost schimbat"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Aceasta este adresa dvs. personalizată la care oamenii pot trimite crypto.",
+        "title": {
+          "choose": "Creați-vă numele de utilizator",
+          "claim": "Revendicați-vă numele de utilizator"
+        }
+      },
+      "info": {
+        "description": "Numele de utilizator transformă adrese 0x complexe în nume care pot fi citite. Prin revendicarea unui nume de utilizator {{unitagDomain}} , puteți trimite și primi cu ușurință criptografii și puteți crea un profil web3 public.",
+        "title": "O adresă simplificată"
+      },
+      "profile": {
+        "subtitle": "Încărcați-vă propria sau rămâneți cu Uniconul dvs. unic. Puteți schimba oricând acest lucru mai târziu.",
+        "title": "Alegeți o fotografie de profil"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Ștergeți numele de utilizator",
+        "edit": "Editați numele de utilizator"
+      },
+      "bio": {
+        "label": "bio",
+        "placeholder": "Introdu o biografie pentru profilul tău"
+      },
+      "links": {
+        "twitter": "Stare de nervozitate"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Numele de utilizator pot conține doar litere și cifre",
+        "max": "Numele de utilizator nu pot avea mai mult de {{number}} caractere",
+        "min": "Numele de utilizator trebuie să conțină cel puțin {{number}} caractere",
+        "uppercase": "Numele de utilizator pot conține doar litere mici și cifre"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Nu este suficient {{tokenSymbol}} pe {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 nu este disponibil în această rețea.",
+    "switchTo": "Comutați la v2"
+  },
+  "v3": {
+    "blast": {
+      "yield": {
+        "usdbAndWeth": "Pe Blast, USDB și WETH sunt jetoane de rebazare care câștigă automat randament. Din cauza incompatibilității cu Uniswap v3, pozițiile LP cu USDB sau WETH nu vor câștiga randament de rebazare, dar vor avea în Uniswap v2."
+      }
+    },
+    "continue": "Continuați pe v3",
+    "rebase": {
+      "unavailable": "Rebazarea nu este disponibilă pe v3"
+    }
+  },
+  "wallet": {
+    "appSignIn": "Conectați-vă cu aplicația",
+    "connectingAgreement": "Prin conectarea unui portofel, sunteți de acord cu <termsLink>Termenii și condițiile</termsLink> Uniswap Labs și sunteți de acord cu <privacyLink>Politica de confidențialitate</privacyLink>.",
+    "connectionFailed": {
+      "message": "Încercarea de conectare a eșuat. Dați clic pe Încercați din nou și urmați pașii pentru a vă conecta în portofel."
+    },
+    "other": "Alte portofele",
+    "scanToConnect": "Scanați codul QR pentru a vă conecta",
+    "wrongNet": "Portofelul dvs. este conectat la o rețea greșită."
+  },
+  "walletConnect": {
+    "dapps": {
+      "connection": "<highlight>Conectat la </highlight>{{dappNameOrUrl}}",
+      "empty": {
+        "description": "Conectați-vă la o aplicație prin scanarea unui cod prin WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Nicio aplicație conectată"
+        },
+        "title": "Conexiuni"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet acceptă în prezent {{chainNames}}. Vă rugăm să utilizați numai „{{dappName}}” pe aceste lanțuri",
+        "title": "Eroare de conexiune"
+      },
+      "general": {
+        "message": "A apărut o problemă cu WalletConnect. Vă rugăm să încercați din nou",
+        "title": "Eroare WalletConnect"
+      },
+      "scantastic": {
+        "message": "A apărut o problemă cu codul dvs. QR. Vă rugăm să încercați din nou",
+        "title": "Cod QR nevalid"
+      },
+      "unsupported": {
+        "message": "Asigurați-vă că scanați un cod QR valid pentru WalletConnect, adresă Ethereum sau Uniswap Extension înainte de a încerca din nou.",
+        "title": "Cod QR nevalid"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 nu mai este acceptat. Aplicația la care încercați să vă conectați trebuie să facă upgrade la WalletConnect v2.",
+        "title": "Cod QR nevalid"
+      },
+      "uwu": {
+        "scan": "A apărut o problemă la scanarea acestui cod QR.",
+        "title": "Eroare de legătură UwU",
+        "unsupported": "Acest cod QR nu este acceptat."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Conectați",
+        "scrollDown": "Derulați în jos pentru a vă conecta"
+      },
+      "switchAccount": "Schimba contul",
+      "switchNetwork": "Schimbați rețeaua",
+      "title": "Conectați-vă la {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Transferați-vă bunurile fără consimțământ",
+        "viewTokenBalances": "Vedeți soldurile dvs. de simboluri",
+        "viewWalletAddress": "Vizualizați adresa portofelului dvs"
+      },
+      "title": "Permisiunile site-ului"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Derulați în jos pentru a semna",
+        "sign": "Semn"
+      },
+      "details": {
+        "label": {
+          "function": "Funcţie",
+          "sending": "Trimiterea",
+          "token": "Jeton",
+          "tokens": "Jetoane"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Nu aveți suficiente {{currencySymbol}} pentru a finaliza această tranzacție.",
+        "network": "Eroare de conexiune la internet sau la rețea"
+      },
+      "warning": {
+        "general": {
+          "message": "Fiți atenți: acest mesaj poate transfera active"
+        },
+        "message": "Pentru a semna mesaje sau tranzacții, va trebui să importați fraza de recuperare a portofelului.",
+        "title": "Acest portofel este în modul doar vizualizare"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Descoperiți și cercetați jetoane pe {{network}}. Explorați piscinele de top. Vizualizați prețurile în timp real, volumul de tranzacționare, TVL, grafice și date despre tranzacții.",
+      "title": {
+        "pools": "Explorați cele mai bune piscine pe {{network}} pe Uniswap",
+        "tokens": "Explorați jetoanele de top pe {{network}} pe Uniswap",
+        "transactions": "Explorați tranzacțiile de top pe {{network}} pe Uniswap"
+      }
+    }
+  }
+}

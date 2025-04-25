@@ -63,3 +63,43 @@ export type TokenData = {
 export interface Data {
   tokens: TokenData[];
 }
+
+export type SettingOptions = "menu" | "language" | "currency";
+
+export enum Language {
+  Afrikaans = "af-ZA",
+  Arabic = "ar-SA",
+  Catalan = "ca-ES",
+  ChineseSimplified = "zh", // Defaulting overarching Chinese language code to Simplified
+  ChineseTraditional = "zh-Hant",
+  Czech = "cs-CZ",
+  Danish = "da-DK",
+  Dutch = "nl-NL",
+  English = "en-US",
+  Finnish = "fi-FI",
+  French = "fr-FR",
+  Greek = "el-GR",
+  Hebrew = "he-IL",
+  Hindi = "hi-IN",
+  Hungarian = "hu-HU",
+  Indonesian = "id-ID",
+  Italian = "it-IT",
+  Japanese = "ja-JP",
+  Korean = "ko-KR",
+  Malay = "ms-MY",
+  Norwegian = "no-NO",
+  Polish = "pl-PL",
+  Portuguese = "pt-PT",
+  Romanian = "ro-RO",
+  Russian = "ru-RU",
+  Serbian = "sr-SP",
+  SpanishSpain = "es-ES",
+  SpanishLatam = "es-419",
+  SpanishUnitedStates = "es-US",
+  Swahili = "sw-TZ",
+  Swedish = "sv-SE",
+  Turkish = "tr-TR",
+  Ukrainian = "uk-UA",
+  Urdu = "ur-PK",
+  Vietnamese = "vi-VN",
+}

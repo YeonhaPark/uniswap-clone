@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Zahtevajte {{amount}} nagrado"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Na vašem {{cloudProviderName}}je varnostno kopiranih več fraz za obnovitev.",
+        "title": "Izberite varnostno kopijo za obnovitev"
+      },
+      "button": {
+        "restore": {
+          "android": "Obnovi iz Google Drive",
+          "ios": "Obnovi iz iCloud"
+        }
+      },
+      "empty": {
+        "description": "Videti je, da niste varnostno kopirali nobenega od svojih obnovitvenih stavkov v {{cloudProviderName}}.",
+        "title": "Najdenih 0 varnostnih kopij"
+      },
+      "error": {
+        "backup": {
+          "message": "Uvoz varnostnih kopij ni uspel zaradi pomanjkanja dovoljenj, prekinitve avtorizacije ali zaradi napake v oblaku",
+          "title": "Napaka pri uvozu varnostnih kopij"
+        },
+        "password": {
+          "title": "Neveljavno geslo. Prosim poskusite ponovno."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Ne zdaj",
+            "settings": "Pojdite na nastavitve"
+          },
+          "message": {
+            "android": "Preverite, ali ste prijavljeni v Google Račun z omogočenim Google Drive v tej napravi, in poskusite znova.",
+            "ios": "Preverite, ali ste prijavljeni v Apple ID z omogočenim iCloud Drive v tej napravi, in poskusite znova."
+          },
+          "title": {
+            "android": "Google Drive ni na voljo",
+            "ios": "iCloud Drive ni na voljo"
+          }
+        }
+      },
+      "loading": {
+        "title": "Iskanje varnostnih kopij ..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Preveč poskusov. Poskusite znova čez 1 uro.",
+          "hours_other": "Preveč poskusov. Poskusite znova čez {{count}} ur.",
+          "minutes_one": "Preveč poskusov. Poskusite znova čez 1 minuto.",
+          "minutes_other": "Preveč poskusov. Poskusite znova čez {{count}} minut."
+        }
+      },
+      "password": {
+        "input": "Vnesite geslo",
+        "recoveryPhrase": "Namesto tega vnesite obnovitveni izraz",
+        "subtitle": "To geslo je potrebno za obnovitev varnostne kopije obnovitvene fraze iz {{cloudProviderName}}.",
+        "title": "Vnesite varnostno geslo"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Različica: ",
+      "modal": {
+        "body": "Varno shranite in zamenjajte žetone z aplikacijo Uniswap. Na voljo za iOS in Android.",
+        "dont": "Nimate denarnice Uniswap?",
+        "scan": "Skenirajte z denarnico Uniswap"
+      },
+      "spamToggle": "Skrij neznane žetone in NFT-je"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "Naredil sem varnostno kopijo obnovitvene fraze in razumem, da mi Uniswap Labs ne more pomagati obnoviti denarnice, če tega ne storim.",
+        "description": "Prepričajte se, da ste varnostno kopirali obnovitveni stavek z uporabo mobilne aplikacije Uniswap ali razširitve brskalnika.",
+        "descriptionEmphasized": "Brez fraze za obnovitev morda ne boste mogli dostopati do svoje denarnice.",
+        "speedbump": {
+          "description": "Preden nadaljujete, izvedite naslednje korake, da preprečite izgubo dostopa do denarnice in vseh sredstev.",
+          "step1": "Prenesite mobilno aplikacijo Uniswap ali razširitev brskalnika",
+          "step2": "Varnostno kopirajte obnovitveni stavek",
+          "title": "Ali si prepričan?"
+        },
+        "title": "Izbrisati geslo?"
+      },
+      "sign": {
+        "in": {
+          "title": "Prijavite se z geslom"
+        }
+      },
+      "type": {
+        "crossplatform": "Telefon, tablica ali varnostni ključ",
+        "platform": "Brskalnik ali operacijski sistem"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "To naročilo je bilo preklicano, ker je vaše stanje padlo pod vneseni znesek."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "To naročilo ne bo izpolnjeno, ker je vaše stanje padlo pod vneseni znesek. Povečajte svoje stanje, da popravite."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Fraza za obnovitev (ali semenska fraza) je <highlight>nabor besed</highlight> , potrebnih za dostop do vaše denarnice, <highlight>kot geslo.</highlight>",
+        "part2": "Lahko <highlight>vnesete</highlight> vaš obnovitveni stavek v novi napravi <highlight>, da obnovite svojo denarnico</highlight> in njeno vsebino.",
+        "part3": "Toda če <highlight>izgubite obnovitveni stavek</highlight>, boste <highlight>izgubili dostop</highlight> do svoje denarnice.",
+        "part4": "Namesto da bi si zapomnili obnovitveni stavek, ga lahko <highlight>varnostno kopirate na {{cloudProviderName}}</highlight> in zaščitite z geslom.",
+        "part5": "Svoj obnovitveni stavek lahko tudi ročno varnostno kopirate tako, da ga <highlight>zapišete</highlight> in shranite na varno mesto.",
+        "part6": "Priporočamo uporabo <highlight>obeh vrst varnostnih kopij</highlight>, ker če izgubite stavek za obnovitev, ne boste mogli obnoviti svoje denarnice."
+      },
+      "error": {
+        "invalid": "Neveljavna fraza",
+        "invalidWord": "Neveljavna beseda: {{word}}",
+        "phraseLength": "Fraza za obnovitev mora vsebovati 12–24 besed",
+        "wrong": "Napačen izraz za obnovitev"
+      },
+      "helpText": {
+        "import": "Kako najdem svojo frazo za obnovitev?",
+        "restoring": "Poskusite znova iskati"
+      },
+      "input": "Vnesite besedno zvezo za obnovitev",
+      "remove": {
+        "final": {
+          "description": "Prepričajte se, da ste zapisali svojo obnovitveno frazo ali jo varnostno kopirali na {{cloudProviderName}}. <highlight>Drugače ne boste mogli dostopati do svojih sredstev.</highlight>",
+          "title": "Odstranjujete svoj <highlight>obnovitveni stavek</highlight>"
+        },
+        "import": {
+          "description": "Naenkrat lahko shranite samo en obnovitveni stavek. Če želite nadaljevati z uvozom nove denarnice, boste morali iz te naprave odstraniti svojo trenutno obnovitveno frazo in vse povezane denarnice."
+        },
+        "initial": {
+          "description": "S tem boste iz te naprave odstranili vašo denarnico skupaj z obnovitveno frazo.",
+          "title": "Odstranjujete <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Vaša obnovitvena fraza bo ostala shranjena, dokler ne izbrišete vseh preostalih denarnic."
+        }
+      },
+      "subtitle": {
+        "import": "Vaša fraza za obnovitev bo shranjena samo lokalno v vaši napravi.",
+        "restoring": "Spodaj vnesite besedno zvezo za obnovitev ali poskusite znova poiskati varnostne kopije."
+      },
+      "title": {
+        "import": "Vnesite svojo frazo za obnovitev",
+        "restoring": "Ni varnostnih kopij"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Kopiraj naslov",
+        "manageConnections": "Upravljanje povezav",
+        "report": "Prijavi profil",
+        "viewExplorer": "Poglej na {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Dodaj denarnico",
+        "addViewOnly": "Dodajte denarnico samo za ogled",
+        "create": "Ustvarite novo denarnico",
+        "import": "Uvozite novo denarnico",
+        "manage": "Nastavitve denarnice",
+        "remove": "Odstrani denarnico",
+        "restore": "Povrni denarnico",
+        "watch": "Pazi na denarnico"
+      },
+      "create": {
+        "placeholder": "Denarnica {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Oznaka denarnice"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Uredi profil"
+          },
+          "title": "Uredi oznako"
+        },
+        "viewOnly": "Denarnice samo za ogled"
+      },
+      "menu": {
+        "claimUsername": "Zahtevaj uporabniško ime",
+        "copy": {
+          "title": "Kopiraj naslov denarnice"
+        },
+        "edit": {
+          "title": "Uredi oznako"
+        },
+        "manageConnections": "Upravljanje povezav",
+        "remove": {
+          "title": "Odstrani denarnico"
+        }
+      },
+      "remove": {
+        "check": "Naredil sem varnostno kopijo svoje obnovitvene fraze in razumem, da mi Uniswap Labs ne more pomagati obnoviti mojih denarnic, če tega ne storim.",
+        "title": "Odstrani {{name}}",
+        "viewOnly": "Vedno lahko nazaj dodate denarnice samo za ogled, tako da vnesete naslov denarnice."
+      },
+      "restore": {
+        "description": "Ker uporabljate novo napravo, boste morali za nadaljevanje obnoviti svojo frazo za obnovitev ali vnesti geslo za varnostno kopiranje v oblaku."
+      },
+      "select": {
+        "error": "Naslovov ni bilo mogoče naložiti",
+        "loading": {
+          "subtitle": "Vaše denarnice bodo prikazane spodaj.",
+          "title": "Iskanje denarnic"
+        },
+        "title_one_one": "Najdena ena denarnica",
+        "title_one_other": "Izberite denarnice za uvoz"
+      },
+      "viewOnly": {
+        "button": "Uvoz denarnice",
+        "description": "Če želite zamenjati, kupiti, poslati in prejeti žetone, morate uvoziti obnovitveno frazo te denarnice.",
+        "title": "Ta denarnica je samo za ogled"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Ta naslov je že uvožen",
+          "notFound": "Naslov ni bil najden",
+          "smartContract": "Naslov je pametna pogodba"
+        },
+        "message": "Če dodate denarnico samo za ogled, lahko preizkusite aplikacijo ali sledite denarnici. Ne boste mogli zamenjati ali poslati sredstev.",
+        "placeholder": "ENS ali naslov",
+        "title": "Vnesite naslov denarnice"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} V teku",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} zbranih nagrad"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} od {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} do {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} za {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} in {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Delež bazena"
+  },
+  "addressInput": {
+    "recipient": "Prejemnik"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Anonimizirane podatke uporabljamo za izboljšanje vaše izkušnje z izdelki Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "res ne"
+    },
+    "description": "Sporočite nam, če imate dobro izkušnjo s to aplikacijo",
+    "extension": {
+      "review": {
+        "description": "Izberite oceno z zvezdicami in pustite mnenje v spletni trgovini Chrome.",
+        "title": "Ocenite razširitev Uniswap?"
+      },
+      "title": "Uživate v razširitvi Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Pošlji povratno informacijo"
+      },
+      "description": "Sporočite nam, kako lahko izboljšamo vašo izkušnjo",
+      "title": "Žal nam je, da to slišimo."
+    },
+    "mobile": {
+      "title": "Uživate v denarnici Uniswap?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Svečnik",
+    "error": {
+      "pools": "Ni mogoče prikazati zgodovinskih podatkov za trenutno skupino.",
+      "tokens": "Ni mogoče prikazati zgodovinskih podatkov za trenutni žeton."
+    },
+    "line": "Črtni grafikon",
+    "missingData": "Manjkajo podatki grafikona",
+    "price": {
+      "label": {
+        "close": "Zapri",
+        "high": "visoko",
+        "low": "Nizka",
+        "open": "Odprto"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Ta nastavitev ni na voljo za trenutni grafikon"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Hvala, ker ste del skupnosti Uniswap <heart />",
+    "uni": {
+      "arrived": "UNI je prišel"
+    }
+  },
+  "common": {
+    "accept": "Sprejmi",
+    "activity": "dejavnost",
+    "add": {
+      "label": "Dodaj",
+      "liquidity": {
+        "cancelled": "Dodajanje likvidnosti je preklicano",
+        "failed": "Dodajanje likvidnosti ni uspelo"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Dodajanje likvidnosti V2 je preklicano",
+          "failed": "Dodajanje likvidnosti V2 ni uspelo"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Dodana likvidnost",
+      "v2": {
+        "liquidity": "Dodana likvidnost V2"
+      }
+    },
+    "addedLiquidity": "Dodana likvidnost",
+    "adding": {
+      "liquidity": "Dodajanje likvidnosti",
+      "v2": {
+        "liquidity": "Dodajanje likvidnosti V2"
+      }
+    },
+    "addLiquidity": "Dodajte likvidnost",
+    "addressOrENS": "Naslov denarnice ali ime ENS",
+    "advanced": "Napredno",
+    "all": "Vse",
+    "allTime": "Ves čas",
+    "and": "in",
+    "app": "aplikacija",
+    "approval": {
+      "cancelled": "Odobritev preklicana",
+      "failed": "Odobritev ni uspela"
+    },
+    "approve": "odobri",
+    "approved": "Odobreno",
+    "approvePending": "Odobritev v teku...",
+    "approveSpend": "Odobrite {{symbol}} porabo",
+    "approving": "Odobritev",
+    "areYouSure": "Ali si prepričan?",
+    "automatic": "Avto",
+    "availableIn": "Uniswap na voljo v: <locale />",
+    "availableOnIOSAndroid": "Na voljo za iOS in Android",
+    "availableOnIOSAndroidChrome": "Na voljo v sistemih iOS, Android in Chrome",
+    "backToPositions": "Nazaj na položaje",
+    "blocked": {
+      "ifError": "Če menite, da je to napaka, pošljite e-poštno sporočilo s svojim naslovom na <emailAddress />",
+      "reason": "Ta naslov je blokiran v vmesniku Uniswap Labs, ker je povezan z eno ali več <link>blokiranimi dejavnostmi</link>."
+    },
+    "blockedAddress": "Blokiran naslov",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Izposoja preklicana",
+      "failed": "Izposoja ni uspela"
+    },
+    "borrowed": "Izposojeno",
+    "borrowing": "Izposoja",
+    "bought": "kupljeno",
+    "brandAssets": "Sredstva blagovne znamke",
+    "burn": {
+      "cancelled": "Opeklina preklicana",
+      "failed": "Zapis ni uspel"
+    },
+    "burned": "Zažgano",
+    "burning": "goreče",
+    "button": {
+      "accept": "Sprejmi",
+      "back": "Nazaj",
+      "buy": "Nakup",
+      "cancel": "Prekliči",
+      "checkin": "Prijava",
+      "close": "Zapri",
+      "confirm": "Potrdi",
+      "connect": "Povežite se",
+      "continue": "Nadaljuj",
+      "copied": "Kopirano",
+      "copy": "Kopirati",
+      "create": "Ustvari",
+      "delete": "Izbriši",
+      "disconnect": "Prekini povezavo",
+      "dismiss": "Odpusti",
+      "done": "Končano",
+      "edit": "Uredi",
+      "enable": "Omogoči",
+      "finish": "Končaj",
+      "goBack": "Pojdi nazaj",
+      "later": "Mogoče kasneje",
+      "learn": "Nauči se več",
+      "next": "Naslednji",
+      "notNow": "Ne zdaj",
+      "ok": "v redu",
+      "paste": "Prilepi",
+      "pay": "plačaj",
+      "proceed": "Nadaljuj",
+      "receive": "Prejeti",
+      "remove": "Odstrani",
+      "reset": "Ponastavi",
+      "retry": "Poskusite znova",
+      "reveal": "Razkrij",
+      "review": "Pregled",
+      "save": "Shrani",
+      "scrollDown": "Pomaknite navzdol",
+      "sell": "Prodaja",
+      "send": "Pošlji",
+      "setup": "Nastaviti",
+      "share": "Deliti",
+      "showLess": "Prikaži manj",
+      "showMore": "Pokaži več",
+      "sign": "Podpis",
+      "skip": "Preskoči",
+      "swap": "Zamenjaj",
+      "tryAgain": "Poskusi ponovno",
+      "understand": "razumem",
+      "unlock": "Odkleni",
+      "view": "Pogled",
+      "viewDetails": "Poglej podrobnosti",
+      "yes": "ja"
+    },
+    "buy": {
+      "cancelled": "Nakup preklican",
+      "failed": "Nakup ni uspel",
+      "label": "Nakup"
+    },
+    "buyAndSell": "Kupujte in prodajajte na Uniswap",
+    "buying": "Nakupovanje",
+    "by": "Avtor:",
+    "cancel": {
+      "failed": "Preklic ni uspel"
+    },
+    "cancellation": {
+      "cancelled": "Odpoved preklicana"
+    },
+    "cancellationSubmitted": "Preklic oddan",
+    "cancellationSuccessful": "Preklic uspešen",
+    "cancelled": "Prekinjeno",
+    "cancelling": "Preklic",
+    "cancelOrder": "Prekliči naročilo",
+    "card": {
+      "error": {
+        "description": "Nekaj je šlo narobe",
+        "title": "Ups! Nekaj je šlo narobe."
+      }
+    },
+    "careers": "Kariere",
+    "chart": "grafikon",
+    "checkNetwork": "Preverite stanje omrežja <link>tukaj.</link>",
+    "chromeExtension": "Razširitev",
+    "claim": {
+      "cancelled": "Zahtevek preklican",
+      "failed": "Zahtevek ni uspel"
+    },
+    "claimed": "Zahtevano",
+    "claiming": "Zahtevanje",
+    "claimUnis": "Zahtevajte svoje žetone UNI",
+    "clear": "jasno",
+    "close": "Zapri",
+    "closed": "Zaprto",
+    "collect": {
+      "button": "Zberite",
+      "fees": {
+        "cancelled": "Zbiranje pristojbin preklicano",
+        "failed": "Zbiranje pristojbin ni uspelo"
+      }
+    },
+    "collected": {
+      "fees": "Pobrane pristojbine"
+    },
+    "collecting": {
+      "fees": "Pobiranje pristojbin"
+    },
+    "company": "Podjetje",
+    "confirm": "Potrdi",
+    "confirmCancellation": "Potrdite preklic",
+    "confirmSend": {
+      "button": "Potrdi pošiljanje"
+    },
+    "confirmSwap": "Potrdite zamenjavo v denarnici",
+    "confirmTimedOut": "Čas potrditve je potekel. Poskusite znova.",
+    "confirmWallet": "Potrdi v denarnici",
+    "connect": {
+      "button": "Povežite se"
+    },
+    "connectAWallet": {
+      "button": "Povežite denarnico"
+    },
+    "connectWallet": {
+      "button": "Povežite denarnico"
+    },
+    "contactUs": {
+      "button": "Kontaktiraj nas"
+    },
+    "contractInteraction": "Pogodbena interakcija",
+    "copied": "Kopirano",
+    "copy": {
+      "address": "Kopiraj naslov"
+    },
+    "copyLink": {
+      "button": "Kopiraj povezavo"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Ustvarjanje bazena je preklicano",
+        "failed": "Ustvarjanje bazena ni uspelo"
+      }
+    },
+    "created": {
+      "date": "Ustvarjeno {{date}}",
+      "pool": "Ustvarjen bazen"
+    },
+    "creating": {
+      "pool": "Ustvarjanje bazena"
+    },
+    "currency": "Valuta",
+    "custom": "Po meri",
+    "customRange": "Razpon po meri",
+    "dataOutdated": "Podatki so lahko zastareli",
+    "default": "Privzeto",
+    "defaultTradeOptions": "Privzete trgovalne možnosti",
+    "delegate": {
+      "cancelled": "Delegat je preklican",
+      "failed": "Delegiranje ni uspelo"
+    },
+    "delegated": "Pooblaščeno",
+    "delegating": "Delegiranje",
+    "deploy": {
+      "cancelled": "Razmestitev preklicana",
+      "failed": "Razmestitev ni uspela"
+    },
+    "deployed": "Razporejen",
+    "deploying": "Uvajanje",
+    "deposit": {
+      "cancelled": "Depozit preklican",
+      "failed": "Nakazilo ni uspelo",
+      "toNetwork": "Položite žetone v omrežje {{label}} ."
+    },
+    "deposited": "Deponiran",
+    "depositing": "Deponiranje",
+    "depositTokens": "Depozitni žetoni",
+    "detected": "Zaznano",
+    "developers": "Razvijalci",
+    "device": {
+      "other": "Druga naprava"
+    },
+    "dismiss": "Odpusti",
+    "displaySettings": "Nastavitve zaslona",
+    "dnsRegistrar": "DNS Registrar",
+    "donate": "Donirajte",
+    "done": "Končano",
+    "dontShowAgain": "Ne pokaži več tega",
+    "download": "Prenesi",
+    "downloadAppStore": "Prenesite v App Store",
+    "downloadPlayStore": "Prenesite v Trgovini Play",
+    "downloadUniswap": "Prenesite Uniswap",
+    "downloadUniswapApp": "Prenesite aplikacijo Uniswap",
+    "dynamic": "Dinamično",
+    "edit": {
+      "button": "Uredi"
+    },
+    "error": {
+      "details": "Podrobnosti o napaki",
+      "general": "Nekaj je šlo narobe",
+      "label": "Napaka",
+      "request": "Žal je med obdelavo vaše zahteve prišlo do napake. Če zahtevate podporo, ne pozabite kopirati podrobnosti te napake.",
+      "somethingWrong": "Nekaj je šlo narobe!",
+      "wrong": {
+        "tryAgain": "Nekaj je šlo narobe. Prosim poskusite ponovno."
+      }
+    },
+    "errorConnecting": {
+      "error": "Napaka pri povezovanju"
+    },
+    "errorLoadingData": {
+      "error": "Napaka pri nalaganju podatkov"
+    },
+    "ethereumNameService": "Imenska storitev Ethereum",
+    "etherscan": {
+      "link": "Poglej na Etherscan"
+    },
+    "ethRegistrarController": "Nadzornik registra ETH",
+    "execute": {
+      "cancelled": "Izvedba preklicana",
+      "failed": "Izvedba ni uspela"
+    },
+    "executed": "Izvedeno",
+    "executing": "Izvrševanje",
+    "expired": "potekel",
+    "expiry": "Iztek",
+    "explore": "Raziščite",
+    "explorer": "raziskovalec",
+    "exploreTokens": "Raziščite žetone",
+    "extension": "Razširitev Uniswap",
+    "failed": {
+      "error": "Ni uspelo"
+    },
+    "failedSwitchNetwork": "Preklop omrežij ni uspel",
+    "fee": "Pristojbina",
+    "fees": "Pristojbine",
+    "feesEarned": "Zasluženi honorarji",
+    "feesEarnedPerBase": "{{symbolA}} na {{symbolB}}",
+    "fetchingRoute": "Pridobivanje poti",
+    "floor": "Nadstropje",
+    "floorPrice": "Spodnja cena",
+    "for": "Za",
+    "fullRange": "Celoten obseg",
+    "getApp": "Prenesite aplikacijo",
+    "getHelp": {
+      "button": "Poišči pomoč"
+    },
+    "getStarted": "Začnite",
+    "getSupport": {
+      "button": "Pridobite podporo"
+    },
+    "getTheApp": "Prenesite aplikacijo",
+    "getUniswapWallet": "Pridobite denarnico Uniswap",
+    "governance": "Upravljanje",
+    "happyHolidays": "Vesele praznike želi ekipa Uniswap!",
+    "helpCenter": "Center pomoči",
+    "hidden": "Skrito",
+    "hide": {
+      "button": "Skrij se"
+    },
+    "highPrice": "Visoka cena",
+    "includes": "Vključuje",
+    "info": {
+      "label": "Informacije"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Izberite prejemnika"
+      },
+      "password": {
+        "confirm": "Potrdi geslo",
+        "error": {
+          "mismatch": "Gesli se ne ujemata",
+          "weak": "To geslo je prešibko"
+        },
+        "new": "Novo geslo",
+        "placeholder": "Geslo",
+        "strength": {
+          "medium": "Srednje",
+          "strong": "Močna",
+          "weak": "Šibko"
+        }
+      },
+      "search": "Iskanje"
+    },
+    "insufficient": {
+      "funds": "Nezadostna sredstva"
+    },
+    "insufficientBalance": {
+      "error": "Nezadostno stanje"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Premalo sredstev za pokritje stroškov omrežja"
+    },
+    "insufficientLiquidity": "Nezadostna likvidnost",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Nezadostno {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Neveljaven par",
+    "invalidRecipient": {
+      "error": "Neveljaven prejemnik"
+    },
+    "iOSAndroid": "iOS in Android",
+    "language": "Jezik",
+    "lastPrice": "Zadnja cena",
+    "learnMoreSwap": "Več o zamenjavah",
+    "legalAndPrivacy": "Pravno in zasebnost",
+    "less": "Manj",
+    "limit": {
+      "cancel_one": "Prekliči omejitev",
+      "cancel_other": "Prekliči {{count}} omejitve",
+      "cancelled": "Omejitev preklicana",
+      "executed": "Omejitev izvršena",
+      "expired": "Omejitev je potekla",
+      "failed": "Omejitev ni uspela",
+      "opened": "Limit odprt",
+      "pending": "Omejitev v teku"
+    },
+    "limits": {
+      "approachMax": "Približuje se omejitvi 100",
+      "cancelProceed": "Za nadaljevanje prekličite omejitve",
+      "expires": "Poteče {{timestamp}}",
+      "open": "Odprte meje",
+      "when": "ko {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Povezave",
+    "liquidity": {
+      "removed": "Odstranjena likvidnost"
+    },
+    "loading": "nalaganje",
+    "loadingAllowance": "Dodatek za nalaganje",
+    "loadMore": "Naloži več",
+    "longText": {
+      "button": {
+        "less": "Berite manj",
+        "more": "Preberi več"
+      }
+    },
+    "lowPrice": "Nizka cena",
+    "manage": "Upravljaj",
+    "market": {
+      "label": "trg"
+    },
+    "marketPrice": {
+      "fetching": "Pridobivanje tržne cene ...",
+      "label": "Tržna cena:",
+      "unavailable": "Tržne cene ni mogoče najti. Opravite lastno raziskavo, da preprečite izgubo sredstev."
+    },
+    "max": "maks",
+    "message": "Sporočilo",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Prenos likvidnosti je preklican",
+        "failed": "Selitev likvidnosti ni uspela"
+      },
+      "position": "Preseliti položaj",
+      "v3": "Preselite na V3"
+    },
+    "migrated": {
+      "liquidity": "Preseljena likvidnost"
+    },
+    "migrating": {
+      "liquidity": "Selitev likvidnosti"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Kovnica preklicana",
+      "failed": "Kovnica ni uspela"
+    },
+    "minted": "Kovano",
+    "minting": "Kovanje",
+    "mobile": "Mobilni",
+    "more": "več",
+    "multiDevice": "Več naprav",
+    "navigation": {
+      "settings": "nastavitve",
+      "systemSettings": "nastavitve"
+    },
+    "navigationButton": "Navigacijski gumb",
+    "needHelp": "Rabim pomoč?",
+    "networkCost": "Stroški omrežja",
+    "neverMind": "Pozabi",
+    "new": {
+      "exclamation": "Novo!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT-ji",
+    "noActivity": "Ni aktivnosti še",
+    "noAmount": {
+      "error": "Vnesite znesek"
+    },
+    "noData": "Ni podatkov",
+    "noResults": "Ni zadetkov.",
+    "notAvailableInRegion": {
+      "error": "Ni na voljo v vaši regiji"
+    },
+    "notCreated": {
+      "label": "Ni ustvarjeno"
+    },
+    "notSupported": "Ni podprto",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 mesec",
+    "oneWeek": "1 teden",
+    "oneYear": "1 leto",
+    "opensea": {
+      "link": "Pogled na OpenSea"
+    },
+    "orderCancelled": "Naročilo preklicano",
+    "orderExecuted": "Naročilo izvršeno",
+    "orderExpired": "Naročilo je poteklo",
+    "orderPending": "Naročilo v teku",
+    "outOfRange": "Izven dosega",
+    "pageNotFound": "Stran ni najdena!",
+    "passkey": {
+      "count": "Geslo {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Izberite, kam želite shraniti novo geslo."
+      }
+    },
+    "pastDay": "Pretekli dan",
+    "pastFiveMinutes": "Zadnjih pet minut",
+    "pastHour": "Pretekla ura",
+    "pastMonth": "Prejšnji mesec",
+    "pastWeek": "Prejšnji teden",
+    "pastYear": "Preteklo leto",
+    "pay": {
+      "button": "plačaj"
+    },
+    "pending": {
+      "cancellation": "Čaka na preklic"
+    },
+    "pendingEllipsis": "V teku...",
+    "permit2": "Dovoljenje2",
+    "pool": "Bazen",
+    "pools": "Bazeni",
+    "poweredBy": "Poganja <name />",
+    "price": "Cena",
+    "priceImpact": "Opozorilo o vplivu cene",
+    "priceUpdated": "Cena posodobljena",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Ko je označeno, vaših podatkov ne bomo delili s partnerji tretjih oseb za prilagojeno oglaševanje. Skupno rabo lahko omogočite kadar koli, tako da počistite to polje.",
+        "label": "Ne deli mojih podatkov"
+      },
+      "description": "Identifikatorje naprav lahko delimo z našimi oglaševalskimi partnerji za promocijo naših storitev na drugih spletnih mestih in platformah. Kadar se to po veljavni zakonodaji šteje za prodajo, skupno rabo ali ciljano oglaševanje, se lahko odjavite tako, da označite polje »ne deli mojih podatkov«. Za več informacij o naših praksah glede zasebnosti si oglejte naš <privacyLink>pravilnik o zasebnosti</privacyLink>.",
+      "disclaimer": "Upoštevajte, da bo vaša izbira veljala samo za ta brskalnik v tej napravi. Prav tako se lahko odjavite tako, da omogočite nastavitev Global Privacy Control v brskalniku, ki ga uporabljate za dostop do naših storitev. Če želite videti več možnosti, pojdite v nastavitve."
+    },
+    "privacyPolicy": "Politika zasebnosti",
+    "proceed": "Nadaljuj",
+    "proceedInWallet": {
+      "short": "Nadaljuj v denarnici"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Javni razreševalec",
+    "purchased": "Kupljeno",
+    "queue": {
+      "cancelled": "Čakalna vrsta preklicana",
+      "failed": "Čakalna vrsta ni uspela"
+    },
+    "queued": "V čakalni vrsti",
+    "queuing": "Čakalna vrsta",
+    "rate": "Oceniti",
+    "readMore": "Preberi več",
+    "receive": {
+      "cancelled": "Prejemanje preklicano",
+      "failed": "Prejemanje ni uspelo"
+    },
+    "received": "Prejeto",
+    "receiving": "Prejemanje",
+    "recent": "Nedavno",
+    "rejected": "Zavrnjeno",
+    "reload": {
+      "label": "Ponovno naložite aplikacijo"
+    },
+    "remove": {
+      "label": "Odstrani",
+      "liquidity": {
+        "cancelled": "Odstranjevanje likvidnosti preklicano",
+        "failed": "Odstranjevanje likvidnosti ni uspelo"
+      }
+    },
+    "removedLiquidity": "Odstranjena likvidnost",
+    "removeItem": "Odstrani predmet",
+    "removing": {
+      "liquidity": "Odstranjevanje likvidnosti"
+    },
+    "repaid": "Poplačano",
+    "repay": {
+      "cancelled": "Vračilo preklicano",
+      "failed": "Povračilo ni uspelo"
+    },
+    "repaying": "Povračilo",
+    "resetLimit": "Ponastavi omejitev {{symbol}}",
+    "resetLimitWallet": "Ponastavi omejitev {{symbol}} v denarnici",
+    "resettingLimit": "Ponastavitev omejitve {{symbol}}...",
+    "resolveIssues_one": "Rešite težavo",
+    "resolveIssues_other": "Razreši {{count}} težave",
+    "restricted": {
+      "region": "Omejeno območje"
+    },
+    "reverseRegistrar": "Povratni registrar",
+    "revoke": {
+      "approval": {
+        "failed": "Preklic odobritve ni uspel"
+      }
+    },
+    "revoked": {
+      "approval": "Preklicana odobritev"
+    },
+    "revokedApproval": "Preklicana odobritev",
+    "revoking": {
+      "approval": "Preklic odobritve"
+    },
+    "samePrice": "Enaka cena",
+    "scanQRDownload": "Za prenos skenirajte kodo QR s telefonom",
+    "selectRegion": {
+      "label": "Izberite svojo regijo"
+    },
+    "selectToken": {
+      "label": "Izberite žeton"
+    },
+    "selfCustodial": "Samostojno skrbništvo",
+    "sell": {
+      "label": "Prodaja"
+    },
+    "send": {
+      "button": "Pošlji",
+      "cancelled": "Pošiljanje preklicano",
+      "failed": "Pošiljanje ni uspelo"
+    },
+    "sending": "Pošiljanje",
+    "sent": "Poslano",
+    "settings": "nastavitve",
+    "share": {
+      "shareToTwitter": "Delite na Twitterju",
+      "twitter": "Delite na Twitterju"
+    },
+    "show": {
+      "button": "Prikaži"
+    },
+    "showLess": {
+      "button": "Prikaži manj"
+    },
+    "showMore": {
+      "button": "Pokaži več"
+    },
+    "signatureExpired": "Vaš podpis je potekel.",
+    "signMessage": "Podpišite sporočilo",
+    "signMessageWallet": "Podpišite sporočilo v denarnici",
+    "sold": "prodano",
+    "stats": "Statistika",
+    "status": "Stanje",
+    "stayConnected": "Ostani povezan",
+    "step": {
+      "number": "Korak {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Oddaja predloga preklicana",
+        "failed": "Oddaja predloga ni uspela"
+      }
+    },
+    "submitted": {
+      "proposal": "Oddan predlog"
+    },
+    "submitting": {
+      "proposal": "Oddaja predloga"
+    },
+    "swap": {
+      "cancelled": "Zamenjava preklicana",
+      "expired": "Menjava je potekla",
+      "failed": "Zamenjava ni uspela"
+    },
+    "swapped": "Zamenjal",
+    "swapPending": "Zamenjava v teku...",
+    "swapping": "Zamenjava",
+    "switchNetworks": "Preklopite omrežja",
+    "termsOfService": "Pogoji storitve",
+    "text": {
+      "connected": "Povezan",
+      "contract": "Pogodba",
+      "disconnected": "Prekinjena povezava",
+      "error": "Napaka",
+      "notAvailable": "N/A",
+      "recipient": "Za",
+      "sender": "Od",
+      "unknown": "Neznano"
+    },
+    "thisMonth": "Ta mesec",
+    "thisToken": "Ta žeton",
+    "thisWeek": "Ta teden",
+    "thisYear": "To leto",
+    "time": {
+      "days": "dnevi",
+      "days_one": "dan",
+      "days_other": "dnevi",
+      "hours": "ure",
+      "hours_one": "uro",
+      "hours_other": "ure",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minut",
+      "months": "mesecih",
+      "months_one": "mesec",
+      "months_other": "mesecih",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}mes"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "tedne",
+      "weeks_one": "teden",
+      "weeks_other": "tedne"
+    },
+    "to": "za",
+    "today": "Danes",
+    "tokenA": "Žeton A",
+    "tokenAmount": "Žetonski znesek",
+    "tokenB": "Žeton B",
+    "tokenName": "Ime žetona",
+    "tokens": "Žetoni",
+    "totalUniswapTVL": "Skupna Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Trgovina",
+    "trademarkPolicy": "Politika blagovnih znamk",
+    "transactionDetails": "Podrobnosti transakcije",
+    "transactionId": "Številka transakcije",
+    "transactionPending": "Transakcija v teku",
+    "transactions": "Transakcije",
+    "transactionSettings": "Nastavitve transakcije",
+    "transfer_one": "prenos",
+    "transfer_other": "prenosi",
+    "tryAgain": {
+      "error": "Poskusi ponovno"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Vrsta"
+    },
+    "unavailable": "Ni na voljo",
+    "unhide": "Razkrij",
+    "uniGovernance": "Upravljanje UNI",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Protokol Uniswap",
+    "uniswapWallet": "Uniswap denarnica",
+    "uniswapX": "UniswapX",
+    "unknown": "Neznano",
+    "unknownApproval": "Neznana odobritev",
+    "unknownBridge": "Neznani most",
+    "unknownError": {
+      "error": "Neznana napaka"
+    },
+    "unknownLend": "Neznan Lend",
+    "unknownMint": "Neznana kovnica",
+    "unknownSend": "Neznano pošiljanje",
+    "unknownSwap": "Neznana zamenjava",
+    "unsupportedAsset_one": "Nepodprto sredstvo",
+    "unsupportedAsset_other": "Nepodprta sredstva",
+    "unwrap": {
+      "button": "Odvij",
+      "failed": "Odvijanje ni uspelo"
+    },
+    "unwrapped": "Odvito",
+    "unwrapping": "Odvijanje",
+    "view": {
+      "profile": "Prikaži profil"
+    },
+    "viewOnExplorer": "Ogled v Raziskovalcu",
+    "volume": "Glasnost",
+    "vote": {
+      "cancelled": "Glasovanje preklicano",
+      "failed": "Glasovanje ni uspelo"
+    },
+    "voted": "Glasoval",
+    "voting": "Glasovanje",
+    "wallet": {
+      "approve": "Odobri v denarnici",
+      "label": "Denarnica"
+    },
+    "walletForSwapping": "Denarnica, narejena za menjavo. Na voljo za iOS in Android.",
+    "warning": "Opozorilo",
+    "webApp": "Spletna aplikacija",
+    "website": "Spletna stran",
+    "whyApprove": "Zakaj moram odobriti žeton?",
+    "whySign": "Zakaj so potrebni podpisi?",
+    "whyWrap": "Zakaj moram zaviti svoj {{symbol}}?",
+    "withdraw": {
+      "failed": "Umik ni uspel"
+    },
+    "withdrawal": {
+      "amount": "Znesek dviga",
+      "cancelled": "Dvig preklican"
+    },
+    "withdrawing": "Umik",
+    "withdrew": "umaknil",
+    "withinRange": "V dosegu",
+    "wrap": {
+      "cancelled": "Zavijanje preklicano",
+      "failed": "Ovijanje ni uspelo"
+    },
+    "wrapIn": "Zavij  {{symbol}} v denarnico",
+    "wrapped": "Zavito",
+    "wrapping": "Zavijanje",
+    "wrappingToken": "Zavijanje  {{symbol}}...",
+    "wrongNetwork": "Napačno omrežje",
+    "yesterday": "včeraj",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Na vašem računu ni bilo dovolj sredstev za dokončanje te zamenjave."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Na vašem računu ni dovolj sredstev za dokončanje te zamenjave."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Vaše omejitve trenutno ni bilo mogoče doseči. Prosim poskusite ponovno."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Vaše zamenjave trenutno ni bilo mogoče izvesti. Prosim poskusite ponovno."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Ti kupuješ",
+    "youRecieve": "Ti prejmeš",
+    "youreSending": "Ti pošiljaš"
+  },
+  "currency": {
+    "aud": "avstralski dolar",
+    "brl": "Brazilski Real",
+    "cad": "kanadski dolar",
+    "cny": "kitajski juan",
+    "eur": "Evro",
+    "gbp": "britanski funt",
+    "hkd": "hongkonški dolar",
+    "idr": "indonezijska rupija",
+    "inr": "Indijska rupija",
+    "jpy": "Japonski jen",
+    "krw": "južnokorejski Won",
+    "ngn": "Nigerijska Naira",
+    "pkr": "pakistanska rupija",
+    "rub": "ruski rubelj",
+    "sgd": "singapurski dolar",
+    "thb": "tajski baht",
+    "try": "turška lira",
+    "uah": "Ukrajinska grivna",
+    "usd": "Ameriški dolar",
+    "vnd": "vietnamski dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "odobri",
+        "fallbackTitle": "Odobrite to mesto za dostop do žetonov",
+        "helptext": "Dovoli temu spletnemu mestu dostop do tega žetona in njegovo porabo za transakcije. Prepričajte se, da zaupate tej strani.",
+        "label": "Denarnica",
+        "title": "Odobri dostop do {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Zahteva za transakcijo"
+      },
+      "bridge": {
+        "description": "Premaknite ETH, USDC in več v {{numChains}}+ omrežjih.",
+        "title": "Poskušaš premostiti?"
+      },
+      "connect": {
+        "helptext": "Dovolite temu mestu, da si ogleda vaš naslov denarnice, stanje in zahteva odobritve za transakcije.",
+        "title": "Povežite se s spletnim mestom"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Surovi podatki"
+        },
+        "function": {
+          "label": "funkcija"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 upravlja odobritve žetonov v več aplikacijah.",
+        "header": "Podpis dovoljenja 2"
+      },
+      "reject": {
+        "action": "Zavrni vse",
+        "info": "Imate <highlight>{{totalRequestCount}}</highlight> zahteve za transakcije"
+      },
+      "revoke": {
+        "action": "Prekliči",
+        "helptext": "Dovoli temu spletnemu mestu, da prekliče dostop za porabo tega žetona za transakcije. Prepričajte se, da zaupate tej strani.",
+        "title": "Prekliči dostop do {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "To sporočilo vsebuje znake, ki jih ni mogoče upodobiti. Prepričajte se, da zaupate tej strani.",
+        "decodeError": "Sporočila ni bilo mogoče dekodirati",
+        "header": "Zahteva za podpis",
+        "irregular": {
+          "description": "Preden nadaljujete, se prepričajte, da zaupate temu mestu",
+          "understand": "Razumem tveganja"
+        },
+        "toggleDataView": {
+          "raw": "Oglejte si neobdelane podatke",
+          "readable": "Oglejte si izvirne podatke"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Prepričajte se, da je pravi",
+          "title": "To ni vaša aktivna denarnica"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Prijavite se tukaj"
+      },
+      "getStarted": {
+        "description": "Začnite s prenosom denarnice Uniswap, ki je na voljo v vašem telefonu ali brskalniku.",
+        "title": "Začnite uporabljati Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Začnite v nekaj sekundah, tako da se prijavite spodaj ali prenesite našo denarnico, ki je na voljo v vašem telefonu ali brskalniku."
+        },
+        "title": "Prijavite se z Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Izdelki Uniswap brezhibno delujejo skupaj in ustvarjajo najboljšo izkušnjo v verigi."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "To omogoča dostop protokola Uniswap do vašega žetona za trgovanje. Zaradi varnosti poteče po 30 dneh."
+    },
+    "dataUnavailable": "Podatki trenutno niso na voljo; delamo na popravku",
+    "id": "ID napake: {{eventId}}",
+    "noData": "Ni podatkov",
+    "request": {
+      "provideId": "Žal je med obdelavo vaše zahteve prišlo do napake. Če zahtevate podporo, navedite svoj ID napake."
+    },
+    "tokenApproval": "Odobritev žetona ni uspela",
+    "tokenApprovalEdited": {
+      "message": "Znesek odobritve, nastavljen v vaši denarnici, je prenizek za dokončanje te transakcije. Poskusite znova in povečajte znesek."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Nekaj se je zrušilo.",
+      "restart": "Znova zaženite aplikacijo",
+      "title": "Ojoj!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Raziščite več bazenov"
+    },
+    "search": {
+      "action": {
+        "clear": "jasno",
+        "viewEtherscan": "Poglej na {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Ni rezultatov za <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Rezultatov iskanja ni bilo mogoče naložiti",
+      "label": {
+        "ownedBy": "Lastnik {{ownerAddress}}"
+      },
+      "placeholder": "Iskanje žetonov in denarnic",
+      "section": {
+        "nft": "Zbirke NFT",
+        "popularNFT": "Priljubljene zbirke NFT",
+        "popularTokenInfo": "Priljubljeni žetoni so prepoznani glede na njihov obseg trgovanja na Uniswap v zadnjih 24 urah.",
+        "popularTokens": "Priljubljeni žetoni",
+        "recent": "Nedavna iskanja",
+        "tokens": "Žetoni",
+        "wallets": "Denarnice"
+      }
+    },
+    "tokens": {
+      "error": "Ni bilo mogoče naložiti žetonov",
+      "favorite": {
+        "action": {
+          "add": "Najljubši žeton",
+          "edit": "Uredi priljubljene",
+          "remove": "Odstrani priljubljeno"
+        },
+        "title": {
+          "default": "Priljubljeni žetoni",
+          "edit": "Uredite priljubljene žetone"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Tržna kapitalizacija",
+          "priceDecrease": "Znižanje cene",
+          "priceIncrease": "Povišanje cene",
+          "totalValueLocked": "TVL",
+          "volume": "Glasnost"
+        },
+        "option": {
+          "marketCap": "Tržna kapitalizacija",
+          "priceDecrease": "Znižanje cene (24H)",
+          "priceIncrease": "Zvišanje cene (24H)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Glasnost Uniswap (24H)"
+        }
+      },
+      "top": {
+        "title": "Vrhunski žetoni"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Najljubša denarnica",
+          "edit": "Uredi priljubljene",
+          "remove": "Odstrani priljubljeno"
+        },
+        "title": {
+          "default": "Najljubše denarnice",
+          "edit": "Uredite priljubljene denarnice"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Omrežje",
+      "networks": "Omrežja",
+      "popup": {
+        "trouble": "Težave pri povezovanju?"
+      },
+      "titleConnected": "Povezan",
+      "titleNotConnected": "Brez povezave"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Ste pozabili geslo?",
+        "reset": "Ponastavi denarnico",
+        "submit": "Odkleni"
+      },
+      "password": {
+        "error": "Napačno geslo. Poskusi ponovno",
+        "reset": {
+          "initial": {
+            "description": "Uniswap ne more pomagati obnoviti vašega gesla. Svojo denarnico morate ponastaviti tako, da znova vnesete obnovitveno besedno zvezo iz 12 besed.",
+            "help": "Kje najdem svojo frazo za obnovitev?",
+            "title": "Ste pozabili geslo"
+          },
+          "speedbump": {
+            "description": "Prepričajte se, da imate 12-besedno frazo za obnovitev, preden ponastavite denarnico. V nasprotnem primeru ne boste mogli izterjati svojih sredstev.",
+            "help": "Izgubil sem stavek za obnovitev",
+            "title": "Preden nadaljujete"
+          }
+        }
+      },
+      "subtitle": "Vnesite geslo za odklepanje",
+      "title": "Dobrodošel nazaj"
+    },
+    "network": {
+      "notSupported": "Nepodprto omrežje"
+    },
+    "open": "Odprite razširitev Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "Odprta razširitev",
+        "description": "To dejanje dokončajte tako, da odprete razširitev Uniswap.",
+        "title": "Nadaljujte v Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Pri povezovanju z aplikacijami dajte prednost razširitvi Uniswap.",
+        "title": "Nastavi privzeto denarnico"
+      },
+      "password": {
+        "enter": {
+          "title": "Vnesite trenutno geslo"
+        },
+        "error": {
+          "wrong": "Napačno geslo"
+        },
+        "placeholder": "Trenutno geslo"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Rezerva",
+        "message": "Poskrbite, da boste naredili varnostno kopijo obnovitvene fraze, da preprečite izgubo dostopa do denarnice in sredstev.",
+        "title": "Vašemu brskalniku zmanjkuje prostora za shranjevanje"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Uvozite svoj račun Uniswap tako, da se prijavite z obstoječim geslom.",
+    "invalidReferrer": "Zaprite to stran in poskusite znova."
+  },
+  "fee": {
+    "bestForExotic": "Najboljše za eksotične pare.",
+    "bestForMost": "Najboljše za večino parov.",
+    "bestForStablePairs": "Najboljše za stabilne pare.",
+    "bestForVeryStable": "Najboljše za zelo stabilne pare.",
+    "dynamic": "Dinamična pristojbina",
+    "percentEarned": "%, ki ga boste zaslužili s honorarji.",
+    "selectPercent": "{{pct}}% izberite",
+    "selectPercentDescription": "{{pct}}% likvidnosti je izbral to stopnjo",
+    "tier": {
+      "create": {
+        "button": "Ustvarite novo stopnjo provizije",
+        "description": "Ustvarjanje nove ravni se bo inicializiralo v novem bazenu in povzročilo višje stroške omrežja od običajnih."
+      },
+      "description": {
+        "v2": "Zasluženi znesek, ki zagotavlja likvidnost. Vsa združenja v2 imajo fiksne 0,3-odstotne provizije. Za več možnosti zagotovite likvidnost na v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Ustvarili boste skupino z dinamično stopnjo nadomestil. Preden nadaljujete, se prepričajte, da izbrani kavelj podpira dinamične provizije."
+        }
+      },
+      "highestTvl": "Najvišji TVL",
+      "label": "%, ki ga boste zaslužili s honorarji",
+      "missing": {
+        "description": "Ne najdete ravni, ki jo iščete?"
+      },
+      "new": "Nova stopnja",
+      "percent": {
+        "select": "{{percentage}} izberite"
+      },
+      "recommended": {
+        "description": "Priporočeno na podlagi najvišjega deleža likvidnosti za izbrani par žetonov."
+      },
+      "search": {
+        "short": "Stopnje iskanja"
+      },
+      "select": {
+        "existing": {
+          "button": "Izberite obstoječo stopnjo nadomestila"
+        }
+      }
+    },
+    "tierExact": "{{fee}} stopnja pristojbine",
+    "unavailable": "Prislužena nadomestila niso vidna za pozicije v2, dokler ni odstranjena likvidnost.",
+    "uncollected": "Vključuje nepobrane provizije:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Prodaja z"
+    },
+    "connection": {
+      "quote": "Prodam {{amount}} v vrednosti {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Presega ravnotežje"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} za {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Pojdi nazaj",
+      "divider": "Nepodprti žetoni",
+      "message": "Ta žeton ni podprt za prodajo. Zamenjajte to sredstvo z enim od podprtih žetonov.",
+      "swap": "Zamenjaj na podprt žeton",
+      "title": "Nepodprt žeton"
+    },
+    "welcome": {
+      "tooltip": "Prodajte svojo kriptovaluto na svoj bančni račun ali debetno kartico."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Izberite žeton"
+    },
+    "cexTransferModal": {
+      "description": "Nakup kriptovalut s kartico ni podprt v vaši regiji. Prenesite sredstva s centraliziranega menjalnega računa za financiranje denarnice.",
+      "title": "Prenesite, da začnete"
+    },
+    "checkout": {
+      "title": "Blagajna z"
+    },
+    "checkoutWith": "Blagajna z",
+    "chooseProvider": {
+      "description": "Nadaljevali boste s portalom ponudnika, da si ogledate stroške, povezane z vašo transakcijo."
+    },
+    "completeTransactionHeader": "Dokončajte transakcijo z {{serviceProvider}}",
+    "connection": {
+      "error": "Povezava ni uspela",
+      "errorDescription": "Pri povezovanju z {{serviceProvider}}je šlo nekaj narobe.",
+      "message": "Povezujemo vas z {{serviceProvider}}",
+      "quote": "Nakup {{amount}} v vrednosti {{currencySymbol}}",
+      "terms": "Če nadaljujete, potrjujete, da boste za vas veljali pogoji storitve in pravilnik o zasebnosti z {{serviceProvider}}, kot je ustrezno."
+    },
+    "continueInTab": "Za nadaljevanje pojdite na zavihek {{serviceProvider}} . Zdaj je varno zapreti ta način.",
+    "disclaimer": "Če nadaljujete, potrjujete, da boste za vas veljali <tosLink>pogoji storitve</tosLink> in <privacyLink>pravilnik o zasebnosti</privacyLink> z {{serviceProvider}}, kot je ustrezno.",
+    "error": {
+      "default": "Nekaj je šlo narobe.",
+      "load": "Ni bilo mogoče naložiti žetonov za nakup",
+      "max": "Največ {{amount}}",
+      "min": "Najmanj {{amount}}",
+      "noQuotes": "Ni narekovajev.",
+      "unavailable": "Ta storitev ni na voljo v vaši regiji",
+      "unsupported": "Ni podprto v regiji",
+      "usd": "Na voljo samo za nakup v USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} za {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Ni narekovajev"
+    },
+    "purchasedOn": "Kupljeno {{serviceProvider}}",
+    "quote": {
+      "advice": "Nadaljevali boste s portalom ponudnika, da si ogledate stroške, povezane z vašo transakcijo.",
+      "type": {
+        "list": "{{optionsList}}in druge možnosti",
+        "other": "Druge možnosti",
+        "recent": "Nedavno uporabljeno"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Iz računa"
+        }
+      },
+      "title": "Prejemanje kripto",
+      "transferFunds": "Financirajte svojo denarnico s prenosom kripto iz druge denarnice ali računa"
+    },
+    "region": {
+      "placeholder": "Iskanje po državi ali regiji",
+      "title": "Izberite svojo regijo"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} za {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Posodobite zdaj",
+      "learn": "Naučite se posodobiti",
+      "recoveryPhrase": "Oglejte si frazo za obnovitev"
+    },
+    "description": {
+      "extension": "Na voljo je nova različica aplikacije. Če želite še naprej uporabljati razširitev Uniswap, jo posodobite na najnovejšo različico.",
+      "wallet": "Na voljo je nova različica aplikacije. Če želite še naprej uporabljati denarnico Uniswap, jo posodobite na najnovejšo različico."
+    },
+    "label": {
+      "recoveryPhrase": "Fraza za obnovitev"
+    },
+    "title": {
+      "recommendedStatus": "Na voljo je nova različica"
+    }
+  },
+  "globalPreferences": {
+    "title": "Globalne nastavitve"
+  },
+  "hero": {
+    "scroll": "Pomaknite se, če želite izvedeti več",
+    "subtitle": "Največja onchain tržnica. Kupujte in prodajajte kripto v Ethereumu in 11+ drugih verigah.",
+    "swap": {
+      "title": "Zamenjajte kadarkoli, <br/> kjer koli."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Izvedite več o skritih NFT-jih"
+        },
+        "text": {
+          "button": "Skriti NFT ({{numHidden}})",
+          "extension": "To so potencialne prevare in NFT-ji, ki ste jih skrili. Lahko z desno miškino tipko kliknete NFT, da ga razkrijete.",
+          "mobile": "To so potencialne prevare in NFT-ji, ki ste jih skrili. Lahko dolgo pritisnete na NFT, da ga razkrijete.",
+          "title": "Skriti NFT-ji"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Izvedite več o skritih žetonih"
+        },
+        "text": {
+          "button": "Skriti žetoni ({{numHidden}})",
+          "info": "To so morebitne prevare, majhna stanja in žetoni, ki ste jih skrili. Skriti žetoni niso vključeni v vaše skupno stanje v denarnici.",
+          "title": "Skriti žetoni"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Prejmite žetone ali NFT",
+        "description": {
+          "default": "Ko odobrite, trgujete ali prenesete žetone ali NFT, bodo vaše transakcije prikazane tukaj.",
+          "external": "Ko ta denarnica izvede transakcije, se prikažejo tukaj."
+        },
+        "title": "Ni aktivnosti še"
+      },
+      "error": {
+        "load": "Dejavnosti ni bilo mogoče naložiti"
+      },
+      "title": "dejavnost"
+    },
+    "banner": {
+      "offline": "Ste v načinu brez povezave",
+      "testnetMode": {
+        "nav": "Ste v načinu testnega omrežja. To izklopite v nastavitvah.",
+        "outage": {
+          "monad": {
+            "description": "Dostop do Monad Testnet je začasno zaustavljen prek vmesnika Uniswap zaradi težav s stabilnostjo omrežja. Na sredstva Testnet to ne vpliva. Dostop bo obnovljen, ko bodo težave odpravljene.",
+            "title": "Monad je začasno zaustavljena"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Tapnite tukaj, če želite raziskati na tisoče žetonov, NFT-jev in drugega",
+      "title": "Raziščite žetone"
+    },
+    "extension": {
+      "error": "Napaka pri nalaganju računov"
+    },
+    "label": {
+      "buy": "Nakup",
+      "for": "Kupi/Prodaj",
+      "receive": "Prejeti",
+      "send": "Pošlji",
+      "swap": "Zamenjaj"
+    },
+    "nfts": {
+      "title": "NFT-ji"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Nakup z debetno kartico ali bančnim računom.",
+            "title": "Kupi kripto"
+          },
+          "import": {
+            "description": "Vnesite frazo za obnovitev te denarnice, da začnete menjavo in pošiljanje.",
+            "title": "Uvoz denarnice"
+          },
+          "receive": {
+            "description": "Prenos iz druge denarnice ali računa.",
+            "title": "Prejemanje kripto"
+          }
+        },
+        "description": "Ko ta denarnica kupi ali prejme žetone, se ti prikažejo tukaj.",
+        "title": "Ni še žetonov",
+        "welcome": {
+          "description": "Videti je, da imate novo denarnico. Poskrbimo za financiranje, preden opravite prvo zamenjavo."
+        }
+      },
+      "error": {
+        "fetch": "Stanja žetonov ni bilo mogoče pridobiti",
+        "load": "Stanja žetonov ni bilo mogoče naložiti"
+      },
+      "title": "Žetoni"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Iz računa",
+        "description": "Financirajte svojo denarnico s prenosom kripto iz druge denarnice ali računa",
+        "title": "Prejemanje kripto"
+      }
+    },
+    "warning": {
+      "viewOnly": "To je denarnica samo za ogled"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Zamenjajte ali zagotovite likvidnost na protokolu Uniswap",
+      "title": "Vmesnik Uniswap"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Zgradite naslednjo generacijo odprtih aplikacij in orodij.",
+    "connectWithUs": "Povežite se z nami",
+    "devDocs": "Dokumenti razvijalca",
+    "directToDeFi": "Pojdite neposredno na DeFi",
+    "followOnX": "Sledite @Uniswap na X za najnovejše posodobitve",
+    "protocolDescription": "Izdelke Uniswap poganja protokol Uniswap. Protokol je največja onchain tržnica z milijardami dolarjev tedenskega obsega na tisoče žetonov na Ethereumu in 7+ dodatnih verigah.",
+    "provideLiquidity": {
+      "message": "Zagotovite likvidnost združenjem na protokolu Uniswap in zaslužite provizije za zamenjave."
+    },
+    "swapSimple": "Zamenjava je preprosta. Dostopajte do več tisoč žetonov v 11+ verigah.",
+    "teamInsights": "Vpogledi in novice ekipe",
+    "trusted": "Zaupajo milijoni"
+  },
+  "language": {
+    "afrikaans": "afrikanščina",
+    "arabic": "arabščina",
+    "catalan": "katalonski",
+    "chineseSimplified": "kitajščina, poenostavljena",
+    "chineseTraditional": "kitajski, tradicionalni",
+    "czech": "češki",
+    "danish": "danščina",
+    "dutch": "nizozemščina",
+    "english": "angleščina",
+    "finnish": "finščina",
+    "french": "francosko",
+    "greek": "grški",
+    "hebrew": "hebrejščina",
+    "hindi": "Hindi",
+    "hungarian": "madžarski",
+    "indonesian": "indonezijski",
+    "italian": "italijanščina",
+    "japanese": "japonska",
+    "korean": "korejščina",
+    "malay": "malajščina",
+    "norwegian": "norveški",
+    "polish": "poljski",
+    "portuguese": "portugalščina",
+    "romanian": "romunščina",
+    "russian": "ruski",
+    "serbian": "srbsko",
+    "spanishLatam": "španščina (Latinska Amerika)",
+    "spanishSpain": "španščina (Španija)",
+    "spanishUs": "španščina (ZDA)",
+    "swahili": "svahili",
+    "swedish": "švedščina",
+    "turkish": "turško",
+    "ukrainian": "ukrajinski",
+    "urdu": "urdu",
+    "vietnamese": "vietnamski"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 odprta meja",
+      "count_other": "{{count}} odprte meje"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Vaša mejna cena je {{percentage}}% višja od tržne. Za nadaljevanje prilagodite svojo mejno ceno.",
+        "title": "Nakup {{tokenSymbol}} nad tržno ceno"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Trenutne tržne cene ne moremo izračunati. Če se želite izogniti oddaji naročila pod tržno ceno, preverite omrežno povezavo in poskusite znova.",
+        "title": "Tržna cena ni na voljo"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Vaša mejna cena je {{percentage}}% nižja od tržne. Za nadaljevanje prilagodite svojo mejno ceno.",
+        "title": "Prodaja {{tokenSymbol}} pod tržno ceno"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Za omejitve so na voljo samo žetoni Mainnet."
+        },
+        "uniswapx": "Omejitve se morda ne bodo izvršile točno takrat, ko žetoni dosežejo določeno ceno. <link />"
+      }
+    },
+    "learnMore": "Več o omejitvah",
+    "price": {
+      "input": {
+        "label": "Ko je 1 <tokenSymbol /> vreden"
+      },
+      "label": "Mejna cena"
+    },
+    "selectSupportedTokens": "Izberite podprte žetone"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Vnesite naslov kljuke"
+      }
+    },
+    "learnMoreLabel": "Poučite se o zagotavljanju likvidnosti",
+    "notEnough": {
+      "label": "Ni dovolj likvidnosti za prikaz natančne vrednosti v USD."
+    },
+    "provideOnProtocols": "Zagotavljanje likvidnosti na različnih protokolih"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likvidnost: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Dodajte likvidnost skladom{{version}} na Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Zaprte pozicije"
+      },
+      "page": {
+        "title": "Upravljajte {{quoteSymbol}}/{{baseSymbol}} likvidnost združenja na Uniswap",
+        "version": {
+          "description": "Oglejte si svoje aktivne {{version}} likvidnostne pozicije. Dodajte nove položaje.",
+          "title": "Upravljajte likvidnost bazena{{version}} na Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Dovoljeno",
+    "allowLpMigration": "Dovoli selitev žetona LP",
+    "connectAccount": "Morate povezati račun, ki je lastnik tega položaja.",
+    "connectWallet": "Povežite se z denarnico in si oglejte svojo likvidnost V2.",
+    "contract": "Pogodba o migraciji Uniswap",
+    "firstLP": "Ste prvi ponudnik likvidnosti za to skupino Uniswap V3. Vaša likvidnost se bo preselila po trenutni ceni {{source}} .",
+    "highGasCost": "Vaš transakcijski strošek bo veliko višji, saj vključuje plin za ustvarjanje bazena.",
+    "invalidRange": "Izbran je neveljaven obseg. Najmanjša cena mora biti nižja od najvišje cene.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP žetoni",
+    "migrating": "Selitev",
+    "missingV2Position": "Ne vidite enega od svojih položajev v2? <link>Uvozi.</link>",
+    "noV2Liquidity": "Likvidnost V2 ni bila najdena.",
+    "positionNoFees": "Dokler se tržna cena ne premakne v vaš razpon, vaša pozicija ne bo služila provizij ali se uporabljala pri trgovanju.",
+    "priceDifference": "Razlika v ceni: ",
+    "priceWarning": "Likvidnost v Uniswap V3 naložite samo po ceni, za katero menite, da je pravilna. <br /> Če se cena zdi napačna, lahko naredite zamenjavo za spremembo cene ali počakate, da to stori nekdo drug.",
+    "refund": "Vsaj {{amtA}} {{symA}} in {{amtB}} {{symB}} bosta povrnjena v vašo denarnico zaradi izbranega cenovnega razreda.",
+    "selectFeeTier": "Izberite stopnjo pristojbine",
+    "setRange": "Nastavite cenovni razpon",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Cena:",
+    "v2Description": "To orodje bo vašo {{source}} likvidnost varno preselilo v V3. Postopek je popolnoma nezaupljiv zaradi <0>pogodbe o migraciji Uniswap</0> ↗",
+    "v2Instruction": "Za vsak sklad, prikazan spodaj, kliknite preseli, da odstranite svojo likvidnost iz Uniswap V2 in jo položite v Uniswap V3.",
+    "v2Title": "Preseli likvidnost V2",
+    "v3Price": "V3 {{sym}} Cena:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Neveljaven vnos cene"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Prenesite aplikacijo Uniswap Wallet"
+      },
+      "title": "Uniswap: kripto in NFT denarnica"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp, ki ga poganja MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay ni na voljo v nekaterih regijah. Kliknite, če želite izvedeti več."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Ustvari račun"
+    },
+    "logIn": {
+      "button": "Prijavite se"
+    },
+    "signIn": {
+      "button": "Prijavite se"
+    },
+    "signInOrConnect": {
+      "title": "Prijavite se ali povežite"
+    },
+    "signUp": {
+      "button": "Prijavite se"
+    },
+    "tabs": {
+      "createPosition": "Ustvari položaj",
+      "viewPositions": "Ogled položajev"
+    }
+  },
+  "network": {
+    "lostConnection": "Morda ste izgubili omrežno povezavo.",
+    "mightBeDown": "{{network}} morda trenutno ne deluje ali pa ste izgubili omrežno povezavo.",
+    "warning": "Omrežno opozorilo"
+  },
+  "nft": {
+    "addToBag": "Dodaj v torbo",
+    "authorsCollectionOnUni": "Zbirka NFT osebe {{name}}na Uniswap",
+    "bag": "Torba",
+    "blockedCollection": "Ta zbirka je blokirana",
+    "blockedOpenSea": "Blokirano na OpenSea",
+    "buyTransferNFTToStart": "Za začetek kupite ali prenesite NFT-je v to denarnico.",
+    "buyTransferTokensToStart": "Za začetek kupite ali prenesite žetone v to denarnico.",
+    "card": {
+      "notAvailable": "Vsebina <br /> še ni na voljo"
+    },
+    "chainSupportComingSoon": "{{chainName}} podpora kmalu",
+    "collectionOnUni": "Zbirka NFT na Uniswap",
+    "collectonOnAddress": "Zbirka NFT na Uniswap - {{address}}",
+    "complete": "Dokončano!",
+    "editListings": "Uredite sezname",
+    "event": "Dogodek",
+    "explore": "Raziščite NFT",
+    "learnWhy": "Naučite se zakaj",
+    "list": {
+      "header": {
+        "lastPrice": "Zadnji"
+      },
+      "title": "Seznam NFT-jev"
+    },
+    "listedSignificantly_one": "En NFT je naveden {{percentage}} pod najnižjo ceno zbirke. Ste prepričani, da želite nadaljevati?",
+    "listedSignificantly_other": "{{count}} NFT-ji so navedeni znatno pod najnižjo ceno zbirke. Ste prepričani, da želite nadaljevati?",
+    "listForSale": "Seznam za prodajo",
+    "lowPrice": "Nizka kotacijska cena",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} pristojbine"
+      }
+    },
+    "maxFees": "Največje pristojbine",
+    "maxRoyalties": "Največji avtorski honorar",
+    "noItems": "Ni predmetov za prikaz",
+    "noneAtAddress": "Na tem naslovu ni sredstev zbirke",
+    "noPools": "Ni še bazenov",
+    "notListed": "Ni navedeno",
+    "proceedsIfSold": "Izkupiček, če je prodan",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Že na seznamu {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} pod spodnjo ceno."
+        }
+      }
+    },
+    "refundsInEth": "Povračila za nerazpoložljive izdelke bodo izplačana v ETH",
+    "removeFromBag": "Odstranite iz vrečke",
+    "reportSpam": "Prijavi kot vsiljeno pošto",
+    "returnToExplore": "Nazaj na NFT Explore",
+    "returnToMy": "Nazaj na Moje NFT-je",
+    "setPrices": "Nastavite cene za nadaljevanje",
+    "startListing": "Začnite navajati",
+    "successListed": "Uspešno uvrščen na seznam",
+    "unavailableToList": "Ni na voljo za vnos",
+    "whyTransaction": {
+      "reason": "Za uvrstitev NFT na seznam je potrebna enkratna odobritev tržnice za vsako zbirko NFT."
+    },
+    "willAppearHere": "Tukaj bodo prikazane vaše onchain transakcije in kripto nakupi.",
+    "wishGranted": "Uniswap je izpolnil vašo željo!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Odobri zbirko",
+        "approve_other": "Odobrite zbirke",
+        "sign_one": "Seznam znakov",
+        "sign_other": "Podpišite sezname"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} maks"
+      }
+    },
+    "my": "Moji NFT-ji",
+    "noneYet": "NFT še ni",
+    "sell": "Prodaja NFT-jev"
+  },
+  "notFound": {
+    "oops": "Ups, pelji me nazaj v Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Zavrnitev odgovornosti za Združeno kraljestvo:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} skrito",
+      "unhidden": "{{assetName}} razkrito"
+    },
+    "copied": {
+      "address": "Naslov kopiran",
+      "calldata": "Podatki o klicu kopirani",
+      "contractAddress": "Naslov pogodbe je kopiran",
+      "failed": "Kopiranje v odložišče ni uspelo",
+      "image": "Slika je kopirana",
+      "nftUrl": "URL NFT je kopiran",
+      "tokenUrl": "URL žetona je kopiran",
+      "transactionId": "ID transakcije je kopiran",
+      "unitag": "Uporabniško ime je kopirano"
+    },
+    "countryChange": "Preklopljeno na {{countryName}}",
+    "network": {
+      "changed": "Preklopljeno na {{network}}"
+    },
+    "passwordChanged": "Geslo spremenjeno",
+    "restore": {
+      "success": "Denarnica obnovljena!"
+    },
+    "send": {
+      "network": "Pošiljanje dne {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Prijavljeno"
+      }
+    },
+    "swap": {
+      "network": "Menjava na {{network}}",
+      "pending": {
+        "swap": "Menjava v teku",
+        "unwrap": "Razvijanje čaka",
+        "wrap": "Zaviti v teku"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Preklicano {{currencySymbol}} odobritev.",
+        "fail": "{{currencySymbol}} ni bilo mogoče odobriti za uporabo z {{address}}.",
+        "success": "Odobreno {{currencySymbol}} za uporabo z {{address}}."
+      },
+      "pending": "Transakcija v teku",
+      "swap": {
+        "canceled": "Preklicano {{inputCurrencySymbol}}-{{outputCurrencySymbol}} zamenjava.",
+        "expired": "{{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}} zamenjava je potekla.",
+        "fail": "Zamenjava {{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}}ni uspela.",
+        "success": "Zamenjal {{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Preklicano {{tokenNameOrAddress}} pošiljanje",
+        "fail": "{{tokenNameOrAddress}} ni bilo mogoče poslati {{walletNameOrAddress}}",
+        "received": "Prejeto {{tokenNameOrAddress}} od {{walletNameOrAddress}}",
+        "success": "Poslano {{tokenNameOrAddress}} na {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Transakcija z {{addressOrEnsName}}ni uspela",
+          "short": "Transakcija ni uspela"
+        },
+        "success": {
+          "full": "Transakcija z {{addressOrEnsName}}",
+          "short": "Transakcija potrjena"
+        }
+      },
+      "unwrap": {
+        "canceled": "Preklicano {{inputCurrencySymbol}} odvijanje.",
+        "fail": "Odvijanje {{inputCurrencyAmountWithSymbol}}ni uspelo.",
+        "success": "Odpakirano {{inputCurrencyAmountWithSymbol}} in prejeto {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Preklican {{inputCurrencySymbol}} ovoj.",
+        "fail": "Previjanje {{inputCurrencyAmountWithSymbol}}ni uspelo.",
+        "success": "Zavil {{inputCurrencyAmountWithSymbol}} in prejel {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Pošiljanje čaka"
+    },
+    "walletConnect": {
+      "confirmed": "Transakcija potrjena z {{dappName}}",
+      "connected": "Povezan",
+      "disconnected": "Prekinjena povezava",
+      "failed": "Transakcija ni uspela z {{dappName}}",
+      "networkChanged": {
+        "full": "Preklopljeno na {{networkName}}",
+        "short": "Preklopna omrežja"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Nadaljujte z razširitvijo Uniswap",
+      "title": "Uspeh!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Predlagamo, da to napišete na list papirja in shranite na varno mesto, na primer v sef.",
+        "displayWarning": {
+          "description": "Pred nadaljevanjem natančno preberite naslednje.",
+          "note": {
+            "access": "Ta fraza za obnovitev vam omogoča popoln dostop do vaše denarnice in sredstev",
+            "secure": "Oglejte si to zasebno in ne delite z nikomer",
+            "storage": "Zapišite in shranite na varno mesto"
+          },
+          "title": "Nekaj pomembnih stvari, ki jih morate vedeti"
+        },
+        "error": "Neveljavna ali napačno črkovana beseda",
+        "placeholder": "Skrita Beseda",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} končano",
+        "selectedWordPlaceholder": "Izberite besedo",
+        "subtitle_one": "Katera je {{count}}prva beseda v vašem obnovitvenem stavku?",
+        "subtitle_two": "Katera je {{count}}druga beseda v vašem obnovitvenem stavku?",
+        "subtitle_few": "Katera je {{count}}tretja beseda v vaši frazi za obnovitev?",
+        "subtitle_other": "Katera je {{count}}beseda v vašem obnovitvenem stavku?",
+        "title": "Prepričajmo se, da ste ga pravilno posneli"
+      },
+      "option": {
+        "badge": {
+          "quick": "hitro"
+        },
+        "cloud": {
+          "description": "Varnostno kopirajte svojo denarnico prek {{cloudProviderName}}, zaščiteno z obnovitvenim geslom.",
+          "title": "Nastavite geslo za obnovitev"
+        },
+        "manual": {
+          "description": "Zapišite svojih 12 skrivnih besed na kos papirja in ga shranite na varno mesto.",
+          "title": "Zapišite stavek za obnovitev"
+        }
+      },
+      "reminder": {
+        "description": "Varnostno kopiranje vaše denarnice zagotavlja, da lahko vedno obnovite svoja sredstva, če kdaj izgubite telefon ali kupite novo napravo.",
+        "title": "Čas je, da varnostno kopirate svojo denarnico",
+        "warning": {
+          "description": "Če ne nastavite rezervnega načina, ne boste mogli obnoviti denarnice, če izgubite telefon, izbrišete aplikacijo ali kupite novo napravo.",
+          "title": "Lahko izgubite svoja sredstva"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Če ga kdaj pozabite, ga namesto vas ne moremo ponastaviti. Zapišite ga na varno mesto ali varno shranite v upravitelju gesel.",
+          "disclaimer": "Razumem, da Uniswap Labs ne more ponastaviti mojega obnovitvenega gesla.",
+          "title": "Pomembno je, da shranite to geslo"
+        },
+        "manual": {
+          "description": "Prepričajte se, da ste pravilno zapisali svoj obnovitveni stavek in da imate varno mesto za shranjevanje.",
+          "disclaimer": "Razumem, da Uniswap Labs ne more obnoviti moje denarnice, če jo izgubim.",
+          "title": "Preden končaš ..."
+        }
+      },
+      "subtitle": "Tako boste obnovili svojo denarnico, če izbrišete aplikacijo ali izgubite napravo.",
+      "title": {
+        "existing": "Varnostno kopirajte svojo denarnico",
+        "new": "Izberite način varnostnega kopiranja"
+      },
+      "view": {
+        "disclaimer": "Razumem, da mi Uniswap Labs ne more pomagati pri obnovitvi, če izgubim frazo za obnovitev.",
+        "subtitle": {
+          "message1": "Pred nadaljevanjem natančno preberite naslednje",
+          "message2": "Za obnovitev denarnice boste morali vnesti vseh 12 teh skrivnih besed."
+        },
+        "title": "Zapišite svoj stavek za obnovitev",
+        "warning": {
+          "message1": "Ta fraza za obnovitev vam omogoča popoln dostop do vaše denarnice in sredstev",
+          "message2": "Zapišite in shranite na varno mesto",
+          "message3": "Oglejte si to zasebno in <u>tega ne delite z nikomer</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "To boste morali vnesti za povrnitev sredstev. Če ga kdaj pozabite, vam ga ne moremo povrniti.",
+        "title": "Potrdite obnovitveno geslo"
+      },
+      "createPassword": {
+        "description": "To boste morali vnesti za povrnitev sredstev. Če ga kdaj pozabite, vam ga ne moremo povrniti.",
+        "title": "Ustvarite obnovitveno geslo"
+      }
+    },
+    "complete": {
+      "button": "Odprite razširitev Uniswap",
+      "description": "Vaša denarnica je pripravljena za pošiljanje in prejemanje kriptovalut. Odprite razširitev Uniswap s spodnjo bližnjico.",
+      "go_to_uniswap": "Pojdite na spletno aplikacijo Uniswap",
+      "pin": {
+        "description": "Kliknite ikono žebljička, da dodate razširitev Uniswap v orodno vrstico.",
+        "title": "Pin Uniswap razširitev"
+      },
+      "title": "Vse je pripravljeno"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "To boste potrebovali za odklepanje denarnice in dostop do fraze za obnovitev",
+        "title": {
+          "default": "Ustvari geslo",
+          "reset": "Ponastavi geslo"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Razširitev Uniswap je združljiva samo s Chromom na namizju.",
+          "title": "Chrome v mobilnih napravah (še) ni podprt"
+        },
+        "description": "Razširitev Uniswap je trenutno združljiva samo s Chromom.",
+        "title": "Ta brskalnik (še) ni podprt"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Nastavite obnovitveni načrt, če kdaj izgubite telefon ali kupite novega.",
+          "title": "Varnostno kopirajte svojo denarnico"
+        },
+        "fund": {
+          "description": "Napolnite svojo denarnico z nakupom kriptovalut ali prenosom z drugega računa.",
+          "title": "Pridobite svoj prvi žeton"
+        },
+        "label": {
+          "required": "Obvezno",
+          "swipe": "Povlecite"
+        },
+        "pushNotifications": {
+          "description": "Prejemajte opozorila o cenah vaših najljubših žetonov, tržnih trendih in še več.",
+          "title": "Bodite obveščeni"
+        },
+        "unitag": {
+          "description": "Zgradite prilagojen profil web3 in preprosto delite svoj naslov s prijatelji.",
+          "title": "Zahtevajte svoje {{unitagDomain}} uporabniško ime"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 beseda je neveljavna ali napačno črkovana",
+        "invalidWords_other": "{{count}} besede so neveljavne ali napačno črkovane"
+      },
+      "method": {
+        "import": {
+          "message": "Vnesite svojo frazo za obnovitev iz druge kripto denarnice.",
+          "title": "Uvozite denarnico"
+        },
+        "passkey": {
+          "message": "Sinhronizirajte svojo denarnico Uniswap z obstoječim geslom.",
+          "title": "Prijavite se z geslom"
+        },
+        "restore": {
+          "message": {
+            "android": "Dodajte denarnice, ki ste jih varnostno kopirali v svoj račun Google Drive.",
+            "ios": "Dodajte denarnice, ki ste jih varnostno kopirali, v svoj račun iCloud."
+          },
+          "title": "Obnovite denarnico"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Ne želite ničesar od naštetega?"
+        },
+        "subtitle": "Izberite, v katero denarnico se želite znova prijaviti.",
+        "title": "Dobrodošli nazaj v Uniswap",
+        "wallet": {
+          "button": "Oglejte si frazo za obnovitev",
+          "count_one": "+1 druga denarnica",
+          "count_other": "+{{count}} druge denarnice"
+        },
+        "warning": {
+          "caption": "Prepričajte se, da ste varnostno kopirali vse druge denarnice. Če jih boste kdaj želeli obnoviti, boste potrebovali njihove obnovitvene stavke ali ustrezne {{cloudProvider}} varnostne kopije.",
+          "title": "Ali si prepričan?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Uvozite denarnico iz mobilne aplikacije prek kode QR.",
+          "title": "Uporabite Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "Sinhronizirajte svojo denarnico Uniswap z obstoječim geslom.",
+          "title": "Prijavite se z geslom"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Vnesite svojo frazo za obnovitev iz druge kripto denarnice.",
+          "title": "Uvozite denarnico"
+        },
+        "title": "Prijavite se ali uvozite denarnico"
+      },
+      "title": "Izberite, kako želite dodati svojo denarnico"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Moj stavek za obnovitev je 12 besed",
+        "importing": "Uvažanje ...",
+        "longPhrase": "Moj stavek za obnovitev je daljši"
+      },
+      "error": {
+        "invalidPhrase": "Besedna zveza, ki ste jo vnesli, ni veljavna"
+      },
+      "subtitle": "Vnesite ali prilepite 12-besedno besedno zvezo za obnovitev",
+      "title": "Vnesite svojo frazo za obnovitev"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Nadaljujte v oknu za varno prijavo."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Denarnico že imam",
+        "signInOrImport": "Prijavite se ali uvozite"
+      },
+      "mobileScan": {
+        "button": "Za uvoz skenirajte kodo QR",
+        "title": "Ali imate aplikacijo Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Dodajte obstoječo denarnico",
+        "create": "Ustvarite denarnico",
+        "createAccount": "Ustvari račun"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "To je javno ime, ki ga lahko vsakdo uporabi za pošiljanje kripto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Končaj"
+        },
+        "subtitle": "Ta vzdevek je viden samo vam",
+        "title": "Poimenujte svojo denarnico"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Če želite prejemati obvestila, vklopite obvestila za Uniswap Wallet v nastavitvah naprave.",
+        "title": "Dovoljenje za obvestila"
+      },
+      "subtitle": "Bodite obveščeni o statusih transakcij in večjih spremembah cen za priljubljene žetone.",
+      "title": "Vklopi obvestila"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Vaš račun je zaščiten z vašo varno shrambo gesel."
+      },
+      "biometric": {
+        "scan": "Telefon, tablica ali brskalnik – samo skenirajte svoje biometrične podatke in prijavljeni boste."
+      },
+      "create": "Ustvarite svoje geslo",
+      "use": {
+        "recovery": {
+          "phrase": "Namesto tega uporabite izraz za obnovitev"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Potrdimo, da ste razumeli prav. Če izgubite ali to nepravilno zapišete, ne boste mogli povrniti svojih sredstev.",
+          "default": "Če izgubite ali to nepravilno zapišete, ne boste mogli povrniti svojih sredstev."
+        },
+        "title": "Potrdimo, da ste razumeli prav"
+      },
+      "view": {
+        "subtitle": "Za obnovitev denarnice boste morali vnesti vseh 12 teh skrivnih besed.",
+        "title": {
+          "hasPassword": "Če kdaj pozabite geslo ..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "pripravljen sem",
+          "message": "Vaša obnovitvena fraza je tisto, kar vam (in vsem, ki jo imajo) omogoča dostop do vaših sredstev. Bodite prepričani, da to zadržite zase.",
+          "title": "Ta korak naredite na zasebnem mestu"
+        },
+        "screenshot": {
+          "message": "Vsakdo, ki dobi dostop do vaših fotografij, lahko dostopa do vaše denarnice. Priporočamo, da svoje besede raje zapišete.",
+          "title": "Posnetki zaslona niso varni"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Več o varnosti denarnice",
+        "subtitle": "Za odklepanje denarnice uporabite novo geslo.",
+        "title": "Resetiranje gesla"
+      }
+    },
+    "scan": {
+      "error": "Pri nalaganju kode QR je prišlo do napake",
+      "otp": {
+        "error": "Koda, ki ste jo poslali, ni pravilna ali pa je pri pošiljanju prišlo do napake. Prosim poskusite ponovno.",
+        "failed": "Neuspeli poskusi: {{number}}",
+        "subtitle": "Preverite svojo mobilno aplikacijo Uniswap za 6-mestno kodo",
+        "title": "Vnesite enkratno kodo"
+      },
+      "subtitle": "Skenirajte kodo QR z mobilno aplikacijo Uniswap, da začnete uvažati svojo denarnico.",
+      "title": "Uvozite denarnico iz aplikacije",
+      "troubleScanning": {
+        "message": "Uvoz prek obnovitvene fraze",
+        "title": "Imate težave pri skeniranju?"
+      },
+      "wifi": "Telefon povežite z istim omrežjem WiFi kot računalnik."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Če želite uporabljati biometrijo, jo najprej nastavite v nastavitvah",
+            "ios": "Za uporabo {{biometricsMethod}}dovolite dostop v sistemskih nastavitvah"
+          },
+          "title": {
+            "android": "Biometrija je onemogočena",
+            "ios": "{{biometricsMethod}} je onemogočen"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Omogoči biometrijo",
+          "ios": "Omogoči {{biometricsMethod}}"
+        },
+        "setup": "Nastaviti"
+      },
+      "subtitle": {
+        "android": "Dodajte dodatno raven varnosti tako, da za pošiljanje transakcij zahtevate biometrijo.",
+        "ios": "Dodajte dodatno raven varnosti tako, da za pošiljanje transakcij zahtevate {{biometricsMethod}} ."
+      },
+      "title": "Zaščitite svojo denarnico"
+    },
+    "selectWallets": {
+      "error": "Naslovov ni bilo mogoče naložiti",
+      "title": {
+        "default": "Izberite denarnice za uvoz",
+        "error": "Napaka pri uvozu denarnic"
+      }
+    },
+    "termsOfService": "Z nadaljevanjem se strinjam s<highlightTerms> pogoji storitve </highlightTerms>in soglašam s<highlightPrivacy> pravilnikom o zasebnosti</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Kaj je stavek za obnovitev?"
+      }
+    },
+    "wallet": {
+      "continue": "Poskrbimo za varno",
+      "defaultName": "Denarnica {{number}}",
+      "description": {
+        "full": "To je vaš osebni prostor za žetone, NFT in vse vaše posle. Dokončajte nastavitev, da bodo vaša sredstva varna."
+      },
+      "title": "Dobrodošli v vaši novi denarnici"
+    },
+    "welcome": {
+      "subtitle": "Končajmo nastavitev vaše denarnice.",
+      "title": "Dobrodošli!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Še vedno lahko zamenjate in zagotovite likvidnost v tej verigi brez težav."
+    },
+    "title": "{{versionName}} bo kmalu nazaj"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Imate težave z uporabo ali dostopom do vašega gesla? Za pomoč obiščite Uniswap Support.",
+        "title": "Pomoč pri geslih"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Dovoljenje2 omogoča skupno rabo in upravljanje odobritev žetonov v različnih aplikacijah."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktivni obseg kljukic",
+    "addAs": "Dodaj kot {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Letno na podlagi enodnevnih pristojbin"
+    },
+    "aprText": "APR bazena",
+    "balances": "Bilanca bazena",
+    "closedCTA": {
+      "description": "Ogledate si jih lahko s filtrom na vrhu strani.",
+      "title": "Iščete svoja zaprta delovna mesta?"
+    },
+    "collectAs": "Zberite kot {{nativeWrappedSymbol}}",
+    "collectFees": "Zbirajte pristojbine",
+    "create": {
+      "info": "Vaše izbire bodo ustvarile nov likvidnostni sklad, kar lahko povzroči nižjo začetno likvidnost in povečano volatilnost. Razmislite o dodajanju k obstoječemu bazenu, da zmanjšate ta tveganja."
+    },
+    "createdPosition": {
+      "cancelled": "Ustvarjanje položaja je preklicano",
+      "failed": "Ustvarjanje položaja ni uspelo"
+    },
+    "details": "Podrobnosti o bazenu",
+    "earnings": {
+      "empty": "Nimate še nobenega zaslužka"
+    },
+    "explorers": "Raziskovalci",
+    "import": {
+      "link": {
+        "description": "Nekateri položaji v2 niso prikazani samodejno."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Nekateri položaji v2 niso prikazani samodejno. Izberite par žetonov za uvoz in ogled svojih položajev."
+          }
+        }
+      },
+      "success": "Bazen uvožen"
+    },
+    "incentives": {
+      "administeredRewards": "Nagrade za zagotavljanje likvidnosti upravlja fundacija Uniswap.",
+      "collect": "Zberite",
+      "collectedRewards": "Zbrane nagrade",
+      "collectFailed": "Zbiranje ni uspelo, poskusite znova.",
+      "collectFailedNoRetry": "Zbiranje nagrad ni uspelo.",
+      "collectingRewards": "Zbiranje nagrad",
+      "collectRewards": "Zbirajte nagrade",
+      "collectRewardsCancelled": "Zbiranje nagrad je preklicano",
+      "eligible": "Primerni skladi imajo žetonske nagrade, tako da lahko zaslužite več",
+      "rewardsEarned": "Zaslužene nagrade",
+      "uni": {
+        "description": "Prislužite si nagrade UNI z zagotavljanjem likvidnosti primernim združenjem",
+        "findMore": "Poiščite več skupin z nagradami UNI"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Nagrad ni bilo mogoče pridobiti. To je lahko posledica težave z omrežjem. Poskusite znova naložiti stran."
+        }
+      }
+    },
+    "info": "Informacije o bazenu",
+    "limitFluctuation": {
+      "warning": "Upoštevajte, da se lahko izvajanje omejitev razlikuje glede na nihanja trga v realnem času in prezasedenost omrežja Ethereum. Omejitve se morda ne bodo izvršile točno takrat, ko žetoni dosežejo določeno ceno."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Pri pridobivanju podatkov, potrebnih za vašo transakcijo, je prišlo do napake."
+        }
+      },
+      "outOfSync": {
+        "message": "Cene v tem bazenu se razlikujejo od tržnih cen izbranih žetonov. Ustrezno prilagodite svoj cenovni razpon ali počakajte, da se sklad ponovno uravnoteži, da se izognete izgubam."
+      }
+    },
+    "maxPrice": "Max cena",
+    "migrateLiquidity": "Preseli likvidnost",
+    "migrateLiquidityDisabledTooltip": "Ta veriga ne podpira skladov likvidnosti v4.",
+    "migrateToV4": "Preselite na v4",
+    "minPrice": "Najmanjša cena",
+    "newPosition": {
+      "plus": "+ Nov položaj",
+      "title": "Nov položaj"
+    },
+    "newSpecificPosition": "Nov {{symbol}} položaj",
+    "openPosition": {
+      "cta": "Dodajte likvidnost v skupino in si oglejte svoje pozicije tukaj"
+    },
+    "openToStart": "Za začetek odprite nov položaj ali ustvarite skupino.",
+    "percent": "{{pct}}% bazena",
+    "pooled": "Združeno {{sym}}:",
+    "position": "Položaj",
+    "positions": {
+      "title": "Vaši položaji",
+      "transaction": {
+        "settings": "Nastavitve transakcije"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Vrednost v USD trenutno ni na voljo za ta položaj. Oglejte si podrobnosti o položaju za zneske položenih žetonov."
+      }
+    },
+    "priceRange": "Cenovni razpon",
+    "refresh": {
+      "prices": "Osveži cene"
+    },
+    "removeLiquidity": "Odstranite likvidnost",
+    "rewardAPR": {
+      "percent": "{{pct}} nagrada APR"
+    },
+    "rewards": "Nagrade",
+    "rewardsPool": {
+      "label": "Žetoni združenja v skladu nagrad:"
+    },
+    "selectPair": "Izberite par",
+    "share": {
+      "label": "Vaš delež v bazenu:"
+    },
+    "specificPosition": "{{symbol}} položaj",
+    "tokenPair": "Par žetonov",
+    "top": {
+      "tvl": "Top bazeni TVL"
+    },
+    "totalAPR": "Skupna APR",
+    "totalTokens": "Vaši skupni žetoni skupine:",
+    "uncollectedFees": "Nepobrane pristojbine",
+    "v2": "bazeni v2",
+    "v3": "v3 bazeni",
+    "viewPools": "Pogled na bazene",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Umakni kot {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 bazeni, ki ustrezajo vaši izbiri para."
+      },
+      "notFound": {
+        "description": "Ni ujemajočih se bazenov v2. Še enkrat preverite izbiro žetona in se prepričajte, da ste povezani s pravo denarnico."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Raziščite bazene"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Kavlji so napredna funkcija, ki bazenom omogoča interakcijo s pametnimi pogodbami in odklepanje različnih zmogljivosti. Pri dodajanju kavljev bodite previdni, saj so nekateri lahko zlonamerni ali povzročijo neželene posledice."
+    },
+    "addingHook": {
+      "disclaimer": "Dodajanje kavljev ima lahko neželene posledice. Raziščite in nadaljujte na lastno odgovornost.",
+      "hideProperties": "Skrij lastnosti",
+      "invalidAddress": "Vnesite veljaven naslov kljuke",
+      "viewProperties": "Ogled lastnosti"
+    },
+    "create": {
+      "invalidPrice": "Neveljavna cena",
+      "invalidRange": "Neveljaven obseg",
+      "modal": {
+        "header": "Ustvarjanje položaja"
+      }
+    },
+    "currentValue": "Vrednost trenutne pozicije",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "Začetna vnesena cena je {{value}}% nižja od tržne cene in lahko povzroči izgubo sredstev. Ali želite nadaljevati?",
+            "more": "Začetna vnesena cena je {{value}}% višja od tržne cene in lahko povzroči izgubo sredstev. Ali želite nadaljevati?"
+          },
+          "title": "Velika razlika v ceni glede na trg"
+        }
+      },
+      "description": "Določite simbolične zneske za svoj likvidnostni prispevek."
+    },
+    "depositedCurrency": "Deponirano {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Ustvari položaj v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "Razumem morebitna tveganja, povezana z dodajanjem tega trnka.",
+      "donateWarning": "Ta zastavica lahko povzroči spremembe zasluženih pristojbin.",
+      "liquidityWarning": "Ta zastavica lahko povzroči, da združenje blokira dodajanje nove likvidnosti. Vaša transakcija se lahko povrne.",
+      "removeWarning": "Lahko povzroči zaklepanje vaših sredstev ali blokiranje pobiranja pristojbin.",
+      "swapWarning": "Ta zastavica lahko ponudnikom likvidnosti omogoči, da lažje izkoristijo pravočasno likvidnost, kar lahko povzroči nižje zaslužene provizije.",
+      "warningHeader": "Pomembno: ugotovljena tveganja za kavelj",
+      "warningInfo": "Prepoznali smo morebitna tveganja s to kljuko. Prepričajte se, da razumete, kako ta kavelj deluje, preden se odločite nadaljevati."
+    },
+    "increase": {
+      "fot": "Dodajanje likvidnosti za {{token}} in druge žetone »Provizija ob prenosu« ni podprto."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% manj od tržne cene",
+        "positive": "{{ value }}% več od tržne cene"
+      },
+      "info": "Ko ustvarjate nov sklad, morate nastaviti začetni menjalni tečaj za oba žetona. Ta tečaj bo odražal začetno tržno ceno.",
+      "set": "Določite začetno ceno",
+      "useMarketPrice": "Uporabite tržno ceno"
+    },
+    "migrate": {
+      "liquidity": "Pri selitvi pozicij ne morete spremeniti svojega para žetonov, lahko pa dodate kavelj za izboljšanje funkcionalnosti.",
+      "v4unsupportedChain": "Ta veriga ni podprta za bazene v4."
+    },
+    "new": {
+      "protocol": "Nov {{protocol}} položaj"
+    },
+    "notFound": {
+      "description": "Podrobnosti o tem položaju niso na voljo. Preverite, ali ste povezani s pravo denarnico."
+    },
+    "protocol": "{{protocol}} položaj",
+    "provide": {
+      "liquidity": "Izberite žetone, za katere želite zagotoviti likvidnost. Žetone lahko izberete v vseh podprtih omrežjih.",
+      "liquidityDescription": {
+        "creatingPool": "Nastavitev celotnega razpona likvidnosti pri ustvarjanju skupine zagotavlja stalno udeležbo na trgu pri vseh možnih cenah, kar ponuja preprostost, vendar s potencialom večje trajne izgube.",
+        "custom": "Razpon po meri vam omogoča, da koncentrirate svojo likvidnost znotraj določenih cenovnih meja, s čimer izboljšate kapitalsko učinkovitost in zaslužek od provizij, vendar zahtevate bolj aktivno upravljanje."
+      },
+      "outOfRange": {
+        "closePosition": "Zapri položaj",
+        "description": "Razpona tega položaja med selitvijo ni mogoče prilagoditi. Če želite nastaviti nov obseg, zaprite ta položaj in odprite nov položaj v4.",
+        "title": "Premikate položaj izven dosega"
+      }
+    },
+    "removeHook": "Odstranite kavelj",
+    "resetDescription": "Vaši izbori žetonov, cene in obsega bodo ponastavljeni.",
+    "setRange": {
+      "inputsBelow": "Za nastavitev obsega uporabite spodnje vnose."
+    },
+    "step": {
+      "deposit": "Vnesite zneske depozita",
+      "price": "Določite začetno ceno in zneske depozita",
+      "range": "Nastavite cenovni razpon in zneske depozitov",
+      "select": "Izberite par žetonov in provizije"
+    },
+    "value": "Vrednost položaja",
+    "valueUnavailable": "Vrednost v USD trenutno ni na voljo za to pozicijo. Oglejte si podrobnosti položaja za zneske položenih žetonov.",
+    "wrapped": {
+      "unwrap": "Odvij {{wrappedToken}}",
+      "warning": {
+        "info": "Odvijte svoj {{wrappedToken}} in položite {{nativeToken}} , da zagotovite stroškovno učinkovitejšo likvidnost."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Povežite svojo denarnico, da si ogledate svoje trenutne položaje."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Aplikacija beleži anonimno statistiko uporabe, da se sčasoma izboljša.",
+    "autoRouter": "Aplikacija pridobi optimalno trgovinsko pot s strežnika Uniswap Labs.",
+    "infura": "Aplikacija pridobi podatke v verigi in ustvari pogodbene klice z API-jem Infura.",
+    "thirdPartyApis": "Ta aplikacija uporablja naslednje API-je tretjih oseb:",
+    "trm": "Aplikacija varno zbira vaš naslov denarnice in ga deli s TRM Labs Inc. zaradi tveganja in skladnosti.",
+    "uniswaptos": "Pogoji storitve Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "Povezana je 1 aplikacija",
+      "connections_other": "{{count}} povezanih aplikacij"
+    },
+    "error": {
+      "camera": {
+        "message": "Če želite optično prebrati kodo, omogočite dostop do kamere v sistemskih nastavitvah",
+        "title": "Kamera je onemogočena"
+      },
+      "none": "Ni kode QR"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Skenirajte kodo QR",
+        "show": "Pokaži mojo kodo QR"
+      },
+      "error": {
+        "message": "Prepričajte se, da skenirate veljavno kodo QR naslova Ethereum, preden poskusite znova.",
+        "title": "Neveljavna koda QR"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Ni sporočila."
+      },
+      "method": {
+        "default": "Zahteva od {{dappNameOrUrl}}",
+        "signature": "Zahteva za podpis od {{dappNameOrUrl}}",
+        "transaction": "Zahteva za transakcijo od {{dappNameOrUrl}}"
+      },
+      "withAmount": "Dovoliti {{dappName}} uporabo do<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Dovoliti {{dappName}} uporabo vašega {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Povezovanje ...",
+      "loading": "Nalaganje..."
+    },
+    "title": "Skenirajte kodo QR",
+    "wallet": {
+      "networks": "Podprta omrežja",
+      "title": "Žetone in NFT-je lahko pošiljate in prejemate v vseh naših {{numOfNetworks}} podprtih omrežjih."
+    }
+  },
+  "range": {
+    "outOfView": "Razpon izven vidnega polja"
+  },
+  "removeLiquidity": {
+    "pooled": "Združeno {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "To omogoča dostop protokola Uniswap do vašega žetona za trgovanje."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Ko je na voljo, združuje vire likvidnosti za boljše cene in zamenjave brez plina.",
+    "cheapest": {
+      "v4": "Odjemalec Uniswap izbere optimalno možnost trgovanja ob upoštevanju cene in stroškov omrežja."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "potekel",
+      "subtitle": "Vnesite to kodo v razširitev Uniswap. Vaš obnovitveni stavek bo varno šifriran in prenesen.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Nova koda čez {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Nova koda čez {{minutes}}m {{seconds}}s",
+          "seconds": "Nova koda čez {{seconds}}s"
+        }
+      },
+      "title": "Enkratna koda Uniswap"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Da, nadaljuj"
+      },
+      "label": {
+        "browser": "Brskalnik",
+        "device": "Naprava"
+      },
+      "subtitle": "Nadaljujte samo, če skenirate kodo QR iz razširitve Uniswap na zaupanja vredni napravi.",
+      "title": "Ali poskušate uvoziti svojo denarnico?",
+      "warning": "Pazite se spletnih mest in aplikacij, ki se predstavljajo kot Uniswap. V nasprotnem primeru je lahko vaša denarnica ogrožena."
+    },
+    "error": {
+      "encryption": "Priprava semenske fraze ni uspela.",
+      "noCode": "Prejeto ni bilo enkratno geslo. Prosim poskusite ponovno.",
+      "timeout": {
+        "message": "Ponovno skenirajte kodo QR na razširitvi Uniswap, da nadaljujete s sinhronizacijo denarnice.",
+        "title": "Vaša povezava je potekla"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Če želite optično prebrati to kodo QR, mora biti vaš telefon povezan z istim omrežjem WiFi kot vaš računalnik, vsa omrežja VPN pa morajo biti začasno izklopljena.",
+        "title": "Preklopite omrežje WiFi"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Kmalu na voljo: iščite in raziskujte žetone v verigi {{chainName}}",
+    "input": {
+      "placeholder": "Iskanje žetonov in bazenov"
+    },
+    "results": {
+      "count_one": "1 element",
+      "count_other": "{{count}} predmetov"
+    },
+    "ukDisclaimer": "Zavrnitev odgovornosti za prebivalce Združenega kraljestva"
+  },
+  "send": {
+    "button": {
+      "review": "Pregled prenosa"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Stroški omrežja"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Stanje: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Izberite prejemnika",
+      "input": {
+        "placeholder": "Iskanje ENS ali naslov"
+      },
+      "previous_one": "1 prejšnji prenos",
+      "previous_other": "{{count}} prejšnji prenosi",
+      "results": {
+        "empty": "Ni zadetkov",
+        "error": "Naslov, ki ste ga vnesli, ne obstaja ali je napačno črkovan."
+      },
+      "section": {
+        "favorite": "Najljubše denarnice",
+        "recent": "Nedavno",
+        "search": "Rezultati iskanja",
+        "viewOnly": "Denarnice samo za ogled",
+        "yours": "Vaše denarnice"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Sredstva pošljite v to denarnico le, če imate stavek za obnovitev ali poznate lastnika denarnice.",
+          "title": "To imate kot denarnico samo za ogled"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Ko pošljete žetone na naslov denarnice, se bodo prikazali tukaj",
+          "title": "Nobena denarnica ni shranjena"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Ti pošiljaš"
+      },
+      "summary": {
+        "button": {
+          "title": "Potrdi pošiljanje"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Naslov, ki ste ga vnesli, ne obstaja ali je napačno črkovan.",
+        "title": "Ni zadetkov"
+      },
+      "placeholder": "Iskanje ENS ali naslov"
+    },
+    "title": "Pošlji",
+    "warning": {
+      "blocked": {
+        "default": "Ta denarnica je blokirana",
+        "modal": {
+          "message": "Ta naslov je blokiran v denarnici Uniswap, ker je povezan z eno ali več blokiranimi dejavnostmi. Če menite, da je to napaka, pišite na compliance@uniswap.org.",
+          "title": "Blokiran naslov"
+        },
+        "recipient": "Denarnica prejemnika je blokirana"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Poskušate poslati sredstva na žetonski naslov. To lahko povzroči trajno izgubo sredstev.",
+          "heading": "Zaznan naslov žetona"
+        },
+        "message": "Poskušate poslati sredstva na žetonski naslov. Pošiljanje kripto na to vrsto naslova lahko povzroči trajno izgubo sredstev.",
+        "title": "To je žetonski naslov"
+      },
+      "insufficientFunds": {
+        "message": "Vaše {{currencySymbol}} stanje se je zmanjšalo, odkar ste vnesli znesek, ki ga želite poslati",
+        "title": "Ni dovolj {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Ni dovolj <highlight>{{currencySymbol}} na {{networkName}}</highlight> za pošiljanje",
+          "withoutNetwork": "Ni dovolj <highlight>{{currencySymbol}}</highlight> za pošiljanje"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "v redu",
+            "cancel": "Prekliči",
+            "confirm": "Potrdi"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Uporabniško ime",
+          "walletAddress": "Naslov denarnice"
+        },
+        "message": "S tem naslovom še niste opravili transakcije. Pred nadaljevanjem potrdite, da je naslov pravilen.",
+        "title": "Nov naslov"
+      },
+      "self": {
+        "message": "Poskušate poslati sredstva v svojo trenutno denarnico. Pošiljanje kripto na ta naslov bo povzročilo nepotrebne stroške omrežja.",
+        "title": "To je vaša trenutna denarnica"
+      },
+      "smartContract": {
+        "message": "Sredstva boste poslali na naslov pametne pogodbe. Prepričajte se, da je to pravi naslov in da lahko prejme žetone. V nasprotnem primeru lahko to povzroči trajno izgubo sredstev.",
+        "title": "To je naslov pametne pogodbe"
+      },
+      "viewOnly": {
+        "message": "Za pošiljanje sredstev morate to denarnico uvoziti prek obnovitvene fraze.",
+        "title": "Ta denarnica je samo za ogled"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Nedavne"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Pregled pošlji"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Pokaži obnovitveni stavek"
+      },
+      "action": {
+        "hide": "Skrij frazo za obnovitev"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Razumem, da mi Uniswap Labs ne more pomagati obnoviti denarnice, če tega ne storim.",
+          "title": "Shranil sem obnovitveni stavek"
+        },
+        "initial": {
+          "subtitle": "Prepričajte se, da ste shranili stavek za obnovitev. V nasprotnem primeru boste izgubili dostop do svojih denarnic",
+          "title": "Preden nadaljujete"
+        },
+        "password": {
+          "error": "Napačno geslo. Poskusi ponovno"
+        },
+        "subtitle": "Za potrditev vnesite svoje geslo",
+        "title": "Odstranjujete svoj obnovitveni stavek"
+      },
+      "title": "Vaš stavek za obnovitev",
+      "view": {
+        "warning": {
+          "message1": "Vsakdo, ki pozna vašo frazo za obnovitev, lahko dostopa do vaše denarnice in sredstev",
+          "message2": "Oglejte si to zasebno",
+          "message3": "Ne delite z nikomer",
+          "message4": "Nikoli ga ne vnesite na nobeno spletno mesto ali aplikacijo",
+          "title": "Preden nadaljujete"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Vsakdo, ki pozna vašo frazo za obnovitev, lahko dostopa do vaše denarnice in sredstev.",
+          "title": "Oglejte si to na zasebnem mestu"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Omogoči v nastavitvah",
+      "feedback": "Pošlji povratno informacijo",
+      "help": "Poišči pomoč",
+      "lock": "Zakleni denarnico",
+      "privacy": "Politika zasebnosti",
+      "terms": "Pogoji storitve"
+    },
+    "footer": "Narejeno z ljubeznijo, \nekipa Uniswap 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Stanja pod 1 USD bodo skrita v vašem portfelju."
+    },
+    "maxSlippage": "Maks. zdrs",
+    "section": {
+      "about": "O tem",
+      "preferences": "Nastavitve",
+      "privacyAndSecurity": "Zasebnost in varnost",
+      "support": "Podpora",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} druge denarnice"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Avto",
+          "dark": {
+            "subtitle": "Vedno uporabite temno temo.",
+            "title": "Temno"
+          },
+          "device": {
+            "subtitle": "Prilagodi se nastavitvam vaše naprave.",
+            "title": "Avto"
+          },
+          "light": {
+            "subtitle": "Vedno uporabljajte svetlo temo.",
+            "title": "Svetloba"
+          }
+        },
+        "title": "Tema"
+      },
+      "backup": {
+        "create": {
+          "description": "Če nastavite geslo, boste šifrirali varnostno kopijo obnovitvene fraze in dodali dodatno raven zaščite, če bo vaš {{cloudProviderName}} račun kdaj ogrožen.",
+          "title": "Varnostno kopiraj na {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Ker si te denarnice delijo stavek za obnovitev, bodo izbrisane tudi varnostne kopije za te denarnice spodaj",
+            "title": "Ali si prepričan?"
+          },
+          "warning": "Če izbrišete varnostno kopijo {{cloudProviderName}} , boste denarnico lahko obnovili le z ročno varnostno kopijo obnovitvene fraze. Uniswap Labs ne more obnoviti vaših sredstev, če izgubite obnovitveno frazo."
+        },
+        "error": {
+          "message": {
+            "full": "Ni mogoče varnostno kopirati fraze za obnovitev v {{cloudProviderName}}. Prepričajte se, da imate {{cloudProviderName}} omogočeno z razpoložljivim prostorom za shranjevanje in poskusite znova.",
+            "short": "Varnostne kopije ni mogoče izbrisati"
+          },
+          "title": "{{cloudProviderName}} napaka"
+        },
+        "modal": {
+          "description": "Svoje fraze za obnovitev še niste varnostno kopirali v {{cloudProviderName}} . S tem lahko obnovite svojo denarnico tako, da ste prijavljeni v {{cloudProviderName}} v kateri koli napravi.",
+          "title": "Varnostno kopirajte frazo za obnovitev na {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "geslo se ne ujema"
+          },
+          "medium": "To je srednje geslo",
+          "placeholder": {
+            "confirm": "Potrdi geslo",
+            "create": "Ustvari geslo"
+          },
+          "strong": "To je močno geslo",
+          "weak": "To je šibko geslo"
+        },
+        "recoveryPhrase": {
+          "label": "Fraza za obnovitev"
+        },
+        "selected": "{{cloudProviderName}} varnostna kopija",
+        "status": {
+          "action": {
+            "delete": "Izbriši varnostno kopijo"
+          },
+          "complete": "Varnostno kopirano v {{cloudProviderName}}",
+          "description": "Če imate varnostno kopijo obnovitvene fraze na {{cloudProviderName}}, lahko obnovite svojo denarnico tako, da ste prijavljeni v svoj {{cloudProviderName}} račun v kateri koli napravi.",
+          "inProgress": "Varnostno kopiranje v {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Varnostno kopirano"
+          },
+          "title": "{{cloudProviderName}} varnostna kopija"
+        }
+      },
+      "beta": {
+        "tooltip": "Prihaja kmalu"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Za odpiranje aplikacije zahtevajte obraz/prstni odtis.",
+            "ios": "Za odpiranje aplikacije zahtevajte {{biometricsMethod}} ."
+          },
+          "title": "Dostop do aplikacije"
+        },
+        "auth": "Prosimo za preverjanje pristnosti",
+        "off": {
+          "message": {
+            "android": "Biometrija je trenutno izklopljena za Uniswap Wallet – vklopite jo lahko v sistemskih nastavitvah.",
+            "ios": "{{biometricsMethod}} je trenutno izklopljen za Uniswap Wallet – vklopite ga lahko v sistemskih nastavitvah."
+          },
+          "title": {
+            "android": "Biometrija je izklopljena",
+            "ios": "{{biometricsMethod}} je izklopljen"
+          }
+        },
+        "title": "Odklepanje z obrazom/prstnim odtisom",
+        "transactions": {
+          "subtitle": {
+            "android": "Za transakcijo zahtevajte obraz/prstni odtis.",
+            "ios": "Za transakcijo zahtevajte {{biometricsMethod}} ."
+          },
+          "title": "Transakcije"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometrija ni nastavljena v vaši napravi. Če želite uporabljati biometrijo, jo najprej nastavite v nastavitvah.",
+            "ios": "{{biometricsMethod}} ni nastavljen v vaši napravi. Če želite uporabljati {{biometricsMethod}}, ga najprej nastavite v nastavitvah."
+          },
+          "title": {
+            "android": "Biometrija ni nastavljena",
+            "ios": "{{biometricsMethod}} ni nastavljen"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Če ne vklopite biometrije, lahko vsakdo, ki pridobi dostop do vaše naprave, odpre denarnico Uniswap in izvede transakcije.",
+            "ios": "Če ne vklopite {{biometricsMethod}}, lahko vsakdo, ki pridobi dostop do vaše naprave, odpre denarnico Uniswap in izvede transakcije."
+          },
+          "title": "Ali si prepričan?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Odklopi vse",
+        "noConnectionsDescription": "Povežite se z aplikacijo tako, da poiščete gumb »Poveži denarnico« ali »Prijava«."
+      },
+      "currency": {
+        "title": "Lokalna valuta"
+      },
+      "hapticTouch": {
+        "title": "Haptični dotik"
+      },
+      "helpCenter": {
+        "title": "Center pomoči"
+      },
+      "language": {
+        "button": {
+          "navigate": "Pojdite na nastavitve"
+        },
+        "description": {
+          "extension": "Uniswap privzeto nastavi sistemske jezikovne nastavitve. Če želite spremeniti želeni jezik, pojdite v sistemske nastavitve.",
+          "mobile": "Uniswap privzeto nastavi jezikovne nastavitve vaše naprave. Če želite spremeniti želeni jezik, pojdite na »Uniswap« v nastavitvah naprave in tapnite »Jezik«."
+        },
+        "title": "Jezik"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Prenosi, zahteve in druge dejavnosti",
+            "title": "Dejavnost denarnice"
+          },
+          "priceAlerts": {
+            "description": "Velike spremembe cen za priljubljene žetone",
+            "title": "Opozorila o cenah"
+          },
+          "updates": {
+            "description": "Priporočila in nove funkcije",
+            "title": "Posodobitve podjetja Uniswap"
+          }
+        },
+        "title": "Obvestila"
+      },
+      "password": {
+        "title": "Spremeni geslo"
+      },
+      "permissions": {
+        "title": "Dovoljenja"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Anonimne podatke o uporabi uporabljamo za izboljšanje vaše izkušnje z izdelki Uniswap Labs. Ko je onemogočeno, sledimo samo napakam in osnovni uporabi.",
+          "title": "Analitika aplikacij"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Vnesite vaše geslo"
+        },
+        "title": "Fraza za obnovitev"
+      },
+      "smallBalances": {
+        "title": "Stanje portfelja"
+      },
+      "unknownTokens": {
+        "subtitle": "Potencialni prevarantski žetoni bodo skriti v vašem portfelju.",
+        "title": "Skrij neznane žetone"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Uredi oznako",
+          "editProfile": "Uredi profil",
+          "remove": "Odstrani denarnico"
+        },
+        "connection": {
+          "banner": {
+            "description": "Upravljajte povezave prek nastavitev denarnice, tako da kliknete svojo profilno sliko.",
+            "title": "Povezave so se premaknile"
+          }
+        },
+        "connections": {
+          "title": "Povezave"
+        },
+        "editLabel": {
+          "description": "Oznake niso javne. Shranjeni so lokalno in vidni samo vam.",
+          "save": "Shrani spremembe"
+        },
+        "label": "Vzdevek",
+        "testnetMode": {
+          "description": "To vklopi testne mreže za razvijalce, da preizkusijo funkcije in transakcije brez uporabe resničnih sredstev. Žetoni v testnih omrežjih nimajo prave vrednosti.",
+          "title": "Način Testnet"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Če želite uporabljati Uniswap na {{label}}, preklopite omrežje v nastavitvah denarnice."
+    },
+    "title": "nastavitve",
+    "version": "Različica {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Pametne denarnice zagotavljajo hitrejše in poceni transakcije z varnimi pametnimi pogodbami.",
+      "info": "To ne bo vplivalo na denarnice, ki že uporabljajo funkcije pametne denarnice iz druge aplikacije."
+    },
+    "enabledModal": {
+      "description": "Posodobitve bodo začele veljati ob vaši naslednji zamenjavi.",
+      "title": "Pametna denarnica omogočena"
+    },
+    "postSwapNudge": {
+      "description": "Pametna denarnica omogoča hitrejše in poceni transakcije z uporabo varnih pametnih pogodb.",
+      "enable": "Omogoči pametno denarnico",
+      "title": "Prihranite pri naslednji zamenjavi"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "S tem naslovom še niste opravili transakcije. Preden nadaljujete, se prepričajte, da je naslov pravilen.",
+        "title": "Nov naslov"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Žetone boste poslali na posebno vrsto naslova – pametno pogodbo. Še enkrat preverite, ali gre za naslov, na katerega ste nameravali poslati. Če je napačno, so lahko vaši žetoni za vedno izgubljeni.",
+        "title": "Je to naslov denarnice?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24H pristojbine",
+    "24volume": "24H prostornina",
+    "allTimeFees": "Pristojbine za LP za vse čase",
+    "allTimeSwappers": "Zamenjalci vseh časov",
+    "allTimeVolume": "Glasnost vseh časov",
+    "fdv": {
+      "description": "Popolnoma razredčeno vrednotenje (FDV) izračuna skupno tržno vrednost ob predpostavki, da so vsi žetoni v obtoku."
+    },
+    "marketCap": {
+      "description": "Tržna kapitalizacija je skupna tržna vrednost zaloge sredstva v obtoku."
+    },
+    "tvl": {
+      "description": "Skupna zaklenjena vrednost (TVL) je skupni znesek sredstva, ki je na voljo v vseh likvidnostnih skladih Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "1-dnevni obseg je znesek sredstva, s katerim se je trgovalo na Uniswap v zadnjih 24 urah.",
+        "long": "1D volumen",
+        "short": "1D vol"
+      },
+      "description": "Obseg je znesek sredstva, s katerim se je trgovalo na Uniswap v izbranem časovnem okviru."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Dovoli {{sym}} (enkrat)"
+    },
+    "approvalNeeded": "Za uporabo tega žetona je potrebna odobritev. ",
+    "approvalPending": "Odobritev v teku",
+    "approveAndSubmit": "Odobri in oddaj",
+    "approveAndSwap": "Odobri in zamenjaj",
+    "approveInWallet": "Odobri v svoji denarnici",
+    "balance": {
+      "amount": "Stanje: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Ocenjuje se, da najučinkovitejša pot stane ~{{gasPrice}} stroškov omrežja. "
+    },
+    "bridging": {
+      "estimatedTime": "Ocena čas",
+      "title": "Zamenjava med omrežji",
+      "warning": {
+        "description": "Zamenjavate iz {{fromNetwork}} v {{toNetwork}}. To je znano tudi kot \"premostitev\", ki premakne vaše žetone iz enega omrežja v drugo."
+      }
+    },
+    "button": {
+      "max": "maks",
+      "review": "Pregled",
+      "submitting": {
+        "keep": {
+          "open": "Imej odprto denarnico..."
+        }
+      },
+      "swap": "Zamenjaj",
+      "swapAnyways": "Vseeno zamenjaj",
+      "unwrap": "Odvij",
+      "wrap": "Ovitek"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Iskanje po državi ali regiji"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Vaša zamenjava se lahko izvede pred obdelavo preklica. Vaših stroškov omrežja ni mogoče povrniti. Ali želite nadaljevati?",
+      "cannotExecute_other": "Vaše zamenjave bi se lahko izvedle pred obdelavo preklica. Vaših omrežnih stroškov ni mogoče povrniti. Ali želite nadaljevati?"
+    },
+    "confirmLimit": "Potrdite omejitev",
+    "confirmSwap": "Potrdite zamenjavo",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. rok"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Žetonska pristojbina"
+      },
+      "newQuote": {
+        "input": "Nov vnos",
+        "output": "Nov rezultat"
+      },
+      "orderRouting": "Usmerjanje naročil",
+      "orderRoutingInfo": "Ta zamenjava je usmerjena prek Across, decentraliziranega protokola, ki premika sredstva po omrežjih, pri čemer daje prednost varnosti, hitri izvedbi in nizkim cenam.",
+      "poweredBy": "Poganja",
+      "rate": "Oceniti",
+      "slippage": "Največji zdrs",
+      "uniswapFee": "Pristojbina"
+    },
+    "error": {
+      "default": "Morda boste morali povečati toleranco proti zdrsu. Opomba: žetoni za plačilo ob prenosu in rebase niso združljivi z Uniswap V3.",
+      "expectedToFail": "Pričakuje se, da vaša zamenjava ne bo uspela.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} vnos ni na voljo",
+      "modifiedByWallet": "Vaša zamenjava je bila spremenjena prek vaše denarnice. Če je bila to napaka, takoj prekličite ali tvegate izgubo sredstev.",
+      "rejected": "Transakcija zavrnjena",
+      "undefinedObject": "Pri poskusu izvedbe te zamenjave je prišlo do napake. Morda boste morali povečati toleranco proti zdrsu. Če to ne deluje, je morda nezdružljivost z žetonom, s katerim trgujete. Opomba: žetoni za plačilo ob prenosu in rebase niso združljivi z Uniswap V3.",
+      "unknown": "Neznana napaka.",
+      "v2": {
+        "expired": "Te transakcije ni bilo mogoče poslati, ker je rok potekel. Prosimo, preverite, ali vaš rok transakcije ni prekratek.",
+        "k": "Zamenjava ni izpolnila invariante Uniswap x*y=k. To običajno pomeni, da eden od žetonov, ki jih zamenjujete, vključuje vedenje po meri pri prenosu.",
+        "slippage": "Ta transakcija ne bo uspela zaradi gibanja cene ali provizije pri prenosu. Poskusite povečati toleranco proti zdrsu",
+        "transferInput": "Vhodnega žetona ni mogoče prenesti. Morda je težava z vnosnim žetonom.",
+        "transferOutput": "Izhodnega žetona ni mogoče prenesti. Morda je težava z izhodnim žetonom."
+      },
+      "v3": {
+        "slippage": "Ta transakcija ne bo uspela zaradi gibanja cene. Poskusite povečati toleranco proti zdrsu. Opomba: provizija za prenos in ponovna osnova žetonov ni združljiva z Uniswap V3.",
+        "transferOutput": "Izhodnega žetona ni mogoče prenesti. Morda je težava z izhodnim žetonom. Opomba: provizija za prenos in ponovna osnova žetonov ni združljiva z Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Med vašimi vhodnimi in izhodnimi vrednostmi bo velika razlika zaradi trenutne likvidnosti."
+    },
+    "fail": {
+      "message": "Poskusite prilagoditi zdrs na višjo vrednost.",
+      "uniswapX": "Zamenjave ni bilo mogoče dokončati z UniswapX. Poskusite zamenjavo znova, da jo usmerite prek klasičnega API-ja Uniswap."
+    },
+    "fees": {
+      "experience": "Ta provizija se uporablja za nekatere pare žetonov, da se zagotovi najboljša izkušnja z Uniswap. Plača se v izhodnem žetonu in je že vključen v ponudbo.",
+      "noFee": "Provizije se uporabljajo za izbrane pare žetonov, da se zagotovi najboljša izkušnja z Uniswap. S to zamenjavo ni nobene provizije."
+    },
+    "fetchingBestPrice": "Doseganje najboljše cene ...",
+    "fetchingPrice": "Pridobivanje cene ...",
+    "finalizingQuote": "Zaključevanje ponudbe ...",
+    "form": {
+      "header": "Zamenjaj",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Zaradi provizij za žetone je mogoče zneske zamenjav vnesti le z uporabo vnosnega polja"
+          }
+        },
+        "restore": "Obnovite svojo denarnico za zamenjavo"
+      }
+    },
+    "frontrun": {
+      "warning": "Vaša transakcija je lahko prva in povzroči neugodno trgovanje."
+    },
+    "header": {
+      "viewOnly": "Samo ogled"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Izračuni vpliva na ceno morda niso na voljo za pare z nizko likvidnostjo."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Vnos je ocenjen. Prodali boste največ <amount /> ali pa se bo transakcija razveljavila."
+    },
+    "limit": "Omejitev",
+    "limitedAssets": {
+      "warning": "Nekatera sredstva niso na voljo prek tega vmesnika, ker morda ne delujejo dobro s pametnimi pogodbami ali pa zaradi pravnih razlogov ne moremo dovoliti trgovanja."
+    },
+    "limitFilled": "Limit izpolnjen!",
+    "limitSubmitted": "Omejitev poslana",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Tržna cena je zunaj vašega določenega cenovnega razpona. Samo depozit za eno sredstvo."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Največji znesek, ki ga boste zagotovo porabili. Če cena še naprej pade, se bo vaša transakcija razveljavila."
+    },
+    "minPriceSlip": {
+      "revert": "Če se cena premakne tako, da boste prejeli manj kot {{amount}}, se bo vaša transakcija razveljavila."
+    },
+    "networkCost": {
+      "paidIn": "Stroški omrežja se plačajo v {{sym}} v omrežju {{chainName}} za izvedbo transakcije."
+    },
+    "orderRouting": "Usmerjanje naročil",
+    "outputEstimated": {
+      "atLeast": "Izhod je ocenjen. Prejeli boste vsaj <amount /> ali pa bo transakcija razveljavljena."
+    },
+    "payAnyway": "Vseeno plačaj",
+    "payAtMost": "Plačaj največ",
+    "payWith": "Plačajte z",
+    "placeOrder": "Naročiti",
+    "priceImpact": "Vpliv na ceno",
+    "receive": {
+      "atLeast": "Prejmi vsaj"
+    },
+    "request": {
+      "title": {
+        "full": "Zamenjaj {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Zamenjaj žetone"
+      }
+    },
+    "review": {
+      "summary": "Menjaš se"
+    },
+    "reviewLimit": "Omejitev pregleda",
+    "route": {
+      "optimizedGasCost": "Ta pot upošteva razdeljene poti, več skokov in omrežne stroške vsakega koraka."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Vaša transakcija bo razveljavljena, če je na čakanju dlje od tega časa. (Največ: 3 dni).",
+        "warning": "Visok rok"
+      },
+      "protection": {
+        "description": "Z vklopljeno zaščito pred zamenjavo bodo vaše transakcije Ethereum zaščitene pred sendvič napadi z zmanjšanimi možnostmi neuspeha.",
+        "subtitle": {
+          "supported": "{{chainName}} Omrežje",
+          "unavailable": "Ni na voljo na {{chainName}}"
+        },
+        "title": "Zaščita pred zamenjavo"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Odjemalec Uniswap izbere najcenejšo možnost trgovanja ob upoštevanju cene in stroškov omrežja."
+            },
+            "tooltip": "Pot je identificirana ob upoštevanju skupin v2, v3 in nekaterih v4, pri čemer je upoštevan ocenjen vpliv na ceno in stroške omrežja."
+          },
+          "v2": {
+            "title": "bazeni v2"
+          },
+          "v3": {
+            "title": "v3 bazeni"
+          },
+          "v4": {
+            "title": "v4 bazeni"
+          }
+        },
+        "title": "Možnosti trgovanja"
+      },
+      "slippage": {
+        "alert": "Visok zdrs",
+        "control": {
+          "auto": "Avto"
+        },
+        "description": "Vaša transakcija se bo razveljavila, če se cena spremeni bolj kot odstotek zdrsa.",
+        "input": {
+          "message": "Če cena še naprej pade, se bo vaša transakcija razveljavila. Spodaj je minimalni znesek, ki ga boste zagotovo prejeli.",
+          "receive": {
+            "title": "Prejmi vsaj"
+          }
+        },
+        "output": {
+          "message": "Če cena še naprej pade, se bo vaša transakcija razveljavila. Spodaj je najvišji znesek, ki bi ga morali porabiti.",
+          "spend": {
+            "title": "Porabite največ"
+          }
+        },
+        "warning": {
+          "description": "Zdrs nad 20 % bo verjetno povzročil neugodno trgovanje. Če želite zmanjšati tveganje, da bi bili prvi, znižajte nastavitve.",
+          "hover": "To lahko povzroči neugodno trgovanje. Poskusite znižati nastavitev zdrsa.",
+          "max": "Vnesite vrednost, manjšo od {{maxSlippageTolerance}}",
+          "message": "Zdrs je lahko večji, kot je potrebno",
+          "min": "Vnesite vrednost, večjo od 0"
+        }
+      },
+      "title": "Zamenjaj nastavitve",
+      "transactionRevertPrice": "Vaša transakcija bo razveljavljena, če se cena neugodno spremeni za več kot ta odstotek."
+    },
+    "signAndSwap": "Podpiši in zamenjaj",
+    "slippage": {
+      "amt": "{{amt}} zdrs",
+      "bridging": "Brez zdrsa pri zamenjavi med omrežji",
+      "settings": {
+        "title": "Nastavitve zdrsa"
+      },
+      "tooltip": "Največje gibanje cene pred vašo transakcijo se bo razveljavilo."
+    },
+    "slippageBelow": {
+      "warning": "Zdrs pod {{amt}} lahko povzroči neuspešno transakcijo"
+    },
+    "submitted": "Zamenjava poslana",
+    "success": "Uspešna menjava!",
+    "tokenOwnFees": "Nekateri žetoni ob nakupu ali prodaji zaračunajo provizijo, ki jo določi izdajatelj žetona. Uniswap ne prejme nobene od teh pristojbin.",
+    "total": "Skupaj",
+    "tradeRoutes": "Trgovske poti",
+    "transaction": {
+      "deadline": "Rok transakcije",
+      "revertAfter": "Vaša transakcija bo razveljavljena, če je na čakanju dlje od tega časa."
+    },
+    "unsupportedAssets": {
+      "readMore": "Preberite več o nepodprtih sredstvih"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Vnesite večji znesek"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Poskusite povečati zdrs.",
+        "titleMay": "Ta zamenjava morda ne uspe"
+      },
+      "insufficientBalance": {
+        "title": "Nimate dovolj {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Zamenjaj za {{ tokenSymbol }} na {{networkName}}",
+          "buy": "Kupi {{ tokenSymbol }}",
+          "buyWithCard": "Nakup s kartico"
+        },
+        "message": {
+          "withNetwork": "Ni dovolj <highlight>{{currencySymbol}} na {{networkName}}</highlight> za zamenjavo",
+          "withoutNetwork": "Ni dovolj <highlight>{{currencySymbol}}</highlight> za zamenjavo"
+        },
+        "title": "Nimate dovolj {{currencySymbol}} za kritje stroškov omrežja"
+      },
+      "networkFee": {
+        "allow": "Dovoli {{ inputTokenSymbol }} (enkrat)",
+        "highRelativeToValue": {
+          "unichain": "Stroški omrežja presegajo 10 % vaše skupne vrednosti transakcije. To je strošek obdelave vaše transakcije v verigi blokov."
+        },
+        "message": {
+          "unichain": "To je strošek obdelave vaše transakcije v verigi blokov.",
+          "uniswapX": {
+            "unichain": "To je strošek obdelave vaše transakcije v verigi blokov. <gradient>UniswapX</gradient> združuje vire likvidnosti za boljše cene in zamenjave brez plina."
+          }
+        },
+        "wrap": "Ovijte ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Ni premostitvenih citatov. Poskusite uporabiti uradni most v tem trenutku."
+        },
+        "title": "Ni narekovajev"
+      },
+      "noRoutesFound": {
+        "message": "Trenutno ni na voljo nobenih poti za izbrane žetone. Poskusite z drugim parom ali preverite znova pozneje.",
+        "title": "Ni na voljo poti"
+      },
+      "offline": {
+        "message": "Morda ste izgubili internetno povezavo ali pa omrežje ne deluje. Preverite internetno povezavo in poskusite znova.",
+        "title": "Nisi povezan"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Ta transakcija bo povzročila {{priceImpactValue}} vpliv cene na tržno ceno tega sklada in bo povzročila izgubo sredstev."
+        },
+        "title": {
+          "veryHigh": "Zelo visok vpliv na ceno ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Vaša transakcija ni bila poslana, ker ste zaprli aplikacijo.",
+        "approvalFailed": "Vaša transakcija ni bila poslana, ker odobritev žetona ni uspela.",
+        "stale": "Vaša transakcija ni bila poslana, ker ste zaprli aplikacijo ali pa je odobritev trajala predolgo.",
+        "submissionFailed": "Pri predložitvi transakcije je prišlo do težave.",
+        "title": "Zamenjava preklicana",
+        "wrap": {
+          "message": "Vaš ETH bo ostal zavit kot WETH."
+        },
+        "wrapFailed": "Vaša transakcija ni bila poslana, ker prelomna transakcija ni uspela."
+      },
+      "rateLimit": {
+        "message": "Poskusite znova čez nekaj minut.",
+        "title": "Omejitev stopnje je presežena"
+      },
+      "router": {
+        "message": "Morda ste izgubili povezavo ali pa je omrežje prekinjeno. Če težave ne odpravite, poskusite znova pozneje.",
+        "title": "Te trgovine trenutno ni mogoče zaključiti"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} je blokiran"
+      },
+      "tokenBlockedFallback": {
+        "button": "Žeton je blokiran"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Za zagotovitev najboljše izkušnje z Uniswap se uporabljajo pristojbine. S to zamenjavo ni nobene provizije.",
+          "included": "Provizije se uporabljajo za zagotovitev najboljše izkušnje z Uniswap in so že vključene v to ponudbo."
+        },
+        "title": "Provizija za zamenjavo"
+      },
+      "viewOnly": {
+        "message": "Za zamenjavo žetonov morate to denarnico uvoziti prek obnovitvene fraze."
+      }
+    },
+    "wrap": {
+      "token": "Ovijte {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Na drugih omrežjih",
+      "otherNetworksBalance": "Stanje na drugih omrežjih",
+      "title": "Vaše stanje"
+    },
+    "button": {
+      "getToken": "Pridobite {{ tokenSymbol }}",
+      "getTokenFallback": "Pridobite žeton"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Preklopite na {{network}}",
+      "title": "Ta žeton ne obstaja",
+      "titleWithChain": "Ta žeton ne obstaja na {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "podatki žetona za <tokenLink />",
+        "withChain": "podatki žetona za <tokenLink /> na {{chainName}}"
+      }
+    },
+    "nameNotFound": "Ime ni bilo mogoče najti",
+    "noInfoAvailable": "Informacije o žetonu niso na voljo",
+    "noTestnetSupportDescription": "Nekatera testna omrežja ne podpirajo zamenjave, pošiljanja ali nakupa žetonov.",
+    "stats": {
+      "unsupportedChainDescription": "Statistika žetonov in grafikoni za {{chain}} so na voljo na {{infoLink}}"
+    },
+    "symbolNotFound": "Simbola ni mogoče najti"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "To dejanje zahteva, da je način testnega omrežja onemogočen. Način Testnet lahko kadar koli znova omogočite v nastavitvah.",
+          "toTestnetMode": "To dejanje zahteva, da je omogočen način testnega omrežja. Žetoni v testnih omrežjih nimajo prave vrednosti. Način Testnet lahko kadar koli onemogočite v nastavitvah."
+        },
+        "title": {
+          "toProdMode": "Onemogoči način testnega omrežja",
+          "toTestnetMode": "Omogoči način testnega omrežja"
+        }
+      }
+    },
+    "unsupported": "Ta funkcija ni podprta v načinu testnega omrežja."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Kupujte, prodajajte in trgovajte z Ethereumom in drugimi vrhunskimi žetoni na Uniswapu",
+    "createGovernanceOn": "Ustvarite nov predlog upravljanja na Uniswap",
+    "createGovernanceTo": "Ustvarite nov predlog upravljanja, o katerem bodo glasovali imetniki UNI. Žetoni UNI predstavljajo deleže z glasovalno pravico v upravljanju Uniswap.",
+    "earnFees": "Zaslužite provizije, ko drugi zamenjajo na Uniswap z dodajanjem žetonov v sklade likvidnosti.",
+    "easilyRemove": "Preprosto odstranite svojo likvidnost iz Uniswap v2 in položite v Uniswap v3.",
+    "easilyRemoveV4": "Preprosto odstranite svojo likvidnost iz Uniswap v2 in v3, da položite v Uniswap v4.",
+    "explore": "Raziščite NFT na Uniswap",
+    "extensionPasskeySignIn": "Prijavite se z geslom",
+    "manageNFT": "Upravljajte svojo zbirko NFT. Oglejte si lastnosti, dejavnost trgovanja, opise in druge podrobnosti o svojih NFT.",
+    "migratev2": "Preseli likvidnost bazena v2 v Uniswap v3",
+    "migratev3": "Preseli likvidnost bazena na Uniswap v4",
+    "placeLimit": "Oddajte omejena naročila na Uniswap",
+    "realTime": "Cene v realnem času, grafikoni, podatki o transakcijah in drugo.",
+    "removeLiquidityv2": "Odstranite likvidnost bazena (v2) na Uniswap",
+    "removePoolLiquidity": "Odstranite likvidnost bazena na Uniswap",
+    "removeTokensv2": "Odstranite svoje žetone iz likvidnostnih skladov v2.",
+    "removev3Liquidity": "Odstranite svoje žetone iz likvidnostnih skladov v3.",
+    "sendTokens": "Pošljite žetone na Uniswap",
+    "swappingMadeSimple": "Zamenjava je preprosta. Kupujte in prodajajte kriptovalute na Ethereumu, Base, Arbitrumu, Polygonu itd. Zaupajo milijoni.",
+    "tradeTokens": "Trgujte z žetoni in zagotavljajte likvidnost. Cene v realnem času, grafikoni, podatki o transakcijah in drugo.",
+    "uniswapTradeCrypto": "Uniswap | Varno trgujte s kripto in NFT na vrhunski platformi DeFi",
+    "uniToken": "Žetoni UNI predstavljajo deleže z glasovalno pravico v upravljanju Uniswap. O vsakem predlogu lahko glasujete sami ali pa svoje glasove prenesete na tretjo osebo.",
+    "voteOnGov": "Glasujte o predlogih upravljanja na Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Vaše stanje",
+      "other": "Stanja v drugih omrežjih",
+      "viewOnly": "{{ownerAddress}}stanje"
+    },
+    "bridge": "{{label}} žetonski most",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Grafikoni svečnikov za ta žeton niso na voljo"
+      },
+      "tooltip": "Pristojbine: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Podrobnosti o žetonih niso na voljo za žetone testnega omrežja."
+      }
+    },
+    "error": {
+      "unknown": "Neznan žeton"
+    },
+    "fee": {
+      "buy": {
+        "label": "pristojbina za nakup"
+      },
+      "label": "pristojbina",
+      "sell": {
+        "label": "provizija za prodajo"
+      }
+    },
+    "links": {
+      "title": "Povezave",
+      "twitter": "Twitter",
+      "website": "Spletna stran"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Nekaj je šlo narobe.",
+        "title": "Grafa cene ni bilo mogoče naložiti"
+      },
+      "timeRangeLabel": {
+        "all": "Ves čas",
+        "day": {
+          "verbose": "1 dan"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 mesec"
+        },
+        "week": {
+          "verbose": "1 teden"
+        },
+        "year": {
+          "verbose": "1 leto"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} ni na voljo",
+          "tokensNotAvailable": "{{tokenSymbol0}} in {{tokenSymbol1}} nista na voljo"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs ne prejme nobene od teh pristojbin."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Vedno opravite svoje raziskave",
+        "blocked": {
+          "description": {
+            "default_one": "S tem žetonom ne morete trgovati z aplikacijo Uniswap.",
+            "default_other": "S temi žetoni ne morete trgovati z aplikacijo Uniswap."
+          }
+        },
+        "copyContractAddress": {
+          "message": "To je pogodbeni naslov, ki deluje kot enolični identifikator za žetone v verigi blokov. Vse kriptovalute, ki jih pošljete na ta naslov, bodo izgubljene.",
+          "title": "Ne pošiljajte kriptovalut na ta naslov"
+        },
+        "dontShowWarningAgain": "Ne pokaži mi več tega opozorila",
+        "doYourOwnResearch": "Preden nadaljujete, vedno opravite lastno raziskavo.",
+        "feeDescription": "Polni <fee /> , ko {{action}}",
+        "flaggedAsMalicious": "Označeno kot zlonamerno",
+        "fotHigh": {
+          "title": "Zaznana visoka provizija"
+        },
+        "fotLow": {
+          "title": "Zaznana pristojbina"
+        },
+        "fotVeryHigh": {
+          "title": "Zaznana zelo visoka pristojbina"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} je bilo označeno kot neprodajno. Zamenjava tega žetona lahko povzroči izgubo vaših sredstev.",
+          "title": "Zaznana 100-odstotna provizija za prodajo"
+        },
+        "impersonator": {
+          "title": "Zaznan žeton imitatorja"
+        },
+        "malicious": {
+          "general": {
+            "message": "Blockaid je {{tokenSymbol}} označil kot zlonamerno."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} morda ni žeton, ki ga želite zamenjati."
+            }
+          },
+          "title": "Zaznan zlonamerni žeton"
+        },
+        "mayResultInLoss": "Zamenjava lahko povzroči izgubo sredstev.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} se ne trguje na vodilnih centraliziranih borzah v ZDA."
+          }
+        },
+        "notListedOnExchanges": "Ni uvrščen na vodilne ameriške borze",
+        "potentialHoneypot": {
+          "card": {
+            "message": "Blockaid je {{tokenSymbol}} označil kot sumljivo."
+          },
+          "modal": {
+            "message": "Blockaid je {{tokenSymbol}} označil kot potencialni medenjak. Preden nadaljujete, vedno opravite lastno raziskavo."
+          },
+          "title": "Zaznan potencialni honeypot"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} je bilo označeno kot neprodajno.",
+          "title": "Zaznana 100-odstotna provizija za prodajo"
+        },
+        "spam": {
+          "message": "Blockaid je {{tokenSymbol}} označil kot vsiljeno pošto.",
+          "title": "Zaznan žeton neželene pošte"
+        },
+        "spamsUsers": "Spam uporabnikom",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} zaračuna {{buyFeePercent}} pristojbino ob nakupu in {{sellFeePercent}} ob prodaji."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} ob nakupu zaračuna pristojbino {{feePercent}} ."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} ob prodaji zaračuna pristojbino {{feePercent}} ."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} zaračuna provizijo ob nakupu ali prodaji."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "S tem žetonom ne morete trgovati z denarnico Uniswap."
+      },
+      "medium": {
+        "message": {
+          "plural": "S temi žetoni se ne trguje na vodilnih centraliziranih borzah v ZDA. Preden nadaljujete, vedno opravite lastno raziskavo."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Rezultatov iskanja ni bilo mogoče naložiti"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Popolnoma razredčeno vrednotenje",
+      "marketCap": "Tržna kapitalizacija",
+      "priceHighYear": "52 W visoko",
+      "priceLowYear": "52 W Nizka",
+      "section": {
+        "about": "Približno {{token}}"
+      },
+      "title": "Statistika",
+      "translation": {
+        "original": "Prikaži original",
+        "translate": "Prevedi v {{language}}"
+      },
+      "volume": "24-urna glasnost"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Vhodni žeton"
+      },
+      "output": {
+        "fallback": "Izhodni žeton"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Zamenjave na protokolu Uniswap se lahko začnejo in končajo z ETH. Vendar se med zamenjavo ETH zavije v WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Če želite dobiti {{ tokenSymbol }}, potrebujete {{ nativeTokenSymbol }} za kritje stroškov omrežja.",
+      "title": "Potrebujete {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Skrij žeton",
+      "unhide": "Razkrij žeton"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Poglej na {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Zbirke NFT ni bilo mogoče naložiti"
+          }
+        },
+        "label": {
+          "items": "Predmeti",
+          "owners": "Lastniki",
+          "priceFloor": "Nadstropje",
+          "swapVolume": "Glasnost"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Pogodbeni naslov"
+        },
+        "error": {
+          "load": {
+            "title": "Ni bilo mogoče naložiti podrobnosti NFT"
+          }
+        },
+        "network": "Omrežje",
+        "owner": "Lasti",
+        "price": "Trenutna cena",
+        "recentPrice": "Zadnja prodajna cena",
+        "traits": "Lastnosti"
+      },
+      "empty": {
+        "description": "Ni najdenih NFT-jev"
+      },
+      "error": {
+        "unavailable": "Vsebina ni na voljo"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Skrij NFT",
+          "unhide": "Razkrij NFT"
+        }
+      },
+      "link": {
+        "collection": "Spletna stran zbirke"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFT-jev ni bilo mogoče naložiti"
+          }
+        },
+        "none": {
+          "button": "Prejmite NFT-je",
+          "description": {
+            "default": "Za začetek prenesite NFT-je iz druge denarnice.",
+            "external": "Ko ta denarnica kupi ali prejme NFT-je, se prikažejo tukaj."
+          },
+          "title": "NFT še ni"
+        }
+      }
+    },
+    "noneFound": "Ni najdenih žetonov.",
+    "selector": {
+      "button": {
+        "choose": "Izberite žeton",
+        "clear": "Počisti vse"
+      },
+      "empty": {
+        "buy": {
+          "message": "Kupite kripto s kartico ali banko za pošiljanje žetonov.",
+          "title": "Kupi kripto"
+        },
+        "receive": {
+          "title": "Prejemanje žetonov"
+        },
+        "title": "Ni še žetonov"
+      },
+      "error": {
+        "load": "Ni bilo mogoče naložiti žetonov"
+      },
+      "search": {
+        "empty": "Ni rezultatov za <highlight>{{searchText}}</highlight>",
+        "placeholder": "Iskanje žetonov"
+      },
+      "section": {
+        "bridging": "Zamenjava med omrežji",
+        "favorite": "Priljubljene",
+        "otherNetworksSearchResults": "Žetoni, najdeni v drugih omrežjih",
+        "otherSearchResults": "Drugi žetoni na {{network}}",
+        "recent": "Nedavna iskanja",
+        "search": "Rezultati iskanja",
+        "trending": "Žetoni po volumnu 24H",
+        "yours": "Vaši žetoni"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Iskanje bazenov",
+          "tokens": "Iskanje žetonov",
+          "transactions": "Iskanje transakcij"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Prekliči transakcijo",
+        "description": "Če prekličete to transakcijo, preden jo obdela omrežje, boste plačali nove stroške omrežja namesto prvotnih.",
+        "title": "Želite preklicati to transakcijo?"
+      },
+      "copy": "Kopiraj ID transakcije",
+      "copyProvider": "Kopirajte {{providerName}} ID transakcije"
+    },
+    "amount": {
+      "unlimited": "Neomejeno"
+    },
+    "date": "Oddano dne {{date}}",
+    "details": {
+      "dappName": "aplikacija",
+      "from": "Od",
+      "networkFee": "Stroški omrežja",
+      "providerFee": "Provizija ponudnika",
+      "swapRate": "Oceniti",
+      "transaction": "Transakcija",
+      "uniswapFee": "Provizija ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Nezadostna likvidnost sklada za dokončanje transakcije",
+    "network": {
+      "all": "Vsa omrežja"
+    },
+    "networkCost": {
+      "label": "Stroški omrežja",
+      "maxNativeBalance": {
+        "description": "Majhen znesek stanja omrežnega žetona je rezerviran za kritje omrežnih stroškov te transakcije.",
+        "title": "Zakaj ne morem uporabiti svojega največjega stanja?"
+      },
+      "veryHigh": {
+        "label": "Zelo visoki stroški omrežja"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Transakcije ni mogoče preklicati",
+        "replace": "Transakcije ni mogoče zamenjati"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Odobritev preklicana",
+        "canceling": "Preklic odobritve",
+        "failed": "Odobritev ni uspela",
+        "pending": "Odobritev",
+        "success": "Odobreno",
+        "successDapp": "Odobreno {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Preklican nakup",
+        "canceling": "Preklic nakupa",
+        "failed": "Nakup ni uspel",
+        "pending": "Nakupovanje",
+        "success": "kupljeno",
+        "successDapp": "Kupljeno {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Potrditev preklicana",
+        "canceling": "Čaka na preklic",
+        "failed": "Potrditev ni uspela",
+        "pending": "Transakcija v teku",
+        "success": "Transakcija potrjena",
+        "successDapp": "Transakcija potrjena {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Preklicana kovnica",
+        "canceling": "Preklic kovnice",
+        "failed": "Kovanje ni uspelo",
+        "pending": "Kovanje",
+        "success": "Kovano",
+        "successDapp": "Kovano {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Preklican nakup",
+        "canceling": "Preklic nakupa",
+        "failedOn": "Nakup {{serviceProvider}}ni uspel",
+        "pendingOn": "Nakup na {{serviceProvider}}",
+        "successOn": "Kupljeno {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Prejemanje preklicano",
+        "canceling": "Preklic prejemanja",
+        "failedFrom": "Prejem od {{serviceProvider}}ni uspel",
+        "pendingFrom": "Prejemanje od {{serviceProvider}}",
+        "success": "Prejeto",
+        "successDapp": "Prejeto {{externalDappName}}",
+        "successFrom": "Prejeto od {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Preklican preklic",
+        "canceling": "Preklic preklica",
+        "failed": "Preklic ni uspel",
+        "pending": "Preklic",
+        "success": "Preklicano",
+        "successDapp": "Preklicano {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Preklicana prodaja",
+        "canceling": "Preklic prodaje",
+        "failedOn": "Prodaja ni uspela prek {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Izvedite več o prodaji kriptovalut.",
+          "title": "Zakaj je moja prodaja še v teku?"
+        },
+        "pendingOn": "Prodaja preko {{serviceProvider}}",
+        "successOn": "Prodano prek {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Preklicana prodaja",
+        "canceling": "Preklic prodaje",
+        "failed": "Prodaja ni uspela",
+        "pending": "Prodaja",
+        "success": "prodano",
+        "successDapp": "Prodano {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Pošiljanje preklicano",
+        "canceling": "Preklic pošiljanja",
+        "failed": "pošiljanje ni uspelo",
+        "pending": "Pošiljanje",
+        "success": "Poslano",
+        "successDapp": "Poslano {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Preklicana menjava",
+        "canceling": "Preklic zamenjave",
+        "expired": "Menjava je potekla",
+        "failed": "Zamenjava ni uspela",
+        "insufficientFunds": "Nezadostna sredstva",
+        "pending": "Zamenjava",
+        "success": "Zamenjal",
+        "successDapp": "Zamenjano na {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Razvijanje preklicano",
+        "canceling": "Preklic odvijanja",
+        "failed": "Odvijanje ni uspelo",
+        "pending": "Odvijanje",
+        "success": "Odvito",
+        "successDapp": "Odvito na {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Preklican ovoj",
+        "canceling": "Preklic zavijanja",
+        "failed": "Previjanje ni uspelo",
+        "pending": "Zavijanje",
+        "success": "Zavito",
+        "successDapp": "Zavito na {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} do {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} od {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Za kritje omrežnih stroškov te transakcije potrebujete ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) na {{networkName}} ."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Če želite zamenjati za ta žeton, potrebujete več {{tokenSymbol}} na {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "Ni dovolj {{tokenSymbol}} na {{networkName}}",
+            "withoutNetwork": "Ni dovolj {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Porabili boste večino stanja žetonov v omrežju. Zaradi tega morda ne bo dovolj sredstev za kritje prihodnjih stroškov omrežja.",
+        "title": "Nizko stanje omrežnih žetonov"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Transakcije ni mogoče preklicati",
+        "status": "Napaka pri preverjanju stanja transakcije"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> združuje vire likvidnosti za boljše cene in zamenjave brez plina.",
+    "learnMore": "Izvedite več o zamenjavi z UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX združuje vire likvidnosti za boljše cene in zamenjave brez plina.",
+    "included": "Vključuje <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 trdi citat ni uspel. Poskusite znova s klasično zamenjavo."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Zahtevajte zdaj"
+      },
+      "subtitle": "Zgradite prilagojen profil web3 in preprosto delite svoj naslov s prijatelji.",
+      "title": {
+        "compact": "<highlight>Zahtevajte svoje {{unitagDomain}} uporabniško ime</highlight> in ustvarite svoj prilagodljiv profil.",
+        "full": "Zahtevajte svoje {{unitagDomain}} uporabniško ime"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Izberite med zvitki kamere",
+        "computer": "Nalaganje iz računalnika",
+        "nft": "Izberite NFT",
+        "remove": "Odstrani profilno sliko"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Prilagodite profil",
+        "description": "{{unitagAddress}} je pripravljen za pošiljanje in prejemanje kripto. Nadaljujte z gradnjo svoje denarnice s prilagoditvijo svojega profila web3.",
+        "success": {
+          "long": "Dobil si!",
+          "short": "razumem!"
+        }
+      },
+      "error": {
+        "addressLimit": "Svoje uporabniško ime za ta naslov ste že spremenili",
+        "avatar": "Ni bilo mogoče nastaviti avatarja. Poskusi znova kasneje.",
+        "default": "Ni bilo mogoče zahtevati uporabniškega imena. Poskusi znova kasneje.",
+        "deviceLimit": "Dosegli ste največje število uporabniških imen, ki so lahko aktivna za to napravo",
+        "general": "Ni mogoče zahtevati uporabniškega imena",
+        "unavailable": "To uporabniško ime ni na voljo",
+        "unknown": "Neznana napaka"
+      },
+      "username": {
+        "default": "tvoje ime"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Izbrisali boste svoje uporabniško ime in podrobnosti profila, ki jih je mogoče prilagoditi. Ne boste ga mogli zahtevati nazaj.",
+        "title": "Ali si prepričan?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "uporabniško ime"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Spremenili boste uporabniško ime. Ko ga spremenite, ga ne morete nikoli več zahtevati.",
+        "title": "Ali si prepričan?"
+      },
+      "title": "Uredite svoje uporabniško ime",
+      "warning": {
+        "default": "Ko enkrat spremenite uporabniško ime, ga ne morete nikoli več zahtevati. Spremenite ga lahko samo <highlight>2</highlight> -krat.",
+        "max": "Dosegli ste največje število 2 sprememb uporabniškega imena."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Zahtevajte uporabniško ime",
+        "description": "Poslovite se od naslovov 0x. Uporabniška imena so berljiva imena, ki olajšajo pošiljanje in prejemanje kriptovalut.",
+        "title": "Predstavljamo uporabniška imena",
+        "upsell": {
+          "customizable": "Prilagodljivi profili",
+          "ens": "Poganjajo poddomene ENS",
+          "free": "Brezplačno zahtevati"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Poganjajo poddomene ENS",
+        "free": "Brezplačno zahtevati",
+        "profile": "Prilagodljivi profili"
+      },
+      "subtitle": "Poslovite se od naslovov 0x. Uporabniška imena so berljiva imena, ki olajšajo pošiljanje in prejemanje kriptovalut.",
+      "title": "Predstavljamo uporabniška imena"
+    },
+    "notification": {
+      "delete": {
+        "error": "Uporabniškega imena ni bilo mogoče izbrisati. Poskusi znova kasneje.",
+        "title": "Uporabniško ime izbrisano"
+      },
+      "profile": {
+        "error": "Profila ni bilo mogoče posodobiti. Poskusi znova kasneje.",
+        "title": "Profil posodobljen"
+      },
+      "username": {
+        "error": "Uporabniškega imena ni bilo mogoče spremeniti. Poskusi znova kasneje.",
+        "title": "Uporabniško ime spremenjeno"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "To je vaš osebni naslov, na katerega lahko ljudje pošljejo kripto.",
+        "title": {
+          "choose": "Ustvarite svoje uporabniško ime",
+          "claim": "Zahtevajte svoje uporabniško ime"
+        }
+      },
+      "info": {
+        "description": "Uporabniška imena pretvorijo kompleksne naslove 0x v berljiva imena. Če zahtevate uporabniško ime {{unitagDomain}} , lahko preprosto pošiljate in prejemate kriptovalute ter ustvarite javni profil web3.",
+        "title": "Poenostavljen naslov"
+      },
+      "profile": {
+        "subtitle": "Naložite svojega ali se držite svojega edinstvenega Unicona. To lahko kadar koli spremenite pozneje.",
+        "title": "Izberite profilno fotografijo"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Izbriši uporabniško ime",
+        "edit": "Uredi uporabniško ime"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Vnesite življenjepis za svoj profil"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Uporabniška imena lahko vsebujejo le črke in številke",
+        "max": "Uporabniška imena ne smejo biti daljša od {{number}} znakov",
+        "min": "Uporabniška imena morajo vsebovati vsaj {{number}} znakov",
+        "uppercase": "Uporabniška imena lahko vsebujejo samo male črke in številke"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Ni dovolj {{tokenSymbol}} na {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 ni na voljo v tem omrežju."
+  },
+  "wallet": {
+    "appSignIn": "Prijavite se z aplikacijo",
+    "connectingAgreement": "S povezavo denarnice se strinjate s <termsLink>pogoji storitve Uniswap Labs</termsLink> in soglašate z njegovim <privacyLink>pravilnikom o zasebnosti</privacyLink>.",
+    "connectionFailed": {
+      "message": "Poskus povezave ni uspel. Kliknite Poskusi znova in sledite korakom za povezavo v vaši denarnici."
+    },
+    "other": "Druge denarnice",
+    "scanToConnect": "Za povezavo skenirajte kodo QR",
+    "wrongNet": "Vaša denarnica je povezana z napačnim omrežjem."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Povežite se z aplikacijo tako, da skenirate kodo prek WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Ni povezanih aplikacij"
+        },
+        "title": "Povezave"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Denarnica Uniswap trenutno podpira {{chainNames}}. Na teh verigah uporabite samo \"{{dappName}}\"",
+        "title": "Napaka v povezavi"
+      },
+      "general": {
+        "message": "Prišlo je do težave z WalletConnect. Prosim poskusite ponovno",
+        "title": "Napaka WalletConnect"
+      },
+      "scantastic": {
+        "message": "Prišlo je do težave z vašo kodo QR. Prosim poskusite ponovno",
+        "title": "Neveljavna koda QR"
+      },
+      "unsupported": {
+        "message": "Prepričajte se, da skenirate veljavno kodo QR WalletConnect, Ethereum ali Uniswap Extension, preden poskusite znova.",
+        "title": "Neveljavna koda QR"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 ni več podprt. Aplikacijo, s katero se poskušate povezati, je treba nadgraditi na WalletConnect v2.",
+        "title": "Neveljavna koda QR"
+      },
+      "uwu": {
+        "scan": "Pri skeniranju te kode QR je prišlo do težave.",
+        "title": "Napaka povezave UwU",
+        "unsupported": "Ta koda QR ni podprta."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Povežite se",
+        "scrollDown": "Za povezavo se pomaknite navzdol"
+      },
+      "switchAccount": "Preklopi račun",
+      "title": "Povežite se z {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Prenesite svoja sredstva brez soglasja",
+        "viewTokenBalances": "Oglejte si svoja stanja žetonov",
+        "viewWalletAddress": "Oglejte si naslov svoje denarnice"
+      },
+      "title": "Dovoljenja spletnega mesta"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Pomaknite se navzdol za podpis",
+        "sign": "Podpis"
+      },
+      "details": {
+        "label": {
+          "function": "funkcija",
+          "sending": "Pošiljanje",
+          "token": "Žeton",
+          "tokens": "Žetoni"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Nimate dovolj {{currencySymbol}} za dokončanje te transakcije.",
+        "network": "Napaka internetne ali omrežne povezave"
+      },
+      "warning": {
+        "general": {
+          "message": "Bodite previdni: to sporočilo lahko prenese sredstva"
+        },
+        "message": "Če želite podpisati sporočila ali transakcije, boste morali uvoziti frazo za obnovitev denarnice.",
+        "title": "Ta denarnica je v načinu samo za ogled"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Odkrijte in raziščite žetone na {{network}}. Raziščite vrhunske bazene. Oglejte si cene v realnem času, obseg trgovanja, TVL, grafikone in podatke o transakcijah.",
+      "title": {
+        "pools": "Raziščite najboljša združenja na {{network}} na Uniswap",
+        "tokens": "Raziščite najboljše žetone na {{network}} na Uniswap",
+        "transactions": "Raziščite najboljše transakcije na {{network}} na Uniswap"
+      }
+    }
+  }
+}

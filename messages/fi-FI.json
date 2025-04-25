@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Lunasta {{amount}} palkinto"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "{{cloudProviderName}}-laitteeseen on varmuuskopioitu useita palautuslausekkeita.",
+        "title": "Valitse palautettava varmuuskopio"
+      },
+      "button": {
+        "restore": {
+          "android": "Palauta Google Drivesta",
+          "ios": "Palauta iCloudista"
+        }
+      },
+      "empty": {
+        "description": "Näyttää siltä, että et ole varmuuskopioinut palautuslausekkeitasi numeroon {{cloudProviderName}}.",
+        "title": "0 varmuuskopiota löydetty"
+      },
+      "error": {
+        "backup": {
+          "message": "Varmuuskopioiden tuonti epäonnistui käyttöoikeuksien puutteen, valtuutuksen keskeytymisen tai pilvivirheen vuoksi",
+          "title": "Virhe varmuuskopioiden tuonnissa"
+        },
+        "password": {
+          "title": "Väärä salasana. Yritä uudelleen."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Ei nyt",
+            "settings": "Mene asetuksiin"
+          },
+          "message": {
+            "android": "Varmista, että olet kirjautunut sisään Google-tiliin, jossa Google Drive on käytössä tällä laitteella, ja yritä uudelleen.",
+            "ios": "Varmista, että olet kirjautunut sisään Apple ID:llä siten, että iCloud Drive on käytössä tässä laitteessa, ja yritä uudelleen."
+          },
+          "title": {
+            "android": "Google Drive ei ole saatavilla",
+            "ios": "iCloud Drive ei ole käytettävissä"
+          }
+        }
+      },
+      "loading": {
+        "title": "Haetaan varmuuskopioita..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Liian monta yritystä. Yritä uudelleen 1 tunnin kuluttua.",
+          "hours_other": "Liian monta yritystä. Yritä uudelleen {{count}} tunnin kuluttua.",
+          "minutes_one": "Liian monta yritystä. Yritä uudelleen 1 minuutin kuluttua.",
+          "minutes_other": "Liian monta yritystä. Yritä uudelleen {{count}} minuutin kuluttua."
+        }
+      },
+      "password": {
+        "input": "Kirjoita salasana",
+        "recoveryPhrase": "Kirjoita sen sijaan palautuslauseesi",
+        "subtitle": "Tämä salasana tarvitaan palautuslauseen varmuuskopion palauttamiseen {{cloudProviderName}}.",
+        "title": "Anna varmuuskopion salasana"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Versio: ",
+      "modal": {
+        "body": "Säilytä ja vaihda tunnuksia turvallisesti Uniswap-sovelluksella. Saatavilla iOS:lle ja Androidille.",
+        "dont": "Eikö sinulla ole Uniswap-lompakkoa?",
+        "scan": "Skannaa Uniswap-lompakolla"
+      },
+      "spamToggle": "Piilota tuntemattomat tunnukset ja NFT:t"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "Olen varmuuskopioinut palautuslauseeni ja ymmärrän, että Uniswap Labs ei voi auttaa minua palauttamaan lompakkoani, jos en onnistu.",
+        "description": "Varmista, että olet varmuuskopioinut palautuslauseesi Uniswap-mobiilisovelluksella tai selainlaajennuksella.",
+        "descriptionEmphasized": "Ilman palautuslauseketta et ehkä voi käyttää lompakkoosi.",
+        "speedbump": {
+          "description": "Ennen kuin jatkat, suorita seuraavat vaiheet, jotta et menetä pääsyä lompakkoosi ja kaikkiin varoihin.",
+          "step1": "Lataa Uniswap-mobiilisovellus tai selainlaajennus",
+          "step2": "Varmuuskopioi palautuslauseesi",
+          "title": "Oletko varma?"
+        },
+        "title": "Poistetaanko salasana?"
+      },
+      "sign": {
+        "in": {
+          "title": "Kirjaudu sisään salasanalla"
+        }
+      },
+      "type": {
+        "crossplatform": "Puhelin, tabletti tai suojausavain",
+        "platform": "Selain tai käyttöjärjestelmä"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Tämä tilaus peruutettiin, koska saldosi alitti syötetyn summan."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Tämä tilaus ei täyty, koska saldosi alittaa syötetyn summan. Korjaa tasapainoa lisäämällä."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Palautuslauseke (tai siemenlause) on <highlight>sanajoukko</highlight> , jota tarvitaan lompakkosi käyttämiseen, <highlight>kuten salasana.</highlight>",
+        "part2": "Voit <highlight>syöttää</highlight> palautuslauseesi uudessa laitteessa <highlight>palauttaaksesi lompakkosi</highlight> ja sen sisällön.",
+        "part3": "Mutta jos <highlight>menetät palautuslauseesi</highlight>, menetät <highlight>pääsyn lompakkoosi</highlight> .",
+        "part4": "Sen sijaan, että opettelisit palautuslauseesi ulkoa, voit <highlight>varmuuskopioida sen arvoon {{cloudProviderName}}</highlight> ja suojata sen salasanalla.",
+        "part5": "Voit myös varmuuskopioida palautuslausekkeesi käsin <highlight>kirjoittamalla sen ylös</highlight> ja säilyttämällä sen turvallisessa paikassa.",
+        "part6": "Suosittelemme käyttämään <highlight>molempia varmuuskopiotyyppejä</highlight>, koska jos kadotat palautuslauseen, et voi palauttaa lompakkoasi."
+      },
+      "error": {
+        "invalid": "Virheellinen lause",
+        "invalidWord": "Virheellinen sana: {{word}}",
+        "phraseLength": "Palautuslauseen tulee olla 12-24 sanaa",
+        "wrong": "Väärä palautuslause"
+      },
+      "helpText": {
+        "import": "Miten löydän palautuslauseeni?",
+        "restoring": "Yritä etsiä uudelleen"
+      },
+      "input": "Kirjoita palautuslauseesi",
+      "remove": {
+        "final": {
+          "description": "Varmista, että olet kirjoittanut palautuslauseesi muistiin tai varmuuskopioinut sen {{cloudProviderName}}. <highlight>Et voi muuten käyttää varojasi.</highlight>",
+          "title": "Olet poistamassa <highlight>palautuslauseesi</highlight>"
+        },
+        "import": {
+          "description": "Voit tallentaa vain yhden palautuslauseen kerrallaan. Jos haluat jatkaa uuden tuomista, sinun on poistettava nykyinen palautuslauseesi ja kaikki siihen liittyvät lompakot tältä laitteelta."
+        },
+        "initial": {
+          "description": "Tämä poistaa lompakkosi ja palautuslauseesi tästä laitteesta.",
+          "title": "Olet poistamassa <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Palautuslauseesi säilyy, kunnes poistat kaikki jäljellä olevat lompakot."
+        }
+      },
+      "subtitle": {
+        "import": "Palautuslauseesi tallennetaan vain paikallisesti laitteellesi.",
+        "restoring": "Kirjoita palautuslauseesi alle tai yritä etsiä varmuuskopioita uudelleen."
+      },
+      "title": {
+        "import": "Kirjoita palautuslauseesi",
+        "restoring": "Varmuuskopioita ei löytynyt"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Kopioi osoite",
+        "manageConnections": "Hallitse yhteyksiä",
+        "report": "Ilmoita profiilista",
+        "viewExplorer": "Katso {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Lisää lompakko",
+        "addViewOnly": "Lisää lompakko, jossa on vain katseluoikeus",
+        "create": "Luo uusi lompakko",
+        "import": "Tuo uusi lompakko",
+        "manage": "Lompakon asetukset",
+        "remove": "Poista lompakko",
+        "restore": "Palauta lompakkosi",
+        "watch": "Varo lompakkoa"
+      },
+      "create": {
+        "placeholder": "Lompakko {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Lompakon etiketti"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Muokkaa profiilia"
+          },
+          "title": "Muokkaa tunnistetta"
+        },
+        "viewOnly": "Vain katselunäkymät lompakot"
+      },
+      "menu": {
+        "claimUsername": "Lunasta käyttäjänimi",
+        "copy": {
+          "title": "Kopioi lompakon osoite"
+        },
+        "edit": {
+          "title": "Muokkaa tunnistetta"
+        },
+        "manageConnections": "Hallitse yhteyksiä",
+        "remove": {
+          "title": "Poista lompakko"
+        }
+      },
+      "remove": {
+        "check": "Varmuuskelin palautuslauseeni ja ymmärrän, että Uniswap Labs ei voi auttaa minua palauttamaan lompakkoani, jos en ole tehnyt niin.",
+        "title": "Poista {{name}}",
+        "viewOnly": "Voit aina lisätä takaisin vain näkyviä lompakoita syöttämällä lompakon osoitteen."
+      },
+      "restore": {
+        "description": "Koska käytät uutta laitetta, sinun on palautettava palautuslauseesi tai annettava pilvivarmuuskopion salasana jatkaaksesi."
+      },
+      "select": {
+        "error": "Osoitteita ei voitu ladata",
+        "loading": {
+          "subtitle": "Lompakot näkyvät alla.",
+          "title": "Lompakot etsimässä"
+        },
+        "title_one_one": "Yksi lompakko löytyi",
+        "title_one_other": "Valitse tuotavat lompakot"
+      },
+      "viewOnly": {
+        "button": "Tuo lompakko",
+        "description": "Jotta voit vaihtaa, ostaa, lähettää ja vastaanottaa tunnuksia, sinun on tuotava tämän lompakon palautuslauseke.",
+        "title": "Tämä lompakko on vain katselu"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Tämä osoite on jo tuotu",
+          "notFound": "Osoitetta ei löydy",
+          "smartContract": "Osoite on älykäs sopimus"
+        },
+        "message": "Lisäämällä vain näyttöön tarkoitetun lompakon voit kokeilla sovellusta tai seurata lompakkoa. Et voi vaihtaa tai lähettää varoja.",
+        "placeholder": "ENS tai osoite",
+        "title": "Anna lompakon osoite"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Odottaa",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} palkintoja kerätty"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} kohteesta {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} - {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} {{amountWithSymbolB}}:lle"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} ja {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Altaan osuus"
+  },
+  "addressInput": {
+    "recipient": "Vastaanottaja"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Käytämme anonymisoituja tietoja parantaaksemme Uniswap Labs -tuotteiden käyttökokemustasi."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Ei oikeastaan"
+    },
+    "description": "Kerro meille, jos sinulla on hyvä kokemus tästä sovelluksesta",
+    "extension": {
+      "review": {
+        "description": "Valitse tähtiluokitus ja kirjoita arvostelu Chrome Web Storessa.",
+        "title": "Tarkistatko Uniswap-laajennuksen?"
+      },
+      "title": "Pidätkö Uniswap-laajennuksesta?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Lähetä palautetta"
+      },
+      "description": "Kerro meille, kuinka voimme parantaa kokemustasi",
+      "title": "Ikävä kuulla."
+    },
+    "mobile": {
+      "title": "Pidätkö Uniswap Walletista?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Kynttilänjalka",
+    "error": {
+      "pools": "Nykyisen poolin historiallisia tietoja ei voida näyttää.",
+      "tokens": "Nykyisen tunnuksen historiallisia tietoja ei voida näyttää."
+    },
+    "line": "Viivakaavio",
+    "missingData": "Karttatiedot puuttuvat",
+    "price": {
+      "label": {
+        "close": "kiinni",
+        "high": "Korkea",
+        "low": "Matala",
+        "open": "Avata"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Tämä asetus ei ole käytettävissä nykyiselle kaaviolle"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Kiitos, että olet osa Uniswap-yhteisöä <heart />",
+    "uni": {
+      "arrived": "UNI on saapunut"
+    }
+  },
+  "common": {
+    "accept": "Hyväksyä",
+    "activity": "Toiminta",
+    "add": {
+      "label": "Lisätä",
+      "liquidity": {
+        "cancelled": "Likviditeetin lisääminen peruutettu",
+        "failed": "Likviditeetin lisääminen epäonnistui"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Lisää V2 likviditeettiä peruutettu",
+          "failed": "Likviditeetin lisääminen V2 epäonnistui"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Lisätty likviditeettiä",
+      "v2": {
+        "liquidity": "Lisätty V2 likviditeettiä"
+      }
+    },
+    "addedLiquidity": "Likviditeettiä lisätty",
+    "adding": {
+      "liquidity": "Likviditeetin lisääminen",
+      "v2": {
+        "liquidity": "V2-likviditeetin lisääminen"
+      }
+    },
+    "addLiquidity": "Lisää likviditeettiä",
+    "addressOrENS": "Lompakon osoite tai ENS-nimi",
+    "advanced": "Edistynyt",
+    "all": "Kaikki",
+    "allTime": "Koko ajan",
+    "and": "ja",
+    "app": "Sovellus",
+    "approval": {
+      "cancelled": "Hyväksyntä peruutettu",
+      "failed": "Hyväksyminen epäonnistui"
+    },
+    "approve": "Hyväksyä",
+    "approved": "Hyväksytty",
+    "approvePending": "Hyväksyntä odottaa...",
+    "approveSpend": "Hyväksy {{symbol}} kulutus",
+    "approving": "Hyväksytään",
+    "areYouSure": "Oletko varma?",
+    "automatic": "Auto",
+    "availableIn": "Uniswap saatavilla: <locale />",
+    "availableOnIOSAndroid": "Saatavilla iOS:lle ja Androidille",
+    "availableOnIOSAndroidChrome": "Saatavilla iOS:lle, Androidille ja Chromelle",
+    "backToPositions": "Takaisin asentoihin",
+    "blocked": {
+      "ifError": "Jos uskot tämän olevan virhe, lähetä osoitteesi sisältävä sähköposti osoitteeseen <emailAddress />",
+      "reason": "Tämä osoite on estetty Uniswap Labs -käyttöliittymässä, koska se liittyy yhteen tai useampaan <link>estettyyn toimintaan</link>."
+    },
+    "blockedAddress": "Estetty osoite",
+    "blog": "Blogi",
+    "borrow": {
+      "cancelled": "Lainaus peruutettu",
+      "failed": "Lainaus epäonnistui"
+    },
+    "borrowed": "Lainattu",
+    "borrowing": "Lainaus",
+    "bought": "Ostettu",
+    "brandAssets": "Brändivarat",
+    "burn": {
+      "cancelled": "Poltto peruttu",
+      "failed": "Poltto epäonnistui"
+    },
+    "burned": "Poltettu",
+    "burning": "Palaa",
+    "button": {
+      "accept": "Hyväksyä",
+      "back": "Takaisin",
+      "buy": "Ostaa",
+      "cancel": "Peruuttaa",
+      "checkin": "Ilmoittautua",
+      "close": "kiinni",
+      "confirm": "Vahvistaa",
+      "connect": "Kytkeä",
+      "continue": "Jatkaa",
+      "copied": "Kopioitu",
+      "copy": "Kopio",
+      "create": "Luoda",
+      "delete": "Poistaa",
+      "disconnect": "Katkaista",
+      "dismiss": "Hylkää",
+      "done": "Tehty",
+      "edit": "Muokata",
+      "enable": "ota käyttöön",
+      "finish": "Valmis",
+      "goBack": "Mene takaisin",
+      "later": "Ehkä myöhemmin",
+      "learn": "Lue lisää",
+      "next": "Seuraava",
+      "notNow": "Ei nyt",
+      "ok": "OK",
+      "paste": "Liitä",
+      "pay": "Maksaa",
+      "proceed": "Edetä",
+      "receive": "Vastaanottaa",
+      "remove": "Poista",
+      "reset": "Nollaa",
+      "retry": "Yritä uudelleen",
+      "reveal": "Paljastaa",
+      "review": "Arvostelu",
+      "save": "Tallentaa",
+      "scrollDown": "Rullaa alas",
+      "sell": "Myydä",
+      "send": "Lähettää",
+      "setup": "Perustaa",
+      "share": "Jaa",
+      "showLess": "Näytä vähemmän",
+      "showMore": "Näytä lisää",
+      "sign": "Merkki",
+      "skip": "Ohita",
+      "swap": "Vaihtaa",
+      "tryAgain": "Yritä uudelleen",
+      "understand": "Ymmärrän",
+      "unlock": "Avata",
+      "view": "Näytä",
+      "viewDetails": "Näytä tiedot",
+      "yes": "Joo"
+    },
+    "buy": {
+      "cancelled": "Osto peruttu",
+      "failed": "Osto epäonnistui",
+      "label": "Ostaa"
+    },
+    "buyAndSell": "Osta ja myy Uniswapilla",
+    "buying": "Ostaminen",
+    "by": "Tekijä:",
+    "cancel": {
+      "failed": "Peruutus epäonnistui"
+    },
+    "cancellation": {
+      "cancelled": "Peruutus peruttu"
+    },
+    "cancellationSubmitted": "Peruutus lähetetty",
+    "cancellationSuccessful": "Peruutus onnistui",
+    "cancelled": "Peruutettu",
+    "cancelling": "Peruutetaan",
+    "cancelOrder": "Peruuta tilaus",
+    "card": {
+      "error": {
+        "description": "Jotain meni pieleen",
+        "title": "Oho! Jotain meni pieleen."
+      }
+    },
+    "careers": "Ura",
+    "chart": "Kartoittaa",
+    "checkNetwork": "Tarkista verkon tila <link>tästä.</link>",
+    "chromeExtension": "Laajennus",
+    "claim": {
+      "cancelled": "Vaatimus peruutettu",
+      "failed": "Vaatimus epäonnistui"
+    },
+    "claimed": "Väitetty",
+    "claiming": "Väitetään",
+    "claimUnis": "Lunasta UNI-tunnuksesi",
+    "clear": "Selkeä",
+    "close": "kiinni",
+    "closed": "Suljettu",
+    "collect": {
+      "button": "Kerätä",
+      "fees": {
+        "cancelled": "Peru peruutetut maksut",
+        "failed": "Maksujen kerääminen epäonnistui"
+      }
+    },
+    "collected": {
+      "fees": "Kerätyt maksut"
+    },
+    "collecting": {
+      "fees": "Maksujen kerääminen"
+    },
+    "company": "Yhtiö",
+    "confirm": "Vahvistaa",
+    "confirmCancellation": "Vahvista peruutus",
+    "confirmSend": {
+      "button": "Vahvista lähetys"
+    },
+    "confirmSwap": "Vahvista vaihto lompakossa",
+    "confirmTimedOut": "Vahvistus aikakatkaistiin. Yritä uudelleen.",
+    "confirmWallet": "Vahvista lompakossa",
+    "connect": {
+      "button": "Kytkeä"
+    },
+    "connectAWallet": {
+      "button": "Yhdistä lompakko"
+    },
+    "connectWallet": {
+      "button": "Yhdistä lompakko"
+    },
+    "contactUs": {
+      "button": "Ota meihin yhteyttä"
+    },
+    "contractInteraction": "Sopimusvuorovaikutus",
+    "copied": "Kopioitu",
+    "copy": {
+      "address": "Kopioi osoite"
+    },
+    "copyLink": {
+      "button": "Kopioi linkki"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Poolin luominen peruutettu",
+        "failed": "Poolin luominen epäonnistui"
+      }
+    },
+    "created": {
+      "date": "Luotu {{date}}",
+      "pool": "Luotu allas"
+    },
+    "creating": {
+      "pool": "Uima-altaan luominen"
+    },
+    "currency": "Valuutta",
+    "custom": "Mukautettu",
+    "customRange": "Mukautettu valikoima",
+    "dataOutdated": "Tiedot voivat olla vanhentuneita",
+    "default": "Oletus",
+    "defaultTradeOptions": "Kaupan oletusvaihtoehdot",
+    "delegate": {
+      "cancelled": "Edustaja peruutettu",
+      "failed": "Delegointi epäonnistui"
+    },
+    "delegated": "Delegoitu",
+    "delegating": "Delegointi",
+    "deploy": {
+      "cancelled": "Käyttöönotto peruttu",
+      "failed": "Käyttöönotto epäonnistui"
+    },
+    "deployed": "Käytössä",
+    "deploying": "Käyttöönotto",
+    "deposit": {
+      "cancelled": "Talletus peruutettu",
+      "failed": "Talletus epäonnistui",
+      "toNetwork": "Talletustunnukset {{label}} verkkoon."
+    },
+    "deposited": "Talletettu",
+    "depositing": "Tallettaminen",
+    "depositTokens": "Talletustunnukset",
+    "detected": "Havaittu",
+    "developers": "Kehittäjät",
+    "device": {
+      "other": "Muu laite"
+    },
+    "dismiss": "Hylkää",
+    "displaySettings": "Näyttöasetukset",
+    "dnsRegistrar": "DNS-rekisteröijä",
+    "donate": "Lahjoittaa",
+    "done": "Tehty",
+    "dontShowAgain": "Älä näytä tätä uudelleen",
+    "download": "ladata",
+    "downloadAppStore": "Lataa App Storesta",
+    "downloadPlayStore": "Lataa Play Kaupasta",
+    "downloadUniswap": "Lataa Uniswap",
+    "downloadUniswapApp": "Lataa Uniswap-sovellus",
+    "dynamic": "Dynaaminen",
+    "edit": {
+      "button": "Muokata"
+    },
+    "error": {
+      "details": "Virhetiedot",
+      "general": "Jotain meni pieleen",
+      "label": "Virhe",
+      "request": "Pyyntöäsi käsiteltäessä tapahtui virhe. Jos pyydät tukea, muista kopioida tämän virheen tiedot.",
+      "somethingWrong": "Jotain meni pieleen!",
+      "wrong": {
+        "tryAgain": "Jotain meni pieleen. Yritä uudelleen."
+      }
+    },
+    "errorConnecting": {
+      "error": "Virhe yhdistämisessä"
+    },
+    "errorLoadingData": {
+      "error": "Virhe ladattaessa tietoja"
+    },
+    "ethereumNameService": "Ethereum-nimipalvelu",
+    "etherscan": {
+      "link": "Katso Etherscanissa"
+    },
+    "ethRegistrarController": "ETH:n rekisterinpitäjä",
+    "execute": {
+      "cancelled": "Suorita peruutettu",
+      "failed": "Suoritus epäonnistui"
+    },
+    "executed": "Toteutettu",
+    "executing": "Suoritetaan",
+    "expired": "Vanhentunut",
+    "expiry": "Vanheneminen",
+    "explore": "Tutkia",
+    "explorer": "tutkimusmatkailija",
+    "exploreTokens": "Tutustu tokeneihin",
+    "extension": "Uniswap-laajennus",
+    "failed": {
+      "error": "Epäonnistui"
+    },
+    "failedSwitchNetwork": "Verkon vaihtaminen epäonnistui",
+    "fee": "Maksu",
+    "fees": "Maksut",
+    "feesEarned": "Palkkiot ansaittu",
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Haetaan reittiä",
+    "floor": "Lattia",
+    "floorPrice": "Lattian hinta",
+    "for": "varten",
+    "fullRange": "Täysi valikoima",
+    "getApp": "Hanki sovellus",
+    "getHelp": {
+      "button": "Hae apua"
+    },
+    "getStarted": "Aloita",
+    "getSupport": {
+      "button": "Saada tukea"
+    },
+    "getTheApp": "Hanki sovellus",
+    "getUniswapWallet": "Hanki Uniswap-lompakko",
+    "governance": "Hallinto",
+    "happyHolidays": "Hyvää lomaa Uniswap-tiimiltä!",
+    "helpCenter": "Ohjekeskus",
+    "hidden": "Piilotettu",
+    "hide": {
+      "button": "Piilottaa"
+    },
+    "highPrice": "Korkea hinta",
+    "includes": "Sisältää",
+    "info": {
+      "label": "Tiedot"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Valitse vastaanottaja"
+      },
+      "password": {
+        "confirm": "Vahvista salasana",
+        "error": {
+          "mismatch": "Salasanat eivät täsmää",
+          "weak": "Tämä salasana on liian heikko"
+        },
+        "new": "Uusi salasana",
+        "placeholder": "Salasana",
+        "strength": {
+          "medium": "Keskikokoinen",
+          "strong": "Vahva",
+          "weak": "Heikko"
+        }
+      },
+      "search": "Hae"
+    },
+    "insufficient": {
+      "funds": "Riittämättömät varat"
+    },
+    "insufficientBalance": {
+      "error": "Riittämätön tasapaino"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Rahat eivät riitä verkkokustannusten kattamiseen"
+    },
+    "insufficientLiquidity": "Likviditeetti riittämätön",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Riittämätön {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Virheellinen pari",
+    "invalidRecipient": {
+      "error": "Virheellinen vastaanottaja"
+    },
+    "iOSAndroid": "iOS ja Android",
+    "language": "Kieli",
+    "lastPrice": "Viimeinen hinta",
+    "learnMoreSwap": "Lue lisää swapeista",
+    "legalAndPrivacy": "Laki ja yksityisyys",
+    "less": "Vähemmän",
+    "limit": {
+      "cancel_one": "Peruuta raja",
+      "cancel_other": "Peru {{count}} -rajat",
+      "cancelled": "Rajoitus peruttu",
+      "executed": "Rajoitus suoritettu",
+      "expired": "Raja umpeutunut",
+      "failed": "Rajoitus epäonnistui",
+      "opened": "Raja avattu",
+      "pending": "Rajoitus odottaa"
+    },
+    "limits": {
+      "approachMax": "Lähestyy 100 enimmäisrajaa",
+      "cancelProceed": "Peruuta rajoitukset jatkaaksesi",
+      "expires": "Vanhenee {{timestamp}}",
+      "open": "Avoimet rajat",
+      "when": "kun {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Linkit",
+    "liquidity": {
+      "removed": "Likviditeetti poistettu"
+    },
+    "loading": "Ladataan",
+    "loadingAllowance": "Latauskorvaus",
+    "loadMore": "Lataa lisää",
+    "longText": {
+      "button": {
+        "less": "Lue vähemmän",
+        "more": "Lue lisää"
+      }
+    },
+    "lowPrice": "Alhainen hinta",
+    "manage": "Hallitse",
+    "market": {
+      "label": "Markkinoida"
+    },
+    "marketPrice": {
+      "fetching": "Haetaan markkinahintaa...",
+      "label": "Markkinahinta:",
+      "unavailable": "Markkinahintaa ei löytynyt. Ole hyvä ja tee omat tutkimuksesi välttääksesi varojen menetyksen."
+    },
+    "max": "Max",
+    "message": "Viesti",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Likviditeetin siirto peruutettu",
+        "failed": "Likviditeetin siirto epäonnistui"
+      },
+      "position": "Siirrä sijainti",
+      "v3": "Siirrä V3:een"
+    },
+    "migrated": {
+      "liquidity": "Siirretty likviditeetti"
+    },
+    "migrating": {
+      "liquidity": "Likviditeetin siirto"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Minttu peruttu",
+      "failed": "Minttu epäonnistui"
+    },
+    "minted": "Mintettu",
+    "minting": "Lyönti",
+    "mobile": "mobiili",
+    "more": "Lisää",
+    "multiDevice": "Monilaite",
+    "navigation": {
+      "settings": "asetukset",
+      "systemSettings": "asetukset"
+    },
+    "navigationButton": "Navigointipainike",
+    "needHelp": "Tarvitsetko apua?",
+    "networkCost": "Verkon hinta",
+    "neverMind": "Unohda koko juttu",
+    "new": {
+      "exclamation": "Uusi!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT:t",
+    "noActivity": "Ei toimintaa vielä",
+    "noAmount": {
+      "error": "Syötä summa"
+    },
+    "noData": "Ei dataa",
+    "noResults": "Ei tuloksia.",
+    "notAvailableInRegion": {
+      "error": "Ei saatavilla alueellasi"
+    },
+    "notCreated": {
+      "label": "Ei luotu"
+    },
+    "notSupported": "Ei tuettu",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 kuukausi",
+    "oneWeek": "1 viikko",
+    "oneYear": "1 vuosi",
+    "opensea": {
+      "link": "Katso OpenSeasta"
+    },
+    "orderCancelled": "Tilaus peruttu",
+    "orderExecuted": "Tilaus suoritettu",
+    "orderExpired": "Tilaus vanhentunut",
+    "orderPending": "Tilaus vireillä",
+    "outOfRange": "Kantaman ulkopuolella",
+    "pageNotFound": "Sivua ei löydetty!",
+    "passkey": {
+      "count": "Salasana {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Valitse, minne haluat tallentaa uuden salasanasi."
+      }
+    },
+    "pastDay": "Mennyt päivä",
+    "pastFiveMinutes": "Viimeiset viisi minuuttia",
+    "pastHour": "Viimeinen tunti",
+    "pastMonth": "Viime kuukausi",
+    "pastWeek": "Mennyt viikko",
+    "pastYear": "Viime vuosi",
+    "pay": {
+      "button": "Maksaa"
+    },
+    "pending": {
+      "cancellation": "Odottaa peruutusta"
+    },
+    "pendingEllipsis": "Odottaa...",
+    "permit2": "Lupa 2",
+    "pool": "Allas",
+    "pools": "Altaat",
+    "poweredBy": "Voimanlähteenä <name />",
+    "price": "Hinta",
+    "priceImpact": "Varoitus hintavaikutuksista",
+    "priceUpdated": "Hinta päivitetty",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Kun tämä on valittuna, emme jaa tietojasi kolmansien osapuolien kanssa personoitua mainontaa varten. Voit ottaa jakamisen käyttöön milloin tahansa poistamalla valinnan tästä ruudusta.",
+        "label": "Älä jaa tietojani"
+      },
+      "description": "Saatamme jakaa laitetunnisteita mainoskumppaneidemme kanssa mainostaaksemme palveluitamme muilla verkkosivustoilla ja alustoilla. Jos tämä sovellettavien lakien mukaan katsotaan myyntiin, jakamiseen tai kohdistetuksi mainoksiksi, voit kieltäytyä käytöstä valitsemalla \"älä jaa tietojani\" -ruudun. Lisätietoja tietosuojakäytännöistämme saat tutustumalla <privacyLink>Tietosuojakäytäntöön</privacyLink>.",
+      "disclaimer": "Huomaa, että valintasi koskee vain tämän laitteen tätä selainta. Voit myös kieltäytyä käytöstä ottamalla käyttöön Global Privacy Control -asetuksen selaimessa, jolla käytät palveluitamme. Näet lisää vaihtoehtoja siirtymällä asetuksiin."
+    },
+    "privacyPolicy": "Tietosuojakäytäntö",
+    "proceed": "Edetä",
+    "proceedInWallet": {
+      "short": "Jatka lompakossa"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Julkinen Ratkaisija",
+    "purchased": "Osti",
+    "queue": {
+      "cancelled": "Jono peruutettu",
+      "failed": "Jono epäonnistui"
+    },
+    "queued": "Jonossa",
+    "queuing": "Jonotus",
+    "rate": "Rate",
+    "readMore": "Lue lisää",
+    "receive": {
+      "cancelled": "Vastaanotto peruttu",
+      "failed": "Vastaanotto epäonnistui"
+    },
+    "received": "Otettu vastaan",
+    "receiving": "Vastaanottaminen",
+    "recent": "Viimeaikaiset",
+    "rejected": "Hylätty",
+    "reload": {
+      "label": "Lataa sovellus uudelleen"
+    },
+    "remove": {
+      "label": "Poista",
+      "liquidity": {
+        "cancelled": "Poista likviditeetti peruutettu",
+        "failed": "Likviditeetin poistaminen epäonnistui"
+      }
+    },
+    "removedLiquidity": "Likviditeetti poistettu",
+    "removeItem": "Poista esine",
+    "removing": {
+      "liquidity": "Likviditeetin poistaminen"
+    },
+    "repaid": "Maksettu",
+    "repay": {
+      "cancelled": "Takaisinmaksu peruutettu",
+      "failed": "Takaisinmaksu epäonnistui"
+    },
+    "repaying": "Takaisinmaksu",
+    "resetLimit": "Nollaa {{symbol}} -raja",
+    "resetLimitWallet": "Nollaa {{symbol}} -raja lompakossa",
+    "resettingLimit": "Nollataan {{symbol}} -rajaa...",
+    "resolveIssues_one": "Ratkaise ongelma",
+    "resolveIssues_other": "Ratkaise {{count}} -ongelmat",
+    "restricted": {
+      "region": "Rajoitettu alue"
+    },
+    "reverseRegistrar": "Käänteinen rekisterinpitäjä",
+    "revoke": {
+      "approval": {
+        "failed": "Hyväksynnän peruuttaminen epäonnistui"
+      }
+    },
+    "revoked": {
+      "approval": "Peruutettu hyväksyntä"
+    },
+    "revokedApproval": "Peruutettu hyväksyntä",
+    "revoking": {
+      "approval": "Hyväksynnän peruuttaminen"
+    },
+    "samePrice": "Sama hinta",
+    "scanQRDownload": "Lataa QR-koodi puhelimellasi",
+    "selectRegion": {
+      "label": "Valitse alueesi"
+    },
+    "selectToken": {
+      "label": "Valitse tunnus"
+    },
+    "selfCustodial": "Itsehuoltajuus",
+    "sell": {
+      "label": "Myydä"
+    },
+    "send": {
+      "button": "Lähettää",
+      "cancelled": "Lähetys peruutettu",
+      "failed": "Lähetys epäonnistui"
+    },
+    "sending": "Lähetetään",
+    "sent": "Lähetetty",
+    "settings": "asetukset",
+    "share": {
+      "shareToTwitter": "Jaa Twitterissä",
+      "twitter": "Jaa Twitterissä"
+    },
+    "show": {
+      "button": "Näytä"
+    },
+    "showLess": {
+      "button": "Näytä vähemmän"
+    },
+    "showMore": {
+      "button": "Näytä lisää"
+    },
+    "signatureExpired": "Allekirjoituksesi on vanhentunut.",
+    "signMessage": "Allekirjoita viesti",
+    "signMessageWallet": "Allekirjoita viesti lompakkoon",
+    "sold": "myyty",
+    "stats": "Tilastot",
+    "status": "Status",
+    "stayConnected": "Pysyä yhteydessä",
+    "step": {
+      "number": "Vaihe {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Ehdotuksen lähettäminen peruttu",
+        "failed": "Ehdotuksen lähetys epäonnistui"
+      }
+    },
+    "submitted": {
+      "proposal": "Lähetetty ehdotus"
+    },
+    "submitting": {
+      "proposal": "Ehdotuksen jättäminen"
+    },
+    "swap": {
+      "cancelled": "Vaihto peruttu",
+      "expired": "Swap vanhentunut",
+      "failed": "Vaihto epäonnistui"
+    },
+    "swapped": "Vaihdettu",
+    "swapPending": "Vaihto vireillä...",
+    "swapping": "Vaihto",
+    "switchNetworks": "Vaihda verkkoa",
+    "termsOfService": "Käyttöehdot",
+    "text": {
+      "connected": "Yhdistetty",
+      "contract": "Sopimus",
+      "disconnected": "Yhteys katkaistu",
+      "error": "Virhe",
+      "notAvailable": "Ei käytössä",
+      "recipient": "Vastaanottaja",
+      "sender": "From",
+      "unknown": "Tuntematon"
+    },
+    "thisMonth": "Tässä kuussa",
+    "thisToken": "Tämä merkki",
+    "thisWeek": "Tämä viikko",
+    "thisYear": "Tämä vuosi",
+    "time": {
+      "days": "päivää",
+      "days_one": "päivä",
+      "days_other": "päivää",
+      "hours": "tuntia",
+      "hours_one": "tunnin",
+      "hours_other": "tuntia",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "pöytäkirja",
+      "months": "kuukaudet",
+      "months_one": "kuukausi",
+      "months_other": "kuukaudet",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}kk"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "viikkoa",
+      "weeks_one": "viikko",
+      "weeks_other": "viikkoa"
+    },
+    "to": "vastaanottaja",
+    "today": "Tänään",
+    "tokenA": "Tunnus A",
+    "tokenAmount": "Token summa",
+    "tokenB": "Token B",
+    "tokenName": "Tokenin nimi",
+    "tokens": "Tokenit",
+    "totalUniswapTVL": "Yhteensä Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Käydä kauppaa",
+    "trademarkPolicy": "Tavaramerkkikäytäntö",
+    "transactionDetails": "Maksutapahtuman tiedot",
+    "transactionId": "Tapahtumatunnus",
+    "transactionPending": "Tapahtuma vireillä",
+    "transactions": "Tapahtumat",
+    "transactionSettings": "Tapahtumaasetukset",
+    "transfer_one": "siirtää",
+    "transfer_other": "siirrot",
+    "tryAgain": {
+      "error": "Yritä uudelleen"
+    },
+    "twitter": "Viserrys",
+    "type": {
+      "label": "Tyyppi"
+    },
+    "unavailable": "Ei saatavilla",
+    "unhide": "Näytä",
+    "uniGovernance": "UNI:n hallinto",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Uniswap-protokolla",
+    "uniswapWallet": "Unswap lompakko",
+    "uniswapX": "UniswapX",
+    "unknown": "Tuntematon",
+    "unknownApproval": "Tuntematon hyväksyntä",
+    "unknownBridge": "Tuntematon silta",
+    "unknownError": {
+      "error": "Tuntematon virhe"
+    },
+    "unknownLend": "Tuntematon laina",
+    "unknownMint": "Tuntematon rahapaja",
+    "unknownSend": "Tuntematon lähetys",
+    "unknownSwap": "Tuntematon vaihto",
+    "unsupportedAsset_one": "Sisältöä ei tueta",
+    "unsupportedAsset_other": "Tukematon sisältö",
+    "unwrap": {
+      "button": "Avaa pakkaus",
+      "failed": "Purkaminen epäonnistui"
+    },
+    "unwrapped": "Avattu",
+    "unwrapping": "Purkaminen",
+    "view": {
+      "profile": "Näytä profiili"
+    },
+    "viewOnExplorer": "Näytä Explorerissa",
+    "volume": "Äänenvoimakkuus",
+    "vote": {
+      "cancelled": "Äänestys peruttu",
+      "failed": "Äänestys epäonnistui"
+    },
+    "voted": "Äänestetty",
+    "voting": "Äänestäminen",
+    "wallet": {
+      "approve": "Hyväksy lompakossa",
+      "label": "Lompakko"
+    },
+    "walletForSwapping": "Vaihtoa varten tehty lompakko. Saatavilla iOS:lle ja Androidille.",
+    "warning": "Varoitus",
+    "webApp": "Verkkosovellus",
+    "website": "Verkkosivusto",
+    "whyApprove": "Miksi minun täytyy hyväksyä tunnus?",
+    "whySign": "Miksi allekirjoituksia tarvitaan?",
+    "whyWrap": "Miksi minun täytyy kääriä {{symbol}}?",
+    "withdraw": {
+      "failed": "Nosto epäonnistui"
+    },
+    "withdrawal": {
+      "amount": "Nostosumma",
+      "cancelled": "Kotiutus peruttu"
+    },
+    "withdrawing": "vetäytyminen",
+    "withdrew": "vetäytyi",
+    "withinRange": "Alueella",
+    "wrap": {
+      "cancelled": "Wrap peruttu",
+      "failed": "Kääriminen epäonnistui"
+    },
+    "wrapIn": "Kääri  {{symbol}} lompakkoon",
+    "wrapped": "Kääritty",
+    "wrapping": "Kääriminen",
+    "wrappingToken": "Kääritään  {{symbol}}...",
+    "wrongNetwork": "Väärä verkko",
+    "yesterday": "Eilen",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Tililläsi ei ollut riittävästi varoja tämän vaihdon suorittamiseen."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Tililläsi ei ole riittävästi varoja tämän vaihdon suorittamiseen."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Rajaasi ei voitu täyttää tällä hetkellä. Yritä uudelleen."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Vaihtoehtoasi ei voitu suorittaa tällä hetkellä. Yritä uudelleen."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Olet ostamassa",
+    "youRecieve": "Saat",
+    "youreSending": "Sinä lähetät"
+  },
+  "currency": {
+    "aud": "Australian dollari",
+    "brl": "Brasilian real",
+    "cad": "Kanadan dollari",
+    "cny": "Kiinan yuania",
+    "eur": "euroa",
+    "gbp": "Britannian punta",
+    "hkd": "Hongkongin dollari",
+    "idr": "Indonesian rupia",
+    "inr": "Intian rupia",
+    "jpy": "Japanin jeniä",
+    "krw": "Etelä-Korean wonia",
+    "ngn": "Nigerialainen Naira",
+    "pkr": "Pakistanin rupia",
+    "rub": "Venäjän rupla",
+    "sgd": "Singaporen dollari",
+    "thb": "Thaimaan bahti",
+    "try": "Turkin liira",
+    "uah": "Ukrainan hryvnia",
+    "usd": "Yhdysvaltain dollari",
+    "vnd": "Vietnamin dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Hyväksyä",
+        "fallbackTitle": "Hyväksy tämä sivusto käyttääksesi tunnuksia",
+        "helptext": "Salli tämän sivuston käyttöoikeus ja kuluttaa tämä tunnus tapahtumia varten. Varmista, että luotat tähän sivustoon.",
+        "label": "Lompakko",
+        "title": "Hyväksy käyttöoikeus kohteeseen {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Tapahtumapyyntö"
+      },
+      "bridge": {
+        "description": "Siirrä ETH, USDC ja paljon muuta {{numChains}}+ -verkoissa.",
+        "title": "Yritetäänkö siltaa?"
+      },
+      "connect": {
+        "helptext": "Salli tämän sivuston tarkastella lompakkosi osoitetta, saldoa ja pyytää hyväksyntää tapahtumille.",
+        "title": "Yhdistä sivustoon"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Raakadata"
+        },
+        "function": {
+          "label": "Toiminto"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 hallinnoi tunnuksen hyväksyntöjä useissa dappeissa.",
+        "header": "Allekirjoita lupa 2"
+      },
+      "reject": {
+        "action": "Hylkää kaikki",
+        "info": "Sinulla on <highlight>{{totalRequestCount}}</highlight> tapahtumapyyntöä"
+      },
+      "revoke": {
+        "action": "Peruuttaa",
+        "helptext": "Salli tämän sivuston peruuttaa tämän tunnuksen käyttäminen tapahtumiin. Varmista, että luotat tähän sivustoon.",
+        "title": "Peruuta käyttöoikeus kohteeseen {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Tämä viesti sisältää merkkejä, joita ei voi toistaa. Varmista, että luotat tähän sivustoon.",
+        "decodeError": "Viestin purkaminen epäonnistui",
+        "header": "Allekirjoituspyyntö",
+        "irregular": {
+          "description": "Varmista, että luotat tähän sivustoon ennen kuin jatkat",
+          "understand": "Ymmärrän riskit"
+        },
+        "toggleDataView": {
+          "raw": "Näytä raakatiedot",
+          "readable": "Näytä alkuperäiset tiedot"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Varmista, että se on oikea",
+          "title": "Tämä ei ole aktiivinen lompakkosi"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Kirjaudu sisään tästä"
+      },
+      "getStarted": {
+        "description": "Aloita lataamalla Uniswap-lompakko, joka on saatavilla puhelimellasi tai selaimellasi.",
+        "title": "Aloita Uniswapin käyttö"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Aloita muutamassa sekunnissa rekisteröitymällä alla tai lataamalla lompakkomme, joka on saatavilla puhelimellasi tai selaimellasi."
+        },
+        "title": "Rekisteröidy Uniswapilla"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap-tuotteet toimivat saumattomasti yhdessä luodakseen parhaan onchain-kokemuksen."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Tämä antaa Uniswap-protokollalle pääsyn tunnukseesi kaupankäyntiä varten. Turvallisuussyistä se vanhenee 30 päivän kuluttua."
+    },
+    "dataUnavailable": "Tiedot eivät ole tällä hetkellä saatavilla; työskentelemme korjauksen parissa",
+    "id": "Virhetunnus: {{eventId}}",
+    "noData": "Dataa ei löytynyt",
+    "request": {
+      "provideId": "Pyyntöäsi käsiteltäessä tapahtui virhe. Jos pyydät tukea, muista antaa virhetunnuksesi."
+    },
+    "tokenApproval": "Tokenin hyväksyntä epäonnistui",
+    "tokenApprovalEdited": {
+      "message": "Lompakollesi asetettu hyväksyntäsumma on liian pieni tämän tapahtuman suorittamiseen. Yritä uudelleen ja lisää määrää."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Jotain kaatui.",
+      "restart": "Käynnistä sovellus uudelleen",
+      "title": "Voi ei!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Tutustu muihin uima-altaisiin"
+    },
+    "search": {
+      "action": {
+        "clear": "Selkeä",
+        "viewEtherscan": "Katso {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Ei tuloksia haulle <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Hakutuloksia ei voitu ladata",
+      "label": {
+        "ownedBy": "Omistaja {{ownerAddress}}"
+      },
+      "placeholder": "Etsi rahakkeita ja lompakoita",
+      "section": {
+        "nft": "NFT-kokoelmat",
+        "popularNFT": "Suositut NFT-kokoelmat",
+        "popularTokenInfo": "Suositut tunnukset tunnistetaan niiden Uniswap-kaupankäynnin perusteella viimeisen 24 tunnin aikana.",
+        "popularTokens": "Suosittuja tokeneja",
+        "recent": "Viimeaikaiset haut",
+        "tokens": "Tokenit",
+        "wallets": "Lompakot"
+      }
+    },
+    "tokens": {
+      "error": "Tunnuksia ei voitu ladata",
+      "favorite": {
+        "action": {
+          "add": "Suosikkimerkki",
+          "edit": "Muokkaa suosikkeja",
+          "remove": "Poista suosikki"
+        },
+        "title": {
+          "default": "Suosikkimerkit",
+          "edit": "Muokkaa suosikkitunnuksia"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Markkina-arvo",
+          "priceDecrease": "Hinnan lasku",
+          "priceIncrease": "Hinnankorotus",
+          "totalValueLocked": "TVL",
+          "volume": "Äänenvoimakkuus"
+        },
+        "option": {
+          "marketCap": "Markkina-arvo",
+          "priceDecrease": "Hinnan lasku (24H)",
+          "priceIncrease": "Hinnankorotus (24H)",
+          "totalValueLocked": "Poista TVL:n vaihto",
+          "volume": "Uniswap äänenvoimakkuus (24H)"
+        }
+      },
+      "top": {
+        "title": "Huippumerkit"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Suosikki lompakko",
+          "edit": "Muokkaa suosikkeja",
+          "remove": "Poista suosikki"
+        },
+        "title": {
+          "default": "Suosikki lompakot",
+          "edit": "Muokkaa suosikkilompakoita"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Verkko",
+      "networks": "Verkot",
+      "popup": {
+        "trouble": "Onko yhteyden muodostamisessa ongelmia?"
+      },
+      "titleConnected": "Yhdistetty",
+      "titleNotConnected": "Ei yhteyttä"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Unohtuiko salasana?",
+        "reset": "Nollaa lompakko",
+        "submit": "Avata"
+      },
+      "password": {
+        "error": "Väärä salasana. Yritä uudelleen",
+        "reset": {
+          "initial": {
+            "description": "Uniswap ei voi auttaa palauttamaan salasanaasi. Sinun on nollattava lompakkosi syöttämällä 12-sanainen palautuslauseesi uudelleen.",
+            "help": "Mistä löydän palautuslauseeni?",
+            "title": "Unohtuiko salasana"
+          },
+          "speedbump": {
+            "description": "Varmista, että sinulla on 12-sanainen palautuslause, ennen kuin nollaat lompakkosi. Muuten et voi saada takaisin varojasi.",
+            "help": "Menetin palautuslauseeni",
+            "title": "Ennen kuin jatkat"
+          }
+        }
+      },
+      "subtitle": "Avaa lukitus antamalla salasanasi",
+      "title": "Tervetuloa takaisin"
+    },
+    "network": {
+      "notSupported": "Verkkoa ei tueta"
+    },
+    "open": "Avaa Uniswap-laajennus",
+    "popup": {
+      "chrome": {
+        "button": "Avaa laajennus",
+        "description": "Suorita tämä toiminto avaamalla Uniswap-laajennus.",
+        "title": "Jatka Uniswapissa"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Priorisoi Uniswap-laajennus, kun muodostat yhteyden sovelluksiin.",
+        "title": "Tee oletuslompakko"
+      },
+      "password": {
+        "enter": {
+          "title": "Syötä tämänhetkinen salasanasi"
+        },
+        "error": {
+          "wrong": "Väärä salasana"
+        },
+        "placeholder": "Nykyinen salasana"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Varmuuskopioida",
+        "message": "Muista varmuuskopioida palautuslauseesi, jotta et menetä pääsyä lompakkoosi ja varoihin.",
+        "title": "Selaimesi tallennustila on loppumassa"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Tuo Uniswap-tilisi kirjautumalla sisään olemassa olevalla salasanalla.",
+    "invalidReferrer": "Sulje tämä sivu ja yritä uudelleen."
+  },
+  "fee": {
+    "bestForExotic": "Paras eksoottisille pareille.",
+    "bestForMost": "Paras useimmille pareille.",
+    "bestForStablePairs": "Paras vakaille pareille.",
+    "bestForVeryStable": "Paras erittäin vakaille pareille.",
+    "dynamic": "Dynaaminen maksu",
+    "percentEarned": "%, jonka ansaitset maksuina.",
+    "selectPercent": "{{pct}}% valitse",
+    "selectPercentDescription": "{{pct}}% likviditeetistä valitsi tämän tason",
+    "tier": {
+      "create": {
+        "button": "Luo uusi maksutaso",
+        "description": "Uuden tason luominen alustetaan uudessa poolissa ja johtaa tavallista korkeampiin verkkokustannuksiin."
+      },
+      "description": {
+        "v2": "Ansaittu summa tarjoaa likviditeettiä. Kaikissa v2-pooleissa on kiinteät 0,3 %:n maksut. Saat lisää vaihtoehtoja tarjoamalla likviditeettiä v4:ssä."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Olet luomassa poolia, jossa on dynaaminen maksutaso. Ennen kuin jatkat, varmista, että valittu koukku tukee dynaamisia maksuja."
+        }
+      },
+      "highestTvl": "Korkein TVL",
+      "label": "%, jonka ansaitset maksuina",
+      "missing": {
+        "description": "Etkö löydä etsimääsi tasoa?"
+      },
+      "new": "Uusi taso",
+      "percent": {
+        "select": "{{percentage}} valitse"
+      },
+      "recommended": {
+        "description": "Suositus perustuu valitun rahakeparin korkeimpaan likviditeettiosuuteen."
+      },
+      "search": {
+        "short": "Hakutasot"
+      },
+      "select": {
+        "existing": {
+          "button": "Valitse nykyinen maksutaso"
+        }
+      }
+    },
+    "tierExact": "{{fee}} maksutaso",
+    "unavailable": "Ansaitut palkkiot eivät näy v2-positioissa ennen kuin likviditeetti on poistettu.",
+    "uncollected": "Sisältää perimättömät maksut:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Myy kanssa"
+    },
+    "connection": {
+      "quote": "Myydään {{amount}} arvosta {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Ylittää tasapainon"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} {{fiatAmount}}:lle"
+    },
+    "unsupportedToken": {
+      "back": "Mene takaisin",
+      "divider": "Tunnuksia ei tueta",
+      "message": "Tämän tunnuksen myyntiä ei tueta. Vaihda tämä omaisuus johonkin tuetuista tunnuksista.",
+      "swap": "Vaihda tuettuun tunnukseen",
+      "title": "Tunnusta ei tueta"
+    },
+    "welcome": {
+      "tooltip": "Myy kryptosi pankkitilillesi tai pankkikortillesi."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Valitse tunnus"
+    },
+    "cexTransferModal": {
+      "description": "Krypton ostamista kortilla ei tueta alueellasi. Siirrä varoja keskitetyltä vaihtotililtä rahoittaaksesi lompakkosi.",
+      "title": "Aloita siirto"
+    },
+    "checkout": {
+      "title": "Kassa kanssa"
+    },
+    "checkoutWith": "Kassa kanssa",
+    "chooseProvider": {
+      "description": "Siirryt palveluntarjoajan portaaliin nähdäksesi tapahtumaasi liittyvät maksut."
+    },
+    "completeTransactionHeader": "Suorita tapahtuma loppuun {{serviceProvider}}",
+    "connection": {
+      "error": "Yhteys epäonnistui",
+      "errorDescription": "Jotain meni pieleen yhdistettäessä kohteeseen {{serviceProvider}}.",
+      "message": "Yhdistetään kohteeseen {{serviceProvider}}",
+      "quote": "Ostat {{amount}} arvosta {{currencySymbol}}",
+      "terms": "Jatkamalla hyväksyt, että sinua koskevat Palveluehdot ja Tietosuojakäytäntö ja {{serviceProvider}}soveltuvin osin."
+    },
+    "continueInTab": "Jatka siirtymällä välilehdelle {{serviceProvider}} . Tämä modaali on turvallista sulkea nyt.",
+    "disclaimer": "Jatkamalla hyväksyt, että sinua koskevat <tosLink>Palveluehdot</tosLink> ja <privacyLink>Tietosuojakäytäntö</privacyLink> ja {{serviceProvider}}soveltuvin osin.",
+    "error": {
+      "default": "Jotain meni pieleen.",
+      "load": "Ei voitu ladata tunnuksia ostettaviksi",
+      "max": "Enintään {{amount}}",
+      "min": "Minimi {{amount}}",
+      "noQuotes": "Lainauksia ei löytynyt.",
+      "unavailable": "Tämä palvelu ei ole saatavilla alueellasi",
+      "unsupported": "Ei tuettu alueella",
+      "usd": "Saatavilla vain USD:ssä"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Lainauksia ei löytynyt"
+    },
+    "purchasedOn": "Ostettu {{serviceProvider}}",
+    "quote": {
+      "advice": "Siirryt palveluntarjoajan portaaliin nähdäksesi tapahtumaasi liittyvät maksut.",
+      "type": {
+        "list": "{{optionsList}}ja muita vaihtoehtoja",
+        "other": "Muita vaihtoehtoja",
+        "recent": "Äskettäin käytetty"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Tililtä"
+        }
+      },
+      "title": "Vastaanota krypto",
+      "transferFunds": "Rahoita lompakkoosi siirtämällä kryptoa toisesta lompakosta tai tililtä"
+    },
+    "region": {
+      "placeholder": "Hae maan tai alueen mukaan",
+      "title": "Valitse alueesi"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} {{fiatAmount}}:lle"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Päivitä nyt",
+      "learn": "Opi päivittämään",
+      "recoveryPhrase": "Näytä palautuslauseke"
+    },
+    "description": {
+      "extension": "Sovelluksesta on saatavilla uusi versio. Jos haluat jatkaa Uniswap-laajennuksen käyttöä, päivitä se uusimpaan versioon.",
+      "wallet": "Sovelluksesta on saatavilla uusi versio. Jos haluat jatkaa Uniswap Walletin käyttöä, päivitä se uusimpaan versioon."
+    },
+    "label": {
+      "recoveryPhrase": "Palautuslause"
+    },
+    "title": {
+      "recommendedStatus": "Uusi versio on saatavilla"
+    }
+  },
+  "globalPreferences": {
+    "title": "Globaalit mieltymykset"
+  },
+  "hero": {
+    "scroll": "Vieritä saadaksesi lisätietoja",
+    "subtitle": "Suurin onchain-markkinapaikka. Osta ja myy kryptotuotteita Ethereumissa ja yli 11 muussa ketjussa.",
+    "swap": {
+      "title": "Vaihda milloin tahansa, <br/> missä tahansa."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Lisätietoja piilotetuista NFT:istä"
+        },
+        "text": {
+          "button": "Piilotetut NFT:t ({{numHidden}})",
+          "extension": "Nämä ovat mahdollisia huijauksia ja NFT:itä, joita olet piilottanut. Voit näyttää NFT:n napsauttamalla hiiren kakkospainikkeella sitä.",
+          "mobile": "Nämä ovat mahdollisia huijauksia ja NFT:itä, joita olet piilottanut. Voit tuoda sen näkyviin painamalla pitkään NFT:tä.",
+          "title": "Piilotetut NFT:t"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Lisätietoja piilotetuista tunnuksista"
+        },
+        "text": {
+          "button": "Piilotetut merkit ({{numHidden}})",
+          "info": "Nämä ovat mahdollisia huijauksia, pieniä saldoja ja piilotettuja tunnuksia. Piilotetut rahakkeet eivät sisälly lompakkosi kokonaissaldoon.",
+          "title": "Piilotetut merkit"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Vastaanota tunnuksia tai NFT:itä",
+        "description": {
+          "default": "Kun hyväksyt, vaihdat tai siirrät rahakkeita tai NFT:itä, tapahtumasi näkyvät täällä.",
+          "external": "Kun tämä lompakko suorittaa tapahtumia, ne näkyvät täällä."
+        },
+        "title": "Ei toimintaa vielä"
+      },
+      "error": {
+        "load": "Toimintoa ei voitu ladata"
+      },
+      "title": "Toiminta"
+    },
+    "banner": {
+      "offline": "Olet offline-tilassa",
+      "testnetMode": {
+        "nav": "Olet testiverkkotilassa. Kytke tämä pois päältä asetuksista.",
+        "outage": {
+          "monad": {
+            "description": "Pääsy Monad Testnetiin on väliaikaisesti keskeytetty Uniswap-liitännän kautta verkon vakausongelmien vuoksi. Tämä ei vaikuta Testnet-rahastoihin. Käyttöoikeus palautetaan, kun ongelmat on ratkaistu.",
+            "title": "Monad keskeytettiin väliaikaisesti"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Napauta tätä tutkiaksesi tuhansia tokeneita, NFT:itä ja paljon muuta",
+      "title": "Tutustu tokeneihin"
+    },
+    "extension": {
+      "error": "Virhe ladattaessa tilejä"
+    },
+    "label": {
+      "buy": "Ostaa",
+      "for": "Osta/Myy",
+      "receive": "Vastaanottaa",
+      "send": "Lähettää",
+      "swap": "Vaihtaa"
+    },
+    "nfts": {
+      "title": "NFT:t"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Osta debit-kortilla tai pankkitilillä.",
+            "title": "Osta krypto"
+          },
+          "import": {
+            "description": "Syötä tämän lompakon palautuslause aloittaaksesi vaihtamisen ja lähettämisen.",
+            "title": "Tuo lompakko"
+          },
+          "receive": {
+            "description": "Siirto toiselta lompakolta tai tililtä.",
+            "title": "Vastaanota krypto"
+          }
+        },
+        "description": "Kun tämä lompakko ostaa tai vastaanottaa rahakkeita, ne näkyvät täällä.",
+        "title": "Ei vielä tunnuksia",
+        "welcome": {
+          "description": "Sinulla näyttää olevan uusi lompakko. Rahoitetaan se ennen kuin teet ensimmäisen vaihtosi."
+        }
+      },
+      "error": {
+        "fetch": "Token-saldojen nouto epäonnistui",
+        "load": "Tunnussaldoa ei voitu ladata"
+      },
+      "title": "Tokenit"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Tililtä",
+        "description": "Rahoita lompakkoosi siirtämällä kryptoa toisesta lompakosta tai tililtä",
+        "title": "Vastaanota krypto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Tämä lompakko on vain näkyvissä"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Vaihda tai tarjoa likviditeettiä Uniswap-protokollalla",
+      "title": "Uniswap-käyttöliittymä"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Rakenna seuraavan sukupolven avoimia sovelluksia ja työkaluja.",
+    "connectWithUs": "Ota yhteyttä meihin",
+    "devDocs": "Kehittäjien dokumentit",
+    "directToDeFi": "Mene suoraan DeFiin",
+    "followOnX": "Seuraa @Uniswap X:ssä saadaksesi viimeisimmät päivitykset",
+    "protocolDescription": "Uniswap-tuotteet saavat virtansa Uniswap-protokollasta. Protokolla on suurin onchain-markkinapaikka, jonka viikoittainen volyymi on miljardeja dollareita tuhansissa Ethereumin tokeneissa ja 7+ lisäketjussa.",
+    "provideLiquidity": {
+      "message": "Tarjoa likviditeettiä Uniswap-protokollan pooleille ja ansaitse maksuja swapeista."
+    },
+    "swapSimple": "Vaihto on tehty yksinkertaiseksi. Käytä tuhansia tokeneita yli 11 ketjussa.",
+    "teamInsights": "Näkemyksiä ja uutisia tiimiltä",
+    "trusted": "Miljoonien luottamiin"
+  },
+  "language": {
+    "afrikaans": "afrikaans",
+    "arabic": "arabia",
+    "catalan": "katalaani",
+    "chineseSimplified": "Yksinkertaistettu kiina",
+    "chineseTraditional": "Kiinalainen perinteinen",
+    "czech": "Tšekki",
+    "danish": "tanskalainen",
+    "dutch": "Hollannin kieli",
+    "english": "Englanti",
+    "finnish": "suomalainen",
+    "french": "Ranskan kieli",
+    "greek": "kreikkalainen",
+    "hebrew": "heprealainen",
+    "hindi": "hindi",
+    "hungarian": "Unkari",
+    "indonesian": "Indonesialainen",
+    "italian": "italialainen",
+    "japanese": "japanilainen",
+    "korean": "korealainen",
+    "malay": "malaiji",
+    "norwegian": "norjalainen",
+    "polish": "Kiillottaa",
+    "portuguese": "Portugalin kieli",
+    "romanian": "romanialainen",
+    "russian": "Venäjän kieli",
+    "serbian": "serbia",
+    "spanishLatam": "espanja (Latinalainen Amerikka)",
+    "spanishSpain": "espanja (Espanja)",
+    "spanishUs": "espanja (USA)",
+    "swahili": "swahili",
+    "swedish": "ruotsinkielinen",
+    "turkish": "turkkilainen",
+    "ukrainian": "ukrainalainen",
+    "urdu": "urdu",
+    "vietnamese": "vietnam"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 avoin raja",
+      "count_other": "{{count}} avoimet rajat"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Rajahintasi on {{percentage}}% korkeampi kuin markkinahinta. Jatka säätämällä rajahintaasi.",
+        "title": "Ostaminen {{tokenSymbol}} markkinahinnan yläpuolella"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Emme pysty laskemaan nykyistä markkinahintaa. Vältä markkinahinnan alemman tilauksen lähettäminen tarkistamalla verkkoyhteytesi ja yrittämällä uudelleen.",
+        "title": "Markkinahinta ei saatavilla"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Rajahintasi on {{percentage}}% alhaisempi kuin markkinahinta. Säädä rajahintaasi jatkaaksesi.",
+        "title": "Myydään {{tokenSymbol}} alle markkinahinnan"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Vain Mainnet-tunnukset ovat saatavilla rajoituksille."
+        },
+        "uniswapx": "Limiitit eivät välttämättä toimi tarkasti, kun rahakkeet saavuttavat määritetyn hinnan. <link />"
+      }
+    },
+    "learnMore": "Lue lisää rajoituksista",
+    "price": {
+      "input": {
+        "label": "Kun 1 <tokenSymbol /> on arvoinen"
+      },
+      "label": "Rajahinta"
+    },
+    "selectSupportedTokens": "Valitse tuetut tunnukset"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Syötä koukun osoite"
+      }
+    },
+    "learnMoreLabel": "Tutustu likviditeetin tarjoamiseen",
+    "notEnough": {
+      "label": "Likviditeetti ei riitä tarkan USD-arvon näyttämiseen."
+    },
+    "provideOnProtocols": "Likviditeetin tarjoaminen eri protokollilla"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likviditeetti: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Lisää likviditeettiä pooleihin{{version}} Uniswapissa"
+    },
+    "positions": {
+      "closed": {
+        "title": "Suljetut paikat"
+      },
+      "page": {
+        "title": "Hallitse {{quoteSymbol}}/{{baseSymbol}} poolin likviditeettiä Uniswapissa",
+        "version": {
+          "description": "Tarkastele aktiivisia {{version}} likviditeettipositioitasi. Lisää uusia paikkoja.",
+          "title": "Hallitse poolin likviditeettiä{{version}} Uniswapissa"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Sallittu",
+    "allowLpMigration": "Salli LP-tunnuksen siirto",
+    "connectAccount": "Sinun on yhdistettävä tili, joka omistaa tämän aseman.",
+    "connectWallet": "Yhdistä lompakkoon nähdäksesi V2-likviditeettisi.",
+    "contract": "Uniswap-siirtosopimus",
+    "firstLP": "Olet ensimmäinen likviditeetin tarjoaja tälle Uniswap V3 -poolille. Likviditeettisi siirtyy nykyiseen {{source}} hintaan.",
+    "highGasCost": "Transaktiokustannukset ovat paljon korkeammat, koska ne sisältävät poolin luomiseen tarvittavan kaasun.",
+    "invalidRange": "Valittu alue on virheellinen. Vähimmäishinnan on oltava alempi kuin enimmäishinta.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP-tunnukset",
+    "migrating": "Muutto",
+    "missingV2Position": "Etkö näe yhtä v2-paikoistasi? <link>Tuo se.</link>",
+    "noV2Liquidity": "V2-likviditeettiä ei löytynyt.",
+    "positionNoFees": "Positiosi ei ansaitse maksuja eikä sitä käytetä kaupoissa ennen kuin markkinahinta siirtyy vaihteluvälillesi.",
+    "priceDifference": "Hintaero: ",
+    "priceWarning": "Sinun tulee tallettaa vain likviditeettiä Uniswap V3:een hintaan, jonka uskot oikeaksi. <br /> Jos hinta vaikuttaa väärältä, voit joko vaihtaa hintaa tai odottaa, että joku muu tekee niin.",
+    "refund": "Vähintään {{amtA}} {{symA}} ja {{amtB}} {{symB}} hyvitetään lompakkoosi valitun hintaluokan vuoksi.",
+    "selectFeeTier": "Valitse maksutaso",
+    "setRange": "Aseta hintaluokka",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Hinta:",
+    "v2Description": "Tämä työkalu siirtää {{source}} likviditeettisi turvallisesti V3:een. Prosessi on täysin luotettava <0>Uniswap-siirtosopimuksen ansiosta</0> ↗",
+    "v2Instruction": "Napsauta kunkin alla näytetyn poolin kohdalla Siirrä poistaaksesi likviditeettisi Uniswap V2:sta ja talleta se Uniswap V3:een.",
+    "v2Title": "Siirrä V2-likviditeetti",
+    "v3Price": "V3 {{sym}} Hinta:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Virheellinen hintasyöttö"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Hanki Uniswap Wallet -sovellus"
+      },
+      "title": "Uniswap: Crypto & NFT Wallet"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "MoonPay USA LLC:n tuottama Fiat onramp",
+    "restricted": {
+      "region": "Moonpay ei ole saatavilla joillakin alueilla. Napsauta saadaksesi lisätietoja."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Luo tili"
+    },
+    "logIn": {
+      "button": "Kirjaudu sisään"
+    },
+    "signIn": {
+      "button": "Kirjaudu sisään"
+    },
+    "signInOrConnect": {
+      "title": "Kirjaudu sisään tai yhdistä"
+    },
+    "signUp": {
+      "button": "Rekisteröidy"
+    },
+    "tabs": {
+      "createPosition": "Luo asema",
+      "viewPositions": "Näytä paikat"
+    }
+  },
+  "network": {
+    "lostConnection": "Olet ehkä menettänyt verkkoyhteytesi.",
+    "mightBeDown": "{{network}} saattaa olla poissa juuri nyt tai olet ehkä menettänyt verkkoyhteytesi.",
+    "warning": "Verkkovaroitus"
+  },
+  "nft": {
+    "addToBag": "Lisää kassiin",
+    "authorsCollectionOnUni": "{{name}}:n NFT-kokoelma Uniswapissa",
+    "bag": "Laukku",
+    "blockedCollection": "Tämä kokoelma on estetty",
+    "blockedOpenSea": "Estetty OpenSeassa",
+    "buyTransferNFTToStart": "Aloita ostamalla tai siirtämällä NFT:t tähän lompakkoon.",
+    "buyTransferTokensToStart": "Aloita ostamalla tai siirtämällä rahakkeita tähän lompakkoon.",
+    "card": {
+      "notAvailable": "Sisältöä ei ole <br /> vielä saatavilla"
+    },
+    "chainSupportComingSoon": "{{chainName}} tuki tulossa pian",
+    "collectionOnUni": "NFT-kokoelma Uniswapissa",
+    "collectonOnAddress": "NFT-kokoelma Uniswapissa - {{address}}",
+    "complete": "Saattaa loppuun!",
+    "editListings": "Muokkaa listauksia",
+    "event": "Tapahtuma",
+    "explore": "Tutustu NFT:hen",
+    "learnWhy": "Opi miksi",
+    "list": {
+      "header": {
+        "lastPrice": "Kestää"
+      },
+      "title": "Listaa NFT:t"
+    },
+    "listedSignificantly_one": "Yksi NFT on listattu {{percentage}} kokoelman pohjahinnan alapuolelle. Oletko varma, että haluat jatkaa?",
+    "listedSignificantly_other": "{{count}} NFT:t on listattu huomattavasti kokoelman pohjahinnan alapuolella. Oletko varma, että haluat jatkaa?",
+    "listForSale": "Lista myytävänä",
+    "lowPrice": "Alhainen listaushinta",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} maksut"
+      }
+    },
+    "maxFees": "Max maksut",
+    "maxRoyalties": "Maksimi tekijän rojaltit",
+    "noItems": "Ei näytettäviä kohteita",
+    "noneAtAddress": "Tässä osoitteessa ei ole keräysomaisuutta",
+    "noPools": "Ei vielä uima-altaita",
+    "notListed": "Ei listattu",
+    "proceedsIfSold": "Tuotto jos myydään",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Listattu jo osoitteessa {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} alle pohjahinnan."
+        }
+      }
+    },
+    "refundsInEth": "Hyvitykset puuttuvista tuotteista maksetaan ETH:ssa",
+    "removeFromBag": "Poista pussista",
+    "reportSpam": "Ilmoita roskapostiksi",
+    "returnToExplore": "Palaa NFT Exploreen",
+    "returnToMy": "Palaa kohtaan My NFT",
+    "setPrices": "Aseta hinnat jatkaaksesi",
+    "startListing": "Aloita listaus",
+    "successListed": "Listattu onnistuneesti",
+    "unavailableToList": "Ei saatavilla listalle",
+    "whyTransaction": {
+      "reason": "NFT:n listaus edellyttää kertaluonteisen kauppapaikan hyväksynnän jokaiselle NFT-kokoelmalle."
+    },
+    "willAppearHere": "Onchain-tapahtumasi ja kryptoostoksesi näkyvät täällä.",
+    "wishGranted": "Uniswap on täyttänyt toiveesi!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Hyväksy kokoelma",
+        "approve_other": "Hyväksy kokoelmat",
+        "sign_one": "Merkitse listaus",
+        "sign_other": "Merkitse listat"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} max"
+      }
+    },
+    "my": "Omat NFT:t",
+    "noneYet": "Ei vielä NFT:tä",
+    "sell": "Myy NFT:t"
+  },
+  "notFound": {
+    "oops": "Oho, vie minut takaisin Swapiin"
+  },
+  "notice": {
+    "uk": {
+      "label": "Iso-Britannian vastuuvapauslauseke:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} piilotettu",
+      "unhidden": "{{assetName}} piilotettu"
+    },
+    "copied": {
+      "address": "Osoite kopioitu",
+      "calldata": "Puhelutiedot kopioitu",
+      "contractAddress": "Sopimuksen osoite kopioitu",
+      "failed": "Kopioiminen leikepöydälle epäonnistui",
+      "image": "Kuva kopioitu",
+      "nftUrl": "NFT-URL kopioitu",
+      "tokenUrl": "Tokenin URL-osoite kopioitu",
+      "transactionId": "Tapahtumatunnus kopioitu",
+      "unitag": "Käyttäjätunnus kopioitu"
+    },
+    "countryChange": "Vaihdettu arvoon {{countryName}}",
+    "network": {
+      "changed": "Vaihdettu arvoon {{network}}"
+    },
+    "passwordChanged": "Salasana vaihdettu",
+    "restore": {
+      "success": "Lompakko kunnostettu!"
+    },
+    "send": {
+      "network": "Lähetetään {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Ilmoitettu"
+      }
+    },
+    "swap": {
+      "network": "Vaihto {{network}}",
+      "pending": {
+        "swap": "Vaihto odottaa",
+        "unwrap": "Purkaminen odottaa",
+        "wrap": "Wrap odottaa"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Peruutettu {{currencySymbol}} hyväksy.",
+        "fail": "{{currencySymbol}} :n hyväksyminen käytettäväksi kanssa {{address}}epäonnistui.",
+        "success": "Hyväksytty {{currencySymbol}} käytettäväksi {{address}}kanssa."
+      },
+      "pending": "Tapahtuma vireillä",
+      "swap": {
+        "canceled": "{{inputCurrencySymbol}}-{{outputCurrencySymbol}} vaihto peruutettu.",
+        "expired": "{{inputCurrencyAmountWithSymbol}} {{outputCurrencyAmountWithSymbol}} -vaihtosopimukselle vanhentunut.",
+        "fail": "{{inputCurrencyAmountWithSymbol}} vaihtaminen {{outputCurrencyAmountWithSymbol}}:ksi epäonnistui.",
+        "success": "Vaihdettu {{inputCurrencyAmountWithSymbol}} kohteeksi {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Peruutettu {{tokenNameOrAddress}} lähetys",
+        "fail": "{{tokenNameOrAddress}} lähettäminen numeroon {{walletNameOrAddress}}epäonnistui",
+        "received": "Vastaanotettu {{tokenNameOrAddress}} kohteesta {{walletNameOrAddress}}",
+        "success": "Lähetettiin {{tokenNameOrAddress}} numeroon {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Tapahtuman suorittaminen kohteen {{addressOrEnsName}}kanssa epäonnistui",
+          "short": "Tapahtuma epäonnistui"
+        },
+        "success": {
+          "full": "Kauppa käytiin {{addressOrEnsName}}:n kanssa",
+          "short": "Kauppa vahvistettu"
+        }
+      },
+      "unwrap": {
+        "canceled": "Peruutettu {{inputCurrencySymbol}} purkaminen.",
+        "fail": "{{inputCurrencyAmountWithSymbol}}purkaminen epäonnistui.",
+        "success": "Purettu {{inputCurrencyAmountWithSymbol}} ja vastaanotettu {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Peruutettu {{inputCurrencySymbol}} wrap.",
+        "fail": "Kääriminen {{inputCurrencyAmountWithSymbol}}epäonnistui.",
+        "success": "Kääritty {{inputCurrencyAmountWithSymbol}} ja vastaanotettu {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Lähetys odottaa"
+    },
+    "walletConnect": {
+      "confirmed": "Tapahtuma vahvistettiin {{dappName}}",
+      "connected": "Yhdistetty",
+      "disconnected": "Yhteys katkaistu",
+      "failed": "Tapahtuma epäonnistui kanssa {{dappName}}",
+      "networkChanged": {
+        "full": "Vaihdettu arvoon {{networkName}}",
+        "short": "Kytketyt verkot"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Jatka Uniswap-laajennuksesta",
+      "title": "Menestys!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Suosittelemme, että kirjoitat tämän paperille ja säilytät sen turvallisessa paikassa, kuten tallelokerossa.",
+        "displayWarning": {
+          "description": "Lue seuraava huolellisesti ennen kuin jatkat.",
+          "note": {
+            "access": "Tämä palautuslause antaa sinulle täyden pääsyn lompakkoosi ja varoihin",
+            "secure": "Katso tämä yksityisesti äläkä jaa sitä kenenkään kanssa",
+            "storage": "Kirjoita se muistiin ja säilytä se turvallisessa paikassa"
+          },
+          "title": "Joitakin tärkeitä asioita tietää"
+        },
+        "error": "Virheellinen tai väärin kirjoitettu sana",
+        "placeholder": "Salasana",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} valmis",
+        "selectedWordPlaceholder": "Valitse sana",
+        "subtitle_one": "Mikä on palautuslauseesi {{count}}st sana?",
+        "subtitle_two": "Mikä on {{count}}:n sana palautuslauseessasi?",
+        "subtitle_few": "Mikä on {{count}}kolmas sana palautuslausekkeessasi?",
+        "subtitle_other": "Mikä on palautuslauseesi {{count}}:s sana?",
+        "title": "Varmistetaan, että olet tallentanut sen oikein"
+      },
+      "option": {
+        "badge": {
+          "quick": "Nopea"
+        },
+        "cloud": {
+          "description": "Varmuuskopioi lompakkosi kautta {{cloudProviderName}}, suojattu palautussalasanalla.",
+          "title": "Aseta palautussalasana"
+        },
+        "manual": {
+          "description": "Kirjoita 12 salaista sanaasi paperille ja säilytä ne turvallisessa paikassa.",
+          "title": "Kirjoita palautuslause muistiin"
+        }
+      },
+      "reminder": {
+        "description": "Lompakon varmuuskopioiminen varmistaa, että voit aina palauttaa omaisuutesi, jos kadotat puhelimesi tai hankit uuden laitteen.",
+        "title": "On aika varmuuskopioida lompakkosi",
+        "warning": {
+          "description": "Jos et määritä varmuuskopiointitapaa, et voi palauttaa lompakkoasi, jos kadotat puhelimesi, poistat sovelluksen tai hankit uuden laitteen.",
+          "title": "Saatat menettää rahasi"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Jos unohdat sen, emme voi nollata sitä puolestasi. Kirjoita se muistiin turvalliseen paikkaan tai säilytä se turvallisesti salasanan hallinnassa.",
+          "disclaimer": "Ymmärrän, että Uniswap Labs ei voi nollata palautussalasanaani.",
+          "title": "On tärkeää tallentaa tämä salasana"
+        },
+        "manual": {
+          "description": "Varmista, että kirjoitit palautuslauseen oikein ja että sinulla on turvallinen paikka säilyttää se.",
+          "disclaimer": "Ymmärrän, että Uniswap Labs ei voi palauttaa lompakkoani, jos kadotan tämän.",
+          "title": "Ennen kuin lopetat..."
+        }
+      },
+      "subtitle": "Näin saat takaisin lompakkosi, jos poistat sovelluksen tai kadotat laitteesi.",
+      "title": {
+        "existing": "Varmuuskopioi lompakkosi",
+        "new": "Valitse varmuuskopiointitapa"
+      },
+      "view": {
+        "disclaimer": "Ymmärrän, että jos kadotan palautuslauseeni, Uniswap Labs ei voi auttaa minua palauttamaan sitä.",
+        "subtitle": {
+          "message1": "Lue seuraava huolellisesti ennen kuin jatkat",
+          "message2": "Sinun on syötettävä kaikki nämä 12 salaista sanaa palauttaaksesi lompakkosi."
+        },
+        "title": "Kirjoita palautuslauseesi muistiin",
+        "warning": {
+          "message1": "Tämä palautuslause antaa sinulle täyden pääsyn lompakkoosi ja varoihin",
+          "message2": "Kirjoita se muistiin ja säilytä se turvallisessa paikassa",
+          "message3": "Katso tämä yksityisesti ja <u>älä jaa sitä kenenkään kanssa</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Sinun on syötettävä tämä palauttaaksesi varat. Jos unohdat sen, emme voi palauttaa sitä puolestasi.",
+        "title": "Vahvista palautussalasanasi"
+      },
+      "createPassword": {
+        "description": "Sinun on syötettävä tämä palauttaaksesi varat. Jos unohdat sen, emme voi palauttaa sitä puolestasi.",
+        "title": "Luo palautussalasanasi"
+      }
+    },
+    "complete": {
+      "button": "Avaa Uniswap-laajennus",
+      "description": "Lompakkosi on valmis lähettämään ja vastaanottamaan kryptomaksuja. Avaa Uniswap-laajennus alla olevalla pikakuvakkeella.",
+      "go_to_uniswap": "Siirry Uniswap-verkkosovellukseen",
+      "pin": {
+        "description": "Napsauta kiinnityskuvaketta lisätäksesi Uniswap-laajennuksen työkalupalkkiisi.",
+        "title": "Pin Uniswap-laajennus"
+      },
+      "title": "Olet valmis"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Tarvitset tätä lompakkosi lukituksen avaamiseen ja palautuslausekkeen käyttämiseen",
+        "title": {
+          "default": "Luo salasana",
+          "reset": "Nollaa salasana"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap-laajennus on yhteensopiva vain pöytätietokoneen Chromen kanssa.",
+          "title": "Chromea mobiililaitteella ei tueta (vielä)"
+        },
+        "description": "Uniswap-laajennus on tällä hetkellä yhteensopiva vain Chromen kanssa.",
+        "title": "Tätä selainta ei tueta (vielä)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Määritä palautussuunnitelma, jos kadotat puhelimesi tai hankit uuden.",
+          "title": "Varmuuskopioi lompakkosi"
+        },
+        "fund": {
+          "description": "Rahoita lompakkosi ostamalla kryptoa tai siirtämällä toiselta tililtä.",
+          "title": "Hanki ensimmäinen tunnus"
+        },
+        "label": {
+          "required": "Pakollinen",
+          "swipe": "Pyyhkäise"
+        },
+        "pushNotifications": {
+          "description": "Hanki hintahälytyksiä suosikkitunnuksistasi, markkinatrendeistäsi ja muusta.",
+          "title": "Pysy ajan tasalla"
+        },
+        "unitag": {
+          "description": "Luo henkilökohtainen web3-profiili ja jaa osoitteesi helposti ystävien kanssa.",
+          "title": "Lunasta käyttäjänimesi {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 sana on virheellinen tai kirjoitettu väärin",
+        "invalidWords_other": "{{count}} sanat ovat virheellisiä tai kirjoitettu väärin"
+      },
+      "method": {
+        "import": {
+          "message": "Kirjoita palautuslauseesi toisesta kryptolompakosta.",
+          "title": "Tuo lompakko"
+        },
+        "passkey": {
+          "message": "Synkronoi Uniswap-lompakkosi käyttämällä olemassa olevaa salasanaa.",
+          "title": "Kirjaudu sisään salasanalla"
+        },
+        "restore": {
+          "message": {
+            "android": "Lisää varmuuskopioidut lompakot Google Drive -tiliisi.",
+            "ios": "Lisää varmuuskopioidut lompakot iCloud-tiliisi."
+          },
+          "title": "Palauta lompakko"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Etkö halua mitään yllä olevista?"
+        },
+        "subtitle": "Valitse, mihin lompakkoon haluat kirjautua takaisin.",
+        "title": "Tervetuloa takaisin Uniswapiin",
+        "wallet": {
+          "button": "Näytä palautuslauseke",
+          "count_one": "+1 muu lompakko",
+          "count_other": "+{{count}} muut lompakot"
+        },
+        "warning": {
+          "caption": "Varmista, että olet varmuuskopioinut kaikki muut lompakot. Jos haluat joskus palauttaa ne, tarvitset niiden palautuslausekkeet tai vastaavat {{cloudProvider}} -varmuuskopiot.",
+          "title": "Oletko varma?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Tuo lompakko mobiilisovelluksesta QR-koodin avulla.",
+          "title": "Käytä Uniswap Mobilea"
+        },
+        "passkey": {
+          "subtitle": "Synkronoi Uniswap-lompakkosi käyttämällä olemassa olevaa salasanaa.",
+          "title": "Kirjaudu sisään salasanalla"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Kirjoita palautuslauseesi toisesta kryptolompakosta.",
+          "title": "Tuo lompakko"
+        },
+        "title": "Kirjaudu sisään tai tuo lompakko"
+      },
+      "title": "Valitse, kuinka haluat lisätä lompakkosi"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Palautuslauseeni on 12 sanaa",
+        "importing": "Tuodaan...",
+        "longPhrase": "Palautuslauseeni on pidempi"
+      },
+      "error": {
+        "invalidPhrase": "Antamasi lause on virheellinen"
+      },
+      "subtitle": "Kirjoita tai liitä 12-sanainen palautuslause",
+      "title": "Kirjoita palautuslauseesi"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Jatka suojatussa kirjautumisikkunassa."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Minulla on jo lompakko",
+        "signInOrImport": "Kirjaudu sisään tai tuo"
+      },
+      "mobileScan": {
+        "button": "Skannaa QR-koodi tuontia varten",
+        "title": "Onko sinulla Uniswap-sovellus?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Lisää olemassa oleva lompakko",
+        "create": "Luo lompakko",
+        "createAccount": "Luo tili"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "Tämä on julkinen nimi, jolla kuka tahansa voi lähettää sinulle krypton."
+      },
+      "wallet": {
+        "button": {
+          "text": "Valmis"
+        },
+        "subtitle": "Tämä lempinimi näkyy vain sinulle",
+        "title": "Anna lompakolle nimi"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Jos haluat saada ilmoituksia, ota Uniswap Walletin ilmoitukset käyttöön laitteesi asetuksista.",
+        "title": "Ilmoitusten lupa"
+      },
+      "subtitle": "Pysy ajan tasalla suosikkimerkkien tapahtumatiloista ja merkittävistä hintamuutoksista.",
+      "title": "Ota ilmoitukset käyttöön"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Tilisi on suojattu omalla suojatulla salasanavarastollasi."
+      },
+      "biometric": {
+        "scan": "Puhelin, tabletti tai selain – skannaa vain biometriset tietosi ja kirjaudut sisään."
+      },
+      "create": "Luo salasanasi",
+      "use": {
+        "recovery": {
+          "phrase": "Käytä sen sijaan palautuslauseketta"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Varmistetaan, että ymmärsit oikein. Jos kadotat tai kirjoitat sen väärin, et voi palauttaa varojasi.",
+          "default": "Jos kadotat tai kirjoitat sen väärin, et voi palauttaa varojasi."
+        },
+        "title": "Varmistetaan, että ymmärsit oikein"
+      },
+      "view": {
+        "subtitle": "Sinun on syötettävä kaikki nämä 12 salaista sanaa palauttaaksesi lompakkosi.",
+        "title": {
+          "hasPassword": "Jos unohdat salasanasi..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "olen valmis",
+          "message": "Palautuslauseesi antaa sinulle (ja kaikille, joilla se on) pääsyn varoihin. Muista pitää se omana tietonasi.",
+          "title": "Tee tämä vaihe yksityisessä paikassa"
+        },
+        "screenshot": {
+          "message": "Jokainen, joka pääsee käsiksi kuviisi, voi käyttää lompakkoasi. Suosittelemme, että kirjoitat sanasi sen sijaan ylös.",
+          "title": "Kuvakaappaukset eivät ole turvallisia"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Lue lisää lompakon turvallisuudesta",
+        "subtitle": "Käytä uutta salasanaasi lompakkosi lukituksen avaamiseen.",
+        "title": "Salasanan nollaus"
+      }
+    },
+    "scan": {
+      "error": "QR-koodin lataamisessa tapahtui virhe",
+      "otp": {
+        "error": "Lähettämäsi koodi on virheellinen tai lähettämisessä tapahtui virhe. Yritä uudelleen.",
+        "failed": "Epäonnistuneet yritykset: {{number}}",
+        "subtitle": "Tarkista 6-merkkinen koodi Uniswap-mobiilisovelluksestasi",
+        "title": "Syötä kertakoodi"
+      },
+      "subtitle": "Skannaa QR-koodi Uniswap-mobiilisovelluksella aloittaaksesi lompakkosi tuomisen.",
+      "title": "Tuo lompakko sovelluksesta",
+      "troubleScanning": {
+        "message": "Tuo palautuslausekkeen kautta",
+        "title": "Onko skannauksessa ongelmia?"
+      },
+      "wifi": "Yhdistä puhelimesi samaan WiFi-verkkoon kuin tietokoneesi."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Jos haluat käyttää biometrisiä tietoja, määritä se ensin asetuksissa",
+            "ios": "Jos haluat käyttää {{biometricsMethod}}-toimintoa, salli pääsy järjestelmäasetuksissa"
+          },
+          "title": {
+            "android": "Biometriset tiedot on poistettu käytöstä",
+            "ios": "{{biometricsMethod}} ei ole käytössä"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Ota biometriikka käyttöön",
+          "ios": "Ota {{biometricsMethod}}käyttöön"
+        },
+        "setup": "Perustaa"
+      },
+      "subtitle": {
+        "android": "Lisää ylimääräinen suojakerros vaatimalla biometrisiä tietoja tapahtumien lähettämiseen.",
+        "ios": "Lisää ylimääräinen suojaustaso vaatimalla {{biometricsMethod}} tapahtumien lähettämiseen."
+      },
+      "title": "Suojaa lompakkosi"
+    },
+    "selectWallets": {
+      "error": "Osoitteita ei voitu ladata",
+      "title": {
+        "default": "Valitse tuotavat lompakot",
+        "error": "Virhe lompakoiden tuonnissa"
+      }
+    },
+    "termsOfService": "Jatkamalla hyväksyn<highlightTerms> käyttöehdot </highlightTerms>ja<highlightPrivacy> tietosuojakäytännön</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Mikä on palautuslause?"
+      }
+    },
+    "wallet": {
+      "continue": "Pidetään se turvassa",
+      "defaultName": "Lompakko {{number}}",
+      "description": {
+        "full": "Tämä on henkilökohtainen tilasi tokeneille, NFT:lle ja kaikille kaupoillesi. Viimeistele sen määrittäminen pitääksesi rahasi turvassa."
+      },
+      "title": "Tervetuloa uuteen lompakkoosi"
+    },
+    "welcome": {
+      "subtitle": "Viimeistetään lompakon asettaminen.",
+      "title": "Tervetuloa!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Voit silti vaihtaa ja tarjota likviditeettiä tässä ketjussa ilman ongelmia."
+    },
+    "title": "{{versionName}} palaa pian"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Onko sinulla ongelmia salasanasi käytössä tai käytössä? Saat apua Uniswap-tuesta.",
+        "title": "Apua salasanojen kanssa"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 mahdollistaa tunnuksen hyväksyntöjen jakamisen ja hallinnan eri sovelluksissa."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktiivinen punkkialue",
+    "addAs": "Lisää muodossa {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Vuosittainen 1 päivän maksun perusteella"
+    },
+    "aprText": "Pool APR",
+    "balances": "Allas saldot",
+    "closedCTA": {
+      "description": "Näet ne käyttämällä sivun yläreunassa olevaa suodatinta.",
+      "title": "Etsitkö suljettuja työpaikkojasi?"
+    },
+    "collectAs": "Kerää muodossa {{nativeWrappedSymbol}}",
+    "collectFees": "Kerää maksuja",
+    "create": {
+      "info": "Valintasi luo uuden likviditeettipoolin, joka voi heikentää alkuperäistä likviditeettiä ja lisätä volatiliteettia. Harkitse lisäämistä olemassa olevaan pooliin näiden riskien minimoimiseksi."
+    },
+    "createdPosition": {
+      "cancelled": "Aseman luonti peruutettu",
+      "failed": "Aseman luominen epäonnistui"
+    },
+    "details": "Altaan tiedot",
+    "earnings": {
+      "empty": "Sinulla ei ole vielä tuloja"
+    },
+    "explorers": "Tutkijat",
+    "import": {
+      "link": {
+        "description": "Joitakin v2-paikkoja ei näytetä automaattisesti."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Joitakin v2-paikkoja ei näytetä automaattisesti. Valitse merkkipari tuodaksesi ja tarkastellaksesi sijaintiasi."
+          }
+        }
+      },
+      "success": "Allas tuotu"
+    },
+    "incentives": {
+      "administeredRewards": "Likviditeetin lisäämisestä maksettavia palkkioita hallinnoi Uniswap-säätiö.",
+      "collect": "Kerätä",
+      "collectedRewards": "Kerätyt palkinnot",
+      "collectFailed": "Keräys epäonnistui, yritä uudelleen.",
+      "collectFailedNoRetry": "Palkintojen kerääminen epäonnistui.",
+      "collectingRewards": "Palkintojen kerääminen",
+      "collectRewards": "Kerää palkintoja",
+      "collectRewardsCancelled": "Kerää peruutetut palkinnot",
+      "eligible": "Tukikelpoisilla poolilla on merkkipalkintoja, jotta voit ansaita enemmän",
+      "rewardsEarned": "Palkinnot ansaittu",
+      "uni": {
+        "description": "Ansaitse UNI-palkintoja tarjoamalla likviditeettiä tukikelpoisille pooleille",
+        "findMore": "Löydä lisää altaita UNI-palkintoilla"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Palkintoja ei voitu noutaa. Tämä saattaa johtua verkko-ongelmasta. Yritä ladata sivu uudelleen."
+        }
+      }
+    },
+    "info": "Allas tiedot",
+    "limitFluctuation": {
+      "warning": "Huomaa, että rajoitusten toteutus voi vaihdella reaaliaikaisten markkinoiden vaihteluiden ja Ethereum-verkon ruuhkautumisen mukaan. Limiitit eivät välttämättä toimi tarkasti, kun merkit saavuttavat määritetyn hinnan."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Tapahtumaasi vaadittavien tietojen noutamisessa tapahtui virhe."
+        }
+      },
+      "outOfSync": {
+        "message": "Tämän poolin hinnat vaihtelevat valittujen rahakkeiden markkinahintojen mukaan. Säädä hintaluokkaasi vastaavasti tai odota, että pooli tasapainottuu tappioiden välttämiseksi."
+      }
+    },
+    "maxPrice": "Max hinta",
+    "migrateLiquidity": "Siirrä likviditeettiä",
+    "migrateLiquidityDisabledTooltip": "Tämä ketju ei tue v4-likviditeettipooleja.",
+    "migrateToV4": "Siirrä versioon 4",
+    "minPrice": "Min hinta",
+    "newPosition": {
+      "plus": "+ Uusi asema",
+      "title": "Uusi asema"
+    },
+    "newSpecificPosition": "Uusi {{symbol}} paikka",
+    "openPosition": {
+      "cta": "Lisää likviditeettiä pooliin ja katso positiot täältä"
+    },
+    "openToStart": "Aloita avaamalla uusi työpaikka tai luomalla pooli.",
+    "percent": "{{pct}}% poolista",
+    "pooled": "Yhdistetty {{sym}}:",
+    "position": "asema",
+    "positions": {
+      "title": "Sinun asemasi",
+      "transaction": {
+        "settings": "Tapahtuma-asetukset"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "USD-arvo ei ole tällä hetkellä saatavilla tälle positiolle. Katso talletettujen token-summien sijaintitiedot."
+      }
+    },
+    "priceRange": "Hintaluokka",
+    "refresh": {
+      "prices": "Päivitä hinnat"
+    },
+    "removeLiquidity": "Poista likviditeetti",
+    "rewardAPR": {
+      "percent": "{{pct}} palkinto huhtikuu"
+    },
+    "rewards": "Palkinnot",
+    "rewardsPool": {
+      "label": "Pool-merkit palkintopoolissa:"
+    },
+    "selectPair": "Valitse pari",
+    "share": {
+      "label": "Oma uima-allasosuutesi:"
+    },
+    "specificPosition": "{{symbol}} sijainti",
+    "tokenPair": "Token-pari",
+    "top": {
+      "tvl": "TVL:n parhaat uima-altaat"
+    },
+    "totalAPR": "Todellinen vuosikorko yhteensä",
+    "totalTokens": "Poolitunnuksesi yhteensä:",
+    "uncollectedFees": "Perintämättömät maksut",
+    "v2": "v2 poolit",
+    "v3": "v3 poolit",
+    "viewPools": "Katso altaat",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Nosta kuin {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 poolit, jotka vastaavat parivalintaasi."
+      },
+      "notFound": {
+        "description": "Vastaavia v2-poolia ei löytynyt. Tarkista token-valintasi ja varmista, että olet yhteydessä oikeaan lompakkoon."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Tutustu uima-altaisiin"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Koukut ovat edistyksellinen ominaisuus, jonka avulla poolit voivat olla vuorovaikutuksessa älykkäiden sopimusten kanssa, mikä vapauttaa erilaisia ominaisuuksia. Ole varovainen lisääessäsi koukkuja, koska jotkut niistä voivat olla haitallisia tai aiheuttaa ei-toivottuja seurauksia."
+    },
+    "addingHook": {
+      "disclaimer": "Koukkujen lisäämisellä voi olla tahattomia seurauksia. Tee tutkimus ja jatka omalla vastuullasi.",
+      "hideProperties": "Piilota ominaisuudet",
+      "invalidAddress": "Anna kelvollinen koukun osoite",
+      "viewProperties": "Näytä ominaisuudet"
+    },
+    "create": {
+      "invalidPrice": "Virheellinen hinta",
+      "invalidRange": "Virheellinen alue",
+      "modal": {
+        "header": "Aseman luominen"
+      }
+    },
+    "currentValue": "Nykyisen sijainnin arvo",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "Syötetty alkuhinta on {{value}}% pienempi kuin markkinahinta ja voi johtaa varojen menetykseen. Haluatko jatkaa?",
+            "more": "Syötetty alkuhinta on {{value}}% korkeampi kuin markkinahinta ja voi johtaa varojen menetykseen. Haluatko jatkaa?"
+          },
+          "title": "Suuri hintaero markkinoiden kanssa"
+        }
+      },
+      "description": "Määritä maksuvalmiusosuutesi tunnusmäärät."
+    },
+    "depositedCurrency": "Talletettu {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Luo v2-sijainti"
+      }
+    },
+    "hook": {
+      "disclaimer": "Ymmärrän tämän koukun lisäämiseen liittyvät mahdolliset riskit.",
+      "donateWarning": "Tämä lippu saattaa aiheuttaa muutoksia ansaittuihin maksuihin.",
+      "liquidityWarning": "Tämä lippu voi saada poolin estämään uuden likviditeetin lisäämisen. Tapahtumasi voi peruuttaa.",
+      "removeWarning": "Saattaa saada varojasi lukittumaan tai estää sinua keräämästä maksuja.",
+      "swapWarning": "Tämän lipun avulla likviditeetin tarjoajat voivat helpommin hyödyntää Just-In-Time-likviditeettiä, mikä voi johtaa alhaisempiin palkkioihin.",
+      "warningHeader": "Tärkeää: koukkuriskit tunnistettu",
+      "warningInfo": "Olemme tunnistaneet tämän koukun mahdolliset riskit. Varmista, että ymmärrät, kuinka tämä koukku toimii, ennen kuin päätät jatkaa."
+    },
+    "increase": {
+      "fot": "Likviditeetin lisäämistä {{token}} ja muille \"siirtomaksu\" -tunnuksille ei tueta."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% vähemmän kuin markkinahinta",
+        "positive": "{{ value }}% enemmän kuin markkinahinta"
+      },
+      "info": "Kun luot uutta poolia, sinun on asetettava molempien tokenien aloituskurssi. Tämä kurssi heijastaa alkuperäistä markkinahintaa.",
+      "set": "Aseta alkuhinta",
+      "useMarketPrice": "Käytä markkinahintaa"
+    },
+    "migrate": {
+      "liquidity": "Kun siirrät paikkoja, et voi vaihtaa merkkiparia, mutta voit lisätä koukun toiminnallisuuden parantamiseksi.",
+      "v4unsupportedChain": "Tätä ketjua ei tueta v4-poolissa."
+    },
+    "new": {
+      "protocol": "Uusi {{protocol}} paikka"
+    },
+    "notFound": {
+      "description": "Tämän paikan tiedot eivät ole saatavilla. Tarkista, että olet yhteydessä oikeaan lompakkoon."
+    },
+    "protocol": "{{protocol}} sijainti",
+    "provide": {
+      "liquidity": "Valitse rahakkeet, joille haluat tarjota likviditeettiä. Voit valita tunnuksia kaikista tuetuista verkoista.",
+      "liquidityDescription": {
+        "creatingPool": "Täyden likviditeetin asettaminen poolia luotaessa varmistaa jatkuvan markkinaosuuden kaikilla mahdollisilla hinnoilla, mikä tarjoaa yksinkertaisuuden, mutta mahdollistaa suuremman pysyvän tappion.",
+        "custom": "Mukautetun valikoiman avulla voit keskittää likviditeettisi tiettyihin hintarajoihin, mikä parantaa pääoman tehokkuutta ja palkkiotuottoja, mutta vaatii aktiivisempaa hallintaa."
+      },
+      "outOfRange": {
+        "closePosition": "Sulje asento",
+        "description": "Tämän sijainnin aluetta ei voi säätää siirron aikana. Aseta uusi alue sulkemalla tämä sijainti ja avaamalla uusi v4-sijainti.",
+        "title": "Olet siirtämässä kantaman ulkopuolista sijaintia"
+      }
+    },
+    "removeHook": "Irrota koukku",
+    "resetDescription": "Tokenisi, hinta- ja valikoimavalinnasi nollataan.",
+    "setRange": {
+      "inputsBelow": "Käytä alla olevia syötteitä asettaaksesi alueesi."
+    },
+    "step": {
+      "deposit": "Syötä talletussummat",
+      "price": "Aseta alkuhinta ja talletussummat",
+      "range": "Aseta hintaluokka ja talletussummat",
+      "select": "Valitse tunnuspari ja maksut"
+    },
+    "value": "Aseman arvo",
+    "valueUnavailable": "USD-arvo ei ole tällä hetkellä saatavilla tälle positiolle. Katso talletettujen token-summien sijaintitiedot.",
+    "wrapped": {
+      "unwrap": "Avaa paketti {{wrappedToken}}",
+      "warning": {
+        "info": "Avaa {{wrappedToken}} ja talleta {{nativeToken}} tarjotaksesi kustannustehokkaampaa ja tehokkaampaa likviditeettiä."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Liitä lompakkosi nähdäksesi nykyiset sijaintisi."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Sovellus kirjaa anonymisoituja käyttötilastoja parantaakseen ajan myötä.",
+    "autoRouter": "Sovellus hakee optimaalisen kauppareitin Uniswap Labs -palvelimelta.",
+    "infura": "Sovellus hakee ketjun tietoja ja muodostaa sopimuskutsuja Infura API:lla.",
+    "thirdPartyApis": "Tämä sovellus käyttää seuraavia kolmannen osapuolen sovellusliittymiä:",
+    "trm": "Sovellus kerää turvallisesti lompakkosi osoitteesi ja jakaa sen TRM Labs Inc:n kanssa riskien ja vaatimustenmukaisuuden vuoksi.",
+    "uniswaptos": "Uniswap Labsin käyttöehdot"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 sovellus yhdistetty",
+      "connections_other": "{{count}} sovelluksia yhdistetty"
+    },
+    "error": {
+      "camera": {
+        "message": "Jos haluat skannata koodin, salli kameran käyttöoikeus järjestelmäasetuksissa",
+        "title": "Kamera on poissa käytöstä"
+      },
+      "none": "QR-koodia ei löytynyt"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Skannaa QR-koodi",
+        "show": "Näytä QR-koodini"
+      },
+      "error": {
+        "message": "Varmista, että skannaat kelvollisen Ethereum-osoitteen QR-koodin, ennen kuin yrität uudelleen.",
+        "title": "Virheellinen QR-koodi"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Viestiä ei löytynyt."
+      },
+      "method": {
+        "default": "Pyyntö osoitteesta {{dappNameOrUrl}}",
+        "signature": "Allekirjoituspyyntö {{dappNameOrUrl}}",
+        "transaction": "Tapahtumapyyntö {{dappNameOrUrl}}"
+      },
+      "withAmount": "Saako {{dappName}} käyttää enintään<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Saako {{dappName}} käyttää {{currencySymbol}}-tunnusta?"
+    },
+    "status": {
+      "connecting": "Yhdistetään...",
+      "loading": "Ladataan..."
+    },
+    "title": "Skannaa QR-koodi",
+    "wallet": {
+      "networks": "Tuetut verkot",
+      "title": "Voit lähettää ja vastaanottaa tunnuksia ja NFT:itä kaikissa {{numOfNetworks}} tuetuissa verkoissamme."
+    }
+  },
+  "range": {
+    "outOfView": "Alue poissa näkyvistä"
+  },
+  "removeLiquidity": {
+    "pooled": "Yhdistetty {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Tämä antaa Uniswap-protokollalle pääsyn tunnukseesi kaupankäyntiä varten."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Jos saatavilla, kokoaa likviditeettilähteitä parempiin hintoihin ja kaasuvapaisiin vaihtosopimuksiin.",
+    "cheapest": {
+      "v4": "Uniswap-asiakas valitsee optimaalisen kauppavaihtoehdon hinnan ja verkkokustannusten perusteella."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Vanhentunut",
+      "subtitle": "Kirjoita tämä koodi Uniswap-laajennukseen. Palautuslauseesi salataan ja siirretään turvallisesti.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Uusi koodi {{hours}}h {{minutes}}m {{seconds}}s kuluttua",
+          "minutes": "Uusi koodi {{minutes}}m {{seconds}}s:ssä",
+          "seconds": "Uusi koodi {{seconds}}s kuluttua"
+        }
+      },
+      "title": "Kumoa kertakoodin vaihto"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Kyllä, jatka"
+      },
+      "label": {
+        "browser": "Selain",
+        "device": "Laite"
+      },
+      "subtitle": "Jatka vain, jos skannaat QR-koodin Uniswap-laajennuksesta luotetulla laitteella.",
+      "title": "Yritätkö tuoda lompakkosi?",
+      "warning": "Varo sivustoja ja sovelluksia, jotka esiintyvät Uniswapina. Muuten lompakkosi voi vaarantua."
+    },
+    "error": {
+      "encryption": "Siemenlauseen valmistelu epäonnistui.",
+      "noCode": "OTP:tä ei vastaanotettu. Yritä uudelleen.",
+      "timeout": {
+        "message": "Skannaa Uniswap-laajennuksen QR-koodi uudelleen jatkaaksesi lompakkosi synkronointia.",
+        "title": "Yhteytesi aikakatkaistiin"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Jotta voit skannata tämän QR-koodin, puhelimesi on oltava yhdistettynä samaan WiFi-verkkoon kuin tietokoneesi ja kaikki VPN:t on poistettava väliaikaisesti käytöstä.",
+        "title": "Vaihda WiFi-verkkoasi"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Tulossa pian: etsi ja tutki tokeneja {{chainName}} -ketjussa",
+    "input": {
+      "placeholder": "Etsi rahakkeita ja pooleja"
+    },
+    "results": {
+      "count_one": "1 kohde",
+      "count_other": "{{count}} kohteita"
+    },
+    "ukDisclaimer": "Vastuuvapauslauseke Yhdistyneen kuningaskunnan asukkaille"
+  },
+  "send": {
+    "button": {
+      "review": "Tarkista siirto"
+    },
+    "gas": {
+      "error": {
+        "title": "Ei käytössä"
+      },
+      "networkCost": {
+        "title": "Verkon hinta"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Saldo: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Valitse vastaanottaja",
+      "input": {
+        "placeholder": "Hae ENS:stä tai osoitteesta"
+      },
+      "previous_one": "1 edellinen siirto",
+      "previous_other": "{{count}} aiemmat siirrot",
+      "results": {
+        "empty": "Ei tuloksia",
+        "error": "Kirjoittamasi osoitetta ei ole olemassa tai se on kirjoitettu väärin."
+      },
+      "section": {
+        "favorite": "Suosikki lompakot",
+        "recent": "Viimeaikaiset",
+        "search": "Hakutulokset",
+        "viewOnly": "Vain katselunäkymät lompakot",
+        "yours": "Sinun lompakot"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Lähetä varoja tähän lompakkoon vain, jos sinulla on palautuslauseke tai tiedät lompakon omistajan.",
+          "title": "Sinulla on tämä lompakko, josta voi vain katsella"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Kun lähetät rahakkeita lompakon osoitteeseen, ne näkyvät täällä",
+          "title": "Lompakoita ei ole tallennettu"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Sinä lähetät"
+      },
+      "summary": {
+        "button": {
+          "title": "Vahvista lähetys"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Kirjoittamasi osoitetta ei ole olemassa tai se on kirjoitettu väärin.",
+        "title": "Ei tuloksia"
+      },
+      "placeholder": "Hae ENS:stä tai osoitteesta"
+    },
+    "title": "Lähettää",
+    "warning": {
+      "blocked": {
+        "default": "Tämä lompakko on tukossa",
+        "modal": {
+          "message": "Tämä osoite on estetty Uniswap Walletissa, koska se liittyy yhteen tai useampaan estettyyn toimintaan. Jos uskot tämän olevan virhe, lähetä sähköpostia compliance@uniswap.org.",
+          "title": "Estetty osoite"
+        },
+        "recipient": "Vastaanottajan lompakko on estetty"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Yrität lähettää varoja token-osoitteeseen. Tämä voi johtaa pysyvään varojen menetykseen.",
+          "heading": "Tunnusosoite havaittu"
+        },
+        "message": "Yrität lähettää varoja token-osoitteeseen. Salauksen lähettäminen tämäntyyppiseen osoitteeseen voi johtaa pysyvään varojen menetykseen.",
+        "title": "Tämä on token-osoite"
+      },
+      "insufficientFunds": {
+        "message": "{{currencySymbol}} -saldosi on pienentynyt sen jälkeen, kun annoit lähetettävän summan",
+        "title": "Ei tarpeeksi {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Ei tarpeeksi <highlight>{{currencySymbol}} {{networkName}}</highlight> lähettämiseen",
+          "withoutNetwork": "Ei tarpeeksi <highlight>{{currencySymbol}}</highlight> lähettämiseen"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Peruuttaa",
+            "confirm": "Vahvistaa"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Käyttäjätunnus",
+          "walletAddress": "Lompakon osoite"
+        },
+        "message": "Et ole aiemmin käynyt kauppaa tällä osoitteella. Varmista, että osoite on oikein ennen kuin jatkat.",
+        "title": "Uusi osoite"
+      },
+      "self": {
+        "message": "Yrität lähettää varoja nykyiseen lompakkoosi. Salauksen lähettäminen tähän osoitteeseen aiheuttaa tarpeettomia verkkokustannuksia.",
+        "title": "Tämä on nykyinen lompakkosi"
+      },
+      "smartContract": {
+        "message": "Olet lähettämässä varoja älykkään sopimusosoitteeseen. Varmista, että tämä on oikea osoite ja että se voi vastaanottaa tunnuksia. Jos ei, tämä voi johtaa pysyvään varojen menetykseen.",
+        "title": "Tämä on älykäs sopimusosoite"
+      },
+      "viewOnly": {
+        "message": "Sinun on tuotava tämä lompakko palautuslausekkeen kautta, jotta voit lähettää resursseja.",
+        "title": "Tämä lompakko on vain katselu"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Viimeaikaiset"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Arvostelun lähetys"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Näytä palautuslause"
+      },
+      "action": {
+        "hide": "Piilota palautuslause"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Ymmärrän, että Uniswap Labs ei voi auttaa minua palauttamaan lompakkoani, jos en onnistu.",
+          "title": "Tallensin palautuslauseeni"
+        },
+        "initial": {
+          "subtitle": "Varmista, että olet tallentanut palautuslauseesi. Muutoin menetät pääsyn lompakoihisi",
+          "title": "Ennen kuin jatkat"
+        },
+        "password": {
+          "error": "Väärä salasana. Yritä uudelleen"
+        },
+        "subtitle": "Vahvista antamalla salasanasi",
+        "title": "Olet poistamassa palautuslauseesi"
+      },
+      "title": "Palautuslauseesi",
+      "view": {
+        "warning": {
+          "message1": "Jokainen, joka tietää palautuslauseesi, voi käyttää lompakkoasi ja varojasi",
+          "message2": "Katso tämä yksityisesti",
+          "message3": "Älä jaa kenenkään kanssa",
+          "message4": "Älä koskaan syötä sitä verkkosivustoille tai sovelluksiin",
+          "title": "Ennen kuin jatkat"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Jokainen, joka tietää palautuslauseesi, voi käyttää lompakkoasi ja varojasi.",
+          "title": "Katso tämä yksityisessä paikassa"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Ota käyttöön asetuksista",
+      "feedback": "Lähetä palautetta",
+      "help": "Hae apua",
+      "lock": "Lukittava lompakko",
+      "privacy": "Tietosuojakäytäntö",
+      "terms": "Käyttöehdot"
+    },
+    "footer": "Tehty rakkaudella, \nUniswap Team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Alle 1 USD:n saldot piilotetaan salkustasi."
+    },
+    "maxSlippage": "Max. lipsahdus",
+    "section": {
+      "about": "Noin",
+      "preferences": "Asetukset",
+      "privacyAndSecurity": "Yksityisyys ja turvallisuus",
+      "support": "Tuki",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} muut lompakot"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Käytä aina tummaa teemaa.",
+            "title": "Tumma"
+          },
+          "device": {
+            "subtitle": "Mukautuu laitteesi asetuksiin.",
+            "title": "Auto"
+          },
+          "light": {
+            "subtitle": "Käytä aina vaaleaa teemaa.",
+            "title": "Kevyt"
+          }
+        },
+        "title": "Teema"
+      },
+      "backup": {
+        "create": {
+          "description": "Salasanan asettaminen salaa palautuslauseen varmuuskopion, mikä lisää ylimääräistä suojaustasoa, jos {{cloudProviderName}} -tilisi vaarantuu.",
+          "title": "Takaisin ylös {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Koska näillä lompakoilla on yhteinen palautuslauseke, se poistaa myös näiden lompakoiden varmuuskopiot alla",
+            "title": "Oletko varma?"
+          },
+          "warning": "Jos poistat {{cloudProviderName}} -varmuuskopiosi, voit palauttaa lompakkosi vain palauttamalla palautuslausekkeen manuaalisesti. Uniswap Labs ei voi palauttaa omaisuuttasi, jos kadotat palautuslauseen."
+        },
+        "error": {
+          "message": {
+            "full": "Palautuslausetta ei voi varmuuskopioida numeroon {{cloudProviderName}}. Varmista, että {{cloudProviderName}} on käytössä vapaalla tallennustilalla ja yritä uudelleen.",
+            "short": "Varmuuskopiota ei voi poistaa"
+          },
+          "title": "{{cloudProviderName}} virhe"
+        },
+        "modal": {
+          "description": "Et ole vielä varmuuskopioinut palautuslausekettasi numeroon {{cloudProviderName}} . Näin voit palauttaa lompakkosi kirjautumalla sisään {{cloudProviderName}} millä tahansa laitteella.",
+          "title": "Varmuuskopioi palautuslause numeroon {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Salasanat eivät täsmää"
+          },
+          "medium": "Tämä on keskikokoinen salasana",
+          "placeholder": {
+            "confirm": "Vahvista salasana",
+            "create": "Luo salasana"
+          },
+          "strong": "Tämä on vahva salasana",
+          "weak": "Tämä on heikko salasana"
+        },
+        "recoveryPhrase": {
+          "label": "Palautuslause"
+        },
+        "selected": "{{cloudProviderName}} varmuuskopio",
+        "status": {
+          "action": {
+            "delete": "Poista varmuuskopio"
+          },
+          "complete": "Varmuuskopioitu {{cloudProviderName}}",
+          "description": "Kun palautuslauseesi on varmuuskopioitu arvoon {{cloudProviderName}}, voit palauttaa lompakkosi vain kirjautumalla sisään {{cloudProviderName}} -tilillesi millä tahansa laitteella.",
+          "inProgress": "Varmuuskopioidaan {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Varmuuskopioitu"
+          },
+          "title": "{{cloudProviderName}} varmuuskopio"
+        }
+      },
+      "beta": {
+        "tooltip": "Tulossa pian"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Vaadi kasvot/sormenjälki sovelluksen avaamiseen.",
+            "ios": "Sovelluksen avaaminen edellyttää {{biometricsMethod}} ."
+          },
+          "title": "Sovelluksen käyttöoikeus"
+        },
+        "auth": "Ole hyvä ja vahvista",
+        "off": {
+          "message": {
+            "android": "Biometriikka on tällä hetkellä pois päältä Uniswap Walletissa – voit ottaa sen käyttöön järjestelmäasetuksissa.",
+            "ios": "{{biometricsMethod}} on tällä hetkellä pois päältä Uniswap Walletissa – voit ottaa sen käyttöön järjestelmäasetuksissa."
+          },
+          "title": {
+            "android": "Biometriset tiedot on poistettu käytöstä",
+            "ios": "{{biometricsMethod}} on pois päältä"
+          }
+        },
+        "title": "Kasvo-/sormenjälkilukitus",
+        "transactions": {
+          "subtitle": {
+            "android": "Vaadi kasvot/sormenjälki asiointiin.",
+            "ios": "Vaadi {{biometricsMethod}} tapahtumaan."
+          },
+          "title": "Tapahtumat"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometriaa ei ole määritetty laitteellesi. Jos haluat käyttää biometrisiä tietoja, määritä se ensin Asetuksissa.",
+            "ios": "{{biometricsMethod}} ei ole asetettu laitteellesi. Jos haluat käyttää {{biometricsMethod}}-toimintoa, määritä se ensin Asetuksissa."
+          },
+          "title": {
+            "android": "Biometrisiä tietoja ei ole määritetty",
+            "ios": "{{biometricsMethod}} ei ole asetettu"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Jos et ota biometriikkaa käyttöön, kuka tahansa laitteellesi pääsyn saanut voi avata Uniswap Walletin ja suorittaa tapahtumia.",
+            "ios": "Jos et käynnistä {{biometricsMethod}}, kuka tahansa laitteellesi pääsyn saanut voi avata Uniswap Walletin ja suorittaa tapahtumia."
+          },
+          "title": "Oletko varma?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Irrota kaikki",
+        "noConnectionsDescription": "Yhdistä sovellukseen etsimällä \"Yhdistä lompakko\"- tai \"Kirjaudu sisään\" -painiketta."
+      },
+      "currency": {
+        "title": "Paikallinen valuutta"
+      },
+      "hapticTouch": {
+        "title": "Haptinen kosketus"
+      },
+      "helpCenter": {
+        "title": "Ohjekeskus"
+      },
+      "language": {
+        "button": {
+          "navigate": "Mene asetuksiin"
+        },
+        "description": {
+          "extension": "Uniswap-oletusasetukset ovat järjestelmän kieliasetukset. Jos haluat vaihtaa haluamasi kielen, siirry järjestelmäasetuksiin.",
+          "mobile": "Uniswap-oletusasetukset ovat laitteesi kieliasetukset. Jos haluat vaihtaa haluamasi kielen, siirry laitteen asetusten kohtaan \"Uniswap\" ja napauta \"Kieli\"."
+        },
+        "title": "Kieli"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Siirrot, pyynnöt ja muu toiminta",
+            "title": "Lompakon toiminta"
+          },
+          "priceAlerts": {
+            "description": "Suuret hintamuutokset suosikkimerkeille",
+            "title": "Hintavaroitukset"
+          },
+          "updates": {
+            "description": "Suosituksia ja uusia ominaisuuksia",
+            "title": "Päivityksiä Uniswapista"
+          }
+        },
+        "title": "Ilmoitukset"
+      },
+      "password": {
+        "title": "Vaihda salasana"
+      },
+      "permissions": {
+        "title": "Käyttöoikeudet"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Käytämme anonyymejä käyttötietoja parantaaksemme käyttökokemustasi Uniswap Labs -tuotteissa. Kun se on poistettu käytöstä, seuraamme vain virheitä ja olennaista käyttöä.",
+          "title": "Sovellusanalytiikka"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Syötä salasanasi"
+        },
+        "title": "Palautuslause"
+      },
+      "smallBalances": {
+        "title": "Salkun saldo"
+      },
+      "unknownTokens": {
+        "subtitle": "Mahdolliset huijausmerkit piilotetaan portfoliostasi.",
+        "title": "Piilota tuntemattomat merkit"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Muokkaa tunnistetta",
+          "editProfile": "Muokkaa profiilia",
+          "remove": "Poista lompakko"
+        },
+        "connection": {
+          "banner": {
+            "description": "Hallitse yhteyksiä lompakkoasetusten kautta klikkaamalla profiilikuvaasi.",
+            "title": "Yhteydet ovat siirtyneet"
+          }
+        },
+        "connections": {
+          "title": "Liitännät"
+        },
+        "editLabel": {
+          "description": "Etiketit eivät ole julkisia. Ne tallennetaan paikallisesti ja näkyvät vain sinulle.",
+          "save": "Tallenna muutokset"
+        },
+        "label": "Nimimerkki",
+        "testnetMode": {
+          "description": "Tämä ottaa testiverkot käyttöön, jotta kehittäjät voivat kokeilla ominaisuuksia ja tapahtumia ilman todellista omaisuutta. Testiverkkojen tokeneilla ei ole todellista arvoa.",
+          "title": "Testnet-tila"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Jos haluat käyttää Uniswap-toimintoa {{label}}, vaihda verkkoa lompakkosi asetuksista."
+    },
+    "title": "asetukset",
+    "version": "Versio {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Älykkäät lompakot tarjoavat nopeampia ja edullisia tapahtumia turvallisten älysopimusten avulla.",
+      "info": "Tämä ei vaikuta lompakoihin, jotka käyttävät jo toisen sovelluksen älylompakkoominaisuuksia."
+    },
+    "enabledModal": {
+      "description": "Päivitykset tulevat voimaan seuraavan vaihdon yhteydessä.",
+      "title": "Älykäs lompakko käytössä"
+    },
+    "postSwapNudge": {
+      "description": "Älykäs lompakko tarjoaa nopeampia ja edullisia tapahtumia käyttämällä turvallisia älykkäitä sopimuksia.",
+      "enable": "Ota älykäs lompakko käyttöön",
+      "title": "Säästä seuraavasta vaihdostasi"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Et ole aiemmin käynyt kauppaa tällä osoitteella. Varmista, että se on oikea osoite ennen kuin jatkat.",
+        "title": "Uusi osoite"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Olet lähettämässä rahakkeita erityiseen osoitteeseen - älykkääseen sopimukseen. Tarkista, että se on osoite, johon aiot lähettää. Jos se on väärin, rahakkeet voivat kadota ikuisesti.",
+        "title": "Onko tämä lompakon osoite?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24h maksut",
+    "24volume": "24 tunnin tilavuus",
+    "allTimeFees": "Kaikki aikojen LP-maksut",
+    "allTimeSwappers": "Kaikkien aikojen vaihtajia",
+    "allTimeVolume": "Koko ajan äänenvoimakkuus",
+    "fdv": {
+      "description": "Fully diluted valuation (FDV) laskee kokonaismarkkina-arvon olettaen, että kaikki rahakkeet ovat liikkeessä."
+    },
+    "marketCap": {
+      "description": "Markkina-arvo on omaisuuserän kiertävän tarjonnan kokonaismarkkina-arvo."
+    },
+    "tvl": {
+      "description": "Lukittu kokonaisarvo (TVL) on kaikkien Uniswap-likviditeettipoolien käytettävissä olevien omaisuuserien kokonaismäärä."
+    },
+    "volume": {
+      "1d": {
+        "description": "1 päivän määrä on omaisuuden määrä, jolla on vaihdettu Uniswapissa viimeisen 24 tunnin aikana.",
+        "long": "1D-tilavuus",
+        "short": "1D vol"
+      },
+      "description": "Volyymi on omaisuuden määrä, jolla on vaihdettu Uniswapissa valitun ajanjakson aikana."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Salli {{sym}} (kerran)"
+    },
+    "approvalNeeded": "Tämän tunnuksen käyttämiseen tarvitaan hyväksyntä. ",
+    "approvalPending": "Hyväksyntä odottaa",
+    "approveAndSubmit": "Hyväksy ja lähetä",
+    "approveAndSwap": "Hyväksy ja vaihda",
+    "approveInWallet": "Hyväksy lompakossasi",
+    "balance": {
+      "amount": "Saldo: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Tehokkaimman reitin arvioidaan maksavan ~{{gasPrice}} verkkokustannuksissa. "
+    },
+    "bridging": {
+      "estimatedTime": "Arvioitu aika",
+      "title": "Vaihtaminen verkkojen välillä",
+      "warning": {
+        "description": "Olet vaihtamassa arvosta {{fromNetwork}} arvoon {{toNetwork}}. Tätä kutsutaan myös \"sillaksi\", joka siirtää tunnuksesi verkosta toiseen."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Arvostelu",
+      "submitting": {
+        "keep": {
+          "open": "Pidä lompakkosi auki..."
+        }
+      },
+      "swap": "Vaihtaa",
+      "swapAnyways": "Vaihda joka tapauksessa",
+      "unwrap": "Avaa pakkaus",
+      "wrap": "Kääri"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Hae maan tai alueen mukaan"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Vaihtosi voidaan suorittaa ennen kuin peruutus on käsitelty. Verkkokulujasi ei voida hyvittää. Haluatko jatkaa?",
+      "cannotExecute_other": "Vaihtosopimukset voidaan suorittaa ennen kuin peruutus on käsitelty. Verkkokulujasi ei voida hyvittää. Haluatko jatkaa?"
+    },
+    "confirmLimit": "Vahvista raja",
+    "confirmSwap": "Vahvista vaihto",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. määräaika"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Token maksu"
+      },
+      "newQuote": {
+        "input": "Uusi tulo",
+        "output": "Uusi lähtö"
+      },
+      "orderRouting": "Tilauksen reititys",
+      "orderRoutingInfo": "Tämä vaihto reititetään Across-protokollan kautta, joka on hajautettu protokolla, joka siirtää omaisuutta verkkojen välillä ja asettaa etusijalle turvallisuuden, nopean suorituskyvyn ja alhaiset hinnat.",
+      "poweredBy": "Voimanlähteenä",
+      "rate": "Rate",
+      "slippage": "Max liukuminen",
+      "uniswapFee": "Maksu"
+    },
+    "error": {
+      "default": "Saatat joutua lisäämään liukastumistoleranssiasi. Huomautus: siirtomaksu- ja rebase-tunnukset eivät ole yhteensopivia Uniswap V3:n kanssa.",
+      "expectedToFail": "Vaihdon odotetaan epäonnistuvan.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} tulo ei ole käytettävissä",
+      "modifiedByWallet": "Vaihtoasi on muokattu lompakkosi kautta. Jos tämä oli virhe, peruuta heti tai vaaranna varojen menettäminen.",
+      "rejected": "Kauppa hylätty",
+      "undefinedObject": "Virhe yritettäessä suorittaa tätä vaihtoa. Saatat joutua lisäämään liukastumistoleranssiasi. Jos tämä ei auta, kaupankäynnin kohteena olevan tunnuksen kanssa saattaa olla yhteensopimattomuus. Huomautus: siirtomaksu- ja rebase-tunnukset eivät ole yhteensopivia Uniswap V3:n kanssa.",
+      "unknown": "Tuntematon virhe.",
+      "v2": {
+        "expired": "Tätä tapahtumaa ei voitu lähettää, koska määräaika on umpeutunut. Tarkista, että tapahtumasi määräaika ei ole liian lyhyt.",
+        "k": "Vaihto ei tyydyttänyt Uniswap-invarianttia x*y=k. Tämä tarkoittaa yleensä sitä, että yksi vaihdettavista tokeneista sisältää mukautetun toiminnan siirron aikana.",
+        "slippage": "Tämä tapahtuma ei onnistu hinnanmuutoksen tai siirtomaksun vuoksi. Yritä lisätä liukastumistoleranssiasi",
+        "transferInput": "Syöttötunnusta ei voi siirtää. Syöttötunnuksessa voi olla ongelma.",
+        "transferOutput": "Tulostustunnusta ei voi siirtää. Tulostustunnuksessa voi olla ongelma."
+      },
+      "v3": {
+        "slippage": "Tämä kauppa ei onnistu hintaliikkeen vuoksi. Yritä lisätä liukastumistoleranssiasi. Huomautus: siirtomaksu ja uudelleenperustamistunnukset eivät ole yhteensopivia Uniswap V3:n kanssa.",
+        "transferOutput": "Tulostustunnusta ei voi siirtää. Tulostustunnuksessa saattaa olla ongelma. Huomautus: siirtomaksu ja uudelleenperustamistunnukset eivät ole yhteensopivia Uniswap V3:n kanssa."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Syöte- ja lähtöarvojen välillä on suuri ero nykyisen likviditeetin vuoksi."
+    },
+    "fail": {
+      "message": "Yritä säätää liukumista suurempaan arvoon.",
+      "uniswapX": "Vaihtoa ei voitu suorittaa UniswapX:n kanssa. Kokeile vaihtoa uudelleen reitittääksesi sen perinteisen Uniswap-sovellusliittymän kautta."
+    },
+    "fees": {
+      "experience": "Tätä maksua sovelletaan joihinkin merkkipareihin parhaan mahdollisen Uniswap-kokemuksen varmistamiseksi. Se maksetaan tulostettaessa ja se on jo otettu huomioon tarjouksessa.",
+      "noFee": "Valituista merkkipareista peritään maksuja parhaan mahdollisen Uniswap-kokemuksen varmistamiseksi. Tähän vaihtoon ei liity maksua."
+    },
+    "fetchingBestPrice": "Haetaan parasta hintaa...",
+    "fetchingPrice": "Haetaan hintaa...",
+    "finalizingQuote": "Viimeistellään tarjousta...",
+    "form": {
+      "header": "Vaihtaa",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Token-maksujen vuoksi swap-summat voidaan syöttää vain syöttökenttään"
+          }
+        },
+        "restore": "Palauta lompakkosi vaihtaaksesi"
+      }
+    },
+    "frontrun": {
+      "warning": "Tapahtumasi voi tapahtua etuajassa ja johtaa epäsuotuisaan kauppaan."
+    },
+    "header": {
+      "viewOnly": "Vain katselu"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Hintavaikutuslaskelmia ei ehkä ole saatavilla pareille, joiden likviditeetti on alhainen."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Syöttö on arvioitu. Myyt enintään <amount /> tai kauppa palautuu."
+    },
+    "limit": "Raja",
+    "limitedAssets": {
+      "warning": "Jotkut omaisuudet eivät ole käytettävissä tämän käyttöliittymän kautta, koska ne eivät välttämättä toimi hyvin älykkäiden sopimusten kanssa tai emme voi sallia kauppaa laillisista syistä."
+    },
+    "limitFilled": "Raja täytetty!",
+    "limitSubmitted": "Raja lähetetty",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Markkinahinta on määrittämäsi hintaalueen ulkopuolella. Vain yhden omaisuuden talletus."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Suurin summa, jonka taatusti kulutat. Jos hinta putoaa entisestään, kauppasi palautuu."
+    },
+    "minPriceSlip": {
+      "revert": "Jos hinta muuttuu niin, että saat alle {{amount}}, tapahtumasi palautuu."
+    },
+    "networkCost": {
+      "paidIn": "Verkkomaksut maksetaan {{sym}} {{chainName}} -verkossa asioinnin suorittamiseksi."
+    },
+    "orderRouting": "Tilauksen reititys",
+    "outputEstimated": {
+      "atLeast": "Tuotos on arvioitu. Saat vähintään <amount /> tai tapahtuma palautuu."
+    },
+    "payAnyway": "Maksa joka tapauksessa",
+    "payAtMost": "Maksa korkeintaan",
+    "payWith": "Maksaa",
+    "placeOrder": "Tee tilaus",
+    "priceImpact": "Hinta vaikutus",
+    "receive": {
+      "atLeast": "Vastaanota ainakin"
+    },
+    "request": {
+      "title": {
+        "full": "Vaihda {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Vaihda tokeneita"
+      }
+    },
+    "review": {
+      "summary": "Olet vaihtamassa"
+    },
+    "reviewLimit": "Tarkistamisraja",
+    "route": {
+      "optimizedGasCost": "Tämä reitti ottaa huomioon jaetut reitit, useita hyppyjä ja kunkin vaiheen verkkokustannukset."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Tapahtumasi palautetaan, jos se on vireillä yli tämän ajanjakson. (Enintään: 3 päivää).",
+        "warning": "Korkea määräaika"
+      },
+      "protection": {
+        "description": "Kun swap-suojaus on käytössä, Ethereum-tapahtumasi suojataan sandwich-hyökkäyksiltä, mikä vähentää epäonnistumisen mahdollisuuksia.",
+        "subtitle": {
+          "supported": "{{chainName}} Verkko",
+          "unavailable": "Ei saatavilla {{chainName}}"
+        },
+        "title": "Vaihda suojaus"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap-asiakas valitsee halvimman kauppavaihtoehdon hinnan ja verkkokustannusten perusteella."
+            },
+            "tooltip": "Reitti tunnistetaan v2-, v3- ja tietyt v4-poolit huomioon ottaen arvioitu hintavaikutus ja verkkokustannukset."
+          },
+          "v2": {
+            "title": "v2 poolit"
+          },
+          "v3": {
+            "title": "v3 poolit"
+          },
+          "v4": {
+            "title": "v4 poolit"
+          }
+        },
+        "title": "Kaupan vaihtoehdot"
+      },
+      "slippage": {
+        "alert": "Korkea luisto",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "Tapahtumasi palautuu, jos hinta muuttuu enemmän kuin lipsumaprosentti.",
+        "input": {
+          "message": "Jos hinta putoaa entisestään, kauppasi palautuu. Alla on vähimmäissumma, jonka saat taatusti.",
+          "receive": {
+            "title": "Vastaanota ainakin"
+          }
+        },
+        "output": {
+          "message": "Jos hinta putoaa entisestään, kauppasi palautuu. Alla on enimmäissumma, jonka sinun on käytettävä.",
+          "spend": {
+            "title": "Kuluta korkeintaan"
+          }
+        },
+        "warning": {
+          "description": "Yli 20 %:n lipsahdus johtaa todennäköisesti epäsuotuisaan kauppaan. Pienennä asetuksiasi vähentääksesi etukäteistyön riskiä.",
+          "hover": "Tämä voi johtaa epäsuotuisaan kauppaan. Kokeile alentaa liukuma-asetusta.",
+          "max": "Anna arvo, joka on pienempi kuin {{maxSlippageTolerance}}",
+          "message": "Luisuma voi olla suurempi kuin on tarpeen",
+          "min": "Anna arvo, joka on suurempi kuin 0"
+        }
+      },
+      "title": "Vaihda asetukset",
+      "transactionRevertPrice": "Tapahtumasi palautuu, jos hinta muuttuu epäsuotuisasti enemmän kuin tämä prosenttiosuus."
+    },
+    "signAndSwap": "Allekirjoita ja vaihda",
+    "slippage": {
+      "amt": "{{amt}} lipsahdus",
+      "bridging": "Ei liukumista vaihdettaessa verkkojen välillä",
+      "settings": {
+        "title": "Liukastumisen asetukset"
+      },
+      "tooltip": "Maksutapahtumaa edeltänyt enimmäishinnan muutos palautuu."
+    },
+    "slippageBelow": {
+      "warning": "Liukuminen alle {{amt}} voi johtaa epäonnistuneeseen tapahtumaan"
+    },
+    "submitted": "Vaihto lähetetty",
+    "success": "Menestys vaihtoon!",
+    "tokenOwnFees": "Jotkin rahakkeet veloittavat osto- tai myyntimaksun, jonka tunnuksen myöntäjä määrittää. Uniswap ei saa mitään näistä maksuista.",
+    "total": "Kaikki yhteensä",
+    "tradeRoutes": "Kauppareitit",
+    "transaction": {
+      "deadline": "Kaupan määräaika",
+      "revertAfter": "Tapahtumasi palautetaan, jos se on vireillä yli tämän ajanjakson."
+    },
+    "unsupportedAssets": {
+      "readMore": "Lue lisää tukemattomista sisällöistä"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Syötä suurempi summa"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Yritä lisätä liukumistasi.",
+        "titleMay": "Tämä vaihto saattaa epäonnistua"
+      },
+      "insufficientBalance": {
+        "title": "Sinulla ei ole tarpeeksi {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Vaihda arvoon {{ tokenSymbol }} , {{networkName}}",
+          "buy": "Osta {{ tokenSymbol }}",
+          "buyWithCard": "Osta kortilla"
+        },
+        "message": {
+          "withNetwork": "Ei tarpeeksi <highlight>{{currencySymbol}} {{networkName}}</highlight> vaihtamiseen",
+          "withoutNetwork": "Ei tarpeeksi <highlight>{{currencySymbol}}</highlight> vaihtamiseen"
+        },
+        "title": "Sinulla ei ole tarpeeksi {{currencySymbol}} kattamaan verkkokustannuksia"
+      },
+      "networkFee": {
+        "allow": "Salli {{ inputTokenSymbol }} (kerran)",
+        "highRelativeToValue": {
+          "unichain": "Verkon hinta ylittää 10 % tapahtuman kokonaisarvosta. Tämä on maksutapahtumasi käsittelystä lohkoketjussa."
+        },
+        "message": {
+          "unichain": "Tämä on maksutapahtumasi käsittelystä lohkoketjussa.",
+          "uniswapX": {
+            "unichain": "Tämä on maksutapahtumasi käsittelystä lohkoketjussa. <gradient>UniswapX</gradient> kokoaa likviditeettilähteitä parempiin hintoihin ja kaasuvapaisiin vaihtosopimuksiin."
+          }
+        },
+        "wrap": "Kääri ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Yhtään yhdistävää lainausta ei löytynyt. Kokeile virallista siltaa tällä hetkellä."
+        },
+        "title": "Lainauksia ei löytynyt"
+      },
+      "noRoutesFound": {
+        "message": "Valituille tokeneille ei ole tällä hetkellä saatavilla reittejä. Kokeile toista paria tai tarkista myöhemmin uudelleen.",
+        "title": "Ei reittejä saatavilla"
+      },
+      "offline": {
+        "message": "Olet ehkä menettänyt Internet-yhteyden tai verkko saattaa olla poikki. Tarkista internetyhteytesi ja yritä uudelleen.",
+        "title": "Olet offline-tilassa"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Tämä liiketoimi aiheuttaa {{priceImpactValue}} hintavaikutuksen tämän poolin markkinahintaan ja johtaa varojen menetykseen."
+        },
+        "title": {
+          "veryHigh": "Erittäin suuri hintavaikutus ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Tapahtumaasi ei lähetetty, koska suljit sovelluksen.",
+        "approvalFailed": "Tapahtumaasi ei lähetetty, koska tunnuksen hyväksyminen epäonnistui.",
+        "stale": "Tapahtumaasi ei lähetetty, koska suljit sovelluksen tai hyväksyminen kesti liian kauan.",
+        "submissionFailed": "Tapahtumasi lähettämisessä oli ongelma.",
+        "title": "Vaihto peruttu",
+        "wrap": {
+          "message": "ETH pysyy käärittynä muodossa WETH."
+        },
+        "wrapFailed": "Tapahtumaasi ei lähetetty, koska rivitystapahtuma epäonnistui."
+      },
+      "rateLimit": {
+        "message": "Yritä uudelleen muutaman minuutin kuluttua.",
+        "title": "Hintaraja ylitetty"
+      },
+      "router": {
+        "message": "Yhteys voi olla katkennut tai verkko saattaa olla poikki. Jos ongelma jatkuu, yritä myöhemmin uudelleen.",
+        "title": "Tätä kauppaa ei voida suorittaa juuri nyt"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} on estetty"
+      },
+      "tokenBlockedFallback": {
+        "button": "Token on estetty"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Maksuja peritään parhaan mahdollisen Uniswap-kokemuksen varmistamiseksi. Tähän vaihtoon ei liity maksua.",
+          "included": "Maksuja sovelletaan parhaan mahdollisen Uniswap-kokemuksen varmistamiseksi, ja ne on jo otettu huomioon tässä tarjouksessa."
+        },
+        "title": "Vaihtomaksu"
+      },
+      "viewOnly": {
+        "message": "Sinun on tuotava tämä lompakko palautuslausekkeen kautta vaihtaaksesi tunnuksia."
+      }
+    },
+    "wrap": {
+      "token": "Kääri {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Muissa verkoissa",
+      "otherNetworksBalance": "Saldo muissa verkoissa",
+      "title": "Tasapainosi"
+    },
+    "button": {
+      "getToken": "Hanki {{ tokenSymbol }}",
+      "getTokenFallback": "Hanki Token"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Vaihda kohtaan {{network}}",
+      "title": "Tätä merkkiä ei ole olemassa",
+      "titleWithChain": "Tätä merkkiä ei ole paikassa {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "tunnustiedot kohteelle <tokenLink />",
+        "withChain": "merkkidata <tokenLink /> osoitteessa {{chainName}}"
+      }
+    },
+    "nameNotFound": "Nimeä ei löydy",
+    "noInfoAvailable": "Tunnustietoja ei ole saatavilla",
+    "noTestnetSupportDescription": "Jotkut testiverkot eivät tue tunnuksien vaihtamista, lähettämistä tai ostamista.",
+    "stats": {
+      "unsupportedChainDescription": "Token-tilastot ja kaaviot kohteelle {{chain}} ovat saatavilla osoitteessa {{infoLink}}"
+    },
+    "symbolNotFound": "Symbolia ei löydy"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Tämä toiminto edellyttää testnet-tilan poistamista käytöstä. Testnet-tila voidaan ottaa uudelleen käyttöön milloin tahansa asetuksista.",
+          "toTestnetMode": "Tämä toiminto edellyttää, että testiverkkotila on käytössä. Testiverkkojen tokeneilla ei ole todellista arvoa. Testnet-tila voidaan poistaa käytöstä milloin tahansa asetuksista."
+        },
+        "title": {
+          "toProdMode": "Poista testnet-tila käytöstä",
+          "toTestnetMode": "Ota testiverkkotila käyttöön"
+        }
+      }
+    },
+    "unsupported": "Tätä toimintoa ei tueta testnet-tilassa."
+  },
+  "themeToggle": {
+    "theme": "Teema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Osta, myy ja vaihda Ethereumia ja muita huipputokeneita Uniswapissa",
+    "createGovernanceOn": "Luo uusi hallintoehdotus Uniswapissa",
+    "createGovernanceTo": "Luo uusi hallintoehdotus, josta UNI-haltijat äänestävät. UNI-tunnukset edustavat Uniswap-hallinnon ääniosuuksia.",
+    "earnFees": "Ansaitse maksuja, kun muut vaihtavat Uniswapilla lisäämällä tokeneita likviditeettipooliin.",
+    "easilyRemove": "Poista helposti likviditeettisi Uniswap v2:sta ja talleta Uniswap v3:een.",
+    "easilyRemoveV4": "Poista likviditeettisi helposti Uniswap v2:sta ja v3:sta tallettaaksesi Uniswap v4:ään.",
+    "explore": "Tutustu NFT-palveluihin Uniswapissa",
+    "extensionPasskeySignIn": "Kirjaudu sisään salasanalla",
+    "manageNFT": "Hallitse NFT-kokoelmaasi. Tarkastele ominaisuuksia, kaupankäyntitoimintaa, kuvauksia ja muita tietoja NFT:stäsi.",
+    "migratev2": "Siirrä v2 poolin likviditeetti Uniswap v3:een",
+    "migratev3": "Siirrä poolin likviditeetti Uniswap v4:ään",
+    "placeLimit": "Tee rajatilauksia Uniswapissa",
+    "realTime": "Reaaliaikaiset hinnat, kaaviot, tapahtumatiedot ja paljon muuta.",
+    "removeLiquidityv2": "Poista poolin likviditeetti (v2) Uniswapissa",
+    "removePoolLiquidity": "Poista poolin likviditeetti Uniswapissa",
+    "removeTokensv2": "Poista tokenisi v2-likviditeettipoolista.",
+    "removev3Liquidity": "Poista tunnuksesi v3:n likviditeettipoolista.",
+    "sendTokens": "Lähetä rahakkeita Uniswapissa",
+    "swappingMadeSimple": "Vaihto on tehty yksinkertaiseksi. Osta ja myy kryptoja Ethereumissa, Basessa, Arbitrumissa, Polygonissa ja muissa. Miljoonien luottamiin.",
+    "tradeTokens": "Vaihda tokeneita ja tarjoa likviditeettiä. Reaaliaikaiset hinnat, kaaviot, tapahtumatiedot ja paljon muuta.",
+    "uniswapTradeCrypto": "Uniswap | Käy salaus- ja NFT-kauppoja turvallisesti parhaimmalla DeFi-alustalla",
+    "uniToken": "UNI-tunnukset edustavat ääniosuuksia Uniswap-hallinnossa. Voit äänestää jokaisesta ehdotuksesta itse tai delegoida äänesi kolmannelle osapuolelle.",
+    "voteOnGov": "Äänestys Uniswapin hallintoehdotuksista"
+  },
+  "token": {
+    "balances": {
+      "main": "Tasapainosi",
+      "other": "Saldot muissa verkoissa",
+      "viewOnly": "{{ownerAddress}}:n saldo"
+    },
+    "bridge": "{{label}} merkkisilta",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Kynttilänjalkakaavioita ei ole saatavilla tälle tunnukselle"
+      },
+      "tooltip": "Maksut: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Tokenin tiedot eivät ole saatavilla testnet-tunnuksille."
+      }
+    },
+    "error": {
+      "unknown": "Tuntematon tunnus"
+    },
+    "fee": {
+      "buy": {
+        "label": "ostaa maksu"
+      },
+      "label": "maksu",
+      "sell": {
+        "label": "myyntipalkkio"
+      }
+    },
+    "links": {
+      "title": "Linkit",
+      "twitter": "Viserrys",
+      "website": "Verkkosivusto"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Jotain meni pieleen.",
+        "title": "Hintakaaviota ei voitu ladata"
+      },
+      "timeRangeLabel": {
+        "all": "Koko ajan",
+        "day": {
+          "verbose": "1 päivä"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 kuukausi"
+        },
+        "week": {
+          "verbose": "1 viikko"
+        },
+        "year": {
+          "verbose": "1 vuosi"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} ei ole saatavilla",
+          "tokensNotAvailable": "{{tokenSymbol0}} ja {{tokenSymbol1}} eivät ole saatavilla"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs ei saa mitään näistä maksuista."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Tee aina tutkimustietosi",
+        "blocked": {
+          "description": {
+            "default_one": "Et voi vaihtaa tätä merkkiä Uniswap-sovelluksella.",
+            "default_other": "Et voi vaihtaa näitä tokeneita Uniswap-sovelluksella."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Tämä on sopimusosoite, joka toimii lohkoketjun merkkien yksilöllisenä tunnisteena. Kaikki tähän osoitteeseen lähettämäsi kryptotiedostot menetetään.",
+          "title": "Älä lähetä kryptoa tähän osoitteeseen"
+        },
+        "dontShowWarningAgain": "Älä näytä minulle tätä varoitusta uudelleen",
+        "doYourOwnResearch": "Tee aina oma tutkimus ennen kuin jatkat.",
+        "feeDescription": "Veloittaa <fee /> kun {{action}}",
+        "flaggedAsMalicious": "Ilmoitettu haitalliseksi",
+        "fotHigh": {
+          "title": "Korkea maksu havaittu"
+        },
+        "fotLow": {
+          "title": "Maksu havaittu"
+        },
+        "fotVeryHigh": {
+          "title": "Erittäin korkea maksu havaittu"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} on merkitty myymättömäksi. Tämän tunnuksen vaihtaminen voi johtaa varojen menettämiseen.",
+          "title": "100 % myyntipalkkio havaittu"
+        },
+        "impersonator": {
+          "title": "jäljittelijätunnus havaittu"
+        },
+        "malicious": {
+          "general": {
+            "message": "Blockaid on merkinnyt {{tokenSymbol}} haitalliseksi."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} ei välttämättä ole se merkki, jota aiot vaihtaa."
+            }
+          },
+          "title": "Haitallinen tunnus havaittu"
+        },
+        "mayResultInLoss": "Sen vaihtaminen voi johtaa varojen menetykseen.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} ei käydä kauppaa Yhdysvaltojen johtavissa keskitetyissä pörsseissä."
+          }
+        },
+        "notListedOnExchanges": "Ei listattu johtavissa Yhdysvaltain pörsseissä",
+        "potentialHoneypot": {
+          "card": {
+            "message": "Blockaid on merkinnyt {{tokenSymbol}} epäilyttäväksi."
+          },
+          "modal": {
+            "message": "Blockaid on merkinnyt {{tokenSymbol}} mahdolliseksi hunajapotiksi. Tee aina oma tutkimus ennen kuin jatkat."
+          },
+          "title": "Mahdollinen hunajaruukku havaittu"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} on merkitty myymättömäksi.",
+          "title": "100 % myyntipalkkio havaittu"
+        },
+        "spam": {
+          "message": "Blockaid on merkinnyt {{tokenSymbol}} roskapostiksi.",
+          "title": "Roskapostitunnus havaittu"
+        },
+        "spamsUsers": "Roskapostin käyttäjät",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} veloittaa {{buyFeePercent}} maksun ostettaessa ja {{sellFeePercent}} myytäessä."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} veloittaa {{feePercent}} maksun ostettaessa."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} veloittaa {{feePercent}} maksun myydessään."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} veloittaa ostosta tai myymisestä maksun."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Et voi vaihtaa tätä merkkiä Uniswap-lompakolla."
+      },
+      "medium": {
+        "message": {
+          "plural": "Näillä rahakkeilla ei käydä kauppaa Yhdysvaltojen johtavissa keskitetyissä pörsseissä. Tee aina oma tutkimus ennen kuin jatkat."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Hakutuloksia ei voitu ladata"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Täysin laimennettu arvostus",
+      "marketCap": "Markkina-arvo",
+      "priceHighYear": "52W korkea",
+      "priceLowYear": "52W alhainen",
+      "section": {
+        "about": "Noin {{token}}"
+      },
+      "title": "Tilastot",
+      "translation": {
+        "original": "Näytä alkuperäinen",
+        "translate": "Käännä kielelle {{language}}"
+      },
+      "volume": "24h Volume"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Syöttötunnus"
+      },
+      "output": {
+        "fallback": "Tulostustunnus"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Uniswap-protokollan vaihdot voivat alkaa ja päättyä ETH:lla. Vaihdon aikana ETH kuitenkin kääritään WETH:ksi."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Saadaksesi {{ tokenSymbol }}, tarvitset {{ nativeTokenSymbol }} verkkokulujen kattamiseksi.",
+      "title": "Tarvitset {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Piilota tunnus",
+      "unhide": "Näytä tunnus"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Katso {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "NFT-kokoelmaa ei voitu ladata"
+          }
+        },
+        "label": {
+          "items": "Tuotteet",
+          "owners": "Omistajat",
+          "priceFloor": "Lattia",
+          "swapVolume": "Äänenvoimakkuus"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Sopimusosoite"
+        },
+        "error": {
+          "load": {
+            "title": "NFT-tietoja ei voitu ladata"
+          }
+        },
+        "network": "Verkko",
+        "owner": "Omistuksessa",
+        "price": "Nykyinen hinta",
+        "recentPrice": "Viimeinen myyntihinta",
+        "traits": "Ominaisuudet"
+      },
+      "empty": {
+        "description": "NFT:tä ei löytynyt"
+      },
+      "error": {
+        "unavailable": "Sisältöä ei ole saatavilla"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Piilota NFT",
+          "unhide": "Näytä NFT"
+        }
+      },
+      "link": {
+        "collection": "Kokoelman verkkosivusto"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFT:tä ei voitu ladata"
+          }
+        },
+        "none": {
+          "button": "Vastaanota NFT:t",
+          "description": {
+            "default": "Aloita siirtämällä NFT:t toisesta lompakosta.",
+            "external": "Kun tämä lompakko ostaa tai vastaanottaa NFT:itä, ne näkyvät täällä."
+          },
+          "title": "Ei vielä NFT:tä"
+        }
+      }
+    },
+    "noneFound": "Tunnuksia ei löytynyt.",
+    "selector": {
+      "button": {
+        "choose": "Valitse tunnus",
+        "clear": "Tyhjennä"
+      },
+      "empty": {
+        "buy": {
+          "message": "Osta krypto kortilla tai pankilla lähettääksesi rahakkeita.",
+          "title": "Osta krypto"
+        },
+        "receive": {
+          "title": "Vastaanota tokeneja"
+        },
+        "title": "Ei vielä tunnuksia"
+      },
+      "error": {
+        "load": "Tunnuksia ei voitu ladata"
+      },
+      "search": {
+        "empty": "Ei tuloksia haulle <highlight>{{searchText}}</highlight>",
+        "placeholder": "Etsi tokeneja"
+      },
+      "section": {
+        "bridging": "Vaihda verkkojen välillä",
+        "favorite": "Suosikit",
+        "otherNetworksSearchResults": "Tokeneja löytyi muista verkoista",
+        "otherSearchResults": "Muut merkit paikassa {{network}}",
+        "recent": "Viimeaikaiset haut",
+        "search": "Hakutulokset",
+        "trending": "Tokeneita 24 tunnin tilavuudella",
+        "yours": "Sinun tokenisi"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Etsi poolit",
+          "tokens": "Etsi tokeneja",
+          "transactions": "Hae tapahtumia"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Peruuta tapahtuma",
+        "description": "Jos peruutat tämän tapahtuman ennen kuin verkko on käsitellyt sen, maksat uuden verkkomaksun alkuperäisen sijaan.",
+        "title": "Perutaanko tämä tapahtuma?"
+      },
+      "copy": "Kopioi tapahtumatunnus",
+      "copyProvider": "Kopioi {{providerName}} tapahtumatunnus"
+    },
+    "amount": {
+      "unlimited": "Rajoittamaton"
+    },
+    "date": "Lähetetty {{date}}",
+    "details": {
+      "dappName": "Sovellus",
+      "from": "From",
+      "networkFee": "Verkon hinta",
+      "providerFee": "Palveluntarjoajan maksu",
+      "swapRate": "Rate",
+      "transaction": "Tapahtuma",
+      "uniswapFee": "Maksu ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Poolin likviditeetti ei riitä tapahtuman suorittamiseen",
+    "network": {
+      "all": "Kaikki verkot"
+    },
+    "networkCost": {
+      "label": "Verkon hinta",
+      "maxNativeBalance": {
+        "description": "Pieni määrä verkkotunnuksen saldosta on varattu kattamaan tämän tapahtuman verkkokustannukset.",
+        "title": "Miksi en voi käyttää enimmäissaldoani?"
+      },
+      "veryHigh": {
+        "label": "Erittäin korkeat verkkokustannukset"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Tapahtumaa ei voi peruuttaa",
+        "replace": "Tapahtumaa ei voi korvata"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Peruutettu hyväksyntä",
+        "canceling": "Peruutetaan hyväksyntää",
+        "failed": "Hyväksyminen epäonnistui",
+        "pending": "Hyväksytään",
+        "success": "Hyväksytty",
+        "successDapp": "Hyväksytty {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Peruutettu ostos",
+        "canceling": "Ostoksen peruuttaminen",
+        "failed": "Ostaminen epäonnistui",
+        "pending": "Ostaminen",
+        "success": "Ostettu",
+        "successDapp": "Ostettu {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Peruutettu vahvista",
+        "canceling": "Odottaa peruutusta",
+        "failed": "Vahvistus epäonnistui",
+        "pending": "Kauppa käynnissä",
+        "success": "Kauppa vahvistettu",
+        "successDapp": "Tapahtuma vahvistettu {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Peruutettu minttu",
+        "canceling": "Perutaan minttu",
+        "failed": "Lyönti epäonnistui",
+        "pending": "Lyönti",
+        "success": "Mintettu",
+        "successDapp": "Leimattu {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Ostos peruutettu",
+        "canceling": "Ostosta peruutetaan",
+        "failedOn": "Ostaminen epäonnistui {{serviceProvider}}",
+        "pendingOn": "Ostaminen {{serviceProvider}}",
+        "successOn": "Ostettu {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Vastaanotto peruutettu",
+        "canceling": "Peruutetaan vastaanotto",
+        "failedFrom": "Vastaanotto epäonnistui lähettäjältä {{serviceProvider}}",
+        "pendingFrom": "Vastaanotto {{serviceProvider}}",
+        "success": "Otettu vastaan",
+        "successDapp": "Vastaanotettu {{externalDappName}}",
+        "successFrom": "Vastaanotettu {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Peruutettu peruutus",
+        "canceling": "Perutaan peruutus",
+        "failed": "Peruminen epäonnistui",
+        "pending": "Peruuttaminen",
+        "success": "Peruutettu",
+        "successDapp": "Peruutettu {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Peruutettu myynti",
+        "canceling": "Myynnin peruuttaminen",
+        "failedOn": "Myynti epäonnistui {{serviceProvider}}kautta",
+        "pendingCard": {
+          "msg": "Lue lisää krypton myynnistä.",
+          "title": "Miksi myyntini on edelleen kesken?"
+        },
+        "pendingOn": "Myydään {{serviceProvider}}kautta",
+        "successOn": "Myydään {{serviceProvider}}kautta"
+      },
+      "sell": {
+        "canceled": "Myynti peruttu",
+        "canceling": "Myynnin peruuttaminen",
+        "failed": "Myynti epäonnistui",
+        "pending": "Myydään",
+        "success": "myyty",
+        "successDapp": "Myydään {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Lähetys peruutettu",
+        "canceling": "Peruutetaan lähetystä",
+        "failed": "Lähetys epäonnistui",
+        "pending": "Lähetetään",
+        "success": "Lähetetty",
+        "successDapp": "Lähetetty {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Vaihto peruttu",
+        "canceling": "Vaihtoa peruutetaan",
+        "expired": "Swap vanhentunut",
+        "failed": "Vaihto epäonnistui",
+        "insufficientFunds": "Riittämättömät varat",
+        "pending": "Vaihto",
+        "success": "Vaihdettu",
+        "successDapp": "Vaihdettu {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Purkaminen peruutettu",
+        "canceling": "Perutaan purkaminen",
+        "failed": "Purkaminen epäonnistui",
+        "pending": "Purkaminen",
+        "success": "Avattu",
+        "successDapp": "Purettu {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Peruutettu kääre",
+        "canceling": "Peruutetaan wrap",
+        "failed": "Kääriminen epäonnistui",
+        "pending": "Kääriminen",
+        "success": "Kääritty",
+        "successDapp": "Kääritty {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} - {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} kohteesta {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Tarvitset ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) {{networkName}} kattaaksesi tämän tapahtuman verkkokustannukset."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Jos haluat vaihtaa tähän tunnukseen, tarvitset lisää {{tokenSymbol}} kohdassa {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "Ei tarpeeksi {{tokenSymbol}} kohdassa {{networkName}}",
+            "withoutNetwork": "Ei tarpeeksi {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Olet kuluttamassa suurimman osan verkkotunnuksen saldosta. Tämä ei ehkä riitä kattamaan tulevia verkkokustannuksia.",
+        "title": "Alhainen verkkotunnuksen saldo"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Tapahtumaa ei voi peruuttaa",
+        "status": "Virhe tarkistettaessa tapahtuman tilaa"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> kokoaa likviditeettilähteitä parempia hintoja ja kaasuvapaita vaihtosopimuksia varten.",
+    "learnMore": "Lue lisää vaihtamisesta UniswapX:n kanssa"
+  },
+  "uniswapx": {
+    "description": "UniswapX kokoaa likviditeettilähteitä parempiin hintoihin ja kaasuvapaisiin vaihtosopimuksiin.",
+    "included": "Sisältää <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 kova tarjous epäonnistui. Yritä uudelleen perinteisellä vaihdolla."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Lunasta nyt"
+      },
+      "subtitle": "Luo henkilökohtainen web3-profiili ja jaa osoitteesi helposti ystävien kanssa.",
+      "title": {
+        "compact": "<highlight>Lunasta {{unitagDomain}} -käyttäjänimesi</highlight> ja rakenna muokattava profiilisi.",
+        "full": "Lunasta käyttäjänimesi {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Valitse kameran rullasta",
+        "computer": "Lataa tietokoneelta",
+        "nft": "Valitse NFT",
+        "remove": "Poista profiilikuva"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Mukauta profiilia",
+        "description": "{{unitagAddress}} on valmis lähettämään ja vastaanottamaan kryptotiedostoja. Jatka lompakkosi rakentamista mukauttamalla web3-profiiliasi.",
+        "success": {
+          "long": "Tajusit sen!",
+          "short": "sain sen!"
+        }
+      },
+      "error": {
+        "addressLimit": "Olet jo tehnyt enimmäismäärän muutoksia tämän osoitteen käyttäjänimeen",
+        "avatar": "Avataria ei voitu asettaa. Yritä myöhemmin uudelleen.",
+        "default": "Käyttäjätunnusta ei voitu vaatia. Yritä myöhemmin uudelleen.",
+        "deviceLimit": "Olet saavuttanut enimmäismäärän käyttäjänimiä, jotka voivat olla aktiivisia tälle laitteelle",
+        "general": "Käyttäjätunnusta ei voi lunastaa",
+        "unavailable": "Tämä käyttäjätunnus ei ole käytettävissä",
+        "unknown": "Tuntematon virhe"
+      },
+      "username": {
+        "default": "sinun nimesi"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Olet poistamassa käyttäjätunnuksesi ja muokattavat profiilitietosi. Et voi saada sitä takaisin.",
+        "title": "Oletko varma?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "käyttäjätunnus"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Olet vaihtamassa käyttäjätunnustasi. Kun muutat sen, et voi enää koskaan vaatia sitä.",
+        "title": "Oletko varma?"
+      },
+      "title": "Muokkaa käyttäjänimeäsi",
+      "warning": {
+        "default": "Kun vaihdat käyttäjätunnuksesi, et voi enää koskaan lunastaa sitä. Voit muuttaa sitä vain <highlight>2</highlight> kertaa.",
+        "max": "Olet saavuttanut 2 käyttäjänimen muutosten enimmäismäärän."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Lunasta käyttäjätunnus",
+        "description": "Sano hyvästit 0x-osoitteille. Käyttäjätunnukset ovat luettavia nimiä, jotka helpottavat krypton lähettämistä ja vastaanottamista.",
+        "title": "Esittelyssä käyttäjätunnukset",
+        "upsell": {
+          "customizable": "Muokattavat profiilit",
+          "ens": "ENS-aliverkkotunnuksia tuottavat",
+          "free": "Ilmainen vaatia"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "ENS-aliverkkotunnuksia tuottavat",
+        "free": "Ilmainen vaatia",
+        "profile": "Muokattavat profiilit"
+      },
+      "subtitle": "Sano hyvästit 0x-osoitteille. Käyttäjätunnukset ovat luettavia nimiä, jotka helpottavat krypton lähettämistä ja vastaanottamista.",
+      "title": "Esittelyssä käyttäjätunnukset"
+    },
+    "notification": {
+      "delete": {
+        "error": "Käyttäjätunnusta ei voitu poistaa. Yritä myöhemmin uudelleen.",
+        "title": "Käyttäjätunnus poistettu"
+      },
+      "profile": {
+        "error": "Profiilia ei voitu päivittää. Yritä myöhemmin uudelleen.",
+        "title": "profiili päivitetty"
+      },
+      "username": {
+        "error": "Käyttäjätunnusta ei voitu muuttaa. Yritä myöhemmin uudelleen.",
+        "title": "Käyttäjätunnus muutettu"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Tämä on henkilökohtainen osoitteesi, johon ihmiset voivat lähettää kryptotiedostoja.",
+        "title": {
+          "choose": "Luo käyttäjätunnuksesi",
+          "claim": "Lunasta käyttäjätunnuksesi"
+        }
+      },
+      "info": {
+        "description": "Käyttäjänimet muuttavat monimutkaiset 0x-osoitteet luettavissa oleviksi nimiksi. Lunastamalla {{unitagDomain}} -käyttäjätunnuksen voit helposti lähettää ja vastaanottaa kryptotiedostoja sekä rakentaa julkisen web3-profiilin.",
+        "title": "Yksinkertaistettu osoite"
+      },
+      "profile": {
+        "subtitle": "Lataa omasi tai pidä kiinni ainutlaatuisesta Uniconistasi. Voit aina muuttaa tätä myöhemmin.",
+        "title": "Valitse profiilikuva"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Poista käyttäjänimi",
+        "edit": "Muokkaa käyttäjänimeä"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Kirjoita profiiliisi bio"
+      },
+      "links": {
+        "twitter": "Viserrys"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Käyttäjätunnukset voivat sisältää vain kirjaimia ja numeroita",
+        "max": "Käyttäjänimissä voi olla enintään {{number}} merkkiä",
+        "min": "Käyttäjänimissä on oltava vähintään {{number}} merkkiä",
+        "uppercase": "Käyttäjänimet voivat sisältää vain pieniä kirjaimia ja numeroita"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Ei tarpeeksi {{tokenSymbol}} kohdassa {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 ei ole saatavilla tässä verkossa."
+  },
+  "wallet": {
+    "appSignIn": "Kirjaudu sisään sovelluksella",
+    "connectingAgreement": "Yhdistämällä lompakon hyväksyt Uniswap Labsin <termsLink>käyttöehdot</termsLink> ja sen <privacyLink>tietosuojakäytännön</privacyLink>.",
+    "connectionFailed": {
+      "message": "Yhteysyritys epäonnistui. Napsauta Yritä uudelleen ja seuraa ohjeita luodaksesi yhteyden lompakkoon."
+    },
+    "other": "Muut lompakot",
+    "scanToConnect": "Skannaa QR-koodi muodostaaksesi yhteyden",
+    "wrongNet": "Lompakkosi on yhdistetty väärään verkkoon."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Yhdistä sovellukseen skannaamalla koodi WalletConnectin kautta"
+      },
+      "manage": {
+        "empty": {
+          "title": "Ei yhdistettyjä sovelluksia"
+        },
+        "title": "Liitännät"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet tukee tällä hetkellä {{chainNames}}. Käytä vain \"{{dappName}}\" näissä ketjuissa",
+        "title": "Yhteysvirhe"
+      },
+      "general": {
+        "message": "WalletConnectissa oli ongelma. Yritä uudelleen",
+        "title": "WalletConnect-virhe"
+      },
+      "scantastic": {
+        "message": "QR-koodissasi oli ongelma. Yritä uudelleen",
+        "title": "Virheellinen QR-koodi"
+      },
+      "unsupported": {
+        "message": "Varmista, että skannaat kelvollista WalletConnect-, Ethereum-osoitetta tai Uniswap-laajennuksen QR-koodia, ennen kuin yrität uudelleen.",
+        "title": "Virheellinen QR-koodi"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1:tä ei enää tueta. Sovellus, johon yrität muodostaa yhteyden, on päivitettävä WalletConnect v2:een.",
+        "title": "Virheellinen QR-koodi"
+      },
+      "uwu": {
+        "scan": "Tämän QR-koodin skannauksessa oli ongelma.",
+        "title": "UwU Link -virhe",
+        "unsupported": "Tätä QR-koodia ei tueta."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Kytkeä",
+        "scrollDown": "Vieritä alas muodostaaksesi yhteys"
+      },
+      "switchAccount": "Vaihda tiliä",
+      "title": "Yhdistä {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Siirrä omaisuuttasi ilman lupaa",
+        "viewTokenBalances": "Tarkastele token-saldoasi",
+        "viewWalletAddress": "Katso lompakkosi osoite"
+      },
+      "title": "Sivuston käyttöoikeudet"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Vieritä alas allekirjoittaaksesi",
+        "sign": "Merkki"
+      },
+      "details": {
+        "label": {
+          "function": "Toiminto",
+          "sending": "Lähetetään",
+          "token": "Token",
+          "tokens": "Tokenit"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Sinulla ei ole tarpeeksi {{currencySymbol}} tämän tapahtuman suorittamiseen.",
+        "network": "Internet- tai verkkoyhteysvirhe"
+      },
+      "warning": {
+        "general": {
+          "message": "Ole varovainen: tämä viesti saattaa siirtää omaisuutta"
+        },
+        "message": "Viestien tai tapahtumien allekirjoittamista varten sinun on tuotava lompakon palautuslauseke.",
+        "title": "Tämä lompakko on vain katselutilassa"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Löydä ja tutki tunnuksia {{network}}. Tutustu suosituimpiin uima-altaisiin. Tarkastele reaaliaikaisia hintoja, kaupankäyntimääriä, TVL:ää, kaavioita ja tapahtumatietoja.",
+      "title": {
+        "pools": "Tutustu Uniswapin {{network}} suosituimpiin uima-altaisiin",
+        "tokens": "Tutustu Uniswapin {{network}} suosituimpiin tokeneihin",
+        "transactions": "Tutustu Uniswapin {{network}} suosituimpiin tapahtumiin"
+      }
+    }
+  }
+}

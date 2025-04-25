@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "{{amount}} पुरस्कार का दावा करें"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "आपके {{cloudProviderName}}में कई पुनर्प्राप्ति वाक्यांशों का बैकअप लिया गया है।",
+        "title": "पुनर्स्थापित करने के लिए बैकअप का चयन करें"
+      },
+      "button": {
+        "restore": {
+          "android": "Google Drive से पुनर्स्थापित करें",
+          "ios": "iCloud से पुनर्स्थापित करें"
+        }
+      },
+      "empty": {
+        "description": "ऐसा लगता है कि आपने अपने किसी भी पुनर्प्राप्ति वाक्यांश का {{cloudProviderName}}में बैकअप नहीं लिया है।",
+        "title": "0 बैकअप मिले"
+      },
+      "error": {
+        "backup": {
+          "message": "अनुमतियों की कमी, प्राधिकरण में रुकावट या क्लाउड त्रुटि के कारण बैकअप आयात करने में विफल",
+          "title": "बैकअप आयात करते समय त्रुटि"
+        },
+        "password": {
+          "title": "अवैध पासवर्ड। कृपया पुन: प्रयास करें।"
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "अभी नहीं",
+            "settings": "सेटिंग्स में जाओ"
+          },
+          "message": {
+            "android": "कृपया सत्यापित करें कि आप इस डिवाइस पर Google ड्राइव सक्षम वाले Google खाते में लॉग इन हैं और पुनः प्रयास करें।",
+            "ios": "कृपया सत्यापित करें कि आप इस डिवाइस पर सक्षम iCloud Drive वाली Apple ID में लॉग इन हैं और पुनः प्रयास करें।"
+          },
+          "title": {
+            "android": "गूगल ड्राइव उपलब्ध नहीं है",
+            "ios": "iCloud ड्राइव उपलब्ध नहीं है"
+          }
+        }
+      },
+      "loading": {
+        "title": "बैकअप खोज रहे हैं..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "बहुत ज़्यादा प्रयास हो चुके हैं. 1 घंटे बाद फिर से प्रयास करें.",
+          "hours_other": "बहुत ज़्यादा प्रयास हो चुके हैं। {{count}} घंटे बाद फिर से प्रयास करें।",
+          "minutes_one": "बहुत ज़्यादा प्रयास हो चुके हैं. 1 मिनट में फिर से प्रयास करें.",
+          "minutes_other": "बहुत ज़्यादा प्रयास हो चुके हैं। {{count}} मिनट में फिर से प्रयास करें।"
+        }
+      },
+      "password": {
+        "input": "पास वर्ड दर्ज करें",
+        "recoveryPhrase": "इसके बजाय अपना पुनर्प्राप्ति वाक्यांश दर्ज करें",
+        "subtitle": "यह पासवर्ड {{cloudProviderName}}से आपके पुनर्प्राप्ति वाक्यांश बैकअप को पुनर्प्राप्त करने के लिए आवश्यक है।",
+        "title": "बैकअप पासवर्ड दर्ज करें"
+      }
+    },
+    "drawer": {
+      "gitVersion": "संस्करण: ",
+      "modal": {
+        "body": "Uniswap ऐप के साथ टोकन को सुरक्षित रूप से स्टोर और स्वैप करें। iOS और Android पर उपलब्ध है।",
+        "dont": "क्या आपके पास Uniswap वॉलेट नहीं है?",
+        "scan": "Uniswap वॉलेट से स्कैन करें"
+      },
+      "spamToggle": "अज्ञात टोकन और NFT छिपाएँ"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "मैंने अपने पुनर्प्राप्ति वाक्यांश का बैकअप ले लिया है और समझता हूं कि यदि मैं ऐसा करने में विफल रहा तो यूनिस्वैप लैब्स मेरे वॉलेट को पुनर्प्राप्त करने में मेरी मदद नहीं कर सकता।",
+        "description": "सुनिश्चित करें कि आपने Uniswap मोबाइल ऐप या ब्राउज़र एक्सटेंशन का उपयोग करके अपने पुनर्प्राप्ति वाक्यांश का बैकअप लिया है।",
+        "descriptionEmphasized": "आपके पुनर्प्राप्ति वाक्यांश के बिना, आप अपने वॉलेट तक पहुंचने में असमर्थ हो सकते हैं।",
+        "speedbump": {
+          "description": "आगे बढ़ने से पहले, अपने वॉलेट और सभी फंड तक पहुंच खोने से बचने के लिए निम्नलिखित चरणों को पूरा करें।",
+          "step1": "Uniswap मोबाइल ऐप या ब्राउज़र एक्सटेंशन डाउनलोड करें",
+          "step2": "अपने पुनर्प्राप्ति वाक्यांश का बैकअप लें",
+          "title": "क्या आपको यकीन है?"
+        },
+        "title": "पासकी मिटाएँ?"
+      },
+      "sign": {
+        "in": {
+          "title": "पासकी से साइन इन करें"
+        }
+      },
+      "type": {
+        "crossplatform": "फ़ोन, टैबलेट या सुरक्षा कुंजी",
+        "platform": "ब्राउज़र या ऑपरेटिंग सिस्टम"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "यह ऑर्डर रद्द कर दिया गया क्योंकि आपकी शेष राशि इनपुट राशि से कम हो गई थी।"
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "यह ऑर्डर पूरा नहीं होगा क्योंकि आपका बैलेंस इनपुट राशि से कम हो गया है। इसे ठीक करने के लिए अपना बैलेंस बढ़ाएँ।"
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "पुनर्प्राप्ति वाक्यांश (या बीज वाक्यांश) <highlight>शब्दों का एक सेट है</highlight> जो आपके वॉलेट तक पहुंचने के लिए आवश्यक है, <highlight>पासवर्ड की तरह।</highlight>",
+        "part2": "आप अपने वॉलेट</highlight> और उसकी सामग्री को पुनर्स्थापित करने के लिए <highlight>किसी नए डिवाइस <highlight>पर अपना पुनर्प्राप्ति वाक्यांश</highlight> दर्ज कर सकते हैं।",
+        "part3": "लेकिन, यदि आप <highlight>अपना पुनर्प्राप्ति वाक्यांश</highlight>खो देते हैं, तो आप <highlight>अपने वॉलेट तक पहुंच</highlight> खो देंगे।",
+        "part4": "अपने पुनर्प्राप्ति वाक्यांश को याद करने के बजाय, आप <highlight>को {{cloudProviderName}}</highlight> में बैकअप कर सकते हैं और इसे पासवर्ड से सुरक्षित कर सकते हैं।",
+        "part5": "आप अपने पुनर्प्राप्ति वाक्यांश का मैन्युअल रूप से बैकअप भी ले सकते हैं, <highlight>इसे लिखकर</highlight> और इसे सुरक्षित स्थान पर संग्रहीत कर सकते हैं।",
+        "part6": "हम <highlight>दोनों प्रकार के बैकअप</highlight>का उपयोग करने की सलाह देते हैं, क्योंकि यदि आप अपना पुनर्प्राप्ति वाक्यांश खो देते हैं, तो आप अपने वॉलेट को पुनर्स्थापित नहीं कर पाएंगे।"
+      },
+      "error": {
+        "invalid": "अमान्य वाक्यांश",
+        "invalidWord": "अमान्य शब्द: {{word}}",
+        "phraseLength": "पुनर्प्राप्ति वाक्यांश 12-24 शब्दों का होना चाहिए",
+        "wrong": "ग़लत पुनर्प्राप्ति वाक्यांश"
+      },
+      "helpText": {
+        "import": "मैं अपना पुनर्प्राप्ति वाक्यांश कैसे ढूंढूं?",
+        "restoring": "पुनः खोजने का प्रयास करें"
+      },
+      "input": "अपना पुनर्प्राप्ति वाक्यांश टाइप करें",
+      "remove": {
+        "final": {
+          "description": "सुनिश्चित करें कि आपने अपना पुनर्प्राप्ति वाक्यांश लिख लिया है या उसका बैकअप ले लिया है {{cloudProviderName}}. <highlight>अन्यथा आप अपने फंड तक नहीं पहुंच पाएंगे।</highlight>",
+          "title": "आप अपना <highlight>पुनर्प्राप्ति वाक्यांश</highlight>हटा रहे हैं"
+        },
+        "import": {
+          "description": "आप एक समय में केवल एक पुनर्प्राप्ति वाक्यांश संग्रहीत कर सकते हैं। नया आयात जारी रखने के लिए, आपको इस डिवाइस से अपने वर्तमान पुनर्प्राप्ति वाक्यांश और किसी भी संबद्ध वॉलेट को हटाना होगा।"
+        },
+        "initial": {
+          "description": "यह आपके पुनर्प्राप्ति वाक्यांश के साथ आपके वॉलेट को इस डिवाइस से हटा देगा।",
+          "title": "आप <highlight>{{walletName}}</highlight>हटा रहे हैं"
+        },
+        "mnemonic": {
+          "description": "आपका पुनर्प्राप्ति वाक्यांश तब तक संग्रहीत रहेगा जब तक आप शेष सभी वॉलेट्स को हटा नहीं देते।"
+        }
+      },
+      "subtitle": {
+        "import": "आपका पुनर्प्राप्ति वाक्यांश केवल आपके डिवाइस पर स्थानीय रूप से संग्रहीत किया जाएगा।",
+        "restoring": "नीचे अपना पुनर्प्राप्ति वाक्यांश दर्ज करें, या फिर से बैकअप खोजने का प्रयास करें।"
+      },
+      "title": {
+        "import": "अपना पुनर्प्राप्ति वाक्यांश दर्ज करें",
+        "restoring": "कोई बैकअप नहीं मिला"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "पता कॉपी करें",
+        "manageConnections": "संबंधों का प्रबंधन",
+        "report": "प्रोफाइल रिपोर्ट करें",
+        "viewExplorer": "{{blockExplorerName}}पर देखें"
+      },
+      "button": {
+        "add": "बटुआ जोड़ें",
+        "addViewOnly": "केवल-दृश्य बटुआ जोड़ें",
+        "create": "एक नया वॉलेट बनाएं",
+        "import": "एक नया बटुआ आयात करें",
+        "manage": "वॉलेट सेटिंग्स",
+        "remove": "बटुआ हटाओ",
+        "restore": "अपना बटुआ पुनः प्राप्त करें",
+        "watch": "एक बटुआ देखो"
+      },
+      "create": {
+        "placeholder": "वॉलेट {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "वॉलेट लेबल"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "प्रोफ़ाइल संपादित करें"
+          },
+          "title": "लेबल संपादित करें"
+        },
+        "viewOnly": "केवल देखने योग्य वॉलेट"
+      },
+      "menu": {
+        "claimUsername": "उपयोगकर्ता नाम का दावा करें",
+        "copy": {
+          "title": "वॉलेट पता कॉपी करें"
+        },
+        "edit": {
+          "title": "लेबल संपादित करें"
+        },
+        "manageConnections": "संबंधों का प्रबंधन",
+        "remove": {
+          "title": "बटुआ हटाओ"
+        }
+      },
+      "remove": {
+        "check": "मैंने अपने पुनर्प्राप्ति वाक्यांश का समर्थन किया है और समझता हूं कि यदि मैं ऐसा करने में विफल रहता हूं तो Uniswap Labs मेरे बटुए को पुनर्प्राप्त करने में मेरी सहायता नहीं कर सकती है।",
+        "title": "{{name}}हटाएँ",
+        "viewOnly": "आप वॉलेट का पता दर्ज करके हमेशा केवल-बैक-व्यू वॉलेट जोड़ सकते हैं।"
+      },
+      "restore": {
+        "description": "चूंकि आप नए डिवाइस पर हैं, इसलिए आपको जारी रखने के लिए अपना पुनर्प्राप्ति वाक्यांश पुनर्स्थापित करना होगा या अपना क्लाउड बैकअप पासवर्ड दर्ज करना होगा."
+      },
+      "select": {
+        "error": "पते लोड नहीं किये जा सके",
+        "loading": {
+          "subtitle": "आपके बटुए नीचे दिखाई देंगे.",
+          "title": "बटुए खोज रहे हैं"
+        },
+        "title_one_one": "एक बटुआ मिला",
+        "title_one_other": "आयात करने के लिए वॉलेट चुनें"
+      },
+      "viewOnly": {
+        "button": "बटुआ आयात करें",
+        "description": "टोकन स्वैप करने, खरीदने, भेजने और प्राप्त करने के लिए, आपको इस वॉलेट के पुनर्प्राप्ति वाक्यांश को आयात करना होगा।",
+        "title": "यह वॉलेट केवल देखने के लिए है"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "यह पता पहले ही आयात किया जा चुका है",
+          "notFound": "पता नहीं पाया गया",
+          "smartContract": "पता एक स्मार्ट अनुबंध है"
+        },
+        "message": "केवल-दृश्य वॉलेट जोड़ने से आप ऐप को आज़मा सकते हैं या वॉलेट को ट्रैक कर सकते हैं। आप धनराशि की अदला-बदली या भेजने में सक्षम नहीं होंगे।",
+        "placeholder": "ईएनएस या पता",
+        "title": "वॉलेट पता दर्ज करें"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} लंबित",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} पुरस्कार एकत्रित"
+      },
+      "receive": {
+        "descriptor": "{{walletAddress}}से {{amountWithSymbol}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} से {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolB}}के बदले {{amountWithSymbolA}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} और {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "पूल का हिस्सा"
+  },
+  "addressInput": {
+    "recipient": "प्राप्तकर्ता"
+  },
+  "analytics": {
+    "allow": {
+      "message": "हम यूनिस्वैप लैब्स उत्पादों के साथ आपके अनुभव को बढ़ाने के लिए अनाम डेटा का उपयोग करते हैं।"
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "ज़रूरी नहीं"
+    },
+    "description": "हमें बताएं कि क्या आपको इस ऐप के साथ अच्छा अनुभव हो रहा है",
+    "extension": {
+      "review": {
+        "description": "एक स्टार रेटिंग चुनें और Chrome वेब स्टोर पर समीक्षा छोड़ें.",
+        "title": "Uniswap एक्सटेंशन की समीक्षा करें?"
+      },
+      "title": "क्या आप Uniswap एक्सटेंशन का आनंद ले रहे हैं?"
+    },
+    "feedback": {
+      "button": {
+        "send": "प्रतिक्रिया भेजें"
+      },
+      "description": "हमें बताएं कि हम आपके अनुभव को कैसे बेहतर बना सकते हैं",
+      "title": "हमें यह सुनकर खेद है।"
+    },
+    "mobile": {
+      "title": "क्या आप यूनिस्वैप वॉलेट का आनंद ले रहे हैं?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "मोमबत्ती",
+    "error": {
+      "pools": "वर्तमान पूल के लिए ऐतिहासिक डेटा प्रदर्शित करने में असमर्थ.",
+      "tokens": "वर्तमान टोकन के लिए ऐतिहासिक डेटा प्रदर्शित करने में असमर्थ."
+    },
+    "line": "पंक्ति चार्ट",
+    "missingData": "चार्ट डेटा गुम है",
+    "price": {
+      "label": {
+        "close": "बंद करना",
+        "high": "उच्च",
+        "low": "कम",
+        "open": "खुला"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "यह सेटिंग वर्तमान चार्ट के लिए उपलब्ध नहीं है"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Uniswap समुदाय का हिस्सा बनने के लिए धन्यवाद <heart />",
+    "uni": {
+      "arrived": "यूएनआई आ गया है"
+    }
+  },
+  "common": {
+    "accept": "स्वीकार करना",
+    "activity": "गतिविधि",
+    "add": {
+      "label": "जोड़ना",
+      "liquidity": {
+        "cancelled": "तरलता जोड़ना रद्द किया गया",
+        "failed": "तरलता जोड़ना विफल"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "V2 लिक्विडिटी जोड़ना रद्द कर दिया गया",
+          "failed": "V2 लिक्विडिटी जोड़ना विफल रहा"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "अतिरिक्त तरलता",
+      "v2": {
+        "liquidity": "V2 तरलता को जोड़ा गया"
+      }
+    },
+    "addedLiquidity": "अतिरिक्त तरलता",
+    "adding": {
+      "liquidity": "तरलता बढ़ाना",
+      "v2": {
+        "liquidity": "V2 तरलता जोड़ना"
+      }
+    },
+    "addLiquidity": "तरलता जोड़ें",
+    "addressOrENS": "वॉलेट पता या ENS नाम",
+    "advanced": "विकसित",
+    "all": "सभी",
+    "allTime": "पूरे समय",
+    "and": "और",
+    "app": "अनुप्रयोग",
+    "approval": {
+      "cancelled": "स्वीकृति रद्द",
+      "failed": "अनुमोदन विफल"
+    },
+    "approve": "मंज़ूरी देना",
+    "approved": "अनुमत",
+    "approvePending": "स्वीकृति लंबित...",
+    "approveSpend": "{{symbol}} व्यय स्वीकृत करें",
+    "approving": "का अनुमोदन",
+    "areYouSure": "क्या आपको यकीन है?",
+    "automatic": "ऑटो",
+    "availableIn": "यूनिस्वैप उपलब्ध है: <locale />",
+    "availableOnIOSAndroid": "iOS और Android पर उपलब्ध",
+    "availableOnIOSAndroidChrome": "iOS, Android और Chrome पर उपलब्ध",
+    "backToPositions": "पदों पर वापस जाएं",
+    "blocked": {
+      "ifError": "यदि आपको लगता है कि यह एक त्रुटि है, तो कृपया अपना पता सहित एक ईमेल <emailAddress />पर भेजें",
+      "reason": "यह पता Uniswap Labs इंटरफ़ेस पर अवरुद्ध है क्योंकि यह एक या अधिक <link>अवरुद्ध गतिविधियों</link>से संबद्ध है।"
+    },
+    "blockedAddress": "अवरुद्ध पता",
+    "blog": "ब्लॉग",
+    "borrow": {
+      "cancelled": "उधार रद्द",
+      "failed": "उधार लेना विफल"
+    },
+    "borrowed": "उधार",
+    "borrowing": "उधार",
+    "bought": "खरीदा",
+    "brandAssets": "ब्रांड परिसंपत्तियां",
+    "burn": {
+      "cancelled": "जलाना रद्द",
+      "failed": "जलाना विफल"
+    },
+    "burned": "जला",
+    "burning": "जलता हुआ",
+    "button": {
+      "accept": "स्वीकार करना",
+      "back": "पीछे",
+      "buy": "खरीदना",
+      "cancel": "रद्द करना",
+      "checkin": "चेक इन",
+      "close": "बंद करना",
+      "confirm": "पुष्टि करना",
+      "connect": "जोड़ना",
+      "continue": "जारी रखना",
+      "copied": "कॉपी किया गया",
+      "copy": "प्रतिलिपि",
+      "create": "बनाएं",
+      "delete": "मिटाना",
+      "disconnect": "डिस्कनेक्ट",
+      "dismiss": "नकार देना",
+      "done": "हो गया",
+      "edit": "संपादन करना",
+      "enable": "सक्षम",
+      "finish": "खत्म करना",
+      "goBack": "वापस जाओ",
+      "later": "शायद बाद में",
+      "learn": "और अधिक जानें",
+      "next": "अगला",
+      "notNow": "अभी नहीं",
+      "ok": "ठीक है",
+      "paste": "पेस्ट करें",
+      "pay": "वेतन",
+      "proceed": "आगे बढ़ना",
+      "receive": "प्राप्त करें",
+      "remove": "निकालना",
+      "reset": "रीसेट करें",
+      "retry": "पुन: प्रयास करें",
+      "reveal": "प्रकट करना",
+      "review": "समीक्षा",
+      "save": "बचाना",
+      "scrollDown": "नीचे स्क्रॉल करें",
+      "sell": "बेचना",
+      "send": "भेजना",
+      "setup": "स्थापित करना",
+      "share": "शेयर करना",
+      "showLess": "कम दिखाएं",
+      "showMore": "और दिखाओ",
+      "sign": "संकेत",
+      "skip": "छोडना",
+      "swap": "बदलना",
+      "tryAgain": "पुनः प्रयास करें",
+      "understand": "मैं समझता हूँ",
+      "unlock": "अनलॉक",
+      "view": "देखना",
+      "viewDetails": "विवरण देखें",
+      "yes": "हाँ"
+    },
+    "buy": {
+      "cancelled": "खरीद रद्द",
+      "failed": "खरीद विफल",
+      "label": "खरीदना"
+    },
+    "buyAndSell": "यूनिस्वैप पर खरीदें और बेचें",
+    "buying": "क्रय करना",
+    "by": "द्वारा",
+    "cancel": {
+      "failed": "रद्द करना विफल"
+    },
+    "cancellation": {
+      "cancelled": "निरस्तीकरण रद्द"
+    },
+    "cancellationSubmitted": "निरस्तीकरण प्रस्तुत किया गया",
+    "cancellationSuccessful": "रद्दीकरण सफल",
+    "cancelled": "रद्द",
+    "cancelling": "रद्द कर रहा है",
+    "cancelOrder": "आदेश रद्द",
+    "card": {
+      "error": {
+        "description": "कुछ गलत हो गया",
+        "title": "उफ़! कुछ गलत हो गया।"
+      }
+    },
+    "careers": "करियर",
+    "chart": "चार्ट",
+    "checkNetwork": "नेटवर्क स्थिति <link>यहां जांचें।</link>",
+    "chromeExtension": "विस्तार",
+    "claim": {
+      "cancelled": "दावा रद्द",
+      "failed": "दावा विफल"
+    },
+    "claimed": "दावा किया",
+    "claiming": "का दावा",
+    "claimUnis": "अपने UNI टोकन का दावा करें",
+    "clear": "स्पष्ट",
+    "close": "बंद करना",
+    "closed": "बंद किया हुआ",
+    "collect": {
+      "button": "इकट्ठा करना",
+      "fees": {
+        "cancelled": "शुल्क संग्रह रद्द",
+        "failed": "शुल्क एकत्रित करना विफल"
+      }
+    },
+    "collected": {
+      "fees": "एकत्रित शुल्क"
+    },
+    "collecting": {
+      "fees": "शुल्क एकत्रित करना"
+    },
+    "company": "कंपनी",
+    "confirm": "पुष्टि करना",
+    "confirmCancellation": "रद्दीकरण की पुष्टि करें",
+    "confirmSend": {
+      "button": "भेजने की पुष्टि करें"
+    },
+    "confirmSwap": "वॉलेट में स्वैप की पुष्टि करें",
+    "confirmTimedOut": "पुष्टिकरण समय समाप्त हो गया है। कृपया पुनः प्रयास करें।",
+    "confirmWallet": "वॉलेट में पुष्टि करें",
+    "connect": {
+      "button": "जोड़ना"
+    },
+    "connectAWallet": {
+      "button": "वॉलेट कनेक्ट करें"
+    },
+    "connectWallet": {
+      "button": "वॉलेट कनेक्ट करें"
+    },
+    "contactUs": {
+      "button": "संपर्क करें"
+    },
+    "contractInteraction": "अनुबंध बातचीत",
+    "copied": "कॉपी किया गया",
+    "copy": {
+      "address": "पता कॉपी करें"
+    },
+    "copyLink": {
+      "button": "लिंक की प्रतिलिपि करें"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "पूल बनाना रद्द किया गया",
+        "failed": "पूल बनाना विफल"
+      }
+    },
+    "created": {
+      "date": "बनाया गया {{date}}",
+      "pool": "बनाया गया पूल"
+    },
+    "creating": {
+      "pool": "पूल बनाना"
+    },
+    "currency": "मुद्रा",
+    "custom": "रिवाज़",
+    "customRange": "कस्टम रेंज",
+    "dataOutdated": "डेटा पुराना हो सकता है",
+    "default": "गलती करना",
+    "defaultTradeOptions": "डिफ़ॉल्ट व्यापार विकल्प",
+    "delegate": {
+      "cancelled": "प्रतिनिधि रद्द",
+      "failed": "प्रतिनिधि नियुक्त करना विफल"
+    },
+    "delegated": "प्रत्यायोजित",
+    "delegating": "सौंपना",
+    "deploy": {
+      "cancelled": "तैनाती रद्द",
+      "failed": "तैनाती विफल"
+    },
+    "deployed": "तैनात",
+    "deploying": "परिनियोजित",
+    "deposit": {
+      "cancelled": "जमा रद्द",
+      "failed": "जमा विफल",
+      "toNetwork": "{{label}} नेटवर्क पर टोकन जमा करें।"
+    },
+    "deposited": "जमा किया",
+    "depositing": "जमा",
+    "depositTokens": "टोकन जमा करें",
+    "detected": "का पता चला",
+    "developers": "डेवलपर्स",
+    "device": {
+      "other": "अन्य डिवाइस"
+    },
+    "dismiss": "नकार देना",
+    "displaySettings": "प्रदर्शन सेटिंग्स",
+    "dnsRegistrar": "DNS रजिस्ट्रार",
+    "donate": "दान करें",
+    "done": "हो गया",
+    "dontShowAgain": "इसे दोबारा न दिखाएं",
+    "download": "डाउनलोड करना",
+    "downloadAppStore": "ऐप स्टोर से डाउनलोड करें",
+    "downloadPlayStore": "प्ले स्टोर से डाउनलोड करें",
+    "downloadUniswap": "Uniswap डाउनलोड करें",
+    "downloadUniswapApp": "यूनिस्वैप ऐप डाउनलोड करें",
+    "dynamic": "गतिशील",
+    "edit": {
+      "button": "संपादन करना"
+    },
+    "error": {
+      "details": "त्रुटि विवरण",
+      "general": "कुछ गलत हो गया",
+      "label": "गलती",
+      "request": "क्षमा करें, आपके अनुरोध को संसाधित करते समय एक त्रुटि हुई। यदि आप सहायता का अनुरोध करते हैं, तो इस त्रुटि का विवरण कॉपी करना सुनिश्चित करें।",
+      "somethingWrong": "कुछ गलत हो गया!",
+      "wrong": {
+        "tryAgain": "कुछ गड़बड़ हुई है। कृपया दोबारा प्रयास करें।"
+      }
+    },
+    "errorConnecting": {
+      "error": "कनेक्ट करते समय त्रुटि"
+    },
+    "errorLoadingData": {
+      "error": "डेटा लोड करते समय त्रुटि"
+    },
+    "ethereumNameService": "एथेरियम नाम सेवा",
+    "etherscan": {
+      "link": "इथरस्कैन पर देखें"
+    },
+    "ethRegistrarController": "ETH रजिस्ट्रार नियंत्रक",
+    "execute": {
+      "cancelled": "निष्पादन रद्द",
+      "failed": "निष्पादन विफल"
+    },
+    "executed": "निष्पादित",
+    "executing": "निष्पादित",
+    "expired": "खत्म हो चुका",
+    "expiry": "समाप्ति",
+    "explore": "अन्वेषण करना",
+    "explorer": "एक्सप्लोरर",
+    "exploreTokens": "टोकन एक्सप्लोर करें",
+    "extension": "यूनिस्वैप एक्सटेंशन",
+    "failed": {
+      "error": "असफल"
+    },
+    "failedSwitchNetwork": "नेटवर्क स्विच करने में विफल",
+    "fee": "शुल्क",
+    "fees": "फीस",
+    "feesEarned": "अर्जित शुल्क",
+    "feesEarnedPerBase": "{{symbolA}} प्रति {{symbolB}}",
+    "fetchingRoute": "मार्ग प्राप्त किया जा रहा है",
+    "floor": "ज़मीन",
+    "floorPrice": "न्यूनतम मूल्य",
+    "for": "के लिए",
+    "fullRange": "पूरी श्रृंखला",
+    "getApp": "एप पाओ",
+    "getHelp": {
+      "button": "मदद लें"
+    },
+    "getStarted": "शुरू हो जाओ",
+    "getSupport": {
+      "button": "समर्थन प्राप्त करें"
+    },
+    "getTheApp": "अबेदन पत्र लो",
+    "getUniswapWallet": "Uniswap वॉलेट प्राप्त करें",
+    "governance": "शासन",
+    "happyHolidays": "यूनिस्वैप टीम की ओर से छुट्टियों की शुभकामनाएँ!",
+    "helpCenter": "सहायता केंद्र",
+    "hidden": "छिपा हुआ",
+    "hide": {
+      "button": "छिपाना"
+    },
+    "highPrice": "उच्च कीमत",
+    "includes": "शामिल",
+    "info": {
+      "label": "जानकारी"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "प्राप्तकर्ता चुनें"
+      },
+      "password": {
+        "confirm": "पासवर्ड की पुष्टि कीजिये",
+        "error": {
+          "mismatch": "पासवर्ड मेल नहीं खाते",
+          "weak": "यह पासवर्ड बहुत कमज़ोर है"
+        },
+        "new": "नया पासवर्ड",
+        "placeholder": "पासवर्ड",
+        "strength": {
+          "medium": "मध्यम",
+          "strong": "मज़बूत",
+          "weak": "कमज़ोर"
+        }
+      },
+      "search": "खोज"
+    },
+    "insufficient": {
+      "funds": "अपर्याप्त कोष"
+    },
+    "insufficientBalance": {
+      "error": "अपर्याप्त शेषराशि"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "नेटवर्क लागत को कवर करने के लिए अपर्याप्त धन"
+    },
+    "insufficientLiquidity": "अपर्याप्त तरलता",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "अपर्याप्त {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "अमान्य जोड़ी",
+    "invalidRecipient": {
+      "error": "अवैध प्राप्तकर्ता"
+    },
+    "iOSAndroid": "आईओएस और एंड्रॉइड",
+    "language": "भाषा",
+    "lastPrice": "अंतिम मूल्य",
+    "learnMoreSwap": "स्वैप के बारे में अधिक जानें",
+    "legalAndPrivacy": "कानूनी और गोपनीयता",
+    "less": "कम",
+    "limit": {
+      "cancel_one": "सीमा रद्द करें",
+      "cancel_other": "{{count}} सीमाएँ रद्द करें",
+      "cancelled": "सीमा रद्द",
+      "executed": "सीमा निष्पादित",
+      "expired": "सीमा समाप्त हो गई",
+      "failed": "सीमा विफल",
+      "opened": "सीमा खोली गई",
+      "pending": "सीमा लंबित"
+    },
+    "limits": {
+      "approachMax": "अधिकतम सीमा 100 के करीब",
+      "cancelProceed": "आगे बढ़ने के लिए सीमाएँ रद्द करें",
+      "expires": "समाप्त {{timestamp}}",
+      "open": "खुली सीमाएँ",
+      "when": "जब {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "लिंक",
+    "liquidity": {
+      "removed": "तरलता हटा दी गई"
+    },
+    "loading": "लोड हो रहा है",
+    "loadingAllowance": "लोडिंग भत्ता",
+    "loadMore": "और लोड करें",
+    "longText": {
+      "button": {
+        "less": "कम पढ़ें",
+        "more": "और पढ़ें"
+      }
+    },
+    "lowPrice": "कम कीमत",
+    "manage": "प्रबंधित करना",
+    "market": {
+      "label": "बाज़ार"
+    },
+    "marketPrice": {
+      "fetching": "बाजार मूल्य प्राप्त किया जा रहा है...",
+      "label": "बाजार कीमत:",
+      "unavailable": "बाजार मूल्य नहीं मिला। कृपया धन की हानि से बचने के लिए स्वयं शोध करें।"
+    },
+    "max": "अधिकतम",
+    "message": "संदेश",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "माइग्रेट लिक्विडिटी रद्द",
+        "failed": "तरलता स्थानांतरण विफल"
+      },
+      "position": "स्थान परिवर्तन",
+      "v3": "V3 पर माइग्रेट करें"
+    },
+    "migrated": {
+      "liquidity": "माइग्रेटेड लिक्विडिटी"
+    },
+    "migrating": {
+      "liquidity": "तरलता का स्थानांतरण"
+    },
+    "min": "मिन",
+    "mint": {
+      "cancelled": "टकसाल रद्द",
+      "failed": "मिंट विफल"
+    },
+    "minted": "ढाला",
+    "minting": "मिंटिंग",
+    "mobile": "गतिमान",
+    "more": "अधिक",
+    "multiDevice": "मल्टी-डिवाइस",
+    "navigation": {
+      "settings": "समायोजन",
+      "systemSettings": "समायोजन"
+    },
+    "navigationButton": "नेविगेशन बटन",
+    "needHelp": "मदद की ज़रूरत है?",
+    "networkCost": "नेटवर्क लागत",
+    "neverMind": "कोई बात नहीं",
+    "new": {
+      "exclamation": "नया!"
+    },
+    "nft": "एनएफटी",
+    "nfts": "एनएफटी",
+    "noActivity": "अभी तक कोई गतिविधि नहीं",
+    "noAmount": {
+      "error": "राशि दर्ज करें"
+    },
+    "noData": "कोई डेटा नहीं",
+    "noResults": "कोई परिणाम नहीं मिला।",
+    "notAvailableInRegion": {
+      "error": "आपके क्षेत्र में उपलब्ध नहीं है"
+    },
+    "notCreated": {
+      "label": "नहीं बनाया गया"
+    },
+    "notSupported": "समर्थित नहीं",
+    "oneDay": {
+      "short": "-1 डी"
+    },
+    "oneHour": {
+      "short": "1 घंटे"
+    },
+    "oneMonth": "1 महीना",
+    "oneWeek": "1 सप्ताह",
+    "oneYear": "1 वर्ष",
+    "opensea": {
+      "link": "ओपनसी पर देखें"
+    },
+    "orderCancelled": "आदेश रद्द किया गया",
+    "orderExecuted": "आदेश निष्पादित",
+    "orderExpired": "ऑर्डर समाप्त हो गया",
+    "orderPending": "आदेश लम्बित",
+    "outOfRange": "सीमा से बाहर",
+    "pageNotFound": "पृष्ठ नहीं मिला!",
+    "passkey": {
+      "count": "पासकी {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "अपनी नई पासकी को कहाँ सहेजना है, यह चुनें."
+      }
+    },
+    "pastDay": "बीते दिन",
+    "pastFiveMinutes": "पिछले पांच मिनट",
+    "pastHour": "पिछले घंटे",
+    "pastMonth": "बीते हुए महीने में",
+    "pastWeek": "पिछले सप्ताह",
+    "pastYear": "पिछले एक साल",
+    "pay": {
+      "button": "वेतन"
+    },
+    "pending": {
+      "cancellation": "लंबित निरस्तीकरण"
+    },
+    "pendingEllipsis": "लंबित...",
+    "permit2": "परमिट2",
+    "pool": "पूल",
+    "pools": "ताल",
+    "poweredBy": "<name />द्वारा संचालित",
+    "price": "कीमत",
+    "priceImpact": "मूल्य प्रभाव चेतावनी",
+    "priceUpdated": "मूल्य अद्यतन",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "जब चेक किया जाता है, तो हम आपके डेटा को व्यक्तिगत विज्ञापन के लिए तीसरे पक्ष के भागीदारों के साथ साझा नहीं करेंगे। आप इस बॉक्स को अनचेक करके किसी भी समय साझाकरण सक्षम कर सकते हैं।",
+        "label": "मेरी जानकारी साझा न करें"
+      },
+      "description": "हम अन्य वेबसाइटों और प्लेटफ़ॉर्म पर अपनी सेवाओं को बढ़ावा देने के लिए अपने विज्ञापन भागीदारों के साथ डिवाइस पहचानकर्ता साझा कर सकते हैं। जहां यह लागू कानूनों के तहत बिक्री, साझाकरण या लक्षित विज्ञापन के रूप में योग्य है, आप \"मेरी जानकारी साझा न करें\" बॉक्स को चेक करके ऑप्ट आउट कर सकते हैं। हमारी गोपनीयता प्रथाओं के बारे में अधिक जानकारी के लिए कृपया हमारी <privacyLink>गोपनीयता नीति</privacyLink>की समीक्षा करें।",
+      "disclaimer": "कृपया ध्यान दें कि आपका चयन इस डिवाइस पर केवल इसी ब्राउज़र पर लागू होगा। आप हमारी सेवाओं तक पहुँचने के लिए जिस ब्राउज़र का उपयोग करते हैं, उसमें ग्लोबल प्राइवेसी कंट्रोल सेटिंग को सक्षम करके भी ऑप्ट आउट कर सकते हैं। अधिक विकल्प देखने के लिए, अपनी सेटिंग पर जाएँ।"
+    },
+    "privacyPolicy": "गोपनीयता नीति",
+    "proceed": "आगे बढ़ना",
+    "proceedInWallet": {
+      "short": "वॉलेट में आगे बढ़ें"
+    },
+    "protocol": {
+      "v2": "यूनिस्वैप v2",
+      "v3": "यूनिस्वैप v3",
+      "v4": "यूनिस्वैप v4"
+    },
+    "publicResolver": "पब्लिक रिज़ॉल्वर",
+    "purchased": "खरीदी",
+    "queue": {
+      "cancelled": "कतार रद्द",
+      "failed": "कतार विफल"
+    },
+    "queued": "कतारबद्ध",
+    "queuing": "कतार",
+    "rate": "दर",
+    "readMore": "और पढ़ें",
+    "receive": {
+      "cancelled": "प्राप्त रद्द",
+      "failed": "प्राप्त करना विफल"
+    },
+    "received": "प्राप्त",
+    "receiving": "प्राप्त",
+    "recent": "हाल ही का",
+    "rejected": "अस्वीकार कर दिया",
+    "reload": {
+      "label": "ऐप को पुनः लोड करें"
+    },
+    "remove": {
+      "label": "निकालना",
+      "liquidity": {
+        "cancelled": "लिक्विडिटी हटाना रद्द",
+        "failed": "तरलता हटाना विफल"
+      }
+    },
+    "removedLiquidity": "हटाई गई तरलता",
+    "removeItem": "वस्तु निकालें",
+    "removing": {
+      "liquidity": "तरलता हटाना"
+    },
+    "repaid": "चुकाया",
+    "repay": {
+      "cancelled": "पुनर्भुगतान रद्द",
+      "failed": "पुनर्भुगतान विफल"
+    },
+    "repaying": "चुकाने",
+    "resetLimit": "{{symbol}} सीमा रीसेट करें",
+    "resetLimitWallet": "वॉलेट में {{symbol}} सीमा रीसेट करें",
+    "resettingLimit": "{{symbol}} सीमा रीसेट की जा रही है...",
+    "resolveIssues_one": "मामला हल करना",
+    "resolveIssues_other": "{{count}} समस्याओं का समाधान करें",
+    "restricted": {
+      "region": "प्रतिबंधित क्षेत्र"
+    },
+    "reverseRegistrar": "रिवर्स रजिस्ट्रार",
+    "revoke": {
+      "approval": {
+        "failed": "अनुमोदन रद्द करना विफल"
+      }
+    },
+    "revoked": {
+      "approval": "अनुमोदन निरस्त"
+    },
+    "revokedApproval": "निरस्त अनुमोदन",
+    "revoking": {
+      "approval": "अनुमोदन रद्द करना"
+    },
+    "samePrice": "समान कीमत",
+    "scanQRDownload": "डाउनलोड करने के लिए अपने फ़ोन से QR कोड स्कैन करें",
+    "selectRegion": {
+      "label": "अपना क्षेत्र चुनें"
+    },
+    "selectToken": {
+      "label": "एक टोकन चुनें"
+    },
+    "selfCustodial": "स्व-संरक्षक",
+    "sell": {
+      "label": "बेचना"
+    },
+    "send": {
+      "button": "भेजना",
+      "cancelled": "भेजना रद्द",
+      "failed": "भेजना विफल"
+    },
+    "sending": "भेजना",
+    "sent": "भेजा",
+    "settings": "समायोजन",
+    "share": {
+      "shareToTwitter": "ट्विटर पर साझा करें",
+      "twitter": "ट्विटर पर साझा करें"
+    },
+    "show": {
+      "button": "दिखाओ"
+    },
+    "showLess": {
+      "button": "कम दिखाएं"
+    },
+    "showMore": {
+      "button": "और दिखाओ"
+    },
+    "signatureExpired": "आपके हस्ताक्षर की समय सीमा समाप्त हो गई है।",
+    "signMessage": "संदेश पर हस्ताक्षर करें",
+    "signMessageWallet": "वॉलेट में संदेश पर हस्ताक्षर करें",
+    "sold": "बिका हुआ",
+    "stats": "आँकड़े",
+    "status": "स्थिति",
+    "stayConnected": "जुड़े रहो",
+    "step": {
+      "number": "Step {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "प्रस्ताव प्रस्तुत करना रद्द",
+        "failed": "प्रस्ताव प्रस्तुत करना विफल"
+      }
+    },
+    "submitted": {
+      "proposal": "प्रस्तुत प्रस्ताव"
+    },
+    "submitting": {
+      "proposal": "प्रस्ताव प्रस्तुत करना"
+    },
+    "swap": {
+      "cancelled": "स्वैप रद्द",
+      "expired": "स्वैप की अवधि समाप्त हो गई",
+      "failed": "स्वैप विफल"
+    },
+    "swapped": "बदली",
+    "swapPending": "स्वैप लंबित...",
+    "swapping": "अदला-बदली",
+    "switchNetworks": "नेटवर्क स्विच करें",
+    "termsOfService": "सेवा की शर्तें",
+    "text": {
+      "connected": "जुड़े हुए",
+      "contract": "अनुबंध",
+      "disconnected": "डिस्कनेक्ट किया गया",
+      "error": "गलती",
+      "notAvailable": "एन/ए",
+      "recipient": "को",
+      "sender": "से",
+      "unknown": "अज्ञात"
+    },
+    "thisMonth": "इस महीने",
+    "thisToken": "यह टोकन",
+    "thisWeek": "इस सप्ताह",
+    "thisYear": "इस साल",
+    "time": {
+      "days": "दिन",
+      "days_one": "दिन",
+      "days_other": "दिन",
+      "hours": "घंटे",
+      "hours_one": "घंटा",
+      "hours_other": "घंटे",
+      "minute": {
+        "amt": "{{time}}मिनट"
+      },
+      "minutes": "मिनट",
+      "months": "महीने",
+      "months_one": "महीना",
+      "months_other": "महीने",
+      "past": {
+        "days": {
+          "short": "{{days}}घ"
+        },
+        "hours": {
+          "short": "{{hours}}एच"
+        },
+        "minutes": {
+          "short": "{{minutes}}मी"
+        },
+        "months": {
+          "short": "{{months}}मो"
+        },
+        "seconds": {
+          "short": "{{seconds}}एस"
+        }
+      },
+      "weeks": "हफ्तों",
+      "weeks_one": "सप्ताह",
+      "weeks_other": "हफ्तों"
+    },
+    "to": "को",
+    "today": "आज",
+    "tokenA": "टोकन ए",
+    "tokenAmount": "टोकन राशि",
+    "tokenB": "टोकन बी",
+    "tokenName": "टोकन नाम",
+    "tokens": "टोकन",
+    "totalUniswapTVL": "कुल यूनिस्वैप टीवीएल",
+    "totalValueLocked": "टी वी लाइनों",
+    "trade": "व्यापार",
+    "trademarkPolicy": "ट्रेडमार्क नीति",
+    "transactionDetails": "लेनदेन का विवरण",
+    "transactionId": "लेन-देन आईडी",
+    "transactionPending": "लेन-देन लंबित",
+    "transactions": "लेनदेन",
+    "transactionSettings": "लेनदेन सेटिंग्स",
+    "transfer_one": "स्थानांतरण",
+    "transfer_other": "तबादलों",
+    "tryAgain": {
+      "error": "पुनः प्रयास करें"
+    },
+    "twitter": "ट्विटर",
+    "type": {
+      "label": "प्रकार"
+    },
+    "unavailable": "अनुपलब्ध",
+    "unhide": "सामने लाएँ",
+    "uniGovernance": "यूएनआई शासन",
+    "uniswapMobile": "यूनिस्वैप मोबाइल",
+    "uniswapProtocol": "यूनिस्वैप प्रोटोकॉल",
+    "uniswapWallet": "यूनिस्वैप वॉलेट",
+    "uniswapX": "यूनिस्वैपएक्स",
+    "unknown": "अज्ञात",
+    "unknownApproval": "अज्ञात अनुमोदन",
+    "unknownBridge": "अज्ञात पुल",
+    "unknownError": {
+      "error": "अज्ञात त्रुटि"
+    },
+    "unknownLend": "अज्ञात उधार",
+    "unknownMint": "अज्ञात टकसाल",
+    "unknownSend": "अज्ञात भेजें",
+    "unknownSwap": "अज्ञात स्वैप",
+    "unsupportedAsset_one": "असमर्थित परिसंपत्ति",
+    "unsupportedAsset_other": "असमर्थित परिसंपत्तियाँ",
+    "unwrap": {
+      "button": "खोलना",
+      "failed": "खोलना विफल"
+    },
+    "unwrapped": "लपेटा न",
+    "unwrapping": "खोलना",
+    "view": {
+      "profile": "प्रोफ़ाइल देखें"
+    },
+    "viewOnExplorer": "एक्सप्लोरर पर देखें",
+    "volume": "आयतन",
+    "vote": {
+      "cancelled": "वोट रद्द",
+      "failed": "वोट विफल"
+    },
+    "voted": "मतदान किया",
+    "voting": "मतदान",
+    "wallet": {
+      "approve": "वॉलेट में स्वीकृति दें",
+      "label": "बटुआ"
+    },
+    "walletForSwapping": "स्वैपिंग के लिए बनाया गया वॉलेट। iOS और Android पर उपलब्ध है।",
+    "warning": "चेतावनी",
+    "webApp": "वेब अप्प",
+    "website": "वेबसाइट",
+    "whyApprove": "मुझे टोकन स्वीकृत क्यों करना होगा?",
+    "whySign": "हस्ताक्षर क्यों आवश्यक हैं?",
+    "whyWrap": "मुझे अपना {{symbol}}क्यों लपेटना है?",
+    "withdraw": {
+      "failed": "निकासी विफल"
+    },
+    "withdrawal": {
+      "amount": "निकासी राशि",
+      "cancelled": "निकासी रद्द"
+    },
+    "withdrawing": "वापस लेना",
+    "withdrew": "वापस ले लिया",
+    "withinRange": "सीमा में",
+    "wrap": {
+      "cancelled": "रैप रद्द",
+      "failed": "लपेटना विफल"
+    },
+    "wrapIn": "{{symbol}} को बटुए में लपेटें",
+    "wrapped": "लपेटा हुआ",
+    "wrapping": "रैपिंग",
+    "wrappingToken": "लपेटना  {{symbol}}...",
+    "wrongNetwork": "ग़लत नेटवर्क",
+    "yesterday": "कल",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "इस स्वैप को पूरा करने के लिए आपके खाते में अपर्याप्त धनराशि थी।"
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "इस स्वैप को पूरा करने के लिए आपके खाते में अपर्याप्त धनराशि है।"
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "इस समय आपकी सीमा पूरी नहीं हो सकी। कृपया पुनः प्रयास करें।"
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "इस समय आपका स्वैप पूरा नहीं हो सका। कृपया पुनः प्रयास करें।"
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "आप खरीद रहे हैं",
+    "youRecieve": "आपको प्राप्त हुया",
+    "youreSending": "आप भेज रहे हैं"
+  },
+  "currency": {
+    "aud": "ऑस्ट्रलियन डॉलर",
+    "brl": "ब्राजीली रियल",
+    "cad": "कैनेडियन डॉलर",
+    "cny": "चीनी युवान",
+    "eur": "यूरो",
+    "gbp": "ब्रिटिश पाउंड",
+    "hkd": "हांगकांग का डॉलर",
+    "idr": "इंडोनेशियाई रुपिया",
+    "inr": "भारतीय रुपया",
+    "jpy": "जापानी येन",
+    "krw": "दक्षिण कोरियाई वोन",
+    "ngn": "नाइजीरियाई नायरा",
+    "pkr": "पाकिस्तानी रुपया",
+    "rub": "रूसी रूबल",
+    "sgd": "सिंगापुर का डॉलर",
+    "thb": "थाईलैण्ड की मुद्रा",
+    "try": "तुर्की लीरा",
+    "uah": "यूक्रेनी रिव्निया",
+    "usd": "यूनाइटेड स्टेट का डॉलर",
+    "vnd": "वियतनामी डोंग"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "मंज़ूरी देना",
+        "fallbackTitle": "टोकन खर्च करने की स्वीकृति दें",
+        "helptext": "इस साइट को अपने वॉलेट से इस टोकन तक पहुंचने और खर्च करने की अनुमति दें।",
+        "label": "बटुआ",
+        "title": "व्यय स्वीकृत करें {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "लेन-देन अनुरोध"
+      },
+      "bridge": {
+        "description": "ETH, USDC, और अधिक को {{numChains}}+ नेटवर्क पर ले जाएं।",
+        "title": "पुल बनाने की कोशिश कर रहे हैं?"
+      },
+      "connect": {
+        "helptext": "इस साइट को अपना वॉलेट पता, शेष राशि देखने और लेनदेन के लिए अनुमोदन का अनुरोध करने की अनुमति दें।",
+        "title": "साइट से कनेक्ट करें"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "कच्चा डेटा"
+        },
+        "function": {
+          "label": "समारोह"
+        }
+      },
+      "permit2": {
+        "description": "परमिट2 कई dapps में टोकन अनुमोदन का प्रबंधन करता है।",
+        "header": "साइन परमिट2"
+      },
+      "reject": {
+        "action": "सभी अस्वीकार करें",
+        "info": "आपके पास <highlight>{{totalRequestCount}}</highlight> लेनदेन अनुरोध हैं"
+      },
+      "revoke": {
+        "action": "रद्द करना",
+        "helptext": "इस साइट को लेनदेन के लिए इस टोकन को खर्च करने की पहुँच रद्द करने की अनुमति दें। सुनिश्चित करें कि आप इस साइट पर भरोसा करते हैं।",
+        "title": "{{tokenSymbol}}तक पहुंच रद्द करें"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "इस संदेश में अप्रतिपादनीय वर्ण हैं। सुनिश्चित करें कि आप इस साइट पर भरोसा करते हैं।",
+        "decodeError": "संदेश डिकोड करने में विफल",
+        "header": "हस्ताक्षर अनुरोध",
+        "irregular": {
+          "description": "आगे बढ़ने से पहले सुनिश्चित करें कि आप इस साइट पर भरोसा करते हैं",
+          "understand": "मैं जोखिम समझता हूं"
+        },
+        "toggleDataView": {
+          "raw": "कच्चा डेटा देखें",
+          "readable": "मूल डेटा देखें"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "सुनिश्चित करें कि यह सही है",
+          "title": "यह आपका सक्रिय वॉलेट नहीं है"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "यहां साइन इन करो"
+      },
+      "getStarted": {
+        "description": "अपने फोन या ब्राउज़र पर उपलब्ध यूनिस्वैप वॉलेट को डाउनलोड करके शुरुआत करें।",
+        "title": "Uniswap के साथ शुरुआत करें"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "नीचे साइन अप करके कुछ ही सेकंड में आरंभ करें या हमारे वॉलेट को डाउनलोड करें, जो आपके फोन या ब्राउज़र पर उपलब्ध है।"
+        },
+        "title": "Uniswap के साथ साइन अप करें"
+      },
+      "uniswapProducts": {
+        "subtitle": "यूनिस्वैप उत्पाद सर्वोत्तम ऑनचेन अनुभव बनाने के लिए एक साथ मिलकर काम करते हैं।"
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "इससे Uniswap प्रोटोकॉल को ट्रेडिंग के लिए आपके टोकन तक पहुँच मिलती है। सुरक्षा के लिए, यह 30 दिनों के बाद समाप्त हो जाता है।"
+    },
+    "dataUnavailable": "फिलहाल डेटा उपलब्ध नहीं है; हम इसे ठीक करने पर काम कर रहे हैं",
+    "id": "त्रुटि ID: {{eventId}}",
+    "noData": "डाटा प्राप्त नहीं हुआ",
+    "request": {
+      "provideId": "क्षमा करें, आपके अनुरोध को संसाधित करते समय एक त्रुटि हुई। यदि आप सहायता का अनुरोध करते हैं, तो अपनी त्रुटि आईडी प्रदान करना सुनिश्चित करें।"
+    },
+    "tokenApproval": "टोकन अनुमोदन विफल",
+    "tokenApprovalEdited": {
+      "message": "आपके वॉलेट में सेट की गई स्वीकृति राशि इस लेनदेन को पूरा करने के लिए बहुत कम है। कृपया पुनः प्रयास करें और राशि बढ़ाएँ।"
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "कुछ दुर्घटनाग्रस्त हो गया.",
+      "restart": "ऐप पुनः प्रारंभ करें",
+      "title": "उह ओह!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "और अधिक पूल खोजें"
+    },
+    "search": {
+      "action": {
+        "clear": "स्पष्ट",
+        "viewEtherscan": "{{blockExplorerName}}पर देखें"
+      },
+      "empty": {
+        "full": "<highlight>\"{{searchQuery}}\"</highlight>के लिए कोई परिणाम नहीं मिला"
+      },
+      "error": "खोज परिणाम लोड नहीं किये जा सके",
+      "label": {
+        "ownedBy": "{{ownerAddress}}के स्वामित्व में है"
+      },
+      "placeholder": "टोकन और वॉलेट खोजें",
+      "section": {
+        "nft": "एनएफटी संग्रह",
+        "popularNFT": "लोकप्रिय एनएफटी संग्रह",
+        "popularTokenInfo": "लोकप्रिय टोकन की पहचान पिछले 24 घंटों में यूनिस्वैप पर उनके ट्रेडिंग वॉल्यूम के आधार पर की जाती है।",
+        "popularTokens": "लोकप्रिय टोकन",
+        "recent": "हाल की खोजें",
+        "tokens": "टोकन",
+        "wallets": "पर्स"
+      }
+    },
+    "tokens": {
+      "error": "टोकन लोड नहीं किये जा सके",
+      "favorite": {
+        "action": {
+          "add": "पसंदीदा टोकन",
+          "edit": "पसंदीदा संपादित करें",
+          "remove": "पसंदीदा हटाएँ"
+        },
+        "title": {
+          "default": "पसंदीदा टोकन",
+          "edit": "पसंदीदा टोकन संपादित करें"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} एमकैप",
+        "totalValueLocked": "{{number}} टीवीएल",
+        "volume": "{{number}} वॉल्यूम"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "बाज़ार आकार",
+          "priceDecrease": "कीमत में कमी",
+          "priceIncrease": "मूल्य वृद्धि",
+          "totalValueLocked": "टी वी लाइनों",
+          "volume": "आयतन"
+        },
+        "option": {
+          "marketCap": "बाज़ार आकार",
+          "priceDecrease": "कीमत में कमी (24 घंटे)",
+          "priceIncrease": "मूल्य वृद्धि (24 घंटे)",
+          "totalValueLocked": "यूनिस्वैप टीवीएल",
+          "volume": "यूनिस्वैप वॉल्यूम (24H)"
+        }
+      },
+      "top": {
+        "title": "शीर्ष टोकन"
+      }
+    },
+    "v2TVL": "v2 टीवीएल",
+    "v3TVL": "v3 टीवीएल",
+    "v4TVL": "v4 टीवीएल",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "पसंदीदा बटुआ",
+          "edit": "पसंदीदा संपादित करें",
+          "remove": "पसंदीदा हटाएँ"
+        },
+        "title": {
+          "default": "पसंदीदा बटुए",
+          "edit": "पसंदीदा वॉलेट संपादित करें"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "नेटवर्क",
+      "networks": "नेटवर्क",
+      "popup": {
+        "trouble": "कनेक्ट करने में परेशानी?"
+      },
+      "titleConnected": "जुड़े हुए",
+      "titleNotConnected": "जुड़े नहीं हैं"
+    },
+    "lock": {
+      "button": {
+        "forgot": "पासवर्ड भूल गए?",
+        "reset": "वॉलेट रीसेट करें",
+        "submit": "अनलॉक"
+      },
+      "password": {
+        "error": "गलत पासवर्ड। पुनः प्रयास करें",
+        "reset": {
+          "initial": {
+            "description": "Uniswap आपका पासवर्ड रिकवर करने में मदद नहीं कर सकता। आपको अपना 12-शब्द रिकवरी वाक्यांश फिर से दर्ज करके अपना वॉलेट रीसेट करना होगा।",
+            "help": "मैं अपना पुनर्प्राप्ति वाक्यांश कहां पा सकता हूं?",
+            "title": "पासवर्ड भूल गए"
+          },
+          "speedbump": {
+            "description": "अपना वॉलेट रीसेट करने से पहले सुनिश्चित करें कि आपके पास 12-शब्दों वाला रिकवरी वाक्यांश है। अन्यथा आप अपने फंड को वापस नहीं पा सकेंगे।",
+            "help": "मैंने अपना पुनर्प्राप्ति वाक्यांश खो दिया",
+            "title": "इससे पहले कि आप जारी रखें"
+          }
+        }
+      },
+      "subtitle": "अनलॉक करने के लिए अपना पासवर्ड दर्ज करें",
+      "title": "वापसी पर स्वागत है"
+    },
+    "network": {
+      "notSupported": "असमर्थित नेटवर्क"
+    },
+    "open": "Uniswap एक्सटेंशन खोलें",
+    "popup": {
+      "chrome": {
+        "button": "एक्सटेंशन खोलें",
+        "description": "Uniswap एक्सटेंशन खोलकर यह क्रिया पूरी करें।",
+        "title": "Uniswap में जारी रखें"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "ऐप्स से कनेक्ट करते समय Uniswap एक्सटेंशन को प्राथमिकता दें।",
+        "title": "डिफ़ॉल्ट वॉलेट बनाएं"
+      },
+      "password": {
+        "enter": {
+          "title": "अपने वर्तमान पासवर्ड को दर्ज करें"
+        },
+        "error": {
+          "wrong": "गलत पासवर्ड"
+        },
+        "placeholder": "वर्तमान पासवर्ड"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "बैक अप",
+        "message": "अपने वॉलेट और धन तक पहुंच खोने से बचने के लिए अपने रिकवरी वाक्यांश का बैकअप अवश्य लें।",
+        "title": "आपके ब्राउज़र का स्टोरेज खत्म हो रहा है"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "किसी मौजूदा पासकी से साइन इन करके अपना Uniswap खाता आयात करें।",
+    "invalidReferrer": "कृपया यह पृष्ठ बंद करें और पुनः प्रयास करें।"
+  },
+  "fee": {
+    "bestForExotic": "विदेशी जोड़ों के लिए सर्वोत्तम।",
+    "bestForMost": "अधिकांश जोड़ों के लिए सर्वोत्तम।",
+    "bestForStablePairs": "स्थिर जोड़ों के लिए सर्वोत्तम।",
+    "bestForVeryStable": "बहुत स्थिर जोड़ों के लिए सर्वोत्तम।",
+    "dynamic": "गतिशील शुल्क",
+    "percentEarned": "वह % जो आप फीस के रूप में अर्जित करेंगे।",
+    "selectPercent": "{{pct}}% चयन करें",
+    "selectPercentDescription": "{{pct}}% तरलता ने इस स्तर का चयन किया",
+    "tier": {
+      "create": {
+        "button": "नया शुल्क स्तर बनाएं",
+        "description": "नया टियर बनाने से नया पूल शुरू हो जाएगा और इसके परिणामस्वरूप सामान्य नेटवर्क लागत अधिक हो जाएगी।"
+      },
+      "description": {
+        "v2": "तरलता प्रदान करने से अर्जित राशि। सभी v2 पूल में 0.3% शुल्क तय है। अधिक विकल्पों के लिए, v4 पर तरलता प्रदान करें।"
+      },
+      "dynamic": {
+        "create": {
+          "info": "आप एक गतिशील शुल्क स्तर वाला पूल बनाने जा रहे हैं। आगे बढ़ने से पहले, कृपया सुनिश्चित करें कि चयनित हुक गतिशील शुल्क का समर्थन करता है।"
+        }
+      },
+      "highestTvl": "उच्चतम टीवीएल",
+      "label": "फीस के रूप में आपको मिलने वाला %",
+      "missing": {
+        "description": "क्या आपको वह स्तर नहीं मिल रहा है जिसकी आपको तलाश है?"
+      },
+      "new": "नया स्तर",
+      "percent": {
+        "select": "{{percentage}} चयन करें"
+      },
+      "recommended": {
+        "description": "चयनित टोकन जोड़ी के लिए तरलता का उच्चतम हिस्सा होने के आधार पर अनुशंसित।"
+      },
+      "search": {
+        "short": "खोज स्तर"
+      },
+      "select": {
+        "existing": {
+          "button": "मौजूदा शुल्क स्तर चुनें"
+        }
+      }
+    },
+    "tierExact": "{{fee}} शुल्क स्तर",
+    "unavailable": "जब तक तरलता हटा नहीं दी जाती, तब तक v2 पोजीशन के लिए अर्जित शुल्क दिखाई नहीं देते।",
+    "uncollected": "इसमें अप्राप्त शुल्क शामिल है:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "बेचें"
+    },
+    "connection": {
+      "quote": "{{amount}} मूल्य का {{currencySymbol}}बेचना"
+    },
+    "error": {
+      "balance": "शेष राशि से अधिक"
+    },
+    "summary": {
+      "total": "{{fiatAmount}}के बदले {{cryptoAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "वापस जाओ",
+      "divider": "असमर्थित टोकन",
+      "message": "यह टोकन बेचने के लिए समर्थित नहीं है। इस परिसंपत्ति को समर्थित टोकन में से किसी एक में स्वैप करें।",
+      "swap": "समर्थित टोकन पर स्वैप करें",
+      "title": "असमर्थित टोकन"
+    },
+    "welcome": {
+      "tooltip": "अपने क्रिप्टो को अपने बैंक खाते या डेबिट कार्ड से बेचें।"
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "टोकन चुनें"
+    },
+    "cexTransferModal": {
+      "description": "आपके क्षेत्र में कार्ड से क्रिप्टो खरीदना समर्थित नहीं है। अपने वॉलेट में पैसे डालने के लिए किसी केंद्रीकृत एक्सचेंज खाते से संपत्ति स्थानांतरित करें।",
+      "title": "आरंभ करने के लिए स्थानांतरण करें"
+    },
+    "checkout": {
+      "title": "के साथ चेकआउट करें"
+    },
+    "checkoutWith": "के साथ चेकआउट करें",
+    "chooseProvider": {
+      "description": "आप अपने लेनदेन से जुड़े शुल्क देखने के लिए प्रदाता के पोर्टल पर जाएंगे।"
+    },
+    "completeTransactionHeader": "{{serviceProvider}}के साथ लेनदेन पूरा करें",
+    "connection": {
+      "error": "कनेक्शन विफल",
+      "errorDescription": "{{serviceProvider}}से कनेक्ट करते समय कुछ गड़बड़ी हुई।",
+      "message": "आपको {{serviceProvider}}से जोड़ रहा हूँ",
+      "quote": "{{currencySymbol}}के मूल्य का {{amount}} खरीदना",
+      "terms": "जारी रखकर, आप स्वीकार करते हैं कि आप लागू होने वाली {{serviceProvider}}के साथ सेवा की शर्तों और गोपनीयता नीति के अधीन होंगे।"
+    },
+    "continueInTab": "जारी रखने के लिए {{serviceProvider}} टैब पर जाएँ। अब इस मोडल को बंद करना सुरक्षित है।",
+    "disclaimer": "जारी रखकर, आप स्वीकार करते हैं कि आप <tosLink>सेवा की शर्तों</tosLink> और <privacyLink>गोपनीयता नीति</privacyLink> के साथ {{serviceProvider}}के अधीन होंगे, जैसा लागू हो।",
+    "error": {
+      "default": "कुछ गलत हो गया।",
+      "load": "खरीदने के लिए टोकन लोड नहीं किए जा सके",
+      "max": "अधिकतम {{amount}}",
+      "min": "न्यूनतम {{amount}}",
+      "noQuotes": "कोई उद्धरण नहीं मिला.",
+      "unavailable": "यह सेवा आपके क्षेत्र में उपलब्ध नहीं है",
+      "unsupported": "क्षेत्र में समर्थित नहीं है",
+      "usd": "केवल USD में खरीदने के लिए उपलब्ध है"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} के लिए {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "कोई उद्धरण नहीं मिला"
+    },
+    "purchasedOn": "{{serviceProvider}}पर खरीदा गया",
+    "quote": {
+      "advice": "आप अपने लेनदेन से जुड़े शुल्क देखने के लिए प्रदाता के पोर्टल पर जाएंगे।",
+      "type": {
+        "list": "{{optionsList}}, और अन्य विकल्प",
+        "other": "अन्य विकल्प",
+        "recent": "हाल ही में उपयोग किया गया"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "किसी खाते से"
+        }
+      },
+      "title": "क्रिप्टो प्राप्त करें",
+      "transferFunds": "किसी अन्य वॉलेट या खाते से क्रिप्टो ट्रांसफर करके अपने वॉलेट को फंड करें"
+    },
+    "region": {
+      "placeholder": "देश या क्षेत्र के अनुसार खोजें",
+      "title": "अपना क्षेत्र चुनें"
+    },
+    "summary": {
+      "total": "{{fiatAmount}}के बदले {{cryptoAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "अभी अद्यतन करें",
+      "learn": "अपडेट करने का तरीका जानें",
+      "recoveryPhrase": "पुनर्प्राप्ति वाक्यांश देखें"
+    },
+    "description": {
+      "extension": "ऐप का नया संस्करण उपलब्ध है। Uniswap एक्सटेंशन का उपयोग जारी रखने के लिए, कृपया इसे नवीनतम संस्करण में अपडेट करें।",
+      "wallet": "ऐप का नया संस्करण उपलब्ध है। Uniswap वॉलेट का उपयोग जारी रखने के लिए, कृपया इसे नवीनतम संस्करण में अपडेट करें।"
+    },
+    "label": {
+      "recoveryPhrase": "पुनर्प्राप्ति वाक्यांश"
+    },
+    "title": {
+      "recommendedStatus": "एक नया संस्करण उपलब्ध है"
+    }
+  },
+  "globalPreferences": {
+    "title": "वैश्विक प्राथमिकताएं"
+  },
+  "hero": {
+    "scroll": "अधिक जानने के लिए स्क्रॉल करें",
+    "subtitle": "सबसे बड़ा ऑनचेन मार्केटप्लेस। एथेरियम और 11+ अन्य चेन पर क्रिप्टो खरीदें और बेचें।",
+    "swap": {
+      "title": "किसी भी समय, <br/> कहीं भी स्वैप करें।"
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "छिपे हुए NFT के बारे में अधिक जानें"
+        },
+        "text": {
+          "button": "छिपे हुए NFTs ({{numHidden}})",
+          "extension": "ये संभावित घोटाले और NFT हैं जिन्हें आपने छिपाया है। आप किसी NFT पर राइट क्लिक करके उसे छिपा सकते हैं।",
+          "mobile": "ये संभावित घोटाले और NFT हैं जिन्हें आपने छिपाया है। आप किसी NFT को अनहाइड करने के लिए उस पर लंबे समय तक प्रेस कर सकते हैं।",
+          "title": "छिपे हुए NFTs"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "छिपे हुए टोकन के बारे में अधिक जानें"
+        },
+        "text": {
+          "button": "छिपे हुए टोकन ({{numHidden}})",
+          "info": "ये संभावित घोटाले, छोटी शेष राशि और आपके द्वारा छिपाए गए टोकन हैं। छिपे हुए टोकन आपके कुल वॉलेट बैलेंस में शामिल नहीं हैं।",
+          "title": "छिपे हुए टोकन"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "टोकन या एनएफटी प्राप्त करें",
+        "description": {
+          "default": "जब आप टोकन या एनएफटी को मंजूरी देते हैं, व्यापार करते हैं या स्थानांतरित करते हैं, तो आपके लेनदेन यहां दिखाई देंगे।",
+          "external": "जब यह वॉलेट लेनदेन करेगा, तो वे यहां दिखाई देंगे।"
+        },
+        "title": "अभी तक कोई गतिविधि नहीं"
+      },
+      "error": {
+        "load": "गतिविधि लोड नहीं हो सकी"
+      },
+      "title": "गतिविधि"
+    },
+    "banner": {
+      "offline": "आप ऑफ़लाइन मोड में हैं",
+      "testnetMode": {
+        "nav": "आप टेस्टनेट मोड में हैं। सेटिंग्स में जाकर इसे बंद करें।",
+        "outage": {
+          "monad": {
+            "description": "नेटवर्क स्थिरता संबंधी समस्याओं के कारण यूनिस्वैप इंटरफ़ेस के माध्यम से मोनाड टेस्टनेट तक पहुँच अस्थायी रूप से रोक दी गई है। टेस्टनेट फंड प्रभावित नहीं हुए हैं। समस्याएँ हल हो जाने के बाद पहुँच बहाल कर दी जाएगी।",
+            "title": "मोनाड अस्थायी रूप से रोका गया"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "हज़ारों टोकन, NFT और बहुत कुछ देखने के लिए यहां टैप करें",
+      "title": "टोकन एक्सप्लोर करें"
+    },
+    "extension": {
+      "error": "खाते लोड करने में त्रुटि"
+    },
+    "label": {
+      "buy": "खरीदना",
+      "for": "खरीद बिक्री",
+      "receive": "प्राप्त करें",
+      "send": "भेजना",
+      "swap": "बदलना"
+    },
+    "nfts": {
+      "title": "एनएफटी"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "डेबिट कार्ड या बैंक खाते से खरीदारी करें।",
+            "title": "क्रिप्टो खरीदें"
+          },
+          "import": {
+            "description": "स्वैपिंग और भेजना शुरू करने के लिए इस वॉलेट का पुनर्प्राप्ति वाक्यांश दर्ज करें।",
+            "title": "बटुआ आयात करें"
+          },
+          "receive": {
+            "description": "किसी अन्य वॉलेट या खाते से स्थानांतरण करें।",
+            "title": "क्रिप्टो प्राप्त करें"
+          }
+        },
+        "description": "जब यह वॉलेट टोकन खरीदता है या प्राप्त करता है, तो वे यहां दिखाई देंगे।",
+        "title": "अभी तक कोई टोकन नहीं",
+        "welcome": {
+          "description": "लगता है आपके पास नया वॉलेट है। अपना पहला स्वैप करने से पहले इसे फंड कर लें।"
+        }
+      },
+      "error": {
+        "fetch": "टोकन शेष प्राप्त करने में विफल",
+        "load": "टोकन शेष लोड नहीं किया जा सका"
+      },
+      "title": "टोकन"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "किसी खाते से",
+        "description": "किसी अन्य वॉलेट या खाते से क्रिप्टो ट्रांसफर करके अपने वॉलेट को फंड करें",
+        "title": "क्रिप्टो प्राप्त करें"
+      }
+    },
+    "warning": {
+      "viewOnly": "यह केवल देखने के लिए वॉलेट है"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "यूनिस्वैप प्रोटोकॉल पर स्वैप करें या तरलता प्रदान करें",
+      "title": "यूनिस्वैप इंटरफ़ेस"
+    }
+  },
+  "landing": {
+    "buildNextGen": "अगली पीढ़ी के खुले अनुप्रयोगों और उपकरणों का निर्माण करें।",
+    "connectWithUs": "हमारे साथ जुड़ें",
+    "devDocs": "डेवलपर दस्तावेज़",
+    "directToDeFi": "सीधे DeFi पर जाएं",
+    "followOnX": "नवीनतम अपडेट के लिए X पर @Uniswap को फॉलो करें",
+    "protocolDescription": "Uniswap उत्पाद Uniswap प्रोटोकॉल द्वारा संचालित होते हैं। यह प्रोटोकॉल सबसे बड़ा ऑनचेन मार्केटप्लेस है, जिसमें Ethereum और 7+ अतिरिक्त चेन पर हज़ारों टोकन के ज़रिए साप्ताहिक वॉल्यूम में अरबों डॉलर हैं।",
+    "provideLiquidity": {
+      "message": "यूनिस्वैप प्रोटोकॉल पर पूल को तरलता प्रदान करें और स्वैप पर शुल्क अर्जित करें।"
+    },
+    "swapSimple": "स्वैपिंग को आसान बनाया गया। 11+ चेन पर हज़ारों टोकन तक पहुँचें।",
+    "teamInsights": "टीम से अंतर्दृष्टि और समाचार",
+    "trusted": "लाखों लोगों द्वारा विश्वसनीय"
+  },
+  "language": {
+    "afrikaans": "अफ्रीकी",
+    "arabic": "अरबी",
+    "catalan": "कातालान",
+    "chineseSimplified": "सरलीकृत चीनी",
+    "chineseTraditional": "चीनी पारंपरिक",
+    "czech": "चेक",
+    "danish": "डेनिश",
+    "dutch": "डच",
+    "english": "अंग्रेज़ी",
+    "finnish": "फिनिश",
+    "french": "फ़्रेंच",
+    "greek": "यूनानी",
+    "hebrew": "यहूदी",
+    "hindi": "हिंदी",
+    "hungarian": "हंगेरी",
+    "indonesian": "इन्डोनेशियाई",
+    "italian": "इतालवी",
+    "japanese": "जापानी",
+    "korean": "कोरियाई",
+    "malay": "मलायी",
+    "norwegian": "नार्वेजियन",
+    "polish": "पोलिश",
+    "portuguese": "पुर्तगाली",
+    "romanian": "रोमानियाई",
+    "russian": "रूसी",
+    "serbian": "सर्बियाई",
+    "spanishLatam": "स्पैनिश (लैटिन अमेरिका)",
+    "spanishSpain": "स्पैनिश (स्पेन)",
+    "spanishUs": "स्पैनिश (यूएस)",
+    "swahili": "swahili",
+    "swedish": "स्वीडिश",
+    "turkish": "तुर्की",
+    "ukrainian": "यूक्रेनी",
+    "urdu": "उर्दू",
+    "vietnamese": "वियतनामी"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 खुली सीमा",
+      "count_other": "{{count}} खुली सीमाएँ"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "आपकी सीमा कीमत बाजार से {{percentage}}% अधिक है। आगे बढ़ने के लिए अपनी सीमा कीमत समायोजित करें।",
+        "title": "बाजार मूल्य से {{tokenSymbol}} ऊपर खरीदना"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "हम वर्तमान बाजार मूल्य की गणना करने में असमर्थ हैं। बाजार मूल्य से कम पर ऑर्डर सबमिट करने से बचने के लिए, कृपया अपना नेटवर्क कनेक्शन जांचें और पुनः प्रयास करें।",
+        "title": "बाजार मूल्य उपलब्ध नहीं"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "आपकी सीमा कीमत बाजार से {{percentage}}% कम है। आगे बढ़ने के लिए अपनी सीमा कीमत समायोजित करें।",
+        "title": "बाजार मूल्य से {{tokenSymbol}} नीचे बेचना"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "सीमाओं के लिए केवल मेननेट टोकन ही उपलब्ध हैं।"
+        },
+        "uniswapx": "जब टोकन निर्दिष्ट मूल्य तक पहुँचते हैं तो सीमाएँ ठीक से निष्पादित नहीं हो सकती हैं। <link />"
+      }
+    },
+    "learnMore": "सीमाओं के बारे में अधिक जानें",
+    "price": {
+      "input": {
+        "label": "जब 1 <tokenSymbol /> का मूल्य है"
+      },
+      "label": "सीमा मूल्य"
+    },
+    "selectSupportedTokens": "समर्थित टोकन चुनें"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "हुक पता दर्ज करें"
+      }
+    },
+    "learnMoreLabel": "तरलता प्रावधान के बारे में जानें",
+    "notEnough": {
+      "label": "सटीक USD मूल्य दिखाने के लिए पर्याप्त तरलता नहीं है।"
+    },
+    "provideOnProtocols": "विभिन्न प्रोटोकॉल पर तरलता प्रदान करना"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} तरलता: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Uniswap पर पूल{{version}} में तरलता जोड़ें"
+    },
+    "positions": {
+      "closed": {
+        "title": "बंद स्थितियाँ"
+      },
+      "page": {
+        "title": "Uniswap पर {{quoteSymbol}}/{{baseSymbol}} पूल लिक्विडिटी प्रबंधित करें",
+        "version": {
+          "description": "अपनी सक्रिय {{version}} लिक्विडिटी पोजीशन देखें। नई पोजीशन जोड़ें।",
+          "title": "Uniswap पर पूल लिक्विडिटी{{version}} प्रबंधित करें"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "अनुमत",
+    "allowLpMigration": "एलपी टोकन माइग्रेशन की अनुमति दें",
+    "connectAccount": "आपको उस खाते से जुड़ना होगा जो इस स्थिति का स्वामी है।",
+    "connectWallet": "अपनी V2 लिक्विडिटी देखने के लिए वॉलेट से कनेक्ट करें।",
+    "contract": "यूनिस्वैप माइग्रेशन अनुबंध",
+    "firstLP": "आप इस Uniswap V3 पूल के लिए पहले लिक्विडिटी प्रदाता हैं। आपकी लिक्विडिटी वर्तमान {{source}} कीमत पर माइग्रेट होगी।",
+    "highGasCost": "आपकी लेन-देन लागत बहुत अधिक होगी क्योंकि इसमें पूल बनाने के लिए गैस भी शामिल है।",
+    "invalidRange": "अमान्य श्रेणी चुनी गई। न्यूनतम मूल्य अधिकतम मूल्य से कम होना चाहिए।",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} एल.पी. टोकन",
+    "migrating": "ओर पलायन",
+    "missingV2Position": "क्या आपको अपना कोई v2 स्थान दिखाई नहीं दे रहा है? <link>इसे आयात करें।</link>",
+    "noV2Liquidity": "कोई V2 तरलता नहीं मिली.",
+    "positionNoFees": "जब तक बाजार मूल्य आपकी सीमा में नहीं आ जाता, तब तक आपकी स्थिति पर शुल्क नहीं लगेगा या उसका उपयोग ट्रेडों में नहीं किया जाएगा।",
+    "priceDifference": "मूल्य भेद: ",
+    "priceWarning": "आपको Uniswap V3 में केवल उस कीमत पर तरलता जमा करनी चाहिए जो आपको सही लगे। <br /> यदि कीमत गलत लगती है, तो आप या तो कीमत को स्थानांतरित करने के लिए स्वैप कर सकते हैं या किसी और के ऐसा करने की प्रतीक्षा कर सकते हैं।",
+    "refund": "चयनित मूल्य सीमा के कारण कम से कम {{amtA}} {{symA}} और {{amtB}} {{symB}} आपके वॉलेट में वापस कर दिए जाएंगे।",
+    "selectFeeTier": "शुल्क स्तर चुनें",
+    "setRange": "मूल्य सीमा निर्धारित करें",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} मूल्य:",
+    "v2Description": "यह टूल आपकी {{source}} लिक्विडिटी को सुरक्षित तरीके से V3 में माइग्रेट कर देगा। <0>यूनिस्वैप माइग्रेशन कॉन्ट्रैक्ट की बदौलत यह प्रक्रिया पूरी तरह से भरोसेमंद है</0> ↗",
+    "v2Instruction": "नीचे दिखाए गए प्रत्येक पूल के लिए, Uniswap V2 से अपनी तरलता निकालने और उसे Uniswap V3 में जमा करने के लिए माइग्रेट पर क्लिक करें।",
+    "v2Title": "V2 लिक्विडिटी माइग्रेट करें",
+    "v3Price": "V3 {{sym}} मूल्य:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "अमान्य मूल्य इनपुट"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Uniswap वॉलेट ऐप प्राप्त करें"
+      },
+      "title": "यूनिस्वैप: क्रिप्टो और एनएफटी वॉलेट"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "मूनपे यूएसए एलएलसी द्वारा संचालित फिएट ऑनरैम्प",
+    "restricted": {
+      "region": "मूनपे कुछ क्षेत्रों में उपलब्ध नहीं है। अधिक जानने के लिए क्लिक करें।"
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "खाता बनाएं"
+    },
+    "logIn": {
+      "button": "लॉग इन करें"
+    },
+    "signIn": {
+      "button": "दाखिल करना"
+    },
+    "signInOrConnect": {
+      "title": "साइन इन करें या कनेक्ट करें"
+    },
+    "signUp": {
+      "button": "साइन अप करें"
+    },
+    "tabs": {
+      "createPosition": "स्थिति बनाएं",
+      "viewPositions": "स्थितियां देखें"
+    }
+  },
+  "network": {
+    "lostConnection": "हो सकता है कि आपका नेटवर्क कनेक्शन टूट गया हो।",
+    "mightBeDown": "{{network}} शायद अभी डाउन है, या हो सकता है कि आपने अपना नेटवर्क कनेक्शन खो दिया हो।",
+    "warning": "नेटवर्क चेतावनी"
+  },
+  "nft": {
+    "addToBag": "थैले के साथ जोड़ो",
+    "authorsCollectionOnUni": "Uniswap पर {{name}}का NFT संग्रह",
+    "bag": "थैला",
+    "blockedCollection": "यह संग्रह अवरुद्ध है",
+    "blockedOpenSea": "OpenSea पर अवरोधित",
+    "buyTransferNFTToStart": "आरंभ करने के लिए इस वॉलेट में NFT खरीदें या स्थानांतरित करें।",
+    "buyTransferTokensToStart": "आरंभ करने के लिए इस वॉलेट में टोकन खरीदें या स्थानांतरित करें।",
+    "card": {
+      "notAvailable": "सामग्री अभी <br /> उपलब्ध नहीं है"
+    },
+    "chainSupportComingSoon": "{{chainName}} समर्थन जल्द ही आ रहा है",
+    "collectionOnUni": "Uniswap पर NFT संग्रह",
+    "collectonOnAddress": "Uniswap पर NFT संग्रह - {{address}}",
+    "complete": "पूरा!",
+    "editListings": "सूची संपादित करें",
+    "event": "आयोजन",
+    "explore": "एनएफटी का अन्वेषण करें",
+    "learnWhy": "जानें क्यों",
+    "list": {
+      "header": {
+        "lastPrice": "अंतिम"
+      },
+      "title": "एनएफटी की सूची बनाएं"
+    },
+    "listedSignificantly_one": "एक NFT को संग्रह की न्यूनतम कीमत से {{percentage}} नीचे सूचीबद्ध किया गया है। क्या आप वाकई जारी रखना चाहते हैं?",
+    "listedSignificantly_other": "{{count}} NFT को संग्रह की न्यूनतम कीमत से काफी नीचे सूचीबद्ध किया गया है। क्या आप वाकई जारी रखना चाहते हैं?",
+    "listForSale": "बिक्री हेतु सूची",
+    "lowPrice": "कम सूचीबद्ध मूल्य",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} फीस"
+      }
+    },
+    "maxFees": "अधिकतम शुल्क",
+    "maxRoyalties": "अधिकतम निर्माता रॉयल्टी",
+    "noItems": "प्रदर्शित करने के लिए कोई आइटम नहीं",
+    "noneAtAddress": "इस पते पर कोई संग्रह परिसंपत्ति मौजूद नहीं है",
+    "noPools": "अभी तक कोई पूल नहीं",
+    "notListed": "असुचीब्द्ध",
+    "proceedsIfSold": "बिक्री से प्राप्त आय",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "पहले से ही सूचीबद्ध {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} न्यूनतम मूल्य से नीचे।"
+        }
+      }
+    },
+    "refundsInEth": "अनुपलब्ध वस्तुओं के लिए रिफंड ETH में दिया जाएगा",
+    "removeFromBag": "बैग से निकालें",
+    "reportSpam": "स्पैम के रूप में रिपोर्ट करें",
+    "returnToExplore": "NFT एक्सप्लोर पर वापस लौटें",
+    "returnToMy": "मेरे NFTs पर वापस लौटें",
+    "setPrices": "जारी रखने के लिए मूल्य निर्धारित करें",
+    "startListing": "सूचीबद्ध करना प्रारंभ करें",
+    "successListed": "सफलतापूर्वक सूचीबद्ध",
+    "unavailableToList": "सूचीबद्ध करने के लिए अनुपलब्ध",
+    "whyTransaction": {
+      "reason": "एनएफटी को सूचीबद्ध करने के लिए प्रत्येक एनएफटी संग्रह के लिए एक बार बाज़ार से अनुमोदन की आवश्यकता होती है।"
+    },
+    "willAppearHere": "आपके ऑनचेन लेनदेन और क्रिप्टो खरीदारी यहां दिखाई देंगे।",
+    "wishGranted": "यूनिस्वैप ने आपकी इच्छा पूरी कर दी है!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "संग्रह स्वीकृत करें",
+        "approve_other": "संग्रह स्वीकृत करें",
+        "sign_one": "साइन लिस्टिंग",
+        "sign_other": "साइन लिस्टिंग"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} अधिकतम"
+      }
+    },
+    "my": "मेरे एनएफटी",
+    "noneYet": "अभी तक कोई एनएफटी नहीं",
+    "sell": "एनएफटी बेचें"
+  },
+  "notFound": {
+    "oops": "ओह, मुझे वापस स्वैप पर ले चलो"
+  },
+  "notice": {
+    "uk": {
+      "label": "यूके अस्वीकरण:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} छिपा हुआ",
+      "unhidden": "{{assetName}} छिपा हुआ"
+    },
+    "copied": {
+      "address": "पता कॉपी किया गया",
+      "calldata": "कॉलडेटा कॉपी किया गया",
+      "contractAddress": "अनुबंध का पता कॉपी किया गया",
+      "failed": "क्लिपबोर्ड पर कॉपी करने में विफल",
+      "image": "छवि कॉपी की गई",
+      "nftUrl": "NFT URL कॉपी किया गया",
+      "tokenUrl": "टोकन URL कॉपी किया गया",
+      "transactionId": "लेन-देन आईडी की प्रतिलिपि बनाई गई",
+      "unitag": "उपयोगकर्ता नाम कॉपी किया गया"
+    },
+    "countryChange": "{{countryName}}पर स्विच किया गया",
+    "network": {
+      "changed": "{{network}}पर स्विच किया गया"
+    },
+    "passwordChanged": "पासवर्ड बदला गया",
+    "restore": {
+      "success": "बटुआ बहाल!"
+    },
+    "send": {
+      "network": "{{network}}पर भेजा जा रहा है"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "रिपोर्ट"
+      }
+    },
+    "swap": {
+      "network": "{{network}}पर स्वैपिंग",
+      "pending": {
+        "swap": "स्वैप लंबित है",
+        "unwrap": "खोलना लंबित है",
+        "wrap": "लपेटना लंबित है"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "रद्द {{currencySymbol}} अनुमोदन.",
+        "fail": "{{address}}के साथ उपयोग के लिए {{currencySymbol}} मंजूरी देने में विफल।",
+        "success": "{{address}}के साथ उपयोग के लिए {{currencySymbol}} स्वीकृत।"
+      },
+      "pending": "लेन-देन लंबित",
+      "swap": {
+        "canceled": "{{inputCurrencySymbol}}-{{outputCurrencySymbol}} स्वैप रद्द किया गया।",
+        "expired": "{{inputCurrencyAmountWithSymbol}} के लिए {{outputCurrencyAmountWithSymbol}} स्वैप समाप्त हो गया।",
+        "fail": "{{inputCurrencyAmountWithSymbol}} को {{outputCurrencyAmountWithSymbol}}से बदलने में विफल।",
+        "success": "{{inputCurrencyAmountWithSymbol}} {{outputCurrencyAmountWithSymbol}}से बदला गया।"
+      },
+      "transfer": {
+        "canceled": "रद्द {{tokenNameOrAddress}} भेजें",
+        "fail": "{{tokenNameOrAddress}} को {{walletNameOrAddress}}पर भेजने में विफल",
+        "received": "{{walletNameOrAddress}}से {{tokenNameOrAddress}} प्राप्त हुआ",
+        "success": "{{tokenNameOrAddress}} को {{walletNameOrAddress}}पर भेजा गया"
+      },
+      "unknown": {
+        "fail": {
+          "full": "{{addressOrEnsName}}के साथ लेन-देन करने में विफल",
+          "short": "लेन - देन विफल"
+        },
+        "success": {
+          "full": "{{addressOrEnsName}}के साथ लेन-देन किया गया",
+          "short": "लेन-देन की पुष्टि हो गई"
+        }
+      },
+      "unwrap": {
+        "canceled": "रद्द {{inputCurrencySymbol}} खोलना।",
+        "fail": "{{inputCurrencyAmountWithSymbol}}को खोलने में विफल।",
+        "success": "{{inputCurrencyAmountWithSymbol}} खोला और {{outputCurrencyAmountWithSymbol}}प्राप्त किया।"
+      },
+      "wrap": {
+        "canceled": "{{inputCurrencySymbol}} रैप रद्द किया गया।",
+        "fail": "{{inputCurrencyAmountWithSymbol}}लपेटने में विफल।",
+        "success": "{{inputCurrencyAmountWithSymbol}} लपेटा और {{outputCurrencyAmountWithSymbol}}प्राप्त किया।"
+      }
+    },
+    "transfer": {
+      "pending": "लंबित भेजें"
+    },
+    "walletConnect": {
+      "confirmed": "{{dappName}}के साथ लेनदेन की पुष्टि की गई",
+      "connected": "जुड़े हुए",
+      "disconnected": "डिस्कनेक्ट किया गया",
+      "failed": "{{dappName}}के साथ लेनदेन विफल रहा",
+      "networkChanged": {
+        "full": "{{networkName}}पर स्विच किया गया",
+        "short": "स्विच किए गए नेटवर्क"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Uniswap एक्सटेंशन पर जारी रखें",
+      "title": "सफलता!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "हमारा सुझाव है कि इसे एक कागज पर लिखकर किसी सुरक्षित स्थान, जैसे तिजोरी, में रख दें।",
+        "displayWarning": {
+          "description": "आगे बढ़ने से पहले निम्नलिखित को ध्यानपूर्वक पढ़ें।",
+          "note": {
+            "access": "यह पुनर्प्राप्ति वाक्यांश आपको अपने वॉलेट और फंड तक पूर्ण पहुंच प्रदान करता है",
+            "secure": "इसे निजी तौर पर देखें और किसी के साथ साझा न करें",
+            "storage": "इसे लिख लें और किसी सुरक्षित स्थान पर रख लें"
+          },
+          "title": "जानने योग्य कुछ महत्वपूर्ण बातें"
+        },
+        "error": "अमान्य या ग़लत वर्तनी वाला शब्द",
+        "placeholder": "गुप्त शब्द",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} पूरा हुआ",
+        "selectedWordPlaceholder": "शब्द चुनें",
+        "subtitle_one": "आपके पुनर्प्राप्ति वाक्यांश में <highlight/>{{count}}st</highlight/> शब्द क्या है?",
+        "subtitle_two": "आपके पुनर्प्राप्ति वाक्यांश में <highlight/>{{count}}और</highlight/> शब्द क्या है?",
+        "subtitle_few": "आपके पुनर्प्राप्ति वाक्यांश में <highlight/>{{count}}तीसरा</highlight/> शब्द क्या है?",
+        "subtitle_other": "आपके पुनर्प्राप्ति वाक्यांश में <highlight/>{{count}}वां</highlight/> शब्द क्या है?",
+        "title": "आइए सुनिश्चित करें कि आपने इसे सही तरीके से रिकॉर्ड किया है"
+      },
+      "option": {
+        "badge": {
+          "quick": "जल्दी"
+        },
+        "cloud": {
+          "description": "अपने वॉलेट का बैकअप {{cloudProviderName}}के माध्यम से लें, जो रिकवरी पासवर्ड द्वारा सुरक्षित है।",
+          "title": "पुनर्प्राप्ति पासवर्ड सेट करें"
+        },
+        "manual": {
+          "description": "अपने 12 गुप्त शब्दों को एक कागज़ पर लिख लें और उसे सुरक्षित स्थान पर रख लें।",
+          "title": "पुनर्प्राप्ति वाक्यांश लिखें"
+        }
+      },
+      "reminder": {
+        "description": "अपने वॉलेट का बैकअप रखने से यह सुनिश्चित होता है कि यदि कभी आपका फोन खो जाए या आप नया डिवाइस लें तो आप अपनी संपत्ति वापस पा सकेंगे।",
+        "title": "अब समय आ गया है अपने बटुए का बैकअप लेने का",
+        "warning": {
+          "description": "यदि आप बैकअप विधि सेट अप नहीं करते हैं, तो आपके पास अपना फोन खोने, ऐप डिलीट करने या नया डिवाइस लेने पर अपना वॉलेट पुनर्प्राप्त करने का कोई तरीका नहीं होगा।",
+          "title": "आप अपना धन खो सकते हैं"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "अगर आप इसे कभी भूल जाते हैं, तो हम इसे आपके लिए रीसेट नहीं कर सकते। इसे किसी सुरक्षित जगह पर लिख लें या पासवर्ड मैनेजर में सुरक्षित रूप से स्टोर कर लें।",
+          "disclaimer": "मैं समझता हूं कि यूनिस्वैप लैब्स मेरा रिकवरी पासवर्ड रीसेट नहीं कर सकता।",
+          "title": "यह पासवर्ड सहेजना महत्वपूर्ण है"
+        },
+        "manual": {
+          "description": "सुनिश्चित करें कि आपने अपना पुनर्प्राप्ति वाक्यांश सही ढंग से लिखा है तथा उसे सुरक्षित स्थान पर संग्रहीत किया है।",
+          "disclaimer": "मैं समझता हूं कि यदि मैं इसे खो देता हूं तो यूनिस्वैप लैब्स मेरे वॉलेट को पुनः प्राप्त नहीं कर सकता।",
+          "title": "इससे पहले कि आप ख़त्म करें..."
+        }
+      },
+      "subtitle": "यदि आप ऐप हटा देते हैं या अपना डिवाइस खो देते हैं तो इस प्रकार आप अपना वॉलेट पुनः प्राप्त कर सकते हैं।",
+      "title": {
+        "existing": "अपने बटुए का बैकअप लें",
+        "new": "अपनी बैकअप विधि चुनें"
+      },
+      "view": {
+        "disclaimer": "मैं समझता हूं कि यदि मैं अपना पुनर्प्राप्ति वाक्यांश खो देता हूं, तो Uniswap Labs मुझे इसे पुनर्स्थापित करने में मदद नहीं कर सकती है",
+        "subtitle": {
+          "message1": "जारी रखने से पहले निम्नलिखित को ध्यान से पढ़ें",
+          "message2": "आपको अपना बटुआ पुनः प्राप्त करने के लिए इन सभी 12 गुप्त शब्दों को दर्ज करना होगा।"
+        },
+        "title": "अपना पुनर्प्राप्ति वाक्यांश लिखें",
+        "warning": {
+          "message1": "यह पुनर्प्राप्ति वाक्यांश आपको अपने वॉलेट और फंड तक पूर्ण पहुंच प्रदान करता है",
+          "message2": "इसे लिख लें और किसी सुरक्षित स्थान पर रख लें",
+          "message3": "इसे निजी तौर पर देखें और <u>इसे किसी के साथ साझा न करें</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "आपको अपनी धनराशि वापस पाने के लिए इसे दर्ज करना होगा। यदि आप इसे कभी भूल जाते हैं, तो हम इसे आपके लिए वापस नहीं पा सकेंगे।",
+        "title": "अपना पुनर्प्राप्ति पासवर्ड पुष्टि करें"
+      },
+      "createPassword": {
+        "description": "आपको अपनी धनराशि वापस पाने के लिए इसे दर्ज करना होगा। यदि आप इसे कभी भूल जाते हैं, तो हम इसे आपके लिए वापस नहीं पा सकेंगे।",
+        "title": "अपना पुनर्प्राप्ति पासवर्ड बनाएं"
+      }
+    },
+    "complete": {
+      "button": "Uniswap एक्सटेंशन खोलें",
+      "description": "आपका वॉलेट क्रिप्टो भेजने और प्राप्त करने के लिए तैयार है। नीचे दिए गए शॉर्टकट से Uniswap एक्सटेंशन खोलें।",
+      "go_to_uniswap": "Uniswap वेब ऐप पर जाएं",
+      "pin": {
+        "description": "अपने टूलबार में Uniswap एक्सटेंशन जोड़ने के लिए पिन आइकन पर क्लिक करें।",
+        "title": "पिन यूनिस्वैप एक्सटेंशन"
+      },
+      "title": "तुम सब सेट हो"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "आपको अपने वॉलेट को अनलॉक करने और अपने पुनर्प्राप्ति वाक्यांश तक पहुंचने के लिए इसकी आवश्यकता होगी",
+        "title": {
+          "default": "पासवर्ड बनाएं",
+          "reset": "अपना पासवर्ड रीसेट करें"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "यूनिस्वैप एक्सटेंशन केवल डेस्कटॉप पर क्रोम के साथ संगत है।",
+          "title": "मोबाइल पर Chrome समर्थित नहीं है (अभी तक)"
+        },
+        "description": "यूनिस्वैप एक्सटेंशन अभी केवल क्रोम के साथ संगत है।",
+        "title": "यह ब्राउज़र समर्थित नहीं है (अभी तक)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "यदि कभी आपका फोन खो जाए या आप नया फोन लें तो उसके लिए पुनर्प्राप्ति योजना बना लें।",
+          "title": "अपने बटुए का बैकअप लें"
+        },
+        "fund": {
+          "description": "क्रिप्टो खरीदकर या किसी अन्य खाते से स्थानांतरित करके अपने वॉलेट को निधि दें।",
+          "title": "अपना पहला टोकन प्राप्त करें"
+        },
+        "label": {
+          "required": "आवश्यक",
+          "swipe": "कड़ी चोट"
+        },
+        "pushNotifications": {
+          "description": "अपने पसंदीदा टोकन, बाजार के रुझान और अन्य पर मूल्य अलर्ट प्राप्त करें।",
+          "title": "जानकारी रखें"
+        },
+        "unitag": {
+          "description": "एक वैयक्तिकृत वेब3 प्रोफ़ाइल बनाएं और अपना पता आसानी से दोस्तों के साथ साझा करें।",
+          "title": "अपने {{unitagDomain}} उपयोगकर्ता नाम का दावा करें"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 शब्द अमान्य या ग़लत वर्तनी वाला है",
+        "invalidWords_other": "{{count}} शब्द अमान्य या ग़लत वर्तनी वाले हैं"
+      },
+      "method": {
+        "import": {
+          "message": "किसी अन्य क्रिप्टो वॉलेट से अपना पुनर्प्राप्ति वाक्यांश दर्ज करें।",
+          "title": "एक बटुआ आयात करें"
+        },
+        "passkey": {
+          "message": "मौजूदा पासकी का उपयोग करके अपने यूनिस्वैप वॉलेट को सिंक करें।",
+          "title": "पासकी से साइन इन करें"
+        },
+        "restore": {
+          "message": {
+            "android": "अपने द्वारा बैकअप किए गए वॉलेट को अपने Google Drive खाते में जोड़ें.",
+            "ios": "अपने iCloud खाते में बैकअप किए गए वॉलेट जोड़ें."
+          },
+          "title": "बटुआ पुनर्स्थापित करें"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "क्या आप उपरोक्त में से कुछ भी नहीं चाहते?"
+        },
+        "subtitle": "वह वॉलेट चुनें जिसमें आप पुनः लॉग इन करना चाहते हैं।",
+        "title": "Uniswap में आपका स्वागत है",
+        "wallet": {
+          "button": "पुनर्प्राप्ति वाक्यांश देखें",
+          "count_one": "+1 अन्य वॉलेट",
+          "count_other": "+{{count}} अन्य वॉलेट"
+        },
+        "warning": {
+          "caption": "कृपया सुनिश्चित करें कि आपने अन्य सभी वॉलेट का बैकअप ले लिया है। यदि आप कभी उन्हें पुनर्स्थापित करना चाहते हैं, तो आपको उनके पुनर्प्राप्ति वाक्यांशों या संबंधित {{cloudProvider}} बैकअप की आवश्यकता होगी।",
+          "title": "क्या आपको यकीन है?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "क्यूआर कोड के माध्यम से मोबाइल ऐप से वॉलेट आयात करें।",
+          "title": "यूनिस्वैप मोबाइल का उपयोग करें"
+        },
+        "passkey": {
+          "subtitle": "मौजूदा पासकी का उपयोग करके अपने यूनिस्वैप वॉलेट को सिंक करें।",
+          "title": "पासकी से साइन इन करें"
+        },
+        "recoveryPhrase": {
+          "subtitle": "किसी अन्य क्रिप्टो वॉलेट से अपना पुनर्प्राप्ति वाक्यांश दर्ज करें।",
+          "title": "एक बटुआ आयात करें"
+        },
+        "title": "साइन इन करें या वॉलेट आयात करें"
+      },
+      "title": "चुनें कि आप अपना बटुआ कैसे जोड़ना चाहते हैं"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "मेरा पुनर्प्राप्ति वाक्यांश 12 शब्दों का है",
+        "importing": "आयात किया जा रहा है...",
+        "longPhrase": "मेरा पुनर्प्राप्ति वाक्यांश लंबा है"
+      },
+      "error": {
+        "invalidPhrase": "आपके द्वारा दर्ज किया गया वाक्यांश अमान्य है"
+      },
+      "subtitle": "अपना 12-शब्द पुनर्प्राप्ति वाक्यांश टाइप करें या पेस्ट करें",
+      "title": "अपना पुनर्प्राप्ति वाक्यांश दर्ज करें"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "सुरक्षित साइन-इन विंडो में जारी रखें."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "मेरे पास पहले से ही एक बटुआ है",
+        "signInOrImport": "साइन इन करें या आयात करें"
+      },
+      "mobileScan": {
+        "button": "आयात करने के लिए QR कोड स्कैन करें",
+        "title": "क्या आपके पास Uniswap ऐप है?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "एक मौजूदा वॉलेट जोड़ें",
+        "create": "एक नया वॉलेट बनाएं",
+        "createAccount": "खाता बनाएं"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "यह एक सार्वजनिक नाम है जिसका उपयोग कोई भी आपको क्रिप्टो भेजने के लिए कर सकता है।"
+      },
+      "wallet": {
+        "button": {
+          "text": "खत्म करना"
+        },
+        "subtitle": "यह उपनाम केवल आपको दिखाई देता है",
+        "title": "अपने बटुए को एक नाम दें"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "सूचनाएं प्राप्त करने के लिए, अपने डिवाइस की सेटिंग में Uniswap वॉलेट के लिए सूचनाएं चालू करें।",
+        "title": "अधिसूचना अनुमति"
+      },
+      "subtitle": "पसंदीदा टोकन के लिए लेनदेन की स्थिति और प्रमुख मूल्य परिवर्तनों पर अपडेट रहें।",
+      "title": "सूचनाओं पर मुड़ें"
+    },
+    "passkey": {
+      "account": {
+        "protection": "आपका खाता आपके स्वयं के सुरक्षित पासवर्ड भण्डारण द्वारा सुरक्षित है।"
+      },
+      "biometric": {
+        "scan": "फ़ोन, टैबलेट या ब्राउज़र - बस अपने बायोमेट्रिक्स को स्कैन करें और आप लॉग इन हो जाएंगे।"
+      },
+      "create": "अपना पासकी बनाएं",
+      "use": {
+        "recovery": {
+          "phrase": "इसके बजाय पुनर्प्राप्ति वाक्यांश का उपयोग करें"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "आइए पुष्टि करें कि आपने सही लिखा है। यदि आप इसे खो देते हैं या गलत तरीके से लिखते हैं, तो आप अपने धन को वापस नहीं पा सकेंगे।",
+          "default": "यदि आप इसे खो देते हैं या गलत तरीके से लिख देते हैं, तो आप अपनी धनराशि वापस नहीं पा सकेंगे।"
+        },
+        "title": "चलिए पुष्टि करते हैं कि आपने सही उत्तर दिया है"
+      },
+      "view": {
+        "subtitle": "आपको अपना बटुआ पुनः प्राप्त करने के लिए इन सभी 12 गुप्त शब्दों को दर्ज करना होगा।",
+        "title": {
+          "hasPassword": "यदि आप कभी अपना पासवर्ड भूल जाएं..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "मैं तैयार हूं",
+          "message": "आपका पुनर्प्राप्ति वाक्यांश ही आपको (और जिसके पास भी यह है) आपके धन तक पहुंच प्रदान करता है। इसे अपने तक ही रखना सुनिश्चित करें।",
+          "title": "यह चरण किसी निजी स्थान पर करें"
+        },
+        "screenshot": {
+          "message": "जो कोई भी आपकी तस्वीरों तक पहुंच प्राप्त करता है वह आपके बटुए तक पहुंच सकता है। हम अनुशंसा करते हैं कि आप इसके बजाय अपने शब्द लिखें।",
+          "title": "स्क्रीनशॉट सुरक्षित नहीं हैं"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "वॉलेट सुरक्षा के बारे में और जानें",
+        "subtitle": "अपने बटुए को अनलॉक करने के लिए अपने नए पासवर्ड का उपयोग करें।",
+        "title": "पासवर्ड रीसेट"
+      }
+    },
+    "scan": {
+      "error": "QR कोड लोड करते समय कोई त्रुटि हुई",
+      "otp": {
+        "error": "आपके द्वारा सबमिट किया गया कोड गलत है, या सबमिट करने में कोई त्रुटि हुई है। कृपया पुन: प्रयास करें।",
+        "failed": "असफल प्रयास: {{number}}",
+        "subtitle": "6-अक्षर वाले कोड के लिए अपना Uniswap मोबाइल ऐप जांचें",
+        "title": "एक बार का कोड दर्ज करें"
+      },
+      "subtitle": "अपना वॉलेट आयात करने के लिए Uniswap मोबाइल ऐप से QR कोड को स्कैन करें।",
+      "title": "ऐप से वॉलेट आयात करें",
+      "troubleScanning": {
+        "message": "पुनर्प्राप्ति वाक्यांश के माध्यम से आयात करें",
+        "title": "स्कैनिंग में समस्या?"
+      },
+      "wifi": "अपने फोन को अपने कंप्यूटर के समान वाई-फाई नेटवर्क से कनेक्ट करें।"
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "बायोमेट्रिक्स का उपयोग करने के लिए, पहले इसे सेटिंग में सेट करें",
+            "ios": "{{biometricsMethod}}का उपयोग करने के लिए, सिस्टम सेटिंग्स में पहुंच की अनुमति दें"
+          },
+          "title": {
+            "android": "बायोमेट्रिक्स अक्षम है",
+            "ios": "{{biometricsMethod}} अक्षम है"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "बायोमेट्रिक्स सक्षम करें",
+          "ios": "{{biometricsMethod}}सक्षम करें"
+        },
+        "setup": "स्थापित करना"
+      },
+      "subtitle": {
+        "android": "लेनदेन भेजने के लिए बायोमेट्रिक्स की आवश्यकता करके सुरक्षा की एक अतिरिक्त परत जोड़ें।",
+        "ios": "लेनदेन भेजने के लिए {{biometricsMethod}} की आवश्यकता करके सुरक्षा की एक अतिरिक्त परत जोड़ें।"
+      },
+      "title": "अपने बटुए को सुरक्षित रखें"
+    },
+    "selectWallets": {
+      "error": "पते लोड नहीं किये जा सके",
+      "title": {
+        "default": "आयात करने के लिए वॉलेट चुनें",
+        "error": "वॉलेट आयात करने में त्रुटि"
+      }
+    },
+    "termsOfService": "जारी रखते हुए, मैं<highlightTerms> सेवा की शर्तों </highlightTerms>से सहमत हूं और<highlightPrivacy> गोपनीयता नीति</highlightPrivacy>से सहमति देता हूं",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "पुनर्प्राप्ति वाक्यांश क्या है?"
+      }
+    },
+    "wallet": {
+      "continue": "आइए इसे सुरक्षित रखें",
+      "defaultName": "वॉलेट {{number}}",
+      "description": {
+        "full": "यह टोकन, एनएफटी और आपके सभी ट्रेडों के लिए आपका व्यक्तिगत स्थान है। अपने धन को सुरक्षित रखने के लिए इसे स्थापित करना समाप्त करें।"
+      },
+      "title": "आपके नए बटुए में आपका स्वागत है"
+    },
+    "welcome": {
+      "subtitle": "चलिए, अपना वॉलेट सेट अप करना पूरा करें।",
+      "title": "स्वागत!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "आप अभी भी बिना किसी समस्या के इस श्रृंखला पर स्वैप और तरलता प्रदान कर सकते हैं।"
+    },
+    "title": "{{versionName}} जल्द ही वापस आऊंगा"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "अपने पासकी का उपयोग या उस तक पहुँचने में समस्या आ रही है? सहायता के लिए Uniswap सहायता पर जाएँ।",
+        "title": "पासकीज़ से संबंधित सहायता"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "परमिट2 टोकन अनुमोदन को विभिन्न अनुप्रयोगों में साझा और प्रबंधित करने की अनुमति देता है।"
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "सक्रिय टिक रेंज",
+    "addAs": "{{nativeWrappedSymbol}}के रूप में जोड़ें",
+    "apr": {
+      "description": "1 दिन की फीस के आधार पर वार्षिक"
+    },
+    "aprText": "पूल ए.पी.आर.",
+    "balances": "पूल संतुलन",
+    "closedCTA": {
+      "description": "आप पृष्ठ के शीर्ष पर फ़िल्टर का उपयोग करके उन्हें देख सकते हैं।",
+      "title": "क्या आप बंद पदों की तलाश में हैं?"
+    },
+    "collectAs": "{{nativeWrappedSymbol}}के रूप में एकत्रित करें",
+    "collectFees": "शुल्क एकत्रित करें",
+    "create": {
+      "info": "आपके चयन से एक नया लिक्विडिटी पूल बनेगा जिसके परिणामस्वरूप प्रारंभिक लिक्विडिटी कम हो सकती है और अस्थिरता बढ़ सकती है। इन जोखिमों को कम करने के लिए मौजूदा पूल में जोड़ने पर विचार करें।"
+    },
+    "createdPosition": {
+      "cancelled": "पद निर्माण रद्द",
+      "failed": "स्थिति बनाना विफल"
+    },
+    "details": "पूल विवरण",
+    "earnings": {
+      "empty": "अभी तक आपकी कोई कमाई नहीं हुई है"
+    },
+    "explorers": "खोजकर्ता",
+    "import": {
+      "link": {
+        "description": "कुछ v2 स्थितियाँ स्वचालित रूप से प्रदर्शित नहीं होतीं."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "कुछ v2 स्थितियाँ स्वचालित रूप से प्रदर्शित नहीं होती हैं। अपनी स्थितियाँ आयात करने और देखने के लिए टोकन जोड़ी चुनें।"
+          }
+        }
+      },
+      "success": "पूल आयातित"
+    },
+    "incentives": {
+      "administeredRewards": "तरलता प्रावधान के लिए पुरस्कारों का प्रबंधन यूनिस्वैप फाउंडेशन द्वारा किया जाता है।",
+      "collect": "इकट्ठा करना",
+      "collectedRewards": "एकत्रित पुरस्कार",
+      "collectFailed": "संग्रहण विफल, कृपया पुनः प्रयास करें.",
+      "collectFailedNoRetry": "पुरस्कार एकत्रित करना विफल रहा.",
+      "collectingRewards": "पुरस्कार एकत्रित करना",
+      "collectRewards": "पुरस्कार एकत्रित करें",
+      "collectRewardsCancelled": "पुरस्कार संग्रह रद्द",
+      "eligible": "योग्य पूल में टोकन पुरस्कार होते हैं ताकि आप अधिक कमा सकें",
+      "rewardsEarned": "अर्जित पुरस्कार",
+      "uni": {
+        "description": "योग्य पूल को तरलता प्रदान करके UNI पुरस्कार अर्जित करें",
+        "findMore": "UNI रिवॉर्ड वाले और अधिक पूल खोजें"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "पुरस्कार प्राप्त नहीं किए जा सके। ऐसा नेटवर्क समस्या के कारण हो सकता है। पेज को पुनः लोड करने का प्रयास करें।"
+        }
+      }
+    },
+    "info": "पूल जानकारी",
+    "limitFluctuation": {
+      "warning": "कृपया ध्यान रखें कि सीमाओं के लिए निष्पादन वास्तविक समय के बाजार में उतार-चढ़ाव और एथेरियम नेटवर्क की भीड़ के आधार पर भिन्न हो सकता है। टोकन निर्दिष्ट मूल्य तक पहुंचने पर सीमाएं ठीक से निष्पादित नहीं हो सकती हैं।"
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "आपके लेन-देन के लिए आवश्यक डेटा प्राप्त करते समय एक त्रुटि हुई."
+        }
+      },
+      "outOfSync": {
+        "message": "इस पूल में कीमतें चयनित टोकन की बाज़ार कीमतों से अलग होती हैं। अपनी मूल्य सीमा को तदनुसार समायोजित करें या घाटे से बचने के लिए पूल के पुनर्संतुलन की प्रतीक्षा करें।"
+      }
+    },
+    "maxPrice": "अधिकतम मूल्य",
+    "migrateLiquidity": "तरलता माइग्रेट करें",
+    "migrateLiquidityDisabledTooltip": "यह श्रृंखला v4 तरलता पूल का समर्थन नहीं करती है।",
+    "migrateToV4": "v4 पर माइग्रेट करें",
+    "minPrice": "न्यूनतम मूल्य",
+    "newPosition": {
+      "plus": "+ नई स्थिति",
+      "title": "नई स्थिति"
+    },
+    "newSpecificPosition": "नई {{symbol}} स्थिति",
+    "openPosition": {
+      "cta": "पूल में तरलता जोड़ें और अपनी स्थिति यहां देखें"
+    },
+    "openToStart": "आरंभ करने के लिए एक नया पद खोलें या एक पूल बनाएं।",
+    "percent": "{{pct}}% पूल",
+    "pooled": "पूल्ड {{sym}}:",
+    "position": "पद",
+    "positions": {
+      "title": "आपकी स्थिति",
+      "transaction": {
+        "settings": "लेन-देन सेटिंग"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "इस पद के लिए USD मूल्य वर्तमान में उपलब्ध नहीं है। जमा टोकन राशि के लिए पद विवरण देखें।"
+      }
+    },
+    "priceRange": "मूल्य सीमा",
+    "refresh": {
+      "prices": "ताज़ा कीमतें"
+    },
+    "removeLiquidity": "तरलता हटाएँ",
+    "rewardAPR": {
+      "percent": "{{pct}} रिवॉर्ड APR"
+    },
+    "rewards": "पुरस्कार",
+    "rewardsPool": {
+      "label": "पुरस्कार पूल में पूल टोकन:"
+    },
+    "selectPair": "जोड़ी चुनें",
+    "share": {
+      "label": "आपका पूल शेयर:"
+    },
+    "specificPosition": "{{symbol}} स्थिति",
+    "tokenPair": "टोकन जोड़ी",
+    "top": {
+      "tvl": "टीवीएल द्वारा शीर्ष पूल"
+    },
+    "totalAPR": "कुल एपीआर",
+    "totalTokens": "आपके कुल पूल टोकन:",
+    "uncollectedFees": "वसूल न की गई फीस",
+    "v2": "v2 पूल",
+    "v3": "v3 पूल",
+    "viewPools": "पूल देखें",
+    "volOverTvl": "1डी वॉल/टीवीएल",
+    "volume": {
+      "thirtyDay": {
+        "short": "30डी वॉल्यूम"
+      }
+    },
+    "withdrawAs": "{{nativeWrappedSymbol}}के रूप में निकालें"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 पूल आपके जोड़ी चयन से मेल खाते हैं।"
+      },
+      "notFound": {
+        "description": "कोई मेल खाता v2 पूल नहीं मिला। अपने टोकन चयन की दोबारा जाँच करें और सुनिश्चित करें कि आप सही वॉलेट से जुड़े हैं।"
+      }
+    }
+  },
+  "pools": {
+    "explore": "पूल का अन्वेषण करें"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "हुक एक उन्नत सुविधा है जो पूल को स्मार्ट कॉन्ट्रैक्ट के साथ इंटरैक्ट करने में सक्षम बनाती है, जिससे विभिन्न क्षमताएँ अनलॉक होती हैं। हुक जोड़ते समय सावधानी बरतें, क्योंकि कुछ दुर्भावनापूर्ण हो सकते हैं या अनपेक्षित परिणाम पैदा कर सकते हैं।"
+    },
+    "addingHook": {
+      "disclaimer": "हुक जोड़ने से अनपेक्षित परिणाम हो सकते हैं। अपना शोध करें और अपने जोखिम पर आगे बढ़ें।",
+      "hideProperties": "गुण छुपाएं",
+      "invalidAddress": "वैध हुक पता दर्ज करें",
+      "viewProperties": "गुण देखें"
+    },
+    "create": {
+      "invalidPrice": "अमान्य मूल्य",
+      "invalidRange": "अमान्य श्रेणी",
+      "modal": {
+        "header": "स्थिति बनाना"
+      }
+    },
+    "currentValue": "वर्तमान स्थिति मान",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "दर्ज की गई प्रारंभिक कीमत बाजार मूल्य से {{value}}% कम है और इसके परिणामस्वरूप धन की हानि हो सकती है। क्या आप आगे बढ़ना चाहते हैं?",
+            "more": "दर्ज किया गया आरंभिक मूल्य बाजार मूल्य से {{value}}% अधिक है और इसके परिणामस्वरूप धन की हानि हो सकती है। क्या आप आगे बढ़ना चाहते हैं?"
+          },
+          "title": "बाजार मूल्य से बड़ा अंतर"
+        }
+      },
+      "description": "अपने तरलता योगदान के लिए टोकन राशि निर्दिष्ट करें."
+    },
+    "depositedCurrency": "जमा {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "v2 स्थिति बनाएं"
+      }
+    },
+    "hook": {
+      "disclaimer": "मैं इस हुक को जोड़ने में शामिल संभावित जोखिमों को समझता हूं।",
+      "donateWarning": "इस ध्वज के परिणामस्वरूप अर्जित शुल्क में परिवर्तन हो सकता है।",
+      "liquidityWarning": "यह फ़्लैग पूल को नई लिक्विडिटी जोड़ने से रोक सकता है। आपका लेन-देन वापस हो सकता है।",
+      "removeWarning": "इससे आपकी धनराशि अवरुद्ध हो सकती है या आपको शुल्क जमा करने से रोका जा सकता है।",
+      "swapWarning": "यह ध्वज तरलता प्रदाताओं को अधिक आसानी से जस्ट-इन-टाइम तरलता का लाभ उठाने की अनुमति दे सकता है, जिसके परिणामस्वरूप कम शुल्क अर्जित हो सकता है।",
+      "warningHeader": "महत्वपूर्ण: हुक जोखिमों की पहचान की गई",
+      "warningInfo": "हमने इस हुक से जुड़े संभावित जोखिमों की पहचान की है। कृपया आगे बढ़ने का फैसला करने से पहले सुनिश्चित करें कि आप यह समझ गए हैं कि यह हुक कैसे काम करता है।"
+    },
+    "increase": {
+      "fot": "{{token}} और अन्य “स्थानांतरण पर शुल्क” टोकन के लिए तरलता जोड़ना समर्थित नहीं है।"
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}बाजार मूल्य से % कम",
+        "positive": "{{ value }}बाजार मूल्य से % अधिक"
+      },
+      "info": "नया पूल बनाते समय, आपको दोनों टोकन के लिए शुरुआती विनिमय दर निर्धारित करनी होगी। यह दर शुरुआती बाज़ार मूल्य को दर्शाएगी।",
+      "set": "प्रारंभिक मूल्य निर्धारित करें",
+      "useMarketPrice": "बाजार मूल्य का उपयोग करें"
+    },
+    "migrate": {
+      "liquidity": "पोजीशन्स को माइग्रेट करते समय, आप अपने टोकन जोड़े को बदल नहीं सकते हैं, लेकिन आप कार्यक्षमता बढ़ाने के लिए एक हुक जोड़ सकते हैं।",
+      "v4unsupportedChain": "यह श्रृंखला v4 पूल के लिए समर्थित नहीं है."
+    },
+    "new": {
+      "protocol": "नई {{protocol}} स्थिति"
+    },
+    "notFound": {
+      "description": "इस पद के बारे में विस्तृत जानकारी उपलब्ध नहीं है। कृपया जाँच लें कि आप सही वॉलेट से जुड़े हैं।"
+    },
+    "protocol": "{{protocol}} स्थिति",
+    "provide": {
+      "liquidity": "वे टोकन चुनें जिनके लिए आप लिक्विडिटी प्रदान करना चाहते हैं। आप सभी समर्थित नेटवर्क पर टोकन चुन सकते हैं।",
+      "liquidityDescription": {
+        "creatingPool": "पूल बनाते समय पूर्ण सीमा की तरलता निर्धारित करने से सभी संभावित मूल्यों पर निरंतर बाजार भागीदारी सुनिश्चित होती है, जिससे सरलता मिलती है, लेकिन अस्थायी हानि की संभावना अधिक रहती है।",
+        "custom": "कस्टम रेंज आपको अपनी तरलता को विशिष्ट मूल्य सीमाओं के भीतर केंद्रित करने की अनुमति देती है, जिससे पूंजी दक्षता और शुल्क आय में वृद्धि होती है, लेकिन इसके लिए अधिक सक्रिय प्रबंधन की आवश्यकता होती है।"
+      },
+      "outOfRange": {
+        "closePosition": "बंद स्थिति",
+        "description": "माइग्रेशन के दौरान इस स्थिति की सीमा को समायोजित नहीं किया जा सकता। नई सीमा निर्धारित करने के लिए, इस स्थिति को बंद करें और एक नई v4 स्थिति खोलें।",
+        "title": "आप सीमा से बाहर की स्थिति में माइग्रेट कर रहे हैं"
+      }
+    },
+    "removeHook": "हुक हटाएँ",
+    "resetDescription": "आपके टोकन, मूल्य और रेंज चयन रीसेट हो जाएंगे.",
+    "setRange": {
+      "inputsBelow": "अपनी रेंज निर्धारित करने के लिए नीचे दिए गए इनपुट का उपयोग करें।"
+    },
+    "step": {
+      "deposit": "जमा राशि दर्ज करें",
+      "price": "प्रारंभिक मूल्य और जमा राशि निर्धारित करें",
+      "range": "मूल्य सीमा और जमा राशि निर्धारित करें",
+      "select": "टोकन जोड़ी और शुल्क का चयन करें"
+    },
+    "value": "स्थिति मान",
+    "valueUnavailable": "इस पद के लिए USD मूल्य वर्तमान में उपलब्ध नहीं है। जमा टोकन राशि के लिए पद विवरण देखें।",
+    "wrapped": {
+      "unwrap": "खोलना {{wrappedToken}}",
+      "warning": {
+        "info": "अधिक लागत प्रभावी और कुशल तरलता प्रदान करने के लिए अपने {{wrappedToken}} को खोलें और {{nativeToken}} जमा करें।"
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "अपनी वर्तमान स्थिति देखने के लिए अपने वॉलेट को कनेक्ट करें।"
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "समय के साथ सुधार करने के लिए ऐप अनाम उपयोग के आंकड़े लॉग करता है।",
+    "autoRouter": "यह ऐप यूनिस्वैप लैब्स सर्वर से इष्टतम व्यापार मार्ग प्राप्त करता है।",
+    "infura": "यह ऐप ऑन-चेन डेटा प्राप्त करता है और इन्फुरा एपीआई के साथ अनुबंध कॉल का निर्माण करता है।",
+    "thirdPartyApis": "यह ऐप निम्नलिखित तृतीय-पक्ष API का उपयोग करता है:",
+    "trm": "ऐप आपके वॉलेट पते को सुरक्षित रूप से एकत्रित करता है और जोखिम और अनुपालन कारणों से इसे TRM लैब्स इंक के साथ साझा करता है।",
+    "uniswaptos": "यूनिस्वैप लैब्स की सेवा की शर्तें"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 ऐप कनेक्ट हुआ",
+      "connections_other": "{{count}} ऐप्स कनेक्ट हैं"
+    },
+    "error": {
+      "camera": {
+        "message": "किसी कोड को स्कैन करने के लिए, सिस्टम सेटिंग्स में कैमरा एक्सेस की अनुमति दें",
+        "title": "कैमरा अक्षम है"
+      },
+      "none": "कोई क्यूआर कोड नहीं मिला"
+    },
+    "recipient": {
+      "action": {
+        "scan": "QR कोड स्कैन करें",
+        "show": "मेरा क्यूआर कोड दिखाओ"
+      },
+      "error": {
+        "message": "दोबारा प्रयास करने से पहले सुनिश्चित करें कि आप एक वैध एथेरियम एड्रेस क्यूआर कोड स्कैन कर रहे हैं।",
+        "title": "अमान्य क्यूआर कोड"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "कोई संदेश नहीं मिला."
+      },
+      "method": {
+        "default": "{{dappNameOrUrl}}से अनुरोध",
+        "signature": "{{dappNameOrUrl}}से हस्ताक्षर अनुरोध",
+        "transaction": "{{dappNameOrUrl}}से लेनदेन अनुरोध"
+      },
+      "withAmount": "{{dappName}} को<highlight> {{amount}} </highlight>{{currencySymbol}}तक उपयोग करने की अनुमति दें?",
+      "withoutAmount": "{{dappName}} को अपने {{currencySymbol}}का उपयोग करने की अनुमति दें?"
+    },
+    "status": {
+      "connecting": "कनेक्ट हो रहा है...",
+      "loading": "लोड हो रहा है..."
+    },
+    "title": "QR कोड स्कैन करें",
+    "wallet": {
+      "networks": "समर्थित नेटवर्क",
+      "title": "आप हमारे सभी {{numOfNetworks}} समर्थित नेटवर्क पर टोकन और NFT भेज और प्राप्त कर सकते हैं।"
+    }
+  },
+  "range": {
+    "outOfView": "दृश्य से बाहर की सीमा"
+  },
+  "removeLiquidity": {
+    "pooled": "पूल्ड {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "यह ट्रेडिंग के लिए आपके टोकन तक यूनिस्वैप प्रोटोकॉल की पहुंच प्रदान करता है।"
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "जब उपलब्ध हो, तो बेहतर कीमतों और गैस मुक्त स्वैप के लिए तरलता स्रोतों को एकत्रित करता है।",
+    "cheapest": {
+      "v4": "यूनिस्वैप क्लाइंट मूल्य और नेटवर्क लागत को ध्यान में रखते हुए इष्टतम व्यापार विकल्प का चयन करता है।"
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "खत्म हो चुका",
+      "subtitle": "इस कोड को Uniswap एक्सटेंशन में दर्ज करें। आपका पुनर्प्राप्ति वाक्यांश सुरक्षित रूप से एन्क्रिप्ट और स्थानांतरित किया जाएगा।",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "नया कोड {{hours}}h {{minutes}}m {{seconds}}s में",
+          "minutes": "नया कोड {{minutes}}m {{seconds}}s में",
+          "seconds": "{{seconds}}s में नया कोड"
+        }
+      },
+      "title": "यूनिस्वैप वन-टाइम कोड"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "हाँ, जारी रखें"
+      },
+      "label": {
+        "browser": "ब्राउज़र",
+        "device": "उपकरण"
+      },
+      "subtitle": "केवल तभी जारी रखें जब आप किसी विश्वसनीय डिवाइस पर Uniswap Extension से QR कोड स्कैन कर रहे हों।",
+      "title": "क्या आप अपना वॉलेट आयात करने का प्रयास कर रहे हैं?",
+      "warning": "Uniswap का नाम लेकर विज्ञापन करने वाली साइटों और ऐप्स से सावधान रहें। अन्यथा आपके वॉलेट से समझौता हो सकता है।"
+    },
+    "error": {
+      "encryption": "बीज वाक्यांश तैयार करने में विफल.",
+      "noCode": "कोई OTP प्राप्त नहीं हुआ। कृपया पुनः प्रयास करें।",
+      "timeout": {
+        "message": "अपने वॉलेट को सिंक करना जारी रखने के लिए Uniswap एक्सटेंशन पर QR कोड को फिर से स्कैन करें।",
+        "title": "आपके कनेक्शन का समय समाप्त हो गया"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "इस क्यूआर कोड को स्कैन करने के लिए, आपका फोन आपके कंप्यूटर के समान वाईफाई नेटवर्क से जुड़ा होना चाहिए और सभी वीपीएन अस्थायी रूप से बंद होने चाहिए।",
+        "title": "अपना WiFi नेटवर्क बदलें"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "जल्द ही आ रहा है: {{chainName}} चेन पर टोकन खोजें और खोजें",
+    "input": {
+      "placeholder": "टोकन और पूल खोजें"
+    },
+    "results": {
+      "count_one": "1 समान",
+      "count_other": "{{count}} आइटम"
+    },
+    "ukDisclaimer": "ब्रिटेन के निवासियों के लिए अस्वीकरण"
+  },
+  "send": {
+    "button": {
+      "review": "स्थानांतरण की समीक्षा करें"
+    },
+    "gas": {
+      "error": {
+        "title": "एन/ए"
+      },
+      "networkCost": {
+        "title": "नेटवर्क लागत"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "शेष: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "प्राप्तकर्ता चुनें",
+      "input": {
+        "placeholder": "ईएनएस या पता खोजें"
+      },
+      "previous_one": "1 पिछला स्थानांतरण",
+      "previous_other": "{{count}} पिछला स्थानान्तरण",
+      "results": {
+        "empty": "कोई परिणाम नहीं मिला",
+        "error": "आपके द्वारा टाइप किया गया पता या तो मौजूद नहीं है या गलत तरीके से लिखा गया है।"
+      },
+      "section": {
+        "favorite": "पसंदीदा बटुए",
+        "recent": "हाल ही का",
+        "search": "खोज के परिणाम",
+        "viewOnly": "केवल देखने योग्य वॉलेट",
+        "yours": "आपके बटुए"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "इस वॉलेट में धनराशि केवल तभी भेजें जब आपके पास रिकवरी वाक्यांश हो या आप वॉलेट के मालिक को जानते हों।",
+          "title": "आपके पास यह केवल देखने योग्य वॉलेट के रूप में है"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "जब आप किसी वॉलेट पते पर टोकन भेजते हैं, तो वे यहां दिखाई देंगे",
+          "title": "कोई वॉलेट सहेजा नहीं गया"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "आप भेज रहे हैं"
+      },
+      "summary": {
+        "button": {
+          "title": "भेजने की पुष्टि करें"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "आपके द्वारा टाइप किया गया पता या तो मौजूद नहीं है या गलत तरीके से लिखा गया है।",
+        "title": "कोई परिणाम नहीं मिला"
+      },
+      "placeholder": "ईएनएस या पता खोजें"
+    },
+    "title": "भेजना",
+    "warning": {
+      "blocked": {
+        "default": "यह वॉलेट ब्लॉक कर दिया गया है",
+        "modal": {
+          "message": "यह पता Uniswap वॉलेट पर अवरुद्ध है क्योंकि यह एक या अधिक अवरुद्ध गतिविधियों से संबद्ध है। यदि आपको लगता है कि यह एक त्रुटि है, तो कृपया Compliance@uniswap.org पर ईमेल करें।",
+          "title": "अवरुद्ध पता"
+        },
+        "recipient": "प्राप्तकर्ता का बटुआ अवरुद्ध है"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "आप टोकन पते पर धनराशि भेजने का प्रयास कर रहे हैं। इससे धनराशि की स्थायी हानि हो सकती है।",
+          "heading": "टोकन पता पता चला"
+        },
+        "message": "आप टोकन पते पर फंड भेजने का प्रयास कर रहे हैं। इस प्रकार के पते पर क्रिप्टो भेजने से फंड की स्थायी हानि हो सकती है।",
+        "title": "यह एक सांकेतिक पता है"
+      },
+      "insufficientFunds": {
+        "message": "आपके द्वारा भेजी जाने वाली राशि दर्ज करने के बाद से आपका {{currencySymbol}} बैलेंस कम हो गया है",
+        "title": "पर्याप्त नहीं {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "भेजने के लिए {{networkName}}</highlight> पर <highlight>{{currencySymbol}} पर्याप्त नहीं है",
+          "withoutNetwork": "भेजने के लिए पर्याप्त <highlight>{{currencySymbol}}</highlight> नहीं"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "ठीक है",
+            "cancel": "रद्द करना",
+            "confirm": "पुष्टि करना"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ईएनएस",
+          "username": "उपयोगकर्ता नाम",
+          "walletAddress": "वॉलेट पता"
+        },
+        "message": "आपने पहले इस पते से लेन-देन नहीं किया है. कृपया आगे बढ़ने से पहले पुष्टि करें कि पता सही है।",
+        "title": "नया पता"
+      },
+      "self": {
+        "message": "आप अपने वर्तमान वॉलेट में धनराशि भेजने का प्रयास कर रहे हैं। इस पते पर क्रिप्टो भेजने से अनावश्यक नेटवर्क लागत आएगी।",
+        "title": "यह आपका वर्तमान वॉलेट है"
+      },
+      "smartContract": {
+        "message": "आप स्मार्ट कॉन्ट्रैक्ट पते पर फंड भेजने वाले हैं। सुनिश्चित करें कि यह सही पता है और यह टोकन प्राप्त कर सकता है। यदि नहीं, तो इससे फंड का स्थायी नुकसान हो सकता है।",
+        "title": "यह एक स्मार्ट अनुबंध पता है"
+      },
+      "viewOnly": {
+        "message": "संपत्तियां भेजने के लिए आपको पुनर्प्राप्ति वाक्यांश के माध्यम से इस वॉलेट को आयात करना होगा।",
+        "title": "यह वॉलेट केवल देखने के लिए है"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "हाल ही"
+    }
+  },
+  "sendReviewModal": {
+    "title": "समीक्षा भेजें"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "पुनर्प्राप्ति वाक्यांश दिखाएँ"
+      },
+      "action": {
+        "hide": "पुनर्प्राप्ति वाक्यांश छिपाएँ"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "मैं समझता हूं कि अगर मैं ऐसा करने में विफल रहा तो Uniswap Labs मेरा बटुआ वापस पाने में मेरी मदद नहीं कर सकती",
+          "title": "मैंने अपना पुनर्प्राप्ति वाक्यांश सहेजा है"
+        },
+        "initial": {
+          "subtitle": "सुनिश्चित करें कि आपने अपना पुनर्प्राप्ति वाक्यांश सहेज लिया है. अन्यथा आप अपने धन तक पहुंच खो देंगे",
+          "title": "इससे पहले कि आप जारी रखें"
+        },
+        "password": {
+          "error": "गलत पासवर्ड। पुनः प्रयास करें"
+        },
+        "subtitle": "जारी रखने के लिए अपना पासवर्ड दर्ज करें",
+        "title": "आप अपना पुनर्प्राप्ति वाक्यांश हटा रहे हैं"
+      },
+      "title": "आपका पुनर्प्राप्ति वाक्यांश",
+      "view": {
+        "warning": {
+          "message1": "जो कोई भी आपके पुनर्प्राप्ति वाक्यांश को जानता है वह आपके वॉलेट और फंड तक पहुंच सकता है",
+          "message2": "इसे अकेले में देखें",
+          "message3": "इसे किसी के साथ साझा न करें",
+          "message4": "इसे कभी भी किसी वेबसाइट या ऐप पर दर्ज न करें",
+          "title": "इससे पहले कि आप जारी रखें"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "जो कोई भी आपके पुनर्प्राप्ति वाक्यांश को जानता है वह आपके वॉलेट और फंड तक पहुंच सकता है।",
+          "title": "इसे किसी निजी स्थान पर देखें"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "सेटिंग्स में सक्षम करें",
+      "feedback": "प्रतिक्रिया भेजें",
+      "help": "मदद लें",
+      "lock": "बटुआ बंद करो",
+      "privacy": "गोपनीयता नीति",
+      "terms": "सेवा की शर्तें"
+    },
+    "footer": "प्यार से बनाया गया, \nUniswap टीम 🦄",
+    "hideSmallBalances": {
+      "subtitle": "1 USD से कम शेष राशि आपके पोर्टफोलियो से छिपा दी जाएगी।"
+    },
+    "maxSlippage": "अधिकतम फिसलन",
+    "section": {
+      "about": "के बारे में",
+      "preferences": "पसंद",
+      "privacyAndSecurity": "गोपनीयता और सुरक्षा",
+      "support": "सहायता",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} अन्य वॉलेट"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "ऑटो",
+          "dark": {
+            "subtitle": "हमेशा डार्क थीम का उपयोग करें.",
+            "title": "अँधेरा"
+          },
+          "device": {
+            "subtitle": "आपके डिवाइस की सेटिंग्स के अनुसार अनुकूलित होता है।",
+            "title": "ऑटो"
+          },
+          "light": {
+            "subtitle": "हमेशा हल्के थीम का उपयोग करें.",
+            "title": "रोशनी"
+          }
+        },
+        "title": "विषय"
+      },
+      "backup": {
+        "create": {
+          "description": "पासवर्ड सेट करने से आपका पुनर्प्राप्ति वाक्यांश बैकअप एन्क्रिप्ट हो जाएगा, जिससे आपके {{cloudProviderName}} खाते के साथ कभी छेड़छाड़ होने पर सुरक्षा का एक अतिरिक्त स्तर प्राप्त हो जाएगा।",
+          "title": "{{cloudProviderName}}तक वापस जाएं"
+        },
+        "delete": {
+          "confirm": {
+            "message": "क्योंकि ये वॉलेट एक रिकवरी वाक्यांश साझा करते हैं, इसलिए यह नीचे दिए गए इन वॉलेट के बैकअप को भी हटा देगा",
+            "title": "क्या आपको यकीन है?"
+          },
+          "warning": "यदि आप अपना {{cloudProviderName}} बैकअप हटाते हैं, तो आप अपने वॉलेट को केवल अपने रिकवरी वाक्यांश के मैन्युअल बैकअप के साथ ही रिकवर कर पाएंगे। यदि आप अपना रिकवरी वाक्यांश खो देते हैं, तो Uniswap Labs आपकी संपत्तियों को रिकवर नहीं कर सकता है।"
+        },
+        "error": {
+          "message": {
+            "full": "पुनर्प्राप्ति वाक्यांश का {{cloudProviderName}}पर बैकअप लेने में असमर्थ। कृपया सुनिश्चित करें कि आपके पास उपलब्ध संग्रहण स्थान के साथ {{cloudProviderName}} सक्षम है और पुनः प्रयास करें।",
+            "short": "बैकअप हटाने में असमर्थ"
+          },
+          "title": "{{cloudProviderName}} त्रुटि"
+        },
+        "modal": {
+          "description": "आपने अभी तक अपने रिकवरी फ्रेज को {{cloudProviderName}} पर बैकअप नहीं किया है। ऐसा करके, आप किसी भी डिवाइस पर {{cloudProviderName}} में लॉग इन करके अपना वॉलेट रिकवर कर सकते हैं।",
+          "title": "पुनर्प्राप्ति वाक्यांश का बैकअप {{cloudProviderName}}पर रखें?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "सांकेतिक शब्द मेल नहीं खाते"
+          },
+          "medium": "यह एक मध्यम पासवर्ड है",
+          "placeholder": {
+            "confirm": "पासवर्ड की पुष्टि कीजिये",
+            "create": "पासवर्ड बनाएं"
+          },
+          "strong": "यह एक मजबूत पासवर्ड है",
+          "weak": "यह एक कमज़ोर पासवर्ड है"
+        },
+        "recoveryPhrase": {
+          "label": "पुनर्प्राप्ति वाक्यांश"
+        },
+        "selected": "{{cloudProviderName}} बैकअप",
+        "status": {
+          "action": {
+            "delete": "बैकअप हटाएँ"
+          },
+          "complete": "{{cloudProviderName}}तक बैकअप लिया गया",
+          "description": "अपने पुनर्प्राप्ति वाक्यांश को {{cloudProviderName}}तक बैकअप करके, आप किसी भी डिवाइस पर अपने {{cloudProviderName}} खाते में लॉग इन करके अपने वॉलेट को पुनर्प्राप्त कर सकते हैं।",
+          "inProgress": "{{cloudProviderName}}तक बैकअप लिया जा रहा है...",
+          "recoveryPhrase": {
+            "backed": "को समर्थन"
+          },
+          "title": "{{cloudProviderName}} बैकअप"
+        }
+      },
+      "beta": {
+        "tooltip": "जल्द आ रहा है"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "ऐप खोलने के लिए चेहरा/फिंगरप्रिंट की आवश्यकता होगी।",
+            "ios": "ऐप खोलने के लिए {{biometricsMethod}} की आवश्यकता है."
+          },
+          "title": "ऐप एक्सेस"
+        },
+        "auth": "कृपया प्रमाणित करें",
+        "off": {
+          "message": {
+            "android": "बायोमेट्रिक्स वर्तमान में यूनिस्वैप वॉलेट के लिए बंद है - आप इसे अपनी सिस्टम सेटिंग्स में चालू कर सकते हैं।",
+            "ios": "{{biometricsMethod}} वर्तमान में Uniswap वॉलेट के लिए बंद है—आप इसे अपनी सिस्टम सेटिंग्स में चालू कर सकते हैं।"
+          },
+          "title": {
+            "android": "बायोमेट्रिक्स बंद है",
+            "ios": "{{biometricsMethod}} बंद है"
+          }
+        },
+        "title": "चेहरा/फिंगरप्रिंट अनलॉक",
+        "transactions": {
+          "subtitle": {
+            "android": "लेन-देन के लिए चेहरा/उंगलियों के निशान की आवश्यकता होगी।",
+            "ios": "लेन-देन करने के लिए {{biometricsMethod}} की आवश्यकता है।"
+          },
+          "title": "लेनदेन"
+        },
+        "unavailable": {
+          "message": {
+            "android": "आपके डिवाइस पर बायोमेट्रिक्स सेट नहीं है। बायोमेट्रिक्स का उपयोग करने के लिए, इसे पहले सेटिंग में सेट करें।",
+            "ios": "आपके डिवाइस पर {{biometricsMethod}} सेटअप नहीं है. {{biometricsMethod}}उपयोग करने के लिए, इसे पहले सेटिंग्स में सेट करें।"
+          },
+          "title": {
+            "android": "बायोमेट्रिक्स सेटअप नहीं है",
+            "ios": "{{biometricsMethod}} सेटअप नहीं है"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "यदि आप बायोमेट्रिक्स चालू नहीं करते हैं, तो आपके डिवाइस तक पहुंच पाने वाला कोई भी व्यक्ति यूनिस्वैप वॉलेट खोल सकता है और लेनदेन कर सकता है।",
+            "ios": "यदि आप {{biometricsMethod}}चालू नहीं करते हैं, तो आपके डिवाइस तक पहुंच प्राप्त करने वाला कोई भी व्यक्ति Uniswap वॉलेट खोल सकता है और लेनदेन कर सकता है।"
+          },
+          "title": "क्या आपको यकीन है?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "सभी को डिस्कनेक्ट करें",
+        "noConnectionsDescription": "“कनेक्ट वॉलेट” या “लॉग इन” बटन ढूंढकर किसी ऐप से कनेक्ट करें।"
+      },
+      "currency": {
+        "title": "स्थानीय मुद्रा"
+      },
+      "hapticTouch": {
+        "title": "स्पर्श स्पर्श"
+      },
+      "helpCenter": {
+        "title": "सहायता केंद्र"
+      },
+      "language": {
+        "button": {
+          "navigate": "सेटिंग्स में जाओ"
+        },
+        "description": {
+          "extension": "Uniswap डिफ़ॉल्ट रूप से आपकी सिस्टम भाषा सेटिंग पर सेट हो जाता है। अपनी पसंदीदा भाषा बदलने के लिए, अपनी सिस्टम सेटिंग पर जाएँ।",
+          "mobile": "Uniswap आपके डिवाइस की भाषा सेटिंग पर डिफ़ॉल्ट रूप से सेट हो जाता है। अपनी पसंदीदा भाषा बदलने के लिए, अपने डिवाइस सेटिंग में “Uniswap” पर जाएँ और “भाषा” पर टैप करें।"
+        },
+        "title": "भाषा"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "स्थानान्तरण, अनुरोध और अन्य गतिविधि",
+            "title": "वॉलेट गतिविधि"
+          },
+          "priceAlerts": {
+            "description": "पसंदीदा टोकन के मूल्य में बड़ा परिवर्तन",
+            "title": "मूल्य अलर्ट"
+          },
+          "updates": {
+            "description": "अनुशंसाएँ और नई सुविधाएँ",
+            "title": "यूनिस्वैप से अपडेट"
+          }
+        },
+        "title": "सूचनाएं"
+      },
+      "password": {
+        "title": "पासवर्ड बदलें"
+      },
+      "permissions": {
+        "title": "अनुमतियां"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Uniswap Labs उत्पादों में आपके अनुभव को बेहतर बनाने के लिए हम अनाम उपयोग डेटा का उपयोग करते हैं। अक्षम होने पर, हम केवल त्रुटियों और आवश्यक उपयोग को ट्रैक करते हैं।",
+          "title": "ऐप एनालिटिक्स"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "अपना कूटशब्द भरें"
+        },
+        "title": "पुनर्प्राप्ति वाक्यांश"
+      },
+      "smallBalances": {
+        "title": "पोर्टफोलियो संतुलन"
+      },
+      "unknownTokens": {
+        "subtitle": "संभावित घोटाले वाले टोकन आपके पोर्टफोलियो से छिपा दिए जाएंगे।",
+        "title": "अज्ञात टोकन छिपाएँ"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "लेबल संपादित करें",
+          "editProfile": "प्रोफ़ाइल संपादित करें",
+          "remove": "बटुआ हटाओ"
+        },
+        "connection": {
+          "banner": {
+            "description": "अपनी प्रोफ़ाइल छवि पर क्लिक करके वॉलेट सेटिंग्स के माध्यम से कनेक्शन प्रबंधित करें।",
+            "title": "कनेक्शन स्थानांतरित हो गए हैं"
+          }
+        },
+        "connections": {
+          "title": "कनेक्शन"
+        },
+        "editLabel": {
+          "description": "लेबल सार्वजनिक नहीं हैं. वे स्थानीय रूप से संग्रहीत हैं और केवल आपको दिखाई देते हैं।",
+          "save": "परिवर्तनों को सुरक्षित करें"
+        },
+        "label": "उपनाम",
+        "testnetMode": {
+          "description": "यह डेवलपर्स के लिए टेस्टनेट चालू करता है ताकि वे वास्तविक परिसंपत्तियों का उपयोग किए बिना सुविधाओं और लेनदेन को आज़मा सकें। टेस्टनेट पर टोकन का कोई वास्तविक मूल्य नहीं होता है।",
+          "title": "टेस्टनेट मोड"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "{{label}}पर Uniswap का उपयोग करने के लिए, अपने वॉलेट की सेटिंग में नेटवर्क स्विच करें।"
+    },
+    "title": "समायोजन",
+    "version": "संस्करण {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "स्मार्ट वॉलेट सुरक्षित स्मार्ट कॉन्ट्रैक्ट का उपयोग करके तेज़, कम लागत वाले लेनदेन प्रदान करते हैं।",
+      "info": "किसी अन्य ऐप से पहले से ही स्मार्ट वॉलेट सुविधाओं का उपयोग कर रहे वॉलेट प्रभावित नहीं होंगे।"
+    },
+    "enabledModal": {
+      "description": "अपडेट आपके अगले स्वैप पर प्रभावी होंगे.",
+      "title": "स्मार्ट वॉलेट सक्षम"
+    },
+    "postSwapNudge": {
+      "description": "स्मार्ट वॉलेट सुरक्षित स्मार्ट कॉन्ट्रैक्ट का उपयोग करके तेज़, कम लागत वाले लेनदेन प्रदान करता है।",
+      "enable": "स्मार्ट वॉलेट सक्षम करें",
+      "title": "अपने अगले स्वैप पर बचत करें"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "आपने पहले कभी इस पते से लेन-देन नहीं किया है। आगे बढ़ने से पहले सुनिश्चित करें कि यह सही पता है।",
+        "title": "नया पता"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "आप एक खास तरह के पते पर टोकन भेजने वाले हैं - एक स्मार्ट कॉन्ट्रैक्ट। दोबारा जांच लें कि यह वही पता है जिस पर आप टोकन भेजना चाहते थे। अगर यह गलत है, तो आपके टोकन हमेशा के लिए खो सकते हैं।",
+        "title": "क्या यह बटुए का पता है?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24 घंटे की फीस",
+    "24volume": "24 घंटे का वॉल्यूम",
+    "allTimeFees": "सभी समय की एल.पी. फीस",
+    "allTimeSwappers": "सभी समय स्वैपर्स",
+    "allTimeVolume": "सभी समय मात्रा",
+    "fdv": {
+      "description": "पूर्णतया तनुकृत मूल्यांकन (एफडीवी) में कुल बाजार मूल्य की गणना की जाती है, यह मानते हुए कि सभी टोकन प्रचलन में हैं।"
+    },
+    "marketCap": {
+      "description": "बाजार पूंजीकरण किसी परिसंपत्ति की परिसंचारी आपूर्ति का कुल बाजार मूल्य है।"
+    },
+    "tvl": {
+      "description": "कुल लॉक मूल्य (TVL) सभी यूनिस्वैप तरलता पूलों में उपलब्ध परिसंपत्ति की कुल राशि है।"
+    },
+    "volume": {
+      "1d": {
+        "description": "1 दिन का वॉल्यूम उस परिसंपत्ति की राशि है जो पिछले 24 घंटों के दौरान यूनिस्वैप पर कारोबार की गई है।",
+        "long": "1डी वॉल्यूम",
+        "short": "1डी वॉल्यूम"
+      },
+      "description": "वॉल्यूम उस परिसंपत्ति की राशि है जो चयनित समय सीमा के दौरान यूनिस्वैप पर कारोबार की गई है।"
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} (एक बार) की अनुमति दें"
+    },
+    "approvalNeeded": "इस टोकन का उपयोग करने के लिए अनुमोदन आवश्यक है। ",
+    "approvalPending": "स्वीकृति लंबित",
+    "approveAndSubmit": "स्वीकृत करें और सबमिट करें",
+    "approveAndSwap": "स्वीकृति दें और अदला-बदली करें",
+    "approveInWallet": "अपने वॉलेट में स्वीकृति दें",
+    "balance": {
+      "amount": "शेष: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "सबसे कुशल मार्ग की नेटवर्क लागत ~{{gasPrice}} होने का अनुमान है। "
+    },
+    "bridging": {
+      "estimatedTime": "अनुमानित समय",
+      "title": "नेटवर्कों में अदला-बदली",
+      "warning": {
+        "description": "आप {{fromNetwork}} से {{toNetwork}}पर स्वैप कर रहे हैं। इसे \"ब्रिजिंग\" के रूप में भी जाना जाता है, जो आपके टोकन को एक नेटवर्क से दूसरे नेटवर्क पर ले जाता है।"
+      }
+    },
+    "button": {
+      "max": "अधिकतम",
+      "review": "समीक्षा",
+      "submitting": {
+        "keep": {
+          "open": "अपना बटुआ खुला रखें..."
+        }
+      },
+      "swap": "बदलना",
+      "swapAnyways": "वैसे भी स्वैप",
+      "unwrap": "खोलना",
+      "wrap": "लपेटना"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "देश या क्षेत्र के अनुसार खोजें"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "रद्दीकरण प्रक्रिया से पहले आपका स्वैप निष्पादित हो सकता है। आपकी नेटवर्क लागत वापस नहीं की जा सकती। क्या आप आगे बढ़ना चाहते हैं?",
+      "cannotExecute_other": "रद्दीकरण प्रक्रिया से पहले आपके स्वैप निष्पादित हो सकते हैं। आपकी नेटवर्क लागत वापस नहीं की जा सकती। क्या आप आगे बढ़ना चाहते हैं?"
+    },
+    "confirmLimit": "सीमा की पुष्टि करें",
+    "confirmSwap": "स्वैप की पुष्टि करें",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. समय सीमा"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "टोकन शुल्क"
+      },
+      "newQuote": {
+        "input": "नया इनपुट",
+        "output": "नया आउटपुट"
+      },
+      "orderRouting": "ऑर्डर रूटिंग",
+      "orderRoutingInfo": "यह स्वैप एक्रॉस के माध्यम से किया जाता है, जो एक विकेन्द्रीकृत प्रोटोकॉल है जो सुरक्षा, तीव्र निष्पादन और कम कीमतों को प्राथमिकता देते हुए परिसंपत्तियों को नेटवर्क के पार ले जाता है।",
+      "poweredBy": "द्वारा संचालित",
+      "rate": "दर",
+      "slippage": "अधिकतम फिसलन",
+      "uniswapFee": "शुल्क"
+    },
+    "error": {
+      "default": "आपको अपनी स्लिपेज सहनशीलता बढ़ाने की आवश्यकता हो सकती है। नोट: फ़ीस-ऑन-ट्रांसफ़र और रीबेस टोकन Uniswap V3 के साथ असंगत हैं।",
+      "expectedToFail": "आपका स्वैप असफल होने की आशंका है।",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} इनपुट अनुपलब्ध",
+      "modifiedByWallet": "आपके स्वैप को आपके वॉलेट के ज़रिए संशोधित किया गया था। अगर यह गलती से हुआ है, तो कृपया तुरंत रद्द करें या अपने पैसे खोने का जोखिम उठाएँ।",
+      "rejected": "लेन-देन अस्वीकृत",
+      "undefinedObject": "इस स्वैप को निष्पादित करने का प्रयास करते समय एक त्रुटि हुई। आपको अपनी स्लिपेज सहनशीलता बढ़ाने की आवश्यकता हो सकती है। यदि वह काम नहीं करता है, तो हो सकता है कि आप जिस टोकन का व्यापार कर रहे हैं, उसके साथ कोई असंगति हो। नोट: फ़ीस-ऑन-ट्रांसफ़र और रीबेस टोकन Uniswap V3 के साथ असंगत हैं।",
+      "unknown": "अज्ञात त्रुटि।",
+      "v2": {
+        "expired": "यह लेनदेन नहीं भेजा जा सका क्योंकि समय सीमा बीत चुकी है। कृपया जाँच लें कि आपके लेनदेन की समय सीमा बहुत कम न हो।",
+        "k": "यूनिस्वैप इनवेरिएंट x*y=k स्वैप द्वारा संतुष्ट नहीं था। इसका आमतौर पर मतलब है कि आप जिस टोकन को स्वैप कर रहे हैं, उसमें से एक ट्रांसफर पर कस्टम व्यवहार को शामिल करता है।",
+        "slippage": "यह लेनदेन या तो मूल्य परिवर्तन या हस्तांतरण पर शुल्क के कारण सफल नहीं होगा। अपनी स्लिपेज सहनशीलता बढ़ाने का प्रयास करें",
+        "transferInput": "इनपुट टोकन को स्थानांतरित नहीं किया जा सकता। इनपुट टोकन में कोई समस्या हो सकती है।",
+        "transferOutput": "आउटपुट टोकन को स्थानांतरित नहीं किया जा सकता। आउटपुट टोकन में कोई समस्या हो सकती है।"
+      },
+      "v3": {
+        "slippage": "मूल्य में उतार-चढ़ाव के कारण यह लेनदेन सफल नहीं होगा। अपनी स्लिपेज सहनशीलता बढ़ाने का प्रयास करें। नोट: स्थानांतरण और रीबेस टोकन पर शुल्क Uniswap V3 के साथ असंगत हैं।",
+        "transferOutput": "आउटपुट टोकन को स्थानांतरित नहीं किया जा सकता। आउटपुट टोकन के साथ कोई समस्या हो सकती है। नोट: स्थानांतरण और रीबेस टोकन पर शुल्क Uniswap V3 के साथ असंगत हैं।"
+      }
+    },
+    "estimatedDifference": {
+      "label": "वर्तमान तरलता के कारण आपके इनपुट और आउटपुट मूल्यों के बीच बड़ा अंतर होगा।"
+    },
+    "fail": {
+      "message": "स्लिपेज को उच्चतर मान पर समायोजित करने का प्रयास करें।",
+      "uniswapX": "UniswapX के साथ स्वैप पूरा नहीं किया जा सका। क्लासिक Uniswap API के ज़रिए इसे रूट करने के लिए अपना स्वैप फिर से आज़माएँ।"
+    },
+    "fees": {
+      "experience": "यह शुल्क कुछ टोकन जोड़ों पर लगाया जाता है ताकि यूनिस्वैप के साथ सबसे अच्छा अनुभव सुनिश्चित किया जा सके। इसका भुगतान आउटपुट टोकन में किया जाता है और इसे पहले ही कोटेशन में शामिल कर लिया गया है।",
+      "noFee": "Uniswap के साथ सबसे अच्छा अनुभव सुनिश्चित करने के लिए चुनिंदा टोकन जोड़ों पर शुल्क लगाया जाता है। इस स्वैप से जुड़ा कोई शुल्क नहीं है।"
+    },
+    "fetchingBestPrice": "सर्वोत्तम मूल्य प्राप्त किया जा रहा है...",
+    "fetchingPrice": "मूल्य प्राप्त किया जा रहा है...",
+    "finalizingQuote": "उद्धरण को अंतिम रूप दिया जा रहा है...",
+    "form": {
+      "header": "बदलना",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "टोकन शुल्क के कारण, स्वैप राशि केवल इनपुट फ़ील्ड का उपयोग करके दर्ज की जा सकती है"
+          }
+        },
+        "restore": "स्वैप करने के लिए अपना बटुआ पुनर्स्थापित करें"
+      }
+    },
+    "frontrun": {
+      "warning": "आपका लेन-देन अग्रिम हो सकता है और इसका परिणाम प्रतिकूल व्यापार हो सकता है।"
+    },
+    "header": {
+      "viewOnly": "केवल देखें"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "कम तरलता वाले जोड़ों के लिए मूल्य प्रभाव गणना उपलब्ध नहीं हो सकती है।"
+      }
+    },
+    "inputEstimated": {
+      "atMost": "इनपुट अनुमानित है। आप अधिकतम <amount /> पर बेचेंगे या लेनदेन वापस हो जाएगा।"
+    },
+    "limit": "आप LIMIT",
+    "limitedAssets": {
+      "warning": "कुछ परिसंपत्तियाँ इस इंटरफ़ेस के माध्यम से उपलब्ध नहीं हैं क्योंकि वे स्मार्ट अनुबंधों के साथ अच्छी तरह से काम नहीं कर सकती हैं या हम कानूनी कारणों से व्यापार की अनुमति देने में असमर्थ हैं।"
+    },
+    "limitFilled": "सीमा भर गयी!",
+    "limitSubmitted": "सीमा प्रस्तुत की गई",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "बाजार मूल्य आपकी निर्दिष्ट मूल्य सीमा से बाहर है। केवल एकल-परिसंपत्ति जमा।"
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "वह अधिकतम राशि जिसे आप खर्च करने की गारंटी देते हैं। यदि कीमत इससे भी कम हो जाती है, तो आपका लेन-देन वापस हो जाएगा।"
+    },
+    "minPriceSlip": {
+      "revert": "यदि कीमत इस प्रकार बढ़ जाती है कि आपको {{amount}}से कम प्राप्त होगा, तो आपका लेनदेन पूर्ववत हो जाएगा।"
+    },
+    "networkCost": {
+      "paidIn": "लेन-देन करने के लिए नेटवर्क लागत का भुगतान {{sym}} में {{chainName}} नेटवर्क पर किया जाता है।"
+    },
+    "orderRouting": "ऑर्डर रूटिंग",
+    "outputEstimated": {
+      "atLeast": "आउटपुट अनुमानित है। आपको कम से कम <amount /> प्राप्त होगा अन्यथा लेनदेन वापस हो जाएगा।"
+    },
+    "payAnyway": "फिर भी भुगतान करें",
+    "payAtMost": "अधिकतम भुगतान करें",
+    "payWith": "के साथ भुगतान करें",
+    "placeOrder": "आदेश देना",
+    "priceImpact": "मूल्य प्रभाव",
+    "receive": {
+      "atLeast": "कम से कम प्राप्त करें"
+    },
+    "request": {
+      "title": {
+        "full": "स्वैप {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "टोकन स्वैप करें"
+      }
+    },
+    "review": {
+      "summary": "आप अदला-बदली कर रहे हैं"
+    },
+    "reviewLimit": "समीक्षा सीमा",
+    "route": {
+      "optimizedGasCost": "यह मार्ग विभाजित मार्गों, एकाधिक हॉप्स, तथा प्रत्येक चरण की नेटवर्क लागतों पर विचार करता है।"
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "यदि आपका लेन-देन इस समयावधि से अधिक समय तक लंबित रहता है तो उसे वापस कर दिया जाएगा। (अधिकतम: 3 दिन)।",
+        "warning": "उच्च समय सीमा"
+      },
+      "protection": {
+        "description": "स्वैप सुरक्षा चालू होने पर, आपका एथेरियम लेनदेन सैंडविच हमलों से सुरक्षित रहेगा, और विफलता की संभावना कम हो जाएगी।",
+        "subtitle": {
+          "supported": "{{chainName}} नेटवर्क",
+          "unavailable": "{{chainName}}पर उपलब्ध नहीं है"
+        },
+        "title": "स्वैप सुरक्षा"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "यूनिस्वैप ग्राहक मूल्य और नेटवर्क लागत को ध्यान में रखते हुए सबसे सस्ता व्यापार विकल्प चुनता है।"
+            },
+            "tooltip": "अनुमानित मूल्य प्रभाव और नेटवर्क लागत को ध्यान में रखते हुए v2, v3 और कुछ v4 पूलों पर विचार करते हुए एक मार्ग की पहचान की जाती है।"
+          },
+          "v2": {
+            "title": "v2 पूल"
+          },
+          "v3": {
+            "title": "v3 पूल"
+          },
+          "v4": {
+            "title": "v4 पूल"
+          }
+        },
+        "title": "व्यापार विकल्प"
+      },
+      "slippage": {
+        "alert": "उच्च फिसलन",
+        "control": {
+          "auto": "ऑटो"
+        },
+        "description": "यदि कीमत में स्लिपेज प्रतिशत से अधिक परिवर्तन होता है तो आपका लेनदेन वापस कर दिया जाएगा।",
+        "input": {
+          "message": "यदि कीमत में और गिरावट आती है, तो आपका लेनदेन वापस कर दिया जाएगा। नीचे वह न्यूनतम राशि दी गई है जो आपको मिलने की गारंटी है।",
+          "receive": {
+            "title": "कम से कम प्राप्त करें"
+          }
+        },
+        "output": {
+          "message": "यदि कीमत में और गिरावट आती है, तो आपका लेनदेन वापस कर दिया जाएगा। नीचे वह अधिकतम राशि दी गई है जो आपको खर्च करनी होगी।",
+          "spend": {
+            "title": "ज्यादा से ज्यादा खर्च करो"
+          }
+        },
+        "warning": {
+          "description": "20% से अधिक स्लिपेज के परिणामस्वरूप प्रतिकूल व्यापार होने की संभावना है। फ्रंट-रन होने के जोखिम को कम करने के लिए, अपनी सेटिंग्स कम करें।",
+          "hover": "इससे प्रतिकूल ट्रेड हो सकता है। अपनी स्लिपेज सेटिंग कम करने का प्रयास करें।",
+          "max": "{{maxSlippageTolerance}}से कम मान दर्ज करें",
+          "message": "फिसलन आवश्यकता से अधिक हो सकती है",
+          "min": "0 से बड़ा मान दर्ज करें"
+        }
+      },
+      "title": "सेटिंग्स बदलें",
+      "transactionRevertPrice": "यदि मूल्य में इस प्रतिशत से अधिक प्रतिकूल परिवर्तन होता है तो आपका लेनदेन पूर्ववत हो जाएगा।"
+    },
+    "signAndSwap": "हस्ताक्षर करें और अदला-बदली करें",
+    "slippage": {
+      "amt": "{{amt}} फिसलन",
+      "bridging": "नेटवर्कों के बीच स्वैपिंग करते समय कोई फिसलन नहीं",
+      "settings": {
+        "title": "फिसलन सेटिंग्स"
+      },
+      "tooltip": "आपके लेन-देन से पहले अधिकतम मूल्य परिवर्तन पूर्ववत हो जाएगा।"
+    },
+    "slippageBelow": {
+      "warning": "{{amt}} से नीचे स्लिपेज के परिणामस्वरूप लेनदेन विफल हो सकता है"
+    },
+    "submitted": "स्वैप प्रस्तुत किया गया",
+    "success": "स्वैप सफल!",
+    "tokenOwnFees": "कुछ टोकन खरीदने या बेचने पर शुल्क लगता है, जिसे टोकन जारीकर्ता द्वारा निर्धारित किया जाता है। यूनिस्वैप को इनमें से कोई भी शुल्क नहीं मिलता है।",
+    "total": "कुल",
+    "tradeRoutes": "व्यापार मार्ग",
+    "transaction": {
+      "deadline": "लेन-देन की समय सीमा",
+      "revertAfter": "यदि आपका लेन-देन इस अवधि से अधिक समय तक लंबित रहता है तो उसे वापस कर दिया जाएगा।"
+    },
+    "unsupportedAssets": {
+      "readMore": "असमर्थित परिसंपत्तियों के बारे में अधिक पढ़ें"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "अधिक राशि दर्ज करें"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "अपनी फिसलन को बढ़ाने का प्रयास करें।",
+        "titleMay": "यह स्वैप विफल हो सकता है"
+      },
+      "insufficientBalance": {
+        "title": "आपके पास पर्याप्त {{currencySymbol}}नहीं है"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "{{ tokenSymbol }} को {{networkName}}पर बदलें",
+          "buy": "खरीदें {{ tokenSymbol }}",
+          "buyWithCard": "कार्ड से खरीदें"
+        },
+        "message": {
+          "withNetwork": "स्वैप करने के लिए {{networkName}}</highlight> पर पर्याप्त <highlight>{{currencySymbol}} नहीं है",
+          "withoutNetwork": "स्वैप करने के लिए पर्याप्त <highlight>{{currencySymbol}}</highlight> नहीं"
+        },
+        "title": "आपके पास नेटवर्क लागत को कवर करने के लिए पर्याप्त {{currencySymbol}} नहीं है"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} (एक बार) की अनुमति दें",
+        "highRelativeToValue": {
+          "unichain": "नेटवर्क लागत आपके कुल लेनदेन मूल्य के 10% से अधिक है। यह ब्लॉकचेन पर आपके लेनदेन को संसाधित करने की लागत है।"
+        },
+        "message": {
+          "unichain": "यह ब्लॉकचेन पर आपके लेनदेन को संसाधित करने की लागत है।",
+          "uniswapX": {
+            "unichain": "यह ब्लॉकचेन पर आपके लेनदेन को संसाधित करने की लागत है। <gradient>UniswapX</gradient> बेहतर कीमतों और गैस मुक्त स्वैप के लिए तरलता स्रोतों को एकत्रित करता है।"
+          }
+        },
+        "wrap": "ETH लपेटें"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "कोई ब्रिजिंग उद्धरण नहीं मिला। इस समय आधिकारिक ब्रिज का उपयोग करने का प्रयास करें।"
+        },
+        "title": "कोई उद्धरण नहीं मिला"
+      },
+      "noRoutesFound": {
+        "message": "आपके चुने गए टोकन के लिए वर्तमान में कोई मार्ग उपलब्ध नहीं है। कृपया कोई दूसरा जोड़ा आज़माएँ या बाद में फिर से जाँच करें।",
+        "title": "कोई मार्ग उपलब्ध नहीं है"
+      },
+      "offline": {
+        "message": "हो सकता है कि आपका इंटरनेट कनेक्शन खो गया हो या नेटवर्क डाउन हो गया हो। अपने इंटरनेट कनेक्शन की जाँच करें और पुन: प्रयास करें।",
+        "title": "आप ऑफ़लाइन हैं"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "इस लेनदेन के परिणामस्वरूप इस पूल के बाजार मूल्य पर {{priceImpactValue}} मूल्य प्रभाव पड़ेगा और धन की हानि होगी।"
+        },
+        "title": {
+          "veryHigh": "बहुत उच्च मूल्य प्रभाव ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "आपका लेनदेन सबमिट नहीं किया गया क्योंकि आपने ऐप बंद कर दिया था.",
+        "approvalFailed": "आपका लेनदेन सबमिट नहीं किया गया क्योंकि टोकन अनुमोदन विफल हो गया.",
+        "stale": "आपका लेन-देन सबमिट नहीं किया गया क्योंकि आपने ऐप बंद कर दिया था या स्वीकृति में बहुत अधिक समय लग गया था।",
+        "submissionFailed": "आपका लेनदेन सबमिट करने में समस्या हुई.",
+        "title": "स्वैप रद्द",
+        "wrap": {
+          "message": "आपका ETH WETH के रूप में लिपटा रहेगा।"
+        },
+        "wrapFailed": "आपका लेनदेन सबमिट नहीं किया गया क्योंकि रैप लेनदेन विफल हो गया."
+      },
+      "rateLimit": {
+        "message": "कुछ ही मिनटों में पुनः प्रयास करें।",
+        "title": "दर सीमा पार हो गई"
+      },
+      "router": {
+        "message": "हो सकता है कि आपका कनेक्शन टूट गया हो या नेटवर्क डाउन हो गया हो. यदि समस्या बनी रहती है, तो कृपया बाद में पुनः प्रयास करें।",
+        "title": "यह व्यापार अभी पूरा नहीं किया जा सकता"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} अवरुद्ध है"
+      },
+      "tokenBlockedFallback": {
+        "button": "टोकन अवरुद्ध है"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Uniswap के साथ सबसे अच्छा अनुभव सुनिश्चित करने के लिए शुल्क लागू किया जाता है। इस स्वैप से जुड़ा कोई शुल्क नहीं है।",
+          "included": "यूनिस्वैप के साथ सर्वोत्तम अनुभव सुनिश्चित करने के लिए शुल्क लागू किए जाते हैं, और उन्हें पहले ही इस उद्धरण में शामिल कर लिया गया है।"
+        },
+        "title": "स्वैप शुल्क"
+      },
+      "viewOnly": {
+        "message": "टोकन स्वैप करने के लिए आपको इस वॉलेट को पुनर्प्राप्ति वाक्यांश के माध्यम से आयात करना होगा।"
+      }
+    },
+    "wrap": {
+      "token": "लपेटें {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "अन्य नेटवर्क पर",
+      "otherNetworksBalance": "अन्य नेटवर्क पर शेष राशि",
+      "title": "आपका बैलेंस"
+    },
+    "button": {
+      "getToken": "{{ tokenSymbol }}प्राप्त करें",
+      "getTokenFallback": "टोकन प्राप्त करें"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "{{network}}पर स्विच करें",
+      "title": "यह टोकन मौजूद नहीं है",
+      "titleWithChain": "यह टोकन {{network}}पर मौजूद नहीं है"
+    },
+    "loading": {
+      "title": {
+        "default": "<tokenLink />के लिए टोकन डेटा",
+        "withChain": "<tokenLink /> के लिए टोकन डेटा {{chainName}}पर"
+      }
+    },
+    "nameNotFound": "नाम नहीं मिला",
+    "noInfoAvailable": "कोई टोकन जानकारी उपलब्ध नहीं",
+    "noTestnetSupportDescription": "कुछ टेस्टनेट टोकन की अदला-बदली, भेजने या खरीदने का समर्थन नहीं करते हैं।",
+    "stats": {
+      "unsupportedChainDescription": "{{chain}} के लिए टोकन आँकड़े और चार्ट {{infoLink}}पर उपलब्ध हैं"
+    },
+    "symbolNotFound": "प्रतीक नहीं मिला"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "इस क्रिया के लिए टेस्टनेट मोड को अक्षम करना आवश्यक है। टेस्टनेट मोड को सेटिंग्स के भीतर किसी भी समय पुनः सक्षम किया जा सकता है।",
+          "toTestnetMode": "इस क्रिया के लिए टेस्टनेट मोड को सक्षम करना आवश्यक है। टेस्टनेट पर टोकन का कोई वास्तविक मूल्य नहीं होता है। सेटिंग के भीतर टेस्टनेट मोड को कभी भी अक्षम किया जा सकता है।"
+        },
+        "title": {
+          "toProdMode": "टेस्टनेट मोड अक्षम करें",
+          "toTestnetMode": "टेस्टनेट मोड सक्षम करें"
+        }
+      }
+    },
+    "unsupported": "यह कार्यक्षमता टेस्टनेट मोड में समर्थित नहीं है।"
+  },
+  "themeToggle": {
+    "theme": "विषय"
+  },
+  "title": {
+    "buySellTradeEthereum": "Uniswap पर Ethereum और अन्य शीर्ष टोकन खरीदें, बेचें और व्यापार करें",
+    "createGovernanceOn": "Uniswap पर एक नया गवर्नेंस प्रस्ताव बनाएं",
+    "createGovernanceTo": "UNI धारकों द्वारा मतदान के लिए एक नया शासन प्रस्ताव बनाएँ। UNI टोकन Uniswap शासन में मतदान शेयरों का प्रतिनिधित्व करते हैं।",
+    "earnFees": "जब अन्य लोग यूनिस्वैप पर लिक्विडिटी पूल में टोकन जोड़कर स्वैप करते हैं तो शुल्क अर्जित करें।",
+    "easilyRemove": "आसानी से Uniswap v2 से अपनी तरलता निकालें और Uniswap v3 में जमा करें।",
+    "easilyRemoveV4": "Uniswap v2 और v3 से अपनी तरलता को आसानी से निकालकर Uniswap v4 में जमा करें।",
+    "explore": "Uniswap पर NFTs का अन्वेषण करें",
+    "extensionPasskeySignIn": "पासकी से साइन इन करें",
+    "manageNFT": "अपने NFT संग्रह को प्रबंधित करें। अपने NFT पर विशेषताएँ, ट्रेडिंग गतिविधि, विवरण और अन्य विवरण देखें।",
+    "migratev2": "v2 पूल लिक्विडिटी को Uniswap v3 में माइग्रेट करें",
+    "migratev3": "पूल लिक्विडिटी को Uniswap v4 में माइग्रेट करें",
+    "placeLimit": "Uniswap पर लिमिट ऑर्डर रखें",
+    "realTime": "वास्तविक समय मूल्य, चार्ट, लेनदेन डेटा, और अधिक।",
+    "removeLiquidityv2": "Uniswap पर पूल लिक्विडिटी (v2) निकालें",
+    "removePoolLiquidity": "Uniswap पर पूल लिक्विडिटी हटाएँ",
+    "removeTokensv2": "अपने टोकन को v2 लिक्विडिटी पूल से हटाएँ।",
+    "removev3Liquidity": "अपने टोकन को v3 लिक्विडिटी पूल से हटाएँ।",
+    "sendTokens": "Uniswap पर टोकन भेजें",
+    "swappingMadeSimple": "स्वैपिंग को आसान बनाया गया। Ethereum, Base, Arbitrum, Polygon, और अन्य पर क्रिप्टो खरीदें और बेचें। लाखों लोगों द्वारा विश्वसनीय।",
+    "tradeTokens": "टोकन का व्यापार करें और लिक्विडिटी प्रदान करें। वास्तविक समय की कीमतें, चार्ट, लेनदेन डेटा और बहुत कुछ।",
+    "uniswapTradeCrypto": "Uniswap | शीर्ष DeFi प्लेटफ़ॉर्म पर सुरक्षित रूप से क्रिप्टो और NFT का व्यापार करें",
+    "uniToken": "UNI टोकन Uniswap गवर्नेंस में वोटिंग शेयरों का प्रतिनिधित्व करते हैं। आप प्रत्येक प्रस्ताव पर खुद वोट कर सकते हैं या अपने वोट किसी तीसरे पक्ष को सौंप सकते हैं।",
+    "voteOnGov": "यूनिस्वैप पर गवर्नेंस प्रस्तावों पर मतदान"
+  },
+  "token": {
+    "balances": {
+      "main": "आपका बैलेंस",
+      "other": "अन्य नेटवर्क पर संतुलन",
+      "viewOnly": "{{ownerAddress}}का संतुलन"
+    },
+    "bridge": "{{label}} टोकन ब्रिज",
+    "chart": {
+      "candlestick": {
+        "unavailable": "इस टोकन के लिए कैंडलस्टिक चार्ट उपलब्ध नहीं हैं"
+      },
+      "tooltip": "शुल्क: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "टेस्टनेट टोकन के लिए टोकन विवरण उपलब्ध नहीं हैं।"
+      }
+    },
+    "error": {
+      "unknown": "अज्ञात टोकन"
+    },
+    "fee": {
+      "buy": {
+        "label": "खरीद शुल्क"
+      },
+      "label": "शुल्क",
+      "sell": {
+        "label": "विक्रय शुल्क"
+      }
+    },
+    "links": {
+      "title": "लिंक",
+      "twitter": "ट्विटर",
+      "website": "वेबसाइट"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "कुछ गलत हो गया।",
+        "title": "मूल्य चार्ट लोड नहीं किया जा सका"
+      },
+      "timeRangeLabel": {
+        "all": "पूरे समय",
+        "day": {
+          "verbose": "1 दिन"
+        },
+        "hour": "1 घंटे",
+        "month": {
+          "verbose": "1 महीना"
+        },
+        "week": {
+          "verbose": "1 सप्ताह"
+        },
+        "year": {
+          "verbose": "1 वर्ष"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} उपलब्ध नहीं है",
+          "tokensNotAvailable": "{{tokenSymbol0}} और {{tokenSymbol1}} उपलब्ध नहीं हैं"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "यूनिस्वैप लैब्स को इनमें से कोई भी शुल्क नहीं मिलता है।"
+      },
+      "warning": {
+        "alwaysDoYourResearch": "हमेशा अपना शोध करें",
+        "blocked": {
+          "description": {
+            "default_one": "आप Uniswap ऐप का उपयोग करके इस टोकन का व्यापार नहीं कर सकते।",
+            "default_other": "आप Uniswap ऐप का उपयोग करके इन टोकन का व्यापार नहीं कर सकते।"
+          }
+        },
+        "copyContractAddress": {
+          "message": "यह एक अनुबंध पता है, जो ब्लॉकचेन पर टोकन के लिए एक अद्वितीय पहचानकर्ता के रूप में कार्य करता है। इस पते पर आपके द्वारा भेजी गई कोई भी क्रिप्टो खो जाएगी।",
+          "title": "इस पते पर क्रिप्टो न भेजें"
+        },
+        "dontShowWarningAgain": "मुझे यह चेतावनी दोबारा मत दिखाओ",
+        "doYourOwnResearch": "आगे बढ़ने से पहले हमेशा स्वयं शोध करें।",
+        "feeDescription": "{{action}}होने पर <fee /> चार्ज करता है",
+        "flaggedAsMalicious": "दुर्भावनापूर्ण के रूप में चिह्नित",
+        "fotHigh": {
+          "title": "उच्च शुल्क का पता चला"
+        },
+        "fotLow": {
+          "title": "शुल्क का पता चला"
+        },
+        "fotVeryHigh": {
+          "title": "बहुत अधिक शुल्क पाया गया"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} को बेचने योग्य नहीं माना गया है। इस टोकन को स्वैप करने से आपके फंड का नुकसान हो सकता है।",
+          "title": "100% बिक्री शुल्क का पता चला"
+        },
+        "impersonator": {
+          "title": "प्रतिरूपणकर्ता टोकन का पता चला"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} को ब्लॉकएड द्वारा दुर्भावनापूर्ण के रूप में चिह्नित किया गया है।"
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} हो सकता है कि वह टोकन न हो जिसे आप बदलना चाहते हैं।"
+            }
+          },
+          "title": "दुर्भावनापूर्ण टोकन का पता चला"
+        },
+        "mayResultInLoss": "इसे बदलने से धन की हानि हो सकती है।",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} का कारोबार अमेरिका के प्रमुख केंद्रीकृत एक्सचेंजों पर नहीं होता है।"
+          }
+        },
+        "notListedOnExchanges": "प्रमुख अमेरिकी एक्सचेंजों में सूचीबद्ध नहीं",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} को ब्लॉकएड द्वारा संदिग्ध के रूप में चिह्नित किया गया है।"
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} को ब्लॉकएड द्वारा संभावित हनीपोट के रूप में चिह्नित किया गया है। आगे बढ़ने से पहले हमेशा अपना खुद का शोध करें।"
+          },
+          "title": "संभावित हनीपोट का पता चला"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} को विक्रययोग्य नहीं माना गया है।",
+          "title": "100% बिक्री शुल्क का पता चला"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} को ब्लॉकएड द्वारा स्पैम के रूप में चिह्नित किया गया है।",
+          "title": "स्पैम टोकन का पता चला"
+        },
+        "spamsUsers": "स्पैम उपयोगकर्ता",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} खरीदने पर {{buyFeePercent}} शुल्क लेता है और बेचने पर {{sellFeePercent}} शुल्क लेता है।"
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} खरीदने पर {{feePercent}} शुल्क लगता है।"
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} बेचे जाने पर {{feePercent}} शुल्क लेता है।"
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} खरीदने या बेचने पर शुल्क लेता है।"
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "आप Uniswap वॉलेट का उपयोग करके इस टोकन का व्यापार नहीं कर सकते।"
+      },
+      "medium": {
+        "message": {
+          "plural": "ये टोकन प्रमुख अमेरिकी केंद्रीकृत एक्सचेंजों पर कारोबार नहीं किए जाते हैं। आगे बढ़ने से पहले हमेशा अपना खुद का शोध करें।"
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "खोज परिणाम लोड नहीं किये जा सके"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "पूरी तरह से पतला मूल्यांकन",
+      "marketCap": "बाज़ार आकार",
+      "priceHighYear": "52W ऊँचा",
+      "priceLowYear": "52W कम",
+      "section": {
+        "about": "लगभग {{token}}"
+      },
+      "title": "आँकड़े",
+      "translation": {
+        "original": "मूल दिखाएं",
+        "translate": "{{language}}में अनुवाद करें"
+      },
+      "volume": "24 घंटे वॉल्यूम"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "इनपुट टोकन"
+      },
+      "output": {
+        "fallback": "आउटपुट टोकन"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "यूनिस्वैप प्रोटोकॉल पर स्वैप ETH से शुरू और खत्म हो सकता है। हालाँकि, स्वैप के दौरान, ETH को WETH में लपेटा जाता है।"
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "{{ tokenSymbol }}प्राप्त करने के लिए, आपको नेटवर्क लागत को कवर करने के लिए {{ nativeTokenSymbol }} की आवश्यकता है।",
+      "title": "आपको {{ nativeTokenName }} की आवश्यकता है  "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "टोकन छिपाएं",
+      "unhide": "टोकन छिपाएँ"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "{{blockExplorerName}}पर देखें"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "एनएफटी संग्रह लोड नहीं किया जा सका"
+          }
+        },
+        "label": {
+          "items": "सामान",
+          "owners": "मालिकों",
+          "priceFloor": "ज़मीन",
+          "swapVolume": "आयतन"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "अनुबंध का पता"
+        },
+        "error": {
+          "load": {
+            "title": "एनएफटी विवरण लोड नहीं किया जा सका"
+          }
+        },
+        "network": "नेटवर्क",
+        "owner": "मालिक",
+        "price": "मौजूदा कीमत",
+        "recentPrice": "अंतिम विक्रय मूल्य",
+        "traits": "लक्षण"
+      },
+      "empty": {
+        "description": "कोई एनएफटी नहीं मिला"
+      },
+      "error": {
+        "unavailable": "सामग्री उपलब्ध नहीं है"
+      },
+      "hidden": {
+        "action": {
+          "hide": "एनएफटी छुपाएं",
+          "unhide": "एनएफटी को उजागर करें"
+        }
+      },
+      "link": {
+        "collection": "संग्रह वेबसाइट"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "एनएफटी लोड नहीं हो सका"
+          }
+        },
+        "none": {
+          "button": "एनएफटी प्राप्त करें",
+          "description": {
+            "default": "आरंभ करने के लिए एनएफटी को दूसरे वॉलेट से स्थानांतरित करें।",
+            "external": "जब यह वॉलेट एनएफटी खरीदता है या प्राप्त करता है, तो वे यहां दिखाई देंगे।"
+          },
+          "title": "अभी तक कोई एनएफटी नहीं"
+        }
+      }
+    },
+    "noneFound": "कोई टोकन नहीं मिला.",
+    "selector": {
+      "button": {
+        "choose": "टोकन चुनें",
+        "clear": "सभी साफ करें"
+      },
+      "empty": {
+        "buy": {
+          "message": "टोकन भेजने के लिए कार्ड या बैंक से क्रिप्टो खरीदें।",
+          "title": "क्रिप्टो खरीदें"
+        },
+        "receive": {
+          "title": "टोकन प्राप्त करें"
+        },
+        "title": "अभी तक कोई टोकन नहीं"
+      },
+      "error": {
+        "load": "टोकन लोड नहीं किये जा सके"
+      },
+      "search": {
+        "empty": "<highlight>{{searchText}}</highlight>के लिए कोई परिणाम नहीं मिला",
+        "placeholder": "टोकन खोजें"
+      },
+      "section": {
+        "bridging": "नेटवर्कों के बीच अदला-बदली",
+        "favorite": "पसंदीदा",
+        "otherNetworksSearchResults": "अन्य नेटवर्क पर पाए गए टोकन",
+        "otherSearchResults": "{{network}}पर अन्य टोकन",
+        "recent": "हाल की खोजें",
+        "search": "खोज के परिणाम",
+        "trending": "24 घंटे की मात्रा के अनुसार टोकन",
+        "yours": "आपके टोकन"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "पूल खोजें",
+          "tokens": "टोकन खोजें",
+          "transactions": "लेनदेन खोजें"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "लेनदेन रद्द करें",
+        "description": "यदि आप नेटवर्क द्वारा संसाधित होने से पहले इस लेनदेन को रद्द करते हैं, तो आपको मूल लागत के बजाय नई नेटवर्क लागत का भुगतान करना होगा।",
+        "title": "यह लेन-देन रद्द करें?"
+      },
+      "copy": "लेन-देन आईडी कॉपी करें",
+      "copyProvider": "{{providerName}} लेनदेन आईडी कॉपी करें"
+    },
+    "amount": {
+      "unlimited": "असीमित"
+    },
+    "date": "{{date}}पर प्रस्तुत किया गया",
+    "details": {
+      "dappName": "अनुप्रयोग",
+      "from": "से",
+      "networkFee": "नेटवर्क लागत",
+      "providerFee": "प्रदाता शुल्क",
+      "swapRate": "दर",
+      "transaction": "लेन-देन",
+      "uniswapFee": "शुल्क ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "लेनदेन पूरा करने के लिए पूल तरलता अपर्याप्त है",
+    "network": {
+      "all": "सभी नेटवर्क"
+    },
+    "networkCost": {
+      "label": "नेटवर्क लागत",
+      "maxNativeBalance": {
+        "description": "इस लेनदेन की नेटवर्क लागत को कवर करने के लिए नेटवर्क टोकन बैलेंस की एक छोटी राशि आरक्षित रखी जाती है।",
+        "title": "मैं अपनी अधिकतम शेष राशि का उपयोग क्यों नहीं कर सकता?"
+      },
+      "veryHigh": {
+        "label": "बहुत अधिक नेटवर्क लागत"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "लेनदेन रद्द करने में असमर्थ",
+        "replace": "लेन-देन प्रतिस्थापित करने में असमर्थ"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "रद्द स्वीकृत",
+        "canceling": "स्वीकृति रद्द करना",
+        "failed": "स्वीकृत करने में विफल",
+        "pending": "का अनुमोदन",
+        "success": "अनुमत",
+        "successDapp": "{{externalDappName}}पर स्वीकृत"
+      },
+      "buy": {
+        "canceled": "खरीद रद्द",
+        "canceling": "खरीदारी रद्द की जा रही है",
+        "failed": "खरीदने में विफल",
+        "pending": "क्रय करना",
+        "success": "खरीदा",
+        "successDapp": "{{externalDappName}}पर ख़रीदा गया"
+      },
+      "confirm": {
+        "canceled": "रद्द की गई पुष्टि",
+        "canceling": "लंबित निरस्तीकरण",
+        "failed": "पुष्टि करने में विफल",
+        "pending": "लेन-देन चल रहा है",
+        "success": "लेन-देन की पुष्टि हो गई",
+        "successDapp": "{{externalDappName}}पर लेनदेन की पुष्टि हुई"
+      },
+      "mint": {
+        "canceled": "रद्द टकसाल",
+        "canceling": "टकसाल रद्द करना",
+        "failed": "टकसाल करने में विफल",
+        "pending": "मिंटिंग",
+        "success": "ढाला",
+        "successDapp": "{{externalDappName}}पर ढाला गया"
+      },
+      "purchase": {
+        "canceled": "रद्द की गई खरीदारी",
+        "canceling": "खरीदारी रद्द करना",
+        "failedOn": "{{serviceProvider}}पर खरीदारी विफल",
+        "pendingOn": "{{serviceProvider}}पर खरीदारी",
+        "successOn": "{{serviceProvider}}पर खरीदा गया"
+      },
+      "receive": {
+        "canceled": "रद्द प्राप्त",
+        "canceling": "प्राप्ति रद्द करना",
+        "failedFrom": "{{serviceProvider}}से प्राप्त करने में विफल",
+        "pendingFrom": "{{serviceProvider}}से प्राप्त करना",
+        "success": "प्राप्त",
+        "successDapp": "{{externalDappName}}पर प्राप्त हुआ",
+        "successFrom": "{{serviceProvider}}से प्राप्त"
+      },
+      "revoke": {
+        "canceled": "रद्द किया गया निरस्त करें",
+        "canceling": "निरस्तीकरण रद्द करना",
+        "failed": "निरस्त करने में विफल",
+        "pending": "निरस्त हो रहा है",
+        "success": "निरस्त किया गया",
+        "successDapp": "{{externalDappName}}पर निरस्त किया गया"
+      },
+      "sale": {
+        "canceled": "रद्द की गई बिक्री",
+        "canceling": "बिक्री रद्द करना",
+        "failedOn": "बिक्री विफल हुई {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "क्रिप्टो बेचने के बारे में अधिक जानें.",
+          "title": "मेरी बिक्री अभी भी लंबित क्यों है?"
+        },
+        "pendingOn": "{{serviceProvider}}के माध्यम से बेचना",
+        "successOn": "{{serviceProvider}}द्वारा बेचा गया"
+      },
+      "sell": {
+        "canceled": "रद्द की गई बिक्री",
+        "canceling": "बिक्री रद्द करना",
+        "failed": "बेचने में विफल",
+        "pending": "बेचना",
+        "success": "बिका हुआ",
+        "successDapp": "बेचा गया {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "भेजना रद्द किया गया",
+        "canceling": "भेजना रद्द किया जा रहा है",
+        "failed": "भेजने में विफल",
+        "pending": "भेजना",
+        "success": "भेजा",
+        "successDapp": "{{externalDappName}}पर भेजा गया"
+      },
+      "swap": {
+        "canceled": "रद्द किया गया स्वैप",
+        "canceling": "स्वैप रद्द करना",
+        "expired": "स्वैप की अवधि समाप्त हो गई",
+        "failed": "स्वैप करने में विफल",
+        "insufficientFunds": "अपर्याप्त कोष",
+        "pending": "अदला-बदली",
+        "success": "बदली",
+        "successDapp": "{{externalDappName}}पर स्वैप किया गया"
+      },
+      "unwrap": {
+        "canceled": "रद्द किया गया खोलना",
+        "canceling": "अनरैप रद्द करना",
+        "failed": "खोलना विफल",
+        "pending": "खोलना",
+        "success": "लपेटा न",
+        "successDapp": "{{externalDappName}}पर अनरैप किया गया"
+      },
+      "wrap": {
+        "canceled": "रद्द किया गया आवरण",
+        "canceling": "रैप रद्द करना",
+        "failed": "लपेटने में विफल",
+        "pending": "रैपिंग",
+        "success": "लपेटा हुआ",
+        "successDapp": "{{externalDappName}}पर लपेटा गया"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} से {{recipientAddress}}",
+      "sent": "{{senderAddress}}से {{tokenAmountWithSymbol}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "इस लेनदेन की नेटवर्क लागत को कवर करने के लिए आपको ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) पर {{networkName}} की आवश्यकता है।"
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "इस टोकन के लिए स्वैप करने के लिए, आपको {{networkName}}पर अधिक {{tokenSymbol}} की आवश्यकता है।"
+          },
+          "title": {
+            "withNetwork": "{{networkName}}पर पर्याप्त {{tokenSymbol}} नहीं",
+            "withoutNetwork": "पर्याप्त नहीं {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "आप अपने नेटवर्क टोकन बैलेंस का ज़्यादातर हिस्सा खर्च करने वाले हैं। इससे भविष्य में नेटवर्क लागतों को कवर करने के लिए अपर्याप्त धनराशि बच सकती है।",
+        "title": "नेटवर्क टोकन बैलेंस कम"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "लेनदेन रद्द करने में असमर्थ",
+        "status": "लेन-देन की स्थिति जाँचते समय त्रुटि"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> बेहतर कीमतों और गैस मुक्त स्वैप के लिए तरलता स्रोतों को एकत्रित करता है।",
+    "learnMore": "UniswapX के साथ स्वैपिंग के बारे में अधिक जानें"
+  },
+  "uniswapx": {
+    "description": "यूनिस्वैपएक्स बेहतर कीमतों और गैस मुक्त स्वैप के लिए तरलता स्रोतों को एकत्रित करता है।",
+    "included": "इसमें शामिल है <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "यूनिस्वैपएक्स",
+    "v2QuoteFailed": "UniswapX v2 हार्ड कोट विफल हुआ। क्लासिक स्वैप के साथ पुनः प्रयास करें।"
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "अभी दावा करें"
+      },
+      "subtitle": "एक वैयक्तिकृत वेब3 प्रोफ़ाइल बनाएं और अपना पता आसानी से दोस्तों के साथ साझा करें।",
+      "title": {
+        "compact": "<highlight>अपना {{unitagDomain}} उपयोगकर्ता नाम</highlight> का दावा करें और अपना अनुकूलन योग्य प्रोफ़ाइल बनाएं।",
+        "full": "अपने {{unitagDomain}} उपयोगकर्ता नाम का दावा करें"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "कैमरा रोल में से चुनें",
+        "computer": "कंप्यूटर से अपलोड करें",
+        "nft": "एक एनएफटी चुनें",
+        "remove": "प्रोफ़ाइल चित्र हटाएँ"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "प्रोफ़ाइल अनुकूलित करें",
+        "description": "{{unitagAddress}} क्रिप्टो भेजने और प्राप्त करने के लिए तैयार है। अपने वेब3 प्रोफ़ाइल को कस्टमाइज़ करके अपना वॉलेट बनाना जारी रखें।",
+        "success": {
+          "long": "आपको यह मिला!",
+          "short": "समझ गया!"
+        }
+      },
+      "error": {
+        "addressLimit": "आप पहले ही इस पते के लिए अपने उपयोगकर्ता नाम में अधिकतम संख्या में परिवर्तन कर चुके हैं",
+        "avatar": "अवतार सेट नहीं किया जा सका. बाद में पुन: प्रयास।",
+        "default": "उपयोगकर्ता नाम का दावा नहीं किया जा सका. बाद में पुन: प्रयास।",
+        "deviceLimit": "आपने इस डिवाइस के लिए सक्रिय हो सकने वाले उपयोगकर्ता नामों की अधिकतम संख्या प्राप्त कर ली है",
+        "general": "उपयोगकर्ता नाम का दावा करने में असमर्थ",
+        "unavailable": "यह उपयोगकर्ता नाम उपलब्ध नहीं है",
+        "unknown": "अज्ञात त्रुटि"
+      },
+      "username": {
+        "default": "आपका नाम"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "आप अपना उपयोगकर्ता नाम और अनुकूलन योग्य प्रोफ़ाइल विवरण हटाने वाले हैं। आप इसे पुनः प्राप्त नहीं कर पाएंगे.",
+        "title": "क्या आपको यकीन है?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "उपयोगकर्ता नाम"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "आप अपना उपयोगकर्ता नाम बदलने वाले हैं. एक बार जब आप इसे बदल देते हैं, तो आप कभी भी इस पर दोबारा दावा नहीं कर सकते।",
+        "title": "क्या आपको यकीन है?"
+      },
+      "title": "अपना उपयोगकर्ता नाम संपादित करें",
+      "warning": {
+        "default": "एक बार जब आप अपना उपयोगकर्ता नाम बदल लेते हैं, तो आप इसे फिर कभी दावा नहीं कर सकते। आप इसे केवल <highlight>2</highlight> बार ही बदल सकते हैं।",
+        "max": "आप उपयोगकर्ता नाम परिवर्तन की अधिकतम 2 संख्या तक पहुँच चुके हैं।"
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "उपयोगकर्ता नाम का दावा करें",
+        "description": "0x पतों को अलविदा कहें। उपयोगकर्ता नाम पढ़ने योग्य नाम हैं जो क्रिप्टो भेजना और प्राप्त करना आसान बनाते हैं।",
+        "title": "उपयोक्तानामों का परिचय",
+        "upsell": {
+          "customizable": "अनुकूलन योग्य प्रोफ़ाइल",
+          "ens": "ईएनएस उपडोमेन द्वारा संचालित",
+          "free": "दावा करने के लिए स्वतंत्र"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "ईएनएस उपडोमेन द्वारा संचालित",
+        "free": "दावा करने के लिए स्वतंत्र",
+        "profile": "अनुकूलन योग्य प्रोफ़ाइल"
+      },
+      "subtitle": "0x पतों को अलविदा कहें। उपयोगकर्ता नाम पढ़ने योग्य नाम हैं जो क्रिप्टो भेजना और प्राप्त करना आसान बनाते हैं।",
+      "title": "उपयोक्तानामों का परिचय"
+    },
+    "notification": {
+      "delete": {
+        "error": "उपयोक्तानाम हटाया नहीं जा सका. बाद में पुन: प्रयास।",
+        "title": "उपयोक्तानाम हटा दिया गया"
+      },
+      "profile": {
+        "error": "प्रोफ़ाइल अद्यतन नहीं किया जा सका. बाद में पुन: प्रयास।",
+        "title": "प्रोफाइल अद्यतन किया गया"
+      },
+      "username": {
+        "error": "उपयोक्तानाम नहीं बदला जा सका. बाद में पुन: प्रयास।",
+        "title": "उपयोक्तानाम बदल गया"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "यह आपका व्यक्तिगत पता है जिस पर लोग क्रिप्टो भेज सकते हैं।",
+        "title": {
+          "choose": "अपना उपयोगकर्ता नाम बनाएं",
+          "claim": "अपने उपयोक्तानाम का दावा करें"
+        }
+      },
+      "info": {
+        "description": "उपयोगकर्ता नाम जटिल 0x पतों को पढ़ने योग्य नामों में बदल देते हैं। {{unitagDomain}} उपयोगकर्ता नाम का दावा करके, आप आसानी से क्रिप्टो भेज और प्राप्त कर सकते हैं और एक सार्वजनिक वेब3 प्रोफ़ाइल बना सकते हैं।",
+        "title": "एक सरलीकृत पता"
+      },
+      "profile": {
+        "subtitle": "अपना स्वयं का अपलोड करें या अपने अद्वितीय यूनिकॉन के साथ बने रहें। आप इसे बाद में कभी भी बदल सकते हैं.",
+        "title": "एक प्रोफ़ाइल फ़ोटो चुनें"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "उपयोक्तानाम हटाएँ",
+        "edit": "उपयोक्तानाम संपादित करें"
+      },
+      "bio": {
+        "label": "जैव",
+        "placeholder": "अपनी प्रोफ़ाइल के लिए एक बायो टाइप करें"
+      },
+      "links": {
+        "twitter": "ट्विटर"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "उपयोगकर्ता नाम में केवल अक्षर और संख्याएँ ही हो सकती हैं",
+        "max": "उपयोगकर्ता नाम {{number}} वर्णों से अधिक नहीं हो सकते",
+        "min": "उपयोगकर्ता नाम कम से कम {{number}} वर्णों का होना चाहिए",
+        "uppercase": "उपयोगकर्ता नाम में केवल छोटे अक्षर और संख्याएँ हो सकती हैं"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "{{chain}}पर पर्याप्त {{tokenSymbol}} नहीं"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 इस नेटवर्क पर उपलब्ध नहीं है।"
+  },
+  "wallet": {
+    "appSignIn": "ऐप से साइन इन करें",
+    "connectingAgreement": "वॉलेट कनेक्ट करके, आप Uniswap Labs की <termsLink>सेवा की शर्तों</termsLink> से सहमत होते हैं और इसकी <privacyLink>गोपनीयता नीति</privacyLink>से सहमति देते हैं।",
+    "connectionFailed": {
+      "message": "कनेक्शन का प्रयास विफल रहा। कृपया पुनः प्रयास करें पर क्लिक करें और अपने वॉलेट में कनेक्ट करने के लिए चरणों का पालन करें।"
+    },
+    "other": "अन्य वॉलेट",
+    "scanToConnect": "कनेक्ट करने के लिए QR कोड स्कैन करें",
+    "wrongNet": "आपका वॉलेट ग़लत नेटवर्क से जुड़ा हुआ है."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "वॉलेटकनेक्ट के माध्यम से एक कोड स्कैन करके किसी ऐप से कनेक्ट करें"
+      },
+      "manage": {
+        "empty": {
+          "title": "कोई ऐप्स कनेक्ट नहीं है"
+        },
+        "title": "कनेक्शन"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap वॉलेट वर्तमान में {{chainNames}}का समर्थन करता है। कृपया इन चेन पर केवल \"{{dappName}}\" का उपयोग करें",
+        "title": "संपर्क त्रुटि"
+      },
+      "general": {
+        "message": "वॉलेटकनेक्ट के साथ एक समस्या थी. कृपया पुन: प्रयास करें",
+        "title": "वॉलेटकनेक्ट त्रुटि"
+      },
+      "scantastic": {
+        "message": "आपके QR कोड में कोई समस्या थी। कृपया पुनः प्रयास करें",
+        "title": "अमान्य क्यूआर कोड"
+      },
+      "unsupported": {
+        "message": "पुनः प्रयास करने से पहले सुनिश्चित करें कि आप वैध वॉलेटकनेक्ट, एथेरियम पता या यूनिस्वैप एक्सटेंशन क्यूआर कोड स्कैन कर रहे हैं।",
+        "title": "अमान्य क्यूआर कोड"
+      },
+      "unsupportedV1": {
+        "message": "वॉलेटकनेक्ट v1 अब समर्थित नहीं है. आप जिस एप्लिकेशन से कनेक्ट करने का प्रयास कर रहे हैं उसे वॉलेटकनेक्ट v2 में अपग्रेड करना होगा।",
+        "title": "अमान्य क्यूआर कोड"
+      },
+      "uwu": {
+        "scan": "इस QR कोड को स्कैन करने में एक समस्या थी।",
+        "title": "UwU लिंक त्रुटि",
+        "unsupported": "यह QR कोड समर्थित नहीं है."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "जोड़ना",
+        "scrollDown": "कनेक्ट करने के लिए नीचे स्क्रॉल करें"
+      },
+      "switchAccount": "खाता स्थानांतरित करें",
+      "title": "{{dappName}}से कनेक्ट करें"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "बिना सहमति के अपनी संपत्ति हस्तांतरित करें",
+        "viewTokenBalances": "अपने टोकन शेष देखें",
+        "viewWalletAddress": "अपना बटुआ पता देखें"
+      },
+      "title": "साइट अनुमतियाँ"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "हस्ताक्षर करने के लिए नीचे स्क्रॉल करें",
+        "sign": "संकेत"
+      },
+      "details": {
+        "label": {
+          "function": "समारोह",
+          "sending": "भेजना",
+          "token": "टोकन",
+          "tokens": "टोकन"
+        }
+      },
+      "error": {
+        "insufficientFunds": "इस लेनदेन को पूरा करने के लिए आपके पास पर्याप्त {{currencySymbol}} नहीं है।",
+        "network": "इंटरनेट या नेटवर्क कनेक्शन त्रुटि"
+      },
+      "warning": {
+        "general": {
+          "message": "सावधान रहें: यह संदेश संपत्ति हस्तांतरित कर सकता है"
+        },
+        "message": "संदेशों या लेन-देन पर हस्ताक्षर करने के लिए, आपको वॉलेट के पुनर्प्राप्ति वाक्यांश को आयात करना होगा।",
+        "title": "यह वॉलेट केवल देखने योग्य मोड में है"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "{{network}}पर टोकन खोजें और शोध करें। शीर्ष पूल का पता लगाएं। वास्तविक समय की कीमतें, ट्रेडिंग वॉल्यूम, TVL, चार्ट और लेनदेन डेटा देखें।",
+      "title": {
+        "pools": "Uniswap पर {{network}} पर शीर्ष पूल का अन्वेषण करें",
+        "tokens": "Uniswap पर {{network}} पर शीर्ष टोकन खोजें",
+        "transactions": "Uniswap पर {{network}} पर शीर्ष लेनदेन देखें"
+      }
+    }
+  }
+}

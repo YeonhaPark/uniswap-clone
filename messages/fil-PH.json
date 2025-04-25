@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "I-claim ang reward na {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Maraming recovery phrase na naka-back up sa iyong {{cloudProviderName}}.",
+        "title": "Pumili ng backup na ire-restore"
+      },
+      "button": {
+        "restore": {
+          "android": "I-restore mula sa Google Drive",
+          "ios": "I-restore mula sa iCloud"
+        }
+      },
+      "empty": {
+        "description": "Mukhang hindi mo na-back up ang alinman sa iyong mga recovery phrase sa {{cloudProviderName}}.",
+        "title": "0 na backup ang nakita"
+      },
+      "error": {
+        "backup": {
+          "message": "Hindi na-import ang mga backup dahil sa kawalan ng mga pahintulot, pagkaantala ng awtorisasyon, o dahil sa isang error sa cloud",
+          "title": "Nagka-error habang nag-i-import ng mga backup"
+        },
+        "password": {
+          "title": "Invalid ang password. Pakisubukan ulit."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Hindi ngayon",
+            "settings": "Pumunta sa mga setting"
+          },
+          "message": {
+            "android": "Paki-verify kung naka-log in ka sa isang Google account na may naka-enable na Google Drive sa device na ito at subukan ulit.",
+            "ios": "Paki-verify kung naka-log in ka sa isang Apple ID na may naka-enable na iCloud Drive sa device na ito at subukan ulit."
+          },
+          "title": {
+            "android": "Hindi available ang Google Drive",
+            "ios": "Hindi available ang iCloud Drive"
+          }
+        }
+      },
+      "loading": {
+        "title": "Naghahanap ng mga backup..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Napakaraming beses nang sinubukan. Subukan ulit pagkalipas ng 1 oras.",
+          "hours_other": "Napakaraming beses nang sinubukan. Subukan ulit pagkalipas ng {{count}} (na) oras.",
+          "minutes_one": "Napakaraming beses nang sinubukan. Subukan ulit pagkalipas ng 1 minuto.",
+          "minutes_other": "Napakaraming beses nang sinubukan. Subukan ulit pagkalipas ng {{count}} (na) minuto."
+        }
+      },
+      "password": {
+        "input": "Ilagay ang password",
+        "recoveryPhrase": "Ilagay na lang ang iyong recovery phrase",
+        "subtitle": "Kinakailangan ang password na ito para ma-recover ang iyong backup na recovery phrase mula sa {{cloudProviderName}}.",
+        "title": "Ilagay ang backup na password"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Bersyon: ",
+      "modal": {
+        "body": "Ligtas na mag-store at mag-swap ng mga token sa Uniswap app. Available sa iOS at Android.",
+        "dont": "Walang Uniswap wallet?",
+        "scan": "Mag-scan gamit ang Uniswap Wallet"
+      },
+      "spamToggle": "Itago ang mga hindi kilalang token at NFT"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Nakansela ang order na ito dahil mas mababa na ang iyong balanse sa halaga ng input."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Hindi mailalagay ang order na ito dahil mas mababa na ang iyong balanse sa halaga ng input. Dagdagan ang iyong balanse para maayos ito."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Ang recovery phrase (o seed phrase) ay isang <highlight>set ng mga salita</highlight> na kinakailangan para ma-access ang iyong wallet, <highlight>tulad ng password.</highlight>",
+        "part2": "Puwede mong <highlight>ilagay</highlight> ang iyong recovery phrase sa isang bagong device <highlight>para ma-restore ang iyong wallet</highlight> at mga content nito.",
+        "part3": "Pero, kung <highlight>mawawala mo ang iyong recovery phrase</highlight>, <highlight>mawawalan ka ng access</highlight> sa iyong wallet.",
+        "part4": "Sa halip na kabisaduhin ang iyong recovery phrase, puwede mong <highlight>i-back up ito sa {{cloudProviderName}}</highlight> at protektahan ito ng isang password.",
+        "part5": "Puwede mo ring manual na i-back up ang iyong recovery phrase sa pamamagitan ng <highlight>pagsulat nito</highlight> at pagtatabi nito sa isang ligtas na lugar.",
+        "part6": "Inirerekomenda naming gamitin ang <highlight>parehong uri ng mga backup</highlight>, dahil kung mawawala mo ang iyong recovery phrase, hindi mo na mare-restore ang iyong wallet."
+      },
+      "error": {
+        "invalid": "Invalid ang phrase",
+        "invalidWord": "Invalid ang salita: {{word}}",
+        "phraseLength": "Ang recovery phrase ay dapat 12-24 na salita",
+        "wrong": "Mali ang recovery phrase"
+      },
+      "helpText": {
+        "import": "Paano ko mahahanap ang aking recovery phrase?",
+        "restoring": "Subukang maghanap ulit"
+      },
+      "input": "I-type ang iyong recovery phrase",
+      "remove": {
+        "final": {
+          "description": "Tiyaking naisulat mo ang iyong recovery phrase o na-back up mo ito sa {{cloudProviderName}}. <highlight>Kung hindi ito gagawin, hindi mo maa-access ang iyong mga pondo.</highlight>",
+          "title": "Inaalis mo ang iyong <highlight>recovery phrase</highlight>"
+        },
+        "import": {
+          "description": "Puwede ka lang mag-store ng isang recovery phrase sa bawat pagkakataon. Para patuloy na makapag-import ng panibago, kakailanganin mong alisin ang iyong kasalukuyang recovery phrase at anumang nauugnay na wallet sa device na ito."
+        },
+        "initial": {
+          "description": "Aalisin nito ang iyong wallet sa device na ito kasama ng iyong recovery phrase.",
+          "title": "Inaalis mo ang <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Mananatiling naka-store ang iyong recovery phrase hanggang sa i-delete mo ang lahat ng natitirang wallet."
+        }
+      },
+      "subtitle": {
+        "import": "Ang iyong recovery phrase ay lokal lang na iso-store sa iyong device.",
+        "restoring": "Ilagay ang iyong recovery phrase sa ibaba, o subukang maghanap ulit ng mga backup."
+      },
+      "title": {
+        "import": "Ilagay ang iyong recovery phrase",
+        "restoring": "Walang nakitang backup"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Copy address",
+        "manageConnections": "Manage Connections",
+        "report": "Iulat ang profile",
+        "viewExplorer": "Tingnan sa {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Magdagdag ng wallet",
+        "addViewOnly": "Magdagdag ng view-only na wallet",
+        "create": "Gumawa ng bagong wallet",
+        "import": "Mag-import ng bagong wallet",
+        "manage": "Wallet settings",
+        "remove": "Alisin ang wallet",
+        "restore": "I-recover ang wallet mo",
+        "watch": "Magbantay ng wallet"
+      },
+      "create": {
+        "placeholder": "Wallet {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Label ng wallet"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "I-edit ang profile"
+          },
+          "title": "I-edit ang label"
+        },
+        "viewOnly": "Mga view-only na wallet"
+      },
+      "menu": {
+        "claimUsername": "Claim username",
+        "copy": {
+          "title": "Kopyahin ang address ng wallet"
+        },
+        "edit": {
+          "title": "I-edit ang label"
+        },
+        "manageConnections": "Manage connections",
+        "remove": {
+          "title": "Alisin ang wallet"
+        }
+      },
+      "remove": {
+        "check": "Nag-back up ako ng recovery phrase ko at nauunawaan ko na hindi ako matutulungan ng Uniswap Labs na ma-recover ang mga wallet ko kung hindi ko gagawin iyon.",
+        "title": "Alisin ang {{name}}",
+        "viewOnly": "Puwede kang magdagdag sa anumang oras ng mga back up na view-only na wallet sa pamamagitan ng paglalagay ng address ng wallet."
+      },
+      "restore": {
+        "description": "Dahil gumagamit ka ng bagong device, kakailanganin mong i-restore ang iyong recovery phrase o ilagay ang password ng iyong backup sa cloud para magpatuloy."
+      },
+      "select": {
+        "error": "Hindi ma-load ang mga address",
+        "loading": {
+          "subtitle": "Lalabas ang iyong mga wallet sa ibaba.",
+          "title": "Naghahanap ng mga wallet"
+        },
+        "title_one_one": "Isang wallet ang nakita",
+        "title_one_other": "Pumili ng mga wallet na i-import"
+      },
+      "viewOnly": {
+        "button": "Mag-import ng wallet",
+        "description": "Para mag-swap, bumili, magpadala, at tumanggap ng mga token, kailangan mong i-import ang recovery phrase ng wallet na ito.",
+        "title": "Nasa view-only ang wallet na ito"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Na-import na ang address na ito",
+          "notFound": "Hindi nakita ang address",
+          "smartContract": "Isang smart contract ang address"
+        },
+        "message": "Kapag nagdagdag ng view-only na wallet, masusubukan mo ang app o mata-track mo ang isang wallet. Hindi ka makakapag-swap o makakapagpadala ng mga pondo.",
+        "placeholder": "ENS o address",
+        "title": "Maglagay ng address ng wallet"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} ang Nakabinbin",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} mula sa {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} papunta sa {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} para sa {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} at {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Share sa pool"
+  },
+  "addressInput": {
+    "recipient": "Recipient"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Gumagamit kami ng na-anonymize na data para mapaganda ang karanasan mo sa mga produkto ng Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Hindi naman"
+    },
+    "description": "Sabihin sa amin kung maganda ang nararanasan mo sa app na ito",
+    "extension": {
+      "review": {
+        "description": "Pumili ng star rating at mag-iwan ng review sa Chrome Web Store.",
+        "title": "Gawan ng review ang Uniswap Extension?"
+      },
+      "title": "Nae-enjoy ang Uniswap Extension?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Magpadala ng feedback"
+      },
+      "description": "Sabihin sa amin kung paano pa namin mapapaganda ang karanasan mo",
+      "title": "Ikinalulungkot naming malaman iyon."
+    },
+    "mobile": {
+      "title": "Nae-enjoy ang Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Candlestick",
+    "error": {
+      "pools": "Hindi maipakita ang dating data para sa kasalukuyang pool.",
+      "tokens": "Hindi maipakita ang dating data para sa kasalukuyang token."
+    },
+    "line": "Line chart",
+    "missingData": "Wala ang data ng chart",
+    "price": {
+      "label": {
+        "close": "Isara",
+        "high": "Mataas",
+        "low": "Mababa",
+        "open": "Bukas"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Hindi available ang setting na ito para sa kasalukuyang chart"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Salamat sa pagiging bahagi ng komunidad ng Uniswap <heart />",
+    "uni": {
+      "arrived": "Dumating na ang UNI"
+    }
+  },
+  "common": {
+    "accept": "Tanggapin",
+    "activity": "Aktibidad",
+    "add": {
+      "label": "I-add",
+      "liquidity": {
+        "cancelled": "Nakansela ang pagdaragdag ng liquidity",
+        "failed": "Hindi naisagawa ang pagdaragdag ng liquidity"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Nakansela ang pagdaragdag ng V2 liquidity",
+          "failed": "Hindi naisagawa ang pagdaragdag ng V2 liquidity"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Nagdagdag ng liquidity",
+      "v2": {
+        "liquidity": "Nagdagdag ng V2 liquidity"
+      }
+    },
+    "addedLiquidity": "Nagdagdag ng Liquidity",
+    "adding": {
+      "liquidity": "Nagdaragdag ng liquidity",
+      "v2": {
+        "liquidity": "Nagdaragdag ng V2 liquidity"
+      }
+    },
+    "addLiquidity": "Magdagdag ng liquidity",
+    "addressOrENS": "Address ng wallet o pangalan ng ENS",
+    "advanced": "Advanced",
+    "all": "Lahat",
+    "allTime": "Lahat ng oras",
+    "and": "at",
+    "app": "App",
+    "approval": {
+      "cancelled": "Nakansela ang pag-apruba",
+      "failed": "Hindi naaprubahan"
+    },
+    "approve": "Aprubahan",
+    "approved": "Inaprubahan",
+    "approvePending": "Nakabinbin ang pag-apruba...",
+    "approveSpend": "Aprubahan ang paggastos ng {{symbol}}",
+    "approving": "Inaaprubahan",
+    "areYouSure": "Sigurado ka ba?",
+    "automatic": "Auto",
+    "availableIn": "Available ang Uniswap sa: <locale />",
+    "availableOnIOSAndroid": "Available sa iOS at Android",
+    "availableOnIOSAndroidChrome": "Available sa iOS, Android, at Chrome",
+    "backToPositions": "Bumalik sa mga posisyon",
+    "blocked": {
+      "ifError": "Kung naniniwala ka na isa itong error, magpadala ng email na may kasamang address mo sa <emailAddress />",
+      "reason": "Naka-block ang address na ito sa interface ng Uniswap Labs dahil nauugnay ito sa isa o higit pang <link>naka-block na aktibidad</link>."
+    },
+    "blockedAddress": "Naka-block na address",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Nakansela ang paghiram",
+      "failed": "Hindi naisagawa ang paghiram"
+    },
+    "borrowed": "Humiram",
+    "borrowing": "Nanghihiram",
+    "bought": "Bumili",
+    "brandAssets": "Mga asset ng brand",
+    "burn": {
+      "cancelled": "Nakansela ang pag-burn",
+      "failed": "Hindi na-burn"
+    },
+    "burned": "Na-burn",
+    "burning": "Binu-burn",
+    "button": {
+      "accept": "Tanggapin",
+      "back": "Bumalik",
+      "buy": "Bumili",
+      "cancel": "Kanselahin",
+      "checkin": "Mag-check in",
+      "close": "Isara",
+      "confirm": "Kumpirmahin",
+      "connect": "Kumonekta",
+      "continue": "Magpatuloy",
+      "copied": "Nakopya na",
+      "copy": "Kopyahin",
+      "create": "Gumawa",
+      "delete": "I-delete",
+      "disconnect": "Idiskonekta",
+      "dismiss": "I-dismiss",
+      "done": "Tapos na",
+      "edit": "I-edit",
+      "enable": "I-enable",
+      "finish": "Tapusin",
+      "goBack": "Bumalik",
+      "later": "Saka na lang siguro",
+      "learn": "Matuto pa",
+      "next": "Susunod",
+      "notNow": "Hindi ngayon",
+      "ok": "OK",
+      "paste": "I-paste",
+      "pay": "Magbayad",
+      "proceed": "Proceed",
+      "receive": "Tumanggap",
+      "remove": "Alisin",
+      "reset": "I-reset",
+      "retry": "I-retry",
+      "reveal": "Ipakita",
+      "review": "Suriin",
+      "save": "I-save",
+      "scrollDown": "Mag-scroll pababa",
+      "sell": "Ibenta",
+      "send": "Ipadala",
+      "setup": "I-set up",
+      "share": "Ibahagi",
+      "showLess": "Magpakita ng mas kaunti",
+      "showMore": "Magpakita pa",
+      "sign": "Mag-sign",
+      "skip": "Lumaktaw",
+      "swap": "Mag-swap",
+      "tryAgain": "Subukan ulit",
+      "understand": "Nauunawaan ko",
+      "unlock": "I-unlock",
+      "view": "Tingnan",
+      "viewDetails": "Tingnan ang mga detalye",
+      "yes": "Oo"
+    },
+    "buy": {
+      "cancelled": "Nakansela ang pagbili",
+      "failed": "Hindi nakabili",
+      "label": "Bumili"
+    },
+    "buyAndSell": "Bumili at magbenta sa Uniswap",
+    "buying": "Bumibili",
+    "by": "Sa pamamagitan",
+    "cancel": {
+      "failed": "Hindi nakansela"
+    },
+    "cancellation": {
+      "cancelled": "Kinansela ang pagkansela"
+    },
+    "cancellationSubmitted": "Naisumite ang pagkansela",
+    "cancellationSuccessful": "Matagumpay na nakansela",
+    "cancelled": "Nakansela na",
+    "cancelling": "Kinakansela",
+    "cancelOrder": "Kanselahin ang order",
+    "card": {
+      "error": {
+        "description": "Nagkaproblema",
+        "title": "Oops! Nagkaproblema."
+      }
+    },
+    "careers": "Mga Career",
+    "chart": "Chart",
+    "checkNetwork": "Tingnan ang status ng network <link>dito.</link>",
+    "chromeExtension": "Extension",
+    "claim": {
+      "cancelled": "Nakansela ang pag-claim",
+      "failed": "Hindi na-claim"
+    },
+    "claimed": "Na-claim na",
+    "claiming": "Kine-claim",
+    "claimUnis": "I-claim ang iyong mga UNI token",
+    "clear": "I-clear",
+    "close": "Isara",
+    "closed": "Isinara",
+    "collect": {
+      "button": "Kolektahin",
+      "fees": {
+        "cancelled": "Nakansela ang pagkolekta ng mga fee",
+        "failed": "Hindi nakolekta ang mga fee"
+      }
+    },
+    "collected": {
+      "fees": "Nakolekta na ang mga fee"
+    },
+    "collecting": {
+      "fees": "Kinokolekta ang mga fee"
+    },
+    "company": "Kumpanya",
+    "confirm": "Kumpirmahin",
+    "confirmCancellation": "Kumpirmahin ang pagkansela",
+    "confirmSend": {
+      "button": "Kumpirmahin ang pagpapadala"
+    },
+    "confirmSwap": "Kumpirmahin ang pag-swap sa wallet",
+    "confirmTimedOut": "Nag-time out ang pagkumpirma. Pakisubukan ulit.",
+    "confirmWallet": "Kumpirmahin sa wallet",
+    "connect": {
+      "button": "Ikonekta"
+    },
+    "connectAWallet": {
+      "button": "Magkonekta ng wallet"
+    },
+    "connectWallet": {
+      "button": "Ikonekta ang wallet"
+    },
+    "contactUs": {
+      "button": "Makipag-ugnayan sa amin"
+    },
+    "contractInteraction": "Pakikipag-interact sa Kontrata",
+    "copied": "Nakopya na",
+    "copy": {
+      "address": "Kopyahin ang address"
+    },
+    "copyLink": {
+      "button": "Kopyahin ang link"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Nakansela ang paggawa ng pool",
+        "failed": "Hindi nagawa ang pool"
+      }
+    },
+    "created": {
+      "date": "Created {{date}}",
+      "pool": "Nagawa ang pool"
+    },
+    "creating": {
+      "pool": "Gumagawa ng pool"
+    },
+    "currency": "Currency",
+    "custom": "Custom",
+    "customRange": "Custom na range",
+    "dataOutdated": "Posibleng luma na ang data",
+    "default": "Default",
+    "defaultTradeOptions": "Mga default na opsyon sa pag-trade",
+    "delegate": {
+      "cancelled": "Nakansela ang pag-delegate",
+      "failed": "Hindi na-delegate"
+    },
+    "delegated": "Na-delegate na",
+    "delegating": "Dine-delegate",
+    "deploy": {
+      "cancelled": "Nakansela ang pag-deploy",
+      "failed": "Hindi na-deploy"
+    },
+    "deployed": "Na-deploy na",
+    "deploying": "Dine-deploy",
+    "deposit": {
+      "cancelled": "Nakansela ang pagdeposito",
+      "failed": "Hindi nadeposito",
+      "toNetwork": "Magdeposito ng mga token sa {{label}} network."
+    },
+    "deposited": "Naideposito na",
+    "depositing": "Dinedeposito",
+    "depositTokens": "Magdeposito ng mga token",
+    "detected": "Na-detect",
+    "developers": "Mga Developer",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "I-dismiss",
+    "displaySettings": "Mga setting ng display",
+    "dnsRegistrar": "DNS Registrar",
+    "donate": "Mag-donate",
+    "done": "Done",
+    "dontShowAgain": "Huwag itong ipakitang muli",
+    "download": "I-download",
+    "downloadAppStore": "I-download sa App Store",
+    "downloadPlayStore": "I-download sa Play Store",
+    "downloadUniswap": "I-download ang Uniswap",
+    "downloadUniswapApp": "I-download ang Uniswap app",
+    "dynamic": "Dynamic",
+    "edit": {
+      "button": "I-edit"
+    },
+    "error": {
+      "details": "Error details",
+      "general": "Nagkaproblema",
+      "label": "Error",
+      "request": "Paumanhin, nagka-error habang pinoproseso ang request mo. Kung nag-request ka ng suporta, tiyaking kokopyahin ang mga detalye ng error na ito.",
+      "somethingWrong": "Nagkaproblema!",
+      "wrong": {
+        "tryAgain": "Nagkaproblema. Pakisubukan ulit."
+      }
+    },
+    "errorConnecting": {
+      "error": "Nagka-error sa pagkonekta"
+    },
+    "errorLoadingData": {
+      "error": "Nagka-error sa pag-load ng data"
+    },
+    "ethereumNameService": "Ethereum Name Service",
+    "etherscan": {
+      "link": "Tingnan sa Etherscan"
+    },
+    "ethRegistrarController": "Registrar Controller ng ETH",
+    "execute": {
+      "cancelled": "Nakansela ang pag-execute",
+      "failed": "Hindi na-execute"
+    },
+    "executed": "Na-execute",
+    "executing": "Ine-execute",
+    "expired": "Nag-expire",
+    "expiry": "Pag-expire",
+    "explore": "I-explore",
+    "explorer": "Explorer",
+    "exploreTokens": "I-explore ang mga token",
+    "extension": "Uniswap Extension",
+    "failed": {
+      "error": "Hindi naisagawa"
+    },
+    "failedSwitchNetwork": "Hindi nakalipat ng network",
+    "fee": "Fee",
+    "fees": "Mga Fee",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolA}} sa bawat {{symbolB}}",
+    "fetchingRoute": "Fine-fetch ang route",
+    "floor": "Floor",
+    "floorPrice": "Pinakamababang presyo",
+    "for": "Para sa",
+    "fullRange": "Buong range",
+    "getApp": "Kunin ang app",
+    "getHelp": {
+      "button": "Humingi ng tulong"
+    },
+    "getStarted": "Magsimula",
+    "getSupport": {
+      "button": "Humingi ng suporta"
+    },
+    "getTheApp": "Kunin ang app",
+    "getUniswapWallet": "Kunin ang Uniswap Wallet",
+    "governance": "Governance",
+    "happyHolidays": "Happy Holidays mula sa Uniswap team!",
+    "helpCenter": "Help center",
+    "hidden": "Nakatago",
+    "hide": {
+      "button": "Itago"
+    },
+    "highPrice": "Mataas na presyo",
+    "includes": "Kasama ang",
+    "info": {
+      "label": "Impormasyon"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Pumili ng recipient"
+      },
+      "password": {
+        "confirm": "Kumpirmahin ang password",
+        "error": {
+          "mismatch": "Hindi tugma ang mga password",
+          "weak": "Masyadong mahina ang password na ito"
+        },
+        "new": "Bagong password",
+        "placeholder": "Password",
+        "strength": {
+          "medium": "Katamtaman",
+          "strong": "Malakas",
+          "weak": "Mahina"
+        }
+      },
+      "search": "Maghanap"
+    },
+    "insufficient": {
+      "funds": "Hindi sapat ang mga pondo"
+    },
+    "insufficientBalance": {
+      "error": "Hindi sapat ang balanse"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Hindi sapat ang mga pondo para ma-cover ang bayad sa network"
+    },
+    "insufficientLiquidity": "Hindi sapat ang liquidity",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Hindi sapat ang {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Invalid ang pares",
+    "invalidRecipient": {
+      "error": "Invalid ang recipient"
+    },
+    "iOSAndroid": "iOS at Android",
+    "language": "Wika",
+    "lastPrice": "Huling presyo",
+    "learnMoreSwap": "Matuto pa tungkol sa mga pag-swap",
+    "legalAndPrivacy": "Legal at Privacy",
+    "less": "Mas kaunti",
+    "limit": {
+      "cancel_one": "Kanselahin ang limit",
+      "cancel_other": "Kanselahin {{count}} (na) limit",
+      "cancelled": "Nakansela ang limit",
+      "executed": "Na-execute ang limit",
+      "expired": "Nag-expire na ang limit",
+      "failed": "Hindi naisagawa ang limit",
+      "opened": "Binuksan ang limit",
+      "pending": "Nakabinbin ang limit"
+    },
+    "limits": {
+      "approachMax": "Malapit nang maabot ang maximum na limit na 100",
+      "cancelProceed": "Kanselahin ang mga limit para magpatuloy",
+      "expires": "Mag-e-expire sa {{timestamp}}",
+      "open": "Buksan ang mga limit",
+      "when": "kapag {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Mga link",
+    "liquidity": {
+      "removed": "Inalis ang liquidity"
+    },
+    "loading": "Nilo-load",
+    "loadingAllowance": "Nilo-load ang allowance",
+    "loadMore": "Mag-load pa",
+    "longText": {
+      "button": {
+        "less": "Magbasa nang mas kaunti",
+        "more": "Magbasa pa"
+      }
+    },
+    "lowPrice": "Mababang presyo",
+    "manage": "Pamahalaan",
+    "market": {
+      "label": "Market"
+    },
+    "marketPrice": {
+      "fetching": "Fetching market price...",
+      "label": "Market price:",
+      "unavailable": "Market price not found. Please do your own research to avoid loss of funds."
+    },
+    "max": "Max",
+    "message": "Mensahe",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Nakansela ang pag-migrate ng liquidity",
+        "failed": "Hindi na-migrate ang liquidity"
+      },
+      "position": "Posisyon sa pag-migrate",
+      "v3": "Mag-migrate sa V3"
+    },
+    "migrated": {
+      "liquidity": "Na-migrate ang liquidity"
+    },
+    "migrating": {
+      "liquidity": "Mina-migrate ang liquidity"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Nakansela ang pag-mint",
+      "failed": "Hindi na-mint"
+    },
+    "minted": "Na-mint",
+    "minting": "Mini-mint",
+    "mobile": "Mobile",
+    "more": "Higit pa",
+    "multiDevice": "Maraming device",
+    "navigation": {
+      "settings": "Mga Setting",
+      "systemSettings": "Mga Setting"
+    },
+    "navigationButton": "Button sa pag-navigate",
+    "needHelp": "Kailangan ng tulong?",
+    "networkCost": "Bayad sa network",
+    "neverMind": "Huwag na lang",
+    "new": {
+      "exclamation": "Bago!"
+    },
+    "nft": "NFT",
+    "nfts": "Mga NFT",
+    "noActivity": "Wala pang aktibidad",
+    "noAmount": {
+      "error": "Maglagay ng halaga"
+    },
+    "noData": "Walang data",
+    "noResults": "Walang nakitang resulta.",
+    "notAvailableInRegion": {
+      "error": "Hindi available sa iyong rehiyon"
+    },
+    "notCreated": {
+      "label": "Hindi nagawa"
+    },
+    "notSupported": "Hindi sinusuportahan",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 buwan",
+    "oneWeek": "1 linggo",
+    "oneYear": "1 taon",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "Nakansela ang order",
+    "orderExecuted": "Na-execute ang order",
+    "orderExpired": "Nag-expire ang order",
+    "orderPending": "Nakabinbin ang order",
+    "outOfRange": "Wala sa range",
+    "pageNotFound": "Hindi nakita ang page!",
+    "passkey": {
+      "count": "Passkey {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "Nakalipas na araw",
+    "pastFiveMinutes": "Nakalipas na limang minuto",
+    "pastHour": "Nakalipas na oras",
+    "pastMonth": "Nakalipas na buwan",
+    "pastWeek": "Nakalipas na linggo",
+    "pastYear": "Nakalipas na taon",
+    "pay": {
+      "button": "Magbayad"
+    },
+    "pending": {
+      "cancellation": "Nakabinbin ang pagkansela"
+    },
+    "pendingEllipsis": "Nakabinbin...",
+    "permit2": "Permit2",
+    "pool": "Pool",
+    "pools": "Mga Pool",
+    "poweredBy": "Pinapagana ng <name />",
+    "price": "Presyo",
+    "priceImpact": "Babala sa epekto sa presyo",
+    "priceUpdated": "Na-update ang presyo",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Kapag nilagyan ng check, hindi namin ibabahagi ang iyong data sa mga third-party na partner para sa naka-personalize na pag-advertise. Puwede mong i-enable ang pagbabahagi sa anumang oras sa pamamagitan ng pag-alis ng check sa box na ito.",
+        "label": "Huwag ibahagi ang impormasyon ko"
+      },
+      "description": "Posibleng magbahagi kami ng mga identifier ng device sa aming mga partner sa pag-advertise para i-promote ang aming mga serbisyo sa iba pang website at platform. Kung maituturing itong pagbebenta, pagbabahagi, o naka-target na pag-advertise sa ilalim ng mga naaangkop na batas, puwede kang mag-opt out sa pamamagitan ng paglalagay ng check sa box na \"huwag ibahagi ang impormasyon ko\". Para sa higit pang impormasyon tungkol sa aming mga proseso sa privacy, pakibasa ang aming <privacyLink>Patakaran sa Privacy</privacyLink>.",
+      "disclaimer": "Pakitandaan na ilalapat lang ang iyong pinili sa browser na ito sa device na ito. Puwede ka ring mag-opt out sa pamamagitan ng pag-enable sa setting ng Pangkalahatang Kontrol sa Privacy sa loob ng browser na ginagamit mo para ma-access ang aming mga serbisyo. Para makakita ng higit pang opsyon, pumunta sa iyong mga setting."
+    },
+    "privacyPolicy": "Patakaran sa Privacy",
+    "proceed": "Magpatuloy",
+    "proceedInWallet": {
+      "short": "Magpatuloy sa wallet"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Public Resolver",
+    "purchased": "Nabili na",
+    "queue": {
+      "cancelled": "Nakansela ang queue",
+      "failed": "Hindi na-queue"
+    },
+    "queued": "Na-queue",
+    "queuing": "Inilalagay sa queue",
+    "rate": "Rate",
+    "readMore": "Magbasa pa",
+    "receive": {
+      "cancelled": "Nakansela ang pagtanggap",
+      "failed": "Hindi natanggap"
+    },
+    "received": "Natanggap na",
+    "receiving": "Tinatanggap",
+    "recent": "Kamakailan",
+    "rejected": "Tinanggihan",
+    "reload": {
+      "label": "I-reload ang app"
+    },
+    "remove": {
+      "label": "Alisin",
+      "liquidity": {
+        "cancelled": "Nakansela ang pag-alis sa liquidity",
+        "failed": "Hindi naalis ang liquidity"
+      }
+    },
+    "removedLiquidity": "Inalis ang liquidity",
+    "removeItem": "Alisin ang item",
+    "removing": {
+      "liquidity": "Inaalis ang liquidity"
+    },
+    "repaid": "Na-repay",
+    "repay": {
+      "cancelled": "Nakansela ang pag-repay",
+      "failed": "Hindi na-repay"
+    },
+    "repaying": "Nire-repay",
+    "resetLimit": "I-reset ang limit sa {{symbol}}",
+    "resetLimitWallet": "I-reset ang limit sa {{symbol}} sa wallet",
+    "resettingLimit": "Nire-reset ang limit sa {{symbol}}...",
+    "resolveIssues_one": "Resolbahin ang isyu",
+    "resolveIssues_other": "Resobahin ang {{count}} (na) isyu",
+    "restricted": {
+      "region": "Pinaghihigpitang rehiyon"
+    },
+    "reverseRegistrar": "Reverse Registrar",
+    "revoke": {
+      "approval": {
+        "failed": "Hindi nabawi ang pag-apruba"
+      }
+    },
+    "revoked": {
+      "approval": "Nabawi ang pag-apruba"
+    },
+    "revokedApproval": "Nabawi ang Pag-apruba",
+    "revoking": {
+      "approval": "Binabawi ang pag-apruba"
+    },
+    "samePrice": "Parehong presyo",
+    "scanQRDownload": "I-scan ang QR code gamit ang iyong telepono para i-download",
+    "selectRegion": {
+      "label": "Piliin ang iyong rehiyon"
+    },
+    "selectToken": {
+      "label": "Pumili ng token"
+    },
+    "selfCustodial": "Self-custodial",
+    "sell": {
+      "label": "Ibenta"
+    },
+    "send": {
+      "button": "Ipadala",
+      "cancelled": "Nakansela ang pagpapadala",
+      "failed": "Hindi naipadala"
+    },
+    "sending": "Nagpapadala",
+    "sent": "Naipadala na",
+    "settings": "Mga Setting",
+    "share": {
+      "shareToTwitter": "Ibahagi sa Twitter",
+      "twitter": "Ibahagi sa Twitter"
+    },
+    "show": {
+      "button": "Ipakita"
+    },
+    "showLess": {
+      "button": "Magpakita ng mas kaunti"
+    },
+    "showMore": {
+      "button": "Magpakita pa"
+    },
+    "signatureExpired": "Nag-expire na ang iyong lagda.",
+    "signMessage": "Mag-sign sa mensahe",
+    "signMessageWallet": "Mag-sign sa mensahe sa wallet",
+    "sold": "Naibenta na",
+    "stats": "Istatistika",
+    "status": "Status",
+    "stayConnected": "Manatiling konektado",
+    "step": {
+      "number": "Hakbang {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Nakansela ang pagsusumite ng panukala",
+        "failed": "Hindi naisumite ang panukala"
+      }
+    },
+    "submitted": {
+      "proposal": "Naisumite na ang panukala"
+    },
+    "submitting": {
+      "proposal": "Isinusumite ang panukala"
+    },
+    "swap": {
+      "cancelled": "Nakansela ang pag-swap",
+      "expired": "Nag-expire ang pag-swap",
+      "failed": "Hindi na-swap"
+    },
+    "swapped": "Na-swap na",
+    "swapPending": "Nakabinbin ang pag-swap...",
+    "swapping": "Nagsa-swap",
+    "switchNetworks": "Lumipat ng network",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "text": {
+      "connected": "Nakakonekta",
+      "contract": "Kontrata",
+      "disconnected": "Nadiskonekta",
+      "error": "Error",
+      "notAvailable": "N/A",
+      "recipient": "Para kay",
+      "sender": "Mula kay",
+      "unknown": "Hindi alam"
+    },
+    "thisMonth": "Ngayong buwan",
+    "thisToken": "This token",
+    "thisWeek": "Ngayong linggo",
+    "thisYear": "Ngayong taon",
+    "time": {
+      "days": "(na) araw",
+      "days_one": "araw",
+      "days_other": "(na) araw",
+      "hours": "(na) oras",
+      "hours_one": "oras",
+      "hours_other": "(na) oras",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "(na) minuto",
+      "months": "(na) buwan",
+      "months_one": "buwan",
+      "months_other": "(na) buwan",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}mo"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "(na) linggo",
+      "weeks_one": "linggo",
+      "weeks_other": "(na) linggo"
+    },
+    "to": "sa",
+    "today": "Ngayong araw",
+    "tokenA": "Token A",
+    "tokenAmount": "Halaga ng token",
+    "tokenB": "Token B",
+    "tokenName": "Pangalan ng token",
+    "tokens": "Mga Token",
+    "totalUniswapTVL": "Total Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Trade",
+    "trademarkPolicy": "Patakaran sa Trademark",
+    "transactionDetails": "Mga detalye ng transaksyon",
+    "transactionId": "Transaction ID",
+    "transactionPending": "Nakabinbin ang transaksyon",
+    "transactions": "Mga transaksyon",
+    "transactionSettings": "Mga Setting ng Transaksyon",
+    "transfer_one": "pag-transfer",
+    "transfer_other": "(na) pag-transfer",
+    "tryAgain": {
+      "error": "Subukan ulit"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Uri"
+    },
+    "unavailable": "Hindi available",
+    "unhide": "I-unhide",
+    "uniGovernance": "Governance ng UNI",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Uniswap Protocol",
+    "uniswapWallet": "Uniswap wallet",
+    "uniswapX": "UniswapX",
+    "unknown": "Hindi alam",
+    "unknownApproval": "Hindi Alam na Pag-apruba",
+    "unknownBridge": "Hindi Alam na Bridge",
+    "unknownError": {
+      "error": "Hindi Alam na Error"
+    },
+    "unknownLend": "Hindi Alam na Pagpapahiram",
+    "unknownMint": "Hindi Alam na Pag-mint",
+    "unknownSend": "Hindi Alam na Pagpapadala",
+    "unknownSwap": "Hindi Alam na Pag-swap",
+    "unsupportedAsset_one": "Hindi sinusuportahang asset",
+    "unsupportedAsset_other": "Mga hindi sinusuportahang asset",
+    "unwrap": {
+      "button": "I-unwrap",
+      "failed": "Hindi na-unwrap"
+    },
+    "unwrapped": "Na-unwrap na",
+    "unwrapping": "Ina-unwrap",
+    "view": {
+      "profile": "Tingnan ang profile"
+    },
+    "viewOnExplorer": "Tingnan sa Explorer",
+    "volume": "Volume",
+    "vote": {
+      "cancelled": "Nakansela ang pagboto",
+      "failed": "Hindi nakaboto"
+    },
+    "voted": "Nakaboto na",
+    "voting": "Bumoboto",
+    "wallet": {
+      "approve": "Aprubahan sa wallet",
+      "label": "Wallet"
+    },
+    "walletForSwapping": "Ang wallet na ginawa para sa pag-swap. Available sa iOS at Android.",
+    "warning": "Babala",
+    "webApp": "Web app",
+    "website": "Website",
+    "whyApprove": "Bakit kailangan kong mag-apruba ng token?",
+    "whySign": "Bakit kinakailangan ang mga lagda?",
+    "whyWrap": "Bakit kailangan kong i-wrap ang aking {{symbol}}?",
+    "withdraw": {
+      "failed": "Hindi naka-withdraw"
+    },
+    "withdrawal": {
+      "amount": "Halaga ng pag-withdraw",
+      "cancelled": "Nakansela ang pag-withdraw"
+    },
+    "withdrawing": "Nagwi-withdraw",
+    "withdrew": "Nag-withdraw",
+    "withinRange": "Nasa range",
+    "wrap": {
+      "cancelled": "Nakansela ang pag-wrap",
+      "failed": "Hindi na-wrap"
+    },
+    "wrapIn": "I-wrap ang  {{symbol}} sa wallet",
+    "wrapped": "Na-wrap",
+    "wrapping": "Nira-wrap",
+    "wrappingToken": "Nira-wrap ang  {{symbol}}...",
+    "wrongNetwork": "Maling network",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Hindi sapat ang mga pondo sa iyong account para makumpleto ang pag-swap na ito."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Hindi sapat ang mga pondo sa iyong account para makumpleto ang pag-swap na ito."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Hindi maisagawa ang iyong limit sa ngayon. Pakisubukan ulit."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Hindi maisagawa ang iyong pag-swap sa ngayon. Pakisubukan ulit."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Bumibili ka ng",
+    "youRecieve": "Makakatanggap ka ng",
+    "youreSending": "Magpapadala ka ng"
+  },
+  "currency": {
+    "aud": "Australian Dollar",
+    "brl": "Brazilian Real",
+    "cad": "Canadian Dollar",
+    "cny": "Chinese Yuan",
+    "eur": "Euro",
+    "gbp": "British Pound",
+    "hkd": "Hong Kong Dollar",
+    "idr": "Indonesian Rupiah",
+    "inr": "Indian Rupee",
+    "jpy": "Japanese Yen",
+    "krw": "South Korean Won",
+    "ngn": "Nigerian Naira",
+    "pkr": "Pakistani Rupee",
+    "rub": "Russian Ruble",
+    "sgd": "Singapore Dollar",
+    "thb": "Thai Baht",
+    "try": "Turkish Lira",
+    "uah": "Ukrainian Hryvnia",
+    "usd": "United States Dollar",
+    "vnd": "Vietnamese Dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Aprubahan",
+        "fallbackTitle": "Aprubahan ang site na ito para ma-access ang mga token",
+        "helptext": "Payagan ang site na ito na i-access at gastusin ang token na ito para sa mga transaksyon. Tiyaking pinagkakatiwalaan mo ang site na ito.",
+        "label": "Wallet",
+        "title": "Aprubahan ang pag-access sa {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Request sa transaksyon"
+      },
+      "bridge": {
+        "description": "Ilipat ang ETH, USDC, at higit pa sa {{numChains}}+ (na) network.",
+        "title": "Sinusubukang mag-bridge?"
+      },
+      "connect": {
+        "helptext": "Payagan ang site na ito na matingnan ang address ng wallet mo, balanse mo, at mag-request ng mga pag-apruba para sa mga transaksyon.",
+        "title": "Kumonekta sa site"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Raw na data"
+        },
+        "function": {
+          "label": "Function"
+        }
+      },
+      "permit2": {
+        "description": "Pinapamahalaan ng Permit2 ang mga pag-apruba ng token sa maramihang dapp.",
+        "header": "I-sign ang Permit2"
+      },
+      "reject": {
+        "action": "Tanggihan lahat",
+        "info": "Mayroon kang <highlight>{{totalRequestCount}}</highlight> (na) request sa transaksyon"
+      },
+      "revoke": {
+        "action": "Bawiin",
+        "helptext": "Payagan ang site na ito na bawiin ang access para gastusin ang token na ito para sa mga transaksyon. Tiyaking pinagkakatiwalaan mo ang site na ito.",
+        "title": "Bawiin ang access sa {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Naglalaman ang mensaheng ito ng mga hindi nare-render na character. Tiyaking pinagkakatiwalaan mo ang site na ito.",
+        "decodeError": "Hindi na-decode ang mensahe",
+        "header": "Request sa lagda",
+        "irregular": {
+          "description": "Tiyaking pinagkakatiwalaan mo ang site na ito bago magpatuloy",
+          "understand": "Nauunawaan ko ang mga risk"
+        },
+        "toggleDataView": {
+          "raw": "Tingnan ang raw na data",
+          "readable": "Tingnan ang orihinal na data"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Tiyaking tama ito",
+          "title": "Hindi ito ang aktibong wallet mo"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Mag-sign in dito"
+      },
+      "getStarted": {
+        "description": "Magsimula sa pamamagitan ng pag-download ng Uniswap Wallet na available sa iyong telepono o browser.",
+        "title": "Magsimula sa Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Magsimula sa ilang segundo sa pamamagitan ng pag-sign up sa ibaba o i-download ang aming wallet, na available sa iyong telepono o browser."
+        },
+        "title": "Mag-sign up sa Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Maayos na gumagana nang magkakasama ang mga produkto ng Uniswap para magawa ang pinakamagandang onchain na experience."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Nagbibigay ito sa Uniswap protocol ng access sa iyong token para sa pag-trade. Para sa seguridad, mag-e-expire ito pagkatapos ng 30 araw."
+    },
+    "dataUnavailable": "Hindi available ang data sa ngayon; inaayos na namin ito",
+    "id": "Error ID: {{eventId}}",
+    "noData": "Walang nakitang data",
+    "request": {
+      "provideId": "Paumanhin, nagka-error habang pinoproseso ang iyong request. Kung magre-request ka ng suporta, tiyaking ibibigay ang error ID mo."
+    },
+    "tokenApproval": "Hindi naaprubahan ang token",
+    "tokenApprovalEdited": {
+      "message": "Masyadong mababa ang halaga para sa pag-apruba na nakatakda sa iyong wallet para makumpleto ang transaksyong ito. Pakisubukan ulit at taasan ang halaga."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "May nag-crash.",
+      "restart": "I-restart ang app",
+      "title": "Uh oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Mag-explore ng higit pang pool"
+    },
+    "search": {
+      "action": {
+        "clear": "I-clear",
+        "viewEtherscan": "Tingnan sa {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Walang nahanap na resulta para sa <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Hindi ma-load ang mga resulta ng paghahanap",
+      "label": {
+        "ownedBy": "Pagmamay-ari ni {{ownerAddress}}"
+      },
+      "placeholder": "Maghanap ng mga token at wallet",
+      "section": {
+        "nft": "Mga Koleksyon ng NFT",
+        "popularNFT": "Mga sikat na koleksyon ng NFT",
+        "popularTokenInfo": "Tinutukoy ang mga sikat na token batay sa dami ng pag-trade ng mga ito sa Uniswap sa nakalipas na 24 na oras.",
+        "popularTokens": "Mga sikat na token",
+        "recent": "Mga kamakailang paghahanap",
+        "tokens": "Mga Token",
+        "wallets": "Mga Wallet"
+      }
+    },
+    "tokens": {
+      "error": "Hindi ma-load ang mga token",
+      "favorite": {
+        "action": {
+          "add": "Paboritong token",
+          "edit": "I-edit ang mga paborito",
+          "remove": "Alisin ang paborito"
+        },
+        "title": {
+          "default": "Mga paboritong token",
+          "edit": "I-edit ang mga paboritong token"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Market cap",
+          "priceDecrease": "Pagbaba ng presyo",
+          "priceIncrease": "Pagtaas ng presyo",
+          "totalValueLocked": "TVL",
+          "volume": "Volume"
+        },
+        "option": {
+          "marketCap": "Market cap",
+          "priceDecrease": "Pagbaba ng presyo (24H)",
+          "priceIncrease": "Pagtaas ng presyo (24H)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap volume (24H)"
+        }
+      },
+      "top": {
+        "title": "Mga nangungunang token"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Paboritong wallet",
+          "edit": "I-edit ang mga paborito",
+          "remove": "Alisin ang paborito"
+        },
+        "title": {
+          "default": "Mga paboritong wallet",
+          "edit": "I-edit ang mga paboritong wallet"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Network",
+      "networks": "Mga network",
+      "popup": {
+        "trouble": "Nagkakaproblema sa pagkonekta?"
+      },
+      "titleConnected": "Nakakonekta",
+      "titleNotConnected": "Hindi nakakonekta"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Nakalimutan ang password?",
+        "reset": "I-reset ang wallet",
+        "submit": "I-unlock"
+      },
+      "password": {
+        "error": "Maling password. Subukan muli",
+        "reset": {
+          "initial": {
+            "description": "Hindi makakatulong ang Uniswap sa pag-recover ng password mo. Kailangan mong i-reset ang wallet mo sa pamamagitan ng paglalagay muli ng iyong 12 salitang recovery phrase.",
+            "help": "Saan ko mahahanap ang aking recovery phrase?",
+            "title": "Nakalimutan ang password"
+          },
+          "speedbump": {
+            "description": "Tiyaking nasa iyo ang 12 salitang recovery phrase mo bago mo i-reset ang wallet mo. Dahil kung wala ito, hindi mo mare-recover ang mga pondo mo.",
+            "help": "Nawala ko ang recovery phrase ko",
+            "title": "Bago ka magpatuloy"
+          }
+        }
+      },
+      "subtitle": "Ilagay ang iyong password para i-unlock",
+      "title": "Maligayang pagbabalik"
+    },
+    "network": {
+      "notSupported": "Hindi sinusuportahan ang network"
+    },
+    "open": "Buksan ang Uniswap Extension",
+    "popup": {
+      "chrome": {
+        "button": "Buksan ang extension",
+        "description": "Kumpletuhin ang pagkilos na ito sa pamamagitan ng pagbubukas ng Uniswap extension.",
+        "title": "Magpatuloy sa Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Bigyang-priyoridad ang Uniswap Extension kapag kumokonekta sa mga app.",
+        "title": "Gawing default na wallet"
+      },
+      "password": {
+        "enter": {
+          "title": "Ilagay ang iyong kasalukuyang password"
+        },
+        "error": {
+          "wrong": "Maling password"
+        },
+        "placeholder": "Kasalukuyang password"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "I-back up",
+        "message": "Tiyaking iba-back up ang iyong recovery phrase para maiwasang mawalan ng access sa iyong wallet at mga pondo.",
+        "title": "Kaunti na lang ang bakante sa storage ng browser mo"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "Pinakamaganda para sa mga bihirang pares.",
+    "bestForMost": "Pinakamaganda para sa karamihan ng mga pares.",
+    "bestForStablePairs": "Pinakamaganda para sa mga stable na pares.",
+    "bestForVeryStable": "Pinakamaganda para sa mga napaka-stable na pares.",
+    "dynamic": "Dynamic na fee",
+    "percentEarned": "Ang % makukuha mo sa mga fee.",
+    "selectPercent": "{{pct}}% piliin",
+    "selectPercentDescription": "{{pct}}% ng liquidity ang pumili sa tier na ito",
+    "tier": {
+      "create": {
+        "button": "Gumawa ng bagong tier ng fee",
+        "description": "Sisimulan ang paggawa ng bagong tier sa isang bagong pool at magreresulta ito sa mga mas mataas kaysa sa karaniwang bayad sa network."
+      },
+      "description": {
+        "v2": "Ang halagang kinita sa pagbibigay ng liquidity. Ang lahat ng v2 pool ay may naka-fix na 0.3% fee. Para sa higit pang opsyon, magbigay ng liquidity sa v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Gagawa ka ng pool na may tier na dynamic na fee. Bago magpatuloy, pakitiyak na sinusuportahan ng piniling hook ang mga dynamic na fee."
+        }
+      },
+      "highestTvl": "Pinakamataas na TVL",
+      "label": "Ang % kikitain mo sa mga fee",
+      "missing": {
+        "description": "Hindi mahanap ang tier na hinahanap mo?"
+      },
+      "new": "Bagong tier",
+      "percent": {
+        "select": "{{percentage}} piliin"
+      },
+      "recommended": {
+        "description": "Recommended based on having the highest share of liquidity for the selected token pair."
+      },
+      "search": {
+        "short": "Maghanap ng mga tier"
+      },
+      "select": {
+        "existing": {
+          "button": "Piliin ang dati nang tier ng fee"
+        }
+      }
+    },
+    "tierExact": "{{fee}} na tier ng fee",
+    "unavailable": "Ang mga nakuhang fee ay hindi makikita para sa mga posisyon ng v2 hangga't hindi inaalis ang liquidity.",
+    "uncollected": "Kasama ang mga hindi nakolektang fee:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Ibenta gamit ang"
+    },
+    "connection": {
+      "quote": "Magbebenta ng {{amount}} na halaga sa {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Lumampas sa balanse"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} para sa {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Bumalik",
+      "divider": "Hindi sinusuportahan ang mga token",
+      "message": "Hindi sinusuportahan ang pagbebenta ng token na ito. I-swap ang asset na ito sa isa sa mga sinusuportahang token.",
+      "swap": "Mag-swap sa sinusuportahang token",
+      "title": "Hindi sinusuportahan ang token"
+    },
+    "welcome": {
+      "tooltip": "Ibenta ang iyong crypto sa iyong bank account o debit card."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Pumili ng token"
+    },
+    "cexTransferModal": {
+      "description": "Hindi sinusuportahan sa iyong rehiyon ang pagbili ng crypto gamit ang card. I-transfer ang mga asset mula sa isang naka-centralize na account para sa palitan para mapondohan ang wallet mo.",
+      "title": "Mag-transfer para makapagsimula"
+    },
+    "checkout": {
+      "title": "Mag-check out gamit ang"
+    },
+    "checkoutWith": "Mag-check out gamit ang",
+    "chooseProvider": {
+      "description": "Magpapatuloy ka sa portal ng provider para makita ang mga fee na nauugnay sa transaksyon mo."
+    },
+    "completeTransactionHeader": "Kumpletuhin ang transaksyon sa {{serviceProvider}}",
+    "connection": {
+      "error": "Hindi nakakonekta",
+      "errorDescription": "Nagkaproblema sa pagkonekta sa {{serviceProvider}}.",
+      "message": "Ikinokonekta ka sa {{serviceProvider}}",
+      "quote": "Bumibili ng {{amount}} na halaga sa {{currencySymbol}}",
+      "terms": "Sa pagpapatuloy, sumasang-ayon kang mapasailalim sa Mga Tuntunin ng Serbisyo at Patakaran sa Privacy sa {{serviceProvider}}, kung naaangkop."
+    },
+    "continueInTab": "Pumunta sa tab na {{serviceProvider}} para magpatuloy. Ligtas nang isara ang modal na ito.",
+    "disclaimer": "Sa pagpapatuloy, sumasang-ayon kang mapasailalim sa <tosLink>Mga Tuntunin ng Serbisyo</tosLink> at <privacyLink>Patakaran sa Privacy</privacyLink> sa {{serviceProvider}}, kung naaangkop.",
+    "error": {
+      "default": "Nagkaproblema.",
+      "load": "Hindi ma-load ang mga token na bibilhin",
+      "max": "Maximum na {{amount}}",
+      "min": "Minimum na {{amount}}",
+      "noQuotes": "Walang nahanap na quote.",
+      "unavailable": "Hindi available ang serbisyong ito sa iyong rehiyon",
+      "unsupported": "Hindi sinusuportahan sa rehiyon",
+      "usd": "Available lang na mabili sa USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} para sa {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Walang nahanap na quote"
+    },
+    "purchasedOn": "Binili sa {{serviceProvider}}",
+    "quote": {
+      "advice": "Magpapatuloy ka sa portal ng provider para makita ang mga fee na nauugnay sa transaksyon mo.",
+      "type": {
+        "list": "{{optionsList}}, at iba pang opsyon",
+        "other": "Iba pang opsyon",
+        "recent": "Ginamit kamakailan"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Mula sa isang account"
+        }
+      },
+      "title": "Tumanggap ng crypto",
+      "transferFunds": "Pondohan ang wallet mo sa pamamagitan ng pag-transfer ng crypto mula sa ibang wallet o account"
+    },
+    "region": {
+      "placeholder": "Maghanap ayon sa bansa o rehiyon",
+      "title": "Piliin ang iyong rehiyon"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} para sa {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "I-update ngayon",
+      "learn": "Alamin kung paano mag-update",
+      "recoveryPhrase": "Tingnan ang recovery phrase"
+    },
+    "description": {
+      "extension": "May available na bagong bersyon ng app. Para patuloy na magamit ang Uniswap Extension, paki-update ito sa pinakabagong bersyon.",
+      "wallet": "May available na bagong bersyon ng app. Para patuloy na magamit ang Uniswap Wallet, paki-update ito sa pinakabagong bersyon."
+    },
+    "label": {
+      "recoveryPhrase": "Recovery phrase"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "Mga pangkalahatang preference"
+  },
+  "hero": {
+    "scroll": "Mag-scroll para matuto pa",
+    "subtitle": "Ang pinakamalaking onchain marketplace. Bumili at magbenta ng crypto sa Ethereum at 11+ pang chain.",
+    "swap": {
+      "title": "Mag-swap sa anumang oras, <br/> kahit saan."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Matuto pa tungkol sa mga naka-hide na NFT"
+        },
+        "text": {
+          "button": "Mga naka-hide na NFT ({{numHidden}})",
+          "extension": "Ang mga ito ay mga potensyal na scam at NFT na itinago mo. Puwede mong i-right click ang isang NFT para i-unhide ito.",
+          "mobile": "Ang mga ito ay mga potensyal na scam at NFT na itinago mo. Puwede mong pindutin nang matagal ang isang NFT para i-unhide ito.",
+          "title": "Mga nakatagong NFT"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Matuto pa tungkol sa mga nakatagong token"
+        },
+        "text": {
+          "button": "Mga nakatagong token ({{numHidden}})",
+          "info": "Ang mga ito ay mga potensyal na scam, maliit na balanse, at token na itinago mo. Hindi kasama sa iyong kabuuang balanse sa wallet ang mga nakatagong token.",
+          "title": "Mga nakatagong token"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Tumanggap ng mga token o NFT",
+        "description": {
+          "default": "Kapag nag-apruba, nag-trade, o nag-transfer ng mga token o NFT, lalabas dito ang mga transaksyon mo.",
+          "external": "Kapag gumawa ng mga transaksyon ang wallet na ito, lalabas dito ang mga ito."
+        },
+        "title": "Wala pang aktibidad"
+      },
+      "error": {
+        "load": "Hindi ma-load ang aktibidad"
+      },
+      "title": "Aktibidad"
+    },
+    "banner": {
+      "offline": "Nasa offline mode ka",
+      "testnetMode": {
+        "nav": "Nasa testnet mode ka. I-off ito sa mga setting.",
+        "outage": {
+          "monad": {
+            "description": "Access to Monad Testnet is temporarily paused through the Uniswap interface due to network stability issues. Testnet funds are not impacted. Access will be restored once the issues are resolved.",
+            "title": "Monad temporarily paused"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "I-tap ang “maghanap” para mag-explore pa",
+      "title": "I-explore ang mga token"
+    },
+    "extension": {
+      "error": "Nagka-error sa pag-load ng mga account"
+    },
+    "label": {
+      "buy": "Bumili",
+      "for": "Bumili/Magbenta",
+      "receive": "Tumanggap",
+      "send": "Ipadala",
+      "swap": "Mag-swap"
+    },
+    "nfts": {
+      "title": "Mga NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Bumili gamit ang debit card o bank account.",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "Ilagay ang recovery phrase ng wallet na ito para simulan ang pag-swap at pagpapadala.",
+            "title": "Mag-import ng wallet"
+          },
+          "receive": {
+            "description": "Mag-transfer mula sa isa pang wallet o account.",
+            "title": "Tumanggap ng crypto"
+          }
+        },
+        "description": "Kapag bumili o tumanggap ng mga token ang wallet na ito, lalabas dito ang mga ito.",
+        "title": "Wala pang token",
+        "welcome": {
+          "description": "Mukhang may bago kang wallet. Pondohan natin ito bago mo gawin ang una mong pag-swap."
+        }
+      },
+      "error": {
+        "fetch": "Hindi nakuha ang mga balanse ng token",
+        "load": "Hindi ma-load ang mga balanse ng token"
+      },
+      "title": "Mga token"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Mula sa isang account",
+        "description": "Pondohan ang wallet mo sa pamamagitan ng pag-transfer ng crypto mula sa ibang wallet o account",
+        "title": "Tumanggap ng crypto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Isa itong view-only na wallet"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Mag-swap o magbigay ng liquidity sa Uniswap Protocol",
+      "title": "Interface ng Uniswap"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Buuin ang susunod na generation ng mga open application at tool.",
+    "connectWithUs": "Kumonekta sa amin",
+    "devDocs": "Mga doc ng developer",
+    "directToDeFi": "Dumirekta sa DeFi",
+    "followOnX": "Subaybayan ang @Uniswap sa X para sa mga pinakabagong update",
+    "protocolDescription": "Ang mga produkto ng Uniswap ay pinapagana ng Uniswap Protocol. Ang protocol ang pinakamalaking onchain marketplace, na may bilyon-bilyong dolyar sa lingguhang volume sa libu-libong token sa Ethereum at 7+ karagdagang chain.",
+    "provideLiquidity": {
+      "message": "Magbigay ng liquidity sa mga pool sa Uniswap Protocol at makakuha ng mga fee sa mga swap."
+    },
+    "swapSimple": "Pinasimple ang pag-swap. I-access ang libo-libong token sa 11+ chain.",
+    "teamInsights": "Mga insight at balita mula sa team",
+    "trusted": "Pinagkakatiwalaan ng milyon-milyon"
+  },
+  "language": {
+    "afrikaans": "Afrikaans",
+    "arabic": "Arabic",
+    "catalan": "Catalan",
+    "chineseSimplified": "Chinese, Simplified",
+    "chineseTraditional": "Chinese, Traditional",
+    "czech": "Czech",
+    "danish": "Danish",
+    "dutch": "Dutch",
+    "english": "English",
+    "finnish": "Finnish",
+    "french": "French",
+    "greek": "Greek",
+    "hebrew": "Hebrew",
+    "hindi": "Hindi",
+    "hungarian": "Hungarian",
+    "indonesian": "Indonesian",
+    "italian": "Italian",
+    "japanese": "Japanese",
+    "korean": "Korean",
+    "malay": "Malay",
+    "norwegian": "Norwegian",
+    "polish": "Polish",
+    "portuguese": "Portuguese",
+    "romanian": "Romanian",
+    "russian": "Russian",
+    "serbian": "Serbian",
+    "spanishLatam": "Spanish (Latin America)",
+    "spanishSpain": "Spanish (Spain)",
+    "spanishUs": "Spanish (US)",
+    "swahili": "Swahili",
+    "swedish": "Swedish",
+    "turkish": "Turkish",
+    "ukrainian": "Ukrainian",
+    "urdu": "Urdu",
+    "vietnamese": "Vietnamese"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 bukas na limit",
+      "count_other": "{{count}} (na) bukas na limit"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Ang iyong limit na presyo ay {{percentage}}% mas mataas sa market. I-adjust ang limit na presyo mo para magpatuloy.",
+        "title": "Pagbili ng {{tokenSymbol}} na mas mataas sa presyo sa market"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Hindi namin makalkula ang kasalukuyang presyo sa market. Para maiwasang magsumite ng order na mas mababa sa presyo sa market, pakisuri ulit ang iyong koneksyon sa network at subukan ulit.",
+        "title": "Hindi available ang presyo sa market"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Ang iyong limit na presyo ay {{percentage}}% mas mababa kaysa sa market. I-adjust ang limit na presyo mo para magpatuloy.",
+        "title": "Magbebenta ng {{tokenSymbol}} na mas mababa sa presyo sa market"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Ang mga Mainnet token lang ang available para sa mga limit."
+        },
+        "uniswapx": "Posibleng hindi ma-execute nang eksakto ang mga limit kapag naabot ng mga token ang tinukoy na presyo. <link />"
+      }
+    },
+    "learnMore": "Matuto pa tungkol sa mga limit",
+    "price": {
+      "input": {
+        "label": "Kapag ang 1 <tokenSymbol /> ay nagkakahalaga ng"
+      },
+      "label": "Limit na presyo"
+    },
+    "selectSupportedTokens": "Pumili ng mga sinusuportahang token"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Ilagay ang address ng hook"
+      }
+    },
+    "learnMoreLabel": "Alamin ang tungkol sa pagbibigay ng liquidity",
+    "notEnough": {
+      "label": "Hindi sapat ang liquidity para makapagpakita ng tumpak na halaga sa USD."
+    },
+    "provideOnProtocols": "Pagbibigay ng liquidity sa iba't ibang protocol"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "Liquidity ng {{token}}: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Magdagdag ng liquidity sa mga pool{{version}} sa Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Mga saradong posisyon"
+      },
+      "page": {
+        "title": "Pamahalaan ang liquidity ng pool ma {{quoteSymbol}}/{{baseSymbol}} sa Uniswap",
+        "version": {
+          "description": "Tingnan ang mga posisyon ng aktibong liquidity mo na {{version}}. Magdagdag ng mga bagong posisyon.",
+          "title": "Pamahalaan ang liquidity ng pool na {{version}} sa Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Pinapayagan",
+    "allowLpMigration": "Payagan ang pag-migrate ng token ng LP",
+    "connectAccount": "Dapat kang magkonekta ng account na nagmamay-ari ng posisyong ito.",
+    "connectWallet": "Kumonekta sa isang wallet para matingnan ang iyong V2 liquidity.",
+    "contract": "Kontrata sa pag-migrate ng Uniswap",
+    "firstLP": "Ikaw ang unang provider ng liquidity para sa Uniswap V3 pool na ito. Ima-migrate ang iyong liquidity sa kasalukuyang presyo ng {{source}}.",
+    "highGasCost": "Mas tataas lalo ang iyong gastos sa transaksyon dahil kasama rito ang gas para magawa ang pool.",
+    "invalidRange": "Invalid ang range na pinili. Ang min na presyo ay mas mababa dapat sa max na presyo.",
+    "lpNFT": "{{symA}}/{{symB}} na NFT ng LP",
+    "lpTokens": "{{symA}}/{{symB}} na mga token ng LP",
+    "migrating": "Nagma-migrate",
+    "missingV2Position": "Hindi nakikita ang isa sa mga posisyon ng v2 mo? <Link>I-import ito.</Link>",
+    "noV2Liquidity": "Walang nakitang liquidity ng V2.",
+    "positionNoFees": "Ang iyong posisyon ay hindi magkakaroon ng mga fee o gagamitin sa mga trade hangga't hindi lumilipat ang presyo sa market papunta iyong range.",
+    "priceDifference": "Pagkakaiba sa presyo: ",
+    "priceWarning": "Dapat ka lang magdeposito ng liquidity sa Uniswap V3 sa presyong pinaniniwalaan mong tama. <br /> Kung mukhang mali ang presyo, puwede kang magsagawa ng swap para mailipat ang presyo o hintaying may ibang gumawa nito.",
+    "refund": "Hindi bababa sa {{amtA}} {{symA}} at {{amtB}} {{symB}} ang ire-refund sa wallet mo dahil sa piniling range ng presyo.",
+    "selectFeeTier": "Pumili ng tier ng fee",
+    "setRange": "Itakda ang range ng presyo",
+    "symbolPrice": "Presyo ng {{protocolName}} {{tokenSymbol}}:",
+    "v2Description": "Ligtas na ima-migrate ng tool na ito ang iyong {{source}} liquidity sa V3. Ang prosesong ito ay ganap na trustless dahil sa <0>kontrata sa pag-migrate ng Uniswap</0> ↗",
+    "v2Instruction": "Para sa bawat pool na ipinapakita sa ibaba, i-click ang i-migrate para alisin ang iyong liquidity mula sa Uniswap V2 at ideposito ito sa Uniswap V3.",
+    "v2Title": "I-migrate ang V2 liquidity",
+    "v3Price": "Presyo ng V3 {{sym}}:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Invalid ang input ng presyo"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Kunin ang Uniswap Wallet app"
+      },
+      "title": "Uniswap: Crypto at NFT Wallet"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp na pinapagana ng MoonPay USA LLC",
+    "restricted": {
+      "region": "Hindi available ang Moonpay sa ilang rehiyon. Mag-click para matuto pa."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Gumawa ng account"
+    },
+    "logIn": {
+      "button": "Mag-log in"
+    },
+    "signIn": {
+      "button": "Mag-sign in"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "Mag-sign up"
+    },
+    "tabs": {
+      "createPosition": "Gumawa ng posisyon",
+      "viewPositions": "Tingnan ang mga posisyon"
+    }
+  },
+  "network": {
+    "lostConnection": "Posibleng nawala ang iyong koneksyon sa network.",
+    "mightBeDown": "Posibleng hindi gumagana ang {{network}} sa ngayon, o nawalan ka ng iyong koneksyon sa network.",
+    "warning": "Babala sa network"
+  },
+  "nft": {
+    "addToBag": "Idagdag sa bag",
+    "authorsCollectionOnUni": "Ang koleksyon ng NFT ni {{name}} sa Uniswap",
+    "bag": "Bag",
+    "blockedCollection": "Naka-block ang koleksyong ito",
+    "blockedOpenSea": "Naka-block sa OpenSea",
+    "buyTransferNFTToStart": "Bumili o mag-transfer ng mga NFT sa wallet na ito para makapagsimula.",
+    "buyTransferTokensToStart": "Bumili o mag-transfer ng mga token sa wallet na ito para makapagsimula.",
+    "card": {
+      "notAvailable": "Hindi pa <br /> available ang content"
+    },
+    "chainSupportComingSoon": "Paparating na ang suporta sa {{chainName}}",
+    "collectionOnUni": "Koleksyon ng NFT sa Uniswap",
+    "collectonOnAddress": "Koleksyon ng NFT sa Uniswap - {{address}}",
+    "complete": "Kumpleto na!",
+    "editListings": "I-edit ang mga listing",
+    "event": "Event",
+    "explore": "I-explore ang mga NFT",
+    "learnWhy": "Alamin kung bakit",
+    "list": {
+      "header": {
+        "lastPrice": "Huli"
+      },
+      "title": "Maglista ng mga NFT"
+    },
+    "listedSignificantly_one": "Nailista ang isang NFT nang {{percentage}} mas mababa sa pinakamababang presyo ng koleksyon. Sigurado ka bang gusto mong magpatuloy?",
+    "listedSignificantly_other": "{{count}} (na) NFT ang nailista nang labis na mas mababa sa pinakamababang presyo ng koleksyon. Sigurado ka bang gusto mong magpatuloy?",
+    "listForSale": "Listahan para sa pagbebenta",
+    "lowPrice": "Mababang presyo ng listing",
+    "marketplace": {
+      "royalty": {
+        "header": "Mga fee sa {{marketName}}"
+      }
+    },
+    "maxFees": "Mga max na fee",
+    "maxRoyalties": "Mga max na royalty ng creator",
+    "noItems": "Walang item na ipapakita",
+    "noneAtAddress": "Walang asset ng koleksyon sa address na ito",
+    "noPools": "Wala pang pool",
+    "notListed": "Hindi nakalista",
+    "proceedsIfSold": "Magpapatuloy kung maibebenta",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Nakalista na sa {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} mas mababa sa pinakamababang presyo."
+        }
+      }
+    },
+    "refundsInEth": "Ang mga refund para sa mga hindi available na item ay ibibigay sa ETH",
+    "removeFromBag": "Alisin sa bag",
+    "reportSpam": "Iulat na spam",
+    "returnToExplore": "Bumalik sa Pag-explore ng NFT",
+    "returnToMy": "Bumalik sa Mga NFT Ko",
+    "setPrices": "Itakda ang mga presyo para magpatuloy",
+    "startListing": "Simulan ang listing",
+    "successListed": "Nailista na",
+    "unavailableToList": "Hindi available para sa listing",
+    "whyTransaction": {
+      "reason": "Kinakailangan sa listing ng NFT ang one-time na pag-apruba ng marketplace para sa bawat koleksyon ng NFT."
+    },
+    "willAppearHere": "Lalabas dito ang iyong mga onchain na transaksyon at pagbili ng crypto.",
+    "wishGranted": "Ibinigay ng Uniswap ang kahilingan mo!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Aprubahan ang koleksyon",
+        "approve_other": "Aprubahan ang mga koleksyon",
+        "sign_one": "I-sign ang listing",
+        "sign_other": "I-sign ang mga listing"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "Max na {{percentChanged}}"
+      }
+    },
+    "my": "Mga NFT ko",
+    "noneYet": "Wala pang NFT",
+    "sell": "Magbenta ng mga NFT"
+  },
+  "notFound": {
+    "oops": "Oops, ibalik ako sa Mag-swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Disclaimer sa UK:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "Itinago ang {{assetName}}",
+      "unhidden": "Na-unhide ang {{assetName}}"
+    },
+    "copied": {
+      "address": "Nakopya ang address",
+      "calldata": "Nakopya ang data ng tawag",
+      "contractAddress": "Nakopya ang address ng kontrata",
+      "failed": "Hindi nakopya sa clipboard",
+      "image": "Nakopya ang larawan",
+      "nftUrl": "Nakopya ang URL ng NFT",
+      "tokenUrl": "Nakopya ang URL ng Token",
+      "transactionId": "Nakopya ang Transaction ID",
+      "unitag": "Nakopya ang username"
+    },
+    "countryChange": "Lumipat sa {{countryName}}",
+    "network": {
+      "changed": "Lumipat sa {{network}}"
+    },
+    "passwordChanged": "Binago ang password",
+    "restore": {
+      "success": "Na-restore na ang wallet!"
+    },
+    "send": {
+      "network": "Ipinapadala sa {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Iniulat"
+      }
+    },
+    "swap": {
+      "network": "Nagsa-swap sa {{network}}",
+      "pending": {
+        "swap": "Nakabinbin ang swap",
+        "unwrap": "Nakabinbin ang pag-unwrap",
+        "wrap": "Nakabinbin ang pag-wrap"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Kinansela ang pag-apruba ng {{currencySymbol}}.",
+        "fail": "Hindi naaprubahan ang paggamit ng {{currencySymbol}} sa {{address}}.",
+        "success": "Naaprubahan ang paggamit ng {{currencySymbol}} sa {{address}}."
+      },
+      "pending": "Nakabinbin ang transaksyon",
+      "swap": {
+        "canceled": "Kinansela ang swap na {{inputCurrencySymbol}}-{{outputCurrencySymbol}}.",
+        "expired": "Nag-expire na ang pag-swap ng {{inputCurrencyAmountWithSymbol}} para sa {{outputCurrencyAmountWithSymbol}}.",
+        "fail": "Hindi na-swap ang {{inputCurrencyAmountWithSymbol}} para sa {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Na-swap ang {{inputCurrencyAmountWithSymbol}} para sa {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Kinansela ang pagpapadala ng {{tokenNameOrAddress}}",
+        "fail": "Hindi naipadala ang {{tokenNameOrAddress}} sa {{walletNameOrAddress}}",
+        "received": "Nakatanggap ng {{tokenNameOrAddress}} mula sa {{walletNameOrAddress}}",
+        "success": "Naipadala na ang {{tokenNameOrAddress}} sa {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Hindi naisagawa ang transaksyon sa {{addressOrEnsName}}",
+          "short": "Hindi naisagawa ang transaksyon"
+        },
+        "success": {
+          "full": "Nakipagtransaksyon kay {{addressOrEnsName}}",
+          "short": "Nakumpirma ang transaksyon"
+        }
+      },
+      "unwrap": {
+        "canceled": "Kinansela ang pag-unwrap ng {{inputCurrencySymbol}}.",
+        "fail": "Hindi na-unwrap ang {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Na-unwrap ang {{inputCurrencyAmountWithSymbol}} at natanggap ang {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Kinansela ang pag-wrap ng {{inputCurrencySymbol}}.",
+        "fail": "Hindi na-wrap ang {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Na-wrap ang {{inputCurrencyAmountWithSymbol}} at natanggap ang {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Nakabinbin ang pagpapadala"
+    },
+    "walletConnect": {
+      "confirmed": "Nakumpirma ang transaksyon sa {{dappName}}",
+      "connected": "Nakakonekta",
+      "disconnected": "Nadiskonekta",
+      "failed": "Hindi naisagawa ang transaksyon sa {{dappName}}",
+      "networkChanged": {
+        "full": "Lumipat sa {{networkName}}",
+        "short": "Lumipat ng network"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Magpatuloy sa Uniswap Extension",
+      "title": "Tagumpay!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Iminumungkahi naming isulat ito sa isang piraso ng papel at itabi ito sa isang ligtas na lugar, tulad ng safe.",
+        "displayWarning": {
+          "description": "Basahin nang mabuti ang sumusunod bago magpatuloy.",
+          "note": {
+            "access": "Nagbibigay sa iyo ang recovery phrase na ito ng ganap na access sa iyong wallet at mga pondo",
+            "secure": "Tingnan ito nang pribado at huwag itong ibahagi sa kahit na sino",
+            "storage": "Isulat ito at itabi ito sa isang ligtas na lugar"
+          },
+          "title": "Ilang mahalagang bagay na dapat malaman"
+        },
+        "error": "Invalid o na-spell nang mali ang salita",
+        "placeholder": "Lihim na salita",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} ang nakumpleto",
+        "selectedWordPlaceholder": "Pumili ng salita",
+        "subtitle_one": "Ano ang pang- {{count}} salita sa iyong recovery phrase?",
+        "subtitle_two": "Ano ang pang-{{count}} sailta sa iyong recovery phrase?",
+        "subtitle_few": "Ano ang pang-{{count}} sailta sa iyong recovery phrase?",
+        "subtitle_other": "Ano ang pang-{{count}} (na) salita sa iyong recovery phrase?",
+        "title": "Tiyakin nating naitala mo ito nang tama"
+      },
+      "option": {
+        "badge": {
+          "quick": "Mabilis"
+        },
+        "cloud": {
+          "description": "I-back up ang iyong wallet sa pamamagitan ng {{cloudProviderName}}, na pinoprotektahan ng recovery password.",
+          "title": "Magtaka ng recovery password"
+        },
+        "manual": {
+          "description": "Itala ang iyong 12 lihim na salita sa isang papel at itabi ito sa isang ligtas na lugar.",
+          "title": "Isulat ang recovery phrase"
+        }
+      },
+      "reminder": {
+        "description": "Sa pamamagitan ng pag-back up ng iyong wallet, natitiyak na mare-recover mo sa anumang oras ang iyong mga asset kung sakaling mawawala mo ang iyong telepono o magkakaroon ka ng bagong device.",
+        "title": "Oras nang i-back up ang iyong wallet",
+        "warning": {
+          "description": "Kung hindi ka magse-set up ng paraan sa pag-back up, wala kang magiging paraan para i-recover ang iyong wallet kung mawawala mo ang iyong telepono, ide-delete mo ang app, o kukuha ka ng bagong device.",
+          "title": "Puwede mong mawala ang iyong mga pondo"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Kung sakaling makalimutan mo ito, hindi namin ito mare-reset para sa iyo. Isulat ito sa isang ligtas na sulatan o ligtas itong i-store sa isang password manager.",
+          "disclaimer": "Nauunawaan kong hindi mare-reset ng Uniswap Labs ang aking recovery password.",
+          "title": "Mahalagang i-save ang password na ito"
+        },
+        "manual": {
+          "description": "Tiyaking naisulat mo nang tama ang iyong recovery phrase at may ligtas na lugar kang mapagtataguan nito.",
+          "disclaimer": "Nauunawaan kong hindi mare-recover ng Uniswap Labs ang wallet ko kung mawawala ko ito.",
+          "title": "Bago ka matapos..."
+        }
+      },
+      "subtitle": "Ganito mo mare-recover ang iyong wallet kung ide-delete mo ang app o mawawala mo ang iyong device.",
+      "title": {
+        "existing": "I-back up ang iyong wallet",
+        "new": "Piliin ang iyong paraan ng pag-back up"
+      },
+      "view": {
+        "disclaimer": "Nauunawaan ko na kung mawawala ko ang aking recovery phrase, hindi ako matutulungan ng Uniswap Labs na i-restore ito.",
+        "subtitle": {
+          "message1": "Basahin nang mabuti ang sumusunod bago magpatuloy",
+          "message2": "Kakailanganin mong ilagay ang lahat ng 12 lihim na salita na ito para ma-recover ang wallet mo."
+        },
+        "title": "Isulat ang iyong recovery phrase",
+        "warning": {
+          "message1": "Nagbibigay sa iyo ang recovery phrase na ito ng ganap na access sa iyong wallet at mga pondo",
+          "message2": "Isulat ito at itabi ito sa isang ligtas na lugar",
+          "message3": "Tingnan ito nang pribado at <u>huwag itong ibahagi sa kahit na sino</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Kakailanganin mo itong ilagay para ma-recover ang mga pondo mo. Kung sakaling makalimutan mo ito, hindi namin ito makukuha para sa iyo.",
+        "title": "Kumpirmahin ang iyong recovery password"
+      },
+      "createPassword": {
+        "description": "Kakailanganin mo itong ilagay para ma-recover ang mga pondo mo. Kung sakaling makalimutan mo ito, hindi namin ito makukuha para sa iyo.",
+        "title": "Gawin ang iyong recovery password"
+      }
+    },
+    "complete": {
+      "button": "Buksan ang Uniswap Extension",
+      "description": "Handa na ang iyong wallet na magpadala at tumanggap ng crypto. Buksan ang Uniswap Extension gamit ang shortcut sa ibaba.",
+      "go_to_uniswap": "Pumunta sa Uniswap Web App",
+      "pin": {
+        "description": "I-click ang icon na pin para idagdag ang Uniswap Extension sa iyong toolbar.",
+        "title": "I-pin ang Uniswap Extension"
+      },
+      "title": "Handa ka na"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Kakailanganin mo ito para i-unlock ang iyong wallet at i-access ang recovery phrase mo",
+        "title": {
+          "default": "Gumawa ng password",
+          "reset": "I-reset ang iyong password"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Compatible lang ang Uniswap Extension sa Chrome sa desktop.",
+          "title": "Hindi (pa) sinusuportahan ang Chrome sa mobile"
+        },
+        "description": "Compatible lang ang Uniswap Extension sa Chrome sa ngayon.",
+        "title": "Hindi (pa) sinusuportahan ang browser na ito"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Mag-set up ng plano sa pag-recover kung sakaling mawala mo ang iyong telepono o kukuha ka ng bago.",
+          "title": "I-back up ang iyong wallet"
+        },
+        "fund": {
+          "description": "Pondohan ang wallet mo sa pamamagitan ng pagbili ng crypto o pag-transfer mula sa ibang account.",
+          "title": "Kunin ang una mong token"
+        },
+        "label": {
+          "required": "Kinakailangan",
+          "swipe": "Mag-swipe"
+        },
+        "pushNotifications": {
+          "description": "Makakuha ng mga alerto sa presyo sa mga paborito mong token, trend sa market, at higit pa.",
+          "title": "Manatiling may alam"
+        },
+        "unitag": {
+          "description": "Bumuo ng naka-personalize na web3 profile at maibahagi kaagad ang iyong address sa mga kaibigan.",
+          "title": "I-claim ang iyong username sa {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 salita ang invalid o mali ng spelling",
+        "invalidWords_other": "{{count}} (na) salita ang invalid o mali ng spelling"
+      },
+      "method": {
+        "import": {
+          "message": "Enter your recovery phrase from another crypto wallet.",
+          "title": "Mag-import ng wallet"
+        },
+        "passkey": {
+          "message": "Sync your Uniswap wallet using an existing passkey.",
+          "title": "Sign in with passkey"
+        },
+        "restore": {
+          "message": {
+            "android": "Add wallets you’ve backed up to your Google Drive account.",
+            "ios": "Add wallets you’ve backed up to your iCloud account."
+          },
+          "title": "Mag-restore ng wallet"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Hindi mo ba gusto ang alinman sa itaas?"
+        },
+        "subtitle": "Piliin kung sa aling wallet mo gustong mag-log in ulit.",
+        "title": "Welcome back sa Uniswap",
+        "wallet": {
+          "button": "Tingnan ang recovery phrase",
+          "count_one": "+1 pang wallet",
+          "count_other": "+{{count}} pang wallet"
+        },
+        "warning": {
+          "caption": "Pakitiyak na na-back up mo ang lahat ng iba pang wallet. Kung sakaling gusto mong i-restore ang mga ito, kakailanganin mo ang mga recovery phrase ng mga ito o ang mga kaukulang backup ng mga ito sa {{cloudProvider}}.",
+          "title": "Sigurado ka ba?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Import a wallet from the mobile app via QR code.",
+          "title": "Use Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "Sync your Uniswap wallet using an existing passkey.",
+          "title": "Sign in with passkey"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Enter your recovery phrase from another crypto wallet.",
+          "title": "Import a wallet"
+        },
+        "title": "Sign in or import a wallet"
+      },
+      "title": "Piliin kung paano mo gustong idagdag ang iyong wallet"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "12 salita ang aking recovery phrase",
+        "importing": "Ini-import...",
+        "longPhrase": "Mas mahaba ang aking recovery phrase"
+      },
+      "error": {
+        "invalidPhrase": "Invalid ang phrase na inilagay mo"
+      },
+      "subtitle": "I-type o i-paste ang iyong 12 salitang recovery phrase",
+      "title": "Ilagay ang iyong recovery phrase"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Mayroon na akong wallet",
+        "signInOrImport": "Sign in or import"
+      },
+      "mobileScan": {
+        "button": "I-scan ang QR code para mag-import",
+        "title": "Mayroong Uniswap app?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Magdagdag ng dati nang wallet",
+        "create": "Gumawa ng wallet",
+        "createAccount": "Create an account"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Tapusin"
+        },
+        "subtitle": "Ikaw lang ang makakakita sa nickname na ito",
+        "title": "Bigyan ng pangalan ang wallet mo"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Para makatanggap ng mga notification, i-on ang mga notification para sa Uniswap Wallet sa mga setting ng device mo.",
+        "title": "Pahintulot sa mga notification"
+      },
+      "subtitle": "Manatiling updated sa mga status ng transaksyon at malalaking pagbabago sa presyo para sa mga paboritong token.",
+      "title": "I-on ang mga notification"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Protektado ang iyong account ng sarili mong secure na storage ng password."
+      },
+      "biometric": {
+        "scan": "Telepono, tablet, o browser — i-scan lang ang iyong biometrics at mala-log in ka na."
+      },
+      "create": "Gumawa ng iyong passkey",
+      "use": {
+        "recovery": {
+          "phrase": "Gumamit na lang ng recovery phrase"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Kumpirmahin natin kung nakuha mo ito nang tama. Kung mawawala mo ito o mali ang maisusulat mo, hindi mo mare-recover ang iyong mga pondo.",
+          "default": "Kung mawawala mo ito o mali ang maisusulat mo, hindi mo mare-recover ang mga pondo mo."
+        },
+        "title": "Kumpirmahin natin kung nakuha mo ito nang tama"
+      },
+      "view": {
+        "subtitle": "Kakailanganin mong ilagay ang lahat ng 12 lihim na salita na ito para ma-recover ang wallet mo.",
+        "title": {
+          "hasPassword": "Kung sakaling makalimutan mo ang iyong password..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Handa na ako",
+          "message": "Ang recovery phrase mo ang nagbibigay sa iyo (at sa sinumang mayroon nito) ng access sa mga pondo mo. Tiyaking ikaw lang ang nakakaalam nito.",
+          "title": "Gawin ang hakbang ito sa isang pribadong lugar"
+        },
+        "screenshot": {
+          "message": "Ang sinumang magkakaroon ng access sa iyong mga larawan ay magkakaroon ng access sa wallet mo. Inirerekomenda naming isulat mo na lang ang mga salita mo.",
+          "title": "Hindi secure ang mga screenshot"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Matuto pa tungkol sa kaligtasan ng wallet",
+        "subtitle": "Gamitin ang bagong password mo para i-unlock ang wallet mo.",
+        "title": "Pag-reset ng password"
+      }
+    },
+    "scan": {
+      "error": "Nagka-error sa pag-load ng QR code",
+      "otp": {
+        "error": "Mali ang code na isinumite mo, o nagka-error sa pagsusumite. Pakisubukan ulit.",
+        "failed": "Mga nabigong pagsubok: {{number}}",
+        "subtitle": "Tingnan ang iyong Uniswap mobile app para sa 6 na character na code",
+        "title": "Ilagay ang isang beses na code"
+      },
+      "subtitle": "I-scan ang QR code gamit ang Uniswap mobile app para simulan ang pag-import ng wallet mo.",
+      "title": "Mag-import ng wallet mula sa app",
+      "troubleScanning": {
+        "message": "Mag-import gamit ang recovery phrase",
+        "title": "Nagkakaproblema sa pag-scan?"
+      },
+      "wifi": "Ikonekta ang iyong telepono sa WiFi network kung saan nakakonekta ang computer mo."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Para gumamit ng biometrics, i-set up muna ito sa mga setting",
+            "ios": "Para gamitin ang {{biometricsMethod}}, payagan ang access sa mga setting ng system"
+          },
+          "title": {
+            "android": "Naka-disable ang biometrics",
+            "ios": "Naka-disable ang {{biometricsMethod}}"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "I-enable ang biometrics",
+          "ios": "I-enable ang {{biometricsMethod}}"
+        },
+        "setup": "I-set up"
+      },
+      "subtitle": {
+        "android": "Magdagdag ng karagdagang layer ng seguridad sa pamamagitan ng pag-require ng biometrics para makapagpadala ng mga transaksyon.",
+        "ios": "Magdagdag ng karagdagang layer ng seguridad sa pamamagitan ng pag-require ng {{biometricsMethod}} para makapagpadala ng mga transaksyon."
+      },
+      "title": "Protektahan ang wallet mo"
+    },
+    "selectWallets": {
+      "error": "Hindi ma-load ang mga address",
+      "title": {
+        "default": "Pumili ng mga wallet na i-import",
+        "error": "Error sa pag-import ng mga wallet"
+      }
+    },
+    "termsOfService": "Sa pagpapatuloy, sumasang-ayon ako sa<highlightTerms> Mga Tuntunin ng Serbisyo </highlightTerms>at pumapayag ako sa<highlightPrivacy> Patakaran sa Privacy</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Ano ang recovery phrase?"
+      }
+    },
+    "wallet": {
+      "continue": "Panatilihin natin itong ligtas",
+      "defaultName": "Wallet {{number}}",
+      "description": {
+        "full": "Ito ang iyong personal na space para sa mga token, NFT, at lahat ng trade mo. Tapusin ang pag-set up nito para mapanatiling ligtas ang mga pondo mo."
+      },
+      "title": "Welcome sa bago mong wallet"
+    },
+    "welcome": {
+      "subtitle": "Let’s finish setting up your wallet.",
+      "title": "Welcome!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Puwede ka pa ring mag-swap at magbigay ng liquidity sa chain na ito nang walang isyu."
+    },
+    "title": "Babalik kaagad ang {{versionName}}"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Having trouble using or accessing your passkey? Visit Uniswap Support for help.",
+        "title": "Help with passkeys"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Pinapayagan ng Permit2 na maibahagi at mapamahalaan sa iba't ibang application ang mga pag-apruba ng token."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktibong range sa pag-tick",
+    "addAs": "Idagdag bilang {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Na-annualize batay sa mga fee sa 1 araw"
+    },
+    "aprText": "Pool APR",
+    "balances": "Mga balanse sa pool",
+    "closedCTA": {
+      "description": "Makikita mo ang mga ito sa pamamagitan ng paggamit sa filter sa itaas ng page.",
+      "title": "Hinahanap ang iyong mga nakasaradong posisyon?"
+    },
+    "collectAs": "Kolektahin bilang {{nativeWrappedSymbol}}",
+    "collectFees": "Mangolekta ng mga fee",
+    "create": {
+      "info": "Ang mga pipiliin mo ay lilikha ng bagong pool ng liquidity na posibleng magresulta sa mas mababang inisyal na liquidity at tumaas na volatility. Pag-isipan ang pagdaragdag sa kasalukuyang pool para mabawasan ang mga risk na ito."
+    },
+    "createdPosition": {
+      "cancelled": "Nakansela ang paggawa ng posisyon",
+      "failed": "Hindi nagawa ang posisyon"
+    },
+    "details": "Pool details",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "Mga Explorer",
+    "import": {
+      "link": {
+        "description": "Hindi awtomatikong ipinapakita ang ilang posisyon ng v2."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Hindi awtomatikong ipinapakita ang ilang posisyon ng v2. Pumili ng pares ng token para ma-import at matingnan ang iyong mga posisyon."
+          }
+        }
+      },
+      "success": "Na-import ang pool"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "Impormasyon ng pool",
+    "limitFluctuation": {
+      "warning": "Pakitandaang posibleng mag-iba-iba ang pag-execute para sa mga limit batay sa mga real-time na fluctuation sa market at congestion sa network ng Ethereum. Posibleng hindi ma-execute nang eksakto ang mga limit kapag naabot ng mga token ang tinukoy na presyo."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Nagka-error sa pag-fetch ng data na kinakailangan para sa iyong transaksyon."
+        }
+      },
+      "outOfSync": {
+        "message": "Ang mga presyo sa pool na ito ay naiiba sa mga presyo sa market ng mga napiling token. I-adjust ang iyong range ng presyo nang naaayon o hintaying mabalanse ulit ang pool para maiwasan ang mga pagkalugi."
+      }
+    },
+    "maxPrice": "Max na presyo",
+    "migrateLiquidity": "I-migrate ang liquidity",
+    "migrateLiquidityDisabledTooltip": "Hindi sinusuportahan ng chain na ito ang mga v4 liquidity pool.",
+    "migrateToV4": "Mag-migrate sa v4",
+    "minPrice": "Min na presyo",
+    "newPosition": {
+      "plus": "+ Bagong posisyon",
+      "title": "Bagong posisyon"
+    },
+    "newSpecificPosition": "Bagong posisyon ng {{symbol}}",
+    "openPosition": {
+      "cta": "Magdagdag ng liquidity sa isang pool at tingnan ang iyong mga posisyon dito"
+    },
+    "openToStart": "Magbukas ng bagong posisyon o gumawa ng pool para magsimula.",
+    "percent": "{{pct}}% pool",
+    "pooled": "Na-pool na {{sym}}:",
+    "position": "Posisyon",
+    "positions": {
+      "title": "Ang mga posisyon mo",
+      "transaction": {
+        "settings": "Mga setting ng transaksyon"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Kasalukuyang hindi available ang halaga sa USD para sa posisyong ito. Tingnan ang mga detalye ng posisyon para sa mga halaga ng naidepositong token."
+      }
+    },
+    "priceRange": "Range ng presyo",
+    "refresh": {
+      "prices": "I-refresh ang mga presyo"
+    },
+    "removeLiquidity": "Alisin ang liquidity",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "Mga token ng pool sa pool ng mga reward:"
+    },
+    "selectPair": "Pumili ng pares",
+    "share": {
+      "label": "Ang iyong share sa pool:"
+    },
+    "specificPosition": "Posisyon ng {{symbol}}",
+    "tokenPair": "Pares ng token",
+    "top": {
+      "tvl": "Ang mga nangungunang pool ayon sa TVL"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "Ang mga kabuuang token ng pool mo:",
+    "uncollectedFees": "Mga hindi nakolektang fee",
+    "v2": "Mga v2 pool",
+    "v3": "Mga v3 pool",
+    "viewPools": "View pools",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "I-withdraw bilang {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "Mga v2 pool na tumutugma sa iyong napiling pares."
+      },
+      "notFound": {
+        "description": "Walang nakitang v2 pool na tumutugma. I-double check ang iyong napiling token at tiyaking nakakonekta ka sa tamang wallet."
+      }
+    }
+  },
+  "pools": {
+    "explore": "I-explore ang mga pool"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Ang Hooks ay isang advanced na feature na nagbibigay-daan sa mga pool na makipag-interact sa mga smart contract, na nag-a-unlock ng iba't ibang kakayahan. Mag-ingat kapag nagdaragdag ng mga hook, dahil posibleng mapaminsala o magdulot ng mga hindi sinasadyang kahihinatnan ang ilan sa mga ito."
+    },
+    "addingHook": {
+      "disclaimer": "Posibleng may mga hindi sinasadyang kahihinatnan sa pagdaragdag ng mga hook, Magsaliksik at magpatuloy sa sarili mong pagpapasya.",
+      "hideProperties": "Itago ang mga property",
+      "invalidAddress": "Maglagay ng valid na address ng hook",
+      "viewProperties": "Tingnan ang mga property"
+    },
+    "create": {
+      "invalidPrice": "Invalid ang presyo",
+      "invalidRange": "Invalid ang range",
+      "modal": {
+        "header": "Lumilikha ng posisyon"
+      }
+    },
+    "currentValue": "Kasalukuyang value ng posisyon",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "The initial price entered is {{value}}% less than the market price and may result in a loss of funds. Do you wish to proceed?",
+            "more": "The initial price entered is {{value}}% more than the market price and may result in a loss of funds. Do you wish to proceed?"
+          },
+          "title": "Large price difference with market"
+        }
+      },
+      "description": "Tukuyin ang mga halaga ng token para sa iyong kontribusyon sa liquidity."
+    },
+    "depositedCurrency": "Nagdeposito ng {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Gumawa ng posisyon ng v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "Nauunawaan ko ang mga potensyal na risk na kasama sa pagdaragdag ng hook na ito.",
+      "donateWarning": "Puwedeng magresulta ang flag na ito sa mga pagbabago sa mga fee na kikitain.",
+      "liquidityWarning": "Puwedeng magdulot ang flag na ito ng pag-block ng pool sa pagdaragdag ng bagong liquidity. Puwedeng i-revert ang transaksyon mo.",
+      "removeWarning": "Puwedeng magdulot ng pagka-lock ng mga pondo mo o pag-block sa iyo para hindi ka makakolekta ng mga fee.",
+      "swapWarning": "Posibleng magbigay-daan ang flag na ito sa mas madaling paggamit ng mga provider ng liquidity sa Just-In-Time liquidity, na posibleng magresulta sa mas mabababang fee na kikitain.",
+      "warningHeader": "Mahalaga: natukoy ang mga risk ng hook",
+      "warningInfo": "May mga natukoy kaming potensyal na risk sa hook na ito. Pakitiyak na nauunawaan mo kung paano gumagana ang hook na ito bago ka magpasyang magpatuloy."
+    },
+    "increase": {
+      "fot": "Hindi sinusuportahan ang paglalagay ng liquidity para sa {{token}} at iba pang token na “Fee sa Pag-transfer”."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% less than market price",
+        "positive": "{{ value }}% more than market price"
+      },
+      "info": "When creating a new pool, you must set the starting exchange rate for both tokens. This rate will reflect the initial market price.",
+      "set": "Set initial price",
+      "useMarketPrice": "Use market price"
+    },
+    "migrate": {
+      "liquidity": "Kapag nagma-migrate ng mga posisyon, hindi mo mababago ang pares ng token mo, pero puwede kang magdagdag ng hook para mapahusay ang functionality.",
+      "v4unsupportedChain": "Hindi sinusuportahan ang chain na ito para sa mga v4 pool."
+    },
+    "new": {
+      "protocol": "Bagong posisyon ng {{protocol}}"
+    },
+    "notFound": {
+      "description": "Hindi available ang mga detalye sa posisyong ito. Pakitingnan kung nakakonekta ka sa tamang wallet."
+    },
+    "protocol": "Posisyon ng {{protocol}}",
+    "provide": {
+      "liquidity": "Piliin ang mga token kung saan mo gustong magbigay ng liquidity. Puwede kang pumili ng mga token sa lahat ng sinusuportahang network.",
+      "liquidityDescription": {
+        "creatingPool": "Setting full range liquidity when creating a pool ensures continuous market participation across all possible prices, offering simplicity but with potential for higher impermanent loss.",
+        "custom": "Nagbibigay-daan sa iyo ang custom na range na maituon ang liquidity mo sa mga partikular na limitasyon sa presyo, na nagpapahusay sa efficiency ng capital at mga kita sa fee pero nangangailangan ng mas aktibong pamamahala."
+      },
+      "outOfRange": {
+        "closePosition": "Close position",
+        "description": "This position’s range cannot be adjusted during migration. To set a new range, close this position and open a new v4 position.",
+        "title": "You’re migrating an out-of range position"
+      }
+    },
+    "removeHook": "Alisin ang hook",
+    "resetDescription": "Ire-reset ang iyong mga token, presyo, at mga pagpipilian ng range.",
+    "setRange": {
+      "inputsBelow": "Gamitin ang mga input sa ibaba para itakda ang range mo."
+    },
+    "step": {
+      "deposit": "Maglagay ng mga halaga ng deposito",
+      "price": "Itakda ang inisyal na presyo at mga halaga ng deposito",
+      "range": "Itakda ang range ng presyo at mga halaga ng deposito",
+      "select": "Pumili ng pares ng token at mga fee"
+    },
+    "value": "Value ng posisyon",
+    "valueUnavailable": "Kasalukuyang hindi available ang halaga sa USD para sa posisyong ito. Tingnan ang mga detalye ng posisyon para sa mga halaga ng naidepositong token.",
+    "wrapped": {
+      "unwrap": "Unwrap {{wrappedToken}}",
+      "warning": {
+        "info": "Unwrap your {{wrappedToken}} and deposit {{nativeToken}} to provide more cost effective and efficient liquidity."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Ikonekta ang iyong wallet para matingnan ang mga kasalukuyang posisyon mo."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Nagla-log ang app ng mga na-anonymize na istatistika ng paggamit para maging mahusay ito sa paglipas ng panahon.",
+    "autoRouter": "Fine-fetch ng app ang pinakamainam na route ng trade mula sa isang Uniswap Labs server.",
+    "infura": "Nagfe-fetch ang app ng on-chain na data at bumubuo ito ng mga contract call gamit ang Infura API.",
+    "thirdPartyApis": "Ginagamit ng app na ito ang mga sumusunod na third-party na API:",
+    "trm": "Secure na kinokolekta ng app ang iyong wallet address at ibinabahagi ito ng app sa TRM Labs Inc. para sa mga dahilang may kaugnayan sa panganib at pagsunod.",
+    "uniswaptos": "Mga Tuntunin ng Serbisyo ng Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 app ang nakakonekta",
+      "connections_other": "{{count}} (na) app ang nakakonekta"
+    },
+    "error": {
+      "camera": {
+        "message": "Para mag-scan ng code, payagan ang pag-access ng Camera sa mga setting ng system",
+        "title": "Naka-disable ang camera"
+      },
+      "none": "Walang nahanap na QR code"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Mag-scan ng QR code",
+        "show": "Ipakita ang aking QR code"
+      },
+      "error": {
+        "message": "Tiyaking valid ang sina-scan mong QR code ng Ethereum address bago subukang muli.",
+        "title": "Invalid ang QR Code"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Walang nakitang mensahe."
+      },
+      "method": {
+        "default": "Request mula sa {{dappNameOrUrl}}",
+        "signature": "Request sa lagda mula sa {{dappNameOrUrl}}",
+        "transaction": "Request sa transaksyon mula sa {{dappNameOrUrl}}"
+      },
+      "withAmount": "Payagan ang {{dappName}} na gumamit ng hanggang<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Payagan ang {{dappName}} na gamitin ang iyong {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Kumokonekta...",
+      "loading": "Naglo-load..."
+    },
+    "title": "Mag-scan ng QR code",
+    "wallet": {
+      "networks": "Mga Sinusuportahang Network",
+      "title": "Puwede kang magpadala at tumanggap ng mga token at NFT sa lahat ngn aming {{numOfNetworks}} (na) sinusuportahang network."
+    }
+  },
+  "range": {
+    "outOfView": "Hindi makita ang range"
+  },
+  "removeLiquidity": {
+    "pooled": "Na-pool na {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Nagbibigay ito sa Uniswap protocol ng access sa iyong token para sa pag-trade."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Kapag available, pinagsasama-sama ang mga source ng liquidity para sa mas magagandang presyo at libreng pag-swap ng gas.",
+    "cheapest": {
+      "v4": "Pinipili ng Uniswap client ang pinakamagandang opsyon sa trade kung saan fina-factor ang presyo at mga bayad sa network."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Nag-expire",
+      "subtitle": "Ilagay ang code na ito sa Uniswap Extension. Ligtas na ie-encrypt at ita-transfer ang iyong recovery phrase.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Bagong code sa loob ng {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Bagong code sa loob ng {{minutes}}m {{seconds}}s",
+          "seconds": "Bagong code sa loob ng {{seconds}}s"
+        }
+      },
+      "title": "Isang beses na code sa Uniswap"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Oo, magpatuloy"
+      },
+      "label": {
+        "browser": "Browser",
+        "device": "Device"
+      },
+      "subtitle": "Magpatuloy lang kung nagsa-scan ka ng QR code mula sa Uniswap Extension sa isang pinagkakatiwalaang device.",
+      "title": "Sinusubukan mo bang i-import ang wallet mo?",
+      "warning": "Mag-ingat sa mga site at app na nagpapanggap na Uniswap. Dahil kung hindi, puwedeng makompromiso ang wallet mo."
+    },
+    "error": {
+      "encryption": "Hindi naihanda ang seed phrase.",
+      "noCode": "Walang natanggap na OTP. Pakisubukan ulit.",
+      "timeout": {
+        "message": "I-scan ulit ang QR code sa Uniswap Extension para patuloy na ma-sync ang wallet mo.",
+        "title": "Nag-time out ang koneksyon mo"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Para ma-scan ang QR code na ito, nakakonekta dapat ang iyong telepono sa WiFi network kung saan nakakonekta ang computer mo at pansamantalang naka-off dapat ang anumang VPN.",
+        "title": "Magpalit ng iyong WiFi network"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Malapit na: maghanap at mag-explore ng mga token sa {{chainName}} Chain",
+    "input": {
+      "placeholder": "Search tokens and pools"
+    },
+    "results": {
+      "count_one": "1 item",
+      "count_other": "{{count}} (na) item"
+    },
+    "ukDisclaimer": "Disclaimer para sa mga residente ng UK"
+  },
+  "send": {
+    "button": {
+      "review": "Suriin ang pag-transfer"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Bayad sa network"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Balanse: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Pumili ng recipient",
+      "input": {
+        "placeholder": "Maghanap ng ENS o address"
+      },
+      "previous_one": "1 nakaraang pag-transfer",
+      "previous_other": "{{count}} (na) nakaraang pag-transfer",
+      "results": {
+        "empty": "Walang nakitang resulta",
+        "error": "Walang address na gaya ng na-type mo o mali ang pagkaka-spell nito."
+      },
+      "section": {
+        "favorite": "Mga paboritong wallet",
+        "recent": "Kamakailan",
+        "search": "Mga resulta ng paghahanap",
+        "viewOnly": "Mga view-only na wallet",
+        "yours": "Mga wallet mo"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Magpadala lang ng mga pondo sa wallet na ito kung mayroon kang recovery phrase nito o kilala mo ang may-ari ng wallet.",
+          "title": "Naka-view only ang wallet na ito sa iyo"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Kapag nagpadala ka ng mga token sa isang wallet address, lalabas dito ang mga ito",
+          "title": "Walang na-save na wallet"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Magpapadala ka ng"
+      },
+      "summary": {
+        "button": {
+          "title": "Kumpirmahin ang pagpapadala"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Walang address na gaya ng na-type mo o mali ang pagkaka-spell nito.",
+        "title": "Walang nakitang resulta"
+      },
+      "placeholder": "Maghanap ng ENS o address"
+    },
+    "title": "Ipadala",
+    "warning": {
+      "blocked": {
+        "default": "Naka-block ang wallet na ito",
+        "modal": {
+          "message": "Naka-block ang address na ito sa Uniswap Wallet dahil nauugnay ito sa isa o higit pang naka-block na aktibidad. Kung naniniwala kang isa itong error, mag-email sa compliance@uniswap.org.",
+          "title": "Naka-block na address"
+        },
+        "recipient": "Naka-block ang wallet ng recipient"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "You are attempting to send funds to a token address. This may result in a permanent loss of funds.",
+          "heading": "Token address detected"
+        },
+        "message": "Sinusubukan mong magpadala ng mga pondo sa isang token address. Ang pagpapadala ng crypto sa ganitong uri ng address ay posibleng magresulta sa isang permanenteng pagkawala ng mga pondo.",
+        "title": "Isa itong token address"
+      },
+      "insufficientFunds": {
+        "message": "Bumaba ang iyong balanse sa {{currencySymbol}} mula nang ilagay mo ang halagang gusto mong ipadala",
+        "title": "Hindi sapat ang {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Hindi sapat ang <highlight>{{currencySymbol}} sa {{networkName}}</highlight> para maipadala",
+          "withoutNetwork": "Hindi sapat ang <highlight>{{currencySymbol}}</highlight> para maipadala"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Kanselahin",
+            "confirm": "Kumpirmahin"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Username",
+          "walletAddress": "Address ng Wallet"
+        },
+        "message": "Hindi ka pa nagkaroon ng transaksyon sa address na ito dati. Pakikumpirma kung tama ang address bago magpatuloy.",
+        "title": "Bagong address"
+      },
+      "self": {
+        "message": "Sinusubukan mong magpadala ng mga pondo sa iyong kasalukuyang wallet. Sa pagpapadala ng crypto sa address na ito, magkakaroon ka ng mga hindi kinakailangang bayad sa network.",
+        "title": "Ito ang iyong kasalukuyang wallet"
+      },
+      "smartContract": {
+        "message": "Magpapadala ka ng mga pondo sa isang address na smart contract. Tiyaking ito ang tamang address at puwede itong makatanggap ng mga token. Kung hindi, posible itong magresulta sa permanenteng pagkawala ng mga pondo.",
+        "title": "Isa itong address na smart contract"
+      },
+      "viewOnly": {
+        "message": "Kailangan mong i-import ang wallet na ito sa pamamagitan ng recovery phrase para makapagpadala ng mga asset.",
+        "title": "View-only ang wallet na ito"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Mga Kamakailan"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Suriin ang pagpapadala"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Ipakita ang recovery phrase"
+      },
+      "action": {
+        "hide": "Itago ang recovery phrase"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Nauunawaan kong hindi ako matutulungan ng Uniswap Labs na ma-recover ang wallet ko kung hindi ko iyon magagawa.",
+          "title": "Na-save ko ang recovery phrase ko"
+        },
+        "initial": {
+          "subtitle": "Tiyaking na-save mo ang iyong recovery phrase. Mawawalan ka ng access sa iyong mga wallet kung hindi ito gagawin",
+          "title": "Bago ka magpatuloy"
+        },
+        "password": {
+          "error": "Maling password. Subukan muli"
+        },
+        "subtitle": "Ilagay ang iyong password para kumpirmahin",
+        "title": "Inaalis mo ang iyong recovery phrase"
+      },
+      "title": "Iyong recovery phrase",
+      "view": {
+        "warning": {
+          "message1": "Ang sinumang nakakaalam ng iyong recovery phrase ay makaka-access sa wallet at mga pondo mo",
+          "message2": "Tingnan ito nang pribado",
+          "message3": "Huwag itong ibahagi sa kahit na sino",
+          "message4": "Huwag itong ilagay kailanman sa anumang website o application",
+          "title": "Bago ka magpatuloy"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Ang sinumang nakakaalam ng iyong recovery phrase ay makaka-access sa wallet at mga pondo mo.",
+          "title": "Tingnan ito sa pribadong lugar"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "I-enable sa Mga Setting",
+      "feedback": "Send feedback",
+      "help": "Humingi ng tulong",
+      "lock": "I-lock ang wallet",
+      "privacy": "Patakaran sa privacy",
+      "terms": "Mga tuntunin ng serbisyo"
+    },
+    "footer": "Ginawa nang may pagmamahal, \nUniswap Team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Balances under 1 USD will be hidden from your portfolio."
+    },
+    "maxSlippage": "Max. na slippage",
+    "section": {
+      "about": "Tungkol dito",
+      "preferences": "Mga Preference",
+      "privacyAndSecurity": "Privacy at seguridad",
+      "support": "Suporta",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} other wallets"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Always use dark theme.",
+            "title": "Dark"
+          },
+          "device": {
+            "subtitle": "Adapts to your device’s settings.",
+            "title": "Auto"
+          },
+          "light": {
+            "subtitle": "Always use light theme.",
+            "title": "Light"
+          }
+        },
+        "title": "Theme"
+      },
+      "backup": {
+        "create": {
+          "description": "Kapag nagtakda ng password, mag-e-encrypt ng backup na recovery phrase mo, na magdaragdag ng karagdagang antas ng proteksyon kung sakaling makomproniso ang iyong {{cloudProviderName}} account.",
+          "title": "I-back up sa {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Dahil iisa ang recovery phrase ng mga wallet na ito, ide-delete din nito ang mga backup para sa mga wallet na ito sa ibaba",
+            "title": "Sigurado ka ba?"
+          },
+          "warning": "Kung ide-delete mo ang iyong backup sa {{cloudProviderName}}, mare-recover mo lang ang wallet mo sa pamamagitan ng manual na backup ng recovery phrase mo. Hindi mare-recover ng Uniswap Labs ang iyong mga asset kung mawawala mo ang recovery phrase mo."
+        },
+        "error": {
+          "message": {
+            "full": "Hindi ma-back up ang recovery phrase sa {{cloudProviderName}}. Pakitiyak na na-enable mo ang {{cloudProviderName}} nang may available na space sa storage at subukang muli.",
+            "short": "Hindi ma-delete ang backup"
+          },
+          "title": "Error sa {{cloudProviderName}}"
+        },
+        "modal": {
+          "description": "Hindi mo pa naba-back up ang iyong recovery phrase sa {{cloudProviderName}}. Kapag ginawa ito, mare-recover mo ang iyong wallet sa pamamagitan lang ng pagkaka-log in sa {{cloudProviderName}} sa anumang device.",
+          "title": "I-back up ang recovery phrase sa {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Hindi tugma ang mga password"
+          },
+          "medium": "Isa itong katamtamang password",
+          "placeholder": {
+            "confirm": "Kumpirmahin ang password",
+            "create": "Gumawa ng password"
+          },
+          "strong": "Isa itong malakas na password",
+          "weak": "Isa itong mahinang password"
+        },
+        "recoveryPhrase": {
+          "label": "Recovery phrase"
+        },
+        "selected": "Backup sa {{cloudProviderName}}",
+        "status": {
+          "action": {
+            "delete": "I-delete ang backup"
+          },
+          "complete": "Na-back up sa {{cloudProviderName}}",
+          "description": "Sa pamamagitan ng pag-back up ng iyong recovery phrase sa {{cloudProviderName}}, mare-recover mo ang wallet mo sa pamamagitan lang ng pagkaka-log in sa iyong {{cloudProviderName}} account sa anumang device.",
+          "inProgress": "Bina-back up sa {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Naka-back up"
+          },
+          "title": "Backup sa {{cloudProviderName}}"
+        }
+      },
+      "beta": {
+        "tooltip": "Malapit na"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Require face/fingerprint to open the app.",
+            "ios": "Require {{biometricsMethod}} to open app."
+          },
+          "title": "Access sa app"
+        },
+        "auth": "Paki-authenticate",
+        "off": {
+          "message": {
+            "android": "Kasalukuyang naka-off ang biometrics para sa Uniswap Wallet—puwede mo itong i-on sa mga setting ng iyong system.",
+            "ios": "Kasalukuyang naka-off ang {{biometricsMethod}} para sa Uniswap Wallet—puwede mo itong i-on sa mga setting ng iyong system."
+          },
+          "title": {
+            "android": "Naka-off ang biometrics",
+            "ios": "Naka-off ang {{biometricsMethod}}"
+          }
+        },
+        "title": "Face/Fingerprint unlock",
+        "transactions": {
+          "subtitle": {
+            "android": "Require face/fingerprint to transact.",
+            "ios": "Require {{biometricsMethod}} to transact."
+          },
+          "title": "Mga transaksyon"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Hindi naka-set up ang biometrics sa iyong device. Para gumamit ng biometrics, i-set up muna ito sa Mga Setting.",
+            "ios": "Hindi naka-setup ang {{biometricsMethod}} sa iyong device.Para gumamit ng {{biometricsMethod}}, i-set up muna ito sa Mga Setting."
+          },
+          "title": {
+            "android": "Hindi naka-setup ang biometrics",
+            "ios": "Hindi naka-set up ang {{biometricsMethod}}"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Kung hindi mo io-on ang biometrics, magagawa ng sinumang magkakaroon ng access sa iyong device na buksan ang Uniswap Wallet at magsagawa ng mga transaksyon.",
+            "ios": "Kung hindi mo io-on ang {{biometricsMethod}}, magagawa ng sinumang magkakaroon ng access sa iyong device na buksan ang Uniswap Wallet at magsagawa ng mga transaksyon."
+          },
+          "title": "Sigurado ka ba?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Idiskonekta lahat",
+        "noConnectionsDescription": "Kumonekta sa isang app sa pamamagitan ng paghahanap ng \"Ikonekta ang Wallet\" o \"Mag-log in\" na button."
+      },
+      "currency": {
+        "title": "Lokal na currency"
+      },
+      "hapticTouch": {
+        "title": "Haptic touch"
+      },
+      "helpCenter": {
+        "title": "Help center"
+      },
+      "language": {
+        "button": {
+          "navigate": "Pumunta sa mga setting"
+        },
+        "description": {
+          "extension": "Nagde-default ang Uniswap sa mga setting ng wika ng iyong system. Para baguhin ang iyong gustong wika, pumunta sa mga setting ng iyong system.",
+          "mobile": "Uniswap defaults to your device’s language settings. To change your preferred language, go to “Uniswap” in your device settings and tap on “Language”."
+        },
+        "title": "Wika"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Mga pag-transfer, mga request, at iba pang aktibidad",
+            "title": "Wallet activity"
+          },
+          "priceAlerts": {
+            "description": "Malalaking pagbabago sa presyo para sa mga paboritong token",
+            "title": "Mga alerto sa presyo"
+          },
+          "updates": {
+            "description": "Mga rekomendasyon at bagong feature",
+            "title": "Mga Update mula sa Uniswap"
+          }
+        },
+        "title": "Mga Notification"
+      },
+      "password": {
+        "title": "Baguhin ang password"
+      },
+      "permissions": {
+        "title": "Mga pahintulot"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Gumagamit kami ng anonymous na data ng paggamit para mapaganda ang iyong karanasan sa mga produkto ng Uniswap Labs. Kapag naka-disable, sinusubaybayan lang namin ang mga error at mahalagang paggamit.",
+          "title": "App analytics"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Ilagay ang iyong password"
+        },
+        "title": "Recovery phrase"
+      },
+      "smallBalances": {
+        "title": "Portfolio balance"
+      },
+      "unknownTokens": {
+        "subtitle": "Potential scam tokens will be hidden from your portfolio.",
+        "title": "Itago ang mga hindi kilalang token"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "I-edit ang label",
+          "editProfile": "I-edit ang profile",
+          "remove": "Alisin ang wallet"
+        },
+        "connection": {
+          "banner": {
+            "description": "Manage connections via wallet settings, by clicking your profile image.",
+            "title": "Connections have moved"
+          }
+        },
+        "connections": {
+          "title": "Mga Koneksyon"
+        },
+        "editLabel": {
+          "description": "Hindi pampubliko ang mga label. Lokal na sino-store ang mga ito at ikaw lang ang nakakakita ng mga ito.",
+          "save": "I-save ang mga pagbabago"
+        },
+        "label": "Nickname",
+        "testnetMode": {
+          "description": "Ino-on nito ang mga testnet para masubukan ng mga developer ang mga feature at transaksyon nang hindi gumagamit ng mga totoong asset. Walang anumang tunay na value ang mga token sa mga testnet.",
+          "title": "Testnet mode"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Para gamitin ang Uniswap sa {{label}}, magpalit ng network sa mga setting ng iyong wallet."
+    },
+    "title": "Mga Setting",
+    "version": "Bersyon {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Smart wallets provide faster, low-cost transactions using secure smart contracts.",
+      "info": "Wallets already using smart wallet features from another app will not be affected."
+    },
+    "enabledModal": {
+      "description": "Updates will take effect on your next swap.",
+      "title": "Smart wallet enabled"
+    },
+    "postSwapNudge": {
+      "description": "Smart wallet provides faster, low-cost transactions using secure smart contracts.",
+      "enable": "Enable smart wallet",
+      "title": "Save on your next swap"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Hindi ka pa nagkaroon ng transaksyon sa address na ito dati. Tiyaking ito ang tamang address bago magpatuloy.",
+        "title": "Bagong address"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Magpapadala ka ng mga token sa isang espesyal na uri ng address—isang smart contract. I-double check kung ito ang address na nilalayon mong padalhan. Kung mali ito, puwedeng mawala nang tuluyan ang mga token mo.",
+        "title": "Isa ba itong address ng wallet?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24H na mga fee",
+    "24volume": "24H na volume",
+    "allTimeFees": "Mga all time na LP fee",
+    "allTimeSwappers": "Mga all time swapper",
+    "allTimeVolume": "All time na volume",
+    "fdv": {
+      "description": "Kinakalkula sa fully diluted valuation (FDV) ang kabuuang value sa market kung saan ipinagpapalagay na nasa sirkulasyon ang lahat ng token."
+    },
+    "marketCap": {
+      "description": "Ang market capitalization ang kabuuang value sa market ng umiikot na supply ng isang asset."
+    },
+    "tvl": {
+      "description": "Ang total value locked (TVL) ay ang pinagsama-samang halaga ng asset na available sa lahat ng liquidity pool ng Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "Ang 1 araw na volume ay ang halaga ng asset na na-trade sa Uniswap sa nakalipas na 24 na oras.",
+        "long": "1D volume",
+        "short": "1D vol"
+      },
+      "description": "Ang volume ay ang halaga ng asset na na-trade sa Uniswap sa napiling time frame."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Payagan ang {{sym}} (isang beses)"
+    },
+    "approvalNeeded": "Kailangan ng pag-apruba para magamit ang token na ito. ",
+    "approvalPending": "Nakabinbin ang pag-apruba",
+    "approveAndSubmit": "Aprubahan at isumite",
+    "approveAndSwap": "Aprubahan at mag-swap",
+    "approveInWallet": "Aprubahan sa wallet mo",
+    "balance": {
+      "amount": "Balanse: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Ang pinakamabisang route ay tinatayang nagkakahalaga ng ~{{gasPrice}} sa mga bayad sa network. "
+    },
+    "bridging": {
+      "estimatedTime": "Tinatantyang oras",
+      "title": "Pag-swap sa mga network",
+      "warning": {
+        "description": "Mag-swap ka sa {{toNetwork}} mula sa {{fromNetwork}}. Tinatawag din itong \"bridging\", na naglilipat ng mga token mo mula sa isang network papunta sa isa pa."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Suriin",
+      "submitting": {
+        "keep": {
+          "open": "Panatilihing bukas ang iyong wallet..."
+        }
+      },
+      "swap": "Mag-swap",
+      "swapAnyways": "Mag-swap pa rin",
+      "unwrap": "I-unwrap",
+      "wrap": "I-wrap"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Maghanap ayon sa bansa o rehiyon"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Puwedeng gawin ang pag-swap mo bago maproseso ang pagkansela. Hindi na mare-refund ang mga bayad mo sa network. Gusto mo bang magpatuloy?",
+      "cannotExecute_other": "Puwedeng gawin ang mga pag-swap mo bago iproseso ang pagkansela. Hindi na mare-refund ang mga bayad mo sa network. Gusto mo bang magpatuloy?"
+    },
+    "confirmLimit": "Kumpirmahin ang limit",
+    "confirmSwap": "Kumpirmahin ang pag-swap",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Deadline ng tx."
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Fee sa token"
+      },
+      "newQuote": {
+        "input": "Bagong input",
+        "output": "Bagong output"
+      },
+      "orderRouting": "Pag-route ng order",
+      "orderRoutingInfo": "Nira-route ang pag-swap na ito sa pamamagitan ng Across, isang naka-decentralize na protocol na naglilipat ng mga asset sa mga network habang isinasapriyoridad ang kaligtsan, mabilis na pag-execute, at mabababang presyo.",
+      "poweredBy": "Pinapagana ng",
+      "rate": "Rate",
+      "slippage": "Max na slippage",
+      "uniswapFee": "Fee"
+    },
+    "error": {
+      "default": "Posibleng kailangan mong taasan ang iyong slippage tolerance. Tandaan: hindi compatible ang fee-on-transfer at mga rebase na token sa Uniswap V3.",
+      "expectedToFail": "Inaasahang hindi magawa ang pag-swap mo.",
+      "fiatInputUnavailable": "Hindi available ang input ng {{fiatCurrencyCode}}",
+      "modifiedByWallet": "Binago ang pag-swap mo sa pamamagitan ng wallet mo. Kung isa itong pagkakamali, pakikansela kaagad o kung hindi gagawin ay baka mawala ang mga pondo mo.",
+      "rejected": "Tinanggihan ang transaksyon",
+      "undefinedObject": "Nagka-error habang sinusubukang i-execute ang pag-swap na ito. Posibleng kailangan mong taasan ang slippage tolerance mo. Kung hindi iyon gagana, posibleng may hindi compatible sa token na tine-trade mo. Tandaan: hindi compatible ang fee-on-transfer at mga rebase na token sa Uniswap V3.",
+      "unknown": "Hindi kilalang error.",
+      "v2": {
+        "expired": "Hindi maipadala ang transaksyong ito dahil nakalipas na ang deadline. Pakisuri kung hindi masyadong mababa ang deadline ng transaksyon mo.",
+        "k": "Hindi nasisiyahan ang Uniswap invariant x*y=k sa pag-swap. Karaniwang nangangahulugan ito na may custom na gawi sa pag-transfer ang isa sa mga token na sina-swap mo.",
+        "slippage": "Hindi rin magtatagumpay ang transaksyong ito dahil sa paggalaw ng presyo o fee sa pag-transfer. Subukang taasan ang iyong slippage tolerance",
+        "transferInput": "Hindi ma-transfer ang input na token. Posibleng may isyu sa input na token.",
+        "transferOutput": "Hindi ma-transfer ang output na token. Posibleng may isyu sa output na token."
+      },
+      "v3": {
+        "slippage": "Hindi magtatagumpay ang transaksyong ito dahil sa paggalaw ng presyo. Subukang taasan ang iyong slippage tolerance. Tandaan: hindi compatible ang fee sa pag-transfer at mga rebase na token sa Uniswap V3.",
+        "transferOutput": "Hindi ma-transfer ang output na token. Posibleng may isyu sa output na token. Tandaan: hindi compatible ang fee sa pag-transfer at mga rebase na token sa Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Magkakaroon ng malaking pagkakaiba sa pagitan ng iyong mga input at output na value dahil sa kasalukuyang liquidity."
+    },
+    "fail": {
+      "message": "Subukang i-adjust ang slippage sa mas mataas na value.",
+      "uniswapX": "Hindi makumpleto ang pag-swap gamit ang UniswapX. Subukang muli ang iyong pag-swap para i-route ito sa classic na Uniswap API."
+    },
+    "fees": {
+      "experience": "Inilalapat ang fee na ito sa ilang pares ng token para matiyak ang pinakamagandang karanasan sa Uniswap. Binabayaran ito sa output na token at na-factor na ito sa quote.",
+      "noFee": "Naglalapat ng mga fee sa mga piling pares ng token para matiyak ang pinakamagandang karanasan sa Uniswap. Walang fee na nauugnay sa pag-swap na ito."
+    },
+    "fetchingBestPrice": "Fine-fetch ang pinakamagandang presyo...",
+    "fetchingPrice": "Fine-fetch ang presyo...",
+    "finalizingQuote": "Fina-finalize ang quote...",
+    "form": {
+      "header": "Mag-swap",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Dahil sa mga fee ng token, mailalagay lang ang mga halaga ng pag-swap gamit ang field ng input"
+          }
+        },
+        "restore": "I-restore ang wallet mo para mag-swap"
+      }
+    },
+    "frontrun": {
+      "warning": "Posibleng nasa frontrun ang iyong transaksyon at magresulta ito sa hindi kaaya-ayang trade."
+    },
+    "header": {
+      "viewOnly": "View-only"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Posibleng hindi available ang mga pagkalkula sa epekto ng presyo para sa pares sa mababang liquidity."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Tinatantya ang input. Magbebenta ka ng hanggang <amount /> o mare-revert ang transaksyon."
+    },
+    "limit": "Limit",
+    "limitedAssets": {
+      "warning": "Hindi available ang ilang asset sa pamamagitan ng interface na ito dahil posibleng hindi gumana nang maayos ang mga ito sa mga smart contract o hindi namin mapayagan ang pag-trade para sa mga legal na dahilan."
+    },
+    "limitFilled": "Napunan na ang limit!",
+    "limitSubmitted": "Naisumite na ang limit",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Hindi sakop ang presyo sa market sa tinukoy mong range ng presyo. Single-asset na deposito lang."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Ang maximum na halaga na garantisado kang gastusin. Kung magsi-slip pa ang presyo, mare-revert ang transaksyon mo."
+    },
+    "minPriceSlip": {
+      "revert": "Kung gagalaw ang presyo para makatanggap ka ng mas mababa sa {{amount}}, mare-revert ang transaksyon mo."
+    },
+    "networkCost": {
+      "paidIn": "Babayaran ang bayad sa network sa {{sym}} sa {{chainName}} network para makapagtransaksyon."
+    },
+    "orderRouting": "Pag-route ng order",
+    "outputEstimated": {
+      "atLeast": "Tinatantya ang output. Makakatanggap ka ng hindi bababa sa <amount /> o kung hindi ay mare-revert ang transaksyon."
+    },
+    "payAnyway": "Magbayad Pa Rin",
+    "payAtMost": "Magbayad ng hanggang",
+    "payWith": "Magbayad gamit ang",
+    "placeOrder": "Maglagay ng order",
+    "priceImpact": "Epekto sa presyo",
+    "receive": {
+      "atLeast": "Makatanggap ng hindi bababa sa"
+    },
+    "request": {
+      "title": {
+        "full": "Mag-swap ng {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Mag-swap ng Mga Token"
+      }
+    },
+    "review": {
+      "summary": "Magsa-swap ka"
+    },
+    "reviewLimit": "Suriin ang limit",
+    "route": {
+      "optimizedGasCost": "Isinasaalang-alang ng route na ito ang mga hating route, maraming hop, at mga bayad sa network ng bawat hakbang."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Mare-revert ang iyong transaksyon kung nakabinbin ito nang mas mahaba sa panahong ito. (Maximum: 3 araw).",
+        "warning": "Mataas na deadline"
+      },
+      "protection": {
+        "description": "Kapag naka-on ang proteksyon sa pag-swap, mapoprotektahan ang iyong mga transaksyon sa Ethereum mula sa mga sandwich attack, na may mas mabababang tsansang pumalya.",
+        "subtitle": {
+          "supported": "{{chainName}} Network",
+          "unavailable": "Hindi available sa {{chainName}}"
+        },
+        "title": "Proteksyon sa pag-swap"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Pinipili ng Uniswap client ang pinakamurang opsyon sa trade kung saan fina-factor ang presyo at mga bayad sa network."
+            },
+            "tooltip": "Tinutukoy ang isang route nang isinasaalang-alang ang mga v2, v3, at ilang partikular na v4 na pool, na fina-factor ang tinatayang epekto sa presyo at mga bayad sa network."
+          },
+          "v2": {
+            "title": "Mga v2 pool"
+          },
+          "v3": {
+            "title": "Mga v3 pool"
+          },
+          "v4": {
+            "title": "Mga v4 pool"
+          }
+        },
+        "title": "Mga opsyon sa trade"
+      },
+      "slippage": {
+        "alert": "Mataas na slippage",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "Mare-revert ang iyong transaksyon kung magbabago ang presyo nang mahigit sa porsyento ng slippage.",
+        "input": {
+          "message": "Kung magsi-slip pang lalo ang presyo, mare-revert ang transaksyon mo. Nasa ibaba ang pinakamababang halaga na garantisadong matanggap mo.",
+          "receive": {
+            "title": "Makatanggap ng hindi bababa sa"
+          }
+        },
+        "output": {
+          "message": "Kung magsi-slip pang lalo ang presyo, mare-revert ang transaksyon mo. Nasa ibaba ang pinakamataas na halaga na kailangan mong gastusin.",
+          "spend": {
+            "title": "Gumastos ng hanggang"
+          }
+        },
+        "warning": {
+          "description": "Ang slippage na mas mataas sa 20% ay malamang na magresulta sa hindi kaaya-ayang trade. Para mapaliit ang posibilidad na mapunta sa front-run, babaan ang mga setting mo.",
+          "hover": "Maaari itong magresulta sa hindi kaaya-ayang trade. Subukang babaan ang setting ng slippage mo.",
+          "max": "Maglagay ng value na mas mababa sa {{maxSlippageTolerance}}",
+          "message": "Maaaring mas mataas ang slippage kaysa sa kinakailangan",
+          "min": "Maglagay ng value na mas malaki sa 0"
+        }
+      },
+      "title": "Mga setting ng pag-swap",
+      "transactionRevertPrice": "Mare-revert ang iyong transaksyon kung magbabago ang presyo sa hindi kaaya-ayang presyo na mas malaki sa porsyentong ito."
+    },
+    "signAndSwap": "Mag-sign at mag-swap",
+    "slippage": {
+      "amt": "{{amt}} slippage",
+      "bridging": "Walang slippage kapag nagsa-swap sa mga network",
+      "settings": {
+        "title": "Max na slippage"
+      },
+      "tooltip": "Ang pinakamataas na paggalaw ng presyo bago ma-revert ang iyong transaksyon."
+    },
+    "slippageBelow": {
+      "warning": "Ang slippage na mas mababa sa {{amt}} ay posibleng magresulta sa hindi naisagawang transaksyon"
+    },
+    "submitted": "Naisumite na ang pag-swap",
+    "success": "Matagumpay ang pag-swap!",
+    "tokenOwnFees": "May fee sa ilang token kapag binili o ibinenta ang mga ito, na itinatakda ng nag-isyu ng token. Hindi natatanggap ng Uniswap ang alinman sa mga fee na ito.",
+    "total": "Kabuuan",
+    "tradeRoutes": "Mga route ng trade",
+    "transaction": {
+      "deadline": "Deadline ng transaksyon",
+      "revertAfter": "Mare-revert ang iyong transaksyon kung nakabinbin ito nang mas mahaba sa panahong ito."
+    },
+    "unsupportedAssets": {
+      "readMore": "Magbasa pa tungkol sa mga hindi sinusuportahang asset"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Maglagay ng mas malaking halaga"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Subukang taasan ang iyong slippage.",
+        "titleMay": "Posibleng hindi maisagawa ang pag-swap na ito"
+      },
+      "insufficientBalance": {
+        "title": "Wala kang sapat na {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Mag-swap para sa {{ tokenSymbol }} sa {{networkName}}",
+          "buy": "Bumili ng {{ tokenSymbol }}",
+          "buyWithCard": "Bumili gamit ang card"
+        },
+        "message": {
+          "withNetwork": "Hindi sapat ang <highlight>{{currencySymbol}} sa {{networkName}}</highlight> para mag-swap",
+          "withoutNetwork": "Hindi sapat ang <highlight>{{currencySymbol}}</highlight> para mag-swap"
+        },
+        "title": "Hindi sapat ang {{currencySymbol}} mo para mabayaran ang bayad sa network"
+      },
+      "networkFee": {
+        "allow": "Payagan ang {{ inputTokenSymbol }} (isang beses)",
+        "highRelativeToValue": {
+          "unichain": "Lampas ang bayad sa network sa 10% ng kabuuang value ng transaksyon mo. Ito ang babayaran para maproseso ang iyong transaksyon sa blockchain."
+        },
+        "message": {
+          "unichain": "Ito ang babayaran para maproseso ang iyong transaksyon sa blockchain.",
+          "uniswapX": {
+            "unichain": "Ito ang babayaran para maproseso ang iyong transaksyon sa blockchain. Pinagsasama-sama ng <gradient>UniswapX</gradient> ang mga source ng liquidity para sa mga mas magandang presyo at libreng pag-swap ng gas."
+          }
+        },
+        "wrap": "I-wrap ang ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Walang nahanap na bridging quote. Subukang gamitin ang opisyal na bridge sa ngayon."
+        },
+        "title": "Walang nahanap na quote"
+      },
+      "noRoutesFound": {
+        "message": "Walang available na route sa kasalukuyan para sa mga pinili mong token. Pakisubukan ang ibang pares o tingnan muli sa ibang pagkakataon.",
+        "title": "Walang route na available"
+      },
+      "offline": {
+        "message": "Posibleng nawalan ka ng koneksyon sa internet o hindi gumagana ang network. Pakisuri ang iyong koneksyon sa internet at subukang muli.",
+        "title": "Offline ka"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Magreresulta ang transaksyong ito sa epekto sa presyo na {{priceImpactValue}} sa presyo sa market ng pool na ito at magreresulta ito sa pagkawala ng mga pondo."
+        },
+        "title": {
+          "veryHigh": "Napakataas na epekto sa presyo ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Hindi naisumite ang iyong transaksyon dahil isinara mo ang app.",
+        "approvalFailed": "Hindi naisumite ang iyong transaksyon dahil hindi naisagawa ang pag-apruba ng token.",
+        "stale": "Hindi naisumite ang iyong transaksyon dahil isinara mo ang app o masyadong matagal ang pag-apruba.",
+        "submissionFailed": "Nagkaproblema sa pagsusumite ng iyong transaksyon.",
+        "title": "Nakansela ang pag-swap",
+        "wrap": {
+          "message": "Ang iyong ETH ay mananatiling naka-wrap bilang WETH."
+        },
+        "wrapFailed": "Hindi naisumite ang iyong transaksyon dahil hindi naisagawa ang transaksyon ng pag-wrap."
+      },
+      "rateLimit": {
+        "message": "Pakisubukang muli sa loob ng ilang minuto.",
+        "title": "Lumampas sa limit sa rate"
+      },
+      "router": {
+        "message": "Posibleng nawalan ka ng koneksyon o hindi gumagana ang network. Kung magpapatuloy ang problema, pakisubukang muli sa ibang pagkakataon.",
+        "title": "Hindi makukumpleto ang pag-trade na ito sa ngayon"
+      },
+      "tokenBlocked": {
+        "button": "Naka-block ang {{tokenSymbol}}"
+      },
+      "tokenBlockedFallback": {
+        "button": "Token is blocked"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Naglalapat ng mga fee para matiyak ang pinakamagandang karanasan sa Uniswap. Walang fee na nauugnay sa pag-swap na ito.",
+          "included": "Naglalapat ng mga fee para matiyak ang pinakamagandang karanasan sa Uniswap, at na-factor na ang mga ito sa quote na ito."
+        },
+        "title": "Fee sa pag-swap"
+      },
+      "viewOnly": {
+        "message": "Kailangan mong i-import ang wallet na ito sa pamamagitan ng recovery phrase para makapag-swap ng mga token."
+      }
+    },
+    "wrap": {
+      "token": "I-wrap ang {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Sa iba pang network",
+      "otherNetworksBalance": "Balanse sa iba pang network",
+      "title": "Ang iyong balanse"
+    },
+    "button": {
+      "getToken": "Get {{ tokenSymbol }}",
+      "getTokenFallback": "Get Token"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Lumipat sa {{network}}",
+      "title": "Walang ganitong token",
+      "titleWithChain": "Walang ganitong token sa {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "data ng token para sa <tokenLink />",
+        "withChain": "data ng token para sa <tokenLink /> sa {{chainName}}"
+      }
+    },
+    "nameNotFound": "Hindi nakita ang pangalan",
+    "noInfoAvailable": "Walang available na impormasyon ng token",
+    "noTestnetSupportDescription": "Hindi sinusuportahan ng ilang testnet ang pag-swap, pagpapadala, o pagbili ng mga token.",
+    "stats": {
+      "unsupportedChainDescription": "Available ang mga istatistika at chart ng token para sa {{chain}} sa {{infoLink}}"
+    },
+    "symbolNotFound": "Hindi nahanap ang simbolo"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Kinakailangang naka-disable ang testnet mode sa pagkilos na ito. Puwedeng i-enable ulit ang testnet mode sa anumang oras sa mga setting.",
+          "toTestnetMode": "Kinakailangang naka-enable ang testnet mode sa pagkilos na ito. Walang tunay na value ang mga token sa mga testnet. Puwedeng i-disable ang testnet mode sa anumang oras sa mga setting."
+        },
+        "title": {
+          "toProdMode": "I-disable ang testnet mode",
+          "toTestnetMode": "I-enable ang testnet mode"
+        }
+      }
+    },
+    "unsupported": "Hindi sinusuportahan ang functionality na ito sa testnet mode."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Bumili, magbenta at mag-trade ng Ethereum at iba pang nangungunang token sa Uniswap",
+    "createGovernanceOn": "Gumawa ng bagong panukala sa governance sa Uniswap",
+    "createGovernanceTo": "Gumawa ng bagong panukala sa governance na pagbobotohan ng mga may hawak na UNI. Ang mga token ng UNI ay kumakatawan sa mga share sa pagboto sa governance ng Uniswap.",
+    "earnFees": "Kumita ng mga fee kapag nag-swap ang iba sa Uniswap sa pamamagitan ng pagdaragdag ng mga token sa mga pool ng liquidity.",
+    "easilyRemove": "Maalis kaagad ang iyong liquidity mula sa Uniswap v2 at ideposito ito sa Uniswap v3.",
+    "easilyRemoveV4": "Maalis kaagad ang iyong liquidity mula sa Uniswap v2 at v3 para ideposito sa Uniswap v4.",
+    "explore": "I-explore ang mga NFT sa Uniswap",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "Pamahalaan ang iyong koleksyon ng NFT. Tingnan ang mga katangian, aktibidad sa pag-trade, paglalarawan, at iba pang detalye sa iyong mga NFT.",
+    "migratev2": "I-migrate ang v2 pool liquidity sa Uniswap v3",
+    "migratev3": "I-migrate ang pool liquidity sa Uniswap v4",
+    "placeLimit": "Maglagay ng mga limit na order sa Uniswap",
+    "realTime": "Mga real-time na presyo, chart, data ng transaksyon, at higit pa.",
+    "removeLiquidityv2": "Alisin ang pool liquidity (v2) sa Uniswap",
+    "removePoolLiquidity": "Alisin ang pool liquidity sa Uniswap",
+    "removeTokensv2": "Alisin ang iyong mga token mula sa v2 liquidity pool.",
+    "removev3Liquidity": "Alisin ang iyong mga token sa v3 liquidity pool.",
+    "sendTokens": "Magpadala ng mga token sa Uniswap",
+    "swappingMadeSimple": "Pinasimple ang pag-swap. Bumili at magbenta ng crypto sa Ethereum, Base, Arbitrum, Polygon, at higit pa. Pinagkakatiwalaan ng milyon-milyon.",
+    "tradeTokens": "Mag-trade ng mga token at magbigay ng liquidity. Mga real-time na presyo, chart, data ng transaksyon, at higit pa.",
+    "uniswapTradeCrypto": "Uniswap | Ligtas na mag-trade ng crypto at mga NFT sa nangungunang DeFi platform",
+    "uniToken": "Ang mga token ng UNI ay kumakatawan sa mga share sa pagboto sa pamamahala ng Uniswap. Puwede kang bumoto mismo sa bawat panukala o mag-delegate ng iyong mga boto sa isang third party.",
+    "voteOnGov": "Bumoto sa mga panukala sa governance sa Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Ang iyong balanse",
+      "other": "Mga balanse sa iba pang network",
+      "viewOnly": "Balanse ni {{ownerAddress}}"
+    },
+    "bridge": "{{label}} token bridge",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Hindi available ang mga candlestick chart para sa token na ito"
+      },
+      "tooltip": "Mga fee: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Hindi available ang mga detalye ng token para sa mga testnet token."
+      }
+    },
+    "error": {
+      "unknown": "Hindi kilalang token"
+    },
+    "fee": {
+      "buy": {
+        "label": "fee sa pagbili"
+      },
+      "label": "fee",
+      "sell": {
+        "label": "fee sa pagbebenta"
+      }
+    },
+    "links": {
+      "title": "Mga link",
+      "twitter": "Twitter",
+      "website": "Website"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Nagkaproblema.",
+        "title": "Hindi ma-load ang chart ng presyo"
+      },
+      "timeRangeLabel": {
+        "all": "Lahat ng oras",
+        "day": {
+          "verbose": "1 Araw"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 Buwan"
+        },
+        "week": {
+          "verbose": "1 Linggo"
+        },
+        "year": {
+          "verbose": "1 Taon"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "Hindi available ang {{tokenSymbol}}",
+          "tokensNotAvailable": "Hindi available ang {{tokenSymbol0}} at {{tokenSymbol1}}"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Hindi nakakatanggap ang Uniswap Labs ng alinman sa mga fee na ito."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Magsaliksik palagi",
+        "blocked": {
+          "description": {
+            "default_one": "Hindi mo mate-trade ang token na ito gamit ang Uniswap App.",
+            "default_other": "Hindi mo mate-trade ang mga token na ito gamit ang Uniswap App."
+          }
+        },
+        "copyContractAddress": {
+          "message": "This is a contract address, which acts as a unique identifier for tokens on the blockchain. Any crypto you send to this address will be lost.",
+          "title": "Do not send crypto to this address"
+        },
+        "dontShowWarningAgain": "Huwag nang ipakita ulit sa akin ang babalang ito",
+        "doYourOwnResearch": "Magsagawa palagi ng sarili mong pananaliksik bago magpatuloy.",
+        "feeDescription": "May fee na <fee /> kapag {{action}}",
+        "flaggedAsMalicious": "Na-flag na mapaminsala",
+        "fotHigh": {
+          "title": "May na-detect na mataas na fee"
+        },
+        "fotLow": {
+          "title": "May na-detect na fee"
+        },
+        "fotVeryHigh": {
+          "title": "May na-detect na napakataas na fee"
+        },
+        "honeypot": {
+          "message": "Na-flag ang {{tokenSymbol}} na hindi maibebenta. Ang pag-swap ng token na ito ay posibleng magresulta sa pagkawala ng mga pondo mo.",
+          "title": "May na-detect na 100% fee sa pagbebenta"
+        },
+        "impersonator": {
+          "title": "May na-detect na nagpapanggap na token"
+        },
+        "malicious": {
+          "general": {
+            "message": "Na-flag ng Blockaid ang {{tokenSymbol}} na mapaminsala."
+          },
+          "impersonator": {
+            "message": {
+              "short": "Posibleng hindi ang {{tokenSymbol}} ang token na gusto mong i-swap."
+            }
+          },
+          "title": "May na-detect na mapaminsalang token"
+        },
+        "mayResultInLoss": "Posibleng magresulta ang pag-swap nito sa pagkawala ng mga pondo.",
+        "medium": {
+          "heading": {
+            "named": "Hindi tine-trade ang {{tokenSymbol}} sa mga nangungunang naka-centralize na palitan sa U.S."
+          }
+        },
+        "notListedOnExchanges": "Hindi nakalista sa mga nangungunang palitan sa U.S.",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} has been flagged as suspicious by Blockaid."
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} has been flagged as a potential honeypot by Blockaid. Always do your own research before proceeding."
+          },
+          "title": "Potential honeypot detected"
+        },
+        "sellFee100": {
+          "message": "Na-flag ang {{ tokenSymbol }} na hindi naibebenta.",
+          "title": "May na-detect na 100% fee sa pagbebenta"
+        },
+        "spam": {
+          "message": "Na-flag ng Blockaid ang {{tokenSymbol}} na spam.",
+          "title": "May na-detect na token ng spam"
+        },
+        "spamsUsers": "Nagsa-spam ng mga user",
+        "tokenChargesFee": {
+          "both": {
+            "message": "Ang {{tokenSymbol}} ay may {{buyFeePercent}} fee kapag binili at {{sellFeePercent}} kapag ibinenta."
+          },
+          "buy": {
+            "message": "Ang {{tokenSymbol}} ay may {{feePercent}} fee kapag binili."
+          },
+          "sell": {
+            "message": "Ang {{tokenSymbol}} ay may {{feePercent}} fee kapag ibinenta."
+          },
+          "unknownFee": {
+            "message": "Ang {{tokenSymbol}} ay may fee kapag binili o ibinenta."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Hindi mo mate-trade ang token na ito gamit ang Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Ang mga token na ito ay hindi tine-trade sa mga nangungunang naka-centralize na palitan sa U.S. Magsagawa palagi ng sarili mong pananaliksik bago magpatuloy."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Hindi ma-load ang mga resulta ng paghahanap"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Fully Diluted Valuation",
+      "marketCap": "Market Cap",
+      "priceHighYear": "52W na Mataas",
+      "priceLowYear": "52W na Mababa",
+      "section": {
+        "about": "Tungkol sa {{token}}"
+      },
+      "title": "Istatistika",
+      "translation": {
+        "original": "Ipakita ang orihinal",
+        "translate": "Isalin sa {{language}}"
+      },
+      "volume": "24H na Volume"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Input na token"
+      },
+      "output": {
+        "fallback": "Output na token"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Ang mga pag-swap sa Uniswap Protocol ay puwedeng magsimula at magtapos sa ETH. Gayunpaman, sa pag-swap, naka-wrap ang ETH sa WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "To get {{ tokenSymbol }}, you need {{ nativeTokenSymbol }} to cover network costs.",
+      "title": "Kailangan mo ng {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Itago ang token",
+      "unhide": "I-unhide ang token"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Tingnan sa {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Hindi ma-load ang koleksyon ng NFT"
+          }
+        },
+        "label": {
+          "items": "Mga Item",
+          "owners": "Mga May-ari",
+          "priceFloor": "Floor",
+          "swapVolume": "Volume"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "Hindi ma-load ang mga detalye ng NFT"
+          }
+        },
+        "network": "Network",
+        "owner": "Pagmamay-ari ni",
+        "price": "Kasalukuyang presyo",
+        "recentPrice": "Huling presyo ng pagbebenta",
+        "traits": "Mga katangian"
+      },
+      "empty": {
+        "description": "Walang nahanap na NFT"
+      },
+      "error": {
+        "unavailable": "Hindi available ang content"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Itago ang NFT",
+          "unhide": "I-unhide ang NFT"
+        }
+      },
+      "link": {
+        "collection": "Website ng koleksyon"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Hindi ma-load ang mga NFT"
+          }
+        },
+        "none": {
+          "button": "Tumanggap ng mga NFT",
+          "description": {
+            "default": "Mag-transfer ng mga NFT mula sa isa pang wallet para makapagsimula.",
+            "external": "Kapag bumili o tumanggap ng mga NFT ang wallet na ito, lalabas dito ang mga ito."
+          },
+          "title": "Wala pang NFT"
+        }
+      }
+    },
+    "noneFound": "Walang nahanap na token.",
+    "selector": {
+      "button": {
+        "choose": "Pumili ng token",
+        "clear": "I-clear lahat"
+      },
+      "empty": {
+        "buy": {
+          "message": "Bumili ng crypto gamit ang isang card o bangko para magpadala ng mga token.",
+          "title": "Bumili ng crypto"
+        },
+        "receive": {
+          "title": "Tumanggap ng mga token"
+        },
+        "title": "Wala pang token"
+      },
+      "error": {
+        "load": "Hindi ma-load ang mga token"
+      },
+      "search": {
+        "empty": "Walang nahanap na resulta para sa <highlight>{{searchText}}</highlight>",
+        "placeholder": "Maghanap ng mga token"
+      },
+      "section": {
+        "bridging": "Mag-swap sa mga network",
+        "favorite": "Mga paborito",
+        "otherNetworksSearchResults": "Tokens found on other networks",
+        "otherSearchResults": "Iba pang token sa {{network}}",
+        "recent": "Mga kamakailang paghahanap",
+        "search": "Mga resulta ng paghahanap",
+        "trending": "Mga token ayon sa 24H na volume",
+        "yours": "Ang iyong mga token"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Maghanap ng mga pool",
+          "tokens": "Maghanap ng mga token",
+          "transactions": "Search transactions"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Kanselahin ang transaksyon",
+        "description": "Kung kakanselahin mo ang transaksyong ito bago ito iproseso ng network, magbabayad ka ng bagong bayad sa network sa halip na ang orihinal.",
+        "title": "Kanselahin ang transaksyong ito?"
+      },
+      "copy": "Kopyahin ang transaction ID",
+      "copyProvider": "Kopyahin ang transaction ID ng {{providerName}}"
+    },
+    "amount": {
+      "unlimited": "Walang limitasyon"
+    },
+    "date": "Isinumite noong {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Mula kay",
+      "networkFee": "Bayad sa network",
+      "providerFee": "Fee ng provider",
+      "swapRate": "Rate",
+      "transaction": "Transaksyon",
+      "uniswapFee": "Fee ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Hindi sapat ang pool liquidity para makumpleto ang transaksyon",
+    "network": {
+      "all": "Lahat ng network"
+    },
+    "networkCost": {
+      "label": "Bayad sa network",
+      "maxNativeBalance": {
+        "description": "Inirereserba ang maliit na halaga ng balanse ng token sa network para sa bayad sa network ng transaksyong ito.",
+        "title": "Bakit hindi ko magamit ang aking max na balanse?"
+      },
+      "veryHigh": {
+        "label": "Napakataas na bayad sa network"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Hindi makansela ang transaksyon",
+        "replace": "Hindi mapalitan ang transaksyon"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Kinansela ang pag-apruba",
+        "canceling": "Kinakansela ang pag-apruba",
+        "failed": "Hindi naaprubahan",
+        "pending": "Inaaprubahan",
+        "success": "Inaprubahan",
+        "successDapp": "Inaprubahan noong {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Kinansela ang pagbili",
+        "canceling": "Kinakansela ang pagbili",
+        "failed": "Hindi nabili",
+        "pending": "Bumibili",
+        "success": "Bumili",
+        "successDapp": "Bumili sa {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Kinansela ang pagkumpirma",
+        "canceling": "Nakabinbin ang pagkansela",
+        "failed": "Hindi nakumpirma",
+        "pending": "Kasalukuyang isinasagawa ang transaksyon",
+        "success": "Nakumpirma ang transaksyon",
+        "successDapp": "Nakumpirma ang transaksyon sa {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Kinansela ang pag-mint",
+        "canceling": "Kinakansela ang pag-mint",
+        "failed": "Hindi na-mint",
+        "pending": "Mini-mint",
+        "success": "Na-mint",
+        "successDapp": "Na-mint sa {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Kinansela ang pagbili",
+        "canceling": "Kinakansela ang pagbili",
+        "failedOn": "Hindi nabili sa {{serviceProvider}}",
+        "pendingOn": "Bibili sa {{serviceProvider}}",
+        "successOn": "Bumili sa {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Kinansela ang pagtanggap",
+        "canceling": "Kinakansela ang pagtanggap",
+        "failedFrom": "Hindi natanggap mula sa {{serviceProvider}}",
+        "pendingFrom": "Tumatanggap mula sa {{serviceProvider}}",
+        "success": "Natanggap na",
+        "successDapp": "Natanggap sa {{externalDappName}}",
+        "successFrom": "Natanggap mula sa {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Kinansela ang pagbawi",
+        "canceling": "Kinakansela ang pagbawi",
+        "failed": "Hindi nabawi",
+        "pending": "Binabawi",
+        "success": "Binawi",
+        "successDapp": "Binawi sa {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Kinansela ang pagbebenta",
+        "canceling": "Kinakansela ang pagbebenta",
+        "failedOn": "Hindi Naisagawa ang Pagbebenta sa pamamagitan ng {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Matuto pa tungkol sa pagbebenta ng crypto.",
+          "title": "Bakit nakabinbin pa rin ang pagbebenta ko?"
+        },
+        "pendingOn": "Nagbebenta sa pamamagitan ng {{serviceProvider}}",
+        "successOn": "Naibenta sa pamamagitan ng {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Kinansela ang pagbebenta",
+        "canceling": "Kinakansela ang pagbebenta",
+        "failed": "Hindi nabenta",
+        "pending": "Nagbebenta",
+        "success": "Naibenta na",
+        "successDapp": "Naibenta sa {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Kinansela ang pagpapadala",
+        "canceling": "Kinakansela ang pagpapadala",
+        "failed": "Hindi naipadala",
+        "pending": "Nagpapadala",
+        "success": "Naipadala na",
+        "successDapp": "Naipadala sa {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Kinansela ang pag-swap",
+        "canceling": "Kinakansela ang pag-swap\n",
+        "expired": "Nag-expire ang pag-swap",
+        "failed": "Hindi na-swap",
+        "insufficientFunds": "Hindi sapat ang mga pondo",
+        "pending": "Nagsa-swap",
+        "success": "Na-swap na",
+        "successDapp": "Na-swap sa {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Kinansela ang pag-unwrap",
+        "canceling": "Kinakansela ang pag-unwrap",
+        "failed": "Hindi na-unwrap",
+        "pending": "Ina-unwrap",
+        "success": "Na-unwrap na",
+        "successDapp": "Na-unwrap sa {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Kinansela ang pag-wrap",
+        "canceling": "Kinakansela ang pag-wrap",
+        "failed": "Hindi na-wrap",
+        "pending": "Nira-wrap",
+        "success": "Na-wrap",
+        "successDapp": "Na-wrap sa {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} para kay {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} mula kay {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "You need ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) on {{networkName}} to cover this transaction’s network cost."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "To swap for this token, you need more {{tokenSymbol}} on {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "Hindi sapat ang {{tokenSymbol}} sa {{networkName}}",
+            "withoutNetwork": "Hindi sapat ang {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Gagastusin mo ang karamihan sa iyong balanse ng token sa network. Posibleng mag-iwan ito ng mga hindi sapat na pondo para sa mga bayad sa network sa hinaharap.",
+        "title": "Mababang balanse ng token sa network"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Hindi makansela ang transaksyon",
+        "status": "Nagka-error habang sinusuri ang status ng transaksyon"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "Pinagsasama-sama ng <logo /> ang mga source ng liquidity para sa mas magagandang presyo at libreng pag-swap ng gas.",
+    "learnMore": "Matuto pa tungkol sa pag-swap sa UniswapX"
+  },
+  "uniswapx": {
+    "description": "Pinagsasama-sama ng UniswapX ang mga source ng liquidity para sa mas magagandang presyo at libreng pag-swap ng gas.",
+    "included": "May kasamang <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "Hindi nagawa ang hard quote ng UniswapX v2. Subukan ulit sa classic swap."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "I-claim ngayon"
+      },
+      "subtitle": "Bumuo ng naka-personalize na web3 profile at maibahagi kaagad ang iyong address sa mga kaibigan.",
+      "title": {
+        "compact": "<highlight>I-claim ang iyong {{unitagDomain}} username</highlight> at buuin ang iyong nako-customize na profile.",
+        "full": "I-claim ang iyong username sa {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Pumili mula sa camera roll",
+        "computer": "Mag-upload mula sa computer",
+        "nft": "Pumili ng isang NFT",
+        "remove": "Alisin ang larawan sa profile"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "I-customize ang profile",
+        "description": "Ang {{unitagAddress}} ay handa nang magpadala at tumanggap ng crypto. Magpatuloy sa pagbuo ng iyong wallet sa pamamagitan ng pag-customize ng iyong profile sa web3.",
+        "success": {
+          "long": "Nakuha mo na!",
+          "short": "nakuha ko na!"
+        }
+      },
+      "error": {
+        "addressLimit": "Nagawa mo na ang maximum na bilang ng mga pagbabago sa iyong username para sa address na ito",
+        "avatar": "Hindi maitakda ang avatar. Subukan ulit sa ibang pagkakataon.",
+        "default": "Hindi ma-claim ang username. Subukan ulit sa ibang pagkakataon.",
+        "deviceLimit": "Naabot mo na ang maximum na bilang ng mga username na puwedeng maging aktibo para sa device na ito",
+        "general": "Hindi ma-claim ang username",
+        "unavailable": "Hindi available ang username na ito",
+        "unknown": "Hindi kilalang error"
+      },
+      "username": {
+        "default": "pangalan mo"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Ide-delete mo ang iyong username at ang mga nako-customize na detalye ng profile mo. Hindi mo na ito make-claim ulit.",
+        "title": "Sigurado ka ba?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "username"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Papalitan mo ang iyong username. Kapag napalitan mo na ito, hindi mo na ito make-claim muli.",
+        "title": "Sigurado ka ba?"
+      },
+      "title": "I-edit ang iyong username",
+      "warning": {
+        "default": "Kapag napalitan mo na ang iyong username, hindi mo na ito make-claim muli. Puwede mo lang itong baguhin nang <highlight>2</highlight> (na) beses.",
+        "max": "Naabot mo na ang maximum na bilang ng 2 pagbabago sa username."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Mag-claim ng username",
+        "description": "Magpaalam na sa mga 0x address. Ang mga username ay mga nababasang pangalan na mas nagpapadali sa pagpapadala at pagtanggap ng crypto.",
+        "title": "Ipinapakilala ang mga username",
+        "upsell": {
+          "customizable": "Mga nako-customize na profile",
+          "ens": "Pinapagana ng mga subdomain ng ENS",
+          "free": "Libreng mag-claim"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Pinapagana ng mga subdomain ng ENS",
+        "free": "Libreng mag-claim",
+        "profile": "Mga nako-customize na profile"
+      },
+      "subtitle": "Magpaalam na sa mga 0x address. Ang mga username ay mga nababasang pangalan na mas nagpapadali sa pagpapadala at pagtanggap ng crypto.",
+      "title": "Ipinapakilala ang mga username"
+    },
+    "notification": {
+      "delete": {
+        "error": "Hindi ma-delete ang username. Subukan ulit sa ibang pagkakataon.",
+        "title": "Na-delete na ang username"
+      },
+      "profile": {
+        "error": "Hindi ma-update ang profile. Subukan ulit sa ibang pagkakataon.",
+        "title": "Na-update na ang profile"
+      },
+      "username": {
+        "error": "Hindi mapalitan ang username. Subukan ulit sa ibang pagkakataon.",
+        "title": "Napalitan na ang username"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Ito ang iyong naka-personalize na address kung saan puwedeng magpadala ng crypto ang mga tao.",
+        "title": {
+          "choose": "Gumawa ng iyong username",
+          "claim": "I-claim ang iyong username"
+        }
+      },
+      "info": {
+        "description": "Binabago ng mga username ang mga kumplikadong 0x na address para maging mga nababasang pangalan. Sa pamamagitan ng pag-claim ng {{unitagDomain}} username, madali kang makakapagpadala at makakatanggap ng crypto at makakabuo ng pampublikong profile sa web3.",
+        "title": "Isang pinasimpleng address"
+      },
+      "profile": {
+        "subtitle": "Mag-upload ng sarili mo o gamitin pa rin ang iyong natatanging Unicon. Puwede mong baguhin ito sa anumang oras, sa ibang pagkakataon.",
+        "title": "Pumili ng larawan sa profile"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "I-delete ang username",
+        "edit": "I-edit ang username"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Mag-type ng bio para sa iyong profile"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Ang mga username ay puwede lang magkaroon ng mga titik at numero",
+        "max": "Ang mga username ay hindi puwedeng lumampas sa {{number}} (na) character",
+        "min": "Ang mga username ay hindi dapat bababa sa {{number}} (na) character",
+        "uppercase": "Ang mga username ay puwede lang magkaroon ng mga maliit na titik at numero"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Hindi sapat ang {{tokenSymbol}} sa {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Hindi available ang Uniswap V2 sa network na ito."
+  },
+  "wallet": {
+    "appSignIn": "Mag-sign in gamit ang app",
+    "connectingAgreement": "Sa pamamagitan ng pagkonekta ng wallet, sumasang-ayon ka sa <termsLink>Mga Tuntunin ng Serbisyo</termsLink> ng Uniswap Labs at pumapayag ka sa <privacyLink>Patakaran sa Privacy</privacyLink> nito.",
+    "connectionFailed": {
+      "message": "Hindi nakakonekta. Paki-click ang subukang muli at sundin ang mga hakbang para kumonekta sa iyong wallet."
+    },
+    "other": "Iba pang wallet",
+    "scanToConnect": "I-scan ang QR code para kumonekta",
+    "wrongNet": "Nakakonekta ang iyong wallet sa maling network."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Kumonekta sa isang app sa pamamagitan ng pag-scan ng code sa pamamagitan ng WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Walang nakakonektang app"
+        },
+        "title": "Mga Koneksyon"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Kasalukuyang sinusuportahan ng Uniswap Wallet ang {{chainNames}}. Pakigamit lang ang \"{{dappName}}\" sa mga chain na ito",
+        "title": "Error sa Koneksyon"
+      },
+      "general": {
+        "message": "Nagkaroon ng isyu sa WalletConnect. Pakisubukang muli",
+        "title": "Error sa WalletConnect"
+      },
+      "scantastic": {
+        "message": "Nagkaroon ng isyu sa QR code. Pakisubukang muli",
+        "title": "Invalid ang QR Code"
+      },
+      "unsupported": {
+        "message": "Tiyaking nagsa-scan ka ng valid na WalletConnect, Ethereum address, o Uniswap Extension QR code bago subukang muli.",
+        "title": "Invalid ang QR Code"
+      },
+      "unsupportedV1": {
+        "message": "Hindi na sinusuportahan ang WalletConnect v1. Ang application na sinusubukan mong ikonekta ay kinakailangang i-upgrade sa WalletConnect v2.",
+        "title": "Invalid ang QR Code"
+      },
+      "uwu": {
+        "scan": "Nagkaroon ng isyu sa pag-scan ng QR code na ito.",
+        "title": "Error sa UwU Link",
+        "unsupported": "Hindi sinusuportahan ang QR code na ito."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Kumonekta",
+        "scrollDown": "Mag-scroll pababa para kumonekta"
+      },
+      "switchAccount": "Lumipat ng Account",
+      "title": "Kumonekta sa {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "I-transfer ang iyong mga asset nang walang pahintulot",
+        "viewTokenBalances": "Tingnan ang iyong mga balanse ng token",
+        "viewWalletAddress": "Tingnan ang iyong wallet address"
+      },
+      "title": "Mga pahintulot sa site"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Mag-scroll pababa para mag-sign",
+        "sign": "Mag-sign"
+      },
+      "details": {
+        "label": {
+          "function": "Function",
+          "sending": "Nagpapadala",
+          "token": "Token",
+          "tokens": "Mga Token"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Wala kang sapat na {{currencySymbol}} para makumpleto ang transaksyong ito.",
+        "network": "Error sa koneksyon sa internet o network"
+      },
+      "warning": {
+        "general": {
+          "message": "Mag-ingat: posibleng mag-transfer ng mga asset ang mensaheng ito"
+        },
+        "message": "Para makapag-sign ng mga mensahe o transaksyon, kakailanganin mong i-import ang recovery phrase ng wallet.",
+        "title": "Nasa view-only mode ang wallet na ito"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Tumuklas at magsaliksik ng mga token sa {{network}}. I-explore ang mga nangungunang pool. Tingnan ang mga real-time na presyo, volume ng pag-trade, TVL, mga chart, at data ng transaksyon.",
+      "title": {
+        "pools": "I-explore ang mga nangungunang pool sa {{network}} sa Uniswap",
+        "tokens": "I-explore ang mga nangungunang token sa {{network}} sa Uniswap",
+        "transactions": "I-explore ang mga nangungunang transaksyon sa {{network}} sa Uniswap"
+      }
+    }
+  }
+}

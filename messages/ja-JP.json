@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "{{amount}} のリワードを請求"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "{{cloudProviderName}} に複数の回復フレーズがバックアップされています。",
+        "title": "復元するバックアップを選択してください"
+      },
+      "button": {
+        "restore": {
+          "android": "Google ドライブから復元",
+          "ios": "iCloud から復元"
+        }
+      },
+      "empty": {
+        "description": "{{cloudProviderName}} には回復フレーズをバックアップしていないようです。",
+        "title": "バックアップが見つかりませんでした"
+      },
+      "error": {
+        "backup": {
+          "message": "権限なし、認可の中断、またはクラウドエラーのため、バックアップをインポートできませんでした",
+          "title": "バックアップのインポート中にエラーが発生しました"
+        },
+        "password": {
+          "title": "無効なパスワードです。もう一度お試しください。"
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "今は行わない",
+            "settings": "設定に移動"
+          },
+          "message": {
+            "android": "このデバイスで Google ドライブが有効になっている Google アカウントにログインしていることを確認して、もう一度お試しください。",
+            "ios": "このデバイスで iCloud Drive が有効になっている Apple ID にログインしていることを確認して、もう一度お試しください。"
+          },
+          "title": {
+            "android": "Google ドライブが利用できません",
+            "ios": "iCloud Drive が利用できません"
+          }
+        }
+      },
+      "loading": {
+        "title": "バックアップを検索中です..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "試行回数が多すぎます。1 時間後にもう一度お試しください。",
+          "hours_other": "試行回数が多すぎます。{{count}} 時間後にもう一度お試しください。",
+          "minutes_one": "試行回数が多すぎます。1 分後にもう一度お試しください。",
+          "minutes_other": "試行回数が多すぎます。{{count}} 分後にもう一度お試しください。"
+        }
+      },
+      "password": {
+        "input": "パスワードを入力してください",
+        "recoveryPhrase": "代わりに回復フレーズを入力してください",
+        "subtitle": "このパスワードは、{{cloudProviderName}} から回復フレーズのバックアップを復元するために必要です。",
+        "title": "バックアップパスワードを入力してください"
+      }
+    },
+    "drawer": {
+      "gitVersion": "バージョン：",
+      "modal": {
+        "body": "Uniswap アプリでは、トークンの保管とスワップを安全に行えます。iOS と Android でご利用いただけます。",
+        "dont": "Uniswap ウォレットをお持ちではありませんか？",
+        "scan": "Uniswap ウォレットでスキャン"
+      },
+      "spamToggle": "不明なトークンと NFT を非表示にする"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "残高が入力金額を下回ったため、この注文はキャンセルされました。"
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "残高が入力金額を下回ったため、この注文は成立しません。問題を解決するには残高を増やしてください。"
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "回復フレーズ（またはシードフレーズ）は、ウォレットにアクセスするために必要な、<highlight>パスワードと同様の</highlight><highlight>一連の単語</highlight>です。",
+        "part2": "新しいデバイスで回復フレーズを<highlight>入力</highlight>すると、<highlight>ウォレットとその内容を復元</highlight>できます。",
+        "part3": "ただし、<highlight>回復フレーズを紛失する</highlight>と、ウォレットに<highlight>アクセスできなくなります</highlight>。",
+        "part4": "回復フレーズを記憶する代わりに、<highlight>{{cloudProviderName}} にバックアップ</highlight>して、パスワードで保護することができます。",
+        "part5": "回復フレーズを<highlight>書き留めて</highlight>おいて安全な場所に保存することで、手動でバックアップすることもできます。",
+        "part6": "回復フレーズを紛失するとウォレットを復元できなくなるため、<highlight>両方のタイプでバックアップする</highlight>ことをお勧めします。"
+      },
+      "error": {
+        "invalid": "無効なフレーズです",
+        "invalidWord": "無効な単語です：{{word}}",
+        "phraseLength": "回復フレーズは 12～24 語でなければなりません",
+        "wrong": "回復フレーズが間違っています"
+      },
+      "helpText": {
+        "import": "回復フレーズを見つけるにはどうすればよいですか？",
+        "restoring": "もう一度検索してみてください"
+      },
+      "input": "回復フレーズを入力してください",
+      "remove": {
+        "final": {
+          "description": "<highlight>資金にアクセスできなくなる事態を防ぐため</highlight>、必ず、回復フレーズを書き留めておくか、{{cloudProviderName}} にバックアップしてください。",
+          "title": "<highlight>回復フレーズ</highlight>を削除します"
+        },
+        "import": {
+          "description": "一度に保存できる回復フレーズは 1 つだけです。新しい回復フレーズのインポートを続けるには、現在の回復フレーズと関連ウォレットをこのデバイスから削除する必要があります。"
+        },
+        "initial": {
+          "description": "これにより、ウォレットが回復フレーズと共にこのデバイスから削除されます。",
+          "title": "<highlight>{{walletName}}</highlight> を削除します"
+        },
+        "mnemonic": {
+          "description": "回復フレーズは、残りのウォレットをすべて削除するまで引き続き保存されます。"
+        }
+      },
+      "subtitle": {
+        "import": "回復フレーズはデバイスのみに保存されます。",
+        "restoring": "以下に回復フレーズを入力するか、バックアップをもう一度検索してみてください。"
+      },
+      "title": {
+        "import": "回復フレーズを入力してください",
+        "restoring": "バックアップが見つかりませんでした"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "アドレスをコピー",
+        "manageConnections": "接続を管理",
+        "report": "プロフィールをレポート",
+        "viewExplorer": "{{blockExplorerName}} で表示する"
+      },
+      "button": {
+        "add": "ウォレットを追加",
+        "addViewOnly": "表示専用ウォレットを追加",
+        "create": "新規ウォレットを作成",
+        "import": "新規ウォレットをインポート",
+        "manage": "ウォレットの設定",
+        "remove": "ウォレットを削除",
+        "restore": "ウォレットを回復",
+        "watch": "ウォレットを監視"
+      },
+      "create": {
+        "placeholder": "ウォレット {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "ウォレットラベル"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "プロフィールを編集"
+          },
+          "title": "ラベルを編集"
+        },
+        "viewOnly": "表示専用ウォレット"
+      },
+      "menu": {
+        "claimUsername": "ユーザー名を申請",
+        "copy": {
+          "title": "ウォレットアドレスをコピー"
+        },
+        "edit": {
+          "title": "ラベルを編集"
+        },
+        "manageConnections": "接続を管理",
+        "remove": {
+          "title": "ウォレットを削除"
+        }
+      },
+      "remove": {
+        "check": "回復フレーズをバックアップしましたが、私がウォレットの復元に失敗した場合でも Uniswap Labs がウォレットの復元をサポートできないことを理解しています。",
+        "title": "{{name}} を削除",
+        "viewOnly": "ウォレットのアドレスを入力すると、いつでも表示専用ウォレットを改めて追加できます。"
+      },
+      "restore": {
+        "description": "新しいデバイスを使用するため、続行するには回復フレーズを復元するか、クラウド バックアップ パスワードを入力する必要があります。"
+      },
+      "select": {
+        "error": "アドレスを読み込めませんでした",
+        "loading": {
+          "subtitle": "ウォレットが下に表示されます。",
+          "title": "ウォレットを検索中です"
+        },
+        "title_one_one": "ウォレットが 1 つ見つかりました",
+        "title_one_other": "インポートするウォレットを選択してください"
+      },
+      "viewOnly": {
+        "button": "ウォレットをインポート",
+        "description": "トークンのスワップ、購入、送信、受け取りのためには、このウォレットの回復フレーズをインポートする必要があります。",
+        "title": "このウォレットは表示専用です"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "このアドレスは既にインポートされています",
+          "notFound": "アドレスが見つかりません",
+          "smartContract": "アドレスがスマートコントラクトです"
+        },
+        "message": "表示専用ウォレットを追加すると、アプリを試したり、ウォレットを追跡したりできるようになります。資金のスワップや送信はできません。",
+        "placeholder": "ENS またはアドレス",
+        "title": "ウォレットアドレスを入力してください"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} 件のアクティビティを実施中です",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}}、送信元は {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} の受領者 {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} - 次に相当：{{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} および {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "プールのシェア"
+  },
+  "addressInput": {
+    "recipient": "受領者"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Uniswap Labs 製品でのエクスペリエンスを向上させるために、匿名化されたデータを使用します。"
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "それほどでもない"
+    },
+    "description": "このアプリを気に入っていただけましたら、ぜひお知らせください",
+    "extension": {
+      "review": {
+        "description": "Chrome ウェブストアで星評価とレビューをお願いします。",
+        "title": "Uniswap 拡張機能をレビューしますか？"
+      },
+      "title": "Uniswap 拡張機能は満足いくものですか?"
+    },
+    "feedback": {
+      "button": {
+        "send": "フィードバックを送信"
+      },
+      "description": "改善できる点がありましたらお知らせください",
+      "title": "それは残念です。"
+    },
+    "mobile": {
+      "title": "Uniswap ウォレットのご利用は満足いくものですか？"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "約 {{minutes}} 分 {{seconds}} 秒",
+      "minutesOnly": "約 {{minutes}} 分",
+      "secondsOnly": "約 {{seconds}} 秒"
+    }
+  },
+  "chart": {
+    "candlestick": "ローソク足",
+    "error": {
+      "pools": "現在のプールの履歴データを表示できません。",
+      "tokens": "現在のトークンの履歴データを表示できません。"
+    },
+    "line": "折れ線グラフ",
+    "missingData": "チャートデータが見つかりません",
+    "price": {
+      "label": {
+        "close": "終値",
+        "high": "最高値",
+        "low": "最安値",
+        "open": "始値"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "この設定は現在のチャートでは利用できません"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Uniswap コミュニティに参加していただきありがとうございます <heart />",
+    "uni": {
+      "arrived": "UNI が届きました"
+    }
+  },
+  "common": {
+    "accept": "受け入れる",
+    "activity": "アクティビティ",
+    "add": {
+      "label": "追加",
+      "liquidity": {
+        "cancelled": "流動性の追加がキャンセルされました",
+        "failed": "流動性の追加に失敗しました"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "V2 流動性の追加がキャンセルされました",
+          "failed": "V2 流動性の追加に失敗しました"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "流動性を追加しました",
+      "v2": {
+        "liquidity": "V2 流動性を追加しました"
+      }
+    },
+    "addedLiquidity": "流動性を追加しました",
+    "adding": {
+      "liquidity": "流動性を追加中です",
+      "v2": {
+        "liquidity": "V2 流動性を追加中です"
+      }
+    },
+    "addLiquidity": "流動性を追加",
+    "addressOrENS": "ウォレットアドレスまたは ENS 名",
+    "advanced": "詳細",
+    "all": "すべて",
+    "allTime": "全期間",
+    "and": "および",
+    "app": "アプリ",
+    "approval": {
+      "cancelled": "承認がキャンセルされました",
+      "failed": "承認に失敗しました"
+    },
+    "approve": "承認",
+    "approved": "承認しました",
+    "approvePending": "承認中です...",
+    "approveSpend": "{{symbol}} の支出を承認",
+    "approving": "承認中",
+    "areYouSure": "よろしいですか？",
+    "automatic": "自動",
+    "availableIn": "Uniswap は <locale /> でご利用いただけます",
+    "availableOnIOSAndroid": "iOS と Android でご利用いただけます",
+    "availableOnIOSAndroidChrome": "iOS、Android、Chrome でご利用いただけます",
+    "backToPositions": "ポジションに戻る",
+    "blocked": {
+      "ifError": "これがエラーであると思われる場合は、アドレスを記載した電子メールを <emailAddress /> に送信してください",
+      "reason": "このアドレスは 1 つ以上の<link>ブロックされたアクティビティ</link>に関連付けられているため、Uniswap Labs インターフェイスでブロックされています。"
+    },
+    "blockedAddress": "ブロックされているアドレス",
+    "blog": "ブログ",
+    "borrow": {
+      "cancelled": "借入がキャンセルされました",
+      "failed": "借入に失敗しました"
+    },
+    "borrowed": "借入しました",
+    "borrowing": "借入中です",
+    "bought": "購入しました",
+    "brandAssets": "ブランドアセット",
+    "burn": {
+      "cancelled": "バーンがキャンセルされました",
+      "failed": "バーンに失敗しました"
+    },
+    "burned": "バーンしました",
+    "burning": "バーン中です",
+    "button": {
+      "accept": "受け入れる",
+      "back": "戻る",
+      "buy": "購入",
+      "cancel": "キャンセル",
+      "checkin": "チェックイン",
+      "close": "閉じる",
+      "confirm": "確定",
+      "connect": "接続",
+      "continue": "続行",
+      "copied": "コピーしました",
+      "copy": "コピー",
+      "create": "作成",
+      "delete": "削除",
+      "disconnect": "切断",
+      "dismiss": "閉じる",
+      "done": "完了しました",
+      "edit": "編集",
+      "enable": "有効にする",
+      "finish": "完了",
+      "goBack": "戻る",
+      "later": "おそらく後で",
+      "learn": "詳しく知る",
+      "next": "次へ",
+      "notNow": "今は行わない",
+      "ok": "OK",
+      "paste": "貼り付ける",
+      "pay": "支払う",
+      "proceed": "続行",
+      "receive": "受け取る",
+      "remove": "削除",
+      "reset": "リセット",
+      "retry": "再試行",
+      "reveal": "表示する",
+      "review": "レビュー",
+      "save": "保存",
+      "scrollDown": "下へスクロール",
+      "sell": "売却",
+      "send": "送信",
+      "setup": "セットアップ",
+      "share": "共有",
+      "showLess": "表示内容を減らす",
+      "showMore": "表示内容を増やす",
+      "sign": "署名",
+      "skip": "スキップ",
+      "swap": "スワップ",
+      "tryAgain": "もう一度試す",
+      "understand": "わかりました",
+      "unlock": "ロックを解除",
+      "view": "表示する",
+      "viewDetails": "詳細を表示",
+      "yes": "はい"
+    },
+    "buy": {
+      "cancelled": "購入をキャンセルしました",
+      "failed": "購入に失敗しました",
+      "label": "購入"
+    },
+    "buyAndSell": "Uniswap で売買",
+    "buying": "購入中です",
+    "by": "購入者",
+    "cancel": {
+      "failed": "キャンセルに失敗しました"
+    },
+    "cancellation": {
+      "cancelled": "キャンセル処理がキャンセルされました"
+    },
+    "cancellationSubmitted": "キャンセルが送信されました",
+    "cancellationSuccessful": "キャンセルが完了しました",
+    "cancelled": "キャンセルされました",
+    "cancelling": "キャンセル中です",
+    "cancelOrder": "注文をキャンセル",
+    "card": {
+      "error": {
+        "description": "問題が発生しました",
+        "title": "申し訳ございません。問題が発生しました。"
+      }
+    },
+    "careers": "キャリア",
+    "chart": "チャート",
+    "checkNetwork": "ネットワークステータスは <link>こちら</link>で確認してください。",
+    "chromeExtension": "拡張機能",
+    "claim": {
+      "cancelled": "請求がキャンセルされました",
+      "failed": "請求に失敗しました"
+    },
+    "claimed": "請求しました",
+    "claiming": "請求中です",
+    "claimUnis": "UNI トークンを請求",
+    "clear": "クリア",
+    "close": "閉じる",
+    "closed": "クローズ済み",
+    "collect": {
+      "button": "回収",
+      "fees": {
+        "cancelled": "手数料の回収がキャンセルされました",
+        "failed": "手数料の回収に失敗しました"
+      }
+    },
+    "collected": {
+      "fees": "手数料を回収しました"
+    },
+    "collecting": {
+      "fees": "手数料を回収中です"
+    },
+    "company": "会社",
+    "confirm": "確定",
+    "confirmCancellation": "キャンセルを確定",
+    "confirmSend": {
+      "button": "送信を確定"
+    },
+    "confirmSwap": "ウォレットでのスワップを確定",
+    "confirmTimedOut": "確定がタイムアウトしました。再試行してください。",
+    "confirmWallet": "ウォレットで確定",
+    "connect": {
+      "button": "接続"
+    },
+    "connectAWallet": {
+      "button": "ウォレットを接続"
+    },
+    "connectWallet": {
+      "button": "ウォレットを接続"
+    },
+    "contactUs": {
+      "button": "お問い合わせ"
+    },
+    "contractInteraction": "契約のやり取り",
+    "copied": "コピーしました",
+    "copy": {
+      "address": "アドレスをコピー"
+    },
+    "copyLink": {
+      "button": "リンクをコピー"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "プールの作成がキャンセルされました",
+        "failed": "プールの作成に失敗しました"
+      }
+    },
+    "created": {
+      "date": "作成日 {{date}}",
+      "pool": "プールを作成しました"
+    },
+    "creating": {
+      "pool": "プールを作成中です"
+    },
+    "currency": "通貨",
+    "custom": "カスタム",
+    "customRange": "カスタム範囲",
+    "dataOutdated": "データが古い可能性があります",
+    "default": "デフォルト",
+    "defaultTradeOptions": "デフォルトの取引オプション",
+    "delegate": {
+      "cancelled": "委任がキャンセルされました",
+      "failed": "委任に失敗しました"
+    },
+    "delegated": "委任されました",
+    "delegating": "委任中です",
+    "deploy": {
+      "cancelled": "デプロイがキャンセルされました",
+      "failed": "デプロイに失敗しました"
+    },
+    "deployed": "デプロイしました",
+    "deploying": "デプロイ中です",
+    "deposit": {
+      "cancelled": "預入がキャンセルされました",
+      "failed": "預入に失敗しました",
+      "toNetwork": "トークンを {{label}} ネットワークに預け入れます。"
+    },
+    "deposited": "預け入れました",
+    "depositing": "預け入れ中です",
+    "depositTokens": "トークンの入金",
+    "detected": "検出されました",
+    "developers": "開発者",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "閉じる",
+    "displaySettings": "表示設定",
+    "dnsRegistrar": "DNS レジストラー",
+    "donate": "寄付する",
+    "done": "完了",
+    "dontShowAgain": "次回から表示しない",
+    "download": "ダウンロード",
+    "downloadAppStore": "App Store でダウンロード",
+    "downloadPlayStore": "Play ストアでダウンロード",
+    "downloadUniswap": "Uniswap をダウンロード",
+    "downloadUniswapApp": "Uniswap アプリをダウンロード",
+    "dynamic": "動的",
+    "edit": {
+      "button": "編集"
+    },
+    "error": {
+      "details": "エラー詳細",
+      "general": "問題が発生しました",
+      "label": "エラーが発生しました",
+      "request": "申し訳ございませんが、リクエストの処理中にエラーが発生しました。サポートをリクエストする場合は、このエラーの詳細を必ずコピーしてください。",
+      "somethingWrong": "問題が発生しました。",
+      "wrong": {
+        "tryAgain": "問題が発生しました。もう一度お試しください。"
+      }
+    },
+    "errorConnecting": {
+      "error": "接続エラーが発生しています"
+    },
+    "errorLoadingData": {
+      "error": "データの読み込みエラーが発生しています"
+    },
+    "ethereumNameService": "イーサリアムネームサービス",
+    "etherscan": {
+      "link": "イーサスキャンで表示する"
+    },
+    "ethRegistrarController": "ETH レジストラー コントローラー",
+    "execute": {
+      "cancelled": "実行がキャンセルされました",
+      "failed": "実行に失敗しました"
+    },
+    "executed": "実行しました",
+    "executing": "実行中です",
+    "expired": "期限切れ",
+    "expiry": "有効期限",
+    "explore": "探索",
+    "explorer": "エクスプローラ",
+    "exploreTokens": "トークンを探索",
+    "extension": "Uniswap 拡張機能",
+    "failed": {
+      "error": "失敗しました"
+    },
+    "failedSwitchNetwork": "ネットワークの切り替えに失敗しました",
+    "fee": "手数料",
+    "fees": "手数料",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolB}} あたり {{symbolA}}",
+    "fetchingRoute": "ルートを取得中です",
+    "floor": "底値",
+    "floorPrice": "フロア価格",
+    "for": "次に相当",
+    "fullRange": "フル範囲",
+    "getApp": "アプリを入手",
+    "getHelp": {
+      "button": "お困りの場合"
+    },
+    "getStarted": "始める",
+    "getSupport": {
+      "button": "お困りの場合"
+    },
+    "getTheApp": "アプリを入手",
+    "getUniswapWallet": "Uniswap ウォレットを入手",
+    "governance": "ガバナンス",
+    "happyHolidays": "Uniswap チームより、ハッピーホリデー",
+    "helpCenter": "ヘルプセンター",
+    "hidden": "表示されていません",
+    "hide": {
+      "button": "非表示にする"
+    },
+    "highPrice": "高価格",
+    "includes": "次を含む：",
+    "info": {
+      "label": "情報"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "受領者を選択"
+      },
+      "password": {
+        "confirm": "パスワードを確定",
+        "error": {
+          "mismatch": "パスワードが一致しません",
+          "weak": "このパスワードは弱すぎます"
+        },
+        "new": "新規パスワード",
+        "placeholder": "パスワード",
+        "strength": {
+          "medium": "中",
+          "strong": "強",
+          "weak": "弱"
+        }
+      },
+      "search": "検索"
+    },
+    "insufficient": {
+      "funds": "資金が不足しています"
+    },
+    "insufficientBalance": {
+      "error": "残高が不足しています"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "ネットワークコストをカバーする資金が不足しています"
+    },
+    "insufficientLiquidity": "流動性が不足しています",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "{{tokenSymbol}} が不足しています"
+      }
+    },
+    "invalidPair": "無効なペアです",
+    "invalidRecipient": {
+      "error": "無効な受領者です"
+    },
+    "iOSAndroid": "iOS と Android",
+    "language": "言語",
+    "lastPrice": "最終価格",
+    "learnMoreSwap": "スワップについて詳しく知る",
+    "legalAndPrivacy": "法的通知とプライバシーポリシー",
+    "less": "減らす",
+    "limit": {
+      "cancel_one": "指値注文をキャンセル",
+      "cancel_other": "{{count}} 件の指値注文をキャンセル",
+      "cancelled": "指値注文がキャンセルされました",
+      "executed": "指値注文が実行されました",
+      "expired": "指値注文の有効期限が切れました",
+      "failed": "指値注文が失敗しました",
+      "opened": "指値注文が開始されました",
+      "pending": "指値注文を実行中です"
+    },
+    "limits": {
+      "approachMax": "指値注文の上限 100 に近づいています",
+      "cancelProceed": "続行するには指値注文をキャンセルしてください",
+      "expires": "有効期限は {{timestamp}} です",
+      "open": "指値注文を開く",
+      "when": "{{price}} {{outSymbol}}/{{inSymbol}} になったとき"
+    },
+    "links": "リンク",
+    "liquidity": {
+      "removed": "流動性が削除されました"
+    },
+    "loading": "読み込み中です",
+    "loadingAllowance": "アローワンスを読み込み中です",
+    "loadMore": "さらに読み込む",
+    "longText": {
+      "button": {
+        "less": "表示を減らす",
+        "more": "もっと表示"
+      }
+    },
+    "lowPrice": "低価格",
+    "manage": "管理",
+    "market": {
+      "label": "市場"
+    },
+    "marketPrice": {
+      "fetching": "市場価格を取得中です...",
+      "label": "市場価格：",
+      "unavailable": "市場価格が見つかりません。資金の損失を回避するために、ご自身で調査を行ってください。"
+    },
+    "max": "最大",
+    "message": "メッセージ",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "流動性の移行がキャンセルされました",
+        "failed": "流動性の移行に失敗しました"
+      },
+      "position": "ポジションを移行",
+      "v3": "V3 へ移行"
+    },
+    "migrated": {
+      "liquidity": "流動性を移行しました"
+    },
+    "migrating": {
+      "liquidity": "流動性を移行中です"
+    },
+    "min": "最低",
+    "mint": {
+      "cancelled": "ミントをキャンセルしました",
+      "failed": "ミントに失敗しました"
+    },
+    "minted": "ミントしました",
+    "minting": "ミント中です",
+    "mobile": "モバイル",
+    "more": "もっと",
+    "multiDevice": "マルチデバイス",
+    "navigation": {
+      "settings": "設定",
+      "systemSettings": "設定"
+    },
+    "navigationButton": "ナビゲーションボタン",
+    "needHelp": "お困りですか？",
+    "networkCost": "ネットワークコスト",
+    "neverMind": "気にしないでください",
+    "new": {
+      "exclamation": "New!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT",
+    "noActivity": "まだアクティビティがありません",
+    "noAmount": {
+      "error": "金額を入力してください"
+    },
+    "noData": "データがありません",
+    "noResults": "結果が見つかりませんでした。",
+    "notAvailableInRegion": {
+      "error": "お住まいの地域ではご利用いただけません"
+    },
+    "notCreated": {
+      "label": "作成されていません"
+    },
+    "notSupported": "サポートされていません",
+    "oneDay": {
+      "short": "1 日"
+    },
+    "oneHour": {
+      "short": "1 時間"
+    },
+    "oneMonth": "1 か月",
+    "oneWeek": "1 週間",
+    "oneYear": "1 年",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "注文がキャンセルされました",
+    "orderExecuted": "注文が実行されました",
+    "orderExpired": "注文が期限切れになりました",
+    "orderPending": "注文中です",
+    "outOfRange": "範囲外です",
+    "pageNotFound": "ページが見つかりません。",
+    "passkey": {
+      "count": "パスキー {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "過去 1 日",
+    "pastFiveMinutes": "過去 5 分間",
+    "pastHour": "過去 1 時間",
+    "pastMonth": "過去 1 か月間",
+    "pastWeek": "過去 1 週間",
+    "pastYear": "過去 1 年間",
+    "pay": {
+      "button": "支払う"
+    },
+    "pending": {
+      "cancellation": "キャンセル中です"
+    },
+    "pendingEllipsis": "実施中です...",
+    "permit2": "Permit2",
+    "pool": "プール",
+    "pools": "プール",
+    "poweredBy": "<name /> を利用しています",
+    "price": "価格",
+    "priceImpact": "価格影響警告",
+    "priceUpdated": "価格が更新されました",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "オンにすると、パーソナライズされた広告を目的としてお客様のデータをサードパーティのパートナーと共有することはいたしません。このチェックボックスをオフにすることで、いつでも共有を有効にしていただけます。",
+        "label": "個人情報を共有しない"
+      },
+      "description": "弊社は、他のウェブサイトやプラットフォームで弊社のサービスをプロモートするために、デバイス ID を広告パートナーと共有することがあります。適用法の下で、これが販売、共有、またはターゲティング広告であるとみなされる場合、「個人情報を共有しない」チェックボックスをオンにすることでオプトアウトすることができます。弊社のプライバシー慣行の詳細については、<privacyLink>プライバシーポリシー</privacyLink>をご確認ください。",
+      "disclaimer": "選択が適用されるのは、このデバイスのこのブラウザのみであることにご注意ください。弊社サービスへのアクセスに使用しているブラウザのグローバルプライバシーコントロール設定を有効にすることで、オプトアウトすることもできます。その他のオプションについては、設定に移動してご確認ください。"
+    },
+    "privacyPolicy": "プライバシーポリシー",
+    "proceed": "続行",
+    "proceedInWallet": {
+      "short": "ウォレットで続行"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "パブリックリゾルバ",
+    "purchased": "購入しました",
+    "queue": {
+      "cancelled": "キューの追加がキャンセルされました",
+      "failed": "キューの追加に失敗しました"
+    },
+    "queued": "キューが追加されました",
+    "queuing": "キューを追加中です",
+    "rate": "レート",
+    "readMore": "もっと表示",
+    "receive": {
+      "cancelled": "受け取りをキャンセルしました",
+      "failed": "受け取りに失敗しました"
+    },
+    "received": "受け取りました",
+    "receiving": "受け取り中です",
+    "recent": "最近",
+    "rejected": "拒否されました",
+    "reload": {
+      "label": "アプリをリロード"
+    },
+    "remove": {
+      "label": "削除",
+      "liquidity": {
+        "cancelled": "流動性の削除がキャンセルされました",
+        "failed": "流動性の削除に失敗しました"
+      }
+    },
+    "removedLiquidity": "流動性を削除しました",
+    "removeItem": "アイテムを削除",
+    "removing": {
+      "liquidity": "流動性を削除中です"
+    },
+    "repaid": "返済しました",
+    "repay": {
+      "cancelled": "返済がキャンセルされました",
+      "failed": "返済に失敗しました"
+    },
+    "repaying": "返済中です",
+    "resetLimit": "{{symbol}} の制限をリセット",
+    "resetLimitWallet": "ウォレットの {{symbol}} の制限をリセット",
+    "resettingLimit": "{{symbol}} の制限をリセット中です...",
+    "resolveIssues_one": "問題を解決",
+    "resolveIssues_other": "{{count}} 件の問題を解決",
+    "restricted": {
+      "region": "地域が制限されています"
+    },
+    "reverseRegistrar": "リバースレジストラー",
+    "revoke": {
+      "approval": {
+        "failed": "承認を取り消せませんでした"
+      }
+    },
+    "revoked": {
+      "approval": "承認を取り消しました"
+    },
+    "revokedApproval": "承認を取り消しました",
+    "revoking": {
+      "approval": "承認の取り消し中です"
+    },
+    "samePrice": "同じ価格です",
+    "scanQRDownload": "携帯電話で QR コードをスキャンしてダウンロードしてください",
+    "selectRegion": {
+      "label": "お住まいの地域を選択してください"
+    },
+    "selectToken": {
+      "label": "トークンを選択"
+    },
+    "selfCustodial": "自己管理型",
+    "sell": {
+      "label": "売却"
+    },
+    "send": {
+      "button": "送信",
+      "cancelled": "送信をキャンセルしました",
+      "failed": "送信に失敗しました"
+    },
+    "sending": "送信中",
+    "sent": "送信済み",
+    "settings": "設定",
+    "share": {
+      "shareToTwitter": "Twitter に共有",
+      "twitter": "Twitter で共有"
+    },
+    "show": {
+      "button": "表示する"
+    },
+    "showLess": {
+      "button": "表示内容を減らす"
+    },
+    "showMore": {
+      "button": "表示内容を増やす"
+    },
+    "signatureExpired": "署名の有効期限が切れています。",
+    "signMessage": "メッセージに署名",
+    "signMessageWallet": "ウォレット内のメッセージに署名",
+    "sold": "売却しました",
+    "stats": "統計",
+    "status": "状態",
+    "stayConnected": "接続を保つ",
+    "step": {
+      "number": "ステップ {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "提案の提出をキャンセルしました",
+        "failed": "提案の提出に失敗しました"
+      }
+    },
+    "submitted": {
+      "proposal": "提案を提出しました"
+    },
+    "submitting": {
+      "proposal": "提案を提出中です"
+    },
+    "swap": {
+      "cancelled": "スワップはキャンセルされました",
+      "expired": "スワップは期限切れです",
+      "failed": "スワップに失敗しました"
+    },
+    "swapped": "スワップしました",
+    "swapPending": "スワップ中です...",
+    "swapping": "スワップ中",
+    "switchNetworks": "ネットワークを切り替える",
+    "termsOfService": "利用規約",
+    "text": {
+      "connected": "接続しました",
+      "contract": "契約",
+      "disconnected": "切断しました",
+      "error": "エラーが発生しました",
+      "notAvailable": "該当なし",
+      "recipient": "受取先",
+      "sender": "送信元",
+      "unknown": "不明"
+    },
+    "thisMonth": "今月",
+    "thisToken": "このトークン",
+    "thisWeek": "今週",
+    "thisYear": "今年",
+    "time": {
+      "days": "日",
+      "days_one": "日",
+      "days_other": "日",
+      "hours": "時間",
+      "hours_one": "時間",
+      "hours_other": "時間",
+      "minute": {
+        "amt": "{{time}} 分"
+      },
+      "minutes": "分",
+      "months": "か月",
+      "months_one": "か月",
+      "months_other": "か月",
+      "past": {
+        "days": {
+          "short": "{{days}} 日"
+        },
+        "hours": {
+          "short": "{{hours}} 時間"
+        },
+        "minutes": {
+          "short": "{{minutes}} 分"
+        },
+        "months": {
+          "short": "{{months}} か月"
+        },
+        "seconds": {
+          "short": "{{seconds}} 秒"
+        }
+      },
+      "weeks": "週",
+      "weeks_one": "週間",
+      "weeks_other": "週間"
+    },
+    "to": "受取先",
+    "today": "今日",
+    "tokenA": "トークン A",
+    "tokenAmount": "トークン数量",
+    "tokenB": "トークン B",
+    "tokenName": "トークン名",
+    "tokens": "トークン",
+    "totalUniswapTVL": "Uniswap TVL 合計",
+    "totalValueLocked": "TVL",
+    "trade": "取引",
+    "trademarkPolicy": "商標ポリシー",
+    "transactionDetails": "トランザクションの詳細",
+    "transactionId": "トランザクション ID",
+    "transactionPending": "トランザクションを実行中です",
+    "transactions": "トランザクション",
+    "transactionSettings": "トランザクションの設定",
+    "transfer_one": "件の転送",
+    "transfer_other": "件の転送",
+    "tryAgain": {
+      "error": "もう一度試す"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "タイプ"
+    },
+    "unavailable": "利用できません",
+    "unhide": "再表示",
+    "uniGovernance": "UNI ガバナンス",
+    "uniswapMobile": "Uniswap モバイル",
+    "uniswapProtocol": "Uniswap プロトコル",
+    "uniswapWallet": "Uniswap ウォレット",
+    "uniswapX": "UniswapX",
+    "unknown": "不明",
+    "unknownApproval": "不明な承認です",
+    "unknownBridge": "不明なブリッジです",
+    "unknownError": {
+      "error": "不明なエラーです"
+    },
+    "unknownLend": "不明な貸出です",
+    "unknownMint": "不明なミントです",
+    "unknownSend": "不明な送信です",
+    "unknownSwap": "不明なスワップです",
+    "unsupportedAsset_one": "サポートされていないアセット",
+    "unsupportedAsset_other": "サポートされていないアセット",
+    "unwrap": {
+      "button": "アンラップ",
+      "failed": "アンラップに失敗しました"
+    },
+    "unwrapped": "アンラップしました",
+    "unwrapping": "アンラップ中",
+    "view": {
+      "profile": "プロフィールを表示"
+    },
+    "viewOnExplorer": "エクスプローラで表示する",
+    "volume": "ボリューム",
+    "vote": {
+      "cancelled": "投票はキャンセルされました",
+      "failed": "投票に失敗しました"
+    },
+    "voted": "投票しました",
+    "voting": "投票中です",
+    "wallet": {
+      "approve": "ウォレットで承認",
+      "label": "ウォレット"
+    },
+    "walletForSwapping": "スワップ用に構築されたウォレットです。iOS と Android でご利用いただけます。",
+    "warning": "警告",
+    "webApp": "Web アプリ",
+    "website": "Web サイト",
+    "whyApprove": "なぜトークンを承認する必要があるのですか？",
+    "whySign": "なぜ署名が必要なのですか？",
+    "whyWrap": "なぜ {{symbol}} をラップする必要があるのですか？",
+    "withdraw": {
+      "failed": "引き出しに失敗しました"
+    },
+    "withdrawal": {
+      "amount": "引き出し額",
+      "cancelled": "引き出しはキャンセルされました"
+    },
+    "withdrawing": "引き出し中です",
+    "withdrew": "引き出しました",
+    "withinRange": "範囲内です",
+    "wrap": {
+      "cancelled": "ラップをキャンセルしました",
+      "failed": "ラップに失敗しました"
+    },
+    "wrapIn": "ウォレットで {{symbol}} をラップ",
+    "wrapped": "ラップしました",
+    "wrapping": "ラップ中",
+    "wrappingToken": "{{symbol}} をラップ中です...",
+    "wrongNetwork": "ネットワークが正しくありません",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "このスワップを完了するにはアカウントの資金が不足していました。"
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "このスワップを完了するにはアカウントの資金が不足しています。"
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "今回、お客様の設定した指値注文を実行できませんでした。もう一度お試しください。"
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "今回、スワップを実行できませんでした。もう一度お試しください。"
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "お客様が購入しているのは",
+    "youRecieve": "お客様が受け取るのは",
+    "youreSending": "お客様が送信するのは"
+  },
+  "currency": {
+    "aud": "オーストラリア ドル",
+    "brl": "ブラジル レアル",
+    "cad": "カナダ ドル",
+    "cny": "中国元",
+    "eur": "ユーロ",
+    "gbp": "英国ポンド",
+    "hkd": "香港ドル",
+    "idr": "インドネシア ルピア",
+    "inr": "インド ルピー",
+    "jpy": "日本円",
+    "krw": "韓国ウォン",
+    "ngn": "ナイジェリア ナイラ",
+    "pkr": "パキスタン ルピー",
+    "rub": "ロシア ルーブル",
+    "sgd": "シンガポール ドル",
+    "thb": "タイ バーツ",
+    "try": "トルコ リラ",
+    "uah": "ウクライナ フリヴニャ",
+    "usd": "米国ドル",
+    "vnd": "ベトナム ドン"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "承認",
+        "fallbackTitle": "このサイトがトークンにアクセスすることを承認",
+        "helptext": "このサイトが、このトークンにアクセスしてトランザクションに使用することを許可します。このサイトが信頼できることを確認してください。",
+        "label": "ウォレット",
+        "title": "{{tokenSymbol}} へのアクセスを承認"
+      },
+      "base": {
+        "title": "トランザクションリクエスト"
+      },
+      "bridge": {
+        "description": "{{numChains}} 以上のネットワークで ETH や USDC などを移動します。",
+        "title": "ブリッジしようとしていますか？"
+      },
+      "connect": {
+        "helptext": "このサイトが、ウォレットのアドレスと残高を表示すること、およびトランザクションの承認をリクエストすることを許可します。",
+        "title": "サイトに接続"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "生データ"
+        },
+        "function": {
+          "label": "関数"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 は複数の dapp にわたるトークン承認を管理します。",
+        "header": "Permit2 に署名"
+      },
+      "reject": {
+        "action": "すべて拒否",
+        "info": "<highlight>{{totalRequestCount}}</highlight> 件のトランザクションリクエストがあります"
+      },
+      "revoke": {
+        "action": "取り消す",
+        "helptext": "このサイトが、このトークンをトランザクションに使用するためのアクセスを取り消すことを許可します。このサイトが信頼できることを確認してください。",
+        "title": "{{tokenSymbol}} へのアクセスを取り消す"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "このメッセージにはレンダリングできない文字が含まれています。このサイトが信頼できることを確認してください。",
+        "decodeError": "メッセージを暗号解除できませんでした",
+        "header": "署名リクエスト",
+        "irregular": {
+          "description": "進む前にこのサイトが信頼できることを確認してください",
+          "understand": "リスクについて理解しました"
+        },
+        "toggleDataView": {
+          "raw": "生データを表示する",
+          "readable": "元のデータを表示する"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "正しいものであることを確認してください",
+          "title": "これはお客様のアクティブなウォレットではありません"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "ここからログイン"
+      },
+      "getStarted": {
+        "description": "まず、携帯電話またはブラウザで利用できる Uniswap ウォレットをダウンロードします。",
+        "title": "Uniswap を始めましょう"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "下で登録してすぐに始めるか、スマートフォンまたはブラウザで利用可能なウォレットをダウンロードしてください。"
+        },
+        "title": "Uniswap に登録"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap 製品はシームレスに連携して、最高のオンチェーンエクスペリエンスを実現します。"
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "これにより、Uniswap プロトコルがトレード用のトークンにアクセスできるようになります。セキュリティ上の理由により、30 日後に有効期限が切れます。"
+    },
+    "dataUnavailable": "現在、データをご利用いただけません。問題を解決中です",
+    "id": "エラーID：{{eventId}}",
+    "noData": "データが見つかりません",
+    "request": {
+      "provideId": "申し訳ございませんが、リクエストの処理中にエラーが発生しました。サポートをリクエストする場合は、必ずエラー ID を伝えてください。"
+    },
+    "tokenApproval": "トークンの承認に失敗しました",
+    "tokenApprovalEdited": {
+      "message": "このトランザクションを完了するにはウォレットで設定されている承認件数が少なすぎます。件数を増やしてもう一度お試しください。"
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "何かがクラッシュしました。",
+      "restart": "アプリを再起動",
+      "title": "申し訳ございません。"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "プールをさらに探索"
+    },
+    "search": {
+      "action": {
+        "clear": "クリア",
+        "viewEtherscan": "{{blockExplorerName}} で表示する"
+      },
+      "empty": {
+        "full": "<highlight>\"{{searchQuery}}\"</highlight> の結果が見つかりませんでした"
+      },
+      "error": "検索結果を読み込めませんでした",
+      "label": {
+        "ownedBy": "所有者：{{ownerAddress}}"
+      },
+      "placeholder": "トークンとウォレットを検索",
+      "section": {
+        "nft": "NFT コレクション",
+        "popularNFT": "人気の NFT コレクション",
+        "popularTokenInfo": "人気のあるトークンは、過去 24 時間の Uniswap でのトレードボリュームに基づいて識別されます。",
+        "popularTokens": "人気のトークン",
+        "recent": "最近の検索履歴",
+        "tokens": "トークン",
+        "wallets": "ウォレット"
+      }
+    },
+    "tokens": {
+      "error": "トークンを読み込めませんでした",
+      "favorite": {
+        "action": {
+          "add": "お気に入りのトークン",
+          "edit": "お気に入りを編集",
+          "remove": "お気に入りを削除"
+        },
+        "title": {
+          "default": "お気に入りのトークン",
+          "edit": "お気に入りのトークンを編集"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} ボリューム"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "時価総額",
+          "priceDecrease": "価格の低下",
+          "priceIncrease": "価格の上昇",
+          "totalValueLocked": "TVL",
+          "volume": "ボリューム"
+        },
+        "option": {
+          "marketCap": "時価総額",
+          "priceDecrease": "価格の低下（24 時間）",
+          "priceIncrease": "価格の上昇（24 時間）",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap ボリューム（24 時間）"
+        }
+      },
+      "top": {
+        "title": "トップトークン"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "お気に入りのウォレット",
+          "edit": "お気に入りを編集",
+          "remove": "お気に入りを削除"
+        },
+        "title": {
+          "default": "お気に入りのウォレット",
+          "edit": "お気に入りのウォレットを編集"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "ネットワーク",
+      "networks": "ネットワーク",
+      "popup": {
+        "trouble": "接続に問題がありますか？"
+      },
+      "titleConnected": "接続しました",
+      "titleNotConnected": "接続されていません"
+    },
+    "lock": {
+      "button": {
+        "forgot": "パスワードを忘れた場合",
+        "reset": "ウォレットをリセット",
+        "submit": "ロックを解除"
+      },
+      "password": {
+        "error": "パスワードが間違っています。もう一度お試しください",
+        "reset": {
+          "initial": {
+            "description": "Uniswap は、お客様のパスワード復元をサポートできません。12 語の回復フレーズを再入力してウォレットをリセットする必要があります。",
+            "help": "回復フレーズはどこにありますか？",
+            "title": "パスワードを忘れた場合"
+          },
+          "speedbump": {
+            "description": "資金を回収できなくなる事態を防ぐため、ウォレットをリセットする前に、12 語の回復フレーズを手元に用意しておいてください。",
+            "help": "回復フレーズを紛失しました",
+            "title": "続行する前に"
+          }
+        }
+      },
+      "subtitle": "ロックを解除するには、パスワードを入力してください",
+      "title": "おかえりなさい"
+    },
+    "network": {
+      "notSupported": "ネットワークがサポートされていません"
+    },
+    "open": "Uniswap 拡張機能を開く",
+    "popup": {
+      "chrome": {
+        "button": "拡張機能を開く",
+        "description": "Uniswap 拡張機能を開いてこのアクションを完了します。",
+        "title": "Uniswap で続行"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "アプリに接続するときに Uniswap 拡張機能を優先します。",
+        "title": "デフォルトのウォレットにする"
+      },
+      "password": {
+        "enter": {
+          "title": "現在のパスワードを入力してください"
+        },
+        "error": {
+          "wrong": "パスワードが間違っています"
+        },
+        "placeholder": "現在のパスワード"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "バックアップ",
+        "message": "ウォレットと資金へのアクセスを失わないように、必ず回復フレーズをバックアップしてください。",
+        "title": "ブラウザのストレージ容量が不足しています"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "エキゾチックなペアに最適です。",
+    "bestForMost": "ほとんどのペアに最適です。",
+    "bestForStablePairs": "安定したペアに最適です。",
+    "bestForVeryStable": "非常に安定したペアに最適です。",
+    "dynamic": "動的手数料",
+    "percentEarned": "手数料として獲得できる割合です。",
+    "selectPercent": "{{pct}}% 選択",
+    "selectPercentDescription": "流動性の {{pct}}% がこのティアを選択",
+    "tier": {
+      "create": {
+        "button": "新規手数料区分を作成",
+        "description": "新規区分を作成すると、新しいプールで初期化され、通常よりもネットワークコストが高くなります。"
+      },
+      "description": {
+        "v2": "流動性を提供することで得られる金額。すべての v2 プールには 0.3% の固定手数料がかかります。より多くのオプションを利用するには、v4 で流動性を提供してください。"
+      },
+      "dynamic": {
+        "create": {
+          "info": "動的手数料区分のあるプールを作成しようとしています。先に進む前に、選択したフックが動的手数料をサポートしていることを確認してください。"
+        }
+      },
+      "highestTvl": "最大 TVL",
+      "label": "手数料として獲得できる割合です",
+      "missing": {
+        "description": "探している区分が見つかりませんか？"
+      },
+      "new": "新規区分",
+      "percent": {
+        "select": "{{percentage}} 選択"
+      },
+      "recommended": {
+        "description": "選択されたトークンペアに対して流動性のシェアが最も高いものをおすすめしています。"
+      },
+      "search": {
+        "short": "区分を検索"
+      },
+      "select": {
+        "existing": {
+          "button": "既存の手数料区分を選択"
+        }
+      }
+    },
+    "tierExact": "{{fee}} 手数料区分",
+    "unavailable": "獲得した手数料は、流動性が削除されるまで v2 ポジションでは表示されません。",
+    "uncollected": "未回収の手数料を含む："
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "売却で使用するプロバイダ："
+    },
+    "connection": {
+      "quote": "{{amount}} 相当の {{currencySymbol}} を売る"
+    },
+    "error": {
+      "balance": "残高を超えています"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} - 次に相当：{{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "戻る",
+      "divider": "サポートされていないトークン",
+      "message": "このトークンは販売できません。このアセットをサポートされているトークンの 1 つにスワップします。",
+      "swap": "サポートされているトークンにスワップ",
+      "title": "サポートされていないトークン"
+    },
+    "welcome": {
+      "tooltip": "暗号通貨を銀行口座またはデビットカードに売却します。"
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "トークンを選択"
+    },
+    "cexTransferModal": {
+      "description": "お客様の地域では、カードによる暗号通貨の購入はサポートされていません。中央集権型取引所アカウントからアセットを転送して、ウォレットに資金を入金します。",
+      "title": "転送して開始"
+    },
+    "checkout": {
+      "title": "チェックアウトの手段"
+    },
+    "checkoutWith": "チェックアウトの手段",
+    "chooseProvider": {
+      "description": "トランザクションに関連する手数料を確認するには、プロバイダのポータルに進んでください。"
+    },
+    "completeTransactionHeader": "{{serviceProvider}} とのトランザクションを完了",
+    "connection": {
+      "error": "接続に失敗しました",
+      "errorDescription": "{{serviceProvider}} との接続で問題が発生しました。",
+      "message": "{{serviceProvider}} に接続中です",
+      "quote": "{{amount}} 相当の {{currencySymbol}} を購入中です",
+      "terms": "続行することにより、該当する {{serviceProvider}} の利用規約およびプライバシーポリシーがお客様に適用されることに同意します。"
+    },
+    "continueInTab": "続行するには、{{serviceProvider}} タブに進んでください。このモーダルを安全に閉じることができます。",
+    "disclaimer": "続行することにより、該当する {{serviceProvider}} の<tosLink>利用規約</tosLink>および <privacyLink>プライバシーポリシー</privacyLink>がお客様に適用されることに同意します。",
+    "error": {
+      "default": "問題が発生しました。",
+      "load": "購入用のトークンを読み込めませんでした",
+      "max": "最大 {{amount}}",
+      "min": "最小 {{amount}}",
+      "noQuotes": "見積もりが見つかりませんでした。",
+      "unavailable": "このサービスはお客様の地域ではご利用いただけません",
+      "unsupported": "サポート対象外の地域です",
+      "usd": "購入に使用できるのは米国ドルのみです"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} で {{inputAmount}} {{inputSymbol}} を",
+    "noQuotes": {
+      "error": "見積もりが見つかりませんでした"
+    },
+    "purchasedOn": "{{serviceProvider}} で購入しました",
+    "quote": {
+      "advice": "トランザクションに関連する手数料を確認するには、プロバイダのポータルに進んでください。",
+      "type": {
+        "list": "{{optionsList}}、およびその他のオプション",
+        "other": "その他のオプション",
+        "recent": "最近使用したもの"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "アカウントから"
+        }
+      },
+      "title": "暗号通貨を受け取る",
+      "transferFunds": "別のウォレットまたはアカウントから暗号通貨を転送してウォレットに入金します"
+    },
+    "region": {
+      "placeholder": "国または地域で検索",
+      "title": "お住まいの地域を選択してください"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} - 次に相当：{{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "今すぐ更新",
+      "learn": "更新方法を確認",
+      "recoveryPhrase": "回復フレーズを表示する"
+    },
+    "description": {
+      "extension": "新しいバージョンのアプリを利用できます。Uniswap 拡張機能を引き続き使用するには、最新バージョンに更新してください。",
+      "wallet": "新しいバージョンのアプリを利用できます。Uniswap ウォレットを引き続き使用するには、最新バージョンに更新してください。"
+    },
+    "label": {
+      "recoveryPhrase": "回復フレーズ"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "グローバル設定"
+  },
+  "hero": {
+    "scroll": "スクロールして詳細をご覧ください",
+    "subtitle": "最大のオンチェーンマーケットプレイスです。イーサリアムやその他 11 以上のチェーンで暗号通貨を売買できます。",
+    "swap": {
+      "title": "いつでもどこでも <br/>スワップできます。"
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "隠した NFT についてさらに詳しく"
+        },
+        "text": {
+          "button": "隠した NFT（{{numHidden}}）",
+          "extension": "これらは疑われる詐欺とあなたが隠した NFT です。NFT を右クリックすると非表示を解除できます。",
+          "mobile": "これらは疑われる詐欺とあなたが隠した NFT です。NFT を長押しすると非表示を解除できます。",
+          "title": "隠した NFT"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "隠しトークンについて詳しく知る"
+        },
+        "text": {
+          "button": "隠しトークン（{{numHidden}}）",
+          "info": "これらは、疑われる詐欺、少額の残高、またはユーザーが隠したトークンです。隠しトークンはウォレットの合計残高に含まれません。",
+          "title": "隠しトークン"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "トークンまたは NFT を受け取る",
+        "description": {
+          "default": "トークンまたは NFT の承認、取引、または転送を行うと、トランザクションがこちらに表示されます。",
+          "external": "このウォレットでトランザクションがなされると、こちらに表示されます。"
+        },
+        "title": "まだアクティビティがありません"
+      },
+      "error": {
+        "load": "アクティビティを読み込めませんでした"
+      },
+      "title": "アクティビティ"
+    },
+    "banner": {
+      "offline": "オフラインモードです",
+      "testnetMode": {
+        "nav": "テストネットモードです。このモードを設定でオフに切り替えてください。",
+        "outage": {
+          "monad": {
+            "description": "Uniswap インターフェイスから Monad Testnet へのアクセスは、ネットワークの安定性に問題があるため、一時的に停止しています。Testnet 資金への影響はありません。問題を解決でき次第アクセスを復旧いたします。",
+            "title": "Monad が一時的に停止しています"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "[検索] をタップしてさらに詳しく調べることができます",
+      "title": "トークンを探索"
+    },
+    "extension": {
+      "error": "アカウント読み込みエラーが発生しました"
+    },
+    "label": {
+      "buy": "購入",
+      "for": "購入/売却",
+      "receive": "受け取る",
+      "send": "送信",
+      "swap": "スワップ"
+    },
+    "nfts": {
+      "title": "NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "デビットカードまたは銀行口座払いで購入します。",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "このウォレットの回復フレーズを入力して、スワップと送信を開始します。",
+            "title": "ウォレットをインポート"
+          },
+          "receive": {
+            "description": "別のウォレットまたはアカウントから転送します。",
+            "title": "暗号通貨を受け取る"
+          }
+        },
+        "description": "このウォレットでトークンの購入や受け取りを行うと、こちらに表示されます。",
+        "title": "まだトークンがありません",
+        "welcome": {
+          "description": "新しいウォレットを手に入れたようです。資金を調達して最初のスワップを行いましょう。"
+        }
+      },
+      "error": {
+        "fetch": "トークン残高の取得に失敗しました",
+        "load": "トークン残高を読み込めませんでした"
+      },
+      "title": "トークン"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "アカウントから",
+        "description": "別のウォレットまたはアカウントから暗号通貨を転送してウォレットに入金します",
+        "title": "暗号通貨を受け取る"
+      }
+    },
+    "warning": {
+      "viewOnly": "これは表示専用ウォレットです"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Uniswap プロトコルでスワップまたは流動性の提供を行う",
+      "title": "Uniswap インターフェイス"
+    }
+  },
+  "landing": {
+    "buildNextGen": "次世代のオープンアプリケーションとツールを構築します。",
+    "connectWithUs": "私たちとつながる",
+    "devDocs": "開発者向けドキュメント",
+    "directToDeFi": "直接 DeFi へ進む",
+    "followOnX": "最新情報については、X で @Uniswap をフォローしてください",
+    "protocolDescription": "Uniswap 製品は Uniswap プロトコルを利用しています。このプロトコルは最大のオンチェーンマーケットプレイスであり、イーサリアムやその他の 7 つ以上のチェーンで何千ものトークンを用いて毎週数十億ドルものトランザクションがなされています。",
+    "provideLiquidity": {
+      "message": "Uniswap プロトコルのプールに流動性を提供し、スワップ手数料を獲得します。"
+    },
+    "swapSimple": "スワップは簡単です。11 以上のチェーン上の何千ものトークンにアクセスできます。",
+    "teamInsights": "チームからの洞察とニュース",
+    "trusted": "何百万もの人々に信頼されています"
+  },
+  "language": {
+    "afrikaans": "アフリカーンス語",
+    "arabic": "アラビア語",
+    "catalan": "カタロニア語",
+    "chineseSimplified": "中国語（簡体字）",
+    "chineseTraditional": "中国語（繁体字）",
+    "czech": "チェコ語",
+    "danish": "デンマーク語",
+    "dutch": "オランダ語",
+    "english": "英語",
+    "finnish": "フィンランド語",
+    "french": "フランス語",
+    "greek": "ギリシャ語",
+    "hebrew": "ヘブライ語",
+    "hindi": "ヒンディー語",
+    "hungarian": "ハンガリー語",
+    "indonesian": "インドネシア語",
+    "italian": "イタリア語",
+    "japanese": "日本語",
+    "korean": "韓国語",
+    "malay": "マレー語",
+    "norwegian": "ノルウェー語",
+    "polish": "ポーランド語",
+    "portuguese": "ポルトガル語",
+    "romanian": "ルーマニア語",
+    "russian": "ロシア語",
+    "serbian": "セルビア語",
+    "spanishLatam": "スペイン語（南米）",
+    "spanishSpain": "スペイン語（スペイン）",
+    "spanishUs": "スペイン語（米国）",
+    "swahili": "スワヒリ語",
+    "swedish": "スウェーデン語",
+    "turkish": "トルコ語",
+    "ukrainian": "ウクライナ語",
+    "urdu": "ウルドゥー語",
+    "vietnamese": "ベトナム語"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 件のオープン指値注文",
+      "count_other": "{{count}} 件のオープン指値注文"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "お客様の指値は市場価格より {{percentage}}% 高くなっています。続行するには、指値を調整してください。",
+        "title": "{{tokenSymbol}} を市場価格より高く購入中です"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "現在の市場価格を計算できません。市場価格を下回る注文を送信しないようにするには、ネットワーク接続を確認してもう一度お試しください。",
+        "title": "市場価格を入手できません"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "お客様の指値は市場価格より {{percentage}}% 低くなっています。続行するには、指値を調整してください。",
+        "title": "{{tokenSymbol}} を市場価格より安く売却中です"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "指値にはメインネットトークンのみ使用できます。"
+        },
+        "uniswapx": "トークンが指定された価格に達したときでも、指値注文が正確に実行されない場合があります。<link />"
+      }
+    },
+    "learnMore": "指値注文についてさらに詳しく",
+    "price": {
+      "input": {
+        "label": "1 <tokenSymbol /> が次の価値のとき"
+      },
+      "label": "指値"
+    },
+    "selectSupportedTokens": "サポートされているトークンを選択"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "フックアドレスを入力してください"
+      }
+    },
+    "learnMoreLabel": "流動性の提供について学ぶ",
+    "notEnough": {
+      "label": "正確な米国ドル額を表示するのに十分な流動性がありません。"
+    },
+    "provideOnProtocols": "異なるプロトコルで流動性を提供"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} 流動性：{{amount}}"
+      }
+    },
+    "page": {
+      "title": "Uniswap のプール {{version}} に流動性を追加"
+    },
+    "positions": {
+      "closed": {
+        "title": "クローズしたポジション"
+      },
+      "page": {
+        "title": "Uniswap で {{quoteSymbol}}/{{baseSymbol}} プールの流動性を管理",
+        "version": {
+          "description": "アクティブな {{version}} 流動性ポジションを表示します。新しいポジションを追加してください。",
+          "title": "Uniswap でプールの流動性 {{version}} を管理"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "許可しました",
+    "allowLpMigration": "LP トークンの移行を許可",
+    "connectAccount": "このポジションを所有するアカウントを接続する必要があります。",
+    "connectWallet": "V2 流動性を表示するにはウォレットに接続してください。",
+    "contract": "Uniswap 移行契約",
+    "firstLP": "お客様はこの Uniswap V3 プールの最初の流動性プロバイダです。流動性は現在の {{source}} 価格で移行されます。",
+    "highGasCost": "プールを作成するためのガス代が含まれるため、トランザクションコストははるかに高くなります。",
+    "invalidRange": "無効な範囲が選択されました。最小価格は最大価格より低くなければなりません。",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP トークン",
+    "migrating": "移行中です",
+    "missingV2Position": "v2 ポジションが見つからない場合は、<Link>インポートしてください。</Link>",
+    "noV2Liquidity": "V2 流動性が見つかりません。",
+    "positionNoFees": "市場価格がお客様の範囲内に入るまで、お客様のポジションは手数料を稼いだり、取引に使用されたりすることはありません。",
+    "priceDifference": "価格差：",
+    "priceWarning": "Uniswap V3 に流動性を入金する場合は、正しいと思われる価格でのみ入金してください。<br /> 価格が間違っていると思われる場合は、スワップを行って価格を変更するか、他のユーザーが価格を変更するのを待ってください。",
+    "refund": "選択した価格範囲に応じて、少なくとも {{amtA}} {{symA}} と {{amtB}} {{symB}} がウォレットに払い戻されます。",
+    "selectFeeTier": "手数料区分を選択",
+    "setRange": "価格範囲を設定",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} 価格：",
+    "v2Description": "このツールは、{{source}} の流動性を V3 に安全に移行します。このプロセスは <0>Uniswap 移行契約</0> により完全にトラストレスになっています↗",
+    "v2Instruction": "以下に示す各プールについて、[移行] をクリックして流動性を Uniswap V2 から削除し、Uniswap V3 に入金します。",
+    "v2Title": "V2 流動性を移行",
+    "v3Price": "V3 {{sym}} 価格："
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "無効な価格入力です"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Uniswap ウォレットアプリを入手"
+      },
+      "title": "Uniswap：暗号通貨と NFT ウォレット"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "MoonPay USA LLC による Fiat onramp",
+    "restricted": {
+      "region": "一部の地域では Moonpay はご利用いただけません。クリックして詳細をご覧ください。"
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "アカウントを作成"
+    },
+    "logIn": {
+      "button": "ログイン"
+    },
+    "signIn": {
+      "button": "ログイン"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "サインアップ"
+    },
+    "tabs": {
+      "createPosition": "ポジションを作成",
+      "viewPositions": "ポジションを表示"
+    }
+  },
+  "network": {
+    "lostConnection": "ネットワーク接続が失われた可能性があります。",
+    "mightBeDown": "{{network}} が現在ダウンしているか、ネットワーク接続が失われている可能性があります。",
+    "warning": "ネットワーク警告"
+  },
+  "nft": {
+    "addToBag": "バッグに追加",
+    "authorsCollectionOnUni": "{{name}} の Uniswap NFT コレクション",
+    "bag": "バッグ",
+    "blockedCollection": "このコレクションはブロックされています",
+    "blockedOpenSea": "OpenSea でブロックされています",
+    "buyTransferNFTToStart": "始めるには、NFT を購入するか、このウォレットに NFT を転送してください。",
+    "buyTransferTokensToStart": "始めるには、トークンを購入するか、このウォレットにトークンを転送してください。",
+    "card": {
+      "notAvailable": "コンテンツは<br />まだ利用できません"
+    },
+    "chainSupportComingSoon": "{{chainName}} のサポートは近日中に開始されます",
+    "collectionOnUni": "Uniswap での NFT コレクション",
+    "collectonOnAddress": "Uniswap での NFTコレクション - {{address}}",
+    "complete": "完了しました。",
+    "editListings": "リスティングを編集",
+    "event": "イベント",
+    "explore": "NFT を探索",
+    "learnWhy": "理由を知る",
+    "list": {
+      "header": {
+        "lastPrice": "最新"
+      },
+      "title": "NFT をリスティング"
+    },
+    "listedSignificantly_one": "1 個の NFT が、コレクションのフロア価格より {{percentage}} 低くリスティングされています。本当に続行しますか？",
+    "listedSignificantly_other": "{{count}} 個の NFT がコレクションのフロア価格を大幅に下回ってリスティングされています。本当に続行しますか？",
+    "listForSale": "売却のためにリスティング",
+    "lowPrice": "リスティング価格が低くなっています",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} 手数料"
+      }
+    },
+    "maxFees": "最大手数料",
+    "maxRoyalties": "クリエーターのロイヤリティの上限",
+    "noItems": "表示するアイテムがありません",
+    "noneAtAddress": "このアドレスにはコレクションアセットが存在しません",
+    "noPools": "プールはまだありません",
+    "notListed": "リスティングされていません",
+    "proceedsIfSold": "売却した場合の収益",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "既に {{tokenAmountWithSymbol}} でリスティングされています",
+          "belowFloor": "フロア価格より {{percentage}} 低くなっています。"
+        }
+      }
+    },
+    "refundsInEth": "入手できないアイテムの払い戻しは ETH で行われます",
+    "removeFromBag": "バッグから削除",
+    "reportSpam": "スパムとして報告",
+    "returnToExplore": "NFT 探索機能に戻る",
+    "returnToMy": "My NFT に戻る",
+    "setPrices": "価格を設定して続行",
+    "startListing": "リスティングを開始",
+    "successListed": "正常にリスティングされました",
+    "unavailableToList": "リスティングできません",
+    "whyTransaction": {
+      "reason": "NFT をリスティングするには、NFT コレクションごとに 1 回限りのマーケットプレイスの承認が必要です。"
+    },
+    "willAppearHere": "オンチェーントランザクションと暗号通貨の購入がこちらに表示されます。",
+    "wishGranted": "Uniswap でお客様の願いが叶いました。"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "コレクションを承認",
+        "approve_other": "コレクションを承認",
+        "sign_one": "リスティングに署名",
+        "sign_other": "リスティングに署名"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} 最大"
+      }
+    },
+    "my": "My NFT",
+    "noneYet": "NFT はまだありません",
+    "sell": "NFT を売却"
+  },
+  "notFound": {
+    "oops": "スワップに戻る"
+  },
+  "notice": {
+    "uk": {
+      "label": "英国向けの免責事項："
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} が非表示になっています",
+      "unhidden": "{{assetName}} が表示されています"
+    },
+    "copied": {
+      "address": "アドレスをコピーしました",
+      "calldata": "コールデータをコピーしました",
+      "contractAddress": "契約アドレスをコピーしました",
+      "failed": "クリップボードへのコピーに失敗しました",
+      "image": "画像をコピーしました",
+      "nftUrl": "NFT URL をコピーしました",
+      "tokenUrl": "トークン URL をコピーしました",
+      "transactionId": "トランザクション ID をコピーしました",
+      "unitag": "ユーザー名をコピーしました"
+    },
+    "countryChange": "{{countryName}} に切り替えました",
+    "network": {
+      "changed": "{{network}} に切り替えました"
+    },
+    "passwordChanged": "パスワードを変更しました",
+    "restore": {
+      "success": "ウォレットを復元しました。"
+    },
+    "send": {
+      "network": "{{network}} で送信中です"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "報告済み"
+      }
+    },
+    "swap": {
+      "network": "{{network}} でスワップ中です",
+      "pending": {
+        "swap": "スワップ中です",
+        "unwrap": "アンラップ中です",
+        "wrap": "ラップ中です"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "{{currencySymbol}} の承認をキャンセルしました。",
+        "fail": "{{address}} で使用する {{currencySymbol}} の承認に失敗しました。",
+        "success": "{{address}} で使用する {{currencySymbol}} を承認しました。"
+      },
+      "pending": "トランザクションを実行中です",
+      "swap": {
+        "canceled": "{{inputCurrencySymbol}}-{{outputCurrencySymbol}} のスワップをキャンセルしました。",
+        "expired": "{{inputCurrencyAmountWithSymbol}} と {{outputCurrencyAmountWithSymbol}} のスワップの有効期限が切れました。",
+        "fail": "{{inputCurrencyAmountWithSymbol}} を {{outputCurrencyAmountWithSymbol}} にスワップするのに失敗しました。",
+        "success": "{{inputCurrencyAmountWithSymbol}} を {{outputCurrencyAmountWithSymbol}} にスワップしました。"
+      },
+      "transfer": {
+        "canceled": "{{tokenNameOrAddress}} の送信をキャンセルしました",
+        "fail": "{{tokenNameOrAddress}} を {{walletNameOrAddress}} へ送信するのに失敗しました",
+        "received": "{{walletNameOrAddress}} から {{tokenNameOrAddress}} を受け取りました",
+        "success": "{{walletNameOrAddress}} へ {{tokenNameOrAddress}} を送信しました"
+      },
+      "unknown": {
+        "fail": {
+          "full": "{{addressOrEnsName}} とのトランザクションに失敗しました",
+          "short": "トランザクションが失敗しました"
+        },
+        "success": {
+          "full": "{{addressOrEnsName}} とトランザクションを実行しました",
+          "short": "トランザクションを確定しました"
+        }
+      },
+      "unwrap": {
+        "canceled": "{{inputCurrencySymbol}} のアンラップをキャンセルしました。",
+        "fail": "{{inputCurrencyAmountWithSymbol}} のアンラップに失敗しました。",
+        "success": "{{inputCurrencyAmountWithSymbol}} をアンラップして、{{outputCurrencyAmountWithSymbol}} を受け取りました。"
+      },
+      "wrap": {
+        "canceled": "{{inputCurrencySymbol}} のラップをキャンセルしました。",
+        "fail": "{{inputCurrencyAmountWithSymbol}} のラップに失敗しました。",
+        "success": "{{inputCurrencyAmountWithSymbol}} をラップして、{{outputCurrencyAmountWithSymbol}} を受け取りました。"
+      }
+    },
+    "transfer": {
+      "pending": "送信中です"
+    },
+    "walletConnect": {
+      "confirmed": "{{dappName}} でのトランザクションを確定しました",
+      "connected": "接続しました",
+      "disconnected": "切断しました",
+      "failed": "{{dappName}} でのトランザクションが失敗しました",
+      "networkChanged": {
+        "full": "{{networkName}} に切り替えました",
+        "short": "ネットワークを切り替えました"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Uniswap 拡張機能で続行",
+      "title": "成功しました。"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "これを紙に書き留めたうえで、金庫などの安全な場所に保管することをお勧めします。",
+        "displayWarning": {
+          "description": "続行する前に、次の内容を注意深くお読みください。",
+          "note": {
+            "access": "この回復フレーズにより、ウォレットと資金に完全にアクセスできるようになります",
+            "secure": "これは誰もいない場所で表示し、誰とも共有しないでください",
+            "storage": "書き留めて安全な場所に保管してください"
+          },
+          "title": "知っておくべき重要なこと"
+        },
+        "error": "単語が無効であるか、スペルが間違っています",
+        "placeholder": "秘密の言葉",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} が完了しました",
+        "selectedWordPlaceholder": "単語を選択",
+        "subtitle_one": "回復フレーズの {{count}} 番目の単語は何ですか？",
+        "subtitle_two": "回復フレーズの {{count}} 番目の単語は何ですか？",
+        "subtitle_few": "回復フレーズの {{count}} 番目の単語は何ですか？",
+        "subtitle_other": "回復フレーズの {{count}} 番目の単語は何ですか？",
+        "title": "正しく記録したことを確認しましょう"
+      },
+      "option": {
+        "badge": {
+          "quick": "すばやい"
+        },
+        "cloud": {
+          "description": "回復パスワードで保護されたウォレットを {{cloudProviderName}} 経由でバックアップします。",
+          "title": "回復パスワードを設定"
+        },
+        "manual": {
+          "description": "12 個の秘密の言葉を紙に記録し、安全な場所に保管してください。",
+          "title": "回復フレーズを書き留める"
+        }
+      },
+      "reminder": {
+        "description": "ウォレットをバックアップしておけば、携帯電話をなくした場合や、新しいデバイスを入手した場合でも、いつでもアセットを回復できます。",
+        "title": "このタイミングでウォレットをバックアップしてください",
+        "warning": {
+          "description": "バックアップ方法を設定しておかないと、携帯電話をなくした場合、アプリを削除した場合、または新しいデバイスを入手した場合に、ウォレットを復元できなくなります。",
+          "title": "資金を失う可能性があります"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "忘れると、リセットできません。安全な場所に書き留めておくか、パスワードマネージャに安全に保存してください。",
+          "disclaimer": "Uniswap Labs では回復パスワードをリセットできないことを私は理解しています。",
+          "title": "このパスワードを保存することが重要です"
+        },
+        "manual": {
+          "description": "回復フレーズを正しく書き留めてから、安全な場所に保管してください。",
+          "disclaimer": "これをなくした場合でも、Uniswap Labs がウォレットを復元できないことを私は理解しています。",
+          "title": "終了する前に..."
+        }
+      },
+      "subtitle": "アプリを削除した場合やデバイスをなくした場合にウォレットを復元する方法です。",
+      "title": {
+        "existing": "ウォレットをバックアップ",
+        "new": "バックアップ方法を選択"
+      },
+      "view": {
+        "disclaimer": "回復フレーズを紛失した場合でも、Uniswap Labsでは復元をサポートできないことを私は理解しています。",
+        "subtitle": {
+          "message1": "続行する前に以下をよくお読みください",
+          "message2": "ウォレットを復元するには、これら 12 個の秘密の言葉をすべて入力する必要があります。"
+        },
+        "title": "回復フレーズを書き留めてください",
+        "warning": {
+          "message1": "この回復フレーズにより、ウォレットと資金に完全にアクセスできるようになります",
+          "message2": "書き留めて安全な場所に保管してください",
+          "message3": "これは誰もいない場所で表示し、<u>誰とも共有しないでください</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "資金を回収するにはこれを入力する必要があります。これを忘れると、資金を回収できなくなります。",
+        "title": "回復パスワードを確定"
+      },
+      "createPassword": {
+        "description": "資金を回収するにはこれを入力する必要があります。これを忘れると、資金を回収できなくなります。",
+        "title": "回復パスワードを作成"
+      }
+    },
+    "complete": {
+      "button": "Uniswap 拡張機能を開く",
+      "description": "ウォレットで暗号通貨の送信・受け取りの準備が整いました。以下のショートカットで Uniswap 拡張機能を開きます。",
+      "go_to_uniswap": "Uniswap Web アプリへ移動",
+      "pin": {
+        "description": "ピンアイコンをクリックして、Uniswap 拡張機能をツール バーに追加してください。",
+        "title": "Uniswap 拡張機能をピン留め"
+      },
+      "title": "準備完了です"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "ウォレットのロックを解除して回復フレーズにアクセスするにはこれが必要です",
+        "title": {
+          "default": "パスワードを作成",
+          "reset": "パスワードをリセット"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap 拡張機能はデスクトップ版 Chrome とのみ互換性があります。",
+          "title": "モバイル版 Chrome はまだサポートされていません"
+        },
+        "description": "Uniswap 拡張機能は現在 Chrome とのみ互換性があります。",
+        "title": "このブラウザはまだサポートされていません"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "携帯電話をなくした場合や新しい携帯電話を入手した場合に備えて、復旧計画を立ててください。",
+          "title": "ウォレットをバックアップ"
+        },
+        "fund": {
+          "description": "暗号通貨を購入するか別のアカウントから転送してウォレットに資金を入金します。",
+          "title": "最初のトークンを取得"
+        },
+        "label": {
+          "required": "必須",
+          "swipe": "スワイプ"
+        },
+        "pushNotifications": {
+          "description": "お気に入りのトークンやマーケットトレンドなどについて、価格アラートを受信します。",
+          "title": "最新情報を得る"
+        },
+        "unitag": {
+          "description": "パーソナライズされた web3 プロフィールを作成し、アドレスを友人と簡単に共有できます。",
+          "title": "{{unitagDomain}} ユーザー名を申請"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 個の単語が無効であるか、スペルが間違っています",
+        "invalidWords_other": "{{count}} 個の単語が無効であるか、スペルが間違っています"
+      },
+      "method": {
+        "import": {
+          "message": "別の暗号通貨ウォレットから回復フレーズを入力してください。",
+          "title": "ウォレットをインポート"
+        },
+        "passkey": {
+          "message": "既存のパスキーを使用して Uniswap ウォレットを同期してください。",
+          "title": "パスキーでログイン"
+        },
+        "restore": {
+          "message": {
+            "android": "バックアップしたウォレットを Google ドライブアカウントに追加してください。",
+            "ios": "バックアップしたウォレットを iCloud アカウントに追加してください。"
+          },
+          "title": "ウォレットを復元"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "上記以外のものにしますか？"
+        },
+        "subtitle": "どのウォレットにログインし直すかを選んでください。",
+        "title": "Uniswap へおかえりなさい",
+        "wallet": {
+          "button": "回復フレーズを表示する",
+          "count_one": "+1 個の他のウォレット",
+          "count_other": "+{{count}} 個の他のウォレット"
+        },
+        "warning": {
+          "caption": "他のウォレットもすべてバックアップ済みであることを確認してください。復元する場合は、それぞれの回復フレーズまたは対応する {{cloudProvider}} バックアップが必要になります。",
+          "title": "よろしいですか？"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "QR コードを使用してモバイルアプリからウォレットをインポートしてください。",
+          "title": "Uniswap モバイルを使用する"
+        },
+        "passkey": {
+          "subtitle": "既存のパスキーを使用して Uniswap ウォレットを同期してください。",
+          "title": "パスキーでログイン"
+        },
+        "recoveryPhrase": {
+          "subtitle": "別の暗号通貨ウォレットから回復フレーズを入力してください。",
+          "title": "ウォレットをインポート"
+        },
+        "title": "ログインまたはウォレットをインポート"
+      },
+      "title": "ウォレットの追加方法を選択してください"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "回復フレーズの単語数は 12 個です",
+        "importing": "インポート中です...",
+        "longPhrase": "回復フレーズはそれよりも長いです"
+      },
+      "error": {
+        "invalidPhrase": "入力したフレーズは無効です"
+      },
+      "subtitle": "12 個の単語で構成される回復フレーズを入力するか、貼り付けてください",
+      "title": "回復フレーズを入力してください"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "既にウォレットを持っています",
+        "signInOrImport": "ログインまたはインポート"
+      },
+      "mobileScan": {
+        "button": "QR コードをスキャンしてインポート",
+        "title": "Uniswap アプリをお持ちですか？"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "既存のウォレットを追加",
+        "create": "ウォレットを作成",
+        "createAccount": "アカウントを作成"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "完了"
+        },
+        "subtitle": "このニックネームはお客様だけに表示されます",
+        "title": "ウォレットに名前を付ける"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "通知を受け取るには、デバイスの設定で Uniswap ウォレットの通知をオンにしてください。",
+        "title": "通知の許可"
+      },
+      "subtitle": "お気に入りのトークンのトランザクション ステータスと大幅な価格変動の最新情報を常に取得できます。",
+      "title": "通知をオンにする"
+    },
+    "passkey": {
+      "account": {
+        "protection": "お客様のアカウントはご自分の安全なパスワード ストレージで保護されています。"
+      },
+      "biometric": {
+        "scan": "スマートフォン、タブレット、ブラウザ、どれでも生体認証をスキャンするだけでログインできます。"
+      },
+      "create": "パスキーを作成",
+      "use": {
+        "recovery": {
+          "phrase": "代わりに回復フレーズを使用"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "正しく行ったか確認しましょう。これを紛失した場合や間違って書き留めた場合は、資金を回収できなくなります。",
+          "default": "これを紛失した場合や間違って書き留めた場合は、資金を回収できなくなります。"
+        },
+        "title": "正しく行ったか確認しましょう"
+      },
+      "view": {
+        "subtitle": "ウォレットを復元するには、これら 12 個の秘密の言葉をすべて入力する必要があります。",
+        "title": {
+          "hasPassword": "パスワードを忘れた場合は..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "準備できました",
+          "message": "回復フレーズは、お客様（および回復フレーズを知っている人）に対して資金へのアクセスを許可するものです。必ず秘密にしておいてください。",
+          "title": "この手順は、誰もいない場所で行ってください"
+        },
+        "screenshot": {
+          "message": "お客様の写真にアクセスできる人は誰でもお客様のウォレットにアクセスできます。代わりにご自身で決めた言葉を書き留めておくことをお勧めします。",
+          "title": "スクリーンショットは安全ではありません"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "ウォレットの安全性について詳しく知る",
+        "subtitle": "新規パスワードを使用してウォレットのロックを解除してください。",
+        "title": "パスワードのリセット"
+      }
+    },
+    "scan": {
+      "error": "QR コードの読み込み中にエラーが発生しました",
+      "otp": {
+        "error": "送信したコードが間違っているか、送信中にエラーが発生しました。もう一度お試しください。",
+        "failed": "失敗した試行回数：{{number}} 回",
+        "subtitle": "Uniswap モバイルアプリに届いている 6 文字のコードを確認してください",
+        "title": "ワンタイムコードを入力してください"
+      },
+      "subtitle": "Uniswap モバイルアプリで QR コードをスキャンして、ウォレットのインポートを開始してください。",
+      "title": "アプリからウォレットをインポート",
+      "troubleScanning": {
+        "message": "回復フレーズでインポートしてください",
+        "title": "スキャンに問題がありますか？"
+      },
+      "wifi": "携帯電話をコンピューターと同じ WiFi ネットワークに接続します。"
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "生体認証を使用するには、まず設定でセットアップしてください",
+            "ios": "{{biometricsMethod}} を使用するには、システムの設定でアクセスを許可してください"
+          },
+          "title": {
+            "android": "生体認証が無効になっています",
+            "ios": "{{biometricsMethod}} が無効になっています"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "生体認証を有効にする",
+          "ios": "{{biometricsMethod}} を有効にする"
+        },
+        "setup": "セットアップ"
+      },
+      "subtitle": {
+        "android": "トランザクションの送信時に生体認証を要求することで、セキュリティを高めることができます。",
+        "ios": "トランザクションの送信時に {{biometricsMethod}} を要求することで、セキュリティを高めることができます。"
+      },
+      "title": "ウォレットを保護"
+    },
+    "selectWallets": {
+      "error": "アドレスを読み込めませんでした",
+      "title": {
+        "default": "インポートするウォレットを選択してください",
+        "error": "ウォレットのインポートエラーが発生しました"
+      }
+    },
+    "termsOfService": "続行することによって、<highlightTerms> 利用規約</highlightTerms>に同意すると共に、<highlightPrivacy> プライバシー ポリシー</highlightPrivacy>に同意したことになります",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "回復フレーズとは"
+      }
+    },
+    "wallet": {
+      "continue": "安全に保管しましょう",
+      "defaultName": "ウォレット {{number}}",
+      "description": {
+        "full": "これは、トークン、NFT、およびすべての取引のための個人的なスペースです。資金を安全に保つために設定を完了してください。"
+      },
+      "title": "新しいウォレットへようこそ"
+    },
+    "welcome": {
+      "subtitle": "ウォレットの設定を完了させましょう。",
+      "title": "ようこそ！"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "このチェーン上では問題なくスワップや流動性の提供が可能です。"
+    },
+    "title": "{{versionName}} がまもなくリリースされます"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "パスキーの使用、またはパスキーへのアクセスでお困りですか？ Uniswap サポートをご覧ください。",
+        "title": "パスキーに関するサポート"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 を使用すると、トークンの承認をさまざまなアプリケーション間で共有および管理できます。"
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "アクティブなティック範囲",
+    "addAs": "{{nativeWrappedSymbol}} として追加",
+    "apr": {
+      "description": "1 日あたりの手数料を年額で換算"
+    },
+    "aprText": "Pool APR",
+    "balances": "プール残高",
+    "closedCTA": {
+      "description": "ページの上部にあるフィルターを使用すると表示できます。",
+      "title": "クローズしたポジションをお探しですか？"
+    },
+    "collectAs": "{{nativeWrappedSymbol}} として回収",
+    "collectFees": "手数料を回収",
+    "create": {
+      "info": "選択により新しい流動性プールが作成され、初期流動性が低下し、ボラティリティが増加する可能性があります。これらのリスクを最小限に抑えるには、既存のプールへの追加を検討してください。"
+    },
+    "createdPosition": {
+      "cancelled": "ポジションの作成がキャンセルされました",
+      "failed": "ポジションの作成に失敗しました"
+    },
+    "details": "プール詳細",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "エクスプローラ",
+    "import": {
+      "link": {
+        "description": "v2 ポジションの一部は自動的に表示されません。"
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "v2 ポジションの一部は自動的に表示されません。トークンペアを選択してお客様のポジションをインポートし、表示してください。"
+          }
+        }
+      },
+      "success": "プールがインポートされました"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "プール情報",
+    "limitFluctuation": {
+      "warning": "指値注文の実行は、リアルタイムの市場変動とイーサリアムネットワークの混雑状況に応じて異なる場合があることにご注意ください。トークンが指定された価格に達したときでも、指値注文が正確に実行されない場合があります。"
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "トランザクションに必要なデータの取得中にエラーが発生しました。"
+        }
+      },
+      "outOfSync": {
+        "message": "このプールでの価格が、選択されたトークンの市場価格と異なります。損失を回避するために、価格範囲を適宜調整するか、プールが再調整されるまでお待ちください。"
+      }
+    },
+    "maxPrice": "最高価格",
+    "migrateLiquidity": "流動性を移行",
+    "migrateLiquidityDisabledTooltip": "このチェーンは v4 流動性プールに対応していません。",
+    "migrateToV4": "v4 へ移行",
+    "minPrice": "最低価格",
+    "newPosition": {
+      "plus": "+ 新しいポジション",
+      "title": "新しいポジション"
+    },
+    "newSpecificPosition": "新しい {{symbol}} のポジション",
+    "openPosition": {
+      "cta": "プールに流動性を追加して、ここにポジションを表示します"
+    },
+    "openToStart": "新しいポジションを開くか、プールを作成して開始してください。",
+    "percent": "{{pct}}% プール",
+    "pooled": "プールされた {{sym}}：",
+    "position": "ポジション",
+    "positions": {
+      "title": "お客様のポジション",
+      "transaction": {
+        "settings": "トランザクションの設定"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "現在このポジションでは USD 値を取得できません。預け入れたトークン額のポジション詳細を確認してください。"
+      }
+    },
+    "priceRange": "価格範囲",
+    "refresh": {
+      "prices": "価格を更新"
+    },
+    "removeLiquidity": "流動性を削除",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "リワードプール内のプールトークン："
+    },
+    "selectPair": "ペアを選択",
+    "share": {
+      "label": "お客様のプールシェア："
+    },
+    "specificPosition": "{{symbol}} ポジション",
+    "tokenPair": "トークンペア",
+    "top": {
+      "tvl": "TVL によるトッププール"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "プールトークンの合計：",
+    "uncollectedFees": "未回収の手数料",
+    "v2": "v2 プール",
+    "v3": "v3 プール",
+    "viewPools": "View pools",
+    "volOverTvl": "1 日のボリューム/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30 日間のボリューム"
+      }
+    },
+    "withdrawAs": "{{nativeWrappedSymbol}} として引き出す"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "お客様の選択したペアと一致する v2 プールです。"
+      },
+      "notFound": {
+        "description": "一致する v2 プールが見つかりませんでした。選択したトークンを再確認し、正しいウォレットに接続されていることを確認してください。"
+      }
+    }
+  },
+  "pools": {
+    "explore": "プールを探索"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "フックは、プールがスマートコントラクトと対話してさまざまな機能を利用できるようにする高度な機能です。フックを追加するときは注意してください。フックの中には悪意のあるものや、意図しない結果を引き起こすものもあるかもしれません。"
+    },
+    "addingHook": {
+      "disclaimer": "フックを追加すると、予期しない結果を招く可能性があります。調査を行い、ご自分の責任で進めてください。",
+      "hideProperties": "プロパティを非表示",
+      "invalidAddress": "有効なフックアドレスを入力してください",
+      "viewProperties": "プロパティを表示"
+    },
+    "create": {
+      "invalidPrice": "無効な価格です",
+      "invalidRange": "無効な範囲です",
+      "modal": {
+        "header": "ポジションの作成"
+      }
+    },
+    "currentValue": "現在のポジションの値",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "入力された初期価格は市場価格より {{value}}% 低く、資金が失われる可能性があります。続行しますか？",
+            "more": "入力された初期価格は市場価格より {{value}}% 高く、資金が失われる可能性があります。続行しますか？"
+          },
+          "title": "市場と大きな価格差があります"
+        }
+      },
+      "description": "お客様の流動性追加のためのトークン金額を指定してください。"
+    },
+    "depositedCurrency": "寄託 {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "v2 ポジションを作成"
+      }
+    },
+    "hook": {
+      "disclaimer": "このフックを追加することによる潜在的なリスクを理解しました。",
+      "donateWarning": "このフラグにより、得られる手数料が変更されることがあります。",
+      "liquidityWarning": "このフラグにより、新たな流動性の追加がプールによりブロックされる可能性があります。トランザクションが取り消されることがあります。",
+      "removeWarning": "資金がロックされるか手数料の回収がブロックされる可能性があります。",
+      "swapWarning": "このフラグにより流動性プロバイダーはずっと簡単にジャストインタイム流動性にレバレッジをかけられるようになります。そのため、得られる手数料は低くなることがあります。",
+      "warningHeader": "重要：フックにより生じるリスク",
+      "warningInfo": "このフックによる潜在的なリスクが見つかっています。進むことを決定する前に、このフックがどのように機能するか理解していることをご確認ください。"
+    },
+    "increase": {
+      "fot": "{{token}} およびその他の「転送手数料」トークンへの流動性の追加はサポートされていません。"
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "市場価格より {{ value }}% 低い",
+        "positive": "市場価格より {{ value }}% 高い"
+      },
+      "info": "新しいプールを作成する場合、両方のトークンに開始時の交換レートを設定する必要があります。このレートには初期市場価格が反映されます。",
+      "set": "初期価格を設定",
+      "useMarketPrice": "市場価格を使用"
+    },
+    "migrate": {
+      "liquidity": "ポジションを移行する場合、トークンペアを変更することはできませんが、フックを追加して機能を強化することはできます。",
+      "v4unsupportedChain": "このチェーンは v4 プールに対応していません。"
+    },
+    "new": {
+      "protocol": "新しい {{protocol}} のポジション"
+    },
+    "notFound": {
+      "description": "このポジションの詳細は利用できません。正しいウォレットに接続されていることを確認してください。"
+    },
+    "protocol": "{{protocol}} のポジション",
+    "provide": {
+      "liquidity": "流動性を提供するトークンを選択します。サポートされているすべてのネットワークでトークンを選択できます。",
+      "liquidityDescription": {
+        "creatingPool": "プールを作成する際にフル範囲の流動性を設定することで、あらゆる価格帯での継続的な市場参加が確保され、シンプルになりますが、一時的に損失が高まる可能性があります。",
+        "custom": "カスタム範囲により、特定の価格範囲内にある流動性に集中できるため、資本効率と手数料収入を高めることはできますが、さらに積極的に管理を行う必要があります。"
+      },
+      "outOfRange": {
+        "closePosition": "ポジションをクローズ",
+        "description": "移行中はこのポジションの範囲を調整できません。新しい範囲を設定するには、このポジションをクローズして、新しい v4 ポジションを開いてください。",
+        "title": "範囲外のポジションを移行しようとしています"
+      }
+    },
+    "removeHook": "フックを削除",
+    "resetDescription": "トークン、価格、範囲の選択がリセットされます。",
+    "setRange": {
+      "inputsBelow": "下の入力を使用して範囲を設定します。"
+    },
+    "step": {
+      "deposit": "入金額を入力してください",
+      "price": "初期価格と預入金額を設定",
+      "range": "価格範囲と預入金額を設定",
+      "select": "トークンペアと手数料を選択"
+    },
+    "value": "ポジションの値",
+    "valueUnavailable": "現在このポジションでは USD 値を取得できません。預け入れたトークン額のポジション詳細を確認してください。",
+    "wrapped": {
+      "unwrap": "{{wrappedToken}} をアンラップ",
+      "warning": {
+        "info": "流動性の費用効果および効率を高めるには、{{wrappedToken}} をアンラップし、{{nativeToken}} を預け入れてください。"
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "現在のポジションを表示するには、ウォレットを接続してください。"
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "本アプリでは、今後の改善目的で、匿名化された利用状況の統計をログで記録しています。",
+    "autoRouter": "本アプリは Uniswap Labs サーバーから最適な取引ルートを取得します。",
+    "infura": "本アプリはオンチェーンデータを取得し、Infura API を使用してコントラクト呼び出しを構築します。",
+    "thirdPartyApis": "本アプリは次のサードパーティ API を使用しています。",
+    "trm": "本アプリは、リスクとコンプライアンス上の理由から、お客様のウォレットアドレスを安全に収集して TRM Labs Inc. と共有します。",
+    "uniswaptos": "Uniswap Labs の利用規約"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 個のアプリが接続されています",
+      "connections_other": "{{count}} 個のアプリが接続されています"
+    },
+    "error": {
+      "camera": {
+        "message": "コードをスキャンするには、システム設定でカメラへのアクセスを許可してください",
+        "title": "カメラが無効になっています"
+      },
+      "none": "QR コードが見つかりませんでした"
+    },
+    "recipient": {
+      "action": {
+        "scan": "QR コードをスキャン",
+        "show": "QR コードを表示する"
+      },
+      "error": {
+        "message": "有効なイーサリアムアドレス QR コードをスキャンしていることを確認してから、もう一度お試しください。",
+        "title": "無効な QR コード"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "メッセージが見つかりませんでした。"
+      },
+      "method": {
+        "default": "{{dappNameOrUrl}} からのリクエスト",
+        "signature": "{{dappNameOrUrl}} からの署名リクエスト",
+        "transaction": "{{dappNameOrUrl}} からのトランザクションリクエスト"
+      },
+      "withAmount": "{{dappName}} が<highlight> {{amount}} </highlight>{{currencySymbol}} まで使用することを許可しますか？",
+      "withoutAmount": "{{dappName}} にお客様の {{currencySymbol}} の使用を許可しますか？"
+    },
+    "status": {
+      "connecting": "接続中です...",
+      "loading": "読み込み中です..."
+    },
+    "title": "QR コードをスキャン",
+    "wallet": {
+      "networks": "サポートされているネットワーク",
+      "title": "サポートされている {{numOfNetworks}} 個のネットワークのすべてでトークンおよび NFT の送信や受け取りができます。"
+    }
+  },
+  "range": {
+    "outOfView": "範囲が表示されません"
+  },
+  "removeLiquidity": {
+    "pooled": "プールされた {{symbol}}："
+  },
+  "revoke": {
+    "failed": {
+      "message": "これにより、Uniswap プロトコルがトレード用のトークンにアクセスできるようになります。"
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "利用可能な場合、流動性ソースを集約し、より良い価格とガス代無料のスワップを実現します。",
+    "cheapest": {
+      "v4": "Uniswap クライアントは、価格とネットワークコストを考慮して最適な取引を選択します。"
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "期限切れ",
+      "subtitle": "このコードを Uniswap 拡張機能に入力してください。回復フレーズは安全に暗号化したうえで転送されます。",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "新規コードの有効時間：{{hours}} 時間 {{minutes}} 分 {{seconds}} 秒",
+          "minutes": "新規コードの有効時間：{{minutes}} 分 {{seconds}} 秒",
+          "seconds": "新規コードの有効時間：{{seconds}} 秒"
+        }
+      },
+      "title": "Uniswap のワンタイムコード"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "はい、続行します"
+      },
+      "label": {
+        "browser": "ブラウザ",
+        "device": "デバイス"
+      },
+      "subtitle": "信頼できるデバイスで Uniswap 拡張機能から QR コードをスキャンできる場合にのみ続行してください。",
+      "title": "ウォレットをインポートしようとしていますか？",
+      "warning": "Uniswap を偽装したサイトやアプリに注意してください。ウォレットが危険にさらされる可能性があります。"
+    },
+    "error": {
+      "encryption": "シードフレーズの作成に失敗しました。",
+      "noCode": "OTP が受信されませんでした。もう一度お試しください。",
+      "timeout": {
+        "message": "ウォレットの同期を続けるには、Uniswap 拡張機能の QR コードをもう一度スキャンしてください。",
+        "title": "接続がタイムアウトしました"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "この QR コードをスキャンするには、携帯電話をコンピューターと同じ WiFi ネットワークに接続し、VPN を一時的にオフにする必要があります。",
+        "title": "WiFi ネットワークを切り替える"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "まもなくリリース：{{chainName}} チェーンでのトークンの検索と探索",
+    "input": {
+      "placeholder": "トークンとプールを検索"
+    },
+    "results": {
+      "count_one": "1 項目",
+      "count_other": "{{count}} 項目"
+    },
+    "ukDisclaimer": "英国居住者向けの免責事項"
+  },
+  "send": {
+    "button": {
+      "review": "転送をレビュー"
+    },
+    "gas": {
+      "error": {
+        "title": "該当なし"
+      },
+      "networkCost": {
+        "title": "ネットワークコスト"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "残高：{{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "受領者を選択",
+      "input": {
+        "placeholder": "ENS またはアドレスを検索"
+      },
+      "previous_one": "以前の転送回数は 1 回でした",
+      "previous_other": "以前の転送回数は {{count}} 回でした",
+      "results": {
+        "empty": "結果が見つかりませんでした",
+        "error": "入力したアドレスは存在しないか、スペルが間違っています。"
+      },
+      "section": {
+        "favorite": "お気に入りのウォレット",
+        "recent": "最近",
+        "search": "検索結果",
+        "viewOnly": "表示専用ウォレット",
+        "yours": "お客様のウォレット"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "回復フレーズを持っている場合、またはウォレットの所有者を知っている場合にのみ、このウォレットに資金を送信してください。",
+          "title": "これは表示専用のウォレットです"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "トークンをウォレットアドレスに送信すると、ここに表示されます",
+          "title": "ウォレットが保存されていません"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "お客様が送信するのは"
+      },
+      "summary": {
+        "button": {
+          "title": "送信を確定"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "入力したアドレスは存在しないか、スペルが間違っています。",
+        "title": "結果が見つかりませんでした"
+      },
+      "placeholder": "ENS またはアドレスを検索"
+    },
+    "title": "送信",
+    "warning": {
+      "blocked": {
+        "default": "このウォレットはブロックされています",
+        "modal": {
+          "message": "このアドレスは 1 つ以上のブロックされたアクティビティに関連付けられているため、Uniswap ウォレットでブロックされています。これがエラーであると思われる場合は、compliance@uniswap.org に電子メールでご連絡ください。",
+          "title": "ブロックされているアドレス"
+        },
+        "recipient": "受領者のウォレットがブロックされています"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "トークン アドレスに資金を送信しようとしています。これにより資金が永久に失われる可能性があります。",
+          "heading": "トークン アドレスが検出されました"
+        },
+        "message": "トークンアドレスに資金を送信しようとしています。このタイプのアドレスに暗号通貨を送信すると、資金が失われる可能性があります。",
+        "title": "これはトークンアドレスです"
+      },
+      "insufficientFunds": {
+        "message": "送信する額を入力したため、{{currencySymbol}} 残高が減少しました",
+        "title": "{{currencySymbol}} が十分ではありません"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "送信する <highlight>{{currencySymbol}} が {{networkName}}</highlight> に十分にありません",
+          "withoutNetwork": "送信する <highlight>{{currencySymbol}}</highlight> が十分ではありません"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "キャンセル",
+            "confirm": "確定"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "ユーザー名",
+          "walletAddress": "ウォレットアドレス"
+        },
+        "message": "このアドレスとはこれまでにトランザクションを行ったことがありません。続行する前に、アドレスが正しいことを確認してください。",
+        "title": "新しいアドレス"
+      },
+      "self": {
+        "message": "現在のウォレットに資金を送信しようとしています。このアドレスに暗号通貨を送信すると、不要なネットワークコストが発生します。",
+        "title": "これはお客様の現在のウォレットです"
+      },
+      "smartContract": {
+        "message": "資金をスマートコントラクトのアドレスに送ろうとしています。これが正確なアドレスであり、ここでトークンを受け取ることができることを確認してください。確認できない場合、資金は二度と戻って来ないことがあります。",
+        "title": "これはスマートコントラクトのアドレスです"
+      },
+      "viewOnly": {
+        "message": "アセットを送信するには、回復フレーズを使ってこのウォレットをインポートする必要があります。",
+        "title": "このウォレットは表示専用です"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "最近"
+    }
+  },
+  "sendReviewModal": {
+    "title": "送信をレビュー"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "回復フレーズを表示する"
+      },
+      "action": {
+        "hide": "回復フレーズを非表示にする"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "私は、ウォレットの復元に失敗した場合でも Uniswap Labs がウォレットの復元をサポートできないことを理解しています。",
+          "title": "回復フレーズを保存しました"
+        },
+        "initial": {
+          "subtitle": "ウォレットにアクセスできなくなる事態を防ぐため、回復フレーズが保存済みであることを確認してください。",
+          "title": "続行する前に"
+        },
+        "password": {
+          "error": "パスワードが間違っています。もう一度お試しください"
+        },
+        "subtitle": "確認のためパスワードを入力してください",
+        "title": "回復フレーズを削除します"
+      },
+      "title": "あなたの回復フレーズ",
+      "view": {
+        "warning": {
+          "message1": "お客様の回復フレーズを知っている人は誰でもお客様のウォレットと資金にアクセスできます",
+          "message2": "これは誰もいない場所で表示してください",
+          "message3": "誰とも共有しないでください",
+          "message4": "Web サイトやアプリケーションに入力しないでください",
+          "title": "続行する前に"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "お客様の回復フレーズを知っている人は誰でもお客様のウォレットと資金にアクセスできます。",
+          "title": "これは誰もいない場所で表示してください"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "設定で有効にする",
+      "feedback": "フィードバックを送信",
+      "help": "お困りの場合",
+      "lock": "ウォレットをロック",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "footer": "Uniswap チーム 🦄 が\nていねいに作成しました",
+    "hideSmallBalances": {
+      "subtitle": "残高が 1 米ドル未満の場合、ポートフォリオに表示されません。"
+    },
+    "maxSlippage": "最大スリッページ",
+    "section": {
+      "about": "概要",
+      "preferences": "環境設定",
+      "privacyAndSecurity": "プライバシーとセキュリティ",
+      "support": "サポート",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} 個の他のウォレット"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "自動",
+          "dark": {
+            "subtitle": "常にダークテーマを使用する。",
+            "title": "ダーク"
+          },
+          "device": {
+            "subtitle": "デバイスの設定に適応させます。",
+            "title": "自動"
+          },
+          "light": {
+            "subtitle": "常にライトテーマを使用する。",
+            "title": "ライト"
+          }
+        },
+        "title": "テーマ"
+      },
+      "backup": {
+        "create": {
+          "description": "パスワードを設定すると、回復フレーズのバックアップが暗号化されるので、{{cloudProviderName}} アカウント不正アクセス対策としての保護レベルが強化されます。",
+          "title": "{{cloudProviderName}} にバックアップ"
+        },
+        "delete": {
+          "confirm": {
+            "message": "これらのウォレットは同じ回復フレーズを共有しているため、続行すると、これらのウォレットのバックアップも削除されます",
+            "title": "よろしいですか？"
+          },
+          "warning": "{{cloudProviderName}} バックアップを削除すると、回復フレーズを手動でバックアップしていない限り、ウォレットを復元できなくなります。お客様が回復フレーズを紛失した場合でも、Uniswap Labs はお客様のアセットを復元できません。"
+        },
+        "error": {
+          "message": {
+            "full": "{{cloudProviderName}} に回復フレーズをバックアップできません。{{cloudProviderName}} が有効であり、かつ利用可能なストレージ容量があることを確認して、もう一度お試しください。",
+            "short": "バックアップを削除できません"
+          },
+          "title": "{{cloudProviderName}} エラーが発生しました"
+        },
+        "modal": {
+          "description": "回復フレーズを {{cloudProviderName}} にまだバックアップしていません。バックアップすると、どのデバイスからでも {{cloudProviderName}} にログインするだけでウォレットを復元できます。",
+          "title": "回復フレーズを {{cloudProviderName}} にバックアップしますか？"
+        },
+        "password": {
+          "error": {
+            "mismatch": "パスワードが一致しません"
+          },
+          "medium": "これは中程度のパスワードです",
+          "placeholder": {
+            "confirm": "パスワードを確定",
+            "create": "パスワードを作成"
+          },
+          "strong": "これは強いパスワードです",
+          "weak": "これは弱いパスワードです"
+        },
+        "recoveryPhrase": {
+          "label": "回復フレーズ"
+        },
+        "selected": "{{cloudProviderName}} バックアップ",
+        "status": {
+          "action": {
+            "delete": "バックアップを削除"
+          },
+          "complete": "{{cloudProviderName}} にバックアップしました",
+          "description": "回復フレーズを {{cloudProviderName}} にバックアップしておくと、どのデバイスからでも {{cloudProviderName}} アカウントにログインするだけでウォレットを復元できます。",
+          "inProgress": "{{cloudProviderName}} にバックアップ中です...",
+          "recoveryPhrase": {
+            "backed": "バックアップしました"
+          },
+          "title": "{{cloudProviderName}} バックアップ"
+        }
+      },
+      "beta": {
+        "tooltip": "まもなくリリース"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "アプリを開くには顔認証/指紋認証が必要です。",
+            "ios": "アプリを開くには {{biometricsMethod}} が必要です。"
+          },
+          "title": "アプリへのアクセス"
+        },
+        "auth": "認証してください",
+        "off": {
+          "message": {
+            "android": "現在、Uniswap ウォレットでは生体認証がオフになっています。システム設定でオンにすることができます。",
+            "ios": "現在、Uniswap ウォレットでは {{biometricsMethod}} がオフになっています。システム設定でオンにすることができます。"
+          },
+          "title": {
+            "android": "生体認証がオフになっています",
+            "ios": "{{biometricsMethod}} がオフになっています"
+          }
+        },
+        "title": "顔認証/指紋認証でロックを解除",
+        "transactions": {
+          "subtitle": {
+            "android": "トランザクションを行うには顔認証/指紋認証が必要です。",
+            "ios": "トランザクションを行うには {{biometricsMethod}} が必要です。"
+          },
+          "title": "トランザクション"
+        },
+        "unavailable": {
+          "message": {
+            "android": "お使いのデバイスでは生体認証が設定されていません。生体認証を使用するには、まず設定でセットアップしてください。",
+            "ios": "お使いのデバイスでは {{biometricsMethod}} が設定されていません。{{biometricsMethod}} を使用するには、まず設定でセットアップしてください。"
+          },
+          "title": {
+            "android": "生体認証が設定されていません",
+            "ios": "{{biometricsMethod}} が設定されていません"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "生体認証をオンにしておかないと、デバイスにアクセスできる人は誰でも Uniswap ウォレットを開いてトランザクションを実行できます。",
+            "ios": "{{biometricsMethod}} をオンにしておかないと、デバイスにアクセスできる人は誰でも Uniswap ウォレットを開いてトランザクションを実行できます。"
+          },
+          "title": "よろしいですか？"
+        }
+      },
+      "connections": {
+        "disconnectAll": "すべて切断",
+        "noConnectionsDescription": "「ウォレットを接続」または「ログイン」ボタンを探してアプリに接続します。"
+      },
+      "currency": {
+        "title": "現地通貨"
+      },
+      "hapticTouch": {
+        "title": "触覚タッチ"
+      },
+      "helpCenter": {
+        "title": "ヘルプセンター"
+      },
+      "language": {
+        "button": {
+          "navigate": "設定に移動"
+        },
+        "description": {
+          "extension": "Uniswap はデフォルトでシステムの言語設定を使用します。優先言語を変更するには、システム設定に移動してください。",
+          "mobile": "Uniswap はデフォルトでデバイスの言語設定を使用します。優先言語を変更するには、デバイス設定の [Uniswap] に移動し、[言語] をタップします。"
+        },
+        "title": "言語"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "転送、リクエスト、およびその他のアクティビティ",
+            "title": "ウォレット アクティビティ"
+          },
+          "priceAlerts": {
+            "description": "お気に入りのトークンの価格の大きな変更",
+            "title": "価格アラート"
+          },
+          "updates": {
+            "description": "おすすめと新機能",
+            "title": "Uniswap からのアップデート"
+          }
+        },
+        "title": "通知"
+      },
+      "password": {
+        "title": "パスワードを変更"
+      },
+      "permissions": {
+        "title": "権限"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Uniswap Labs 製品全体でのエクスペリエンスを向上させるために、匿名の使用状況データを使用しています。無効にすると、エラーと重要な使用状況のみが追跡されます。",
+          "title": "アプリ分析"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "パスワードを入力してください"
+        },
+        "title": "回復フレーズ"
+      },
+      "smallBalances": {
+        "title": "ポートフォリオ残高"
+      },
+      "unknownTokens": {
+        "subtitle": "詐欺の疑いがあるトークンはポートフォリオに表示されません。",
+        "title": "不明なトークンを非表示にする"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "ラベルを編集",
+          "editProfile": "プロフィールを編集",
+          "remove": "ウォレットを削除"
+        },
+        "connection": {
+          "banner": {
+            "description": "ウォレットの設定で接続を管理するには、プロフィール画像をクリックします。",
+            "title": "接続が移動しました"
+          }
+        },
+        "connections": {
+          "title": "接続"
+        },
+        "editLabel": {
+          "description": "ラベルは非公開になっています。これらはローカルに保存され、お客様だけに表示されます。",
+          "save": "変更内容を保存"
+        },
+        "label": "ニックネーム",
+        "testnetMode": {
+          "description": "これによりテストネットが有効になり、開発者が実際のアセットを使用せずに機能やトランザクションを試すことができるようになります。テストネット上のトークンには実際の価値はありません。",
+          "title": "テストネットモード"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Uniswap を {{label}} で使用するには、ウォレットの設定でネットワークを切り替えます。"
+    },
+    "title": "設定",
+    "version": "バージョン {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "スマートウォレットなら、安全なスマートコントラクトを使用して、高速で低価格のトランザクションを実現できます。",
+      "info": "別のアプリですでにスマートウォレット機能を使用しているウォレットには影響はありません。"
+    },
+    "enabledModal": {
+      "description": "更新は次回のスワップから有効になります。",
+      "title": "スマートウォレットは有効になっています"
+    },
+    "postSwapNudge": {
+      "description": "スマートウォレットなら、安全なスマートコントラクトを使用して、高速で低価格のトランザクションを実現できます。",
+      "enable": "スマートウォレットを有効にする",
+      "title": "次回のスワップをおトクに"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "このアドレスとはこれまでにトランザクションを行ったことがありません。続行する前に、これが正しいアドレスであることを確認してください。",
+        "title": "新しいアドレス"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "特別なタイプのアドレス（スマートコントラクト）にトークンを送信しようとしています。これが送信先のアドレスであることを再確認してください。アドレスが間違っていると、トークンが失われる可能性があります。",
+        "title": "これはウォレットアドレスですか？"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24 時間の手数料",
+    "24volume": "24 時間のボリューム",
+    "allTimeFees": "LP の累計手数料",
+    "allTimeSwappers": "全期間のトークンスワップ実行者数",
+    "allTimeVolume": "全期間のボリューム",
+    "fdv": {
+      "description": "完全希薄化後評価（FDV）は、すべてのトークンが流通していると仮定して総市場価値を計算します。"
+    },
+    "marketCap": {
+      "description": "時価総額は、アセットの流通供給量の合計市場価値です。"
+    },
+    "tvl": {
+      "description": "預かり資産 (TVL) は、すべての Uniswap 流動性プール全体で利用可能なアセットの合計額です。"
+    },
+    "volume": {
+      "1d": {
+        "description": "1 日のボリュームは、過去 24 時間に Uniswap で取引がなされたアセットの量です。",
+        "long": "1 日のボリューム",
+        "short": "1 日のボリューム"
+      },
+      "description": "ボリュームは、選択した期間中に Uniswap で取引がなされたアセットの量です。"
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} を許可（1 回）"
+    },
+    "approvalNeeded": "このトークンを使用するには承認が必要です。",
+    "approvalPending": "承認中です",
+    "approveAndSubmit": "承認して送信",
+    "approveAndSwap": "承認してスワップ",
+    "approveInWallet": "ウォレットで承認",
+    "balance": {
+      "amount": "残高：{{amount}}"
+    },
+    "bestRoute": {
+      "cost": "最も効率的なルートではネットワークコストが約 {{gasPrice}} かかると推定されます。 "
+    },
+    "bridging": {
+      "estimatedTime": "推定時間",
+      "title": "ネットワーク間のスワッピング",
+      "warning": {
+        "description": "{{fromNetwork}} から {{toNetwork}} にスワップ中です。これは「ブリッジング」とも呼ばれ、トークンをあるネットワークから別のネットワークに移動します。"
+      }
+    },
+    "button": {
+      "max": "最大",
+      "review": "レビュー",
+      "submitting": {
+        "keep": {
+          "open": "ウォレットを開いたままにしておいてください..."
+        }
+      },
+      "swap": "スワップ",
+      "swapAnyways": "とにかくスワップ",
+      "unwrap": "アンラップ",
+      "wrap": "ラップ"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "国または地域で検索"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "キャンセルが処理される前にスワップが実行される可能性があります。ネットワークコストは払い戻されません。続行しますか？",
+      "cannotExecute_other": "キャンセルが処理される前にスワップが実行される可能性があります。ネットワークコストは払い戻されません。続行しますか？"
+    },
+    "confirmLimit": "指値注文を確定",
+    "confirmSwap": "スワップを確定",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "トランザクション期限"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "トークン手数料"
+      },
+      "newQuote": {
+        "input": "新規の入金",
+        "output": "新規の出力"
+      },
+      "orderRouting": "注文回送",
+      "orderRoutingInfo": "このスワップは、安全性、高速実行、低価格を優先しながらネットワーク間でアセットを移動する分散型プロトコルである Across を介して回送されます。",
+      "poweredBy": "を利用しています",
+      "rate": "レート",
+      "slippage": "最大スリッページ",
+      "uniswapFee": "手数料"
+    },
+    "error": {
+      "default": "スリッページ許容度を上げることをお勧めします。注意：転送手数料とリベーストークンは Uniswap V3 と互換性がありません。",
+      "expectedToFail": "スワップは失敗することが予想されます。",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} 入力は利用できません",
+      "modifiedByWallet": "スワップはウォレットを通じて変更されました。これが間違いだった場合は、資金を失う事態を防ぐため、すぐにキャンセルしてください。",
+      "rejected": "トランザクションが拒否されました",
+      "undefinedObject": "このスワップを実行しようとしたときにエラーが発生しました。スリッぺージ許容度を上げることをお勧めします。それでも問題が解決しない場合は、トレードしているトークンとの互換性がない可能性があります。注意：転送手数料とリベーストークンは Uniswap V3 と互換性がありません。",
+      "unknown": "不明なエラーです。",
+      "v2": {
+        "expired": "期限が過ぎたため、このトランザクションは送信できませんでした。トランザクション期限が短すぎではないか確認してください。",
+        "k": "Uniswap 不変条件 x*y=k はスワップによって満たされませんでした。これは通常、スワップするトークンの 1 つに転送時のカスタム動作が組み込まれていることを意味します。",
+        "slippage": "このトランザクションは、価格変動または転送手数料により成功しません。スリッページ許容度を上げてみてください",
+        "transferInput": "入力トークンを転送できません。入力トークンに問題がある可能性があります。",
+        "transferOutput": "出力トークンを転送できません。出力トークンに問題がある可能性があります。"
+      },
+      "v3": {
+        "slippage": "価格変動によりこのトランザクションは成功しません。スリッページ許容度を上げてみてください。注意：転送手数料およびリベーストークンは Uniswap V3 と互換性がありません。",
+        "transferOutput": "出力トークンを転送できません。出力トークンに問題がある可能性があります。注意：トークンの転送手数料とリベーストークンは Uniswap V3 と互換性がありません。"
+      }
+    },
+    "estimatedDifference": {
+      "label": "現在の流動性により、入力値と出力値に大きな差が生じます。"
+    },
+    "fail": {
+      "message": "スリッページをより高い値に調整してみてください。",
+      "uniswapX": "UniswapX でスワップを完了できませんでした。もう一度スワップを試して、従来の Uniswap API 経由で回送してください。"
+    },
+    "fees": {
+      "experience": "この手数料は、Uniswapで最高のエクスペリエンスを実現するために、一部のトークンペアに適用されます。これは出力トークンで支払われ、既に見積もりに組み込まれています。",
+      "noFee": "Uniswap で最高のエクスペリエンスを実現するために、一部のトークンペアには手数料が適用されます。このスワップには手数料はかかりません。"
+    },
+    "fetchingBestPrice": "最良の価格を取得中です...",
+    "fetchingPrice": "価格を取得中です...",
+    "finalizingQuote": "見積もりの最終決定中です...",
+    "form": {
+      "header": "スワップ",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "トークン手数料のため、スワップ金額は入力フィールドを使用してのみ入力できます"
+          }
+        },
+        "restore": "スワップするにはウォレットを復元してください"
+      }
+    },
+    "frontrun": {
+      "warning": "お客様のトランザクションがフロントランニングとなり、不利な取引になる可能性があります。"
+    },
+    "header": {
+      "viewOnly": "表示専用"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "流動性が低いペアには価格影響計算を使用できない場合があります。"
+      }
+    },
+    "inputEstimated": {
+      "atMost": "入力は推定値です。最大で <amount /> を売却することになります。そうでない場合、トランザクションは取り消されます。"
+    },
+    "limit": "指値注文",
+    "limitedAssets": {
+      "warning": "一部のアセットは、スマートコントラクトでうまく機能しない可能性があるか、法的理由によりトレードを許可できないため、このインターフェイスからは利用できません。"
+    },
+    "limitFilled": "指値注文を実行しました。",
+    "limitSubmitted": "指値注文を提出しました",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "市場価格は指定した価格範囲外です。単一アセットの入金に限ります。"
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "保証されている最大金額です。価格がさらに下落した場合、トランザクションは取り消されます。"
+    },
+    "minPriceSlip": {
+      "revert": "価格が変動して受け取り金額が {{amount}} 未満になる場合、トランザクションは取り消されます。"
+    },
+    "networkCost": {
+      "paidIn": "トランザクションを行うためのネットワークコストが、{{chainName}} ネットワーク上の {{sym}} で支払われます。"
+    },
+    "orderRouting": "注文回送",
+    "outputEstimated": {
+      "atLeast": "アウトプットは推定値です。少なくとも <amount /> を受け取ることになります。そうでない場合、トランザクションは取り消されます。"
+    },
+    "payAnyway": "とにかく支払う",
+    "payAtMost": "最大支払額",
+    "payWith": "支払い手段",
+    "placeOrder": "注文する",
+    "priceImpact": "価格への影響",
+    "receive": {
+      "atLeast": "最小受取額"
+    },
+    "request": {
+      "title": {
+        "full": "{{inputCurrencySymbol}} → {{outputCurrencySymbol}} にスワップ",
+        "short": "トークンをスワップ"
+      }
+    },
+    "review": {
+      "summary": "スワップ中です"
+    },
+    "reviewLimit": "指値注文をレビュー",
+    "route": {
+      "optimizedGasCost": "このルートは、分割ルート、複数のホップ、および各ステップのネットワークコストを考慮します。"
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "実施中になっている経過時間がこの時間を超えた場合、トランザクションは取り消されます。(最長: 3 日間)",
+        "warning": "かなり長い期限です"
+      },
+      "protection": {
+        "description": "スワップ保護をオンにすると、イーサリアムトランザクションはサンドイッチ攻撃から保護され、失敗の可能性が低くなります。",
+        "subtitle": {
+          "supported": "{{chainName}} ネットワーク",
+          "unavailable": "{{chainName}} では利用できません"
+        },
+        "title": "スワップ保護"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap クライアントは、価格とネットワークコストを考慮して最も安い取引を選択します。"
+            },
+            "tooltip": "ルートの識別には v2、v3、および一部の v4 プールが考慮され、推定される価格の影響とネットワークコストも考慮されます。"
+          },
+          "v2": {
+            "title": "v2 プール"
+          },
+          "v3": {
+            "title": "v3 プール"
+          },
+          "v4": {
+            "title": "v4 プール"
+          }
+        },
+        "title": "取引の選択肢"
+      },
+      "slippage": {
+        "alert": "高いスリッページ",
+        "control": {
+          "auto": "自動"
+        },
+        "description": "価格がスリッページ率を超えて変動した場合、トランザクションは取り消されます。",
+        "input": {
+          "message": "価格がさらに下落した場合、トランザクションは取り消されます。お客様が受け取ることを保証されている最低金額は以下のとおりです。",
+          "receive": {
+            "title": "最小受取額"
+          }
+        },
+        "output": {
+          "message": "価格がさらに下落した場合、トランザクションは取り消されます。お客様に必要となる支出の最大金額は以下のとおりです。",
+          "spend": {
+            "title": "最大支出額"
+          }
+        },
+        "warning": {
+          "description": "スリッページが 20% を超えると、不利な取引になる可能性が高くなります。フロントランニングのリスクを軽減するには、設定を下げてください。",
+          "hover": "不利な取引になる可能性があります。スリッページ設定を下げてみてください。",
+          "max": "{{maxSlippageTolerance}} 未満の値を入力してください",
+          "message": "スリッページが必要以上に高くなる可能性があります",
+          "min": "0 を超える値を入力してください"
+        }
+      },
+      "title": "スワップの設定",
+      "transactionRevertPrice": "価格がこのパーセンテージを超えて望ましくない変化をした場合、トランザクションは取り消されます。"
+    },
+    "signAndSwap": "署名してスワップ",
+    "slippage": {
+      "amt": "{{amt}} スリッページ",
+      "bridging": "ネットワーク間でスワップしたときにスリッページがありません",
+      "settings": {
+        "title": "最大スリッページ"
+      },
+      "tooltip": "トランザクションが取り消される前の最大価格変動です。"
+    },
+    "slippageBelow": {
+      "warning": "スリッページが {{amt}} を下回るとトランザクションが失敗することがあります"
+    },
+    "submitted": "スワップを提出しました",
+    "success": "スワップが成功しました",
+    "tokenOwnFees": "一部のトークンは売買時に手数料がかかります。手数料はトークン発行者が設定します。Uniswap はこれらの手数料を一切受け取りません。",
+    "total": "合計",
+    "tradeRoutes": "取引ルート",
+    "transaction": {
+      "deadline": "トランザクション期限",
+      "revertAfter": "実施中になっている経過時間がこの時間を超えた場合、トランザクションは取り消されます。"
+    },
+    "unsupportedAssets": {
+      "readMore": "サポートされていないアセットの詳細を読む"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "より大きな金額を入力してください"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "スリッページを上げてみてください。",
+        "titleMay": "このスワップは失敗する可能性があります"
+      },
+      "insufficientBalance": {
+        "title": "{{currencySymbol}} が足りません"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "{{networkName}} の {{ tokenSymbol }} にスワップ",
+          "buy": "{{ tokenSymbol }} を購入",
+          "buyWithCard": "カードで購入"
+        },
+        "message": {
+          "withNetwork": "スワップする <highlight>{{currencySymbol}} が {{networkName}}</highlight> に十分にありません",
+          "withoutNetwork": "スワップする <highlight>{{currencySymbol}}</highlight> が十分にありません"
+        },
+        "title": "ネットワークコストをカバーするのに十分な {{currencySymbol}} がありません"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} を許可（1 回）",
+        "highRelativeToValue": {
+          "unichain": "ネットワークコストがトランザクション総額の 10% を超えています。これは、ブロックチェーン上でトランザクションを処理するためのコストです。"
+        },
+        "message": {
+          "unichain": "これは、ブロックチェーン上でトランザクションを処理するためのコストです。",
+          "uniswapX": {
+            "unichain": "これは、ブロックチェーン上でトランザクションを処理するためのコストです。<gradient>UniswapX</gradient> は流動性ソースを集約し、より良い価格とガス代無料のスワップを実現します。"
+          }
+        },
+        "wrap": "ETH をラップ"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "ブリッジング見積もりはありません。今回は正式なブリッジを使ってみてください。"
+        },
+        "title": "見積もりはありません"
+      },
+      "noRoutesFound": {
+        "message": "選択されたトークンには現在利用可能なルートがありません。別のペアを試すか、後で再度確認してください。",
+        "title": "利用可能なルートがありません"
+      },
+      "offline": {
+        "message": "インターネット接続が失われたか、ネットワークがダウンしている可能性があります。インターネット接続を確認して、もう一度お試しください。",
+        "title": "オフラインです"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "このトランザクションにより、このプールの市場価格に {{priceImpactValue}} の価格影響が生じ、資金の損失が発生します。"
+        },
+        "title": {
+          "veryHigh": "価格への非常に大きな影響（{{priceImpactValue}}）"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "アプリを閉じたため、トランザクションは送信されませんでした。",
+        "approvalFailed": "トークンの承認に失敗したため、トランザクションは送信されませんでした。",
+        "stale": "アプリを閉じたか、承認に時間がかかりすぎたため、トランザクションは送信されませんでした。",
+        "submissionFailed": "トランザクションの送信中に問題が発生しました。",
+        "title": "スワップはキャンセルされました",
+        "wrap": {
+          "message": "ETH は WETH としてラップされたままになります。"
+        },
+        "wrapFailed": "ラップトランザクションが失敗したため、トランザクションは送信されませんでした。"
+      },
+      "rateLimit": {
+        "message": "数分後にもう一度お試しください。",
+        "title": "レート制限を超えました"
+      },
+      "router": {
+        "message": "接続が失われたか、ネットワークがダウンしている可能性があります。問題が解決しない場合は、後でもう一度お試しください。",
+        "title": "この取引は現在完了できません"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} がブロックされています"
+      },
+      "tokenBlockedFallback": {
+        "button": "トークンがブロックされています"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Uniswap で最高のエクスペリエンスを保証するために手数料が適用されます。このスワップには手数料はかかりません。",
+          "included": "手数料は Uniswap で最高のエクスペリエンスを保証するために適用され、この見積もりに既に組み込まれています。"
+        },
+        "title": "スワップ手数料"
+      },
+      "viewOnly": {
+        "message": "トークンをスワップするには、回復フレーズを使ってこのウォレットをインポートする必要があります。"
+      }
+    },
+    "wrap": {
+      "token": "{{sym}} をラップ"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "他のネットワーク",
+      "otherNetworksBalance": "他のネットワークの残高",
+      "title": "お客様の残高"
+    },
+    "button": {
+      "getToken": "{{ tokenSymbol }} を取得",
+      "getTokenFallback": "トークンを取得"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "{{network}} に切り替える",
+      "title": "このトークンは存在しません",
+      "titleWithChain": "このトークンは {{network}} に存在しません"
+    },
+    "loading": {
+      "title": {
+        "default": "<tokenLink /> のトークンデータ",
+        "withChain": "{{chainName}} の <tokenLink /> のトークンデータ"
+      }
+    },
+    "nameNotFound": "名前が見つかりません",
+    "noInfoAvailable": "トークン情報がありません",
+    "noTestnetSupportDescription": "一部のテストネットでは、トークンのスワップ、送信、購入がサポートされていません。",
+    "stats": {
+      "unsupportedChainDescription": "{{chain}} のトークンの統計とチャートは {{infoLink}} で入手できます"
+    },
+    "symbolNotFound": "シンボルが見つかりません"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "このアクションを実行するにはテストネットモードを無効にする必要があります。テストネットモードは設定でいつでも再び有効にできます。",
+          "toTestnetMode": "このアクションを実行するにはテストネットモードを有効にする必要があります。テストネット上のトークンには実際の価値はありません。テストネットモードは設定でいつでも無効にできます。"
+        },
+        "title": {
+          "toProdMode": "テストネットモードを無効にする",
+          "toTestnetMode": "テストネットモードを有効にする"
+        }
+      }
+    },
+    "unsupported": "この機能はテストネットモードではサポートされていません。"
+  },
+  "themeToggle": {
+    "theme": "テーマ"
+  },
+  "title": {
+    "buySellTradeEthereum": "Uniswap でイーサリアムやその他の人気トークンを購入、販売、取引しましょう",
+    "createGovernanceOn": "Uniswap で新しいガバナンス提案を作成",
+    "createGovernanceTo": "UNI 保有者による投票対象となる新しいガバナンス提案を作成します。UNI トークンは、Uniswap ガバナンスにおける投票権を表します。",
+    "earnFees": "流動性プールにトークンを追加することで、他のユーザーが Uniswap でスワップすると手数料を獲得できます。",
+    "easilyRemove": "Uniswap v2 からの流動性の削除と Uniswap v3 への預け入れが簡単にできます。",
+    "easilyRemoveV4": "Uniswap v2 および v3 からの流動性の削除と Uniswap v4 への預け入れが簡単にできます。",
+    "explore": "Uniswap で NFT を探索",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "NFT コレクションを管理します。NFTの 特性、トレードアクティビティ、説明、その他の詳細を表示します。",
+    "migratev2": "v2 プールの流動性を Uniswap v3 に移行",
+    "migratev3": "プールの流動性を Uniswap v4 に移行",
+    "placeLimit": "Uniswap で指値注文を出す",
+    "realTime": "リアルタイムの価格、チャート、トランザクションデータなど。",
+    "removeLiquidityv2": "Uniswap のプール流動性（v2）を削除",
+    "removePoolLiquidity": "Uniswap のプール流動性を削除",
+    "removeTokensv2": "v2 流動性プールからトークンを削除します。",
+    "removev3Liquidity": "v3 流動性プールからトークンを削除します。",
+    "sendTokens": "Uniswap でトークンを送信",
+    "swappingMadeSimple": "スワップは簡単です。イーサリアム、Base、Arbitrum、ポリゴンなどで暗号通貨を売買します。何百万人もの人々に信頼されています。",
+    "tradeTokens": "トークンを取引して流動性を提供します。リアルタイムの価格、チャート、トランザクションデータなど。",
+    "uniswapTradeCrypto": "Uniswap | トップ DeFi プラットフォームで暗号通貨と NFT を安全に取引する",
+    "uniToken": "UNI トークンは、Uniswap ガバナンスにおける投票権を表します。各提案に対して自分で投票することも、第三者に投票を委任することもできます。",
+    "voteOnGov": "Uniswap のガバナンス提案に投票"
+  },
+  "token": {
+    "balances": {
+      "main": "お客様の残高",
+      "other": "他のネットワーク上の残高",
+      "viewOnly": "{{ownerAddress}} の残高"
+    },
+    "bridge": "{{label}} トークンブリッジ",
+    "chart": {
+      "candlestick": {
+        "unavailable": "ローソク足グラフはこのトークンでは利用できません"
+      },
+      "tooltip": "手数料：{{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "テストネットトークンではトークンの詳細は利用できません。"
+      }
+    },
+    "error": {
+      "unknown": "不明なトークンです"
+    },
+    "fee": {
+      "buy": {
+        "label": "購入手数料"
+      },
+      "label": "手数料",
+      "sell": {
+        "label": "販売手数料"
+      }
+    },
+    "links": {
+      "title": "リンク",
+      "twitter": "Twitter",
+      "website": "Web サイト"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "問題が発生しました。",
+        "title": "価格チャートを読み込めませんでした"
+      },
+      "timeRangeLabel": {
+        "all": "全期間",
+        "day": {
+          "verbose": "1 日"
+        },
+        "hour": "1 時間",
+        "month": {
+          "verbose": "1 か月"
+        },
+        "week": {
+          "verbose": "1 週間"
+        },
+        "year": {
+          "verbose": "1 年"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} は利用できません",
+          "tokensNotAvailable": "{{tokenSymbol0}} および {{tokenSymbol1}} は利用できません"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs はこれらの手数料を一切受け取りません。"
+      },
+      "warning": {
+        "alwaysDoYourResearch": "常に調査を行う",
+        "blocked": {
+          "description": {
+            "default_one": "Uniswap アプリを使用してこのトークンを取引することはできません。",
+            "default_other": "Uniswap アプリを使用してこれらのトークンを取引することはできません。"
+          }
+        },
+        "copyContractAddress": {
+          "message": "これは契約アドレスであり、ブロックチェーン上にあるトークンの一意の識別子となります。このアドレスに送信する暗号はすべて失われます。",
+          "title": "このアドレスに暗号を送信しないでください"
+        },
+        "dontShowWarningAgain": "この警告を再度表示しない",
+        "doYourOwnResearch": "先に進む前に必ずご自身で調査を行ってください。",
+        "feeDescription": "{{action}} 時に <fee /> がかかります",
+        "flaggedAsMalicious": "悪意のあるものとしてフラグが立てられています",
+        "fotHigh": {
+          "title": "高額な手数料が検出されました"
+        },
+        "fotLow": {
+          "title": "手数料が検出されました"
+        },
+        "fotVeryHigh": {
+          "title": "非常に高額な手数料が検出されました"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} に販売不可としてフラグが立てられました。このトークンをスワップすると資金が失われる可能性があります。",
+          "title": "100% の販売手数料が検出されました"
+        },
+        "impersonator": {
+          "title": "偽装トークンが検出されました"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} に悪意のあるものとして Blockaid によりフラグが立てられました。"
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} はスワップしようとしているトークンではない可能性があります。"
+            }
+          },
+          "title": "悪意のあるトークンが検出されました"
+        },
+        "mayResultInLoss": "スワップすると資金が失われる可能性があります。",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} は、米国の主要中央集権型取引所では取引されていません。"
+          }
+        },
+        "notListedOnExchanges": "米国の主要取引所ではリスティングされていません",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} に不審なものとして Blockaid によりフラグが立てられました。"
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} は、ハニーポットである可能性があるとして Blockaid によりフラグが立てられました。先に進む前に必ずご自身で調査を行ってください。"
+          },
+          "title": "ハニーポットらしきものが検出されました"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} に販売不可としてフラグが立てられました。",
+          "title": "100% の販売手数料が検出されました"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} にスパムとして Blockaid によりフラグが立てられました。",
+          "title": "スパムトークンが検出されました"
+        },
+        "spamsUsers": "ユーザーへのスパム行為",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} は購入時に {{buyFeePercent}}、および販売時に {{sellFeePercent}} の手数料がかかります。"
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} は購入時に {{feePercent}} の手数料がかかります。"
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} は販売時に {{feePercent}} の手数料がかかります。"
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} は売買時に手数料がかかります。"
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Uniswap ウォレットを使用してこのトークンを取引することはできません。"
+      },
+      "medium": {
+        "message": {
+          "plural": "これらのトークンは、米国の主要な中央集権型取引所では取引されていません。続行する前に必ずご自身で調査を行ってください。"
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "検索結果を読み込めませんでした"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "完全希薄化後評価",
+      "marketCap": "時価総額",
+      "priceHighYear": "52 週での最高値",
+      "priceLowYear": "52 週での最安値",
+      "section": {
+        "about": "{{token}} について"
+      },
+      "title": "統計",
+      "translation": {
+        "original": "オリジナルを表示する",
+        "translate": "{{language}} に翻訳"
+      },
+      "volume": "24 時間のボリューム"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "入力トークン"
+      },
+      "output": {
+        "fallback": "出力トークン"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Uniswap プロトコル上のスワップは ETH で開始および終了できます。ただし、スワップ中は、ETH は WETH にラップされます。"
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "{{ tokenSymbol }} を取得するには、ネットワークコストをカバーする {{ nativeTokenSymbol }} が必要です。",
+      "title": "{{ nativeTokenName }} が必要です"
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "トークンを非表示にする",
+      "unhide": "トークンを表示する"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "{{blockExplorerName}} で表示する"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "NFT コレクションを読み込めませんでした"
+          }
+        },
+        "label": {
+          "items": "アイテム",
+          "owners": "所有者",
+          "priceFloor": "底値",
+          "swapVolume": "ボリューム"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "NFT の詳細を読み込めませんでした"
+          }
+        },
+        "network": "ネットワーク",
+        "owner": "所有者",
+        "price": "現在の価格",
+        "recentPrice": "最終売却価格",
+        "traits": "特性"
+      },
+      "empty": {
+        "description": "NFT が見つかりませんでした"
+      },
+      "error": {
+        "unavailable": "コンテンツは利用できません"
+      },
+      "hidden": {
+        "action": {
+          "hide": "NFT を非表示にする",
+          "unhide": "NFT を表示する"
+        }
+      },
+      "link": {
+        "collection": "コレクション Web サイト"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFT を読み込めませんでした"
+          }
+        },
+        "none": {
+          "button": "NFT を受け取る",
+          "description": {
+            "default": "別のウォレットから NFT を転送して開始します。",
+            "external": "このウォレットで NFT の購入や受け取りを行うと、こちらに表示されます。"
+          },
+          "title": "NFT はまだありません"
+        }
+      }
+    },
+    "noneFound": "トークンが見つかりません。",
+    "selector": {
+      "button": {
+        "choose": "トークンを選択",
+        "clear": "すべてクリア"
+      },
+      "empty": {
+        "buy": {
+          "message": "カードまたは銀行で暗号通貨を購入してトークンを送信します。",
+          "title": "暗号通貨を購入"
+        },
+        "receive": {
+          "title": "トークンを受け取る"
+        },
+        "title": "まだトークンがありません"
+      },
+      "error": {
+        "load": "トークンを読み込めませんでした"
+      },
+      "search": {
+        "empty": "<highlight>{{searchText}}</highlight> の結果が見つかりませんでした",
+        "placeholder": "トークンを検索"
+      },
+      "section": {
+        "bridging": "ネットワーク間でスワップ",
+        "favorite": "お気に入り",
+        "otherNetworksSearchResults": "別のネットワークで見つかったトークン",
+        "otherSearchResults": "{{network}} 上のその他のトークン",
+        "recent": "最近の検索履歴",
+        "search": "検索結果",
+        "trending": "24 時間のボリュームのトークン",
+        "yours": "お客様のトークン"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "プールを検索",
+          "tokens": "トークンを検索",
+          "transactions": "トランザクションを検索"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "トランザクションをキャンセル",
+        "description": "このトランザクションがネットワークによって処理される前にキャンセルすると、元のネットワークコストではなく新しいネットワークコストを支払うことになります。",
+        "title": "このトランザクションをキャンセルしますか？"
+      },
+      "copy": "トランザクション ID をコピー",
+      "copyProvider": "{{providerName}} のトランザクション ID をコピー"
+    },
+    "amount": {
+      "unlimited": "無制限"
+    },
+    "date": "送信日：{{date}}",
+    "details": {
+      "dappName": "アプリ",
+      "from": "送信元",
+      "networkFee": "ネットワークコスト",
+      "providerFee": "プロバイダー手数料",
+      "swapRate": "レート",
+      "transaction": "トランザクション",
+      "uniswapFee": "手数料（{{ feePercent }}%）"
+    },
+    "insufficientLiquidity": "トランザクションを完了するにはプールの流動性が不十分です",
+    "network": {
+      "all": "すべてのネットワーク"
+    },
+    "networkCost": {
+      "label": "ネットワークコスト",
+      "maxNativeBalance": {
+        "description": "このトランザクションのネットワークコストをカバーするために、少額のネットワークトークン残高が予約されています。",
+        "title": "最大残高を利用できないのはなぜですか？"
+      },
+      "veryHigh": {
+        "label": "非常に高いネットワークコスト"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "トランザクションをキャンセルできません",
+        "replace": "トランザクションを置き換えできません"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "承認をキャンセルしました",
+        "canceling": "承認をキャンセル中です",
+        "failed": "承認に失敗しました",
+        "pending": "承認中",
+        "success": "承認しました",
+        "successDapp": "{{externalDappName}} で承認しました"
+      },
+      "buy": {
+        "canceled": "購入をキャンセルしました",
+        "canceling": "購入をキャンセル中です",
+        "failed": "購入に失敗しました",
+        "pending": "購入中です",
+        "success": "購入しました",
+        "successDapp": "{{externalDappName}} で購入しました"
+      },
+      "confirm": {
+        "canceled": "確定をキャンセルしました",
+        "canceling": "キャンセル中です",
+        "failed": "確定に失敗しました",
+        "pending": "トランザクションが実行中です",
+        "success": "トランザクションを確定しました",
+        "successDapp": "トランザクションを {{externalDappName}} で確定しました"
+      },
+      "mint": {
+        "canceled": "ミントをキャンセルしました",
+        "canceling": "ミントをキャンセル中です",
+        "failed": "ミントに失敗しました",
+        "pending": "ミント中です",
+        "success": "ミントしました",
+        "successDapp": "{{externalDappName}} でミントしました"
+      },
+      "purchase": {
+        "canceled": "購入をキャンセルしました",
+        "canceling": "購入をキャンセル中です",
+        "failedOn": "{{serviceProvider}} での購入に失敗しました",
+        "pendingOn": "{{serviceProvider}} で購入中です",
+        "successOn": "{{serviceProvider}} で購入しました"
+      },
+      "receive": {
+        "canceled": "受け取りをキャンセルしました",
+        "canceling": "受け取りをキャンセル中です",
+        "failedFrom": "{{serviceProvider}} からの受け取りに失敗しました",
+        "pendingFrom": "{{serviceProvider}} から受け取り中です",
+        "success": "受け取りました",
+        "successDapp": "{{externalDappName}} で受け取りました",
+        "successFrom": "{{serviceProvider}} から受け取りました"
+      },
+      "revoke": {
+        "canceled": "取り消しをキャンセルしました",
+        "canceling": "取り消しをキャンセル中です",
+        "failed": "取り消しに失敗しました",
+        "pending": "取り消し中です",
+        "success": "取り消しました",
+        "successDapp": "{{externalDappName}} で取り消しました"
+      },
+      "sale": {
+        "canceled": "売却をキャンセルしました",
+        "canceling": "売却をキャンセル中です",
+        "failedOn": "{{serviceProvider}} 経由での売却に失敗しました",
+        "pendingCard": {
+          "msg": "暗号通貨の販売について詳しく知る。",
+          "title": "売却がまだ保留中なのはなぜですか？"
+        },
+        "pendingOn": "{{serviceProvider}} 経由で売却中です",
+        "successOn": "{{serviceProvider}} 経由で売却しました"
+      },
+      "sell": {
+        "canceled": "売却をキャンセルしました",
+        "canceling": "売却をキャンセル中です",
+        "failed": "売却に失敗しました",
+        "pending": "売却中です",
+        "success": "売却しました",
+        "successDapp": "{{externalDappName}} で売却しました"
+      },
+      "send": {
+        "canceled": "送信をキャンセルしました",
+        "canceling": "送信をキャンセル中です",
+        "failed": "送信に失敗しました",
+        "pending": "送信中",
+        "success": "送信しました",
+        "successDapp": "{{externalDappName}} で送信しました"
+      },
+      "swap": {
+        "canceled": "スワップをキャンセルしました",
+        "canceling": "スワップをキャンセル中です",
+        "expired": "スワップは期限切れです",
+        "failed": "スワップに失敗しました",
+        "insufficientFunds": "資金が不足しています",
+        "pending": "スワップ中",
+        "success": "スワップしました",
+        "successDapp": "{{externalDappName}} でスワップしました"
+      },
+      "unwrap": {
+        "canceled": "アンラップをキャンセルしました",
+        "canceling": "アンラップをキャンセル中です",
+        "failed": "アンラップに失敗しました",
+        "pending": "アンラップ中",
+        "success": "アンラップしました",
+        "successDapp": "{{externalDappName}} でアンラップしました"
+      },
+      "wrap": {
+        "canceled": "ラップをキャンセルしました",
+        "canceling": "ラップをキャンセル中です",
+        "failed": "ラップに失敗しました",
+        "pending": "ラップ中",
+        "success": "ラップしました",
+        "successDapp": "{{externalDappName}} でラップしました"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} の受領者は {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}}、送信元は {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "このトランザクションのネットワークコストをカバーするには、{{tokenAmount}} {{tokenSymbol}}（<fiatTokenAmount/>）を {{networkName}} 上で増額する必要があります。"
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "このトークンにスワップするには、{{tokenSymbol}} を {{networkName}} 上で増額する必要があります。"
+          },
+          "title": {
+            "withNetwork": "{{networkName}} の {{tokenSymbol}} が十分ではありません",
+            "withoutNetwork": "{{tokenSymbol}} が十分ではありません"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "ネットワークトークン残高のほとんどを支出しようとしています。これにより、将来的なネットワークコストをカバーする資金が不足する可能性があります。",
+        "title": "低いネットワークトークン残高"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "トランザクションをキャンセルできません",
+        "status": "トランザクションステータスの確認中にエラーが発生しました"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> は流動性ソースを集約し、より良い価格とガス代無料のスワップを実現します。",
+    "learnMore": "UniswapX でのスワップについて詳しく知る"
+  },
+  "uniswapx": {
+    "description": "UniswapX は流動性ソースを集約し、より良い価格とガス代無料のスワップを実現します。",
+    "included": "<icon /> <gradient>UniswapX</gradient> を含む",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 のハード見積もりが失敗しました。クラシックスワップで再試行してください。"
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "今すぐ請求"
+      },
+      "subtitle": "パーソナライズされた web3 プロフィールを作成し、アドレスを友人と簡単に共有できます。",
+      "title": {
+        "compact": "<highlight>{{unitagDomain}} ユーザー名を申請</highlight>し、カスタマイズ可能なプロフィールを作成します。",
+        "full": "{{unitagDomain}} ユーザー名を申請"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "カメラロールから選択",
+        "computer": "コンピューターからアップロード",
+        "nft": "NFT を選択",
+        "remove": "プロフィール写真を削除"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "プロフィールをカスタマイズ",
+        "description": "{{unitagAddress}} で暗号通貨の送信と受け取りの準備が整いました。web3 プロフィールをカスタマイズして、ウォレットの構築を続けてください。",
+        "success": {
+          "long": "了解しました",
+          "short": "了解"
+        }
+      },
+      "error": {
+        "addressLimit": "このアドレスのユーザー名に対する変更回数が既に上限に達しています",
+        "avatar": "アバターを設定できませんでした。後でもう一度お試しください。",
+        "default": "ユーザー名を申請できませんでした。後でもう一度お試しください。",
+        "deviceLimit": "このデバイスでアクティブにできるユーザー名の数が上限に達しました",
+        "general": "ユーザー名を申請できません",
+        "unavailable": "このユーザー名は使用できません",
+        "unknown": "不明なエラーです"
+      },
+      "username": {
+        "default": "お客様の名前"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "ユーザー名とカスタマイズ可能なプロフィールの詳細を削除しようとしています。再度申請することはできません。",
+        "title": "よろしいですか？"
+      }
+    },
+    "editProfile": {
+      "placeholder": "ユーザー名"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "ユーザー名を変更しようとしています。1 度変更すると、再度申請することはできません。",
+        "title": "よろしいですか？"
+      },
+      "title": "ユーザー名を編集",
+      "warning": {
+        "default": "ユーザー名を変更すると、再度申請することはできません。変更できるのは <highlight>2</highlight> 回だけです。",
+        "max": "ユーザー名変更回数の上限である 2 回に達しました。"
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "ユーザー名を申請",
+        "description": "0x アドレスに別れを告げましょう。ユーザー名は、暗号通貨の送信と受け取りを容易にするための読みやすい名前です。",
+        "title": "ユーザー名の説明",
+        "upsell": {
+          "customizable": "カスタマイズ可能なプロフィール",
+          "ens": "ENS サブドメインを利用しています",
+          "free": "自由に請求できます"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "ENS サブドメインを利用しています",
+        "free": "自由に請求できます",
+        "profile": "カスタマイズ可能なプロフィール"
+      },
+      "subtitle": "0x アドレスに別れを告げましょう。ユーザー名は、暗号通貨の送信と受け取りを容易にするための読みやすい名前です。",
+      "title": "ユーザー名の説明"
+    },
+    "notification": {
+      "delete": {
+        "error": "ユーザー名を削除できませんでした。後でもう一度お試しください。",
+        "title": "ユーザー名が削除されました"
+      },
+      "profile": {
+        "error": "プロフィールを更新できませんでした。後でもう一度お試しください。",
+        "title": "プロフィールが更新されました"
+      },
+      "username": {
+        "error": "ユーザー名を変更できませんでした。後でもう一度お試しください。",
+        "title": "ユーザー名が変更されました"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "これは、他の人が暗号通貨を送信できる、お客様の個人アドレスです。",
+        "title": {
+          "choose": "ユーザー名を作成",
+          "claim": "ユーザー名を申請"
+        }
+      },
+      "info": {
+        "description": "ユーザー名により、複雑な 0x アドレスを読みやすい名前に変換できます。{{unitagDomain}} ユーザー名を申請することで、暗号通貨の送信や受け取りが簡単になり、公開 web3 プロフィールを構築できます。",
+        "title": "簡略化されたアドレス"
+      },
+      "profile": {
+        "subtitle": "お客様自身のユニコンをアップロードするか、独自のユニコンを使用してください。これは後でいつでも変更できます。",
+        "title": "プロフィール写真を選択"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "ユーザー名を削除",
+        "edit": "ユーザー名を編集"
+      },
+      "bio": {
+        "label": "プロフィール欄",
+        "placeholder": "プロフィールの自己紹介文を入力"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "ユーザー名に使用できるのは文字と数字のみです",
+        "max": "ユーザー名は {{number}} 文字以下にする必要があります",
+        "min": "ユーザー名は {{number}} 文字以上にする必要があります",
+        "uppercase": "ユーザー名に使用できるのは小文字と数字のみです"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "{{chain}} の {{tokenSymbol}} が十分ではありません"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 はこのネットワークでは利用できません。"
+  },
+  "wallet": {
+    "appSignIn": "アプリでログイン",
+    "connectingAgreement": "ウォレットを接続すると、Uniswap Labs の<termsLink>利用規約</termsLink>に同意し、<privacyLink>プライバシー ポリシー</privacyLink>に同意したことになります。",
+    "connectionFailed": {
+      "message": "接続の試行に失敗しました。[もう一度試す] をクリックし、ウォレットに接続するための手順に従ってください。"
+    },
+    "other": "その他のウォレット",
+    "scanToConnect": "QR コードをスキャンして接続",
+    "wrongNet": "ウォレットが間違ったネットワークに接続されています。"
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "WalletConnect 経由でコードをスキャンしてアプリに接続してください"
+      },
+      "manage": {
+        "empty": {
+          "title": "接続されているアプリはありません"
+        },
+        "title": "接続"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap ウォレットでは、現在 {{chainNames}} をサポートしています。これらのチェーンでは「{{dappName}}」だけを使用してください",
+        "title": "接続エラー"
+      },
+      "general": {
+        "message": "WalletConnect に問題が発生しました。もう一度お試しください",
+        "title": "WalletConnect エラー"
+      },
+      "scantastic": {
+        "message": "QR コードに問題がありました。もう一度お試しください",
+        "title": "無効な QR コード"
+      },
+      "unsupported": {
+        "message": "有効な WalletConnect、イーサリアムアドレス、または Uniswap 拡張機能 QR コードをスキャンできていることを確認してから、もう一度お試しください。",
+        "title": "無効な QR コード"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 のサポートは終了しました。接続しようとしているアプリケーションを WalletConnect v2 にアップグレードする必要があります。",
+        "title": "無効な QR コード"
+      },
+      "uwu": {
+        "scan": "この QR コードのスキャン中に問題が発生しました。",
+        "title": "UwU リンクエラー",
+        "unsupported": "この QR コードはサポートされていません。"
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "接続",
+        "scrollDown": "接続するには下へスクロールしてください"
+      },
+      "switchAccount": "アカウントを切り替える",
+      "title": "{{dappName}} に接続"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "同意なしにアセットを転送する",
+        "viewTokenBalances": "トークン残高を表示する",
+        "viewWalletAddress": "ウォレットアドレスを表示する"
+      },
+      "title": "サイトの権限"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "下へスクロールして署名してください",
+        "sign": "署名"
+      },
+      "details": {
+        "label": {
+          "function": "関数",
+          "sending": "送信中",
+          "token": "トークン",
+          "tokens": "トークン"
+        }
+      },
+      "error": {
+        "insufficientFunds": "このトランザクションを完了するのに十分な {{currencySymbol}} がありません",
+        "network": "インターネットまたはネットワークの接続エラーが発生しました"
+      },
+      "warning": {
+        "general": {
+          "message": "注意：このメッセージによりアセットが転送される可能性があります"
+        },
+        "message": "メッセージまたはトランザクションに署名するには、ウォレットの回復フレーズをインポートする必要があります。",
+        "title": "このウォレットは表示専用モードです"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "{{network}} でトークンを検出して調査します。トッププールを探索します。リアルタイムの価格、トレード量、TVL、チャート、トランザクションデータを表示します。",
+      "title": {
+        "pools": "Uniswap の {{network}} のトッププールを探索",
+        "tokens": "Uniswap の {{network}} のトップトークンを探索",
+        "transactions": "Uniswap の {{network}} のトップトランザクションを探索"
+      }
+    }
+  }
+}

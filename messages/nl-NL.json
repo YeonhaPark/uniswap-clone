@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Claim beloning van {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Er staan back-ups van meerdere seed phrases op je {{cloudProviderName}}.",
+        "title": "Selecteer een back-up om te herstellen"
+      },
+      "button": {
+        "restore": {
+          "android": "Herstellen vanaf Google Drive",
+          "ios": "Herstellen vanaf iCloud"
+        }
+      },
+      "empty": {
+        "description": "Het lijkt erop dat je geen van je seed phrases naar je {{cloudProviderName}} hebt geback-upt.",
+        "title": "0 back-ups gevonden"
+      },
+      "error": {
+        "backup": {
+          "message": "Het importeren van back-ups is mislukt vanwege ontbrekende machtigingen, een onderbreking van authorisatie of door een cloud-fout",
+          "title": "Er is een fout opgetreden tijdens het importeren van de back-ups"
+        },
+        "password": {
+          "title": "Ongeldig wachtwoord. Probeer het opnieuw."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Niet nu",
+            "settings": "Naar instellingen"
+          },
+          "message": {
+            "android": "Controleer of je op dit apparaat bent ingelogd op een Google-account waarop Google Drive is ingeschakeld en probeer het opnieuw.",
+            "ios": "Controleer of je op dit apparaat bent ingelogd met een Apple ID waarop iCloud Drive is ingeschakeld en probeer het opnieuw."
+          },
+          "title": {
+            "android": "Google Drive is niet beschikbaar",
+            "ios": "iCloud Drive is niet beschikbaar"
+          }
+        }
+      },
+      "loading": {
+        "title": "Naar back-ups zoeken..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Te veel pogingen. Probeer het over 1 uur opnieuw.",
+          "hours_other": "Te veel pogingen. Probeer het over {{count}} uur opnieuw.",
+          "minutes_one": "Te veel pogingen. Probeer het over 1 minuut opnieuw.",
+          "minutes_other": "Te veel pogingen. Probeer het over {{count}} minuten opnieuw."
+        }
+      },
+      "password": {
+        "input": "Voer wachtwoord in",
+        "recoveryPhrase": "Voer in plaats daarvan je seed phrase in",
+        "subtitle": "Dit wachtwoord is vereist om de back-up van je seed phrase uit {{cloudProviderName}} te herstellen.",
+        "title": "Voer het back-upwachtwoord in"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Versie: ",
+      "modal": {
+        "body": "Veilig tokens opslaan en swappen met de Uniswap-app. Beschikbaar op iOS en Android.",
+        "dont": "Heb je geen Uniswap-wallet?",
+        "scan": "Met Uniswap-wallet scannen"
+      },
+      "spamToggle": "Onbekende tokens en NFT's verbergen"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Deze bestelling is geannuleerd omdat je saldo lager is dan het ingevoerde bedrag."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Deze bestelling wordt niet vervuld omdat je saldo lager is dat het ingevoerde bedrag. Vul je saldo aan om dit te herstellen."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Een seed phrase is een <highlight>reeks woorden</highlight> die vereist is voor toegang tot je wallet, <highlight>zoals een wachtwoord.</highlight>",
+        "part2": "Je kunt je seed phrase op een nieuw apparaat <highlight>invoeren</highlight> om je <highlight>wallet</highlight> en de inhoud ervan te herstellen.",
+        "part3": "Als je <highlight>je seed phrase kwijtraakt</highlight>, verlies je <highlight>de toegang</highlight> tot je wallet.",
+        "part4": "In plaats van je seed phrase te onthouden, kun je <highlight>een back-up naar {{cloudProviderName}} maken</highlight> en het met een wachtwoord beveiligen.",
+        "part5": "Je kunt ook handmatig een back-up van je seed phrase maken door deze <highlight>op te schrijven </highlight> en op een veilige plek te bewaren.",
+        "part6": "We raden je aan <highlight>beide soorten back-ups</highlight> te gebruiken, want als je je seed phrase kwijtraakt, kun je je wallet niet meer herstellen."
+      },
+      "error": {
+        "invalid": "Ongeldige phrase",
+        "invalidWord": "Ongeldig woord: {{word}}",
+        "phraseLength": "De herstelzin moet 12 tot 24 woorden bevatten",
+        "wrong": "Verkeerde seed phrase"
+      },
+      "helpText": {
+        "import": "Waar vind ik mijn seed phrase?",
+        "restoring": "Waar vind ik mijn seed phrase?"
+      },
+      "input": "Voer je seed phrase in",
+      "remove": {
+        "final": {
+          "description": "Zorg ervoor dat je je seed phrase hebt opgeschreven of er een back-up van hebt gemaakt op {{cloudProviderName}}. <highlight>Als je dit niet doet, heb je mogelijk geen toegang meer tot je geld.</highlight>",
+          "title": "Je verwijdert je <highlight>seed phrase</highlight>"
+        },
+        "import": {
+          "description": "Je kunt slechts één seed phrase tegelijk opslaan. Om door te gaan met het importeren van een nieuwe seed phrase, moet je je huidige seed phrase en de bijbehorende wallets van dit apparaat verwijderen."
+        },
+        "initial": {
+          "description": "Hiermee wordt je wallet samen met je seed phrase van dit apparaat verwijderd.",
+          "title": "Je verwijdert <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Je seed phrase wordt bewaard tot je alle resterende wallets verwijdert."
+        }
+      },
+      "subtitle": {
+        "import": "Je seed phrase wordt alleen lokaal op je apparaat opgeslagen.",
+        "restoring": "Voer je seed phrase hieronder in, of probeer opnieuw naar back-ups te zoeken."
+      },
+      "title": {
+        "import": "Voer je seed phrase in",
+        "restoring": "Er zijn geen back-ups gevonden"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Adres kopiëren",
+        "manageConnections": "Verbindingen beheren",
+        "report": "Profiel rapporteren",
+        "viewExplorer": "In {{blockExplorerName}} bekijken"
+      },
+      "button": {
+        "add": "Wallet toevoegen",
+        "addViewOnly": "Een alleen-lezen wallet toevoegen",
+        "create": "Een nieuwe wallet aanmaken",
+        "import": "Een nieuwe wallet importeren",
+        "manage": "Wallet-instellingen",
+        "remove": "Wallet verwijderen",
+        "restore": "Je wallet herstellen",
+        "watch": "Wallet bekijken"
+      },
+      "create": {
+        "placeholder": "Wallet {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Wallet-label"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Profiel bewerken"
+          },
+          "title": "Label bewerken"
+        },
+        "viewOnly": "Alleen-lezen wallets"
+      },
+      "menu": {
+        "claimUsername": "Gebruikersnaam claimen",
+        "copy": {
+          "title": "Walletadres kopiëren"
+        },
+        "edit": {
+          "title": "Label bewerken"
+        },
+        "manageConnections": "Verbindingen beheren",
+        "remove": {
+          "title": "Wallet verwijderen"
+        }
+      },
+      "remove": {
+        "check": "Ik heb een back-up gemaakt van mijn seed phrase en begrijp dat Uniswap Labs mij niet kan helpen mijn wallets te herstellen als ik dit niet heb gedaan.",
+        "title": "{{name}} verwijderen",
+        "viewOnly": "Je kunt altijd alleen-lezen wallets weer toevoegen door het adres van de wallet in te voeren."
+      },
+      "restore": {
+        "description": "Omdat je inlogt vanaf een nieuw apparaat, moet je je seed phrase herstellen of je wachtwoord voor de back-up in de cloud invullen om verder te kunnen."
+      },
+      "select": {
+        "error": "Kon adressen niet laden",
+        "loading": {
+          "subtitle": "Je wallets verschijnen hieronder.",
+          "title": "Naar wallets zoeken"
+        },
+        "title_one_one": "Eén wallet gevonden",
+        "title_one_other": "Wallets selecteren om te importeren"
+      },
+      "viewOnly": {
+        "button": "Wallet importeren",
+        "description": "Om tokens te swappen, kopen, versturen en ontvangen, moet je de seed phrase van deze wallet invoeren.",
+        "title": "Deze wallet is alleen-lezen"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Dit adres is al geïmporteerd",
+          "notFound": "Kon adres niet vinden",
+          "smartContract": "Adres is een smartcontract"
+        },
+        "message": "Door een alleen-lezen wallet toe te voegen, kun je de app uitproberen of een wallet volgen. Je kunt geen geld swappen of versturen.",
+        "placeholder": "ENS of adres",
+        "title": "Een walletadres invoeren"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} in behandeling",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} van {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} naar {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} voor {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} en {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Aandeel van de pool"
+  },
+  "addressInput": {
+    "recipient": "Ontvanger"
+  },
+  "analytics": {
+    "allow": {
+      "message": "We maken gebruik van geanonimiseerde data om je ervaring met Uniswap Labs-producten te verbeteren."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Niet echte"
+    },
+    "description": "Laat ons weten of je goede ervaringen met deze app hebt",
+    "extension": {
+      "review": {
+        "description": "Kies het aantal sterren en laat een beoordeling achter in de Chrome Web Store.",
+        "title": "Uniswap Extension beoordelen?"
+      },
+      "title": "Bevalt Uniswap Extension je?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Feedback verzenden"
+      },
+      "description": "Laat ons weten hoe we je ervaring kunnen verbeteren",
+      "title": "Vervelend om te horen."
+    },
+    "mobile": {
+      "title": "Bevalt Uniswap Wallet je?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Candlestick",
+    "error": {
+      "pools": "Kon de historische data voor de huidige pool niet weergeven.",
+      "tokens": "Kon de historische data voor het huidige token niet weergeven."
+    },
+    "line": "Lijngrafiek",
+    "missingData": "Ontbrekende grafiekdata",
+    "price": {
+      "label": {
+        "close": "Sluiten",
+        "high": "Hoog",
+        "low": "Laag",
+        "open": "Open"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Deze instelling is niet beschikbaar voor de huidige grafiek"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Bedankt dat je deel uitmaakt van de Uniswap-community <heart />",
+    "uni": {
+      "arrived": "We hebben UNI voor je"
+    }
+  },
+  "common": {
+    "accept": "Accepteren",
+    "activity": "Activiteit",
+    "add": {
+      "label": "Toevoegen",
+      "liquidity": {
+        "cancelled": "Toevoegen van liquiditeit geannuleerd",
+        "failed": "Toevoegen van liquiditeit mislukt"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Toevoegen van V2-liquiditeit geannuleerd",
+          "failed": "Toevoegen van V2-liquiditeit mislukt"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Liquiditeit toegevoegd",
+      "v2": {
+        "liquidity": "V2-liquiditeit toegevoegd"
+      }
+    },
+    "addedLiquidity": "Liquiditeit toegevoegd",
+    "adding": {
+      "liquidity": "Liquiditeit toevoegen",
+      "v2": {
+        "liquidity": "V2-liquiditeit toevoegen"
+      }
+    },
+    "addLiquidity": "Liquiditeit toevoegen",
+    "addressOrENS": "Walletadres of ENS-naam",
+    "advanced": "Geavanceerd",
+    "all": "Alle",
+    "allTime": "Altijd",
+    "and": "en",
+    "app": "App",
+    "approval": {
+      "cancelled": "Goedkeuring geannuleerd",
+      "failed": "Goedkeuring mislukt"
+    },
+    "approve": "Goedkeuren",
+    "approved": "Goedgekeurd",
+    "approvePending": "Goedkeuring in behandeling...",
+    "approveSpend": "Uitgaven in {{symbol}} goedkeuren",
+    "approving": "Bezig met goedkeuren",
+    "areYouSure": "Weet je het zeker?",
+    "automatic": "Automatisch",
+    "availableIn": "Uniswap is beschikbaar in: <locale />",
+    "availableOnIOSAndroid": "Beschikbaar op iOS en Android",
+    "availableOnIOSAndroidChrome": "Beschikbaar op iOS, Android en Chrome",
+    "backToPositions": "Terug naar posities",
+    "blocked": {
+      "ifError": "Als je denkt dat dit een fout is, stuur dan een e-mail met je adres naar <emailAddress />",
+      "reason": "Dit adres is geblokkeerd op de Uniswap Labs-interface omdat het \ngeassocieerd is met één of meer <link>geblokkeerde activiteiten</link>."
+    },
+    "blockedAddress": "Geblokkeerd adres",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Lenen geannuleerd",
+      "failed": "Lenen mislukt"
+    },
+    "borrowed": "Geleend",
+    "borrowing": "Lenen",
+    "bought": "Gekocht",
+    "brandAssets": "Merkassets",
+    "burn": {
+      "cancelled": "Burn geannuleerd",
+      "failed": "Burn mislukt"
+    },
+    "burned": "Verbrand",
+    "burning": "Verbranden",
+    "button": {
+      "accept": "Aanvaarden",
+      "back": "Terug",
+      "buy": "Kopen",
+      "cancel": "Annuleren",
+      "checkin": "Inchecken",
+      "close": "Sluiten",
+      "confirm": "Bevestigen",
+      "connect": "Verbinden",
+      "continue": "Doorgaan",
+      "copied": "Gekopieerd",
+      "copy": "Kopiëren",
+      "create": "Aanmaken",
+      "delete": "Wissen",
+      "disconnect": "Ontkoppelen",
+      "dismiss": "Sluiten",
+      "done": "Gereed",
+      "edit": "Bewerken",
+      "enable": "Inschakelen",
+      "finish": "Voltooien",
+      "goBack": "Ga terug",
+      "later": "Misschien later",
+      "learn": "Meer informatie",
+      "next": "Volgende",
+      "notNow": "Niet nu",
+      "ok": "Oké",
+      "paste": "Plakken",
+      "pay": "Betalen",
+      "proceed": "Doorgaan",
+      "receive": "Ontvangen",
+      "remove": "Verwijderen",
+      "reset": "Resetten",
+      "retry": "Opnieuw proberen",
+      "reveal": "Onthullen",
+      "review": "Beoordelen",
+      "save": "Opslaan",
+      "scrollDown": "Naar beneden scrollen",
+      "sell": "Verkopen",
+      "send": "Verzenden",
+      "setup": "Instellen",
+      "share": "Delen",
+      "showLess": "Minder weergeven",
+      "showMore": "Meer weergeven",
+      "sign": "Ondertekenen",
+      "skip": "Overslaan",
+      "swap": "Swappen",
+      "tryAgain": "Probeer het opnieuw",
+      "understand": "Ik begrijp het",
+      "unlock": "Ontgrendelen",
+      "view": "Bekijken",
+      "viewDetails": "Details bekijken",
+      "yes": "Ja"
+    },
+    "buy": {
+      "cancelled": "Aankoop geannuleerd",
+      "failed": "Aankoop mislukt",
+      "label": "Kopen"
+    },
+    "buyAndSell": "Op Uniswap kopen en verkopen",
+    "buying": "Kopen",
+    "by": "Door",
+    "cancel": {
+      "failed": "Annuleren mislukt"
+    },
+    "cancellation": {
+      "cancelled": "Annulering geannuleerd"
+    },
+    "cancellationSubmitted": "Annulering verstuurd",
+    "cancellationSuccessful": "Annulering voltooid",
+    "cancelled": "Geannuleerd",
+    "cancelling": "Annuleren",
+    "cancelOrder": "Bestelling annuleren",
+    "card": {
+      "error": {
+        "description": "Er is iets fout gegaan",
+        "title": "Oeps! Er is iets fout gegaan."
+      }
+    },
+    "careers": "Werken bij",
+    "chart": "Grafiek",
+    "checkNetwork": "Controleer de netwerkstatus <link>hier.</link>",
+    "chromeExtension": "Extensie",
+    "claim": {
+      "cancelled": "Claim geannuleerd",
+      "failed": "Claim mislukt"
+    },
+    "claimed": "Geclaimd",
+    "claiming": "Claimen",
+    "claimUnis": "Claim je UNI-tokens",
+    "clear": "Wissen",
+    "close": "Sluiten",
+    "closed": "Gesloten",
+    "collect": {
+      "button": "Innen",
+      "fees": {
+        "cancelled": "Het innen van vergoedingen is geannuleerd",
+        "failed": "Het innen van vergoedingen is mislukt"
+      }
+    },
+    "collected": {
+      "fees": "Geïnde vergoedingen"
+    },
+    "collecting": {
+      "fees": "Vergoedingen innen"
+    },
+    "company": "Bedrijf",
+    "confirm": "Bevestigen",
+    "confirmCancellation": "Annulering bevestigen",
+    "confirmSend": {
+      "button": "Bevestig het verzenden"
+    },
+    "confirmSwap": "Swap in de wallet bevestigen",
+    "confirmTimedOut": "De bevestigingstijd is verlopen. Probeer het opnieuw.",
+    "confirmWallet": "In de wallet bevestigen",
+    "connect": {
+      "button": "Verbinden"
+    },
+    "connectAWallet": {
+      "button": "Een wallet koppelen"
+    },
+    "connectWallet": {
+      "button": "Wallet koppelen"
+    },
+    "contactUs": {
+      "button": "Neem contact met ons op"
+    },
+    "contractInteraction": "Contractinteractie",
+    "copied": "Gekopieerd",
+    "copy": {
+      "address": "Adres kopiëren"
+    },
+    "copyLink": {
+      "button": "Link kopiëren"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Aanmaken van de pool geannuleerd",
+        "failed": "Aanmaken van de pool mislukt"
+      }
+    },
+    "created": {
+      "date": "Gemaakt op {{date}}",
+      "pool": "De pool is aangemaakt"
+    },
+    "creating": {
+      "pool": "Bezig pool aan te maken"
+    },
+    "currency": "Valuta",
+    "custom": "Aangepast",
+    "customRange": "Aangepast bereik",
+    "dataOutdated": "De data zijn mogelijk verouderd",
+    "default": "Standaard",
+    "defaultTradeOptions": "Standaard handelsopties",
+    "delegate": {
+      "cancelled": "Delegeren geannuleerd",
+      "failed": "Delegeren mislukt"
+    },
+    "delegated": "Gedelegeerd",
+    "delegating": "Delegeren",
+    "deploy": {
+      "cancelled": "Inzetten geannuleerd",
+      "failed": "Inzetten mislukt"
+    },
+    "deployed": "Ingezet",
+    "deploying": "Inzetten",
+    "deposit": {
+      "cancelled": "Storting geannuleerd",
+      "failed": "Storting mislukt",
+      "toNetwork": "Stort tokens naar het {{label}}-netwerk."
+    },
+    "deposited": "Gestort",
+    "depositing": "Storten",
+    "depositTokens": "Tokens storten",
+    "detected": "Gedetecteerd",
+    "developers": "Ontwikkelaars",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "Sluiten",
+    "displaySettings": "Instellingen weergeven",
+    "dnsRegistrar": "DNS-registrar",
+    "donate": "Doneren",
+    "done": "Gereed",
+    "dontShowAgain": "Dit niet meer weergeven",
+    "download": "Downloaden",
+    "downloadAppStore": "In de App Store downloaden",
+    "downloadPlayStore": "In de Play Store downloaden",
+    "downloadUniswap": "Uniswap downloaden",
+    "downloadUniswapApp": "De Uniswap-app downloaden",
+    "dynamic": "Dynamisch",
+    "edit": {
+      "button": "Bewerken"
+    },
+    "error": {
+      "details": "Foutgegevens",
+      "general": "Er is iets fout gegaan",
+      "label": "Fout",
+      "request": "Sorry, er is tijdens het verwerken van je verzoek iets fout gegaan. Als je ondersteuning aanvraagt, zorg er dan voor dat je de details van deze fout aangeeft.",
+      "somethingWrong": "Er is iets fout gegaan!",
+      "wrong": {
+        "tryAgain": "Er is iets fout gegaan. Probeer het opnieuw."
+      }
+    },
+    "errorConnecting": {
+      "error": "Fout bij het verbinden"
+    },
+    "errorLoadingData": {
+      "error": "Er is een fout opgetreden bij het laden van de data"
+    },
+    "ethereumNameService": "Ethereum Name Service",
+    "etherscan": {
+      "link": "Op Etherscan bekijken"
+    },
+    "ethRegistrarController": "ETH Registrar Controller",
+    "execute": {
+      "cancelled": "Uitvoeren geannuleerd",
+      "failed": "Uitvoeren mislukt"
+    },
+    "executed": "Uitgevoerd",
+    "executing": "Uitvoeren",
+    "expired": "Verlopen",
+    "expiry": "Verloopdatum",
+    "explore": "Verkennen",
+    "explorer": "Verkenner",
+    "exploreTokens": "Tokens verkennen",
+    "extension": "Uniswap Extension",
+    "failed": {
+      "error": "Mislukt"
+    },
+    "failedSwitchNetwork": "Kon niet schakelen tussen netwerken",
+    "fee": "Vergoeding",
+    "fees": "Vergoedingen",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Bezig route op te halen",
+    "floor": "Bodem",
+    "floorPrice": "Bodemprijs",
+    "for": "Voor",
+    "fullRange": "Volledig bereik",
+    "getApp": "Download de app",
+    "getHelp": {
+      "button": "Neem contact op voor hulp"
+    },
+    "getStarted": "Aan de slag",
+    "getSupport": {
+      "button": "Neem contact op voor support"
+    },
+    "getTheApp": "Download de app",
+    "getUniswapWallet": "Aanmelden voor Uniswap Wallet",
+    "governance": "Bestuur",
+    "happyHolidays": "Fijne feestdagen namens het Uniswap-team!",
+    "helpCenter": "Hulpcentrum",
+    "hidden": "Verborgen",
+    "hide": {
+      "button": "Verbergen"
+    },
+    "highPrice": "Hoge prijs",
+    "includes": "Bevat",
+    "info": {
+      "label": "Informatie"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Selecteer ontvanger"
+      },
+      "password": {
+        "confirm": "Bevestig wachtwoord",
+        "error": {
+          "mismatch": "Wachtwoorden komen niet overeen",
+          "weak": "Dit wachtwoord is te zwak"
+        },
+        "new": "Nieuw wachtwoord",
+        "placeholder": "Wachtwoord",
+        "strength": {
+          "medium": "Gemiddeld sterk",
+          "strong": "Sterk",
+          "weak": "Zwak"
+        }
+      },
+      "search": "Zoeken"
+    },
+    "insufficient": {
+      "funds": "Onvoldoende geld"
+    },
+    "insufficientBalance": {
+      "error": "Onvoldoende saldo"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Er is onvoldoende geld om de netwerkkosten te dekken"
+    },
+    "insufficientLiquidity": "Onvoldoende liquiditeit",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Onvoldoende {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Ongeldig paar",
+    "invalidRecipient": {
+      "error": "Ongeldige ontvanger"
+    },
+    "iOSAndroid": "iOS en Android",
+    "language": "Taal",
+    "lastPrice": "Laatste prijs",
+    "learnMoreSwap": "Meer informatie over swappen",
+    "legalAndPrivacy": "Juridisch en privacy",
+    "less": "Minder",
+    "limit": {
+      "cancel_one": "Limiet annuleren",
+      "cancel_other": "{{count}} limieten annuleren",
+      "cancelled": "Limiet geannuleerd",
+      "executed": "Limiet uitgevoerd",
+      "expired": "Limiet verlopen",
+      "failed": "Limiet mislukt",
+      "opened": "Limiet geopend",
+      "pending": "Limiet in behandeling"
+    },
+    "limits": {
+      "approachMax": "Het maximum limiet van 100 nadert",
+      "cancelProceed": "Annuleer limieten om verder te gaan",
+      "expires": "Verloopt om {{timestamp}}",
+      "open": "Limieten openen",
+      "when": "wanneer {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Links",
+    "liquidity": {
+      "removed": "Liquiditeit verwijderd"
+    },
+    "loading": "Bezig met laden",
+    "loadingAllowance": "Toegestane bedrag wordt geladen",
+    "loadMore": "Meer laden",
+    "longText": {
+      "button": {
+        "less": "Minder lezen",
+        "more": "Meer lezen"
+      }
+    },
+    "lowPrice": "Lage prijs",
+    "manage": "Beheren",
+    "market": {
+      "label": "Markt"
+    },
+    "marketPrice": {
+      "fetching": "Marktprijs ophalen...",
+      "label": "Marktprijs:",
+      "unavailable": "Marktprijs niet gevonden. Doe je eigen onderzoek om te voorkomen dat je geld verliest."
+    },
+    "max": "Maximum",
+    "message": "Bericht sturen",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Migreren van de liquiditeit is geannuleerd",
+        "failed": "Migreren van de liquiditeit is mislukt"
+      },
+      "position": "Positie migreren",
+      "v3": "Migreren naar v3"
+    },
+    "migrated": {
+      "liquidity": "Gemigreerde liquiditeit"
+    },
+    "migrating": {
+      "liquidity": "Liquiditeit migreren"
+    },
+    "min": "Minimum",
+    "mint": {
+      "cancelled": "Minten geannuleerd",
+      "failed": "Minten mislukt"
+    },
+    "minted": "Gemint",
+    "minting": "Bezig met minten",
+    "mobile": "Mobiel",
+    "more": "Meer",
+    "multiDevice": "Meerdere apparaten",
+    "navigation": {
+      "settings": "Instellingen",
+      "systemSettings": "Instellingen"
+    },
+    "navigationButton": "Navigatieknop",
+    "needHelp": "Heb je hulp nodig?",
+    "networkCost": "Netwerkkosten",
+    "neverMind": "Laat maar zitten",
+    "new": {
+      "exclamation": "Nieuw"
+    },
+    "nft": "NFT",
+    "nfts": "NFT's",
+    "noActivity": "Nog geen activiteit",
+    "noAmount": {
+      "error": "Een bedrag invoeren"
+    },
+    "noData": "Geen data",
+    "noResults": "Er zijn geen resultaten gevonden.",
+    "notAvailableInRegion": {
+      "error": "Niet beschikbaar in je regio"
+    },
+    "notCreated": {
+      "label": "Niet aangemaakt"
+    },
+    "notSupported": "Niet ondersteund",
+    "oneDay": {
+      "short": "1d"
+    },
+    "oneHour": {
+      "short": "1u"
+    },
+    "oneMonth": "1 maand",
+    "oneWeek": "1 week",
+    "oneYear": "1 jaar",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "Bestelling geannuleerd",
+    "orderExecuted": "Bestelling uitgevoerd",
+    "orderExpired": "Bestelling verlopen",
+    "orderPending": "Bestelling in behandeling",
+    "outOfRange": "Buiten bereik",
+    "pageNotFound": "Kon de pagina niet vinden.",
+    "passkey": {
+      "count": "Code {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "Afgelopen dag",
+    "pastFiveMinutes": "Afgelopen 5 minuten",
+    "pastHour": "Afgelopen uur",
+    "pastMonth": "Afgelopen maand",
+    "pastWeek": "Afgelopen week",
+    "pastYear": "Afgelopen jaar",
+    "pay": {
+      "button": "Betalen"
+    },
+    "pending": {
+      "cancellation": "In afwachting van annulering"
+    },
+    "pendingEllipsis": "In behandeling...",
+    "permit2": "Permit2",
+    "pool": "Pool",
+    "pools": "Pools",
+    "poweredBy": "Mogelijk gemaakt door <name />",
+    "price": "Prijs",
+    "priceImpact": "Waarschuwing voor prijsimpact",
+    "priceUpdated": "Prijs bijgewerkt",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Als je dit aanvinkt, delen we je gegevens niet met externe partners voor gepersonaliseerde advertenties. Je kunt delen op elk moment toestaan door dit vakje uit te vinken.",
+        "label": "Mijn gegevens niet delen"
+      },
+      "description": "Wij kunnen apparaat-ID's met onze advertentiepartners delen om onze diensten op andere websites en platformen te promoten. In gevallen waar dit volgens de toepasselijke wetgeving wordt beschouwd als het verkopen, delen of gericht adverteren, kun je je hiervoor afmelden door het vakje Mijn gegevens niet delen aan te vinken. Raadpleeg ons <privacyLink>privacybeleid</privacyLink> voor meer informatie over onze privacypraktijken.",
+      "disclaimer": "Houd er rekening mee dat je selectie alleen in deze browser op dit apparaat van toepassing is. Je kunt je ook afmelden voor het delen van je gegevens door de instelling Global Privacy Control in te schakelen voor de browser die je gebruikt om toegang te krijgen tot onze diensten. Ga naar je instellingen om meer opties te bekijken."
+    },
+    "privacyPolicy": "Privacybeleid",
+    "proceed": "Ga verder",
+    "proceedInWallet": {
+      "short": "Verdergaan in wallet"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Openbare oplosser",
+    "purchased": "Aangekocht",
+    "queue": {
+      "cancelled": "Wachtrij geannuleerd",
+      "failed": "Wachtrij mislukt"
+    },
+    "queued": "In de wachtrij",
+    "queuing": "In wachtrij zetten",
+    "rate": "Tarief",
+    "readMore": "Meer lezen",
+    "receive": {
+      "cancelled": "Ontvangen geannuleerd",
+      "failed": "Ontvangen mislukt"
+    },
+    "received": "Ontvangen",
+    "receiving": "Ontvangen",
+    "recent": "Recent",
+    "rejected": "Afgewezen",
+    "reload": {
+      "label": "De app opnieuw laden"
+    },
+    "remove": {
+      "label": "Verwijderen",
+      "liquidity": {
+        "cancelled": "Verwijderen van liquiditeit geannuleerd",
+        "failed": "Verwijderen van liquiditeit mislukt"
+      }
+    },
+    "removedLiquidity": "Liquiditeit verwijderen",
+    "removeItem": "Item verwijderen",
+    "removing": {
+      "liquidity": "Bezig de liquiditeit te verwijderen"
+    },
+    "repaid": "Terugbetaald",
+    "repay": {
+      "cancelled": "Terugbetaling geannuleerd",
+      "failed": "Terugbetaling mislukt"
+    },
+    "repaying": "Terugbetalen",
+    "resetLimit": "Limiet van {{symbol}} resetten",
+    "resetLimitWallet": "Limiet van {{symbol}} in wallet resetten",
+    "resettingLimit": "Bezig de limiet van {{symbol}} te resetten...",
+    "resolveIssues_one": "Probleem oplossen",
+    "resolveIssues_other": "{{count}} problemen oplossen",
+    "restricted": {
+      "region": "Beperkt gebied"
+    },
+    "reverseRegistrar": "Omgekeerde registrar",
+    "revoke": {
+      "approval": {
+        "failed": "Herroepen van goedkeuring mislukt"
+      }
+    },
+    "revoked": {
+      "approval": "Herroepen goedkeuring"
+    },
+    "revokedApproval": "Herroepen goedkeuring",
+    "revoking": {
+      "approval": "Goedkeuring herroepen"
+    },
+    "samePrice": "Zelfde prijs",
+    "scanQRDownload": "Scan de QR-code met je telefoon om te downloaden",
+    "selectRegion": {
+      "label": "Selecteer je regio"
+    },
+    "selectToken": {
+      "label": "Selecteer een token"
+    },
+    "selfCustodial": "Self-custodial",
+    "sell": {
+      "label": "Verkopen"
+    },
+    "send": {
+      "button": "Versturen",
+      "cancelled": "Versturen geannuleerd",
+      "failed": "Versturen mislukt"
+    },
+    "sending": "Bezig met versturen",
+    "sent": "Versturen",
+    "settings": "Instellingen",
+    "share": {
+      "shareToTwitter": "Op Twitter delen",
+      "twitter": "Op Twitter delen"
+    },
+    "show": {
+      "button": "Weergeven"
+    },
+    "showLess": {
+      "button": "Minder weergeven"
+    },
+    "showMore": {
+      "button": "Meer weergeven"
+    },
+    "signatureExpired": "Je handtekening is verlopen.",
+    "signMessage": "Het bericht ondertekenen",
+    "signMessageWallet": "Bericht in de wallet ondertekenen",
+    "sold": "Verkocht",
+    "stats": "Statistieken",
+    "status": "Status",
+    "stayConnected": "Blijf verbonden",
+    "step": {
+      "number": "Stap {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Voorstel sturen geannuleerd",
+        "failed": "Voorstel sturen mislukt"
+      }
+    },
+    "submitted": {
+      "proposal": "Voorstel verstuurd"
+    },
+    "submitting": {
+      "proposal": "Voorstel sturen"
+    },
+    "swap": {
+      "cancelled": "Swap geannuleerd",
+      "expired": "Swap verlopen",
+      "failed": "Swap mislukt"
+    },
+    "swapped": "Geswapt",
+    "swapPending": "Swap in behandeling...",
+    "swapping": "Swappen",
+    "switchNetworks": "Tussen netwerken schakelen",
+    "termsOfService": "Servicevoorwaarden",
+    "text": {
+      "connected": "Verbonden",
+      "contract": "Contract",
+      "disconnected": "Verbinding verbroken",
+      "error": "Fout",
+      "notAvailable": "N.v.t.",
+      "recipient": "Aan",
+      "sender": "Van",
+      "unknown": "Onbekend"
+    },
+    "thisMonth": "Deze maand",
+    "thisToken": "Dit token",
+    "thisWeek": "Deze week",
+    "thisYear": "Dit jaar",
+    "time": {
+      "days": "dagen",
+      "days_one": "dag",
+      "days_other": "dagen",
+      "hours": "uur",
+      "hours_one": "uur",
+      "hours_other": "uren",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minuten",
+      "months": "maanden",
+      "months_one": "maand",
+      "months_other": "maanden",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}u"
+        },
+        "minutes": {
+          "short": "{{minutes}}min"
+        },
+        "months": {
+          "short": "{{months}}mnd"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "weken",
+      "weeks_one": "week",
+      "weeks_other": "weken"
+    },
+    "to": "aan",
+    "today": "Vandaag",
+    "tokenA": "Token A",
+    "tokenAmount": "Tokenbedrag",
+    "tokenB": "Token B",
+    "tokenName": "Tokennaam",
+    "tokens": "Tokens",
+    "totalUniswapTVL": "Totale TVL van Uniswap",
+    "totalValueLocked": "Totaal waarde vergrendeld (TVL)",
+    "trade": "Handel",
+    "trademarkPolicy": "Handelsmerkbeleid",
+    "transactionDetails": "Transactiedetails",
+    "transactionId": "Transactie-ID",
+    "transactionPending": "Transactie in behandeling",
+    "transactions": "Transacties",
+    "transactionSettings": "Transactie-instellingen",
+    "transfer_one": "overboeking",
+    "transfer_other": "overboekingen",
+    "tryAgain": {
+      "error": "Probeer het opnieuw"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Type"
+    },
+    "unavailable": "Niet beschikbaar",
+    "unhide": "Zichtbaar maken",
+    "uniGovernance": "UNI Governance",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Uniswap Protocol",
+    "uniswapWallet": "Uniswap-wallet",
+    "uniswapX": "UniswapX",
+    "unknown": "Onbekend",
+    "unknownApproval": "Onbekende goedkeuring",
+    "unknownBridge": "Onbekende bridge",
+    "unknownError": {
+      "error": "Onbekende fout"
+    },
+    "unknownLend": "Onbekende lening",
+    "unknownMint": "Onbekende mint",
+    "unknownSend": "Onbekende versturing",
+    "unknownSwap": "Onbekende swap",
+    "unsupportedAsset_one": "Niet-ondersteund asset",
+    "unsupportedAsset_other": "Niet-ondersteunde assets",
+    "unwrap": {
+      "button": "Unwrappen",
+      "failed": "Unwrappen mislukt"
+    },
+    "unwrapped": "Uitgepakt",
+    "unwrapping": "Bezig met unwrappen",
+    "view": {
+      "profile": "Houd er rekening mee dat je selectie alleen op deze browser op dit apparaat van toepassing is. Je kunt je ook afmelden voor het delen van je gegevens door de instelling Global Privacy Control in te schakelen voor de browser die je gebruikt om toegang te krijgen tot onze diensten. Ga naar je instellingen om meer opties te bekijken."
+    },
+    "viewOnExplorer": "In verkenner bekijken",
+    "volume": "Volume",
+    "vote": {
+      "cancelled": "Stem geannuleerd",
+      "failed": "Stem mislukt"
+    },
+    "voted": "Gestemd",
+    "voting": "Stemmen",
+    "wallet": {
+      "approve": "Goedkeuren in wallet",
+      "label": "Wallet"
+    },
+    "walletForSwapping": "De wallet gemaakt om te swappen. Beschikbaar op iOS en Android.",
+    "warning": "Waarschuwing",
+    "webApp": "Web-app",
+    "website": "Website",
+    "whyApprove": "Waarom moet ik een token goedkeuren?",
+    "whySign": "Waarom zijn handtekenigen vereist?",
+    "whyWrap": "Waarom moet ik mijn {{symbol}} wrappen?",
+    "withdraw": {
+      "failed": "Opnemen mislukt"
+    },
+    "withdrawal": {
+      "amount": "Opnamebedrag",
+      "cancelled": "Opname geannuleerd"
+    },
+    "withdrawing": "Opnemen",
+    "withdrew": "Opgenomen",
+    "withinRange": "Binnen bereik",
+    "wrap": {
+      "cancelled": "Wrappen geannuleerd",
+      "failed": "Wrappen mislukt"
+    },
+    "wrapIn": "{{symbol}} in wallet wrappen",
+    "wrapped": "Gewrapt",
+    "wrapping": "Bezig met wrappen",
+    "wrappingToken": "Bezig het {{symbol}} wrappen...",
+    "wrongNetwork": "Verkeerd netwerk",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Je account had onvoldoende saldo om deze swap te doen."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Je account heeft onvoldoende saldo om deze swap te doen."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Je limiet kon op dit moment niet worden bereikt. Probeer het opnieuw."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Je swap kon op dit moment niet worden uitgevoerd. Probeer het opnieuw."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Je koopt",
+    "youRecieve": "Je ontvangt",
+    "youreSending": "Je verstuurt"
+  },
+  "currency": {
+    "aud": "Australische dollar",
+    "brl": "Braziliaanse real",
+    "cad": "Canadese dollar",
+    "cny": "Chinese yuan",
+    "eur": "Euro",
+    "gbp": "Britse pond",
+    "hkd": "Hongkongse dollar",
+    "idr": "Indonesische rupiah",
+    "inr": "Indiase roepie",
+    "jpy": "Japanse yen",
+    "krw": "Zuid-Koreaanse won",
+    "ngn": "Nigeriaanse naira",
+    "pkr": "Pakistaanse roepie",
+    "rub": "Russische roebel",
+    "sgd": "Singaporese dollar",
+    "thb": "Thaise baht",
+    "try": "Turkse lira",
+    "uah": "Oekraïense hryvnia",
+    "usd": "Amerikaanse dollar",
+    "vnd": "Vietnamese dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Goedkeuren",
+        "fallbackTitle": "Deze site goedkeuren voor toegang tot tokens",
+        "helptext": "Sta deze site toe om toegang te krijgen tot en deze token te gebruiken voor transacties. Zorg ervoor dat je deze site vertrouwt.",
+        "label": "Wallet",
+        "title": "Toegang tot {{tokenSymbol}} goedkeuren"
+      },
+      "base": {
+        "title": "Transactieverzoek"
+      },
+      "bridge": {
+        "description": "Verplaats ETH, USDC en meer over {{numChains}}+ netwerken.",
+        "title": "Probeer je te bridgen?"
+      },
+      "connect": {
+        "helptext": "Sta deze site toe om je walletadres en saldo te bekijken en goedkeuringen voor transacties aan te vragen.",
+        "title": "Verbinden met site"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Ruwe data"
+        },
+        "function": {
+          "label": "Functie"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 beheert tokengoedkeuringen voor meerdere dapps.",
+        "header": "Permit2 ondertekenen"
+      },
+      "reject": {
+        "action": "Alles afwijzen",
+        "info": "Je hebt <highlight>{{totalRequestCount}}</highlight> transactieverzoeken"
+      },
+      "revoke": {
+        "action": "Herroepen",
+        "helptext": "Sta deze site toe om toegang in te trekken voor het besteden van deze token voor transacties. Zorg ervoor dat je deze site vertrouwt.",
+        "title": "Toegang tot {{tokenSymbol}} herroepen"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Dit bericht bevat niet-weergeefbare tekens. Zorg ervoor dat je deze site vertrouwt.",
+        "decodeError": "Het bericht kon niet gedecodeerd worden",
+        "header": "Handtekeningverzoek",
+        "irregular": {
+          "description": "Controleer of je deze site vertrouwt voordat je verder gaat",
+          "understand": "Ik begrijp de risico's"
+        },
+        "toggleDataView": {
+          "raw": "Ruwe data bekijken",
+          "readable": "Originele data bekijken"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Zorg ervoor dat het de juiste is",
+          "title": "Dit is niet je actieve wallet"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Meld je hier aan"
+      },
+      "getStarted": {
+        "description": "Begin met het downloaden van de Uniswap Wallet, beschikbaar op je telefoon of browser.",
+        "title": "Aan de slag met Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Begin binnen een oogwenk door je aan te melden of onze wallet op je telefoon of browser te downloaden."
+        },
+        "title": "Meld je aan bij Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap-producten werken naadloos samen om de beste onchain-ervaring te creëren."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Dit geeft het Uniswap Protocol toegang tot je token voor handel. Om veiligheidsredenen vervalt het na 30 dagen."
+    },
+    "dataUnavailable": "Gegevens zijn momenteel niet beschikbaar; we werken aan een oplossing",
+    "id": "Fout-ID: {{eventId}}",
+    "noData": "Geen data gevonden",
+    "request": {
+      "provideId": "Sorry, er is een fout opgetreden tijdens het verwerken van je verzoek. Als je om ondersteuning vraagt, zorg er dan voor dat je je fout-ID opgeeft."
+    },
+    "tokenApproval": "De tokengoedkeuring is mislukt",
+    "tokenApprovalEdited": {
+      "message": "Het goedkeuringsbedrag in je wallet is te laag om deze transactie te voltooien. Probeer het opnieuw en verhoog het bedrag."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Er is iets gecrasht.",
+      "restart": "Start de app opnieuw",
+      "title": "Oh, oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Meer pools verkennen"
+    },
+    "search": {
+      "action": {
+        "clear": "Duidelijk",
+        "viewEtherscan": "In {{blockExplorerName}} bekijken"
+      },
+      "empty": {
+        "full": "Geen resultaten voor <highlight>\"{{searchQuery}}\"</highlight> gevonden"
+      },
+      "error": "Kon de resultaten niet laden",
+      "label": {
+        "ownedBy": "Eigendom van {{ownerAddress}}"
+      },
+      "placeholder": "Zoek naar tokens en wallets",
+      "section": {
+        "nft": "NFT-collecties",
+        "popularNFT": "Populaire NFT-collecties",
+        "popularTokenInfo": "Populaire tokens worden geïdentificeerd op basis van hun handelsvolume op Uniswap gedurende de afgelopen 24 uur.",
+        "popularTokens": "Populaire tokens",
+        "recent": "Recente zoekopdrachten",
+        "tokens": "Tokens",
+        "wallets": "Wallets"
+      }
+    },
+    "tokens": {
+      "error": "Kon geen tokens laden",
+      "favorite": {
+        "action": {
+          "add": "Favoriete token",
+          "edit": "Favorieten bewerken",
+          "remove": "Favoriet verwijderen"
+        },
+        "title": {
+          "default": "Favoriete tokens",
+          "edit": "Favoriete tokens bewerken"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} totale waarde vergrendeld",
+        "volume": "{{number}} volume"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Market cap",
+          "priceDecrease": "Prijsdaling",
+          "priceIncrease": "Prijsverhoging",
+          "totalValueLocked": "Totale waarde vergrendeld (TVL)",
+          "volume": "Volume"
+        },
+        "option": {
+          "marketCap": "Market cap",
+          "priceDecrease": "Prijsdaling (24 uur)",
+          "priceIncrease": "Prijsstijging (24 uur)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Volume Uniswap (24 uur)"
+        }
+      },
+      "top": {
+        "title": "Toptokens"
+      }
+    },
+    "v2TVL": "TVL in v2",
+    "v3TVL": "TVL in v3",
+    "v4TVL": "TVL in v4",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Favoriete wallet",
+          "edit": "Favorieten bewerken",
+          "remove": "Favoriet verwijderen"
+        },
+        "title": {
+          "default": "Favoriete wallets",
+          "edit": "Favoriete wallets bewerken"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Netwerk",
+      "networks": "Netwerken",
+      "popup": {
+        "trouble": "Heb je problemen met koppelen?"
+      },
+      "titleConnected": "Gekoppeld",
+      "titleNotConnected": "Niet gekoppeld"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Wachtwoord vergeten?",
+        "reset": "Wallet resetten",
+        "submit": "Ontgrendelen"
+      },
+      "password": {
+        "error": "Verkeerd wachtwoord. Probeer het opnieuw",
+        "reset": {
+          "initial": {
+            "description": "Uniswap kan je niet helpen je wachtwoord te herstellen. Je moet je wallet opnieuw instellen door je herstelzin van 12 woorden opnieuw in te voeren.",
+            "help": "Waar vind ik mijn herstelzin?",
+            "title": "Wachtwoord vergeten"
+          },
+          "speedbump": {
+            "description": "Zorg ervoor dat je je herstelzin van 12 woorden bij de hand hebt voordat je je wallet reset, anders kun je je geld niet terugkrijgen.",
+            "help": "Ik ben mijn herstelzin kwijtgeraakt",
+            "title": "Voordat je verdergaat"
+          }
+        }
+      },
+      "subtitle": "Voer je wachtwoord in om te ontgrendelen",
+      "title": "Welkom terug"
+    },
+    "network": {
+      "notSupported": "Niet-ondersteund netwerk"
+    },
+    "open": "Uniswap Extension openen",
+    "popup": {
+      "chrome": {
+        "button": "Extensie openen",
+        "description": "Voltooi deze actie door Uniswap Extension te openen.",
+        "title": "Doorgaan in Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Uniswap Extension prioriteit geven bij verbinden met apps.",
+        "title": "Standaardwallet maken"
+      },
+      "password": {
+        "enter": {
+          "title": "Voer je huidige wachtwoord in"
+        },
+        "error": {
+          "wrong": "Verkeerd wachtwoord"
+        },
+        "placeholder": "Huidig wachtwoord"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Back-up",
+        "message": "Zorg ervoor dat je een back-up van je herstelzin maakt om te voorkomen dat je de toegang tot je wallet en geld verliest.",
+        "title": "Je browser heeft bijna geen opslagruimte meer"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "Het beste voor exotische paren.",
+    "bestForMost": "Het beste voor de meeste paren.",
+    "bestForStablePairs": "Het beste voor stabiele paren.",
+    "bestForVeryStable": "Het beste voor zeer stabiele paren.",
+    "dynamic": "Dynamische transactiekosten",
+    "percentEarned": "Het percentage dat je aan vergoedingen verdient.",
+    "selectPercent": "{{pct}}% selecteren",
+    "selectPercentDescription": "{{pct}}% van de liquiditeit koos dit niveau",
+    "tier": {
+      "create": {
+        "button": "Nieuw vergoedingsniveau aanmaken",
+        "description": "Als je een nieuw niveau aanmaakt, wordt deze in een nieuwe pool geïnitialiseerd. Dit leidt tot hogere netwerkkosten dan normaal."
+      },
+      "description": {
+        "v2": "Het bedrag dat je verdient door liquiditeit te verstrekken. Alle v2-pools hebben vaste kosten van 0,3%. Voor meer opties kun je liquiditeit verstrekken op v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Je staat op het punt een pool aan te maken met een dynamisch kostenniveau. Controleer voordat je doorgaat of de gekozen hook dynamische kosten ondersteunt."
+        }
+      },
+      "highestTvl": "Hoogste TVL",
+      "label": "Het percentage dat je aan vergoedingen zult verdienen",
+      "missing": {
+        "description": "Kun je het niveau dat je zoekt niet vinden?"
+      },
+      "new": "Nieuw niveau",
+      "percent": {
+        "select": "{{percentage}} selecteren"
+      },
+      "recommended": {
+        "description": "Aanbevolen op basis van het hoogste aandeel liquiditeit voor het geselecteerde torenpaar."
+      },
+      "search": {
+        "short": "Niveaus zoeken"
+      },
+      "select": {
+        "existing": {
+          "button": "Een bestaand vergoedingsniveau selecteren"
+        }
+      }
+    },
+    "tierExact": "{{fee}} vergoedingsniveau",
+    "unavailable": "Verdiende vergoedingen zijn voor v2-posities pas zichtbaar nadat de liquiditeit is verwijderd.",
+    "uncollected": "Inclusief ongeïnde transactiekosten:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Verkopen met"
+    },
+    "connection": {
+      "quote": "{{amount}} ter waarde van {{currencySymbol}} verkopen"
+    },
+    "error": {
+      "balance": "Overschrijdt saldo"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} voor {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Ga terug",
+      "divider": "Niet-ondersteunde tokens",
+      "message": "Deze token wordt niet ondersteund om te verkopen. Swap deze asset naar een van de ondersteunde tokens.",
+      "swap": "Swap naar een ondersteunde token",
+      "title": "Niet-ondersteunde token"
+    },
+    "welcome": {
+      "tooltip": "Verkoop je crypto via je bankrekening of met je betaalpas."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Token kiezen"
+    },
+    "cexTransferModal": {
+      "description": "Crypto kopen met een betaalpas wordt niet ondersteund in jouw regio. Stort tegoeden vanuit een gecentraliseerde exchange-account om je wallet te financieren.",
+      "title": "Overboeken om te beginnen"
+    },
+    "checkout": {
+      "title": "Afrekenen met"
+    },
+    "checkoutWith": "Afrekenen met",
+    "chooseProvider": {
+      "description": "Je gaat verder naar het portaal van de aanbieder om de kosten te bekijken die aan je transactie verbonden zijn."
+    },
+    "completeTransactionHeader": "Transactie met {{serviceProvider}} voltooien",
+    "connection": {
+      "error": "De verbinding is mislukt",
+      "errorDescription": "Er is iets misgegaan bij het verbinden met {{serviceProvider}}.",
+      "message": "Je wordt met {{serviceProvider}} verbonden",
+      "quote": "Kopen van {{amount}} ter waarde van {{currencySymbol}}",
+      "terms": "Als je doorgaat, erken je dat je onderworpen bent aan de Servicevoorwaarden en het Privacybeleid van {{serviceProvider}}, indien van toepassing."
+    },
+    "continueInTab": "Ga naar het tabblad {{serviceProvider}} om door te gaan. Het is nu veilig om deze pop-up te sluiten.",
+    "disclaimer": "Als je doorgaat, erken je dat je onderworpen bent aan de <tosLink>Servicevoorwaarden</tosLink> en het <privacyLink>Privacybeleid</privacyLink> van {{serviceProvider}}, indien van toepassing.",
+    "error": {
+      "default": "Er is iets fout gegaan.",
+      "load": "Kon tokens om te kopen niet laden",
+      "max": "Maximum {{amount}}",
+      "min": "Minimum {{amount}}",
+      "noQuotes": "Geen koersen gevonden.",
+      "unavailable": "Deze service is niet beschikbaar in je regio",
+      "unsupported": "Niet ondersteund in regio",
+      "usd": "Alleen verkrijgbaar in USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} voor {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Geen koersen gevonden"
+    },
+    "purchasedOn": "Gekocht op {{serviceProvider}}",
+    "quote": {
+      "advice": "Je gaat verder naar het portaal van de aanbieder om de kosten te bekijken die aan je transactie verbonden zijn.",
+      "type": {
+        "list": "{{optionsList}} en andere opties",
+        "other": "Andere opties",
+        "recent": "Recentelijk gebruikt"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Van een account"
+        }
+      },
+      "title": "Crypto ontvangen",
+      "transferFunds": "Financier je wallet door crypto over te dragen van een andere wallet of account"
+    },
+    "region": {
+      "placeholder": "Zoeken op land of regio",
+      "title": "Selecteer je regio"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} voor {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Nu bijwerken",
+      "learn": "Zo kun je bijwerken",
+      "recoveryPhrase": "Herstelzin bekijken"
+    },
+    "description": {
+      "extension": "Er is een nieuwe versie van de app beschikbaar. Update de app naar de nieuwste versie om de Uniswap Extension te kunnen blijven gebruiken.",
+      "wallet": "Er is een nieuwe versie van de app beschikbaar. Update de app naar de nieuwste versie om de Uniswap Wallet te kunnen blijven gebruiken."
+    },
+    "label": {
+      "recoveryPhrase": "Herstelzin"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "Globale voorkeuren"
+  },
+  "hero": {
+    "scroll": "Scrol voor meer informatie",
+    "subtitle": "De grootste on-chain marketplace. Koop en verkoop crypto op Ethereum en 11+ andere chains.",
+    "swap": {
+      "title": "Swap altijd en<br/> overal."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Meer informatie over verborgen NFT's"
+        },
+        "text": {
+          "button": "Verborgen NFT's ({{numHidden}})",
+          "extension": "Dit zijn potentiële scams en NFT's die je hebt verborgen. Je kunt met de rechtermuisknop op een NFT klikken om deze weer zichtbaar te maken.",
+          "mobile": "Dit zijn potentiële scams en NFT's die je hebt verborgen. Je kunt lang op een NFT drukken om deze weer zichtbaar te maken.",
+          "title": "Verborgen NFT's"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Meer informatie over verborgen tokens"
+        },
+        "text": {
+          "button": "Verborgen tokens ({{numHidden}})",
+          "info": "Dit zijn potentiële scams, kleine saldi en tokens die je hebt verborgen. Verborgen tokens worden niet opgenomen in het totale saldo van je wallet.",
+          "title": "Verborgen tokens"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Ontvang tokens of NFT's",
+        "description": {
+          "default": "Wanneer je tokens of NFT's goedkeurt, verhandelt of overboekt, worden je transacties hier weergegeven.",
+          "external": "Wanneer deze wallet transacties uitvoert, worden deze hier weergegeven."
+        },
+        "title": "Nog geen activiteit"
+      },
+      "error": {
+        "load": "Kon activiteit niet laden"
+      },
+      "title": "Activiteit"
+    },
+    "banner": {
+      "offline": "Je bevindt je in de offlinemodus",
+      "testnetMode": {
+        "nav": "Je bevindt je in de testnetmodus. Schakel deze uit in de instellingen.",
+        "outage": {
+          "monad": {
+            "description": "Toegang tot Monad Testnet via de Uniswap-interface is tijdelijk onderbroken vanwege problemen met de netwerkstabiliteit. Geld van Testnet wordt hierdoor niet getroffen. De toegang wordt hersteld wanneer de problemen zijn opgelost.",
+            "title": "Monad tijdelijk onderbroken"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Tik op 'zoeken' om meer te verkennen",
+      "title": "Tokens verkennen"
+    },
+    "extension": {
+      "error": "Fout bij het laden van accounts"
+    },
+    "label": {
+      "buy": "Kopen",
+      "for": "Kopen/Verkopen",
+      "receive": "Ontvangen",
+      "send": "Versturen",
+      "swap": "Swappen"
+    },
+    "nfts": {
+      "title": "NFT's"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Koop met een betaalpas of via een bankrekening.",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "Voer de herstelzin van deze wallet in om te beginnen met swappen en versturen.",
+            "title": "Wallet importeren"
+          },
+          "receive": {
+            "description": "Overboeking vanuit een andere wallet of ander account.",
+            "title": "Crypto ontvangen"
+          }
+        },
+        "description": "Wanneer deze wallet tokens koopt of ontvangt, worden deze hier weergegeven.",
+        "title": "Nog geen tokens",
+        "welcome": {
+          "description": "Het lijkt erop dat je een nieuwe wallet hebt. Laten we deze eerst financieren voordat je je eerste swap maakt"
+        }
+      },
+      "error": {
+        "fetch": "Kon tokensaldi niet ophalen",
+        "load": "Kon tokensaldi niet laden"
+      },
+      "title": "Tokens"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Van een account",
+        "description": "Financier je wallet door crypto over te dragen van een andere wallet of account",
+        "title": "Crypto ontvangen"
+      }
+    },
+    "warning": {
+      "viewOnly": "Dit is een alleen-lezen wallet"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Swap of bied liquiditeit via het Uniswap Protocol",
+      "title": "Uniswap-interface"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Bouw de volgende generatie open applicaties en tools.",
+    "connectWithUs": "Neem contact met ons op",
+    "devDocs": "Documenten voor ontwikkelaars",
+    "directToDeFi": "Ga direct naar DeFi",
+    "followOnX": "Volg @Uniswap op X voor de laatste updates",
+    "protocolDescription": "Uniswap-producten worden mogelijk gemaakt door het Uniswap Protocol. Dit is de grootste on-chain marketplace, met miljarden dollars aan wekelijkse volume over duizenden tokens op Ethereum en 7+ andere chains.",
+    "provideLiquidity": {
+      "message": "Bied liquiditeit aan pools op het Uniswap Protocol en verdien vergoedingen op swaps."
+    },
+    "swapSimple": "Eenvoudig swappen. Krijg toegang tot duizenden tokens op 11+ chains.",
+    "teamInsights": "Inzichten en nieuws van het team",
+    "trusted": "Vertrouwd door miljoenen"
+  },
+  "language": {
+    "afrikaans": "Afrikaans",
+    "arabic": "Arabisch",
+    "catalan": "Catalaans",
+    "chineseSimplified": "Chinees (vereenvoudigd)",
+    "chineseTraditional": "Chinees (traditioneel)",
+    "czech": "Tsjechisch",
+    "danish": "Deens",
+    "dutch": "Nederlands",
+    "english": "Engels",
+    "finnish": "Fins",
+    "french": "Frans",
+    "greek": "Grieks",
+    "hebrew": "Hebreeuws",
+    "hindi": "Hindi",
+    "hungarian": "Hongaars",
+    "indonesian": "Indonesisch",
+    "italian": "Italiaans",
+    "japanese": "Japans",
+    "korean": "Koreaans",
+    "malay": "Maleis",
+    "norwegian": "Noors",
+    "polish": "Pools",
+    "portuguese": "Portugees",
+    "romanian": "Roemeens",
+    "russian": "Russisch",
+    "serbian": "Servisch",
+    "spanishLatam": "Spaans (Latijns-Amerika)",
+    "spanishSpain": "Spaans (Spanje)",
+    "spanishUs": "Spaans (VS)",
+    "swahili": "Swahili",
+    "swedish": "Zweeds",
+    "turkish": "Turks",
+    "ukrainian": "Oekraïens",
+    "urdu": "Urdu",
+    "vietnamese": "Vietnamees"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 open limiet",
+      "count_other": "{{count}} open limieten"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Je limietprijs is {{percentage}}% hoger dan de marktprijs. Pas je limietprijs aan om door te gaan.",
+        "title": "{{tokenSymbol}} boven de marktprijs kopen"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Wij kunnen de huidige marktprijs niet berekenen. Om te voorkomen dat je een bestelling onder de marktprijs plaatst, controleer je je netwerkverbinding en probeer je het opnieuw.",
+        "title": "De marktprijs is niet beschikbaar"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Je limietprijs is {{percentage}}% lager dan de marktprijs. Pas je limietprijs aan om door te gaan.",
+        "title": "{{tokenSymbol}} onder de marktprijs verkopen"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Alleen Mainnet-tokens zijn beschikbaar voor limieten."
+        },
+        "uniswapx": "Limieten worden mogelijk niet exact uitgevoerd wanneer tokens de opgegeven prijs bereiken. <link />"
+      }
+    },
+    "learnMore": "Meer informatie over limieten",
+    "price": {
+      "input": {
+        "label": "Wanneer 1 <tokenSymbol /> de volgende waarde heeft"
+      },
+      "label": "Limietprijs"
+    },
+    "selectSupportedTokens": "Selecteer ondersteunde tokens"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Hook-adres invoeren"
+      }
+    },
+    "learnMoreLabel": "Meer informatie over liquiditeitsvoorziening",
+    "notEnough": {
+      "label": "Niet genoeg liquiditeit om een nauwkeurige waarde in USD weer te geven."
+    },
+    "provideOnProtocols": "Liquiditeit aan verschillende protocollen bieden"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "Liquiditeit van {{token}}: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Voeg liquiditeit aan pools{{version}} toe op Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Gesloten posities"
+      },
+      "page": {
+        "title": "Beheer {{quoteSymbol}}/{{baseSymbol}} poolliquiditeit op Uniswap",
+        "version": {
+          "description": "Bekijk je actieve liquiditeitsposities van {{version}}. Voeg nieuwe posities toe.",
+          "title": "Beheer de liquiditeit van de pool in {{version}} op Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Toegestaan",
+    "allowLpMigration": "LP-token migratie toestaan",
+    "connectAccount": "Je moet een account koppelen die deze positie in eigendom heeft.",
+    "connectWallet": "Maak verbinding met een wallet om je V2-liquiditeit te bekijken.",
+    "contract": "Uniswap-migratiecontract",
+    "firstLP": "Je bent de eerste liquiditeitsaanbieder voor deze Uniswap V3-pool. Je liquiditeit zal migreren tegen de huidige prijs van {{source}}.",
+    "highGasCost": "Je transactiekosten zullen veel hoger zijn, omdat het ook de gaskosten bevat om de pool te creëren.",
+    "invalidRange": "Ongeldig bereik geselecteerd. De minimumprijs moet lager zijn dan de maximumprijs.",
+    "lpNFT": "{{symA}}/{{symB}} LP-NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP-tokens",
+    "migrating": "Migreren",
+    "missingV2Position": "Zie je een van je v2-posities niet? <Link>Importeer deze dan.</Link>",
+    "noV2Liquidity": "Geen V2-liquiditeit gevonden.",
+    "positionNoFees": "Je positie zal geen vergoedingen opleveren of in transacties worden gebruikt totdat de marktprijs binnen je bereik komt.",
+    "priceDifference": "Prijsverschil: ",
+    "priceWarning": "Stort alleen liquiditeit in Uniswap V3 tegen een prijs die je correct acht. <br /> Als de prijs niet correct lijkt, kun je ofwel een swap maken om de prijs te wijzigen, of wachten totdat iemand anders dat doet.",
+    "refund": "Minstens {{amtA}} {{symA}} en {{amtB}} {{symB}} worden teruggestort naar je wallet vanwege het geselecteerde prijsbereik.",
+    "selectFeeTier": "Vergoedingsniveau selecteren",
+    "setRange": "Prijsbereik instellen",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Prijs:",
+    "v2Description": "Deze tool migreert je liquiditeit van {{source}} veilig naar V3. Het proces is volledig betrouwbaar dankzij het <0>Uniswap-migratiecontract</0> ↗",
+    "v2Instruction": "Voor elke hieronder weergegeven pool klik je op Migreren om je liquiditeit uit Uniswap V2 te verwijderen en deze in Uniswap V3 te storten.",
+    "v2Title": "Migreer V2-liquiditeit",
+    "v3Price": "Prijs van {{sym}} in V3:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Ongeldige prijsinvoer"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Download de Uniswap Wallet-app"
+      },
+      "title": "Uniswap: Crypto- en NFT-wallet"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat-onramp wordt mogelijk gemaakt door MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay is in sommige regio's niet beschikbaar. Klik voor meer informatie."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Account aanmaken"
+    },
+    "logIn": {
+      "button": "Inloggen"
+    },
+    "signIn": {
+      "button": "Aanmelden"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "Registreren"
+    },
+    "tabs": {
+      "createPosition": "Positie aanmaken",
+      "viewPositions": "Posities bekijken"
+    }
+  },
+  "network": {
+    "lostConnection": "Mogelijk is je netwerkverbinding verbroken.",
+    "mightBeDown": "Het kan zijn dat {{network}} momenteel niet beschikbaar is of dat je netwerkverbinding is verbroken.",
+    "warning": "Netwerkwaarschuwing"
+  },
+  "nft": {
+    "addToBag": "Aan bag toevoegen",
+    "authorsCollectionOnUni": "De NFT-collectie van {{name}} op Uniswap",
+    "bag": "Bag",
+    "blockedCollection": "Deze collectie is geblokkeerd",
+    "blockedOpenSea": "Geblokkeerd op OpenSea",
+    "buyTransferNFTToStart": "NFT's kopen of naar deze wallet overboeken om aan de slag te gaan.",
+    "buyTransferTokensToStart": "Tokens kopen of naar deze wallet overboeken om aan de slag te gaan.",
+    "card": {
+      "notAvailable": "De inhoud nog niet <br /> beschikbaar"
+    },
+    "chainSupportComingSoon": "Ondersteuning voor {{chainName}} is binnenkort beschikbaar",
+    "collectionOnUni": "NFT-collectie op Uniswap",
+    "collectonOnAddress": "NFT-collecties op Uniswap - {{address}}",
+    "complete": "Gelukt!",
+    "editListings": "Noteringen bewerken",
+    "event": "Gebeurtenis",
+    "explore": "Ontdek NFT's",
+    "learnWhy": "Ontdek waarom",
+    "list": {
+      "header": {
+        "lastPrice": "Laatste"
+      },
+      "title": "NFT's noteren"
+    },
+    "listedSignificantly_one": "Eén NFT staat {{percentage}} onder de bodemprijs van de collectie. Weet je zeker dat je door wilt gaan?",
+    "listedSignificantly_other": "{{count}} NFT's worden aanzienlijk onder de bodemprijs van de collectie genoteerd. Weet je zeker dat je door wilt gaan?",
+    "listForSale": "Te koop aanbieden",
+    "lowPrice": "Lage noteringsprijs",
+    "marketplace": {
+      "royalty": {
+        "header": "Kosten in {{marketName}}"
+      }
+    },
+    "maxFees": "Maximale vergoedingen",
+    "maxRoyalties": "Maximale royalty's voor makers",
+    "noItems": "Geen items om weer te geven",
+    "noneAtAddress": "Geen collectie-assets aanwezig op dit adres",
+    "noPools": "Nog geen pools",
+    "notListed": "Niet genoteerd",
+    "proceedsIfSold": "Opbrengst bij verkoop",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Al genoteerd op {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} onder de bodemprijs."
+        }
+      }
+    },
+    "refundsInEth": "Terugbetalingen voor niet-beschikbare items worden gegeven in ETH",
+    "removeFromBag": "Verwijderen uit bag",
+    "reportSpam": "Als spam melden",
+    "returnToExplore": "Keer terug naar NFT Explore",
+    "returnToMy": "Keer terug naar Mijn NFT's",
+    "setPrices": "Stel prijzen in om door te gaan",
+    "startListing": "Maak een notering",
+    "successListed": "Genoteerd",
+    "unavailableToList": "Niet beschikbaar voor notering",
+    "whyTransaction": {
+      "reason": "Voor de notering van een NFT is voor elke NFT-collectie een eenmalige marketplace-goedkeuring vereist."
+    },
+    "willAppearHere": "Je on-chain-transacties en crypto-aankopen worden hier weergegeven.",
+    "wishGranted": "Uniswap heeft je wens vervuld!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Collectie goedkeuren",
+        "approve_other": "Collecties goedkeuren",
+        "sign_one": "Notering ondertekenen",
+        "sign_other": "Noteringen ondertekenen"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "Maximaal {{percentChanged}}"
+      }
+    },
+    "my": "Mijn NFT's",
+    "noneYet": "Nog geen NFT's",
+    "sell": "Verkoop NFT's"
+  },
+  "notFound": {
+    "oops": "Oeps, breng me terug naar Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Disclaimer voor het Verenigd Koninkrijk:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} verborgen",
+      "unhidden": "{{assetName}} zichtbaar"
+    },
+    "copied": {
+      "address": "Adres gekopieerd",
+      "calldata": "Oproepgegevens gekopieerd",
+      "contractAddress": "Contractadres gekopieerd",
+      "failed": "Kon niet naar klembord kopiëren",
+      "image": "Afbeelding gekopieerd",
+      "nftUrl": "NFT-URL gekopieerd",
+      "tokenUrl": "Token-URL gekopieerd",
+      "transactionId": "Transactie-ID gekopieerd",
+      "unitag": "Gebruikersnaam gekopieerd"
+    },
+    "countryChange": "Overgeschakeld naar {{countryName}}",
+    "network": {
+      "changed": "Overgeschakeld naar {{network}}"
+    },
+    "passwordChanged": "Wachtwoord gewijzigd",
+    "restore": {
+      "success": "Wallet hersteld!"
+    },
+    "send": {
+      "network": "Versturen op {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Gerapporteerd"
+      }
+    },
+    "swap": {
+      "network": "Swappen op {{network}}",
+      "pending": {
+        "swap": "Swap in behandeling",
+        "unwrap": "Unwrappen in behandeling",
+        "wrap": "Wrappen in behandeling"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Goedkeuring van {{currencySymbol}} geannuleerd.",
+        "fail": "Kon {{currencySymbol}} niet goedkeuren voor gebruik met {{address}}.",
+        "success": "{{currencySymbol}} goedgekeurd voor gebruik met {{address}}."
+      },
+      "pending": "De transactie is in behandeling",
+      "swap": {
+        "canceled": "Swap tussen {{inputCurrencySymbol}}-{{outputCurrencySymbol}} geannuleerd.",
+        "expired": "Swap van {{inputCurrencyAmountWithSymbol}} voor {{outputCurrencyAmountWithSymbol}} is verlopen.",
+        "fail": "Het is niet gelukt om {{inputCurrencyAmountWithSymbol}} voor {{outputCurrencyAmountWithSymbol}} te swappen.",
+        "success": "{{inputCurrencyAmountWithSymbol}} voor {{outputCurrencyAmountWithSymbol}} geswapt."
+      },
+      "transfer": {
+        "canceled": "Versturen van {{tokenNameOrAddress}} geannuleerd",
+        "fail": "Kon {{tokenNameOrAddress}} niet naar {{walletNameOrAddress}} versturen",
+        "received": "{{tokenNameOrAddress}} van {{walletNameOrAddress}} ontvangen",
+        "success": "{{tokenNameOrAddress}} naar {{walletNameOrAddress}} verstuurd"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Kon geen transactie uitvoeren met {{addressOrEnsName}}",
+          "short": "Transactie mislukt"
+        },
+        "success": {
+          "full": "Transactie uitgevoerd met {{addressOrEnsName}}",
+          "short": "Transactie bevestigd"
+        }
+      },
+      "unwrap": {
+        "canceled": "{{inputCurrencySymbol}} unwrappen geannuleerd.",
+        "fail": "Kon {{inputCurrencyAmountWithSymbol}} niet unwrappen.",
+        "success": "{{inputCurrencyAmountWithSymbol}} is uitgepakt en {{outputCurrencyAmountWithSymbol}} ontvangen."
+      },
+      "wrap": {
+        "canceled": "Wrap van {{inputCurrencySymbol}} geannuleerd.",
+        "fail": "Kon {{inputCurrencyAmountWithSymbol}} niet wrappen.",
+        "success": "{{inputCurrencyAmountWithSymbol}} is gewrapt en {{outputCurrencyAmountWithSymbol}} ontvangen."
+      }
+    },
+    "transfer": {
+      "pending": "Versturen in behandeling"
+    },
+    "walletConnect": {
+      "confirmed": "Transactie bevestigd met {{dappName}}",
+      "connected": "Verbonden",
+      "disconnected": "Verbinding verbroken",
+      "failed": "Transactie mislukt met {{dappName}}",
+      "networkChanged": {
+        "full": "Overgeschakeld naar {{networkName}}",
+        "short": "Overgeschakelde netwerken"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Ga verder op Uniswap Extension",
+      "title": "Gelukt!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Wij raden je aan om dit op een papiertje te schrijven en het op een veilige plek te bewaren, zoals in een kluis.",
+        "displayWarning": {
+          "description": "Lees het volgende zorgvuldig door voordat je verdergaat.",
+          "note": {
+            "access": "Deze herstelzin geeft je volledige toegang tot je wallet en geld",
+            "secure": "Bekijk dit privé en deel het met niemand",
+            "storage": "Schrijf het op en bewaar het op een veilige plek"
+          },
+          "title": "Enkele belangrijke dingen om te weten"
+        },
+        "error": "Ongeldig of verkeerd gespeld woord",
+        "placeholder": "Geheim woord",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} afgerond",
+        "selectedWordPlaceholder": "Selecteer woord",
+        "subtitle_one": "Wat is het {{count}}e woord in je herstelzin?",
+        "subtitle_two": "Wat is het {{count}}e woord in je herstelzin?",
+        "subtitle_few": "Wat is het {{count}}e woord in je herstelzin?",
+        "subtitle_other": "Wat is het {{count}}e woord in je herstelzin?",
+        "title": "Laten we er zeker van zijn dat je het correct hebt ingevoerd"
+      },
+      "option": {
+        "badge": {
+          "quick": "Snel"
+        },
+        "cloud": {
+          "description": "Maak een back-up van je wallet via {{cloudProviderName}}, beschermd door een herstelwachtwoord.",
+          "title": "Stel een herstelwachtwoord in"
+        },
+        "manual": {
+          "description": "Schrijf je 12 geheime woorden op een stukje papier en bewaar het op een veilige plek.",
+          "title": "Schrijf de herstelzin op"
+        }
+      },
+      "reminder": {
+        "description": "Door een back-up van je wallet te maken, kun je je assets altijd terughalen als je je telefoon kwijtraakt of een nieuw apparaat krijgt.",
+        "title": "Het is tijd om een back-up van je wallet te maken",
+        "warning": {
+          "description": "Als je geen back-upmethode instelt, kun je je wallet niet herstellen als je je telefoon kwijtraakt, de app verwijdert of een nieuw apparaat krijgt.",
+          "title": "Je kunt je geld verliezen"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Als je het ooit vergeet, kunnen we het niet voor je resetten. Schrijf het op een papiertje op een veilige plek of bewaar het veilig in een wachtwoordmanager.",
+          "disclaimer": "Ik begrijp dat Uniswap Labs mijn herstelwachtwoord niet kan resetten.",
+          "title": "Het is belangrijk om dit wachtwoord te bewaren"
+        },
+        "manual": {
+          "description": "Zorg ervoor dat je je herstelzin correct opschrijft en deze op een veilige plek bewaart.",
+          "disclaimer": "Ik begrijp dat Uniswap Labs mijn wallet niet kan herstellen als ik deze verlies.",
+          "title": "Voordat je klaar bent..."
+        }
+      },
+      "subtitle": "Zo kun je je wallet herstellen als je de app verwijdert of je apparaat kwijtraakt.",
+      "title": {
+        "existing": "Maak een back-up van je wallet",
+        "new": "Kies je back-upmethode"
+      },
+      "view": {
+        "disclaimer": "Ik begrijp dat als ik mijn herstelzin kwijtraak, Uniswap Labs mij niet kan helpen deze te herstellen.",
+        "subtitle": {
+          "message1": "Lees het volgende goed door voordat je verdergaat",
+          "message2": "Je moet alle 12 van deze geheime woorden invoeren om je wallet terug te krijgen."
+        },
+        "title": "Schrijf je herstelzin op",
+        "warning": {
+          "message1": "Deze herstelzin geeft je volledige toegang tot je wallet en geld",
+          "message2": "Schrijf het op en bewaar het op een veilige plek",
+          "message3": "Bekijk dit privé en <u>deel het met niemand</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Je moet dit invoeren om je geld terug te krijgen. Als je het ooit vergeet, kunnen we het niet voor je terughalen.",
+        "title": "Bevestig je herstelwachtwoord"
+      },
+      "createPassword": {
+        "description": "Je moet dit invoeren om je geld terug te krijgen. Als je het ooit vergeet, kunnen we het niet voor je terughalen.",
+        "title": "Je herstelwachtwoord aanmaken"
+      }
+    },
+    "complete": {
+      "button": "Uniswap Extension openen",
+      "description": "Je wallet is klaar om crypto te versturen en te ontvangen. Open Uniswap Extension met de onderstaande snelkoppeling.",
+      "go_to_uniswap": "Ga naar de Uniswap-webapp",
+      "pin": {
+        "description": "Klik op het punaise-icoontje om de Uniswap Extension aan je werkbalk toe te voegen.",
+        "title": "Uniswap Extension vastzetten"
+      },
+      "title": "Je bent er helemaal klaar voor"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Je hebt dit nodig om je wallet te ontgrendelen en toegang te krijgen tot je herstelzin",
+        "title": {
+          "default": "Wachtwoord aanmaken",
+          "reset": "Je wachtwoord resetten"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap-extensie is alleen compatibel met Chrome op desktop.",
+          "title": "Chrome op mobiel wordt (nog) niet ondersteund"
+        },
+        "description": "Uniswap-extensie is momenteel alleen compatibel met Chrome.",
+        "title": "Deze browser wordt (nog) niet ondersteund"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Maak een herstelplan voor het geval dat je ooit je telefoon kwijtraakt of een nieuw apparaat krijgt.",
+          "title": "Maak een back-up van je wallet"
+        },
+        "fund": {
+          "description": "Financier je wallet door crypto te kopen of over te boeken vanaf een ander account.",
+          "title": "Ontvang je eerste token"
+        },
+        "label": {
+          "required": "Vereist",
+          "swipe": "Swipen"
+        },
+        "pushNotifications": {
+          "description": "Ontvang prijsmeldingen over je favoriete tokens, markttrends en nog veel meer.",
+          "title": "Blijf op de hoogte"
+        },
+        "unitag": {
+          "description": "Bouw een gepersonaliseerd web3-profiel en deel je adres eenvoudig met vrienden.",
+          "title": "Claim je gebruikersnaam op {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 woord is ongeldig of verkeerd gespeld",
+        "invalidWords_other": "{{count}} woorden zijn ongeldig of verkeerd gespeld"
+      },
+      "method": {
+        "import": {
+          "message": "Voer je seed phrase in vanuit een andere crypto-wallet.",
+          "title": "Importeer een wallet"
+        },
+        "passkey": {
+          "message": "Synchroniseer je Uniswap-wallet door middel van een bestaande code.",
+          "title": "Aanmelden met code"
+        },
+        "restore": {
+          "message": {
+            "android": "Voeg wallets waarvan je een back-up hebt gemaakt, toe aan je Google Drive-account.",
+            "ios": "Voeg wallets waarvan je een back-up hebt gemaakt, toe aan je iCloud-account."
+          },
+          "title": "Herstel een wallet"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Wil je geen van het bovenstaande?"
+        },
+        "subtitle": "Kies bij welke wallet je opnieuw wilt inloggen.",
+        "title": "Welkom terug bij Uniswap",
+        "wallet": {
+          "button": "Herstelzin bekijken",
+          "count_one": "+1 andere wallet",
+          "count_other": "+{{count}} andere wallets"
+        },
+        "warning": {
+          "caption": "Zorg ervoor dat je een back-up van alle andere wallets hebt gemaakt. Als je deze ooit wilt herstellen, heb je de herstelzinnen of bijbehorende back-ups vanuit {{cloudProvider}} nodig.",
+          "title": "Weet je het zeker?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Importeer een wallet van de mobiele app via een QR-code.",
+          "title": "Uniswap Mobile gebruiken"
+        },
+        "passkey": {
+          "subtitle": "Synchroniseer je Uniswap-wallet door middel van een bestaande code.",
+          "title": "Aanmelden met code"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Voer je seed phrase in vanuit een andere crypto-wallet.",
+          "title": "Een wallet importeren"
+        },
+        "title": "Aanmelden of een wallet importeren"
+      },
+      "title": "Kies hoe je je wallet wilt toevoegen"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Mijn herstelzin heeft 12 woorden",
+        "importing": "Bezig met importeren...",
+        "longPhrase": "Mijn herstelzin is langer"
+      },
+      "error": {
+        "invalidPhrase": "De door jou ingevoerde zin is ongeldig"
+      },
+      "subtitle": "Typ of plak je herstelzin van 12 woorden",
+      "title": "Voer je herstelzin in"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Ik heb al een wallet",
+        "signInOrImport": "Aanmelden of importeren"
+      },
+      "mobileScan": {
+        "button": "Scan de QR-code om te importeren",
+        "title": "Hebt u de Uniswap-app?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Voeg een bestaande wallet toe",
+        "create": "Een wallet aanmaken",
+        "createAccount": "Een account aanmaken"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Voltooien"
+        },
+        "subtitle": "Deze bijnaam is alleen voor jou zichtbaar",
+        "title": "Geef je wallet een naam"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Om meldingen te ontvangen, zet je meldingen voor Uniswap Wallet aan in de instellingen van je apparaat.",
+        "title": "Toestemming voor meldingen"
+      },
+      "subtitle": "Blijf op de hoogte van transactiestatussen en van grote prijsveranderingen voor je favoriete tokens.",
+      "title": "Meldingen inschakelen"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Je account wordt beschermd door je eigen beveiligde wachtwoordopslag."
+      },
+      "biometric": {
+        "scan": "Telefoon, tablet of browser: scan je biometrische gegevens en je wordt ingelogd."
+      },
+      "create": "Je wachtwoord aanmaken",
+      "use": {
+        "recovery": {
+          "phrase": "Een seed phrase gebruiken"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Laten we bevestigen dat je het goed hebt. Als je dit verliest of verkeerd opschrijft, kun je je geld niet terugkrijgen.",
+          "default": "Als je dit verliest of verkeerd opschrijft, kun je je geld niet meer terugkrijgen."
+        },
+        "title": "Laten we bevestigen dat je het goed hebt"
+      },
+      "view": {
+        "subtitle": "Je moet alle 12 van deze geheime woorden invoeren om je wallet terug te krijgen.",
+        "title": {
+          "hasPassword": "Mocht je ooit je wachtwoord vergeten..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Ik ben klaar",
+          "message": "Je herstelzin geeft jou (en iedereen die deze heeft) toegang tot je geld. Zorg ervoor dat je het voor jezelf houdt.",
+          "title": "Doe deze stap in een privéruimte"
+        },
+        "screenshot": {
+          "message": "Iedereen die toegang krijgt tot je foto's, heeft toegang tot je wallet. Wij raden je aan om je woorden op te schrijven.",
+          "title": "Schermafbeeldingen zijn niet beveiligd"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Meer informatie over walletveiligheid",
+        "subtitle": "Gebruik je nieuwe wachtwoord om je wallet te ontgrendelen.",
+        "title": "Wachtwoord gereset"
+      }
+    },
+    "scan": {
+      "error": "Er ging iets mis bij het laden van de QR-code",
+      "otp": {
+        "error": "De code die je hebt ingevoerd is onjuist, of er is een fout opgetreden bij het versturen. Probeer het opnieuw.",
+        "failed": "Mislukte pogingen: {{number}}",
+        "subtitle": "Check je Uniswap-app voor de code van 6 tekens",
+        "title": "Voer de eenmalige code in"
+      },
+      "subtitle": "Scan de QR-code met de Uniswap-app om te beginnen met het importeren van je wallet.",
+      "title": "Importeer de wallet vanuit de app",
+      "troubleScanning": {
+        "message": "Importeren via seed phrase",
+        "title": "Problemen bij het scannen?"
+      },
+      "wifi": "Verbind je telefoon met hetzelfde wifinetwerk als je computer."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Als je biometrie wilt gebruiken, moet je dit eerst instellen in de instellingen",
+            "ios": "Om {{biometricsMethod}} te gebruiken, moet je toegang tot de systeeminstellingen toestaan"
+          },
+          "title": {
+            "android": "Biometrie is uitgeschakeld",
+            "ios": "{{biometricsMethod}} is uitgeschakeld"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Schakel biometrie in",
+          "ios": "Schakel {{biometricsMethod}} in"
+        },
+        "setup": "Instellen"
+      },
+      "subtitle": {
+        "android": "Voeg een extra beveiligingslaag toe door biometrie te vereisen voor het versturen van transacties.",
+        "ios": "Voeg een extra beveiligingslaag toe door {{biometricsMethod}} te vereisen om transacties te versturen."
+      },
+      "title": "Bescherm je wallet"
+    },
+    "selectWallets": {
+      "error": "Kon adressen niet laden",
+      "title": {
+        "default": "Kies wallets om te importeren",
+        "error": "Fout bij het importeren van wallets"
+      }
+    },
+    "termsOfService": "Door door te gaan, ga ik akkoord met de <highlightTerms>Algemene Voorwaarden</highlightTerms> en geef ik toestemming voor het <highlightPrivacy>Privacybeleid</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Wat is een herstelzin?"
+      }
+    },
+    "wallet": {
+      "continue": "Laten we het veilig bewaren",
+      "defaultName": "Wallet {{number}}",
+      "description": {
+        "full": "Dit is je persoonlijke ruimte voor tokens, NFT's en al je transacties. Voltooi het instellen om je geld veilig te houden."
+      },
+      "title": "Welkom bij je nieuwe wallet"
+    },
+    "welcome": {
+      "subtitle": "Het instellen van je wallet is bijna voltooid.",
+      "title": "Welkom!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Je kunt in deze chain nog steeds zonder problemen swappen en liquiditeit verschaffen."
+    },
+    "title": "{{versionName}} komt snel terug"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Heb je geen toegang tot je code of lukt het niet om hem te gebruiken? Ga dan naar Uniswap Support.",
+        "title": "Ondersteuning bij codes"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Met Permit2 kunnen tokengoedkeuringen worden gedeeld en beheerd tussen verschillende applicaties."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Actief tick-bereik",
+    "addAs": "Toevoegen als {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Op jaarbasis gebaseerd op vergoedingen voor 1 dag"
+    },
+    "aprText": "Pool APR",
+    "balances": "Poolsaldi",
+    "closedCTA": {
+      "description": "Je kunt deze zien door het filter bovenaan de pagina te gebruiken.",
+      "title": "Zoek je gesloten posities?"
+    },
+    "collectAs": "Innen als {{nativeWrappedSymbol}}",
+    "collectFees": "Vergoedingen innen",
+    "create": {
+      "info": "Je selecties creëren een nieuwe liquiditeitspool die kan resulteren in een lagere initiële liquiditeit en een hogere volatiliteit. Overweeg om een bestaande pool uit te breiden om deze risico's te minimaliseren."
+    },
+    "createdPosition": {
+      "cancelled": "Positie aanmaken geannuleerd",
+      "failed": "Positie aanmaken mislukt"
+    },
+    "details": "Pool-gegevens",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "Verkenners",
+    "import": {
+      "link": {
+        "description": "Sommige v2-posities worden niet automatisch weergegeven."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Sommige v2-posities worden niet automatisch weergegeven. Selecteer een tokenpaar om je posities te importeren en bekijken."
+          }
+        }
+      },
+      "success": "Pool geïmporteerd"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "Poolinformatie",
+    "limitFluctuation": {
+      "warning": "Houd er rekening mee dat de uitvoering van limieten kan variëren op basis van realtime marktfluctuaties en congestie op het Ethereum-netwerk. Limieten worden mogelijk niet exact uitgevoerd wanneer tokens de opgegeven prijs bereiken."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Er is een fout opgetreden bij het ophalen van de gegevens die nodig zijn voor je transactie."
+        }
+      },
+      "outOfSync": {
+        "message": "De prijzen in deze pool wijken af van de marktprijzen van de geselecteerde tokens. Stem je prijsbereik daarop af of wacht tot de pool opnieuw in balans is om verliezen te voorkomen."
+      }
+    },
+    "maxPrice": "Maximale prijs",
+    "migrateLiquidity": "Liquiditeit migreren",
+    "migrateLiquidityDisabledTooltip": "Deze blockchain ondersteunt geen liquidity pools in v4.",
+    "migrateToV4": "Migreren naar v4",
+    "minPrice": "Minimale prijs",
+    "newPosition": {
+      "plus": "+ Nieuwe positie",
+      "title": "Nieuwe positie"
+    },
+    "newSpecificPosition": "Nieuwe {{symbol}}-positie",
+    "openPosition": {
+      "cta": "Voeg liquiditeit aan een pool toe en bekijk je posities hier"
+    },
+    "openToStart": "Open een nieuwe positie of maak een pool aan om aan de slag te gaan.",
+    "percent": "{{pct}}% pool",
+    "pooled": "Gepoolde {{sym}}:",
+    "position": "Positie",
+    "positions": {
+      "title": "Je posities",
+      "transaction": {
+        "settings": "Transactie-instellingen"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Waarde in USD is momenteel niet beschikbaar voor deze positie. Bekijk locatiedetails voor gestorte tekenbedragen."
+      }
+    },
+    "priceRange": "Prijsbereik",
+    "refresh": {
+      "prices": "Prijzen vernieuwen"
+    },
+    "removeLiquidity": "Verwijder liquiditeit",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "Pooltokens in beloningspool:"
+    },
+    "selectPair": "Selecteer paar",
+    "share": {
+      "label": "Je poolaandeel:"
+    },
+    "specificPosition": "{{symbol}}-positie",
+    "tokenPair": "Tokenpaar",
+    "top": {
+      "tvl": "Beste pools op basis van TVL"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "Je totale pooltokens:",
+    "uncollectedFees": "Niet-geïnde vergoedingen",
+    "v2": "v2-pools",
+    "v3": "v3-pools",
+    "viewPools": "View pools",
+    "volOverTvl": "1D vol/Totale waarde vergrendeld (TVL)",
+    "volume": {
+      "thirtyDay": {
+        "short": "30-d vol"
+      }
+    },
+    "withdrawAs": "Opnemen als {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2-pools die overeenkomen met jouw gekozen paar."
+      },
+      "notFound": {
+        "description": "Geen overeenkomende v2-pools gevonden. Controleer je tokenselectie nogmaals en zorg ervoor dat je verbonden bent met de juiste wallet."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Pools verkennen"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Hooks zijn een geavanceerde functie die het mogelijk maken voor pools om te interageren met smartcontracten, waardoor verschillende mogelijkheden beschikbaar worden. Wees voorzichtig bij het toevoegen van hooks, aangezien sommige kwaadaardig kunnen zijn of onbedoelde gevolgen kunnen hebben."
+    },
+    "addingHook": {
+      "disclaimer": "Het toevoegen van hooks kan onvoorziene gevolgen hebben. Doe je onderzoek en ga verder op eigen risico.",
+      "hideProperties": "Eigenschappen verbergen",
+      "invalidAddress": "Voer een geldig hook-adres in",
+      "viewProperties": "Eigenschappen bekijken"
+    },
+    "create": {
+      "invalidPrice": "Ongeldige prijs",
+      "invalidRange": "Ongeldig bereik",
+      "modal": {
+        "header": "Positie aanmaken"
+      }
+    },
+    "currentValue": "Huidige positiewaarden",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "De ingevoerde initiële prijs is {{value}}% lager dan de marktprijs en kan leiden tot verlies van je geld. Wil je doorgaan?",
+            "more": "De ingevoerde initiële prijs is {{value}}% hoger dan de marktprijs en kan leiden tot verlies van je geld. Wil je doorgaan?"
+          },
+          "title": "Groot prijsverschil ten opzichte van de marktprijs"
+        }
+      },
+      "description": "Geef de tokenbedragen voor je liquiditeitsbijdrage op."
+    },
+    "depositedCurrency": "{{currencySymbol}} gestort",
+    "fot": {
+      "warning": {
+        "cta": "Een v2-positie aanmaken"
+      }
+    },
+    "hook": {
+      "disclaimer": "Ik begrijp de potentiële risico's van het toevoegen van deze hook.",
+      "donateWarning": "Deze markering kan leiden tot veranderingen in de verdiende vergoedingen.",
+      "liquidityWarning": "Deze melding kan ervoor zorgen dat de pool het toevoegen van nieuwe liquiditeit blokkeert. Je transactie kan worden teruggedraaid.",
+      "removeWarning": "Hierdoor kan het zijn dat je geld wordt vergrendeld of dat het innen van vergoedingen wordt geblokkeerd.",
+      "swapWarning": "Deze markering kan het makkelijker maken voor liquiditeitsverschaffers om just-in-time-liquiditeit te gebruiken, waardoor de verdiende vergoedingen lager kunnen uitvallen.",
+      "warningHeader": "Belangrijk: er zijn risico's geïdentificeerd voor deze hook",
+      "warningInfo": "We hebben potentiële risico's geïdentificeerd voor deze hook. Zorg dat je begrijpt hoe deze hook werkt voordat je doorgaat."
+    },
+    "increase": {
+      "fot": "Het toevoegen van liquiditeit voor {{token}} en andere fee-on-transfer-tokens wordt niet ondersteund."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% lager dan de marktprijs",
+        "positive": "{{ value }}% hoger dan de marktprijs"
+      },
+      "info": "Wanneer je een nieuwe pool maakt, moet je de aanvankelijke wisselkoers instellen voor beide tokens. Deze wisselkoers weerspiegelt de initiële marktprijs.",
+      "set": "Instapprijs instellen",
+      "useMarketPrice": "Marktprijs gebruiken"
+    },
+    "migrate": {
+      "liquidity": "Bij het migreren van posities kun je je tokenpaar niet wijzigen, maar je kunt wel een hook toevoegen om de functionaliteit te verbeteren.",
+      "v4unsupportedChain": "Deze blockchain kan niet worden gebruikt met v4 pools."
+    },
+    "new": {
+      "protocol": "Nieuwe {{protocol}}-positie"
+    },
+    "notFound": {
+      "description": "Details over deze positie zijn niet beschikbaar. Controleer of je met de juiste wallet bent verbonden."
+    },
+    "protocol": "{{protocol}} positie",
+    "provide": {
+      "liquidity": "Kies de tokens waarvoor je liquiditeit wilt bieden. Je kunt tokens op alle ondersteunde netwerken selecteren.",
+      "liquidityDescription": {
+        "creatingPool": "Als je bij het maken van een pool de liquiditeit instelt op het volledige bereik, ben je zeker van continue marktdeelname op elk prijspunt. Dat houdt het simpel, maar zorgt ook voor een hogere kans op tijdelijke verliezen.",
+        "custom": "Met een aangepast bereik kun je je liquiditeit concentreren binnen specifieke prijsgrenzen, wat leidt tot een betere kapitaalefficiëntie en hogere inkomsten van transactiekosten. Dit vereist wel actiever beheer."
+      },
+      "outOfRange": {
+        "closePosition": "Positie sluiten",
+        "description": "Je kunt het bereik van deze positie niet aanpassen tijdens het migreren. Sluit deze positie en open een nieuwe v4-positie om een nieuw bereik in te stellen.",
+        "title": "Je probeert een positie te migreren die buiten het bereik ligt"
+      }
+    },
+    "removeHook": "Hook verwijderen",
+    "resetDescription": "Je selectie voor tokens, prijzen en bereik wordt gereset.",
+    "setRange": {
+      "inputsBelow": "Gebruik de onderstaande invoeren om je bereik in te stellen."
+    },
+    "step": {
+      "deposit": "Stortingsbedragen invoeren",
+      "price": "Instapprijs en stortingsbedragen instellen",
+      "range": "Prijsbereik en stortingsbedragen instellen",
+      "select": "Selecteer tokenpaar en vergoedingen"
+    },
+    "value": "Positiewaarde",
+    "valueUnavailable": "Waarde in USD is momenteel niet beschikbaar voor deze positie. Bekijk positiedetails voor de gestorte tokenbedragen.",
+    "wrapped": {
+      "unwrap": "{{wrappedToken}} uitpakken",
+      "warning": {
+        "info": "Pak je {{wrappedToken}} uit en stort {{nativeToken}} om kosteneffectiever en efficiënter liquiditeit te krijgen."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Verbind je wallet met je huidige posities."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "De app registreert geanonimiseerde gebruiksstatistieken om deze in de loop van de tijd te verbeteren.",
+    "autoRouter": "De app haalt de optimale handelsroute op van een Uniswap Labs-server.",
+    "infura": "De app haalt gegevens uit de chain op en bouwt contractoproepen op met een Infura API.",
+    "thirdPartyApis": "Deze app maakt gebruik van de volgende API's van derden:",
+    "trm": "De app verzamelt veilig je walletadres en deelt het met TRM Labs Inc. voor risico- en nalevingsdoeleinden.",
+    "uniswaptos": "Servicevoorwaarden van Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 app verbonden",
+      "connections_other": "{{count}} apps verbonden"
+    },
+    "error": {
+      "camera": {
+        "message": "Om een code te scannen, geef je toegang tot de camera in de systeeminstellingen",
+        "title": "De camera is uitgeschakeld"
+      },
+      "none": "Kon geen QR-code vinden"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Scan een QR-code",
+        "show": "Laat mijn QR-code zien"
+      },
+      "error": {
+        "message": "Zorg ervoor dat je een geldige QR-code voor het Ethereum-adres scant voordat je het opnieuw probeert.",
+        "title": "Ongeldige QR-code"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Geen bericht gevonden."
+      },
+      "method": {
+        "default": "Verzoek van {{dappNameOrUrl}}",
+        "signature": "Handtekeningverzoek van {{dappNameOrUrl}}",
+        "transaction": "Transactieverzoek van {{dappNameOrUrl}}"
+      },
+      "withAmount": "Sta je {{dappName}} toe om maximaal<highlight> {{amount}} </highlight>{{currencySymbol}} te gebruiken?",
+      "withoutAmount": "Sta je toe dat {{dappName}} je {{currencySymbol}} gebruikt?"
+    },
+    "status": {
+      "connecting": "Bezig met verbinden...",
+      "loading": "Bezig met laden..."
+    },
+    "title": "Scan een QR-code",
+    "wallet": {
+      "networks": "Ondersteunde netwerken",
+      "title": "Je kunt op al onze {{numOfNetworks}} ondersteunde netwerken tokens en NFT's versturen en ontvangen."
+    }
+  },
+  "range": {
+    "outOfView": "Bereik niet zichtbaar"
+  },
+  "removeLiquidity": {
+    "pooled": "Gepoold {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Hiermee krijgt het Uniswap Protocol toegang tot je token om te traden."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Indien beschikbaar worden liquiditeitsbronnen samengevoegd voor betere prijzen en gasvrij swappen.",
+    "cheapest": {
+      "v4": "De Uniswap Client selecteert de optimale tradingoptie, waarbij rekening wordt gehouden met de prijs en netwerkkosten."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Verlopen",
+      "subtitle": "Voer deze code in de Uniswap Extension in. Je herstelzin wordt veilig gecodeerd en overgedragen.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Nieuwe code over {{hours}}u {{minutes}}m {{seconds}}s",
+          "minutes": "Nieuwe code over {{minutes}}m {{seconds}}s",
+          "seconds": "Nieuwe code over {{seconds}}s"
+        }
+      },
+      "title": "Eenmalige code van Uniswap"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Ja, doorgaan"
+      },
+      "label": {
+        "browser": "Browser",
+        "device": "Apparaat"
+      },
+      "subtitle": "Ga alleen verder als je een QR-code van Uniswap Extension op een vertrouwd apparaat scant.",
+      "title": "Probeer je je wallet te importeren?",
+      "warning": "Pas op voor sites en apps die Uniswap nabootsen. Anders kan je wallet in gevaar komen."
+    },
+    "error": {
+      "encryption": "Kon de seed phrase niet voorbereiden.",
+      "noCode": "Geen OTP ontvangen. Probeer het opnieuw.",
+      "timeout": {
+        "message": "Scan de QR-code in de Uniswap Extension opnieuw om door te gaan met het synchroniseren van je wallet.",
+        "title": "Je verbinding is verlopen."
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Om deze QR-code te scannen, moet je telefoon verbonden zijn met hetzelfde wifinetwerk als je computer en moeten eventuele VPN's tijdelijk uitgeschakeld zijn.",
+        "title": "Verbind met een ander wifinetwerk"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Binnenkort beschikbaar: zoek en verken tokens op {{chainName}}",
+    "input": {
+      "placeholder": "Zoeken naar tokens en pools"
+    },
+    "results": {
+      "count_one": "1 artikel",
+      "count_other": "{{count}} artikelen"
+    },
+    "ukDisclaimer": "Disclaimer voor inwoners van het Verenigd Koninkrijk"
+  },
+  "send": {
+    "button": {
+      "review": "Overboeking beoordelen"
+    },
+    "gas": {
+      "error": {
+        "title": "N.v.t."
+      },
+      "networkCost": {
+        "title": "Netwerkkosten"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Saldo: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Selecteer ontvanger",
+      "input": {
+        "placeholder": "Zoek ENS of adres"
+      },
+      "previous_one": "1 eerdere overboeking",
+      "previous_other": "{{count}} eerdere overboekingen",
+      "results": {
+        "empty": "Geen resultaten gevonden",
+        "error": "Het door jou opgegeven adres bestaat niet of is verkeerd gespeld."
+      },
+      "section": {
+        "favorite": "Favoriete wallets",
+        "recent": "Recent",
+        "search": "Zoekresultaten",
+        "viewOnly": "Alleen-lezen wallets",
+        "yours": "Jouw wallets"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Stuur alleen geld naar deze wallet als je over de herstelzin beschikt of als je de eigenaar van de wallet kent.",
+          "title": "Je ziet deze als een alleen-lezen wallet"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Wanneer je tokens naar een walletadres verstuurt, worden deze hier weergegeven",
+          "title": "Geen wallets opgeslagen"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Je verstuurt"
+      },
+      "summary": {
+        "button": {
+          "title": "Versturen bevestigen"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Het door jou opgegeven adres bestaat niet of is verkeerd gespeld.",
+        "title": "Geen resultaten gevonden"
+      },
+      "placeholder": "Zoek ENS of adres"
+    },
+    "title": "Versturen",
+    "warning": {
+      "blocked": {
+        "default": "Deze wallet is geblokkeerd",
+        "modal": {
+          "message": "Dit adres is geblokkeerd op Uniswap Wallet omdat het gekoppeld is aan een of meer geblokkeerde activiteiten. Als je denkt dat dit een fout is, neem dan contact op via compliance@uniswap.org.",
+          "title": "Geblokkeerd adres"
+        },
+        "recipient": "Ontvangende wallet is geblokkeerd"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Je probeert geld naar een tokenadres te sturen. Dit kan resulteren in permanent verlies van je geld.",
+          "heading": "Tokenadres gedetecteerd"
+        },
+        "message": "Je probeert geld naar een tokenadres te sturen. Het versturen van crypto naar dit type adres kan resulteren in permanent verlies van je geld.",
+        "title": "Dit is een tokenadres"
+      },
+      "insufficientFunds": {
+        "message": "Je {{currencySymbol}}-saldo is afgenomen sinds je het bedrag hebt ingevoerd dat je wilt versturen",
+        "title": "Je hebt niet genoeg {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Niet genoeg <highlight>{{currencySymbol}} op {{networkName}}</highlight> om te versturen",
+          "withoutNetwork": "Niet genoeg <highlight>{{currencySymbol}}</highlight> om te versturen"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Annuleren",
+            "confirm": "Bevestigen"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Gebruikersnaam",
+          "walletAddress": "walletadres"
+        },
+        "message": "Je hebt nog niet eerder een transactie met dit adres uitgevoerd. Controleer of het adres correct is voordat je verdergaat.",
+        "title": "Nieuw adres"
+      },
+      "self": {
+        "message": "Je probeert geld naar je huidige wallet te sturen. Het versturen van crypto naar dit adres zal onnodige netwerkkosten met zich meebrengen.",
+        "title": "Dit is je huidige wallet"
+      },
+      "smartContract": {
+        "message": "Je staat op het punt om geld te sturen naar een adres dat bij een slim contract hoort. Controleer of dit het juiste adres is en of het tokens kan ontvangen. Als dat niet het geval is, kun je je geld onherroepelijk kwijtraken.",
+        "title": "Dit is een adres van een slim contract"
+      },
+      "viewOnly": {
+        "message": "Je moet deze wallet via een herstelzin importeren om assets te versturen.",
+        "title": "Deze wallet is alleen-lezen"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Recent"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Beoordeling verstuurd"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Herstelzin weergeven"
+      },
+      "action": {
+        "hide": "Herstelzin verbergen"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Ik begrijp dat Uniswap Labs mij niet kan helpen mijn wallet terug te krijgen als ik dit niet heb gedaan.",
+          "title": "Ik heb mijn herstelzin opgeslagen"
+        },
+        "initial": {
+          "subtitle": "Zorg ervoor dat je je herstelzin hebt opgeslagen, anders verlies je de toegang tot je geld",
+          "title": "Voordat je verdergaat"
+        },
+        "password": {
+          "error": "Verkeerd wachtwoord. Probeer het opnieuw"
+        },
+        "subtitle": "Voer je wachtwoord in om door te gaan",
+        "title": "Je verwijdert je herstelzin"
+      },
+      "title": "Je seed phrase",
+      "view": {
+        "warning": {
+          "message1": "Iedereen die je herstelzin kent, heeft toegang tot je wallet en geld",
+          "message2": "Bekijk dit privé",
+          "message3": "Deel dit met niemand",
+          "message4": "Voer het nooit in op websites of apps",
+          "title": "Voordat je verdergaat"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Iedereen die je herstelzin kent, heeft toegang krijgen tot je wallet en geld.",
+          "title": "Bekijk dit in een privéruimte"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Inschakelen in instellingen",
+      "feedback": "Feedback verzenden",
+      "help": "Hulp krijgen",
+      "lock": "Wallet blokkeren",
+      "privacy": "Privacybeleid",
+      "terms": "Servicevoorwaarden"
+    },
+    "footer": "Groetjes, \nhet Uniswap-team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Saldo's van minder dan USD 1,- worden niet getoond in je portefeuille."
+    },
+    "maxSlippage": "Max. slippage",
+    "section": {
+      "about": "Over",
+      "preferences": "Voorkeuren",
+      "privacyAndSecurity": "Privacy en veiligheid",
+      "support": "Ondersteuning",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} andere portemonnees"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Automatisch",
+          "dark": {
+            "subtitle": "Altijd donker thema gebruiken.",
+            "title": "Donker"
+          },
+          "device": {
+            "subtitle": "Past zich aan aan de instellingen van je apparaat.",
+            "title": "Automatisch"
+          },
+          "light": {
+            "subtitle": "Altijd licht thema gebruiken.",
+            "title": "Licht"
+          }
+        },
+        "title": "Thema"
+      },
+      "backup": {
+        "create": {
+          "description": "Een wachtwoord instellen versleutelt je back-up van je herstelzin, wat een extra beveiligingslaag toevoegt voor het geval je {{cloudProviderName}}-account ooit wordt gecompromitteerd.",
+          "title": "Maak een back-up naar {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Omdat deze wallets een herstelzin delen, worden ook de onderstaande back-ups voor deze wallets verwijderd",
+            "title": "Weet je het zeker?"
+          },
+          "warning": "Als je je back-up op {{cloudProviderName}} verwijdert, kun je je wallet alleen herstellen met een handmatige back-up van je herstelzin. Als je je herstelzin kwijtraakt, kan Uniswap Labs je assets niet herstellen."
+        },
+        "error": {
+          "message": {
+            "full": "Kan geen back-up maken van de herstelzin naar {{cloudProviderName}}. Zorg ervoor dat je {{cloudProviderName}} hebt ingeschakeld met beschikbare opslagruimte en probeer het opnieuw.",
+            "short": "Kan back-up niet verwijderen"
+          },
+          "title": "{{cloudProviderName}} fout"
+        },
+        "modal": {
+          "description": "Je hebt nog geen back-up van je herstelzin gemaakt naar {{cloudProviderName}}. Door dit te doen, kun je je wallet herstellen door op elk apparaat in te loggen op {{cloudProviderName}}.",
+          "title": "Back-up van herstelzin maken naar {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Wachtwoorden komen niet overeen"
+          },
+          "medium": "Dit is een gemiddeld sterk wachtwoord",
+          "placeholder": {
+            "confirm": "Wachtwoord bevestigen",
+            "create": "Wachtwoord aanmaken"
+          },
+          "strong": "Dit is een sterk wachtwoord",
+          "weak": "Dit is een zwak wachtwoord"
+        },
+        "recoveryPhrase": {
+          "label": "Herstelzin"
+        },
+        "selected": "Back-up op {{cloudProviderName}}",
+        "status": {
+          "action": {
+            "delete": "Back-up verwijderen"
+          },
+          "complete": "Back-up gemaakt op {{cloudProviderName}}",
+          "description": "Door een back-up van je herstelzin te maken op {{cloudProviderName}}, kun je je wallet herstellen door op elk apparaat in te loggen op je {{cloudProviderName}} -account.",
+          "inProgress": "Back-up maken naar {{cloudProviderName}} ...",
+          "recoveryPhrase": {
+            "backed": "Back-up gemaakt"
+          },
+          "title": "Back-up op {{cloudProviderName}}"
+        }
+      },
+      "beta": {
+        "tooltip": "Binnenkort beschikbaar"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Gezichtsherkenning/vingerafdruk vereisen om de app te openen.",
+            "ios": "{{biometricsMethod}} vereisen om de app te openen."
+          },
+          "title": "App-toegang"
+        },
+        "auth": "Bevestig je identiteit",
+        "off": {
+          "message": {
+            "android": "Biometrie is momenteel uitgeschakeld voor Uniswap Wallet. Je kunt dit inschakelen in je systeeminstellingen.",
+            "ios": "{{biometricsMethod}} is momenteel uitgeschakeld voor Uniswap Wallet. Je kunt dit inschakelen in je systeeminstellingen."
+          },
+          "title": {
+            "android": "Biometrie is uitgeschakeld",
+            "ios": "{{biometricsMethod}} is uitgeschakeld"
+          }
+        },
+        "title": "Ontgrendelen met gezichtsherkenning/vingerafdruk",
+        "transactions": {
+          "subtitle": {
+            "android": "Gezichtsherkenning/vingerafdruk vereisen om transacties uit te voeren.",
+            "ios": "{{biometricsMethod}} vereisen om transacties uit te voeren."
+          },
+          "title": "Transacties"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometrie is niet ingesteld op je apparaat. Als je biometrie wilt gebruiken, moet je dit eerst instellen in Instellingen.",
+            "ios": "{{biometricsMethod}} is niet ingesteld op je apparaat. Om {{biometricsMethod}} te gebruiken, moet je dit eerst instellen in Instellingen."
+          },
+          "title": {
+            "android": "Biometrie is niet ingesteld",
+            "ios": "{{biometricsMethod}} is niet ingesteld"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Als je biometrie niet inschakelt, kan iedereen die toegang krijgt tot je apparaat Uniswap Wallet openen en transacties uitvoeren.",
+            "ios": "Als je {{biometricsMethod}} niet inschakelt, kan iedereen die toegang krijgt tot je apparaat Uniswap Wallet openen en transacties uitvoeren."
+          },
+          "title": "Weet je het zeker?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Alles loskoppelen",
+        "noConnectionsDescription": "Maak verbinding met een app door te zoeken naar de knop Wallet verbinden of Inloggen."
+      },
+      "currency": {
+        "title": "Lokale valuta"
+      },
+      "hapticTouch": {
+        "title": "Haptische feedback"
+      },
+      "helpCenter": {
+        "title": "Hulpcentrum"
+      },
+      "language": {
+        "button": {
+          "navigate": "Ga naar Instellingen"
+        },
+        "description": {
+          "extension": "Uniswap stelt de taal in op basis van je systeemtaalinstellingen. Om je voorkeurstaal te wijzigen, ga je naar je systeeminstellingen.",
+          "mobile": "Uniswap stelt de taal in op basis van de taalinstellingen van je apparaat. Om je voorkeurstaal te wijzigen, ga je naar Uniswap in je apparaatinstellingen en tik je op Taal."
+        },
+        "title": "Taal"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Overboekingen, verzoeken en overige activiteit",
+            "title": "Wallet-activiteit"
+          },
+          "priceAlerts": {
+            "description": "Grote prijswijzigingen voor favoriete tokens",
+            "title": "Prijsmeldingen"
+          },
+          "updates": {
+            "description": "Aanbevelingen en nieuwe functionaliteiten",
+            "title": "Updates van Uniswap"
+          }
+        },
+        "title": "Meldingen"
+      },
+      "password": {
+        "title": "Wachtwoord veranderen"
+      },
+      "permissions": {
+        "title": "Machtigingen"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "We gebruiken anonieme gebruiksgegevens om je ervaring met de producten van Uniswap Labs te verbeteren. Wanneer dit is uitgeschakeld, volgen we alleen fouten en essentiële gegevens.",
+          "title": "App-analyses"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Voer je wachtwoord in"
+        },
+        "title": "Herstelzin"
+      },
+      "smallBalances": {
+        "title": "Saldo van portefeuille"
+      },
+      "unknownTokens": {
+        "subtitle": "Potentiële stamtonen worden niet getoond in je portefeuille.",
+        "title": "Onbekende tokens verbergen"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Label bewerken",
+          "editProfile": "Profiel bewerken",
+          "remove": "Wallet verwijderen"
+        },
+        "connection": {
+          "banner": {
+            "description": "Beheer de instellingen voor verbindingen via je wallet door op je profielfoto te klikken.",
+            "title": "Verbindingen zijn verplaatst"
+          }
+        },
+        "connections": {
+          "title": "Connecties"
+        },
+        "editLabel": {
+          "description": "Labels zijn niet openbaar. Ze worden lokaal opgeslagen en zijn alleen voor jou zichtbaar.",
+          "save": "Wijzigingen opslaan"
+        },
+        "label": "Bijnaam",
+        "testnetMode": {
+          "description": "Dit schakelt testnets in voor ontwikkelaars om functies en transacties uit te proberen zonder echte assets te gebruiken. Tokens op testnets hebben geen echte waarde.",
+          "title": "Testnetmodus"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Om Uniswap op {{label}} te gebruiken, wijzig je het netwerk in de instellingen van je wallet."
+    },
+    "title": "Instellingen",
+    "version": "Versie {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Smart wallets bieden snellere transacties met lagere kosten, door middel van beveiligde slimme contracten.",
+      "info": "Dit heeft geen invloed op wallets die vanuit een andere app al gebruik maken van slimme functies."
+    },
+    "enabledModal": {
+      "description": "Updates gaan in bij de volgende tokenmigratie.",
+      "title": "Smart wallet ingeschakeld"
+    },
+    "postSwapNudge": {
+      "description": "De slimme wallet biedt snellere transacties met lagere kosten, door middel van beveiligde slimme contracten.",
+      "enable": "Slimme wallet inschakelen",
+      "title": "Bespaar op je volgende tokenmigratie"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Je hebt nog niet eerder een transactie met dit adres uitgevoerd. Zorg ervoor dat dit het juiste adres is voordat je verdergaat.",
+        "title": "Nieuw adres"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Je staat op het punt tokens naar een speciaal type adres te versturen: een smartcontract. Controleer nogmaals of dit het juiste adres is. Als het verkeerd is, kunnen je tokens voor altijd verloren gaan.",
+        "title": "Is dit een walletadres?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24-uurse kosten",
+    "24volume": "24-uurs volume",
+    "allTimeFees": "Totaal LP-vergoedingen",
+    "allTimeSwappers": "Totaal swappers",
+    "allTimeVolume": "Toaal volume",
+    "fdv": {
+      "description": "Volledig verwaterde waardering (FDV) berekent de totale marktwaarde, ervan uitgaande dat alle tokens in omloop zijn."
+    },
+    "marketCap": {
+      "description": "De market cap is de totale marktwaarde van het circulerende aanbod van een asset."
+    },
+    "tvl": {
+      "description": "De totale vergrendelde waarde (TVL) is de totale waarde van de beschikbare assets in alle liquiditeitspools van Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "Het 1-daags volume is de hoeveelheid assets die de afgelopen 24 uur op Uniswap zijn verhandeld.",
+        "long": "1d-volume",
+        "short": "1d-volume"
+      },
+      "description": "Het volume is de hoeveelheid assets die tijdens het geselecteerde tijdsbestek op Uniswap zijn verhandeld."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} toestaan (eenmalig)"
+    },
+    "approvalNeeded": "Om dit token te gebruiken is goedkeuring nodig. ",
+    "approvalPending": "In afwachting van goedkeuring",
+    "approveAndSubmit": "Goedkeuren en versturen",
+    "approveAndSwap": "Goedkeuren en swappen",
+    "approveInWallet": "In je wallet goedkeuren",
+    "balance": {
+      "amount": "Saldo: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "De schatting is dat de meest efficiënte route ~{{gasPrice}} aan netwerkkosten kost. "
+    },
+    "bridging": {
+      "estimatedTime": "Geschatte tijd",
+      "title": "Swappen tussen netwerken",
+      "warning": {
+        "description": "Je swapt van {{fromNetwork}} naar {{toNetwork}}. Dit staat ook bekend als bridgen, waarbij je tokens van het ene netwerk naar het andere worden verplaatst."
+      }
+    },
+    "button": {
+      "max": "Maximum",
+      "review": "Beoordelen",
+      "submitting": {
+        "keep": {
+          "open": "Houd je wallet open..."
+        }
+      },
+      "swap": "Swappen",
+      "swapAnyways": "Toch swappen",
+      "unwrap": "Unwrappen",
+      "wrap": "Wrappen"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Zoeken op land of regio"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Het kan zijn dat je swap wordt uitgevoerd voordat de annulering is verwerkt. Je netwerkkosten kunnen niet worden terugbetaald. Wil je doorgaan?",
+      "cannotExecute_other": "Het kan zijn dat je swaps worden uitgevoerd voordat de annulering is verwerkt. Je netwerkkosten kunnen niet worden terugbetaald. Wil je doorgaan?"
+    },
+    "confirmLimit": "Limiet bevestigen",
+    "confirmSwap": "Swap bevestigen",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. deadline"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Tokenvergoeding"
+      },
+      "newQuote": {
+        "input": "Nieuwe invoer",
+        "output": "Nieuwe uitvoer"
+      },
+      "orderRouting": "Orderroutering",
+      "orderRoutingInfo": "Deze swap wordt via Across gerouteerd, een gedecentraliseerd protocol dat assets tussen netwerken verplaatst met prioriteit voor veiligheid, snelle uitvoering en lage prijzen.",
+      "poweredBy": "Mogelijk gemaakt door",
+      "rate": "Tarief",
+      "slippage": "Maximale slippage",
+      "uniswapFee": "Vergoeding"
+    },
+    "error": {
+      "default": "Je moet mogelijk je slippage-tolerantie verhogen. Let op: fee-on-transfer- en rebasetokens zijn niet compatibel met Uniswap V3.",
+      "expectedToFail": "Je swap zal naar verwachting mislukken.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} niet beschikbaar als input",
+      "modifiedByWallet": "Je swap is gewijzigd via je wallet. Als dit een vergissing was, annuleer dan onmiddellijk, anders riskeer je je geld te verliezen.",
+      "rejected": "Transactie afgewezen",
+      "undefinedObject": "Er is een fout opgetreden bij het uitvoeren van deze swap. Je moet mogelijk je slippage-tolerantie verhogen. Als dat niet werkt, kan er sprake zijn van een incompatibiliteit met de token die je verhandelt. Let op: fee-on-transfer- en rebasetokens zijn niet compatibel met Uniswap V3.",
+      "unknown": "Onbekende fout.",
+      "v2": {
+        "expired": "Deze transactie kon niet worden verstuurd omdat de deadline is verstreken. Controleer of je transactiedeadline niet te laag is ingesteld.",
+        "k": "De Uniswap-invariant x*y=k werd niet voldaan door de swap. Dit betekent meestal dat een van de tokens die je swapt aangepaste gedragingen bevat bij het overdragen.",
+        "slippage": "Deze transactie zal niet slagen vanwege prijsbewegingen of kosten bij overboeking. Probeer je slippage-tolerantie te vergroten",
+        "transferInput": "De input-token kan niet worden overgedragen. Er kan een probleem zijn met de input-token.",
+        "transferOutput": "De output-token kan niet worden overgedragen. Er is mogelijk een probleem met de output-token."
+      },
+      "v3": {
+        "slippage": "Deze transactie zal niet slagen door prijsbewegingen. Probeer je slippage-tolerantie te verhogen. Let op: fee-on-transfer- en rebasetokens zijn niet compatibel met Uniswap V3.",
+        "transferOutput": "De output-token kan niet worden overgeboekt. Er is mogelijk een probleem met de output-token. Let op: fee-on-transfer- en rebasetokens zijn niet compatibel met Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Er zal een groot verschil zijn tussen je input- en outputwaarden vanwege de huidige liquiditeit."
+    },
+    "fail": {
+      "message": "Probeer de slippage aan te passen naar een hogere waarde.",
+      "uniswapX": "De swap kon niet worden voltooid met UniswapX. Probeer je swap opnieuw door deze via de klassieke Uniswap API te routeren."
+    },
+    "fees": {
+      "experience": "Deze vergoeding wordt toegepast op sommige tokenparen om de beste ervaring met Uniswap te garanderen. De vergoeding wordt betaald in de output-token en is al in de koers verwerkt.",
+      "noFee": "Er worden kosten in rekening gebracht op sommige tokenparen om de beste ervaring met Uniswap te garanderen. Aan deze swap zijn geen kosten verbonden."
+    },
+    "fetchingBestPrice": "De beste prijs ophalen...",
+    "fetchingPrice": "Bezig de prijs op te halen ...",
+    "finalizingQuote": "Koers afronden...",
+    "form": {
+      "header": "Swappen",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Vanwege tokenkosten kunnen ruilbedragen alleen via het invoerveld worden ingevoerd"
+          }
+        },
+        "restore": "Herstel je wallet om te swappen"
+      }
+    },
+    "frontrun": {
+      "warning": "Je transactie kan worden gefrontrund, wat kan resulteren in een ongunstige trade."
+    },
+    "header": {
+      "viewOnly": "Alleen-lezen"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Het kan zijn dat prijsimpactberekeningen niet beschikbaar zijn voor paren met weinig liquiditeit."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "De input wordt geschat. Je verkoopt maximaal <amount />, anders wordt de transactie teruggedraaid."
+    },
+    "limit": "Limiet",
+    "limitedAssets": {
+      "warning": "Sommige assets zijn niet beschikbaar via deze interface omdat ze mogelijk niet goed samengaan met de smartcontracts, of omdat we om juridische redenen transacties niet kunnen toestaan."
+    },
+    "limitFilled": "Limiet bereikt!",
+    "limitSubmitted": "Limiet verstuurd",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "De marktprijs ligt buiten het door jou opgegeven prijsbereik. Alleen stortingen van een enkele assets toegestaan."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Het maximale bedrag dat je gegarandeerd uitgeeft. Als de prijs nog verder verschuift, wordt je transactie teruggedraaid."
+    },
+    "minPriceSlip": {
+      "revert": "Als de prijs zo beweegt dat je minder dan {{amount}} ontvangt, wordt je transactie teruggedraaid."
+    },
+    "networkCost": {
+      "paidIn": "De netwerkkosten worden betaald in {{sym}} op het netwerk {{chainName}} om transacties uit te voeren."
+    },
+    "orderRouting": "Orderroutering",
+    "outputEstimated": {
+      "atLeast": "De output wordt geschat. Je ontvangt minimaal <amount />, anders wordt de transactie teruggedraaid."
+    },
+    "payAnyway": "Toch betalen",
+    "payAtMost": "Betaal maximaal",
+    "payWith": "Betaal met",
+    "placeOrder": "Plaats order",
+    "priceImpact": "Prijsimpact",
+    "receive": {
+      "atLeast": "Minstens ontvangen:"
+    },
+    "request": {
+      "title": {
+        "full": "Swap {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Tokens swappen"
+      }
+    },
+    "review": {
+      "summary": "Je bent aan het swappen"
+    },
+    "reviewLimit": "Limiet controleren",
+    "route": {
+      "optimizedGasCost": "Deze route houdt rekening met gesplitste routes, meerdere sprongen en netwerkkosten voor elke stap."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Je transactie wordt teruggedraaid als deze langer dan deze periode in behandeling is (maximaal 3 dagen).",
+        "warning": "Hoge deadline"
+      },
+      "protection": {
+        "description": "Met swapbescherming ingeschakeld, worden je Ethereum-transacties beschermd tegen sandwichaanvallen, met verminderde kans op mislukkingen.",
+        "subtitle": {
+          "supported": "{{chainName}}-netwerk",
+          "unavailable": "Niet beschikbaar op {{chainName}}"
+        },
+        "title": "Swapbescherming"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "De Uniswap Client selecteert de goedkoopste trade-optie en houdt daarbij rekening met de prijs en de netwerkkosten."
+            },
+            "tooltip": "Er wordt een route geïdentificeerd op basis van v2-, v3- en bepaalde v4-pools, waarbij rekening wordt gehouden met de geschatte prijsimpact en de netwerkkosten."
+          },
+          "v2": {
+            "title": "v2-pools"
+          },
+          "v3": {
+            "title": "v3-pools"
+          },
+          "v4": {
+            "title": "v4-pools"
+          }
+        },
+        "title": "Trade-opties"
+      },
+      "slippage": {
+        "alert": "Hoge slippage",
+        "control": {
+          "auto": "Automatisch"
+        },
+        "description": "Je transactie wordt teruggedraaid als de prijs meer verandert dan het slippage-percentage.",
+        "input": {
+          "message": "Als de prijs nog verder verschuift, wordt je transactie teruggedraaid. Hieronder vind je het minimumbedrag dat je gegarandeerd ontvangt.",
+          "receive": {
+            "title": "Minstens ontvangen:"
+          }
+        },
+        "output": {
+          "message": "Als de prijs verder verschuift, wordt je transactie geannuleerd. Hieronder staat het maximale bedrag dat je zou moeten uitgeven.",
+          "spend": {
+            "title": "Besteed maximaal"
+          }
+        },
+        "warning": {
+          "description": "Een slippage van meer dan 20% zal waarschijnlijk resulteren in een ongunstige trade. Verlaag je instellingen om het risico op front-running te verminderen.",
+          "hover": "Dit kan een ongunstige trade tot gevolg hebben. Probeer je slippage-instellingen te verlagen.",
+          "max": "Voer een waarde in die kleiner is dan {{maxSlippageTolerance}}",
+          "message": "Slippage kan groter zijn dan nodig",
+          "min": "Voer een waarde in die groter is dan 0"
+        }
+      },
+      "title": "Swap-instellingen",
+      "transactionRevertPrice": "Je transactie wordt geannuleerd als de prijs ongunstig verandert met meer dan dit percentage."
+    },
+    "signAndSwap": "Ondertekenen en swappen",
+    "slippage": {
+      "amt": "{{amt}} slippage",
+      "bridging": "Geen slippage bij het swappen tussen netwerken",
+      "settings": {
+        "title": "Maximale slippage"
+      },
+      "tooltip": "De maximale prijsbeweging voordat je transactie wordt teruggedraaid."
+    },
+    "slippageBelow": {
+      "warning": "Een slippage onder {{amt}} kan resulteren in een mislukte transactie"
+    },
+    "submitted": "Swap verstuurd",
+    "success": "Swap gelukt!",
+    "tokenOwnFees": "Sommige tokens brengen kosten in rekening bij aankoop of verkoop, ingesteld door de tokenuitgever. Uniswap ontvangt geen van deze kosten.",
+    "total": "Totaal",
+    "tradeRoutes": "Handelsroutes",
+    "transaction": {
+      "deadline": "Transactiedeadline",
+      "revertAfter": "Je transactie wordt teruggedraaid als deze langer in behandeling blijft dan deze tijdsperiode."
+    },
+    "unsupportedAssets": {
+      "readMore": "Lees meer over niet-ondersteunde assets"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Voer een groter bedrag in"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Probeer je slippage te verhogen.",
+        "titleMay": "Deze swap kan mogelijk mislukken"
+      },
+      "insufficientBalance": {
+        "title": "Je hebt niet genoeg {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Swappen voor {{ tokenSymbol }} op {{networkName}}",
+          "buy": "{{ tokenSymbol }} kopen",
+          "buyWithCard": "Kopen met betaalpas"
+        },
+        "message": {
+          "withNetwork": "Onvoldoende <highlight>{{currencySymbol}} op {{networkName}}</highlight> om te swappen",
+          "withoutNetwork": "Onvoldoende <highlight>{{currencySymbol}}</highlight> om te swappen"
+        },
+        "title": "Je hebt onvoldoende {{currencySymbol}} om de netwerkkosten te dekken"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} (eenmalig) toestaan",
+        "highRelativeToValue": {
+          "unichain": "De netwerkkosten zijn meer dan 10% van je totale transactiewaarde. Dit zijn de kosten om je transactie te verwerken op de blockchain."
+        },
+        "message": {
+          "unichain": "Dit zijn de kosten om je transactie te verwerken op de blockchain.",
+          "uniswapX": {
+            "unichain": "Dit zijn de kosten om je transactie te verwerken op de blockchain. <gradient>UniswapX</gradient> bundelt liquiditeitsbronnen voor betere prijzen en gasvrije swaps."
+          }
+        },
+        "wrap": "ETH wrappen"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Geen bridging-koersen gevonden. Probeer de officiële bridge."
+        },
+        "title": "Geen koersen gevonden"
+      },
+      "noRoutesFound": {
+        "message": "Er zijn momenteel geen routes beschikbaar voor de geselecteerde tokens. Probeer een ander paar of kom later terug.",
+        "title": "Geen routes beschikbaar"
+      },
+      "offline": {
+        "message": "Mogelijk is je internetverbinding verbroken of is het netwerk uitgevallen. Controleer je internetverbinding en probeer het opnieuw.",
+        "title": "Je bent offline"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Deze transactie zal een prijsimpact van {{priceImpactValue}} hebben op de marktprijs van deze pool en zal resulteren in verlies van geld."
+        },
+        "title": {
+          "veryHigh": "Zeer hoge prijsimpact ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Je transactie is niet verstuurd omdat je de app hebt gesloten.",
+        "approvalFailed": "Je transactie is niet verstuurd omdat de tokengoedkeuring is mislukt.",
+        "stale": "Je transactie is niet verstuurd omdat je de app hebt gesloten of omdat de goedkeuring te lang heeft geduurd.",
+        "submissionFailed": "Er is een probleem opgetreden bij het versturen van je transactie.",
+        "title": "Swap geannuleerd",
+        "wrap": {
+          "message": "Je ETH blijft gewrapt als WETH."
+        },
+        "wrapFailed": "Je transactie is niet verstuurd omdat de wraptransactie is mislukt."
+      },
+      "rateLimit": {
+        "message": "Probeer het over een paar minuten opnieuw.",
+        "title": "Tarieflimiet overschreden"
+      },
+      "router": {
+        "message": "Mogelijk is de verbinding verbroken of is het netwerk uitgevallen. Als het probleem zich blijft voordoen, probeer het dan later opnieuw.",
+        "title": "Deze transactie kan momenteel niet worden voltooid"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} is geblokkeerd"
+      },
+      "tokenBlockedFallback": {
+        "button": "Token is geblokkeerd"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Er worden kosten in rekening gebracht om de beste ervaring met Uniswap te garanderen. Aan deze swap zijn geen kosten verbonden.",
+          "included": "Er worden kosten in rekening gebracht om de beste ervaring met Uniswap te garanderen, en deze zijn al in deze koers verwerkt."
+        },
+        "title": "Swapkosten"
+      },
+      "viewOnly": {
+        "message": "Je moet deze wallet via herstelzin importeren om tokens te kunnen swappen."
+      }
+    },
+    "wrap": {
+      "token": "{{sym}} wrappen"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Op andere netwerken",
+      "otherNetworksBalance": "Saldo op andere netwerken",
+      "title": "Je saldo"
+    },
+    "button": {
+      "getToken": "{{ tokenSymbol }} ontvangen",
+      "getTokenFallback": "Token ontvangen"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Overschakelen naar {{network}}",
+      "title": "Deze token bestaat niet",
+      "titleWithChain": "Deze token bestaat niet op {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "tokendata voor <tokenLink />",
+        "withChain": "tokendata voor <tokenLink /> op {{chainName}}"
+      }
+    },
+    "nameNotFound": "Naam niet gevonden",
+    "noInfoAvailable": "Geen tokeninformatie beschikbaar",
+    "noTestnetSupportDescription": "Sommige testnetten ondersteunen het swappen, versturen of kopen van tokens niet.",
+    "stats": {
+      "unsupportedChainDescription": "Tokenstatistieken en grafieken voor {{chain}} zijn beschikbaar op {{infoLink}}"
+    },
+    "symbolNotFound": "Symbool niet gevonden"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Voor deze actie moet de testnetmodus zijn uitgeschakeld. Je kunt de testnetmodus op elk moment via de instellingen weer inschakelen.",
+          "toTestnetMode": "Voor deze actie moet de testnetmodus zijn ingeschakeld. Tokens op testnets hebben geen echte waarde. Je kunt de testnetmodus op elk moment via de instellingen weer uitschakelen."
+        },
+        "title": {
+          "toProdMode": "Testnetmodus uitschakelen",
+          "toTestnetMode": "Testnetmodus inschakelen"
+        }
+      }
+    },
+    "unsupported": "Deze functionaliteit wordt niet ondersteund in de testnetmodus."
+  },
+  "themeToggle": {
+    "theme": "Thema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Koop, verkoop en trade Ethereum en andere toptokens op Uniswap",
+    "createGovernanceOn": "Een nieuw bestuursvoorstel op Uniswap maken",
+    "createGovernanceTo": "Maak een nieuw bestuursvoorstel waarover UNI-houders kunnen stemmen. UNI-tokens vertegenwoordigen stemrechten in het Uniswap-bestuur.",
+    "earnFees": "Verdien vergoedingen wanneer anderen op Uniswap swappen door tokens aan liquiditeitspools toe te voegen.",
+    "easilyRemove": "Verwijder eenvoudig je liquiditeit uit Uniswap v2 en stort deze in Uniswap v3.",
+    "easilyRemoveV4": "Verwijder eenvoudig je liquiditeit van Uniswap v2 en v3 en stort deze in Uniswap v4.",
+    "explore": "Ontdek NFT's op Uniswap",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "Beheer je NFT-collectie. Bekijk kenmerken, tradingactiviteiten, beschrijvingen en andere details van je NFT's.",
+    "migratev2": "Migreer v2-poolliquiditeit naar Uniswap v3",
+    "migratev3": "Migreer poolliquiditeit naar Uniswap v4",
+    "placeLimit": "Plaats limietorders op Uniswap",
+    "realTime": "Realtime prijzen, grafieken, transactiegegevens en meer.",
+    "removeLiquidityv2": "Verwijder poolliquiditeit (v2) op Uniswap",
+    "removePoolLiquidity": "Verwijder poolliquiditeit op Uniswap",
+    "removeTokensv2": "Verwijder je tokens uit v2-liquiditeitspools.",
+    "removev3Liquidity": "Verwijder je tokens uit v3-liquiditeitspools.",
+    "sendTokens": "Verzend tokens op Uniswap",
+    "swappingMadeSimple": "Eenvoudig swappen. Koop en verkoop crypto op Ethereum, Base, Arbitrum, Polygon en meer. Vertrouwd door miljoenen.",
+    "tradeTokens": "Trade tokens en bied liquiditeit. Realtime prijzen, grafieken, transactiedata en meer.",
+    "uniswapTradeCrypto": "Uniswap | Trade veilig in crypto and NTF's op het beste DeFi-platform",
+    "uniToken": "UNI-tokens vertegenwoordigen stemrechten in het Uniswap-bestuur. Je kunt zelf stemmen op elke voorstel of je stemmen delegeren aan een derde partij.",
+    "voteOnGov": "Stem over bestuursvoorstellen op Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Je saldo",
+      "other": "Saldi op andere netwerken",
+      "viewOnly": "Saldo van {{ownerAddress}}"
+    },
+    "bridge": "{{label}} tokenbridge",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Voor dit token zijn candlestick charts niet beschikbaar"
+      },
+      "tooltip": "Kosten: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Tokengegevens zijn niet beschikbaar voor testnettokens."
+      }
+    },
+    "error": {
+      "unknown": "Onbekende token"
+    },
+    "fee": {
+      "buy": {
+        "label": "koopkosten"
+      },
+      "label": "kosten",
+      "sell": {
+        "label": "verkoopkosten"
+      }
+    },
+    "links": {
+      "title": "Links",
+      "twitter": "Twitter",
+      "website": "Website"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Er is iets fout gegaan.",
+        "title": "Kon de prijsgrafiek niet laden"
+      },
+      "timeRangeLabel": {
+        "all": "Altijd",
+        "day": {
+          "verbose": "1 dag"
+        },
+        "hour": "1u",
+        "month": {
+          "verbose": "1 maand"
+        },
+        "week": {
+          "verbose": "1 week"
+        },
+        "year": {
+          "verbose": "1 jaar"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} is niet beschikbaar",
+          "tokensNotAvailable": "Het {{tokenSymbol0}} en {{tokenSymbol1}} zijn niet beschikbaar"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs ontvangt geen van deze kosten."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Doe altijd je eigen onderzoek",
+        "blocked": {
+          "description": {
+            "default_one": "Je kunt deze token niet met de Uniswap-app traden.",
+            "default_other": "Je kunt deze tokens niet met de Uniswap-app traden."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Dit is een contractadres dat dient als een unieke identificatie voor tokens op de blockchain. Alle crypto die je naar dit adres verstuurt, zal verloren gaan.",
+          "title": "Stuur geen crypto naar dit adres"
+        },
+        "dontShowWarningAgain": "Laat deze waarschuwing niet meer zien",
+        "doYourOwnResearch": "Doe altijd je eigen onderzoek voordat je verdergaat.",
+        "feeDescription": "Brengt <fee /> in rekening bij {{action}}",
+        "flaggedAsMalicious": "Gemarkeerd als schadelijk",
+        "fotHigh": {
+          "title": "Hoge transactiekosten gedetecteerd"
+        },
+        "fotLow": {
+          "title": "Transactiekosten gedetecteerd"
+        },
+        "fotVeryHigh": {
+          "title": "Zeer hoge transactiekosten gedetecteerd"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} is gemarkeerd als onverkoopbaar. Het swappen van deze token kan resulteren in verlies van je geld.",
+          "title": "100% verkoopkosten gedetecteerd"
+        },
+        "impersonator": {
+          "title": "Imitatietoken gedetecteerd"
+        },
+        "malicious": {
+          "general": {
+            "message": "Blockaid heeft {{tokenSymbol}} als schadelijk gemarkeerd."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} is mogelijk niet het token dat je wilt swappen."
+            }
+          },
+          "title": "Schadelijke token gedetecteerd"
+        },
+        "mayResultInLoss": "Als je deze token swapt, kan dit leiden tot geldverlies.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} wordt niet op toonaangevende gecentraliseerde Amerikaanse beurzen verhandeld."
+          }
+        },
+        "notListedOnExchanges": "Niet genoteerd bij toonaangevende Amerikaanse beurzen",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} is aangemerkt als verdacht door Blockaid."
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} is aangemerkt als mogelijke honeypot door Blockaid. Doe altijd je eigen onderzoek voordat je verdergaat."
+          },
+          "title": "Mogelijke honeypot gevonden"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} is gemarkeerd als onverkoopbaar.",
+          "title": "100% verkoopkosten gedetecteerd"
+        },
+        "spam": {
+          "message": "Blockaid heeft {{tokenSymbol}} als spam gemarkeerd.",
+          "title": "Spam-token gedetecteerd"
+        },
+        "spamsUsers": "Spamt gebruikers",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} rekent transactiekosten van {{buyFeePercent}} bij aankoop en {{sellFeePercent}} bij verkoop."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} rekent transactiekosten van {{feePercent}} bij de aankoop."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} rekent transactiekosten van {{feePercent}} bij de verkoop."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} brengt kosten in rekening bij koop of verkoop."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Je kunt deze token niet verhandelen via de Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Deze tokens worden niet op toonaangevende Amerikaanse gecentraliseerde beurzen verhandeld. Doe altijd uw eigen onderzoek voordat u verdergaat."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Kan zoekresultaten niet laden"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Volledig verwaterde waardering (FDV)",
+      "marketCap": "Market cap",
+      "priceHighYear": "52w Hoog",
+      "priceLowYear": "52w Laag",
+      "section": {
+        "about": "Over {{token}}"
+      },
+      "title": "Statistieken",
+      "translation": {
+        "original": "Toon origineel",
+        "translate": "Vertaal naar {{language}}"
+      },
+      "volume": "24u-volume"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Input-token"
+      },
+      "output": {
+        "fallback": "Output-token"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Swaps op het Uniswap Protocol kunnen beginnen en eindigen met ETH. Tijdens de swap wordt ETH echter gewrapt naar WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Om {{ tokenSymbol }} te ontvangen, heb je {{ nativeTokenSymbol }} nodig om de netwerkkosten te betalen.",
+      "title": "Je hebt {{ nativeTokenName }} nodig "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Token verbergen",
+      "unhide": "Token zichtbaar maken"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Bekijken in {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Kon NFT-collectie niet laden"
+          }
+        },
+        "label": {
+          "items": "Items",
+          "owners": "Eigenaren",
+          "priceFloor": "Bodem",
+          "swapVolume": "Volume"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "Kon NFT-gegevens niet laden"
+          }
+        },
+        "network": "Netwerk",
+        "owner": "Eigendom van",
+        "price": "Huidige prijs",
+        "recentPrice": "Laatste verkoopprijs",
+        "traits": "Kenmerken"
+      },
+      "empty": {
+        "description": "Geen NFT's gevonden"
+      },
+      "error": {
+        "unavailable": "Inhoud niet beschikbaar"
+      },
+      "hidden": {
+        "action": {
+          "hide": "NFT verbergen",
+          "unhide": "NFT zichtbaar maken"
+        }
+      },
+      "link": {
+        "collection": "Collectiewebsite"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Kan NFT's niet laden"
+          }
+        },
+        "none": {
+          "button": "NFT's ontvangen",
+          "description": {
+            "default": "Verplaats NFT's vanaf een andere wallet om aan de slag te gaan.",
+            "external": "Wanneer deze wallet NFT's koopt of ontvangt, verschijnen ze hier."
+          },
+          "title": "Nog geen NFT's"
+        }
+      }
+    },
+    "noneFound": "Geen tokens gevonden.",
+    "selector": {
+      "button": {
+        "choose": "Token selecteren",
+        "clear": "Alles wissen"
+      },
+      "empty": {
+        "buy": {
+          "message": "Koop crypto met een betaalpas of via de bank om tokens te versturen.",
+          "title": "Crypto kopen"
+        },
+        "receive": {
+          "title": "Tokens ontvangen"
+        },
+        "title": "Nog geen tokens"
+      },
+      "error": {
+        "load": "Kon geen tokens laden"
+      },
+      "search": {
+        "empty": "Geen resultaten voor <highlight>{{searchText}}</highlight> gevonden",
+        "placeholder": "Tokens zoeken"
+      },
+      "section": {
+        "bridging": "Tussen netwerken swappen",
+        "favorite": "Favorieten",
+        "otherNetworksSearchResults": "Tokens die zijn gevonden op andere netwerken",
+        "otherSearchResults": "Andere tokens op {{network}}",
+        "recent": "Recente zoekopdrachten",
+        "search": "Zoekresultaten",
+        "trending": "Tokenvolume per 24 uur",
+        "yours": "Je tokens"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Pools zoeken",
+          "tokens": "Tokens zoeken",
+          "transactions": "Transacties zoeken"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Transactie annuleren",
+        "description": "Als je deze transactie annuleert voordat deze door het netwerk is verwerkt, betaal je nieuwe netwerkkosten in plaats van de oorspronkelijke.",
+        "title": "Wil je deze transactie annuleren?"
+      },
+      "copy": "Transactie-ID kopiëren",
+      "copyProvider": "{{providerName}} transactie-ID kopiëren"
+    },
+    "amount": {
+      "unlimited": "Onbeperkt"
+    },
+    "date": "Verstuurd op {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Van",
+      "networkFee": "Netwerkkosten",
+      "providerFee": "Aanbiederskosten",
+      "swapRate": "Tarief",
+      "transaction": "Transactie",
+      "uniswapFee": "Kosten ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Onvoldoende poolliquiditeit om de transactie te voltooien",
+    "network": {
+      "all": "Alle netwerken"
+    },
+    "networkCost": {
+      "label": "Netwerkkosten",
+      "maxNativeBalance": {
+        "description": "Een klein bedrag van het netwerktokensaldo wordt gebruikt voor de netwerkkosten van deze overboeking.",
+        "title": "Waarom kan ik mijn maximale saldo niet gebruiken?"
+      },
+      "veryHigh": {
+        "label": "Zeer hoge netwerkkosten"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Kon de transactie niet annuleren",
+        "replace": "Kon de transactie niet vervangen"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Goedkeuren annuleren",
+        "canceling": "Bezig goedkeuren te annuleren",
+        "failed": "Kon niet goedkeuren",
+        "pending": "Bezig met goedkeuren",
+        "success": "Goedgekeurd",
+        "successDapp": "Goedgekeurd op {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Geannuleerde aankoop",
+        "canceling": "Bezig aankoop te annuleren",
+        "failed": "Kopen niet gelukt",
+        "pending": "Kopen",
+        "success": "Gekocht",
+        "successDapp": "Gekocht op {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Bevestiging geannuleerd",
+        "canceling": "In afwachting van annulering",
+        "failed": "Kon niet bevestigen",
+        "pending": "Transactie in uitvoering",
+        "success": "Transactie bevestigd",
+        "successDapp": "Transactie bevestigd op {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Geannuleerde mint",
+        "canceling": "Bezig mint te annuleren",
+        "failed": "Kon niet minten",
+        "pending": "Minten",
+        "success": "Gemint",
+        "successDapp": "Gemint op {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Geannuleerde aankoop",
+        "canceling": "Aankoop annuleren",
+        "failedOn": "Aankoop mislukt op {{serviceProvider}}",
+        "pendingOn": "Aankoop op {{serviceProvider}}",
+        "successOn": "Gekocht op {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Ontvangst geannuleerd",
+        "canceling": "Bezig ontvangen te annuleren",
+        "failedFrom": "Kon niet ontvangen van {{serviceProvider}}",
+        "pendingFrom": "Ontvangen van {{serviceProvider}}",
+        "success": "Ontvangen",
+        "successDapp": "Ontvangen op {{externalDappName}}",
+        "successFrom": "Ontvangen van {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Herroepen geannuleerd",
+        "canceling": "Bezig herroeping te annuleren",
+        "failed": "Kon niet herroepen",
+        "pending": "Bezig met herroepen",
+        "success": "Herroepen",
+        "successDapp": "Herroepen op {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Geannuleerde koop",
+        "canceling": "Koop annuleren",
+        "failedOn": "Koop mislukt via {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Lees meer over het verkopen van crypto.",
+          "title": "Waarom is mijn verkoop nog steeds in behandeling?"
+        },
+        "pendingOn": "Verkopen via {{serviceProvider}}",
+        "successOn": "Verkocht via {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Verkoop geannuleerd",
+        "canceling": "Bezig verkoop te annuleren",
+        "failed": "Kon niet verkopen",
+        "pending": "Verkopen",
+        "success": "Verkocht",
+        "successDapp": "Verkocht op {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Versturen geannuleerd",
+        "canceling": "Bezig versturen te annuleren",
+        "failed": "Kon niet versturen",
+        "pending": "Bezig met versturen",
+        "success": "Verstuurd",
+        "successDapp": "Verstuurd op {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Swap geannuleerd",
+        "canceling": "Bezig swap te annuleren",
+        "expired": "Swap verlopen",
+        "failed": "Kon niet swappen",
+        "insufficientFunds": "Onvoldoende geld",
+        "pending": "Swappen",
+        "success": "Geswapt",
+        "successDapp": "Geswapt op {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Unwrappen geannuleerd",
+        "canceling": "Bezig unwrappen te annuleren",
+        "failed": "Kon niet unwrappen",
+        "pending": "Bezig met unwrappen",
+        "success": "Uitgepakt",
+        "successDapp": "Uitgepakt op {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Wrappen geannuleerd",
+        "canceling": "Bezig wrappen te annuleren",
+        "failed": "Kon niet wrappen",
+        "pending": "Bezig met wrappen",
+        "success": "Gewrapt",
+        "successDapp": "Gewrapt op {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} aan {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} van {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Je hebt ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) nodig op {{networkName}} om de netwerkkosten van deze transactie te betalen."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Om voor dit token te swappen, heb je meer {{tokenSymbol}} op {{networkName}} nodig."
+          },
+          "title": {
+            "withNetwork": "Onvoldoende {{tokenSymbol}} op {{networkName}}",
+            "withoutNetwork": "Onvoldoende {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Je staat op het punt om het grootste deel van je netwerktokensaldo uit te geven. Laat voldoende geld over om toekomstige netwerkkosten te dekken.",
+        "title": "Laag netwerktokensaldo"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Kon transactie niet annuleren",
+        "status": "Fout bij het controleren van de transactiestatus"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> verzamelt liquiditeitsbronnen voor betere prijzen en gasvrij swappen.",
+    "learnMore": "Meer informatie over swappen met UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX bundelt liquiditeitsbronnen voor betere prijzen en gasvrije swaps.",
+    "included": "Met inbegrip van <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "De harde koers op UniswapX v2 is mislukt. Probeer opnieuw met klassieke swap."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Nu claimen"
+      },
+      "subtitle": "Maak een gepersonaliseerd web3-profiel en deel je adres eenvoudig met vrienden.",
+      "title": {
+        "compact": "<highlight>Claim je gebruikersnaam op {{unitagDomain}}</highlight> en bouw je aanpasbare profiel uit.",
+        "full": "Claim je {{unitagDomain}}-gebruikersnaam"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Kies uit je foto's",
+        "computer": "Uploaden vanaf computer",
+        "nft": "Een NFT kiezen",
+        "remove": "Profielfoto verwijderen"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Profiel aanpassen",
+        "description": "{{unitagAddress}} is klaar om crypto te versturen en ontvangen. Blijf je wallet uitbreiden door je web3-profiel aan te passen.",
+        "success": {
+          "long": "Gelukt!",
+          "short": "gelukt!"
+        }
+      },
+      "error": {
+        "addressLimit": "Je hebt al het maximale aantal wijzigingen in je gebruikersnaam voor dit adres aangebracht",
+        "avatar": "Kon avatar niet instellen. Probeer het later nog eens.",
+        "default": "Kon gebruikersnaam niet claimen. Probeer het later nog eens.",
+        "deviceLimit": "Je hebt het maximale aantal gebruikersnamen bereikt dat actief kan zijn op dit apparaat",
+        "general": "Kon gebruikersnaam niet claimen",
+        "unavailable": "Deze gebruikersnaam is niet beschikbaar",
+        "unknown": "Onbekende fout"
+      },
+      "username": {
+        "default": "jouwnaam"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Je staat op het punt je gebruikersnaam en aanpasbare profielgegevens te verwijderen. Deze kun je niet opnieuw claimen.",
+        "title": "Weet je het zeker?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "gebruikersnaam"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Je staat op het punt je gebruikersnaam te wijzigen. Als je het eenmaal hebt gewijzigd, kun je deze nooit meer opnieuw claimen.",
+        "title": "Weet je het zeker?"
+      },
+      "title": "Bewerk je gebruikersnaam",
+      "warning": {
+        "default": "Zodra je je gebruikersnaam verandert, kun je deze nooit meer opnieuw claimen. Je kunt deze maar<highlight>2</highlight> keer veranderen.",
+        "max": "Je hebt het maximale aantal van 2 wijzigingen voor je gebruikersnaam bereikt."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Claim een gebruikersnaam",
+        "description": "0x-adressen zijn verleden tijd. Gebruikersnamen zijn leesbare namen die het makkelijker maken om crypto te versturen en te ontvangen.",
+        "title": "Nieuw: gebruikersnamen",
+        "upsell": {
+          "customizable": "Aanpasbare profielen",
+          "ens": "Mogelijk gemaakt door ENS-subdomeinen",
+          "free": "Beschikbaar om te claimen"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Mogelijk gemaakt door ENS-subdomeinen",
+        "free": "Beschikbaar om te claimen",
+        "profile": "Aanpasbare profielen"
+      },
+      "subtitle": "0x-adressen zijn verleden tijd. Gebruikersnamen zijn leesbare namen die het makkelijker maken om crypto te versturen en te ontvangen.",
+      "title": "Nieuw: gebruikersnamen"
+    },
+    "notification": {
+      "delete": {
+        "error": "Kon gebruikersnaam niet verwijderen. Probeer het later nog eens.",
+        "title": "Gebruikersnaam verwijderd"
+      },
+      "profile": {
+        "error": "Kon profiel niet updaten. Probeer het later nog eens.",
+        "title": "Profiel geüpdatet"
+      },
+      "username": {
+        "error": "Kon gebruikersnaam niet wijzigen. Probeer het later nog eens.",
+        "title": "Gebruikersnaam gewijzigd"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Dit is je persoonlijke adres waar mensen crypto naartoe kunnen sturen.",
+        "title": {
+          "choose": "Maak je gebruikersnaam aan",
+          "claim": "Claim je gebruikersnaam"
+        }
+      },
+      "info": {
+        "description": "Gebruikersnamen transformeren complexe 0x-adressen in leesbare namen. Door een {{unitagDomain}}-gebruikersnaam te claimen, kun je eenvoudig crypto versturen en ontvangen en een openbaar web3-profiel opbouwen.\n",
+        "title": "Een vereenvoudigd adres"
+      },
+      "profile": {
+        "subtitle": "Upload je eigen of blijf bij je unieke Unicon. Je kunt dit later altijd nog wijzigen.",
+        "title": "Kies een profielfoto"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Verwijder gebruikersnaam",
+        "edit": "Gebruikersnaam bewerken"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Typ een bio voor je profiel"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Gebruikersnamen mogen alleen letters en cijfers bevatten",
+        "max": "Gebruikersnamen mogen niet langer zijn dan {{number}} tekens",
+        "min": "Gebruikersnamen moeten minimaal {{number}} tekens bevatten",
+        "uppercase": "Gebruikersnamen mogen alleen kleine letters en cijfers bevatten"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Onvoldoende {{tokenSymbol}} op {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 is niet beschikbaar op dit netwerk."
+  },
+  "wallet": {
+    "appSignIn": "Aanmelden met de app",
+    "connectingAgreement": "Door een wallet te verbinden, ga je akkoord met de <termsLink>Servicevoorwaarden</termsLink> van Uniswap Labs en geef je toestemming voor het <privacyLink>Privacybeleid</privacyLink>.",
+    "connectionFailed": {
+      "message": "De verbindingspoging is mislukt. Klik op Opnieuw proberen en volg de stappen om de verbinding in je wallet te maken."
+    },
+    "other": "Andere wallets",
+    "scanToConnect": "Scan QR-code om te verbinden",
+    "wrongNet": "Je wallet is met het verkeerde netwerk verbonden."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Verbind met een app door de code via WalletConnect te scannen"
+      },
+      "manage": {
+        "empty": {
+          "title": "Er zijn geen apps verbonden"
+        },
+        "title": "Connecties"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet ondersteunt momenteel {{chainNames}}. Gebruik alleen '{{dappName}}' op deze chains",
+        "title": "Verbindingsfout"
+      },
+      "general": {
+        "message": "Er is een probleem opgetreden met WalletConnect. Probeer het opnieuw",
+        "title": "Fout met WalletConnect"
+      },
+      "scantastic": {
+        "message": "Er is een probleem opgetreden met je QR-code. Probeer het opnieuw",
+        "title": "Ongeldige QR-code"
+      },
+      "unsupported": {
+        "message": "Zorg ervoor dat je een geldige WalletConnect, Ethereum-adres of Uniswap Extension QR-code scant voordat je het opnieuw probeert.",
+        "title": "Ongeldige QR-code"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 wordt niet langer ondersteund. De applicatie waarmee je verbinding probeert te maken, moet upgraden naar WalletConnect v2.",
+        "title": "Ongeldige QR-code"
+      },
+      "uwu": {
+        "scan": "Er is een probleem opgetreden bij het scannen van deze QR-code.",
+        "title": "Fout met UwU Link",
+        "unsupported": "Deze QR-code wordt niet ondersteund."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Verbinden",
+        "scrollDown": "Scrol naar beneden om verbinding te maken"
+      },
+      "switchAccount": "Wissel van account",
+      "title": "Maak verbinding met {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Boek je assets over zonder toestemming",
+        "viewTokenBalances": "Bekijk je tokensaldi",
+        "viewWalletAddress": "Bekijk je walletadres"
+      },
+      "title": "Sitemachtigingen"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Scrol naar beneden om te ondertekenen",
+        "sign": "Ondertekenen"
+      },
+      "details": {
+        "label": {
+          "function": "Functie",
+          "sending": "Bezig met versturen",
+          "token": "Token",
+          "tokens": "Tokens"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Je hebt onvoldoende {{currencySymbol}} om deze transactie te voltooien.",
+        "network": "Fout met internet- of netwerkverbinding"
+      },
+      "warning": {
+        "general": {
+          "message": "Let op: dit bericht kan assets overboeken"
+        },
+        "message": "Om berichten of transacties te ondertekenen, moet je de herstelzin van de wallet importeren.",
+        "title": "Deze wallet is in de alleen-lezenmodus"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Ontdek en onderzoek tokens op {{network}}. Ontdek toppools. Bekijk realtime prijzen, handelsvolume, TVL, grafieken en transactiegegevens.",
+      "title": {
+        "pools": "Verken toppools op {{network}} op Uniswap",
+        "tokens": "Verken toptokens op {{network}} op Uniswap",
+        "transactions": "Verken toptransacties op {{network}} op Uniswap"
+      }
+    }
+  }
+}

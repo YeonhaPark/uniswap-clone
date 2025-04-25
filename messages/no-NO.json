@@ -1,0 +1,4508 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Gjør krav på {{amount}} belønning"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Det er flere gjenopprettingsfraser som er sikkerhetskopiert til din {{cloudProviderName}}.",
+        "title": "Velg en sikkerhetskopi for å gjenopprette"
+      },
+      "button": {
+        "restore": {
+          "android": "Gjenopprett fra Google Disk",
+          "ios": "Gjenopprett fra iCloud"
+        }
+      },
+      "empty": {
+        "description": "Det ser ut til at du ikke har sikkerhetskopiert noen av gjenopprettingsfrasene dine til {{cloudProviderName}}.",
+        "title": "0 sikkerhetskopier funnet"
+      },
+      "error": {
+        "backup": {
+          "message": "Kunne ikke importere sikkerhetskopier på grunn av manglende tillatelser, avbrudd i autorisasjonen eller på grunn av en skyfeil",
+          "title": "Feil under import av sikkerhetskopier"
+        },
+        "password": {
+          "title": "Ugyldig passord. Vær så snill, prøv på nytt."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Ikke nå",
+            "settings": "Gå til Innstillinger"
+          },
+          "message": {
+            "android": "Bekreft at du er logget på en Google-konto med Google Disk aktivert på denne enheten, og prøv igjen.",
+            "ios": "Kontroller at du er logget på en Apple-ID med iCloud Drive aktivert på denne enheten, og prøv igjen."
+          },
+          "title": {
+            "android": "Google Disk er ikke tilgjengelig",
+            "ios": "iCloud Drive er ikke tilgjengelig"
+          }
+        }
+      },
+      "loading": {
+        "title": "Søker etter sikkerhetskopier..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "For mange forsøk. Prøv igjen om 1 time.",
+          "hours_other": "For mange forsøk. Prøv igjen om {{count}} timer.",
+          "minutes_one": "For mange forsøk. Prøv igjen om 1 minutt.",
+          "minutes_other": "For mange forsøk. Prøv igjen om {{count}} minutter."
+        }
+      },
+      "password": {
+        "input": "Oppgi passord",
+        "recoveryPhrase": "Skriv inn gjenopprettingsfrasen i stedet",
+        "subtitle": "Dette passordet kreves for å gjenopprette sikkerhetskopien av gjenopprettingsfrasen fra {{cloudProviderName}}.",
+        "title": "Skriv inn sikkerhetskopipassord"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Versjon: ",
+      "modal": {
+        "body": "Lagre og bytt ut tokens trygt med Uniswap-appen. Tilgjengelig på iOS og Android.",
+        "dont": "Har du ikke en Uniswap-lommebok?",
+        "scan": "Skann med Uniswap Wallet"
+      },
+      "spamToggle": "Skjul ukjente tokens og NFT-er"
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Denne bestillingen ble kansellert fordi saldoen din gikk under det angitte beløpet."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Denne bestillingen vil ikke fylles fordi saldoen din gikk under det angitte beløpet. Øk saldoen for å fikse."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "En gjenopprettingsfrase (eller frøsetning) er et <highlight>sett med ord</highlight> som kreves for å få tilgang til lommeboken din, <highlight>som et passord.</highlight>",
+        "part2": "Du kan <highlight>skrive inn</highlight> gjenopprettingsfrasen din på en ny enhet <highlight>for å gjenopprette lommeboken</highlight> og dens innhold.",
+        "part3": "Men hvis du <highlight>mister gjenopprettingsfrasen</highlight>, vil du <highlight>miste tilgangen</highlight> til lommeboken din.",
+        "part4": "I stedet for å huske gjenopprettingsfrasen din, kan du <highlight>sikkerhetskopiere den til {{cloudProviderName}}</highlight> og beskytte den med et passord.",
+        "part5": "Du kan også sikkerhetskopiere gjenopprettingsfrasen manuelt ved å <highlight>skrive den ned</highlight> og lagre den på et trygt sted.",
+        "part6": "Vi anbefaler å bruke <highlight>begge typer sikkerhetskopier</highlight>, fordi hvis du mister gjenopprettingsfrasen, vil du ikke kunne gjenopprette lommeboken."
+      },
+      "error": {
+        "invalid": "Ugyldig setning",
+        "invalidWord": "Ugyldig ord: {{word}}",
+        "phraseLength": "Gjenopprettingsfrase må bestå av 12-24 ord",
+        "wrong": "Feil gjenopprettingsfrase"
+      },
+      "helpText": {
+        "import": "Hvordan finner jeg min gjenopprettingsfrase?",
+        "restoring": "Prøv å søke på nytt"
+      },
+      "input": "Skriv inn gjenopprettingsfrasen",
+      "remove": {
+        "final": {
+          "description": "Sørg for at du har skrevet ned gjenopprettingsfrasen eller sikkerhetskopiert den på {{cloudProviderName}}. <highlight>Du vil ikke ha tilgang til midlene dine ellers.</highlight>",
+          "title": "Du fjerner <highlight>gjenopprettingsfrasen</highlight>"
+        },
+        "import": {
+          "description": "Du kan bare lagre én gjenopprettingsfrase om gangen. For å fortsette å importere en ny, må du fjerne den nåværende gjenopprettingsfrasen og eventuelle tilknyttede lommebøker fra denne enheten."
+        },
+        "initial": {
+          "description": "Dette vil fjerne lommeboken din fra denne enheten sammen med gjenopprettingsfrasen.",
+          "title": "Du fjerner <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Den deler den samme gjenopprettingsfrasen som {{walletNames, list}}. Gjenopprettingsfrasen forblir lagret til du sletter alle gjenværende lommebøker."
+        }
+      },
+      "subtitle": {
+        "import": "Gjenopprettingsfrasen din vil bare bli lagret lokalt på enheten din.",
+        "restoring": "Skriv inn gjenopprettingsfrasen nedenfor, eller prøv å søke etter sikkerhetskopier på nytt."
+      },
+      "title": {
+        "import": "Skriv inn gjenopprettingsfrasen",
+        "restoring": "Ingen sikkerhetskopier funnet"
+      }
+    },
+    "transactionSummary": {
+      "addLiquidity": "Legg til {{baseSymbol}}/{{quoteSymbol}} V3-likviditet",
+      "addLiquidityv2": "Legg til <baseAmountAndToken /> og <quoteAmountAndToken /> til Uniswap V2",
+      "approve": "Godkjenn {{tokenSymbol}}",
+      "claimFor": "Gjør krav på <currency /> for {{username}}",
+      "claimReward": "Gjør krav på UNI-belønning for {{username}}",
+      "collectFees": "Samle gebyrer for {{symbol0}}/{{symbol1}}",
+      "createAddLiquidity": "Opprett pool og legg til {{baseSymbol}}/{{quoteSymbol}} V3-likviditet",
+      "createPool": "Lag {{baseSymbol}}/{{quoteSymbol}} V3-pool",
+      "decision": {
+        "abstain": "Stem for å avstå fra forslaget {{proposalKey}} med begrunnelse &quot;{{reason}}&quot;",
+        "against": "Stem mot forslaget {{proposalKey}} med begrunnelse &quot;{{reason}}&quot;",
+        "for": "Stem på forslag {{proposalKey}} med begrunnelse &quot;{{reason: info.reason}}&quot;"
+      },
+      "delegateSummary": "Delegere stemmerett til {{username}}",
+      "depositLiquidity": "Innskuddslikviditet",
+      "executeProposal": "Utfør forslaget {{proposalKey}}.",
+      "migrateLiquidity": "Migrer {{baseSymbol}}/{{quoteSymbol}} likviditet til V3",
+      "queueProposal": "Køforslag {{proposalKey}}.",
+      "removeLiquiditySummary": "Fjern <base /> og <quote />",
+      "revoke": "Opphev {{tokenSymbol}}",
+      "sendSummary": "Sendt <amount /> til {{recipient}}",
+      "submitProposal": "Send inn nytt forslag",
+      "swapExactIn": "Bytt nøyaktig <amount1 /> med <amount2 />",
+      "swapExactOut": "Bytt <amount1 /> med nøyaktig <amount2 />",
+      "unwrapTo": "Pakk ut <amount /> til {{symbol}}",
+      "vote": {
+        "abstain": "Stem for å avstå fra forslaget {{proposalKey}}",
+        "against": "Stem mot forslaget {{proposalKey}}",
+        "for": "Stem for forslag {{proposalKey}}"
+      },
+      "withdrawLiquidity": "Ta ut innskuddslikviditet",
+      "wrapTo": "Pakk <amount /> til {{symbol}}"
+    },
+    "wallet": {
+      "action": {
+        "copy": "Kopier lommebokadressen",
+        "report": "Rapporter profil",
+        "settings": "Lommebokinnstillinger",
+        "viewExplorer": "Se på {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Legg til lommebok",
+        "addViewOnly": "Legg til en lommebok for visning",
+        "create": "Lag en ny lommebok",
+        "import": "Importer en ny lommebok",
+        "manage": "Administrer lommebok",
+        "remove": "Fjern lommeboken",
+        "restore": "Gjenopprett lommebok",
+        "watch": "Se på en lommebok"
+      },
+      "create": {
+        "placeholder": "Lommebok {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Lommeboketikett"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Rediger profil"
+          },
+          "title": "Rediger etikett"
+        },
+        "other": "Dine andre lommebøker",
+        "viewOnly": "Se-bare lommebøker"
+      },
+      "menu": {
+        "copy": {
+          "title": "Kopier lommebokadressen"
+        },
+        "edit": {
+          "title": "Rediger etikett"
+        },
+        "remove": {
+          "title": "Fjern lommeboken"
+        }
+      },
+      "remove": {
+        "check": "Jeg har sikkerhetskopiert gjenopprettingsfrasen og forstår at Uniswap Labs ikke kan hjelpe meg med å gjenopprette lommeboken hvis jeg ikke klarte å gjøre det.",
+        "title": "Fjern {{name}}",
+        "viewOnly": "Du kan alltid legge til visningsbeskyttede lommebøker ved å skrive inn lommebokens adresse."
+      },
+      "restore": {
+        "description": "Fordi du bruker en ny enhet, må du gjenopprette gjenopprettingsfrasen. Dette vil tillate deg å bytte og sende tokens."
+      },
+      "select": {
+        "error": "Kunne ikke laste inn adresser",
+        "loading": {
+          "subtitle": "Lommebøkene dine vises nedenfor.",
+          "title": "Søker etter lommebøker"
+        },
+        "title_one_one": "En lommebok funnet",
+        "title_one_other": "Velg lommebøker som skal importeres"
+      },
+      "viewOnly": {
+        "button": "Importer lommebok",
+        "description": "For å bytte, kjøpe, sende og motta tokens, må du importere denne lommebokens gjenopprettingsfrase.",
+        "title": "Denne lommeboken er visningsbeskyttet"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Denne adressen er allerede importert",
+          "notFound": "Adressen ble ikke funnet",
+          "smartContract": "Adresse er en smart kontrakt"
+        },
+        "message": "Ved å legge til en visningslommebok kan du prøve appen eller spore en lommebok. Du vil ikke kunne bytte eller sende penger.",
+        "placeholder": "ENS eller adresse",
+        "title": "Skriv inn en lommebokadresse"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Venter",
+    "transaction": {
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} fra {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} til {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> for <amountWithSymbolB />"
+        }
+      },
+      "tokens": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> og <amountWithSymbolB />"
+        }
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Andel av bassenget"
+  },
+  "addressInput": {
+    "recipient": "Mottaker"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Vi bruker anonymiserte data for å forbedre opplevelsen din med Uniswap Labs-produkter."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Ikke egentlig"
+    },
+    "description": "Gi oss beskjed hvis du har en god opplevelse med denne appen",
+    "extension": {
+      "review": {
+        "description": "Velg en stjernerangering og legg igjen en anmeldelse på Chrome Nettmarked.",
+        "title": "Vil du vurdere Uniswap-utvidelsen?"
+      },
+      "title": "Liker du Uniswap Extension?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Send tilbakemelding"
+      },
+      "description": "Fortell oss hvordan vi kan forbedre opplevelsen din",
+      "title": "Vi beklager å høre det."
+    },
+    "mobile": {
+      "title": "Liker du Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "burn": {
+    "input": {
+      "enterAPercent": {
+        "error": "Skriv inn en prosent"
+      }
+    }
+  },
+  "chart": {
+    "candlestick": "Lysestake",
+    "error": {
+      "pools": "Kan ikke vise historiske data for gjeldende basseng.",
+      "tokens": "Kan ikke vise historiske data for gjeldende token."
+    },
+    "line": "Linjediagram",
+    "missingData": "Manglende kartdata",
+    "price": {
+      "label": {
+        "close": "Lukk",
+        "high": "Høy",
+        "low": "Lav",
+        "open": "Åpen"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Denne innstillingen er utilgjengelig for gjeldende diagram"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Takk for at du er en del av Uniswap-fellesskapet <heart />",
+    "uni": {
+      "arrived": "UNI har kommet"
+    }
+  },
+  "common": {
+    "accept": "Aksepterer",
+    "activity": "Aktivitet",
+    "add": {
+      "label": "Legg til",
+      "liquidity": {
+        "cancelled": "Legg til likviditet kansellert",
+        "failed": "Tilførsel av likviditet mislyktes"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Legg til V2-likviditet kansellert",
+          "failed": "Legg til V2-likviditet mislyktes"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Tilført likviditet",
+      "v2": {
+        "liquidity": "Lagt til V2-likviditet"
+      }
+    },
+    "addedLiquidity": "Tilført likviditet",
+    "adding": {
+      "liquidity": "Tilføre likviditet",
+      "v2": {
+        "liquidity": "Legger til V2-likviditet"
+      }
+    },
+    "addLiquidity": "Legg til likviditet",
+    "addressOrENS": "Lommebokadresse eller ENS-navn",
+    "advanced": "Avansert",
+    "all": "Alle",
+    "allTime": "Hele tiden",
+    "amount": {
+      "label": "Beløp"
+    },
+    "amountDeposited": {
+      "label": "{{amount}} Deponert"
+    },
+    "and": "og",
+    "app": "App",
+    "approval": {
+      "cancelled": "Godkjenning kansellert",
+      "failed": "Godkjenning mislyktes"
+    },
+    "approve": "Vedta",
+    "approved": "Godkjent",
+    "approvePending": "Venter på godkjenning...",
+    "approveSpend": "Godkjenn {{symbol}} utgifter",
+    "approving": "Godkjenner",
+    "areYouSure": "Er du sikker?",
+    "automatic": "Auto",
+    "availableIn": "Uniswap tilgjengelig i: <locale />",
+    "availableOnIOSAndroid": "Tilgjengelig på iOS og Android",
+    "availableOnIOSAndroidChrome": "Tilgjengelig på iOS, Android og Chrome",
+    "backToPositions": "Tilbake til posisjoner",
+    "blocked": {
+      "ifError": "Hvis du mener dette er en feil, vennligst send en e-post med adressen din til <emailAddress />",
+      "reason": "Denne adressen er blokkert på Uniswap Labs-grensesnittet fordi den er knyttet til en eller flere <link>blokkerte aktiviteter</link>."
+    },
+    "blockedAddress": "Blokkert adresse",
+    "blog": "Blogg",
+    "borrow": {
+      "cancelled": "Lån kansellert",
+      "failed": "Lånet mislyktes"
+    },
+    "borrowed": "Lånt",
+    "borrowing": "Låne",
+    "bought": "Kjøpt",
+    "brandAssets": "Merkeverdier",
+    "burn": {
+      "cancelled": "Brenningen avbrutt",
+      "failed": "Brenningen mislyktes"
+    },
+    "burned": "Brent",
+    "burning": "Brenning",
+    "button": {
+      "accept": "Aksepterer",
+      "back": "Tilbake",
+      "buy": "Kjøpe",
+      "cancel": "Avbryt",
+      "checkin": "Sjekk inn",
+      "close": "Lukk",
+      "confirm": "Bekrefte",
+      "connect": "Koble",
+      "continue": "Fortsette",
+      "copied": "Kopiert",
+      "copy": "Kopiere",
+      "create": "Skape",
+      "delete": "Slett",
+      "disconnect": "Koble fra",
+      "dismiss": "Avskjedige",
+      "done": "Ferdig",
+      "edit": "Redigere",
+      "enable": "Muliggjøre",
+      "finish": "Fullfør",
+      "goBack": "Gå tilbake",
+      "later": "Kanskje senere",
+      "learn": "Lære mer",
+      "next": "Neste",
+      "notNow": "Ikke nå",
+      "ok": "OK",
+      "paste": "Lim inn",
+      "pay": "Betale",
+      "receive": "Motta",
+      "remove": "Fjerne",
+      "reset": "Tilbakestill",
+      "restore": "Restaurere",
+      "retry": "Prøv på nytt",
+      "reveal": "Avsløre",
+      "review": "Anmeldelse",
+      "save": "Lagre",
+      "scrollDown": "Bla nedover",
+      "sell": "Selge",
+      "send": "Sende",
+      "setup": "Sett opp",
+      "share": "Dele",
+      "showLess": "Vis mindre",
+      "showMore": "Vis mer",
+      "sign": "Skilt",
+      "skip": "Hopp over",
+      "swap": "Bytte",
+      "tryAgain": "Prøv igjen",
+      "understand": "jeg forstår",
+      "view": "Utsikt",
+      "viewDetails": "Se detaljer",
+      "yes": "Ja"
+    },
+    "buy": {
+      "cancelled": "Kjøp kansellert",
+      "failed": "Kjøp mislyktes",
+      "label": "Kjøpe"
+    },
+    "buyAndSell": "Kjøp og selg på Uniswap",
+    "buying": "Kjøpe",
+    "by": "Av",
+    "cancel": {
+      "failed": "Avbryt mislyktes"
+    },
+    "cancellation": {
+      "cancelled": "Avbestilling kansellert"
+    },
+    "cancellationSubmitted": "Avbestilling sendt",
+    "cancellationSuccessful": "Kanselleringen var vellykket",
+    "cancelled": "avbrutt",
+    "cancelling": "Avbryter",
+    "cancelOrder": "Avbryt bestillingen",
+    "card": {
+      "error": {
+        "description": "Noe gikk galt",
+        "title": "Oops! Noe gikk galt."
+      }
+    },
+    "careers": "Karrierer",
+    "chartType": "Diagramtype",
+    "checkNetwork": "Sjekk nettverksstatus <link>her.</link>",
+    "chromeExtension": "Utvidelse",
+    "claim": {
+      "cancelled": "Kravet kansellert",
+      "failed": "Kravet mislyktes"
+    },
+    "claimed": "Hevdet",
+    "claiming": "Hevde",
+    "claimUnis": "Gjør krav på UNI-tokensene dine",
+    "clear": "Klar",
+    "close": "Lukk",
+    "closed": "Lukket",
+    "collect": {
+      "button": "Samle inn",
+      "fees": {
+        "cancelled": "Innkrevingsgebyrer kansellert",
+        "failed": "Innkreving av gebyrer mislyktes"
+      }
+    },
+    "collected": {
+      "fees": "Innkrevde gebyrer"
+    },
+    "collecting": {
+      "fees": "Innkreving av gebyrer"
+    },
+    "company": "Selskap",
+    "confirm": "Bekrefte",
+    "confirmCancellation": "Bekreft kansellering",
+    "confirmSend": {
+      "button": "Bekreft sending"
+    },
+    "confirmSwap": "Bekreft bytte i lommeboken",
+    "confirmTimedOut": "Bekreftelsen ble tidsavbrutt. Vennligst prøv på nytt.",
+    "confirmTransaction": {
+      "button": "Bekreft denne transaksjonen i lommeboken din"
+    },
+    "confirmWallet": "Bekreft i lommeboken",
+    "connect": {
+      "button": "Koble"
+    },
+    "connectAWallet": {
+      "button": "Koble til en lommebok"
+    },
+    "connectingWallet": "Kobler til lommebok...",
+    "connectWallet": {
+      "button": "Koble til lommebok"
+    },
+    "contactUs": {
+      "button": "Kontakt oss"
+    },
+    "contractInteraction": "Kontraktsinteraksjon",
+    "copied": "Kopiert",
+    "copy": {
+      "address": "Kopier adresse"
+    },
+    "copyLink": {
+      "button": "Kopier link"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Opprett basseng kansellert",
+        "failed": "Oppretting av basseng mislyktes"
+      }
+    },
+    "created": {
+      "pool": "Laget basseng"
+    },
+    "creating": {
+      "pool": "Skaper basseng"
+    },
+    "currency": "Valuta",
+    "currentPrice": {
+      "label": "Gjeldende pris:",
+      "unavailable": "Gjeldende pris er ikke tilgjengelig"
+    },
+    "custom": "Tilpasset",
+    "customRange": "Egendefinert rekkevidde",
+    "dataOutdated": "Data kan være utdaterte",
+    "default": "Misligholde",
+    "defaultTradeOptions": "Standard handelsopsjoner",
+    "delegate": {
+      "cancelled": "Delegat kansellert",
+      "failed": "Delegater mislyktes"
+    },
+    "delegated": "Delegert",
+    "delegating": "Delegering",
+    "deploy": {
+      "cancelled": "Implementeringen kansellert",
+      "failed": "Implementeringen mislyktes"
+    },
+    "deployed": "Utplassert",
+    "deploying": "Utplassering",
+    "deposit": {
+      "cancelled": "Innskudd kansellert",
+      "failed": "Innskudd mislyktes",
+      "toNetwork": "Sett inn tokens til {{label}} -nettverket."
+    },
+    "deposited": "Deponert",
+    "depositing": "Innskudd",
+    "depositTokens": "Innskuddsbrikker",
+    "detailed": {
+      "label": "Detaljert"
+    },
+    "detected": "Oppdaget",
+    "developers": "Utviklere",
+    "dismiss": "Avskjedige",
+    "displaySettings": "Skjerminnstillinger",
+    "dnsRegistrar": "DNS-registrator",
+    "donate": "Donere",
+    "dontShowAgain": "Ikke vis dette igjen",
+    "download": "nedlasting",
+    "downloadAppStore": "Last ned i App Store",
+    "downloadPlayStore": "Last ned i Play-butikken",
+    "downloadUniswap": "Last ned Uniswap",
+    "downloadUniswapApp": "Last ned Uniswap-appen",
+    "dynamic": "Dynamisk",
+    "edit": {
+      "button": "Redigere"
+    },
+    "error": {
+      "general": "Noe gikk galt",
+      "label": "Feil",
+      "request": "Beklager, det oppstod en feil under behandlingen av forespørselen din. Hvis du ber om støtte, sørg for å kopiere detaljene for denne feilen.",
+      "somethingWrong": "Noe gikk galt!",
+      "wrong": {
+        "tryAgain": "Noe gikk galt. Vær så snill, prøv på nytt."
+      }
+    },
+    "errorConnecting": {
+      "error": "Feil ved tilkobling"
+    },
+    "errorLoadingData": {
+      "error": "Feil ved innlasting av data"
+    },
+    "ethereumNameService": "Ethereum navnetjeneste",
+    "etherscan": {
+      "link": "Se på Etherscan"
+    },
+    "ethRegistrarController": "ETH-registratorkontrollør",
+    "execute": {
+      "cancelled": "Utførelse avbrutt",
+      "failed": "Utførelse mislyktes"
+    },
+    "executed": "Henrettet",
+    "executing": "Utfører",
+    "expired": "Utløpt",
+    "expiry": "Utløp",
+    "explore": "Utforske",
+    "explorer": "Utforsker",
+    "exploreTokens": "Utforsk tokens",
+    "extension": "Uniswap-utvidelse",
+    "failed": {
+      "error": "Mislyktes"
+    },
+    "failedSwitchNetwork": "Kunne ikke bytte nettverk",
+    "fee": "Avgift",
+    "fees": "Gebyrer",
+    "feesEarned": {
+      "label": "{{symbol}} Opptjente gebyrer:"
+    },
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Henter rute",
+    "floor": "Gulv",
+    "floorPrice": "Gulvpris",
+    "for": "Til",
+    "fullRange": "Hele spekteret",
+    "getApp": "Få appen",
+    "getHelp": {
+      "button": "Få hjelp"
+    },
+    "getStarted": "Kom i gang",
+    "getSupport": {
+      "button": "Få støtte"
+    },
+    "getTheApp": "Skaff deg appen",
+    "getUniswapWallet": "Få Uniswap Wallet",
+    "governance": "styresett",
+    "happyHolidays": "God ferie fra Uniswap-teamet!",
+    "helpCenter": "Hjelpesenter",
+    "hidden": "Skjult",
+    "hide": {
+      "button": "Gjemme seg"
+    },
+    "highPrice": "Høy pris",
+    "includes": "Inkluderer",
+    "info": {
+      "label": "Info"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Velg mottaker"
+      },
+      "password": {
+        "confirm": "Bekreft passord",
+        "error": {
+          "mismatch": "Passord stemmer ikke",
+          "weak": "Dette passordet er for svakt"
+        },
+        "new": "Nytt passord",
+        "placeholder": "Passord",
+        "strength": {
+          "medium": "Medium",
+          "strong": "Sterk",
+          "weak": "Svak"
+        }
+      },
+      "search": "Søk"
+    },
+    "insufficient": {
+      "funds": "Utilstrekkelige midler"
+    },
+    "insufficientBalance": {
+      "error": "Utilstrekkelig balanse"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Ikke nok midler til å dekke nettverkskostnader"
+    },
+    "insufficientLiquidity": "Utilstrekkelig likviditet",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Utilstrekkelig {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Ugyldig par",
+    "invalidRecipient": {
+      "error": "Ugyldig mottaker"
+    },
+    "iOSAndroid": "iOS og Android",
+    "language": "Språk",
+    "lastPrice": "Siste pris",
+    "learnMoreSwap": "Lær mer om bytte",
+    "legalAndPrivacy": "Juridisk og personvern",
+    "less": "Mindre",
+    "limit": {
+      "cancel_one": "Avbryt grensen",
+      "cancel_other": "Avbryt {{count}} grenser",
+      "cancelled": "Grensen kansellert",
+      "executed": "Begrensning utført",
+      "expired": "Grensen er utløpt",
+      "failed": "Grensen mislyktes",
+      "opened": "Grensen er åpnet",
+      "pending": "Begrensning venter"
+    },
+    "limits": {
+      "approachMax": "Nærmer seg 100-grensen maksimum",
+      "cancelProceed": "Avbryt grensene for å fortsette",
+      "expires": "Utløper {{timestamp}}",
+      "open": "Åpne grenser",
+      "when": "når {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Linker",
+    "liquidity": {
+      "removed": "Likviditet fjernet"
+    },
+    "loading": "Laster",
+    "loadingAllowance": "Lastegodtgjørelse",
+    "loadMore": "Last inn mer",
+    "longText": {
+      "button": {
+        "less": "Les mindre",
+        "more": "Les mer"
+      }
+    },
+    "lowPrice": "Lav pris",
+    "manage": "Få til",
+    "market": {
+      "label": "Marked"
+    },
+    "max": "Maks",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Migrering av likviditet kansellert",
+        "failed": "Migrering av likviditet mislyktes"
+      },
+      "position": "Migrer posisjon",
+      "v3": "Migrer til V3"
+    },
+    "migrated": {
+      "liquidity": "Migrert likviditet"
+    },
+    "migrating": {
+      "liquidity": "Migrering av likviditet"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Mint kansellert",
+      "failed": "Mint mislyktes"
+    },
+    "minted": "Preget",
+    "minting": "Minting",
+    "mobile": "Mobil",
+    "more": "Mer",
+    "multiDevice": "Multi-enhet",
+    "navigation": {
+      "settings": "Innstillinger",
+      "systemSettings": "Innstillinger"
+    },
+    "navigationButton": "Navigasjonsknapp",
+    "needHelp": "Trenger hjelp?",
+    "networkCost": "Nettverkskostnad",
+    "neverMind": "Glem det",
+    "new": {
+      "exclamation": "Ny!"
+    },
+    "nfts": "NFT-er",
+    "noActivity": "Ingen aktivitet ennå",
+    "noAmount": {
+      "error": "Angi et beløp"
+    },
+    "noData": "Ingen data",
+    "noResults": "Ingen resultater.",
+    "notAvailableInRegion": {
+      "error": "Ikke tilgjengelig i din region"
+    },
+    "notCreated": {
+      "label": "Ikke opprettet"
+    },
+    "notSupported": "Støttes ikke",
+    "oneDay": "1 dag",
+    "oneHour": "1 time",
+    "oneMonth": "1 måned",
+    "oneWeek": "1 uke",
+    "oneYear": "1 år",
+    "orderCancelled": "Bestillingen kansellert",
+    "orderExecuted": "Ordre utført",
+    "orderExpired": "Bestillingen er utløpt",
+    "orderPending": "Bestilling venter",
+    "outOfRange": "Ute av rekkevidde",
+    "pageNotFound": "Side ikke funnet!",
+    "passkey": "Passnøkkel",
+    "pastDay": "Siste dag",
+    "pastFiveMinutes": "De siste fem minuttene",
+    "pastHour": "Siste time",
+    "pastMonth": "Siste måned",
+    "pastWeek": "Forrige uke",
+    "pastYear": "Siste året",
+    "pay": {
+      "button": "Betale"
+    },
+    "pending": {
+      "cancellation": "Venter på kansellering"
+    },
+    "pendingEllipsis": "Avventer...",
+    "permit2": "Tillatelse 2",
+    "pool": "Basseng",
+    "pools": "Bassenger",
+    "positionUnavailable": "Stillingen er utilgjengelig",
+    "poweredBy": "Drevet av <name />",
+    "preview": "Forhåndsvisning",
+    "price": "Pris",
+    "priceImpact": "Advarsel om prispåvirkning",
+    "priceUpdated": "Pris oppdatert",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Når det er merket av, deler vi ikke dataene dine med tredjepartspartnere for personlig tilpasset annonsering. Du kan aktivere deling når som helst ved å fjerne merket for denne boksen.",
+        "label": "Ikke del informasjonen min"
+      },
+      "description": "Vi kan dele enhetsidentifikatorer med våre annonseringspartnere for å markedsføre tjenestene våre på andre nettsteder og plattformer. Der dette kvalifiserer som salg, deling eller målrettet annonsering i henhold til gjeldende lover, kan du velge bort dette ved å merke av for «ikke del min informasjon»-boksen. For mer informasjon om vår personvernpraksis, se vår <privacyLink>Personvernerklæring</privacyLink>.",
+      "disclaimer": "Vær oppmerksom på at valget ditt gjelder kun for denne nettleseren på denne enheten. Du kan også melde deg ut ved å aktivere innstillingen Global Privacy Control i nettleseren du bruker for å få tilgang til tjenestene våre. For å se flere alternativer, gå til innstillingene dine."
+    },
+    "privacyPolicy": "Personvernerklæring",
+    "proceed": "Fortsette",
+    "proceedInWallet": {
+      "short": "Fortsett i lommeboken"
+    },
+    "protocol": "Protokoll",
+    "publicResolver": "Offentlig oppløser",
+    "purchased": "Kjøpt",
+    "queue": {
+      "cancelled": "Køen kansellert",
+      "failed": "Køen mislyktes"
+    },
+    "queued": "I kø",
+    "queuing": "I kø",
+    "rate": "Vurdere",
+    "readMore": "Les mer",
+    "receive": {
+      "cancelled": "Mottak kansellert",
+      "failed": "Mottak mislyktes"
+    },
+    "received": "Mottatt",
+    "receiving": "Mottar",
+    "recent": "Nylig",
+    "rejected": "Avvist",
+    "reload": {
+      "label": "Last inn appen på nytt"
+    },
+    "remove": {
+      "label": "Fjerne",
+      "liquidity": {
+        "cancelled": "Fjern likviditet kansellert",
+        "failed": "Fjerning av likviditet mislyktes"
+      }
+    },
+    "removeAmount": "Fjern beløpet",
+    "removedLiquidity": "Fjernet likviditet",
+    "removeItem": "Fjerne gjenstand",
+    "removing": {
+      "liquidity": "Fjerne likviditet"
+    },
+    "repaid": "Nedbetalt",
+    "repay": {
+      "cancelled": "Tilbakebetaling kansellert",
+      "failed": "Tilbakebetaling mislyktes"
+    },
+    "repaying": "Tilbakebetaler",
+    "resetLimit": "Tilbakestill {{symbol}} grensen",
+    "resetLimitWallet": "Tilbakestill {{symbol}} grensen i lommeboken",
+    "resettingLimit": "Tilbakestiller {{symbol}} grensen...",
+    "resolveIssues_one": "Løs problemet",
+    "resolveIssues_other": "Løs {{count}} problemer",
+    "restricted": {
+      "region": "Begrenset region"
+    },
+    "return": {
+      "label": "Komme tilbake"
+    },
+    "returnToTop": "Gå tilbake til toppen",
+    "reverseRegistrar": "Omvendt registrar",
+    "revoke": {
+      "approval": {
+        "failed": "Tilbakekall godkjenning mislyktes"
+      }
+    },
+    "revoked": {
+      "approval": "Opphevet godkjenning"
+    },
+    "revokedApproval": "Opphevet godkjenning",
+    "revoking": {
+      "approval": "Tilbakekalle godkjenning"
+    },
+    "samePrice": "Samme pris",
+    "scanQRDownload": "Skann QR-koden med telefonen for å laste ned",
+    "selectRegion": {
+      "label": "Velg din region"
+    },
+    "selectToken": {
+      "label": "Velg et token"
+    },
+    "selfCustodial": "Selvforsorg",
+    "sell": {
+      "label": "Selge"
+    },
+    "send": {
+      "button": "Sende",
+      "cancelled": "Sendingen kansellert",
+      "failed": "Sendingen mislyktes"
+    },
+    "sending": "Sender",
+    "sent": "Sendt",
+    "settings": "Innstillinger",
+    "share": {
+      "shareToTwitter": "Del på Twitter",
+      "twitter": "Del på Twitter"
+    },
+    "show": {
+      "button": "Forestilling"
+    },
+    "showLess": {
+      "button": "Vis mindre"
+    },
+    "showMore": {
+      "button": "Vis mer"
+    },
+    "signatureExpired": "Signaturen din er utløpt.",
+    "signMessage": "Signer melding",
+    "signMessageWallet": "Signer melding i lommeboken",
+    "simple": {
+      "label": "Enkel"
+    },
+    "sold": "Solgt",
+    "stats": "Statistikk",
+    "status": "Status",
+    "stayConnected": "Hold kontakten",
+    "step": {
+      "number": "Trinn {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Send inn forslag kansellert",
+        "failed": "Sending av forslag mislyktes"
+      }
+    },
+    "submitted": {
+      "proposal": "Innsendt forslag"
+    },
+    "submitting": {
+      "proposal": "Sender inn forslag"
+    },
+    "success": "Suksess",
+    "swap": {
+      "cancelled": "Bytte kansellert",
+      "expired": "Bytte utløpt",
+      "failed": "Bytte mislyktes"
+    },
+    "swapped": "Byttet",
+    "swapPending": "Bytte venter...",
+    "swapping": "Bytting",
+    "switchNetworks": "Bytt nettverk",
+    "termsOfService": "Vilkår for bruk",
+    "text": {
+      "connected": "Tilkoblet",
+      "contract": "Kontrakt",
+      "disconnected": "Koblet fra",
+      "error": "Feil",
+      "notAvailable": "N/A",
+      "recipient": "Til",
+      "sender": "Fra",
+      "unknown": "Ukjent"
+    },
+    "thisMonth": "Denne måneden",
+    "thisWeek": "Denne uka",
+    "thisYear": "I år",
+    "time": {
+      "days": "dager",
+      "days_one": "dag",
+      "days_other": "dager",
+      "hours": "timer",
+      "hours_one": "time",
+      "hours_other": "timer",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minutter",
+      "months": "måneder",
+      "months_one": "måned",
+      "months_other": "måneder",
+      "past": {
+        "days": "{{days}}d siden",
+        "hours": "{{hours}}t siden",
+        "minutes": "{{minutes}}m siden",
+        "months": "{{months}}måned siden",
+        "seconds": "{{seconds}}s siden"
+      },
+      "weeks": "uker",
+      "weeks_one": "uke",
+      "weeks_other": "uker"
+    },
+    "tip": {
+      "label": "Tips:"
+    },
+    "to": "til",
+    "today": "I dag",
+    "tokenA": "Token A",
+    "tokenAmount": "Token beløp",
+    "tokenB": "Token B",
+    "tokenName": "Tokennavn",
+    "tokens": "Tokens",
+    "totalValueLocked": "TVL",
+    "trade": "Handel",
+    "trademarkPolicy": "Varemerkepolitikk",
+    "transactionDetails": "Transaksjonsdetaljer",
+    "transactionId": "Transaksjons-ID",
+    "transactionPending": "Transaksjonen venter",
+    "transactions": "Transaksjoner",
+    "transactionSettings": "Transaksjonsinnstillinger",
+    "transactionSubmitted": "Transaksjonen er sendt inn",
+    "transfer_one": "overføre",
+    "transfer_other": "overføringer",
+    "tryAgain": {
+      "error": "Prøv igjen"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Type"
+    },
+    "unavailable": "Utilgjengelig",
+    "uniGovernance": "UNIs styresett",
+    "uniswapMobile": "Uniswap mobil",
+    "uniswapProtocol": "Uniswap-protokoll",
+    "uniswapTVL": "Uniswap TVL",
+    "uniswapWallet": "Uniswap lommebok",
+    "uniswapX": "UniswapX",
+    "unknown": "Ukjent",
+    "unknownApproval": "Ukjent godkjenning",
+    "unknownBridge": "Ukjent bro",
+    "unknownError": {
+      "error": "Ukjent feil"
+    },
+    "unknownLend": "Ukjent utlån",
+    "unknownMint": "Ukjent mynte",
+    "unknownSend": "Ukjent Send",
+    "unknownSwap": "Ukjent bytte",
+    "unsupportedAsset_one": "Innholdselementet støttes ikke",
+    "unsupportedAsset_other": "Eiendeler som ikke støttes",
+    "unwrap": {
+      "button": "Pakk ut",
+      "failed": "Utpakking mislyktes"
+    },
+    "unwrapped": "Utpakket",
+    "unwrapping": "Utpakking",
+    "view": {
+      "profile": "Se profil"
+    },
+    "viewOnBlockExplorer": "Vis på Block Explorer",
+    "viewOnExplorer": "Vis på Explorer",
+    "volume": "Volum",
+    "vote": {
+      "cancelled": "Avstemningen kansellert",
+      "failed": "Avstemning mislyktes"
+    },
+    "voted": "Stemte",
+    "voting": "Stemmegivning",
+    "wallet": {
+      "approve": "Godkjenne i lommebok",
+      "label": "Lommebok"
+    },
+    "walletForSwapping": "Lommeboken bygget for å bytte. Tilgjengelig på iOS og Android.",
+    "warning": "Advarsel",
+    "webApp": "Nettapp",
+    "website": "Nettsted",
+    "whyApprove": "Hvorfor må jeg godkjenne et token?",
+    "whySign": "Hvorfor kreves det signaturer?",
+    "whyWrap": "Hvorfor må jeg pakke inn {{symbol}}?",
+    "withdraw": {
+      "failed": "Tilbaketrekking mislyktes"
+    },
+    "withdrawal": {
+      "amount": "Uttaksbeløp",
+      "cancelled": "Uttak kansellert"
+    },
+    "withdrawing": "Trekke tilbake",
+    "withdrew": "Trakk seg",
+    "withinRange": "Innen rekkevidde",
+    "wrap": {
+      "button": "Pakke inn",
+      "cancelled": "Innpakning avbrutt",
+      "failed": "Innpakning mislyktes"
+    },
+    "wrapIn": "Pakk  {{symbol}} inn i lommeboken",
+    "wrapped": "Innpakket",
+    "wrapping": "Innpakning",
+    "wrappingToken": "Innpakning  {{symbol}}...",
+    "wrongNetwork": "Feil nettverk",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Kontoen din hadde ikke nok midler til å fullføre dette byttet."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Kontoen din har ikke nok midler til å fullføre dette byttet."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Grensen din kunne ikke nås på dette tidspunktet. Vær så snill, prøv på nytt."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Byttet ditt kunne ikke oppfylles på dette tidspunktet. Vær så snill, prøv på nytt."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Du kjøper",
+    "youRecieve": "Du mottar",
+    "youreSending": "Du sender",
+    "youWillReceive": "Du vil motta"
+  },
+  "currency": {
+    "aud": "australske dollar",
+    "brl": "Brasiliansk real",
+    "cad": "kanadiske dollar",
+    "cny": "kinesisk yuan",
+    "eur": "Euro",
+    "gbp": "Britisk pund",
+    "hkd": "Hong Kong Dollar",
+    "idr": "indonesisk rupiah",
+    "inr": "Indisk Rupee",
+    "jpy": "japansk yen",
+    "krw": "Sørkoreansk won",
+    "ngn": "nigerianske Naira",
+    "pkr": "pakistanske rupi",
+    "rub": "Russisk rubel",
+    "sgd": "Singapore dollar",
+    "thb": "Thai baht",
+    "try": "tyrkiske lira",
+    "uah": "ukrainsk hryvnia",
+    "usd": "Amerikanske dollar",
+    "vnd": "vietnamesisk dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Vedta",
+        "fallbackTitle": "Godkjenn dette nettstedet for å få tilgang til tokens",
+        "helptext": "Tillat dette nettstedet å få tilgang til og bruke dette tokenet for transaksjoner. Sørg for at du stoler på dette nettstedet.",
+        "label": "Lommebok",
+        "title": "Godkjenn tilgang til {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Transaksjonsforespørsel"
+      },
+      "bridge": {
+        "description": "Flytt ETH, USDC og mer på tvers av {{numChains}}+ nettverk.",
+        "title": "Prøver du å bygge bro?"
+      },
+      "connect": {
+        "helptext": "La dette nettstedet se din lommebokadresse, saldo og be om godkjenning for transaksjoner.",
+        "title": "Koble til nettstedet"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Rådata"
+        },
+        "function": {
+          "label": "Funksjon"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 administrerer token-godkjenninger på tvers av flere dapps.",
+        "header": "Signer tillatelse 2"
+      },
+      "reject": {
+        "action": "Avvis alle",
+        "info": "Du har <highlight>{{totalRequestCount}}</highlight> transaksjonsforespørsler"
+      },
+      "revoke": {
+        "action": "Oppheve",
+        "helptext": "La dette nettstedet tilbakekalle tilgangen til å bruke dette tokenet for transaksjoner. Sørg for at du stoler på dette nettstedet.",
+        "title": "Oppheve tilgangen til {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Denne meldingen inneholder tegn som ikke kan gjengis. Sørg for at du stoler på dette nettstedet.",
+        "error": {
+          "712-spec-compliance": "SignTypedDataRequestContent mottok data for signering som ikke samsvarer med EIP-712-spesifikasjonen."
+        },
+        "header": "Signaturforespørsel",
+        "toggleDataView": {
+          "raw": "Se rådata",
+          "readable": "Se originaldata"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Pass på at det er den rette",
+          "title": "Dette er ikke din aktive lommebok"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Logg på her"
+      },
+      "getStarted": {
+        "description": "Start med å laste ned Uniswap Wallet, tilgjengelig på telefonen eller nettleseren din.",
+        "title": "Kom i gang med Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Kom i gang på sekunder ved å registrere deg nedenfor eller last ned lommeboken vår, tilgjengelig på telefonen eller nettleseren din."
+        },
+        "title": "Registrer deg med Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap-produkter fungerer sømløst sammen for å skape den beste onchain-opplevelsen."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Dette gir Uniswap-protokollen tilgang til tokenet ditt for handel. For sikkerhets skyld utløper den etter 30 dager."
+    },
+    "dataUnavailable": "Data er utilgjengelig for øyeblikket; vi jobber med en løsning",
+    "id": "Feil-ID: {{eventId}}",
+    "noData": "Ingen data funnet",
+    "request": {
+      "provideId": "Beklager, det oppstod en feil under behandlingen av forespørselen din. Hvis du ber om støtte, sørg for å oppgi feil-ID."
+    },
+    "tokenApproval": "Token-godkjenning mislyktes",
+    "tokenApprovalEdited": {
+      "message": "Godkjenningsbeløpet som er angitt i lommeboken din er for lavt til å fullføre denne transaksjonen. Vennligst prøv igjen og øk beløpet."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Noe krasjet.",
+      "restart": "Start appen på nytt",
+      "title": "UH oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Utforsk flere bassenger"
+    },
+    "search": {
+      "action": {
+        "clear": "Klar",
+        "viewEtherscan": "Se på {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Ingen resultater funnet for <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Kunne ikke laste inn søkeresultater",
+      "label": {
+        "ownedBy": "Eies av {{ownerAddress}}"
+      },
+      "placeholder": "Søk på tokens og lommebøker",
+      "section": {
+        "nft": "NFT-samlinger",
+        "popularNFT": "Populære NFT-samlinger",
+        "popularTokenInfo": "Populære tokens identifiseres basert på deres handelsvolum på Uniswap de siste 24 timene.",
+        "popularTokens": "Populære tokens",
+        "recent": "Nylige søk",
+        "tokens": "Tokens",
+        "wallets": "Lommebøker"
+      }
+    },
+    "tokens": {
+      "error": "Kunne ikke laste inn tokens",
+      "favorite": {
+        "action": {
+          "add": "Favoritt token",
+          "edit": "Rediger favoritter",
+          "remove": "Fjern favoritt"
+        },
+        "title": {
+          "default": "Favoritt tokens",
+          "edit": "Rediger favorittsymboler"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Markedsverdi",
+          "priceDecrease": "Prisnedgang",
+          "priceIncrease": "Prisøkning",
+          "totalValueLocked": "TVL",
+          "volume": "Volum"
+        },
+        "option": {
+          "marketCap": "Markedsverdi",
+          "priceDecrease": "Prisnedgang (24 timer)",
+          "priceIncrease": "Prisøkning (24 timer)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Unitswap volum (24 timer)"
+        }
+      },
+      "top": {
+        "title": "Topp tokens"
+      }
+    },
+    "unableToDisplayHistorical": "Kan ikke vise historiske volumdata for gjeldende kjede.",
+    "unableToDisplayHistoricalTVL": "Kan ikke vise historiske TVL-data for gjeldende kjede.",
+    "uniVolume": "Unitswap volum",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Favoritt lommebok",
+          "edit": "Rediger favoritter",
+          "remove": "Fjern favoritt"
+        },
+        "title": {
+          "default": "Favoritt lommebøker",
+          "edit": "Rediger favorittlommebøker"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "networks": "Nettverk",
+      "popup": {
+        "trouble": "Problemer med å koble til?"
+      },
+      "popupWithButton": "Lommeboken din er ikke koblet til dette nettstedet.",
+      "titleConnected": "Tilkoblet",
+      "titleNotConnected": "Ikke tilkoblet"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Glemt passord?",
+        "reset": "Tilbakestill lommebok",
+        "submit": "Låse opp"
+      },
+      "password": {
+        "error": "Feil passord. Prøv igjen",
+        "reset": {
+          "initial": {
+            "description": "Uniswap kan ikke hjelpe å gjenopprette passordet ditt. Du må tilbakestille lommeboken ved å skrive inn gjenopprettingsfrasen på 12 ord på nytt.",
+            "help": "Hvor finner jeg min gjenopprettingsfrase?",
+            "title": "Glemt passord"
+          },
+          "speedbump": {
+            "description": "Sørg for at du har 12-ords gjenopprettingsfrasen før du tilbakestiller lommeboken. Ellers vil du ikke kunne få tilbake pengene dine.",
+            "help": "Jeg mistet restitusjonsfrasen",
+            "title": "Før du fortsetter"
+          }
+        }
+      },
+      "subtitle": "Skriv inn passordet ditt for å låse opp",
+      "title": "Velkommen tilbake"
+    },
+    "network": {
+      "notSupported": "Ikke-støttet nettverk"
+    },
+    "open": "Åpne Uniswap Extension",
+    "popup": {
+      "chrome": {
+        "button": "Åpne utvidelse",
+        "description": "Fullfør denne handlingen ved å åpne Uniswap-utvidelsen.",
+        "title": "Fortsett i Uniswap"
+      }
+    },
+    "settings": {
+      "password": {
+        "enter": {
+          "title": "Skriv inn ditt nåværende passord"
+        },
+        "error": {
+          "wrong": "Feil passord"
+        },
+        "placeholder": "Nåværende passord"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Sikkerhetskopiere",
+        "message": "Sørg for å sikkerhetskopiere gjenopprettingsfrasen for å forhindre at du mister tilgang til lommeboken og pengene.",
+        "title": "Nettleseren din går tom for lagringsplass"
+      }
+    }
+  },
+  "fee": {
+    "bestForExotic": "Best for eksotiske par.",
+    "bestForMost": "Best for de fleste par.",
+    "bestForStablePairs": "Best for stabile par.",
+    "bestForVeryStable": "Best for veldig stabile par.",
+    "dynamic": "Dynamisk avgift",
+    "percentEarned": "% du vil tjene i gebyrer.",
+    "selectPercent": "{{pct}}% velg",
+    "selectPercentDescription": "{{pct}}% av likviditeten valgte dette nivået",
+    "tier": {
+      "create": {
+        "button": "Opprett nytt gebyrnivå",
+        "description": "Oppretting av et nytt nivå vil initialiseres i en ny pool og resultere i høyere nettverkskostnader enn vanlig."
+      },
+      "description": {
+        "v2": "Beløpet opptjent gir likviditet. Alle v2-pooler har faste avgifter på 0,3 %. For flere alternativer, gi likviditet på v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Du er i ferd med å opprette et basseng med et dynamisk gebyrnivå. Før du fortsetter, sørg for at den valgte kroken støtter dynamiske avgifter."
+        }
+      },
+      "highestTvl": "Høyeste TVL",
+      "label": "% du vil tjene i gebyrer",
+      "missing": {
+        "description": "Finner du ikke nivået du leter etter?"
+      },
+      "new": "Nytt nivå",
+      "percent": {
+        "select": "{{percentage}} velg"
+      },
+      "recommended": {
+        "description": "Anbefalt basert på å ha den høyeste andelen likviditet for det valgte token-paret."
+      },
+      "search": {
+        "short": "Søk i nivåer"
+      },
+      "select": {
+        "existing": {
+          "button": "Velg eksisterende gebyrnivå"
+        }
+      }
+    },
+    "tierExact": "{{fee}} gebyrnivå",
+    "unavailable": "Opptjente gebyrer er ikke synlige for v2-posisjoner før likviditeten er fjernet.",
+    "uncollected": "Inkluderer uinnkrevde avgifter:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Selg med"
+    },
+    "connection": {
+      "quote": "Selger {{amount}} verdt {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Overskrider balansen"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} for {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Gå tilbake",
+      "divider": "Ikke-støttede tokens",
+      "message": "Dette tokenet støttes ikke for salg. Bytt denne ressursen til en av de støttede tokenene.",
+      "swap": "Bytt til et støttet token",
+      "title": "Ikke-støttet token"
+    },
+    "welcome": {
+      "tooltip": "Selg kryptoen din til bankkontoen din eller debetkortet."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Velg token"
+    },
+    "cexTransferModal": {
+      "description": "Kjøp av krypto med et kort støttes ikke i din region. Overfør eiendeler fra en sentralisert byttekonto for å finansiere lommeboken din.",
+      "title": "Overfør for å komme i gang"
+    },
+    "checkout": {
+      "title": "Kasse med"
+    },
+    "checkoutWith": "Kasse med",
+    "chooseProvider": {
+      "description": "Du fortsetter til leverandørens portal for å se gebyrene knyttet til transaksjonen din."
+    },
+    "completeTransactionHeader": "Fullfør transaksjonen med {{serviceProvider}}",
+    "connection": {
+      "error": "Tilkoblingen mislyktes",
+      "errorDescription": "Noe gikk galt med å koble til {{serviceProvider}}.",
+      "message": "Kobler deg til {{serviceProvider}}",
+      "quote": "Kjøper {{amount}} verdt {{currencySymbol}}",
+      "terms": "Ved å fortsette erkjenner du at du vil være underlagt vilkårene for bruk og personvernreglene med {{serviceProvider}}, som aktuelt."
+    },
+    "continueInTab": "Gå til {{serviceProvider}} -fanen for å fortsette. Det er trygt å stenge denne modalen nå.",
+    "disclaimer": "Ved å fortsette erkjenner du at du vil være underlagt <tosLink>vilkårene for bruk</tosLink> og <privacyLink>personvernreglene</privacyLink> med {{serviceProvider}}, som aktuelt.",
+    "error": {
+      "default": "Noe gikk galt.",
+      "load": "Kunne ikke laste inn tokens for å kjøpe",
+      "max": "Maksimalt {{amount}}",
+      "min": "Minimum {{amount}}",
+      "noQuotes": "Ingen sitater funnet.",
+      "unavailable": "Denne tjenesten er utilgjengelig i din region",
+      "unsupported": "Støttes ikke i regionen",
+      "usd": "Kun tilgjengelig for kjøp i USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} for {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Ingen sitater funnet"
+    },
+    "purchasedOn": "Kjøpt på {{serviceProvider}}",
+    "quote": {
+      "advice": "Du fortsetter til leverandørens portal for å se gebyrene knyttet til transaksjonen din.",
+      "type": {
+        "list": "{{optionsList}}og andre alternativer",
+        "other": "Andre muligheter",
+        "recent": "Nylig brukt"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Fra en konto"
+        }
+      },
+      "title": "Motta krypto",
+      "transferFunds": "Finansier lommeboken din ved å overføre krypto fra en annen lommebok eller konto"
+    },
+    "region": {
+      "placeholder": "Søk etter land eller region",
+      "title": "Velg din region"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} for {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Oppdater nå",
+      "learn": "Finn ut hvordan du oppdaterer",
+      "recoveryPhrase": "Se gjenopprettingsfrase"
+    },
+    "description": {
+      "extension": "En ny versjon av appen er tilgjengelig. For å fortsette å bruke Uniswap-utvidelsen, oppdater den til den nyeste versjonen.",
+      "wallet": "En ny versjon av appen er tilgjengelig. For å fortsette å bruke Uniswap Wallet, vennligst oppdater den til den nyeste versjonen."
+    },
+    "label": {
+      "recoveryPhrase": "Gjenopprettingsfrase"
+    },
+    "title": "Oppdater til siste versjon"
+  },
+  "globalPreferences": {
+    "title": "Globale preferanser"
+  },
+  "hero": {
+    "scroll": "Rull for å lære mer",
+    "subtitle": "Den største onchain-markedsplassen. Kjøp og selg krypto på Ethereum og 11+ andre kjeder.",
+    "swap": {
+      "title": "Bytt når som helst, <br/> hvor som helst."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Finn ut mer om skjulte NFT-er"
+        },
+        "text": {
+          "button": "Skjulte NFT-er ({{numHidden}})",
+          "extension": "Dette er potensielle svindel og NFT-er du har gjemt. Du kan høyreklikke på en NFT for å vise den.",
+          "mobile": "Dette er potensielle svindel og NFT-er du har gjemt. Du kan trykke lenge på en NFT for å vise den.",
+          "title": "Skjulte NFT-er"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Lær mer om skjulte tokens"
+        },
+        "text": {
+          "button": "Skjulte tokens ({{numHidden}})",
+          "info": "Dette er potensielle svindel, små saldoer og tokens du har gjemt. Skjulte tokens er ikke inkludert i din totale lommeboksaldo.",
+          "title": "Skjulte tokens"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Motta tokens eller NFT-er",
+        "description": {
+          "default": "Når du godkjenner, handler eller overfører tokens eller NFT-er, vil transaksjonene dine vises her.",
+          "external": "Når denne lommeboken foretar transaksjoner, vises de her."
+        },
+        "title": "Ingen aktivitet ennå"
+      },
+      "error": {
+        "load": "Kunne ikke laste inn aktiviteten"
+      },
+      "title": "Aktivitet"
+    },
+    "banner": {
+      "offline": "Du er i frakoblet modus",
+      "testnetMode": {
+        "nav": "Du er i testnettmodus. Slå dette av i innstillingene."
+      }
+    },
+    "explore": {
+      "footer": "Trykk her for å utforske tusenvis av tokens, NFT-er og mer",
+      "title": "Utforsk tokens"
+    },
+    "extension": {
+      "error": "Feil ved innlasting av kontoer"
+    },
+    "label": {
+      "buy": "Kjøpe",
+      "for": "Kjøp/selg",
+      "receive": "Motta",
+      "send": "Sende",
+      "swap": "Bytte"
+    },
+    "nfts": {
+      "title": "NFT-er"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Kjøp med debetkort eller bankkonto.",
+            "title": "Kjøp krypto"
+          },
+          "import": {
+            "description": "Skriv inn denne lommebokens gjenopprettingsfrase for å begynne å bytte og sende.",
+            "title": "Importer lommebok"
+          },
+          "receive": {
+            "description": "Overfør fra en annen lommebok eller konto.",
+            "title": "Motta krypto"
+          }
+        },
+        "description": "Når denne lommeboken kjøper eller mottar tokens, vises de her.",
+        "title": "Ingen tokens ennå",
+        "welcome": {
+          "description": "Ser ut som du har en ny lommebok. La oss få det finansiert før du foretar ditt første bytte."
+        }
+      },
+      "error": {
+        "fetch": "Kunne ikke hente token-saldo",
+        "load": "Kunne ikke laste inn tokensaldoer"
+      },
+      "title": "Tokens"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Fra en konto",
+        "description": "Finansier lommeboken din ved å overføre krypto fra en annen lommebok eller konto",
+        "title": "Motta krypto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Dette er en lommebok for visning"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Bytt eller gi likviditet på Uniswap-protokollen",
+      "title": "Uniswap-grensesnitt"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Bygg neste generasjon av åpne applikasjoner og verktøy.",
+    "connectWithUs": "Ta kontakt med oss",
+    "devDocs": "Utviklerdokumenter",
+    "directToDeFi": "Gå direkte til DeFi",
+    "followOnX": "Følg @Uniswap på X for de siste oppdateringene",
+    "protocolDescription": "Uniswap-produkter drives av Uniswap-protokollen. Protokollen er den største onchain-markedsplassen, med milliarder av dollar i ukentlig volum over tusenvis av tokens på Ethereum og 7+ tilleggskjeder.",
+    "provideLiquidity": {
+      "message": "Gi likviditet til pooler på Uniswap-protokollen og tjen gebyrer på bytteavtaler."
+    },
+    "swapSimple": "Bytte gjort enkelt. Få tilgang til tusenvis av tokens på 11+ kjeder.",
+    "teamInsights": "Innsikt og nyheter fra teamet",
+    "trusted": "Stolt på av millioner"
+  },
+  "language": {
+    "afrikaans": "Afrikaans",
+    "arabic": "arabisk",
+    "catalan": "katalansk",
+    "chineseSimplified": "Forenklet kinesisk",
+    "chineseTraditional": "Tradisjonell kinesisk",
+    "czech": "tsjekkisk",
+    "danish": "dansk",
+    "dutch": "nederlandsk",
+    "english": "Engelsk",
+    "finnish": "finsk",
+    "french": "fransk",
+    "greek": "gresk",
+    "hebrew": "hebraisk",
+    "hindi": "Hindi",
+    "hungarian": "ungarsk",
+    "indonesian": "indonesisk",
+    "italian": "italiensk",
+    "japanese": "japansk",
+    "korean": "koreansk",
+    "malay": "malaysisk",
+    "norwegian": "norsk",
+    "polish": "Pusse",
+    "portuguese": "portugisisk",
+    "romanian": "rumensk",
+    "russian": "russisk",
+    "serbian": "serbisk",
+    "spanishLatam": "Spansk (Latin-Amerika)",
+    "spanishSpain": "Spansk (Spania)",
+    "spanishUs": "spansk (USA)",
+    "swahili": "Swahili",
+    "swedish": "svensk",
+    "turkish": "tyrkisk",
+    "ukrainian": "ukrainsk",
+    "urdu": "Urdu",
+    "vietnamese": "vietnamesisk"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 åpen grense",
+      "count_other": "{{count}} åpne grenser"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Grenseprisen din er {{percentage}}% høyere enn markedet. Juster grenseprisen for å fortsette.",
+        "title": "Kjøper {{tokenSymbol}} over markedsprisen"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Vi kan ikke beregne gjeldende markedspris. For å unngå å sende inn en ordre under markedspris, vennligst sjekk nettverkstilkoblingen og prøv igjen.",
+        "title": "Markedspris ikke tilgjengelig"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Grenseprisen din er {{percentage}}% lavere enn markedet. Juster grenseprisen for å fortsette.",
+        "title": "Selger {{tokenSymbol}} under markedspris"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Bare Mainnet-tokens er tilgjengelige for grenser."
+        },
+        "uniswapx": "Grenser vil kanskje ikke utføres nøyaktig når tokens når den angitte prisen. <link />"
+      }
+    },
+    "learnMore": "Finn ut mer om grenser",
+    "price": {
+      "input": {
+        "label": "Når 1 <tokenSymbol /> er verdt"
+      },
+      "label": "Begrens pris"
+    },
+    "selectSupportedTokens": "Velg støttede tokens"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Skriv inn hook-adressen"
+      }
+    },
+    "learnMoreLabel": "Lær om likviditetstilførsel",
+    "notEnough": {
+      "label": "Ikke nok likviditet til å vise nøyaktig USD-verdi."
+    },
+    "provideOnProtocols": "Tilføre likviditet på forskjellige protokoller"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likviditet: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Legg til likviditet til poolene{{version}} på Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Lukkede stillinger"
+      },
+      "page": {
+        "title": "Administrer {{quoteSymbol}}/{{baseSymbol}} pool likviditet på Uniswap",
+        "version": {
+          "description": "Se dine aktive {{version}} likviditetsposisjoner. Legg til nye stillinger.",
+          "title": "Administrer poollikviditet{{version}} på Uniswap"
+        }
+      },
+      "price": {
+        "formatted": "<amountWithSymbol /> per <outputToken />"
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Tillatt",
+    "allowLpMigration": "Tillat migrering av LP-token",
+    "connectAccount": "Du må koble til en konto.",
+    "connectWallet": "Koble til en lommebok for å se V2-likviditeten din.",
+    "contract": "Uniswap migrasjonskontrakt",
+    "firstLP": "Du er den første likviditetsleverandøren for denne Uniswap V3-poolen. Din likviditet vil migrere til gjeldende {{source}} pris.",
+    "highGasCost": "Transaksjonskostnadene dine vil være mye høyere ettersom den inkluderer gassen for å lage bassenget.",
+    "invalidRange": "Ugyldig område er valgt. Minsteprisen må være lavere enn maksprisen.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP-tokens",
+    "migrating": "Migrerer",
+    "missingV2Position": "Ser du ikke en av v2-posisjonene dine? <link>Importer den.</link>",
+    "noV2Liquidity": "Ingen V2-likviditet funnet.",
+    "positionNoFees": "Posisjonen din vil ikke tjene gebyrer eller bli brukt i handler før markedsprisen beveger seg inn i området ditt.",
+    "priceDifference": "Prisforskjell: ",
+    "priceWarning": "Du bør kun sette inn likviditet i Uniswap V3 til en pris du mener er riktig. <br /> Hvis prisen virker feil, kan du enten bytte for å flytte prisen eller vente på at noen andre gjør det.",
+    "refund": "Minst {{amtA}} {{symA}} og {{amtB}} {{symB}} vil bli refundert til lommeboken din på grunn av valgt prisklasse.",
+    "selectFeeTier": "Velg gebyrnivå",
+    "setRange": "Angi prisklasse",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Pris:",
+    "v2Description": "Dette verktøyet vil trygt migrere {{source}} likviditeten til V3. Prosessen er fullstendig tillitsløs takket være <0>Uniswap-migreringskontrakten</0> ↗",
+    "v2Instruction": "For hver pool vist nedenfor, klikk på migrere for å fjerne likviditeten din fra Uniswap V2 og sette den inn i Uniswap V3.",
+    "v2Title": "Migrer V2-likviditet",
+    "v3Price": "V3 {{sym}} Pris:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Ugyldig prisinndata"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Skaff deg Uniswap Wallet-appen"
+      },
+      "title": "Uniswap: Krypto- og NFT-lommebok"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp drevet av MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay er ikke tilgjengelig i enkelte regioner. Klikk for å lære mer."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Opprett konto"
+    },
+    "logIn": {
+      "button": "Logg inn"
+    },
+    "signIn": {
+      "button": "Logg på"
+    },
+    "signUp": {
+      "button": "Registrer deg"
+    },
+    "tabs": {
+      "createPosition": "Opprett posisjon",
+      "viewPositions": "Se posisjoner"
+    }
+  },
+  "network": {
+    "lostConnection": "Du kan ha mistet nettverkstilkoblingen.",
+    "mightBeDown": "{{network}} kan være nede akkurat nå, eller du kan ha mistet nettverkstilkoblingen.",
+    "warning": "Nettverksadvarsel"
+  },
+  "nft": {
+    "addToBag": "Legg til i kurven",
+    "authorsCollectionOnUni": "{{name}}sin NFT-samling på Uniswap",
+    "bag": "Bag",
+    "blockedCollection": "Denne samlingen er blokkert",
+    "blockedOpenSea": "Blokkert på OpenSea",
+    "buyTransferNFTToStart": "Kjøp eller overfør NFT-er til denne lommeboken for å komme i gang.",
+    "buyTransferTokensToStart": "Kjøp eller overfør tokens til denne lommeboken for å komme i gang.",
+    "card": {
+      "notAvailable": "Innhold er ikke <br /> tilgjengelig ennå"
+    },
+    "chainSupportComingSoon": "{{chainName}} støtte kommer snart",
+    "collection": {
+      "title": "Utforsk og kjøp på Uniswap"
+    },
+    "collectionOnUni": "NFT-samling på Uniswap",
+    "collectonOnAddress": "NFT-samling på Uniswap - {{address}}",
+    "complete": "Fullstendig!",
+    "editListings": "Rediger oppføringer",
+    "event": "Begivenhet",
+    "explore": "Utforsk NFT-er",
+    "learnWhy": "Finn ut hvorfor",
+    "list": {
+      "header": {
+        "lastPrice": "Siste"
+      },
+      "title": "List opp NFT-er"
+    },
+    "listedSignificantly_one": "Én NFT er oppført {{percentage}} under samlingens gulvpris. Er du sikker på at du vil fortsette?",
+    "listedSignificantly_other": "{{count}} NFT-er er oppført betydelig under samlingens gulvpris. Er du sikker på at du vil fortsette?",
+    "listForSale": "Liste til salgs",
+    "lowPrice": "Lav noteringspris",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} avgifter"
+      }
+    },
+    "maxFees": "Maks gebyrer",
+    "maxRoyalties": "Maks royalties for skaperen",
+    "noItems": "Ingen elementer å vise",
+    "noneAtAddress": "Det finnes ingen innsamlingsmidler på denne adressen",
+    "noPools": "Ingen bassenger ennå",
+    "notListed": "Ikke listet",
+    "proceedsIfSold": "Inntekter ved salg",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Allerede oppført på {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} under gulvpris."
+        }
+      }
+    },
+    "refundsInEth": "Refusjon for ikke-tilgjengelige varer vil bli gitt i ETH",
+    "removeFromBag": "Fjern fra posen",
+    "reportSpam": "Rapporter som spam",
+    "returnToExplore": "Gå tilbake til NFT Explore",
+    "returnToMy": "Gå tilbake til Mine NFT-er",
+    "setPrices": "Angi priser for å fortsette",
+    "startListing": "Start oppføringen",
+    "successListed": "Vellykket oppført",
+    "sweep": "Feie",
+    "unavailableToList": "Ikke tilgjengelig for oppføring",
+    "whyTransaction": {
+      "reason": "Oppføring av en NFT krever en engangsgodkjenning fra markedsplassen for hver NFT-samling."
+    },
+    "willAppearHere": "Dine onchain-transaksjoner og kryptokjøp vil vises her.",
+    "wishGranted": "Uniswap har oppfylt ønsket ditt!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Godkjenne innsamling",
+        "approve_other": "Godkjenne samlinger",
+        "sign_one": "Signer oppføring",
+        "sign_other": "Signer oppføringer"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} maks"
+      }
+    },
+    "my": "Mine NFT-er",
+    "noneYet": "Ingen NFT-er ennå",
+    "sell": "Selg NFT-er",
+    "viewAndSell": "Se og selg NFT-er"
+  },
+  "notFound": {
+    "oops": "Oops, ta meg tilbake til Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "UK ansvarsfraskrivelse:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} skjult",
+      "unhidden": "{{assetName}} skjult"
+    },
+    "copied": {
+      "address": "Adressen er kopiert",
+      "calldata": "Samtaledata er kopiert",
+      "contractAddress": "Kontraktsadresse kopiert",
+      "failed": "Kunne ikke kopiere til utklippstavlen",
+      "image": "Bilde kopiert",
+      "nftUrl": "NFT URL kopiert",
+      "tokenUrl": "Token URL kopiert",
+      "transactionId": "Transaksjons-ID kopiert",
+      "unitag": "Brukernavnet er kopiert"
+    },
+    "countryChange": "Byttet til {{countryName}}",
+    "network": {
+      "changed": "Byttet til {{network}}"
+    },
+    "passwordChanged": "passord endret",
+    "restore": {
+      "success": "Lommebok gjenopprettet!"
+    },
+    "send": {
+      "network": "Sender på {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Rapportert"
+      }
+    },
+    "swap": {
+      "network": "Bytter på {{network}}",
+      "pending": {
+        "swap": "Bytte venter",
+        "unwrap": "Utpakking venter",
+        "wrap": "Innpakning venter"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Kansellert {{currencySymbol}} godkjenne.",
+        "fail": "Kunne ikke godkjenne {{currencySymbol}} for bruk med {{address}}.",
+        "success": "Godkjent {{currencySymbol}} for bruk med {{address}}."
+      },
+      "pending": "Transaksjonen venter",
+      "swap": {
+        "canceled": "Kansellert bytte mellom {{inputCurrencySymbol}}-{{outputCurrencySymbol}} .",
+        "expired": "{{inputCurrencyAmountWithSymbol}} for {{outputCurrencyAmountWithSymbol}} bytte utløp.",
+        "fail": "Kunne ikke bytte {{inputCurrencyAmountWithSymbol}} med {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Byttet {{inputCurrencyAmountWithSymbol}} med {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Kansellert {{tokenNameOrAddress}} sending",
+        "fail": "Kunne ikke sende {{tokenNameOrAddress}} til {{walletNameOrAddress}}",
+        "received": "Mottok {{tokenNameOrAddress}} fra {{walletNameOrAddress}}",
+        "success": "Sendt {{tokenNameOrAddress}} til {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Kunne ikke handle med {{addressOrEnsName}}",
+          "short": "Transaksjonen mislyktes"
+        },
+        "success": {
+          "full": "Transaksjoner med {{addressOrEnsName}}",
+          "short": "Transaksjonen bekreftet"
+        }
+      },
+      "unwrap": {
+        "canceled": "Avbrutt {{inputCurrencySymbol}} utpakning.",
+        "fail": "Kunne ikke pakke ut {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Pakket ut {{inputCurrencyAmountWithSymbol}} og mottok {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Kansellert {{inputCurrencySymbol}} innpakning.",
+        "fail": "Kunne ikke pakke {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Pakket inn {{inputCurrencyAmountWithSymbol}} og mottok {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Send venter"
+    },
+    "walletConnect": {
+      "confirmed": "Transaksjonen bekreftet med {{dappName}}",
+      "connected": "Tilkoblet",
+      "disconnected": "Koblet fra",
+      "failed": "Transaksjonen mislyktes med {{dappName}}",
+      "networkChanged": {
+        "full": "Byttet til {{networkName}}",
+        "short": "Byttet nettverk"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Fortsett på Uniswap Extension",
+      "title": "Suksess!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Vi foreslår å skrive dette på et stykke papir og oppbevare det på et sikkert sted, som en safe.",
+        "displayWarning": {
+          "description": "Les følgende nøye før du fortsetter.",
+          "note": {
+            "access": "Denne gjenopprettingsfrasen gir deg full tilgang til lommeboken og midlene",
+            "secure": "Se dette privat og ikke del det med noen",
+            "storage": "Skriv det ned og oppbevar det på et trygt sted"
+          },
+          "title": "Noen viktige ting å vite"
+        },
+        "error": "Ugyldig eller feilstavet ord",
+        "placeholder": "Hemmelig ord",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} fullført",
+        "selectedWordPlaceholder": "Velg ord",
+        "subtitle_one": "Hva er det {{count}}første ordet i gjenopprettingsfrasen?",
+        "subtitle_two": "Hva er det {{count}}andre ordet i gjenopprettingsfrasen?",
+        "subtitle_few": "Hva er det {{count}}tredje ordet i gjenopprettingsfrasen?",
+        "subtitle_other": "Hva er det {{count}}ordet i gjenopprettingsfrasen?",
+        "title": "La oss sørge for at du har registrert det riktig"
+      },
+      "option": {
+        "badge": {
+          "quick": "Rask"
+        },
+        "cloud": {
+          "description": "Sikkerhetskopier lommeboken din via {{cloudProviderName}}, beskyttet av et gjenopprettingspassord.",
+          "title": "Angi et gjenopprettingspassord"
+        },
+        "manual": {
+          "description": "Ta opp dine 12 hemmelige ord på et stykke papir og oppbevar det på et trygt sted.",
+          "title": "Skriv ned gjenopprettingsfrase"
+        }
+      },
+      "reminder": {
+        "description": "Sikkerhetskopiering av lommeboken sikrer at du alltid kan gjenopprette eiendelene dine hvis du mister telefonen eller får en ny enhet.",
+        "title": "Det er på tide å sikkerhetskopiere lommeboken",
+        "warning": {
+          "description": "Hvis du ikke konfigurerer en sikkerhetskopimetode, har du ikke mulighet til å gjenopprette lommeboken din hvis du mister telefonen, sletter appen eller får en ny enhet.",
+          "title": "Du kan miste pengene dine"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Hvis du noen gang glemmer det, kan vi ikke tilbakestille det for deg. Skriv det ned på et trygt sted eller oppbevar det trygt i en passordbehandling.",
+          "disclaimer": "Jeg forstår at Uniswap Labs ikke kan tilbakestille gjenopprettingspassordet mitt.",
+          "title": "Det er viktig å lagre dette passordet"
+        },
+        "manual": {
+          "description": "Sørg for at du skrev ned gjenopprettingsfrasen riktig og at du har et trygt sted å lagre den.",
+          "disclaimer": "Jeg forstår at Uniswap Labs ikke kan gjenopprette lommeboken min hvis jeg mister denne.",
+          "title": "Før du er ferdig..."
+        }
+      },
+      "subtitle": "Slik vil du gjenopprette lommeboken din hvis du sletter appen eller mister enheten.",
+      "title": {
+        "existing": "Sikkerhetskopier lommeboken",
+        "new": "Velg sikkerhetskopieringsmetoden"
+      },
+      "view": {
+        "disclaimer": "Jeg forstår at hvis jeg mister gjenopprettingsfrasen, kan ikke Uniswap Labs hjelpe meg med å gjenopprette den.",
+        "subtitle": {
+          "message1": "Les følgende nøye før du fortsetter",
+          "message2": "Du må skrive inn alle 12 av disse hemmelige ordene for å gjenopprette lommeboken din."
+        },
+        "title": "Skriv ned restitusjonsfrasen din",
+        "warning": {
+          "message1": "Denne gjenopprettingsfrasen gir deg full tilgang til lommeboken og midlene",
+          "message2": "Skriv det ned og oppbevar det på et trygt sted",
+          "message3": "Se dette privat og <u>ikke del det med noen</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Du må angi dette for å få tilbake pengene dine. Hvis du noen gang glemmer det, kan vi ikke hente det for deg.",
+        "title": "Bekreft gjenopprettingspassordet ditt"
+      },
+      "createPassword": {
+        "description": "Du må angi dette for å få tilbake pengene dine. Hvis du noen gang glemmer det, kan vi ikke hente det for deg.",
+        "title": "Opprett gjenopprettingspassordet ditt"
+      }
+    },
+    "complete": {
+      "button": "Åpne Uniswap Extension",
+      "description": "Lommeboken din er klar til å sende og motta krypto. Åpne Uniswap Extension med snarveien nedenfor.",
+      "go_to_uniswap": "Gå til Uniswap Web App",
+      "pin": {
+        "description": "Klikk på pin-ikonet for å legge til Uniswap Extension til verktøylinjen.",
+        "title": "Pin Uniswap Extension"
+      },
+      "title": "Du er klar"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Du trenger dette for å låse opp lommeboken og få tilgang til gjenopprettingsfrasen",
+        "title": {
+          "default": "Lag passord",
+          "reset": "Tilbakestill passordet ditt"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap Extension er bare kompatibel med Chrome på skrivebordet.",
+          "title": "Chrome på mobil støttes ikke (ennå)"
+        },
+        "description": "Uniswap Extension er bare kompatibel med Chrome akkurat nå.",
+        "title": "Denne nettleseren støttes ikke (ennå)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Sett opp en gjenopprettingsplan hvis du noen gang mister telefonen eller får en ny.",
+          "title": "Sikkerhetskopier lommeboken"
+        },
+        "bridging": {
+          "description_one": "Flytt ETH, USDC og mer på tvers av {{count}}+ nettverk.",
+          "description_other": "Flytt ETH, USDC og mer på tvers av {{count}}+ nettverk."
+        },
+        "fund": {
+          "description": "Finansier lommeboken din ved å kjøpe krypto eller overføre fra en annen konto.",
+          "title": "Få ditt første token"
+        },
+        "label": {
+          "required": "Obligatorisk",
+          "swipe": "Sveip"
+        },
+        "unitag": {
+          "description": "Bygg en personlig web3-profil og del enkelt adressen din med venner.",
+          "title": "Gjør krav på ditt {{unitagDomain}} brukernavn"
+        },
+        "welcome": {
+          "description": "Fullfør konfigureringen av lommeboken for å begynne å bytte på sekunder.",
+          "title": "Velkommen til Uniswap"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 ord er ugyldig eller feilstavet",
+        "invalidWords_other": "{{count}} ord er ugyldige eller feilstavet"
+      },
+      "method": {
+        "import": {
+          "message": "Skriv inn gjenopprettingsfrasen fra en annen kryptolommebok",
+          "title": "Importer en lommebok"
+        },
+        "restore": {
+          "message": {
+            "android": "Legg til lommebøker du har sikkerhetskopiert til Google Disk-kontoen din",
+            "ios": "Legg til lommebøker du har sikkerhetskopiert til iCloud-kontoen din"
+          },
+          "title": "Gjenopprett en lommebok"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Vil du ikke ha noe av det ovennevnte?"
+        },
+        "subtitle": "Velg hvilken lommebok du vil logge på igjen.",
+        "title": "Velkommen tilbake til Uniswap",
+        "wallet": {
+          "button": "Se gjenopprettingsfrase",
+          "count_one": "+1 annen lommebok",
+          "count_other": "+{{count}} andre lommebøker"
+        },
+        "warning": {
+          "caption": "Sørg for at du har sikkerhetskopiert alle de andre lommebokene. Hvis du noen gang vil gjenopprette dem, trenger du gjenopprettingsfrasene deres eller tilsvarende {{cloudProvider}} sikkerhetskopier.",
+          "title": "Er du sikker?"
+        }
+      },
+      "title": "Velg hvordan du vil legge til lommeboken"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Min gjenopprettingsfrase er på 12 ord",
+        "importing": "Importerer...",
+        "longPhrase": "Min restitusjonsfrase er lengre"
+      },
+      "error": {
+        "invalidPhrase": "Uttrykket du skrev inn er ugyldig"
+      },
+      "subtitle": "Skriv eller lim inn gjenopprettingsfrasen på 12 ord",
+      "title": "Skriv inn gjenopprettingsfrasen"
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Jeg har allerede en lommebok"
+      },
+      "mobileScan": {
+        "button": "Skann QR-kode for å importere",
+        "title": "Har du Uniswap-appen?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Legg til en eksisterende lommebok",
+        "create": "Lag en lommebok"
+      }
+    },
+    "name": {
+      "wallet": {
+        "button": {
+          "text": "Fullfør"
+        },
+        "subtitle": "Dette kallenavnet er kun synlig for deg",
+        "title": "Gi lommeboken et navn"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "For å motta varsler, slå på varsler for Uniswap Wallet i enhetens innstillinger.",
+        "title": "Tillatelse for varsler"
+      },
+      "subtitle": "Hold deg oppdatert på transaksjonsstatuser og store prisendringer for favoritt-tokens",
+      "title": "Slå på varsler"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Kontoen din er beskyttet av din egen sikre passordlagring."
+      },
+      "biometric": {
+        "scan": "Telefon, nettbrett eller nettleser – bare skann biometrien din, så blir du logget på."
+      },
+      "create": "Opprett passordet ditt",
+      "use": {
+        "recovery": {
+          "phrase": "Bruk en gjenopprettingsfrase i stedet"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "La oss bekrefte at du har rett. Hvis du mister eller skriver ned dette feil, vil du ikke kunne gjenopprette pengene dine.",
+          "default": "Hvis du mister eller skriver ned dette feil, vil du ikke kunne gjenopprette pengene dine."
+        },
+        "title": "La oss bekrefte at du har rett"
+      },
+      "view": {
+        "subtitle": "Du må skrive inn alle 12 av disse hemmelige ordene for å gjenopprette lommeboken din.",
+        "title": {
+          "hasPassword": "Hvis du noen gang glemmer passordet ditt..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "jeg er klar",
+          "message": "Gjenopprettingsfrasen din er det som gir deg (og alle som har det) tilgang til midlene dine. Sørg for å holde det for deg selv.",
+          "title": "Gjør dette trinnet på et privat sted"
+        },
+        "screenshot": {
+          "message": "Alle som får tilgang til bildene dine kan få tilgang til lommeboken din. Vi anbefaler at du heller skriver ned ordene dine.",
+          "title": "Skjermbilder er ikke sikre"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Lær mer om lommeboksikkerhet",
+        "subtitle": "Bruk ditt nye passord for å låse opp lommeboken.",
+        "title": "Reset passord"
+      }
+    },
+    "scan": {
+      "button": "Skann med Uniswap-appen",
+      "error": "Beklager, vi kan ikke laste inn QR-koden akkurat nå. Prøv en annen innføringsmetode.",
+      "otp": {
+        "error": "Koden du sendte inn er feil, eller det oppsto en feil ved innsending. Vær så snill, prøv på nytt.",
+        "failed": "Mislykkede forsøk: {{number}}",
+        "subtitle": "Sjekk din Uniswap-mobilapp for koden på 6 tegn",
+        "title": "Skriv inn engangskode"
+      },
+      "subtitle": "Skann QR-koden med Uniswap-mobilappen for å begynne å importere lommeboken.",
+      "title": "Importer lommebok fra appen",
+      "wifi": "Koble telefonen til det samme WiFi-nettverket som datamaskinen."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "For å bruke biometri, konfigurer den først i innstillingene",
+            "ios": "For å bruke {{biometricsMethod}}, gi tilgang i systeminnstillingene"
+          },
+          "title": {
+            "android": "Biometri er deaktivert",
+            "ios": "{{biometricsMethod}} er deaktivert"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Aktiver biometri",
+          "ios": "Aktiver {{biometricsMethod}}"
+        },
+        "setup": "Sett opp"
+      },
+      "subtitle": {
+        "android": "Legg til et ekstra lag med sikkerhet ved å kreve biometri for å sende transaksjoner.",
+        "ios": "Legg til et ekstra lag med sikkerhet ved å kreve {{biometricsMethod}} for å sende transaksjoner."
+      },
+      "title": "Beskytt lommeboken din"
+    },
+    "selectWallets": {
+      "error": "Kunne ikke laste inn adresser",
+      "title": {
+        "default": "Velg lommebøker å importere",
+        "error": "Feil ved import av lommebøker"
+      }
+    },
+    "termsOfService": "Ved å fortsette godtar jeg<highlightTerms> vilkårene for bruk </highlightTerms>og samtykker til<highlightPrivacy> personvernreglene</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Hva er en gjenopprettingsfrase?"
+      }
+    },
+    "wallet": {
+      "continue": "La oss holde det trygt",
+      "defaultName": "Lommebok {{number}}",
+      "description": {
+        "full": "Dette er din personlige plass for tokens, NFT-er og alle dine handler. Fullfør konfigureringen for å holde pengene dine trygge."
+      },
+      "title": "Velkommen til din nye lommebok"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Du kan fortsatt bytte og gi likviditet i denne kjeden uten problemer."
+    },
+    "title": "{{versionName}} kommer snart tilbake"
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 lar token-godkjenninger deles og administreres på tvers av forskjellige applikasjoner."
+      }
+    }
+  },
+  "pool": {
+    "activePositions": {
+      "appear": "Dine aktive V3-likviditetsposisjoner vil vises her."
+    },
+    "activeRange": "Aktivt flåttområde",
+    "addAs": "Legg til som {{nativeWrappedSymbol}}",
+    "addLiquidity": {
+      "seoTitle": "Legg til likviditet til {{tokenPair}} ({{chain}}) på Uniswap"
+    },
+    "addMoreLiquidity": "Legg til mer likviditet",
+    "apr": {
+      "description": "Annualisert basert på 1 dags avgifter"
+    },
+    "areCreating": "Du lager et basseng",
+    "areFirst": "Du er den første likviditetstilbyderen.",
+    "back": "Tilbake til bassenget",
+    "balances": "Pool saldo",
+    "closedCTA": {
+      "description": "Du kan se dem ved å bruke filteret øverst på siden.",
+      "title": "Ser du etter dine lukkede stillinger?"
+    },
+    "collectAs": "Samle som {{nativeWrappedSymbol}}",
+    "collected": " Samlet",
+    "collectFees": "Samle gebyrer",
+    "collecting": "Samler",
+    "collectingFeesWithdraw": "Innkreving av avgifter vil trekke tilbake avgifter som er tilgjengelige for deg.",
+    "confirmSupply": "Bekreft levering",
+    "connection": {
+      "networkUnsupported": "Det tilkoblede nettverket ditt støttes ikke."
+    },
+    "create": {
+      "info": "Valgene dine vil skape en ny likviditetspool som kan resultere i lavere initial likviditet og økt volatilitet. Vurder å legge til et eksisterende basseng for å minimere disse risikoene.",
+      "pair": "Lag et par"
+    },
+    "createAndSupply": "Lag basseng og forsyning",
+    "createdPosition": {
+      "cancelled": "Opprett stilling kansellert",
+      "failed": "Oppretting av posisjon mislyktes"
+    },
+    "depositAmounts": "Innskuddsbeløp",
+    "earnFees": "Ved å legge til likviditet vil du tjene 0,3 % av alle handler på dette paret proporsjonalt med din andel av poolen. Gebyrer legges til bassenget, påløper i sanntid og kan kreves ved å ta ut likviditeten din.",
+    "estimatePercentToRevert": "Utgang er estimert. Hvis prisen endres med mer enn {{allowed}}% vil transaksjonen din gå tilbake.",
+    "explorers": "Utforskere",
+    "exporeAnalytics": "Utforsk Uniswap Analytics.",
+    "hideClosed": "Skjul lukkede posisjoner",
+    "import": {
+      "link": {
+        "description": "Noen v2-posisjoner vises ikke automatisk."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Noen v2-posisjoner vises ikke automatisk. Velg et token-par for å importere og se posisjonene dine."
+          }
+        }
+      },
+      "success": "Pool importert"
+    },
+    "increaseLiquidity": "Øk likviditeten",
+    "info": "Bassenginformasjon",
+    "initialShare": "Startpriser og poolandel",
+    "learn": "Lære",
+    "learnAbout": "Les mer om å skaffe likviditet",
+    "learnLiquidity": "Lær om å skaffe likviditet",
+    "learnv3LP": "Sjekk ut våre v3 LP-gjennomganger og migreringsveiledninger.",
+    "limitFluctuation": {
+      "warning": "Vær oppmerksom på at utførelse av grenser kan variere basert på sanntidssvingninger i markedet og overbelastning av Ethereum-nettverket. Grenser vil kanskje ikke utføres nøyaktig når tokens når den angitte prisen."
+    },
+    "liquidity": {
+      "connectToAdd": "Koble til en lommebok for å se likviditeten din.",
+      "data": {
+        "error": {
+          "message": "Det oppsto en feil under henting av data som kreves for transaksjonen din."
+        }
+      },
+      "earn": {
+        "fee": "Likviditetstilbydere tjener et gebyr på 0,3 % på alle handler proporsjonalt med deres andel av poolen. Gebyrer legges til bassenget, påløper i sanntid og kan kreves ved å ta ut likviditeten din."
+      },
+      "outOfSync": {
+        "message": "Prisene i denne poolen avviker med markedsprisene på de valgte tokens. Juster prisklassen din tilsvarende eller vent til bassenget balanserer seg på nytt for å unngå tap."
+      },
+      "ownershipWarning": {
+        "message": "Du er ikke eieren av denne LP-stillingen. Du vil ikke kunne ta ut likviditeten fra denne posisjonen med mindre du eier følgende adresse: {{ownerAddress}}"
+      },
+      "rewards": "Likviditetsleverandørens belønninger",
+      "taxWarning": {
+        "message": "En eller flere av disse tokens har skatter på overføringer. Å legge til likviditet med V3 kan føre til tap av midler. Prøv å bruke V2 i stedet."
+      }
+    },
+    "liquidityPoolFeesNotice": "Når du legger til likviditet, vil du motta pool-tokens som representerer din posisjon. Disse tokenene tjener automatisk avgifter proporsjonalt med din andel av bassenget, og kan løses inn når som helst.",
+    "manageRewardsLiquidity": "Administrer likviditet i belønningspoolen",
+    "max": {
+      "label": "Maks:"
+    },
+    "maxPrice": "Maks pris",
+    "migrateLiquidity": "Migrer likviditet",
+    "migrateLiquidityDisabledTooltip": "Denne kjeden støtter ikke v4 likviditetspooler.",
+    "migrateToV4": "Migrer til v4",
+    "min": {
+      "label": "Min:"
+    },
+    "minPrice": "Min pris",
+    "mustBeInitialized": "Denne poolen må initialiseres før du kan legge til likviditet. For å initialisere, velg en startpris for bassenget. Angi deretter likviditetsprisområdet og innskuddsbeløpet. Gassavgiftene vil være høyere enn vanlig på grunn av initialiseringstransaksjonen.",
+    "newPosition": {
+      "plus": "+ Ny stilling",
+      "title": "Ny stilling"
+    },
+    "newSpecificPosition": "Ny {{symbol}} stilling",
+    "noLiquidity": "Ingen likviditet funnet.",
+    "onceHappyReview": "Når du er fornøyd med prisen, klikker du på forsyningen for å vurdere.",
+    "openPosition": {
+      "cta": "Legg til likviditet i en pool og se posisjonene dine her"
+    },
+    "openToStart": "Åpne en ny stilling eller opprett en pool for å komme i gang.",
+    "owner": "Eieren",
+    "percent": "{{pct}}% pool",
+    "pooled": "Samlet {{sym}}:",
+    "position": {
+      "100": {
+        "at": "Posisjonen din vil være 100 % {{symbol}} til denne prisen."
+      },
+      "networkConnect": "For å se en posisjon må du være koblet til nettverket den tilhører.",
+      "willBe100": "Posisjonen din vil være 100 % sammensatt av {{sym}} til denne prisen"
+    },
+    "positions": {
+      "title": "Dine posisjoner",
+      "transaction": {
+        "settings": "Transaksjonsinnstillinger"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "USD-verdi er for øyeblikket utilgjengelig for denne stillingen. Se posisjonsdetaljer for innsatte tokenbeløp."
+      }
+    },
+    "priceRange": "Prisklasse",
+    "rangeBadge": {
+      "tooltip": {
+        "outsideRange": "Prisen på dette bassenget er utenfor det valgte området. Stillingen din tjener for øyeblikket ikke gebyrer.",
+        "text": "Posisjonen din har 0 likviditet og tjener ikke gebyrer.",
+        "withinRange": "Prisen på dette bassenget er innenfor det valgte området. Stillingen din tjener for øyeblikket avgifter."
+      }
+    },
+    "rates": "Priser",
+    "ratioTokenToPrice": "Forholdet mellom tokens du legger til vil sette prisen på denne poolen.",
+    "refresh": {
+      "prices": "Oppdater prisene"
+    },
+    "removeLiquidity": "Fjern likviditet",
+    "rewardsPool": {
+      "label": "Pool tokens i belønningspoolen:"
+    },
+    "selectedRange": "Valgt område",
+    "selectPair": "Velg par",
+    "share": {
+      "label": "Poolandelen din:"
+    },
+    "shareOf": "Andel av bassenget:",
+    "showClosed": "Vis lukkede stillinger",
+    "specificPosition": "{{symbol}} posisjon",
+    "startingPrice": "Fra {{sym}} Pris:",
+    "supply": "Forsyning",
+    "supplyingMaths": "Leverer {{amtA}} {{symA}} og {{amtB}} {{symB}}",
+    "tokenPair": "Token-par",
+    "top": {
+      "tvl": "Topp bassenger av TVL"
+    },
+    "totalTokens": "Dine totale pool-tokens:",
+    "uncollectedFees": "Uinnkrevde gebyrer",
+    "v2": {
+      "add": "Legg til V2-likviditet",
+      "migratev3": "Migrer likviditet til V3"
+    },
+    "v2liquidity": "V2 likviditet",
+    "v3": "v3 bassenger",
+    "v4": "v4 bassenger",
+    "viewUncollectedFees": "Se uinnkrevde avgifter og analyser",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Trekk tilbake som {{nativeWrappedSymbol}}",
+    "yourv2": "Din V2-likviditet"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2-puljer som matcher parvalget ditt."
+      },
+      "notFound": {
+        "description": "Ingen samsvarende v2-pooler funnet. Dobbeltsjekk tokenvalget ditt og sørg for at du er koblet til riktig lommebok."
+      }
+    }
+  },
+  "pools": {
+    "approving": {
+      "amount": "Godkjenner {{amount}}"
+    },
+    "explore": "Utforsk bassenger"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Hooks er en avansert funksjon som lar bassenger samhandle med smarte kontrakter, og låser opp ulike funksjoner. Vær forsiktig når du legger til kroker, siden noen kan være skadelige eller forårsake utilsiktede konsekvenser."
+    },
+    "addingHook": {
+      "disclaimer": "Å legge til kroker kan ha utilsiktede konsekvenser. Gjør din forskning og fortsett på egen risiko.",
+      "hideProperties": "Skjul egenskaper",
+      "invalidAddress": "Skriv inn en gyldig hook-adresse",
+      "viewProperties": "Se eiendommer"
+    },
+    "appearHere": "Posisjonen din vil vises her.",
+    "create": {
+      "invalidPrice": "Ugyldig pris",
+      "invalidRange": "Ugyldig område",
+      "modal": {
+        "header": "Skaper posisjon"
+      }
+    },
+    "currentValue": "Nåværende posisjonsverdi",
+    "deposit": {
+      "description": "Spesifiser symbolbeløpene for likviditetsbidraget ditt."
+    },
+    "depositedCurrency": "Deponert {{currencySymbol}}",
+    "hook": {
+      "disclaimer": "Jeg forstår de potensielle risikoene ved å legge til denne kroken.",
+      "donateWarning": "Dette flagget kan føre til endringer i opptjente gebyrer.",
+      "liquidityWarning": "Dette flagget kan føre til at bassenget blokkerer tilførsel av ny likviditet. Transaksjonen din kan gå tilbake.",
+      "removeWarning": "Kan føre til at midlene dine blir låst eller blokkere deg fra å kreve inn gebyrer.",
+      "swapWarning": "Dette flagget kan tillate likviditetsleverandører å lettere utnytte Just-In-Time-likviditet, noe som kan resultere i lavere opptjente gebyrer.",
+      "warningHeader": "Viktig: krokrisiko identifisert",
+      "warningInfo": "Vi har identifisert potensielle risikoer med denne kroken. Sørg for at du forstår hvordan denne kroken fungerer før du bestemmer deg for å fortsette."
+    },
+    "initialPrice": {
+      "info": "Angi startkursen mellom de to tokenene du gir."
+    },
+    "migrate": {
+      "liquidity": "Når du migrerer posisjoner, kan du ikke endre token-paret ditt, men du kan legge til en krok for å forbedre funksjonaliteten.",
+      "v4unsupportedChain": "Denne kjeden støttes ikke for v4-pooler."
+    },
+    "new": {
+      "protocol": "Ny {{protocol}} stilling"
+    },
+    "noLiquidity": "Likviditetsdata ikke tilgjengelig.",
+    "noLiquidityData": "Det er ingen likviditetsdata.",
+    "notFound": {
+      "description": "Detaljer om denne stillingen er ikke tilgjengelig. Kontroller at du er koblet til riktig lommebok."
+    },
+    "protocol": "{{protocol}} posisjon",
+    "provide": {
+      "liquidity": "Velg tokens du vil gi likviditet til. Du kan velge tokens på alle støttede nettverk.",
+      "liquidityDescription": {
+        "custom": "Egendefinert rekkevidde lar deg konsentrere likviditeten din innenfor spesifikke prisgrenser, noe som øker kapitaleffektiviteten og gebyrinntektene, men krever mer aktiv styring."
+      }
+    },
+    "removeHook": "Fjern kroken",
+    "resetDescription": "Dine tokens, pris og utvalg vil bli tilbakestilt.",
+    "setRange": {
+      "inputsBelow": "Bruk inngangene nedenfor for å angi rekkevidden."
+    },
+    "step": {
+      "deposit": "Angi innskuddsbeløp",
+      "price": "Angi startpris",
+      "range": "Angi prisklasse",
+      "select": "Velg token-par og avgifter"
+    },
+    "value": "Posisjonsverdi",
+    "valueUnavailable": "USD-verdi er for øyeblikket utilgjengelig for denne stillingen. Se posisjonsdetaljer for innsatte tokenbeløp.",
+    "your": "Din posisjon"
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Koble til lommeboken for å se dine nåværende posisjoner."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Appen logger anonymisert bruksstatistikk for å forbedre seg over tid.",
+    "autoRouter": "Appen henter den optimale handelsruten fra en Uniswap Labs-server.",
+    "infura": "Appen henter kjededata og konstruerer kontraktanrop med et Infura API.",
+    "thirdPartyApis": "Denne appen bruker følgende tredjeparts APIer:",
+    "trm": "Appen samler sikkert lommebokadressen din og deler den med TRM Labs Inc. av risiko- og samsvarsgrunner.",
+    "uniswaptos": "Uniswap Labs sine vilkår for bruk"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 app tilkoblet",
+      "connections_other": "{{count}} apper tilkoblet"
+    },
+    "error": {
+      "camera": {
+        "message": "For å skanne en kode, gi kameratilgang i systeminnstillingene",
+        "title": "Kameraet er deaktivert"
+      },
+      "none": "Finner ingen QR-kode"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Skann en QR-kode",
+        "show": "Vis QR-koden min"
+      },
+      "error": {
+        "message": "Sørg for at du skanner en gyldig QR-kode for Ethereum-adresse før du prøver igjen.",
+        "title": "Ugyldig QR-kode"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Ingen melding funnet."
+      },
+      "method": {
+        "default": "Forespørsel fra {{dappNameOrUrl}}",
+        "signature": "Signaturforespørsel fra {{dappNameOrUrl}}",
+        "transaction": "Transaksjonsforespørsel fra {{dappNameOrUrl}}"
+      },
+      "withAmount": "La {{dappName}} bruke opptil<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Tillat {{dappName}} å bruke din {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Kobler til...",
+      "loading": "Laster inn..."
+    },
+    "title": "Skann en QR-kode",
+    "wallet": {
+      "networks": "Støttede nettverk",
+      "title": "Du kan sende og motta tokens og NFT-er på alle våre {{numOfNetworks}} -støttede nettverk."
+    }
+  },
+  "range": {
+    "outOfView": "Rekkevidde ute av syne"
+  },
+  "removeLiquidity": {
+    "collectFees": "Du vil også kreve inn avgifter opptjent fra denne stillingen.",
+    "outputEstimated": "Utgang er estimert. Hvis prisen endres med mer enn {{allowed}}% vil transaksjonen din gå tilbake.",
+    "pendingText": "Fjerner {{amtA}} {{symA}} og {{amtB}} {{symB}}",
+    "pooled": "Samlet {{symbol}}:",
+    "removing": "Fjerner {{amt1}} {{symbol1}} og {{amt2}} {{symbol2}}",
+    "removingTokensTip": "Tips: Hvis du fjerner pool-tokens, konverteres posisjonen din tilbake til underliggende tokens med gjeldende kurs, proporsjonal med din andel av poolen. Uinnkrevde gebyrer er inkludert i beløpene du mottar.",
+    "uniBurned": "UNI {{a}}/{{b}} Brent"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Dette gir Uniswap-protokollen tilgang til tokenet ditt for handel."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Når tilgjengelig, samler likviditetskilder for bedre priser og gassfrie bytteavtaler.",
+    "cheapest": {
+      "v4": "Uniswap-klienten velger det optimale handelsalternativet med tanke på pris og nettverkskostnader."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Utløpt",
+      "subtitle": "Skriv inn denne koden i Uniswap-utvidelsen. Gjenopprettingsfrasen din blir trygt kryptert og overført.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Ny kode i {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Ny kode i {{minutes}}m {{seconds}}s",
+          "seconds": "Ny kode i {{seconds}}s"
+        }
+      },
+      "title": "Uniswap engangskode"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Ja, fortsett"
+      },
+      "label": {
+        "browser": "Nettleser",
+        "device": "Enhet"
+      },
+      "subtitle": "Fortsett bare hvis du skanner en QR-kode fra Uniswap Extension på en pålitelig enhet.",
+      "title": "Prøver du å importere lommeboken din?",
+      "warning": "Vær oppmerksom på nettsteder og apper som utgir seg for å være Uniswap. Ellers kan lommeboken din bli kompromittert."
+    },
+    "error": {
+      "encryption": "Kunne ikke forberede frøsetningen.",
+      "noCode": "Ingen OTP mottatt. Vær så snill, prøv på nytt.",
+      "timeout": {
+        "message": "Skann QR-koden på Uniswap-utvidelsen igjen for å fortsette å synkronisere lommeboken.",
+        "title": "Tilkoblingen din ble tidsavbrutt"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "For å skanne denne QR-koden, må telefonen være koblet til det samme WiFi-nettverket som datamaskinen din, og eventuelle VPN-er bør være midlertidig slått av.",
+        "title": "Bytt WiFi-nettverk"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Kommer snart: søk og utforsk tokens på {{chainName}} Chain",
+    "results": {
+      "count_one": "1 vare",
+      "count_other": "{{count}} elementer"
+    },
+    "ukDisclaimer": "Ansvarsfraskrivelse for innbyggere i Storbritannia"
+  },
+  "send": {
+    "button": {
+      "review": "Gjennomgå overføringen"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Nettverkskostnad"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Saldo: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Velg mottaker",
+      "input": {
+        "placeholder": "Søk på ENS eller adresse"
+      },
+      "previous_one": "1 tidligere overføring",
+      "previous_other": "{{count}} tidligere overføringer",
+      "results": {
+        "empty": "Ingen resultater",
+        "error": "Adressen du skrev inn eksisterer enten ikke eller er stavet feil."
+      },
+      "section": {
+        "favorite": "Favoritt lommebøker",
+        "recent": "Nylig",
+        "search": "Søkeresultater",
+        "viewOnly": "Se-bare lommebøker",
+        "yours": "Dine lommebøker"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Send kun penger til denne lommeboken hvis du har gjenopprettingsfrasen eller kjenner eieren av lommeboken.",
+          "title": "Du har denne som en lommebok for visning"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Når du sender tokens til en lommebokadresse, vises de her",
+          "title": "Ingen lommebøker lagret"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Du sender"
+      },
+      "summary": {
+        "button": {
+          "title": "Bekreft sending"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Adressen du skrev inn eksisterer enten ikke eller er stavet feil.",
+        "title": "Ingen resultater"
+      },
+      "placeholder": "Søk på ENS eller adresse"
+    },
+    "title": "Sende",
+    "warning": {
+      "blocked": {
+        "default": "Denne lommeboken er blokkert",
+        "modal": {
+          "message": "Denne adressen er blokkert på Uniswap Wallet fordi den er knyttet til én eller flere blokkerte aktiviteter. Hvis du mener dette er en feil, vennligst send en e-post til compliance@uniswap.org.",
+          "title": "Blokkert adresse"
+        },
+        "recipient": "Mottakers lommebok er blokkert"
+      },
+      "erc20": {
+        "message": "Du prøver å sende penger til en token-adresse. Sending av krypto til denne typen adresse kan føre til permanent tap av midler.",
+        "title": "Dette er en symbolsk adresse"
+      },
+      "insufficientFunds": {
+        "message": "Saldoen på {{currencySymbol}} har gått ned siden du skrev inn beløpet du vil sende",
+        "title": "Ikke nok {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Ikke nok <highlight>{{currencySymbol}} på {{networkName}}</highlight> til å sende",
+          "withoutNetwork": "Ikke nok <highlight>{{currencySymbol}}</highlight> til å sende"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Avbryt",
+            "confirm": "Bekrefte"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Brukernavn",
+          "walletAddress": "Lommebokadresse"
+        },
+        "message": "Du har ikke handlet med denne adressen før. Vennligst bekreft at adressen er riktig før du fortsetter.",
+        "title": "Ny adresse"
+      },
+      "restore": "Gjenopprett lommeboken for å sende",
+      "self": {
+        "message": "Du prøver å sende penger til din nåværende lommebok. Å sende krypto til denne adressen vil medføre unødvendige nettverkskostnader.",
+        "title": "Dette er din nåværende lommebok"
+      },
+      "smartContract": {
+        "message": "Du er i ferd med å sende tokens til en spesiell type adresse – en smart kontrakt. Dobbeltsjekk at det er adressen du hadde tenkt å sende til. Hvis det er feil, kan tokens dine gå tapt for alltid.",
+        "title": "Er dette en lommebokadresse?"
+      },
+      "viewOnly": {
+        "message": "Du må importere denne lommeboken via gjenopprettingsfrasen for å sende eiendeler.",
+        "title": "Denne lommeboken er visningsbeskyttet"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Nylig"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Send anmeldelse"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Vis gjenopprettingsfrase"
+      },
+      "action": {
+        "hide": "Skjul gjenopprettingsfrase"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Jeg forstår at Uniswap Labs ikke kan hjelpe meg med å gjenopprette lommeboken min hvis jeg ikke klarte å gjøre det.",
+          "title": "Jeg lagret min gjenopprettingsfrase"
+        },
+        "initial": {
+          "subtitle": "Sørg for at du har lagret gjenopprettingsfrasen. Ellers mister du tilgangen til lommeboken",
+          "title": "Før du fortsetter"
+        },
+        "password": {
+          "error": "Feil passord. Prøv igjen"
+        },
+        "subtitle": "Skriv inn passordet ditt for å bekrefte",
+        "title": "Du fjerner gjenopprettingsfrasen"
+      },
+      "title": "Din gjenopprettingsfrase",
+      "view": {
+        "warning": {
+          "message1": "Alle som kjenner gjenopprettingsfrasen din kan få tilgang til lommeboken og pengene dine",
+          "message2": "Se dette privat",
+          "message3": "Ikke del med noen",
+          "message4": "Skriv den aldri inn på noen nettsteder eller applikasjoner",
+          "title": "Før du fortsetter"
+        }
+      },
+      "warning": {
+        "screenshot": {
+          "message": "Alle som får tilgang til bildene dine kan få tilgang til lommeboken din. Vi anbefaler at du heller skriver ned ordene dine.",
+          "title": "Skjermbilder er ikke sikre"
+        },
+        "view": {
+          "message": "Alle som kjenner gjenopprettingsfrasen din kan få tilgang til lommeboken og pengene dine.",
+          "title": "Se dette på et privat sted"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Aktiver i Innstillinger",
+      "feedback": "Del tilbakemelding",
+      "help": "Få hjelp",
+      "lock": "Lås lommebok",
+      "privacy": "Personvernerklæring",
+      "terms": "Vilkår for bruk"
+    },
+    "footer": "Laget med kjærlighet, \nUniswap Team 🦄",
+    "hideSmallBalances": "Skjul små saldoer",
+    "maxSlippage": "Maks. utglidning",
+    "screen": {
+      "appearance": {
+        "title": "Utseende"
+      }
+    },
+    "section": {
+      "about": "Om",
+      "preferences": "Preferanser",
+      "security": "Sikkerhet",
+      "support": "Brukerstøtte",
+      "wallet": {
+        "button": {
+          "viewAll": "Se alt",
+          "viewLess": "Se mindre"
+        },
+        "label": {
+          "viewOnly": "Bare visning"
+        },
+        "title": "Lommebokinnstillinger"
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Bruk alltid mørk modus",
+            "title": "Mørk modus"
+          },
+          "device": {
+            "subtitle": "Standard til enhetens utseende",
+            "title": "Enhetsinnstillinger"
+          },
+          "light": {
+            "subtitle": "Bruk alltid lysmodus",
+            "title": "Lysmodus"
+          }
+        },
+        "title": "Utseende"
+      },
+      "backup": {
+        "create": {
+          "description": "Å angi et passord vil kryptere sikkerhetskopieringen av gjenopprettingsfrasen, og legge til et ekstra beskyttelsesnivå hvis {{cloudProviderName}} -kontoen din noen gang blir kompromittert.",
+          "title": "Sikkerhetskopier til {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Fordi disse lommebøkene deler en gjenopprettingsfrase, vil den også slette sikkerhetskopiene for disse lommebøkene nedenfor",
+            "title": "Er du sikker?"
+          },
+          "warning": "Hvis du sletter {{cloudProviderName}} -sikkerhetskopien, vil du bare kunne gjenopprette lommeboken din med en manuell sikkerhetskopi av gjenopprettingsfrasen. Uniswap Labs kan ikke gjenopprette eiendelene dine hvis du mister gjenopprettingsfrasen."
+        },
+        "error": {
+          "message": {
+            "full": "Kan ikke sikkerhetskopiere gjenopprettingsfrasen til {{cloudProviderName}}. Sørg for at du har {{cloudProviderName}} aktivert med tilgjengelig lagringsplass, og prøv igjen.",
+            "short": "Kan ikke slette sikkerhetskopien"
+          },
+          "title": "{{cloudProviderName}} feil"
+        },
+        "modal": {
+          "description": "Du har ikke sikkerhetskopiert gjenopprettingsfrasen til {{cloudProviderName}} ennå. Ved å gjøre det kan du gjenopprette lommeboken din bare ved å være logget på {{cloudProviderName}} på hvilken som helst enhet.",
+          "title": "Sikkerhetskopiere gjenopprettingsfrasen til {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "passordene er ikke like"
+          },
+          "medium": "Dette er et middels passord",
+          "placeholder": {
+            "confirm": "Bekreft passord",
+            "create": "Lag passord"
+          },
+          "strong": "Dette er et sterkt passord",
+          "weak": "Dette er et svakt passord"
+        },
+        "recoveryPhrase": {
+          "label": "Gjenopprettingsfrase"
+        },
+        "selected": "{{cloudProviderName}} sikkerhetskopiering",
+        "status": {
+          "action": {
+            "delete": "Slett sikkerhetskopi"
+          },
+          "complete": "Sikkerhetskopiert til {{cloudProviderName}}",
+          "description": "Ved å sikkerhetskopiere gjenopprettingsfrasen til {{cloudProviderName}}, kan du gjenopprette lommeboken ved å være logget på {{cloudProviderName}} -kontoen din på en hvilken som helst enhet.",
+          "inProgress": "Sikkerhetskopierer til {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Støttet opp"
+          },
+          "title": "{{cloudProviderName}} sikkerhetskopiering"
+        }
+      },
+      "beta": {
+        "tooltip": "Kommer snart"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Krev biometri for å åpne appen",
+            "ios": "Krev {{biometricsMethod}} for å åpne appen"
+          },
+          "title": "App-tilgang"
+        },
+        "auth": "Vennligst autentiser",
+        "off": {
+          "message": {
+            "android": "Biometri er for øyeblikket slått av for Uniswap Wallet – du kan slå den på i systeminnstillingene.",
+            "ios": "{{biometricsMethod}} er for øyeblikket slått av for Uniswap Wallet – du kan slå den på i systeminnstillingene."
+          },
+          "title": {
+            "android": "Biometri er slått av",
+            "ios": "{{biometricsMethod}} er slått av"
+          }
+        },
+        "title": "Biometri",
+        "transactions": {
+          "subtitle": {
+            "android": "Krev biometri for å handle",
+            "ios": "Krev {{biometricsMethod}} for å handle"
+          },
+          "title": "Transaksjoner"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometri er ikke konfigurert på enheten din. For å bruke biometri, konfigurer den først i Innstillinger.",
+            "ios": "{{biometricsMethod}} er ikke konfigurert på enheten din. For å bruke {{biometricsMethod}}, konfigurer den først i Innstillinger."
+          },
+          "title": {
+            "android": "Biometri er ikke satt opp",
+            "ios": "{{biometricsMethod}} er ikke konfigurert"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Hvis du ikke slår på biometri, kan alle som får tilgang til enheten din åpne Uniswap Wallet og foreta transaksjoner.",
+            "ios": "Hvis du ikke slår på {{biometricsMethod}}, kan alle som får tilgang til enheten din åpne Uniswap Wallet og foreta transaksjoner."
+          },
+          "title": "Er du sikker?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Koble fra alle",
+        "noConnectionsDescription": "Koble til en app ved å se etter en \"Koble til lommebok\" eller \"Logg inn\"-knapp."
+      },
+      "currency": {
+        "title": "Lokal valuta"
+      },
+      "hapticTouch": {
+        "title": "Haptisk berøring"
+      },
+      "helpCenter": {
+        "title": "Hjelpesenter"
+      },
+      "language": {
+        "button": {
+          "navigate": "Gå til Innstillinger"
+        },
+        "description": {
+          "extension": "Uniswap standarder til systemspråkinnstillingene. For å endre foretrukket språk, gå til systeminnstillingene.",
+          "mobile": "Uniswap er standard til enhetens språkinnstillinger. For å endre ditt foretrukne språk, gå til \"Uniswap\" i enhetsinnstillingene og trykk på \"Språk\"."
+        },
+        "title": "Språk"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Overføringer, forespørsler og annen aktivitet",
+            "title": "Lommebokaktivitet"
+          },
+          "priceAlerts": {
+            "description": "Store prisendringer for favoritt-tokens",
+            "title": "Prisvarsler"
+          },
+          "updates": {
+            "description": "Anbefalinger og nye funksjoner",
+            "title": "Oppdateringer fra Uniswap"
+          }
+        },
+        "title": "Varsler"
+      },
+      "password": {
+        "title": "Bytt passord"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Vi bruker anonyme bruksdata for å forbedre opplevelsen din på tvers av Uniswap Labs-produkter. Når den er deaktivert, sporer vi bare feil og viktig bruk.",
+          "title": "Tillat analyser"
+        },
+        "title": "Personvern"
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Skriv inn passordet ditt"
+        },
+        "title": "Gjenopprettingsfrase"
+      },
+      "smallBalances": {
+        "title": "Skjul små saldoer"
+      },
+      "unknownTokens": {
+        "title": "Skjul ukjente tokens"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Rediger etikett",
+          "editProfile": "Rediger profil",
+          "remove": "Fjern lommeboken"
+        },
+        "connections": {
+          "title": "Tilkoblinger"
+        },
+        "editLabel": {
+          "description": "Etiketter er ikke offentlige. De lagres lokalt og er kun synlige for deg.",
+          "save": "Lagre endringer"
+        },
+        "label": "Kallenavn",
+        "testnetMode": {
+          "description": "Dette slår på testnett for utviklere å prøve ut funksjoner og transaksjoner uten å bruke reelle eiendeler. Tokens på testnett har ingen reell verdi.",
+          "title": "Testnett-modus"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "For å bruke Uniswap på {{label}}, bytt nettverk i lommebokens innstillinger."
+    },
+    "title": "Innstillinger",
+    "version": "Versjon {{appVersion}}"
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Du har ikke handlet med denne adressen før. Kontroller at det er riktig adresse før du fortsetter.",
+        "title": "Ny adresse"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Du er i ferd med å sende tokens til en spesiell type adresse - en smart kontrakt. Dobbeltsjekk at det er adressen du hadde tenkt å sende til. Hvis det er feil, kan tokens dine gå tapt for alltid.",
+        "title": "Er dette en lommebokadresse?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24-timers avgifter",
+    "24volume": "24H volum",
+    "allTimeFees": "Alle tiders LP-avgifter",
+    "allTimeSwappers": "All time swappers",
+    "allTimeVolume": "Volum hele tiden",
+    "fdv": {
+      "description": "Fullt utvannet verdivurdering (FDV) beregner den totale markedsverdien forutsatt at alle tokens er i omløp."
+    },
+    "marketCap": {
+      "description": "Markedsverdi er den totale markedsverdien av en eiendels sirkulerende forsyning."
+    },
+    "tvl": {
+      "description": "Total verdi låst (TVL) er det samlede beløpet av eiendelen som er tilgjengelig på tvers av alle Uniswap v3 likviditetspooler."
+    },
+    "volume": {
+      "1d": {
+        "description": "1-dagers volum er mengden av eiendelen som har blitt handlet på Uniswap v3 i løpet av de siste 24 timene.",
+        "short": "1D vol"
+      },
+      "description": "Volum er mengden av eiendelen som har blitt handlet på Uniswap v3 i løpet av den valgte tidsrammen."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Tillat {{sym}} (én gang)"
+    },
+    "approvalNeeded": "En godkjenning er nødvendig for å bruke dette tokenet. ",
+    "approvalPending": "Venter på godkjenning",
+    "approveAndSubmit": "Godkjenne og sende inn",
+    "approveAndSwap": "Godkjenn og bytt",
+    "approveInWallet": "Godkjenne i lommeboken",
+    "balance": {
+      "amount": "Saldo: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Den mest effektive ruten er beregnet til å koste ~{{gasPrice}} i nettverkskostnader. "
+    },
+    "bridging": {
+      "estimatedTime": "Est. tid",
+      "title": "Bytte på tvers av nettverk",
+      "warning": {
+        "description": "Du bytter fra {{fromNetwork}} til {{toNetwork}}. Dette er også kjent som \"bridging\", som flytter dine tokens fra ett nettverk til et annet."
+      }
+    },
+    "button": {
+      "max": "Maks",
+      "review": "Anmeldelse",
+      "submitting": {
+        "keep": {
+          "open": "Hold lommeboken åpen..."
+        }
+      },
+      "swap": "Bytte",
+      "swapAnyways": "Bytt uansett",
+      "unwrap": "Pakk ut",
+      "wrap": "Pakke inn"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Søk etter land eller region"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Byttet ditt kan utføres før kanselleringen er behandlet. Nettverkskostnadene dine kan ikke refunderes. Ønsker du å fortsette?",
+      "cannotExecute_other": "Byttene dine kan utføres før kanselleringen er behandlet. Nettverkskostnadene dine kan ikke refunderes. Ønsker du å fortsette?"
+    },
+    "confirmLimit": "Bekreft grense",
+    "confirmSwap": "Bekreft bytte",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. frist"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Tokenavgift"
+      },
+      "newQuote": {
+        "input": "Nytt innspill",
+        "output": "Ny utgang"
+      },
+      "orderRouting": "Bestillingsruting",
+      "orderRoutingInfo": "Dette byttet rutes via Across, en desentralisert protokoll som flytter eiendeler på tvers av nettverk samtidig som sikkerhet, rask utførelse og lave priser prioriteres.",
+      "poweredBy": "Drevet av",
+      "rate": "Vurdere",
+      "slippage": "Maks glidning",
+      "uniswapFee": "Avgift"
+    },
+    "enterAmount": "Skriv inn {{sym}} beløp",
+    "error": {
+      "default": "Det kan hende du må øke utglidningstoleransen. Merk: gebyr-ved-overføring og rebase-tokens er inkompatible med Uniswap V3.",
+      "expectedToFail": "Byttet ditt forventes å mislykkes.",
+      "modifiedByWallet": "Byttet ditt ble endret gjennom lommeboken din. Hvis dette var en feil, må du avbryte umiddelbart eller risikere å miste pengene dine.",
+      "rejected": "Transaksjonen avvist",
+      "undefinedObject": "Det oppstod en feil under forsøk på å utføre denne vekslingen. Det kan hende du må øke utglidningstoleransen. Hvis det ikke fungerer, kan det være en inkompatibilitet med tokenet du handler. Merk: gebyr-ved-overføring og rebase-tokens er inkompatible med Uniswap V3.",
+      "unknown": "Ukjent feil.",
+      "v2": {
+        "expired": "Denne transaksjonen kunne ikke sendes fordi fristen har gått ut. Kontroller at transaksjonsfristen ikke er for lav.",
+        "k": "Uniswap-invarianten x*y=k ble ikke tilfredsstilt av byttet. Dette betyr vanligvis at en av tokenene du bytter, inneholder tilpasset oppførsel ved overføring.",
+        "slippage": "Denne transaksjonen vil ikke lykkes enten på grunn av prisbevegelse eller gebyr ved overføring. Prøv å øke slipp-toleransen",
+        "transferInput": "Inndatatokenet kan ikke overføres. Det kan være et problem med inndatatokenet.",
+        "transferOutput": "Utdatatokenet kan ikke overføres. Det kan være et problem med utdatatokenet."
+      },
+      "v3": {
+        "slippage": "Denne transaksjonen vil ikke lykkes på grunn av prisbevegelser. Prøv å øke glidningstoleransen. Merk: gebyr på overføring og rebase-tokens er inkompatible med Uniswap V3.",
+        "transferOutput": "Utdatatokenet kan ikke overføres. Det kan være et problem med utdatatokenet. Merk: gebyr på overføring og rebase-tokens er inkompatible med Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Det vil være stor forskjell mellom input- og outputverdiene dine på grunn av gjeldende likviditet."
+    },
+    "fail": {
+      "message": "Prøv å justere glidningen til en høyere verdi.",
+      "uniswapX": "Bytte kunne ikke fullføres med UniswapX. Prøv byttet på nytt for å rute det gjennom det klassiske Uniswap API."
+    },
+    "fees": {
+      "experience": "Denne avgiften brukes på noen token-par for å sikre den beste opplevelsen med Uniswap. Det betales i utdatatokenet og er allerede tatt med i tilbudet.",
+      "noFee": "Avgifter påløper på utvalgte token-par for å sikre den beste opplevelsen med Uniswap. Det er ingen avgift knyttet til denne byttet."
+    },
+    "fetchingBestPrice": "Får best pris...",
+    "fetchingPrice": "Henter pris...",
+    "finalizingQuote": "Avslutter sitat...",
+    "form": {
+      "header": "Bytte",
+      "insufficientLiquidity": "Utilstrekkelig likviditet for denne handelen.",
+      "pocketUniverseExtension": {
+        "warning": "Pocket Universe-utvidelsen bryter med <termsLink /> ved å modifisere produktet vårt på en måte som er villedende og kan skade brukere. Vennligst deaktiver utvidelsen og last inn siden på nytt."
+      },
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "På grunn av tokenavgifter kan byttebeløp kun legges inn ved å bruke inntastingsfeltet"
+          }
+        },
+        "restore": "Gjenopprett lommeboken for å bytte"
+      }
+    },
+    "frontrun": {
+      "warning": "Transaksjonen din kan være frontrun og resultere i en ugunstig handel."
+    },
+    "header": {
+      "viewOnly": "Bare visning"
+    },
+    "impactOfTrade": "Påvirkningen din handel har på markedsprisen for denne poolen.",
+    "inputEstimated": {
+      "atMost": "Innspill er estimert. Du selger maksimalt <amount /> , ellers vil transaksjonen gå tilbake."
+    },
+    "limit": "Grense",
+    "limitedAssets": {
+      "warning": "Noen eiendeler er ikke tilgjengelige gjennom dette grensesnittet fordi de kanskje ikke fungerer bra med smarte kontrakter, eller vi ikke kan tillate handel av juridiske årsaker."
+    },
+    "limitFilled": "Grensen er fylt!",
+    "limitSubmitted": "Grensen er sendt inn",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Markedsprisen er utenfor din spesifiserte prisklasse. Kun innskudd for enkeltstående eiendeler."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Det maksimale beløpet du er garantert å bruke. Hvis prisen faller ytterligere, vil transaksjonen gå tilbake."
+    },
+    "minPriceSlip": {
+      "revert": "Hvis prisen beveger seg slik at du vil motta mindre enn {{amount}}, vil transaksjonen gå tilbake."
+    },
+    "networkCost": {
+      "paidIn": "Nettverkskostnad betales i {{sym}} på {{chainName}} -nettverket for å utføre transaksjoner."
+    },
+    "orderRouting": "Bestillingsruting",
+    "outputEstimated": {
+      "atLeast": "Utgang er estimert. Du vil motta minst <amount /> eller transaksjonen går tilbake."
+    },
+    "payAnyway": "Betal uansett",
+    "payAtMost": "Betal på det meste",
+    "payWith": "Betale med",
+    "placeOrder": "Legg inn bestilling",
+    "priceImpact": "Prispåvirkning",
+    "receive": {
+      "atLeast": "Motta i det minste"
+    },
+    "request": {
+      "title": {
+        "full": "Bytt {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Bytt ut tokens"
+      }
+    },
+    "review": {
+      "summary": "Du bytter"
+    },
+    "reviewLimit": "Gjennomgangsgrense",
+    "route": {
+      "optimizedGasCost": "Denne ruten vurderer delte ruter, flere hopp og nettverkskostnader for hvert trinn."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Transaksjonen din vil gå tilbake hvis den venter i mer enn denne perioden. (Maksimalt: 3 dager).",
+        "warning": "Høy frist"
+      },
+      "protection": {
+        "description": "Med byttebeskyttelse på, vil dine Ethereum-transaksjoner være beskyttet mot sandwich-angrep, med reduserte sjanser for å mislykkes.",
+        "subtitle": {
+          "supported": "{{chainName}} Nettverk",
+          "unavailable": "Ikke tilgjengelig på {{chainName}}"
+        },
+        "title": "Byttebeskyttelse"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap-klienten velger det billigste alternativet med tanke på pris og nettverkskostnader."
+            },
+            "tooltip": "En rute er identifisert med tanke på v2, v3 og visse v4-pooler, og tar hensyn til estimert prispåvirkning og nettverkskostnader."
+          },
+          "v2": {
+            "title": "v2 bassenger"
+          },
+          "v3": {
+            "title": "v3 bassenger"
+          },
+          "v4": {
+            "title": "v4 bassenger"
+          }
+        },
+        "title": "Handel med alternativer"
+      },
+      "slippage": {
+        "alert": "Høy glidning",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "Transaksjonen din vil gå tilbake hvis prisen endres mer enn glidningsprosenten.",
+        "input": {
+          "message": "Hvis prisen faller ytterligere, vil transaksjonen gå tilbake. Nedenfor er minimumsbeløpet du er garantert å motta.",
+          "receive": {
+            "title": "Motta i det minste"
+          }
+        },
+        "output": {
+          "message": "Hvis prisen faller ytterligere, vil transaksjonen gå tilbake. Nedenfor er det maksimale beløpet du trenger å bruke.",
+          "spend": {
+            "title": "Bruk på det meste"
+          }
+        },
+        "warning": {
+          "description": "Slipp over 20 % vil sannsynligvis føre til en ugunstig handel. Senk innstillingene dine for å redusere risikoen for frontkjøring.",
+          "hover": "Dette kan føre til en ugunstig handel. Prøv å senke utglidningsinnstillingen.",
+          "max": "Skriv inn en verdi mindre enn {{maxSlippageTolerance}}",
+          "message": "Utglidningen kan være høyere enn nødvendig",
+          "min": "Skriv inn en verdi større enn 0"
+        }
+      },
+      "title": "Bytt innstillinger",
+      "transactionRevertPrice": "Transaksjonen din vil gå tilbake hvis prisen endres ugunstig med mer enn denne prosentandelen."
+    },
+    "signAndSwap": "Signer og bytt",
+    "slippage": {
+      "amt": "{{amt}} glidning",
+      "bridging": "Ingen glidning når du bytter på tvers av nettverk",
+      "settings": {
+        "title": "Slippinnstillinger"
+      },
+      "tooltip": "Den maksimale prisbevegelsen før transaksjonen din vil gå tilbake."
+    },
+    "slippageBelow": {
+      "warning": "Slipp under {{amt}} kan resultere i en mislykket transaksjon"
+    },
+    "submitted": "Bytte sendt inn",
+    "success": "Bytte suksess!",
+    "taxTooltip": {
+      "label": "Kun eksakt innspill",
+      "noTokenSelected": "Avgifter på det valgte utdatatokenet tillater ikke nøyaktige utdata. Bruk `Selg`-feltet i stedet.",
+      "tokenSelected": "{{tokenSymbol}} avgifter tillater ikke nøyaktige nøyaktige utdata. Bruk 'Selg'-feltet i stedet."
+    },
+    "tokenOwnFees": "Noen tokens tar et gebyr når de kjøpes eller selges, som settes av tokenutstederen. Uniswap mottar ingen av disse avgiftene.",
+    "total": "Total",
+    "tradeRoutes": "Handelsruter",
+    "transaction": {
+      "deadline": "Transaksjonsfrist",
+      "revertAfter": "Transaksjonen din vil gå tilbake hvis den venter i mer enn denne perioden."
+    },
+    "unsupportedAssets": {
+      "readMore": "Les mer om ikke-støttede eiendeler"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Angi et større beløp"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Prøv å øke glidningen.",
+        "titleMay": "Dette byttet kan mislykkes"
+      },
+      "insufficientBalance": {
+        "title": "Du har ikke nok {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Bytt til {{ tokenSymbol }} på {{networkName}}",
+          "buy": "Kjøp {{ tokenSymbol }}",
+          "buyWithCard": "Kjøp med kort"
+        },
+        "message": {
+          "withNetwork": "Ikke nok <highlight>{{currencySymbol}} på {{networkName}}</highlight> til å bytte",
+          "withoutNetwork": "Ikke nok <highlight>{{currencySymbol}}</highlight> til å bytte"
+        },
+        "title": "Du har ikke nok {{currencySymbol}} til å dekke nettverkskostnadene"
+      },
+      "networkFee": {
+        "allow": "Tillat {{ inputTokenSymbol }} (én gang)",
+        "highRelativeToValue": {
+          "unichain": "Nettverkskostnaden overstiger 10 % av den totale transaksjonsverdien."
+        },
+        "message": {
+          "unichain": "Dette er kostnaden for å behandle transaksjonen din på blokkjeden.",
+          "uniswapX": {
+            "unichain": "Dette er kostnaden for å behandle transaksjonen din på blokkjeden. <gradient>UniswapX</gradient> samler likviditetskilder for bedre priser og gassfrie bytteavtaler."
+          }
+        },
+        "wrap": "Pakk inn ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Fant ingen overgangssitater. Prøv å bruke den offisielle broen på dette tidspunktet."
+        },
+        "title": "Ingen sitater funnet"
+      },
+      "noRoutesFound": {
+        "message": "Det er for øyeblikket ingen tilgjengelige ruter for dine valgte tokens. Prøv et annet par eller sjekk igjen senere.",
+        "title": "Ingen ruter tilgjengelig"
+      },
+      "offline": {
+        "message": "Du kan ha mistet internettforbindelsen eller nettverket kan være nede. Kontroller Internett-tilkoblingen din og prøv igjen.",
+        "title": "Du er frakoblet"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Denne transaksjonen vil resultere i en {{priceImpactValue}} prispåvirkning på markedsprisen for denne poolen og vil resultere i tap av midler."
+        },
+        "title": {
+          "veryHigh": "Svært høy prispåvirkning ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Transaksjonen din ble ikke sendt inn fordi du stengte appen.",
+        "approvalFailed": "Transaksjonen din ble ikke sendt fordi token-godkjenning mislyktes.",
+        "stale": "Transaksjonen din ble ikke sendt inn fordi du lukket appen eller godkjenningen tok for lang tid.",
+        "submissionFailed": "Det oppsto et problem under innsending av transaksjonen.",
+        "title": "Bytte kansellert",
+        "wrap": {
+          "message": "Din ETH forblir pakket inn som WETH."
+        },
+        "wrapFailed": "Transaksjonen din ble ikke sendt inn fordi innpakningstransaksjonen mislyktes."
+      },
+      "rateLimit": {
+        "message": "Vennligst prøv igjen om noen minutter.",
+        "title": "Satsgrensen er overskredet"
+      },
+      "router": {
+        "message": "Du kan ha mistet forbindelsen eller nettverket kan være nede. Hvis problemet vedvarer, prøv igjen senere.",
+        "title": "Denne handelen kan ikke fullføres akkurat nå"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} er blokkert"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Gebyrer påløper for å sikre den beste opplevelsen med Uniswap. Det er ingen avgift knyttet til denne byttet.",
+          "included": "Gebyrer påløper for å sikre den beste opplevelsen med Uniswap, og er allerede tatt med i dette tilbudet."
+        },
+        "title": "Byttegebyr"
+      },
+      "viewOnly": {
+        "message": "Du må importere denne lommeboken via gjenopprettingsfrase for å bytte tokens."
+      }
+    },
+    "wrap": {
+      "token": "Pakk inn {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "På andre nettverk",
+      "otherNetworksBalance": "Balanse på andre nettverk",
+      "title": "Din balanse"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Bytt til {{network}}",
+      "title": "Dette tokenet eksisterer ikke",
+      "titleWithChain": "Dette tokenet finnes ikke på {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "tokendata for <tokenLink />",
+        "withChain": "tokendata for <tokenLink /> på {{chainName}}"
+      }
+    },
+    "nameNotFound": "Finner ikke navn",
+    "noInfoAvailable": "Ingen tokeninformasjon tilgjengelig",
+    "noTestnetSupportDescription": "Noen testnett støtter ikke bytte, sending eller kjøp av tokens.",
+    "stats": {
+      "unsupportedChainDescription": "Tokenstatistikk og diagrammer for {{chain}} er tilgjengelig på {{infoLink}}"
+    },
+    "symbolNotFound": "Symbol ikke funnet"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Denne handlingen krever at testnettmodus er deaktivert. Testnett-modus kan aktiveres igjen når som helst innenfor innstillingene.",
+          "toTestnetMode": "Denne handlingen krever at testnettmodus er aktivert. Tokens på testnett har ingen reell verdi. Testnet-modus kan deaktiveres når som helst i innstillingene."
+        },
+        "title": {
+          "toProdMode": "Deaktiver testnettmodus",
+          "toTestnetMode": "Aktiver testnettmodus"
+        }
+      }
+    },
+    "unsupported": "Denne funksjonaliteten støttes ikke i testnettmodus."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "betterPricesMoreListings": "Bedre priser. Flere oppføringer. Kjøp, selg og bytt NFT-er på tvers av toppmarkedsplasser som OpenSea. Utforsk populære samlinger.",
+    "buySellTradeEthereum": "Kjøp, selg og bytt Ethereum og andre topp-tokens på Uniswap",
+    "createGovernanceOn": "Lag et nytt styringsforslag på Uniswap",
+    "createGovernanceTo": "Lag et nytt styringsforslag som skal stemmes over av UNI-innehavere. UNI-tokens representerer stemmeberettigede andeler i Uniswap-styring.",
+    "earnFees": "Tjen gebyrer når andre bytter på Uniswap ved å legge til tokens i likviditetspuljer.",
+    "easilyRemove": "Fjern enkelt likviditeten din fra Uniswap v2 og sett inn i Uniswap v3.",
+    "easilyRemoveV4": "Fjern enkelt likviditeten din fra Uniswap v2 og v3 for å sette inn i Uniswap v4.",
+    "explore": "Utforsk NFT-er på Uniswap",
+    "exploreNFTs": "Utforsk og kjøp NFT-er på tvers av toppmarkedsplasser på Uniswap",
+    "manageNFT": "Administrer NFT-samlingen din. Se egenskaper, handelsaktivitet, beskrivelser og andre detaljer på NFT-ene dine.",
+    "migratev2": "Migrer v2 pool likviditet til Uniswap v3",
+    "migratev3": "Migrer pool likviditet til Uniswap v4",
+    "placeLimit": "Legg inn grensebestillinger på Uniswap",
+    "realTime": "Sanntidspriser, diagrammer, transaksjonsdata og mer.",
+    "removeLiquidityv2": "Fjern pool likviditet (v2) på Uniswap",
+    "removePoolLiquidity": "Fjern poollikviditet på Uniswap",
+    "removeTokensv2": "Fjern tokens fra v2 likviditetspuljer.",
+    "removev3Liquidity": "Fjern tokens fra v3 likviditetspuljer.",
+    "sendTokens": "Send tokens på Uniswap",
+    "swappingMadeSimple": "Bytte gjort enkelt. Kjøp og selg krypto på Ethereum, Base, Arbitrum, Polygon og mer. Stolt på av millioner.",
+    "tradeTokens": "Handle tokens og gi likviditet. Sanntidspriser, diagrammer, transaksjonsdata og mer.",
+    "uniswapTradeCrypto": "Uniswap | Handle krypto og NFT-er trygt på den øverste DeFi-plattformen",
+    "uniToken": "UNI-tokens representerer stemmeberettigede andeler i Uniswap-styring. Du kan stemme på hvert forslag selv eller delegere stemmene dine til en tredjepart.",
+    "voteOnGov": "Stem på styringsforslag på Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Din balanse",
+      "other": "Saldoer på andre nettverk",
+      "viewOnly": "{{ownerAddress}}sin saldo"
+    },
+    "bridge": "{{label}} symbolbro",
+    "chart": {
+      "tooltip": "Avgifter: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Tokendetaljer er utilgjengelige for testnet-tokens."
+      }
+    },
+    "error": {
+      "unknown": "Ukjent token"
+    },
+    "fee": {
+      "buy": {
+        "label": "kjøpe gebyr"
+      },
+      "label": "avgift",
+      "sell": {
+        "label": "salgsgebyr"
+      }
+    },
+    "links": {
+      "title": "Linker",
+      "twitter": "Twitter",
+      "website": "Nettsted"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Noe gikk galt.",
+        "title": "Kunne ikke laste inn prisdiagrammet"
+      },
+      "timeRangeLabel": {
+        "all": "Hele tiden",
+        "day": {
+          "verbose": "1 dag"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 måned"
+        },
+        "week": {
+          "verbose": "1 uke"
+        },
+        "year": {
+          "verbose": "1 år"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} er ikke tilgjengelig",
+          "tokensNotAvailable": "{{tokenSymbol0}} og {{tokenSymbol1}} er ikke tilgjengelige"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs mottar ingen av disse avgiftene."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Gjør alltid research",
+        "blocked": {
+          "description": {
+            "default_one": "Du kan ikke bytte dette tokenet ved å bruke Uniswap-appen.",
+            "default_other": "Du kan ikke bytte disse tokenene ved å bruke Uniswap-appen."
+          }
+        },
+        "dontShowWarningAgain": "Ikke vis meg denne advarselen igjen",
+        "doYourOwnResearch": "Gjør alltid din egen forskning før du fortsetter.",
+        "feeDescription": "Lader en <fee /> når {{action}}",
+        "flaggedAsMalicious": "Flagget som ondsinnet",
+        "fotHigh": {
+          "title": "Høy avgift oppdaget"
+        },
+        "fotLow": {
+          "title": "Gebyr oppdaget"
+        },
+        "fotVeryHigh": {
+          "title": "Svært høy avgift oppdaget"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} har blitt flagget som uselgbar. Bytting av dette tokenet kan føre til tap av midlene dine.",
+          "title": "100 % salgsgebyr oppdaget"
+        },
+        "impersonator": {
+          "title": "Imitatortoken oppdaget"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} har blitt flagget som ondsinnet av Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} er kanskje ikke tokenet du ønsker å bytte."
+            }
+          },
+          "title": "Skadelig token oppdaget"
+        },
+        "mayResultInLoss": "Å bytte det kan føre til tap av midler.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} handles ikke på ledende amerikanske sentraliserte børser."
+          }
+        },
+        "notListedOnExchanges": "Ikke notert på ledende amerikanske børser",
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} har blitt flagget som uselgbar.",
+          "title": "100 % salgsgebyr oppdaget"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} har blitt flagget som spam av Blockaid.",
+          "title": "Spam-token oppdaget"
+        },
+        "spamsUsers": "Spam-brukere",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} belaster et {{buyFeePercent}} gebyr ved kjøp og {{sellFeePercent}} ved salg."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} belaster et {{feePercent}} gebyr ved kjøp."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} belaster et {{feePercent}} gebyr ved salg."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} krever et gebyr ved kjøp eller salg."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Du kan ikke bytte dette tokenet ved å bruke Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Disse tokenene handles ikke på ledende amerikanske sentraliserte børser. Gjør alltid din egen forskning før du fortsetter."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Kunne ikke laste inn søkeresultater"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Fullstendig utvannet verdivurdering",
+      "marketCap": "Markedsverdi",
+      "priceHighYear": "52W høy",
+      "priceLowYear": "52W lav",
+      "section": {
+        "about": "Om {{token}}"
+      },
+      "title": "Statistikk",
+      "translation": {
+        "original": "Vis originalen",
+        "translate": "Oversett til {{language}}"
+      },
+      "volume": "24 timers volum"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Input token"
+      },
+      "output": {
+        "fallback": "Output token"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Bytter på Uniswap-protokollen kan starte og slutte med ETH. Men under byttet blir ETH pakket inn i WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "For å få {{ tokenSymbol }}trenger du først {{ nativeTokenSymbol }} for å betale for nettverkskostnaden. Kom i gang ved å finansiere lommeboken din med {{ nativeTokenSymbol }}.",
+      "title": "Du trenger {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Skjul token",
+      "unhide": "Vis token"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Se på {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Kunne ikke laste inn NFT-samlingen"
+          }
+        },
+        "label": {
+          "items": "Varer",
+          "owners": "Eiere",
+          "priceFloor": "Gulv",
+          "swapVolume": "Volum"
+        }
+      },
+      "details": {
+        "error": {
+          "load": {
+            "title": "Kunne ikke laste inn NFT-detaljer"
+          }
+        },
+        "network": "Nettverk",
+        "owner": "Eid av",
+        "price": "Gjeldende pris",
+        "recentPrice": "Siste salgspris",
+        "traits": "Egenskaper"
+      },
+      "empty": {
+        "description": "Ingen NFT-er funnet"
+      },
+      "error": {
+        "unavailable": "Innhold ikke tilgjengelig"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Skjul NFT",
+          "unhide": "Vis NFT"
+        }
+      },
+      "link": {
+        "collection": "Samlingsnettsted"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Kunne ikke laste inn NFT-er"
+          }
+        },
+        "none": {
+          "button": "Motta NFT-er",
+          "description": {
+            "default": "Overfør NFT-er fra en annen lommebok for å komme i gang.",
+            "external": "Når denne lommeboken kjøper eller mottar NFT-er, vises de her."
+          },
+          "title": "Ingen NFT-er ennå"
+        }
+      }
+    },
+    "noneFound": "Ingen tokens funnet.",
+    "selector": {
+      "button": {
+        "choose": "Velg token",
+        "clear": "Rydd alt"
+      },
+      "empty": {
+        "buy": {
+          "message": "Kjøp krypto med kort eller bank for å sende tokens.",
+          "title": "Kjøp krypto"
+        },
+        "receive": {
+          "title": "Motta tokens"
+        },
+        "title": "Ingen tokens ennå"
+      },
+      "error": {
+        "load": "Kunne ikke laste inn tokens"
+      },
+      "search": {
+        "empty": "Ingen resultater funnet for <highlight>{{searchText}}</highlight>",
+        "placeholder": "Søk tokens"
+      },
+      "section": {
+        "bridging": "Bytt på tvers av nettverk",
+        "favorite": "Favoritter",
+        "otherSearchResults": "Andre tokens på {{network}}",
+        "recent": "Nylige søk",
+        "search": "Søkeresultater",
+        "trending": "Tokens med 24-timers volum",
+        "yours": "Dine tokens"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Søk i bassenger",
+          "tokens": "Søk tokens"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Avbryt transaksjonen",
+        "description": "Hvis du kansellerer denne transaksjonen før den er behandlet av nettverket, betaler du en ny nettverkskostnad i stedet for den opprinnelige.",
+        "title": "Vil du avbryte denne transaksjonen?"
+      },
+      "copy": "Kopiér transaksjons-ID",
+      "copyProvider": "Kopiér {{providerName}} transaksjons-ID"
+    },
+    "amount": {
+      "unlimited": "Ubegrenset"
+    },
+    "confirmation": {
+      "completionTime_one": "Transaksjonen fullført på <highlight>{{count}}</highlight> sekund 🎉",
+      "completionTime_other": "Transaksjonen fullført på <highlight>{{count}}</highlight> sekunder 🎉",
+      "pending": {
+        "wallet": "Bekreft transaksjonen i lommeboken"
+      },
+      "submitted": {
+        "currency": {
+          "add": "Legg til {{currency}}",
+          "added": "Lagt til {{currency}}"
+        }
+      },
+      "waiting": "Venter på bekreftelse"
+    },
+    "date": "Sendt inn {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Fra",
+      "networkFee": "Nettverkskostnad",
+      "providerFee": "Leverandøravgift",
+      "swapRate": "Vurdere",
+      "transaction": "Transaksjon",
+      "uniswapFee": "Gebyr ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Utilstrekkelig poollikviditet til å fullføre transaksjonen",
+    "network": {
+      "all": "Alle nettverk"
+    },
+    "networkCost": {
+      "label": "Nettverkskostnad",
+      "maxNativeBalance": {
+        "description": "En liten mengde av nettverkstoken-saldoen er reservert for å dekke nettverkskostnadene for denne transaksjonen.",
+        "title": "Hvorfor kan jeg ikke bruke makssaldoen min?"
+      },
+      "veryHigh": {
+        "label": "Svært høye nettverkskostnader"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Kan ikke kansellere transaksjonen",
+        "replace": "Kan ikke erstatte transaksjonen"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Kansellert godkjenning",
+        "canceling": "Kansellerer godkjenning",
+        "failed": "Kunne ikke godkjenne",
+        "pending": "Godkjenner",
+        "success": "Godkjent",
+        "successDapp": "Godkjent {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Kansellert kjøp",
+        "canceling": "Kansellerer kjøp",
+        "failed": "Kunne ikke kjøpe",
+        "pending": "Kjøpe",
+        "success": "Kjøpt",
+        "successDapp": "Kjøpt på {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Avbrutt bekrefte",
+        "canceling": "Venter på kansellering",
+        "failed": "Kunne ikke bekrefte",
+        "pending": "Transaksjon pågår",
+        "success": "Transaksjonen bekreftet",
+        "successDapp": "Transaksjonen bekreftet {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Kansellert mint",
+        "canceling": "Kansellerer mint",
+        "failed": "Kunne ikke prege",
+        "pending": "Minting",
+        "success": "Preget",
+        "successDapp": "Preget på {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Kansellert kjøp",
+        "canceling": "Kansellerer kjøpet",
+        "failedOn": "Kunne ikke kjøpe på {{serviceProvider}}",
+        "pendingOn": "Kjøper på {{serviceProvider}}",
+        "successOn": "Kjøpt på {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Kansellert mottak",
+        "canceling": "Kansellerer mottak",
+        "failedFrom": "Kunne ikke motta fra {{serviceProvider}}",
+        "pendingFrom": "Mottar fra {{serviceProvider}}",
+        "success": "Mottatt",
+        "successDapp": "Mottatt {{externalDappName}}",
+        "successFrom": "Mottatt fra {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Kansellert tilbakekall",
+        "canceling": "Kansellerer tilbakekall",
+        "failed": "Kunne ikke tilbakekalle",
+        "pending": "Opphever",
+        "success": "Opphevet",
+        "successDapp": "Opphevet {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Kansellert salg",
+        "canceling": "Avbryter salg",
+        "failedOn": "Salg mislyktes via {{serviceProvider}}",
+        "pendingOn": "Selges via {{serviceProvider}}",
+        "successOn": "Selges via {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Kansellert salg",
+        "canceling": "Kansellerer salg",
+        "failed": "Kunne ikke selge",
+        "pending": "Selger",
+        "success": "Solgt",
+        "successDapp": "Selges på {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Avbrutt sending",
+        "canceling": "Avbryter sending",
+        "failed": "Mislykket sending",
+        "pending": "Sender",
+        "success": "Sendt",
+        "successDapp": "Sendt {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Kansellert bytte",
+        "canceling": "Kansellerer bytte",
+        "expired": "Bytte utløpt",
+        "failed": "Kunne ikke bytte",
+        "insufficientFunds": "Utilstrekkelige midler",
+        "pending": "Bytting",
+        "success": "Byttet",
+        "successDapp": "Byttet på {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Avbrutt utpakning",
+        "canceling": "Avbryter utpakking",
+        "failed": "Kunne ikke pakke ut",
+        "pending": "Utpakking",
+        "success": "Utpakket",
+        "successDapp": "Utpakket på {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Kansellert innpakning",
+        "canceling": "Avbryter innpakning",
+        "failed": "Kunne ikke pakke inn",
+        "pending": "Innpakning",
+        "success": "Innpakket",
+        "successDapp": "Pakket på {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} til {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} fra {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": "Du trenger ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) på {{networkName}} for å dekke denne transaksjonens nettverkskostnader.",
+          "title": {
+            "withNetwork": "Ikke nok {{tokenSymbol}} på {{networkName}}",
+            "withoutNetwork": "Ikke nok {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Du er i ferd med å bruke mesteparten av nettverkstoken-saldoen din. Dette kan etterlate utilstrekkelige midler til å dekke fremtidige nettverkskostnader.",
+        "title": "Lav nettverkstokenbalanse"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Kan ikke kansellere transaksjonen",
+        "status": "Feil under kontroll av transaksjonsstatus"
+      }
+    }
+  },
+  "unichain": {
+    "promotion": {
+      "bridging": {
+        "description": "Bytt til Unichain",
+        "tooltip": {
+          "description": "Bruk din ETH for å komme i gang med Unichain."
+        }
+      },
+      "cold": {
+        "description": "Raskere bytte. Lavere avgifter. Unichain er hjemmet til DeFi.",
+        "title": "Vi introduserer Unichain"
+      },
+      "modal": {
+        "description": "Raskere bytte. Lavere avgifter. Unichain er hjemmet for likviditet på tvers av kjeder.",
+        "detail": {
+          "costs": "Lavere kostnader for å opprette pools og administrere stillinger.",
+          "fees": "Spar 95% på gebyrer sammenlignet med Ethereum.",
+          "instant": "Bytt umiddelbart"
+        }
+      },
+      "tooltip": {
+        "description": "Raskere bytte. Lavere avgifter. Unichain er hjemmet for likviditet på tvers av kjeder.",
+        "switch": "Bytt til Unichain",
+        "title": "Unichain er her"
+      },
+      "warm": {
+        "description": "Bytt favorittsymbolene dine raskere og med lavere bensinkostnader.",
+        "title": "Begynn å bytte på Unichain"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> samler likviditetskilder for bedre priser og gassfrie bytteavtaler.",
+    "learnMore": "Lær mer om å bytte med UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX samler likviditetskilder for bedre priser og gassfrie bytteavtaler.",
+    "included": "Inkluderer <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 hardt sitat mislyktes. Prøv igjen med klassisk bytte."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Krev nå"
+      },
+      "subtitle": "Bygg en personlig web3-profil og del enkelt adressen din med venner.",
+      "title": {
+        "compact": "<highlight>Gjør krav på {{unitagDomain}} brukernavnet ditt</highlight> og bygg ut din tilpassbare profil.",
+        "full": "Gjør krav på ditt {{unitagDomain}} brukernavn"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Velg fra kamerarull",
+        "computer": "Last opp fra datamaskinen",
+        "nft": "Velg en NFT",
+        "remove": "Fjern profilbilde"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Tilpass profil",
+        "description": "{{unitagAddress}} er klar til å sende og motta krypto. Fortsett å bygge ut lommeboken din ved å tilpasse web3-profilen din.",
+        "success": {
+          "long": "Du har det!",
+          "short": "har det!"
+        }
+      },
+      "error": {
+        "addressLimit": "Du har allerede gjort det maksimale antallet endringer i brukernavnet ditt for denne adressen",
+        "appCheck": "Kunne ikke gjøre krav på brukernavn. Prøv igjen i morgen.",
+        "avatar": "Kunne ikke angi avatar. Prøv igjen senere.",
+        "default": "Kunne ikke gjøre krav på brukernavn. Prøv igjen senere.",
+        "deviceLimit": "Du har nådd det maksimale antallet brukernavn som kan være aktive for denne enheten",
+        "general": "Kan ikke gjøre krav på brukernavn",
+        "unavailable": "Brukernavnet er ikke tilgjengelig",
+        "unknown": "Ukjent feil"
+      },
+      "username": {
+        "default": "navnet ditt"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Du er i ferd med å slette brukernavnet og tilpassbare profildetaljer. Du vil ikke kunne kreve det tilbake.",
+        "title": "Er du sikker?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "brukernavn"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Du er i ferd med å endre brukernavnet ditt. Når du først har endret det, kan du aldri kreve det igjen.",
+        "title": "Er du sikker?"
+      },
+      "title": "Rediger brukernavnet ditt",
+      "warning": {
+        "default": "Når du har endret brukernavnet ditt, kan du aldri gjøre krav på det igjen. Du kan bare endre den <highlight>2</highlight> ganger.",
+        "max": "Du har nådd det maksimale antallet 2 brukernavnendringer."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Gjør krav på et brukernavn",
+        "description": "Si farvel til 0x-adresser. Brukernavn er lesbare navn som gjør det enklere å sende og motta krypto.",
+        "title": "Vi introduserer brukernavn",
+        "upsell": {
+          "customizable": "Tilpassbare profiler",
+          "ens": "Drevet av ENS underdomener",
+          "free": "Gratis å kreve"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Drevet av ENS underdomener",
+        "free": "Gratis å kreve",
+        "profile": "Tilpassbare profiler"
+      },
+      "subtitle": "Si farvel til 0x-adresser. Brukernavn er lesbare navn som gjør det enklere å sende og motta krypto.",
+      "title": "Vi introduserer brukernavn"
+    },
+    "notification": {
+      "delete": {
+        "error": "Kunne ikke slette brukernavnet. Prøv igjen senere.",
+        "title": "Brukernavnet er slettet"
+      },
+      "profile": {
+        "error": "Kunne ikke oppdatere profilen. Prøv igjen senere.",
+        "title": "Profil oppdatert"
+      },
+      "username": {
+        "error": "Kunne ikke endre brukernavn. Prøv igjen senere.",
+        "title": "Brukernavn endret"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Dette er din personlige adresse som folk kan sende krypto til.",
+        "title": {
+          "choose": "Opprett brukernavnet ditt",
+          "claim": "Gjør krav på brukernavnet ditt"
+        }
+      },
+      "info": {
+        "description": "Brukernavn forvandler komplekse 0x-adresser til lesbare navn. Ved å kreve et {{unitagDomain}} brukernavn kan du enkelt sende og motta krypto og bygge ut en offentlig web3-profil.",
+        "title": "En forenklet adresse"
+      },
+      "profile": {
+        "subtitle": "Last opp din egen eller hold deg til din unike Unicon. Du kan alltid endre dette senere.",
+        "title": "Velg et profilbilde"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Slett brukernavn",
+        "edit": "Rediger brukernavn"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Skriv inn en biografi for profilen din"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Brukernavn kan bare inneholde bokstaver og tall",
+        "max": "Brukernavn kan ikke være mer enn {{number}} tegn",
+        "min": "Brukernavn må inneholde minst {{number}} tegn",
+        "uppercase": "Brukernavn kan bare inneholde små bokstaver og tall"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Ikke nok {{tokenSymbol}} på {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 er ikke tilgjengelig på dette nettverket.",
+    "switchTo": "Bytt til v2"
+  },
+  "v3": {
+    "blast": {
+      "yield": {
+        "usdbAndWeth": "På Blast rebaserer USDB og WETH tokens som automatisk gir avkastning. På grunn av inkompatibilitet med Uniswap v3, vil LP-posisjoner med USDB eller WETH ikke tjene rebasing yield, men vil i Uniswap v2."
+      }
+    },
+    "continue": "Fortsett på v3",
+    "rebase": {
+      "unavailable": "Rebasing er utilgjengelig på v3"
+    }
+  },
+  "wallet": {
+    "appSignIn": "Logg på med appen",
+    "connectingAgreement": "Ved å koble til en lommebok godtar du Uniswap Labs' <termsLink>vilkår for bruk</termsLink> og samtykker til deres <privacyLink>personvernregler</privacyLink>.",
+    "connectionFailed": {
+      "message": "Tilkoblingsforsøket mislyktes. Klikk prøv igjen og følg trinnene for å koble til i lommeboken."
+    },
+    "other": "Andre lommebøker",
+    "scanToConnect": "Skann QR-koden for å koble til",
+    "wrongNet": "Lommeboken din er koblet til feil nettverk."
+  },
+  "walletConnect": {
+    "dapps": {
+      "connection": "<highlight>Koblet til </highlight>{{dappNameOrUrl}}",
+      "empty": {
+        "description": "Koble til en app ved å skanne en kode via WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Ingen apper er tilkoblet"
+        },
+        "title": "Tilkoblinger"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet støtter for øyeblikket {{chainNames}}. Vennligst bruk bare \"{{dappName}}\" på disse kjedene",
+        "title": "Tilkoblingsfeil"
+      },
+      "general": {
+        "message": "Det var et problem med WalletConnect. Vær så snill, prøv på nytt",
+        "title": "WalletConnect-feil"
+      },
+      "scantastic": {
+        "message": "Det var et problem med QR-koden din. Vær så snill, prøv på nytt",
+        "title": "Ugyldig QR-kode"
+      },
+      "unsupported": {
+        "message": "Sørg for at du skanner en gyldig WalletConnect-, Ethereum-adresse eller Uniswap Extension QR-kode før du prøver igjen.",
+        "title": "Ugyldig QR-kode"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 støttes ikke lenger. Appen du prøver å koble til må oppgraderes til WalletConnect v2.",
+        "title": "Ugyldig QR-kode"
+      },
+      "uwu": {
+        "scan": "Det oppsto et problem med å skanne denne QR-koden.",
+        "title": "UwU-koblingsfeil",
+        "unsupported": "Denne QR-koden støttes ikke."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Koble",
+        "scrollDown": "Rull ned for å koble til"
+      },
+      "switchAccount": "Bytt konto",
+      "switchNetwork": "Bytt nettverk",
+      "title": "Koble til {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Overfør eiendelene dine uten samtykke",
+        "viewTokenBalances": "Se symbolsaldoene dine",
+        "viewWalletAddress": "Se lommebokadressen din"
+      },
+      "title": "Nettstedstillatelser"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Rull ned for å signere",
+        "sign": "Skilt"
+      },
+      "details": {
+        "label": {
+          "function": "Funksjon",
+          "sending": "Sender",
+          "token": "Token",
+          "tokens": "Tokens"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Du har ikke nok {{currencySymbol}} til å fullføre denne transaksjonen.",
+        "network": "Internett- eller nettverkstilkoblingsfeil"
+      },
+      "warning": {
+        "general": {
+          "message": "Vær forsiktig: denne meldingen kan overføre eiendeler"
+        },
+        "message": "For å signere meldinger eller transaksjoner, må du importere lommebokens gjenopprettingsfrase.",
+        "title": "Denne lommeboken er i visningsbeskyttet modus"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Oppdag og undersøk tokens på {{network}}. Utforsk de beste bassengene. Se sanntidspriser, handelsvolum, TVL, diagrammer og transaksjonsdata.",
+      "title": {
+        "pools": "Utforsk de beste bassengene på {{network}} på Uniswap",
+        "tokens": "Utforsk de beste symbolene på {{network}} på Uniswap",
+        "transactions": "Utforsk de beste transaksjonene på {{network}} på Uniswap"
+      }
+    }
+  }
+}

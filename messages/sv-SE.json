@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Gör anspråk på {{amount}} belöning"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Det finns flera återställningsfraser säkerhetskopierade till din {{cloudProviderName}}.",
+        "title": "Välj en säkerhetskopia att återställa"
+      },
+      "button": {
+        "restore": {
+          "android": "Återställ från Google Drive",
+          "ios": "Återställ från iCloud"
+        }
+      },
+      "empty": {
+        "description": "Det verkar som att du inte har säkerhetskopierat några av dina återställningsfraser till {{cloudProviderName}}.",
+        "title": "0 säkerhetskopior hittades"
+      },
+      "error": {
+        "backup": {
+          "message": "Det gick inte att importera säkerhetskopior på grund av brist på behörigheter, avbrott i auktorisering eller på grund av ett molnfel",
+          "title": "Fel vid import av säkerhetskopior"
+        },
+        "password": {
+          "title": "Felaktigt lösenord. Var god försök igen."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Inte nu",
+            "settings": "Gå till Inställningar"
+          },
+          "message": {
+            "android": "Verifiera att du är inloggad på ett Google-konto med Google Drive aktiverat på den här enheten och försök igen.",
+            "ios": "Kontrollera att du är inloggad på ett Apple-ID med iCloud Drive aktiverat på den här enheten och försök igen."
+          },
+          "title": {
+            "android": "Google Drive är inte tillgängligt",
+            "ios": "iCloud Drive är inte tillgängligt"
+          }
+        }
+      },
+      "loading": {
+        "title": "Söker efter säkerhetskopior..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "För många försök. Försök igen om 1 timme.",
+          "hours_other": "För många försök. Försök igen om {{count}} timmar.",
+          "minutes_one": "För många försök. Försök igen om 1 minut.",
+          "minutes_other": "För många försök. Försök igen om {{count}} minuter."
+        }
+      },
+      "password": {
+        "input": "Skriv in lösenord",
+        "recoveryPhrase": "Ange din återställningsfras istället",
+        "subtitle": "Detta lösenord krävs för att återställa säkerhetskopian av din återställningsfras från {{cloudProviderName}}.",
+        "title": "Ange säkerhetskopieringslösenord"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Version: ",
+      "modal": {
+        "body": "Förvara och byt ut tokens på ett säkert sätt med Uniswap-appen. Tillgänglig på iOS och Android.",
+        "dont": "Har du ingen Uniswap-plånbok?",
+        "scan": "Skanna med Uniswap Wallet"
+      },
+      "spamToggle": "Dölj okända tokens och NFT:er"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "Jag har säkerhetskopierat min återställningsfras och förstår att Uniswap Labs inte kan hjälpa mig att återställa min plånbok om jag inte gjorde det.",
+        "description": "Se till att du har säkerhetskopierat din återställningsfras med Uniswap-mobilappen eller webbläsartillägget.",
+        "descriptionEmphasized": "Utan din återställningsfras kanske du inte kan komma åt din plånbok.",
+        "speedbump": {
+          "description": "Innan du fortsätter, slutför följande steg för att undvika att förlora åtkomst till din plånbok och alla pengar.",
+          "step1": "Ladda ner Uniswap-mobilappen eller webbläsartillägget",
+          "step2": "Säkerhetskopiera din återställningsfras",
+          "title": "Är du säker?"
+        },
+        "title": "Radera lösenord?"
+      },
+      "sign": {
+        "in": {
+          "title": "Logga in med lösenord"
+        }
+      },
+      "type": {
+        "crossplatform": "Telefon, surfplatta eller säkerhetsnyckel",
+        "platform": "Webbläsare eller operativsystem"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Den här beställningen avbröts eftersom ditt saldo understeg det inmatade beloppet."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Den här beställningen kommer inte att fyllas eftersom ditt saldo gick under det inmatade beloppet. Öka ditt saldo för att fixa."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "En återställningsfras (eller fröfras) är en <highlight>uppsättning ord</highlight> som krävs för att komma åt din plånbok, <highlight>som ett lösenord.</highlight>",
+        "part2": "Du kan <highlight>ange</highlight> din återställningsfras på en ny enhet <highlight>för att återställa din plånbok</highlight> och dess innehåll.",
+        "part3": "Men om du <highlight>tappar din återställningsfras</highlight>, kommer du <highlight>att förlora åtkomst</highlight> till din plånbok.",
+        "part4": "Istället för att memorera din återställningsfras kan du <highlight>säkerhetskopiera den till {{cloudProviderName}}</highlight> och skydda den med ett lösenord.",
+        "part5": "Du kan också manuellt säkerhetskopiera din återställningsfras genom att <highlight>skriva ner den</highlight> och förvara den på ett säkert ställe.",
+        "part6": "Vi rekommenderar att du använder <highlight>båda typerna av säkerhetskopior</highlight>, för om du tappar din återställningsfras kommer du inte att kunna återställa din plånbok."
+      },
+      "error": {
+        "invalid": "Ogiltig fras",
+        "invalidWord": "Ogiltigt ord: {{word}}",
+        "phraseLength": "Återställningsfrasen måste bestå av 12-24 ord",
+        "wrong": "Fel återställningsfras"
+      },
+      "helpText": {
+        "import": "Hur hittar jag min återhämtningsfras?",
+        "restoring": "Försök att söka igen"
+      },
+      "input": "Skriv din återställningsfras",
+      "remove": {
+        "final": {
+          "description": "Se till att du har skrivit ner din återställningsfras eller säkerhetskopierat den på {{cloudProviderName}}. <highlight>Du kommer inte att kunna komma åt dina pengar annars.</highlight>",
+          "title": "Du tar bort din <highlight>återställningsfras</highlight>"
+        },
+        "import": {
+          "description": "Du kan bara lagra en återställningsfras åt gången. För att fortsätta importera en ny måste du ta bort din nuvarande återställningsfras och eventuella tillhörande plånböcker från den här enheten."
+        },
+        "initial": {
+          "description": "Detta tar bort din plånbok från den här enheten tillsammans med din återställningsfras.",
+          "title": "Du tar bort <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Din återställningsfras förblir lagrad tills du tar bort alla återstående plånböcker."
+        }
+      },
+      "subtitle": {
+        "import": "Din återställningsfras kommer endast att lagras lokalt på din enhet.",
+        "restoring": "Ange din återställningsfras nedan eller försök att söka efter säkerhetskopior igen."
+      },
+      "title": {
+        "import": "Ange din återställningsfras",
+        "restoring": "Inga säkerhetskopior hittades"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Kopiera adress",
+        "manageConnections": "Hantera anslutningar",
+        "report": "Rapportera profil",
+        "viewExplorer": "Visa på {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Lägg till plånbok",
+        "addViewOnly": "Lägg till en skrivskyddad plånbok",
+        "create": "Skapa en ny plånbok",
+        "import": "Importera en ny plånbok",
+        "manage": "Plånboksinställningar",
+        "remove": "Ta bort plånboken",
+        "restore": "Återställ din plånbok",
+        "watch": "Titta på en plånbok"
+      },
+      "create": {
+        "placeholder": "Plånbok {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Plånboksetikett"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Redigera profil"
+          },
+          "title": "Redigera etikett"
+        },
+        "viewOnly": "View-only plånböcker"
+      },
+      "menu": {
+        "claimUsername": "Gör anspråk på användarnamn",
+        "copy": {
+          "title": "Kopiera plånboksadress"
+        },
+        "edit": {
+          "title": "Redigera etikett"
+        },
+        "manageConnections": "Hantera anslutningar",
+        "remove": {
+          "title": "Ta bort plånboken"
+        }
+      },
+      "remove": {
+        "check": "Jag säkerhetskopierade min återställningsfras och förstår att Uniswap Labs inte kan hjälpa mig att återställa mina plånböcker om jag inte gjorde det.",
+        "title": "Ta bort {{name}}",
+        "viewOnly": "Du kan alltid lägga till skrivskyddade plånböcker bakifrån genom att ange plånbokens adress."
+      },
+      "restore": {
+        "description": "Eftersom du använder en ny enhet måste du återställa din återställningsfras eller ange ditt lösenord för molnsäkerhetskopiering för att fortsätta."
+      },
+      "select": {
+        "error": "Det gick inte att läsa in adresser",
+        "loading": {
+          "subtitle": "Dina plånböcker visas nedan.",
+          "title": "Letar efter plånböcker"
+        },
+        "title_one_one": "En plånbok hittad",
+        "title_one_other": "Välj plånböcker att importera"
+      },
+      "viewOnly": {
+        "button": "Importera plånbok",
+        "description": "För att byta, köpa, skicka och ta emot tokens måste du importera plånbokens återställningsfras.",
+        "title": "Denna plånbok är endast visningsbar"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Den här adressen är redan importerad",
+          "notFound": "Adressen hittades inte",
+          "smartContract": "Adress är ett smart kontrakt"
+        },
+        "message": "Genom att lägga till en skrivskyddad plånbok kan du prova appen eller spåra en plånbok. Du kommer inte att kunna byta eller skicka pengar.",
+        "placeholder": "ENS eller adress",
+        "title": "Ange en plånboksadress"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Väntar",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} insamlade belöningar"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} från {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} till {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} för {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} och {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Andel av pool"
+  },
+  "addressInput": {
+    "recipient": "Mottagare"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Vi använder anonymiserad data för att förbättra din upplevelse av Uniswap Labs produkter."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Inte riktigt"
+    },
+    "description": "Låt oss veta om du har en bra upplevelse av den här appen",
+    "extension": {
+      "review": {
+        "description": "Välj ett stjärnbetyg och lämna en recension i Chrome Web Store.",
+        "title": "Granska Uniswap Extension?"
+      },
+      "title": "Gillar du Uniswap Extension?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Skicka synpunkter"
+      },
+      "description": "Låt oss veta hur vi kan förbättra din upplevelse",
+      "title": "Vi är ledsna att höra det."
+    },
+    "mobile": {
+      "title": "Gillar du Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Ljusstake",
+    "error": {
+      "pools": "Det går inte att visa historisk data för den aktuella poolen.",
+      "tokens": "Det går inte att visa historisk data för den aktuella token."
+    },
+    "line": "Linjediagram",
+    "missingData": "Sjökortsdata saknas",
+    "price": {
+      "label": {
+        "close": "Stänga",
+        "high": "Hög",
+        "low": "Låg",
+        "open": "Öppen"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Den här inställningen är inte tillgänglig för det aktuella diagrammet"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Tack för att du är en del av Uniswap-communityt <heart />",
+    "uni": {
+      "arrived": "UNI har anlänt"
+    }
+  },
+  "common": {
+    "accept": "Acceptera",
+    "activity": "Aktivitet",
+    "add": {
+      "label": "Lägg till",
+      "liquidity": {
+        "cancelled": "Lägg till likviditet avbruten",
+        "failed": "Det gick inte att lägga till likviditet"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Lägg till V2-likviditet avbröts",
+          "failed": "Lägg till V2-likviditet misslyckades"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Tillförd likviditet",
+      "v2": {
+        "liquidity": "Tillsatt V2-likviditet"
+      }
+    },
+    "addedLiquidity": "Tillsatt likviditet",
+    "adding": {
+      "liquidity": "Tillför likviditet",
+      "v2": {
+        "liquidity": "Lägger till V2-likviditet"
+      }
+    },
+    "addLiquidity": "Lägg till likviditet",
+    "addressOrENS": "Plånboksadress eller ENS-namn",
+    "advanced": "Avancerad",
+    "all": "Alla",
+    "allTime": "Hela tiden",
+    "and": "och",
+    "app": "App",
+    "approval": {
+      "cancelled": "Godkännandet avbröts",
+      "failed": "Godkännandet misslyckades"
+    },
+    "approve": "Godkänna",
+    "approved": "Godkänd",
+    "approvePending": "Godkännande väntar...",
+    "approveSpend": "Godkänn {{symbol}} utgifter",
+    "approving": "Godkännande",
+    "areYouSure": "Är du säker?",
+    "automatic": "Bil",
+    "availableIn": "Uniswap tillgängligt i: <locale />",
+    "availableOnIOSAndroid": "Tillgänglig på iOS och Android",
+    "availableOnIOSAndroidChrome": "Tillgänglig på iOS, Android och Chrome",
+    "backToPositions": "Tillbaka till positionerna",
+    "blocked": {
+      "ifError": "Om du tror att detta är ett fel, skicka ett e-postmeddelande med din adress till <emailAddress />",
+      "reason": "Den här adressen är blockerad i Uniswap Labs-gränssnittet eftersom den är associerad med en eller flera <link>blockerade aktiviteter</link>."
+    },
+    "blockedAddress": "Blockerad adress",
+    "blog": "Blogg",
+    "borrow": {
+      "cancelled": "Lånet annullerats",
+      "failed": "Lånet misslyckades"
+    },
+    "borrowed": "Lånad",
+    "borrowing": "Upplåning",
+    "bought": "Köpt",
+    "brandAssets": "Varumärkestillgångar",
+    "burn": {
+      "cancelled": "Bränningen avbröts",
+      "failed": "Bränning misslyckades"
+    },
+    "burned": "Bränt",
+    "burning": "Brinnande",
+    "button": {
+      "accept": "Acceptera",
+      "back": "Tillbaka",
+      "buy": "köpa",
+      "cancel": "Annullera",
+      "checkin": "Checka in",
+      "close": "Stänga",
+      "confirm": "Bekräfta",
+      "connect": "Ansluta",
+      "continue": "Fortsätta",
+      "copied": "Kopierade",
+      "copy": "Kopiera",
+      "create": "Skapa",
+      "delete": "Radera",
+      "disconnect": "Koppla ifrån",
+      "dismiss": "Avfärda",
+      "done": "Gjort",
+      "edit": "Redigera",
+      "enable": "Gör det möjligt",
+      "finish": "Avsluta",
+      "goBack": "Gå tillbaka",
+      "later": "Kanske senare",
+      "learn": "Läs mer",
+      "next": "Nästa",
+      "notNow": "Inte nu",
+      "ok": "OK",
+      "paste": "Klistra",
+      "pay": "Betala",
+      "proceed": "Fortsätt",
+      "receive": "Motta",
+      "remove": "Avlägsna",
+      "reset": "Återställa",
+      "retry": "Försök igen",
+      "reveal": "Avslöja",
+      "review": "Recension",
+      "save": "Spara",
+      "scrollDown": "Scrolla ner",
+      "sell": "Sälja",
+      "send": "Skicka",
+      "setup": "Uppstart",
+      "share": "Dela med sig",
+      "showLess": "Visa mindre",
+      "showMore": "Visa mer",
+      "sign": "Skylt",
+      "skip": "Hoppa",
+      "swap": "Byta",
+      "tryAgain": "Försök igen",
+      "understand": "jag förstår",
+      "unlock": "Låsa upp",
+      "view": "Se",
+      "viewDetails": "Visa detaljer",
+      "yes": "Ja"
+    },
+    "buy": {
+      "cancelled": "Köp annullerad",
+      "failed": "Köp misslyckades",
+      "label": "köpa"
+    },
+    "buyAndSell": "Köp och sälj på Uniswap",
+    "buying": "Uppköp",
+    "by": "Förbi",
+    "cancel": {
+      "failed": "Det gick inte att avbryta"
+    },
+    "cancellation": {
+      "cancelled": "Avbokning annullerad"
+    },
+    "cancellationSubmitted": "Uppsägning skickad",
+    "cancellationSuccessful": "Avbokningen lyckades",
+    "cancelled": "Inställt",
+    "cancelling": "Inställande",
+    "cancelOrder": "Avbryt beställning",
+    "card": {
+      "error": {
+        "description": "Något gick fel",
+        "title": "hoppsan! Något gick fel."
+      }
+    },
+    "careers": "Karriärer",
+    "chart": "Diagram",
+    "checkNetwork": "Kontrollera nätverksstatus <link>här.</link>",
+    "chromeExtension": "Förlängning",
+    "claim": {
+      "cancelled": "Anspråket annullerats",
+      "failed": "Anspråket misslyckades"
+    },
+    "claimed": "Påstod",
+    "claiming": "Anspråk",
+    "claimUnis": "Gör anspråk på dina UNI-tokens",
+    "clear": "Rensa",
+    "close": "Stänga",
+    "closed": "Stängd",
+    "collect": {
+      "button": "Samla",
+      "fees": {
+        "cancelled": "Inkassera avgifter",
+        "failed": "Det gick inte att samla in avgifter"
+      }
+    },
+    "collected": {
+      "fees": "Insamlade avgifter"
+    },
+    "collecting": {
+      "fees": "Samla in avgifter"
+    },
+    "company": "Företag",
+    "confirm": "Bekräfta",
+    "confirmCancellation": "Bekräfta avbokningen",
+    "confirmSend": {
+      "button": "Bekräfta skicka"
+    },
+    "confirmSwap": "Bekräfta bytet i plånboken",
+    "confirmTimedOut": "Bekräftelsen tog timeout. Försök igen.",
+    "confirmWallet": "Bekräfta i plånboken",
+    "connect": {
+      "button": "Ansluta"
+    },
+    "connectAWallet": {
+      "button": "Anslut en plånbok"
+    },
+    "connectWallet": {
+      "button": "Anslut plånbok"
+    },
+    "contactUs": {
+      "button": "Kontakta oss"
+    },
+    "contractInteraction": "Kontraktsinteraktion",
+    "copied": "Kopierade",
+    "copy": {
+      "address": "Kopiera adress"
+    },
+    "copyLink": {
+      "button": "Kopiera länk"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Skapa pool avbröts",
+        "failed": "Det gick inte att skapa pool"
+      }
+    },
+    "created": {
+      "date": "Skapade {{date}}",
+      "pool": "Skapade pool"
+    },
+    "creating": {
+      "pool": "Skapar pool"
+    },
+    "currency": "Valuta",
+    "custom": "Beställnings",
+    "customRange": "Anpassat sortiment",
+    "dataOutdated": "Data kan vara inaktuella",
+    "default": "Standard",
+    "defaultTradeOptions": "Standard handelsalternativ",
+    "delegate": {
+      "cancelled": "Delegat avbröts",
+      "failed": "Delegat misslyckades"
+    },
+    "delegated": "Delegerad",
+    "delegating": "Delegera",
+    "deploy": {
+      "cancelled": "Implementeringen avbröts",
+      "failed": "Implementeringen misslyckades"
+    },
+    "deployed": "Utplacerad",
+    "deploying": "Utplacering",
+    "deposit": {
+      "cancelled": "Insättning annullerad",
+      "failed": "Insättning misslyckades",
+      "toNetwork": "Sätt in tokens till {{label}} -nätverket."
+    },
+    "deposited": "Deponerad",
+    "depositing": "Insättning",
+    "depositTokens": "Insättningspoletter",
+    "detected": "Upptäckt",
+    "developers": "Utvecklare",
+    "device": {
+      "other": "Annan enhet"
+    },
+    "dismiss": "Avfärda",
+    "displaySettings": "Bildskärmsinställningar",
+    "dnsRegistrar": "DNS-registrator",
+    "donate": "Donera",
+    "done": "Gjort",
+    "dontShowAgain": "Visa inte detta igen",
+    "download": "Ladda ner",
+    "downloadAppStore": "Ladda ner i App Store",
+    "downloadPlayStore": "Ladda ner i Play Butik",
+    "downloadUniswap": "Ladda ner Uniswap",
+    "downloadUniswapApp": "Ladda ner Uniswap-appen",
+    "dynamic": "Dynamisk",
+    "edit": {
+      "button": "Redigera"
+    },
+    "error": {
+      "details": "Feldetaljer",
+      "general": "Något gick fel",
+      "label": "Fel",
+      "request": "Tyvärr uppstod ett fel när din begäran bearbetades. Om du begär support, se till att kopiera informationen om detta fel.",
+      "somethingWrong": "Något gick fel!",
+      "wrong": {
+        "tryAgain": "Något gick fel. Var god försök igen."
+      }
+    },
+    "errorConnecting": {
+      "error": "Fel vid anslutning"
+    },
+    "errorLoadingData": {
+      "error": "Det gick inte att ladda data"
+    },
+    "ethereumNameService": "Ethereums namntjänst",
+    "etherscan": {
+      "link": "Se på Etherscan"
+    },
+    "ethRegistrarController": "ETH Registrar Controller",
+    "execute": {
+      "cancelled": "Körningen avbröts",
+      "failed": "Utförande misslyckades"
+    },
+    "executed": "Avrättade",
+    "executing": "Utför",
+    "expired": "Utgånget",
+    "expiry": "Upphörande",
+    "explore": "Utforska",
+    "explorer": "Utforskare",
+    "exploreTokens": "Utforska tokens",
+    "extension": "Uniswap-förlängning",
+    "failed": {
+      "error": "Misslyckades"
+    },
+    "failedSwitchNetwork": "Det gick inte att byta nätverk",
+    "fee": "Avgift",
+    "fees": "Avgifter",
+    "feesEarned": "Intjänade avgifter",
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Hämtar rutt",
+    "floor": "Golv",
+    "floorPrice": "Golvpris",
+    "for": "För",
+    "fullRange": "Komplett utbud",
+    "getApp": "Skaffa app",
+    "getHelp": {
+      "button": "Få hjälp"
+    },
+    "getStarted": "Kom igång",
+    "getSupport": {
+      "button": "Få stöd"
+    },
+    "getTheApp": "Skaffa appen",
+    "getUniswapWallet": "Skaffa Uniswap Wallet",
+    "governance": "Styrning",
+    "happyHolidays": "Glad helg från Uniswap-teamet!",
+    "helpCenter": "Hjälpcenter",
+    "hidden": "Dold",
+    "hide": {
+      "button": "Dölj"
+    },
+    "highPrice": "Högt pris",
+    "includes": "Inkluderar",
+    "info": {
+      "label": "Info"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Välj mottagare"
+      },
+      "password": {
+        "confirm": "Bekräfta lösenord",
+        "error": {
+          "mismatch": "Lösenord matchar inte",
+          "weak": "Detta lösenord är för svagt"
+        },
+        "new": "Nytt lösenord",
+        "placeholder": "Lösenord",
+        "strength": {
+          "medium": "Medium",
+          "strong": "Stark",
+          "weak": "Svag"
+        }
+      },
+      "search": "Sök"
+    },
+    "insufficient": {
+      "funds": "Otillräckliga medel"
+    },
+    "insufficientBalance": {
+      "error": "Otillräcklig balans"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Otillräckliga medel för att täcka nätverkskostnader"
+    },
+    "insufficientLiquidity": "Otillräcklig likviditet",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Otillräckligt {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Ogiltigt par",
+    "invalidRecipient": {
+      "error": "Ogiltig mottagare"
+    },
+    "iOSAndroid": "iOS och Android",
+    "language": "Språk",
+    "lastPrice": "Sista priset",
+    "learnMoreSwap": "Läs mer om byten",
+    "legalAndPrivacy": "Juridik och integritet",
+    "less": "Mindre",
+    "limit": {
+      "cancel_one": "Avbryt gräns",
+      "cancel_other": "Avbryt {{count}} gränser",
+      "cancelled": "Gränsen inställd",
+      "executed": "Begränsning utförd",
+      "expired": "Gränsen har löpt ut",
+      "failed": "Gränsen misslyckades",
+      "opened": "Gränsen öppnad",
+      "pending": "Begränsning väntar"
+    },
+    "limits": {
+      "approachMax": "Närmar sig maxgränsen 100",
+      "cancelProceed": "Avbryt gränserna för att fortsätta",
+      "expires": "Upphör att gälla {{timestamp}}",
+      "open": "Öppna gränser",
+      "when": "när {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Länkar",
+    "liquidity": {
+      "removed": "Likviditet borttagen"
+    },
+    "loading": "Läser in",
+    "loadingAllowance": "Lasttillägg",
+    "loadMore": "Ladda mer",
+    "longText": {
+      "button": {
+        "less": "Läs mindre",
+        "more": "Läs mer"
+      }
+    },
+    "lowPrice": "Lågt pris",
+    "manage": "Hantera",
+    "market": {
+      "label": "Marknadsföra"
+    },
+    "marketPrice": {
+      "fetching": "Hämtar marknadspris...",
+      "label": "Marknadspris:",
+      "unavailable": "Marknadspriset hittades inte. Gör din egen forskning för att undvika förlust av pengar."
+    },
+    "max": "Max",
+    "message": "Meddelande",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Migrera likviditet avbruten",
+        "failed": "Migrera likviditet misslyckades"
+      },
+      "position": "Migrera position",
+      "v3": "Migrera till V3"
+    },
+    "migrated": {
+      "liquidity": "Migrerad likviditet"
+    },
+    "migrating": {
+      "liquidity": "Migrerar likviditet"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Mint inställd",
+      "failed": "Mint misslyckades"
+    },
+    "minted": "Präglat",
+    "minting": "Myntning",
+    "mobile": "Mobil",
+    "more": "Mer",
+    "multiDevice": "Flera enheter",
+    "navigation": {
+      "settings": "inställningar",
+      "systemSettings": "inställningar"
+    },
+    "navigationButton": "Navigeringsknapp",
+    "needHelp": "Behövs hjälp?",
+    "networkCost": "Nätverkskostnad",
+    "neverMind": "Glöm det",
+    "new": {
+      "exclamation": "Ny!"
+    },
+    "nft": "NFT",
+    "nfts": "NFTs",
+    "noActivity": "Ingen aktivitet ännu",
+    "noAmount": {
+      "error": "Ange ett belopp"
+    },
+    "noData": "Inga data",
+    "noResults": "Inga resultat funna.",
+    "notAvailableInRegion": {
+      "error": "Ej tillgängligt i din region"
+    },
+    "notCreated": {
+      "label": "Inte skapad"
+    },
+    "notSupported": "Stöds inte",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 månad",
+    "oneWeek": "1 vecka",
+    "oneYear": "1 år",
+    "opensea": {
+      "link": "Visa på OpenSea"
+    },
+    "orderCancelled": "Beställning avbruten",
+    "orderExecuted": "Order utförd",
+    "orderExpired": "Beställningen har löpt ut",
+    "orderPending": "Beställning väntar",
+    "outOfRange": "Utom räckhåll",
+    "pageNotFound": "Sidan hittas inte!",
+    "passkey": {
+      "count": "Nyckel {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Välj var du vill spara ditt nya lösenord."
+      }
+    },
+    "pastDay": "Senaste dagen",
+    "pastFiveMinutes": "Senaste fem minuterna",
+    "pastHour": "Senaste timmen",
+    "pastMonth": "Senaste månaden",
+    "pastWeek": "Förra veckan",
+    "pastYear": "Förra året",
+    "pay": {
+      "button": "Betala"
+    },
+    "pending": {
+      "cancellation": "Väntar på avbokning"
+    },
+    "pendingEllipsis": "I väntan på...",
+    "permit2": "Tillstånd 2",
+    "pool": "Slå samman",
+    "pools": "Pooler",
+    "poweredBy": "Drivs av <name />",
+    "price": "Pris",
+    "priceImpact": "Varning för prispåverkan",
+    "priceUpdated": "Pris uppdaterat",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "När markerad kommer vi inte att dela dina uppgifter med tredjepartspartners för personlig reklam. Du kan aktivera delning när som helst genom att avmarkera den här rutan.",
+        "label": "Dela inte min information"
+      },
+      "description": "Vi kan komma att dela enhetsidentifierare med våra annonspartners för att marknadsföra våra tjänster på andra webbplatser och plattformar. Om detta kvalificeras som försäljning, delning eller riktad reklam enligt tillämpliga lagar, kan du välja bort det genom att markera rutan \"dela inte min information\". För mer information om vår sekretesspraxis, läs vår <privacyLink>Sekretesspolicy</privacyLink>.",
+      "disclaimer": "Observera att ditt val endast kommer att gälla för den här webbläsaren på den här enheten. Du kan också välja bort det genom att aktivera inställningen Global Privacy Control i webbläsaren som du använder för att komma åt våra tjänster. Gå till dina inställningar för att se fler alternativ."
+    },
+    "privacyPolicy": "Integritetspolicy",
+    "proceed": "Fortsätt",
+    "proceedInWallet": {
+      "short": "Fortsätt i plånboken"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Public Resolver",
+    "purchased": "Köpt",
+    "queue": {
+      "cancelled": "Kön avbruten",
+      "failed": "Kön misslyckades"
+    },
+    "queued": "I kö",
+    "queuing": "Köa",
+    "rate": "Betygsätta",
+    "readMore": "Läs mer",
+    "receive": {
+      "cancelled": "Mottagning avbruten",
+      "failed": "Mottagning misslyckades"
+    },
+    "received": "Mottagen",
+    "receiving": "Tar emot",
+    "recent": "Nyligen",
+    "rejected": "avvisade",
+    "reload": {
+      "label": "Ladda om appen"
+    },
+    "remove": {
+      "label": "Avlägsna",
+      "liquidity": {
+        "cancelled": "Ta bort likviditet inställd",
+        "failed": "Det gick inte att ta bort likviditet"
+      }
+    },
+    "removedLiquidity": "Borttagen likviditet",
+    "removeItem": "Ta bort sak",
+    "removing": {
+      "liquidity": "Ta bort likviditet"
+    },
+    "repaid": "Återbetalas",
+    "repay": {
+      "cancelled": "Återbetalningen inställd",
+      "failed": "Återbetalning misslyckades"
+    },
+    "repaying": "Återbetalar",
+    "resetLimit": "Återställ {{symbol}} gränsen",
+    "resetLimitWallet": "Återställ {{symbol}} -gränsen i plånboken",
+    "resettingLimit": "Återställer {{symbol}} gräns...",
+    "resolveIssues_one": "Lös problemet",
+    "resolveIssues_other": "Lös {{count}} problem",
+    "restricted": {
+      "region": "Begränsad region"
+    },
+    "reverseRegistrar": "Omvänd registrator",
+    "revoke": {
+      "approval": {
+        "failed": "Återkalla godkännande misslyckades"
+      }
+    },
+    "revoked": {
+      "approval": "Återkallat godkännande"
+    },
+    "revokedApproval": "Återkallat godkännande",
+    "revoking": {
+      "approval": "Återkalla godkännande"
+    },
+    "samePrice": "Samma pris",
+    "scanQRDownload": "Skanna QR-koden med din telefon för att ladda ner",
+    "selectRegion": {
+      "label": "Välj din region"
+    },
+    "selectToken": {
+      "label": "Välj en token"
+    },
+    "selfCustodial": "Självvårdande",
+    "sell": {
+      "label": "Sälja"
+    },
+    "send": {
+      "button": "Skicka",
+      "cancelled": "Skicka avbruten",
+      "failed": "Skicka misslyckades"
+    },
+    "sending": "Sändning",
+    "sent": "Skickat",
+    "settings": "inställningar",
+    "share": {
+      "shareToTwitter": "Dela på Twitter",
+      "twitter": "Dela på Twitter"
+    },
+    "show": {
+      "button": "Visa"
+    },
+    "showLess": {
+      "button": "Visa mindre"
+    },
+    "showMore": {
+      "button": "Visa mer"
+    },
+    "signatureExpired": "Din signatur har upphört att gälla.",
+    "signMessage": "Signera meddelande",
+    "signMessageWallet": "Signera meddelande i plånboken",
+    "sold": "Såld",
+    "stats": "Statistik",
+    "status": "Status",
+    "stayConnected": "Förbli uppkopplad",
+    "step": {
+      "number": "Steg {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Skicka förslag avbröts",
+        "failed": "Det gick inte att skicka in förslaget"
+      }
+    },
+    "submitted": {
+      "proposal": "Inlämnat förslag"
+    },
+    "submitting": {
+      "proposal": "Skickar in förslag"
+    },
+    "swap": {
+      "cancelled": "Bytet avbröts",
+      "expired": "Bytet har löpt ut",
+      "failed": "Byte misslyckades"
+    },
+    "swapped": "Bytt",
+    "swapPending": "Byte väntar...",
+    "swapping": "Byte",
+    "switchNetworks": "Byt nätverk",
+    "termsOfService": "Användarvillkor",
+    "text": {
+      "connected": "Ansluten",
+      "contract": "Avtal",
+      "disconnected": "Osammanhängande",
+      "error": "Fel",
+      "notAvailable": "N/A",
+      "recipient": "Till",
+      "sender": "Från",
+      "unknown": "Okänd"
+    },
+    "thisMonth": "Den här månaden",
+    "thisToken": "Denna token",
+    "thisWeek": "Denna vecka",
+    "thisYear": "Det här året",
+    "time": {
+      "days": "dagar",
+      "days_one": "dag",
+      "days_other": "dagar",
+      "hours": "timmar",
+      "hours_one": "timme",
+      "hours_other": "timmar",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minuter",
+      "months": "månader",
+      "months_one": "månad",
+      "months_other": "månader",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}mån"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "Veckor",
+      "weeks_one": "vecka",
+      "weeks_other": "Veckor"
+    },
+    "to": "till",
+    "today": "I dag",
+    "tokenA": "Token A",
+    "tokenAmount": "Tokent belopp",
+    "tokenB": "Token B",
+    "tokenName": "Tokennamn",
+    "tokens": "Polletter",
+    "totalUniswapTVL": "Totalt Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Handel",
+    "trademarkPolicy": "Varumärkespolicy",
+    "transactionDetails": "Transaktions Detaljer",
+    "transactionId": "Transaktions ID",
+    "transactionPending": "Transaktion väntar",
+    "transactions": "Transaktioner",
+    "transactionSettings": "Transaktionsinställningar",
+    "transfer_one": "överföra",
+    "transfer_other": "överföringar",
+    "tryAgain": {
+      "error": "Försök igen"
+    },
+    "twitter": "Kvittra",
+    "type": {
+      "label": "Typ"
+    },
+    "unavailable": "Inte tillgänglig",
+    "unhide": "Visa upp",
+    "uniGovernance": "UNIs styrning",
+    "uniswapMobile": "Uniswap mobil",
+    "uniswapProtocol": "Uniswap-protokoll",
+    "uniswapWallet": "Uniswap plånbok",
+    "uniswapX": "UniswapX",
+    "unknown": "Okänd",
+    "unknownApproval": "Okänt godkännande",
+    "unknownBridge": "Okänd bro",
+    "unknownError": {
+      "error": "Okänt fel"
+    },
+    "unknownLend": "Okänd utlåning",
+    "unknownMint": "Okänd mynta",
+    "unknownSend": "Okänd sändning",
+    "unknownSwap": "Okänd byte",
+    "unsupportedAsset_one": "Tillgång som inte stöds",
+    "unsupportedAsset_other": "Tillgångar som inte stöds",
+    "unwrap": {
+      "button": "Packa upp",
+      "failed": "Uppackning misslyckades"
+    },
+    "unwrapped": "Oinpackad",
+    "unwrapping": "Packar upp",
+    "view": {
+      "profile": "Visa profil"
+    },
+    "viewOnExplorer": "Visa på Explorer",
+    "volume": "Volym",
+    "vote": {
+      "cancelled": "Omröstningen avbröts",
+      "failed": "Omröstningen misslyckades"
+    },
+    "voted": "Röstade",
+    "voting": "Röstning",
+    "wallet": {
+      "approve": "Godkänn i plånbok",
+      "label": "Plånbok"
+    },
+    "walletForSwapping": "Plånboken byggd för att byta. Tillgänglig på iOS och Android.",
+    "warning": "Varning",
+    "webApp": "Webbapp",
+    "website": "Hemsida",
+    "whyApprove": "Varför måste jag godkänna en token?",
+    "whySign": "Varför krävs underskrifter?",
+    "whyWrap": "Varför måste jag slå in min {{symbol}}?",
+    "withdraw": {
+      "failed": "Återtaget misslyckades"
+    },
+    "withdrawal": {
+      "amount": "Uttagsbelopp",
+      "cancelled": "Uttag avbrutit"
+    },
+    "withdrawing": "Uttag",
+    "withdrew": "Dra sig tillbaka",
+    "withinRange": "Inom räckhåll",
+    "wrap": {
+      "cancelled": "Wrap avbruten",
+      "failed": "Wrap misslyckades"
+    },
+    "wrapIn": "Slå in  {{symbol}} i plånboken",
+    "wrapped": "Inslagna",
+    "wrapping": "Omslag",
+    "wrappingToken": "Inslagning  {{symbol}}...",
+    "wrongNetwork": "Fel nätverk",
+    "yesterday": "I går",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Ditt konto hade inte tillräckligt med pengar för att genomföra bytet."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Ditt konto har inte tillräckligt med pengar för att genomföra bytet."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Din gräns kunde inte uppfyllas för närvarande. Var god försök igen."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Ditt byte kunde inte genomföras just nu. Var god försök igen."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Du köper",
+    "youRecieve": "Du får",
+    "youreSending": "Du skickar"
+  },
+  "currency": {
+    "aud": "australiensisk dollar",
+    "brl": "brasilianska real",
+    "cad": "Kanadensisk dollar",
+    "cny": "kinesiska yuan",
+    "eur": "Euro",
+    "gbp": "Brittiskt pund",
+    "hkd": "Hongkong-dollar",
+    "idr": "indonesisk rupiah",
+    "inr": "indiska rupier",
+    "jpy": "Japanska yen",
+    "krw": "Sydkoreanska won",
+    "ngn": "nigerianska Naira",
+    "pkr": "pakistanska rupier",
+    "rub": "rysk rubel",
+    "sgd": "Singapore dollar",
+    "thb": "Thailändska baht",
+    "try": "turkisk lira",
+    "uah": "ukrainska hryvnia",
+    "usd": "Amerikansk dollar",
+    "vnd": "vietnamesisk dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Godkänna",
+        "fallbackTitle": "Godkänn den här webbplatsen för att få åtkomst till tokens",
+        "helptext": "Tillåt den här webbplatsen att komma åt och spendera denna token för transaktioner. Se till att du litar på den här webbplatsen.",
+        "label": "Plånbok",
+        "title": "Godkänn åtkomst till {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Transaktionsbegäran"
+      },
+      "bridge": {
+        "description": "Flytta ETH, USDC och mer över {{numChains}}+ nätverk.",
+        "title": "Försöker du överbrygga?"
+      },
+      "connect": {
+        "helptext": "Tillåt den här webbplatsen att se din plånboksadress, ditt saldo och begära godkännanden för transaktioner.",
+        "title": "Anslut till webbplatsen"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Rådata"
+        },
+        "function": {
+          "label": "Fungera"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 hanterar tokengodkännanden över flera dapps.",
+        "header": "Skriv tillstånd 2"
+      },
+      "reject": {
+        "action": "Avvisa alla",
+        "info": "Du har <highlight>{{totalRequestCount}}</highlight> transaktionsförfrågningar"
+      },
+      "revoke": {
+        "action": "Återkalla",
+        "helptext": "Tillåt den här webbplatsen att återkalla åtkomsten för att spendera denna token för transaktioner. Se till att du litar på den här webbplatsen.",
+        "title": "Återkalla åtkomst till {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Det här meddelandet innehåller tecken som inte går att rendera. Se till att du litar på den här webbplatsen.",
+        "decodeError": "Det gick inte att avkoda meddelandet",
+        "header": "Signaturbegäran",
+        "irregular": {
+          "description": "Se till att du litar på den här webbplatsen innan du fortsätter",
+          "understand": "Jag förstår riskerna"
+        },
+        "toggleDataView": {
+          "raw": "Visa rådata",
+          "readable": "Visa originaldata"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Se till att det är rätt",
+          "title": "Det här är inte din aktiva plånbok"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Logga in här"
+      },
+      "getStarted": {
+        "description": "Börja med att ladda ner Uniswap Wallet, tillgänglig på din telefon eller webbläsare.",
+        "title": "Kom igång med Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Kom igång på några sekunder genom att registrera dig nedan eller ladda ner vår plånbok, tillgänglig på din telefon eller webbläsare."
+        },
+        "title": "Registrera dig med Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap-produkter fungerar sömlöst tillsammans för att skapa den bästa onchain-upplevelsen."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Detta ger Uniswap-protokollet tillgång till din token för handel. Av säkerhetsskäl löper det ut efter 30 dagar."
+    },
+    "dataUnavailable": "Data är inte tillgänglig för tillfället; vi jobbar på en fix",
+    "id": "Fel-ID: {{eventId}}",
+    "noData": "Ingen information hittad",
+    "request": {
+      "provideId": "Tyvärr uppstod ett fel när din begäran bearbetades. Om du begär support, se till att ange ditt fel-ID."
+    },
+    "tokenApproval": "Tokengodkännande misslyckades",
+    "tokenApprovalEdited": {
+      "message": "Godkännandebeloppet i din plånbok är för lågt för att slutföra den här transaktionen. Försök igen och öka beloppet."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Något kraschade.",
+      "restart": "Starta om appen",
+      "title": "Hoppsan!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Utforska fler pooler"
+    },
+    "search": {
+      "action": {
+        "clear": "Rensa",
+        "viewEtherscan": "Visa på {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Inga resultat hittades för <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Det gick inte att läsa in sökresultat",
+      "label": {
+        "ownedBy": "Ägs av {{ownerAddress}}"
+      },
+      "placeholder": "Sök tokens och plånböcker",
+      "section": {
+        "nft": "NFT-samlingar",
+        "popularNFT": "Populära NFT-samlingar",
+        "popularTokenInfo": "Populära tokens identifieras baserat på deras handelsvolym på Uniswap under de senaste 24 timmarna.",
+        "popularTokens": "Populära tokens",
+        "recent": "Senaste sökningar",
+        "tokens": "Polletter",
+        "wallets": "Plånböcker"
+      }
+    },
+    "tokens": {
+      "error": "Det gick inte att ladda tokens",
+      "favorite": {
+        "action": {
+          "add": "Favoritpolett",
+          "edit": "Redigera favoriter",
+          "remove": "Ta bort favorit"
+        },
+        "title": {
+          "default": "Favoritpoletter",
+          "edit": "Redigera favoritpoletter"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Börsvärde",
+          "priceDecrease": "Prissänkning",
+          "priceIncrease": "Prisökning",
+          "totalValueLocked": "TVL",
+          "volume": "Volym"
+        },
+        "option": {
+          "marketCap": "Börsvärde",
+          "priceDecrease": "Prissänkning (24h)",
+          "priceIncrease": "Prisökning (24h)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap volym (24H)"
+        }
+      },
+      "top": {
+        "title": "Topppoletter"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Favorit plånbok",
+          "edit": "Redigera favoriter",
+          "remove": "Ta bort favorit"
+        },
+        "title": {
+          "default": "Favoritplånböcker",
+          "edit": "Redigera favoritplånböcker"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Nätverk",
+      "networks": "Nätverk",
+      "popup": {
+        "trouble": "Problem med att ansluta?"
+      },
+      "titleConnected": "Ansluten",
+      "titleNotConnected": "Ej ansluten"
+    },
+    "lock": {
+      "button": {
+        "forgot": "glömt ditt lösenord?",
+        "reset": "Återställ plånboken",
+        "submit": "Låsa upp"
+      },
+      "password": {
+        "error": "Fel lösenord. Försök igen",
+        "reset": {
+          "initial": {
+            "description": "Uniswap kan inte hjälpa till att återställa ditt lösenord. Du måste återställa din plånbok genom att ange din återställningsfras på 12 ord.",
+            "help": "Var hittar jag min återhämtningsfras?",
+            "title": "Glömt ditt lösenord"
+          },
+          "speedbump": {
+            "description": "Se till att du har din 12-ords återställningsfras innan du återställer din plånbok. Annars kommer du inte att kunna återfå dina pengar.",
+            "help": "Jag tappade min återhämtningsfras",
+            "title": "Innan du fortsätter"
+          }
+        }
+      },
+      "subtitle": "Ange ditt lösenord för att låsa upp",
+      "title": "Välkommen tillbaka"
+    },
+    "network": {
+      "notSupported": "Nätverk som inte stöds"
+    },
+    "open": "Öppna Uniswap Extension",
+    "popup": {
+      "chrome": {
+        "button": "Öppna tillägget",
+        "description": "Slutför denna åtgärd genom att öppna Uniswap-tillägget.",
+        "title": "Fortsätt i Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Prioritera Uniswap Extension när du ansluter till appar.",
+        "title": "Gör standardplånbok"
+      },
+      "password": {
+        "enter": {
+          "title": "Skriv in ditt nuvarande lösenord"
+        },
+        "error": {
+          "wrong": "Fel lösenord"
+        },
+        "placeholder": "Nuvarande lösenord"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Backa upp",
+        "message": "Se till att säkerhetskopiera din återställningsfras för att förhindra att du förlorar åtkomst till din plånbok och pengar.",
+        "title": "Din webbläsare håller på att ta slut"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Importera ditt Uniswap-konto genom att logga in med ett befintligt lösenord.",
+    "invalidReferrer": "Stäng den här sidan och försök igen."
+  },
+  "fee": {
+    "bestForExotic": "Bäst för exotiska par.",
+    "bestForMost": "Bäst för de flesta par.",
+    "bestForStablePairs": "Bäst för stabila par.",
+    "bestForVeryStable": "Bäst för mycket stabila par.",
+    "dynamic": "Dynamisk avgift",
+    "percentEarned": "% du kommer att tjäna i avgifter.",
+    "selectPercent": "{{pct}}% välj",
+    "selectPercentDescription": "{{pct}}% av likviditeten valde denna nivå",
+    "tier": {
+      "create": {
+        "button": "Skapa en ny avgiftsnivå",
+        "description": "Att skapa en ny nivå kommer att initialiseras i en ny pool och resultera i högre nätverkskostnader än vanligt."
+      },
+      "description": {
+        "v2": "Det intjänade beloppet ger likviditet. Alla v2-pooler har fasta avgifter på 0,3 %. För fler alternativ, tillhandahåll likviditet på v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Du är på väg att skapa en pool med en dynamisk avgiftsnivå. Innan du fortsätter, se till att den valda kroken stöder dynamiska avgifter."
+        }
+      },
+      "highestTvl": "Högsta TVL",
+      "label": "% du kommer att tjäna i avgifter",
+      "missing": {
+        "description": "Hittar du inte den nivå du letar efter?"
+      },
+      "new": "Ny nivå",
+      "percent": {
+        "select": "{{percentage}} välj"
+      },
+      "recommended": {
+        "description": "Rekommenderas baserat på att ha den högsta andelen likviditet för det valda tokenparet."
+      },
+      "search": {
+        "short": "Sök nivåer"
+      },
+      "select": {
+        "existing": {
+          "button": "Välj befintlig avgiftsnivå"
+        }
+      }
+    },
+    "tierExact": "{{fee}} avgiftsnivå",
+    "unavailable": "Intjänade avgifter är inte synliga för v2-positioner förrän likviditeten tas bort.",
+    "uncollected": "Inkluderar ej indrivna avgifter:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Sälj med"
+    },
+    "connection": {
+      "quote": "Säljer {{amount}} till ett värde av {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Överskrider balansen"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} för {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Gå tillbaka",
+      "divider": "Tokens som inte stöds",
+      "message": "Denna token stöds inte för försäljning. Byt ut denna tillgång till en av de token som stöds.",
+      "swap": "Byt till en token som stöds",
+      "title": "Token som inte stöds"
+    },
+    "welcome": {
+      "tooltip": "Sälj din krypto till ditt bankkonto eller bankkort."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Välj token"
+    },
+    "cexTransferModal": {
+      "description": "Att köpa krypto med ett kort stöds inte i din region. Överför tillgångar från ett centraliserat utbyteskonto för att finansiera din plånbok.",
+      "title": "Överför för att komma igång"
+    },
+    "checkout": {
+      "title": "Kassa med"
+    },
+    "checkoutWith": "Kassa med",
+    "chooseProvider": {
+      "description": "Du fortsätter till leverantörens portal för att se de avgifter som är kopplade till din transaktion."
+    },
+    "completeTransactionHeader": "Slutför transaktionen med {{serviceProvider}}",
+    "connection": {
+      "error": "Anslutningen misslyckades",
+      "errorDescription": "Något gick fel vid anslutningen till {{serviceProvider}}.",
+      "message": "Ansluter dig till {{serviceProvider}}",
+      "quote": "Köper {{amount}} till ett värde av {{currencySymbol}}",
+      "terms": "Genom att fortsätta godkänner du att du kommer att omfattas av Användarvillkoren och Sekretesspolicyn med {{serviceProvider}}, i tillämpliga fall."
+    },
+    "continueInTab": "Gå till fliken {{serviceProvider}} för att fortsätta. Det är säkert att stänga denna modal nu.",
+    "disclaimer": "Genom att fortsätta godkänner du att du kommer att omfattas av <tosLink>Användarvillkoren</tosLink> och <privacyLink>Sekretesspolicyn</privacyLink> med {{serviceProvider}}, i tillämpliga fall.",
+    "error": {
+      "default": "Något gick fel.",
+      "load": "Det gick inte att ladda tokens för att köpa",
+      "max": "Högst {{amount}}",
+      "min": "Minst {{amount}}",
+      "noQuotes": "Inga citat hittades.",
+      "unavailable": "Den här tjänsten är inte tillgänglig i din region",
+      "unsupported": "Stöds inte i regionen",
+      "usd": "Endast tillgänglig att köpa i USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} för {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Inga citat hittades"
+    },
+    "purchasedOn": "Köpt på {{serviceProvider}}",
+    "quote": {
+      "advice": "Du fortsätter till leverantörens portal för att se de avgifter som är kopplade till din transaktion.",
+      "type": {
+        "list": "{{optionsList}}och andra alternativ",
+        "other": "Andra alternativ",
+        "recent": "Nyligen använd"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Från ett konto"
+        }
+      },
+      "title": "Ta emot krypto",
+      "transferFunds": "Finansiera din plånbok genom att överföra krypto från en annan plånbok eller ett annat konto"
+    },
+    "region": {
+      "placeholder": "Sök efter land eller region",
+      "title": "Välj din region"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} för {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Uppdatera nu",
+      "learn": "Lär dig hur du uppdaterar",
+      "recoveryPhrase": "Visa återställningsfras"
+    },
+    "description": {
+      "extension": "En ny version av appen är tillgänglig. För att fortsätta använda Uniswap-tillägget, uppdatera det till den senaste versionen.",
+      "wallet": "En ny version av appen är tillgänglig. För att fortsätta använda Uniswap Wallet, uppdatera den till den senaste versionen."
+    },
+    "label": {
+      "recoveryPhrase": "Återställningsfras"
+    },
+    "title": {
+      "recommendedStatus": "En ny version finns tillgänglig"
+    }
+  },
+  "globalPreferences": {
+    "title": "Globala preferenser"
+  },
+  "hero": {
+    "scroll": "Bläddra för att lära dig mer",
+    "subtitle": "Den största onchain-marknadsplatsen. Köp och sälj krypto på Ethereum och 11+ andra kedjor.",
+    "swap": {
+      "title": "Byt när som helst, <br/> var som helst."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Läs mer om dolda NFT:er"
+        },
+        "text": {
+          "button": "Dolda NFT ({{numHidden}})",
+          "extension": "Det här är potentiella bedrägerier och NFT:er som du har gömt. Du kan högerklicka på en NFT för att visa den.",
+          "mobile": "Det här är potentiella bedrägerier och NFT:er som du har gömt. Du kan trycka länge på en NFT för att visa den.",
+          "title": "Dolda NFT:er"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Lär dig mer om dolda tokens"
+        },
+        "text": {
+          "button": "Dolda tokens ({{numHidden}})",
+          "info": "Dessa är potentiella bedrägerier, små saldon och tokens som du har gömt. Dolda tokens ingår inte i ditt totala plånbokssaldo.",
+          "title": "Dolda tokens"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Ta emot tokens eller NFT:er",
+        "description": {
+          "default": "När du godkänner, handlar eller överför tokens eller NFT:s, kommer dina transaktioner att visas här.",
+          "external": "När den här plånboken gör transaktioner visas de här."
+        },
+        "title": "Ingen aktivitet ännu"
+      },
+      "error": {
+        "load": "Det gick inte att ladda aktiviteten"
+      },
+      "title": "Aktivitet"
+    },
+    "banner": {
+      "offline": "Du är i offlineläge",
+      "testnetMode": {
+        "nav": "Du är i testnet-läge. Stäng av detta i inställningarna.",
+        "outage": {
+          "monad": {
+            "description": "Tillgången till Monad Testnet pausas tillfälligt via Uniswap-gränssnittet på grund av nätverksstabilitetsproblem. Testnet-fonder påverkas inte. Åtkomsten kommer att återställas när problemen är lösta.",
+            "title": "Monad pausade tillfälligt"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Tryck här för att utforska tusentals tokens, NFT:er och mer",
+      "title": "Utforska tokens"
+    },
+    "extension": {
+      "error": "Det gick inte att läsa in konton"
+    },
+    "label": {
+      "buy": "köpa",
+      "for": "Köp/sälj",
+      "receive": "Motta",
+      "send": "Skicka",
+      "swap": "Byta"
+    },
+    "nfts": {
+      "title": "NFTs"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Köp med betalkort eller bankkonto.",
+            "title": "Köp krypto"
+          },
+          "import": {
+            "description": "Ange plånbokens återställningsfras för att börja byta och skicka.",
+            "title": "Importera plånbok"
+          },
+          "receive": {
+            "description": "Överför från en annan plånbok eller konto.",
+            "title": "Ta emot krypto"
+          }
+        },
+        "description": "När den här plånboken köper eller tar emot tokens visas de här.",
+        "title": "Inga tokens ännu",
+        "welcome": {
+          "description": "Det verkar som att du har en ny plånbok. Låt oss få det finansierat innan du gör ditt första byte."
+        }
+      },
+      "error": {
+        "fetch": "Det gick inte att hämta tokensaldon",
+        "load": "Det gick inte att ladda tokensaldon"
+      },
+      "title": "Polletter"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Från ett konto",
+        "description": "Finansiera din plånbok genom att överföra krypto från en annan plånbok eller ett annat konto",
+        "title": "Ta emot krypto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Det här är en plånbok för visning"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Byt eller tillhandahåll likviditet på Uniswap-protokollet",
+      "title": "Uniswap-gränssnitt"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Bygg nästa generation av öppna applikationer och verktyg.",
+    "connectWithUs": "Ta kontakt med oss",
+    "devDocs": "Utvecklardokument",
+    "directToDeFi": "Gå direkt till DeFi",
+    "followOnX": "Följ @Uniswap på X för de senaste uppdateringarna",
+    "protocolDescription": "Uniswap-produkter drivs av Uniswap-protokollet. Protokollet är den största onchain-marknadsplatsen, med miljarder dollar i veckovolym över tusentals tokens på Ethereum och 7+ ytterligare kedjor.",
+    "provideLiquidity": {
+      "message": "Ge likviditet till pooler på Uniswap-protokollet och tjäna avgifter på swappar."
+    },
+    "swapSimple": "Enkelt att byta. Få tillgång till tusentals tokens på 11+ kedjor.",
+    "teamInsights": "Insikter och nyheter från teamet",
+    "trusted": "Betrodd av miljoner"
+  },
+  "language": {
+    "afrikaans": "afrikaans",
+    "arabic": "arabiska",
+    "catalan": "katalanska",
+    "chineseSimplified": "Förenklad kinesiska",
+    "chineseTraditional": "Traditionell Kinesisk",
+    "czech": "tjeckiska",
+    "danish": "danska",
+    "dutch": "holländska",
+    "english": "engelsk",
+    "finnish": "finska",
+    "french": "franska",
+    "greek": "grekiska",
+    "hebrew": "hebreiska",
+    "hindi": "hindi",
+    "hungarian": "Ungerska",
+    "indonesian": "indonesiska",
+    "italian": "italienska",
+    "japanese": "japanska",
+    "korean": "koreanska",
+    "malay": "malajiska",
+    "norwegian": "norska",
+    "polish": "polska",
+    "portuguese": "portugisiska",
+    "romanian": "rumänska",
+    "russian": "ryska",
+    "serbian": "serbiska",
+    "spanishLatam": "Spanska (Latinamerika)",
+    "spanishSpain": "Spanska (Spanien)",
+    "spanishUs": "spanska (USA)",
+    "swahili": "Swahili",
+    "swedish": "svenska",
+    "turkish": "turkiska",
+    "ukrainian": "ukrainska",
+    "urdu": "Urdu",
+    "vietnamese": "vietnamesiska"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 öppen gräns",
+      "count_other": "{{count}} öppna gränser"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Ditt gränspris är {{percentage}}% högre än marknaden. Justera ditt gränspris för att fortsätta.",
+        "title": "Köper {{tokenSymbol}} över marknadspriset"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Vi kan inte beräkna det aktuella marknadspriset. För att undvika att skicka en beställning under marknadspriset, kontrollera din nätverksanslutning och försök igen.",
+        "title": "Marknadspris ej tillgängligt"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Ditt gränspris är {{percentage}}% lägre än marknaden. Justera ditt gränspris för att fortsätta.",
+        "title": "Säljer {{tokenSymbol}} under marknadspriset"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Endast Mainnet-tokens är tillgängliga för limits."
+        },
+        "uniswapx": "Gränser kanske inte exekveras exakt när tokens når det angivna priset. <link />"
+      }
+    },
+    "learnMore": "Läs mer om gränser",
+    "price": {
+      "input": {
+        "label": "När 1 <tokenSymbol /> är värt"
+      },
+      "label": "Begränsat pris"
+    },
+    "selectSupportedTokens": "Välj tokens som stöds"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Ange hook-adress"
+      }
+    },
+    "learnMoreLabel": "Lär dig mer om likviditetsförsörjning",
+    "notEnough": {
+      "label": "Inte tillräckligt med likviditet för att visa korrekt USD-värde."
+    },
+    "provideOnProtocols": "Tillhandahålla likviditet på olika protokoll"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likviditet: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Lägg till likviditet till pooler{{version}} på Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Stängda positioner"
+      },
+      "page": {
+        "title": "Hantera {{quoteSymbol}}/{{baseSymbol}} pool likviditet på Uniswap",
+        "version": {
+          "description": "Se dina aktiva {{version}} likviditetspositioner. Lägg till nya positioner.",
+          "title": "Hantera poollikviditet{{version}} på Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Tillåten",
+    "allowLpMigration": "Tillåt migrering av LP-token",
+    "connectAccount": "Du måste ansluta ett konto som äger denna position.",
+    "connectWallet": "Anslut till en plånbok för att se din V2-likviditet.",
+    "contract": "Uniswap migreringskontrakt",
+    "firstLP": "Du är den första likviditetsleverantören för denna Uniswap V3-pool. Din likviditet kommer att migrera till det aktuella priset på {{source}} .",
+    "highGasCost": "Din transaktionskostnad kommer att bli mycket högre eftersom den inkluderar gasen för att skapa poolen.",
+    "invalidRange": "Ogiltigt intervall valt. Minsta pris måste vara lägre än maxpris.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP-tokens",
+    "migrating": "Migrerar",
+    "missingV2Position": "Ser du inte en av dina v2-positioner? <link>Importera det.</link>",
+    "noV2Liquidity": "Ingen V2-likviditet hittades.",
+    "positionNoFees": "Din position kommer inte att tjäna avgifter eller användas i affärer förrän marknadspriset går in i ditt intervall.",
+    "priceDifference": "Prisskillnad: ",
+    "priceWarning": "Du bör endast sätta in likviditet i Uniswap V3 till ett pris som du anser är korrekt. <br /> Om priset verkar felaktigt kan du antingen göra ett byte för att flytta priset eller vänta på att någon annan gör det.",
+    "refund": "Minst {{amtA}} {{symA}} och {{amtB}} {{symB}} kommer att återbetalas till din plånbok på grund av vald prisklass.",
+    "selectFeeTier": "Välj avgiftsnivå",
+    "setRange": "Ställ in prisklass",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Pris:",
+    "v2Description": "Detta verktyg kommer säkert att migrera din {{source}} likviditet till V3. Processen är helt tillförlitlig tack vare migreringskontraktet <0>Uniswap</0> ↗",
+    "v2Instruction": "För varje pool som visas nedan, klicka på migrera för att ta bort din likviditet från Uniswap V2 och sätta in den i Uniswap V3.",
+    "v2Title": "Migrera V2-likviditet",
+    "v3Price": "V3 {{sym}} Pris:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Ogiltig prisinmatning"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Skaffa Uniswap Wallet-appen"
+      },
+      "title": "Uniswap: Krypto- och NFT-plånbok"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp drivs av MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay är inte tillgängligt i vissa regioner. Klicka för att lära mer."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Skapa konto"
+    },
+    "logIn": {
+      "button": "Logga in"
+    },
+    "signIn": {
+      "button": "Logga in"
+    },
+    "signInOrConnect": {
+      "title": "Logga in eller anslut"
+    },
+    "signUp": {
+      "button": "Anmäl dig"
+    },
+    "tabs": {
+      "createPosition": "Skapa position",
+      "viewPositions": "Visa positioner"
+    }
+  },
+  "network": {
+    "lostConnection": "Du kan ha tappat nätverksanslutningen.",
+    "mightBeDown": "{{network}} kan vara nere just nu, eller så kan du ha tappat nätverksanslutningen.",
+    "warning": "Nätverksvarning"
+  },
+  "nft": {
+    "addToBag": "Lägg i varukorg",
+    "authorsCollectionOnUni": "{{name}}s NFT-samling på Uniswap",
+    "bag": "Väska",
+    "blockedCollection": "Denna samling är blockerad",
+    "blockedOpenSea": "Blockerad på OpenSea",
+    "buyTransferNFTToStart": "Köp eller överför NFT:er till den här plånboken för att komma igång.",
+    "buyTransferTokensToStart": "Köp eller överför tokens till den här plånboken för att komma igång.",
+    "card": {
+      "notAvailable": "Innehållet är inte <br /> tillgängligt ännu"
+    },
+    "chainSupportComingSoon": "{{chainName}} support kommer snart",
+    "collectionOnUni": "NFT-samling på Uniswap",
+    "collectonOnAddress": "NFT-samling på Uniswap - {{address}}",
+    "complete": "Komplett!",
+    "editListings": "Redigera listor",
+    "event": "Händelse",
+    "explore": "Utforska NFT:er",
+    "learnWhy": "Lär dig varför",
+    "list": {
+      "header": {
+        "lastPrice": "Sista"
+      },
+      "title": "Lista NFT:er"
+    },
+    "listedSignificantly_one": "En NFT är listad {{percentage}} under samlingens golvpris. Är du säker på att du vill fortsätta?",
+    "listedSignificantly_other": "{{count}} NFTs listas betydligt under samlingens golvpris. Är du säker på att du vill fortsätta?",
+    "listForSale": "Lista till salu",
+    "lowPrice": "Lågt noteringspris",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} avgifter"
+      }
+    },
+    "maxFees": "Max avgifter",
+    "maxRoyalties": "Max royalties för skapare",
+    "noItems": "Inga objekt att visa",
+    "noneAtAddress": "Det finns inga insamlingstillgångar på den här adressen",
+    "noPools": "Inga pooler än",
+    "notListed": "Inte listad",
+    "proceedsIfSold": "Intäkt om sålt",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Redan listad på {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} under golvpriset."
+        }
+      }
+    },
+    "refundsInEth": "Återbetalningar för ej tillgängliga artiklar kommer att ges i ETH",
+    "removeFromBag": "Ta bort från påsen",
+    "reportSpam": "Rapportera som spam",
+    "returnToExplore": "Återgå till NFT Explore",
+    "returnToMy": "Återgå till Mina NFT:er",
+    "setPrices": "Ställ in priser för att fortsätta",
+    "startListing": "Börja lista",
+    "successListed": "Listas framgångsrikt",
+    "unavailableToList": "Ej tillgänglig för listning",
+    "whyTransaction": {
+      "reason": "Att lista en NFT kräver ett engångsgodkännande från marknadsplatsen för varje NFT-samling."
+    },
+    "willAppearHere": "Dina onchain-transaktioner och kryptoköp kommer att visas här.",
+    "wishGranted": "Uniswap har uppfyllt din önskan!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Godkänn insamling",
+        "approve_other": "Godkänn samlingar",
+        "sign_one": "Signera listning",
+        "sign_other": "Signera listor"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} max"
+      }
+    },
+    "my": "Mina NFT",
+    "noneYet": "Inga NFT än",
+    "sell": "Sälj NFTs"
+  },
+  "notFound": {
+    "oops": "Hoppsan, ta mig tillbaka till Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Storbritanniens ansvarsfriskrivning:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} dold",
+      "unhidden": "{{assetName}} dold"
+    },
+    "copied": {
+      "address": "Adress kopierad",
+      "calldata": "Samtalsdata har kopierats",
+      "contractAddress": "Avtalsadress kopierad",
+      "failed": "Det gick inte att kopiera till urklipp",
+      "image": "Bilden kopierad",
+      "nftUrl": "NFT URL kopierad",
+      "tokenUrl": "Token URL kopierad",
+      "transactionId": "Transaktions-ID kopierat",
+      "unitag": "Användarnamnet har kopierats"
+    },
+    "countryChange": "Bytte till {{countryName}}",
+    "network": {
+      "changed": "Bytte till {{network}}"
+    },
+    "passwordChanged": "lösenordet ändrat",
+    "restore": {
+      "success": "Plånboken återställd!"
+    },
+    "send": {
+      "network": "Skickar den {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Rapporterad"
+      }
+    },
+    "swap": {
+      "network": "Byter på {{network}}",
+      "pending": {
+        "swap": "Byte väntar",
+        "unwrap": "Packa upp väntar",
+        "wrap": "Wrap väntar"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Avbruten {{currencySymbol}} godkänn.",
+        "fail": "Det gick inte att godkänna {{currencySymbol}} för användning med {{address}}.",
+        "success": "Godkänd {{currencySymbol}} för användning med {{address}}."
+      },
+      "pending": "Transaktion väntar",
+      "swap": {
+        "canceled": "Avbrutit byte av {{inputCurrencySymbol}}-{{outputCurrencySymbol}} .",
+        "expired": "{{inputCurrencyAmountWithSymbol}} för {{outputCurrencyAmountWithSymbol}} byte har löpt ut.",
+        "fail": "Det gick inte att byta {{inputCurrencyAmountWithSymbol}} mot {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Bytte {{inputCurrencyAmountWithSymbol}} mot {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Avbruten {{tokenNameOrAddress}} skicka",
+        "fail": "Det gick inte att skicka {{tokenNameOrAddress}} till {{walletNameOrAddress}}",
+        "received": "Fick {{tokenNameOrAddress}} från {{walletNameOrAddress}}",
+        "success": "Skickade {{tokenNameOrAddress}} till {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Det gick inte att göra transaktioner med {{addressOrEnsName}}",
+          "short": "Transaktionen misslyckades"
+        },
+        "success": {
+          "full": "Handlade med {{addressOrEnsName}}",
+          "short": "Transaktionen bekräftad"
+        }
+      },
+      "unwrap": {
+        "canceled": "Avbruten {{inputCurrencySymbol}} packa upp.",
+        "fail": "Det gick inte att packa upp {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Packade upp {{inputCurrencyAmountWithSymbol}} och fick {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Avbruten {{inputCurrencySymbol}} wrap.",
+        "fail": "Det gick inte att radbryta {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Slådde in {{inputCurrencyAmountWithSymbol}} och fick {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Skicka väntar"
+    },
+    "walletConnect": {
+      "confirmed": "Transaktionen bekräftad med {{dappName}}",
+      "connected": "Ansluten",
+      "disconnected": "Osammanhängande",
+      "failed": "Transaktionen misslyckades med {{dappName}}",
+      "networkChanged": {
+        "full": "Bytte till {{networkName}}",
+        "short": "Bytte nätverk"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Fortsätt på Uniswap Extension",
+      "title": "Framgång!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Vi föreslår att du skriver detta på ett papper och förvarar det på en säker plats, som ett kassaskåp.",
+        "displayWarning": {
+          "description": "Läs följande noggrant innan du fortsätter.",
+          "note": {
+            "access": "Denna återställningsfras ger dig full tillgång till din plånbok och pengar",
+            "secure": "Se detta privat och dela det inte med någon",
+            "storage": "Skriv ner det och förvara det på ett säkert ställe"
+          },
+          "title": "Några viktiga saker att veta"
+        },
+        "error": "Ogiltigt eller felstavat ord",
+        "placeholder": "Hemligt ord",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} klar",
+        "selectedWordPlaceholder": "Välj ord",
+        "subtitle_one": "Vad är det {{count}}första ordet i din återställningsfras?",
+        "subtitle_two": "Vilket är det {{count}}andra ordet i din återställningsfras?",
+        "subtitle_few": "Vilket är det {{count}}ordet i din återställningsfras?",
+        "subtitle_other": "Vilket är det {{count}}:e ordet i din återställningsfras?",
+        "title": "Låt oss se till att du har spelat in det korrekt"
+      },
+      "option": {
+        "badge": {
+          "quick": "Snabbt"
+        },
+        "cloud": {
+          "description": "Säkerhetskopiera din plånbok via {{cloudProviderName}}, skyddad av ett återställningslösenord.",
+          "title": "Ange ett återställningslösenord"
+        },
+        "manual": {
+          "description": "Anteckna dina 12 hemliga ord på ett papper och förvara det på ett säkert ställe.",
+          "title": "Skriv ner återhämtningsfras"
+        }
+      },
+      "reminder": {
+        "description": "Säkerhetskopiering av din plånbok säkerställer att du alltid kan återställa dina tillgångar om du skulle tappa din telefon eller skaffa en ny enhet.",
+        "title": "Det är dags att säkerhetskopiera din plånbok",
+        "warning": {
+          "description": "Om du inte ställer in en säkerhetskopieringsmetod kommer du inte att ha något sätt att återställa din plånbok om du tappar bort din telefon, tar bort appen eller skaffar en ny enhet.",
+          "title": "Du kan förlora dina pengar"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Om du någonsin glömmer det kan vi inte återställa det åt dig. Skriv ner det på ett säkert ställe eller förvara det säkert i en lösenordshanterare.",
+          "disclaimer": "Jag förstår att Uniswap Labs inte kan återställa mitt återställningslösenord.",
+          "title": "Det är viktigt att spara detta lösenord"
+        },
+        "manual": {
+          "description": "Se till att du skrev ner din återställningsfras korrekt och att du har en säker plats att förvara den.",
+          "disclaimer": "Jag förstår att Uniswap Labs inte kan återställa min plånbok om jag tappar bort denna.",
+          "title": "Innan du slutar..."
+        }
+      },
+      "subtitle": "Så här återställer du din plånbok om du tar bort appen eller tappar din enhet.",
+      "title": {
+        "existing": "Säkerhetskopiera din plånbok",
+        "new": "Välj din säkerhetskopieringsmetod"
+      },
+      "view": {
+        "disclaimer": "Jag förstår att om jag tappar bort min återställningsfras kan Uniswap Labs inte hjälpa mig att återställa den.",
+        "subtitle": {
+          "message1": "Läs följande noggrant innan du fortsätter",
+          "message2": "Du måste ange alla 12 av dessa hemliga ord för att återställa din plånbok."
+        },
+        "title": "Skriv ner din återhämtningsfras",
+        "warning": {
+          "message1": "Denna återställningsfras ger dig full tillgång till din plånbok och pengar",
+          "message2": "Skriv ner det och förvara det på ett säkert ställe",
+          "message3": "Se detta privat och <u>dela det inte med någon</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Du måste ange detta för att få tillbaka dina pengar. Om du någonsin glömmer det kan vi inte hämta det åt dig.",
+        "title": "Bekräfta ditt återställningslösenord"
+      },
+      "createPassword": {
+        "description": "Du måste ange detta för att få tillbaka dina pengar. Om du någonsin glömmer det kan vi inte hämta det åt dig.",
+        "title": "Skapa ditt återställningslösenord"
+      }
+    },
+    "complete": {
+      "button": "Öppna Uniswap Extension",
+      "description": "Din plånbok är redo att skicka och ta emot krypto. Öppna Uniswap Extension med genvägen nedan.",
+      "go_to_uniswap": "Gå till Uniswap Web App",
+      "pin": {
+        "description": "Klicka på nålikonen för att lägga till Uniswap Extension till ditt verktygsfält.",
+        "title": "Pin Uniswap Extension"
+      },
+      "title": "Du är redo"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Du behöver detta för att låsa upp din plånbok och komma åt din återställningsfras",
+        "title": {
+          "default": "Skapa lösenord",
+          "reset": "Återställ ditt lösenord"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap Extension är endast kompatibel med Chrome på skrivbordet.",
+          "title": "Chrome på mobilen stöds inte (ännu)"
+        },
+        "description": "Uniswap Extension är bara kompatibel med Chrome just nu.",
+        "title": "Denna webbläsare stöds inte (ännu)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Skapa en återhämtningsplan om du någonsin tappar bort din telefon eller skaffar en ny.",
+          "title": "Säkerhetskopiera din plånbok"
+        },
+        "fund": {
+          "description": "Finansiera din plånbok genom att köpa krypto eller överföra från ett annat konto.",
+          "title": "Få din första token"
+        },
+        "label": {
+          "required": "Nödvändig",
+          "swipe": "Hårt slag"
+        },
+        "pushNotifications": {
+          "description": "Få prisaviseringar om dina favoritpoletter, marknadstrender och mer.",
+          "title": "Håll dig uppdaterad"
+        },
+        "unitag": {
+          "description": "Bygg en personlig web3-profil och dela enkelt din adress med vänner.",
+          "title": "Gör anspråk på ditt {{unitagDomain}} användarnamn"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 ord är ogiltigt eller felstavat",
+        "invalidWords_other": "{{count}} ord är ogiltiga eller felstavade"
+      },
+      "method": {
+        "import": {
+          "message": "Ange din återställningsfras från en annan kryptoplånbok.",
+          "title": "Importera en plånbok"
+        },
+        "passkey": {
+          "message": "Synkronisera din Uniswap-plånbok med ett befintligt lösenord.",
+          "title": "Logga in med lösenord"
+        },
+        "restore": {
+          "message": {
+            "android": "Lägg till plånböcker som du har säkerhetskopierat till ditt Google Drive-konto.",
+            "ios": "Lägg till plånböcker som du har säkerhetskopierat till ditt iCloud-konto."
+          },
+          "title": "Återställ en plånbok"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Vill du inte ha något av ovanstående?"
+        },
+        "subtitle": "Välj vilken plånbok du vill logga in på igen.",
+        "title": "Välkommen tillbaka till Uniswap",
+        "wallet": {
+          "button": "Visa återställningsfras",
+          "count_one": "+1 annan plånbok",
+          "count_other": "+{{count}} andra plånböcker"
+        },
+        "warning": {
+          "caption": "Se till att du har säkerhetskopierat alla andra plånböcker. Om du någonsin vill återställa dem behöver du deras återställningsfraser eller motsvarande {{cloudProvider}} säkerhetskopior.",
+          "title": "Är du säker?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Importera en plånbok från mobilappen via QR-kod.",
+          "title": "Använd Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "Synkronisera din Uniswap-plånbok med ett befintligt lösenord.",
+          "title": "Logga in med lösenord"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Ange din återställningsfras från en annan kryptoplånbok.",
+          "title": "Importera en plånbok"
+        },
+        "title": "Logga in eller importera en plånbok"
+      },
+      "title": "Välj hur du vill lägga till din plånbok"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Min återhämtningsfras är 12 ord",
+        "importing": "Importerar...",
+        "longPhrase": "Min återhämtningsfras är längre"
+      },
+      "error": {
+        "invalidPhrase": "Frasen du angav är ogiltig"
+      },
+      "subtitle": "Skriv eller klistra in din återställningsfras på 12 ord",
+      "title": "Ange din återställningsfras"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Fortsätt i det säkra inloggningsfönstret."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Jag har redan en plånbok",
+        "signInOrImport": "Logga in eller importera"
+      },
+      "mobileScan": {
+        "button": "Skanna QR-koden för att importera",
+        "title": "Har du Uniswap-appen?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Lägg till en befintlig plånbok",
+        "create": "Skapa en plånbok",
+        "createAccount": "Skapa ett konto"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "Detta är ett offentligt namn som alla kan använda för att skicka krypto till dig."
+      },
+      "wallet": {
+        "button": {
+          "text": "Avsluta"
+        },
+        "subtitle": "Detta smeknamn är bara synligt för dig",
+        "title": "Ge din plånbok ett namn"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "För att få aviseringar, aktivera aviseringar för Uniswap Wallet i enhetens inställningar.",
+        "title": "Aviseringsbehörighet"
+      },
+      "subtitle": "Håll dig uppdaterad om transaktionsstatus och större prisändringar för favoritpoletter.",
+      "title": "Slå på aviseringar"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Ditt konto är skyddat av din egen säkra lösenordslagring."
+      },
+      "biometric": {
+        "scan": "Telefon, surfplatta eller webbläsare – skanna bara din biometri och du loggas in."
+      },
+      "create": "Skapa ditt lösenord",
+      "use": {
+        "recovery": {
+          "phrase": "Använd en återställningsfras istället"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Låt oss bekräfta att du har rätt. Om du förlorar eller skriver ner detta felaktigt kommer du inte att kunna återfå dina pengar.",
+          "default": "Om du förlorar eller skriver ner detta felaktigt kommer du inte att kunna återfå dina pengar."
+        },
+        "title": "Låt oss bekräfta att du har rätt"
+      },
+      "view": {
+        "subtitle": "Du måste ange alla 12 av dessa hemliga ord för att återställa din plånbok.",
+        "title": {
+          "hasPassword": "Om du någonsin glömmer ditt lösenord..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "jag är redo",
+          "message": "Din återställningsfras är det som ger dig (och alla som har det) tillgång till dina pengar. Se till att hålla det för dig själv.",
+          "title": "Gör detta steg på en privat plats"
+        },
+        "screenshot": {
+          "message": "Alla som får tillgång till dina bilder kan komma åt din plånbok. Vi rekommenderar att du istället skriver ner dina ord.",
+          "title": "Skärmdumpar är inte säkra"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Lär dig mer om plånbokssäkerhet",
+        "subtitle": "Använd ditt nya lösenord för att låsa upp din plånbok.",
+        "title": "Lösenordsåterställning"
+      }
+    },
+    "scan": {
+      "error": "Det gick inte att läsa in QR-koden",
+      "otp": {
+        "error": "Koden du skickade är felaktig eller så uppstod ett fel när du skickade in. Var god försök igen.",
+        "failed": "Misslyckade försök: {{number}}",
+        "subtitle": "Kontrollera din Uniswap-mobilapp för koden på 6 tecken",
+        "title": "Ange engångskod"
+      },
+      "subtitle": "Skanna QR-koden med Uniswap-mobilappen för att börja importera din plånbok.",
+      "title": "Importera plånbok från appen",
+      "troubleScanning": {
+        "message": "Importera via återställningsfras",
+        "title": "Problem med att skanna?"
+      },
+      "wifi": "Anslut din telefon till samma WiFi-nätverk som din dator."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "För att använda biometri, ställ in det först i inställningarna",
+            "ios": "För att använda {{biometricsMethod}}, tillåt åtkomst i systeminställningarna"
+          },
+          "title": {
+            "android": "Biometri är inaktiverat",
+            "ios": "{{biometricsMethod}} är inaktiverad"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Aktivera biometri",
+          "ios": "Aktivera {{biometricsMethod}}"
+        },
+        "setup": "Uppstart"
+      },
+      "subtitle": {
+        "android": "Lägg till ett extra lager av säkerhet genom att kräva biometri för att skicka transaktioner.",
+        "ios": "Lägg till ett extra lager av säkerhet genom att kräva att {{biometricsMethod}} skickar transaktioner."
+      },
+      "title": "Skydda din plånbok"
+    },
+    "selectWallets": {
+      "error": "Det gick inte att läsa in adresser",
+      "title": {
+        "default": "Välj plånböcker att importera",
+        "error": "Fel vid import av plånböcker"
+      }
+    },
+    "termsOfService": "Genom att fortsätta godkänner jag<highlightTerms> Användarvillkoren </highlightTerms>och samtycker till<highlightPrivacy> Sekretesspolicyn</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Vad är en återställningsfras?"
+      }
+    },
+    "wallet": {
+      "continue": "Låt oss hålla det säkert",
+      "defaultName": "Plånbok {{number}}",
+      "description": {
+        "full": "Detta är ditt personliga utrymme för tokens, NFT:er och alla dina affärer. Slutför konfigureringen för att hålla dina pengar säkra."
+      },
+      "title": "Välkommen till din nya plånbok"
+    },
+    "welcome": {
+      "subtitle": "Låt oss slutföra konfigureringen av din plånbok.",
+      "title": "Välkomna!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Du kan fortfarande byta och tillhandahålla likviditet i denna kedja utan problem."
+    },
+    "title": "{{versionName}} kommer snart tillbaka"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Har du problem med att använda eller komma åt ditt lösenord? Besök Uniswap Support för hjälp.",
+        "title": "Hjälp med lösenord"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 tillåter att tokengodkännanden delas och hanteras över olika applikationer."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktivt fästingområde",
+    "addAs": "Lägg till som {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Annualiserat baserat på 1 dags avgifter"
+    },
+    "aprText": "Pool APR",
+    "balances": "Poolsaldon",
+    "closedCTA": {
+      "description": "Du kan se dem genom att använda filtret högst upp på sidan.",
+      "title": "Letar du efter dina stängda positioner?"
+    },
+    "collectAs": "Samla som {{nativeWrappedSymbol}}",
+    "collectFees": "Samla in avgifter",
+    "create": {
+      "info": "Dina val kommer att skapa en ny likviditetspool som kan resultera i lägre initial likviditet och ökad volatilitet. Överväg att lägga till en befintlig pool för att minimera dessa risker."
+    },
+    "createdPosition": {
+      "cancelled": "Skapa position avbröts",
+      "failed": "Det gick inte att skapa position"
+    },
+    "details": "Pooldetaljer",
+    "earnings": {
+      "empty": "Du har inga intäkter ännu"
+    },
+    "explorers": "Utforskare",
+    "import": {
+      "link": {
+        "description": "Vissa v2-positioner visas inte automatiskt."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Vissa v2-positioner visas inte automatiskt. Välj ett tokenpar för att importera och se dina positioner."
+          }
+        }
+      },
+      "success": "Pool importerad"
+    },
+    "incentives": {
+      "administeredRewards": "Belöningar för likviditetsavsättning administreras av Uniswap Foundation.",
+      "collect": "Samla",
+      "collectedRewards": "Samlade belöningar",
+      "collectFailed": "Insamlingen misslyckades, försök igen.",
+      "collectFailedNoRetry": "Det gick inte att samla in belöningar.",
+      "collectingRewards": "Samla belöningar",
+      "collectRewards": "Samla belöningar",
+      "collectRewardsCancelled": "Samla belöningar avbrutna",
+      "eligible": "Kvalificerade pooler har symboliska belöningar så att du kan tjäna mer",
+      "rewardsEarned": "Intjänade belöningar",
+      "uni": {
+        "description": "Tjäna UNI-belöningar genom att tillhandahålla likviditet till kvalificerade pooler",
+        "findMore": "Hitta fler pooler med UNI-belöningar"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Det gick inte att hämta belöningar. Detta kan bero på ett nätverksproblem. Testa att ladda om sidan."
+        }
+      }
+    },
+    "info": "Poolinformation",
+    "limitFluctuation": {
+      "warning": "Var medveten om att utförandet av limiter kan variera baserat på marknadsfluktuationer i realtid och överbelastning av Ethereum-nätverket. Gränser kanske inte exekveras exakt när tokens når det angivna priset."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Det gick inte att hämta data som krävs för din transaktion."
+        }
+      },
+      "outOfSync": {
+        "message": "Priserna i denna pool skiljer sig med marknadspriserna för de utvalda tokens. Justera din prisklass därefter eller vänta tills poolen återbalanseras för att undvika förluster."
+      }
+    },
+    "maxPrice": "Maxpris",
+    "migrateLiquidity": "Migrera likviditet",
+    "migrateLiquidityDisabledTooltip": "Denna kedja stöder inte v4 likviditetspooler.",
+    "migrateToV4": "Migrera till v4",
+    "minPrice": "Minsta pris",
+    "newPosition": {
+      "plus": "+ Ny position",
+      "title": "Ny position"
+    },
+    "newSpecificPosition": "Ny {{symbol}} position",
+    "openPosition": {
+      "cta": "Lägg till likviditet till en pool och se dina positioner här"
+    },
+    "openToStart": "Öppna en ny position eller skapa en pool för att komma igång.",
+    "percent": "{{pct}}% pool",
+    "pooled": "Poolat {{sym}}:",
+    "position": "Placera",
+    "positions": {
+      "title": "Dina positioner",
+      "transaction": {
+        "settings": "Transaktionsinställningar"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "USD-värdet är för närvarande inte tillgängligt för denna position. Se positionsdetaljer för insatta tokenbelopp."
+      }
+    },
+    "priceRange": "Prisklass",
+    "refresh": {
+      "prices": "Uppdatera priserna"
+    },
+    "removeLiquidity": "Ta bort likviditeten",
+    "rewardAPR": {
+      "percent": "{{pct}} belöning APR"
+    },
+    "rewards": "Belöningar",
+    "rewardsPool": {
+      "label": "Poolpoletter i belöningspoolen:"
+    },
+    "selectPair": "Välj par",
+    "share": {
+      "label": "Din poolandel:"
+    },
+    "specificPosition": "{{symbol}} position",
+    "tokenPair": "Tokenpar",
+    "top": {
+      "tvl": "Topppooler av TVL"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "Dina totala pooltokens:",
+    "uncollectedFees": "Ej indrivna avgifter",
+    "v2": "v2 pooler",
+    "v3": "v3 pooler",
+    "viewPools": "Visa pooler",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Dra tillbaka som {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2-pooler som matchar ditt parval."
+      },
+      "notFound": {
+        "description": "Inga matchande v2-pooler hittades. Dubbelkolla ditt val av token och se till att du är ansluten till rätt plånbok."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Utforska pooler"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Hooks är en avancerad funktion som gör det möjligt för pooler att interagera med smarta kontrakt, vilket låser upp olika funktioner. Var försiktig när du lägger till krokar, eftersom vissa kan vara skadliga eller orsaka oavsiktliga konsekvenser."
+    },
+    "addingHook": {
+      "disclaimer": "Att lägga till krokar kan få oavsiktliga konsekvenser. Gör din forskning och fortsätt på egen risk.",
+      "hideProperties": "Dölj egenskaper",
+      "invalidAddress": "Ange en giltig hook-adress",
+      "viewProperties": "Visa fastigheter"
+    },
+    "create": {
+      "invalidPrice": "Ogiltigt pris",
+      "invalidRange": "Ogiltigt intervall",
+      "modal": {
+        "header": "Skapa position"
+      }
+    },
+    "currentValue": "Aktuellt positionsvärde",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "Det initiala priset som anges är {{value}}% lägre än marknadspriset och kan resultera i förlust av pengar. Vill du fortsätta?",
+            "more": "Det angivna initiala priset är {{value}}% högre än marknadspriset och kan resultera i förlust av pengar. Vill du fortsätta?"
+          },
+          "title": "Stor prisskillnad mot marknaden"
+        }
+      },
+      "description": "Ange symbolbeloppen för ditt likviditetsbidrag."
+    },
+    "depositedCurrency": "Deponerade {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Skapa en v2-position"
+      }
+    },
+    "hook": {
+      "disclaimer": "Jag förstår de potentiella riskerna med att lägga till denna krok.",
+      "donateWarning": "Denna flagga kan leda till ändringar av intjänade avgifter.",
+      "liquidityWarning": "Denna flagga kan få poolen att blockera tillskottet av ny likviditet. Din transaktion kan återgå.",
+      "removeWarning": "Kan göra att dina pengar låses eller blockera dig från att ta ut avgifter.",
+      "swapWarning": "Denna flagga kan göra det möjligt för likviditetsleverantörer att lättare utnyttja Just-In-Time-likviditet, vilket kan resultera i lägre intjänade avgifter.",
+      "warningHeader": "Viktigt: krokrisker identifierade",
+      "warningInfo": "Vi har identifierat potentiella risker med denna krok. Se till att du förstår hur denna krok fungerar innan du bestämmer dig för att fortsätta."
+    },
+    "increase": {
+      "fot": "Att lägga till likviditet för {{token}} och andra \"Fee on Transfer\"-tokens stöds inte."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% lägre än marknadspriset",
+        "positive": "{{ value }}% mer än marknadspriset"
+      },
+      "info": "När du skapar en ny pool måste du ställa in startväxelkursen för båda tokens. Denna kurs kommer att återspegla det ursprungliga marknadspriset.",
+      "set": "Sätt initialt pris",
+      "useMarketPrice": "Använd marknadspris"
+    },
+    "migrate": {
+      "liquidity": "När du migrerar positioner kan du inte ändra ditt tokenpar, men du kan lägga till en krok för att förbättra funktionaliteten.",
+      "v4unsupportedChain": "Den här kedjan stöds inte för v4-pooler."
+    },
+    "new": {
+      "protocol": "Ny {{protocol}} position"
+    },
+    "notFound": {
+      "description": "Detaljer om denna position är inte tillgängliga. Kontrollera att du är ansluten med rätt plånbok."
+    },
+    "protocol": "{{protocol}} position",
+    "provide": {
+      "liquidity": "Välj de tokens du vill ge likviditet till. Du kan välja tokens på alla nätverk som stöds.",
+      "liquidityDescription": {
+        "creatingPool": "Att ställa in full likviditet när du skapar en pool säkerställer kontinuerligt marknadsdeltagande över alla möjliga priser, vilket erbjuder enkelhet men med potential för högre permanenta förluster.",
+        "custom": "Anpassat sortiment gör att du kan koncentrera din likviditet inom specifika prisgränser, vilket förbättrar kapitaleffektiviteten och avgiftsintäkterna men kräver mer aktiv förvaltning."
+      },
+      "outOfRange": {
+        "closePosition": "Stängt läge",
+        "description": "Denna positions intervall kan inte justeras under migreringen. För att ställa in ett nytt intervall, stäng denna position och öppna en ny v4-position.",
+        "title": "Du migrerar en position utanför räckvidden"
+      }
+    },
+    "removeHook": "Ta bort kroken",
+    "resetDescription": "Dina tokens, pris och intervall kommer att återställas.",
+    "setRange": {
+      "inputsBelow": "Använd ingångarna nedan för att ställa in ditt räckvidd."
+    },
+    "step": {
+      "deposit": "Ange insättningsbelopp",
+      "price": "Ställ in initialpris och insättningsbelopp",
+      "range": "Ställ in prisintervall och insättningsbelopp",
+      "select": "Välj tokenpar och avgifter"
+    },
+    "value": "Positionsvärde",
+    "valueUnavailable": "USD-värdet är för närvarande inte tillgängligt för denna position. Se positionsdetaljer för insatta tokenbelopp.",
+    "wrapped": {
+      "unwrap": "Packa upp {{wrappedToken}}",
+      "warning": {
+        "info": "Packa upp din {{wrappedToken}} och sätt in {{nativeToken}} för att ge mer kostnadseffektiv och effektiv likviditet."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Anslut din plånbok för att se dina aktuella positioner."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Appen loggar anonymiserad användningsstatistik för att förbättras över tid.",
+    "autoRouter": "Appen hämtar den optimala handelsvägen från en Uniswap Labs-server.",
+    "infura": "Appen hämtar data i kedjan och konstruerar kontraktsanrop med ett Infura API.",
+    "thirdPartyApis": "Den här appen använder följande API:er från tredje part:",
+    "trm": "Appen samlar säkert in din plånboksadress och delar den med TRM Labs Inc. av risk- och efterlevnadsskäl.",
+    "uniswaptos": "Uniswap Labs användarvillkor"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 app ansluten",
+      "connections_other": "{{count}} appar anslutna"
+    },
+    "error": {
+      "camera": {
+        "message": "För att skanna en kod, tillåt kameraåtkomst i systeminställningarna",
+        "title": "Kameran är inaktiverad"
+      },
+      "none": "Ingen QR-kod hittades"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Skanna en QR-kod",
+        "show": "Visa min QR-kod"
+      },
+      "error": {
+        "message": "Se till att du skannar en giltig QR-kod för Ethereum-adress innan du försöker igen.",
+        "title": "Ogiltig QR-kod"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Inget meddelande hittades."
+      },
+      "method": {
+        "default": "Begäran från {{dappNameOrUrl}}",
+        "signature": "Signaturbegäran från {{dappNameOrUrl}}",
+        "transaction": "Transaktionsbegäran från {{dappNameOrUrl}}"
+      },
+      "withAmount": "Tillåt {{dappName}} att använda upp till<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Tillåt {{dappName}} att använda din {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Ansluter...",
+      "loading": "Läser in..."
+    },
+    "title": "Skanna en QR-kod",
+    "wallet": {
+      "networks": "Nätverk som stöds",
+      "title": "Du kan skicka och ta emot tokens och NFTs på alla våra {{numOfNetworks}} nätverk som stöds."
+    }
+  },
+  "range": {
+    "outOfView": "Räckvidd utom synhåll"
+  },
+  "removeLiquidity": {
+    "pooled": "Poolat {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Detta ger Uniswap-protokollet tillgång till din token för handel."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "När tillgängligt, aggregerar likviditetskällor för bättre priser och gasfria swappar.",
+    "cheapest": {
+      "v4": "Uniswap-klienten väljer det optimala handelsalternativet med hänsyn till pris och nätverkskostnader."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Utgånget",
+      "subtitle": "Ange denna kod i Uniswap-tillägget. Din återställningsfras kommer att krypteras och överföras säkert.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Ny kod i {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Ny kod i {{minutes}}m {{seconds}}s",
+          "seconds": "Ny kod i {{seconds}}s"
+        }
+      },
+      "title": "Uniswap engångskod"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Ja, fortsätt"
+      },
+      "label": {
+        "browser": "Webbläsare",
+        "device": "Enhet"
+      },
+      "subtitle": "Fortsätt bara om du skannar en QR-kod från Uniswap Extension på en betrodd enhet.",
+      "title": "Försöker du importera din plånbok?",
+      "warning": "Se upp för webbplatser och appar som utger sig för att vara Uniswap. Annars kan din plånbok äventyras."
+    },
+    "error": {
+      "encryption": "Det gick inte att förbereda fröfrasen.",
+      "noCode": "Ingen OTP mottagen. Var god försök igen.",
+      "timeout": {
+        "message": "Skanna QR-koden på Uniswap-tillägget igen för att fortsätta synkronisera din plånbok.",
+        "title": "Din anslutning tog timeout"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "För att skanna den här QR-koden måste din telefon vara ansluten till samma WiFi-nätverk som din dator och eventuella VPN ska stängas av tillfälligt.",
+        "title": "Byt ditt WiFi-nätverk"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Kommer snart: sök och utforska tokens på {{chainName}} Chain",
+    "input": {
+      "placeholder": "Sök polletter och pooler"
+    },
+    "results": {
+      "count_one": "1 föremål",
+      "count_other": "{{count}} föremål"
+    },
+    "ukDisclaimer": "Ansvarsfriskrivning för invånare i Storbritannien"
+  },
+  "send": {
+    "button": {
+      "review": "Granska överföringen"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Nätverkskostnad"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Saldo: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Välj mottagare",
+      "input": {
+        "placeholder": "Sök ENS eller adress"
+      },
+      "previous_one": "1 tidigare överföring",
+      "previous_other": "{{count}} tidigare överföringar",
+      "results": {
+        "empty": "Inga resultat funna",
+        "error": "Adressen du skrev finns antingen inte eller är felstavad."
+      },
+      "section": {
+        "favorite": "Favoritplånböcker",
+        "recent": "Nyligen",
+        "search": "Sökresultat",
+        "viewOnly": "View-only plånböcker",
+        "yours": "Dina plånböcker"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Skicka bara pengar till den här plånboken om du har återställningsfrasen eller känner ägaren till plånboken.",
+          "title": "Du har detta som en visningsbart plånbok"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "När du skickar tokens till en plånboksadress kommer de att dyka upp här",
+          "title": "Inga plånböcker sparade"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Du skickar"
+      },
+      "summary": {
+        "button": {
+          "title": "Bekräfta skicka"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Adressen du skrev finns antingen inte eller är felstavad.",
+        "title": "Inga resultat funna"
+      },
+      "placeholder": "Sök ENS eller adress"
+    },
+    "title": "Skicka",
+    "warning": {
+      "blocked": {
+        "default": "Denna plånbok är blockerad",
+        "modal": {
+          "message": "Den här adressen är blockerad på Uniswap Wallet eftersom den är kopplad till en eller flera blockerade aktiviteter. Om du tror att detta är ett fel, skicka ett e-postmeddelande till compliance@uniswap.org.",
+          "title": "Blockerad adress"
+        },
+        "recipient": "Mottagarens plånbok är blockerad"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Du försöker skicka pengar till en token-adress. Detta kan resultera i en permanent förlust av medel.",
+          "heading": "Tokenadress upptäcktes"
+        },
+        "message": "Du försöker skicka pengar till en token-adress. Att skicka krypto till denna typ av adress kan resultera i en permanent förlust av pengar.",
+        "title": "Detta är en symbolisk adress"
+      },
+      "insufficientFunds": {
+        "message": "Ditt saldo {{currencySymbol}} har minskat sedan du angav beloppet du vill skicka",
+        "title": "Inte tillräckligt {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Inte tillräckligt med <highlight>{{currencySymbol}} på {{networkName}}</highlight> för att skicka",
+          "withoutNetwork": "Inte tillräckligt med <highlight>{{currencySymbol}}</highlight> för att skicka"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Annullera",
+            "confirm": "Bekräfta"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Användarnamn",
+          "walletAddress": "Plånboksadress"
+        },
+        "message": "Du har inte gjort transaktioner med den här adressen tidigare. Bekräfta att adressen är korrekt innan du fortsätter.",
+        "title": "Ny adress"
+      },
+      "self": {
+        "message": "Du försöker skicka pengar till din nuvarande plånbok. Att skicka krypto till denna adress kommer att medföra onödiga nätverkskostnader.",
+        "title": "Det här är din nuvarande plånbok"
+      },
+      "smartContract": {
+        "message": "Du är på väg att skicka pengar till en smart kontraktsadress. Se till att detta är rätt adress och att den kan ta emot tokens. Om inte, kan detta resultera i en permanent förlust av medel.",
+        "title": "Detta är en smart kontraktsadress"
+      },
+      "viewOnly": {
+        "message": "Du måste importera den här plånboken via återställningsfras för att skicka tillgångar.",
+        "title": "Denna plånbok är endast visningsbar"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Senaste"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Recension skicka"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Visa återställningsfras"
+      },
+      "action": {
+        "hide": "Dölj återställningsfras"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Jag förstår att Uniswap Labs inte kan hjälpa mig att återställa min plånbok om jag misslyckades med det.",
+          "title": "Jag sparade min återställningsfras"
+        },
+        "initial": {
+          "subtitle": "Se till att du har sparat din återställningsfras. Annars förlorar du tillgång till dina plånböcker",
+          "title": "Innan du fortsätter"
+        },
+        "password": {
+          "error": "Fel lösenord. Försök igen"
+        },
+        "subtitle": "Ange ditt lösenord för att bekräfta",
+        "title": "Du tar bort din återställningsfras"
+      },
+      "title": "Din återhämtningsfras",
+      "view": {
+        "warning": {
+          "message1": "Alla som kan din återställningsfras kan komma åt din plånbok och pengar",
+          "message2": "Se detta privat",
+          "message3": "Dela inte med någon",
+          "message4": "Ange det aldrig på några webbplatser eller applikationer",
+          "title": "Innan du fortsätter"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Alla som kan din återställningsfras kan komma åt din plånbok och pengar.",
+          "title": "Se detta på en privat plats"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Aktivera i Inställningar",
+      "feedback": "Skicka synpunkter",
+      "help": "Få hjälp",
+      "lock": "Lås plånbok",
+      "privacy": "Integritetspolicy",
+      "terms": "Användarvillkor"
+    },
+    "footer": "Tillverkad med kärlek, \nUniswap Team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Saldon under 1 USD kommer att döljas från din portfölj."
+    },
+    "maxSlippage": "Max. glidning",
+    "section": {
+      "about": "Handla om",
+      "preferences": "Inställningar",
+      "privacyAndSecurity": "Sekretess och säkerhet",
+      "support": "Stöd",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} andra plånböcker"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Bil",
+          "dark": {
+            "subtitle": "Använd alltid mörkt tema.",
+            "title": "Mörk"
+          },
+          "device": {
+            "subtitle": "Anpassar sig till din enhets inställningar.",
+            "title": "Bil"
+          },
+          "light": {
+            "subtitle": "Använd alltid lätta tema.",
+            "title": "Ljus"
+          }
+        },
+        "title": "Tema"
+      },
+      "backup": {
+        "create": {
+          "description": "Om du ställer in ett lösenord krypterar du säkerhetskopian av din återställningsfras, vilket ger en extra skyddsnivå om ditt {{cloudProviderName}} -konto någonsin äventyras.",
+          "title": "Säkerhetskopiera till {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Eftersom dessa plånböcker delar en återställningsfras kommer den också att ta bort säkerhetskopiorna för dessa plånböcker nedan",
+            "title": "Är du säker?"
+          },
+          "warning": "Om du tar bort din {{cloudProviderName}} säkerhetskopia kommer du bara att kunna återställa din plånbok med en manuell säkerhetskopia av din återställningsfras. Uniswap Labs kan inte återställa dina tillgångar om du tappar din återställningsfras."
+        },
+        "error": {
+          "message": {
+            "full": "Det går inte att säkerhetskopiera återställningsfrasen till {{cloudProviderName}}. Se till att du har {{cloudProviderName}} aktiverat med tillgängligt lagringsutrymme och försök igen.",
+            "short": "Det gick inte att ta bort säkerhetskopian"
+          },
+          "title": "{{cloudProviderName}} fel"
+        },
+        "modal": {
+          "description": "Du har inte säkerhetskopierat din återställningsfras till {{cloudProviderName}} än. Genom att göra det kan du återställa din plånbok bara genom att vara inloggad på {{cloudProviderName}} på vilken enhet som helst.",
+          "title": "Säkerhetskopiera återställningsfrasen till {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Lösenorden matchar inte"
+          },
+          "medium": "Detta är ett medelstort lösenord",
+          "placeholder": {
+            "confirm": "Bekräfta lösenord",
+            "create": "Skapa lösenord"
+          },
+          "strong": "Detta är ett starkt lösenord",
+          "weak": "Detta är ett svagt lösenord"
+        },
+        "recoveryPhrase": {
+          "label": "Återställningsfras"
+        },
+        "selected": "{{cloudProviderName}} backup",
+        "status": {
+          "action": {
+            "delete": "Ta bort säkerhetskopia"
+          },
+          "complete": "Säkerhetskopierat till {{cloudProviderName}}",
+          "description": "Genom att säkerhetskopiera din återställningsfras till {{cloudProviderName}}kan du återställa din plånbok bara genom att vara inloggad på ditt {{cloudProviderName}} -konto på vilken enhet som helst.",
+          "inProgress": "Säkerhetskopierar till {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Backade upp"
+          },
+          "title": "{{cloudProviderName}} backup"
+        }
+      },
+      "beta": {
+        "tooltip": "Kommer snart"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Kräv ansikte/fingeravtryck för att öppna appen.",
+            "ios": "Kräv {{biometricsMethod}} för att öppna appen."
+          },
+          "title": "Appåtkomst"
+        },
+        "auth": "Vänligen autentisera",
+        "off": {
+          "message": {
+            "android": "Biometri är för närvarande avstängd för Uniswap Wallet – du kan aktivera den i dina systeminställningar.",
+            "ios": "{{biometricsMethod}} är för närvarande avstängd för Uniswap Wallet—du kan aktivera den i dina systeminställningar."
+          },
+          "title": {
+            "android": "Biometrin är avstängd",
+            "ios": "{{biometricsMethod}} är avstängd"
+          }
+        },
+        "title": "Lås upp ansikte/fingeravtryck",
+        "transactions": {
+          "subtitle": {
+            "android": "Kräv ansikte/fingeravtryck för att handla.",
+            "ios": "Kräv {{biometricsMethod}} för att handla."
+          },
+          "title": "Transaktioner"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biometri är inte konfigurerat på din enhet. För att använda biometri, ställ in det först i Inställningar.",
+            "ios": "{{biometricsMethod}} är inte konfigurerat på din enhet. För att använda {{biometricsMethod}}, ställ in det först i Inställningar."
+          },
+          "title": {
+            "android": "Biometri är inte inställt",
+            "ios": "{{biometricsMethod}} är inte inställd"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Om du inte aktiverar biometri kan alla som får tillgång till din enhet öppna Uniswap Wallet och göra transaktioner.",
+            "ios": "Om du inte slår på {{biometricsMethod}}kan alla som får tillgång till din enhet öppna Uniswap Wallet och göra transaktioner."
+          },
+          "title": "Är du säker?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Koppla bort alla",
+        "noConnectionsDescription": "Anslut till en app genom att leta efter en \"Anslut plånbok\" eller \"Logga in\"-knapp."
+      },
+      "currency": {
+        "title": "Lokal valuta"
+      },
+      "hapticTouch": {
+        "title": "Haptisk beröring"
+      },
+      "helpCenter": {
+        "title": "Hjälpcenter"
+      },
+      "language": {
+        "button": {
+          "navigate": "Gå till Inställningar"
+        },
+        "description": {
+          "extension": "Uniswap standardinställningar för dina systemspråkinställningar. För att ändra ditt föredragna språk, gå till dina systeminställningar.",
+          "mobile": "Uniswap är standard för din enhets språkinställningar. För att ändra ditt föredragna språk, gå till \"Uniswap\" i dina enhetsinställningar och tryck på \"Språk\"."
+        },
+        "title": "Språk"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Överföringar, förfrågningar och annan aktivitet",
+            "title": "Plånboksaktivitet"
+          },
+          "priceAlerts": {
+            "description": "Stora prisförändringar för favoritpoletter",
+            "title": "Prisaviseringar"
+          },
+          "updates": {
+            "description": "Rekommendationer och nya funktioner",
+            "title": "Uppdateringar från Uniswap"
+          }
+        },
+        "title": "Aviseringar"
+      },
+      "password": {
+        "title": "ändra lösenord"
+      },
+      "permissions": {
+        "title": "Behörigheter"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Vi använder anonym användningsdata för att förbättra din upplevelse i Uniswap Labs produkter. När den är inaktiverad spårar vi bara fel och väsentlig användning.",
+          "title": "Appanalys"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Ange ditt lösenord"
+        },
+        "title": "Återställningsfras"
+      },
+      "smallBalances": {
+        "title": "Portföljbalans"
+      },
+      "unknownTokens": {
+        "subtitle": "Potentiella blufftokens kommer att döljas från din portfölj.",
+        "title": "Dölj okända tokens"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Redigera etikett",
+          "editProfile": "Redigera profil",
+          "remove": "Ta bort plånboken"
+        },
+        "connection": {
+          "banner": {
+            "description": "Hantera anslutningar via plånboksinställningar genom att klicka på din profilbild.",
+            "title": "Anslutningarna har flyttats"
+          }
+        },
+        "connections": {
+          "title": "Anslutningar"
+        },
+        "editLabel": {
+          "description": "Etiketter är inte offentliga. De lagras lokalt och endast synliga för dig.",
+          "save": "Spara ändringar"
+        },
+        "label": "Smeknamn",
+        "testnetMode": {
+          "description": "Detta aktiverar testnät för utvecklare att testa funktioner och transaktioner utan att använda riktiga tillgångar. Tokens på testnät har inget verkligt värde.",
+          "title": "Testnet-läge"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "För att använda Uniswap på {{label}}byter du nätverk i plånbokens inställningar."
+    },
+    "title": "inställningar",
+    "version": "Version {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Smarta plånböcker ger snabbare, billiga transaktioner med säkra smarta kontrakt.",
+      "info": "Plånböcker som redan använder smarta plånboksfunktioner från en annan app kommer inte att påverkas."
+    },
+    "enabledModal": {
+      "description": "Uppdateringar träder i kraft vid ditt nästa byte.",
+      "title": "Smart plånbok aktiverad"
+    },
+    "postSwapNudge": {
+      "description": "Smart plånbok ger snabbare, billiga transaktioner med säkra smarta kontrakt.",
+      "enable": "Aktivera smart plånbok",
+      "title": "Spara på ditt nästa byte"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Du har inte gjort transaktioner med den här adressen tidigare. Se till att det är rätt adress innan du fortsätter.",
+        "title": "Ny adress"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Du är på väg att skicka tokens till en speciell typ av adress - ett smart kontrakt. Dubbelkolla att det är adressen du tänkt skicka till. Om det är fel kan dina tokens gå förlorade för alltid.",
+        "title": "Är detta en plånboksadress?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24h avgifter",
+    "24volume": "24H volym",
+    "allTimeFees": "Alla tiders LP-avgifter",
+    "allTimeSwappers": "All time swappers",
+    "allTimeVolume": "Hela tidens volym",
+    "fdv": {
+      "description": "Fullt utspädd värdering (FDV) beräknar det totala marknadsvärdet förutsatt att alla tokens är i omlopp."
+    },
+    "marketCap": {
+      "description": "Börsvärde är det totala marknadsvärdet av en tillgångs cirkulerande utbud."
+    },
+    "tvl": {
+      "description": "Totalt värde låst (TVL) är det sammanlagda beloppet av tillgången som är tillgänglig för alla Uniswap-likviditetspooler."
+    },
+    "volume": {
+      "1d": {
+        "description": "1 dag volym är beloppet av tillgången som har handlats på Uniswap under de senaste 24 timmarna.",
+        "long": "1D volym",
+        "short": "1D vol"
+      },
+      "description": "Volym är summan av tillgången som har handlats på Uniswap under den valda tidsramen."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Tillåt {{sym}} (en gång)"
+    },
+    "approvalNeeded": "Ett godkännande krävs för att använda denna token. ",
+    "approvalPending": "Godkännande väntar",
+    "approveAndSubmit": "Godkänn och skicka in",
+    "approveAndSwap": "Godkänn och byt",
+    "approveInWallet": "Godkänn i din plånbok",
+    "balance": {
+      "amount": "Saldo: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Den mest effektiva vägen beräknas kosta ~{{gasPrice}} i nätverkskostnader. "
+    },
+    "bridging": {
+      "estimatedTime": "Uppskattad tid",
+      "title": "Byte mellan nätverk",
+      "warning": {
+        "description": "Du byter från {{fromNetwork}} till {{toNetwork}}. Detta är också känt som \"bridging\", som flyttar dina tokens från ett nätverk till ett annat."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Recension",
+      "submitting": {
+        "keep": {
+          "open": "Håll plånboken öppen..."
+        }
+      },
+      "swap": "Byta",
+      "swapAnyways": "Byt ändå",
+      "unwrap": "Packa upp",
+      "wrap": "Slå in"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Sök efter land eller region"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Ditt byte kan köras innan avbokningen behandlas. Dina nätverkskostnader kan inte återbetalas. Vill du fortsätta?",
+      "cannotExecute_other": "Dina byten kan köras innan avbokningen behandlas. Dina nätverkskostnader kan inte återbetalas. Vill du fortsätta?"
+    },
+    "confirmLimit": "Bekräfta gränsen",
+    "confirmSwap": "Bekräfta bytet",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. tidsfrist"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Token avgift"
+      },
+      "newQuote": {
+        "input": "Ny ingång",
+        "output": "Ny utgång"
+      },
+      "orderRouting": "Beställningsdirigering",
+      "orderRoutingInfo": "Denna swap dirigeras via Across, ett decentraliserat protokoll som flyttar tillgångar över nätverk samtidigt som säkerhet, snabb utförande och låga priser prioriteras.",
+      "poweredBy": "Drivs av",
+      "rate": "Betygsätta",
+      "slippage": "Max glidning",
+      "uniswapFee": "Avgift"
+    },
+    "error": {
+      "default": "Du kan behöva öka din glidtolerans. Notera: avgifts-vid-överföring och rebase-tokens är inkompatibla med Uniswap V3.",
+      "expectedToFail": "Ditt byte förväntas misslyckas.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} ingång inte tillgänglig",
+      "modifiedByWallet": "Ditt byte har ändrats via din plånbok. Om detta var ett misstag, vänligen avbryt omedelbart eller riskera att förlora dina pengar.",
+      "rejected": "Transaktionen avvisad",
+      "undefinedObject": "Ett fel uppstod när du försökte utföra detta byte. Du kan behöva öka din glidtolerans. Om det inte fungerar kan det finnas en inkompatibilitet med token du handlar. Notera: avgifts-vid-överföring och rebase-tokens är inkompatibla med Uniswap V3.",
+      "unknown": "Okänt fel.",
+      "v2": {
+        "expired": "Den här transaktionen kunde inte skickas eftersom tidsfristen har passerat. Kontrollera att din transaktionstid inte är för låg.",
+        "k": "Uniswap-invarianten x*y=k uppfylldes inte av bytet. Detta innebär vanligtvis att en av tokens du byter innehåller anpassat beteende vid överföring.",
+        "slippage": "Denna transaktion kommer inte att lyckas antingen på grund av prisrörelse eller avgift vid överföring. Försök att öka din glidtolerans",
+        "transferInput": "Inmatningstoken kan inte överföras. Det kan vara ett problem med inmatningstoken.",
+        "transferOutput": "Utdatatoken kan inte överföras. Det kan vara ett problem med utdatatoken."
+      },
+      "v3": {
+        "slippage": "Denna transaktion kommer inte att lyckas på grund av prisrörelser. Försök att öka din glidtolerans. Obs: avgift på överföring och rebase-tokens är inkompatibla med Uniswap V3.",
+        "transferOutput": "Utdatatoken kan inte överföras. Det kan vara ett problem med utdatatoken. Obs: avgift på överföring och rebase-tokens är inkompatibla med Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Det kommer att vara en stor skillnad mellan dina in- och utdatavärden på grund av nuvarande likviditet."
+    },
+    "fail": {
+      "message": "Prova att justera glidningen till ett högre värde.",
+      "uniswapX": "Byte kunde inte slutföras med UniswapX. Prova ditt byte igen för att dirigera det genom det klassiska Uniswap API."
+    },
+    "fees": {
+      "experience": "Denna avgift tillämpas på vissa tokenpar för att säkerställa den bästa upplevelsen med Uniswap. Den betalas i output-token och har redan inkluderats i offerten.",
+      "noFee": "Avgifter tillkommer på utvalda tokenpar för att säkerställa den bästa upplevelsen med Uniswap. Det tillkommer ingen avgift för detta byte."
+    },
+    "fetchingBestPrice": "Får bästa pris...",
+    "fetchingPrice": "Hämtar pris...",
+    "finalizingQuote": "Avslutar offert...",
+    "form": {
+      "header": "Byta",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "På grund av tokenavgifter kan swapbelopp endast anges med inmatningsfältet"
+          }
+        },
+        "restore": "Återställ din plånbok för att byta"
+      }
+    },
+    "frontrun": {
+      "warning": "Din transaktion kan vara frontrun och resultera i en ogynnsam handel."
+    },
+    "header": {
+      "viewOnly": "Titta enbart"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Priseffektberäkningar kan vara otillgängliga för par med låg likviditet."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Ingången är uppskattad. Du kommer att sälja högst <amount /> eller så återgår transaktionen."
+    },
+    "limit": "Begränsa",
+    "limitedAssets": {
+      "warning": "Vissa tillgångar är inte tillgängliga via detta gränssnitt eftersom de kanske inte fungerar bra med de smarta kontrakten eller att vi inte kan tillåta handel av juridiska skäl."
+    },
+    "limitFilled": "Gränsen fylld!",
+    "limitSubmitted": "Gräns inlämnad",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Marknadspriset ligger utanför ditt angivna prisintervall. Endast insättning av en enskild tillgång."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Det maximala beloppet du garanterat kommer att spendera. Om priset sjunker ytterligare kommer din transaktion att återgå."
+    },
+    "minPriceSlip": {
+      "revert": "Om priset rör sig så att du får mindre än {{amount}}kommer din transaktion att återgå."
+    },
+    "networkCost": {
+      "paidIn": "Nätverkskostnaden betalas i {{sym}} på {{chainName}} -nätverket för att handla."
+    },
+    "orderRouting": "Beställningsdirigering",
+    "outputEstimated": {
+      "atLeast": "Utgången är uppskattad. Du kommer att få minst <amount /> eller så återgår transaktionen."
+    },
+    "payAnyway": "Betala ändå",
+    "payAtMost": "Betala högst",
+    "payWith": "Betala med",
+    "placeOrder": "Beställa",
+    "priceImpact": "Prispåverkan",
+    "receive": {
+      "atLeast": "Ta emot åtminstone"
+    },
+    "request": {
+      "title": {
+        "full": "Byt {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Byt ut tokens"
+      }
+    },
+    "review": {
+      "summary": "Du byter"
+    },
+    "reviewLimit": "Granskningsgräns",
+    "route": {
+      "optimizedGasCost": "Den här rutten tar hänsyn till delade rutter, flera hopp och nätverkskostnader för varje steg."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Din transaktion kommer att återställas om den väntar längre än denna tidsperiod. (Max: 3 dagar).",
+        "warning": "Hög deadline"
+      },
+      "protection": {
+        "description": "Med swap-skydd på kommer dina Ethereum-transaktioner att skyddas från sandwichattacker, med minskade chanser att misslyckas.",
+        "subtitle": {
+          "supported": "{{chainName}} Nätverk",
+          "unavailable": "Ej tillgängligt på {{chainName}}"
+        },
+        "title": "Bytesskydd"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap-klienten väljer det billigaste handelsalternativet med hänsyn till pris och nätverkskostnader."
+            },
+            "tooltip": "En rutt identifieras med hänsyn till v2, v3 och vissa v4-pooler, med beaktande av uppskattad prispåverkan och nätverkskostnader."
+          },
+          "v2": {
+            "title": "v2 pooler"
+          },
+          "v3": {
+            "title": "v3 pooler"
+          },
+          "v4": {
+            "title": "v4 pooler"
+          }
+        },
+        "title": "Handel med alternativ"
+      },
+      "slippage": {
+        "alert": "Hög glidning",
+        "control": {
+          "auto": "Bil"
+        },
+        "description": "Din transaktion kommer att återgå om priset ändras mer än glidningsprocenten.",
+        "input": {
+          "message": "Om priset sjunker ytterligare kommer din transaktion att återgå. Nedan är det lägsta belopp som du garanterat får.",
+          "receive": {
+            "title": "Ta emot åtminstone"
+          }
+        },
+        "output": {
+          "message": "Om priset sjunker ytterligare kommer din transaktion att återgå. Nedan är det maximala belopp du skulle behöva spendera.",
+          "spend": {
+            "title": "Spendera högst"
+          }
+        },
+        "warning": {
+          "description": "En glidning över 20 % kommer sannolikt att resultera i en ogynnsam handel. Sänk dina inställningar för att minska risken för att vara i framkant.",
+          "hover": "Detta kan resultera i en ogynnsam handel. Prova att sänka din glidningsinställning.",
+          "max": "Ange ett värde som är mindre än {{maxSlippageTolerance}}",
+          "message": "Slirningen kan vara högre än nödvändigt",
+          "min": "Ange ett värde som är större än 0"
+        }
+      },
+      "title": "Byt inställningar",
+      "transactionRevertPrice": "Din transaktion kommer att återgå om priset ändras ogynnsamt med mer än denna procentsats."
+    },
+    "signAndSwap": "Signera och byt",
+    "slippage": {
+      "amt": "{{amt}} glidning",
+      "bridging": "Ingen glidning när du byter över nätverk",
+      "settings": {
+        "title": "Slipage-inställningar"
+      },
+      "tooltip": "Den maximala prisrörelsen före din transaktion kommer att återgå."
+    },
+    "slippageBelow": {
+      "warning": "En glidning under {{amt}} kan resultera i en misslyckad transaktion"
+    },
+    "submitted": "Byte har skickats",
+    "success": "Byt framgång!",
+    "tokenOwnFees": "Vissa tokens tar en avgift när de köps eller säljs, vilket bestäms av tokenutgivaren. Uniswap tar inte emot några av dessa avgifter.",
+    "total": "Total",
+    "tradeRoutes": "Handelsvägar",
+    "transaction": {
+      "deadline": "Transaktionens deadline",
+      "revertAfter": "Din transaktion kommer att återställas om den väntar längre än denna tidsperiod."
+    },
+    "unsupportedAssets": {
+      "readMore": "Läs mer om tillgångar som inte stöds"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Ange ett större belopp"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Försök att öka din glidning.",
+        "titleMay": "Detta byte kan misslyckas"
+      },
+      "insufficientBalance": {
+        "title": "Du har inte tillräckligt med {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Byt mot {{ tokenSymbol }} på {{networkName}}",
+          "buy": "Köp {{ tokenSymbol }}",
+          "buyWithCard": "Köp med kort"
+        },
+        "message": {
+          "withNetwork": "Inte tillräckligt med <highlight>{{currencySymbol}} på {{networkName}}</highlight> för att byta",
+          "withoutNetwork": "Inte tillräckligt med <highlight>{{currencySymbol}}</highlight> för att byta"
+        },
+        "title": "Du har inte tillräckligt med {{currencySymbol}} för att täcka nätverkskostnaden"
+      },
+      "networkFee": {
+        "allow": "Tillåt {{ inputTokenSymbol }} (en gång)",
+        "highRelativeToValue": {
+          "unichain": "Nätverkskostnaden överstiger 10 % av ditt totala transaktionsvärde. Detta är kostnaden för att bearbeta din transaktion på blockchain."
+        },
+        "message": {
+          "unichain": "Detta är kostnaden för att bearbeta din transaktion på blockchain.",
+          "uniswapX": {
+            "unichain": "Detta är kostnaden för att bearbeta din transaktion på blockchain. <gradient>UniswapX</gradient> samlar likviditetskällor för bättre priser och gasfria swappar."
+          }
+        },
+        "wrap": "Linda ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Inga överbryggande offerter hittades. Försök att använda den officiella bryggan just nu."
+        },
+        "title": "Inga citat hittades"
+      },
+      "noRoutesFound": {
+        "message": "Det finns för närvarande inga rutter tillgängliga för dina valda tokens. Försök med ett annat par eller kolla igen senare.",
+        "title": "Inga rutter tillgängliga"
+      },
+      "offline": {
+        "message": "Du kan ha tappat internetanslutningen eller så kan nätverket vara nere. Kontrollera din internetanslutning och försök igen.",
+        "title": "Du är offline"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Denna transaktion kommer att resultera i en {{priceImpactValue}} prispåverkan på marknadspriset för denna pool och kommer att resultera i en förlust av medel."
+        },
+        "title": {
+          "veryHigh": "Mycket hög prispåverkan ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Din transaktion skickades inte eftersom du stängde appen.",
+        "approvalFailed": "Din transaktion skickades inte eftersom tokengodkännande misslyckades.",
+        "stale": "Din transaktion skickades inte eftersom du stängde appen eller att godkännandet tog för lång tid.",
+        "submissionFailed": "Det uppstod ett problem när din transaktion skulle skickas.",
+        "title": "Bytet avbröts",
+        "wrap": {
+          "message": "Din ETH kommer att förbli inlindad som WETH."
+        },
+        "wrapFailed": "Din transaktion skickades inte eftersom omslutningstransaktionen misslyckades."
+      },
+      "rateLimit": {
+        "message": "Försök igen om några minuter.",
+        "title": "Prisgränsen har överskridits"
+      },
+      "router": {
+        "message": "Du kan ha tappat anslutningen eller så kan nätverket vara nere. Om problemet kvarstår, försök igen senare.",
+        "title": "Denna handel kan inte slutföras just nu"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} är blockerad"
+      },
+      "tokenBlockedFallback": {
+        "button": "Token är blockerad"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Avgifter tillkommer för att säkerställa den bästa upplevelsen med Uniswap. Det tillkommer ingen avgift för detta byte.",
+          "included": "Avgifter tillkommer för att säkerställa den bästa upplevelsen med Uniswap och har redan tagits med i denna offert."
+        },
+        "title": "Bytesavgift"
+      },
+      "viewOnly": {
+        "message": "Du måste importera den här plånboken via återställningsfras för att byta tokens."
+      }
+    },
+    "wrap": {
+      "token": "Wrap {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "På andra nätverk",
+      "otherNetworksBalance": "Balans på andra nätverk",
+      "title": "Din balans"
+    },
+    "button": {
+      "getToken": "Få {{ tokenSymbol }}",
+      "getTokenFallback": "Skaffa token"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Växla till {{network}}",
+      "title": "Denna token finns inte",
+      "titleWithChain": "Denna token finns inte på {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "tokendata för <tokenLink />",
+        "withChain": "tokendata för <tokenLink /> på {{chainName}}"
+      }
+    },
+    "nameNotFound": "Namnet hittades inte",
+    "noInfoAvailable": "Ingen tokeninformation tillgänglig",
+    "noTestnetSupportDescription": "Vissa testnät stöder inte att byta, skicka eller köpa tokens.",
+    "stats": {
+      "unsupportedChainDescription": "Tokenstatistik och diagram för {{chain}} finns på {{infoLink}}"
+    },
+    "symbolNotFound": "Symbolen hittades inte"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Den här åtgärden kräver att testnätläget är inaktiverat. Testnet-läget kan återaktiveras när som helst inom inställningarna.",
+          "toTestnetMode": "Denna åtgärd kräver att testnätläget är aktiverat. Tokens på testnät har inget verkligt värde. Testnet-läget kan inaktiveras när som helst inom inställningarna."
+        },
+        "title": {
+          "toProdMode": "Inaktivera testnätläge",
+          "toTestnetMode": "Aktivera testnätläge"
+        }
+      }
+    },
+    "unsupported": "Den här funktionen stöds inte i testnätläge."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Köp, sälj och byt Ethereum och andra topptokens på Uniswap",
+    "createGovernanceOn": "Skapa ett nytt styrningsförslag på Uniswap",
+    "createGovernanceTo": "Skapa ett nytt styrningsförslag som UNI-innehavarna ska rösta om. UNI-tokens representerar röstandelar i Uniswaps styrning.",
+    "earnFees": "Tjäna avgifter när andra byter på Uniswap genom att lägga till tokens till likviditetspooler.",
+    "easilyRemove": "Ta enkelt bort din likviditet från Uniswap v2 och sätt in i Uniswap v3.",
+    "easilyRemoveV4": "Ta enkelt bort din likviditet från Uniswap v2 och v3 för att sätta in i Uniswap v4.",
+    "explore": "Utforska NFTs på Uniswap",
+    "extensionPasskeySignIn": "Logga in med lösenord",
+    "manageNFT": "Hantera din NFT-samling. Se egenskaper, handelsaktivitet, beskrivningar och annan information om dina NFT:er.",
+    "migratev2": "Migrera v2-poollikviditet till Uniswap v3",
+    "migratev3": "Migrera poollikviditet till Uniswap v4",
+    "placeLimit": "Lägg limiterade beställningar på Uniswap",
+    "realTime": "Realtidspriser, diagram, transaktionsdata och mer.",
+    "removeLiquidityv2": "Ta bort poollikviditet (v2) på Uniswap",
+    "removePoolLiquidity": "Ta bort poollikviditet på Uniswap",
+    "removeTokensv2": "Ta bort dina tokens från v2 likviditetspooler.",
+    "removev3Liquidity": "Ta bort dina tokens från v3 likviditetspooler.",
+    "sendTokens": "Skicka tokens på Uniswap",
+    "swappingMadeSimple": "Enkelt att byta. Köp och sälj krypto på Ethereum, Base, Arbitrum, Polygon och mer. Betrodd av miljoner.",
+    "tradeTokens": "Handla tokens och ge likviditet. Realtidspriser, diagram, transaktionsdata och mer.",
+    "uniswapTradeCrypto": "Uniswap | Handla krypto och NFT säkert på den översta DeFi-plattformen",
+    "uniToken": "UNI-tokens representerar röstberättigade andelar i Uniswaps styrning. Du kan själv rösta på varje förslag eller delegera dina röster till en tredje part.",
+    "voteOnGov": "Rösta om styrningsförslag på Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Din balans",
+      "other": "Saldon på andra nätverk",
+      "viewOnly": "{{ownerAddress}}s saldo"
+    },
+    "bridge": "{{label}} symbolbro",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Ljusstakediagram är inte tillgängliga för denna token"
+      },
+      "tooltip": "Avgifter: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Tokendetaljer är inte tillgängliga för testnet-tokens."
+      }
+    },
+    "error": {
+      "unknown": "Okänd token"
+    },
+    "fee": {
+      "buy": {
+        "label": "köpavgift"
+      },
+      "label": "avgift",
+      "sell": {
+        "label": "säljavgift"
+      }
+    },
+    "links": {
+      "title": "Länkar",
+      "twitter": "Kvittra",
+      "website": "Hemsida"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Något gick fel.",
+        "title": "Det gick inte att ladda prisdiagrammet"
+      },
+      "timeRangeLabel": {
+        "all": "Hela tiden",
+        "day": {
+          "verbose": "1 dag"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 månad"
+        },
+        "week": {
+          "verbose": "1 vecka"
+        },
+        "year": {
+          "verbose": "1 år"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} är inte tillgänglig",
+          "tokensNotAvailable": "{{tokenSymbol0}} och {{tokenSymbol1}} är inte tillgängliga"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs tar inte emot några av dessa avgifter."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Gör alltid din research",
+        "blocked": {
+          "description": {
+            "default_one": "Du kan inte byta denna token med Uniswap-appen.",
+            "default_other": "Du kan inte byta dessa tokens med Uniswap-appen."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Detta är en kontraktsadress, som fungerar som en unik identifierare för tokens på blockkedjan. Allt krypto du skickar till den här adressen kommer att gå förlorat.",
+          "title": "Skicka inte krypto till den här adressen"
+        },
+        "dontShowWarningAgain": "Visa mig inte denna varning igen",
+        "doYourOwnResearch": "Gör alltid din egen forskning innan du fortsätter.",
+        "feeDescription": "Laddar en <fee /> när {{action}}",
+        "flaggedAsMalicious": "Flaggat som skadligt",
+        "fotHigh": {
+          "title": "Hög avgift upptäckt"
+        },
+        "fotLow": {
+          "title": "Avgift upptäckt"
+        },
+        "fotVeryHigh": {
+          "title": "Mycket hög avgift upptäckt"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} har flaggats som osäljbar. Att byta denna token kan resultera i att dina pengar går förlorade.",
+          "title": "100 % försäljningsavgift upptäckt"
+        },
+        "impersonator": {
+          "title": "Imitatortoken har upptäckts"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} har flaggats som skadlig av Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} kanske inte är den token du vill byta."
+            }
+          },
+          "title": "Skadlig token har upptäckts"
+        },
+        "mayResultInLoss": "Att byta det kan resultera i förlust av pengar.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} handlas inte på ledande amerikanska centraliserade börser."
+          }
+        },
+        "notListedOnExchanges": "Ej noterat på ledande amerikanska börser",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} har flaggats som misstänkt av Blockaid."
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} har flaggats som en potentiell honungskruka av Blockaid. Gör alltid din egen forskning innan du fortsätter."
+          },
+          "title": "Potentiell honungskruka upptäckt"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} har flaggats som osäljbar.",
+          "title": "100 % försäljningsavgift upptäckt"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} har flaggats som spam av Blockaid.",
+          "title": "Spam-token har upptäckts"
+        },
+        "spamsUsers": "Spam användare",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} tar ut en {{buyFeePercent}} avgift vid köp och {{sellFeePercent}} vid försäljning."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} tar ut en {{feePercent}} avgift vid köp."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} tar ut en {{feePercent}} avgift vid försäljning."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} tar ut en avgift vid köp eller försäljning."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Du kan inte byta denna token med Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Dessa tokens handlas inte på ledande amerikanska centraliserade börser. Gör alltid din egen forskning innan du fortsätter."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Det gick inte att läsa in sökresultat"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Fullt utspädd värdering",
+      "marketCap": "Börsvärde",
+      "priceHighYear": "52W hög",
+      "priceLowYear": "52W låg",
+      "section": {
+        "about": "Om {{token}}"
+      },
+      "title": "Statistik",
+      "translation": {
+        "original": "Visa original",
+        "translate": "Översätt till {{language}}"
+      },
+      "volume": "24h volym"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Inmatningstoken"
+      },
+      "output": {
+        "fallback": "Utdatatoken"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Byten på Uniswap-protokollet kan börja och sluta med ETH. Men under bytet lindas ETH in i WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "För att få {{ tokenSymbol }}behöver du {{ nativeTokenSymbol }} för att täcka nätverkskostnader.",
+      "title": "Du behöver {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Dölj token",
+      "unhide": "Visa token"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Visa på {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Det gick inte att ladda NFT-samlingen"
+          }
+        },
+        "label": {
+          "items": "Föremål",
+          "owners": "Ägare",
+          "priceFloor": "Golv",
+          "swapVolume": "Volym"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Avtalsadress"
+        },
+        "error": {
+          "load": {
+            "title": "Det gick inte att läsa in NFT-detaljer"
+          }
+        },
+        "network": "Nätverk",
+        "owner": "Ägd av",
+        "price": "Nuvarande pris",
+        "recentPrice": "Sista försäljningspriset",
+        "traits": "Egenskaper"
+      },
+      "empty": {
+        "description": "Inga NFT:er hittades"
+      },
+      "error": {
+        "unavailable": "Innehåll inte tillgängligt"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Dölj NFT",
+          "unhide": "Visa NFT"
+        }
+      },
+      "link": {
+        "collection": "Samlingswebbplats"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Det gick inte att ladda NFT:er"
+          }
+        },
+        "none": {
+          "button": "Ta emot NFT",
+          "description": {
+            "default": "Överför NFT:er från en annan plånbok för att komma igång.",
+            "external": "När den här plånboken köper eller tar emot NFT:er visas de här."
+          },
+          "title": "Inga NFT än"
+        }
+      }
+    },
+    "noneFound": "Inga tokens hittades.",
+    "selector": {
+      "button": {
+        "choose": "Välj token",
+        "clear": "Rensa alla"
+      },
+      "empty": {
+        "buy": {
+          "message": "Köp krypto med ett kort eller bank för att skicka tokens.",
+          "title": "Köp krypto"
+        },
+        "receive": {
+          "title": "Ta emot tokens"
+        },
+        "title": "Inga tokens ännu"
+      },
+      "error": {
+        "load": "Det gick inte att ladda tokens"
+      },
+      "search": {
+        "empty": "Inga resultat hittades för <highlight>{{searchText}}</highlight>",
+        "placeholder": "Sök tokens"
+      },
+      "section": {
+        "bridging": "Byt mellan nätverk",
+        "favorite": "Favoriter",
+        "otherNetworksSearchResults": "Tokens hittade på andra nätverk",
+        "otherSearchResults": "Andra tokens på {{network}}",
+        "recent": "Senaste sökningar",
+        "search": "Sökresultat",
+        "trending": "Tokens med 24H volym",
+        "yours": "Dina tokens"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Sök pooler",
+          "tokens": "Sök tokens",
+          "transactions": "Sök transaktioner"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Avbryt transaktionen",
+        "description": "Om du avbryter den här transaktionen innan den har behandlats av nätverket, betalar du en ny nätverkskostnad istället för den ursprungliga.",
+        "title": "Vill du avbryta den här transaktionen?"
+      },
+      "copy": "Kopiera transaktions-ID",
+      "copyProvider": "Kopiera {{providerName}} transaktions-ID"
+    },
+    "amount": {
+      "unlimited": "Obegränsat"
+    },
+    "date": "Skickat den {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Från",
+      "networkFee": "Nätverkskostnad",
+      "providerFee": "Leverantörsavgift",
+      "swapRate": "Betygsätta",
+      "transaction": "Transaktion",
+      "uniswapFee": "Avgift ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Otillräcklig poollikviditet för att slutföra transaktionen",
+    "network": {
+      "all": "Alla nätverk"
+    },
+    "networkCost": {
+      "label": "Nätverkskostnad",
+      "maxNativeBalance": {
+        "description": "En liten del av nätverkstokens saldo är reserverad för att täcka nätverkskostnaden för denna transaktion.",
+        "title": "Varför kan jag inte använda mitt maxsaldo?"
+      },
+      "veryHigh": {
+        "label": "Mycket hög nätkostnad"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Det gick inte att avbryta transaktionen",
+        "replace": "Det går inte att ersätta transaktionen"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Avbröt godkännande",
+        "canceling": "Avbryter godkännande",
+        "failed": "Det gick inte att godkänna",
+        "pending": "Godkännande",
+        "success": "Godkänd",
+        "successDapp": "Godkänd den {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Avbrutet köp",
+        "canceling": "Avbryter köp",
+        "failed": "Det gick inte att köpa",
+        "pending": "Uppköp",
+        "success": "Köpt",
+        "successDapp": "Köpt på {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Avbruten bekräfta",
+        "canceling": "Väntar på avbokning",
+        "failed": "Det gick inte att bekräfta",
+        "pending": "Transaktion pågår",
+        "success": "Transaktionen bekräftad",
+        "successDapp": "Transaktionen bekräftad den {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Inställd mint",
+        "canceling": "Avbryter mint",
+        "failed": "Det gick inte att prägla",
+        "pending": "Myntning",
+        "success": "Präglat",
+        "successDapp": "Präglade den {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Annullerat köp",
+        "canceling": "Avbryter köp",
+        "failedOn": "Det gick inte att köpa på {{serviceProvider}}",
+        "pendingOn": "Köper på {{serviceProvider}}",
+        "successOn": "Köpt på {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Avbruten mottagning",
+        "canceling": "Avbryter mottagning",
+        "failedFrom": "Det gick inte att ta emot från {{serviceProvider}}",
+        "pendingFrom": "Tar emot från {{serviceProvider}}",
+        "success": "Mottagen",
+        "successDapp": "Mottaget den {{externalDappName}}",
+        "successFrom": "Mottaget från {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Avbruten återkallelse",
+        "canceling": "Avbryter återkalla",
+        "failed": "Det gick inte att återkalla",
+        "pending": "Återkallar",
+        "success": "Återkallad",
+        "successDapp": "Återkallades den {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Inställd försäljning",
+        "canceling": "Avbryter försäljning",
+        "failedOn": "Försäljningen misslyckades via {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Läs mer om att sälja krypto.",
+          "title": "Varför pågår min försäljning fortfarande?"
+        },
+        "pendingOn": "Säljer via {{serviceProvider}}",
+        "successOn": "Säljes via {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Avbruten försäljning",
+        "canceling": "Avbryter försäljning",
+        "failed": "Det gick inte att sälja",
+        "pending": "Försäljning",
+        "success": "Såld",
+        "successDapp": "Såld på {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Avbruten sändning",
+        "canceling": "Avbryter sändningen",
+        "failed": "Misslyckades att skicka",
+        "pending": "Sändning",
+        "success": "Skickat",
+        "successDapp": "Skickat den {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Avbrutet byte",
+        "canceling": "Avbryter byte",
+        "expired": "Bytet har löpt ut",
+        "failed": "Det gick inte att byta",
+        "insufficientFunds": "Otillräckliga medel",
+        "pending": "Byte",
+        "success": "Bytt",
+        "successDapp": "Byttes på {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Avbröt uppackningen",
+        "canceling": "Avbryter uppackning",
+        "failed": "Det gick inte att packa upp",
+        "pending": "Packar upp",
+        "success": "Oinpackad",
+        "successDapp": "Oinpackad på {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Avbruten inpackning",
+        "canceling": "Avbryter omslag",
+        "failed": "Det gick inte att linda",
+        "pending": "Omslag",
+        "success": "Inslagna",
+        "successDapp": "Inslagen på {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} till {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} från {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Du behöver ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) på {{networkName}} för att täcka denna transaktions nätverkskostnad."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "För att byta mot denna token behöver du mer {{tokenSymbol}} på {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "Inte tillräckligt {{tokenSymbol}} på {{networkName}}",
+            "withoutNetwork": "Inte tillräckligt {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Du är på väg att spendera det mesta av ditt nätverkstokensaldo. Detta kan lämna otillräckliga medel för att täcka framtida nätverkskostnader.",
+        "title": "Lågt saldo för nätverkstoken"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Det gick inte att avbryta transaktionen",
+        "status": "Fel vid kontroll av transaktionsstatus"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> samlar likviditetskällor för bättre priser och gasfria swappar.",
+    "learnMore": "Läs mer om att byta med UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX samlar likviditetskällor för bättre priser och gasfria swappar.",
+    "included": "Inkluderar <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 hård offert misslyckades. Försök igen med klassiskt byte."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Gör anspråk nu"
+      },
+      "subtitle": "Bygg en personlig web3-profil och dela enkelt din adress med vänner.",
+      "title": {
+        "compact": "<highlight>Gör anspråk på ditt {{unitagDomain}} användarnamn</highlight> och bygg ut din anpassningsbara profil.",
+        "full": "Gör anspråk på ditt {{unitagDomain}} användarnamn"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Välj från kamerarulle",
+        "computer": "Ladda upp från datorn",
+        "nft": "Välj en NFT",
+        "remove": "Ta bort profilbild"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Anpassa profilen",
+        "description": "{{unitagAddress}} är redo att skicka och ta emot krypto. Fortsätt att bygga ut din plånbok genom att anpassa din web3-profil.",
+        "success": {
+          "long": "Du har det!",
+          "short": "jag fattar!"
+        }
+      },
+      "error": {
+        "addressLimit": "Du har redan gjort det maximala antalet ändringar av ditt användarnamn för den här adressen",
+        "avatar": "Det gick inte att ställa in avatar. Försök igen senare.",
+        "default": "Kunde inte göra anspråk på användarnamn. Försök igen senare.",
+        "deviceLimit": "Du har nått det maximala antalet användarnamn som kan vara aktiva för den här enheten",
+        "general": "Det går inte att göra anspråk på användarnamn",
+        "unavailable": "Detta användarnamn är inte tillgängligt",
+        "unknown": "Okänt fel"
+      },
+      "username": {
+        "default": "ditt namn"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Du är på väg att radera ditt användarnamn och anpassningsbara profildetaljer. Du kommer inte att kunna ta tillbaka den.",
+        "title": "Är du säker?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "användarnamn"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Du håller på att ändra ditt användarnamn. När du har ändrat det kan du aldrig göra anspråk på det igen.",
+        "title": "Är du säker?"
+      },
+      "title": "Redigera ditt användarnamn",
+      "warning": {
+        "default": "När du har ändrat ditt användarnamn kan du aldrig göra anspråk på det igen. Du kan bara ändra <highlight>2</highlight> gånger.",
+        "max": "Du har nått det maximala antalet ändringar av 2 användarnamn."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Gör anspråk på ett användarnamn",
+        "description": "Säg adjö till 0x-adresser. Användarnamn är läsbara namn som gör det lättare att skicka och ta emot krypto.",
+        "title": "Introducerar användarnamn",
+        "upsell": {
+          "customizable": "Anpassningsbara profiler",
+          "ens": "Drivs av ENS underdomäner",
+          "free": "Fritt att göra anspråk på"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Drivs av ENS underdomäner",
+        "free": "Fritt att göra anspråk på",
+        "profile": "Anpassningsbara profiler"
+      },
+      "subtitle": "Säg adjö till 0x-adresser. Användarnamn är läsbara namn som gör det lättare att skicka och ta emot krypto.",
+      "title": "Introducerar användarnamn"
+    },
+    "notification": {
+      "delete": {
+        "error": "Kunde inte ta bort användarnamn. Försök igen senare.",
+        "title": "Användarnamn raderat"
+      },
+      "profile": {
+        "error": "Kunde inte uppdatera profilen. Försök igen senare.",
+        "title": "Profil uppdaterad"
+      },
+      "username": {
+        "error": "Kunde inte ändra användarnamn. Försök igen senare.",
+        "title": "Användarnamn ändrat"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Det här är din personliga adress som folk kan skicka krypto till.",
+        "title": {
+          "choose": "Skapa ditt användarnamn",
+          "claim": "Gör anspråk på ditt användarnamn"
+        }
+      },
+      "info": {
+        "description": "Användarnamn omvandlar komplexa 0x-adresser till läsbara namn. Genom att göra anspråk på ett {{unitagDomain}} användarnamn kan du enkelt skicka och ta emot krypto och bygga ut en offentlig web3-profil.",
+        "title": "En förenklad adress"
+      },
+      "profile": {
+        "subtitle": "Ladda upp din egen eller håll dig till din unika Unicon. Du kan alltid ändra detta senare.",
+        "title": "Välj ett profilfoto"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Ta bort användarnamn",
+        "edit": "Redigera användarnamn"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Skriv en bio för din profil"
+      },
+      "links": {
+        "twitter": "Kvittra"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Användarnamn får bara innehålla bokstäver och siffror",
+        "max": "Användarnamn får inte vara mer än {{number}} tecken",
+        "min": "Användarnamn måste bestå av minst {{number}} tecken",
+        "uppercase": "Användarnamn får bara innehålla gemener och siffror"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Inte tillräckligt {{tokenSymbol}} på {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 är inte tillgängligt på detta nätverk."
+  },
+  "wallet": {
+    "appSignIn": "Logga in med appen",
+    "connectingAgreement": "Genom att ansluta en plånbok godkänner du Uniswap Labs <termsLink>Användarvillkor</termsLink> och samtycker till dess <privacyLink>Sekretesspolicy</privacyLink>.",
+    "connectionFailed": {
+      "message": "Anslutningsförsöket misslyckades. Klicka på försök igen och följ stegen för att ansluta i din plånbok."
+    },
+    "other": "Andra plånböcker",
+    "scanToConnect": "Skanna QR-koden för att ansluta",
+    "wrongNet": "Din plånbok är ansluten till fel nätverk."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Anslut till en app genom att skanna en kod via WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Inga appar anslutna"
+        },
+        "title": "Anslutningar"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet stöder för närvarande {{chainNames}}. Använd endast \"{{dappName}}\" på dessa kedjor",
+        "title": "Anslutningsfel"
+      },
+      "general": {
+        "message": "Det uppstod ett problem med WalletConnect. Var god försök igen",
+        "title": "WalletConnect-fel"
+      },
+      "scantastic": {
+        "message": "Det uppstod ett problem med din QR-kod. Var god försök igen",
+        "title": "Ogiltig QR-kod"
+      },
+      "unsupported": {
+        "message": "Se till att du skannar en giltig WalletConnect-, Ethereum-adress eller Uniswap Extension QR-kod innan du försöker igen.",
+        "title": "Ogiltig QR-kod"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 stöds inte längre. Appen du försöker ansluta till måste uppgraderas till WalletConnect v2.",
+        "title": "Ogiltig QR-kod"
+      },
+      "uwu": {
+        "scan": "Det uppstod ett problem med att skanna den här QR-koden.",
+        "title": "UwU länkfel",
+        "unsupported": "Denna QR-kod stöds inte."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Ansluta",
+        "scrollDown": "Rulla ned för att ansluta"
+      },
+      "switchAccount": "Byt konto",
+      "title": "Anslut till {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Överför dina tillgångar utan samtycke",
+        "viewTokenBalances": "Se dina tokensaldon",
+        "viewWalletAddress": "Visa din plånboksadress"
+      },
+      "title": "Webbplatsbehörigheter"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Scrolla ner för att signera",
+        "sign": "Skylt"
+      },
+      "details": {
+        "label": {
+          "function": "Fungera",
+          "sending": "Sändning",
+          "token": "Tecken",
+          "tokens": "Polletter"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Du har inte tillräckligt med {{currencySymbol}} för att slutföra den här transaktionen.",
+        "network": "Internet- eller nätverksanslutningsfel"
+      },
+      "warning": {
+        "general": {
+          "message": "Var försiktig: det här meddelandet kan överföra tillgångar"
+        },
+        "message": "För att signera meddelanden eller transaktioner måste du importera plånbokens återställningsfras.",
+        "title": "Den här plånboken är i visningsläge"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Upptäck och undersök tokens på {{network}}. Utforska topppooler. Se realtidspriser, handelsvolym, TVL, diagram och transaktionsdata.",
+      "title": {
+        "pools": "Utforska de bästa poolerna på {{network}} på Uniswap",
+        "tokens": "Utforska de bästa tokens på {{network}} på Uniswap",
+        "transactions": "Utforska de bästa transaktionerna på {{network}} på Uniswap"
+      }
+    }
+  }
+}

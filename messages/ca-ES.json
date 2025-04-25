@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Reclama {{amount}} recompensa"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Hi ha diverses frases de recuperació amb còpies de seguretat al vostre {{cloudProviderName}}.",
+        "title": "Seleccioneu una còpia de seguretat per restaurar"
+      },
+      "button": {
+        "restore": {
+          "android": "Restaura des de Google Drive",
+          "ios": "Restaura des d'iCloud"
+        }
+      },
+      "empty": {
+        "description": "Sembla que no heu fet una còpia de seguretat de cap de les vostres frases de recuperació a {{cloudProviderName}}.",
+        "title": "S'han trobat 0 còpies de seguretat"
+      },
+      "error": {
+        "backup": {
+          "message": "No s'han pogut importar les còpies de seguretat a causa de la manca de permisos, la interrupció de l'autorització o un error al núvol",
+          "title": "S'ha produït un error en importar les còpies de seguretat"
+        },
+        "password": {
+          "title": "Contrasenya invàlida. Siusplau torna-ho a provar."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Ara no",
+            "settings": "Vés a la configuració"
+          },
+          "message": {
+            "android": "Verifiqueu que hàgiu iniciat la sessió en un compte de Google amb Google Drive habilitat en aquest dispositiu i torneu-ho a provar.",
+            "ios": "Si us plau, verifiqueu que hàgiu iniciat la sessió amb un ID d'Apple amb iCloud Drive habilitat en aquest dispositiu i torneu-ho a provar."
+          },
+          "title": {
+            "android": "Google Drive no disponible",
+            "ios": "iCloud Drive no disponible"
+          }
+        }
+      },
+      "loading": {
+        "title": "S'estan cercant còpies de seguretat..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Massa intents. Torna-ho a provar d'aquí a 1 hora.",
+          "hours_other": "Massa intents. Torna-ho a provar d'aquí a {{count}} hores.",
+          "minutes_one": "Massa intents. Torna-ho a provar d'aquí a 1 minut.",
+          "minutes_other": "Massa intents. Torna-ho a provar d'aquí a {{count}} minuts."
+        }
+      },
+      "password": {
+        "input": "Introduir la contrasenya",
+        "recoveryPhrase": "Introduïu la vostra frase de recuperació",
+        "subtitle": "Aquesta contrasenya és necessària per recuperar la còpia de seguretat de la frase de recuperació de {{cloudProviderName}}.",
+        "title": "Introduïu la contrasenya de seguretat"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Versió: ",
+      "modal": {
+        "body": "Emmagatzema i intercanvia fitxes de manera segura amb l'aplicació Uniswap. Disponible a iOS i Android.",
+        "dont": "No tens cartera Uniswap?",
+        "scan": "Escaneja amb Uniswap Wallet"
+      },
+      "spamToggle": "Amaga fitxes i NFT desconeguts"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "He fet una còpia de seguretat de la meva frase de recuperació i entenc que Uniswap Labs no em pot ajudar a recuperar la meva cartera si no ho he fet.",
+        "description": "Assegureu-vos que heu fet una còpia de seguretat de la vostra frase de recuperació mitjançant l'aplicació mòbil Uniswap o l'extensió del navegador.",
+        "descriptionEmphasized": "Sense la vostra frase de recuperació, és possible que no pugueu accedir a la vostra cartera.",
+        "speedbump": {
+          "description": "Abans de continuar, seguiu els passos següents per evitar perdre l'accés a la vostra cartera i a tots els fons.",
+          "step1": "Baixeu l'aplicació mòbil Uniswap o l'extensió del navegador",
+          "step2": "Fes una còpia de seguretat de la teva frase de recuperació",
+          "title": "Estàs segur?"
+        },
+        "title": "Vols suprimir la contrasenya?"
+      },
+      "sign": {
+        "in": {
+          "title": "Inicieu la sessió amb la clau d'accés"
+        }
+      },
+      "type": {
+        "crossplatform": "Telèfon, tauleta o clau de seguretat",
+        "platform": "Navegador o sistema operatiu"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Aquesta comanda s'ha cancel·lat perquè el vostre saldo va ser inferior a l'import introduït."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Aquesta comanda no s'omplirà perquè el vostre saldo va ser inferior a l'import introduït. Augmenta el teu saldo per arreglar."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Una frase de recuperació (o frase inicial) és un <highlight>conjunt de paraules</highlight> necessàries per accedir a la vostra cartera, <highlight>com una contrasenya.</highlight>",
+        "part2": "Pots <highlight>introduir</highlight> la teva frase de recuperació en un dispositiu nou <highlight>per restaurar la teva cartera</highlight> i el seu contingut.",
+        "part3": "Però, si <highlight>perds la teva frase de recuperació</highlight>, <highlight>perdràs l'accés</highlight> a la teva cartera.",
+        "part4": "En lloc de memoritzar la vostra frase de recuperació, podeu fer-ne una còpia de seguretat <highlight>a {{cloudProviderName}}</highlight> i protegir-la amb una contrasenya.",
+        "part5": "També podeu fer una còpia de seguretat manual de la vostra frase de recuperació <highlight>escrivint-la</highlight> i emmagatzemant-la en un lloc segur.",
+        "part6": "Us recomanem que utilitzeu <highlight>ambdós tipus de còpies de seguretat</highlight>perquè si perdeu la frase de recuperació, no podreu restaurar la cartera."
+      },
+      "error": {
+        "invalid": "Frase no vàlida",
+        "invalidWord": "Paraula no vàlida: {{word}}",
+        "phraseLength": "La frase de recuperació ha de tenir entre 12 i 24 paraules",
+        "wrong": "Frase de recuperació incorrecta"
+      },
+      "helpText": {
+        "import": "Com trobo la meva frase de recuperació?",
+        "restoring": "Prova de cercar de nou"
+      },
+      "input": "Escriviu la vostra frase de recuperació",
+      "remove": {
+        "final": {
+          "description": "Assegureu-vos que hàgiu anotat la vostra frase de recuperació o n'heu fet una còpia de seguretat a {{cloudProviderName}}. <highlight>No podreu accedir als vostres fons d'una altra manera.</highlight>",
+          "title": "Esteu eliminant la vostra frase de recuperació <highlight></highlight>"
+        },
+        "import": {
+          "description": "Només podeu emmagatzemar una frase de recuperació alhora. Per continuar important-ne un de nou, haureu d'eliminar la vostra frase de recuperació actual i les carteres associades d'aquest dispositiu."
+        },
+        "initial": {
+          "description": "Això eliminarà la vostra cartera d'aquest dispositiu juntament amb la vostra frase de recuperació.",
+          "title": "Esteu suprimint <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "La vostra frase de recuperació romandrà emmagatzemada fins que suprimiu totes les carteres restants."
+        }
+      },
+      "subtitle": {
+        "import": "La vostra frase de recuperació només s'emmagatzemarà localment al vostre dispositiu.",
+        "restoring": "Introduïu la vostra frase de recuperació a continuació o proveu de cercar còpies de seguretat de nou."
+      },
+      "title": {
+        "import": "Introduïu la vostra frase de recuperació",
+        "restoring": "No s'han trobat còpies de seguretat"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Copia l'adreça",
+        "manageConnections": "Gestionar connexions",
+        "report": "Informe del perfil",
+        "viewExplorer": "Veure a {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Afegeix cartera",
+        "addViewOnly": "Afegiu una cartera de només visualització",
+        "create": "Creeu una cartera nova",
+        "import": "Importa una cartera nova",
+        "manage": "Configuració de la cartera",
+        "remove": "Traieu la cartera",
+        "restore": "Recupera la teva cartera",
+        "watch": "Vigila una cartera"
+      },
+      "create": {
+        "placeholder": "Cartera {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Etiqueta de cartera"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Edita el perfil"
+          },
+          "title": "Edita l'etiqueta"
+        },
+        "viewOnly": "Carteres de només visualització"
+      },
+      "menu": {
+        "claimUsername": "Reclama el nom d'usuari",
+        "copy": {
+          "title": "Copia l'adreça de la cartera"
+        },
+        "edit": {
+          "title": "Edita l'etiqueta"
+        },
+        "manageConnections": "Gestionar les connexions",
+        "remove": {
+          "title": "Traieu la cartera"
+        }
+      },
+      "remove": {
+        "check": "Vaig fer una còpia de seguretat de la meva frase de recuperació i entenc que Uniswap Labs no em pot ajudar a recuperar les meves carteres si no ho vaig fer.",
+        "title": "Elimina {{name}}",
+        "viewOnly": "Sempre podeu afegir carteres de només visualització posterior introduint l'adreça de la cartera."
+      },
+      "restore": {
+        "description": "Com que esteu en un dispositiu nou, haureu de restaurar la vostra frase de recuperació o introduir la contrasenya de còpia de seguretat al núvol per continuar."
+      },
+      "select": {
+        "error": "No s'han pogut carregar les adreces",
+        "loading": {
+          "subtitle": "Les vostres carteres apareixeran a continuació.",
+          "title": "Buscant carteres"
+        },
+        "title_one_one": "S'ha trobat una cartera",
+        "title_one_other": "Seleccioneu carteres per importar"
+      },
+      "viewOnly": {
+        "button": "Importa cartera",
+        "description": "Per intercanviar, comprar, enviar i rebre fitxes, heu d'importar la frase de recuperació d'aquesta cartera.",
+        "title": "Aquesta cartera és només de visualització"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Aquesta adreça ja s'ha importat",
+          "notFound": "No s'ha trobat l'adreça",
+          "smartContract": "L'adreça és un contracte intel·ligent"
+        },
+        "message": "Afegir una cartera de només visualització us permet provar l'aplicació o fer un seguiment d'una cartera. No podreu intercanviar ni enviar fons.",
+        "placeholder": "ENS o adreça",
+        "title": "Introduïu una adreça de cartera"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Pendent",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} recompenses recollides"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} de {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} a {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} per a {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} i {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Quota de piscina"
+  },
+  "addressInput": {
+    "recipient": "Destinatari"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Utilitzem dades anònimes per millorar la vostra experiència amb els productes d'Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "No realment"
+    },
+    "description": "Feu-nos saber si teniu una bona experiència amb aquesta aplicació",
+    "extension": {
+      "review": {
+        "description": "Trieu una puntuació amb estrelles i deixeu una ressenya a Chrome Web Store.",
+        "title": "Revisar l'extensió Uniswap?"
+      },
+      "title": "Us agrada l'extensió Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Enviar comentaris"
+      },
+      "description": "Feu-nos saber com podem millorar la vostra experiència",
+      "title": "Ens sap greu escoltar-ho."
+    },
+    "mobile": {
+      "title": "Us agrada Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "Candelera",
+    "error": {
+      "pools": "No es poden mostrar les dades històriques del grup actual.",
+      "tokens": "No es poden mostrar les dades històriques del testimoni actual."
+    },
+    "line": "Gràfic de línies",
+    "missingData": "Falten dades del gràfic",
+    "price": {
+      "label": {
+        "close": "Tanca",
+        "high": "Alt",
+        "low": "baix",
+        "open": "Obert"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Aquesta configuració no està disponible per al gràfic actual"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Gràcies per formar part de la comunitat Uniswap <heart />",
+    "uni": {
+      "arrived": "Ha arribat la UNI"
+    }
+  },
+  "common": {
+    "accept": "Acceptar",
+    "activity": "Activitat",
+    "add": {
+      "label": "Afegeix",
+      "liquidity": {
+        "cancelled": "Afegeix liquiditat cancel·lada",
+        "failed": "No s'ha pogut afegir liquiditat"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Afegeix liquiditat V2 cancel·lada",
+          "failed": "S'ha produït un error en afegir liquiditat V2"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Liquiditat afegida",
+      "v2": {
+        "liquidity": "S'ha afegit liquiditat V2"
+      }
+    },
+    "addedLiquidity": "Liquiditat afegida",
+    "adding": {
+      "liquidity": "Afegir liquiditat",
+      "v2": {
+        "liquidity": "Afegir liquiditat V2"
+      }
+    },
+    "addLiquidity": "Afegeix liquiditat",
+    "addressOrENS": "Adreça de cartera o nom de l'ENS",
+    "advanced": "Avançat",
+    "all": "Tots",
+    "allTime": "Tot el temps",
+    "and": "i",
+    "app": "App",
+    "approval": {
+      "cancelled": "Aprovació cancel·lada",
+      "failed": "L'aprovació ha fallat"
+    },
+    "approve": "Aprovar",
+    "approved": "Aprovat",
+    "approvePending": "Aprovació pendent...",
+    "approveSpend": "Aprova la despesa de {{symbol}}",
+    "approving": "Aprovant",
+    "areYouSure": "Estàs segur?",
+    "automatic": "Automàtic",
+    "availableIn": "Uniswap disponible a: <locale />",
+    "availableOnIOSAndroid": "Disponible a iOS i Android",
+    "availableOnIOSAndroidChrome": "Disponible a iOS, Android i Chrome",
+    "backToPositions": "Tornar a les posicions",
+    "blocked": {
+      "ifError": "Si creieu que es tracta d'un error, envieu un correu electrònic amb la vostra adreça a <emailAddress />",
+      "reason": "Aquesta adreça està bloquejada a la interfície d'Uniswap Labs perquè està associada a una o més <link>activitats bloquejades</link>."
+    },
+    "blockedAddress": "Adreça bloquejada",
+    "blog": "Bloc",
+    "borrow": {
+      "cancelled": "Préstec cancel·lat",
+      "failed": "El préstec ha fallat"
+    },
+    "borrowed": "Prestat",
+    "borrowing": "Préstec",
+    "bought": "Comprat",
+    "brandAssets": "Actius de marca",
+    "burn": {
+      "cancelled": "S'ha cancel·lat la gravació",
+      "failed": "La crema ha fallat"
+    },
+    "burned": "Cremat",
+    "burning": "Cremant",
+    "button": {
+      "accept": "Acceptar",
+      "back": "esquena",
+      "buy": "Compra",
+      "cancel": "Cancel · lar",
+      "checkin": "Registrar",
+      "close": "Tanca",
+      "confirm": "Confirmeu",
+      "connect": "Connecta't",
+      "continue": "Continua",
+      "copied": "Copiat",
+      "copy": "Còpia",
+      "create": "Crear",
+      "delete": "Suprimeix",
+      "disconnect": "Desconnecta",
+      "dismiss": "Descartar",
+      "done": "Fet",
+      "edit": "Edita",
+      "enable": "Activa",
+      "finish": "Acabar",
+      "goBack": "Torna",
+      "later": "Potser després",
+      "learn": "Aprèn més",
+      "next": "Pròxim",
+      "notNow": "Ara no",
+      "ok": "D'acord",
+      "paste": "Enganxa",
+      "pay": "Pagar",
+      "proceed": "Continuar",
+      "receive": "Rebre",
+      "remove": "Eliminar",
+      "reset": "Restableix",
+      "retry": "Torna-ho a provar",
+      "reveal": "Revelar",
+      "review": "Revisió",
+      "save": "Desa",
+      "scrollDown": "Desplaça cap avall",
+      "sell": "Vendre",
+      "send": "Enviar",
+      "setup": "Configurar",
+      "share": "Compartir",
+      "showLess": "Mostra menys",
+      "showMore": "Mostra més",
+      "sign": "Signe",
+      "skip": "Omet",
+      "swap": "Canviar",
+      "tryAgain": "Torna-ho a provar",
+      "understand": "entenc",
+      "unlock": "Descobrir",
+      "view": "Veure",
+      "viewDetails": "Veure detalls",
+      "yes": "Sí"
+    },
+    "buy": {
+      "cancelled": "Compra cancel·lada",
+      "failed": "La compra ha fallat",
+      "label": "Compra"
+    },
+    "buyAndSell": "Compra i ven a Uniswap",
+    "buying": "Comprant",
+    "by": "Per",
+    "cancel": {
+      "failed": "La cancel·lació ha fallat"
+    },
+    "cancellation": {
+      "cancelled": "Cancel·lació cancel·lada"
+    },
+    "cancellationSubmitted": "S'ha enviat la cancel·lació",
+    "cancellationSuccessful": "Cancel·lació correcta",
+    "cancelled": "Cancel·lat",
+    "cancelling": "S'està cancel·lant",
+    "cancelOrder": "Cancel · lar la comanda",
+    "card": {
+      "error": {
+        "description": "Alguna cosa ha anat malament",
+        "title": "Vaja! Alguna cosa ha anat malament."
+      }
+    },
+    "careers": "Carreres professionals",
+    "chart": "Gràfic",
+    "checkNetwork": "Comproveu l'estat de la xarxa <link>aquí.</link>",
+    "chromeExtension": "Extensió",
+    "claim": {
+      "cancelled": "Reclamació cancel·lada",
+      "failed": "La reclamació ha fallat"
+    },
+    "claimed": "Reclamat",
+    "claiming": "Reclamació",
+    "claimUnis": "Reclameu les vostres fitxes UNI",
+    "clear": "Clar",
+    "close": "Tanca",
+    "closed": "Tancat",
+    "collect": {
+      "button": "Recull",
+      "fees": {
+        "cancelled": "Comissions cancel·lades",
+        "failed": "No s'han pogut cobrar les taxes"
+      }
+    },
+    "collected": {
+      "fees": "Comissions cobrades"
+    },
+    "collecting": {
+      "fees": "Recaptació de taxes"
+    },
+    "company": "Companyia",
+    "confirm": "Confirmeu",
+    "confirmCancellation": "Confirmeu la cancel·lació",
+    "confirmSend": {
+      "button": "Confirmeu l'enviament"
+    },
+    "confirmSwap": "Confirmeu l'intercanvi a la cartera",
+    "confirmTimedOut": "S'ha esgotat el temps de confirmació. Si us plau, torna-ho a provar.",
+    "confirmWallet": "Confirmeu a la cartera",
+    "connect": {
+      "button": "Connecta't"
+    },
+    "connectAWallet": {
+      "button": "Connecteu una cartera"
+    },
+    "connectWallet": {
+      "button": "Connecta la cartera"
+    },
+    "contactUs": {
+      "button": "Contacta amb nosaltres"
+    },
+    "contractInteraction": "Interacció del contracte",
+    "copied": "Copiat",
+    "copy": {
+      "address": "Copia l'adreça"
+    },
+    "copyLink": {
+      "button": "Copia l'enllaç"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "S'ha cancel·lat la creació d'un grup",
+        "failed": "No s'ha pogut crear l'agrupació"
+      }
+    },
+    "created": {
+      "date": "S'ha creat {{date}}",
+      "pool": "Piscina creada"
+    },
+    "creating": {
+      "pool": "Creació de piscina"
+    },
+    "currency": "Moneda",
+    "custom": "Personalitzat",
+    "customRange": "Gamma personalitzada",
+    "dataOutdated": "Les dades poden estar obsoletes",
+    "default": "Per defecte",
+    "defaultTradeOptions": "Opcions comercials per defecte",
+    "delegate": {
+      "cancelled": "Delegat cancel·lat",
+      "failed": "El delegat ha fallat"
+    },
+    "delegated": "Delegat",
+    "delegating": "Delegant",
+    "deploy": {
+      "cancelled": "Desplegament cancel·lat",
+      "failed": "La implementació ha fallat"
+    },
+    "deployed": "Desplegat",
+    "deploying": "Desplegant",
+    "deposit": {
+      "cancelled": "Dipòsit cancel·lat",
+      "failed": "El dipòsit ha fallat",
+      "toNetwork": "Diposita fitxes a la xarxa {{label}} ."
+    },
+    "deposited": "Dipositat",
+    "depositing": "Dipositant",
+    "depositTokens": "Dipòsit de fitxes",
+    "detected": "Detectat",
+    "developers": "Desenvolupadors",
+    "device": {
+      "other": "Un altre dispositiu"
+    },
+    "dismiss": "Descartar",
+    "displaySettings": "Configuració de visualització",
+    "dnsRegistrar": "Registre DNS",
+    "donate": "Donar",
+    "done": "Fet",
+    "dontShowAgain": "No tornis a mostrar això",
+    "download": "descarregar",
+    "downloadAppStore": "Descarrega a l'App Store",
+    "downloadPlayStore": "Descarrega a Play Store",
+    "downloadUniswap": "Descarrega Uniswap",
+    "downloadUniswapApp": "Descarrega l'aplicació Uniswap",
+    "dynamic": "Dinàmic",
+    "edit": {
+      "button": "Edita"
+    },
+    "error": {
+      "details": "Detalls de l'error",
+      "general": "Alguna cosa ha anat malament",
+      "label": "Error",
+      "request": "Ho sentim, s'ha produït un error en processar la vostra sol·licitud. Si sol·liciteu assistència, assegureu-vos de copiar els detalls d'aquest error.",
+      "somethingWrong": "Alguna cosa ha anat malament!",
+      "wrong": {
+        "tryAgain": "Alguna cosa ha anat malament. Siusplau torna-ho a provar."
+      }
+    },
+    "errorConnecting": {
+      "error": "Error en connectar"
+    },
+    "errorLoadingData": {
+      "error": "S'ha produït un error en carregar les dades"
+    },
+    "ethereumNameService": "Servei de noms Ethereum",
+    "etherscan": {
+      "link": "Veure a Etherscan"
+    },
+    "ethRegistrarController": "Controlador del registre ETH",
+    "execute": {
+      "cancelled": "Execució cancel·lada",
+      "failed": "Ha fallat l'execució"
+    },
+    "executed": "Executat",
+    "executing": "Executant",
+    "expired": "Caducat",
+    "expiry": "Caducitat",
+    "explore": "Explora",
+    "explorer": "Explorador",
+    "exploreTokens": "Explora fitxes",
+    "extension": "Extensió Uniswap",
+    "failed": {
+      "error": "Fracassat"
+    },
+    "failedSwitchNetwork": "No s'ha pogut canviar de xarxa",
+    "fee": "Quota",
+    "fees": "Comissions",
+    "feesEarned": "Comissions guanyades",
+    "feesEarnedPerBase": "{{symbolA}} per {{symbolB}}",
+    "fetchingRoute": "Recollida de ruta",
+    "floor": "Pis",
+    "floorPrice": "Preu pis",
+    "for": "Per",
+    "fullRange": "Gamma completa",
+    "getApp": "Obteniu l'aplicació",
+    "getHelp": {
+      "button": "Aconseguir ajuda"
+    },
+    "getStarted": "Comença",
+    "getSupport": {
+      "button": "Obteniu suport"
+    },
+    "getTheApp": "Obtenir l'aplicació",
+    "getUniswapWallet": "Obteniu Uniswap Wallet",
+    "governance": "Governança",
+    "happyHolidays": "Bones festes de l'equip d'Uniswap!",
+    "helpCenter": "Centre d'ajuda",
+    "hidden": "Ocult",
+    "hide": {
+      "button": "Amaga"
+    },
+    "highPrice": "Preu alt",
+    "includes": "Inclou",
+    "info": {
+      "label": "Informació"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Seleccioneu el destinatari"
+      },
+      "password": {
+        "confirm": "Confirma la contrassenya",
+        "error": {
+          "mismatch": "Les contrasenyes no coincideixen",
+          "weak": "Aquesta contrasenya és massa feble"
+        },
+        "new": "Nova contrasenya",
+        "placeholder": "Contrasenya",
+        "strength": {
+          "medium": "Mitjana",
+          "strong": "Fort",
+          "weak": "Feble"
+        }
+      },
+      "search": "Cerca"
+    },
+    "insufficient": {
+      "funds": "Fons insuficients"
+    },
+    "insufficientBalance": {
+      "error": "Balanç insuficient"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Fons insuficients per cobrir el cost de la xarxa"
+    },
+    "insufficientLiquidity": "Liquiditat insuficient",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "{{tokenSymbol}}insuficient"
+      }
+    },
+    "invalidPair": "Parell no vàlid",
+    "invalidRecipient": {
+      "error": "Destinatari no vàlid"
+    },
+    "iOSAndroid": "iOS i Android",
+    "language": "Llenguatge",
+    "lastPrice": "Darrer preu",
+    "learnMoreSwap": "Més informació sobre els intercanvis",
+    "legalAndPrivacy": "Legal i Privacitat",
+    "less": "Menys",
+    "limit": {
+      "cancel_one": "Cancel·la el límit",
+      "cancel_other": "Cancel·la els límits de {{count}}",
+      "cancelled": "S'ha cancel·lat el límit",
+      "executed": "Límit executat",
+      "expired": "El límit ha caducat",
+      "failed": "El límit ha fallat",
+      "opened": "Límit obert",
+      "pending": "Límit pendent"
+    },
+    "limits": {
+      "approachMax": "S'acosta al límit màxim de 100",
+      "cancelProceed": "Cancel·la els límits per continuar",
+      "expires": "Caduca {{timestamp}}",
+      "open": "Límits oberts",
+      "when": "quan {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Enllaços",
+    "liquidity": {
+      "removed": "Liquiditat eliminada"
+    },
+    "loading": "Carregant",
+    "loadingAllowance": "Bonificació de càrrega",
+    "loadMore": "Carregueu més",
+    "longText": {
+      "button": {
+        "less": "Llegeix menys",
+        "more": "Llegeix més"
+      }
+    },
+    "lowPrice": "Preu baix",
+    "manage": "Gestionar",
+    "market": {
+      "label": "Mercat"
+    },
+    "marketPrice": {
+      "fetching": "S'està buscant el preu del mercat...",
+      "label": "Preu de mercat:",
+      "unavailable": "No s'ha trobat el preu de mercat. Si us plau, fes la teva pròpia investigació per evitar la pèrdua de fons."
+    },
+    "max": "Màx",
+    "message": "Missatge",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Liquiditat de migració cancel·lada",
+        "failed": "Ha fallat la migració de liquiditat"
+      },
+      "position": "Migrar posició",
+      "v3": "Migrar a V3"
+    },
+    "migrated": {
+      "liquidity": "Liquiditat migrada"
+    },
+    "migrating": {
+      "liquidity": "Liquiditat migratòria"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Menta cancel·lada",
+      "failed": "Mint ha fallat"
+    },
+    "minted": "Encunyat",
+    "minting": "Encunyació",
+    "mobile": "Mòbil",
+    "more": "Més",
+    "multiDevice": "Multidispositiu",
+    "navigation": {
+      "settings": "Configuració",
+      "systemSettings": "Configuració"
+    },
+    "navigationButton": "Botó de navegació",
+    "needHelp": "Necessitar ajuda?",
+    "networkCost": "Cost de la xarxa",
+    "neverMind": "No importa",
+    "new": {
+      "exclamation": "Nou!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT",
+    "noActivity": "Encara no hi ha activitat",
+    "noAmount": {
+      "error": "Introduïu una quantitat"
+    },
+    "noData": "No hi ha dades",
+    "noResults": "Sense resultats.",
+    "notAvailableInRegion": {
+      "error": "No disponible a la teva regió"
+    },
+    "notCreated": {
+      "label": "No creat"
+    },
+    "notSupported": "No s'admet",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 mes",
+    "oneWeek": "1 setmana",
+    "oneYear": "1 any",
+    "opensea": {
+      "link": "Veure a OpenSea"
+    },
+    "orderCancelled": "Comanda cancel·lada",
+    "orderExecuted": "Ordre executada",
+    "orderExpired": "La comanda ha caducat",
+    "orderPending": "Comanda pendent",
+    "outOfRange": "Fora de rang",
+    "pageNotFound": "Pàgina no trobada!",
+    "passkey": {
+      "count": "Clau d'accés {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Trieu on desar la vostra nova clau de pas."
+      }
+    },
+    "pastDay": "Dia passat",
+    "pastFiveMinutes": "Darrers cinc minuts",
+    "pastHour": "Hora passada",
+    "pastMonth": "El mes passat",
+    "pastWeek": "La setmana passada",
+    "pastYear": "L'any passat",
+    "pay": {
+      "button": "Pagar"
+    },
+    "pending": {
+      "cancellation": "Pendent de cancel·lació"
+    },
+    "pendingEllipsis": "Pendents...",
+    "permit2": "Permís 2",
+    "pool": "Piscina",
+    "pools": "Piscines",
+    "poweredBy": "Desenvolupat per <name />",
+    "price": "Preu",
+    "priceImpact": "Avís d'impacte dels preus",
+    "priceUpdated": "Preu actualitzat",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Quan estigui marcat, no compartirem les vostres dades amb socis de tercers per a publicitat personalitzada. Pots activar l'ús compartit en qualsevol moment desmarcant aquesta casella.",
+        "label": "No comparteixis la meva informació"
+      },
+      "description": "Podem compartir identificadors de dispositius amb els nostres socis publicitaris per promocionar els nostres serveis en altres llocs web i plataformes. Quan això es qualifica com a venda, compartició o publicitat orientada segons les lleis aplicables, podeu desactivar-vos marcant la casella \"no comparteixis la meva informació\". Per obtenir més informació sobre les nostres pràctiques de privadesa, reviseu la nostra <privacyLink>Política de privadesa</privacyLink>.",
+      "disclaimer": "Tingueu en compte que la vostra selecció només s'aplicarà a aquest navegador d'aquest dispositiu. També podeu desactivar-vos activant la configuració del Control global de privadesa al navegador que utilitzeu per accedir als nostres serveis. Per veure més opcions, aneu a la vostra configuració."
+    },
+    "privacyPolicy": "Política de privacitat",
+    "proceed": "Continuar",
+    "proceedInWallet": {
+      "short": "Continueu amb la cartera"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Resolvedor públic",
+    "purchased": "Comprat",
+    "queue": {
+      "cancelled": "S'ha cancel·lat la cua",
+      "failed": "Ha fallat la cua"
+    },
+    "queued": "En cua",
+    "queuing": "Fent cua",
+    "rate": "Taxa",
+    "readMore": "Llegeix més",
+    "receive": {
+      "cancelled": "Recepció cancel·lada",
+      "failed": "La recepció ha fallat"
+    },
+    "received": "Rebut",
+    "receiving": "Recepció",
+    "recent": "Recent",
+    "rejected": "Rebutjada",
+    "reload": {
+      "label": "Torna a carregar l'aplicació"
+    },
+    "remove": {
+      "label": "Eliminar",
+      "liquidity": {
+        "cancelled": "Eliminació de liquiditat cancel·lada",
+        "failed": "S'ha produït un error en eliminar la liquiditat"
+      }
+    },
+    "removedLiquidity": "Liquiditat eliminada",
+    "removeItem": "Elimina l'element",
+    "removing": {
+      "liquidity": "Eliminació de liquiditat"
+    },
+    "repaid": "Reemborsat",
+    "repay": {
+      "cancelled": "Reemborsament cancel·lat",
+      "failed": "Ha fallat el reemborsament"
+    },
+    "repaying": "Reemborsament",
+    "resetLimit": "Restableix el límit de {{symbol}}",
+    "resetLimitWallet": "Restableix el límit de {{symbol}} a la cartera",
+    "resettingLimit": "S'està restablint el límit {{symbol}} ...",
+    "resolveIssues_one": "Resol el problema",
+    "resolveIssues_other": "Resoldre problemes {{count}}",
+    "restricted": {
+      "region": "Regió restringida"
+    },
+    "reverseRegistrar": "Registrador invers",
+    "revoke": {
+      "approval": {
+        "failed": "No s'ha pogut revocar l'aprovació"
+      }
+    },
+    "revoked": {
+      "approval": "Aprovació revocada"
+    },
+    "revokedApproval": "Aprovació revocada",
+    "revoking": {
+      "approval": "Revocació de l'aprovació"
+    },
+    "samePrice": "Mateix preu",
+    "scanQRDownload": "Escaneja el codi QR amb el telèfon per descarregar-lo",
+    "selectRegion": {
+      "label": "Seleccioneu la vostra regió"
+    },
+    "selectToken": {
+      "label": "Seleccioneu un testimoni"
+    },
+    "selfCustodial": "Autocustodia",
+    "sell": {
+      "label": "Vendre"
+    },
+    "send": {
+      "button": "Enviar",
+      "cancelled": "Enviament cancel·lat",
+      "failed": "L'enviament ha fallat"
+    },
+    "sending": "Enviament",
+    "sent": "Enviat",
+    "settings": "Configuració",
+    "share": {
+      "shareToTwitter": "Comparteix a Twitter",
+      "twitter": "Comparteix a Twitter"
+    },
+    "show": {
+      "button": "Espectacle"
+    },
+    "showLess": {
+      "button": "Mostra menys"
+    },
+    "showMore": {
+      "button": "Mostra més"
+    },
+    "signatureExpired": "La teva signatura ha caducat.",
+    "signMessage": "Signar missatge",
+    "signMessageWallet": "Signa el missatge a la cartera",
+    "sold": "Vengut",
+    "stats": "Estadístiques",
+    "status": "Estat",
+    "stayConnected": "Mantén-te connectat",
+    "step": {
+      "number": "Pas {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Presentació de la proposta cancel·lada",
+        "failed": "No s'ha pogut enviar la proposta"
+      }
+    },
+    "submitted": {
+      "proposal": "Proposta presentada"
+    },
+    "submitting": {
+      "proposal": "Presentació de la proposta"
+    },
+    "swap": {
+      "cancelled": "S'ha cancel·lat l'intercanvi",
+      "expired": "L'intercanvi ha caducat",
+      "failed": "L'intercanvi ha fallat"
+    },
+    "swapped": "Canviat",
+    "swapPending": "Canvi pendent...",
+    "swapping": "Canvi",
+    "switchNetworks": "Canvia de xarxes",
+    "termsOfService": "Termes del servei",
+    "text": {
+      "connected": "Connectat",
+      "contract": "Contracte",
+      "disconnected": "Desconnectat",
+      "error": "Error",
+      "notAvailable": "N/A",
+      "recipient": "A",
+      "sender": "Des de",
+      "unknown": "Desconegut"
+    },
+    "thisMonth": "Aquest mes",
+    "thisToken": "Aquest testimoni",
+    "thisWeek": "Aquesta setmana",
+    "thisYear": "Aquest any",
+    "time": {
+      "days": "dies",
+      "days_one": "dia",
+      "days_other": "dies",
+      "hours": "hores",
+      "hours_one": "hores",
+      "hours_other": "hores",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minuts",
+      "months": "mesos",
+      "months_one": "mes",
+      "months_other": "mesos",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}m"
+        },
+        "months": {
+          "short": "{{months}}mes"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "setmanes",
+      "weeks_one": "setmana",
+      "weeks_other": "setmanes"
+    },
+    "to": "a",
+    "today": "Avui",
+    "tokenA": "Fitxa A",
+    "tokenAmount": "Import del testimoni",
+    "tokenB": "Fitxa B",
+    "tokenName": "Nom del testimoni",
+    "tokens": "Fitxes",
+    "totalUniswapTVL": "Total Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Comerç",
+    "trademarkPolicy": "Política de marques comercials",
+    "transactionDetails": "Detalls de la transacció",
+    "transactionId": "Identificador de transacció",
+    "transactionPending": "Transacció pendent",
+    "transactions": "Transaccions",
+    "transactionSettings": "Configuració de la transacció",
+    "transfer_one": "transferència",
+    "transfer_other": "transferències",
+    "tryAgain": {
+      "error": "Torna-ho a provar"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Tipus"
+    },
+    "unavailable": "No disponible",
+    "unhide": "Mostra",
+    "uniGovernance": "Govern UNI",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Protocol Uniswap",
+    "uniswapWallet": "Cartera Uniswap",
+    "uniswapX": "UniswapX",
+    "unknown": "Desconegut",
+    "unknownApproval": "Aprovació desconeguda",
+    "unknownBridge": "Pont desconegut",
+    "unknownError": {
+      "error": "Error desconegut"
+    },
+    "unknownLend": "Préstec desconegut",
+    "unknownMint": "Menta desconeguda",
+    "unknownSend": "Enviament desconegut",
+    "unknownSwap": "Canvi desconegut",
+    "unsupportedAsset_one": "Recurs no compatible",
+    "unsupportedAsset_other": "Actius no compatibles",
+    "unwrap": {
+      "button": "Desembolicar",
+      "failed": "S'ha produït un error en desembalar"
+    },
+    "unwrapped": "Desembolicat",
+    "unwrapping": "Desembolcall",
+    "view": {
+      "profile": "Veure perfil"
+    },
+    "viewOnExplorer": "Veure a l'Explorador",
+    "volume": "Volum",
+    "vote": {
+      "cancelled": "Vot cancel·lat",
+      "failed": "La votació ha fallat"
+    },
+    "voted": "Votat",
+    "voting": "Votació",
+    "wallet": {
+      "approve": "Aprovar a la cartera",
+      "label": "Cartera"
+    },
+    "walletForSwapping": "La cartera construïda per intercanviar. Disponible a iOS i Android.",
+    "warning": "Avís",
+    "webApp": "Aplicació web",
+    "website": "Lloc web",
+    "whyApprove": "Per què he d'aprovar un testimoni?",
+    "whySign": "Per què cal les signatures?",
+    "whyWrap": "Per què he d'embolicar el meu {{symbol}}?",
+    "withdraw": {
+      "failed": "La retirada ha fallat"
+    },
+    "withdrawal": {
+      "amount": "Import de la retirada",
+      "cancelled": "Retirada cancel·lada"
+    },
+    "withdrawing": "Retirant",
+    "withdrew": "Es va retirar",
+    "withinRange": "En rang",
+    "wrap": {
+      "cancelled": "Embolcall cancel·lat",
+      "failed": "Ha fallat l'embolcall"
+    },
+    "wrapIn": "Emboliqui  {{symbol}} a la cartera",
+    "wrapped": "Embolicat",
+    "wrapping": "Embolcall",
+    "wrappingToken": "Embolicant  {{symbol}}...",
+    "wrongNetwork": "Xarxa incorrecta",
+    "yesterday": "Ahir",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "El vostre compte no tenia prou fons per completar aquest intercanvi."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "El vostre compte no té prou fons per completar aquest intercanvi."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "El vostre límit no s'ha pogut complir en aquest moment. Siusplau torna-ho a provar."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "El vostre intercanvi no s'ha pogut complir en aquest moment. Siusplau torna-ho a provar."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Estàs comprant",
+    "youRecieve": "Vostè rep",
+    "youreSending": "Estàs enviant"
+  },
+  "currency": {
+    "aud": "Dòlar australià",
+    "brl": "Real brasiler",
+    "cad": "Dòlar canadenc",
+    "cny": "Yuan xinès",
+    "eur": "Euro",
+    "gbp": "Lliura britànica",
+    "hkd": "Dòlar de Hong Kong",
+    "idr": "Rupia indonèsia",
+    "inr": "Rupia índia",
+    "jpy": "Ien japonès",
+    "krw": "Won sud-coreà",
+    "ngn": "Naira nigeriana",
+    "pkr": "Rupia pakistanesa",
+    "rub": "Ruble rus",
+    "sgd": "Dòlar de Singapur",
+    "thb": "Baht tailandès",
+    "try": "Lira turca",
+    "uah": "Hryvnia ucraïnesa",
+    "usd": "Dòlar dels Estats Units",
+    "vnd": "Dong vietnamita"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Aprovar",
+        "fallbackTitle": "Aprova aquest lloc per accedir als testimonis",
+        "helptext": "Permet que aquest lloc accedeixi i gasti aquest testimoni per a transaccions. Assegureu-vos de confiar en aquest lloc.",
+        "label": "Cartera",
+        "title": "Aprova l'accés a {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Sol·licitud de transacció"
+      },
+      "bridge": {
+        "description": "Mou ETH, USDC i més a través de xarxes {{numChains}}+.",
+        "title": "Intenta fer un pont?"
+      },
+      "connect": {
+        "helptext": "Permet que aquest lloc vegi l'adreça de la cartera, el saldo i sol·liciti aprovacions per a transaccions.",
+        "title": "Connecteu-vos al lloc"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Dades en brut"
+        },
+        "function": {
+          "label": "Funció"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 gestiona les aprovacions de testimonis en múltiples dapps.",
+        "header": "Signar el permís 2"
+      },
+      "reject": {
+        "action": "Rebutja-ho tot",
+        "info": "Tens <highlight>{{totalRequestCount}}</highlight> sol·licituds de transacció"
+      },
+      "revoke": {
+        "action": "Revocar",
+        "helptext": "Permet que aquest lloc revoqui l'accés per gastar aquest testimoni per a transaccions. Assegureu-vos de confiar en aquest lloc.",
+        "title": "Revoca l'accés a {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Aquest missatge conté caràcters no representables. Assegureu-vos de confiar en aquest lloc.",
+        "decodeError": "No s'ha pogut descodificar el missatge",
+        "header": "Sol·licitud de signatura",
+        "irregular": {
+          "description": "Assegureu-vos de confiar en aquest lloc abans de continuar",
+          "understand": "Entenc els riscos"
+        },
+        "toggleDataView": {
+          "raw": "Veure dades en brut",
+          "readable": "Veure les dades originals"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Assegureu-vos que sigui el correcte",
+          "title": "Aquesta no és la vostra cartera activa"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Inicia sessió aquí"
+      },
+      "getStarted": {
+        "description": "Comenceu per baixar Uniswap Wallet, disponible al vostre telèfon o navegador.",
+        "title": "Comenceu amb Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Comenceu en qüestió de segons registrant-vos a continuació o descarregueu la nostra cartera, disponible al vostre telèfon o navegador."
+        },
+        "title": "Registra't amb Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Els productes Uniswap funcionen perfectament junts per crear la millor experiència onchain."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Això proporciona l'accés del protocol Uniswap al vostre testimoni per negociar. Per seguretat, caduca al cap de 30 dies."
+    },
+    "dataUnavailable": "Les dades no estan disponibles en aquest moment; estem treballant en una solució",
+    "id": "Identificador d'error: {{eventId}}",
+    "noData": "No s'han trobat dades",
+    "request": {
+      "provideId": "Ho sentim, s'ha produït un error en processar la vostra sol·licitud. Si sol·liciteu assistència, assegureu-vos de proporcionar el vostre identificador d'error."
+    },
+    "tokenApproval": "L'aprovació del testimoni ha fallat",
+    "tokenApprovalEdited": {
+      "message": "L'import d'aprovació establert a la cartera és massa baix per completar aquesta transacció. Si us plau, torna-ho a provar i augmenta la quantitat."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Alguna cosa es va estavellar.",
+      "restart": "Reinicieu l'aplicació",
+      "title": "UH oh!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Exploreu més piscines"
+    },
+    "search": {
+      "action": {
+        "clear": "Clar",
+        "viewEtherscan": "Veure a {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "No s'han trobat resultats per a <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "No s'han pogut carregar els resultats de la cerca",
+      "label": {
+        "ownedBy": "Propietat de {{ownerAddress}}"
+      },
+      "placeholder": "Cerca fitxes i carteres",
+      "section": {
+        "nft": "Col·leccions NFT",
+        "popularNFT": "Col·leccions populars de NFT",
+        "popularTokenInfo": "Els fitxes populars s'identifiquen en funció del seu volum de negociació a Uniswap durant les últimes 24 hores.",
+        "popularTokens": "Fitxes populars",
+        "recent": "Recerques recents",
+        "tokens": "Fitxes",
+        "wallets": "Carteres"
+      }
+    },
+    "tokens": {
+      "error": "No s'han pogut carregar les fitxes",
+      "favorite": {
+        "action": {
+          "add": "Fitxa preferida",
+          "edit": "Edita els preferits",
+          "remove": "Elimina el favorit"
+        },
+        "title": {
+          "default": "Fitxes preferides",
+          "edit": "Editeu fitxes preferides"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Vol"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Capitalització de mercat",
+          "priceDecrease": "Disminució de preus",
+          "priceIncrease": "Increment de preu",
+          "totalValueLocked": "TVL",
+          "volume": "Volum"
+        },
+        "option": {
+          "marketCap": "Capitalització de mercat",
+          "priceDecrease": "Disminució del preu (24 h)",
+          "priceIncrease": "Augment de preu (24 h)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Volum Uniswap (24 h)"
+        }
+      },
+      "top": {
+        "title": "Top fitxes"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Cartera preferida",
+          "edit": "Edita els preferits",
+          "remove": "Elimina el favorit"
+        },
+        "title": {
+          "default": "Carteres preferides",
+          "edit": "Editeu les carteres preferides"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Xarxa",
+      "networks": "Xarxes",
+      "popup": {
+        "trouble": "Tens problemes per connectar-te?"
+      },
+      "titleConnected": "Connectat",
+      "titleNotConnected": "No connectat"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Has oblidat la contrasenya?",
+        "reset": "Restableix la cartera",
+        "submit": "Descobrir"
+      },
+      "password": {
+        "error": "Contrasenya incorrecta. Torna-ho a provar",
+        "reset": {
+          "initial": {
+            "description": "Uniswap no pot ajudar a recuperar la contrasenya. Heu de restablir la vostra cartera tornant a introduir la vostra frase de recuperació de 12 paraules.",
+            "help": "On trobo la meva frase de recuperació?",
+            "title": "Has oblidat la contrasenya"
+          },
+          "speedbump": {
+            "description": "Assegureu-vos de tenir la vostra frase de recuperació de 12 paraules abans de restablir la cartera. En cas contrari, no podreu recuperar els vostres fons.",
+            "help": "Vaig perdre la meva frase de recuperació",
+            "title": "Abans de continuar"
+          }
+        }
+      },
+      "subtitle": "Introdueix la teva contrasenya per desbloquejar",
+      "title": "Benvingut de nou"
+    },
+    "network": {
+      "notSupported": "Xarxa no compatible"
+    },
+    "open": "Obriu l'extensió Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "Extensió oberta",
+        "description": "Completeu aquesta acció obrint l'extensió Uniswap.",
+        "title": "Continueu en Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Doneu prioritat a l'extensió Uniswap quan us connecteu a aplicacions.",
+        "title": "Crea la cartera predeterminada"
+      },
+      "password": {
+        "enter": {
+          "title": "Introduïu la vostra contrasenya actual"
+        },
+        "error": {
+          "wrong": "Contrasenya incorrecta"
+        },
+        "placeholder": "Contrasenya actual"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Fes una còpia de seguretat",
+        "message": "Assegureu-vos de fer una còpia de seguretat de la vostra frase de recuperació per evitar perdre l'accés a la vostra cartera i fons.",
+        "title": "El teu navegador s'està quedant sense emmagatzematge"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Importeu el vostre compte Uniswap iniciant la sessió amb una clau d'accés existent.",
+    "invalidReferrer": "Tanqueu aquesta pàgina i torneu-ho a provar."
+  },
+  "fee": {
+    "bestForExotic": "El millor per a parelles exòtiques.",
+    "bestForMost": "El millor per a la majoria de parelles.",
+    "bestForStablePairs": "El millor per a parelles estables.",
+    "bestForVeryStable": "El millor per a parelles molt estables.",
+    "dynamic": "Quota dinàmica",
+    "percentEarned": "El % que guanyaràs en comissions.",
+    "selectPercent": "{{pct}}% de selecció",
+    "selectPercentDescription": "{{pct}}% de liquiditat seleccionat aquest nivell",
+    "tier": {
+      "create": {
+        "button": "Crea un nou nivell de tarifes",
+        "description": "La creació d'un nivell nou s'iniciarà en un grup nou i comportarà costos de xarxa superiors als habituals."
+      },
+      "description": {
+        "v2": "La quantitat guanyada aportant liquiditat. Tots els grups v2 tenen tarifes fixes del 0,3%. Per obtenir més opcions, proporcioneu liquiditat a la v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Esteu a punt de crear un grup amb un nivell de tarifa dinàmic. Abans de continuar, assegureu-vos que el ganxo seleccionat admet les tarifes dinàmiques."
+        }
+      },
+      "highestTvl": "TVL més alta",
+      "label": "El % que guanyaràs en comissions",
+      "missing": {
+        "description": "No trobeu el nivell que busqueu?"
+      },
+      "new": "Nou nivell",
+      "percent": {
+        "select": "{{percentage}} selecciona"
+      },
+      "recommended": {
+        "description": "Recomanat en funció de tenir la quota més alta de liquiditat per al parell de fitxes seleccionat."
+      },
+      "search": {
+        "short": "Cerca nivells"
+      },
+      "select": {
+        "existing": {
+          "button": "Seleccioneu el nivell de tarifa existent"
+        }
+      }
+    },
+    "tierExact": "nivell de tarifa {{fee}}",
+    "unavailable": "Les comissions guanyades no són visibles per a les posicions v2 fins que s'elimini la liquiditat.",
+    "uncollected": "Inclou comissions no cobrades:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Ven amb"
+    },
+    "connection": {
+      "quote": "Venint {{amount}} per valor de {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Supera l'equilibri"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} per a {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Torna",
+      "divider": "Fitxes no compatibles",
+      "message": "Aquest testimoni no s'admet per vendre. Canvia aquest actiu per un dels testimonis admesos.",
+      "swap": "Canvia a un testimoni compatible",
+      "title": "Token no compatible"
+    },
+    "welcome": {
+      "tooltip": "Veniu la vostra criptografia al vostre compte bancari o targeta de dèbit."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Trieu el testimoni"
+    },
+    "cexTransferModal": {
+      "description": "La vostra regió no admet la compra de cripto amb una targeta. Transferiu actius des d'un compte de canvi centralitzat per finançar la vostra cartera.",
+      "title": "Transferència per començar"
+    },
+    "checkout": {
+      "title": "Paga amb"
+    },
+    "checkoutWith": "Paga amb",
+    "chooseProvider": {
+      "description": "Continuareu al portal del proveïdor per veure les tarifes associades a la vostra transacció."
+    },
+    "completeTransactionHeader": "Completa la transacció amb {{serviceProvider}}",
+    "connection": {
+      "error": "Connexió fallida",
+      "errorDescription": "S'ha produït un error en connectar amb {{serviceProvider}}.",
+      "message": "Us connecto a {{serviceProvider}}",
+      "quote": "Comprar {{amount}} per valor de {{currencySymbol}}",
+      "terms": "En continuar, reconeixeu que estarà subjecte a les Condicions del servei i Política de privadesa amb {{serviceProvider}}, segons correspongui."
+    },
+    "continueInTab": "Aneu a la pestanya {{serviceProvider}} per continuar. És segur tancar aquest modal ara.",
+    "disclaimer": "En continuar, reconeixeu que estarà subjecte a les <tosLink>Condicions del servei</tosLink> i <privacyLink>Política de privadesa</privacyLink> amb {{serviceProvider}}, segons correspongui.",
+    "error": {
+      "default": "Alguna cosa ha anat malament.",
+      "load": "No s'han pogut carregar fitxes per comprar",
+      "max": "Màxim {{amount}}",
+      "min": "Mínim {{amount}}",
+      "noQuotes": "No s'han trobat cites.",
+      "unavailable": "Aquest servei no està disponible a la vostra regió",
+      "unsupported": "No s'admet a la regió",
+      "usd": "Només disponible per comprar en USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} per a {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "No s'han trobat cites"
+    },
+    "purchasedOn": "Comprat el {{serviceProvider}}",
+    "quote": {
+      "advice": "Continuareu al portal del proveïdor per veure les tarifes associades a la vostra transacció.",
+      "type": {
+        "list": "{{optionsList}}, i altres opcions",
+        "other": "Altres opcions",
+        "recent": "Usat recentment"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Des d'un compte"
+        }
+      },
+      "title": "Rebre cripto",
+      "transferFunds": "Finança la teva cartera transferint criptografia des d'una altra cartera o compte"
+    },
+    "region": {
+      "placeholder": "Cerca per país o regió",
+      "title": "Seleccioneu la vostra regió"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} per a {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Actualitza ara",
+      "learn": "Aprèn a actualitzar",
+      "recoveryPhrase": "Visualitza la frase de recuperació"
+    },
+    "description": {
+      "extension": "Hi ha disponible una nova versió de l'aplicació. Per continuar utilitzant l'extensió Uniswap, actualitzeu-la a la darrera versió.",
+      "wallet": "Hi ha disponible una nova versió de l'aplicació. Per continuar utilitzant Uniswap Wallet, actualitzeu-lo a la darrera versió."
+    },
+    "label": {
+      "recoveryPhrase": "Frase de recuperació"
+    },
+    "title": {
+      "recommendedStatus": "Hi ha disponible una nova versió"
+    }
+  },
+  "globalPreferences": {
+    "title": "Preferències globals"
+  },
+  "hero": {
+    "scroll": "Desplaceu-vos per obtenir més informació",
+    "subtitle": "El mercat onchain més gran. Compra i ven criptografia a Ethereum i més de 11 cadenes més.",
+    "swap": {
+      "title": "Canvia en qualsevol moment, <br/> a qualsevol lloc."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Obteniu més informació sobre les NFT ocultes"
+        },
+        "text": {
+          "button": "NFT ocults ({{numHidden}})",
+          "extension": "Aquestes són possibles estafes i NFT que heu amagat. Podeu fer clic amb el botó dret sobre un NFT per mostrar-lo.",
+          "mobile": "Aquestes són possibles estafes i NFT que heu amagat. Podeu prémer llargament un NFT per mostrar-lo.",
+          "title": "NFT ocults"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Més informació sobre les fitxes ocultes"
+        },
+        "text": {
+          "button": "Fitxes ocultes ({{numHidden}})",
+          "info": "Es tracta d'estafes potencials, petits saldos i fitxes que heu amagat. Els fitxes ocults no s'inclouen al saldo total de la cartera.",
+          "title": "Fitxes ocultes"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Rebeu fitxes o NFT",
+        "description": {
+          "default": "Quan aproveu, intercanvieu o transferiu fitxes o NFT, les vostres transaccions apareixeran aquí.",
+          "external": "Quan aquesta cartera faci transaccions, apareixeran aquí."
+        },
+        "title": "Encara no hi ha activitat"
+      },
+      "error": {
+        "load": "No s'ha pogut carregar l'activitat"
+      },
+      "title": "Activitat"
+    },
+    "banner": {
+      "offline": "Esteu en mode fora de línia",
+      "testnetMode": {
+        "nav": "Esteu en mode testnet. Desactiva aquesta opció a la configuració.",
+        "outage": {
+          "monad": {
+            "description": "L'accés a Monad Testnet s'atura temporalment a través de la interfície Uniswap a causa de problemes d'estabilitat de la xarxa. Els fons de Testnet no es veuen afectats. L'accés es restablirà un cop es resolguin els problemes.",
+            "title": "Monad va fer una pausa temporal"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Toca aquí per explorar milers de fitxes, NFT i molt més",
+      "title": "Explora fitxes"
+    },
+    "extension": {
+      "error": "S'ha produït un error en carregar els comptes"
+    },
+    "label": {
+      "buy": "Compra",
+      "for": "Compra/venda",
+      "receive": "Rebre",
+      "send": "Enviar",
+      "swap": "Canviar"
+    },
+    "nfts": {
+      "title": "NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Compra amb targeta de dèbit o compte bancari.",
+            "title": "Comprar cripto"
+          },
+          "import": {
+            "description": "Introduïu la frase de recuperació d'aquesta cartera per començar a canviar i enviar.",
+            "title": "Importa cartera"
+          },
+          "receive": {
+            "description": "Transferència des d'una altra cartera o compte.",
+            "title": "Rebre cripto"
+          }
+        },
+        "description": "Quan aquesta cartera compri o rebi fitxes, apareixeran aquí.",
+        "title": "Encara no hi ha fitxes",
+        "welcome": {
+          "description": "Sembla que tens una cartera nova. Anem a finançar-lo abans de fer el primer intercanvi."
+        }
+      },
+      "error": {
+        "fetch": "No s'han pogut obtenir els saldos de testimonis",
+        "load": "No s'han pogut carregar els saldos de testimonis"
+      },
+      "title": "Fitxes"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Des d'un compte",
+        "description": "Finança la teva cartera transferint criptografia des d'una altra cartera o compte",
+        "title": "Rebre cripto"
+      }
+    },
+    "warning": {
+      "viewOnly": "Aquesta és una cartera de només visualització"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Canviar o proporcionar liquiditat amb el Protocol Uniswap",
+      "title": "Interfície Uniswap"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Creeu la propera generació d'aplicacions i eines obertes.",
+    "connectWithUs": "Connecta't amb nosaltres",
+    "devDocs": "Documents de desenvolupadors",
+    "directToDeFi": "Aneu directament a DeFi",
+    "followOnX": "Segueix @Uniswap a X per conèixer les últimes actualitzacions",
+    "protocolDescription": "Els productes Uniswap funcionen amb el protocol Uniswap. El protocol és el mercat onchain més gran, amb milers de milions de dòlars en volum setmanal a través de milers de fitxes a Ethereum i més de 7 cadenes addicionals.",
+    "provideLiquidity": {
+      "message": "Proporcioneu liquiditat als grups del protocol Uniswap i obteniu comissions per swaps."
+    },
+    "swapSimple": "L'intercanvi és senzill. Accediu a milers de fitxes en més de 11 cadenes.",
+    "teamInsights": "Informació i notícies de l'equip",
+    "trusted": "milions de persones confiades"
+  },
+  "language": {
+    "afrikaans": "Afrikàans",
+    "arabic": "àrab",
+    "catalan": "català",
+    "chineseSimplified": "Xinès, simplificat",
+    "chineseTraditional": "Xinès, tradicional",
+    "czech": "txec",
+    "danish": "danès",
+    "dutch": "holandès",
+    "english": "Anglès",
+    "finnish": "finès",
+    "french": "francès",
+    "greek": "grec",
+    "hebrew": "hebreu",
+    "hindi": "hindi",
+    "hungarian": "hongarès",
+    "indonesian": "indonesi",
+    "italian": "italià",
+    "japanese": "japonès",
+    "korean": "coreà",
+    "malay": "Malai",
+    "norwegian": "noruec",
+    "polish": "polonès",
+    "portuguese": "portuguès",
+    "romanian": "romanès",
+    "russian": "rus",
+    "serbian": "serbi",
+    "spanishLatam": "espanyol (Amèrica Llatina)",
+    "spanishSpain": "espanyol (Espanya)",
+    "spanishUs": "espanyol (EUA)",
+    "swahili": "suahili",
+    "swedish": "suec",
+    "turkish": "turc",
+    "ukrainian": "Ucraïnès",
+    "urdu": "Urdú",
+    "vietnamese": "vietnamita"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 límit obert",
+      "count_other": "{{count}} límits oberts"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "El vostre preu límit és un {{percentage}}% superior al de mercat. Ajusteu el vostre preu límit per continuar.",
+        "title": "Compra {{tokenSymbol}} per sobre del preu de mercat"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "No podem calcular el preu de mercat actual. Per evitar enviar una comanda per sota del preu de mercat, comproveu la vostra connexió de xarxa i torneu-ho a provar.",
+        "title": "Preu de mercat no disponible"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "El vostre preu límit és {{percentage}}% inferior al de mercat. Ajusteu el vostre preu límit per continuar.",
+        "title": "Venda {{tokenSymbol}} per sota del preu de mercat"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Només les fitxes Mainnet estan disponibles per als límits."
+        },
+        "uniswapx": "És possible que els límits no s'executin exactament quan les fitxes arribin al preu especificat. <link />"
+      }
+    },
+    "learnMore": "Més informació sobre els límits",
+    "price": {
+      "input": {
+        "label": "Quan val 1 <tokenSymbol />"
+      },
+      "label": "Preu límit"
+    },
+    "selectSupportedTokens": "Seleccioneu fitxes compatibles"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Introduïu l'adreça del ganxo"
+      }
+    },
+    "learnMoreLabel": "Obteniu informació sobre l'oferta de liquiditat",
+    "notEnough": {
+      "label": "No hi ha prou liquiditat per mostrar el valor en USD precís."
+    },
+    "provideOnProtocols": "Aportar liquiditat en diferents protocols"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} liquiditat: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Afegiu liquiditat als grups{{version}} a Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Posicions tancades"
+      },
+      "page": {
+        "title": "Gestioneu la liquiditat del grup {{quoteSymbol}}/{{baseSymbol}} a Uniswap",
+        "version": {
+          "description": "Consulteu les vostres posicions de liquiditat {{version}} actives. Afegeix noves posicions.",
+          "title": "Gestioneu la liquiditat del grup{{version}} a Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Permès",
+    "allowLpMigration": "Permet la migració del testimoni LP",
+    "connectAccount": "Heu de connectar un compte que sigui propietari d'aquesta posició.",
+    "connectWallet": "Connecteu-vos a una cartera per veure la vostra liquiditat V2.",
+    "contract": "Contracte de migració Uniswap",
+    "firstLP": "Sou el primer proveïdor de liquiditat d'aquest grup Uniswap V3. La vostra liquiditat migrarà al preu actual de {{source}} .",
+    "highGasCost": "El vostre cost de transacció serà molt més elevat, ja que inclou el gas per crear la piscina.",
+    "invalidRange": "L'interval seleccionat no és vàlid. El preu mínim ha de ser inferior al preu màxim.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} fitxes LP",
+    "migrating": "Migració",
+    "missingV2Position": "No veieu cap de les vostres posicions v2? <link>Importa'l.</link>",
+    "noV2Liquidity": "No s'ha trobat liquiditat V2.",
+    "positionNoFees": "La vostra posició no guanyarà comissions ni s'utilitzarà en transaccions fins que el preu de mercat no es mogui al vostre rang.",
+    "priceDifference": "Diferència de preu: ",
+    "priceWarning": "Només hauríeu de dipositar liquiditat a Uniswap V3 a un preu que cregueu correcte. <br /> Si el preu sembla incorrecte, podeu fer un intercanvi per moure el preu o esperar que algú altre ho faci.",
+    "refund": "Com a mínim {{amtA}} {{symA}} i {{amtB}} {{symB}} es reemborsaran a la vostra cartera a causa de l'interval de preus seleccionat.",
+    "selectFeeTier": "Seleccioneu el nivell de tarifa",
+    "setRange": "Estableix el rang de preus",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Preu:",
+    "v2Description": "Aquesta eina migrarà de manera segura la vostra liquiditat {{source}} a V3. El procés és completament sense confiança gràcies al contracte de migració <0>Uniswap</0> ↗",
+    "v2Instruction": "Per a cada grup que es mostra a continuació, feu clic a migra per eliminar la vostra liquiditat d'Uniswap V2 i dipositar-la a Uniswap V3.",
+    "v2Title": "Migrar liquiditat V2",
+    "v3Price": "V3 {{sym}} Preu:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Entrada de preu no vàlida"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Obteniu l'aplicació Uniswap Wallet"
+      },
+      "title": "Uniswap: cartera Crypto i NFT"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp impulsat per MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay no està disponible en algunes regions. Feu clic per obtenir més informació."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Crea un compte"
+    },
+    "logIn": {
+      "button": "Inicieu sessió"
+    },
+    "signIn": {
+      "button": "Inicia sessió"
+    },
+    "signInOrConnect": {
+      "title": "Inicieu la sessió o connecteu-vos"
+    },
+    "signUp": {
+      "button": "Registra't"
+    },
+    "tabs": {
+      "createPosition": "Crear posició",
+      "viewPositions": "Veure posicions"
+    }
+  },
+  "network": {
+    "lostConnection": "És possible que hàgiu perdut la connexió a la xarxa.",
+    "mightBeDown": "És possible que {{network}} estigui inactiva en aquest moment o que hagis perdut la connexió de xarxa.",
+    "warning": "Avís de xarxa"
+  },
+  "nft": {
+    "addToBag": "Afegir a la bossa",
+    "authorsCollectionOnUni": "Col·lecció NFT de {{name}}a Uniswap",
+    "bag": "Bossa",
+    "blockedCollection": "Aquesta col·lecció està bloquejada",
+    "blockedOpenSea": "Bloquejat a OpenSea",
+    "buyTransferNFTToStart": "Compra o transfereix NFT a aquesta cartera per començar.",
+    "buyTransferTokensToStart": "Compra o transfereix fitxes a aquesta cartera per començar.",
+    "card": {
+      "notAvailable": "El contingut encara no està disponible <br />"
+    },
+    "chainSupportComingSoon": "El suport de {{chainName}} aviat",
+    "collectionOnUni": "Col·lecció NFT a Uniswap",
+    "collectonOnAddress": "Col·lecció NFT a Uniswap - {{address}}",
+    "complete": "Completa!",
+    "editListings": "Edita les llistes",
+    "event": "Esdeveniment",
+    "explore": "Exploreu les NFT",
+    "learnWhy": "Aprèn per què",
+    "list": {
+      "header": {
+        "lastPrice": "Darrer"
+      },
+      "title": "Llista de NFT"
+    },
+    "listedSignificantly_one": "Un NFT apareix a {{percentage}} per sota del preu mínim de la col·lecció. Esteu segur que voleu continuar?",
+    "listedSignificantly_other": "{{count}} Els NFT es mostren significativament per sota del preu mínim de la col·lecció. Esteu segur que voleu continuar?",
+    "listForSale": "Llista en venda",
+    "lowPrice": "Preu de llista baix",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} tarifes"
+      }
+    },
+    "maxFees": "Comissions màximes",
+    "maxRoyalties": "Màxim drets d'autor del creador",
+    "noItems": "No hi ha elements per mostrar",
+    "noneAtAddress": "No hi ha cap actiu de col·lecció en aquesta adreça",
+    "noPools": "Encara no hi ha piscines",
+    "notListed": "No figura a la llista",
+    "proceedsIfSold": "Els guanys si es ven",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Ja apareix a {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} per sota del preu mínim."
+        }
+      }
+    },
+    "refundsInEth": "Els reemborsaments dels articles no disponibles es faran a ETH",
+    "removeFromBag": "Traieu de la bossa",
+    "reportSpam": "Informa com a correu brossa",
+    "returnToExplore": "Torna a NFT Explore",
+    "returnToMy": "Torna a My NFTs",
+    "setPrices": "Estableix preus per continuar",
+    "startListing": "Comença la llista",
+    "successListed": "S'ha llistat correctament",
+    "unavailableToList": "No disponible per a la llista",
+    "whyTransaction": {
+      "reason": "Llistar un NFT requereix una aprovació única del mercat per a cada col·lecció NFT."
+    },
+    "willAppearHere": "Les vostres transaccions en cadena i les vostres compres criptogràfiques apareixeran aquí.",
+    "wishGranted": "Uniswap ha complert el teu desig!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Aprovar la recollida",
+        "approve_other": "Aprovar les col·leccions",
+        "sign_one": "Llistat de signes",
+        "sign_other": "Signar llistats"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} màx"
+      }
+    },
+    "my": "Els meus NFT",
+    "noneYet": "Encara no hi ha NFT",
+    "sell": "Vendre NFT"
+  },
+  "notFound": {
+    "oops": "Vaja, torna'm a Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "Exempció de responsabilitat del Regne Unit:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} amagat",
+      "unhidden": "{{assetName}} no amagat"
+    },
+    "copied": {
+      "address": "S'ha copiat l'adreça",
+      "calldata": "S'han copiat les dades de la trucada",
+      "contractAddress": "S'ha copiat l'adreça del contracte",
+      "failed": "No s'ha pogut copiar al porta-retalls",
+      "image": "Imatge copiada",
+      "nftUrl": "URL NFT copiat",
+      "tokenUrl": "S'ha copiat l'URL del testimoni",
+      "transactionId": "S'ha copiat l'identificador de la transacció",
+      "unitag": "S'ha copiat el nom d'usuari"
+    },
+    "countryChange": "S'ha canviat a {{countryName}}",
+    "network": {
+      "changed": "S'ha canviat a {{network}}"
+    },
+    "passwordChanged": "La contrasenya ha canviat",
+    "restore": {
+      "success": "Cartera restaurada!"
+    },
+    "send": {
+      "network": "S'està enviant el {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Informat"
+      }
+    },
+    "swap": {
+      "network": "Canvi a {{network}}",
+      "pending": {
+        "swap": "Canvi pendent",
+        "unwrap": "Desembolcall pendent",
+        "wrap": "Embolcall pendent"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "S'ha cancel·lat {{currencySymbol}} aprovació.",
+        "fail": "No s'ha pogut aprovar {{currencySymbol}} per utilitzar-lo amb {{address}}.",
+        "success": "{{currencySymbol}} aprovat per utilitzar-lo amb {{address}}."
+      },
+      "pending": "Transacció pendent",
+      "swap": {
+        "canceled": "S'ha cancel·lat l'intercanvi {{inputCurrencySymbol}}-{{outputCurrencySymbol}} .",
+        "expired": "{{inputCurrencyAmountWithSymbol}} per a l'intercanvi {{outputCurrencyAmountWithSymbol}} ha caducat.",
+        "fail": "No s'ha pogut canviar {{inputCurrencyAmountWithSymbol}} per {{outputCurrencyAmountWithSymbol}}.",
+        "success": "S'ha canviat {{inputCurrencyAmountWithSymbol}} per {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "S'ha cancel·lat l'enviament de {{tokenNameOrAddress}}",
+        "fail": "No s'ha pogut enviar {{tokenNameOrAddress}} a {{walletNameOrAddress}}",
+        "received": "S'ha rebut {{tokenNameOrAddress}} de {{walletNameOrAddress}}",
+        "success": "S'ha enviat {{tokenNameOrAddress}} a {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "No s'ha pogut realitzar la transacció amb {{addressOrEnsName}}",
+          "short": "La transacció ha fallat"
+        },
+        "success": {
+          "full": "Transaccionat amb {{addressOrEnsName}}",
+          "short": "Transacció confirmada"
+        }
+      },
+      "unwrap": {
+        "canceled": "S'ha cancel·lat el {{inputCurrencySymbol}} desembolicat.",
+        "fail": "No s'ha pogut desenrotllar {{inputCurrencyAmountWithSymbol}}.",
+        "success": "S'ha desembolicat {{inputCurrencyAmountWithSymbol}} i s'ha rebut {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "S'ha cancel·lat {{inputCurrencySymbol}} embolcall.",
+        "fail": "No s'ha pogut embolicar {{inputCurrencyAmountWithSymbol}}.",
+        "success": "S'ha embolicat {{inputCurrencyAmountWithSymbol}} i s'ha rebut {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Enviament pendent"
+    },
+    "walletConnect": {
+      "confirmed": "Transacció confirmada amb {{dappName}}",
+      "connected": "Connectat",
+      "disconnected": "Desconnectat",
+      "failed": "La transacció ha fallat amb {{dappName}}",
+      "networkChanged": {
+        "full": "S'ha canviat a {{networkName}}",
+        "short": "Xarxes commutades"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Continueu a l'extensió Uniswap",
+      "title": "Èxit!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Us suggerim escriure això en un paper i guardar-lo en un lloc segur, com una caixa forta.",
+        "displayWarning": {
+          "description": "Llegiu atentament el següent abans de continuar.",
+          "note": {
+            "access": "Aquesta frase de recuperació us ofereix accés complet a la vostra cartera i fons",
+            "secure": "Mireu això en privat i no ho compartiu amb ningú",
+            "storage": "Anoteu-lo i guardeu-lo en un lloc segur"
+          },
+          "title": "Algunes coses importants a saber"
+        },
+        "error": "Paraula no vàlida o mal escrita",
+        "placeholder": "Paraula secreta",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} completat",
+        "selectedWordPlaceholder": "Seleccioneu la paraula",
+        "subtitle_one": "Quina és la {{count}}primera paraula de la teva frase de recuperació?",
+        "subtitle_two": "Quina és la {{count}}segona paraula de la teva frase de recuperació?",
+        "subtitle_few": "Quina és la {{count}}primera paraula de la teva frase de recuperació?",
+        "subtitle_other": "Quina és la {{count}}a la paraula de la teva frase de recuperació?",
+        "title": "Assegurem-nos que l'heu gravat correctament"
+      },
+      "option": {
+        "badge": {
+          "quick": "Ràpid"
+        },
+        "cloud": {
+          "description": "Feu una còpia de seguretat de la vostra cartera mitjançant {{cloudProviderName}}, protegit per una contrasenya de recuperació.",
+          "title": "Establiu una contrasenya de recuperació"
+        },
+        "manual": {
+          "description": "Anota les teves 12 paraules secretes en un paper i emmagatzema'l en un lloc segur.",
+          "title": "Escriu la frase de recuperació"
+        }
+      },
+      "reminder": {
+        "description": "Fer una còpia de seguretat de la cartera garanteix que sempre podeu recuperar els vostres actius si mai perdeu el telèfon o obteniu un dispositiu nou.",
+        "title": "És hora de fer una còpia de seguretat de la cartera",
+        "warning": {
+          "description": "Si no configureu un mètode de còpia de seguretat, no tindreu cap manera de recuperar la cartera si perdeu el telèfon, suprimiu l'aplicació o obteniu un dispositiu nou.",
+          "title": "Podríeu perdre els vostres fons"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Si alguna vegada ho oblideu, no us el podem restablir. Anoteu-lo en un lloc segur o deseu-lo de manera segura en un gestor de contrasenyes.",
+          "disclaimer": "Entenc que Uniswap Labs no pot restablir la meva contrasenya de recuperació.",
+          "title": "És important desar aquesta contrasenya"
+        },
+        "manual": {
+          "description": "Assegureu-vos que heu escrit la vostra frase de recuperació correctament i que tingueu un lloc segur per guardar-la.",
+          "disclaimer": "Entenc que Uniswap Labs no pot recuperar la meva cartera si la perdo.",
+          "title": "Abans d'acabar..."
+        }
+      },
+      "subtitle": "Així és com recuperareu la vostra cartera si suprimiu l'aplicació o perds el dispositiu.",
+      "title": {
+        "existing": "Fes una còpia de seguretat de la teva cartera",
+        "new": "Trieu el vostre mètode de còpia de seguretat"
+      },
+      "view": {
+        "disclaimer": "Entenc que si perdo la meva frase de recuperació, Uniswap Labs no em pot ajudar a restaurar-la.",
+        "subtitle": {
+          "message1": "Llegiu atentament el següent abans de continuar",
+          "message2": "Haureu d'introduir les 12 paraules secretes per recuperar la vostra cartera."
+        },
+        "title": "Escriu la teva frase de recuperació",
+        "warning": {
+          "message1": "Aquesta frase de recuperació us ofereix accés complet a la vostra cartera i fons",
+          "message2": "Anoteu-lo i guardeu-lo en un lloc segur",
+          "message3": "Mireu això en privat i <u>no ho compartiu amb ningú</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Haureu d'introduir-lo per recuperar els vostres fons. Si mai l'oblides, no us el podrem recuperar.",
+        "title": "Confirmeu la vostra contrasenya de recuperació"
+      },
+      "createPassword": {
+        "description": "Haureu d'introduir-lo per recuperar els vostres fons. Si mai l'oblides, no us el podrem recuperar.",
+        "title": "Creeu la vostra contrasenya de recuperació"
+      }
+    },
+    "complete": {
+      "button": "Obriu l'extensió Uniswap",
+      "description": "La vostra cartera està preparada per enviar i rebre cripto. Obriu l'extensió Uniswap amb la drecera següent.",
+      "go_to_uniswap": "Aneu a l'aplicació web Uniswap",
+      "pin": {
+        "description": "Feu clic a la icona del pin per afegir l'extensió Uniswap a la vostra barra d'eines.",
+        "title": "Fixeu l'extensió Uniswap"
+      },
+      "title": "Estàs tot a punt"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Ho necessitareu per desbloquejar la vostra cartera i accedir a la vostra frase de recuperació",
+        "title": {
+          "default": "Crea una contrasenya",
+          "reset": "Restablir la contrasenya"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "L'extensió Uniswap només és compatible amb Chrome a l'escriptori.",
+          "title": "Chrome al mòbil no és compatible (encara)"
+        },
+        "description": "L'extensió Uniswap només és compatible amb Chrome ara mateix.",
+        "title": "Aquest navegador no és compatible (encara)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Configureu un pla de recuperació si mai perdeu el vostre telèfon o en obteniu un de nou.",
+          "title": "Fes una còpia de seguretat de la teva cartera"
+        },
+        "fund": {
+          "description": "Finança la teva cartera comprant cripto o transferint des d'un altre compte.",
+          "title": "Aconsegueix el teu primer testimoni"
+        },
+        "label": {
+          "required": "Obligatori",
+          "swipe": "Llisca"
+        },
+        "pushNotifications": {
+          "description": "Obteniu alertes de preus sobre les vostres fitxes preferides, tendències del mercat i molt més.",
+          "title": "Estigueu al corrent"
+        },
+        "unitag": {
+          "description": "Creeu un perfil web3 personalitzat i compartiu fàcilment la vostra adreça amb els amics.",
+          "title": "Reclameu el vostre nom d'usuari {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 paraula no és vàlida o està mal escrita",
+        "invalidWords_other": "Les paraules {{count}} no són vàlides o estan mal escrites"
+      },
+      "method": {
+        "import": {
+          "message": "Introduïu la vostra frase de recuperació des d'una altra cartera criptogràfica.",
+          "title": "Importa una cartera"
+        },
+        "passkey": {
+          "message": "Sincronitza la teva cartera Uniswap amb una clau d'accés existent.",
+          "title": "Inicieu la sessió amb la clau d'accés"
+        },
+        "restore": {
+          "message": {
+            "android": "Afegiu carteres de les quals hàgiu creat una còpia de seguretat al vostre compte de Google Drive.",
+            "ios": "Afegiu carteres de les quals hàgiu creat una còpia de seguretat al vostre compte d'iCloud."
+          },
+          "title": "Restaura una cartera"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "No vols res de les anteriors?"
+        },
+        "subtitle": "Trieu a quina cartera voleu tornar a iniciar la sessió.",
+        "title": "Benvingut de nou a Uniswap",
+        "wallet": {
+          "button": "Visualitza la frase de recuperació",
+          "count_one": "+1 cartera més",
+          "count_other": "+{{count}} altres carteres"
+        },
+        "warning": {
+          "caption": "Assegureu-vos d'haver fet una còpia de seguretat de totes les altres carteres. Si mai voleu restaurar-los, necessitareu les seves frases de recuperació o les còpies de seguretat {{cloudProvider}} corresponents.",
+          "title": "Estàs segur?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Importa una cartera des de l'aplicació mòbil mitjançant un codi QR.",
+          "title": "Utilitzeu Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "Sincronitza la teva cartera Uniswap amb una clau d'accés existent.",
+          "title": "Inicieu la sessió amb la clau d'accés"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Introduïu la vostra frase de recuperació des d'una altra cartera criptogràfica.",
+          "title": "Importa una cartera"
+        },
+        "title": "Inicieu la sessió o importeu una cartera"
+      },
+      "title": "Trieu com voleu afegir la vostra cartera"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "La meva frase de recuperació té 12 paraules",
+        "importing": "S'està important...",
+        "longPhrase": "La meva frase de recuperació és més llarga"
+      },
+      "error": {
+        "invalidPhrase": "La frase que has introduït no és vàlida"
+      },
+      "subtitle": "Escriviu o enganxeu la vostra frase de recuperació de 12 paraules",
+      "title": "Introduïu la vostra frase de recuperació"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continueu a la finestra d'inici de sessió segura."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Ja tinc cartera",
+        "signInOrImport": "Inicia la sessió o importa"
+      },
+      "mobileScan": {
+        "button": "Escaneja el codi QR per importar",
+        "title": "Tens l'aplicació Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Afegiu una cartera existent",
+        "create": "Crea una cartera",
+        "createAccount": "Creeu un compte"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "Aquest és un nom públic que qualsevol pot utilitzar per enviar-vos cripto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Acabar"
+        },
+        "subtitle": "Aquest sobrenom només és visible per a tu",
+        "title": "Doneu un nom a la vostra cartera"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Per rebre notificacions, activeu les notificacions per a Uniswap Wallet a la configuració del vostre dispositiu.",
+        "title": "Permís de notificacions"
+      },
+      "subtitle": "Manteniu-vos actualitzat sobre l'estat de les transaccions i els canvis importants de preu dels fitxes preferits.",
+      "title": "Activa les notificacions"
+    },
+    "passkey": {
+      "account": {
+        "protection": "El vostre compte està protegit pel vostre propi emmagatzematge segur de contrasenyes."
+      },
+      "biometric": {
+        "scan": "Telèfon, tauleta o navegador: només cal escanejar la vostra biometria i iniciareu la sessió."
+      },
+      "create": "Crea la teva clau d'accés",
+      "use": {
+        "recovery": {
+          "phrase": "Utilitzeu una frase de recuperació"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Confirmem que ho has encertat. Si ho perdeu o anoteu de manera incorrecta, no podreu recuperar els vostres fons.",
+          "default": "Si ho perdeu o anoteu de manera incorrecta, no podreu recuperar els vostres fons."
+        },
+        "title": "Confirmem que ho has encertat"
+      },
+      "view": {
+        "subtitle": "Haureu d'introduir les 12 paraules secretes per recuperar la vostra cartera.",
+        "title": {
+          "hasPassword": "Si mai oblides la teva contrasenya..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "estic preparat",
+          "message": "La vostra frase de recuperació és la que us permet (i qualsevol que la tingui) accés als vostres fons. Assegureu-vos de guardar-ho per a vosaltres mateixos.",
+          "title": "Fes aquest pas en un lloc privat"
+        },
+        "screenshot": {
+          "message": "Qualsevol persona que tingui accés a les teves fotos pot accedir a la teva cartera. Us recomanem que anoteu les vostres paraules.",
+          "title": "Les captures de pantalla no són segures"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Obteniu més informació sobre la seguretat de la cartera",
+        "subtitle": "Utilitzeu la vostra nova contrasenya per desbloquejar la vostra cartera.",
+        "title": "Restableix la contrasenya"
+      }
+    },
+    "scan": {
+      "error": "S'ha produït un error en carregar el codi QR",
+      "otp": {
+        "error": "El codi que heu enviat és incorrecte o s'ha produït un error en enviar-lo. Siusplau torna-ho a provar.",
+        "failed": "Intents fallits: {{number}}",
+        "subtitle": "Comproveu la vostra aplicació mòbil Uniswap per obtenir el codi de 6 caràcters",
+        "title": "Introduïu el codi únic"
+      },
+      "subtitle": "Escaneja el codi QR amb l'aplicació mòbil Uniswap per començar a importar la teva cartera.",
+      "title": "Importa la cartera des de l'aplicació",
+      "troubleScanning": {
+        "message": "Importa mitjançant frase de recuperació",
+        "title": "Problemes per escanejar?"
+      },
+      "wifi": "Connecta el teu telèfon a la mateixa xarxa WiFi que l'ordinador."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Per utilitzar la biometria, configureu-la primer a la configuració",
+            "ios": "Per utilitzar {{biometricsMethod}}, permet l'accés a la configuració del sistema"
+          },
+          "title": {
+            "android": "La biometria està desactivada",
+            "ios": "{{biometricsMethod}} està desactivat"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Activa la biometria",
+          "ios": "Activa {{biometricsMethod}}"
+        },
+        "setup": "Configurar"
+      },
+      "subtitle": {
+        "android": "Afegiu una capa addicional de seguretat requerint la biometria per enviar transaccions.",
+        "ios": "Afegiu una capa addicional de seguretat requerint {{biometricsMethod}} per enviar transaccions."
+      },
+      "title": "Protegeix la teva cartera"
+    },
+    "selectWallets": {
+      "error": "No s'han pogut carregar les adreces",
+      "title": {
+        "default": "Trieu carteres per importar",
+        "error": "S'ha produït un error en importar carteres"
+      }
+    },
+    "termsOfService": "En continuar, accepto les<highlightTerms> Condicions del servei </highlightTerms>i accepto la<highlightPrivacy> Política de privadesa</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Què és una frase de recuperació?"
+      }
+    },
+    "wallet": {
+      "continue": "Mantem-ho segur",
+      "defaultName": "Cartera {{number}}",
+      "description": {
+        "full": "Aquest és el vostre espai personal per a fitxes, NFT i totes les vostres operacions. Acabeu de configurar-lo per mantenir els vostres fons segurs."
+      },
+      "title": "Benvingut a la teva nova cartera"
+    },
+    "welcome": {
+      "subtitle": "Acabem de configurar la teva cartera.",
+      "title": "Benvingut!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Encara podeu intercanviar i proporcionar liquiditat en aquesta cadena sense problemes."
+    },
+    "title": "{{versionName}} tornarà aviat"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Teniu problemes per utilitzar o accedir a la vostra clau d'accés? Visiteu Uniswap Support per obtenir ajuda.",
+        "title": "Ajuda amb les claus de pas"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 permet compartir i gestionar les aprovacions de testimonis entre diferents aplicacions."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Interval de tick actiu",
+    "addAs": "Afegeix com a {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Anualitzat en funció de les tarifes d'1 dia"
+    },
+    "aprText": "APR de la piscina",
+    "balances": "Balanços de piscina",
+    "closedCTA": {
+      "description": "Podeu veure'ls utilitzant el filtre de la part superior de la pàgina.",
+      "title": "Busques les teves posicions tancades?"
+    },
+    "collectAs": "Recolliu com a {{nativeWrappedSymbol}}",
+    "collectFees": "Recaptar quotes",
+    "create": {
+      "info": "Les vostres seleccions crearan un nou conjunt de liquiditat que pot provocar una liquiditat inicial més baixa i una major volatilitat. Penseu en afegir-hi una piscina existent per minimitzar aquests riscos."
+    },
+    "createdPosition": {
+      "cancelled": "Crear posició cancel·lada",
+      "failed": "No s'ha pogut crear la posició"
+    },
+    "details": "Detalls de la piscina",
+    "earnings": {
+      "empty": "Encara no tens guanys"
+    },
+    "explorers": "Exploradors",
+    "import": {
+      "link": {
+        "description": "Algunes posicions v2 no es mostren automàticament."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Algunes posicions v2 no es mostren automàticament. Seleccioneu un parell de fitxes per importar i veure les vostres posicions."
+          }
+        }
+      },
+      "success": "S'ha importat la piscina"
+    },
+    "incentives": {
+      "administeredRewards": "Les recompenses per proveïment de liquiditat són administrades per la Fundació Uniswap.",
+      "collect": "Recull",
+      "collectedRewards": "Recompenses recollides",
+      "collectFailed": "S'ha produït un error en la recollida, si us plau, torna-ho a provar.",
+      "collectFailedNoRetry": "No s'ha pogut recollir les recompenses.",
+      "collectingRewards": "Recollida de recompenses",
+      "collectRewards": "Recull recompenses",
+      "collectRewardsCancelled": "Recollida de recompenses cancel·lades",
+      "eligible": "Els grups elegibles tenen recompenses fitxes perquè pugueu guanyar més",
+      "rewardsEarned": "Recompenses guanyades",
+      "uni": {
+        "description": "Guanyeu recompenses UNI proporcionant liquiditat als grups elegibles",
+        "findMore": "Trobeu més piscines amb les recompenses UNI"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "No s'han pogut recuperar les recompenses. Això pot ser degut a un problema de xarxa. Prova de tornar a carregar la pàgina."
+        }
+      }
+    },
+    "info": "Informació de la piscina",
+    "limitFluctuation": {
+      "warning": "Tingueu en compte que l'execució dels límits pot variar segons les fluctuacions del mercat en temps real i la congestió de la xarxa Ethereum. És possible que els límits no s'executin exactament quan les fitxes arribin al preu especificat."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "S'ha produït un error en obtenir les dades necessàries per a la vostra transacció."
+        }
+      },
+      "outOfSync": {
+        "message": "Els preus d'aquest grup difereixen amb els preus de mercat de les fitxes seleccionades. Ajusteu el vostre rang de preus en conseqüència o espereu que el grup es reequilibri per evitar pèrdues."
+      }
+    },
+    "maxPrice": "Preu màxim",
+    "migrateLiquidity": "Migrar liquiditat",
+    "migrateLiquidityDisabledTooltip": "Aquesta cadena no admet grups de liquiditat v4.",
+    "migrateToV4": "Migrar a la v4",
+    "minPrice": "Preu mínim",
+    "newPosition": {
+      "plus": "+ Nova posició",
+      "title": "Nova posició"
+    },
+    "newSpecificPosition": "Nova posició {{symbol}}",
+    "openPosition": {
+      "cta": "Afegiu liquiditat a un grup i visualitzeu les vostres posicions aquí"
+    },
+    "openToStart": "Obre una posició nova o crea un grup per començar.",
+    "percent": "{{pct}}% piscina",
+    "pooled": "Agrupat {{sym}}:",
+    "position": "Posició",
+    "positions": {
+      "title": "Les teves posicions",
+      "transaction": {
+        "settings": "Configuració de la transacció"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "El valor en USD no està disponible actualment per a aquesta posició. Consulteu els detalls de la posició per a les quantitats de testimoni dipositats."
+      }
+    },
+    "priceRange": "Gamma de preus",
+    "refresh": {
+      "prices": "Actualitzar preus"
+    },
+    "removeLiquidity": "Eliminar liquiditat",
+    "rewardAPR": {
+      "percent": "{{pct}} recompensa TAE"
+    },
+    "rewards": "Recompenses",
+    "rewardsPool": {
+      "label": "Fitxes del grup de recompenses:"
+    },
+    "selectPair": "Seleccioneu parell",
+    "share": {
+      "label": "Comparteix la teva piscina:"
+    },
+    "specificPosition": "posició {{symbol}}",
+    "tokenPair": "Parell de fitxes",
+    "top": {
+      "tvl": "Les millors piscines de TVL"
+    },
+    "totalAPR": "TAE total",
+    "totalTokens": "El total de fitxes del grup:",
+    "uncollectedFees": "Comissions no cobrades",
+    "v2": "piscines v2",
+    "v3": "piscines v3",
+    "viewPools": "Veure piscines",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D vol"
+      }
+    },
+    "withdrawAs": "Retira't com a {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "grups v2 que coincideixen amb la vostra selecció de parella."
+      },
+      "notFound": {
+        "description": "No s'han trobat grups v2 coincidents. Comproveu la vostra selecció de testimoni i assegureu-vos que esteu connectat a la cartera correcta."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Explora les piscines"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Els ganxos són una funció avançada que permet als grups interactuar amb contractes intel·ligents, desbloquejant diverses capacitats. Aneu amb compte quan afegiu ganxos, ja que alguns poden ser maliciosos o causar conseqüències no desitjades."
+    },
+    "addingHook": {
+      "disclaimer": "Afegir ganxos pot tenir conseqüències no desitjades. Feu la vostra recerca i procediu sota el vostre propi risc.",
+      "hideProperties": "Amaga propietats",
+      "invalidAddress": "Introduïu una adreça de ganxo vàlida",
+      "viewProperties": "Veure propietats"
+    },
+    "create": {
+      "invalidPrice": "Preu no vàlid",
+      "invalidRange": "Interval no vàlid",
+      "modal": {
+        "header": "Creació de posició"
+      }
+    },
+    "currentValue": "Valor de la posició actual",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "El preu inicial introduït és {{value}}% inferior al preu de mercat i pot provocar una pèrdua de fons. Vols continuar?",
+            "more": "El preu inicial introduït és {{value}}% més que el preu de mercat i pot provocar una pèrdua de fons. Vols continuar?"
+          },
+          "title": "Gran diferència de preu amb el mercat"
+        }
+      },
+      "description": "Especifiqueu les quantitats testimonials per a la vostra aportació de liquiditat."
+    },
+    "depositedCurrency": "Dipositat {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Creeu una posició v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "Entenc els riscos potencials que comporta afegir aquest ganxo.",
+      "donateWarning": "Aquesta bandera pot comportar canvis en les tarifes obtingudes.",
+      "liquidityWarning": "Aquesta bandera pot fer que el grup bloquegi l'addició de nova liquiditat. La vostra transacció es pot revertir.",
+      "removeWarning": "Pot fer que els vostres fons es bloquegin o que us impedeixin cobrar comissions.",
+      "swapWarning": "Aquesta bandera pot permetre als proveïdors de liquiditat aprofitar més fàcilment la liquiditat just a temps, la qual cosa pot comportar menys comissions guanyades.",
+      "warningHeader": "Important: riscos d'enganxament identificats",
+      "warningInfo": "Hem identificat riscos potencials amb aquest ganxo. Si us plau, assegureu-vos d'entendre com funciona aquest ganxo abans de decidir continuar."
+    },
+    "increase": {
+      "fot": "No s'admet afegir liquiditat per a {{token}} i altres fitxes de \"Comissió per transferència\"."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% menys que el preu de mercat",
+        "positive": "{{ value }}% més que el preu de mercat"
+      },
+      "info": "Quan creeu un grup nou, heu d'establir el tipus de canvi inicial per a ambdues fitxes. Aquesta taxa reflectirà el preu inicial de mercat.",
+      "set": "Estableix el preu inicial",
+      "useMarketPrice": "Utilitzeu el preu de mercat"
+    },
+    "migrate": {
+      "liquidity": "Quan migreu posicions, no podeu canviar el vostre parell de fitxes, però podeu afegir un ganxo per millorar la funcionalitat.",
+      "v4unsupportedChain": "Aquesta cadena no és compatible amb les agrupacions v4."
+    },
+    "new": {
+      "protocol": "Nova posició {{protocol}}"
+    },
+    "notFound": {
+      "description": "Els detalls sobre aquesta posició no estan disponibles. Comproveu que esteu connectat amb la cartera correcta."
+    },
+    "protocol": "{{protocol}} posició",
+    "provide": {
+      "liquidity": "Trieu els fitxes als quals voleu proporcionar liquiditat. Podeu seleccionar fitxes a totes les xarxes admeses.",
+      "liquidityDescription": {
+        "creatingPool": "L'establiment d'una liquiditat de gamma completa en crear un grup garanteix una participació contínua del mercat a tots els preus possibles, oferint simplicitat però amb un potencial de pèrdua impermanent més gran.",
+        "custom": "El rang personalitzat us permet concentrar la vostra liquiditat dins de límits de preus específics, millorant l'eficiència del capital i els guanys de comissions, però requerint una gestió més activa."
+      },
+      "outOfRange": {
+        "closePosition": "Posició tancada",
+        "description": "L'interval d'aquesta posició no es pot ajustar durant la migració. Per establir un interval nou, tanqueu aquesta posició i obriu una nova posició v4.",
+        "title": "Esteu migrant una posició fora de l'abast"
+      }
+    },
+    "removeHook": "Traieu el ganxo",
+    "resetDescription": "Les vostres seleccions de fitxes, preu i rang es restabliran.",
+    "setRange": {
+      "inputsBelow": "Utilitzeu les entrades següents per definir el vostre rang."
+    },
+    "step": {
+      "deposit": "Introduïu els imports dels dipòsits",
+      "price": "Establiu el preu inicial i els imports dels dipòsits",
+      "range": "Estableix el rang de preus i els imports dels dipòsits",
+      "select": "Seleccioneu parell de fitxes i tarifes"
+    },
+    "value": "Valor de posició",
+    "valueUnavailable": "El valor en USD no està disponible actualment per a aquesta posició. Consulteu els detalls de la posició per a les quantitats de testimoni dipositats.",
+    "wrapped": {
+      "unwrap": "Desembolica {{wrappedToken}}",
+      "warning": {
+        "info": "Desembolica el teu {{wrappedToken}} i diposita el {{nativeToken}} per proporcionar una liquiditat més rendible i eficient."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Connecteu la vostra cartera per veure les vostres posicions actuals."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "L'aplicació registra estadístiques d'ús anònimes per tal de millorar amb el temps.",
+    "autoRouter": "L'aplicació obté la ruta comercial òptima des d'un servidor d'Uniswap Labs.",
+    "infura": "L'aplicació obté dades a la cadena i crea trucades de contracte amb una API Infura.",
+    "thirdPartyApis": "Aquesta aplicació utilitza les següents API de tercers:",
+    "trm": "L'aplicació recopila de forma segura l'adreça de la cartera i la comparteix amb TRM Labs Inc. per motius de risc i de compliment.",
+    "uniswaptos": "Condicions del servei d'Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 aplicació connectada",
+      "connections_other": "{{count}} aplicacions connectades"
+    },
+    "error": {
+      "camera": {
+        "message": "Per escanejar un codi, permet l'accés a la càmera a la configuració del sistema",
+        "title": "La càmera està desactivada"
+      },
+      "none": "No s'ha trobat cap codi QR"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Escaneja un codi QR",
+        "show": "Mostra el meu codi QR"
+      },
+      "error": {
+        "message": "Assegureu-vos que esteu escanejant un codi QR d'adreça d'Ethereum vàlid abans de tornar-ho a provar.",
+        "title": "Codi QR no vàlid"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "No s'ha trobat cap missatge."
+      },
+      "method": {
+        "default": "Sol·licitud des de {{dappNameOrUrl}}",
+        "signature": "Sol·licitud de signatura de {{dappNameOrUrl}}",
+        "transaction": "Sol·licitud de transacció de {{dappNameOrUrl}}"
+      },
+      "withAmount": "Permetre que {{dappName}} utilitzi fins a<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Permetre que {{dappName}} utilitzi el vostre {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Connectant...",
+      "loading": "Carregant..."
+    },
+    "title": "Escaneja un codi QR",
+    "wallet": {
+      "networks": "Xarxes suportades",
+      "title": "Podeu enviar i rebre fitxes i NFT a totes les nostres xarxes compatibles amb {{numOfNetworks}} ."
+    }
+  },
+  "range": {
+    "outOfView": "Gamma fora de vista"
+  },
+  "removeLiquidity": {
+    "pooled": "Agrupat {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Això proporciona l'accés del protocol Uniswap al vostre testimoni per al comerç."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Quan està disponible, agrega fonts de liquiditat per obtenir millors preus i permutes sense gas.",
+    "cheapest": {
+      "v4": "El client Uniswap selecciona l'opció comercial òptima tenint en compte el preu i els costos de la xarxa."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Caducat",
+      "subtitle": "Introduïu aquest codi a l'extensió Uniswap. La vostra frase de recuperació s'encriptarà i es transferirà de manera segura.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Codi nou en {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Codi nou en {{minutes}}m {{seconds}}s",
+          "seconds": "Codi nou en {{seconds}}s"
+        }
+      },
+      "title": "Codi d'un sol intercanvi"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Sí, continua"
+      },
+      "label": {
+        "browser": "Navegador",
+        "device": "Dispositiu"
+      },
+      "subtitle": "Continueu només si esteu escanejant un codi QR de l'extensió Uniswap en un dispositiu de confiança.",
+      "title": "Estàs provant d'importar la teva cartera?",
+      "warning": "Aneu amb compte amb els llocs i les aplicacions que suplantin Uniswap. En cas contrari, la vostra cartera es pot veure compromesa."
+    },
+    "error": {
+      "encryption": "No s'ha pogut preparar la frase llavor.",
+      "noCode": "No s'ha rebut cap OTP. Siusplau torna-ho a provar.",
+      "timeout": {
+        "message": "Torna a escanejar el codi QR de l'extensió Uniswap per continuar sincronitzant la teva cartera.",
+        "title": "S'ha esgotat el temps de connexió"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Per escanejar aquest codi QR, el telèfon ha d'estar connectat a la mateixa xarxa WiFi que l'ordinador i qualsevol VPN s'hauria d'apagar temporalment.",
+        "title": "Canvia la teva xarxa WiFi"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Aviat: cerca i explora fitxes a la cadena {{chainName}}",
+    "input": {
+      "placeholder": "Cerca fitxes i pools"
+    },
+    "results": {
+      "count_one": "1 element",
+      "count_other": "{{count}} articles"
+    },
+    "ukDisclaimer": "Exempció de responsabilitat per als residents del Regne Unit"
+  },
+  "send": {
+    "button": {
+      "review": "Revisió de la transferència"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Cost de la xarxa"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Balanç: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Seleccioneu el destinatari",
+      "input": {
+        "placeholder": "Cerca ENS o adreça"
+      },
+      "previous_one": "1 trasllat anterior",
+      "previous_other": "{{count}} transferències anteriors",
+      "results": {
+        "empty": "Sense resultats",
+        "error": "L'adreça que heu escrit no existeix o està mal escrita."
+      },
+      "section": {
+        "favorite": "Carteres preferides",
+        "recent": "Recent",
+        "search": "Resultats de la cerca",
+        "viewOnly": "Carteres de només visualització",
+        "yours": "Les teves carteres"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Només envieu fons a aquesta cartera si teniu la frase de recuperació o coneixeu el propietari de la cartera.",
+          "title": "Teniu això com a cartera de només visualització"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Quan envieu fitxes a una adreça de cartera, es mostraran aquí",
+          "title": "No s'han guardat carteres"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Estàs enviant"
+      },
+      "summary": {
+        "button": {
+          "title": "Confirmeu l'enviament"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "L'adreça que heu escrit no existeix o està mal escrita.",
+        "title": "Sense resultats"
+      },
+      "placeholder": "Cerca ENS o adreça"
+    },
+    "title": "Enviar",
+    "warning": {
+      "blocked": {
+        "default": "Aquesta cartera està bloquejada",
+        "modal": {
+          "message": "Aquesta adreça està bloquejada a Uniswap Wallet perquè està associada a una o més activitats bloquejades. Si creieu que es tracta d'un error, envieu un correu electrònic a compliance@uniswap.org.",
+          "title": "Adreça bloquejada"
+        },
+        "recipient": "La cartera del destinatari està bloquejada"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Esteu intentant enviar fons a una adreça de testimoni. Això pot provocar una pèrdua permanent de fons.",
+          "heading": "S'ha detectat l'adreça del testimoni"
+        },
+        "message": "Esteu intentant enviar fons a una adreça de testimoni. L'enviament de criptografia a aquest tipus d'adreça pot provocar una pèrdua permanent de fons.",
+        "title": "Aquesta és una adreça testimonial"
+      },
+      "insufficientFunds": {
+        "message": "El vostre saldo de {{currencySymbol}} ha disminuït des que heu introduït l'import que voleu enviar",
+        "title": "No n'hi ha prou {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "No hi ha prou <highlight>{{currencySymbol}} el {{networkName}}</highlight> per enviar",
+          "withoutNetwork": "No hi ha prou <highlight>{{currencySymbol}}</highlight> per enviar"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "D'acord",
+            "cancel": "Cancel · lar",
+            "confirm": "Confirmeu"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Nom d'usuari",
+          "walletAddress": "Adreça de cartera"
+        },
+        "message": "No heu fet cap transacció amb aquesta adreça abans. Si us plau, confirmeu que l'adreça és correcta abans de continuar.",
+        "title": "Nova adreça"
+      },
+      "self": {
+        "message": "Esteu intentant enviar fons a la vostra cartera actual. L'enviament de criptografia a aquesta adreça comportarà costos de xarxa innecessaris.",
+        "title": "Aquesta és la teva cartera actual"
+      },
+      "smartContract": {
+        "message": "Esteu a punt d'enviar fons a una adreça de contracte intel·ligent. Assegureu-vos que aquesta és l'adreça correcta i que pot rebre fitxes. Si no, això pot provocar una pèrdua permanent de fons.",
+        "title": "Aquesta és una adreça de contracte intel·ligent"
+      },
+      "viewOnly": {
+        "message": "Heu d'importar aquesta cartera mitjançant una frase de recuperació per enviar actius.",
+        "title": "Aquesta cartera és només de visualització"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Recents"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Revisió enviada"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Mostra la frase de recuperació"
+      },
+      "action": {
+        "hide": "Amaga la frase de recuperació"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Entenc que Uniswap Labs no em pot ajudar a recuperar la meva cartera si no ho he fet.",
+          "title": "Vaig guardar la meva frase de recuperació"
+        },
+        "initial": {
+          "subtitle": "Assegureu-vos que hàgiu desat la frase de recuperació. En cas contrari, perdràs l'accés a les teves carteres",
+          "title": "Abans de continuar"
+        },
+        "password": {
+          "error": "Contrasenya incorrecta. Torna-ho a provar"
+        },
+        "subtitle": "Introduïu la vostra contrasenya per confirmar",
+        "title": "Esteu eliminant la vostra frase de recuperació "
+      },
+      "title": "La teva frase de recuperació",
+      "view": {
+        "warning": {
+          "message1": "Qualsevol persona que conegui la vostra frase de recuperació pot accedir a la vostra cartera i fons",
+          "message2": "Veure això en privat",
+          "message3": "No compartiu amb ningú",
+          "message4": "No l'introduïu mai a cap lloc web o aplicació",
+          "title": "Abans de continuar"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Qualsevol persona que conegui la vostra frase de recuperació pot accedir a la vostra cartera i fons.",
+          "title": "Veure això en un lloc privat"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Activa a Configuració",
+      "feedback": "Enviar comentaris",
+      "help": "Aconseguir ajuda",
+      "lock": "Bloqueja la cartera",
+      "privacy": "Política de privacitat",
+      "terms": "Termes del servei"
+    },
+    "footer": "Fet amb amor, \nUniswap Team 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Els saldos inferiors a 1 USD s'amagaran de la vostra cartera."
+    },
+    "maxSlippage": "Màx. lliscament",
+    "section": {
+      "about": "Sobre",
+      "preferences": "Preferències",
+      "privacyAndSecurity": "Privacitat i seguretat",
+      "support": "Suport",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} altres carteres"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Automàtic",
+          "dark": {
+            "subtitle": "Feu servir sempre un tema fosc.",
+            "title": "fosc"
+          },
+          "device": {
+            "subtitle": "S'adapta a la configuració del dispositiu.",
+            "title": "Automàtic"
+          },
+          "light": {
+            "subtitle": "Feu servir sempre un tema lleuger.",
+            "title": "Llum"
+          }
+        },
+        "title": "Tema"
+      },
+      "backup": {
+        "create": {
+          "description": "L'establiment d'una contrasenya xifrarà la còpia de seguretat de la frase de recuperació, afegint un nivell addicional de protecció si el vostre compte {{cloudProviderName}} es veu compromès.",
+          "title": "Fes una còpia de seguretat fins a {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Com que aquestes carteres comparteixen una frase de recuperació, també se suprimiran les còpies de seguretat d'aquestes carteres a continuació",
+            "title": "Estàs segur?"
+          },
+          "warning": "Si suprimiu la vostra còpia de seguretat {{cloudProviderName}} , només podreu recuperar la vostra cartera amb una còpia de seguretat manual de la vostra frase de recuperació. Uniswap Labs no pot recuperar els vostres actius si perds la frase de recuperació."
+        },
+        "error": {
+          "message": {
+            "full": "No es pot fer una còpia de seguretat de la frase de recuperació a {{cloudProviderName}}. Assegureu-vos que teniu {{cloudProviderName}} habilitat amb espai d'emmagatzematge disponible i torneu-ho a provar.",
+            "short": "No es pot suprimir la còpia de seguretat"
+          },
+          "title": "Error {{cloudProviderName}}"
+        },
+        "modal": {
+          "description": "Encara no has fet una còpia de seguretat de la teva frase de recuperació a {{cloudProviderName}} . En fer-ho, podeu recuperar la vostra cartera només tenint la sessió iniciada a {{cloudProviderName}} des de qualsevol dispositiu.",
+          "title": "Còpia de seguretat de la frase de recuperació a {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Les contrasenyes no coincideixen"
+          },
+          "medium": "Aquesta és una contrasenya mitjana",
+          "placeholder": {
+            "confirm": "Confirma la contrassenya",
+            "create": "Crea una contrasenya"
+          },
+          "strong": "Aquesta és una contrasenya segura",
+          "weak": "Aquesta és una contrasenya feble"
+        },
+        "recoveryPhrase": {
+          "label": "Frase de recuperació"
+        },
+        "selected": "{{cloudProviderName}} còpia de seguretat",
+        "status": {
+          "action": {
+            "delete": "Suprimeix la còpia de seguretat"
+          },
+          "complete": "S'ha fet una còpia de seguretat a {{cloudProviderName}}",
+          "description": "Si tens una còpia de seguretat de la teva frase de recuperació a {{cloudProviderName}}, pots recuperar la teva cartera només iniciant sessió al teu compte {{cloudProviderName}} des de qualsevol dispositiu.",
+          "inProgress": "S'està fent una còpia de seguretat a {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Còpia de seguretat"
+          },
+          "title": "{{cloudProviderName}} còpia de seguretat"
+        }
+      },
+      "beta": {
+        "tooltip": "Pròximament"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Requereix la cara/l'empremta digital per obrir l'aplicació.",
+            "ios": "Requereix {{biometricsMethod}} per obrir l'aplicació."
+          },
+          "title": "Accés a l'aplicació"
+        },
+        "auth": "Si us plau, autentiqueu-vos",
+        "off": {
+          "message": {
+            "android": "Actualment, la biometria està desactivada per a Uniswap Wallet; podeu activar-la a la configuració del vostre sistema.",
+            "ios": "{{biometricsMethod}} actualment està desactivat per a Uniswap Wallet; podeu activar-lo a la configuració del vostre sistema."
+          },
+          "title": {
+            "android": "La biometria està desactivada",
+            "ios": "{{biometricsMethod}} està desactivat"
+          }
+        },
+        "title": "Desbloqueig de cara/empremta digital",
+        "transactions": {
+          "subtitle": {
+            "android": "Requereix la cara/empremta digital per fer la transacció.",
+            "ios": "Requereix {{biometricsMethod}} per fer transaccions."
+          },
+          "title": "Transaccions"
+        },
+        "unavailable": {
+          "message": {
+            "android": "La biometria no està configurada al vostre dispositiu. Per utilitzar la biometria, configureu-la primer a Configuració.",
+            "ios": "{{biometricsMethod}} no està configurat al teu dispositiu. Per utilitzar {{biometricsMethod}}, configureu-lo primer a Configuració."
+          },
+          "title": {
+            "android": "La biometria no està configurada",
+            "ios": "{{biometricsMethod}} no està configurat"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Si no activeu la biometria, qualsevol persona que tingui accés al vostre dispositiu pot obrir Uniswap Wallet i fer transaccions.",
+            "ios": "Si no activeu {{biometricsMethod}}, qualsevol persona que tingui accés al vostre dispositiu pot obrir Uniswap Wallet i fer transaccions."
+          },
+          "title": "Estàs segur?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Desconnectar-ho tot",
+        "noConnectionsDescription": "Connecteu-vos a una aplicació cercant un botó \"Connecta Wallet\" o \"Iniciar sessió\"."
+      },
+      "currency": {
+        "title": "Moneda local"
+      },
+      "hapticTouch": {
+        "title": "Tacte hàptic"
+      },
+      "helpCenter": {
+        "title": "Centre d'ajuda"
+      },
+      "language": {
+        "button": {
+          "navigate": "Vés a la configuració"
+        },
+        "description": {
+          "extension": "Uniswap és per defecte a la configuració d'idioma del vostre sistema. Per canviar el vostre idioma preferit, aneu a la configuració del vostre sistema.",
+          "mobile": "Uniswap és per defecte a la configuració d'idioma del dispositiu. Per canviar el vostre idioma preferit, aneu a \"Uniswap\" a la configuració del dispositiu i toqueu \"Idioma\"."
+        },
+        "title": "Llenguatge"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Trasllats, sol·licituds i altres activitats",
+            "title": "Activitat de cartera"
+          },
+          "priceAlerts": {
+            "description": "Grans canvis de preu per als fitxes preferits",
+            "title": "Alertes de preus"
+          },
+          "updates": {
+            "description": "Recomanacions i novetats",
+            "title": "Actualitzacions d'Uniswap"
+          }
+        },
+        "title": "Notificacions"
+      },
+      "password": {
+        "title": "Canvia la contrasenya"
+      },
+      "permissions": {
+        "title": "Permisos"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Utilitzem dades d'ús anònimes per millorar la vostra experiència amb els productes d'Uniswap Labs. Quan està desactivat, només fem un seguiment dels errors i de l'ús essencial.",
+          "title": "Analítica d'aplicacions"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Fica la teva contrasenya"
+        },
+        "title": "Frase de recuperació"
+      },
+      "smallBalances": {
+        "title": "Balanç de cartera"
+      },
+      "unknownTokens": {
+        "subtitle": "Els possibles testimonis d'estafa s'amagaran de la vostra cartera.",
+        "title": "Amaga fitxes desconegudes"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Edita l'etiqueta",
+          "editProfile": "Edita el perfil",
+          "remove": "Traieu la cartera"
+        },
+        "connection": {
+          "banner": {
+            "description": "Gestioneu les connexions mitjançant la configuració de la cartera fent clic a la vostra imatge de perfil.",
+            "title": "Les connexions s'han mogut"
+          }
+        },
+        "connections": {
+          "title": "Connexions"
+        },
+        "editLabel": {
+          "description": "Les etiquetes no són públiques. S'emmagatzemen localment i només els podeu veure.",
+          "save": "Guardar canvis"
+        },
+        "label": "Pseudònim",
+        "testnetMode": {
+          "description": "Això activa les xarxes de prova perquè els desenvolupadors puguin provar funcions i transaccions sense utilitzar actius reals. Els testimonis de les xarxes de prova no tenen cap valor real.",
+          "title": "Mode Testnet"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Per utilitzar Uniswap a {{label}}, canvieu la xarxa a la configuració de la cartera."
+    },
+    "title": "Configuració",
+    "version": "Versió {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Les carteres intel·ligents proporcionen transaccions més ràpides i de baix cost mitjançant contractes intel·ligents segurs.",
+      "info": "Les carteres que ja utilitzen funcions de cartera intel·ligent d'una altra aplicació no es veuran afectades."
+    },
+    "enabledModal": {
+      "description": "Les actualitzacions tindran efecte en el proper intercanvi.",
+      "title": "Cartera intel·ligent activada"
+    },
+    "postSwapNudge": {
+      "description": "La cartera intel·ligent ofereix transaccions més ràpides i de baix cost mitjançant contractes intel·ligents segurs.",
+      "enable": "Activa la cartera intel·ligent",
+      "title": "Estalvia en el teu proper intercanvi"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "No heu fet cap transacció amb aquesta adreça abans. Assegureu-vos que sigui l'adreça correcta abans de continuar.",
+        "title": "Nova adreça"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Esteu a punt d'enviar fitxes a un tipus especial d'adreça: un contracte intel·ligent. Comproveu que sigui l'adreça a la qual voleu enviar. Si està malament, les vostres fitxes es podrien perdre per sempre.",
+        "title": "Aquesta és una adreça de cartera?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "Tarifes 24 h",
+    "24volume": "Volum 24 h",
+    "allTimeFees": "Comissions de LP sempre",
+    "allTimeSwappers": "Tots els intercanviadors de temps",
+    "allTimeVolume": "Volum de tot el temps",
+    "fdv": {
+      "description": "La valoració totalment diluïda (FDV) calcula el valor total de mercat assumint que tots els fitxes estan en circulació."
+    },
+    "marketCap": {
+      "description": "La capitalització de mercat és el valor total de mercat de l'oferta circulant d'un actiu."
+    },
+    "tvl": {
+      "description": "El valor total bloquejat (TVL) és l'import total de l'actiu disponible en tots els grups de liquiditat d'Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "El volum d'1 dia és l'import de l'actiu que s'ha negociat a Uniswap durant les últimes 24 hores.",
+        "long": "Volum 1D",
+        "short": "1D vol"
+      },
+      "description": "El volum és la quantitat de l'actiu que s'ha negociat a Uniswap durant el període de temps seleccionat."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Permet {{sym}} (una vegada)"
+    },
+    "approvalNeeded": "Es necessita una aprovació per utilitzar aquest testimoni. ",
+    "approvalPending": "Aprovació pendent",
+    "approveAndSubmit": "Aprovar i enviar",
+    "approveAndSwap": "Aprovar i intercanviar",
+    "approveInWallet": "Aprova a la teva cartera",
+    "balance": {
+      "amount": "Balanç: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Es calcula que la ruta més eficient costa ~{{gasPrice}} en costos de xarxa. "
+    },
+    "bridging": {
+      "estimatedTime": "Est. temps",
+      "title": "Canvi entre xarxes",
+      "warning": {
+        "description": "Estàs canviant de {{fromNetwork}} a {{toNetwork}}. Això també es coneix com \"pont\", que mou els vostres fitxes d'una xarxa a una altra."
+      }
+    },
+    "button": {
+      "max": "Màx",
+      "review": "Revisió",
+      "submitting": {
+        "keep": {
+          "open": "Mantingueu la cartera oberta..."
+        }
+      },
+      "swap": "Canviar",
+      "swapAnyways": "Canvia de totes maneres",
+      "unwrap": "Desembolicar",
+      "wrap": "Embolicar"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Cerca per país o regió"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "El vostre intercanvi es podria executar abans que es processi la cancel·lació. Els costos de la vostra xarxa no es poden reemborsar. Vols continuar?",
+      "cannotExecute_other": "Els vostres intercanvis es podrien executar abans que es processi la cancel·lació. Els costos de la vostra xarxa no es poden reemborsar. Vols continuar?"
+    },
+    "confirmLimit": "Confirmeu el límit",
+    "confirmSwap": "Confirmeu l'intercanvi",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. termini"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Quota de testimoni"
+      },
+      "newQuote": {
+        "input": "Nova entrada",
+        "output": "Sortida nova"
+      },
+      "orderRouting": "Encaminament de comandes",
+      "orderRoutingInfo": "Aquest intercanvi s'encamina mitjançant Across, un protocol descentralitzat que mou els actius a través de les xarxes alhora que prioritza la seguretat, l'execució ràpida i els preus baixos.",
+      "poweredBy": "Desenvolupat per",
+      "rate": "Taxa",
+      "slippage": "Lliscament màxim",
+      "uniswapFee": "Quota"
+    },
+    "error": {
+      "default": "És possible que hàgiu d'augmentar la vostra tolerància al lliscament. Nota: els fitxes de tarifa per transferència i de rebase són incompatibles amb Uniswap V3.",
+      "expectedToFail": "S'espera que el vostre intercanvi falli.",
+      "fiatInputUnavailable": "Entrada {{fiatCurrencyCode}} no disponible",
+      "modifiedByWallet": "El vostre intercanvi s'ha modificat a través de la vostra cartera. Si es tracta d'un error, cancel·leu immediatament o arrisqueu a perdre els vostres fons.",
+      "rejected": "Transacció rebutjada",
+      "undefinedObject": "S'ha produït un error en intentar executar aquest intercanvi. És possible que hàgiu d'augmentar la vostra tolerància al lliscament. Si això no funciona, pot haver-hi una incompatibilitat amb el testimoni que esteu negociant. Nota: els fitxes de tarifa per transferència i de rebase són incompatibles amb Uniswap V3.",
+      "unknown": "Error desconegut.",
+      "v2": {
+        "expired": "Aquesta transacció no s'ha pogut enviar perquè ha passat el termini. Comproveu que el termini de transacció no sigui massa baix.",
+        "k": "L'invariant Uniswap x*y=k no es va satisfer amb l'intercanvi. Això normalment significa que un dels testimonis que intercanvieu incorpora un comportament personalitzat en la transferència.",
+        "slippage": "Aquesta transacció no tindrà èxit a causa del moviment del preu o de la tarifa de transferència. Intenteu augmentar la vostra tolerància al lliscament",
+        "transferInput": "El testimoni d'entrada no es pot transferir. Pot haver-hi un problema amb el testimoni d'entrada.",
+        "transferOutput": "El testimoni de sortida no es pot transferir. Pot haver-hi un problema amb el testimoni de sortida."
+      },
+      "v3": {
+        "slippage": "Aquesta transacció no tindrà èxit a causa del moviment del preu. Intenteu augmentar la vostra tolerància al lliscament. Nota: la tarifa de les fitxes de transferència i rebase no és compatible amb Uniswap V3.",
+        "transferOutput": "El testimoni de sortida no es pot transferir. Pot haver-hi un problema amb el testimoni de sortida. Nota: la tarifa de les fitxes de transferència i rebase no és compatible amb Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Hi haurà una gran diferència entre els valors d'entrada i sortida a causa de la liquiditat actual."
+    },
+    "fail": {
+      "message": "Intenteu ajustar el lliscament a un valor més alt.",
+      "uniswapX": "L'intercanvi no s'ha pogut completar amb UniswapX. Torneu a provar l'intercanvi per encaminar-lo a través de la clàssica API d'Uniswap."
+    },
+    "fees": {
+      "experience": "Aquesta tarifa s'aplica a alguns parells de fitxes per garantir la millor experiència amb Uniswap. Es paga al testimoni de sortida i ja s'ha inclòs a la cotització.",
+      "noFee": "Les tarifes s'apliquen a parells de fitxes seleccionats per garantir la millor experiència amb Uniswap. No hi ha cap comissió associada amb aquest intercanvi."
+    },
+    "fetchingBestPrice": "Buscant el millor preu...",
+    "fetchingPrice": "S'està obtenint el preu...",
+    "finalizingQuote": "S'està acabant la cotització...",
+    "form": {
+      "header": "Canviar",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "A causa de les comissions testimonials, els imports d'intercanvi només es poden introduir mitjançant el camp d'entrada"
+          }
+        },
+        "restore": "Restaura la teva cartera per canviar-la"
+      }
+    },
+    "frontrun": {
+      "warning": "La vostra transacció pot ser una oportunitat i donar lloc a un comerç desfavorable."
+    },
+    "header": {
+      "viewOnly": "Només visualització"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "És possible que els càlculs d'impacte dels preus no estiguin disponibles per a parelles amb poca liquiditat."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "S'estima l'entrada. Vendreu com a màxim <amount /> o la transacció es revertirà."
+    },
+    "limit": "Límit",
+    "limitedAssets": {
+      "warning": "Alguns actius no estan disponibles a través d'aquesta interfície perquè pot ser que no funcionin bé amb els contractes intel·ligents o no podem permetre el comerç per motius legals."
+    },
+    "limitFilled": "Límit omplert!",
+    "limitSubmitted": "Límit enviat",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "El preu de mercat està fora del rang de preus especificat. Només dipòsit d'un sol actiu."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "L'import màxim que us garanteix la despesa. Si el preu baixa més, la transacció es revertirà."
+    },
+    "minPriceSlip": {
+      "revert": "Si el preu es mou de manera que rebràs menys de {{amount}}, la transacció es revertirà."
+    },
+    "networkCost": {
+      "paidIn": "El cost de la xarxa es paga en {{sym}} a la xarxa {{chainName}} per poder realitzar transaccions."
+    },
+    "orderRouting": "Encaminament de comandes",
+    "outputEstimated": {
+      "atLeast": "S'estima la sortida. Rebràs almenys <amount /> o la transacció es revertirà."
+    },
+    "payAnyway": "Paga de totes maneres",
+    "payAtMost": "Pagar com a màxim",
+    "payWith": "Paga amb",
+    "placeOrder": "Fes la comanda",
+    "priceImpact": "Impacte en el preu",
+    "receive": {
+      "atLeast": "Rebre almenys"
+    },
+    "request": {
+      "title": {
+        "full": "Canvia {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Canvia fitxes"
+      }
+    },
+    "review": {
+      "summary": "Estàs intercanviant"
+    },
+    "reviewLimit": "Límit de revisió",
+    "route": {
+      "optimizedGasCost": "Aquesta ruta té en compte les rutes dividides, els salts múltiples i els costos de xarxa de cada pas."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "La transacció es revertirà si està pendent durant més d'aquest període de temps. (Màxim: 3 dies).",
+        "warning": "Termini elevat"
+      },
+      "protection": {
+        "description": "Amb la protecció d'intercanvi activada, les vostres transaccions d'Ethereum estaran protegides dels atacs sandvitx, amb possibilitats de fracàs reduïdes.",
+        "subtitle": {
+          "supported": "{{chainName}} Xarxa",
+          "unavailable": "No disponible el {{chainName}}"
+        },
+        "title": "Protecció d'intercanvi"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "El client Uniswap selecciona l'opció comercial més barata tenint en compte el preu i els costos de xarxa."
+            },
+            "tooltip": "S'identifica una ruta tenint en compte els grups v2, v3 i determinats v4, tenint en compte l'impacte estimat del preu i els costos de xarxa."
+          },
+          "v2": {
+            "title": "piscines v2"
+          },
+          "v3": {
+            "title": "piscines v3"
+          },
+          "v4": {
+            "title": "piscines v4"
+          }
+        },
+        "title": "Opcions comercials"
+      },
+      "slippage": {
+        "alert": "Alt lliscament",
+        "control": {
+          "auto": "Automàtic"
+        },
+        "description": "La vostra transacció es revertirà si el preu canvia més que el percentatge de lliscament.",
+        "input": {
+          "message": "Si el preu baixa més, la transacció es revertirà. A continuació es mostra la quantitat mínima que es garanteix rebre.",
+          "receive": {
+            "title": "Rebre almenys"
+          }
+        },
+        "output": {
+          "message": "Si el preu baixa més, la transacció es revertirà. A continuació es mostra la quantitat màxima que hauríeu de gastar.",
+          "spend": {
+            "title": "Gastar com a màxim"
+          }
+        },
+        "warning": {
+          "description": "És probable que un lliscament per sobre del 20% es tradueixi en un comerç desfavorable. Per reduir el risc de ser de primera línia, reduïu la configuració.",
+          "hover": "Això pot donar lloc a un comerç desfavorable. Proveu de reduir la configuració de lliscament.",
+          "max": "Introduïu un valor inferior a {{maxSlippageTolerance}}",
+          "message": "El lliscament pot ser més gran del necessari",
+          "min": "Introduïu un valor superior a 0"
+        }
+      },
+      "title": "Canvia la configuració",
+      "transactionRevertPrice": "La vostra transacció es revertirà si el preu canvia desfavorablement en més d'aquest percentatge."
+    },
+    "signAndSwap": "Signar i intercanviar",
+    "slippage": {
+      "amt": "{{amt}} lliscament",
+      "bridging": "Cap lliscament quan es canvia entre xarxes",
+      "settings": {
+        "title": "Configuració de lliscament"
+      },
+      "tooltip": "El moviment màxim del preu abans de la transacció es revertirà."
+    },
+    "slippageBelow": {
+      "warning": "El lliscament per sota de {{amt}} pot donar lloc a una transacció fallida"
+    },
+    "submitted": "S'ha enviat l'intercanvi",
+    "success": "Canvi d'èxit!",
+    "tokenOwnFees": "Algunes fitxes cobren una tarifa quan es compren o venen, que l'estableix l'emissor del token. Uniswap no rep cap d'aquestes tarifes.",
+    "total": "Total",
+    "tradeRoutes": "Rutes comercials",
+    "transaction": {
+      "deadline": "Termini de transacció",
+      "revertAfter": "La transacció es revertirà si està pendent durant més d'aquest període de temps."
+    },
+    "unsupportedAssets": {
+      "readMore": "Obteniu més informació sobre els recursos no compatibles"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Introduïu una quantitat més gran"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Intenta augmentar el teu lliscament.",
+        "titleMay": "Aquest intercanvi pot fallar"
+      },
+      "insufficientBalance": {
+        "title": "No en tens prou {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Canvia per {{ tokenSymbol }} a {{networkName}}",
+          "buy": "Compra {{ tokenSymbol }}",
+          "buyWithCard": "Compra amb targeta"
+        },
+        "message": {
+          "withNetwork": "No hi ha prou <highlight>{{currencySymbol}} a {{networkName}}</highlight> per canviar",
+          "withoutNetwork": "No hi ha prou <highlight>{{currencySymbol}}</highlight> per intercanviar"
+        },
+        "title": "No teniu prou {{currencySymbol}} per cobrir el cost de la xarxa"
+      },
+      "networkFee": {
+        "allow": "Permet {{ inputTokenSymbol }} (una vegada)",
+        "highRelativeToValue": {
+          "unichain": "El cost de la xarxa supera el 10% del valor total de la transacció. Aquest és el cost per processar la vostra transacció a la cadena de blocs."
+        },
+        "message": {
+          "unichain": "Aquest és el cost per processar la vostra transacció a la cadena de blocs.",
+          "uniswapX": {
+            "unichain": "Aquest és el cost per processar la vostra transacció a la cadena de blocs. <gradient>UniswapX</gradient> agrega fonts de liquiditat per obtenir millors preus i permutes sense gas."
+          }
+        },
+        "wrap": "Emboliqui ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "No s'han trobat cites de pont. Proveu d'utilitzar el pont oficial en aquest moment."
+        },
+        "title": "No s'han trobat cites"
+      },
+      "noRoutesFound": {
+        "message": "Actualment no hi ha rutes disponibles per a les fitxes seleccionades. Si us plau, prova amb un parell diferent o torna a comprovar més tard.",
+        "title": "No hi ha rutes disponibles"
+      },
+      "offline": {
+        "message": "És possible que hàgiu perdut la connexió a Internet o que la xarxa estigui inactiva. Comprova la teva connexió a Internet i torna-ho a provar.",
+        "title": "Estàs fora de línia"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Aquesta transacció provocarà un impacte de {{priceImpactValue}} sobre el preu de mercat d'aquest grup i suposarà una pèrdua de fons."
+        },
+        "title": {
+          "veryHigh": "Impacte en el preu molt alt ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "La teva transacció no s'ha enviat perquè has tancat l'aplicació.",
+        "approvalFailed": "La vostra transacció no s'ha enviat perquè l'aprovació del testimoni ha fallat.",
+        "stale": "La teva transacció no s'ha enviat perquè has tancat l'aplicació o l'aprovació ha trigat massa.",
+        "submissionFailed": "S'ha produït un problema en enviar la transacció.",
+        "title": "S'ha cancel·lat l'intercanvi",
+        "wrap": {
+          "message": "El vostre ETH romandrà embolicat com a WETH."
+        },
+        "wrapFailed": "La vostra transacció no s'ha enviat perquè la transacció d'embolcall ha fallat."
+      },
+      "rateLimit": {
+        "message": "Si us plau, torna-ho a provar d'aquí a uns minuts.",
+        "title": "Passar els límits de velocitat"
+      },
+      "router": {
+        "message": "És possible que hàgiu perdut la connexió o que la xarxa estigui inactiva. Si el problema persisteix, torneu-ho a provar més tard.",
+        "title": "Aquest comerç no es pot completar ara mateix"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} està bloquejat"
+      },
+      "tokenBlockedFallback": {
+        "button": "El testimoni està bloquejat"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "S'apliquen tarifes per garantir la millor experiència amb Uniswap. No hi ha cap comissió associada amb aquest intercanvi.",
+          "included": "Les tarifes s'apliquen per garantir la millor experiència amb Uniswap i ja s'han tingut en compte en aquesta cotització."
+        },
+        "title": "Comissió d'intercanvi"
+      },
+      "viewOnly": {
+        "message": "Heu d'importar aquesta cartera mitjançant una frase de recuperació per intercanviar fitxes."
+      }
+    },
+    "wrap": {
+      "token": "Emboliqui {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "En altres xarxes",
+      "otherNetworksBalance": "Equilibri en altres xarxes",
+      "title": "El teu saldo"
+    },
+    "button": {
+      "getToken": "Obteniu {{ tokenSymbol }}",
+      "getTokenFallback": "Aconsegueix el Token"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Canvia a {{network}}",
+      "title": "Aquest testimoni no existeix",
+      "titleWithChain": "Aquest testimoni no existeix a {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "dades de testimoni per a <tokenLink />",
+        "withChain": "dades de testimoni per a <tokenLink /> el {{chainName}}"
+      }
+    },
+    "nameNotFound": "No s'ha trobat el nom",
+    "noInfoAvailable": "No hi ha informació de testimoni disponible",
+    "noTestnetSupportDescription": "Algunes xarxes de prova no admeten l'intercanvi, l'enviament o la compra de fitxes.",
+    "stats": {
+      "unsupportedChainDescription": "Les estadístiques i els gràfics de testimonis per a {{chain}} estan disponibles a {{infoLink}}"
+    },
+    "symbolNotFound": "No s'ha trobat el símbol"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Aquesta acció requereix que el mode testnet estigui desactivat. El mode Testnet es pot tornar a activar en qualsevol moment dins de la configuració.",
+          "toTestnetMode": "Aquesta acció requereix que el mode testnet estigui habilitat. Els testimonis de les xarxes de prova no tenen cap valor real. El mode Testnet es pot desactivar en qualsevol moment dins de la configuració."
+        },
+        "title": {
+          "toProdMode": "Desactiva el mode testnet",
+          "toTestnetMode": "Activa el mode testnet"
+        }
+      }
+    },
+    "unsupported": "Aquesta funcionalitat no és compatible amb el mode Testnet."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Compreu, veneu i comercialitzeu Ethereum i altres fitxes principals a Uniswap",
+    "createGovernanceOn": "Crear una nova proposta de govern a Uniswap",
+    "createGovernanceTo": "Crear una nova proposta de govern per ser votada pels titulars d'UNI. Els fitxes UNI representen accions amb dret a vot en el govern d'Uniswap.",
+    "earnFees": "Guanyeu comissions quan altres intercanvien a Uniswap afegint fitxes als grups de liquiditat.",
+    "easilyRemove": "Traieu fàcilment la vostra liquiditat d'Uniswap v2 i dipositeu a Uniswap v3.",
+    "easilyRemoveV4": "Traieu fàcilment la vostra liquiditat d'Uniswap v2 i v3 per dipositar-la a Uniswap v4.",
+    "explore": "Exploreu les NFT a Uniswap",
+    "extensionPasskeySignIn": "Inicieu la sessió amb la clau d'accés",
+    "manageNFT": "Gestioneu la vostra col·lecció NFT. Consulteu les característiques, l'activitat comercial, les descripcions i altres detalls dels vostres NFT.",
+    "migratev2": "Migreu la liquiditat del grup v2 a Uniswap v3",
+    "migratev3": "Migreu la liquiditat del grup a Uniswap v4",
+    "placeLimit": "Feu comandes limitades a Uniswap",
+    "realTime": "Preus en temps real, gràfics, dades de transaccions i molt més.",
+    "removeLiquidityv2": "Elimineu la liquiditat del grup (v2) a Uniswap",
+    "removePoolLiquidity": "Elimineu la liquiditat del grup a Uniswap",
+    "removeTokensv2": "Traieu les vostres fitxes dels grups de liquiditat v2.",
+    "removev3Liquidity": "Traieu les vostres fitxes dels grups de liquiditat v3.",
+    "sendTokens": "Envieu fitxes a Uniswap",
+    "swappingMadeSimple": "L'intercanvi és senzill. Compra i ven criptografia a Ethereum, Base, Arbitrum, Polygon i molt més. milions de persones confiades.",
+    "tradeTokens": "Intercanvieu fitxes i proporcioneu liquiditat. Preus en temps real, gràfics, dades de transaccions i molt més.",
+    "uniswapTradeCrypto": "Uniswap | Comercialitza cripto i NFT de manera segura a la plataforma DeFi superior",
+    "uniToken": "Els fitxes UNI representen accions amb dret a vot en el govern d'Uniswap. Podeu votar cada proposta vosaltres mateixos o delegar els vostres vots en un tercer.",
+    "voteOnGov": "Vota les propostes de govern a Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "El teu saldo",
+      "other": "Balanços en altres xarxes",
+      "viewOnly": "El saldo de {{ownerAddress}}"
+    },
+    "bridge": "{{label}} pont de fitxes",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Els gràfics de candelera no estan disponibles per a aquest testimoni"
+      },
+      "tooltip": "Tarifes: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Els detalls del testimoni no estan disponibles per als testimonis de la xarxa de prova."
+      }
+    },
+    "error": {
+      "unknown": "Fitxa desconeguda"
+    },
+    "fee": {
+      "buy": {
+        "label": "quota de compra"
+      },
+      "label": "quota",
+      "sell": {
+        "label": "quota de venda"
+      }
+    },
+    "links": {
+      "title": "Enllaços",
+      "twitter": "Twitter",
+      "website": "Lloc web"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Alguna cosa ha anat malament.",
+        "title": "No s'ha pogut carregar el gràfic de preus"
+      },
+      "timeRangeLabel": {
+        "all": "Tot el temps",
+        "day": {
+          "verbose": "1 dia"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 mes"
+        },
+        "week": {
+          "verbose": "1 setmana"
+        },
+        "year": {
+          "verbose": "1 any"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} no està disponible",
+          "tokensNotAvailable": "{{tokenSymbol0}} i {{tokenSymbol1}} no estan disponibles"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs no rep cap d'aquestes tarifes."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Feu sempre la vostra recerca",
+        "blocked": {
+          "description": {
+            "default_one": "No podeu intercanviar aquest testimoni mitjançant l'aplicació Uniswap.",
+            "default_other": "No podeu intercanviar aquests fitxes amb l'aplicació Uniswap."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Aquesta és una adreça de contracte, que actua com a identificador únic per a fitxes a la cadena de blocs. Qualsevol criptografia que envieu a aquesta adreça es perdrà.",
+          "title": "No envieu criptografia a aquesta adreça"
+        },
+        "dontShowWarningAgain": "No em tornis a mostrar aquest avís",
+        "doYourOwnResearch": "Feu sempre la vostra pròpia investigació abans de continuar.",
+        "feeDescription": "Cobra un <fee /> quan {{action}}",
+        "flaggedAsMalicious": "Marcat com a maliciós",
+        "fotHigh": {
+          "title": "S'ha detectat una tarifa elevada"
+        },
+        "fotLow": {
+          "title": "S'ha detectat una tarifa"
+        },
+        "fotVeryHigh": {
+          "title": "S'ha detectat una tarifa molt alta"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} s'ha marcat com a no venedor. L'intercanvi d'aquest testimoni pot provocar la pèrdua dels vostres fons.",
+          "title": "S'ha detectat una tarifa de venda del 100%."
+        },
+        "impersonator": {
+          "title": "S'ha detectat un testimoni d'imitador"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} ha estat marcat com a maliciós per Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "És possible que {{tokenSymbol}} no sigui el testimoni que voleu intercanviar."
+            }
+          },
+          "title": "S'ha detectat un testimoni maliciós"
+        },
+        "mayResultInLoss": "Canviar-lo pot provocar una pèrdua de fons.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} no es negocia a les principals borses centralitzades dels EUA."
+          }
+        },
+        "notListedOnExchanges": "No cotitza a les principals borses dels EUA",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} ha estat marcat com a sospitós per Blockaid."
+          },
+          "modal": {
+            "message": "Blockaid ha marcat {{tokenSymbol}} com a pot potencial. Feu sempre la vostra pròpia investigació abans de continuar."
+          },
+          "title": "S'ha detectat un pot de mel potencial"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} s'ha marcat com a no venedor.",
+          "title": "S'ha detectat una tarifa de venda del 100%."
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} ha estat marcat com a correu brossa per Blockaid.",
+          "title": "S'ha detectat un testimoni de correu brossa"
+        },
+        "spamsUsers": "Usuaris de correu brossa",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} cobra una tarifa de {{buyFeePercent}} quan es compra i {{sellFeePercent}} quan es ven."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} cobra una tarifa de {{feePercent}} quan es compra."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} cobra una tarifa de {{feePercent}} quan es ven."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} cobra una tarifa quan es compra o es ven."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "No podeu intercanviar aquest testimoni amb Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Aquestes fitxes no es comercialitzen a les principals borses centralitzades dels EUA. Feu sempre la vostra pròpia investigació abans de continuar."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "No s'han pogut carregar els resultats de la cerca"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Valoració totalment diluïda",
+      "marketCap": "Cap de mercat",
+      "priceHighYear": "52 W alt",
+      "priceLowYear": "52W baix",
+      "section": {
+        "about": "Sobre {{token}}"
+      },
+      "title": "Estadístiques",
+      "translation": {
+        "original": "Mostra l'original",
+        "translate": "Tradueix a {{language}}"
+      },
+      "volume": "Volum 24h"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Fitxa d'entrada"
+      },
+      "output": {
+        "fallback": "Fitxa de sortida"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Els intercanvis del protocol Uniswap poden començar i acabar amb ETH. Tanmateix, durant l'intercanvi, ETH s'embolica a WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Per obtenir {{ tokenSymbol }}, necessiteu {{ nativeTokenSymbol }} per cobrir els costos de la xarxa.",
+      "title": "Necessites {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Amaga el testimoni",
+      "unhide": "Mostra el testimoni"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Veure a {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "No s'ha pogut carregar la col·lecció NFT"
+          }
+        },
+        "label": {
+          "items": "Elements",
+          "owners": "Propietaris",
+          "priceFloor": "Pis",
+          "swapVolume": "Volum"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Adreça del contracte"
+        },
+        "error": {
+          "load": {
+            "title": "No s'han pogut carregar els detalls de NFT"
+          }
+        },
+        "network": "Xarxa",
+        "owner": "Propietat de",
+        "price": "Preu actual",
+        "recentPrice": "Últim preu de venda",
+        "traits": "Característiques"
+      },
+      "empty": {
+        "description": "No s'han trobat NFT"
+      },
+      "error": {
+        "unavailable": "Contingut no disponible"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Amaga NFT",
+          "unhide": "Mostra NFT"
+        }
+      },
+      "link": {
+        "collection": "Web de la col·lecció"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "No s'han pogut carregar NFT"
+          }
+        },
+        "none": {
+          "button": "Rebre NFT",
+          "description": {
+            "default": "Transfereix NFT d'una altra cartera per començar.",
+            "external": "Quan aquesta cartera compri o rebi NFT, apareixeran aquí."
+          },
+          "title": "Encara no hi ha NFT"
+        }
+      }
+    },
+    "noneFound": "No s'han trobat fitxes.",
+    "selector": {
+      "button": {
+        "choose": "Seleccioneu el testimoni",
+        "clear": "Esborra-ho tot"
+      },
+      "empty": {
+        "buy": {
+          "message": "Compra cripto amb una targeta o un banc per enviar fitxes.",
+          "title": "Comprar cripto"
+        },
+        "receive": {
+          "title": "Rebre fitxes"
+        },
+        "title": "Encara no hi ha fitxes"
+      },
+      "error": {
+        "load": "No s'han pogut carregar les fitxes"
+      },
+      "search": {
+        "empty": "No s'han trobat resultats per a <highlight>{{searchText}}</highlight>",
+        "placeholder": "Cerca fitxes"
+      },
+      "section": {
+        "bridging": "Canvia entre xarxes",
+        "favorite": "Preferits",
+        "otherNetworksSearchResults": "Fitxes que es troben a altres xarxes",
+        "otherSearchResults": "Altres fitxes a {{network}}",
+        "recent": "Recerques recents",
+        "search": "Resultats de la cerca",
+        "trending": "Fitxes per volum de 24 hores",
+        "yours": "Les teves fitxes"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Cerca piscines",
+          "tokens": "Cerca fitxes",
+          "transactions": "Cerca transaccions"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Cancel·la la transacció",
+        "description": "Si cancel·leu aquesta transacció abans de ser processada per la xarxa, pagareu un nou cost de xarxa en lloc de l'original.",
+        "title": "Cancel·lar aquesta transacció?"
+      },
+      "copy": "Copia l'identificador de transacció",
+      "copyProvider": "Copia {{providerName}} ID de transacció"
+    },
+    "amount": {
+      "unlimited": "Il·limitat"
+    },
+    "date": "Enviat el {{date}}",
+    "details": {
+      "dappName": "App",
+      "from": "Des de",
+      "networkFee": "Cost de la xarxa",
+      "providerFee": "Tarifa del proveïdor",
+      "swapRate": "Taxa",
+      "transaction": "Transacció",
+      "uniswapFee": "Comissió ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Liquiditat del grup insuficient per completar la transacció",
+    "network": {
+      "all": "Totes les xarxes"
+    },
+    "networkCost": {
+      "label": "Cost de la xarxa",
+      "maxNativeBalance": {
+        "description": "Es reserva una petita quantitat del saldo del testimoni de xarxa per cobrir el cost de la xarxa d'aquesta transacció.",
+        "title": "Per què no puc utilitzar el meu saldo màxim?"
+      },
+      "veryHigh": {
+        "label": "Cost de xarxa molt elevat"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "No es pot cancel·lar la transacció",
+        "replace": "No es pot substituir la transacció"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Aprovació cancel·lada",
+        "canceling": "S'està cancel·lant l'aprovació",
+        "failed": "No s'ha pogut aprovar",
+        "pending": "Aprovant",
+        "success": "Aprovat",
+        "successDapp": "Aprovat el {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Compra cancel·lada",
+        "canceling": "S'està cancel·lant la compra",
+        "failed": "No s'ha pogut comprar",
+        "pending": "Comprant",
+        "success": "Comprat",
+        "successDapp": "Comprat el {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Confirmació cancel·lada",
+        "canceling": "Pendent de cancel·lació",
+        "failed": "No s'ha pogut confirmar",
+        "pending": "Transacció en curs",
+        "success": "Transacció confirmada",
+        "successDapp": "Transacció confirmada el {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Menta cancel·lada",
+        "canceling": "Cancel·lant la menta",
+        "failed": "No s'ha pogut encunyar",
+        "pending": "Encunyació",
+        "success": "Encunyat",
+        "successDapp": "Encunyat el {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Compra cancel·lada",
+        "canceling": "S'està cancel·lant la compra",
+        "failedOn": "No s'ha pogut comprar el {{serviceProvider}}",
+        "pendingOn": "Compres el {{serviceProvider}}",
+        "successOn": "Comprat el {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Recepció cancel·lada",
+        "canceling": "S'està cancel·lant la recepció",
+        "failedFrom": "No s'ha pogut rebre de {{serviceProvider}}",
+        "pendingFrom": "S'està rebent des de {{serviceProvider}}",
+        "success": "Rebut",
+        "successDapp": "Rebut el {{externalDappName}}",
+        "successFrom": "Rebut de {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Revocació cancel·lada",
+        "canceling": "S'està cancel·lant la revocació",
+        "failed": "No s'ha pogut revocar",
+        "pending": "Revocant",
+        "success": "Revocat",
+        "successDapp": "Revocat el {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Venda cancel·lada",
+        "canceling": "Anul·lació de venda",
+        "failedOn": "La venda ha fallat mitjançant {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Obteniu més informació sobre la venda de cripto.",
+          "title": "Per què la meva venda encara està pendent?"
+        },
+        "pendingOn": "Ven a través de {{serviceProvider}}",
+        "successOn": "Venut a través de {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Venda cancel·lada",
+        "canceling": "S'està cancel·lant la venda",
+        "failed": "No s'ha pogut vendre",
+        "pending": "Venda",
+        "success": "Vengut",
+        "successDapp": "Venut el {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Enviament cancel·lat",
+        "canceling": "S'està cancel·lant l'enviament",
+        "failed": "Error a l'enviar",
+        "pending": "Enviament",
+        "success": "Enviat",
+        "successDapp": "Enviat el {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Canvi cancel·lat",
+        "canceling": "S'està cancel·lant l'intercanvi",
+        "expired": "L'intercanvi ha caducat",
+        "failed": "No s'ha pogut canviar",
+        "insufficientFunds": "Fons insuficients",
+        "pending": "Canvi",
+        "success": "Canviat",
+        "successDapp": "Canviat a {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Desembolcall cancel·lat",
+        "canceling": "S'està cancel·lant el desplegament",
+        "failed": "No s'ha pogut desenrotllar",
+        "pending": "Desembolcall",
+        "success": "Desembolicat",
+        "successDapp": "Desembolicat el {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Embolcall cancel·lat",
+        "canceling": "S'està cancel·lant l'embolcall",
+        "failed": "No s'ha pogut embolicar",
+        "pending": "Embolcall",
+        "success": "Embolicat",
+        "successDapp": "Embolcallat a {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} a {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} de {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Necessites{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) el {{networkName}} per cobrir el cost de xarxa d'aquesta transacció."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Per canviar per aquest testimoni, necessiteu més {{tokenSymbol}} a {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "No n'hi ha prou {{tokenSymbol}} a {{networkName}}",
+            "withoutNetwork": "No n'hi ha prou {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Esteu a punt de gastar la major part del vostre saldo de testimoni de xarxa. Això pot deixar fons insuficients per cobrir els costos futurs de la xarxa.",
+        "title": "Baix balanç de fitxes de xarxa"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "No es pot cancel·lar la transacció",
+        "status": "S'ha produït un error en comprovar l'estat de la transacció"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> agrega fonts de liquiditat per obtenir millors preus i permutes sense gas.",
+    "learnMore": "Més informació sobre l'intercanvi amb UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX agrega fonts de liquiditat per obtenir millors preus i permutes sense gas.",
+    "included": "Inclou <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "S'ha produït un error en la cotització d'UniswapX v2. Torna-ho a provar amb l'intercanvi clàssic."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Reclama ara"
+      },
+      "subtitle": "Creeu un perfil web3 personalitzat i compartiu fàcilment la vostra adreça amb els amics.",
+      "title": {
+        "compact": "<highlight>Reclama el teu {{unitagDomain}} nom d'usuari</highlight> i crea el teu perfil personalitzable.",
+        "full": "Reclameu el vostre nom d'usuari {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Trieu entre el carret de la càmera",
+        "computer": "Carregar des de l'ordinador",
+        "nft": "Trieu un NFT",
+        "remove": "Elimina la foto de perfil"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Personalitza el perfil",
+        "description": "{{unitagAddress}} està llest per enviar i rebre criptografia. Continueu creant la vostra cartera personalitzant el vostre perfil web3.",
+        "success": {
+          "long": "Ho tens!",
+          "short": "ho tinc!"
+        }
+      },
+      "error": {
+        "addressLimit": "Ja heu fet el nombre màxim de canvis al vostre nom d'usuari per a aquesta adreça",
+        "avatar": "No s'ha pogut establir l'avatar. Torna-ho a provar més tard.",
+        "default": "No s'ha pogut reclamar el nom d'usuari. Torna-ho a provar més tard.",
+        "deviceLimit": "Heu arribat al nombre màxim de noms d'usuari que poden estar actius per a aquest dispositiu",
+        "general": "No es pot reclamar el nom d'usuari",
+        "unavailable": "Aquest nom d'usuari no està disponible",
+        "unknown": "Error desconegut"
+      },
+      "username": {
+        "default": "el teu nom"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Esteu a punt d'eliminar el vostre nom d'usuari i els detalls del perfil personalitzables. No el podràs recuperar.",
+        "title": "Estàs segur?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "nom d'usuari"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Estàs a punt de canviar el teu nom d'usuari. Un cop el canvieu, no el podreu reclamar mai més.",
+        "title": "Estàs segur?"
+      },
+      "title": "Editeu el vostre nom d'usuari",
+      "warning": {
+        "default": "Un cop canvieu el vostre nom d'usuari, no podreu reclamar-lo mai més. Només el podeu canviar <highlight>2</highlight> vegades.",
+        "max": "Heu assolit el nombre màxim de 2 canvis de noms d'usuari."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Reclama un nom d'usuari",
+        "description": "Digues adéu a les adreces 0x. Els noms d'usuari són noms llegibles que faciliten l'enviament i la recepció de criptografia.",
+        "title": "Presentació dels noms d'usuari",
+        "upsell": {
+          "customizable": "Perfils personalitzables",
+          "ens": "Desenvolupat per subdominis ENS",
+          "free": "Lliure de reclamar"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Desenvolupat per subdominis ENS",
+        "free": "Lliure de reclamar",
+        "profile": "Perfils personalitzables"
+      },
+      "subtitle": "Digues adéu a les adreces 0x. Els noms d'usuari són noms llegibles que faciliten l'enviament i la recepció de criptografia.",
+      "title": "Presentació dels noms d'usuari"
+    },
+    "notification": {
+      "delete": {
+        "error": "No s'ha pogut suprimir el nom d'usuari. Torna-ho a provar més tard.",
+        "title": "S'ha suprimit el nom d'usuari"
+      },
+      "profile": {
+        "error": "No s'ha pogut actualitzar el perfil. Torna-ho a provar més tard.",
+        "title": "Perfil actualitzat"
+      },
+      "username": {
+        "error": "No s'ha pogut canviar el nom d'usuari. Torna-ho a provar més tard.",
+        "title": "El nom d'usuari ha canviat"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Aquesta és la vostra adreça personalitzada a la qual la gent pot enviar criptografia.",
+        "title": {
+          "choose": "Crea el teu nom d'usuari",
+          "claim": "Reclama el teu nom d'usuari"
+        }
+      },
+      "info": {
+        "description": "Els noms d'usuari transformen adreces complexes 0x en noms llegibles. En reclamar un nom d'usuari {{unitagDomain}} , podeu enviar i rebre criptografia fàcilment i crear un perfil web3 públic.",
+        "title": "Una adreça simplificada"
+      },
+      "profile": {
+        "subtitle": "Pengeu el vostre o seguiu amb la vostra Unicon única. Sempre ho pots canviar més tard.",
+        "title": "Tria una foto de perfil"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Esborra el nom d'usuari",
+        "edit": "Edita el nom d'usuari"
+      },
+      "bio": {
+        "label": "bio",
+        "placeholder": "Escriu una biografia per al teu perfil"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Els noms d'usuari només poden contenir lletres i números",
+        "max": "Els noms d'usuari no poden tenir més de {{number}} caràcters",
+        "min": "Els noms d'usuari han de tenir almenys {{number}} caràcters",
+        "uppercase": "Els noms d'usuari només poden contenir lletres minúscules i números"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "No n'hi ha prou {{tokenSymbol}} a {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 no està disponible en aquesta xarxa."
+  },
+  "wallet": {
+    "appSignIn": "Inicia sessió amb l'aplicació",
+    "connectingAgreement": "En connectar una cartera, accepteu les <termsLink>Condicions del servei</termsLink> d'Uniswap Labs i accepteu la seva <privacyLink>Política de privadesa</privacyLink>.",
+    "connectionFailed": {
+      "message": "L'intent de connexió ha fallat. Feu clic a prova de nou i seguiu els passos per connectar-vos a la vostra cartera."
+    },
+    "other": "Altres carteres",
+    "scanToConnect": "Escaneja el codi QR per connectar-te",
+    "wrongNet": "La vostra cartera està connectada a la xarxa incorrecta."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Connecteu-vos a una aplicació escanejant un codi mitjançant WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "No hi ha cap aplicació connectada"
+        },
+        "title": "Connexions"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet actualment admet {{chainNames}}. Utilitzeu només \"{{dappName}}\" en aquestes cadenes",
+        "title": "Error de connexió"
+      },
+      "general": {
+        "message": "Hi ha hagut un problema amb WalletConnect. Siusplau torna-ho a provar",
+        "title": "Error de WalletConnect"
+      },
+      "scantastic": {
+        "message": "Hi ha hagut un problema amb el teu codi QR. Siusplau torna-ho a provar",
+        "title": "Codi QR no vàlid"
+      },
+      "unsupported": {
+        "message": "Assegureu-vos que esteu escanejant un codi QR de WalletConnect, d'Ethereum o d'extensió Uniswap vàlid abans de tornar-ho a provar.",
+        "title": "Codi QR no vàlid"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 ja no és compatible. L'aplicació a la qual esteu intentant connectar-vos ha d'actualitzar a WalletConnect v2.",
+        "title": "Codi QR no vàlid"
+      },
+      "uwu": {
+        "scan": "S'ha produït un problema en escanejar aquest codi QR.",
+        "title": "Error d'enllaç UwU",
+        "unsupported": "Aquest codi QR no és compatible."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Connecta't",
+        "scrollDown": "Desplaceu-vos cap avall per connectar-vos"
+      },
+      "switchAccount": "Canvia de compte",
+      "title": "Connecta't a {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Transfereix els teus actius sense consentiment",
+        "viewTokenBalances": "Consulteu els vostres saldos de testimonis",
+        "viewWalletAddress": "Consulta l'adreça de la teva cartera"
+      },
+      "title": "Permisos del lloc"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Desplaceu-vos cap avall per signar",
+        "sign": "Signe"
+      },
+      "details": {
+        "label": {
+          "function": "Funció",
+          "sending": "Enviament",
+          "token": "Token",
+          "tokens": "Fitxes"
+        }
+      },
+      "error": {
+        "insufficientFunds": "No tens prou {{currencySymbol}} per completar aquesta transacció.",
+        "network": "Error de connexió a Internet o a la xarxa"
+      },
+      "warning": {
+        "general": {
+          "message": "Aneu amb compte: aquest missatge pot transferir recursos"
+        },
+        "message": "Per signar missatges o transaccions, haureu d'importar la frase de recuperació de la cartera.",
+        "title": "Aquesta cartera està en mode de només visualització"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Descobriu i investiga fitxes sobre {{network}}. Explora les millors piscines. Veure preus en temps real, volum de negociació, TVL, gràfics i dades de transaccions.",
+      "title": {
+        "pools": "Explora els millors grups a {{network}} a Uniswap",
+        "tokens": "Explora les fitxes principals a {{network}} a Uniswap",
+        "transactions": "Exploreu les principals transaccions a {{network}} a Uniswap"
+      }
+    }
+  }
+}

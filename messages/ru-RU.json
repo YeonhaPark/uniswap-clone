@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Получите вознаграждение на сумму {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "В хранилище {{cloudProviderName}} сохранено несколько фраз восстановления.",
+        "title": "Выберите резервную копию для восстановления"
+      },
+      "button": {
+        "restore": {
+          "android": "Восстановление из Google Диска",
+          "ios": "Восстановление из iCloud"
+        }
+      },
+      "empty": {
+        "description": "Похоже, вы не сохранили резервные копии фраз восстановления в хранилище {{cloudProviderName}}.",
+        "title": "Найдено 0 резервных копий"
+      },
+      "error": {
+        "backup": {
+          "message": "Не удалось импортировать резервные копии из-за отсутствия разрешений, прерывания авторизации или ошибки облака",
+          "title": "Ошибка при импорте резервных копий"
+        },
+        "password": {
+          "title": "Неверный пароль. Попробуйте еще раз."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Не сейчас",
+            "settings": "Открыть настройки"
+          },
+          "message": {
+            "android": "Убедитесь, что вы вошли в учетную запись Google с включенным Google Диском на этом устройстве, и повторите попытку.",
+            "ios": "Убедитесь, что вы вошли в систему с помощью Apple ID с включенным хранилищем iCloud Drive на этом устройстве, и повторите попытку."
+          },
+          "title": {
+            "android": "Google Диск недоступен",
+            "ios": "Хранилище iCloud Drive недоступно"
+          }
+        }
+      },
+      "loading": {
+        "title": "Поиск резервных копий…"
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Слишком много попыток. Попробуйте еще раз через 1 час.",
+          "hours_other": "Слишком много попыток. Попробуйте еще раз через {{count}} ч.",
+          "minutes_one": "Слишком много попыток. Попробуйте еще раз через 1 минуту.",
+          "minutes_other": "Слишком много попыток. Попробуйте еще раз через {{count}} мин."
+        }
+      },
+      "password": {
+        "input": "Введите пароль",
+        "recoveryPhrase": "Или введите фразу восстановления",
+        "subtitle": "Этот пароль необходим для возобновления резервной копии фразы восстановления из хранилища {{cloudProviderName}}.",
+        "title": "Введите пароль от резервной копии"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Версия: ",
+      "modal": {
+        "body": "Безопасно храните токены и выполняйте их своп в приложении Uniswap. Доступно на устройствах iOS и Android.",
+        "dont": "Нет кошелька Uniswap?",
+        "scan": "Сканирование с помощью Uniswap Wallet"
+      },
+      "spamToggle": "Скрыть неизвестные токены и NFT"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Этот заказ был отменен, поскольку ваш баланс стал меньше введенной суммы."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Этот заказ не будет выполнен, поскольку ваш баланс стал меньше введенной суммы. Увеличьте его, чтобы исправить ситуацию."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Фраза восстановления (или сид-фраза) — это <highlight>набор слов</highlight>, необходимый для доступа к вашему кошельку, <highlight>как пароль</highlight>.",
+        "part2": "Вы можете <highlight>ввести</highlight> фразу восстановления на новом устройстве, <highlight>чтобы возобновить свой кошелек</highlight> и его содержимое.",
+        "part3": "Если вы <highlight>потеряете фразу восстановления</highlight>, то <highlight>не сможете получить доступ</highlight> к своему кошельку.",
+        "part4": "Вместо того чтобы запоминать фразу восстановления, вы можете <highlight>сохранить ее резервную копию в хранилище {{cloudProviderName}}</highlight> и защитить ее паролем.",
+        "part5": "Резервную копию фразы восстановления можно также создать вручную. Для этого <highlight>запишите ее</highlight> и сохраните в надежном месте.",
+        "part6": "Мы рекомендуем использовать <highlight>оба типа резервного копирования</highlight>, поскольку вы не сможете вернуть доступ к своему кошельку, если потеряете фразу восстановления."
+      },
+      "error": {
+        "invalid": "Неверная фраза",
+        "invalidWord": "Неверное слово: {{word}}",
+        "phraseLength": "Фраза восстановления должна состоять из 12–24 слов",
+        "wrong": "Неверная фраза восстановления"
+      },
+      "helpText": {
+        "import": "Как найти фразу восстановления?",
+        "restoring": "Попробуйте повторить поиск"
+      },
+      "input": "Введите фразу восстановления",
+      "remove": {
+        "final": {
+          "description": "Убедитесь, что вы записали фразу восстановления или сохранили ее резервную копию в хранилище {{cloudProviderName}}. <highlight>В противном случае вы не сможете получить доступ к своим средствам.</highlight>",
+          "title": "Вы удаляете свою <highlight>фразу восстановления</highlight>"
+        },
+        "import": {
+          "description": "Одновременно может храниться только одна фраза восстановления. Для импорта новой необходимо удалить с этого устройства текущую фразу и все связанные с ней кошельки."
+        },
+        "initial": {
+          "description": "Ваш кошелек и фраза восстановления будут удалены с этого устройства.",
+          "title": "Вы удаляете кошелек <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Ваша фраза восстановления будет сохранена до тех пор, пока вы не удалите все оставшиеся кошельки."
+        }
+      },
+      "subtitle": {
+        "import": "Ваша фраза восстановления будет храниться только в локальном расположении на вашем устройстве.",
+        "restoring": "Введите фразу восстановления ниже или попробуйте еще раз выполнить поиск резервных копий."
+      },
+      "title": {
+        "import": "Введите фразу восстановления",
+        "restoring": "Резервные копии не найдены"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Скопировать адрес",
+        "manageConnections": "Управление подключениями",
+        "report": "Пожаловаться на профиль",
+        "viewExplorer": "Открыть в {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Добавить кошелек",
+        "addViewOnly": "Добавить кошелек только для просмотра",
+        "create": "Создать новый кошелек",
+        "import": "Импортировать новый кошелек",
+        "manage": "Настройки кошелька",
+        "remove": "Удалить кошелек",
+        "restore": "Восстановить кошелек",
+        "watch": "Наблюдение за кошельком"
+      },
+      "create": {
+        "placeholder": "{{index}} кошелька"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Ярлык кошелька"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Редактировать профиль"
+          },
+          "title": "Изменить ярлык"
+        },
+        "viewOnly": "Кошельки только для просмотра"
+      },
+      "menu": {
+        "claimUsername": "Получить имя пользователя",
+        "copy": {
+          "title": "Скопировать адрес кошелька"
+        },
+        "edit": {
+          "title": "Изменить ярлык"
+        },
+        "manageConnections": "Управление подключениями",
+        "remove": {
+          "title": "Удалить кошелек"
+        }
+      },
+      "remove": {
+        "check": "Я создал(-а) резервную копию своей фразы восстановления и понимаю, что если я этого не сделаю, Uniswap Labs не сможет оказать мне помощь с возобновлением доступа к моим кошелькам.",
+        "title": "Удалить {{name}}",
+        "viewOnly": "Вы всегда можете добавить кошельки только для просмотра, введя их адрес."
+      },
+      "restore": {
+        "description": "Поскольку вы работаете на новом устройстве, вам нужно будет возобновить свою фразу восстановления или ввести пароль от облачной резервной копии, чтобы продолжить."
+      },
+      "select": {
+        "error": "Не удалось загрузить адреса",
+        "loading": {
+          "subtitle": "Ваши кошельки будут отображаться ниже.",
+          "title": "Выполняется поиск кошельков"
+        },
+        "title_one_one": "Найден один кошелек",
+        "title_one_other": "Выберите кошельки для импорта"
+      },
+      "viewOnly": {
+        "button": "Импортировать кошелек",
+        "description": "Для свопа, покупки, отправки и получения токенов необходимо импортировать фразу восстановления этого кошелька.",
+        "title": "Этот кошелек доступен только для просмотра"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Этот адрес уже импортирован",
+          "notFound": "Адрес не найден",
+          "smartContract": "Адрес является смарт-контрактом"
+        },
+        "message": "Добавление кошелька только для просмотра позволит вам попробовать приложение или отследить кошелек. Вы не сможете отправлять средства или выполнять своп.",
+        "placeholder": "ENS или адрес",
+        "title": "Введите адрес кошелька"
+      }
+    }
+  },
+  "activity": {
+    "pending": "Ожидается {{pendingActivityCount}}",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} из кошелька {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} в кошелек {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} на {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} и {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Доля в пуле"
+  },
+  "addressInput": {
+    "recipient": "Получатель"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Мы используем анонимные данные, чтобы улучшить ваш опыт работы с продуктами Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Не совсем"
+    },
+    "description": "Дайте нам знать, нравится ли вам работать в этом приложении",
+    "extension": {
+      "review": {
+        "description": "Поставьте оценку и оставьте отзыв в интернет-магазине Chrome.",
+        "title": "Оценить расширение Uniswap?"
+      },
+      "title": "Вам нравится расширение Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Отправить отзыв"
+      },
+      "description": "Дайте нам знать, как мы можем улучшить для вас приложение",
+      "title": "Нам жаль это слышать."
+    },
+    "mobile": {
+      "title": "Вам нравится Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "прибл. {{minutes}} мин. {{seconds}} с.",
+      "minutesOnly": "прибл. {{minutes}} мин.",
+      "secondsOnly": "прибл. {{seconds}} с."
+    }
+  },
+  "chart": {
+    "candlestick": "Свечной график",
+    "error": {
+      "pools": "Невозможно отобразить исторические данные для текущего пула.",
+      "tokens": "Невозможно отобразить исторические данные для текущего токена."
+    },
+    "line": "Линейный график",
+    "missingData": "Отсутствуют данные графика",
+    "price": {
+      "label": {
+        "close": "Цена закрытия",
+        "high": "Высокая цена",
+        "low": "Низкая цена",
+        "open": "Цена открытия"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Этот параметр недоступен для текущего графика"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Спасибо за участие в сообществе Uniswap <heart />",
+    "uni": {
+      "arrived": "Поступление UNI"
+    }
+  },
+  "common": {
+    "accept": "Принять",
+    "activity": "Активность",
+    "add": {
+      "label": "Добавить",
+      "liquidity": {
+        "cancelled": "Добавление ликвидности отменено",
+        "failed": "Сбой добавления ликвидности"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Добавление ликвидности V2 отменено",
+          "failed": "Сбой добавления ликвидности V2"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Добавлена ликвидность",
+      "v2": {
+        "liquidity": "Добавлена ликвидность V2"
+      }
+    },
+    "addedLiquidity": "Добавлена ликвидность",
+    "adding": {
+      "liquidity": "Добавление ликвидности",
+      "v2": {
+        "liquidity": "Добавление ликвидности V2"
+      }
+    },
+    "addLiquidity": "Добавить ликвидность",
+    "addressOrENS": "Адрес кошелька или имя ENS",
+    "advanced": "Расширенные",
+    "all": "Все",
+    "allTime": "За все время",
+    "and": "и",
+    "app": "Приложение",
+    "approval": {
+      "cancelled": "Утверждение отменено",
+      "failed": "Сбой утверждения"
+    },
+    "approve": "Утвердить",
+    "approved": "Утверждено",
+    "approvePending": "Ожидается утверждение…",
+    "approveSpend": "Утвердить расходы {{symbol}}",
+    "approving": "Утверждение",
+    "areYouSure": "Вы уверены?",
+    "automatic": "Авто",
+    "availableIn": "Сервис Uniswap доступен в: <locale />",
+    "availableOnIOSAndroid": "Доступно на устройствах iOS и Android",
+    "availableOnIOSAndroidChrome": "Доступно на устройствах iOS, Android и Chrome",
+    "backToPositions": "Вернуться к позициям",
+    "blocked": {
+      "ifError": "Если вы считаете, что это ошибка, отправьте электронное письмо, указав свой адрес, на адрес <emailAddress />",
+      "reason": "Этот адрес заблокирован в интерфейсе Uniswap Labs, поскольку он связан с одним или несколькими <link>заблокированными действиями</link>."
+    },
+    "blockedAddress": "Заблокированный адрес",
+    "blog": "Блог",
+    "borrow": {
+      "cancelled": "Заем отменен",
+      "failed": "Занять не удалось"
+    },
+    "borrowed": "Заимствовано",
+    "borrowing": "Заимствование",
+    "bought": "Куплено",
+    "brandAssets": "Активы бренда",
+    "burn": {
+      "cancelled": "Сжигание отменено",
+      "failed": "Сбой сжигания"
+    },
+    "burned": "Сожжено",
+    "burning": "Сжигание",
+    "button": {
+      "accept": "Принять",
+      "back": "Назад",
+      "buy": "Купить",
+      "cancel": "Отмена",
+      "checkin": "Регистрация",
+      "close": "Закрыть",
+      "confirm": "Подтвердить",
+      "connect": "Подключить",
+      "continue": "Продолжить",
+      "copied": "Скопировано",
+      "copy": "Копировать",
+      "create": "Создать",
+      "delete": "Удалить",
+      "disconnect": "Отключить",
+      "dismiss": "Отклонить",
+      "done": "Готово",
+      "edit": "Редактировать",
+      "enable": "Включить",
+      "finish": "Готово",
+      "goBack": "Вернуться",
+      "later": "Возможно, позже",
+      "learn": "Подробнее",
+      "next": "Дальше",
+      "notNow": "Не сейчас",
+      "ok": "OK",
+      "paste": "Вставить",
+      "pay": "Оплатить",
+      "proceed": "Продолжить",
+      "receive": "Получить",
+      "remove": "Удалить",
+      "reset": "Сбросить",
+      "retry": "Повторить попытку",
+      "reveal": "Раскрыть",
+      "review": "Просмотреть",
+      "save": "Сохранить",
+      "scrollDown": "Прокрутить вниз",
+      "sell": "Продать",
+      "send": "Отправить",
+      "setup": "Настроить",
+      "share": "Поделиться",
+      "showLess": "Показать меньше",
+      "showMore": "Показать больше",
+      "sign": "Подписать",
+      "skip": "Пропустить",
+      "swap": "Выполнить своп",
+      "tryAgain": "Повторить попытку",
+      "understand": "Принять",
+      "unlock": "Разблокировать",
+      "view": "Просмотреть",
+      "viewDetails": "Подробнее",
+      "yes": "Да"
+    },
+    "buy": {
+      "cancelled": "Покупка отменена",
+      "failed": "Ошибка покупки",
+      "label": "Купить"
+    },
+    "buyAndSell": "Покупка и продажа на Uniswap",
+    "buying": "Покупка",
+    "by": "От",
+    "cancel": {
+      "failed": "Отменить не удалось"
+    },
+    "cancellation": {
+      "cancelled": "Запрос на отмену аннулирован"
+    },
+    "cancellationSubmitted": "Запрос на отмену отправлен",
+    "cancellationSuccessful": "Отмена успешно выполнена",
+    "cancelled": "Отменено",
+    "cancelling": "Отмена",
+    "cancelOrder": "Отменить заказ",
+    "card": {
+      "error": {
+        "description": "Произошла ошибка",
+        "title": "Произошла ошибка"
+      }
+    },
+    "careers": "Вакансии",
+    "chart": "График",
+    "checkNetwork": "Проверьте состояние сети <link>здесь</link>.",
+    "chromeExtension": "Расширение",
+    "claim": {
+      "cancelled": "Отмена получения",
+      "failed": "Ошибка получения"
+    },
+    "claimed": "Получено",
+    "claiming": "Получение",
+    "claimUnis": "Получите свои токены UNI",
+    "clear": "Очистить",
+    "close": "Закрыть",
+    "closed": "Закрыто",
+    "collect": {
+      "button": "Взимание",
+      "fees": {
+        "cancelled": "Отмена взимания комиссий",
+        "failed": "Ошибка взимания комиссий"
+      }
+    },
+    "collected": {
+      "fees": "Собранные комиссии"
+    },
+    "collecting": {
+      "fees": "Взимание комиссий"
+    },
+    "company": "Компания",
+    "confirm": "Подтвердить",
+    "confirmCancellation": "Подтвердить отмену",
+    "confirmSend": {
+      "button": "Подтвердить отправку"
+    },
+    "confirmSwap": "Подтвердить своп в кошельке",
+    "confirmTimedOut": "Время ожидания подтверждения истекло. Повторите попытку.",
+    "confirmWallet": "Подтвердить в кошельке",
+    "connect": {
+      "button": "Подключить"
+    },
+    "connectAWallet": {
+      "button": "Подключить кошелек"
+    },
+    "connectWallet": {
+      "button": "Подключить кошелек"
+    },
+    "contactUs": {
+      "button": "Свяжитесь с нами"
+    },
+    "contractInteraction": "Взаимодействие с контрактом",
+    "copied": "Скопировано",
+    "copy": {
+      "address": "Копировать адрес"
+    },
+    "copyLink": {
+      "button": "Копировать ссылку"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Создание пула отменено",
+        "failed": "Не удалось создать пул"
+      }
+    },
+    "created": {
+      "date": "Создано {{date}}",
+      "pool": "Созданный пул"
+    },
+    "creating": {
+      "pool": "Создание пула"
+    },
+    "currency": "Валюта",
+    "custom": "Индивидуальная настройка",
+    "customRange": "Индивидуальный диапазон",
+    "dataOutdated": "Данные могут быть устаревшими",
+    "default": "По умолчанию",
+    "defaultTradeOptions": "Стандартные варианты торговли",
+    "delegate": {
+      "cancelled": "Делегирование отменено",
+      "failed": "Не удалось делегировать"
+    },
+    "delegated": "Делегировано",
+    "delegating": "Делегирование",
+    "deploy": {
+      "cancelled": "Развертывание отменено",
+      "failed": "Ошибка развертывания"
+    },
+    "deployed": "Развернуто",
+    "deploying": "Развертывание",
+    "deposit": {
+      "cancelled": "Депозит отменен",
+      "failed": "Депозит не выполнен",
+      "toNetwork": "Внесите токены в сеть {{label}}."
+    },
+    "deposited": "Депозит внесен",
+    "depositing": "Внесение депозита",
+    "depositTokens": "Внести токены",
+    "detected": "Обнаружено",
+    "developers": "Разработчики",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "Отклонить",
+    "displaySettings": "Настройки отображения",
+    "dnsRegistrar": "DNS-регистратор",
+    "donate": "Внести пожертвование",
+    "done": "Готово",
+    "dontShowAgain": "Больше не показывать",
+    "download": "Загрузить",
+    "downloadAppStore": "Загрузить в App Store",
+    "downloadPlayStore": "Загрузить в Google Play",
+    "downloadUniswap": "Загрузить Uniswap",
+    "downloadUniswapApp": "Загрузить приложение Uniswap",
+    "dynamic": "Динамическая",
+    "edit": {
+      "button": "Редактировать"
+    },
+    "error": {
+      "details": "Сведения об ошибке",
+      "general": "Произошла ошибка",
+      "label": "Ошибка",
+      "request": "К сожалению, при обработке вашего запроса произошла ошибка. Обязательно скопируйте о ней сведения, если планируете обращаться в службу поддержки.",
+      "somethingWrong": "Произошла ошибка",
+      "wrong": {
+        "tryAgain": "Произошла ошибка. Повторите попытку."
+      }
+    },
+    "errorConnecting": {
+      "error": "Ошибка подключения"
+    },
+    "errorLoadingData": {
+      "error": "Ошибка загрузки данных"
+    },
+    "ethereumNameService": "Служба имен Эфириум",
+    "etherscan": {
+      "link": "Открыть в Etherscan"
+    },
+    "ethRegistrarController": "Контроллер ETH-регистратора",
+    "execute": {
+      "cancelled": "Выполнение отменено",
+      "failed": "Ошибка выполнения"
+    },
+    "executed": "Выполнено",
+    "executing": "Выполнение",
+    "expired": "Истек срок действия",
+    "expiry": "Срок действия",
+    "explore": "Исследовать",
+    "explorer": "Обозреватель",
+    "exploreTokens": "Исследовать токены",
+    "extension": "Расширение Uniswap",
+    "failed": {
+      "error": "Ошибка"
+    },
+    "failedSwitchNetwork": "Не удалось переключиться на другую сеть",
+    "fee": "Комиссия",
+    "fees": "Комиссии",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolA}} за {{symbolB}}",
+    "fetchingRoute": "Получение маршрута",
+    "floor": "Нижний порог",
+    "floorPrice": "Минимальная цена",
+    "for": "Для",
+    "fullRange": "Полный диапазон",
+    "getApp": "Загрузить приложение",
+    "getHelp": {
+      "button": "Получить помощь"
+    },
+    "getStarted": "Начать работу",
+    "getSupport": {
+      "button": "Получить поддержку"
+    },
+    "getTheApp": "Загрузить приложение",
+    "getUniswapWallet": "Загрузить Uniswap Wallet",
+    "governance": "Управление",
+    "happyHolidays": "Команда Uniswap желает вам счастливых праздников!",
+    "helpCenter": "Справочный центр",
+    "hidden": "Скрытые",
+    "hide": {
+      "button": "Скрыть"
+    },
+    "highPrice": "Высокая цена",
+    "includes": "Включает",
+    "info": {
+      "label": "Сведения"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Выберите получателя"
+      },
+      "password": {
+        "confirm": "Подтвердить пароль",
+        "error": {
+          "mismatch": "Пароли не совпадают",
+          "weak": "Этот пароль слишком ненадежный"
+        },
+        "new": "Новый пароль",
+        "placeholder": "Пароль",
+        "strength": {
+          "medium": "Средней надежности",
+          "strong": "Надежный",
+          "weak": "Ненадежный"
+        }
+      },
+      "search": "Поиск"
+    },
+    "insufficient": {
+      "funds": "Недостаточно средств"
+    },
+    "insufficientBalance": {
+      "error": "Недостаточный баланс"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Недостаточно средств для покрытия комиссии сети"
+    },
+    "insufficientLiquidity": "Недостаточная ликвидность",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Недостаточно {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Неверная пара",
+    "invalidRecipient": {
+      "error": "Неверный получатель"
+    },
+    "iOSAndroid": "iOS и Android",
+    "language": "Язык",
+    "lastPrice": "Последняя цена",
+    "learnMoreSwap": "Узнайте больше о свопах",
+    "legalAndPrivacy": "Юридические вопросы и конфиденциальность",
+    "less": "Меньше",
+    "limit": {
+      "cancel_one": "Отменить ограничение",
+      "cancel_other": "Отменить ограничения ({{count}})",
+      "cancelled": "Ограничение отменено",
+      "executed": "Ограничение выполнено",
+      "expired": "Истек срок действия ограничения",
+      "failed": "Ошибка ограничения",
+      "opened": "Ограничение открыто",
+      "pending": "Ограничение в обработке"
+    },
+    "limits": {
+      "approachMax": "Приближается к максимальному пределу в 100",
+      "cancelProceed": "Отмените ограничения, чтобы продолжить",
+      "expires": "Срок действия истекает {{timestamp}}",
+      "open": "Открытые ограничения",
+      "when": "когда {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Ссылки",
+    "liquidity": {
+      "removed": "Ликвидность удалена"
+    },
+    "loading": "Загрузка",
+    "loadingAllowance": "Загрузка разрешения",
+    "loadMore": "Загрузить еще",
+    "longText": {
+      "button": {
+        "less": "Свернуть",
+        "more": "Подробнее"
+      }
+    },
+    "lowPrice": "Низкая цена",
+    "manage": "Управление",
+    "market": {
+      "label": "Рынок"
+    },
+    "marketPrice": {
+      "fetching": "Получение рыночной цены…",
+      "label": "Рыночная цена:",
+      "unavailable": "Рыночную цену не найдено. Проверьте ее, чтобы избежать потери средств."
+    },
+    "max": "Макс.",
+    "message": "Отправить сообщение",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Перенос ликвидности отменен",
+        "failed": "Перенести ликвидность не удалось"
+      },
+      "position": "Перенести позицию",
+      "v3": "Перенос в V3"
+    },
+    "migrated": {
+      "liquidity": "Перенесенная ликвидность"
+    },
+    "migrating": {
+      "liquidity": "Перенесение ликвидности"
+    },
+    "min": "Мин.",
+    "mint": {
+      "cancelled": "Создание отменено",
+      "failed": "Ошибка создания"
+    },
+    "minted": "Создано",
+    "minting": "Создание",
+    "mobile": "Для мобильных устройств",
+    "more": "Больше",
+    "multiDevice": "Для любых устройств",
+    "navigation": {
+      "settings": "Настройки",
+      "systemSettings": "Настройки"
+    },
+    "navigationButton": "Кнопка навигации",
+    "needHelp": "Нужна помощь?",
+    "networkCost": "Комиссия сети",
+    "neverMind": "Отмена",
+    "new": {
+      "exclamation": "Новинка!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT",
+    "noActivity": "Пока нет активности",
+    "noAmount": {
+      "error": "Введите сумму"
+    },
+    "noData": "Нет данных",
+    "noResults": "Результатов не найдено.",
+    "notAvailableInRegion": {
+      "error": "Недоступно в вашем регионе"
+    },
+    "notCreated": {
+      "label": "Не создано"
+    },
+    "notSupported": "Не поддерживается",
+    "oneDay": {
+      "short": "1 дн."
+    },
+    "oneHour": {
+      "short": "1 ч"
+    },
+    "oneMonth": "1 месяц",
+    "oneWeek": "1 неделя",
+    "oneYear": "1 год",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "Заказ отменен",
+    "orderExecuted": "Заказ выполнен",
+    "orderExpired": "Срок действия заказа истек",
+    "orderPending": "Заказ в обработке",
+    "outOfRange": "Вне диапазона",
+    "pageNotFound": "Страница не найдена",
+    "passkey": {
+      "count": "Ключ доступа {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "Последний день",
+    "pastFiveMinutes": "Последние пять минут",
+    "pastHour": "Последний час",
+    "pastMonth": "Последний месяц",
+    "pastWeek": "Последняя неделя",
+    "pastYear": "Последний год",
+    "pay": {
+      "button": "Оплатить"
+    },
+    "pending": {
+      "cancellation": "Отмена находится в обработке"
+    },
+    "pendingEllipsis": "В ожидании…",
+    "permit2": "Permit2",
+    "pool": "Пул",
+    "pools": "Пулы",
+    "poweredBy": "При поддержке <name />",
+    "price": "Цена",
+    "priceImpact": "Предупреждение о влиянии на цену",
+    "priceUpdated": "Цена обновлена",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Если флажок установлен, мы не будем передавать ваши данные сторонним партнерам для персонализированной рекламы. Вы можете в любое время разрешить передачу данных, сняв этот флажок.",
+        "label": "Не передавать мои данные"
+      },
+      "description": "Мы можем передавать нашим рекламным партнерам идентификаторы устройств для продвижения своих услуг на других веб-сайтах и платформах. Согласно применимым законам вы можете запретить продажу и передачу данных, а также их использование для таргетинга объявлений, установив флажок «Не передавать мои данные». Подробную информацию о наших мерах по обеспечению конфиденциальности можно найти в нашей <privacyLink>Политике конфиденциальности</privacyLink>.",
+      "disclaimer": "Обратите внимание, что выбранные вами параметры будут применены только к этому браузеру на данном устройстве. Вы также можете отказаться от передачи данных, активировав параметр Global Privacy Control (Глобальный контроль конфиденциальности) в браузере, который используете для получения доступа к нашим услугам. Дополнительные параметры можно найти в настройках."
+    },
+    "privacyPolicy": "Политика конфиденциальности",
+    "proceed": "Продолжить",
+    "proceedInWallet": {
+      "short": "Продолжить в кошельке"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Public Resolver",
+    "purchased": "Куплено",
+    "queue": {
+      "cancelled": "Очередь отменена",
+      "failed": "Не удалось добавить в очередь"
+    },
+    "queued": "Добавлено в очередь",
+    "queuing": "Добавление в очередь",
+    "rate": "Ставка",
+    "readMore": "Подробнее",
+    "receive": {
+      "cancelled": "Получение отменено",
+      "failed": "Получить не удалось"
+    },
+    "received": "Получено",
+    "receiving": "Получение",
+    "recent": "Недавние",
+    "rejected": "Отклоненные",
+    "reload": {
+      "label": "Перезагрузить приложение"
+    },
+    "remove": {
+      "label": "Удалить",
+      "liquidity": {
+        "cancelled": "Удаление ликвидности отменено",
+        "failed": "Удалить ликвидность не удалось"
+      }
+    },
+    "removedLiquidity": "Удаленная ликвидность",
+    "removeItem": "Удалить предмет",
+    "removing": {
+      "liquidity": "Удаление ликвидности"
+    },
+    "repaid": "Погашено",
+    "repay": {
+      "cancelled": "Погашение отменено",
+      "failed": "Не удалось погасить"
+    },
+    "repaying": "Погашение",
+    "resetLimit": "Сбросить ограничение {{symbol}}",
+    "resetLimitWallet": "Сбросить ограничение {{symbol}} в кошельке",
+    "resettingLimit": "Сброс ограничения {{symbol}}…",
+    "resolveIssues_one": "Решение проблемы",
+    "resolveIssues_other": "Решение проблем ({{count}})",
+    "restricted": {
+      "region": "Регион с ограничениями"
+    },
+    "reverseRegistrar": "Reverse Registrar",
+    "revoke": {
+      "approval": {
+        "failed": "Не удалось отозвать утверждение"
+      }
+    },
+    "revoked": {
+      "approval": "Утверждение отозвано"
+    },
+    "revokedApproval": "Утверждение отозвано",
+    "revoking": {
+      "approval": "Отзыв утверждения"
+    },
+    "samePrice": "Та же цена",
+    "scanQRDownload": "Для загрузки отсканируйте QR-код с помощью телефона",
+    "selectRegion": {
+      "label": "Выберите регион"
+    },
+    "selectToken": {
+      "label": "Выберите токен"
+    },
+    "selfCustodial": "С возможностью самостоятельного хранения",
+    "sell": {
+      "label": "Продать"
+    },
+    "send": {
+      "button": "Отправить",
+      "cancelled": "Отправка отменена",
+      "failed": "Не удалось отправить"
+    },
+    "sending": "Отправка",
+    "sent": "Отправлено",
+    "settings": "Настройки",
+    "share": {
+      "shareToTwitter": "Поделиться в Твиттере",
+      "twitter": "Поделиться в Твиттере"
+    },
+    "show": {
+      "button": "Показать"
+    },
+    "showLess": {
+      "button": "Показать меньше"
+    },
+    "showMore": {
+      "button": "Показать больше"
+    },
+    "signatureExpired": "Истек срок действия вашей подписи.",
+    "signMessage": "Подписать сообщение",
+    "signMessageWallet": "Подписать сообщение в кошельке",
+    "sold": "Проданные",
+    "stats": "Статистика",
+    "status": "Статус",
+    "stayConnected": "Сохранить подключение",
+    "step": {
+      "number": "Шаг {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Отмена отправки предложения",
+        "failed": "Не удалось отправить предложение"
+      }
+    },
+    "submitted": {
+      "proposal": "Предложение отправлено"
+    },
+    "submitting": {
+      "proposal": "Отправка предложения"
+    },
+    "swap": {
+      "cancelled": "Своп отменен",
+      "expired": "Срок действия свопа истек",
+      "failed": "Ошибка свопа"
+    },
+    "swapped": "Своп выполнен",
+    "swapPending": "Своп…",
+    "swapping": "Выполняется своп",
+    "switchNetworks": "Переключиться на другую сеть",
+    "termsOfService": "Условия обслуживания",
+    "text": {
+      "connected": "Подключено",
+      "contract": "Контракт",
+      "disconnected": "Отключено",
+      "error": "Ошибка",
+      "notAvailable": "Н/Д",
+      "recipient": "Куда",
+      "sender": "Откуда",
+      "unknown": "Неизвестно"
+    },
+    "thisMonth": "Этот месяц",
+    "thisToken": "Этот токен",
+    "thisWeek": "Эта неделя",
+    "thisYear": "Этот год",
+    "time": {
+      "days": "дн.",
+      "days_one": "дн.",
+      "days_other": "дн.",
+      "hours": "ч.",
+      "hours_one": "ч.",
+      "hours_other": "ч.",
+      "minute": {
+        "amt": "{{time}} мин."
+      },
+      "minutes": "мин.",
+      "months": "мес.",
+      "months_one": "мес.",
+      "months_other": "мес.",
+      "past": {
+        "days": {
+          "short": "{{days}} дн."
+        },
+        "hours": {
+          "short": "{{hours}} ч"
+        },
+        "minutes": {
+          "short": "{{minutes}} мин"
+        },
+        "months": {
+          "short": "{{months}} мес."
+        },
+        "seconds": {
+          "short": "{{seconds}} с"
+        }
+      },
+      "weeks": "нед.",
+      "weeks_one": "нед.",
+      "weeks_other": "нед."
+    },
+    "to": "в",
+    "today": "Сегодня",
+    "tokenA": "Токен А",
+    "tokenAmount": "Количество токенов",
+    "tokenB": "Токен Б",
+    "tokenName": "Имя токена",
+    "tokens": "Токены",
+    "totalUniswapTVL": "Общий показатель TVL в Uniswap",
+    "totalValueLocked": "TVL",
+    "trade": "Торговля",
+    "trademarkPolicy": "Политика в отношении товарных знаков",
+    "transactionDetails": "Детали транзакции",
+    "transactionId": "Идентификатор транзакции",
+    "transactionPending": "Транзакция в обработке",
+    "transactions": "Транзакции",
+    "transactionSettings": "Настройки транзакции",
+    "transfer_one": "пер.",
+    "transfer_other": "пер.",
+    "tryAgain": {
+      "error": "Повторить попытку"
+    },
+    "twitter": "Твиттер",
+    "type": {
+      "label": "Тип"
+    },
+    "unavailable": "Недоступно",
+    "unhide": "Показать",
+    "uniGovernance": "Управление UNI",
+    "uniswapMobile": "Мобильное приложение Uniswap",
+    "uniswapProtocol": "Протокол Uniswap",
+    "uniswapWallet": "Кошелек Uniswap",
+    "uniswapX": "UniswapX",
+    "unknown": "Неизвестно",
+    "unknownApproval": "Неизвестное утверждение",
+    "unknownBridge": "Неизвестный мост",
+    "unknownError": {
+      "error": "Неизвестная ошибка"
+    },
+    "unknownLend": "Неизвестный кредит",
+    "unknownMint": "Неизвестная операция создания",
+    "unknownSend": "Неизвестная операция отправки",
+    "unknownSwap": "Неизвестная своп-операция",
+    "unsupportedAsset_one": "Неподдерживаемый актив",
+    "unsupportedAsset_other": "Неподдерживаемые активы",
+    "unwrap": {
+      "button": "Развернуть",
+      "failed": "Ошибка развертывания"
+    },
+    "unwrapped": "Развернуто",
+    "unwrapping": "Развертывание",
+    "view": {
+      "profile": "Просмотреть профиль"
+    },
+    "viewOnExplorer": "Открыть в обозревателе",
+    "volume": "Объем",
+    "vote": {
+      "cancelled": "Голосование отменено",
+      "failed": "Не удалось проголосовать"
+    },
+    "voted": "Голос отправлен",
+    "voting": "Голосование",
+    "wallet": {
+      "approve": "Утвердить в кошельке",
+      "label": "Кошелек"
+    },
+    "walletForSwapping": "Кошелек, созданный для свопа. Доступен на устройствах iOS и Android.",
+    "warning": "Предупреждение",
+    "webApp": "Веб-приложение",
+    "website": "Веб-сайт",
+    "whyApprove": "Для чего утверждать токен?",
+    "whySign": "Для чего нужны подписи?",
+    "whyWrap": "Для чего обертывать {{symbol}}?",
+    "withdraw": {
+      "failed": "Ошибка вывода"
+    },
+    "withdrawal": {
+      "amount": "Сумма вывода",
+      "cancelled": "Вывод отменен"
+    },
+    "withdrawing": "Вывод",
+    "withdrew": "Вывод выполнен",
+    "withinRange": "В пределах диапазона",
+    "wrap": {
+      "cancelled": "Обертывание отменено",
+      "failed": "Ошибка обертывания"
+    },
+    "wrapIn": "Обернуть {{symbol}} в кошельке",
+    "wrapped": "Обернуто",
+    "wrapping": "Обертывание",
+    "wrappingToken": "Обертывание {{symbol}}…",
+    "wrongNetwork": "Неверная сеть",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "На вашем счету было недостаточно средств для завершения этого свопа."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "На вашем счету недостаточно средств для завершения этого свопа."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "В настоящее время невозможно применить ограничение. Попробуйте еще раз."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "В настоящее время невозможно выполнить своп. Попробуйте еще раз."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Вы покупаете",
+    "youRecieve": "Вы получаете",
+    "youreSending": "Вы отправляете"
+  },
+  "currency": {
+    "aud": "Австралийский доллар",
+    "brl": "Бразильский реал",
+    "cad": "Канадский доллар",
+    "cny": "Китайский юань",
+    "eur": "Евро",
+    "gbp": "Английский фунт",
+    "hkd": "Гонконгский доллар",
+    "idr": "Индонезийская рупия",
+    "inr": "Индийская рупия",
+    "jpy": "Японская иена",
+    "krw": "Южнокорейская вона",
+    "ngn": "Нигерийская найра",
+    "pkr": "Пакистанская рупия",
+    "rub": "Российский рубль",
+    "sgd": "Сингапурский доллар",
+    "thb": "Тайский бат",
+    "try": "Турецкая лира",
+    "uah": "Украинская гривна",
+    "usd": "Американский доллар",
+    "vnd": "Вьетнамский донг"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Разрешить",
+        "fallbackTitle": "Разрешите этому сайту доступ к токенам",
+        "helptext": "Убедитесь, что доверяете этому сайту, и разрешите ему получать доступ к данному токену и использовать его в транзакциях.",
+        "label": "Кошелек",
+        "title": "Разрешить доступ к {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Запрос на транзакцию"
+      },
+      "bridge": {
+        "description": "Перемещайте ETH, USDC и другие токены между сетями (более чем {{numChains}}).",
+        "title": "Пытаетесь подключиться?"
+      },
+      "connect": {
+        "helptext": "Разрешите этому сайту просматривать адрес и баланс вашего кошелька, а также запрашивать утверждение для транзакций.",
+        "title": "Подключиться к сайту"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Необработанные данные"
+        },
+        "function": {
+          "label": "Функция"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 управляет утверждениями для токенов в нескольких приложениях dapp.",
+        "header": "Подписать Permit2"
+      },
+      "reject": {
+        "action": "Отклонить все",
+        "info": "У вас столько запросов на транзакции: <highlight>{{totalRequestCount}}</highlight>"
+      },
+      "revoke": {
+        "action": "Отозвать",
+        "helptext": "Убедитесь, что вы доверяете этому сайту, и разрешите ему отозвать доступ к использованию данного токена в транзакциях.",
+        "title": "Отозвать доступ к {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Это сообщение содержит неотображаемые символы. Убедитесь, что вы доверяете этому сайту.",
+        "decodeError": "Не удалось расшифровать сообщение",
+        "header": "Запрос на подпись",
+        "irregular": {
+          "description": "Прежде чем продолжить, убедитесь, что доверяете этому сайту",
+          "understand": "Я понимаю риски"
+        },
+        "toggleDataView": {
+          "raw": "Просмотреть необработанные данные",
+          "readable": "Просмотреть исходные данные"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Убедитесь, что это правильный вариант",
+          "title": "Это не ваш активный кошелек"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Войдите здесь"
+      },
+      "getStarted": {
+        "description": "Для начала загрузите приложение Uniswap Wallet, доступное на телефоне или в браузере.",
+        "title": "Начало работы с Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Начните работу за считанные секунды, зарегистрировавшись ниже, или загрузите наш кошелек, доступный на телефоне или в браузере."
+        },
+        "title": "Регистрация в Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Продукты Uniswap прекрасно взаимодействуют друг с другом, обеспечивая наилучший опыт работы ончейн."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Это обеспечивает протоколу Uniswap доступ к вашему токену для трейдинга. В целях безопасности срок действия истекает через 30 дней."
+    },
+    "dataUnavailable": "Данные сейчас недоступны. Мы работаем над исправлением.",
+    "id": "Идентификатор ошибки: {{eventId}}",
+    "noData": "Данные не найдены",
+    "request": {
+      "provideId": "К сожалению, при обработке вашего запроса произошла ошибка. Обязательно предоставьте ее идентификатор при обращении в службу поддержки."
+    },
+    "tokenApproval": "Не удалось утвердить токен",
+    "tokenApprovalEdited": {
+      "message": "Сумма утверждения, установленная в вашем кошельке, слишком мала для завершения этой транзакции. Увеличьте ее и попробуйте еще раз."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Произошел сбой.",
+      "restart": "Перезагрузить приложение",
+      "title": "Ошибка"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Исследовать другие пулы"
+    },
+    "search": {
+      "action": {
+        "clear": "Очистить",
+        "viewEtherscan": "Открыть в {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "По запросу <highlight>{{searchQuery}}</highlight> не найдено результатов"
+      },
+      "error": "Не удалось загрузить результаты поиска",
+      "label": {
+        "ownedBy": "Владелец: {{ownerAddress}}"
+      },
+      "placeholder": "Поиск токенов и кошельков",
+      "section": {
+        "nft": "NFT-коллекции",
+        "popularNFT": "Популярные NFT-коллекции",
+        "popularTokenInfo": "Популярные токены определяются на основе объема трейдинга в Uniswap за последние 24 часа.",
+        "popularTokens": "Популярные токены",
+        "recent": "Недавние поисковые запросы",
+        "tokens": "Токены",
+        "wallets": "Кошельки"
+      }
+    },
+    "tokens": {
+      "error": "Не удалось загрузить токены",
+      "favorite": {
+        "action": {
+          "add": "Избранный токен",
+          "edit": "Редактировать избранное",
+          "remove": "Удалить избранное"
+        },
+        "title": {
+          "default": "Избранные токены",
+          "edit": "Редактировать избранные токены"
+        }
+      },
+      "metadata": {
+        "marketCap": "Рыночная капитализация: {{number}}",
+        "totalValueLocked": "TVL: {{number}}",
+        "volume": "Объем: {{number}}"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Рыночная капитализация",
+          "priceDecrease": "Снижение цены",
+          "priceIncrease": "Повышение цены",
+          "totalValueLocked": "TVL",
+          "volume": "Объем"
+        },
+        "option": {
+          "marketCap": "Рыночная капитализация",
+          "priceDecrease": "Снижение цены (за 24 часа)",
+          "priceIncrease": "Повышение цены (за 24 часа)",
+          "totalValueLocked": "TVL Uniswap",
+          "volume": "Объем Uniswap (за 24 часа)"
+        }
+      },
+      "top": {
+        "title": "Лучшие токены"
+      }
+    },
+    "v2TVL": "TVL в v2",
+    "v3TVL": "TVL в v3",
+    "v4TVL": "TVL в v4",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Избранный кошелек",
+          "edit": "Редактировать избранное",
+          "remove": "Удалить избранное"
+        },
+        "title": {
+          "default": "Избранные кошельки",
+          "edit": "Редактировать избранные кошельки"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Сеть",
+      "networks": "Сети",
+      "popup": {
+        "trouble": "Проблемы с подключением?"
+      },
+      "titleConnected": "Подключено",
+      "titleNotConnected": "Не подключено"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Забыли пароль?",
+        "reset": "Сбросить кошелек",
+        "submit": "Разблокировать"
+      },
+      "password": {
+        "error": "Неверный пароль. Попробуйте еще раз.",
+        "reset": {
+          "initial": {
+            "description": "Uniswap не может оказать вам помощь с восстановлением вашего пароля. Сбросьте настройки кошелька, повторно введя фразу восстановления из 12 слов.",
+            "help": "Как мне найти фразу восстановления?",
+            "title": "Забыли пароль?"
+          },
+          "speedbump": {
+            "description": "Прежде чем сбрасывать настройки кошелька, убедитесь, что у вас есть фраза восстановления из 12 слов. В противном случае вы не сможете вернуть свои средства.",
+            "help": "Я потерял(-а) фразу восстановления",
+            "title": "Прежде чем продолжить"
+          }
+        }
+      },
+      "subtitle": "Для разблокировки введите свой пароль",
+      "title": "С возвращением!"
+    },
+    "network": {
+      "notSupported": "Неподдерживаемая сеть"
+    },
+    "open": "Открыть расширение Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "Открыть расширение",
+        "description": "Завершите это действие, открыв расширение Uniswap.",
+        "title": "Продолжить в Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "При подключении к приложениям отдавайте предпочтение расширению Uniswap.",
+        "title": "Сделать кошелек стандартным"
+      },
+      "password": {
+        "enter": {
+          "title": "Введите свой текущий пароль"
+        },
+        "error": {
+          "wrong": "Неверный пароль"
+        },
+        "placeholder": "Текущий пароль"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Резервное копирование",
+        "message": "Обязательно создайте резервную копию фразы восстановления, чтобы не потерять доступ к своему кошельку и средствам.",
+        "title": "В вашем браузере заканчивается место для хранения данных"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "Лучше всего подходит для экзотических пар.",
+    "bestForMost": "Лучше всего подходит для большинства пар.",
+    "bestForStablePairs": "Лучше всего подходит для стабильных пар.",
+    "bestForVeryStable": "Лучше всего подходит для очень стабильных пар.",
+    "dynamic": "Динамическая комиссия",
+    "percentEarned": "Процент (%), который вы заработаете в виде комиссий.",
+    "selectPercent": "выбранные {{pct}} %",
+    "selectPercentDescription": "{{pct}} % ликвидности выбрано на этом уровне",
+    "tier": {
+      "create": {
+        "button": "Создать новый уровень комиссии",
+        "description": "Создание нового уровня приведет к инициализации нового пула и к более высоким, чем обычно, комиссиям сети."
+      },
+      "description": {
+        "v2": "Сумма, заработанная за предоставление ликвидности. Все пулы v2 имеют фиксированные комиссии в размере 0,3 %. Для получения дополнительных опций предоставьте ликвидность в v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Вы собираетесь создать пул с динамическим уровнем комиссии. Прежде чем продолжить, убедитесь, что выбранный хук поддерживает динамические комиссии."
+        }
+      },
+      "highestTvl": "Самый высокий показатель TVL",
+      "label": "Процент (%), который вы заработаете в виде комиссий",
+      "missing": {
+        "description": "Не можете найти нужный уровень?"
+      },
+      "new": "Новый уровень",
+      "percent": {
+        "select": "Выбрано {{percentage}}"
+      },
+      "recommended": {
+        "description": "Рекомендуется на основе наибольшей доли ликвидности для выбранной пары токенов."
+      },
+      "search": {
+        "short": "Поиск уровней"
+      },
+      "select": {
+        "existing": {
+          "button": "Выберите существующий уровень комиссии"
+        }
+      }
+    },
+    "tierExact": "Уровень комиссии {{fee}}",
+    "unavailable": "Полученные комиссионные не отображаются для позиций v2 до устранения ликвидности.",
+    "uncollected": "Включает несобранные комиссии:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Продажа с"
+    },
+    "connection": {
+      "quote": "Продажа {{amount}} на сумму {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Превышает баланс"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} на {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Вернуться",
+      "divider": "Неподдерживаемые токены",
+      "message": "Этот токен не поддерживается для продажи. Выполните своп этого актива на один из поддерживаемых токенов.",
+      "swap": "Выполнить своп на поддерживаемый токен",
+      "title": "Неподдерживаемый токен"
+    },
+    "welcome": {
+      "tooltip": "Продайте криптовалюту на свой банковский счет или дебетовую карту."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Выберите токен"
+    },
+    "cexTransferModal": {
+      "description": "Покупка криптовалюты с помощью карты не поддерживается в вашем регионе. Для пополнения кошелька переведите активы со счета централизованной криптовалютной биржи.",
+      "title": "Для начала переведите активы"
+    },
+    "checkout": {
+      "title": "Оформить заказ с помощью"
+    },
+    "checkoutWith": "Оформить заказ с помощью",
+    "chooseProvider": {
+      "description": "Вы перейдете на портал поставщика услуг для просмотра комиссий, связанных с вашей транзакцией."
+    },
+    "completeTransactionHeader": "Завершите транзакцию с помощью {{serviceProvider}}",
+    "connection": {
+      "error": "Ошибка подключения",
+      "errorDescription": "Произошла ошибка при подключении к {{serviceProvider}}.",
+      "message": "Подключение к {{serviceProvider}}",
+      "quote": "Покупка {{amount}} на сумму {{currencySymbol}}",
+      "terms": "Продолжая, вы подтверждаете, что принимаете Условия обслуживания и Политику конфиденциальности {{serviceProvider}}, если они применимы."
+    },
+    "continueInTab": "Чтобы продолжить, откройте вкладку {{serviceProvider}}. Теперь можно закрыть это модальное окно.",
+    "disclaimer": "Продолжая, вы подтверждаете, что принимаете <tosLink>Условия обслуживания</tosLink> и <privacyLink>Политику конфиденциальности</privacyLink> {{serviceProvider}}, если они применимы.",
+    "error": {
+      "default": "Произошла ошибка.",
+      "load": "Не удалось загрузить токены для покупки",
+      "max": "Максимальная сумма {{amount}}",
+      "min": "Минимальная сумма {{amount}}",
+      "noQuotes": "Котировки не найдены.",
+      "unavailable": "Данная услуга недоступна в вашем регионе",
+      "unsupported": "Не поддерживается в определенном регионе",
+      "usd": "Доступно только для покупки в долларах США"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} на {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Котировки не найдены"
+    },
+    "purchasedOn": "Куплено у {{serviceProvider}}",
+    "quote": {
+      "advice": "Вы перейдете на портал поставщика услуг для просмотра комиссий, связанных с вашей транзакцией.",
+      "type": {
+        "list": "{{optionsList}} и другие варианты",
+        "other": "Другие варианты",
+        "recent": "Недавно использованные"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Из аккаунта"
+        }
+      },
+      "title": "Получение криптовалюты",
+      "transferFunds": "Пополните свой кошелек, переведя криптовалюту из другого кошелька или счета"
+    },
+    "region": {
+      "placeholder": "Поиск по стране или региону",
+      "title": "Выберите регион"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} на {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Обновить",
+      "learn": "Подробнее о том, как выполнить обновление",
+      "recoveryPhrase": "Просмотреть фразу восстановления"
+    },
+    "description": {
+      "extension": "Доступна новая версия приложения. Чтобы дальше использовать расширение Uniswap, обновите его до последней версии.",
+      "wallet": "Доступна новая версия приложения. Чтобы дальше использовать приложение Uniswap Wallet, обновите его до последней версии."
+    },
+    "label": {
+      "recoveryPhrase": "Фраза восстановления"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "Общие настройки"
+  },
+  "hero": {
+    "scroll": "Прокрутите страницу, чтобы узнать больше",
+    "subtitle": "Крупнейший ончейн-маркетплейс. Покупайте и продавайте криптовалюту на Эфириум и в более чем 11 других блокчейнах.",
+    "swap": {
+      "title": "Своп в любое время, <br/> где угодно"
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Подробнее о скрытых NFT"
+        },
+        "text": {
+          "button": "Скрытые NFT ({{numHidden}})",
+          "extension": "Это потенциальные скрытые вами мошенничества и NFT. Чтобы отобразить NFT-токен, щелкните по нему правой кнопкой мыши.",
+          "mobile": "Это потенциальные скрытые вами мошенничества и NFT. Чтобы отобразить NFT-токен, нажмите и удерживайте его.",
+          "title": "Скрытые NFT"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Узнайте больше о скрытых токенах"
+        },
+        "text": {
+          "button": "Скрытые токены ({{numHidden}})",
+          "info": "Это потенциальные скрытые вами мошенничества, небольшие балансы и токены. Скрытые токены не учтены в общем балансе вашего кошелька.",
+          "title": "Скрытые токены"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Получить токены или NFT",
+        "description": {
+          "default": "Здесь отображаются ваши транзакции по утверждению, обмену или переводу токенов либо NFT.",
+          "external": "Здесь отображаются транзакции, выполненные из этого кошелька."
+        },
+        "title": "Пока нет активности"
+      },
+      "error": {
+        "load": "Не удалось загрузить историю действий"
+      },
+      "title": "Активность"
+    },
+    "banner": {
+      "offline": "Вы находитесь в офлайн-режиме",
+      "testnetMode": {
+        "nav": "Вы находитесь в режиме тестовой сети. Отключите его в настройках.",
+        "outage": {
+          "monad": {
+            "description": "Доступ к тестовой сети Monad через интерфейс Uniswap приостановлен из-за проблем со стабильностью сети. Средства тестовой сети не затронуты. Доступ будет восстановлен после устранения проблем.",
+            "title": "Доступ к сети Monad приостановлен"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Чтобы узнать больше, нажмите «Поиск»",
+      "title": "Исследование токенов"
+    },
+    "extension": {
+      "error": "Ошибка загрузки аккаунтов"
+    },
+    "label": {
+      "buy": "Купить",
+      "for": "Покупка/продажа",
+      "receive": "Получить",
+      "send": "Отправить",
+      "swap": "Выполнить своп"
+    },
+    "nfts": {
+      "title": "NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Совершайте покупки с помощью дебетовой карты или банковского счета.",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "Введите фразу восстановления этого кошелька, чтобы начать своп и отправку.",
+            "title": "Импорт кошелька"
+          },
+          "receive": {
+            "description": "Осуществляйте переводы с другого кошелька или счета.",
+            "title": "Получить криптовалюту"
+          }
+        },
+        "description": "Здесь отображаются токены, которые покупает или получает этот кошелек.",
+        "title": "Пока нет токенов",
+        "welcome": {
+          "description": "Похоже, у вас новый кошелек. Давайте пополним его, прежде чем вы сделаете свой первый своп."
+        }
+      },
+      "error": {
+        "fetch": "Не удалось получить балансы токенов",
+        "load": "Не удалось загрузить балансы токенов"
+      },
+      "title": "Токены"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Из аккаунта",
+        "description": "Пополните свой кошелек, переведя криптовалюту из другого кошелька или счета",
+        "title": "Получение криптовалюты"
+      }
+    },
+    "warning": {
+      "viewOnly": "Это кошелек только для просмотра"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Выполняйте своп или предоставляйте ликвидность в протоколе Uniswap",
+      "title": "Интерфейс Uniswap"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Создавайте открытые приложения и инструменты нового поколения.",
+    "connectWithUs": "Свяжитесь с нами",
+    "devDocs": "Документация разработчика",
+    "directToDeFi": "Перейти непосредственно к DeFi",
+    "followOnX": "Подпишитесь на страницу @Uniswap в X, чтобы быть в курсе последних обновлений",
+    "protocolDescription": "Продукты Uniswap работают на основе протокола Uniswap, который является крупнейшим ончейн-маркетплейсом с тысячами токенов в Эфириум и более чем 7 других блокчейнах. Их еженедельный объем составляет миллиарды долларов.",
+    "provideLiquidity": {
+      "message": "Предоставляйте ликвидность пулам в протоколе Uniswap и получайте комиссию за свопы."
+    },
+    "swapSimple": "Своп стал проще. Получите доступ к тысячам токенов в более чем 11 блокчейнах.",
+    "teamInsights": "Рекомендации и новости от команды",
+    "trusted": "Нам доверяют миллионы"
+  },
+  "language": {
+    "afrikaans": "Африкаанс",
+    "arabic": "Арабский",
+    "catalan": "Каталонский",
+    "chineseSimplified": "Китайский упрощенный",
+    "chineseTraditional": "Китайский традиционный",
+    "czech": "Чешский",
+    "danish": "Датский",
+    "dutch": "Голландский",
+    "english": "Английский",
+    "finnish": "Финский",
+    "french": "Французский",
+    "greek": "Греческий",
+    "hebrew": "Иврит",
+    "hindi": "Хинди",
+    "hungarian": "Венгерский",
+    "indonesian": "Индонезийский",
+    "italian": "Итальянский",
+    "japanese": "Японский",
+    "korean": "Корейский",
+    "malay": "Малайский",
+    "norwegian": "Норвежский",
+    "polish": "Польский",
+    "portuguese": "Португальский",
+    "romanian": "Румынский",
+    "russian": "Русский",
+    "serbian": "Сербский",
+    "spanishLatam": "Испанский (Латинская Америка)",
+    "spanishSpain": "Испанский (Испания)",
+    "spanishUs": "Испанский (США)",
+    "swahili": "Суахили",
+    "swedish": "Шведский",
+    "turkish": "Турецкий",
+    "ukrainian": "Украинский",
+    "urdu": "Урду",
+    "vietnamese": "Вьетнамский"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 открытый лимит",
+      "count_other": "Открытые лимиты: {{count}}"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Ваша лимитная цена на {{percentage}} % выше рыночной. Чтобы продолжить, скорректируйте ее.",
+        "title": "Покупка {{tokenSymbol}} выше рыночной цены"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Не удалось рассчитать текущую рыночную цену. Чтобы не отправить заказ по цене ниже рыночной, проверьте подключение к сети и повторите попытку.",
+        "title": "Рыночная цена недоступна"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Ваша лимитная цена на {{percentage}} % ниже рыночной. Чтобы продолжить, скорректируйте ее.",
+        "title": "Продажа {{tokenSymbol}} ниже рыночной цены"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Ограничения доступны только для токенов основной сети."
+        },
+        "uniswapx": "Ограничения могут не сработать именно в тот момент, когда токены достигнут указанной цены. <link />"
+      }
+    },
+    "learnMore": "Подробнее об ограничениях",
+    "price": {
+      "input": {
+        "label": "Когда 1 <tokenSymbol /> стоит"
+      },
+      "label": "Лимитная цена"
+    },
+    "selectSupportedTokens": "Выберите поддерживаемые токены"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Введите адрес хука"
+      }
+    },
+    "learnMoreLabel": "Подробнее о предоставлении ликвидности",
+    "notEnough": {
+      "label": "Недостаточно ликвидности для отображения точной стоимости в долларах США."
+    },
+    "provideOnProtocols": "Предоставление ликвидности в разных протоколах"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "Ликвидность {{token}}: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Добавление ликвидности в пулы {{version}} на Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "Закрытые позиции"
+      },
+      "page": {
+        "title": "Управление ликвидностью пула {{quoteSymbol}}/{{baseSymbol}} на Uniswap",
+        "version": {
+          "description": "Просмотрите свои активные позиции ликвидности {{version}}. Добавьте новые позиции.",
+          "title": "Управление ликвидностью пула {{version}} на Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Разрешено",
+    "allowLpMigration": "Разрешить перенос токенов LP",
+    "connectAccount": "Необходимо подключить учетную запись, которой принадлежит эта позиция.",
+    "connectWallet": "Подключитесь к кошельку, чтобы просмотреть свою ликвидность V2.",
+    "contract": "Контракт переноса Uniswap",
+    "firstLP": "Вы являетесь первым поставщиком ликвидности для этого пула Uniswap V3. Ваша ликвидность будет перенесена по текущей цене {{source}}.",
+    "highGasCost": "Стоимость вашей транзакции будет намного выше, поскольку она включает в себя газ для создания пула.",
+    "invalidRange": "Выбран неверный диапазон. Минимальная цена должна быть ниже максимальной.",
+    "lpNFT": "LP NFT {{symA}}/{{symB}}",
+    "lpTokens": "LP-токены {{symA}}/{{symB}}",
+    "migrating": "Перенос",
+    "missingV2Position": "Не видите одну из своих позиций v2? <Link>Импортируйте ее.</Link>",
+    "noV2Liquidity": "Ликвидность V2 не обнаружена.",
+    "positionNoFees": "Ваша позиция не будет приносить комиссию и не будет использоваться в сделках до тех пор, пока рыночная цена не переместится в ваш диапазон.",
+    "priceDifference": "Разница в цене: ",
+    "priceWarning": "Вам следует вносить ликвидность в Uniswap V3 только по той цене, которую вы считаете правильной. <br /> Если цена кажется неправильной, вы можете либо совершить своп, чтобы переместить цену, либо подождать, пока это сделает кто-то другой.",
+    "refund": "Как минимум {{amtA}} {{symA}} и {{amtB}} {{symB}} будут возвращены на ваш кошелек в соответствии с выбранным ценовым диапазоном.",
+    "selectFeeTier": "Выберите уровень комиссии",
+    "setRange": "Установить ценовой диапазон",
+    "symbolPrice": "Цена {{tokenSymbol}} {{protocolName}}:",
+    "v2Description": "Этот инструмент безопасно перенесет вашу ликвидность {{source}} на V3. Этот процесс полностью безопасен благодаря <0>контракту переноса Uniswap.</0> ↗",
+    "v2Instruction": "Для каждого пула, показанного ниже, нажмите «Перенос», чтобы вывести свою ликвидность из Uniswap V2 и перенести ее в Uniswap V3.",
+    "v2Title": "Перенос ликвидности V2",
+    "v3Price": "Цена {{sym}} V3:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Неверный ввод цены"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Загрузите приложение Uniswap Wallet"
+      },
+      "title": "Uniswap: кошелек для криптовалюты и NFT"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Обмен традиционной валюты с помощью MoonPay USA LLC",
+    "restricted": {
+      "region": "Сервис MoonPay недоступен в некоторых регионах. Нажмите здесь, чтобы узнать больше."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Создать аккаунт"
+    },
+    "logIn": {
+      "button": "Вход"
+    },
+    "signIn": {
+      "button": "Войти"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "Регистрация"
+    },
+    "tabs": {
+      "createPosition": "Создать позицию",
+      "viewPositions": "Просмотреть позиции"
+    }
+  },
+  "network": {
+    "lostConnection": "Похоже, отсутствует подключение к Интернету.",
+    "mightBeDown": "Возможно, в сети {{network}} случился сбой или потеряно подключение к Интернету.",
+    "warning": "Предупреждение сети"
+  },
+  "nft": {
+    "addToBag": "Добавить в сумку",
+    "authorsCollectionOnUni": "NFT-коллекция {{name}} на Uniswap",
+    "bag": "Сумка",
+    "blockedCollection": "Эта коллекция заблокирована",
+    "blockedOpenSea": "Заблокировано в OpenSea",
+    "buyTransferNFTToStart": "Для начала купите NFT-токены или переведите их в этот кошелек.",
+    "buyTransferTokensToStart": "Для начала купите токены или переведите их в этот кошелек.",
+    "card": {
+      "notAvailable": "Содержимое <br /> пока недоступно"
+    },
+    "chainSupportComingSoon": "Вскоре будет добавлена поддержка блокчейна {{chainName}}",
+    "collectionOnUni": "NFT-коллекция на Uniswap",
+    "collectonOnAddress": "NFT-коллекция на Uniswap — {{address}}",
+    "complete": "Готово!",
+    "editListings": "Редактировать листинги",
+    "event": "Событие",
+    "explore": "Обзор NFT",
+    "learnWhy": "Узнать причину",
+    "list": {
+      "header": {
+        "lastPrice": "Последняя цена"
+      },
+      "title": "Листинг NFT"
+    },
+    "listedSignificantly_one": "Один NFT-токен размещен на {{percentage}} ниже минимальной цены коллекции. Вы действительно хотите продолжить?",
+    "listedSignificantly_other": "{{count}} NFT размещены значительно ниже минимальной цены коллекции. Вы действительно хотите продолжить?",
+    "listForSale": "Листинг на продажу",
+    "lowPrice": "Низкая цена листинга",
+    "marketplace": {
+      "royalty": {
+        "header": "Комиссии {{marketName}}"
+      }
+    },
+    "maxFees": "Макс. комиссии",
+    "maxRoyalties": "Макс. гонорары создателей",
+    "noItems": "Нет элементов для отображения",
+    "noneAtAddress": "По этому адресу не существует коллекционных активов",
+    "noPools": "Пока нет пулов",
+    "notListed": "Не размещено",
+    "proceedsIfSold": "Выручка за продажу",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Уже размещено в {{tokenAmountWithSymbol}}",
+          "belowFloor": "На {{percentage}} ниже минимальной цены."
+        }
+      }
+    },
+    "refundsInEth": "Возврат средств за недоступные предметы будет осуществляться в ETH",
+    "removeFromBag": "Удалить из сумки",
+    "reportSpam": "Сообщить о спаме",
+    "returnToExplore": "Вернуться в раздел «Обзор NFT»",
+    "returnToMy": "Вернуться в раздел «Мои NFT»",
+    "setPrices": "Установите цены, чтобы продолжить",
+    "startListing": "Начать листинг",
+    "successListed": "Успешно размещено",
+    "unavailableToList": "Недоступно для листинга",
+    "whyTransaction": {
+      "reason": "Листинг NFT требует однократного одобрения маркетплейса для каждой NFT-коллекции."
+    },
+    "willAppearHere": "Здесь будут отображаться ваши ончейн-транзакции и покупки криптовалюты.",
+    "wishGranted": "Uniswap исполняет ваше желание!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Утвердить коллекцию",
+        "approve_other": "Утвердить коллекции",
+        "sign_one": "Подписать листинг",
+        "sign_other": "Подписать листинги"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "Макс. {{percentChanged}}"
+      }
+    },
+    "my": "Мои NFT",
+    "noneYet": "Пока нет NFT",
+    "sell": "Продать NFT"
+  },
+  "notFound": {
+    "oops": "Вернуться к свопу"
+  },
+  "notice": {
+    "uk": {
+      "label": "Отказ от ответственности в Великобритании:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} скрыто",
+      "unhidden": "{{assetName}} показано"
+    },
+    "copied": {
+      "address": "Адрес скопирован",
+      "calldata": "Данные вызова скопированы",
+      "contractAddress": "Адрес контракта скопирован",
+      "failed": "Не удалось скопировать в буфер обмена",
+      "image": "Изображение скопировано",
+      "nftUrl": "URL-адрес NFT скопирован",
+      "tokenUrl": "URL-адрес токена скопирован",
+      "transactionId": "Идентификатор транзакции скопирован",
+      "unitag": "Имя пользователя скопировано"
+    },
+    "countryChange": "Переключено на {{countryName}}",
+    "network": {
+      "changed": "Переключено на {{network}}"
+    },
+    "passwordChanged": "Пароль изменен",
+    "restore": {
+      "success": "Кошелек восстановлен!"
+    },
+    "send": {
+      "network": "Отправка в {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Сообщение отправлено"
+      }
+    },
+    "swap": {
+      "network": "Выполняется своп в {{network}}",
+      "pending": {
+        "swap": "Своп в обработке",
+        "unwrap": "Развертывание в обработке",
+        "wrap": "Обертывание в обработке"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Утверждение для {{currencySymbol}} отозвано.",
+        "fail": "Не удалось утвердить {{currencySymbol}} для использования с {{address}}.",
+        "success": "Утверждено {{currencySymbol}} для использования с {{address}}."
+      },
+      "pending": "Транзакция в обработке",
+      "swap": {
+        "canceled": "Своп {{inputCurrencySymbol}} на {{outputCurrencySymbol}} отменен.",
+        "expired": "Срок действия свопа {{inputCurrencyAmountWithSymbol}} на {{outputCurrencyAmountWithSymbol}} истек.",
+        "fail": "Не удалось выполнить своп {{inputCurrencyAmountWithSymbol}} на {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Выполнен своп {{inputCurrencyAmountWithSymbol}} на {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Отменена отправка {{tokenNameOrAddress}}",
+        "fail": "Не удалось отправить {{tokenNameOrAddress}} в {{walletNameOrAddress}}",
+        "received": "{{tokenNameOrAddress}} получено от {{walletNameOrAddress}}",
+        "success": "{{tokenNameOrAddress}} отправлено в {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Не удалось совершить транзакцию с {{addressOrEnsName}}",
+          "short": "Транзакция не удалась"
+        },
+        "success": {
+          "full": "Совершена транзакция с {{addressOrEnsName}}",
+          "short": "Транзакция подтверждена"
+        }
+      },
+      "unwrap": {
+        "canceled": "Отменено развертывание {{inputCurrencySymbol}}.",
+        "fail": "Не удалось развернуть {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Развернуто {{inputCurrencyAmountWithSymbol}} и получено {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Отменено обертывание {{inputCurrencySymbol}}.",
+        "fail": "Не удалось обернуть {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Обернуто {{inputCurrencyAmountWithSymbol}} и получено {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Перевод в обработке"
+    },
+    "walletConnect": {
+      "confirmed": "Транзакция подтверждена с помощью {{dappName}}",
+      "connected": "Подключено",
+      "disconnected": "Отключено",
+      "failed": "Транзакция с помощью {{dappName}} не удалась",
+      "networkChanged": {
+        "full": "Переключено на {{networkName}}",
+        "short": "Смена сети"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Продолжить в расширении Uniswap",
+      "title": "Успешно!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Мы предлагаем записать эти данные на листе бумаги и хранить его в надежном месте: например, в сейфе.",
+        "displayWarning": {
+          "description": "Прежде чем продолжить, внимательно прочтите приведенную ниже информацию.",
+          "note": {
+            "access": "Эта фраза восстановления предоставляет вам полный доступ к вашему кошельку и средствам",
+            "secure": "Просмотрите ее в частном порядке и никому не передавайте",
+            "storage": "Запишите ее и сохраните в надежном месте"
+          },
+          "title": "Некоторые важные вещи, которые нужно знать"
+        },
+        "error": "Неверное или неправильно написанное слово",
+        "placeholder": "Секретное слово",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} завершено",
+        "selectedWordPlaceholder": "Выберите слово",
+        "subtitle_one": "Какое {{count}}-е слово в вашей фразе восстановления?",
+        "subtitle_two": "Какое {{count}}-е слово в вашей фразе восстановления?",
+        "subtitle_few": "Какое {{count}}-е слово в вашей фразе восстановления?",
+        "subtitle_other": "Какое {{count}}-е слово в вашей фразе восстановления?",
+        "title": "Давайте убедимся, что вы все правильно записали"
+      },
+      "option": {
+        "badge": {
+          "quick": "Быстрый способ"
+        },
+        "cloud": {
+          "description": "Создайте резервную копию своего кошелька, защищенную паролем восстановления, с помощью хранилища {{cloudProviderName}}.",
+          "title": "Настройте пароль восстановления"
+        },
+        "manual": {
+          "description": "Запишите свои 12 секретных слов на листе бумаги и сохраните его в надежном месте.",
+          "title": "Запишите фразу восстановления"
+        }
+      },
+      "reminder": {
+        "description": "Резервное копирование вашего кошелька гарантирует, что вы всегда сможете восстановить свои активы, если потеряете телефон или приобретете новое устройство.",
+        "title": "Пришло время создать резервную копию вашего кошелька",
+        "warning": {
+          "description": "Если вы не настроите метод резервного копирования, у вас не будет возможности восстановить свой кошелек в случае потери телефона, удаления приложения или приобретения нового устройства.",
+          "title": "Вы можете потерять свои средства"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Если вы забудете пароль, мы не сможем его сбросить. Запишите его в надежном месте или сохраните в менеджере паролей.",
+          "disclaimer": "Я понимаю, что Uniswap Labs не может сбросить мой пароль восстановления.",
+          "title": "Важно сохранить этот пароль"
+        },
+        "manual": {
+          "description": "Убедитесь, что вы правильно записали свою фразу восстановления и храните ее в надежном месте.",
+          "disclaimer": "Я понимаю, что в случае потери этих данных Uniswap Labs не сможет восстановить мой кошелек.",
+          "title": "Прежде чем закончить…"
+        }
+      },
+      "subtitle": "Вот как вы сможете восстановить свой кошелек, если удалите приложение или потеряете устройство.",
+      "title": {
+        "existing": "Создайте резервную копию своего кошелька",
+        "new": "Выберите метод резервного копирования"
+      },
+      "view": {
+        "disclaimer": "Я понимаю, что если потеряю фразу восстановления, Uniswap Labs не сможет помочь мне восстановить ее.",
+        "subtitle": {
+          "message1": "Прежде чем продолжить, внимательно прочитайте следующее",
+          "message2": "Вам нужно будет ввести все эти 12 секретных слов, чтобы восстановить свой кошелек."
+        },
+        "title": "Запишите фразу восстановления",
+        "warning": {
+          "message1": "Эта фраза восстановления предоставляет вам полный доступ к вашему кошельку и средствам",
+          "message2": "Запишите ее и сохраните в надежном месте",
+          "message3": "Просмотрите ее в частном порядке и <u>никому не передавайте</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Вам нужно будет ввести эти данные, чтобы восстановить свои средства. Если вы забудете их, мы не сможем восстановить их для вас.",
+        "title": "Подтвердите свой пароль восстановления"
+      },
+      "createPassword": {
+        "description": "Вам нужно будет ввести эти данные, чтобы восстановить свои средства. Если вы забудете их, мы не сможем восстановить их для вас.",
+        "title": "Создайте свой пароль восстановления"
+      }
+    },
+    "complete": {
+      "button": "Открыть расширение Uniswap",
+      "description": "Ваш кошелек готов к отправке и получению криптовалюты. Откройте расширение Uniswap с помощью ярлыка ниже.",
+      "go_to_uniswap": "Открыть веб-приложение Uniswap",
+      "pin": {
+        "description": "Щелкните значок булавки, чтобы добавить расширение Uniswap на панель инструментов.",
+        "title": "Прикрепить расширение Uniswap"
+      },
+      "title": "Все готово"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Пароль нужен для разблокировки кошелька и получения доступа к фразе восстановления",
+        "title": {
+          "default": "Создать пароль",
+          "reset": "Сбросить пароль"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Расширение Uniswap совместимо только с Chrome на настольном компьютере.",
+          "title": "Chrome на мобильных устройствах пока не поддерживается"
+        },
+        "description": "Расширение Uniswap на данный момент совместимо только с Chrome.",
+        "title": "Этот браузер пока не поддерживается"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Составьте план восстановления на случай потери телефона или покупки нового.",
+          "title": "Создайте резервную копию своего кошелька"
+        },
+        "fund": {
+          "description": "Пополните свой кошелек, купив криптовалюту или переведя ее с другого счета.",
+          "title": "Получите свой первый токен"
+        },
+        "label": {
+          "required": "Обязательно",
+          "swipe": "Проведите пальцем"
+        },
+        "pushNotifications": {
+          "description": "Получайте уведомления о ценах на ваши избранные токены, о тенденциях на рынке и многом другом.",
+          "title": "Оставайтесь в курсе"
+        },
+        "unitag": {
+          "description": "Создайте персонализированный профиль Web3 и легко делитесь своим адресом с друзьями.",
+          "title": "Получите имя пользователя {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 слово недействительно или написано с ошибкой",
+        "invalidWords_other": "Недействительные или написанные с ошибками слова: {{count}}"
+      },
+      "method": {
+        "import": {
+          "message": "Введите фразу восстановления из другого криптовалютного кошелька.",
+          "title": "Импорт кошелька"
+        },
+        "passkey": {
+          "message": "Синхронизируйте кошелек Uniswap с помощью существующего ключа доступа.",
+          "title": "Вход с помощью ключа доступа"
+        },
+        "restore": {
+          "message": {
+            "android": "Добавьте кошельки, для которых вы создали резервные копии в своем аккаунте Google Диска.",
+            "ios": "Добавьте кошельки, для которых вы создали резервные копии в своем аккаунте iCloud."
+          },
+          "title": "Восстановление кошелька"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Не подходит ничего из вышеперечисленного?"
+        },
+        "subtitle": "Выберите, в какой кошелек вы хотите снова войти.",
+        "title": "С возвращением в Uniswap",
+        "wallet": {
+          "button": "Просмотреть фразу восстановления",
+          "count_one": "Еще один кошелек",
+          "count_other": "Еще столько кошельков: {{count}}"
+        },
+        "warning": {
+          "caption": "Убедитесь, что вы создали резервные копии для всех оставшихся кошельков. Если вы когда-нибудь захотите возобновить их, вам понадобятся фразы восстановления или соответствующие резервные копии {{cloudProvider}}.",
+          "title": "Вы уверены?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "Импортируйте кошелек из мобильного приложения с помощью QR-кода.",
+          "title": "Использование мобильного приложения Uniswap"
+        },
+        "passkey": {
+          "subtitle": "Синхронизируйте кошелек Uniswap с помощью существующего ключа доступа.",
+          "title": "Вход с помощью ключа доступа"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Введите фразу восстановления из другого криптовалютного кошелька.",
+          "title": "Импорт кошелька"
+        },
+        "title": "Вход или импорт кошелька"
+      },
+      "title": "Выберите способ добавления кошелька"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Моя фраза восстановления состоит из 12 слов",
+        "importing": "Импорт…",
+        "longPhrase": "Моя фраза восстановления длиннее"
+      },
+      "error": {
+        "invalidPhrase": "Введенная вами фраза недействительна"
+      },
+      "subtitle": "Введите или вставьте фразу восстановления из 12 слов",
+      "title": "Введите фразу восстановления"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "У меня уже есть кошелек",
+        "signInOrImport": "Вход или импорт"
+      },
+      "mobileScan": {
+        "button": "Отсканируйте QR-код для импорта",
+        "title": "У вас есть приложение Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Добавить существующий кошелек",
+        "create": "Создать новый кошелек",
+        "createAccount": "Создать аккаунт"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Готово"
+        },
+        "subtitle": "Этот псевдоним виден только вам",
+        "title": "Придумайте имя для своего кошелька"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Чтобы получать уведомления, включите их для Uniswap Wallet в настройках своего устройства.",
+        "title": "Разрешение на уведомления"
+      },
+      "subtitle": "Получайте обновления о статусах транзакций и значительных изменениях цен любимых токенов.",
+      "title": "Включите уведомления"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Ваша учетная запись защищена с помощью собственного надежного хранилища паролей."
+      },
+      "biometric": {
+        "scan": "Просто отсканируйте свои биометрические данные и войдите в учетную запись на телефоне, планшете или в браузере."
+      },
+      "create": "Создать ключ доступа",
+      "use": {
+        "recovery": {
+          "phrase": "Использовать фразу восстановления"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Давайте убедимся, что вы все правильно поняли. Если вы потеряете или неправильно запишете эти данные, то не сможете восстановить свои средства.",
+          "default": "Если вы потеряете или неправильно запишете эти данные, то не сможете восстановить свои средства."
+        },
+        "title": "Давайте убедимся, что вы все правильно поняли"
+      },
+      "view": {
+        "subtitle": "Вам нужно будет ввести все эти 12 секретных слов, чтобы восстановить свой кошелек.",
+        "title": {
+          "hasPassword": "Если вы когда-нибудь забудете свой пароль…"
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Понятно",
+          "message": "Ваша фраза восстановления — это то, что предоставляет вам (и всем, у кого она есть) доступ к вашим средствам. Обязательно храните ее в надежном месте и не передавайте другим.",
+          "title": "Выполните этот шаг в уединенном месте"
+        },
+        "screenshot": {
+          "message": "Любой, кто получит доступ к вашим фотографиям, сможет получить доступ к вашему кошельку. Вместо этого мы рекомендуем вам записывать свои слова.",
+          "title": "Снимки экрана не являются надежным местом хранения"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Узнайте больше о безопасности кошелька",
+        "subtitle": "Используйте новый пароль, чтобы разблокировать свой кошелек.",
+        "title": "Восстановление пароля"
+      }
+    },
+    "scan": {
+      "error": "Во время загрузки QR-кода произошла ошибка",
+      "otp": {
+        "error": "Отправленный вами код неверный, или произошла ошибка при отправке. Попробуйте еще раз.",
+        "failed": "Неудачные попытки: {{number}}",
+        "subtitle": "Проверьте мобильное приложение Uniswap на наличие 6-значного кода",
+        "title": "Введите одноразовый код"
+      },
+      "subtitle": "Отсканируйте QR-код с помощью мобильного приложения Uniswap, чтобы начать импорт своего кошелька.",
+      "title": "Импорт кошелька из приложения",
+      "troubleScanning": {
+        "message": "Импорт с помощью фразы восстановления",
+        "title": "Проблемы со сканированием?"
+      },
+      "wifi": "Подключите телефон к той же сети Wi-Fi, к которой подключен компьютер."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Чтобы использовать биометрические данные, сначала настройте их в соответствующем разделе",
+            "ios": "Чтобы использовать {{biometricsMethod}}, разрешите доступ в настройках системы"
+          },
+          "title": {
+            "android": "Биометрические данные отключены",
+            "ios": "{{biometricsMethod}} отключен"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Включить биометрические данные",
+          "ios": "Включить {{biometricsMethod}}"
+        },
+        "setup": "Настроить"
+      },
+      "subtitle": {
+        "android": "Добавьте дополнительный уровень безопасности, настроив запрашивание биометрических данных при отправке транзакций.",
+        "ios": "Добавьте дополнительный уровень безопасности, настроив {{biometricsMethod}} для отправки транзакций."
+      },
+      "title": "Защитите свой кошелек"
+    },
+    "selectWallets": {
+      "error": "Не удалось загрузить адреса",
+      "title": {
+        "default": "Выберите кошельки для импорта",
+        "error": "Ошибка импорта кошельков"
+      }
+    },
+    "termsOfService": "Продолжая, я принимаю<highlightTerms> Условия обслуживания </highlightTerms> и <highlightPrivacy> Политику конфиденциальности</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Что такое фраза восстановления?"
+      }
+    },
+    "wallet": {
+      "continue": "Давайте сохраним это в безопасности",
+      "defaultName": "Кошелек {{number}}",
+      "description": {
+        "full": "Это ваше личное пространство для токенов, NFT и всех ваших сделок. Завершите настройку, чтобы сохранить свои средства в безопасности."
+      },
+      "title": "Добро пожаловать в ваш новый кошелек"
+    },
+    "welcome": {
+      "subtitle": "Давайте закончим настройку вашего кошелька.",
+      "title": "Добро пожаловать!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Вы по-прежнему можете без проблем выполнять своп и предоставлять ликвидность в этом блокчейне."
+    },
+    "title": "{{versionName}} скоро вернется"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Возникли проблемы с использованием ключа доступа? Перейдите на страницу службы поддержки Uniswap, чтобы получить помощь.",
+        "title": "Помощь с ключами доступа"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 позволяет совместно использовать утверждения токенов и управлять ими в разных приложениях."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Активный диапазон тиков",
+    "addAs": "Добавить как {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "Годовая процентная ставка на основе комиссий за 1 день"
+    },
+    "aprText": "Pool APR",
+    "balances": "Балансы пула",
+    "closedCTA": {
+      "description": "Их можно отобразить при помощи фильтра в верхней части страницы.",
+      "title": "Ищете свои закрытые позиции?"
+    },
+    "collectAs": "Взимать как {{nativeWrappedSymbol}}",
+    "collectFees": "Взимать комиссии",
+    "create": {
+      "info": "Ваш выбор создаст новый пул ликвидности, что может привести к снижению начальной ликвидности и повышению волатильности. Рассмотрите возможность добавления в существующий пул, чтобы минимизировать эти риски."
+    },
+    "createdPosition": {
+      "cancelled": "Создание позиции отменено",
+      "failed": "Не удалось создать позицию"
+    },
+    "details": "Сведения о пуле",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "Обозреватели",
+    "import": {
+      "link": {
+        "description": "Некоторые позиции v2 не отображаются автоматически."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Некоторые позиции v2 не отображаются автоматически. Выберите пару токенов, чтобы импортировать и просмотреть свои позиции."
+          }
+        }
+      },
+      "success": "Пул импортирован"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "Сведения о пуле",
+    "limitFluctuation": {
+      "warning": "Обратите внимание, что исполнение лимитов может варьироваться в зависимости от колебаний рынка в реальном времени и перегрузки сети Эфириум. Лимиты могут не сработать именно в тот момент, когда токены достигнут указанной цены."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "Во время получения данных для вашей транзакции произошла ошибка."
+        }
+      },
+      "outOfSync": {
+        "message": "Цены выбранных токенов в этом пуле отличаются от рыночных. Чтобы избежать убытков, скорректируйте диапазон цен соответствующим образом или дождитесь ребалансировки пула."
+      }
+    },
+    "maxPrice": "Макс. цена",
+    "migrateLiquidity": "Перенос ликвидности",
+    "migrateLiquidityDisabledTooltip": "Данный блокчейн не поддерживает пулы ликвидности v4.",
+    "migrateToV4": "Перенос в v4",
+    "minPrice": "Мин. цена",
+    "newPosition": {
+      "plus": "Создать новую позицию",
+      "title": "Новая позиция"
+    },
+    "newSpecificPosition": "Новая позиция {{symbol}}",
+    "openPosition": {
+      "cta": "Здесь вы можете добавлять ликвидность в пул и просматривать свои позиции"
+    },
+    "openToStart": "Для начала откройте новую позицию или создайте пул.",
+    "percent": "пул {{pct}} %",
+    "pooled": "Добавлено в пул {{sym}}:",
+    "position": "Позиция",
+    "positions": {
+      "title": "Ваши позиции",
+      "transaction": {
+        "settings": "Настройки транзакции"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Стоимость в USD в настоящее время недоступна для этой позиции. Просмотрите сведения о ней, чтобы узнать суммы внесенных токенов."
+      }
+    },
+    "priceRange": "Ценовой диапазон",
+    "refresh": {
+      "prices": "Обновить цены"
+    },
+    "removeLiquidity": "Удалить ликвидность",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "Токены пула в пуле вознаграждений:"
+    },
+    "selectPair": "Выберите пару",
+    "share": {
+      "label": "Ваша доля в пуле:"
+    },
+    "specificPosition": "Позиция {{symbol}}",
+    "tokenPair": "Пара токенов",
+    "top": {
+      "tvl": "Лучшие пулы по TVL"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "Общее количество ваших токенов пула:",
+    "uncollectedFees": "Несобранные комиссии",
+    "v2": "Пулы V2",
+    "v3": "Пулы V3",
+    "viewPools": "View pools",
+    "volOverTvl": "Объем/TVL за 1 дн.",
+    "volume": {
+      "thirtyDay": {
+        "short": "Объем за 30 дн."
+      }
+    },
+    "withdrawAs": "Вывести как {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "Пулы v2, соответствующие вашей выбранной паре."
+      },
+      "notFound": {
+        "description": "Соответствующие пулы v2 не найдены. Еще раз проверьте выбранные токены и убедитесь, что подключились к правильному кошельку."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Исследование пулов"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Хуки — это расширенная функция, которая позволяет пулам взаимодействовать со смарт-контрактами, открывая различные возможности. Будьте осторожны при добавлении хуков, так как некоторые из них могут быть вредоносными или вызывать непреднамеренные последствия."
+    },
+    "addingHook": {
+      "disclaimer": "Добавление хуков может иметь непредвиденные последствия. Проверьте информацию и продолжайте на свой страх и риск.",
+      "hideProperties": "Спрятать свойства",
+      "invalidAddress": "Введите действительный адрес хука",
+      "viewProperties": "Просмотреть свойства"
+    },
+    "create": {
+      "invalidPrice": "Недействительная цена",
+      "invalidRange": "Недействительный диапазон",
+      "modal": {
+        "header": "Создание позиции"
+      }
+    },
+    "currentValue": "Текущая стоимость позиции",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "Указанная начальная цена на {{value}} % меньше рыночной и может привести к потере средств. Действительно продолжить?",
+            "more": "Указанная начальная цена на {{value}} % больше рыночной и может привести к потере средств. Действительно продолжить?"
+          },
+          "title": "Цена сильно отличается от рыночной"
+        }
+      },
+      "description": "Укажите суммы токенов для вашего взноса в ликвидность."
+    },
+    "depositedCurrency": "Внесено {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "Создать позицию v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "Я понимаю потенциальные риски, связанные с добавлением данного хука.",
+      "donateWarning": "Это предупреждение может привести к изменениям полученных комиссионных.",
+      "liquidityWarning": "Это предупреждение может привести к блокированию пулом новой добавляемой ликвидности. Ваша транзакция может не состояться.",
+      "removeWarning": "Может привести к блокировке ваших средств или запрету на взимание комиссий.",
+      "swapWarning": "Это предупреждение может позволить поставщикам ликвидности легче использовать ликвидность Just-In-Time, что может привести к снижению получаемых комиссионных.",
+      "warningHeader": "Важно: выявлены риски хука",
+      "warningInfo": "Мы выявили потенциальные риски, связанные с этим хуком. Прежде чем продолжить, убедитесь, что понимаете принцип его работы."
+    },
+    "increase": {
+      "fot": "Добавление ликвидности для {{token}} и других токенов с комиссией за перевод не поддерживается."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "На {{ value }} % меньше рыночной цены",
+        "positive": "На {{ value }} % больше рыночной цены"
+      },
+      "info": "При создании нового пула необходимо указать начальный обменный курс для обоих токенов. Он будет отображать начальную рыночную цену.",
+      "set": "Указать начальную цену",
+      "useMarketPrice": "Использовать рыночную цену"
+    },
+    "migrate": {
+      "liquidity": "При переносе позиций вы не можете изменить пару токенов, но можете добавить хук для улучшенной функциональности.",
+      "v4unsupportedChain": "Данный блокчейн не поддерживает пулы v4."
+    },
+    "new": {
+      "protocol": "Новая позиция {{protocol}}"
+    },
+    "notFound": {
+      "description": "Сведения об этой позиции недоступны. Убедитесь, что вы подключены к правильному кошельку."
+    },
+    "protocol": "Позиция {{protocol}}",
+    "provide": {
+      "liquidity": "Выберите токены, для которых вы хотите предоставить ликвидность. Вы можете выбрать токены во всех поддерживаемых сетях.",
+      "liquidityDescription": {
+        "creatingPool": "Настройка полного диапазона ликвидности при создании пула гарантирует постоянное участие на рынке по всем возможным ценам, обеспечивая простоту, но с вероятными более высокими временными потерями.",
+        "custom": "Настраиваемый диапазон позволяет сконцентрировать ликвидность в конкретных пределах цены, что повышает эффективность капитала и сумму получаемых комиссионных, но требует более активного управления."
+      },
+      "outOfRange": {
+        "closePosition": "Закрыть позицию",
+        "description": "Во время переноса невозможно изменить диапазон данной позиции. Чтобы настроить новый диапазон, закройте текущую позицию и откройте новую позицию v4.",
+        "title": "Вы переносите позицию, выходящую за пределы допустимого диапазона"
+      }
+    },
+    "removeHook": "Удалить хук",
+    "resetDescription": "Ваши настройки токенов, цены и диапазона будут сброшены.",
+    "setRange": {
+      "inputsBelow": "Для настройки диапазона используйте входные данные ниже."
+    },
+    "step": {
+      "deposit": "Введите суммы депозита",
+      "price": "Укажите начальную цену и суммы депозита",
+      "range": "Укажите диапазон цен и суммы депозита",
+      "select": "Выберите пару токенов и комиссии"
+    },
+    "value": "Стоимость позиции",
+    "valueUnavailable": "Стоимость в USD в настоящее время недоступна для этой позиции. Просмотрите сведения о ней, чтобы узнать суммы внесенных токенов.",
+    "wrapped": {
+      "unwrap": "Развернуть {{wrappedToken}}",
+      "warning": {
+        "info": "Разверните {{wrappedToken}} и внесите {{nativeToken}}, чтобы обеспечивать более экономически выгодную и эффективную ликвидность."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Подключите свой кошелек, чтобы просмотреть текущие позиции."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Приложение регистрирует анонимные статистические данные об использовании, чтобы со временем совершенствоваться.",
+    "autoRouter": "Приложение получает оптимальный торговый маршрут с сервера Uniswap Labs.",
+    "infura": "Приложение извлекает ончейн-данные и создает вызовы контрактов с помощью API Infura.",
+    "thirdPartyApis": "Это приложение использует следующие сторонние API:",
+    "trm": "Приложение безопасно извлекает адрес вашего кошелька и передает его TRM Labs Inc. из соображений риска и соблюдения требований.",
+    "uniswaptos": "Условия обслуживания Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "Подключено 1 приложение",
+      "connections_other": "Подключенные приложения: {{count}}"
+    },
+    "error": {
+      "camera": {
+        "message": "Чтобы отсканировать код, разрешите доступ к камере в системных настройках",
+        "title": "Камера отключена"
+      },
+      "none": "QR-код не найден"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Отсканируйте QR-код",
+        "show": "Показать мой QR-код"
+      },
+      "error": {
+        "message": "Прежде чем повторить попытку, убедитесь, что вы сканируете действительный QR-код адреса Эфириум.",
+        "title": "Недействительный QR-код"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Сообщение не найдено."
+      },
+      "method": {
+        "default": "Запрос от {{dappNameOrUrl}}",
+        "signature": "Запрос на подпись от {{dappNameOrUrl}}",
+        "transaction": "Запрос на транзакцию от {{dappNameOrUrl}}"
+      },
+      "withAmount": "Разрешить {{dappName}} использовать до<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Разрешить {{dappName}} использовать ваши {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Подключение…",
+      "loading": "Загрузка…"
+    },
+    "title": "Отсканируйте QR-код",
+    "wallet": {
+      "networks": "Поддерживаемые сети",
+      "title": "Вы можете отправлять и получать токены и NFT во всех наших поддерживаемых сетях ({{numOfNetworks}})."
+    }
+  },
+  "range": {
+    "outOfView": "Диапазон вне текущего отображения"
+  },
+  "removeLiquidity": {
+    "pooled": "Добавлено в пул {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Это обеспечивает протоколу Uniswap доступ к вашему токену для трейдинга."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Если доступно, объединяет источники ликвидности для более выгодных цен и свопов без газа.",
+    "cheapest": {
+      "v4": "Клиент Uniswap выбирает оптимальный вариант торговли с учетом цены и комиссий сети."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Истек срок действия",
+      "subtitle": "Введите этот код в расширение Uniswap. Ваша фраза восстановления будет надежно зашифрована и передана.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Новый код через {{hours}} ч. {{minutes}} мин. {{seconds}} с.",
+          "minutes": "Новый код через {{minutes}} мин. {{seconds}} с.",
+          "seconds": "Новый код через {{seconds}} с."
+        }
+      },
+      "title": "Одноразовый код Uniswap"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Да, продолжить"
+      },
+      "label": {
+        "browser": "Браузер",
+        "device": "Устройство"
+      },
+      "subtitle": "Продолжайте, только если вы сканируете QR-код из расширения Uniswap на надежном устройстве.",
+      "title": "Вы пытаетесь импортировать свой кошелек?",
+      "warning": "Остерегайтесь сайтов и приложений, выдающих себя за Uniswap. В противном случае ваш кошелек может быть взломан."
+    },
+    "error": {
+      "encryption": "Не удалось подготовить сид-фразу.",
+      "noCode": "OTP-пароль не получен. Попробуйте еще раз.",
+      "timeout": {
+        "message": "Еще раз отсканируйте QR-код в расширении Uniswap, чтобы продолжить синхронизацию кошелька.",
+        "title": "Время ожидания соединения истекло"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Чтобы отсканировать этот QR-код, ваш телефон должен быть подключен к той же сети Wi-Fi, что и компьютер, и все VPN должны быть временно отключены.",
+        "title": "Переключите сеть Wi-Fi"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Скоро: поиск и исследование токенов в блокчейне {{chainName}}",
+    "input": {
+      "placeholder": "Поиск токенов и пулов"
+    },
+    "results": {
+      "count_one": "1 предмет",
+      "count_other": "Предметы: {{count}}"
+    },
+    "ukDisclaimer": "Отказ от ответственности для жителей Великобритании"
+  },
+  "send": {
+    "button": {
+      "review": "Просмотреть сведения о переводе"
+    },
+    "gas": {
+      "error": {
+        "title": "Н/Д"
+      },
+      "networkCost": {
+        "title": "Комиссия сети"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Баланс: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Выберите получателя",
+      "input": {
+        "placeholder": "Поиск ENS или адреса"
+      },
+      "previous_one": "1 предыдущий перевод",
+      "previous_other": "Предыдущие переводы: {{count}}",
+      "results": {
+        "empty": "Результаты не найдены",
+        "error": "Введенный вами адрес либо не существует, либо написан неправильно."
+      },
+      "section": {
+        "favorite": "Избранные кошельки",
+        "recent": "Недавние",
+        "search": "Результаты поиска",
+        "viewOnly": "Кошельки только для просмотра",
+        "yours": "Ваши кошельки"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Отправляйте средства на этот кошелек только в том случае, если у вас есть фраза восстановления или вы знаете владельца кошелька.",
+          "title": "Этот кошелек доступен только для просмотра"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Когда вы отправите токены на адрес кошелька, они появятся здесь",
+          "title": "Нет сохраненных кошельков"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Вы отправляете"
+      },
+      "summary": {
+        "button": {
+          "title": "Подтвердить отправку"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Введенный вами адрес либо не существует, либо написан неправильно.",
+        "title": "Результаты не найдены"
+      },
+      "placeholder": "Поиск ENS или адреса"
+    },
+    "title": "Отправить",
+    "warning": {
+      "blocked": {
+        "default": "Этот кошелек заблокирован",
+        "modal": {
+          "message": "Этот адрес заблокирован в Uniswap Wallet, поскольку он связан с одним или несколькими заблокированными действиями. Если вы считаете, что произошла ошибка, отправьте электронное письмо по адресу compliance@uniswap.org.",
+          "title": "Заблокированный адрес"
+        },
+        "recipient": "Кошелек получателя заблокирован"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Вы пытаетесь отправить средства на адрес токена. Это может привести к безвозвратной потере средств.",
+          "heading": "Обнаружен адрес токена"
+        },
+        "message": "Вы пытаетесь отправить средства на адрес токена. Отправка криптовалюты на адрес такого типа может привести к безвозвратной потере средств.",
+        "title": "Это адрес токена"
+      },
+      "insufficientFunds": {
+        "message": "Ваш баланс {{currencySymbol}} уменьшился с тех пор, как вы ввели сумму, которую хотите отправить",
+        "title": "Недостаточно {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Недостаточно <highlight>{{currencySymbol}} в {{networkName}}</highlight> для отправки",
+          "withoutNetwork": "Недостаточно <highlight>{{currencySymbol}}</highlight> для отправки"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "Отмена",
+            "confirm": "Подтвердить"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Имя пользователя",
+          "walletAddress": "Адрес кошелька"
+        },
+        "message": "Вы еще не совершали транзакций с этим адресом. Подтвердите его правильность, прежде чем продолжать.",
+        "title": "Новый адрес"
+      },
+      "self": {
+        "message": "Вы пытаетесь отправить средства на свой текущий кошелек. Отправка криптовалюты на этот адрес повлечет за собой ненужные комиссии сети.",
+        "title": "Это ваш текущий кошелек"
+      },
+      "smartContract": {
+        "message": "Вы собираетесь отправить средства на адрес смарт-контракта. Убедитесь, что это правильный адрес, который может получать токены. В противном случае эта транзакция может привести к необратимой потере средств.",
+        "title": "Это адрес смарт-контракта"
+      },
+      "viewOnly": {
+        "message": "Для отправки активов вам необходимо импортировать этот кошелек с помощью фразы восстановления.",
+        "title": "Этот кошелек доступен только для просмотра"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Недавние"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Проверить транзакцию отправки"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Показать фразу восстановления"
+      },
+      "action": {
+        "hide": "Скрыть фразу восстановления"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Я понимаю, что Uniswap Labs не сможет помочь мне восстановить мой кошелек, если я этого не сделаю.",
+          "title": "Я сохранил(-а) фразу восстановления"
+        },
+        "initial": {
+          "subtitle": "Убедитесь, что вы сохранили фразу восстановления. В противном случае вы потеряете доступ к своим кошелькам.",
+          "title": "Прежде чем продолжить"
+        },
+        "password": {
+          "error": "Неверный пароль. Попробуйте еще раз."
+        },
+        "subtitle": "Введите свой пароль, чтобы продолжить",
+        "title": "Вы удаляете фразу восстановления"
+      },
+      "title": "Ваша фраза восстановления",
+      "view": {
+        "warning": {
+          "message1": "Любой, кто знает вашу фразу восстановления, может получить доступ к вашему кошельку и средствам",
+          "message2": "Просматривайте эти данные в уединенном месте",
+          "message3": "Не передавайте никому эти данные",
+          "message4": "Никогда не вводите эти данные на веб-сайтах или в приложениях",
+          "title": "Прежде чем продолжить"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Любой, кто знает вашу фразу восстановления, может получить доступ к вашему кошельку и средствам.",
+          "title": "Просматривайте эти данные в уединенном месте"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Включить в настройках",
+      "feedback": "Отправить отзыв",
+      "help": "Получить помощь",
+      "lock": "Заблокировать кошелек",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия обслуживания"
+    },
+    "footer": "Сделано с любовью, \nКоманда Uniswap 🦄",
+    "hideSmallBalances": {
+      "subtitle": "Балансы меньше 1 USD будут спрятаны из вашего портфеля."
+    },
+    "maxSlippage": "Макс. проскальзывание",
+    "section": {
+      "about": "Сведения",
+      "preferences": "Настройки",
+      "privacyAndSecurity": "Безопасность и конфиденциальность",
+      "support": "Поддержка",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "Спрятанные кошельки: {{numHidden}}"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Авто",
+          "dark": {
+            "subtitle": "Всегда использовать темную тему.",
+            "title": "Темная"
+          },
+          "device": {
+            "subtitle": "Адаптируется к настройкам вашего устройства.",
+            "title": "Авто"
+          },
+          "light": {
+            "subtitle": "Всегда использовать светлую тему.",
+            "title": "Светлая"
+          }
+        },
+        "title": "Тема"
+      },
+      "backup": {
+        "create": {
+          "description": "Установка пароля зашифрует вашу резервную копию фразы восстановления, добавив дополнительный уровень защиты, если ваша учетная запись хранилища {{cloudProviderName}} когда-либо будет взломана.",
+          "title": "Резервное копирование в хранилище {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Поскольку эти кошельки имеют общую фразу восстановления, резервные копии этих кошельков, указанные ниже, также будут удалены",
+            "title": "Вы уверены?"
+          },
+          "warning": "Если вы удалите резервную копию в хранилище {{cloudProviderName}}, то сможете возобновить свой кошелек только с помощью резервного копирования фразы восстановления вручную. Uniswap Labs не сможет вернуть ваши активы, если вы потеряете фразу восстановления."
+        },
+        "error": {
+          "message": {
+            "full": "Невозможно создать резервную копию фразы восстановления в хранилище {{cloudProviderName}}. Убедитесь, что у вас включено хранилище {{cloudProviderName}} и имеется доступное место для данных, а затем повторите попытку.",
+            "short": "Невозможно удалить резервную копию"
+          },
+          "title": "Ошибка {{cloudProviderName}}"
+        },
+        "modal": {
+          "description": "Вы еще не сохранили резервную копию фразы восстановления в хранилище {{cloudProviderName}}. Если вы это сделаете, то сможете восстановить свой кошелек, просто войдя в хранилище {{cloudProviderName}} на любом устройстве.",
+          "title": "Создать резервную копию фразы восстановления в хранилище {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Пароли не совпадают"
+          },
+          "medium": "Это пароль средней надежности",
+          "placeholder": {
+            "confirm": "Подтвердить пароль",
+            "create": "Создать пароль"
+          },
+          "strong": "Это надежный пароль",
+          "weak": "Это ненадежный пароль"
+        },
+        "recoveryPhrase": {
+          "label": "Фраза восстановления"
+        },
+        "selected": "Резервное копирование в хранилище {{cloudProviderName}}",
+        "status": {
+          "action": {
+            "delete": "Удалить резервную копию"
+          },
+          "complete": "Резервная копия сохранена в хранилище {{cloudProviderName}}",
+          "description": "Сохранив резервную копию фразы восстановления в хранилище {{cloudProviderName}}, вы сможете восстановить свой кошелек, просто войдя в учетную запись хранилища {{cloudProviderName}} на любом устройстве.",
+          "inProgress": "Резервное копирование в хранилище {{cloudProviderName}}…",
+          "recoveryPhrase": {
+            "backed": "Создана резервная копия"
+          },
+          "title": "Резервное копирование в хранилище {{cloudProviderName}}"
+        }
+      },
+      "beta": {
+        "tooltip": "Вскоре станет доступным"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Запрашивать распознавание лица или отпечатка пальца при открытии приложения.",
+            "ios": "Запрашивать {{biometricsMethod}} при открытии приложения."
+          },
+          "title": "Доступ к приложению"
+        },
+        "auth": "Подтвердите подлинность",
+        "off": {
+          "message": {
+            "android": "Биометрические данные в настоящее время отключены для Uniswap Wallet. Их можно включить в настройках системы.",
+            "ios": "{{biometricsMethod}} в настоящее время отключен для Uniswap Wallet. Его можно включить в настройках системы."
+          },
+          "title": {
+            "android": "Биометрические данные отключены",
+            "ios": "{{biometricsMethod}} отключен"
+          }
+        },
+        "title": "Разблокировка с помощью распознавания лица или по отпечатку пальца",
+        "transactions": {
+          "subtitle": {
+            "android": "Запрашивать распознавание лица или отпечатка пальца для совершения транзакций.",
+            "ios": "Запрашивать {{biometricsMethod}} для совершения транзакций."
+          },
+          "title": "Транзакции"
+        },
+        "unavailable": {
+          "message": {
+            "android": "На вашем устройстве не настроены биометрические данные. Чтобы использовать биометрию, сначала настройте ее в соответствующем разделе.",
+            "ios": "{{biometricsMethod}} не настроен на вашем устройстве. Чтобы использовать {{biometricsMethod}}, сначала настройте его в соответствующем разделе."
+          },
+          "title": {
+            "android": "Биометрические данные не настроены",
+            "ios": "{{biometricsMethod}} не настроен"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Если вы не включите биометрические данные, любой, кто получит доступ к вашему устройству, сможет открыть Uniswap Wallet и совершать транзакции.",
+            "ios": "Если вы не включите {{biometricsMethod}}, любой, кто получит доступ к вашему устройству, сможет открыть Uniswap Wallet и совершать транзакции."
+          },
+          "title": "Вы уверены?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Отключить все",
+        "noConnectionsDescription": "Подключитесь к приложению, нажав кнопку «Подключить кошелек» или «Войти»."
+      },
+      "currency": {
+        "title": "Местная валюта"
+      },
+      "hapticTouch": {
+        "title": "Тактильное прикосновение"
+      },
+      "helpCenter": {
+        "title": "Справочный центр"
+      },
+      "language": {
+        "button": {
+          "navigate": "Открыть настройки"
+        },
+        "description": {
+          "extension": "В Uniswap по умолчанию используются языковые настройки вашей системы. Изменить предпочитаемый язык можно в системных настройках.",
+          "mobile": "В Uniswap по умолчанию используются языковые настройки вашего устройства. Чтобы изменить предпочитаемый язык, найдите Uniswap в настройках своего устройства и нажмите «Язык»."
+        },
+        "title": "Язык"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Переводы, запросы и другая активность",
+            "title": "Активность в кошельке"
+          },
+          "priceAlerts": {
+            "description": "Значительные изменения цен на избранные токены",
+            "title": "Уведомления о ценах"
+          },
+          "updates": {
+            "description": "Рекомендации и новые функции",
+            "title": "Обновления от Uniswap"
+          }
+        },
+        "title": "Уведомления"
+      },
+      "password": {
+        "title": "Изменить пароль"
+      },
+      "permissions": {
+        "title": "Разрешения"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Мы собираем анонимные данные об использовании, чтобы улучшить ваш опыт работы с продуктами Uniswap Labs. Если этот параметр отключен, мы отслеживаем только ошибки и основное использование.",
+          "title": "Аналитика приложения"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Введите пароль"
+        },
+        "title": "Фраза восстановления"
+      },
+      "smallBalances": {
+        "title": "Баланс портфеля"
+      },
+      "unknownTokens": {
+        "subtitle": "Потенциальные мошеннические токены будут спрятаны из вашего портфеля.",
+        "title": "Скрыть неизвестные токены"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Изменить ярлык",
+          "editProfile": "Редактировать профиль",
+          "remove": "Удалить кошелек"
+        },
+        "connection": {
+          "banner": {
+            "description": "Управляйте подключениями в настройках кошелька, нажав изображение профиля.",
+            "title": "Подключения перемещены"
+          }
+        },
+        "connections": {
+          "title": "Подключения"
+        },
+        "editLabel": {
+          "description": "Ярлыки не являются общедоступными. Они хранятся локально и видны только вам.",
+          "save": "Сохранить изменения"
+        },
+        "label": "Псевдоним",
+        "testnetMode": {
+          "description": "Этот параметр включает тестовые сети, в которых разработчики могут опробовать функции и экспериментировать с транзакциями без использования реальных активов. Токены в тестовых сетях не имеют никакой реальной ценности.",
+          "title": "Режим тестовой сети"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Чтобы использовать Uniswap в {{label}}, переключите сеть в настройках своего кошелька."
+    },
+    "title": "Настройки",
+    "version": "Версия {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Умные кошельки обеспечивают более быстрые и недорогие транзакции благодаря использованию надежных смарт-контрактов.",
+      "info": "Кошельки, в которых уже используются функции умного кошелька из другого приложения, не будут затронуты."
+    },
+    "enabledModal": {
+      "description": "Обновления вступят в силу во время следующего свопа.",
+      "title": "Умный кошелек активирован"
+    },
+    "postSwapNudge": {
+      "description": "Умный кошелек обеспечивает более быстрые и недорогие транзакции благодаря использованию надежных смарт-контрактов.",
+      "enable": "Активировать умный кошелек",
+      "title": "Сэкономьте на следующем свопе"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Вы еще не совершали транзакций с этим адресом. Убедитесь, что он правильный, прежде чем продолжать.",
+        "title": "Новый адрес"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Вы собираетесь отправить токены на адрес особого типа — смарт-контракт. Внимательно проверьте его. Если он неправильный, вы можете навсегда потерять свои токены.",
+        "title": "Это адрес кошелька?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "Комиссии за 24 ч.",
+    "24volume": "Объем за 24 ч.",
+    "allTimeFees": "Комиссии LP за все время",
+    "allTimeSwappers": "Своперы за все время",
+    "allTimeVolume": "Объем за все время",
+    "fdv": {
+      "description": "Полностью разбавленная оценка (FDV) рассчитывает общую рыночную стоимость при условии, что все токены находятся в обращении."
+    },
+    "marketCap": {
+      "description": "Рыночная капитализация — это общая рыночная стоимость оборотного предложения актива."
+    },
+    "tvl": {
+      "description": "Общая заблокированная стоимость (TVL) — это совокупная сумма актива, доступная во всех пулах ликвидности Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "Объем за 1 день — это сумма актива, которая была продана на Uniswap за последние 24 часа.",
+        "long": "Объем за 1 дн.",
+        "short": "Объем за 1 дн."
+      },
+      "description": "Объем — это сумма актива, которая была продана на Uniswap в течение выбранного периода."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Разрешить {{sym}} (один раз)"
+    },
+    "approvalNeeded": "Для использования этого токена необходимо утверждение. ",
+    "approvalPending": "Ожидается утверждение",
+    "approveAndSubmit": "Утвердить и отправить",
+    "approveAndSwap": "Утвердить и выполнить своп",
+    "approveInWallet": "Утвердить в кошельке",
+    "balance": {
+      "amount": "Баланс: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Комиссии сети для самого эффективного маршрута составляют приблизительно {{gasPrice}}."
+    },
+    "bridging": {
+      "estimatedTime": "Прибл. время",
+      "title": "Своп между сетями",
+      "warning": {
+        "description": "Вы выполняете своп из {{fromNetwork}} в {{toNetwork}}. Такая операция, также известная как создание «моста», перемещает ваши токены из одной сети в другую."
+      }
+    },
+    "button": {
+      "max": "Макс.",
+      "review": "Просмотреть",
+      "submitting": {
+        "keep": {
+          "open": "Держите кошелек открытым…"
+        }
+      },
+      "swap": "Выполнить своп",
+      "swapAnyways": "Все равно выполнить своп",
+      "unwrap": "Развернуть",
+      "wrap": "Обернуть"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Поиск по стране или региону"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Возможно, своп был выполнен до отмены операции. Обратите внимание, что комиссии сети не подлежат возврату. Хотите продолжить?",
+      "cannotExecute_other": "Возможно, свопы были выполнены до отмены операции. Обратите внимание, что комиссии сети не подлежат возврату. Продолжить?"
+    },
+    "confirmLimit": "Подтвердить лимит",
+    "confirmSwap": "Подтвердить своп",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Крайний срок транзакции"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Комиссия токена"
+      },
+      "newQuote": {
+        "input": "Новый ввод",
+        "output": "Новый выход"
+      },
+      "orderRouting": "Маршрутизация заказа",
+      "orderRoutingInfo": "Этот своп осуществляется через Across — децентрализованный протокол, который перемещает активы между сетями, уделяя первостепенное внимание безопасности, быстрому исполнению и низким ценам.",
+      "poweredBy": "При поддержке",
+      "rate": "Курс",
+      "slippage": "Макс. проскальзывание",
+      "uniswapFee": "Комиссия"
+    },
+    "error": {
+      "default": "Возможно, вам придется повысить устойчивость к проскальзыванию. Примечание. Токены с комиссией за перевод и ребейс-токены несовместимы с Uniswap V3.",
+      "expectedToFail": "Возможно, ваша своп-транзакция не удастся.",
+      "fiatInputUnavailable": "Введенное значение {{fiatCurrencyCode}} недоступно",
+      "modifiedByWallet": "Своп был изменен через ваш кошелек. Если это была ошибка, немедленно отмените действие, иначе вы рискуете потерять свои средства.",
+      "rejected": "Транзакция отклонена",
+      "undefinedObject": "При попытке выполнения этого свопа произошла ошибка. Возможно, вам придется повысить уровень устойчивости к проскальзыванию. Если это не сработает, вероятно, существует несовместимость с токеном, которым вы торгуете. Примечание. Токены с комиссией за перевод и ребейс-токены несовместимы с Uniswap V3.",
+      "unknown": "Неизвестная ошибка.",
+      "v2": {
+        "expired": "Эту транзакцию не удалось отправить, поскольку истек крайний срок. Убедитесь, что крайний срок вашей транзакции не слишком мал.",
+        "k": "Инвариант Uniswap x * y = k не был удовлетворен свопом. Обычно это означает, что один из токенов, для которых вы выполняете своп, имеет особое поведение при переводе.",
+        "slippage": "Эта транзакция не удастся из-за движения цены или комиссии за перевод. Попробуйте увеличить устойчивость к проскальзыванию.",
+        "transferInput": "Невозможно перевести входной токен. Возможно, с ним возникла определенная проблема.",
+        "transferOutput": "Невозможно перевести выходной токен. Возможно, с ним возникла определенная проблема."
+      },
+      "v3": {
+        "slippage": "Эта транзакция не состоится из-за движения цены. Попробуйте увеличить устойчивость к проскальзыванию. Примечание. Токены с комиссией за перевод и ребейс-токены несовместимы с Uniswap V3.",
+        "transferOutput": "Невозможно перевести выходной токен. Возможно, с ним возникла определенная проблема. Примечание. Токены с комиссией за перевод и ребейс-токены несовместимы с Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Из-за текущей ликвидности между вашими входными и выходными значениями будет большая разница."
+    },
+    "fail": {
+      "message": "Попробуйте настроить проскальзывание на более высокое значение.",
+      "uniswapX": "Не удалось выполнить своп с помощью протокола UniswapX. Попробуйте выполнить его еще раз для маршрутизации через классический интерфейс API Uniswap."
+    },
+    "fees": {
+      "experience": "Эта комиссия применяется к некоторым парам токенов для обеспечения наилучшего опыта использования Uniswap. Она выплачивается в выходном токене и уже учтена в котировку.",
+      "noFee": "Комиссия взимается за отдельные пары токенов для обеспечения наилучшего опыта использования Uniswap. Комиссия за этот своп не предусмотрена."
+    },
+    "fetchingBestPrice": "Получение лучшей цены…",
+    "fetchingPrice": "Получение цены…",
+    "finalizingQuote": "Завершение котировки…",
+    "form": {
+      "header": "Своп",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Из-за комиссии токена суммы свопа можно вводить только с помощью соответствующего поля"
+          }
+        },
+        "restore": "Восстановите свой кошелек для свопа"
+      }
+    },
+    "frontrun": {
+      "warning": "Ваша транзакция может быть запущена заранее и привести к неблагоприятной сделке."
+    },
+    "header": {
+      "viewOnly": "Только просмотр"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Расчеты влияния на цену могут быть недоступны для пар с низкой ликвидностью."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Вход оценивается. Вы продадите максимум <amount />. В противном случае ваша транзакция будет отменена."
+    },
+    "limit": "Лимит",
+    "limitedAssets": {
+      "warning": "Некоторые активы недоступны в этом интерфейсе, поскольку они могут быть несовместимы со смарт-контрактами или их трейдинг не разрешен по юридическим причинам."
+    },
+    "limitFilled": "Лимит заполнен",
+    "limitSubmitted": "Лимит отправлен",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Рыночная цена находится за пределами указанного вами ценового диапазона. Депозит только для одного актива."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Максимальная сумма, которую вы гарантированно потратите. Если цена упадет еще больше, ваша транзакция будет отменена."
+    },
+    "minPriceSlip": {
+      "revert": "Если цена изменится так, что вы получите меньше {{amount}}, ваша транзакция будет отменена."
+    },
+    "networkCost": {
+      "paidIn": "Комиссия сети оплачивается в {{sym}} в сети {{chainName}} для совершения транзакции."
+    },
+    "orderRouting": "Маршрутизация заказа",
+    "outputEstimated": {
+      "atLeast": "Выход оценивается. Вы получите как минимум <amount />. В противном случае ваша транзакция будет отменена."
+    },
+    "payAnyway": "Все равно оплатить",
+    "payAtMost": "Оплатить максимум",
+    "payWith": "Оплатить с помощью",
+    "placeOrder": "Разместить заказ",
+    "priceImpact": "Влияние на цену",
+    "receive": {
+      "atLeast": "Получить как минимум"
+    },
+    "request": {
+      "title": {
+        "full": "Своп {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Своп токенов"
+      }
+    },
+    "review": {
+      "summary": "Вы выполняете своп"
+    },
+    "reviewLimit": "Проверить лимит",
+    "route": {
+      "optimizedGasCost": "Этот маршрут учитывает разделенные маршруты, множественные переходы и комиссии сети на каждом этапе."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Ваша транзакция будет отменена, если останется в ожидании дольше указанного времени (максимум — 3 дня).",
+        "warning": "Длительный крайний срок"
+      },
+      "protection": {
+        "description": "Если включена защита свопа, ваши транзакции Эфириум будут защищены от сэндвич-атак с уменьшенной вероятностью сбоя.",
+        "subtitle": {
+          "supported": "Сеть {{chainName}}",
+          "unavailable": "Недоступно в {{chainName}}"
+        },
+        "title": "Защита свопа"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Клиент Uniswap выбирает самый дешевый вариант торговли с учетом цены и комиссий сети."
+            },
+            "tooltip": "Маршрут определяется с учетом пулов v2, v3 и некоторых пулов v4, а также предполагаемого влияния на цену и комиссий сети."
+          },
+          "v2": {
+            "title": "Пулы V2"
+          },
+          "v3": {
+            "title": "Пулы V3"
+          },
+          "v4": {
+            "title": "Пулы V4"
+          }
+        },
+        "title": "Варианты торговли"
+      },
+      "slippage": {
+        "alert": "Высокое проскальзывание",
+        "control": {
+          "auto": "Авто"
+        },
+        "description": "Ваша транзакция будет отменена, если цена изменится больше, чем процент проскальзывания.",
+        "input": {
+          "message": "Если цена упадет еще больше, ваша транзакция будет отменена. Ниже указана минимальная сумма, которую вы гарантированно получите.",
+          "receive": {
+            "title": "Получите как минимум"
+          }
+        },
+        "output": {
+          "message": "Если цена упадет еще больше, ваша транзакция будет отменена. Ниже указана максимальная сумма, которую вам придется потратить.",
+          "spend": {
+            "title": "Потратите максимум"
+          }
+        },
+        "warning": {
+          "description": "Проскальзывание выше 20 %, вероятно, приведет к неблагоприятному исходу торговой сделки. Чтобы снизить риск потери выгоды, уменьшите этот параметр в настройках.",
+          "hover": "Это может привести к неблагоприятному исходу торговой сделки. Попробуйте уменьшить проскальзывание в настройках.",
+          "max": "Введите значение меньше {{maxSlippageTolerance}}",
+          "message": "Проскальзывание может быть выше, чем необходимо",
+          "min": "Введите значение больше 0"
+        }
+      },
+      "title": "Настройки свопа",
+      "transactionRevertPrice": "Ваша транзакция будет отменена, если цена изменится в неблагоприятную сторону более чем на этот процент."
+    },
+    "signAndSwap": "Подписать и выполнить своп",
+    "slippage": {
+      "amt": "Проскальзывание {{amt}}",
+      "bridging": "Отсутствие проскальзывания при выполнении свопа между сетями",
+      "settings": {
+        "title": "Макс. проскальзывание"
+      },
+      "tooltip": "Максимальное движение цены до отмены вашей транзакции."
+    },
+    "slippageBelow": {
+      "warning": "Проскальзывание ниже {{amt}} может привести к неудачной транзакции"
+    },
+    "submitted": "Своп отправлен",
+    "success": "Своп успешно выполнен",
+    "tokenOwnFees": "При покупке или продаже некоторых токенов взимается комиссия, устанавливаемая эмитентом токенов. Uniswap не получает никаких из этих комиссий.",
+    "total": "Всего",
+    "tradeRoutes": "Торговые маршруты",
+    "transaction": {
+      "deadline": "Конечный срок транзакции",
+      "revertAfter": "Ваша транзакция будет отменена, если она будет находиться в состоянии ожидания дольше указанного периода времени."
+    },
+    "unsupportedAssets": {
+      "readMore": "Подробнее о неподдерживаемых активах…"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Введите большую сумму"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Попробуйте повысить уровень проскальзывания.",
+        "titleMay": "Этот своп может потерпеть неудачу"
+      },
+      "insufficientBalance": {
+        "title": "У вас недостаточно {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Своп на {{ tokenSymbol }} в {{networkName}}",
+          "buy": "Купить {{ tokenSymbol }}",
+          "buyWithCard": "Купить с помощью карты"
+        },
+        "message": {
+          "withNetwork": "Недостаточно <highlight>{{currencySymbol}} в {{networkName}}</highlight> для свопа",
+          "withoutNetwork": "Недостаточно <highlight>{{currencySymbol}}</highlight> для свопа"
+        },
+        "title": "У вас недостаточно {{currencySymbol}} для покрытия комиссии сети"
+      },
+      "networkFee": {
+        "allow": "Разрешить {{ inputTokenSymbol }} (один раз)",
+        "highRelativeToValue": {
+          "unichain": "Комиссия сети превышает 10 % от общей стоимости вашей транзакции. Это стоимость обработки вашей транзакции в блокчейне."
+        },
+        "message": {
+          "unichain": "Это стоимость обработки вашей транзакции в блокчейне.",
+          "uniswapX": {
+            "unichain": "Это стоимость обработки вашей транзакции в блокчейне. <gradient>Протокол UniswapX</gradient> объединяет источники ликвидности для более выгодных цен и свопов без газа."
+          }
+        },
+        "wrap": "Обернуть ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Не найдены котировки на мостовые переводы. Попробуйте в этот раз воспользоваться официальным мостом."
+        },
+        "title": "Котировки не найдены"
+      },
+      "noRoutesFound": {
+        "message": "Для выбранных токенов нет доступных маршрутов. Попробуйте другую пару или повторите попытку позже.",
+        "title": "Нет доступных маршрутов"
+      },
+      "offline": {
+        "message": "Возможно, потеряно подключение к Интернету или в сети случился сбой. Проверьте подключение к Интернету и повторите попытку.",
+        "title": "Вы не в сети"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Эта транзакция приведет к ценовому влиянию в размере {{priceImpactValue}} на рыночную цену этого пула и повлечет за собой потерю средств."
+        },
+        "title": {
+          "veryHigh": "Очень сильное влияние на цену ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Ваша транзакция не была отправлена, поскольку вы закрыли приложение.",
+        "approvalFailed": "Ваша транзакция не была отправлена, поскольку не удалось утвердить токен.",
+        "stale": "Ваша транзакция не была отправлена, потому что вы закрыли приложение или утверждение заняло слишком много времени.",
+        "submissionFailed": "При отправке транзакции возникла проблема.",
+        "title": "Своп отменен",
+        "wrap": {
+          "message": "Ваши ETH останутся обернутыми в качестве WETH."
+        },
+        "wrapFailed": "Ваша транзакция не была отправлена, поскольку транзакция обертывания не удалась."
+      },
+      "rateLimit": {
+        "message": "Повторите попытку через несколько минут.",
+        "title": "Превышен лимит запросов"
+      },
+      "router": {
+        "message": "Возможно, потеряно соединение или в сети случился сбой. Если проблема не устранена, повторите попытку позже.",
+        "title": "На данный момент невозможно выполнить эту сделку"
+      },
+      "tokenBlocked": {
+        "button": "Токен {{tokenSymbol}} заблокирован"
+      },
+      "tokenBlockedFallback": {
+        "button": "Токен заблокирован"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Для обеспечения наилучшего опыта работы в Uniswap взимаются комиссии. Комиссия за этот своп не предусмотрена.",
+          "included": "Комиссия взимается для обеспечения наилучшего опыта работы в Uniswap и уже учтена в этой котировке."
+        },
+        "title": "Комиссия за своп"
+      },
+      "viewOnly": {
+        "message": "Для свопа токенов необходимо импортировать этот кошелек с помощью фразы восстановления."
+      }
+    },
+    "wrap": {
+      "token": "Обернуть {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "В других сетях",
+      "otherNetworksBalance": "Баланс в других сетях",
+      "title": "Ваш баланс"
+    },
+    "button": {
+      "getToken": "Получить {{ tokenSymbol }}",
+      "getTokenFallback": "Получить токен"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Переключитесь на {{network}}",
+      "title": "Этот токен не существует",
+      "titleWithChain": "Этот токен не существует в {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "данные токена для <tokenLink />",
+        "withChain": "данные токена для <tokenLink /> в {{chainName}}"
+      }
+    },
+    "nameNotFound": "Имя не найдено",
+    "noInfoAvailable": "Информация о токене отсутствует",
+    "noTestnetSupportDescription": "В некоторых тестовых сетях не поддерживается своп, отправка или покупка токенов.",
+    "stats": {
+      "unsupportedChainDescription": "Статистика и графики токенов для {{chain}} доступны на странице {{infoLink}}"
+    },
+    "symbolNotFound": "Символ не найден"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Для выполнения этого действия необходимо отключить режим тестовой сети. Его можно активировать повторно в любое время в настройках.",
+          "toTestnetMode": "Для выполнения этого действия необходимо включить режим тестовой сети. Токены в таких сетях не имеют никакой реальной ценности. Режим тестовой сети можно отключить в любое время в настройках."
+        },
+        "title": {
+          "toProdMode": "Отключите режим тестовой сети",
+          "toTestnetMode": "Включите режим тестовой сети"
+        }
+      }
+    },
+    "unsupported": "Эта функция не поддерживается в режиме тестовой сети."
+  },
+  "themeToggle": {
+    "theme": "Тема"
+  },
+  "title": {
+    "buySellTradeEthereum": "Покупайте, продавайте и обменивайте эфириум и другие популярные токены на Uniswap",
+    "createGovernanceOn": "Создайте новое предложение по управлению на Uniswap",
+    "createGovernanceTo": "Создайте новое предложение по управлению, которое будет вынесено на голосование владельцами UNI. Токены UNI представляют собой голосующие доли в управлении Uniswap.",
+    "earnFees": "Зарабатывайте комиссию, когда другие выполняют своп на Uniswap, добавляя токены в пулы ликвидности.",
+    "easilyRemove": "Легко выводите ликвидность из Uniswap v2 и вносите ее в Uniswap v3.",
+    "easilyRemoveV4": "Легко выводите ликвидность из Uniswap v2 и v3 и вносите ее в Uniswap v4.",
+    "explore": "Исследуйте NFT на Uniswap",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "Управляйте своей NFT-коллекцией. Просматривайте характеристики, торговую активность, описания и другие сведения о ваших NFT.",
+    "migratev2": "Перенос ликвидности пула v2 в Uniswap v3",
+    "migratev3": "Перенос ликвидности пула в Uniswap v4",
+    "placeLimit": "Размещайте лимитные ордера на Uniswap",
+    "realTime": "Цены в реальном времени, графики, данные о транзакциях и многое другое.",
+    "removeLiquidityv2": "Выводите ликвидность пула (v2) на Uniswap",
+    "removePoolLiquidity": "Выводите ликвидность пула на Uniswap",
+    "removeTokensv2": "Выводите свои токены из пулов ликвидности v2.",
+    "removev3Liquidity": "Выводите свои токены из пулов ликвидности v3.",
+    "sendTokens": "Отправляйте токены на Uniswap",
+    "swappingMadeSimple": "Своп стал проще. Покупайте и продавайте криптовалюту на Эфириум, Base, Arbitrum, Polygon и других платформах. Нам доверяют миллионы.",
+    "tradeTokens": "Торгуйте токенами и обеспечивайте ликвидность. Цены в реальном времени, графики, данные о транзакциях и многое другое.",
+    "uniswapTradeCrypto": "Uniswap | Безопасно торгуйте криптовалютой и NFT на лучшей платформе DeFi",
+    "uniToken": "Токены UNI представляют собой голосующие доли в управлении Uniswap. Вы можете голосовать по каждому предложению самостоятельно или делегировать свои голоса третьему лицу.",
+    "voteOnGov": "Голосуйте за предложения по управлению на Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Ваш баланс",
+      "other": "Балансы в других сетях",
+      "viewOnly": "Баланс {{ownerAddress}}"
+    },
+    "bridge": "Мост токена {{label}}",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Свечные графики недоступны для этого токена"
+      },
+      "tooltip": "Комиссии: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Подробная информация о токенах в тестовой сети недоступна."
+      }
+    },
+    "error": {
+      "unknown": "Неизвестный токен"
+    },
+    "fee": {
+      "buy": {
+        "label": "комиссия за покупку"
+      },
+      "label": "комиссия",
+      "sell": {
+        "label": "комиссия за продажу"
+      }
+    },
+    "links": {
+      "title": "Ссылки",
+      "twitter": "Твиттер",
+      "website": "Веб-сайт"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Произошла ошибка.",
+        "title": "Не удалось загрузить ценовой график"
+      },
+      "timeRangeLabel": {
+        "all": "За все время",
+        "day": {
+          "verbose": "1 день"
+        },
+        "hour": "1 ч.",
+        "month": {
+          "verbose": "1 месяц"
+        },
+        "week": {
+          "verbose": "1 неделя"
+        },
+        "year": {
+          "verbose": "1 год"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "Токен {{tokenSymbol}} недоступен",
+          "tokensNotAvailable": "Токены {{tokenSymbol0}} и {{tokenSymbol1}} недоступны"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs не получает никаких подобных комиссий."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Всегда проверяйте информацию",
+        "blocked": {
+          "description": {
+            "default_one": "Вы не можете торговать этим токеном с помощью приложения Uniswap.",
+            "default_other": "Вы не можете торговать этими токенами с помощью приложения Uniswap."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Это адрес контракта, который выступает в качестве уникального идентификатора для токенов в блокчейне. Любая отправленная на этот адрес криптовалюта будет потеряна.",
+          "title": "Не отправляйте криптовалюту на этот адрес"
+        },
+        "dontShowWarningAgain": "Больше не показывать мне это предупреждение",
+        "doYourOwnResearch": "Всегда проверяйте информацию, прежде чем действовать.",
+        "feeDescription": "Взимает комиссию <fee />, когда {{action}}",
+        "flaggedAsMalicious": "Помечен как вредоносный",
+        "fotHigh": {
+          "title": "Обнаружена высокая комиссия"
+        },
+        "fotLow": {
+          "title": "Обнаружена комиссия"
+        },
+        "fotVeryHigh": {
+          "title": "Обнаружена очень высокая комиссия"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} помечен как не подлежащий продаже. Своп этого токена может привести к потере ваших средств.",
+          "title": "Обнаружена комиссия за продажу в размере 100 %"
+        },
+        "impersonator": {
+          "title": "Обнаружен токен, выдающий себя за другие"
+        },
+        "malicious": {
+          "general": {
+            "message": "Токен {{tokenSymbol}} помечен как вредоносный в Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "Возможно, {{tokenSymbol}} не тот токен, с которым вы хотите выполнить своп."
+            }
+          },
+          "title": "Обнаружен вредоносный токен"
+        },
+        "mayResultInLoss": "Его своп может привести к потере средств.",
+        "medium": {
+          "heading": {
+            "named": "Токен {{tokenSymbol}} не торгуется на ведущих централизованных криптовалютных биржах США."
+          }
+        },
+        "notListedOnExchanges": "Не котируется на ведущих криптовалютных биржах США",
+        "potentialHoneypot": {
+          "card": {
+            "message": "Токен {{tokenSymbol}} помечен как подозрительный в Blockaid."
+          },
+          "modal": {
+            "message": "Токен {{tokenSymbol}} помечен как потенциальная приманка в Blockaid. Прежде чем продолжить, проверьте его."
+          },
+          "title": "Обнаружена потенциальная приманка"
+        },
+        "sellFee100": {
+          "message": "Токен {{ tokenSymbol }} помечен как непригодный для продажи.",
+          "title": "Обнаружена комиссия за продажу в размере 100 %"
+        },
+        "spam": {
+          "message": "Токен {{tokenSymbol}} помечен как спам в Blockaid.",
+          "title": "Обнаружен спам-токен"
+        },
+        "spamsUsers": "Распространяет спам среди пользователей",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} взимает комиссию в размере {{buyFeePercent}} при покупке и {{sellFeePercent}} при продаже."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} взимает комиссию в размере {{feePercent}} при покупке."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} взимает комиссию в размере {{feePercent}} при продаже."
+          },
+          "unknownFee": {
+            "message": "За покупку и продажу {{tokenSymbol}} взимается комиссия."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Вы не можете торговать этим токеном с помощью Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Эти токены не торгуются на ведущих централизованных криптовалютных биржах США. Всегда проверяйте информацию, прежде чем продолжить."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Не удалось загрузить результаты поиска"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Полностью разбавленная оценка",
+      "marketCap": "Рыночная капитализация",
+      "priceHighYear": "Самая высокая цена за 52 нед.",
+      "priceLowYear": "Самая низкая цена за 52 нед.",
+      "section": {
+        "about": "Сведения о {{token}}"
+      },
+      "title": "Статистика",
+      "translation": {
+        "original": "Показать оригинал",
+        "translate": "Перевести на {{language}}"
+      },
+      "volume": "Объем за 24 ч."
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Входной токен"
+      },
+      "output": {
+        "fallback": "Выходной токен"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Свопы по протоколу Uniswap могут начинаться и заканчиваться ETH. Однако во время свопа ETH оборачивается в WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Чтобы получить {{ tokenSymbol }}, вам потребуется {{ nativeTokenSymbol }} для покрытия комиссии сети.",
+      "title": "Вам нужен токен {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Спрятать токен",
+      "unhide": "Отобразить токен"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Открыть в {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Не удалось загрузить NFT-коллекцию"
+          }
+        },
+        "label": {
+          "items": "Предметы",
+          "owners": "Владельцы",
+          "priceFloor": "Нижний порог",
+          "swapVolume": "Объем"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "Не удалось загрузить данные NFT"
+          }
+        },
+        "network": "Сеть",
+        "owner": "Принадлежит",
+        "price": "Текущая цена",
+        "recentPrice": "Последняя цена продажи",
+        "traits": "Характеристики"
+      },
+      "empty": {
+        "description": "NFT не найдены"
+      },
+      "error": {
+        "unavailable": "Содержимое недоступно"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Скрыть NFT",
+          "unhide": "Показать NFT"
+        }
+      },
+      "link": {
+        "collection": "Веб-сайт коллекции"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "Не удалось загрузить NFT"
+          }
+        },
+        "none": {
+          "button": "Получить NFT",
+          "description": {
+            "default": "Для начала переведите NFT из другого кошелька.",
+            "external": "Когда этот кошелек покупает или получает NFT, они появляются здесь."
+          },
+          "title": "Пока нет NFT"
+        }
+      }
+    },
+    "noneFound": "Токены не найдены.",
+    "selector": {
+      "button": {
+        "choose": "Выберите токен",
+        "clear": "Очистить все"
+      },
+      "empty": {
+        "buy": {
+          "message": "Покупайте криптовалюту с помощью карты или банка для отправки токенов.",
+          "title": "Покупка криптовалюты"
+        },
+        "receive": {
+          "title": "Получение токенов"
+        },
+        "title": "Пока нет токенов"
+      },
+      "error": {
+        "load": "Не удалось загрузить токены"
+      },
+      "search": {
+        "empty": "По запросу <highlight>{{searchText}}</highlight> результатов не найдено",
+        "placeholder": "Поиск токенов"
+      },
+      "section": {
+        "bridging": "Своп между сетями",
+        "favorite": "Избранное",
+        "otherNetworksSearchResults": "Токены, найденные в других сетях",
+        "otherSearchResults": "Другие токены в {{network}}",
+        "recent": "Недавние поисковые запросы",
+        "search": "Результаты поиска",
+        "trending": "Токены по объему за 24 ч",
+        "yours": "Ваши токены"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Поиск пулов",
+          "tokens": "Поиск токенов",
+          "transactions": "Поиск транзакций"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Отменить транзакцию",
+        "description": "Если вы отмените эту транзакцию до того, как она будет обработана сетью, вы заплатите новую комиссию вместо первоначальной.",
+        "title": "Отменить эту транзакцию?"
+      },
+      "copy": "Скопировать идентификатор транзакции",
+      "copyProvider": "Скопировать идентификатор транзакции {{providerName}}"
+    },
+    "amount": {
+      "unlimited": "Без ограничений"
+    },
+    "date": "Отправлено {{date}}",
+    "details": {
+      "dappName": "Приложение",
+      "from": "Откуда",
+      "networkFee": "Комиссия сети",
+      "providerFee": "Комиссия поставщика",
+      "swapRate": "Курс",
+      "transaction": "Транзакция",
+      "uniswapFee": "Комиссия ({{ feePercent }} %)"
+    },
+    "insufficientLiquidity": "Недостаточно ликвидности пула для завершения транзакции",
+    "network": {
+      "all": "Все сети"
+    },
+    "networkCost": {
+      "label": "Комиссия сети",
+      "maxNativeBalance": {
+        "description": "Небольшая часть баланса сетевых токенов резервируется для оплаты комиссии сети за эту транзакцию.",
+        "title": "Почему я не могу использовать все средства на своем балансе?"
+      },
+      "veryHigh": {
+        "label": "Очень высокая комиссия сети"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Невозможно отменить транзакцию",
+        "replace": "Невозможно заменить транзакцию"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Утверждение отменено",
+        "canceling": "Отмена утверждения",
+        "failed": "Не удалось утвердить",
+        "pending": "Утверждение",
+        "success": "Утверждено",
+        "successDapp": "Утверждено в {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Покупка отменена",
+        "canceling": "Отмена покупки",
+        "failed": "Не удалось купить",
+        "pending": "Покупка",
+        "success": "Куплено",
+        "successDapp": "Куплено в {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Подтверждение отменено",
+        "canceling": "Отмена находится в обработке",
+        "failed": "Не удалось подтвердить",
+        "pending": "Транзакция выполняется",
+        "success": "Транзакция подтверждена",
+        "successDapp": "Транзакция подтверждена в {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Создание отменено",
+        "canceling": "Отмена создания",
+        "failed": "Не удалось создать",
+        "pending": "Создание",
+        "success": "Создано",
+        "successDapp": "Создано в {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Покупка отменена",
+        "canceling": "Отмена покупки",
+        "failedOn": "Не удалось совершить покупку в {{serviceProvider}}",
+        "pendingOn": "Покупка в {{serviceProvider}}",
+        "successOn": "Куплено у {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Получение отменено",
+        "canceling": "Отмена получения",
+        "failedFrom": "Ошибка получения от {{serviceProvider}}",
+        "pendingFrom": "Получение от {{serviceProvider}}",
+        "success": "Получено",
+        "successDapp": "Получено в {{externalDappName}}",
+        "successFrom": "Получено от {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Отменено отзыв",
+        "canceling": "Отмена отзыва",
+        "failed": "Не удалось отозвать",
+        "pending": "Отзыв",
+        "success": "Отозвано",
+        "successDapp": "Отозвано в {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Сделка по продаже отменена",
+        "canceling": "Отмена сделки по продаже",
+        "failedOn": "Ошибка продажи через {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "Подробнее о том, как продавать криптовалюту.",
+          "title": "Почему моя транзакция по продаже все еще находится в обработке?"
+        },
+        "pendingOn": "Продажа через {{serviceProvider}}",
+        "successOn": "Продано через {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Отменена продажа",
+        "canceling": "Отмена продажи",
+        "failed": "Не удалось продать",
+        "pending": "Продажа",
+        "success": "Продано",
+        "successDapp": "Продано в {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Отмена отправки",
+        "canceling": "Отмена отправки",
+        "failed": "Не удалось отправить",
+        "pending": "Отправка",
+        "success": "Отправлено",
+        "successDapp": "Отправлено в {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Своп отменен",
+        "canceling": "Отмена свопа",
+        "expired": "Срок действия свопа истек",
+        "failed": "Не удалось выполнить своп",
+        "insufficientFunds": "Недостаточно средств",
+        "pending": "Выполняется своп",
+        "success": "Своп выполнен",
+        "successDapp": "Своп выполнен в {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Развертывание отменено",
+        "canceling": "Отмена развертывания",
+        "failed": "Не удалось развернуть",
+        "pending": "Развертывание",
+        "success": "Развернуто",
+        "successDapp": "Развернуто в {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Обертывание отменено",
+        "canceling": "Отмена обертывания",
+        "failed": "Не удалось обернуть",
+        "pending": "Обертывание",
+        "success": "Обернуто",
+        "successDapp": "Обернуто в {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} в {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} из {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Чтобы покрыть комиссию сети для этой транзакции, вам нужно приблизительно {{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) в {{networkName}}."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Чтобы выполнить своп на этот токен, вам потребуется дополнительное количество {{tokenSymbol}} в {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "Недостаточно {{tokenSymbol}} в {{networkName}}",
+            "withoutNetwork": "Недостаточно {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Вы собираетесь потратить большую часть баланса сетевых токенов, что, возможно, приведет к недостаточному количеству средств для оплаты комиссий сети в будущем.",
+        "title": "Низкий сетевой баланс токенов"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Невозможно отменить транзакцию",
+        "status": "Ошибка при проверке статуса транзакции"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "Протокол <logo /> объединяет источники ликвидности для более выгодных цен и свопов без газа.",
+    "learnMore": "Узнайте больше о свопе с помощью UniswapX"
+  },
+  "uniswapx": {
+    "description": "Протокол UniswapX объединяет источники ликвидности для более выгодных цен и свопов без газа.",
+    "included": "Включает <icon /> <gradient>протокол UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "Не удалось выполнить жесткую котировку UniswapX v2. Повторите попытку с классическим свопом."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Получить сейчас"
+      },
+      "subtitle": "Создайте персонализированный профиль Web3 и легко делитесь своим адресом с друзьями.",
+      "title": {
+        "compact": "<highlight>Получите имя пользователя {{unitagDomain}}</highlight> и создайте персонализированный профиль.",
+        "full": "Получите имя пользователя {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Выбрать из фотопленки",
+        "computer": "Загрузить с компьютера",
+        "nft": "Выберите NFT",
+        "remove": "Удалить изображение профиля"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Настроить профиль",
+        "description": "С помощью {{unitagAddress}} уже можно отправлять и получать криптовалюту. Продолжайте создавать кошелек, настраивая свой профиль Web3.",
+        "success": {
+          "long": "Готово!",
+          "short": "готово!"
+        }
+      },
+      "error": {
+        "addressLimit": "Вы уже внесли максимальное количество изменений в свое имя пользователя для этого адреса",
+        "avatar": "Не удалось установить аватар. Попробуйте позже.",
+        "default": "Не удалось получить имя пользователя. Попробуйте позже.",
+        "deviceLimit": "Вы достигли максимального количества имен пользователей, которые могут быть активны для этого устройства",
+        "general": "Невозможно получить имя пользователя",
+        "unavailable": "Это имя пользователя недоступно",
+        "unknown": "Неизвестная ошибка"
+      },
+      "username": {
+        "default": "ваше имя"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Вы собираетесь удалить свое имя пользователя и настраиваемые данные профиля. Вернуть их невозможно.",
+        "title": "Вы уверены?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "имя пользователя"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Вы собираетесь изменить свое имя пользователя. Если вы его измените, то больше никогда не сможете выбрать его снова.",
+        "title": "Вы уверены?"
+      },
+      "title": "Изменить имя пользователя",
+      "warning": {
+        "default": "После того как вы измените свое имя пользователя, вы больше никогда не сможете его получить. Вы можете изменить его только <highlight>2</highlight> раза.",
+        "max": "Вы внесли в имя пользователя максимальное количество изменений (2)."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Получить имя пользователя",
+        "description": "Попрощайтесь с 0x-адресами. Имена пользователей — это удобные для чтения имена, которые облегчают отправку и получение криптовалют.",
+        "title": "Представляем имена пользователей",
+        "upsell": {
+          "customizable": "Настраиваемые профили",
+          "ens": "Работает на субдоменах ENS",
+          "free": "Бесплатное получение"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Работает на субдоменах ENS",
+        "free": "Бесплатное получение",
+        "profile": "Настраиваемые профили"
+      },
+      "subtitle": "Попрощайтесь с 0x-адресами. Имена пользователей — это удобные для чтения имена, которые облегчают отправку и получение криптовалют.",
+      "title": "Представляем имена пользователей"
+    },
+    "notification": {
+      "delete": {
+        "error": "Не удалось удалить имя пользователя. Попробуйте позже.",
+        "title": "Имя пользователя удалено"
+      },
+      "profile": {
+        "error": "Не удалось обновить профиль. Попробуйте позже.",
+        "title": "Профиль обновлен"
+      },
+      "username": {
+        "error": "Не удалось изменить имя пользователя. Попробуйте позже.",
+        "title": "Имя пользователя изменено"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Это ваш персональный адрес, на который можно отправлять криптовалюту.",
+        "title": {
+          "choose": "Создайте имя пользователя",
+          "claim": "Получите имя пользователя"
+        }
+      },
+      "info": {
+        "description": "Имена пользователей преобразуют сложные 0x-адреса в читаемые имена. Получив имя пользователя {{unitagDomain}}, вы сможете легко отправлять и получать криптовалюты и создавать публичный профиль Web3.",
+        "title": "Упрощенный адрес"
+      },
+      "profile": {
+        "subtitle": "Загрузите собственную или используйте уникальное изображение Unicon. Фотографию всегда можно изменить позже.",
+        "title": "Выберите фотографию профиля"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Удалить имя пользователя",
+        "edit": "Редактировать имя пользователя"
+      },
+      "bio": {
+        "label": "Биография",
+        "placeholder": "Введите биографию для своего профиля"
+      },
+      "links": {
+        "twitter": "Твиттер"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Имена пользователей могут содержать только буквы и цифры",
+        "max": "Имена пользователей не могут содержать более {{number}} симв.",
+        "min": "Имена пользователей должны содержать не менее {{number}} симв.",
+        "uppercase": "Имена пользователей могут содержать только строчные буквы и цифры"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Недостаточно {{tokenSymbol}} в {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Протокол Uniswap V2 недоступен в этой сети."
+  },
+  "wallet": {
+    "appSignIn": "Войти через приложение",
+    "connectingAgreement": "Подключая кошелек, вы принимаете <termsLink>Условия обслуживания</termsLink> и <privacyLink>Политику конфиденциальности</privacyLink> Uniswap Labs.",
+    "connectionFailed": {
+      "message": "Попытка подключения не удалась. Нажмите «Повторить попытку» и следуйте инструкциям по подключению в своем кошельке."
+    },
+    "other": "Другие кошельки",
+    "scanToConnect": "Отсканируйте QR-код для подключения",
+    "wrongNet": "Ваш кошелек подключен не к той сети."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "Подключитесь к приложению, отсканировав код через WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Нет подключенных приложений"
+        },
+        "title": "Подключения"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet в настоящее время поддерживает {{chainNames}}. Используйте {{dappName}} только в этих блокчейнах.",
+        "title": "Ошибка подключения"
+      },
+      "general": {
+        "message": "Возникла проблема с WalletConnect. Попробуйте еще раз.",
+        "title": "Ошибка WalletConnect"
+      },
+      "scantastic": {
+        "message": "Возникла проблема с вашим QR-кодом. Попробуйте еще раз.",
+        "title": "Недействительный QR-код"
+      },
+      "unsupported": {
+        "message": "Прежде чем повторить попытку, убедитесь, что вы сканируете действительный QR-код WalletConnect, адреса Эфириум или расширения Uniswap.",
+        "title": "Недействительный QR-код"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 больше не поддерживается. Приложение, к которому вы пытаетесь подключиться, необходимо обновить до WalletConnect v2.",
+        "title": "Недействительный QR-код"
+      },
+      "uwu": {
+        "scan": "При сканировании этого QR-кода возникла проблема.",
+        "title": "Ошибка UwU Link",
+        "unsupported": "Этот QR-код не поддерживается."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Подключить",
+        "scrollDown": "Прокрутите вниз, чтобы подключиться"
+      },
+      "switchAccount": "Сменить аккаунт",
+      "title": "Подключиться к {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Переводить активы без согласия",
+        "viewTokenBalances": "Просматривать балансы токенов",
+        "viewWalletAddress": "Просматривать адрес кошелька"
+      },
+      "title": "Разрешения сайта"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Прокрутите вниз, чтобы подписать",
+        "sign": "Подписать"
+      },
+      "details": {
+        "label": {
+          "function": "Функция",
+          "sending": "Отправка",
+          "token": "Токен",
+          "tokens": "Токены"
+        }
+      },
+      "error": {
+        "insufficientFunds": "У вас недостаточно {{currencySymbol}} для завершения этой транзакции.",
+        "network": "Ошибка подключения к Интернету или сети"
+      },
+      "warning": {
+        "general": {
+          "message": "Будьте осторожны: это сообщение может привести к переводу активов"
+        },
+        "message": "Чтобы подписывать сообщения или транзакции, вам необходимо импортировать фразу восстановления кошелька.",
+        "title": "Этот кошелек доступен только в режиме просмотра"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Находите и исследуйте токены в {{network}}. Исследуйте лучшие пулы. Просматривайте цены в реальном времени, объем трейдинга, TVL, графики и данные транзакций.",
+      "title": {
+        "pools": "Исследуйте лучшие пулы {{network}} на Uniswap",
+        "tokens": "Исследуйте лучшие токены {{network}} на Uniswap",
+        "transactions": "Узнайте о самых популярных транзакциях {{network}} на Uniswap"
+      }
+    }
+  }
+}

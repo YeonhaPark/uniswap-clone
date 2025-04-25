@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "תבע פרס {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "ישנם ביטויי שחזור מרובים המגובים ל- {{cloudProviderName}}שלך.",
+        "title": "בחר גיבוי לשחזור"
+      },
+      "button": {
+        "restore": {
+          "android": "שחזר מ-Google Drive",
+          "ios": "שחזר מ-iCloud"
+        }
+      },
+      "empty": {
+        "description": "נראה שלא גיבית אף אחד מביטויי השחזור שלך ל- {{cloudProviderName}}.",
+        "title": "נמצאו 0 גיבויים"
+      },
+      "error": {
+        "backup": {
+          "message": "ייבוא גיבויים נכשל עקב חוסר הרשאות, הפרעה בהרשאה או עקב שגיאת ענן",
+          "title": "שגיאה בעת ייבוא גיבויים"
+        },
+        "password": {
+          "title": "סיסמה שגויה. בבקשה נסה שוב."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "לא עכשיו",
+            "settings": "לך להגדרות"
+          },
+          "message": {
+            "android": "אנא ודא שאתה מחובר לחשבון Google עם Google Drive מופעל במכשיר זה ונסה שוב.",
+            "ios": "אנא ודא שאתה מחובר ל-Apple ID עם iCloud Drive מופעל במכשיר זה ונסה שוב."
+          },
+          "title": {
+            "android": "Google Drive לא זמין",
+            "ios": "כונן iCloud אינו זמין"
+          }
+        }
+      },
+      "loading": {
+        "title": "מחפש גיבויים..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "יותר מדי ניסיונות. נסה שוב בעוד שעה.",
+          "hours_other": "יותר מדי ניסיונות. נסה שוב בעוד {{count}} שעות.",
+          "minutes_one": "יותר מדי ניסיונות. נסה שוב בעוד דקה.",
+          "minutes_other": "יותר מדי ניסיונות. נסה שוב בעוד {{count}} דקות."
+        }
+      },
+      "password": {
+        "input": "הזן את הסיסמה",
+        "recoveryPhrase": "הזן את ביטוי השחזור שלך במקום זאת",
+        "subtitle": "סיסמה זו נדרשת כדי לשחזר את גיבוי ביטוי השחזור שלך מ- {{cloudProviderName}}.",
+        "title": "הזן סיסמת גיבוי"
+      }
+    },
+    "drawer": {
+      "gitVersion": "גִרְסָה: ",
+      "modal": {
+        "body": "אחסן והחלף בבטחה אסימונים עם אפליקציית Uniswap. זמין ב-iOS וב-Android.",
+        "dont": "אין לך ארנק Uniswap?",
+        "scan": "סרוק עם ארנק Uniswap"
+      },
+      "spamToggle": "הסתר אסימונים ו-NFT לא ידועים"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "גיביתי את משפט השחזור שלי ואני מבין ש-Uniswap Labs לא יכולה לעזור לי לשחזר את הארנק שלי אם לא הצלחתי לעשות זאת.",
+        "description": "ודא שגיבית את ביטוי השחזור שלך באמצעות אפליקציית Uniswap לנייד או תוסף הדפדפן.",
+        "descriptionEmphasized": "ללא ביטוי השחזור שלך, ייתכן שלא תוכל לגשת לארנק שלך.",
+        "speedbump": {
+          "description": "לפני שתמשיך, השלם את השלבים הבאים כדי למנוע אובדן גישה לארנק שלך ולכל הכספים.",
+          "step1": "הורד את האפליקציה לנייד או תוסף הדפדפן של Uniswap",
+          "step2": "גבה את ביטוי השחזור שלך",
+          "title": "האם אתה בטוח?"
+        },
+        "title": "למחוק את המפתח?"
+      },
+      "sign": {
+        "in": {
+          "title": "היכנס עם מפתח סיסמה"
+        }
+      },
+      "type": {
+        "crossplatform": "טלפון, טאבלט או מפתח אבטחה",
+        "platform": "דפדפן או מערכת הפעלה"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "הזמנה זו בוטלה מכיוון שהיתרה שלך ירדה מתחת לסכום הקלט."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "הזמנה זו לא תתמלא מכיוון שהיתרה שלך ירדה מתחת לסכום הקלט. הגדל את היתרה שלך כדי לתקן."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "ביטוי התאוששות (או ביטוי ראשוני) הוא <highlight>קבוצת מילים</highlight> הנדרשת כדי לגשת לארנק שלך, <highlight>כמו סיסמה.</highlight>",
+        "part2": "אתה יכול <highlight>להזין</highlight> את משפט השחזור שלך במכשיר חדש <highlight>כדי לשחזר את הארנק</highlight> ואת תוכנו.",
+        "part3": "אבל, אם <highlight>תאבד את ביטוי השחזור שלך</highlight>, תאבד <highlight>גישה</highlight> לארנק שלך.",
+        "part4": "במקום לשנן את משפט השחזור שלך, אתה יכול <highlight>לגבות אותו ל- {{cloudProviderName}}</highlight> ולהגן עליו באמצעות סיסמה.",
+        "part5": "אתה יכול גם לגבות באופן ידני את ביטוי השחזור שלך על ידי <highlight>כתיבתו</highlight> ואחסונו במקום בטוח.",
+        "part6": "אנו ממליצים להשתמש ב <highlight>בשני סוגי הגיבויים</highlight>, מכיוון שאם תאבד את ביטוי השחזור שלך, לא תוכל לשחזר את הארנק שלך."
+      },
+      "error": {
+        "invalid": "ביטוי לא חוקי",
+        "invalidWord": "מילה לא חוקית: {{word}}",
+        "phraseLength": "ביטוי שחזור חייב להיות 12-24 מילים",
+        "wrong": "ביטוי שגוי שגוי"
+      },
+      "helpText": {
+        "import": "איך אני מוצא את ביטוי ההחלמה שלי?",
+        "restoring": "נסה לחפש שוב"
+      },
+      "input": "הקלד את משפט השחזור שלך",
+      "remove": {
+        "final": {
+          "description": "ודא שרשמת את ביטוי השחזור שלך או גיבית אותו ב- {{cloudProviderName}}. <highlight>לא תוכל לגשת לכספים שלך אחרת.</highlight>",
+          "title": "אתה מסיר את <highlight>ביטוי השחזור שלך</highlight>"
+        },
+        "import": {
+          "description": "אתה יכול לאחסן רק ביטוי שחזור אחד בכל פעם. כדי להמשיך לייבא חדש, תצטרך להסיר את ביטוי השחזור הנוכחי שלך ואת כל הארנקים המשויכים מהמכשיר הזה."
+        },
+        "initial": {
+          "description": "פעולה זו תסיר את הארנק שלך מהמכשיר הזה יחד עם ביטוי השחזור שלך.",
+          "title": "אתה מסיר את <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "ביטוי השחזור שלך יישאר מאוחסן עד שתמחק את כל הארנקים שנותרו."
+        }
+      },
+      "subtitle": {
+        "import": "ביטוי השחזור שלך יאוחסן רק באופן מקומי במכשיר שלך.",
+        "restoring": "הזן את ביטוי השחזור שלך למטה, או נסה לחפש שוב גיבויים."
+      },
+      "title": {
+        "import": "הזן את ביטוי השחזור שלך",
+        "restoring": "לא נמצאו גיבויים"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "העתק כתובת",
+        "manageConnections": "נהל חיבורים",
+        "report": "דווח על פרופיל",
+        "viewExplorer": "הצג ב- {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "הוסף ארנק",
+        "addViewOnly": "הוסף ארנק לצפייה בלבד",
+        "create": "צור ארנק חדש",
+        "import": "ייבא ארנק חדש",
+        "manage": "הגדרות ארנק",
+        "remove": "הסר את הארנק",
+        "restore": "שחזר את הארנק שלך",
+        "watch": "צפו בארנק"
+      },
+      "create": {
+        "placeholder": "ארנק {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "תווית ארנק"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "ערוך פרופיל"
+          },
+          "title": "ערוך תווית"
+        },
+        "viewOnly": "ארנקים לצפייה בלבד"
+      },
+      "menu": {
+        "claimUsername": "תבע את שם המשתמש",
+        "copy": {
+          "title": "העתק את כתובת הארנק"
+        },
+        "edit": {
+          "title": "ערוך תווית"
+        },
+        "manageConnections": "נהל חיבורים",
+        "remove": {
+          "title": "הסר את הארנק"
+        }
+      },
+      "remove": {
+        "check": "גיביתי את משפט השחזור שלי והבנתי ש-Uniswap Labs לא יכולה לעזור לי לשחזר את הארנקים שלי אם לא הצלחתי לעשות זאת.",
+        "title": "הסר {{name}}",
+        "viewOnly": "אתה תמיד יכול להוסיף ארנקים לצפייה אחורית על ידי הזנת כתובת הארנק."
+      },
+      "restore": {
+        "description": "מכיוון שאתה במכשיר חדש, תצטרך לשחזר את ביטוי השחזור שלך או להזין את סיסמת גיבוי הענן שלך כדי להמשיך."
+      },
+      "select": {
+        "error": "לא ניתן לטעון כתובות",
+        "loading": {
+          "subtitle": "הארנקים שלך יופיעו למטה.",
+          "title": "מחפש ארנקים"
+        },
+        "title_one_one": "נמצא ארנק אחד",
+        "title_one_other": "בחר ארנקים לייבוא"
+      },
+      "viewOnly": {
+        "button": "ייבוא ארנק",
+        "description": "כדי להחליף, לקנות, לשלוח ולקבל אסימונים, עליך לייבא את ביטוי השחזור של הארנק הזה.",
+        "title": "הארנק הזה הוא לצפייה בלבד"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "כתובת זו כבר מיובאת",
+          "notFound": "כתובת לא נמצאה",
+          "smartContract": "כתובת היא חוזה חכם"
+        },
+        "message": "הוספת ארנק לצפייה בלבד מאפשרת לך לנסות את האפליקציה או לעקוב אחר ארנק. לא תוכל להחליף או לשלוח כספים.",
+        "placeholder": "ENS או כתובת",
+        "title": "הזן כתובת לארנק"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} בהמתנה",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} פרסים שנאספו"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} מ- {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} עד {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} עבור {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} ו {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "חלק מהבריכה"
+  },
+  "addressInput": {
+    "recipient": "מקבל"
+  },
+  "analytics": {
+    "allow": {
+      "message": "אנו משתמשים בנתונים אנונימיים כדי לשפר את החוויה שלך עם מוצרי Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "לא באמת"
+    },
+    "description": "ספר לנו אם יש לך ניסיון טוב עם האפליקציה הזו",
+    "extension": {
+      "review": {
+        "description": "בחר דירוג כוכבים והשאיר ביקורת בחנות האינטרנט של Chrome.",
+        "title": "לסקור את הרחבת Uniswap?"
+      },
+      "title": "נהנה מהרחבת Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "שלח משוב"
+      },
+      "description": "ספר לנו כיצד נוכל לשפר את החוויה שלך",
+      "title": "אנחנו מצטערים לשמוע את זה."
+    },
+    "mobile": {
+      "title": "נהנה מ-Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}דקות {{seconds}}שניות",
+      "minutesOnly": "~{{minutes}}דקות",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "פָּמוֹט",
+    "error": {
+      "pools": "לא ניתן להציג נתונים היסטוריים עבור המאגר הנוכחי.",
+      "tokens": "לא ניתן להציג נתונים היסטוריים עבור האסימון הנוכחי."
+    },
+    "line": "תרשים קווים",
+    "missingData": "חסרים נתוני תרשים",
+    "price": {
+      "label": {
+        "close": "סגור",
+        "high": "גָבוֹהַ",
+        "low": "נָמוּך",
+        "open": "לִפְתוֹחַ"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "הגדרה זו אינה זמינה עבור התרשים הנוכחי"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "תודה שהיית חלק מקהילת Uniswap <heart />",
+    "uni": {
+      "arrived": "UNI הגיע"
+    }
+  },
+  "common": {
+    "accept": "לְקַבֵּל",
+    "activity": "פעילות",
+    "add": {
+      "label": "לְהוֹסִיף",
+      "liquidity": {
+        "cancelled": "הוספת נזילות בוטלה",
+        "failed": "הוספת נזילות נכשלה"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "הוספת נזילות V2 בוטלה",
+          "failed": "הוספת נזילות V2 נכשלה"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "תוספת נזילות",
+      "v2": {
+        "liquidity": "נוספה נזילות V2"
+      }
+    },
+    "addedLiquidity": "תוספת נזילות",
+    "adding": {
+      "liquidity": "הוספת נזילות",
+      "v2": {
+        "liquidity": "הוספת נזילות V2"
+      }
+    },
+    "addLiquidity": "הוסף נזילות",
+    "addressOrENS": "כתובת ארנק או שם ENS",
+    "advanced": "מִתקַדֵם",
+    "all": "כֹּל",
+    "allTime": "כל הזמן",
+    "and": "ו",
+    "app": "אפליקציה",
+    "approval": {
+      "cancelled": "האישור בוטל",
+      "failed": "האישור נכשל"
+    },
+    "approve": "לְאַשֵׁר",
+    "approved": "אושר",
+    "approvePending": "מחכה לאישור...",
+    "approveSpend": "אשר הוצאה של {{symbol}}",
+    "approving": "מאשר",
+    "areYouSure": "האם אתה בטוח?",
+    "automatic": "אוטומטי",
+    "availableIn": "החלפה חד פעמית זמינה ב: <locale />",
+    "availableOnIOSAndroid": "זמין ב-iOS וב-Android",
+    "availableOnIOSAndroidChrome": "זמין ב-iOS, אנדרואיד וכרום",
+    "backToPositions": "חזרה לתפקידים",
+    "blocked": {
+      "ifError": "אם אתה סבור שזו שגיאה, אנא שלח דוא\"ל כולל כתובתך אל <emailAddress />",
+      "reason": "כתובת זו חסומה בממשק Uniswap Labs מכיוון שהיא משויכת לפעילות אחת או יותר של <link></link>אחת או יותר."
+    },
+    "blockedAddress": "כתובת חסומה",
+    "blog": "בלוג",
+    "borrow": {
+      "cancelled": "ההשאלה בוטלה",
+      "failed": "ההשאלה נכשלה"
+    },
+    "borrowed": "שָׁאוּל",
+    "borrowing": "שְׁאֵילָה",
+    "bought": "קנה",
+    "brandAssets": "נכסי מותג",
+    "burn": {
+      "cancelled": "הצריבה בוטלה",
+      "failed": "הצריבה נכשלה"
+    },
+    "burned": "נשרף",
+    "burning": "שריפה",
+    "button": {
+      "accept": "לְקַבֵּל",
+      "back": "חזור",
+      "buy": "לִקְנוֹת",
+      "cancel": "לְבַטֵל",
+      "checkin": "קבלה",
+      "close": "סגור",
+      "confirm": "לְאַשֵׁר",
+      "connect": "לְחַבֵּר",
+      "continue": "לְהַמשִׁיך",
+      "copied": "מוּעֲתָק",
+      "copy": "עותק",
+      "create": "לִיצוֹר",
+      "delete": "לִמְחוֹק",
+      "disconnect": "לְנַתֵק",
+      "dismiss": "לשחרר",
+      "done": "בוצע",
+      "edit": "לַעֲרוֹך",
+      "enable": "לְאַפשֵׁר",
+      "finish": "סִיוּם",
+      "goBack": "תחזור",
+      "later": "אולי אחר כך",
+      "learn": "למד עוד",
+      "next": "הַבָּא",
+      "notNow": "לא עכשיו",
+      "ok": "בסדר",
+      "paste": "לְהַדבִּיק",
+      "pay": "לְשַׁלֵם",
+      "proceed": "להמשיך",
+      "receive": "לְקַבֵּל",
+      "remove": "לְהַסִיר",
+      "reset": "אִתחוּל",
+      "retry": "נסה שוב",
+      "reveal": "לְגַלוֹת",
+      "review": "סקירה",
+      "save": "להציל",
+      "scrollDown": "גלול מטה",
+      "sell": "מכירה",
+      "send": "לִשְׁלוֹחַ",
+      "setup": "להכין",
+      "share": "לַחֲלוֹק",
+      "showLess": "הראי פחות",
+      "showMore": "להראות יותר",
+      "sign": "סִימָן",
+      "skip": "לדלג",
+      "swap": "לְהַחלִיף",
+      "tryAgain": "נסה שוב",
+      "understand": "אני מבין",
+      "unlock": "לבטל נעילה",
+      "view": "נוף",
+      "viewDetails": "הצג פרטים",
+      "yes": "כן"
+    },
+    "buy": {
+      "cancelled": "הקנייה בוטלה",
+      "failed": "הקנייה נכשלה",
+      "label": "לִקְנוֹת"
+    },
+    "buyAndSell": "קנה ומכיר ב-Uniswap",
+    "buying": "קְנִיָה",
+    "by": "על ידי",
+    "cancel": {
+      "failed": "הביטול נכשל"
+    },
+    "cancellation": {
+      "cancelled": "הביטול בוטל"
+    },
+    "cancellationSubmitted": "הביטול נשלח",
+    "cancellationSuccessful": "הביטול הצליח",
+    "cancelled": "מבוטל",
+    "cancelling": "מבטל",
+    "cancelOrder": "בטל הזמנה",
+    "card": {
+      "error": {
+        "description": "משהו השתבש",
+        "title": "אופס! משהו השתבש."
+      }
+    },
+    "careers": "קריירה",
+    "chart": "תַרשִׁים",
+    "checkNetwork": "בדוק את מצב הרשת <link>כאן.</link>",
+    "chromeExtension": "סיומת",
+    "claim": {
+      "cancelled": "התביעה בוטלה",
+      "failed": "התביעה נכשלה"
+    },
+    "claimed": "נִתבָּע",
+    "claiming": "בטענה",
+    "claimUnis": "תבע את אסימוני ה-UNI שלך",
+    "clear": "בָּרוּר",
+    "close": "סגור",
+    "closed": "סָגוּר",
+    "collect": {
+      "button": "לאסוף",
+      "fees": {
+        "cancelled": "גביית עמלות בוטלה",
+        "failed": "איסוף עמלות נכשל"
+      }
+    },
+    "collected": {
+      "fees": "עמלות שנגבו"
+    },
+    "collecting": {
+      "fees": "גביית עמלות"
+    },
+    "company": "חֶברָה",
+    "confirm": "לְאַשֵׁר",
+    "confirmCancellation": "אשר את הביטול",
+    "confirmSend": {
+      "button": "אשר את השליחה"
+    },
+    "confirmSwap": "אשר את ההחלפה בארנק",
+    "confirmTimedOut": "תם הזמן הקצוב לאישור. נא לנסות שוב.",
+    "confirmWallet": "אשר בארנק",
+    "connect": {
+      "button": "לְחַבֵּר"
+    },
+    "connectAWallet": {
+      "button": "חבר ארנק"
+    },
+    "connectWallet": {
+      "button": "חבר ארנק"
+    },
+    "contactUs": {
+      "button": "צור קשר"
+    },
+    "contractInteraction": "אינטראקציה בחוזה",
+    "copied": "מוּעֲתָק",
+    "copy": {
+      "address": "העתק כתובת"
+    },
+    "copyLink": {
+      "button": "העתק קישור"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "יצירת הבריכה בוטלה",
+        "failed": "יצירת המאגר נכשלה"
+      }
+    },
+    "created": {
+      "date": "נוצר {{date}}",
+      "pool": "נוצר בריכה"
+    },
+    "creating": {
+      "pool": "יצירת בריכה"
+    },
+    "currency": "מַטְבֵּעַ",
+    "custom": "המותאם אישית",
+    "customRange": "טווח מותאם אישית",
+    "dataOutdated": "הנתונים עשויים להיות מיושנים",
+    "default": "בְּרִירַת מֶחדָל",
+    "defaultTradeOptions": "ברירת מחדל לאפשרויות סחר",
+    "delegate": {
+      "cancelled": "הנציג בוטל",
+      "failed": "הנציג נכשל"
+    },
+    "delegated": "האצלה",
+    "delegating": "אֲצִילָה",
+    "deploy": {
+      "cancelled": "הפריסה בוטלה",
+      "failed": "הפריסה נכשלה"
+    },
+    "deployed": "נפרס",
+    "deploying": "פריסה",
+    "deposit": {
+      "cancelled": "הפיקדון בוטל",
+      "failed": "ההפקדה נכשלה",
+      "toNetwork": "הפקד אסימונים לרשת {{label}} ."
+    },
+    "deposited": "הופקד",
+    "depositing": "הפקדה",
+    "depositTokens": "אסימוני הפקדה",
+    "detected": "זוהה",
+    "developers": "מפתחים",
+    "device": {
+      "other": "מכשיר אחר"
+    },
+    "dismiss": "לשחרר",
+    "displaySettings": "הגדרות תצוגה",
+    "dnsRegistrar": "רשם DNS",
+    "donate": "לִתְרוֹם",
+    "done": "בוצע",
+    "dontShowAgain": "אל תראה את זה שוב",
+    "download": "הורד",
+    "downloadAppStore": "הורד ב-App Store",
+    "downloadPlayStore": "הורד בחנות Play",
+    "downloadUniswap": "הורד את Uniswap",
+    "downloadUniswapApp": "הורד את אפליקציית Uniswap",
+    "dynamic": "דִינָמִי",
+    "edit": {
+      "button": "לַעֲרוֹך"
+    },
+    "error": {
+      "details": "פרטי שגיאה",
+      "general": "משהו השתבש",
+      "label": "שְׁגִיאָה",
+      "request": "מצטערים, אירעה שגיאה במהלך עיבוד הבקשה שלך. אם אתה מבקש תמיכה, הקפד להעתיק את הפרטים של שגיאה זו.",
+      "somethingWrong": "משהו השתבש!",
+      "wrong": {
+        "tryAgain": "משהו השתבש. בבקשה נסה שוב."
+      }
+    },
+    "errorConnecting": {
+      "error": "שגיאה בחיבור"
+    },
+    "errorLoadingData": {
+      "error": "שגיאה בטעינת נתונים"
+    },
+    "ethereumNameService": "שירות שמות Ethereum",
+    "etherscan": {
+      "link": "צפה ב-Etherscan"
+    },
+    "ethRegistrarController": "בקר רשם ETH",
+    "execute": {
+      "cancelled": "הביצוע בוטל",
+      "failed": "הביצוע נכשל"
+    },
+    "executed": "יצא לפועל",
+    "executing": "מְבַצֵעַ",
+    "expired": "לא בתוקף",
+    "expiry": "תְפוּגָה",
+    "explore": "לַחקוֹר",
+    "explorer": "מגלה ארצות",
+    "exploreTokens": "חקור אסימונים",
+    "extension": "הרחבת Uniswap",
+    "failed": {
+      "error": "נִכשָׁל"
+    },
+    "failedSwitchNetwork": "החלפת רשת נכשלה",
+    "fee": "תַשְׁלוּם",
+    "fees": "עמלות",
+    "feesEarned": "עמלות שנצברו",
+    "feesEarnedPerBase": "{{symbolA}} לכל {{symbolB}}",
+    "fetchingRoute": "מסלול אחזור",
+    "floor": "קוֹמָה",
+    "floorPrice": "מחיר רצפה",
+    "for": "ל",
+    "fullRange": "טווח מלא",
+    "getApp": "קבל אפליקציה",
+    "getHelp": {
+      "button": "תקבל עזרה"
+    },
+    "getStarted": "התחל",
+    "getSupport": {
+      "button": "קבל תמיכה"
+    },
+    "getTheApp": "הורד את האפליקציה",
+    "getUniswapWallet": "קבל Uniswap Wallet",
+    "governance": "ממשל",
+    "happyHolidays": "חג שמח מצוות Uniswap!",
+    "helpCenter": "מרכז עזרה",
+    "hidden": "מוּסתָר",
+    "hide": {
+      "button": "להתחבא"
+    },
+    "highPrice": "מחיר גבוה",
+    "includes": "כולל",
+    "info": {
+      "label": "מידע"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "בחר נמען"
+      },
+      "password": {
+        "confirm": "אשר סיסמה",
+        "error": {
+          "mismatch": "הסיסמאות אינן תואמות",
+          "weak": "הסיסמה הזו חלשה מדי"
+        },
+        "new": "סיסמה חדשה",
+        "placeholder": "סיסמה",
+        "strength": {
+          "medium": "בינוני",
+          "strong": "חָזָק",
+          "weak": "חלש"
+        }
+      },
+      "search": "לחפש"
+    },
+    "insufficient": {
+      "funds": "אין מספיק כספים"
+    },
+    "insufficientBalance": {
+      "error": "איזון לא מספיק"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "אין מספיק כספים לכיסוי עלות הרשת"
+    },
+    "insufficientLiquidity": "נזילות לא מספקת",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "לא מספיק {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "זוג לא חוקי",
+    "invalidRecipient": {
+      "error": "נמען לא חוקי"
+    },
+    "iOSAndroid": "iOS ואנדרואיד",
+    "language": "שפה",
+    "lastPrice": "מחיר סופי",
+    "learnMoreSwap": "למידע נוסף על החלפות",
+    "legalAndPrivacy": "משפטי ופרטיות",
+    "less": "פָּחוֹת",
+    "limit": {
+      "cancel_one": "ביטול מגבלה",
+      "cancel_other": "בטל מגבלות {{count}}",
+      "cancelled": "המגבלה בוטלה",
+      "executed": "הגבלה הוצאה להורג",
+      "expired": "פג תוקף המגבלה",
+      "failed": "הגבלה נכשלה",
+      "opened": "הגבלה נפתחה",
+      "pending": "הגבלה בהמתנה"
+    },
+    "limits": {
+      "approachMax": "מתקרב למגבלת 100 מקסימום",
+      "cancelProceed": "בטל מגבלות כדי להמשיך",
+      "expires": "יפוג {{timestamp}}",
+      "open": "גבולות פתוחים",
+      "when": "כאשר {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "קישורים",
+    "liquidity": {
+      "removed": "הנזילות הוסרה"
+    },
+    "loading": "טוען",
+    "loadingAllowance": "קצבת טעינה",
+    "loadMore": "טען עוד",
+    "longText": {
+      "button": {
+        "less": "תקרא פחות",
+        "more": "קרא עוד"
+      }
+    },
+    "lowPrice": "מחיר נמוך",
+    "manage": "לנהל",
+    "market": {
+      "label": "שׁוּק"
+    },
+    "marketPrice": {
+      "fetching": "משיג מחיר שוק...",
+      "label": "מחיר שוק:",
+      "unavailable": "מחיר שוק לא נמצא. אנא ערכו מחקר משלכם כדי למנוע אובדן כספים."
+    },
+    "max": "מקסימום",
+    "message": "הוֹדָעָה",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "העברת הנזילות בוטלה",
+        "failed": "העברת הנזילות נכשלה"
+      },
+      "position": "העבר עמדה",
+      "v3": "העבר ל-V3"
+    },
+    "migrated": {
+      "liquidity": "נזילות עברה"
+    },
+    "migrating": {
+      "liquidity": "העברת נזילות"
+    },
+    "min": "מינימום",
+    "mint": {
+      "cancelled": "המנטה בוטלה",
+      "failed": "מנטה נכשלה"
+    },
+    "minted": "טָבוּעַ",
+    "minting": "טְבִיעָה",
+    "mobile": "נייד",
+    "more": "יותר",
+    "multiDevice": "ריבוי מכשירים",
+    "navigation": {
+      "settings": "הגדרות",
+      "systemSettings": "הגדרות"
+    },
+    "navigationButton": "כפתור ניווט",
+    "needHelp": "זקוק לעזרה?",
+    "networkCost": "עלות רשת",
+    "neverMind": "לא משנה",
+    "new": {
+      "exclamation": "חָדָשׁ!"
+    },
+    "nft": "NFT",
+    "nfts": "NFTs",
+    "noActivity": "עדיין אין פעילות",
+    "noAmount": {
+      "error": "הזן סכום"
+    },
+    "noData": "אין מידע",
+    "noResults": "לא נמצאו תוצאות.",
+    "notAvailableInRegion": {
+      "error": "לא זמין באזור שלך"
+    },
+    "notCreated": {
+      "label": "לא נוצר"
+    },
+    "notSupported": "לא נתמך",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1H"
+    },
+    "oneMonth": "1 חודש",
+    "oneWeek": "שבוע 1",
+    "oneYear": "1 שנה",
+    "opensea": {
+      "link": "הצג ב-OpenSea"
+    },
+    "orderCancelled": "ההזמנה בוטלה",
+    "orderExecuted": "הזמנה בוצעה",
+    "orderExpired": "פג תוקף ההזמנה",
+    "orderPending": "הזמנה בהמתנה",
+    "outOfRange": "מחוץ לטווח",
+    "pageNotFound": "הדף לא נמצא!",
+    "passkey": {
+      "count": "מפתח סיסמה {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "בחר היכן לשמור את המפתח החדש שלך."
+      }
+    },
+    "pastDay": "היום שעבר",
+    "pastFiveMinutes": "חמש הדקות האחרונות",
+    "pastHour": "השעה האחרונה",
+    "pastMonth": "חודש שעבר",
+    "pastWeek": "שבוע שעבר",
+    "pastYear": "שנה שעברה",
+    "pay": {
+      "button": "לְשַׁלֵם"
+    },
+    "pending": {
+      "cancellation": "ממתין לביטול"
+    },
+    "pendingEllipsis": "ממתין ל...",
+    "permit2": "היתר2",
+    "pool": "בריכה",
+    "pools": "בריכות",
+    "poweredBy": "מופעל על ידי <name />",
+    "price": "מחיר",
+    "priceImpact": "אזהרת השפעה על המחיר",
+    "priceUpdated": "המחיר עודכן",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "כאשר מסומן, לא נשתף את הנתונים שלך עם שותפים של צד שלישי לצורך פרסום מותאם אישית. אתה יכול לאפשר שיתוף בכל עת על ידי ביטול הסימון בתיבה זו.",
+        "label": "אל תשתף את המידע שלי"
+      },
+      "description": "אנו עשויים לשתף מזהי מכשירים עם שותפי הפרסום שלנו כדי לקדם את השירותים שלנו באתרים ובפלטפורמות אחרות. אם זה כשיר כמכירה, שיתוף או פרסום ממוקד לפי החוקים החלים, תוכל לבטל את הסכמתך על ידי סימון התיבה \"אל תשתף את המידע שלי\". למידע נוסף על נוהלי הפרטיות שלנו, קרא את <privacyLink>מדיניות הפרטיות</privacyLink>שלנו.",
+      "disclaimer": "שים לב שהבחירה שלך תחול רק על דפדפן זה במכשיר זה. תוכל גם לבטל את הסכמתך על ידי הפעלת הגדרת בקרת הפרטיות הגלובלית בדפדפן שבו אתה משתמש כדי לגשת לשירותים שלנו. כדי לראות אפשרויות נוספות, עבור להגדרות שלך."
+    },
+    "privacyPolicy": "מדיניות הפרטיות",
+    "proceed": "להמשיך",
+    "proceedInWallet": {
+      "short": "המשך בארנק"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "פותר ציבורי",
+    "purchased": "נרכש",
+    "queue": {
+      "cancelled": "התור בוטל",
+      "failed": "התור נכשל"
+    },
+    "queued": "בתור",
+    "queuing": "הִזדַנְבוּת",
+    "rate": "ציון",
+    "readMore": "קרא עוד",
+    "receive": {
+      "cancelled": "הקבלה בוטלה",
+      "failed": "הקבלה נכשלה"
+    },
+    "received": "קיבלו",
+    "receiving": "קבלה",
+    "recent": "לאחרונה",
+    "rejected": "נִדחֶה",
+    "reload": {
+      "label": "טען מחדש את האפליקציה"
+    },
+    "remove": {
+      "label": "לְהַסִיר",
+      "liquidity": {
+        "cancelled": "הסרת נזילות בוטלה",
+        "failed": "הסרת הנזילות נכשלה"
+      }
+    },
+    "removedLiquidity": "הוסרה נזילות",
+    "removeItem": "הסר פריט",
+    "removing": {
+      "liquidity": "הסרת נזילות"
+    },
+    "repaid": "נפרע",
+    "repay": {
+      "cancelled": "ההחזר בוטל",
+      "failed": "ההחזר נכשל"
+    },
+    "repaying": "מחזיר",
+    "resetLimit": "אפס את המגבלה של {{symbol}}",
+    "resetLimitWallet": "אפס את המגבלה של {{symbol}} בארנק",
+    "resettingLimit": "מאפס את המגבלה של {{symbol}} ...",
+    "resolveIssues_one": "פתור את הבעיה",
+    "resolveIssues_other": "פתור בעיות של {{count}}",
+    "restricted": {
+      "region": "אזור מוגבל"
+    },
+    "reverseRegistrar": "רשם הפוך",
+    "revoke": {
+      "approval": {
+        "failed": "אישור ביטול נכשל"
+      }
+    },
+    "revoked": {
+      "approval": "בוטל האישור"
+    },
+    "revokedApproval": "אישור בוטל",
+    "revoking": {
+      "approval": "ביטול אישור"
+    },
+    "samePrice": "אותו המחיר",
+    "scanQRDownload": "סרוק את קוד ה-QR עם הטלפון כדי להוריד",
+    "selectRegion": {
+      "label": "בחר את האיזור שלך"
+    },
+    "selectToken": {
+      "label": "בחר אסימון"
+    },
+    "selfCustodial": "משמורת עצמית",
+    "sell": {
+      "label": "מכירה"
+    },
+    "send": {
+      "button": "לִשְׁלוֹחַ",
+      "cancelled": "השליחה בוטלה",
+      "failed": "שליחה נכשלה"
+    },
+    "sending": "שְׁלִיחָה",
+    "sent": "נשלח",
+    "settings": "הגדרות",
+    "share": {
+      "shareToTwitter": "שתף לטוויטר",
+      "twitter": "שתף בטוויטר"
+    },
+    "show": {
+      "button": "הופעה"
+    },
+    "showLess": {
+      "button": "הראי פחות"
+    },
+    "showMore": {
+      "button": "להראות יותר"
+    },
+    "signatureExpired": "פג תוקף החתימה שלך.",
+    "signMessage": "חתום על הודעה",
+    "signMessageWallet": "חתום על הודעה בארנק",
+    "sold": "נמכר",
+    "stats": "סטטיסטיקות",
+    "status": "סטָטוּס",
+    "stayConnected": "תשאר מחובר",
+    "step": {
+      "number": "שלב {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "הגשת ההצעה בוטלה",
+        "failed": "הגשת ההצעה נכשלה"
+      }
+    },
+    "submitted": {
+      "proposal": "הצעה שהוגשה"
+    },
+    "submitting": {
+      "proposal": "מגיש הצעה"
+    },
+    "swap": {
+      "cancelled": "ההחלפה בוטלה",
+      "expired": "פג תוקף ההחלפה",
+      "failed": "ההחלפה נכשלה"
+    },
+    "swapped": "הוחלף",
+    "swapPending": "ההחלפה בהמתנה...",
+    "swapping": "החלפה",
+    "switchNetworks": "החלף רשתות",
+    "termsOfService": "תנאי השירות",
+    "text": {
+      "connected": "מְחוּבָּר",
+      "contract": "חוֹזֶה",
+      "disconnected": "מְנוּתָק",
+      "error": "שְׁגִיאָה",
+      "notAvailable": "לא",
+      "recipient": "ל",
+      "sender": "מ",
+      "unknown": "לא ידוע"
+    },
+    "thisMonth": "החודש",
+    "thisToken": "האסימון הזה",
+    "thisWeek": "השבוע",
+    "thisYear": "השנה",
+    "time": {
+      "days": "ימים",
+      "days_one": "יְוֹם",
+      "days_other": "ימים",
+      "hours": "שעה (ות",
+      "hours_one": "שָׁעָה",
+      "hours_other": "שעה (ות",
+      "minute": {
+        "amt": "{{time}}מ"
+      },
+      "minutes": "דקות",
+      "months": "חודשים",
+      "months_one": "חודש",
+      "months_other": "חודשים",
+      "past": {
+        "days": {
+          "short": "{{days}}ד"
+        },
+        "hours": {
+          "short": "{{hours}}ח"
+        },
+        "minutes": {
+          "short": "{{minutes}}מ"
+        },
+        "months": {
+          "short": "{{months}}מו"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "שבועות",
+      "weeks_one": "שָׁבוּעַ",
+      "weeks_other": "שבועות"
+    },
+    "to": "ל",
+    "today": "היום",
+    "tokenA": "אסימון א",
+    "tokenAmount": "סכום סמלי",
+    "tokenB": "אסימון ב",
+    "tokenName": "שם אסימון",
+    "tokens": "אסימונים",
+    "totalUniswapTVL": "Total Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "סַחַר",
+    "trademarkPolicy": "מדיניות סימנים מסחריים",
+    "transactionDetails": "פרטי העברה",
+    "transactionId": "מזהה עסקה",
+    "transactionPending": "העסקה בהמתנה",
+    "transactions": "עסקאות",
+    "transactionSettings": "הגדרות עסקה",
+    "transfer_one": "לְהַעֲבִיר",
+    "transfer_other": "העברות",
+    "tryAgain": {
+      "error": "נסה שוב"
+    },
+    "twitter": "טוויטר",
+    "type": {
+      "label": "סוּג"
+    },
+    "unavailable": "אינו זמין",
+    "unhide": "הצג",
+    "uniGovernance": "ממשל יוני",
+    "uniswapMobile": "Uniswap נייד",
+    "uniswapProtocol": "פרוטוקול חד-החלפה",
+    "uniswapWallet": "ארנק ללא החלפה",
+    "uniswapX": "UniswapX",
+    "unknown": "לא ידוע",
+    "unknownApproval": "אישור לא ידוע",
+    "unknownBridge": "גשר לא ידוע",
+    "unknownError": {
+      "error": "שגיאה לא ידועה"
+    },
+    "unknownLend": "הלוואה לא ידוע",
+    "unknownMint": "מנטה לא ידועה",
+    "unknownSend": "שלח לא ידוע",
+    "unknownSwap": "החלפה לא ידועה",
+    "unsupportedAsset_one": "נכס לא נתמך",
+    "unsupportedAsset_other": "נכסים לא נתמכים",
+    "unwrap": {
+      "button": "לְגוֹלֵל",
+      "failed": "ביטול הגלישה נכשל"
+    },
+    "unwrapped": "לא עטוף",
+    "unwrapping": "פורקים את העטיפה",
+    "view": {
+      "profile": "צפה בפרופיל"
+    },
+    "viewOnExplorer": "הצג באקספלורר",
+    "volume": "כרך",
+    "vote": {
+      "cancelled": "ההצבעה בוטלה",
+      "failed": "ההצבעה נכשלה"
+    },
+    "voted": "הצביעו",
+    "voting": "הַצבָּעָה",
+    "wallet": {
+      "approve": "אישור בארנק",
+      "label": "ארנק"
+    },
+    "walletForSwapping": "הארנק בנוי להחלפה. זמין ב-iOS וב-Android.",
+    "warning": "אַזהָרָה",
+    "webApp": "אפליקציית אינטרנט",
+    "website": "אתר אינטרנט",
+    "whyApprove": "למה אני צריך לאשר אסימון?",
+    "whySign": "מדוע נדרשות חתימות?",
+    "whyWrap": "למה אני צריך לעטוף את {{symbol}}שלי?",
+    "withdraw": {
+      "failed": "הנסיגה נכשלה"
+    },
+    "withdrawal": {
+      "amount": "סכום המשיכה",
+      "cancelled": "המשיכה בוטלה"
+    },
+    "withdrawing": "נסיגה",
+    "withdrew": "נסוג",
+    "withinRange": "בטווח",
+    "wrap": {
+      "cancelled": "גלישה בוטלה",
+      "failed": "גלישה נכשלה"
+    },
+    "wrapIn": "עטפו  {{symbol}} בארנק",
+    "wrapped": "עָטוּף",
+    "wrapping": "לְפָפָה",
+    "wrappingToken": "עוטף  {{symbol}}...",
+    "wrongNetwork": "רשת שגויה",
+    "yesterday": "אֶתמוֹל",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "לחשבון שלך לא היו מספיק כספים כדי להשלים את ההחלפה הזו."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "בחשבונך אין מספיק כספים כדי להשלים את ההחלפה הזו."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "לא ניתן היה לממש את המגבלה שלך בשלב זה. בבקשה נסה שוב."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "לא ניתן היה למלא את ההחלפה שלך בשלב זה. בבקשה נסה שוב."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "אתה קונה",
+    "youRecieve": "אתה מקבל",
+    "youreSending": "אתה שולח"
+  },
+  "currency": {
+    "aud": "דולר אוסטרלי",
+    "brl": "ריאל ברזילאי",
+    "cad": "דולר קנדי",
+    "cny": "יואן סיני",
+    "eur": "יוֹרוֹ",
+    "gbp": "פאונד בריטי",
+    "hkd": "דולר הונג קונגי",
+    "idr": "רופיה אינדונזית",
+    "inr": "רופי הודי",
+    "jpy": "ין יפני",
+    "krw": "וון דרום קוריאני",
+    "ngn": "נאירה הניגרית",
+    "pkr": "רופי פקיסטני",
+    "rub": "רובל רוסי",
+    "sgd": "דולר סינגפורי",
+    "thb": "בהט תאילנדי",
+    "try": "לירה טורקית",
+    "uah": "Hryvnia אוקראינית",
+    "usd": "דולר אמריקאי",
+    "vnd": "דונג וייטנאמי"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "לְאַשֵׁר",
+        "fallbackTitle": "אשר את האתר הזה כדי לגשת לאסימונים",
+        "helptext": "אפשר לאתר זה לגשת ולבזבז את האסימון הזה עבור עסקאות. ודא שאתה סומך על האתר הזה.",
+        "label": "ארנק",
+        "title": "אשר גישה אל {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "בקשת עסקה"
+      },
+      "bridge": {
+        "description": "העבר את ETH, USDC ועוד על פני {{numChains}}+ רשתות.",
+        "title": "מנסה לגשר?"
+      },
+      "connect": {
+        "helptext": "אפשר לאתר זה להציג את כתובת הארנק, היתרה שלך ולבקש אישורים לעסקאות.",
+        "title": "התחבר לאתר"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "נתונים גולמיים"
+        },
+        "function": {
+          "label": "פוּנקצִיָה"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 מנהל אישורי אסימונים על פני מספר Dapps.",
+        "header": "חתום על היתר2"
+      },
+      "reject": {
+        "action": "לדחות הכל",
+        "info": "יש לך <highlight>{{totalRequestCount}}</highlight> בקשות לעסקה"
+      },
+      "revoke": {
+        "action": "לְבַטֵל",
+        "helptext": "אפשר לאתר זה לשלול גישה להוצאת האסימון הזה עבור עסקאות. ודא שאתה סומך על האתר הזה.",
+        "title": "בטל את הגישה אל {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "הודעה זו מכילה תווים בלתי ניתנים לעיבוד. ודא שאתה סומך על האתר הזה.",
+        "decodeError": "פענוח ההודעה נכשל",
+        "header": "בקשת חתימה",
+        "irregular": {
+          "description": "ודא שאתה סומך על האתר הזה לפני שתמשיך",
+          "understand": "אני מבין את הסיכונים"
+        },
+        "toggleDataView": {
+          "raw": "הצג נתונים גולמיים",
+          "readable": "הצג נתונים מקוריים"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "ודא שזהו הנכון",
+          "title": "זה לא הארנק הפעיל שלך"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "היכנס כאן"
+      },
+      "getStarted": {
+        "description": "התחל בהורדת ארנק Uniswap, הזמין בטלפון או בדפדפן שלך.",
+        "title": "התחל עם Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "התחל בעבודה תוך שניות על ידי הרשמה למטה או הורד את הארנק שלנו, זמין בטלפון או בדפדפן שלך."
+        },
+        "title": "הירשם עם Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "מוצרי Uniswap עובדים יחד בצורה חלקה כדי ליצור את חוויית ה-onchain הטובה ביותר."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "זה מספק לפרוטוקול Uniswap גישה לטוקן שלך למסחר. מטעמי אבטחה, תוקפו יפוג לאחר 30 יום."
+    },
+    "dataUnavailable": "הנתונים אינם זמינים כרגע; אנחנו עובדים על תיקון",
+    "id": "מזהה שגיאה: {{eventId}}",
+    "noData": "לא נמצאו נתונים",
+    "request": {
+      "provideId": "מצטערים, אירעה שגיאה במהלך עיבוד הבקשה שלך. אם אתה מבקש תמיכה, הקפד לספק את מזהה השגיאה שלך."
+    },
+    "tokenApproval": "אישור האסימון נכשל",
+    "tokenApprovalEdited": {
+      "message": "סכום האישור שהוגדר בארנק שלך נמוך מכדי להשלים עסקה זו. אנא נסה שוב והגדל את הסכום."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "משהו התרסק.",
+      "restart": "הפעל מחדש את האפליקציה",
+      "title": "או - או!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "חקור עוד בריכות"
+    },
+    "search": {
+      "action": {
+        "clear": "בָּרוּר",
+        "viewEtherscan": "הצג ב- {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "לא נמצאו תוצאות עבור <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "לא ניתן היה לטעון את תוצאות החיפוש",
+      "label": {
+        "ownedBy": "בבעלות {{ownerAddress}}"
+      },
+      "placeholder": "חפש אסימונים וארנקים",
+      "section": {
+        "nft": "אוספי NFT",
+        "popularNFT": "אוספי NFT פופולריים",
+        "popularTokenInfo": "אסימונים פופולריים מזוהים על סמך נפח המסחר שלהם ב-Uniswap במהלך 24 השעות האחרונות.",
+        "popularTokens": "אסימונים פופולריים",
+        "recent": "חיפושים אחרונים",
+        "tokens": "אסימונים",
+        "wallets": "ארנקים"
+      }
+    },
+    "tokens": {
+      "error": "לא ניתן היה לטעון אסימונים",
+      "favorite": {
+        "action": {
+          "add": "אסימון אהוב",
+          "edit": "ערוך מועדפים",
+          "remove": "הסר מועדף"
+        },
+        "title": {
+          "default": "אסימונים אהובים",
+          "edit": "ערוך אסימונים מועדפים"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} כרך"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "שווי שוק",
+          "priceDecrease": "ירידת מחיר",
+          "priceIncrease": "עליית מחירים",
+          "totalValueLocked": "TVL",
+          "volume": "כרך"
+        },
+        "option": {
+          "marketCap": "שווי שוק",
+          "priceDecrease": "ירידת מחיר (24 שעות)",
+          "priceIncrease": "עליית מחיר (24 שעות)",
+          "totalValueLocked": "בטל החלפה של TVL",
+          "volume": "נפח חד-החלפה (24 שעות)"
+        }
+      },
+      "top": {
+        "title": "אסימונים מובילים"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "ארנק אהוב",
+          "edit": "ערוך מועדפים",
+          "remove": "הסר מועדף"
+        },
+        "title": {
+          "default": "ארנקים אהובים",
+          "edit": "ערוך ארנקים מועדפים"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "רֶשֶׁת",
+      "networks": "רשתות",
+      "popup": {
+        "trouble": "בעיה בחיבור?"
+      },
+      "titleConnected": "מְחוּבָּר",
+      "titleNotConnected": "לא מחובר"
+    },
+    "lock": {
+      "button": {
+        "forgot": "שכחת את הסיסמא?",
+        "reset": "אפס את הארנק",
+        "submit": "לבטל נעילה"
+      },
+      "password": {
+        "error": "סיסמה שגויה. נסה שוב",
+        "reset": {
+          "initial": {
+            "description": "Uniswap לא יכול לעזור לשחזר את הסיסמה שלך. עליך לאפס את הארנק שלך על ידי הזנה מחדש של ביטוי השחזור בן 12 המילים.",
+            "help": "איפה אני מוצא את ביטוי ההחלמה שלי?",
+            "title": "שכחת את הסיסמא"
+          },
+          "speedbump": {
+            "description": "ודא שיש לך את ביטוי השחזור בן 12 מילים לפני שאתה מאפס את הארנק. אחרת לא תוכל לשחזר את הכספים שלך.",
+            "help": "איבדתי את משפט ההחלמה שלי",
+            "title": "לפני שתמשיך"
+          }
+        }
+      },
+      "subtitle": "הזן את הסיסמה שלך כדי לבטל את הנעילה",
+      "title": "ברוך שובך"
+    },
+    "network": {
+      "notSupported": "רשת לא נתמכת"
+    },
+    "open": "פתח את הרחבת Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "פתח את הרחבה",
+        "description": "השלם פעולה זו על ידי פתיחת התוסף Uniswap.",
+        "title": "המשך ב-Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "תן עדיפות ל-Uniswap Extension בעת התחברות לאפליקציות.",
+        "title": "הפוך לארנק ברירת מחדל"
+      },
+      "password": {
+        "enter": {
+          "title": "הכנס את ססמתך הנוכחית"
+        },
+        "error": {
+          "wrong": "סיסמה שגויה"
+        },
+        "placeholder": "סיסמה נוכחית"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "לְגַבּוֹת",
+        "message": "הקפד לגבות את ביטוי השחזור שלך כדי למנוע איבוד גישה לארנק ולכספים שלך.",
+        "title": "האחסון בדפדפן שלך אוזל"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "ייבא את חשבון Uniswap שלך על ידי כניסה עם מפתח סיסמה קיים.",
+    "invalidReferrer": "אנא סגור דף זה ונסה שוב."
+  },
+  "fee": {
+    "bestForExotic": "הכי מתאים לזוגות אקזוטיים.",
+    "bestForMost": "הטוב ביותר עבור רוב הזוגות.",
+    "bestForStablePairs": "הטוב ביותר עבור זוגות יציבים.",
+    "bestForVeryStable": "הטוב ביותר עבור זוגות יציבים מאוד.",
+    "dynamic": "עמלה דינמית",
+    "percentEarned": "האחוז שתרוויח בעמלות.",
+    "selectPercent": "{{pct}}% בחר",
+    "selectPercentDescription": "{{pct}}% מהנזילות נבחרה בשכבה זו",
+    "tier": {
+      "create": {
+        "button": "צור שכבת עמלות חדשה",
+        "description": "יצירת שכבה חדשה תתחיל במאגר חדש ותגרום לעלויות רשת גבוהות מהרגיל."
+      },
+      "description": {
+        "v2": "הסכום שהרווח מספק נזילות. לכל מאגר ה-v2 יש עמלות קבועות של 0.3%. לאפשרויות נוספות, ספק נזילות ב-v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "אתה עומד ליצור מאגר עם דרגת עמלות דינמית. לפני שתמשיך, אנא ודא שהקרס שנבחר תומך בעמלות דינמיות."
+        }
+      },
+      "highestTvl": "TVL הגבוה ביותר",
+      "label": "האחוז שתרוויח בעמלות",
+      "missing": {
+        "description": "אינך מוצא את הרמה שאתה מחפש?"
+      },
+      "new": "נדבך חדש",
+      "percent": {
+        "select": "{{percentage}} בחר"
+      },
+      "recommended": {
+        "description": "מומלץ על בסיס נתח הנזילות הגבוה ביותר עבור צמד האסימונים שנבחר."
+      },
+      "search": {
+        "short": "חיפוש שכבות"
+      },
+      "select": {
+        "existing": {
+          "button": "בחר דרגת עמלות קיימת"
+        }
+      }
+    },
+    "tierExact": "{{fee}} שכבת עמלות",
+    "unavailable": "עמלות שהושגו אינן גלויות עבור עמדות v2 עד להסרת הנזילות.",
+    "uncollected": "כולל עמלות שלא נגבו:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "למכור עם"
+    },
+    "connection": {
+      "quote": "מוכר בשווי {{amount}} של {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "עולה על איזון"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} עבור {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "תחזור",
+      "divider": "אסימונים לא נתמכים",
+      "message": "אסימון זה אינו נתמך למכירה. החלף את הנכס הזה לאחד מהאסימונים הנתמכים.",
+      "swap": "החלף לאסימון נתמך",
+      "title": "אסימון לא נתמך"
+    },
+    "welcome": {
+      "tooltip": "מכור את הקריפטו שלך לחשבון הבנק או לכרטיס החיוב שלך."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "בחר אסימון"
+    },
+    "cexTransferModal": {
+      "description": "קניית קריפטו באמצעות כרטיס אינה נתמכת באזור שלך. העבר נכסים מחשבון חליפין מרכזי כדי לממן את הארנק שלך.",
+      "title": "העבר כדי להתחיל"
+    },
+    "checkout": {
+      "title": "קופה עם"
+    },
+    "checkoutWith": "קופה עם",
+    "chooseProvider": {
+      "description": "תמשיך לפורטל של הספק כדי לראות את העמלות הקשורות לעסקה שלך."
+    },
+    "completeTransactionHeader": "השלם עסקה עם {{serviceProvider}}",
+    "connection": {
+      "error": "חיבור נכשל",
+      "errorDescription": "משהו השתבש בחיבור עם {{serviceProvider}}.",
+      "message": "מחבר אותך אל {{serviceProvider}}",
+      "quote": "קניית {{amount}} בשווי {{currencySymbol}}",
+      "terms": "על ידי המשך, אתה מאשר שאתה תהיה כפוף לתנאי השירות  ו מדיניות הפרטיות עם {{serviceProvider}}, לפי העניין."
+    },
+    "continueInTab": "עבור ללשונית {{serviceProvider}} כדי להמשיך. זה בטוח לסגור את המודל הזה עכשיו.",
+    "disclaimer": "על ידי המשך, אתה מאשר שאתה תהיה כפוף לתנאי השירות <tosLink></tosLink> ו <privacyLink>מדיניות הפרטיות</privacyLink> עם {{serviceProvider}}, לפי העניין.",
+    "error": {
+      "default": "משהו השתבש.",
+      "load": "לא ניתן היה לטעון אסימונים לקנייה",
+      "max": "מקסימום {{amount}}",
+      "min": "מינימום {{amount}}",
+      "noQuotes": "לא נמצאו ציטוטים.",
+      "unavailable": "שירות זה אינו זמין באזור שלך",
+      "unsupported": "לא נתמך באזור",
+      "usd": "זמין לרכישה רק בדולר ארה\"ב"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} עבור {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "לא נמצאו ציטוטים"
+    },
+    "purchasedOn": "נרכש ב- {{serviceProvider}}",
+    "quote": {
+      "advice": "תמשיך לפורטל של הספק כדי לראות את העמלות הקשורות לעסקה שלך.",
+      "type": {
+        "list": "{{optionsList}}ואפשרויות אחרות",
+        "other": "אפשרויות אחרות",
+        "recent": "שומש לאחרונה"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "מתוך חשבון"
+        }
+      },
+      "title": "קבל קריפטו",
+      "transferFunds": "ממן את הארנק שלך על ידי העברת קריפטו מארנק או חשבון אחר"
+    },
+    "region": {
+      "placeholder": "חפש לפי מדינה או אזור",
+      "title": "בחר את האיזור שלך"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} עבור {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "עדכן עכשיו",
+      "learn": "למד כיצד לעדכן",
+      "recoveryPhrase": "הצג את ביטוי השחזור"
+    },
+    "description": {
+      "extension": "גרסה חדשה של האפליקציה זמינה. כדי להמשיך להשתמש בתוסף Uniswap, אנא עדכן אותה לגרסה העדכנית ביותר.",
+      "wallet": "גרסה חדשה של האפליקציה זמינה. כדי להמשיך להשתמש בארנק Uniswap, אנא עדכן אותו לגרסה העדכנית ביותר."
+    },
+    "label": {
+      "recoveryPhrase": "ביטוי התאוששות"
+    },
+    "title": {
+      "recommendedStatus": "גרסה חדשה זמינה"
+    }
+  },
+  "globalPreferences": {
+    "title": "העדפות גלובליות"
+  },
+  "hero": {
+    "scroll": "גלול למידע נוסף",
+    "subtitle": "שוק ה-onchain הגדול ביותר. קנה ומכור קריפטו ב-Ethereum וב-11+ רשתות אחרות.",
+    "swap": {
+      "title": "החלפה בכל זמן, <br/> בכל מקום."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "למידע נוסף על NFTs מוסתרים"
+        },
+        "text": {
+          "button": "NFTs מוסתרים ({{numHidden}})",
+          "extension": "אלו הן הונאות פוטנציאליות ו-NFTs שהסתרת. אתה יכול ללחוץ לחיצה ימנית על NFT כדי לבטל את הסתרתו.",
+          "mobile": "אלו הן הונאות פוטנציאליות ו-NFTs שהסתרת. אתה יכול ללחוץ לחיצה ארוכה על NFT כדי להסתיר אותו.",
+          "title": "NFTs נסתרים"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "למידע נוסף על אסימונים נסתרים"
+        },
+        "text": {
+          "button": "אסימונים נסתרים ({{numHidden}})",
+          "info": "אלו הן הונאות פוטנציאליות, יתרות קטנות ואסימונים שהחבאת. אסימונים נסתרים אינם כלולים ביתרת הארנק הכוללת שלך.",
+          "title": "אסימונים נסתרים"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "קבל אסימונים או NFTs",
+        "description": {
+          "default": "כאשר אתה מאשר, סוחר או מעביר אסימונים או NFTs, העסקאות שלך יופיעו כאן.",
+          "external": "כאשר הארנק הזה מבצע עסקאות, הן יופיעו כאן."
+        },
+        "title": "עדיין אין פעילות"
+      },
+      "error": {
+        "load": "לא ניתן היה לטעון את הפעילות"
+      },
+      "title": "פעילות"
+    },
+    "banner": {
+      "offline": "אתה במצב לא מקוון",
+      "testnetMode": {
+        "nav": "אתה במצב testnet. כבה את זה בהגדרות.",
+        "outage": {
+          "monad": {
+            "description": "הגישה ל-Monad Testnet מושהית באופן זמני דרך ממשק Uniswap עקב בעיות ביציבות הרשת. קרנות Testnet לא מושפעות. הגישה תשוחזר ברגע שהבעיות ייפתרו.",
+            "title": "מונאד עצרה זמנית"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "הקש כאן כדי לחקור אלפי אסימונים, NFTs ועוד",
+      "title": "חקור אסימונים"
+    },
+    "extension": {
+      "error": "שגיאה בטעינת חשבונות"
+    },
+    "label": {
+      "buy": "לִקְנוֹת",
+      "for": "קנה/מכירה",
+      "receive": "לְקַבֵּל",
+      "send": "לִשְׁלוֹחַ",
+      "swap": "לְהַחלִיף"
+    },
+    "nfts": {
+      "title": "NFTs"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "רכישה באמצעות כרטיס חיוב או חשבון בנק.",
+            "title": "קנה קריפטו"
+          },
+          "import": {
+            "description": "הזן את ביטוי השחזור של הארנק הזה כדי להתחיל בהחלפה ושליחה.",
+            "title": "ייבוא ארנק"
+          },
+          "receive": {
+            "description": "העברה מארנק או חשבון אחר.",
+            "title": "קבל קריפטו"
+          }
+        },
+        "description": "כאשר הארנק הזה קונה או מקבל אסימונים, הם יופיעו כאן.",
+        "title": "עדיין אין אסימונים",
+        "welcome": {
+          "description": "נראה שיש לך ארנק חדש. בוא נממן את זה לפני שתבצע את ההחלפה הראשונה שלך."
+        }
+      },
+      "error": {
+        "fetch": "לא הצלחנו להביא יתרות אסימונים",
+        "load": "לא ניתן היה לטעון יתרות אסימונים"
+      },
+      "title": "אסימונים"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "מתוך חשבון",
+        "description": "ממן את הארנק שלך על ידי העברת קריפטו מארנק או חשבון אחר",
+        "title": "קבל קריפטו"
+      }
+    },
+    "warning": {
+      "viewOnly": "זהו ארנק לצפייה בלבד"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "החלף או ספק נזילות בפרוטוקול Uniswap",
+      "title": "ממשק חד-החלפה"
+    }
+  },
+  "landing": {
+    "buildNextGen": "בנה את הדור הבא של יישומים וכלים פתוחים.",
+    "connectWithUs": "התחבר אלינו",
+    "devDocs": "מסמכי מפתח",
+    "directToDeFi": "עבור ישירות אל DeFi",
+    "followOnX": "עקוב אחר @Uniswap ב-X לקבלת העדכונים האחרונים",
+    "protocolDescription": "מוצרי Uniswap מופעלים על ידי פרוטוקול Uniswap. הפרוטוקול הוא השוק הגדול ביותר ברשת, עם מיליארדי דולרים בנפח שבועי על פני אלפי אסימונים ב-Ethereum ו-7+ רשתות נוספות.",
+    "provideLiquidity": {
+      "message": "ספק נזילות למאגרים בפרוטוקול Uniswap והרוויח עמלות על החלפות."
+    },
+    "swapSimple": "החלפה פשוטה. גישה לאלפי אסימונים ב-11+ רשתות.",
+    "teamInsights": "תובנות וחדשות מהצוות",
+    "trusted": "מהימנים על ידי מיליונים"
+  },
+  "language": {
+    "afrikaans": "אפריקאנס",
+    "arabic": "עֲרָבִית",
+    "catalan": "קטלאנית",
+    "chineseSimplified": "סינית מופשטת",
+    "chineseTraditional": "מסורת סינית",
+    "czech": "צ'כית",
+    "danish": "דַנִי",
+    "dutch": "הוֹלַנדִי",
+    "english": "אנגלית",
+    "finnish": "פִינִית",
+    "french": "צָרְפָתִית",
+    "greek": "יוונית",
+    "hebrew": "עִברִית",
+    "hindi": "הינדי",
+    "hungarian": "הוּנגָרִי",
+    "indonesian": "אינדונזית",
+    "italian": "אִיטַלְקִית",
+    "japanese": "יַפָּנִית",
+    "korean": "קוריאנית",
+    "malay": "מלאית",
+    "norwegian": "נורבגית",
+    "polish": "פּוֹלָנִית",
+    "portuguese": "פורטוגזית",
+    "romanian": "רומנית",
+    "russian": "רוּסִי",
+    "serbian": "סרבית",
+    "spanishLatam": "ספרדית (אמריקה הלטינית)",
+    "spanishSpain": "ספרדית (ספרד)",
+    "spanishUs": "ספרדית (ארה\"ב)",
+    "swahili": "סוואהילית",
+    "swedish": "שוודית",
+    "turkish": "טורקי",
+    "ukrainian": "אוקראינית",
+    "urdu": "אורדו",
+    "vietnamese": "וייטנאמית"
+  },
+  "limit": {
+    "open": {
+      "count_one": "מגבלה פתוחה אחת",
+      "count_other": "{{count}} מגבלות פתוחות"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "המחיר המקסימלי שלך גבוה ב-{{percentage}}% מהשוק. התאם את המחיר המקסימלי שלך כדי להמשיך.",
+        "title": "קנייה של {{tokenSymbol}} מעל מחיר השוק"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "אין באפשרותנו לחשב את מחיר השוק הנוכחי. כדי להימנע מהגשת הזמנה מתחת למחיר השוק, אנא בדוק את חיבור הרשת שלך ונסה שוב.",
+        "title": "מחיר שוק אינו זמין"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "מחיר המגבלה שלך נמוך ב- {{percentage}}% מהשוק. התאם את מחיר המגבלה שלך כדי להמשיך.",
+        "title": "מוכר {{tokenSymbol}} מתחת למחיר השוק"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "רק אסימוני Mainnet זמינים עבור מגבלות."
+        },
+        "uniswapx": "ייתכן שהמגבלות לא יפעלו בדיוק כאשר האסימונים מגיעים למחיר שצוין. <link />"
+      }
+    },
+    "learnMore": "למידע נוסף על מגבלות",
+    "price": {
+      "input": {
+        "label": "כאשר 1 <tokenSymbol /> שווה"
+      },
+      "label": "מחיר הגבלה"
+    },
+    "selectSupportedTokens": "בחר אסימונים נתמכים"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "הזן כתובת הוק"
+      }
+    },
+    "learnMoreLabel": "למד על מתן נזילות",
+    "notEnough": {
+      "label": "אין מספיק נזילות כדי להציג ערך מדויק של דולר ארה\"ב."
+    },
+    "provideOnProtocols": "מתן נזילות על פרוטוקולים שונים"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} נזילות: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "הוסף נזילות למאגרים{{version}} ב-Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "עמדות סגורות"
+      },
+      "page": {
+        "title": "נהל נזילות של {{quoteSymbol}}/{{baseSymbol}} ב-Uniswap",
+        "version": {
+          "description": "הצג את עמדות הנזילות הפעילות של {{version}} שלך. הוסף עמדות חדשות.",
+          "title": "נהל את נזילות המאגר{{version}} ב-Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "מוּתָר",
+    "allowLpMigration": "אפשר העברת אסימון LP",
+    "connectAccount": "עליך לחבר חשבון המחזיק בעמדה זו.",
+    "connectWallet": "התחבר לארנק כדי לראות את הנזילות שלך ב-V2.",
+    "contract": "חוזה הגירה ללא החלפה",
+    "firstLP": "אתה ספק הנזילות הראשון עבור מאגר Uniswap V3 זה. הנזילות שלך תעבור במחיר הנוכחי של {{source}} .",
+    "highGasCost": "עלות העסקה שלך תהיה הרבה יותר גבוהה מכיוון שהיא כוללת את הגז ליצירת הבריכה.",
+    "invalidRange": "נבחר טווח לא חוקי. המחיר המינימלי חייב להיות נמוך מהמחיר המקסימלי.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} אסימוני LP",
+    "migrating": "נודד",
+    "missingV2Position": "אינך רואה את אחת מעמדות v2 שלך? <link>ייבא אותו.</link>",
+    "noV2Liquidity": "לא נמצאה נזילות V2.",
+    "positionNoFees": "העמדה שלך לא תרוויח עמלות או תשמש בעסקאות עד שמחיר השוק יעבור לטווח שלך.",
+    "priceDifference": "הבדל במחיר: ",
+    "priceWarning": "עליך להפקיד נזילות ל- Uniswap V3 רק במחיר שאתה מאמין שהוא נכון. <br /> אם המחיר נראה שגוי, אתה יכול לבצע החלפה כדי להזיז את המחיר או לחכות שמישהו אחר יעשה זאת.",
+    "refund": "לפחות {{amtA}} {{symA}} ו {{amtB}} {{symB}} יוחזרו לארנק שלך עקב טווח מחירים נבחר.",
+    "selectFeeTier": "בחר דרגת עמלות",
+    "setRange": "קבע טווח מחירים",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} מחיר:",
+    "v2Description": "כלי זה יעביר בבטחה את הנזילות שלך {{source}} ל-V3. התהליך חסר אמון לחלוטין הודות לחוזה ההעברה של <0>Uniswap</0> ↗",
+    "v2Instruction": "עבור כל מאגר המוצג להלן, לחץ על העבר כדי להסיר את הנזילות שלך מ-Uniswap V2 ולהפקיד אותה ב-Uniswap V3.",
+    "v2Title": "העבר נזילות V2",
+    "v3Price": "V3 {{sym}} מחיר:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "קלט מחיר לא חוקי"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "קבל את אפליקציית ארנק Uniswap"
+      },
+      "title": "יחידת החלפה: ארנק קריפטו ו-NFT"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "פיאט onramp מופעל על ידי MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay אינו זמין באזורים מסוימים. לחץ כדי ללמוד עוד."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "צור חשבון"
+    },
+    "logIn": {
+      "button": "התחבר"
+    },
+    "signIn": {
+      "button": "היכנס"
+    },
+    "signInOrConnect": {
+      "title": "היכנס או התחבר"
+    },
+    "signUp": {
+      "button": "הירשם"
+    },
+    "tabs": {
+      "createPosition": "צור עמדה",
+      "viewPositions": "הצג עמדות"
+    }
+  },
+  "network": {
+    "lostConnection": "ייתכן שאיבדת את החיבור לרשת.",
+    "mightBeDown": "ייתכן ש-{{network}} מושבת כרגע, או שאיבדת את החיבור לרשת.",
+    "warning": "אזהרת רשת"
+  },
+  "nft": {
+    "addToBag": "להוסיף לתיק",
+    "authorsCollectionOnUni": "אוסף ה-NFT של {{name}}ב-Uniswap",
+    "bag": "תיק",
+    "blockedCollection": "אוסף זה חסום",
+    "blockedOpenSea": "חסום ב-OpenSea",
+    "buyTransferNFTToStart": "קנה או העבר NFTs לארנק הזה כדי להתחיל.",
+    "buyTransferTokensToStart": "קנה או העבר אסימונים לארנק הזה כדי להתחיל.",
+    "card": {
+      "notAvailable": "תוכן עדיין לא <br /> זמין"
+    },
+    "chainSupportComingSoon": "{{chainName}} תמיכה בקרוב",
+    "collectionOnUni": "אוסף NFT ב-Uniswap",
+    "collectonOnAddress": "אוסף NFT ב-Uniswap - {{address}}",
+    "complete": "לְהַשְׁלִים!",
+    "editListings": "ערוך רישומים",
+    "event": "מִקרֶה",
+    "explore": "חקור NFTs",
+    "learnWhy": "למד מדוע",
+    "list": {
+      "header": {
+        "lastPrice": "אחרון"
+      },
+      "title": "רשום NFTs"
+    },
+    "listedSignificantly_one": "NFT אחד רשום {{percentage}} מתחת למחיר הרצפה של הקולקציה. האם אתה בטוח שאתה רוצה להמשיך?",
+    "listedSignificantly_other": "{{count}} NFTs רשומים משמעותית מתחת למחיר הרצפה של הקולקציה. האם אתה בטוח שאתה רוצה להמשיך?",
+    "listForSale": "רשימה למכירה",
+    "lowPrice": "מחיר רישום נמוך",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} עמלות"
+      }
+    },
+    "maxFees": "מקסימום עמלות",
+    "maxRoyalties": "מקסימום תמלוגים ליוצרים",
+    "noItems": "אין פריטים להצגה",
+    "noneAtAddress": "אין נכסי גבייה בכתובת זו",
+    "noPools": "עדיין אין בריכות",
+    "notListed": "לא רשום",
+    "proceedsIfSold": "הרווח אם נמכר",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "כבר רשום ב- {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} מתחת למחיר הרצפה."
+        }
+      }
+    },
+    "refundsInEth": "החזרים עבור פריטים לא זמינים יינתנו ב-ETH",
+    "removeFromBag": "הוצא מהשקית",
+    "reportSpam": "דווח כדואר זבל",
+    "returnToExplore": "חזור ל-NFT Explore",
+    "returnToMy": "חזור ל-NFTs שלי",
+    "setPrices": "הגדר מחירים כדי להמשיך",
+    "startListing": "התחל לרשום",
+    "successListed": "רשום בהצלחה",
+    "unavailableToList": "לא זמין לרישום",
+    "whyTransaction": {
+      "reason": "רישום NFT דורש אישור חד פעמי של השוק עבור כל אוסף NFT."
+    },
+    "willAppearHere": "עסקאות ה-onchain ורכישות הקריפטו שלך יופיעו כאן.",
+    "wishGranted": "Uniswap נענה לרצונך!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "אישור איסוף",
+        "approve_other": "לאשר אוספים",
+        "sign_one": "חתום על רישום",
+        "sign_other": "חתום על רישומים"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} מקסימום"
+      }
+    },
+    "my": "ה-NFTs שלי",
+    "noneYet": "עדיין אין NFTs",
+    "sell": "למכור NFTs"
+  },
+  "notFound": {
+    "oops": "אופס, קח אותי בחזרה ל-Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "כתב ויתור בבריטניה:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} מוסתר",
+      "unhidden": "{{assetName}} לא מוסתר"
+    },
+    "copied": {
+      "address": "הכתובת הועתקה",
+      "calldata": "נתוני השיחה הועתקו",
+      "contractAddress": "כתובת החוזה הועתקה",
+      "failed": "ההעתקה ללוח נכשלה",
+      "image": "התמונה הועתקה",
+      "nftUrl": "כתובת ה-NFT הועתקה",
+      "tokenUrl": "כתובת האתר של אסימון הועתקה",
+      "transactionId": "מזהה העסקה הועתק",
+      "unitag": "שם המשתמש הועתק"
+    },
+    "countryChange": "עבר ל- {{countryName}}",
+    "network": {
+      "changed": "עבר ל- {{network}}"
+    },
+    "passwordChanged": "סיסמא שונתה",
+    "restore": {
+      "success": "הארנק שוחזר!"
+    },
+    "send": {
+      "network": "שולח ב- {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "דווח"
+      }
+    },
+    "swap": {
+      "network": "החלפה על {{network}}",
+      "pending": {
+        "swap": "ההחלפה בהמתנה",
+        "unwrap": "ביטול הגלישה בהמתנה",
+        "wrap": "גלישה בהמתנה"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "בוטלה {{currencySymbol}} לאשר.",
+        "fail": "נכשל אישור {{currencySymbol}} לשימוש עם {{address}}.",
+        "success": "אושר {{currencySymbol}} לשימוש עם {{address}}."
+      },
+      "pending": "העסקה בהמתנה",
+      "swap": {
+        "canceled": "ההחלפה של {{inputCurrencySymbol}}-{{outputCurrencySymbol}} בוטלה.",
+        "expired": "פג תוקף ההחלפה של {{inputCurrencyAmountWithSymbol}} עבור {{outputCurrencyAmountWithSymbol}} .",
+        "fail": "החלפת {{inputCurrencyAmountWithSymbol}} נכשלה ב- {{outputCurrencyAmountWithSymbol}}.",
+        "success": "החליף {{inputCurrencyAmountWithSymbol}} ל {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "השליחה {{tokenNameOrAddress}} בוטלה",
+        "fail": "שליחת {{tokenNameOrAddress}} אל {{walletNameOrAddress}}נכשלה",
+        "received": "התקבל {{tokenNameOrAddress}} מ- {{walletNameOrAddress}}",
+        "success": "נשלח {{tokenNameOrAddress}} אל {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "ביצוע העסקה עם {{addressOrEnsName}}נכשל",
+          "short": "העסקה נכשלה"
+        },
+        "success": {
+          "full": "בוצעה עם {{addressOrEnsName}}",
+          "short": "העסקה אושרה"
+        }
+      },
+      "unwrap": {
+        "canceled": "ביטול העטיפה של {{inputCurrencySymbol}} .",
+        "fail": "ביטול הגלימה של {{inputCurrencyAmountWithSymbol}}נכשל.",
+        "success": "פרש {{inputCurrencyAmountWithSymbol}} וקיבל {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "עטיפת {{inputCurrencySymbol}} בוטלה.",
+        "fail": "לעטוף {{inputCurrencyAmountWithSymbol}}נכשל.",
+        "success": "עטפו {{inputCurrencyAmountWithSymbol}} וקיבלו {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "שלח בהמתנה"
+    },
+    "walletConnect": {
+      "confirmed": "העסקה אושרה עם {{dappName}}",
+      "connected": "מְחוּבָּר",
+      "disconnected": "מְנוּתָק",
+      "failed": "העסקה נכשלה עם {{dappName}}",
+      "networkChanged": {
+        "full": "עבר ל- {{networkName}}",
+        "short": "החליפו רשתות"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "המשך ב-Uniswap Extension",
+      "title": "הַצלָחָה!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "אנו מציעים לכתוב זאת על פיסת נייר ולאחסן אותו במקום מאובטח, כמו כספת.",
+        "displayWarning": {
+          "description": "קרא בעיון את הדברים הבאים לפני שתמשיך.",
+          "note": {
+            "access": "ביטוי שחזור זה נותן לך גישה מלאה לארנק ולכספים שלך",
+            "secure": "הצג את זה בפרטי ואל תשתף את זה עם אף אחד",
+            "storage": "רשום אותו ושמור אותו במקום בטוח"
+          },
+          "title": "כמה דברים שחשוב לדעת"
+        },
+        "error": "מילה לא חוקית או שגויה באיות",
+        "placeholder": "מילה סודית",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} הושלם",
+        "selectedWordPlaceholder": "בחר מילה",
+        "subtitle_one": "מהי המילה {{count}}הראשונה במשפט ההתאוששות שלך?",
+        "subtitle_two": "מהי המילה {{count}}בביטוי ההתאוששות שלך?",
+        "subtitle_few": "מהי המילה {{count}}השנייה בביטוי ההתאוששות שלך?",
+        "subtitle_other": "מהי המילה {{count}}בביטוי ההתאוששות שלך?",
+        "title": "בוא נוודא שהקלטת את זה נכון"
+      },
+      "option": {
+        "badge": {
+          "quick": "מָהִיר"
+        },
+        "cloud": {
+          "description": "גבה את הארנק שלך באמצעות {{cloudProviderName}}, מוגן באמצעות סיסמת שחזור.",
+          "title": "הגדר סיסמת שחזור"
+        },
+        "manual": {
+          "description": "רשמו את 12 המילים הסודיות שלכם על פיסת נייר ואחסנו אותה במקום בטוח.",
+          "title": "רשום את ביטוי ההתאוששות"
+        }
+      },
+      "reminder": {
+        "description": "גיבוי הארנק שלך מבטיח שתמיד תוכל לשחזר את הנכסים שלך אם אי פעם תאבד את הטלפון שלך או תקבל מכשיר חדש.",
+        "title": "זה הזמן לגבות את הארנק",
+        "warning": {
+          "description": "אם לא תגדיר שיטת גיבוי, לא תהיה לך דרך לשחזר את הארנק אם תאבד את הטלפון, תמחק את האפליקציה או תקבל מכשיר חדש.",
+          "title": "אתה עלול לאבד את הכספים שלך"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "אם אי פעם תשכח אותו, לא נוכל לאפס אותו עבורך. רשום אותו במקום בטוח או אחסן אותו בצורה מאובטחת במנהל סיסמאות.",
+          "disclaimer": "אני מבין ש-Uniswap Labs לא יכולה לאפס את סיסמת השחזור שלי.",
+          "title": "חשוב לשמור את הסיסמה הזו"
+        },
+        "manual": {
+          "description": "ודא שכתבת את משפט השחזור שלך כהלכה ושיש לך מקום בטוח לאחסון אותו.",
+          "disclaimer": "אני מבין ש-Uniswap Labs לא יכול לשחזר את הארנק שלי אם אני מאבד את זה.",
+          "title": "לפני שתסיים..."
+        }
+      },
+      "subtitle": "כך תשחזרו את הארנק אם תמחק את האפליקציה או תאבד את המכשיר.",
+      "title": {
+        "existing": "גבה את הארנק שלך",
+        "new": "בחר את שיטת הגיבוי שלך"
+      },
+      "view": {
+        "disclaimer": "אני מבין שאם אאבד את ביטוי ההחלמה שלי, Uniswap Labs לא יכול לעזור לי לשחזר אותו.",
+        "subtitle": {
+          "message1": "קרא בעיון את הדברים הבאים לפני שתמשיך",
+          "message2": "תצטרך להזין את כל 12 המילים הסודיות האלה כדי לשחזר את הארנק שלך."
+        },
+        "title": "רשום את משפט ההתאוששות שלך",
+        "warning": {
+          "message1": "ביטוי שחזור זה נותן לך גישה מלאה לארנק ולכספים שלך",
+          "message2": "רשום אותו ושמור אותו במקום בטוח",
+          "message3": "הצג את זה בפרטי ו <u>אל תשתף את זה עם אף אחד</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "תצטרך להזין את זה כדי לשחזר את הכספים שלך. אם אי פעם תשכח אותו, לא נוכל לאחזר אותו עבורך.",
+        "title": "אשר את סיסמת השחזור שלך"
+      },
+      "createPassword": {
+        "description": "תצטרך להזין את זה כדי לשחזר את הכספים שלך. אם אי פעם תשכח אותו, לא נוכל לאחזר אותו עבורך.",
+        "title": "צור את סיסמת השחזור שלך"
+      }
+    },
+    "complete": {
+      "button": "פתח את הרחבת Uniswap",
+      "description": "הארנק שלך מוכן לשלוח ולקבל קריפטו. פתח את הרחבת Uniswap עם קיצור הדרך למטה.",
+      "go_to_uniswap": "עבור אל Uniswap Web App",
+      "pin": {
+        "description": "לחץ על סמל הסיכה כדי להוסיף את הרחבת Uniswap לסרגל הכלים שלך.",
+        "title": "Pin Uniswap Extension"
+      },
+      "title": "אתה מוכן"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "תצטרך את זה כדי לפתוח את הארנק שלך ולגשת לביטוי השחזור שלך",
+        "title": {
+          "default": "צור סיסמה",
+          "reset": "לאפס את הסיסמה שלך"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "הרחבת Uniswap תואמת רק ל-Chrome במחשב שולחני.",
+          "title": "Chrome בנייד אינו נתמך (עדיין)"
+        },
+        "description": "הרחבת Uniswap תואמת רק ל-Chrome כרגע.",
+        "title": "דפדפן זה אינו נתמך (עדיין)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "הגדר תוכנית התאוששות אם אי פעם תאבד את הטלפון שלך או תקבל אחד חדש.",
+          "title": "גבה את הארנק שלך"
+        },
+        "fund": {
+          "description": "ממן את הארנק שלך על ידי רכישת קריפטו או העברה מחשבון אחר.",
+          "title": "קבל את האסימון הראשון שלך"
+        },
+        "label": {
+          "required": "דָרוּשׁ",
+          "swipe": "לִגנוֹב"
+        },
+        "pushNotifications": {
+          "description": "קבל התראות על מחירים על האסימונים המועדפים עליך, מגמות שוק ועוד.",
+          "title": "הישאר בידע"
+        },
+        "unitag": {
+          "description": "בנה פרופיל web3 מותאם אישית ושתף בקלות את הכתובת שלך עם חברים.",
+          "title": "תבע את שם המשתמש שלך {{unitagDomain}}"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "מילה אחת אינה חוקית או מאויתת שגויה",
+        "invalidWords_other": "{{count}} מילים לא חוקיות או מאויתות שגוי"
+      },
+      "method": {
+        "import": {
+          "message": "הזן את ביטוי השחזור שלך מארנק קריפטו אחר.",
+          "title": "ייבוא ארנק"
+        },
+        "passkey": {
+          "message": "סנכרן את ארנק ה-Uniswap שלך באמצעות מפתח סיסמה קיים.",
+          "title": "היכנס עם מפתח סיסמה"
+        },
+        "restore": {
+          "message": {
+            "android": "הוסף ארנקים שגיבית לחשבון Google Drive שלך.",
+            "ios": "הוסף ארנקים שגיבית לחשבון iCloud שלך."
+          },
+          "title": "שחזר ארנק"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "לא רוצה את כל האמור לעיל?"
+        },
+        "subtitle": "בחר לאיזה ארנק אתה רוצה להיכנס חזרה.",
+        "title": "ברוך הבא חזרה ל-Uniswap",
+        "wallet": {
+          "button": "הצג את ביטוי השחזור",
+          "count_one": "+1 ארנק נוסף",
+          "count_other": "+{{count}} ארנקים אחרים"
+        },
+        "warning": {
+          "caption": "אנא ודא שגיבית את כל הארנקים האחרים. אם אי פעם תרצה לשחזר אותם, תזדקק לביטויי השחזור שלהם או לגיבויים תואמים של {{cloudProvider}} .",
+          "title": "האם אתה בטוח?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "ייבא ארנק מהאפליקציה לנייד באמצעות קוד QR.",
+          "title": "השתמש ב-Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "סנכרן את ארנק ה-Uniswap שלך באמצעות מפתח סיסמה קיים.",
+          "title": "היכנס עם מפתח סיסמה"
+        },
+        "recoveryPhrase": {
+          "subtitle": "הזן את ביטוי השחזור שלך מארנק קריפטו אחר.",
+          "title": "ייבוא ארנק"
+        },
+        "title": "היכנס או ייבא ארנק"
+      },
+      "title": "בחר כיצד ברצונך להוסיף את הארנק שלך"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "משפט ההחלמה שלי הוא 12 מילים",
+        "importing": "מייבא...",
+        "longPhrase": "ביטוי ההחלמה שלי ארוך יותר"
+      },
+      "error": {
+        "invalidPhrase": "הביטוי שהזנת אינו חוקי"
+      },
+      "subtitle": "הקלד או הדבק את ביטוי השחזור שלך בן 12 מילים",
+      "title": "הזן את ביטוי השחזור שלך"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "המשך בחלון הכניסה המאובטח."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "יש לי כבר ארנק",
+        "signInOrImport": "היכנס או ייבא"
+      },
+      "mobileScan": {
+        "button": "סרוק קוד QR כדי לייבא",
+        "title": "יש לך את אפליקציית Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "הוסף ארנק קיים",
+        "create": "צור ארנק",
+        "createAccount": "צור חשבון"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "זהו שם ציבורי שכל אחד יכול להשתמש בו כדי לשלוח לך קריפטו."
+      },
+      "wallet": {
+        "button": {
+          "text": "סִיוּם"
+        },
+        "subtitle": "הכינוי הזה גלוי רק לך",
+        "title": "תן שם לארנק שלך"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "כדי לקבל הודעות, הפעל הודעות עבור ארנק Uniswap בהגדרות המכשיר שלך.",
+        "title": "הרשאת הודעות"
+      },
+      "subtitle": "הישאר מעודכן לגבי סטטוסים של עסקאות ושינויים גדולים במחירים עבור אסימונים מועדפים.",
+      "title": "הפעל התראות"
+    },
+    "passkey": {
+      "account": {
+        "protection": "החשבון שלך מוגן על ידי אחסון סיסמאות מאובטח משלך."
+      },
+      "biometric": {
+        "scan": "טלפון, טאבלט או דפדפן - פשוט סרוק את הביומטרי שלך ותתחבר."
+      },
+      "create": "צור את המפתח שלך",
+      "use": {
+        "recovery": {
+          "phrase": "השתמש במקום זאת בביטוי שחזור"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "בואו נאשר שהבנתם נכון. אם תאבד או תכתוב את זה בצורה שגויה, לא תוכל לשחזר את הכספים שלך.",
+          "default": "אם תאבד או תכתוב את זה בצורה שגויה, לא תוכל לשחזר את הכספים שלך."
+        },
+        "title": "בואו נאשר שהבנתם נכון"
+      },
+      "view": {
+        "subtitle": "תצטרך להזין את כל 12 המילים הסודיות האלה כדי לשחזר את הארנק שלך.",
+        "title": {
+          "hasPassword": "אם אי פעם תשכח את הסיסמה שלך..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "אני מוכן",
+          "message": "ביטוי ההחלמה שלך הוא מה שמעניק לך (ולכל מי שיש לו) גישה לכספים שלך. הקפד לשמור את זה לעצמך.",
+          "title": "בצע את השלב הזה במקום פרטי"
+        },
+        "screenshot": {
+          "message": "כל מי שישיג גישה לתמונות שלך יכול לגשת לארנק שלך. אנו ממליצים לך לרשום את דבריך במקום זאת.",
+          "title": "צילומי מסך אינם מאובטחים"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "למידע נוסף על בטיחות בארנק",
+        "subtitle": "השתמש בסיסמה החדשה שלך כדי לפתוח את הארנק שלך.",
+        "title": "איפוס סיסמא"
+      }
+    },
+    "scan": {
+      "error": "אירעה שגיאה בטעינת קוד ה-QR",
+      "otp": {
+        "error": "הקוד ששלחת שגוי, או שהייתה שגיאה בהגשה. בבקשה נסה שוב.",
+        "failed": "ניסיונות כושלים: {{number}}",
+        "subtitle": "בדוק באפליקציית Uniswap לנייד שלך את הקוד בן 6 התווים",
+        "title": "הזן קוד חד פעמי"
+      },
+      "subtitle": "סרוק את קוד ה-QR עם אפליקציית Uniswap לנייד כדי להתחיל לייבא את הארנק שלך.",
+      "title": "ייבוא ארנק מהאפליקציה",
+      "troubleScanning": {
+        "message": "ייבוא באמצעות ביטוי שחזור",
+        "title": "בעיה בסריקה?"
+      },
+      "wifi": "חבר את הטלפון שלך לאותה רשת WiFi כמו המחשב שלך."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "כדי להשתמש ביומטריה, הגדר אותו תחילה בהגדרות",
+            "ios": "כדי להשתמש ב- {{biometricsMethod}}, אפשר גישה בהגדרות המערכת"
+          },
+          "title": {
+            "android": "ביומטריה מושבתת",
+            "ios": "{{biometricsMethod}} מושבת"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "אפשר ביומטריה",
+          "ios": "אפשר {{biometricsMethod}}"
+        },
+        "setup": "להכין"
+      },
+      "subtitle": {
+        "android": "הוסף שכבת אבטחה נוספת על ידי דרישת ביומטריה לשליחת עסקאות.",
+        "ios": "הוסף שכבת אבטחה נוספת על ידי דרישת {{biometricsMethod}} לשלוח עסקאות."
+      },
+      "title": "הגן על הארנק שלך"
+    },
+    "selectWallets": {
+      "error": "לא ניתן לטעון כתובות",
+      "title": {
+        "default": "בחר ארנקים לייבא",
+        "error": "שגיאה בייבוא ארנקים"
+      }
+    },
+    "termsOfService": "על ידי המשך, אני מסכים ל<highlightTerms> תנאי השירות </highlightTerms>ומסכים ל<highlightPrivacy> מדיניות הפרטיות</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "מהו ביטוי התאוששות?"
+      }
+    },
+    "wallet": {
+      "continue": "בואו נשמור על זה בטוח",
+      "defaultName": "ארנק {{number}}",
+      "description": {
+        "full": "זהו המרחב האישי שלך לאסימונים, NFTs וכל העסקאות שלך. סיים להגדיר אותו כדי לשמור על הכספים שלך בטוחים."
+      },
+      "title": "ברוכים הבאים לארנק החדש שלך"
+    },
+    "welcome": {
+      "subtitle": "בוא נסיים להגדיר את הארנק שלך.",
+      "title": "קַבָּלַת פָּנִים!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "אתה עדיין יכול להחליף ולספק נזילות בשרשרת זו ללא בעיה."
+    },
+    "title": "{{versionName}} יחזור בקרוב"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "מתקשה להשתמש במפתח הסיסמה שלך או לגשת אליו? בקר בתמיכה של Uniswap לקבלת עזרה.",
+        "title": "עזרה במפתחות"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 מאפשר שיתוף וניהול של אישורי אסימונים בין יישומים שונים."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "טווח קרציות פעיל",
+    "addAs": "הוסף בתור {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "שנתי על בסיס עמלות של יום אחד"
+    },
+    "aprText": "אפריל בריכה",
+    "balances": "יתרות בריכה",
+    "closedCTA": {
+      "description": "אתה יכול לראות אותם באמצעות המסנן בראש העמוד.",
+      "title": "מחפש את התפקידים הסגורים שלך?"
+    },
+    "collectAs": "איסוף בתור {{nativeWrappedSymbol}}",
+    "collectFees": "גביית עמלות",
+    "create": {
+      "info": "הבחירות שלך ייצרו מאגר נזילות חדש שעלול לגרום לנזילות ראשונית נמוכה יותר ולתנודתיות מוגברת. שקול להוסיף למאגר קיים כדי למזער סיכונים אלו."
+    },
+    "createdPosition": {
+      "cancelled": "יצירת עמדה בוטלה",
+      "failed": "יצירת המיקום נכשלה"
+    },
+    "details": "פרטי הבריכה",
+    "earnings": {
+      "empty": "אין לך עדיין רווחים"
+    },
+    "explorers": "חוקרים",
+    "import": {
+      "link": {
+        "description": "מיקומי v2 מסוימים אינם מוצגים באופן אוטומטי."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "מיקומי v2 מסוימים אינם מוצגים באופן אוטומטי. בחר זוג אסימונים כדי לייבא ולהציג את המיקומים שלך."
+          }
+        }
+      },
+      "success": "בריכה מיובאת"
+    },
+    "incentives": {
+      "administeredRewards": "התגמולים עבור הפרשת נזילות מנוהלים על ידי קרן Uniswap.",
+      "collect": "לאסוף",
+      "collectedRewards": "אספו פרסים",
+      "collectFailed": "האיסוף נכשל, אנא נסה שוב.",
+      "collectFailedNoRetry": "איסוף הפרסים נכשל.",
+      "collectingRewards": "איסוף פרסים",
+      "collectRewards": "אסוף פרסים",
+      "collectRewardsCancelled": "איסוף הפרסים בוטל",
+      "eligible": "למאגרים הכשירים יש תגמולים סמליים כדי שתוכל להרוויח יותר",
+      "rewardsEarned": "פרסים שנצברו",
+      "uni": {
+        "description": "הרוויחו תגמולים של UNI על ידי מתן נזילות למאגרים הזכאים",
+        "findMore": "מצא עוד בריכות עם תגמולים של UNI"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "לא ניתן היה לאחזר את הפרסים. ייתכן שזה נובע מבעיית רשת. נסה לטעון מחדש את העמוד."
+        }
+      }
+    },
+    "info": "מידע על הבריכה",
+    "limitFluctuation": {
+      "warning": "אנא שים לב שהביצוע עבור מגבלות עשוי להשתנות בהתאם לתנודות השוק בזמן אמת וגודש ברשת Ethereum. ייתכן שהמגבלות לא יפעלו בדיוק כאשר האסימונים מגיעים למחיר שצוין."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "אירעה שגיאה באחזור הנתונים הנדרשים עבור העסקה שלך."
+        }
+      },
+      "outOfSync": {
+        "message": "המחירים במאגר זה שונים ממחירי השוק של האסימונים הנבחרים. התאם את טווח המחירים שלך בהתאם או המתן עד שהבריכה תתאזן מחדש כדי למנוע הפסדים."
+      }
+    },
+    "maxPrice": "מחיר מקסימלי",
+    "migrateLiquidity": "העברת נזילות",
+    "migrateLiquidityDisabledTooltip": "שרשרת זו אינה תומכת במאגרי נזילות v4.",
+    "migrateToV4": "העבר ל-v4",
+    "minPrice": "מחיר מינימלי",
+    "newPosition": {
+      "plus": "+ תפקיד חדש",
+      "title": "תפקיד חדש"
+    },
+    "newSpecificPosition": "עמדה חדשה של {{symbol}}",
+    "openPosition": {
+      "cta": "הוסף נזילות למאגר וראה את הפוזיציות שלך כאן"
+    },
+    "openToStart": "פתח עמדה חדשה או צור מאגר כדי להתחיל.",
+    "percent": "{{pct}}% מאגר",
+    "pooled": "מאוחד {{sym}}:",
+    "position": "מַצָב",
+    "positions": {
+      "title": "העמדות שלך",
+      "transaction": {
+        "settings": "הגדרות עסקה"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "ערך דולר ארה\"ב אינו זמין כעת עבור עמדה זו. ראה פרטי עמדה עבור סכומי אסימון שהופקדו."
+      }
+    },
+    "priceRange": "טווח מחירים",
+    "refresh": {
+      "prices": "רענון מחירים"
+    },
+    "removeLiquidity": "להסיר נזילות",
+    "rewardAPR": {
+      "percent": "{{pct}} אפריל פרס"
+    },
+    "rewards": "תגמולים",
+    "rewardsPool": {
+      "label": "אסימוני בריכה במאגר התגמולים:"
+    },
+    "selectPair": "בחר זוג",
+    "share": {
+      "label": "נתח הבריכה שלך:"
+    },
+    "specificPosition": "מיקום {{symbol}}",
+    "tokenPair": "זוג אסימונים",
+    "top": {
+      "tvl": "בריכות מובילות של TVL"
+    },
+    "totalAPR": "סה\"כ אפריל",
+    "totalTokens": "סך כל אסימוני הבריכה שלך:",
+    "uncollectedFees": "עמלות שלא נגבו",
+    "v2": "v2 בריכות",
+    "v3": "v3 בריכות",
+    "viewPools": "צפה בבריכות",
+    "volOverTvl": "1D vol/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "כרך 30D"
+      }
+    },
+    "withdrawAs": "משיכה בתור {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "בריכות v2 התואמות את בחירת הזוגות שלך."
+      },
+      "notFound": {
+        "description": "לא נמצאו בריכות תואמות של v2. בדוק שוב את בחירת האסימון שלך וודא שאתה מחובר לארנק הנכון."
+      }
+    }
+  },
+  "pools": {
+    "explore": "חקור בריכות"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "הוקס הם תכונה מתקדמת המאפשרת לבריכות לקיים אינטראקציה עם חוזים חכמים, ולפתוח יכולות שונות. היזהר בעת הוספת ווים, מכיוון שחלקם עלולים להיות זדוניים או לגרום לתוצאות לא רצויות."
+    },
+    "addingHook": {
+      "disclaimer": "להוספת ווים עלולה להיות השלכות לא מכוונות. עשה את המחקר שלך והמשיך באחריותך בלבד.",
+      "hideProperties": "הסתר מאפיינים",
+      "invalidAddress": "הזן כתובת הוק חוקית",
+      "viewProperties": "הצג נכסים"
+    },
+    "create": {
+      "invalidPrice": "מחיר לא חוקי",
+      "invalidRange": "טווח לא חוקי",
+      "modal": {
+        "header": "יצירת עמדה"
+      }
+    },
+    "currentValue": "ערך המיקום הנוכחי",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "המחיר הראשוני שהוזן הוא {{value}}% פחות ממחיר השוק ועלול לגרום לאובדן כספים. האם ברצונך להמשיך?",
+            "more": "המחיר הראשוני שהוזן הוא {{value}}% יותר ממחיר השוק ועלול לגרום לאובדן כספים. האם ברצונך להמשיך?"
+          },
+          "title": "פער מחירים גדול עם השוק"
+        }
+      },
+      "description": "ציין את הסכומים הסמליים עבור תרומת הנזילות שלך."
+    },
+    "depositedCurrency": "הופקד {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "צור מיקום v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "אני מבין את הסיכונים הפוטנציאליים הכרוכים בהוספת הקרס הזה.",
+      "donateWarning": "דגל זה עשוי לגרום לשינויים בעמלות שנצברו.",
+      "liquidityWarning": "דגל זה יכול לגרום למאגר לחסום הוספת נזילות חדשה. העסקה שלך עשויה לחזור.",
+      "removeWarning": "עלול לגרום לנעילה של הכספים שלך או לחסום אותך מגביית עמלות.",
+      "swapWarning": "דגל זה עשוי לאפשר לספקי נזילות למנף ביתר קלות את נזילות Just-In-Time, מה שעלול לגרום לעמלות נמוכות יותר.",
+      "warningHeader": "חשוב: זוהו סיכוני קרס",
+      "warningInfo": "זיהינו סיכונים פוטנציאליים עם הקרס הזה. אנא ודא שאתה מבין כיצד הוו הזה עובד לפני שתחליט להמשיך."
+    },
+    "increase": {
+      "fot": "הוספת נזילות עבור {{token}} ואסימוני \"עמלה על העברה\" אחרים אינה נתמכת."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% פחות ממחיר השוק",
+        "positive": "{{ value }}% יותר ממחיר השוק"
+      },
+      "info": "בעת יצירת מאגר חדש, עליך להגדיר את שער החליפין ההתחלתי עבור שני האסימונים. שיעור זה ישקף את מחיר השוק הראשוני.",
+      "set": "קבע מחיר התחלתי",
+      "useMarketPrice": "השתמש במחיר השוק"
+    },
+    "migrate": {
+      "liquidity": "בעת העברת עמדות, אינך יכול לשנות את צמד האסימונים שלך, אך אתה יכול להוסיף וו כדי לשפר את הפונקציונליות.",
+      "v4unsupportedChain": "שרשרת זו אינה נתמכת עבור בריכות v4."
+    },
+    "new": {
+      "protocol": "עמדה חדשה של {{protocol}}"
+    },
+    "notFound": {
+      "description": "פרטים על תפקיד זה אינם זמינים. אנא בדוק שאתה מחובר עם הארנק הנכון."
+    },
+    "protocol": "מיקום {{protocol}}",
+    "provide": {
+      "liquidity": "בחר את האסימונים שברצונך לספק עבורם נזילות. אתה יכול לבחור אסימונים בכל הרשתות הנתמכות.",
+      "liquidityDescription": {
+        "creatingPool": "הגדרת נזילות בטווח מלא בעת יצירת מאגר מבטיחה השתתפות מתמשכת בשוק בכל המחירים האפשריים, ומציעה פשטות אך עם פוטנציאל להפסד בלתי-נצחי גבוה יותר.",
+        "custom": "טווח מותאם אישית מאפשר לך לרכז את הנזילות שלך בגבולות מחיר ספציפיים, תוך שיפור יעילות ההון ורווחי עמלות אך דורש ניהול אקטיבי יותר."
+      },
+      "outOfRange": {
+        "closePosition": "עמדה סגורה",
+        "description": "לא ניתן לכוונן את הטווח של מיקום זה במהלך ההעברה. כדי להגדיר טווח חדש, סגור מיקום זה ופתח מיקום v4 חדש.",
+        "title": "אתה מעביר עמדה מחוץ לטווח"
+      }
+    },
+    "removeHook": "הסר וו",
+    "resetDescription": "בחירת האסימונים, המחיר והטווח שלך יאופסו.",
+    "setRange": {
+      "inputsBelow": "השתמש בכניסות למטה כדי להגדיר את הטווח שלך."
+    },
+    "step": {
+      "deposit": "הזן סכומי הפקדה",
+      "price": "קבע מחיר ראשוני וסכומי הפקדה",
+      "range": "הגדר טווח מחירים וסכומי הפקדה",
+      "select": "בחר זוג אסימונים ועמלות"
+    },
+    "value": "ערך מיקום",
+    "valueUnavailable": "ערך דולר ארה\"ב אינו זמין כעת עבור עמדה זו. ראה פרטי עמדה עבור סכומי אסימון שהופקדו.",
+    "wrapped": {
+      "unwrap": "פתח את ה- {{wrappedToken}}",
+      "warning": {
+        "info": "פתח את ה- {{wrappedToken}} שלך והפקד {{nativeToken}} כדי לספק נזילות חסכונית ויעילה יותר."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "חבר את הארנק כדי להציג את המיקומים הנוכחיים שלך."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "האפליקציה רושם סטטיסטיקות שימוש אנונימיות על מנת להשתפר עם הזמן.",
+    "autoRouter": "האפליקציה שואבת את נתיב הסחר האופטימלי משרת Uniswap Labs.",
+    "infura": "האפליקציה שואבת נתונים על השרשרת ובונה שיחות חוזה עם Infura API.",
+    "thirdPartyApis": "אפליקציה זו משתמשת בממשקי ה-API של צד שלישי הבאים:",
+    "trm": "האפליקציה אוספת בצורה מאובטחת את כתובת הארנק שלך ומשתפת אותה עם TRM Labs Inc. מסיבות סיכון ותאימות.",
+    "uniswaptos": "התנאים וההגבלות של Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "אפליקציה אחת מחוברת",
+      "connections_other": "{{count}} אפליקציות מחוברות"
+    },
+    "error": {
+      "camera": {
+        "message": "כדי לסרוק קוד, אפשר גישה למצלמה בהגדרות המערכת",
+        "title": "המצלמה מושבתת"
+      },
+      "none": "לא נמצא קוד QR"
+    },
+    "recipient": {
+      "action": {
+        "scan": "סרוק קוד QR",
+        "show": "הצג את קוד ה-QR שלי"
+      },
+      "error": {
+        "message": "ודא שאתה סורק קוד QR חוקי של כתובת Ethereum לפני שתנסה שוב.",
+        "title": "קוד QR לא חוקי"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "לא נמצאה הודעה."
+      },
+      "method": {
+        "default": "בקשה מאת {{dappNameOrUrl}}",
+        "signature": "בקשת חתימה מאת {{dappNameOrUrl}}",
+        "transaction": "בקשת עסקה מ- {{dappNameOrUrl}}"
+      },
+      "withAmount": "לאפשר ל {{dappName}} להשתמש עד<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "לאפשר ל-{{dappName}} להשתמש ב-{{currencySymbol}} שלך?"
+    },
+    "status": {
+      "connecting": "מְקַשֵׁר...",
+      "loading": "טוען..."
+    },
+    "title": "סרוק קוד QR",
+    "wallet": {
+      "networks": "רשתות נתמכות",
+      "title": "אתה יכול לשלוח ולקבל אסימונים ו-NFT בכל הרשתות הנתמכות {{numOfNetworks}} שלנו."
+    }
+  },
+  "range": {
+    "outOfView": "טווח מחוץ לטווח הראייה"
+  },
+  "removeLiquidity": {
+    "pooled": "מאוחד {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "זה מספק לפרוטוקול Uniswap גישה לטוקן שלך למסחר."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "כאשר זמין, צובר מקורות נזילות למחירים טובים יותר והחלפות ללא גז.",
+    "cheapest": {
+      "v4": "לקוח Uniswap בוחר את אפשרות הסחר האופטימלית תוך התחשבות במחיר ועלויות הרשת."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "לא בתוקף",
+      "subtitle": "הזן קוד זה בתוסף Uniswap. ביטוי השחזור שלך יוצפן ויועבר בבטחה.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "קוד חדש ב- {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "קוד חדש ב- {{minutes}}m {{seconds}}s",
+          "seconds": "קוד חדש ב- {{seconds}}ש'"
+        }
+      },
+      "title": "ביטול החלפה של קוד חד פעמי"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "כן, המשך"
+      },
+      "label": {
+        "browser": "דפדפן",
+        "device": "התקן"
+      },
+      "subtitle": "המשך רק אם אתה סורק קוד QR מ-Uniswap Extension במכשיר מהימן.",
+      "title": "האם אתה מנסה לייבא את הארנק שלך?",
+      "warning": "היזהרו מאתרים ואפליקציות המתחזות ל-Uniswap. אחרת הארנק שלך עלול להיפגע."
+    },
+    "error": {
+      "encryption": "הכנת ביטוי הזרע נכשל.",
+      "noCode": "לא התקבל OTP. בבקשה נסה שוב.",
+      "timeout": {
+        "message": "סרוק שוב את קוד ה-QR בתוסף Uniswap כדי להמשיך לסנכרן את הארנק שלך.",
+        "title": "תם הזמן הקצוב לחיבור שלך"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "כדי לסרוק את קוד ה-QR הזה, הטלפון שלך חייב להיות מחובר לאותה רשת WiFi כמו המחשב שלך וכל VPN צריך להיות כבוי זמנית.",
+        "title": "החלף את רשת ה-WiFi שלך"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "בקרוב: חפש וחקור אסימונים בשרשרת {{chainName}}",
+    "input": {
+      "placeholder": "חפש אסימונים ובריכות"
+    },
+    "results": {
+      "count_one": "פריט אחד",
+      "count_other": "{{count}} פריטים"
+    },
+    "ukDisclaimer": "כתב ויתור לתושבי בריטניה"
+  },
+  "send": {
+    "button": {
+      "review": "סקור העברה"
+    },
+    "gas": {
+      "error": {
+        "title": "לא"
+      },
+      "networkCost": {
+        "title": "עלות רשת"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "יתרה: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "בחר נמען",
+      "input": {
+        "placeholder": "חפש ENS או כתובת"
+      },
+      "previous_one": "העברה קודמת אחת",
+      "previous_other": "{{count}} העברות קודמות",
+      "results": {
+        "empty": "לא נמצאו תוצאות",
+        "error": "הכתובת שהקלדת לא קיימת או מאויתת בצורה שגויה."
+      },
+      "section": {
+        "favorite": "ארנקים אהובים",
+        "recent": "לאחרונה",
+        "search": "תוצאות חיפוש",
+        "viewOnly": "ארנקים לצפייה בלבד",
+        "yours": "הארנקים שלך"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "שלח כספים לארנק זה רק אם יש לך את משפט השחזור או שאתה מכיר את הבעלים של הארנק.",
+          "title": "יש לך את זה בתור ארנק לצפייה בלבד"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "כאשר אתה שולח אסימונים לכתובת ארנק, הם יופיעו כאן",
+          "title": "לא נשמרו ארנקים"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "אתה שולח"
+      },
+      "summary": {
+        "button": {
+          "title": "אשר את השליחה"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "הכתובת שהקלדת לא קיימת או מאויתת בצורה שגויה.",
+        "title": "לא נמצאו תוצאות"
+      },
+      "placeholder": "חפש ENS או כתובת"
+    },
+    "title": "לִשְׁלוֹחַ",
+    "warning": {
+      "blocked": {
+        "default": "הארנק הזה חסום",
+        "modal": {
+          "message": "כתובת זו חסומה בארנק Uniswap מכיוון שהיא משויכת לפעילות חסומה אחת או יותר. אם אתה סבור שזו שגיאה, אנא שלח דוא\"ל ל compliance@uniswap.org.",
+          "title": "כתובת חסומה"
+        },
+        "recipient": "ארנק הנמען חסום"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "אתה מנסה לשלוח כספים לכתובת סמלית. זה עלול לגרום לאובדן קבוע של כספים.",
+          "heading": "זוהתה כתובת אסימון"
+        },
+        "message": "אתה מנסה לשלוח כספים לכתובת סמלית. שליחת קריפטו לכתובת מסוג זה עלולה לגרום לאובדן כסף קבוע.",
+        "title": "זוהי כתובת סמלית"
+      },
+      "insufficientFunds": {
+        "message": "יתרת ה- {{currencySymbol}} שלך ירדה מאז שהזנת את הסכום שברצונך לשלוח",
+        "title": "לא מספיק {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "לא מספיק <highlight>{{currencySymbol}} ב- {{networkName}}</highlight> כדי לשלוח",
+          "withoutNetwork": "לא מספיק <highlight>{{currencySymbol}}</highlight> כדי לשלוח"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "בסדר",
+            "cancel": "לְבַטֵל",
+            "confirm": "לְאַשֵׁר"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "שם משתמש",
+          "walletAddress": "כתובת ארנק"
+        },
+        "message": "לא ביצעת עסקה עם כתובת זו בעבר. אנא אשר שהכתובת נכונה לפני שתמשיך.",
+        "title": "כתובת חדשה"
+      },
+      "self": {
+        "message": "אתה מנסה לשלוח כספים לארנק הנוכחי שלך. שליחת קריפטו לכתובת זו תגרור עלויות רשת מיותרות.",
+        "title": "זה הארנק הנוכחי שלך"
+      },
+      "smartContract": {
+        "message": "אתה עומד לשלוח כספים לכתובת חוזה חכמה. ודא שזו הכתובת הנכונה ושהיא יכולה לקבל אסימונים. אם לא, זה עלול לגרום לאובדן קבוע של כספים.",
+        "title": "זוהי כתובת חוזה חכמה"
+      },
+      "viewOnly": {
+        "message": "עליך לייבא את הארנק הזה באמצעות ביטוי שחזור כדי לשלוח נכסים.",
+        "title": "הארנק הזה הוא לצפייה בלבד"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "אחרונים"
+    }
+  },
+  "sendReviewModal": {
+    "title": "שלח ביקורת"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "הצג ביטוי שחזור"
+      },
+      "action": {
+        "hide": "הסתר ביטוי שחזור"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "אני מבין ש-Uniswap Labs לא יכולה לעזור לי לשחזר את הארנק שלי אם לא הצלחתי לעשות זאת.",
+          "title": "שמרתי את משפט ההתאוששות שלי"
+        },
+        "initial": {
+          "subtitle": "ודא ששמרת את ביטוי השחזור שלך. אחרת תאבד גישה לארנקים שלך",
+          "title": "לפני שתמשיך"
+        },
+        "password": {
+          "error": "סיסמה שגויה. נסה שוב"
+        },
+        "subtitle": "הזן את הסיסמה שלך כדי לאשר",
+        "title": "אתה מסיר את ביטוי השחזור שלך"
+      },
+      "title": "משפט ההחלמה שלך",
+      "view": {
+        "warning": {
+          "message1": "כל מי שמכיר את ביטוי השחזור שלך יכול לגשת לארנק ולכספים שלך",
+          "message2": "הצג את זה בפרטי",
+          "message3": "אל תשתף עם אף אחד",
+          "message4": "לעולם אל תזין אותו לאתרים או אפליקציות כלשהן",
+          "title": "לפני שתמשיך"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "כל מי שמכיר את ביטוי השחזור שלך יכול לגשת לארנק ולכספים שלך.",
+          "title": "הצג את זה במקום פרטי"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "הפעל בהגדרות",
+      "feedback": "שלח משוב",
+      "help": "תקבל עזרה",
+      "lock": "מנעול ארנק",
+      "privacy": "מדיניות הפרטיות",
+      "terms": "תנאי השירות"
+    },
+    "footer": "מיוצר באהבה, \nצוות Uniswap 🦄",
+    "hideSmallBalances": {
+      "subtitle": "יתרות מתחת ל-1 USD יוסתרו מהתיק שלך."
+    },
+    "maxSlippage": "מקסימום החלקה",
+    "section": {
+      "about": "על אודות",
+      "preferences": "העדפות",
+      "privacyAndSecurity": "פרטיות ואבטחה",
+      "support": "תמיכה",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} ארנקים אחרים"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "אוטומטי",
+          "dark": {
+            "subtitle": "השתמש תמיד בערכת נושא כהה.",
+            "title": "כֵּהֶה"
+          },
+          "device": {
+            "subtitle": "מתאים להגדרות המכשיר שלך.",
+            "title": "אוטומטי"
+          },
+          "light": {
+            "subtitle": "השתמש תמיד בערכת נושא קלה.",
+            "title": "אוֹר"
+          }
+        },
+        "title": "נושא"
+      },
+      "backup": {
+        "create": {
+          "description": "הגדרת סיסמה תצפין את גיבוי ביטוי השחזור שלך, ותוסיף רמת הגנה נוספת אם חשבון {{cloudProviderName}} שלך ייפגע אי פעם.",
+          "title": "גבה עד {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "מכיוון שהארנקים האלה חולקים ביטוי שחזור, הוא גם ימחק את הגיבויים של הארנקים האלה למטה",
+            "title": "האם אתה בטוח?"
+          },
+          "warning": "אם תמחק את הגיבוי {{cloudProviderName}} שלך, תוכל לשחזר את הארנק רק עם גיבוי ידני של ביטוי השחזור שלך. Uniswap Labs לא יכולה לשחזר את הנכסים שלך אם תאבד את ביטוי השחזור שלך."
+        },
+        "error": {
+          "message": {
+            "full": "לא ניתן לגבות את ביטוי השחזור ל- {{cloudProviderName}}. ודא שהפעלת את {{cloudProviderName}} עם שטח אחסון פנוי ונסה שוב.",
+            "short": "לא ניתן למחוק את הגיבוי"
+          },
+          "title": "שגיאה {{cloudProviderName}}"
+        },
+        "modal": {
+          "description": "עדיין לא גיבית את ביטוי השחזור שלך ל- {{cloudProviderName}} . על ידי כך, אתה יכול לשחזר את הארנק שלך רק על ידי כניסה אל {{cloudProviderName}} בכל מכשיר.",
+          "title": "לגבות את ביטוי השחזור ל- {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "סיסמאות לא תואמות"
+          },
+          "medium": "זוהי סיסמה בינונית",
+          "placeholder": {
+            "confirm": "אשר סיסמה",
+            "create": "צור סיסמה"
+          },
+          "strong": "זוהי סיסמה חזקה",
+          "weak": "זו סיסמה חלשה"
+        },
+        "recoveryPhrase": {
+          "label": "ביטוי התאוששות"
+        },
+        "selected": "{{cloudProviderName}} גיבוי",
+        "status": {
+          "action": {
+            "delete": "מחק גיבוי"
+          },
+          "complete": "מגובה עד {{cloudProviderName}}",
+          "description": "על ידי גיבוי של ביטוי השחזור שלך ל- {{cloudProviderName}}, אתה יכול לשחזר את הארנק שלך רק על ידי כניסה לחשבון {{cloudProviderName}} שלך בכל מכשיר.",
+          "inProgress": "מגבה עד {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "מגובה"
+          },
+          "title": "{{cloudProviderName}} גיבוי"
+        }
+      },
+      "beta": {
+        "tooltip": "בקרוב"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "דרוש פנים/טביעת אצבע כדי לפתוח את האפליקציה.",
+            "ios": "דרוש {{biometricsMethod}} כדי לפתוח אפליקציה."
+          },
+          "title": "גישה לאפליקציה"
+        },
+        "auth": "נא לאמת",
+        "off": {
+          "message": {
+            "android": "ביומטריה כבויה כרגע עבור ארנק Uniswap - אתה יכול להפעיל אותו בהגדרות המערכת שלך.",
+            "ios": "{{biometricsMethod}} כבוי כרגע עבור ארנק Uniswap - אתה יכול להפעיל אותו בהגדרות המערכת שלך."
+          },
+          "title": {
+            "android": "ביומטריה כבויה",
+            "ios": "{{biometricsMethod}} כבוי"
+          }
+        },
+        "title": "ביטול נעילת פנים/טביעת אצבע",
+        "transactions": {
+          "subtitle": {
+            "android": "דרוש פנים/טביעת אצבע כדי לבצע עסקה.",
+            "ios": "דרוש {{biometricsMethod}} כדי לבצע עסקה."
+          },
+          "title": "עסקאות"
+        },
+        "unavailable": {
+          "message": {
+            "android": "ביומטריה אינה מוגדרת במכשיר שלך. כדי להשתמש ביומטריה, הגדר אותו תחילה בהגדרות.",
+            "ios": "{{biometricsMethod}} אינו מוגדר במכשיר שלך. כדי להשתמש ב- {{biometricsMethod}}, הגדר אותו תחילה בהגדרות."
+          },
+          "title": {
+            "android": "ביומטריה לא מוגדרת",
+            "ios": "{{biometricsMethod}} אינו מוגדר"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "אם לא תפעיל ביומטריה, כל מי שיקבל גישה למכשיר שלך יכול לפתוח את ארנק Uniswap ולבצע עסקאות.",
+            "ios": "אם לא תפעיל את {{biometricsMethod}}, כל מי שיקבל גישה למכשיר שלך יכול לפתוח את ארנק Uniswap ולבצע עסקאות."
+          },
+          "title": "האם אתה בטוח?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "נתק הכל",
+        "noConnectionsDescription": "התחבר לאפליקציה על ידי חיפוש כפתור \"התחבר לארנק\" או \"התחבר\"."
+      },
+      "currency": {
+        "title": "מטבע מקומי"
+      },
+      "hapticTouch": {
+        "title": "מגע הפטי"
+      },
+      "helpCenter": {
+        "title": "מרכז עזרה"
+      },
+      "language": {
+        "button": {
+          "navigate": "לך להגדרות"
+        },
+        "description": {
+          "extension": "בטל החלפה של ברירת המחדל להגדרות שפת המערכת שלך. כדי לשנות את השפה המועדפת עליך, עבור להגדרות המערכת שלך.",
+          "mobile": "ביטול החלפה של ברירת המחדל להגדרות השפה של המכשיר שלך. כדי לשנות את השפה המועדפת עליך, עבור אל \"Uniswap\" בהגדרות המכשיר שלך והקש על \"שפה\"."
+        },
+        "title": "שפה"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "העברות, בקשות ופעילויות אחרות",
+            "title": "פעילות בארנק"
+          },
+          "priceAlerts": {
+            "description": "שינויים גדולים במחיר עבור אסימונים מועדפים",
+            "title": "התראות על מחירים"
+          },
+          "updates": {
+            "description": "המלצות ותכונות חדשות",
+            "title": "עדכונים מ-Uniswap"
+          }
+        },
+        "title": "התראות"
+      },
+      "password": {
+        "title": "שנה סיסמא"
+      },
+      "permissions": {
+        "title": "הרשאות"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "אנו משתמשים בנתוני שימוש אנונימיים כדי לשפר את החוויה שלך במוצרי Uniswap Labs. כאשר מושבת, אנו עוקבים רק אחר שגיאות ושימוש חיוני.",
+          "title": "ניתוח אפליקציות"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "הכנס את הסיסמה שלך"
+        },
+        "title": "ביטוי התאוששות"
+      },
+      "smallBalances": {
+        "title": "יתרת תיק"
+      },
+      "unknownTokens": {
+        "subtitle": "אסימוני הונאה פוטנציאליים יוסתרו מהתיק שלך.",
+        "title": "הסתר אסימונים לא ידועים"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "ערוך תווית",
+          "editProfile": "ערוך פרופיל",
+          "remove": "הסר את הארנק"
+        },
+        "connection": {
+          "banner": {
+            "description": "נהל חיבורים באמצעות הגדרות הארנק, על ידי לחיצה על תמונת הפרופיל שלך.",
+            "title": "החיבורים עברו"
+          }
+        },
+        "connections": {
+          "title": "חיבורים"
+        },
+        "editLabel": {
+          "description": "התוויות אינן ציבוריות. הם מאוחסנים באופן מקומי וגלוי רק לך.",
+          "save": "שמור שינויים"
+        },
+        "label": "כינוי",
+        "testnetMode": {
+          "description": "זה מפעיל רשתות בדיקה למפתחים כדי לנסות תכונות ועסקאות מבלי להשתמש בנכסים אמיתיים. לאסימונים ברשתות בדיקות אין ערך אמיתי.",
+          "title": "מצב Testnet"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "כדי להשתמש ב-Uniswap ב- {{label}}, החלף את הרשת בהגדרות הארנק שלך."
+    },
+    "title": "הגדרות",
+    "version": "גרסה {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "ארנקים חכמים מספקים עסקאות מהירות יותר ובעלות נמוכה באמצעות חוזים חכמים מאובטחים.",
+      "info": "ארנקים שכבר משתמשים בתכונות ארנק חכם מאפליקציה אחרת לא יושפעו."
+    },
+    "enabledModal": {
+      "description": "העדכונים ייכנסו לתוקף בהחלפה הבאה שלך.",
+      "title": "ארנק חכם מופעל"
+    },
+    "postSwapNudge": {
+      "description": "ארנק חכם מספק עסקאות מהירות יותר ובעלות נמוכה באמצעות חוזים חכמים מאובטחים.",
+      "enable": "הפעל ארנק חכם",
+      "title": "חסוך בהחלפה הבאה שלך"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "לא ביצעת עסקה עם כתובת זו בעבר. ודא שזו הכתובת הנכונה לפני שתמשיך.",
+        "title": "כתובת חדשה"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "אתה עומד לשלוח אסימונים לסוג מיוחד של כתובת - חוזה חכם. בדוק שוב שזו הכתובת שאליה התכוונת לשלוח. אם זה שגוי, האסימונים שלך עלולים ללכת לאיבוד לנצח.",
+        "title": "האם זו כתובת ארנק?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "עמלות 24 שעות",
+    "24volume": "נפח 24 שעות",
+    "allTimeFees": "דמי LP בכל הזמנים",
+    "allTimeSwappers": "מחליפי כל הזמנים",
+    "allTimeVolume": "נפח כל הזמן",
+    "fdv": {
+      "description": "הערכה בדילול מלא (FDV) מחשבת את שווי השוק הכולל בהנחה שכל האסימונים נמצאים במחזור."
+    },
+    "marketCap": {
+      "description": "שווי שוק הוא שווי השוק הכולל של ההיצע במחזור של נכס."
+    },
+    "tvl": {
+      "description": "ערך כולל נעול (TVL) הוא הסכום המצטבר של הנכס הזמין בכל מאגרי הנזילות של Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "נפח יום אחד הוא סכום הנכס שנסחר ב-Uniswap במהלך 24 השעות האחרונות.",
+        "long": "נפח 1D",
+        "short": "כרך 1D"
+      },
+      "description": "נפח הוא סכום הנכס שנסחר ב-Uniswap במהלך מסגרת הזמן שנבחרה."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "אפשר {{sym}} (פעם אחת)"
+    },
+    "approvalNeeded": "יש צורך באישור כדי להשתמש באסימון זה. ",
+    "approvalPending": "מחכה לאישור",
+    "approveAndSubmit": "לאשר ולהגיש",
+    "approveAndSwap": "לאשר ולהחליף",
+    "approveInWallet": "אשר בארנק שלך",
+    "balance": {
+      "amount": "יתרה: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "המסלול היעיל ביותר מוערך בעלות של ~{{gasPrice}} בעלויות הרשת. "
+    },
+    "bridging": {
+      "estimatedTime": "הערכה זְמַן",
+      "title": "החלפה בין רשתות",
+      "warning": {
+        "description": "אתה מחליף מ- {{fromNetwork}} ל- {{toNetwork}}. זה ידוע גם בשם \"גישור\", אשר מעביר את האסימונים שלך מרשת אחת לאחרת."
+      }
+    },
+    "button": {
+      "max": "מקסימום",
+      "review": "סקירה",
+      "submitting": {
+        "keep": {
+          "open": "שמור את הארנק פתוח..."
+        }
+      },
+      "swap": "לְהַחלִיף",
+      "swapAnyways": "להחליף בכל מקרה",
+      "unwrap": "לְגוֹלֵל",
+      "wrap": "לַעֲטוֹף"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "חפש לפי מדינה או אזור"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "ההחלפה שלך עשויה להתבצע לפני עיבוד הביטול. לא ניתן להחזיר את עלויות הרשת שלך. האם אתה מעוניין להמשיך?",
+      "cannotExecute_other": "ההחלפות שלך עשויות להתבצע לפני עיבוד הביטול. לא ניתן להחזיר את עלויות הרשת שלך. האם אתה מעוניין להמשיך?"
+    },
+    "confirmLimit": "אשר מגבלה",
+    "confirmSwap": "אשר את ההחלפה",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. מוֹעֵד אַחֲרוֹן"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "עמלת סמלי"
+      },
+      "newQuote": {
+        "input": "קלט חדש",
+        "output": "פלט חדש"
+      },
+      "orderRouting": "ניתוב הזמנה",
+      "orderRoutingInfo": "ההחלפה הזו מנותבת דרך Across, פרוטוקול מבוזר שמעביר נכסים בין רשתות תוך מתן עדיפות לבטיחות, ביצוע מהיר ומחירים נמוכים.",
+      "poweredBy": "מופעל על ידי",
+      "rate": "ציון",
+      "slippage": "החלקה מקסימלית",
+      "uniswapFee": "תַשְׁלוּם"
+    },
+    "error": {
+      "default": "ייתכן שתצטרך להגביר את סובלנות ההחלקה שלך. הערה: אסימוני עמלה על העברה ואסימוני בסיס מחדש אינם תואמים ל-Uniswap V3.",
+      "expectedToFail": "ההחלפה שלך צפויה להיכשל.",
+      "fiatInputUnavailable": "קלט {{fiatCurrencyCode}} לא זמין",
+      "modifiedByWallet": "ההחלפה שלך השתנתה דרך הארנק שלך. אם זו הייתה טעות, אנא בטל מיד או הסתכן בהפסד הכספים שלך.",
+      "rejected": "העסקה נדחתה",
+      "undefinedObject": "אירעה שגיאה בעת ניסיון לבצע החלפה זו. ייתכן שתצטרך להגביר את סובלנות ההחלקה שלך. אם זה לא עובד, ייתכן שיש אי תאימות עם האסימון שאתה סוחר בו. הערה: אסימוני עמלה על העברה ואסימוני בסיס מחדש אינם תואמים ל-Uniswap V3.",
+      "unknown": "שגיאה לא ידועה.",
+      "v2": {
+        "expired": "לא ניתן לשלוח את העסקה הזו מכיוון שהמועד האחרון חלף. אנא בדוק שהמועד האחרון לעסקה שלך אינו נמוך מדי.",
+        "k": "ה-Uniswap אינווריאנט x*y=k לא היה מרוצה מההחלפה. זה בדרך כלל אומר שאחד האסימונים שאתה מחליף משלב התנהגות מותאמת אישית בהעברה.",
+        "slippage": "עסקה זו לא תצליח גם עקב תנועת מחיר או עמלה בהעברה. נסה להגדיל את סובלנות ההחלקה שלך",
+        "transferInput": "לא ניתן להעביר את אסימון הקלט. ייתכן שיש בעיה עם אסימון הקלט.",
+        "transferOutput": "לא ניתן להעביר את אסימון הפלט. ייתכן שיש בעיה עם אסימון הפלט."
+      },
+      "v3": {
+        "slippage": "עסקה זו לא תצליח עקב תנועת מחיר. נסה להגדיל את סובלנות ההחלקה שלך. הערה: עמלה על העברה ואסימוני בסיס מחדש אינם תואמים ל-Uniswap V3.",
+        "transferOutput": "לא ניתן להעביר את אסימון הפלט. ייתכן שיש בעיה עם אסימון הפלט. הערה: עמלה על העברה ואסימוני בסיס מחדש אינם תואמים ל-Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "יהיה הבדל גדול בין ערכי הקלט והפלט שלך בגלל הנזילות הנוכחית."
+    },
+    "fail": {
+      "message": "נסה להתאים את ההחלקה לערך גבוה יותר.",
+      "uniswapX": "לא ניתן היה להשלים את ההחלפה עם UniswapX. נסה להחליף שוב כדי לנתב אותו דרך ה-API הקלאסי של Uniswap."
+    },
+    "fees": {
+      "experience": "עמלה זו חלה על כמה צמדי אסימונים כדי להבטיח את החוויה הטובה ביותר עם Uniswap. הוא משולם באסימון הפלט וכבר נכלל בהצעת המחיר.",
+      "noFee": "עמלות חלות על צמדי אסימונים נבחרים כדי להבטיח את החוויה הטובה ביותר עם Uniswap. אין עמלה הקשורה להחלפה זו."
+    },
+    "fetchingBestPrice": "משיג את המחיר הטוב ביותר...",
+    "fetchingPrice": "מביא מחיר...",
+    "finalizingQuote": "מסיים הצעת מחיר...",
+    "form": {
+      "header": "לְהַחלִיף",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "עקב עמלות סמליות, ניתן להזין סכומי החלפה רק באמצעות שדה הקלט"
+          }
+        },
+        "restore": "שחזר את הארנק שלך כדי להחליף"
+      }
+    },
+    "frontrun": {
+      "warning": "העסקה שלך עשויה להיות חזיתית ולהביא לסחר לא חיובי."
+    },
+    "header": {
+      "viewOnly": "לצפייה בלבד"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "חישובי השפעת המחיר עשויים להיות לא זמינים עבור זוגות עם נזילות נמוכה."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "הקלט מוערך. אתה תמכור לכל היותר <amount /> או שהעסקה תחזור."
+    },
+    "limit": "לְהַגבִּיל",
+    "limitedAssets": {
+      "warning": "חלק מהנכסים אינם זמינים דרך ממשק זה מכיוון שהם עשויים שלא לעבוד טוב עם החוזים החכמים או שאיננו יכולים לאפשר מסחר מסיבות משפטיות."
+    },
+    "limitFilled": "הגבלה התמלאה!",
+    "limitSubmitted": "הגבלה הוגשה",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "מחיר השוק הוא מחוץ לטווח המחירים שצוין. הפקדה לנכס בודד בלבד."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "הסכום המקסימלי שמובטח לך להוציא. אם המחיר יורד עוד יותר, העסקה שלך תחזור."
+    },
+    "minPriceSlip": {
+      "revert": "אם המחיר יזוז כך שתקבל פחות מ {{amount}}, העסקה שלך תחזור."
+    },
+    "networkCost": {
+      "paidIn": "עלות הרשת משולמת ב {{sym}} ברשת {{chainName}} על מנת לבצע עסקה."
+    },
+    "orderRouting": "ניתוב הזמנה",
+    "outputEstimated": {
+      "atLeast": "התפוקה מוערכת. תקבל לפחות <amount /> או שהעסקה תחזור."
+    },
+    "payAnyway": "שלם בכל מקרה",
+    "payAtMost": "שלם לכל היותר",
+    "payWith": "לשלם עם",
+    "placeOrder": "בצע הזמנה",
+    "priceImpact": "השפעה על המחיר",
+    "receive": {
+      "atLeast": "קבלו לפחות"
+    },
+    "request": {
+      "title": {
+        "full": "החלף {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "החלפת אסימונים"
+      }
+    },
+    "review": {
+      "summary": "אתה מחליף"
+    },
+    "reviewLimit": "מגבלת ביקורת",
+    "route": {
+      "optimizedGasCost": "מסלול זה מתייחס למסלולים מפוצלים, ריבוי דילוגים ועלויות רשת של כל שלב."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "העסקה שלך תחזור אם היא בהמתנה במשך יותר מתקופת זמן זו. (מקסימום: 3 ימים).",
+        "warning": "דדליין גבוה"
+      },
+      "protection": {
+        "description": "עם הגנת החלפה מופעלת, עסקאות ה-Ethereum שלך יהיו מוגנות מפני התקפות סנדוויץ', עם סיכויים מופחתים לכישלון.",
+        "subtitle": {
+          "supported": "{{chainName}} רשת",
+          "unavailable": "לא זמין ב- {{chainName}}"
+        },
+        "title": "הגנת החלפה"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "לקוח Uniswap בוחר את אפשרות הסחר הזולה ביותר תוך התחשבות במחיר ועלויות רשת."
+            },
+            "tooltip": "מסלול מזוהה בהתחשב ב-v2, v3 ומאגרי v4 מסוימים, תוך התחשבות בהשפעת המחיר המשוערת ועלויות הרשת."
+          },
+          "v2": {
+            "title": "v2 בריכות"
+          },
+          "v3": {
+            "title": "v3 בריכות"
+          },
+          "v4": {
+            "title": "v4 בריכות"
+          }
+        },
+        "title": "אפשרויות סחר"
+      },
+      "slippage": {
+        "alert": "החלקה גבוהה",
+        "control": {
+          "auto": "אוטומטי"
+        },
+        "description": "העסקה שלך תחזור אם המחיר ישתנה יותר מאחוז ההחלקה.",
+        "input": {
+          "message": "אם המחיר יורד עוד יותר, העסקה שלך תחזור. להלן הסכום המינימלי שמובטח לך שתקבל.",
+          "receive": {
+            "title": "קבלו לפחות"
+          }
+        },
+        "output": {
+          "message": "אם המחיר יורד עוד יותר, העסקה שלך תחזור. להלן הסכום המקסימלי שתצטרך להוציא.",
+          "spend": {
+            "title": "להוציא לכל היותר"
+          }
+        },
+        "warning": {
+          "description": "החלקה מעל 20% עשויה לגרום למסחר לא חיובי. כדי להפחית את הסיכון להיות חזיתית, הורד את ההגדרות שלך.",
+          "hover": "זה עלול לגרום לסחר לא חיובי. נסה להנמיך את הגדרת ההחלקה שלך.",
+          "max": "הזן ערך קטן מ- {{maxSlippageTolerance}}",
+          "message": "החלקה עשויה להיות גבוהה מהנדרש",
+          "min": "הזן ערך גדול מ-0"
+        }
+      },
+      "title": "החלפת הגדרות",
+      "transactionRevertPrice": "העסקה שלך תחזור אם המחיר ישתנה לרעה ביותר מאחוז זה."
+    },
+    "signAndSwap": "חתמו והחליפו",
+    "slippage": {
+      "amt": "{{amt}} החלקה",
+      "bridging": "אין החלקה בעת החלפה בין רשתות",
+      "settings": {
+        "title": "הגדרות החלקה"
+      },
+      "tooltip": "תנועת המחיר המקסימלית לפני העסקה שלך תחזור."
+    },
+    "slippageBelow": {
+      "warning": "סטייה מתחת ל-{{amt}} עלולה לגרום לכישלון בעסקה"
+    },
+    "submitted": "החלפה הוגשה",
+    "success": "הצלחה החלפה!",
+    "tokenOwnFees": "חלק מהאסימונים לוקחים עמלה כאשר הם נרכשים או נמכרים, אשר נקבעת על ידי מנפיק האסימונים. Uniswap לא מקבל אף אחת מהעמלות הללו.",
+    "total": "סה\"כ",
+    "tradeRoutes": "נתיבי מסחר",
+    "transaction": {
+      "deadline": "מועד אחרון לעסקה",
+      "revertAfter": "העסקה שלך תחזור אם היא בהמתנה במשך יותר מתקופת זמן זו."
+    },
+    "unsupportedAssets": {
+      "readMore": "קרא עוד על נכסים לא נתמכים"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "הזן כמות גדולה יותר"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "נסה להגדיל את ההחלקה שלך.",
+        "titleMay": "ההחלפה הזו עלולה להיכשל"
+      },
+      "insufficientBalance": {
+        "title": "אין לך מספיק {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "החלף עבור {{ tokenSymbol }} ב- {{networkName}}",
+          "buy": "קנה {{ tokenSymbol }}",
+          "buyWithCard": "קנה עם כרטיס"
+        },
+        "message": {
+          "withNetwork": "לא מספיק <highlight>{{currencySymbol}} על {{networkName}}</highlight> כדי להחליף",
+          "withoutNetwork": "לא מספיק <highlight>{{currencySymbol}}</highlight> כדי להחליף"
+        },
+        "title": "אין לך מספיק {{currencySymbol}} כדי לכסות את עלות הרשת"
+      },
+      "networkFee": {
+        "allow": "אפשר {{ inputTokenSymbol }} (פעם אחת)",
+        "highRelativeToValue": {
+          "unichain": "עלות הרשת עולה על 10% מערך העסקה הכולל שלך. זו העלות לעיבוד העסקה שלך בבלוקצ'יין."
+        },
+        "message": {
+          "unichain": "זו העלות לעיבוד העסקה שלך בבלוקצ'יין.",
+          "uniswapX": {
+            "unichain": "זו העלות לעיבוד העסקה שלך בבלוקצ'יין. <gradient>UniswapX</gradient> צוברת מקורות נזילות למחירים טובים יותר והחלפות ללא גז."
+          }
+        },
+        "wrap": "לעטוף את ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "לא נמצאו ציטוטים מגשרים. נסה להשתמש בגשר הרשמי בשלב זה."
+        },
+        "title": "לא נמצאו ציטוטים"
+      },
+      "noRoutesFound": {
+        "message": "כרגע אין מסלולים זמינים עבור האסימונים שבחרת. אנא נסה זוג אחר או בדוק שוב מאוחר יותר.",
+        "title": "אין מסלולים זמינים"
+      },
+      "offline": {
+        "message": "ייתכן שאיבדת את החיבור לאינטרנט או שהרשת מושבתת. אנא בדוק את חיבור האינטרנט שלך ונסה שוב.",
+        "title": "אתה במצב לא מקוון"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "עסקה זו תגרום להשפעת מחיר של {{priceImpactValue}} על מחיר השוק של מאגר זה ותגרום לאובדן כספים."
+        },
+        "title": {
+          "veryHigh": "השפעה גבוהה מאוד על המחיר ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "העסקה שלך לא נשלחה כי סגרת את האפליקציה.",
+        "approvalFailed": "העסקה שלך לא נשלחה כי אישור האסימון נכשל.",
+        "stale": "העסקה שלך לא נשלחה כי סגרת את האפליקציה או שהאישור נמשך זמן רב מדי.",
+        "submissionFailed": "הייתה בעיה בהגשת העסקה שלך.",
+        "title": "ההחלפה בוטלה",
+        "wrap": {
+          "message": "ה-ETH שלך יישאר עטוף כ-WETH."
+        },
+        "wrapFailed": "העסקה שלך לא נשלחה כי עסקת הגלישה נכשלה."
+      },
+      "rateLimit": {
+        "message": "אנא נסה שוב בעוד מספר דקות.",
+        "title": "חרגת ממגבלת התעריף"
+      },
+      "router": {
+        "message": "ייתכן שאיבדת את החיבור או שהרשת מושבתת. אם הבעיה נמשכת, אנא נסה שוב מאוחר יותר.",
+        "title": "אי אפשר להשלים את המסחר הזה כרגע"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} חסום"
+      },
+      "tokenBlockedFallback": {
+        "button": "האסימון חסום"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "עמלות חלות כדי להבטיח את החוויה הטובה ביותר עם Uniswap. אין עמלה הקשורה להחלפה זו.",
+          "included": "עמלות חלות כדי להבטיח את החוויה הטובה ביותר עם Uniswap, וכבר נכללו בהצעת המחיר הזו."
+        },
+        "title": "עמלת החלפה"
+      },
+      "viewOnly": {
+        "message": "עליך לייבא את הארנק הזה באמצעות ביטוי שחזור כדי להחליף אסימונים."
+      }
+    },
+    "wrap": {
+      "token": "לעטוף {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "ברשתות אחרות",
+      "otherNetworksBalance": "איזון ברשתות אחרות",
+      "title": "האיזון שלך"
+    },
+    "button": {
+      "getToken": "קבל {{ tokenSymbol }}",
+      "getTokenFallback": "קבל אסימון"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "עבור אל {{network}}",
+      "title": "האסימון הזה לא קיים",
+      "titleWithChain": "האסימון הזה לא קיים ב- {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "נתוני אסימון עבור <tokenLink />",
+        "withChain": "נתוני אסימון עבור <tokenLink /> ב- {{chainName}}"
+      }
+    },
+    "nameNotFound": "השם לא נמצא",
+    "noInfoAvailable": "אין מידע אסימון זמין",
+    "noTestnetSupportDescription": "רשתות בדיקה מסוימות אינן תומכות בהחלפה, שליחה או קנייה של אסימונים.",
+    "stats": {
+      "unsupportedChainDescription": "סטטיסטיקות אסימונים ותרשימים עבור {{chain}} זמינים ב- {{infoLink}}"
+    },
+    "symbolNotFound": "הסמל לא נמצא"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "פעולה זו מחייבת את השבתת מצב testnet. ניתן להפעיל מחדש את מצב Testnet בכל עת בהגדרות.",
+          "toTestnetMode": "פעולה זו דורשת הפעלה של מצב testnet. לאסימונים ברשתות בדיקות אין ערך אמיתי. ניתן להשבית את מצב Testnet בכל עת בהגדרות."
+        },
+        "title": {
+          "toProdMode": "השבת את מצב testnet",
+          "toTestnetMode": "הפעל מצב testnet"
+        }
+      }
+    },
+    "unsupported": "פונקציונליות זו אינה נתמכת במצב testnet."
+  },
+  "themeToggle": {
+    "theme": "נושא"
+  },
+  "title": {
+    "buySellTradeEthereum": "קנה, מכור וסחר ב-Ethereum ואסימונים מובילים אחרים ב-Uniswap",
+    "createGovernanceOn": "צור הצעת ממשל חדשה ב-Uniswap",
+    "createGovernanceTo": "צור הצעת ממשל חדשה להצבעה על ידי בעלי UNI. אסימוני UNI מייצגים את מניות ההצבעה בממשל של Uniswap.",
+    "earnFees": "הרווח עמלות כאשר אחרים מחליפים ב-Uniswap על ידי הוספת אסימונים למאגרי נזילות.",
+    "easilyRemove": "הסר בקלות את הנזילות שלך מ-Uniswap v2 והפקד ב-Uniswap v3.",
+    "easilyRemoveV4": "הסר בקלות את הנזילות שלך מ-Uniswap v2 ו-v3 כדי להפקיד ב-Uniswap v4.",
+    "explore": "חקור NFTs ב- Uniswap",
+    "extensionPasskeySignIn": "היכנס באמצעות מפתח סיסמה",
+    "manageNFT": "נהל את אוסף ה-NFT שלך. הצג תכונות, פעילות מסחר, תיאורים ופרטים אחרים ב-NFT שלך.",
+    "migratev2": "העבר נזילות מאגר v2 ל-Uniswap v3",
+    "migratev3": "העבר את נזילות המאגר ל-Uniswap v4",
+    "placeLimit": "בצע הזמנות מוגבלות ב-Uniswap",
+    "realTime": "מחירים בזמן אמת, תרשימים, נתוני עסקאות ועוד.",
+    "removeLiquidityv2": "הסר את נזילות המאגר (v2) ב-Uniswap",
+    "removePoolLiquidity": "הסר נזילות מאגר ב-Uniswap",
+    "removeTokensv2": "הסר את האסימונים שלך ממאגרי נזילות v2.",
+    "removev3Liquidity": "הסר את האסימונים שלך ממאגר הנזילות של v3.",
+    "sendTokens": "שלח אסימונים ב-Uniswap",
+    "swappingMadeSimple": "החלפה פשוטה. קנה ומכור קריפטו ב-Ethereum, Base, Arbitrum, Polygon ועוד. מהימנים במיליונים.",
+    "tradeTokens": "סחר באסימונים וספק נזילות. מחירים בזמן אמת, תרשימים, נתוני עסקאות ועוד.",
+    "uniswapTradeCrypto": "חד-החלפה | סחר קריפטו ו-NFT בבטחה בפלטפורמת DeFi העליונה",
+    "uniToken": "אסימוני UNI מייצגים את מניות ההצבעה בממשל של Uniswap. אתה יכול להצביע על כל הצעה בעצמך או להאציל את הקולות שלך לצד שלישי.",
+    "voteOnGov": "הצבע על הצעות ממשל ב-Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "האיזון שלך",
+      "other": "יתרות ברשתות אחרות",
+      "viewOnly": "המאזן של {{ownerAddress}}"
+    },
+    "bridge": "{{label}} גשר אסימונים",
+    "chart": {
+      "candlestick": {
+        "unavailable": "תרשימי פמוט אינם זמינים עבור אסימון זה"
+      },
+      "tooltip": "עמלות: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "פרטי אסימון אינם זמינים עבור אסימוני testnet."
+      }
+    },
+    "error": {
+      "unknown": "אסימון לא ידוע"
+    },
+    "fee": {
+      "buy": {
+        "label": "עמלת קנייה"
+      },
+      "label": "תַשְׁלוּם",
+      "sell": {
+        "label": "עמלת מכירה"
+      }
+    },
+    "links": {
+      "title": "קישורים",
+      "twitter": "טוויטר",
+      "website": "אתר אינטרנט"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "משהו השתבש.",
+        "title": "לא ניתן היה לטעון את תרשים המחירים"
+      },
+      "timeRangeLabel": {
+        "all": "כל הזמן",
+        "day": {
+          "verbose": "1 יום"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 חודש"
+        },
+        "week": {
+          "verbose": "שבוע אחד"
+        },
+        "year": {
+          "verbose": "1 שנה"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} אינו זמין",
+          "tokensNotAvailable": "{{tokenSymbol0}} ו {{tokenSymbol1}} אינם זמינים"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs אינה מקבלת אף אחת מהעמלות הללו."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "תעשה תמיד את המחקר שלך",
+        "blocked": {
+          "description": {
+            "default_one": "אינך יכול לסחור באסימון זה באמצעות אפליקציית Uniswap.",
+            "default_other": "אתה לא יכול לסחור באסימונים האלה באמצעות אפליקציית Uniswap."
+          }
+        },
+        "copyContractAddress": {
+          "message": "זוהי כתובת חוזה, הפועלת כמזהה ייחודי לאסימונים בבלוקצ'יין. כל קריפטו שתשלח לכתובת זו יאבד.",
+          "title": "אל תשלח קריפטו לכתובת זו"
+        },
+        "dontShowWarningAgain": "אל תראה לי את האזהרה הזו שוב",
+        "doYourOwnResearch": "בצע תמיד מחקר משלך לפני שתמשיך.",
+        "feeDescription": "גובה <fee /> כאשר {{action}}",
+        "flaggedAsMalicious": "מסומן כזדוני",
+        "fotHigh": {
+          "title": "זוהתה עמלה גבוהה"
+        },
+        "fotLow": {
+          "title": "זוהתה עמלה"
+        },
+        "fotVeryHigh": {
+          "title": "זוהתה עמלה גבוהה מאוד"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} סומן כבלתי ניתן למכירה. החלפת אסימון זה עלולה לגרום לאובדן הכספים שלך.",
+          "title": "זוהתה 100% עמלת מכירה"
+        },
+        "impersonator": {
+          "title": "זוהה אסימון מתחזה"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} סומן כזדוני על ידי Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "ייתכן ש{{tokenSymbol}} אינו האסימון שאתה מחפש להחליף."
+            }
+          },
+          "title": "זוהה אסימון זדוני"
+        },
+        "mayResultInLoss": "החלפתו עלולה לגרום לאובדן כספים.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} לא נסחר בבורסות מובילות בארה\"ב."
+          }
+        },
+        "notListedOnExchanges": "לא רשום בבורסות המובילות בארה\"ב",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} סומן כחשוד על ידי Blockaid."
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} סומן כסיר דבש פוטנציאלי על ידי Blockaid. בצע תמיד מחקר משלך לפני שתמשיך."
+          },
+          "title": "זוהה עציץ דבש פוטנציאלי"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} סומן כבלתי ניתן למכירה.",
+          "title": "זוהתה 100% עמלת מכירה"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} סומן כדואר זבל על ידי Blockaid.",
+          "title": "זוהה אסימון ספאם"
+        },
+        "spamsUsers": "משתמשי ספאם",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} גובה עמלה של {{buyFeePercent}} בקנייה ו {{sellFeePercent}} בעת מכירה."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} גובה עמלה של {{feePercent}} בקנייה."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} גובה עמלה של {{feePercent}} בעת מכירה."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} גובה עמלה בעת קנייה או מכירה."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "אינך יכול לסחור באסימון זה באמצעות ארנק Uniswap."
+      },
+      "medium": {
+        "message": {
+          "plural": "האסימונים הללו אינם נסחרים בבורסות מובילות בארה\"ב. בצע תמיד מחקר משלך לפני שתמשיך."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "לא ניתן היה לטעון את תוצאות החיפוש"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "הערכת שווי בדילול מלא",
+      "marketCap": "שווי שוק",
+      "priceHighYear": "52W גבוה",
+      "priceLowYear": "52W נמוך",
+      "section": {
+        "about": "בערך {{token}}"
+      },
+      "title": "סטטיסטיקות",
+      "translation": {
+        "original": "הראה מקור",
+        "translate": "תרגם ל {{language}}"
+      },
+      "volume": "נפח 24 שעות"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "אסימון קלט"
+      },
+      "output": {
+        "fallback": "אסימון פלט"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "החלפות בפרוטוקול Uniswap יכולות להתחיל ולהסתיים ב-ETH. עם זאת, במהלך ההחלפה, ETH עטוף ב-WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "כדי לקבל {{ tokenSymbol }}, אתה צריך {{ nativeTokenSymbol }} לכיסוי עלויות הרשת.",
+      "title": "אתה צריך {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "הסתר אסימון",
+      "unhide": "בטל הסתר אסימון"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "הצג ב- {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "לא ניתן היה לטעון את אוסף NFT"
+          }
+        },
+        "label": {
+          "items": "פריטים",
+          "owners": "בעלים",
+          "priceFloor": "קוֹמָה",
+          "swapVolume": "כרך"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "כתובת החוזה"
+        },
+        "error": {
+          "load": {
+            "title": "לא ניתן היה לטעון פרטי NFT"
+          }
+        },
+        "network": "רֶשֶׁת",
+        "owner": "בבעלות",
+        "price": "מחיר נוכחי",
+        "recentPrice": "מחיר מבצע אחרון",
+        "traits": "תכונות"
+      },
+      "empty": {
+        "description": "לא נמצאו NFTs"
+      },
+      "error": {
+        "unavailable": "התוכן אינו זמין"
+      },
+      "hidden": {
+        "action": {
+          "hide": "הסתר NFT",
+          "unhide": "בטל הסתר NFT"
+        }
+      },
+      "link": {
+        "collection": "אתר אוסף"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "לא ניתן היה לטעון NFTs"
+          }
+        },
+        "none": {
+          "button": "קבל NFTs",
+          "description": {
+            "default": "העבר NFTs מארנק אחר כדי להתחיל.",
+            "external": "כאשר הארנק הזה קונה או מקבל NFTs, הם יופיעו כאן."
+          },
+          "title": "עדיין אין NFTs"
+        }
+      }
+    },
+    "noneFound": "לא נמצאו אסימונים.",
+    "selector": {
+      "button": {
+        "choose": "בחר אסימון",
+        "clear": "נקה הכל"
+      },
+      "empty": {
+        "buy": {
+          "message": "קנה קריפטו עם כרטיס או בנק כדי לשלוח אסימונים.",
+          "title": "קנה קריפטו"
+        },
+        "receive": {
+          "title": "קבל אסימונים"
+        },
+        "title": "עדיין אין אסימונים"
+      },
+      "error": {
+        "load": "לא ניתן היה לטעון אסימונים"
+      },
+      "search": {
+        "empty": "לא נמצאו תוצאות עבור <highlight>{{searchText}}</highlight>",
+        "placeholder": "חפש אסימונים"
+      },
+      "section": {
+        "bridging": "החלפה בין רשתות",
+        "favorite": "מועדפים",
+        "otherNetworksSearchResults": "אסימונים שנמצאו ברשתות אחרות",
+        "otherSearchResults": "אסימונים אחרים ב- {{network}}",
+        "recent": "חיפושים אחרונים",
+        "search": "תוצאות חיפוש",
+        "trending": "אסימונים בנפח 24 שעות",
+        "yours": "האסימונים שלך"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "חפש בבריכות",
+          "tokens": "חפש אסימונים",
+          "transactions": "חיפוש עסקאות"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "ביטול עסקה",
+        "description": "אם תבטל עסקה זו לפני שהיא מעובדת על ידי הרשת, תשלם עלות רשת חדשה במקום העלות המקורית.",
+        "title": "לבטל את העסקה הזו?"
+      },
+      "copy": "העתק את מזהה העסקה",
+      "copyProvider": "העתק את מזהה העסקה {{providerName}}"
+    },
+    "amount": {
+      "unlimited": "ללא הגבלה"
+    },
+    "date": "הוגש ב- {{date}}",
+    "details": {
+      "dappName": "אפליקציה",
+      "from": "מ",
+      "networkFee": "עלות רשת",
+      "providerFee": "עמלת ספק",
+      "swapRate": "ציון",
+      "transaction": "עִסקָה",
+      "uniswapFee": "עמלה ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "נזילות מאגר לא מספקת להשלמת העסקה",
+    "network": {
+      "all": "כל הרשתות"
+    },
+    "networkCost": {
+      "label": "עלות רשת",
+      "maxNativeBalance": {
+        "description": "סכום קטן מיתרת אסימון הרשת נשמר לכיסוי עלות הרשת של עסקה זו.",
+        "title": "למה אני לא יכול להשתמש ביתרה המקסימלית שלי?"
+      },
+      "veryHigh": {
+        "label": "עלות רשת גבוהה מאוד"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "לא ניתן לבטל את העסקה",
+        "replace": "לא ניתן להחליף עסקה"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "ביטול אישור",
+        "canceling": "מבטל את האישור",
+        "failed": "לא הצליחו לאשר",
+        "pending": "מאשר",
+        "success": "אושר",
+        "successDapp": "אושר בתאריך {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "קנייה בוטלה",
+        "canceling": "ביטול קנייה",
+        "failed": "הקנייה נכשלה",
+        "pending": "קְנִיָה",
+        "success": "קנה",
+        "successDapp": "נקנה ב- {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "אישור בוטל",
+        "canceling": "ממתין לביטול",
+        "failed": "האישור נכשל",
+        "pending": "עסקה בעיצומה",
+        "success": "העסקה אושרה",
+        "successDapp": "העסקה אושרה בתאריך {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "מנטה בוטלה",
+        "canceling": "ביטול מנטה",
+        "failed": "ההטבעה נכשלה",
+        "pending": "טְבִיעָה",
+        "success": "טָבוּעַ",
+        "successDapp": "הוטבע ב- {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "רכישה בוטלה",
+        "canceling": "ביטול רכישה",
+        "failedOn": "הרכישה ב- {{serviceProvider}}נכשלה",
+        "pendingOn": "רכישה ב- {{serviceProvider}}",
+        "successOn": "נרכש ב- {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "קבלה בוטלה",
+        "canceling": "ביטול קבלה",
+        "failedFrom": "קבלת מ- {{serviceProvider}}נכשלה",
+        "pendingFrom": "מקבל מ- {{serviceProvider}}",
+        "success": "קיבלו",
+        "successDapp": "התקבל ב- {{externalDappName}}",
+        "successFrom": "התקבל מ- {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "ביטול ביטול",
+        "canceling": "ביטול ביטול",
+        "failed": "הביטול נכשל",
+        "pending": "מבטל",
+        "success": "בוטל",
+        "successDapp": "בוטל בתאריך {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "מכירה בוטלה",
+        "canceling": "ביטול מכירה",
+        "failedOn": "המכירה נכשלה דרך {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "למידע נוסף על מכירת קריפטו.",
+          "title": "מדוע המכירה שלי עדיין בהמתנה?"
+        },
+        "pendingOn": "מוכר דרך {{serviceProvider}}",
+        "successOn": "נמכר דרך {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "מכירה בוטלה",
+        "canceling": "ביטול מכירה",
+        "failed": "לא הצליח למכור",
+        "pending": "מוכר",
+        "success": "נמכר",
+        "successDapp": "נמכר ב- {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "השליחה בוטלה",
+        "canceling": "מבטל את השליחה",
+        "failed": "שליחה נכשלה",
+        "pending": "שְׁלִיחָה",
+        "success": "נשלח",
+        "successDapp": "נשלח ב- {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "ההחלפה בוטלה",
+        "canceling": "מבטל את ההחלפה",
+        "expired": "פג תוקף ההחלפה",
+        "failed": "ההחלפה נכשלה",
+        "insufficientFunds": "אין מספיק כספים",
+        "pending": "החלפה",
+        "success": "הוחלף",
+        "successDapp": "הוחלף ב- {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "ביטול הגלישה",
+        "canceling": "מבטל את הפתיחה",
+        "failed": "לא הצליחו לפרק",
+        "pending": "פורקים את העטיפה",
+        "success": "לא עטוף",
+        "successDapp": "לא עטוף ב- {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "עטיפה בוטלה",
+        "canceling": "ביטול גלישה",
+        "failed": "לעטוף נכשל",
+        "pending": "לְפָפָה",
+        "success": "עָטוּף",
+        "successDapp": "עטוף על {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} עד {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} מ- {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "אתה צריך ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) ב- {{networkName}} כדי לכסות את עלות הרשת של העסקה הזו."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "כדי להחליף עבור אסימון זה, אתה צריך עוד {{tokenSymbol}} על {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "לא מספיק {{tokenSymbol}} על {{networkName}}",
+            "withoutNetwork": "לא מספיק {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "אתה עומד להוציא את רוב יתרת האסימון ברשת שלך. זה עלול להשאיר לא מספיק כספים לכיסוי עלויות רשת עתידיות.",
+        "title": "יתרת אסימון רשת נמוכה"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "לא ניתן לבטל את העסקה",
+        "status": "שגיאה בעת בדיקת סטטוס העסקה"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> אוסף מקורות נזילות למחירים טובים יותר והחלפות ללא גז.",
+    "learnMore": "למידע נוסף על החלפה עם UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX צוברת מקורות נזילות למחירים טובים יותר והחלפות ללא גז.",
+    "included": "כולל <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "הצעת המחיר הקשה של UniswapX v2 נכשלה. נסה שוב עם החלפה קלאסית."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "תבע עכשיו"
+      },
+      "subtitle": "בנה פרופיל web3 מותאם אישית ושתף בקלות את הכתובת שלך עם חברים.",
+      "title": {
+        "compact": "<highlight>תבע את שם המשתמש שלך {{unitagDomain}}</highlight> ובנה את הפרופיל הניתן להתאמה אישית שלך.",
+        "full": "תבע את שם המשתמש שלך {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "בחר מתוך גליל מצלמה",
+        "computer": "העלה מהמחשב",
+        "nft": "בחר NFT",
+        "remove": "הסר תמונת פרופיל"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "התאם אישית את הפרופיל",
+        "description": "{{unitagAddress}} מוכן לשלוח ולקבל קריפטו. המשך לבנות את הארנק שלך על ידי התאמה אישית של פרופיל web3 שלך.",
+        "success": {
+          "long": "הבנת!",
+          "short": "הבנת!"
+        }
+      },
+      "error": {
+        "addressLimit": "כבר ביצעת את המספר המרבי של שינויים בשם המשתמש שלך עבור כתובת זו",
+        "avatar": "לא ניתן להגדיר דמות. נסה שוב מאוחר יותר.",
+        "default": "לא ניתן לתבוע את שם המשתמש. נסה שוב מאוחר יותר.",
+        "deviceLimit": "הגעת למספר המרבי של שמות משתמש שיכולים להיות פעילים עבור מכשיר זה",
+        "general": "לא ניתן לתבוע את שם המשתמש",
+        "unavailable": "שם משתמש זה אינו זמין",
+        "unknown": "שגיאה לא ידועה"
+      },
+      "username": {
+        "default": "השם שלך"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "אתה עומד למחוק את שם המשתמש שלך ופרטי הפרופיל הניתנים להתאמה אישית. לא תוכל להחזיר אותו.",
+        "title": "האם אתה בטוח?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "שם משתמש"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "אתה עומד לשנות את שם המשתמש שלך. ברגע שתשנה אותו, לעולם לא תוכל לתבוע אותו שוב.",
+        "title": "האם אתה בטוח?"
+      },
+      "title": "ערוך את שם המשתמש שלך",
+      "warning": {
+        "default": "לאחר שתשנה את שם המשתמש שלך, לעולם לא תוכל לתבוע אותו שוב. אתה יכול לשנות אותו <highlight>רק 2</highlight> פעמים.",
+        "max": "הגעת למספר המרבי של 2 שינויים בשמות משתמש."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "תבע שם משתמש",
+        "description": "היפרד מכתובות 0x. שמות משתמש הם שמות קריאים המקלים על שליחה וקבלה של קריפטו.",
+        "title": "הצגת שמות משתמש",
+        "upsell": {
+          "customizable": "פרופילים הניתנים להתאמה אישית",
+          "ens": "מופעל על ידי תת-דומיינים של ENS",
+          "free": "חופשי לתבוע"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "מופעל על ידי תת-דומיינים של ENS",
+        "free": "חופשי לתבוע",
+        "profile": "פרופילים הניתנים להתאמה אישית"
+      },
+      "subtitle": "היפרד מכתובות 0x. שמות משתמש הם שמות קריאים המקלים על שליחה וקבלה של קריפטו.",
+      "title": "הצגת שמות משתמש"
+    },
+    "notification": {
+      "delete": {
+        "error": "לא ניתן למחוק את שם המשתמש. נסה שוב מאוחר יותר.",
+        "title": "שם המשתמש נמחק"
+      },
+      "profile": {
+        "error": "לא ניתן היה לעדכן את הפרופיל. נסה שוב מאוחר יותר.",
+        "title": "הפרופיל עודכן"
+      },
+      "username": {
+        "error": "לא ניתן לשנות את שם המשתמש. נסה שוב מאוחר יותר.",
+        "title": "שם המשתמש השתנה"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "זוהי הכתובת המותאמת אישית שלך שאנשים יכולים לשלוח אליה קריפטו.",
+        "title": {
+          "choose": "צור את שם המשתמש שלך",
+          "claim": "תבע את שם המשתמש שלך"
+        }
+      },
+      "info": {
+        "description": "שמות משתמש הופכים כתובות 0x מורכבות לשמות קריאים. על ידי דרישת שם משתמש {{unitagDomain}} , אתה יכול לשלוח ולקבל קריפטו בקלות ולבנות פרופיל web3 ציבורי.",
+        "title": "כתובת פשוטה"
+      },
+      "profile": {
+        "subtitle": "העלה משלך או הישאר עם Unicon הייחודי שלך. תמיד תוכל לשנות זאת מאוחר יותר.",
+        "title": "בחר תמונת פרופיל"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "מחק את שם המשתמש",
+        "edit": "ערוך שם משתמש"
+      },
+      "bio": {
+        "label": "ביו",
+        "placeholder": "הקלד ביוגרפיה עבור הפרופיל שלך"
+      },
+      "links": {
+        "twitter": "טוויטר"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "שמות משתמש יכולים להכיל רק אותיות ומספרים",
+        "max": "שמות משתמש אינם יכולים להיות יותר מ- {{number}} תווים",
+        "min": "שמות משתמש חייבים להיות לפחות {{number}} תווים",
+        "uppercase": "שמות משתמש יכולים להכיל רק אותיות קטנות ומספרים"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "לא מספיק {{tokenSymbol}} על {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 אינו זמין ברשת זו."
+  },
+  "wallet": {
+    "appSignIn": "היכנס באמצעות האפליקציה",
+    "connectingAgreement": "על ידי חיבור ארנק, אתה מסכים לתנאי השירות <termsLink>של Uniswap Labs</termsLink> ולהסכים למדיניות הפרטיות <privacyLink></privacyLink>שלה.",
+    "connectionFailed": {
+      "message": "ניסיון החיבור נכשל. אנא לחץ על נסה שוב ובצע את השלבים לחיבור בארנק שלך."
+    },
+    "other": "ארנקים אחרים",
+    "scanToConnect": "סרוק קוד QR כדי להתחבר",
+    "wrongNet": "הארנק שלך מחובר לרשת הלא נכונה."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "התחבר לאפליקציה על ידי סריקת קוד דרך WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "אין אפליקציות מחוברות"
+        },
+        "title": "חיבורים"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "ארנק Uniswap תומך כרגע ב {{chainNames}}. אנא השתמש רק ב- \"{{dappName}}\" בשרשראות אלה",
+        "title": "בעיית חיבור"
+      },
+      "general": {
+        "message": "הייתה בעיה עם WalletConnect. בבקשה נסה שוב",
+        "title": "שגיאת WalletConnect"
+      },
+      "scantastic": {
+        "message": "הייתה בעיה בקוד ה-QR שלך. בבקשה נסה שוב",
+        "title": "קוד QR לא חוקי"
+      },
+      "unsupported": {
+        "message": "ודא שאתה סורק קוד תקף של WalletConnect, כתובת Ethereum או קוד QR של תוסף Uniswap לפני שתנסה שוב.",
+        "title": "קוד QR לא חוקי"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 אינו נתמך עוד. היישום שאליו אתה מנסה להתחבר צריך לשדרג ל-WalletConnect v2.",
+        "title": "קוד QR לא חוקי"
+      },
+      "uwu": {
+        "scan": "הייתה בעיה בסריקת קוד QR זה.",
+        "title": "שגיאת קישור UwU",
+        "unsupported": "קוד QR זה אינו נתמך."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "לְחַבֵּר",
+        "scrollDown": "גלול למטה כדי להתחבר"
+      },
+      "switchAccount": "החלף חשבון",
+      "title": "התחבר אל {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "העבר את הנכסים שלך ללא הסכמה",
+        "viewTokenBalances": "הצג את יתרות האסימונים שלך",
+        "viewWalletAddress": "הצג את כתובת הארנק שלך"
+      },
+      "title": "הרשאות אתר"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "גלול למטה כדי לחתום",
+        "sign": "סִימָן"
+      },
+      "details": {
+        "label": {
+          "function": "פוּנקצִיָה",
+          "sending": "שְׁלִיחָה",
+          "token": "אֲסִימוֹן",
+          "tokens": "אסימונים"
+        }
+      },
+      "error": {
+        "insufficientFunds": "אין לך מספיק {{currencySymbol}} כדי להשלים את העסקה הזו.",
+        "network": "שגיאת חיבור לאינטרנט או לרשת"
+      },
+      "warning": {
+        "general": {
+          "message": "היזהר: הודעה זו עשויה להעביר נכסים"
+        },
+        "message": "כדי לחתום על הודעות או עסקאות, יהיה עליך לייבא את ביטוי השחזור של הארנק.",
+        "title": "הארנק הזה נמצא במצב צפייה בלבד"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "גלה וחקר אסימונים ב- {{network}}. חקור בריכות מובילות. הצג מחירים בזמן אמת, נפח מסחר, TVL, גרפים ונתוני עסקאות.",
+      "title": {
+        "pools": "חקור את הבריכות המובילות ב- {{network}} ב-Uniswap",
+        "tokens": "חקור את האסימונים המובילים ב- {{network}} ב-Uniswap",
+        "transactions": "חקור את העסקאות המובילות ב- {{network}} ב-Uniswap"
+      }
+    }
+  }
+}

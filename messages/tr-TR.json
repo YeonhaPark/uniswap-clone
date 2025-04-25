@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "{{amount}} getiriyi tahsil et"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "{{cloudProviderName}} hizmetine yedeklenmiş birden fazla kurtarma cümlesi var.",
+        "title": "Geri yüklenecek bir yedek seç"
+      },
+      "button": {
+        "restore": {
+          "android": "Google Drive'dan geri yükle",
+          "ios": "iCloud'dan geri yükle"
+        }
+      },
+      "empty": {
+        "description": "Görünüşe göre kurtarma cümlelerinden hiçbirini {{cloudProviderName}} hizmetine yedeklememişsin.",
+        "title": "0 yedek bulundu"
+      },
+      "error": {
+        "backup": {
+          "message": "İzin eksikliği, yetkilendirme kesintisi veya bulut hatası nedeniyle yedekler içe aktarılamadı",
+          "title": "Yedekler içe aktarılırken hata oluştu"
+        },
+        "password": {
+          "title": "Geçersiz şifre. Lütfen tekrar dene."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Şimdi değil",
+            "settings": "Ayarlara git"
+          },
+          "message": {
+            "android": "Lütfen bu cihazda Google Drive'ın etkin olduğu bir Google hesabında oturum açtığını doğrula ve tekrar dene.",
+            "ios": "Lütfen bu cihazda iCloud Drive'ın etkin olduğu bir Apple Kimliğinde oturum açtığını doğrula ve tekrar dene."
+          },
+          "title": {
+            "android": "Google Drive kullanılamıyor",
+            "ios": "iCloud Drive kullanılamıyor"
+          }
+        }
+      },
+      "loading": {
+        "title": "Yedekler aranıyor..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Çok fazla deneme. 1 saat sonra tekrar dene.",
+          "hours_other": "Çok fazla deneme. {{count}} saat sonra tekrar dene.",
+          "minutes_one": "Çok fazla deneme. 1 dakika sonra tekrar dene.",
+          "minutes_other": "Çok fazla deneme. {{count}} dakika sonra tekrar dene."
+        }
+      },
+      "password": {
+        "input": "Şifre gir",
+        "recoveryPhrase": "Bunun yerine kurtarma cümleni gir",
+        "subtitle": "Bu şifre, kurtarma cümlesi yedeğini {{cloudProviderName}} hizmetinden kurtarmak için gereklidir.",
+        "title": "Yedekleme şifresini gir"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Sürüm: ",
+      "modal": {
+        "body": "Uniswap uygulamasıyla token'ları güvenle sakla ve swap et. iOS ve Android'de mevcuttur.",
+        "dont": "Uniswap cüzdanın yok mu?",
+        "scan": "Uniswap Cüzdan ile tara"
+      },
+      "spamToggle": "Bilinmeyen token'ları ve NFT'leri gizle"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Bakiyen girilen tutarın altına düştüğü için bu emir iptal edildi."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Bakiyen girilen tutarın altına düştüğü için bu emir yerine getirilmeyecek. Düzeltmek için bakiyeni artır."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Kurtarma cümlesi (veya kurtarma ifadesi), cüzdanına erişmek için gerekli olan, <highlight>şifreye benzer</highlight> <highlight>bir kelime kümesidir.</highlight>",
+        "part2": "Cüzdanını ve içeriğini <highlight>geri yüklemek</highlight> için yeni bir cihazda kurtarma cümleni <highlight>girebilirsin</highlight>.",
+        "part3": "Ancak <highlight>kurtarma cümleni</highlight> kaybedersen cüzdanına <highlight>erişimi kaybedersin</highlight>.",
+        "part4": "Kurtarma cümleni ezberlemek yerine <highlight>{{cloudProviderName}} üzerinde yedekleyebilir</highlight> ve bir şifre ile koruyabilirsin.",
+        "part5": "Ayrıca kurtarma cümleni <highlight>yazarak</highlight> ve güvenli bir yerde saklayarak manuel olarak da yedekleyebilirsin.",
+        "part6": "<highlight>Her iki yedekleme türünü de</highlight> kullanmanı öneririz çünkü kurtarma cümleni kaybedersen cüzdanını geri yükleyemezsin."
+      },
+      "error": {
+        "invalid": "Geçersiz cümle",
+        "invalidWord": "Geçersiz kelime: {{word}}",
+        "phraseLength": "Kurtarma cümlesi 12-24 kelimeden oluşmalıdır",
+        "wrong": "Yanlış kurtarma cümlesi"
+      },
+      "helpText": {
+        "import": "Kurtarma cümlemi nasıl bulabilirim?",
+        "restoring": "Tekrar aramayı dene"
+      },
+      "input": "Kurtarma cümleni yaz",
+      "remove": {
+        "final": {
+          "description": "Kurtarma cümleni bir yere yazdığından veya {{cloudProviderName}} üzerinde yedeklediğinden emin ol. <highlight>Aksi hâlde fonlarına erişemezsin.</highlight>",
+          "title": "<highlight>Kurtarma cümleni</highlight> kaldırıyorsun"
+        },
+        "import": {
+          "description": "Aynı anda yalnızca bir kurtarma cümlesini saklayabilirsin. Yenisini içe aktarmaya devam etmek için mevcut kurtarma cümleni ve ilişkili tüm cüzdanları bu cihazdan kaldırman gerekir."
+        },
+        "initial": {
+          "description": "Bu işlem, kurtarma cümlenle birlikte cüzdanını da bu cihazdan kaldırır.",
+          "title": "<highlight>{{walletName}}</highlight> cüzdanını kaldırıyorsun"
+        },
+        "mnemonic": {
+          "description": "Kurtarma cümlen, sen tüm kalan cüzdanları silene kadar saklanmaya devam edecek."
+        }
+      },
+      "subtitle": {
+        "import": "Kurtarma cümlen yalnızca yerel olarak cihazında saklanacaktır.",
+        "restoring": "Kurtarma cümleni aşağıya gir veya yedekleri tekrar aramayı dene."
+      },
+      "title": {
+        "import": "Kurtarma cümleni gir",
+        "restoring": "Yedek bulunamadı"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "Adresi kopyala",
+        "manageConnections": "Bağlantıları yönet",
+        "report": "Profili rapor et",
+        "viewExplorer": "{{blockExplorerName}} üzerinde görüntüle"
+      },
+      "button": {
+        "add": "Cüzdan ekle",
+        "addViewOnly": "Salt görüntülenebilir bir cüzdan ekle",
+        "create": "Yeni bir cüzdan oluştur",
+        "import": "Yeni bir cüzdanı içe aktar",
+        "manage": "Cüzdan ayarları",
+        "remove": "Cüzdanı kaldır",
+        "restore": "Cüzdanını kurtar",
+        "watch": "Bir cüzdanı izle"
+      },
+      "create": {
+        "placeholder": "Cüzdan {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Cüzdan etiketi"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Profili düzenle"
+          },
+          "title": "Etiketi düzenle"
+        },
+        "viewOnly": "Salt görüntülenebilir cüzdanlar"
+      },
+      "menu": {
+        "claimUsername": "Kullanıcı adı talep et",
+        "copy": {
+          "title": "Cüzdan adresini kopyala"
+        },
+        "edit": {
+          "title": "Etiketi düzenle"
+        },
+        "manageConnections": "Bağlantıları yönet",
+        "remove": {
+          "title": "Cüzdanı kaldır"
+        }
+      },
+      "remove": {
+        "check": "Kurtarma cümlemi yedekledim ve bunu yapmadığım takdirde Uniswap Labs'ın cüzdanlarımı kurtarmama yardımcı olamayacağını anlıyorum.",
+        "title": "{{name}} cüzdanını kaldır",
+        "viewOnly": "Cüzdanın adresini girerek dilediğin zaman salt görüntülenebilir cüzdanları geri ekleyebilirsin."
+      },
+      "restore": {
+        "description": "Şu an yeni bir cihaz kullandığından, devam edebilmek için kurtarma cümleni geri yüklemen veya bulut yedekleme şifreni girmen gerekiyor."
+      },
+      "select": {
+        "error": "Adresler yüklenemedi",
+        "loading": {
+          "subtitle": "Cüzdanların aşağıda görünecek.",
+          "title": "Cüzdanlar aranıyor"
+        },
+        "title_one_one": "Bir cüzdan bulundu",
+        "title_one_other": "İçe aktarılacak cüzdanları seç"
+      },
+      "viewOnly": {
+        "button": "Cüzdanı içe aktar",
+        "description": "Token'ları swap etmek, satın almak, göndermek ve almak için bu cüzdanın kurtarma cümlesini içe aktarman gerekir.",
+        "title": "Bu cüzdan salt görüntülenebilir"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Bu adres zaten içe aktarıldı",
+          "notFound": "Adres bulunamadı",
+          "smartContract": "Adres bir akıllı sözleşmedir"
+        },
+        "message": "Salt görüntülenebilir bir cüzdan eklemek, uygulamayı denemene veya bir cüzdanı takip etmene olanak tanır. Fonları swap edemez veya gönderemezsin.",
+        "placeholder": "ENS veya adres",
+        "title": "Bir cüzdan adresi gir"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Beklemede",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{walletAddress}} adresinden {{amountWithSymbol}}"
+      },
+      "send": {
+        "descriptor": "{{walletAddress}} adresine {{amountWithSymbol}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolB}} için {{amountWithSymbolA}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} ve {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Havuz payı"
+  },
+  "addressInput": {
+    "recipient": "Alıcı"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Uniswap Labs ürünleriyle deneyimini geliştirmek için anonimleştirilmiş veriler kullanıyoruz."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Tam olarak değil"
+    },
+    "description": "Bu uygulamayla iyi bir deneyim elde edip etmediğini bize bildir",
+    "extension": {
+      "review": {
+        "description": "Chrome Web Store'da yıldız seçerek puan ver ve değerlendirmeni yaz.",
+        "title": "Uniswap Uzantısını değerlendirmek ister misin?"
+      },
+      "title": "Uniswap Uzantısından memnun musun?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Geri bildirim gönder"
+      },
+      "description": "Sana nasıl daha iyi bir deneyim sunabileceğimizi bize anlat",
+      "title": "Bunu duyduğumuza üzüldük."
+    },
+    "mobile": {
+      "title": "Uniswap Cüzdan'dan memnun musun?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}} dk {{seconds}} sn",
+      "minutesOnly": "~{{minutes}} dk",
+      "secondsOnly": "~{{seconds}} sn"
+    }
+  },
+  "chart": {
+    "candlestick": "Mum grafiği",
+    "error": {
+      "pools": "Geçerli havuza ilişkin geçmiş veriler görüntülenemiyor.",
+      "tokens": "Geçerli token'ın geçmiş verileri görüntülenemiyor."
+    },
+    "line": "Çizgi grafik",
+    "missingData": "Eksik grafik verileri",
+    "price": {
+      "label": {
+        "close": "Kapalı",
+        "high": "Yüksek",
+        "low": "Düşük",
+        "open": "Açık"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Bu ayar mevcut grafikte kullanılamıyor"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Uniswap topluluğunun bir parçası olduğun için teşekkürler <heart />",
+    "uni": {
+      "arrived": "UNI ulaştı"
+    }
+  },
+  "common": {
+    "accept": "Kabul et",
+    "activity": "Etkinlik",
+    "add": {
+      "label": "Ekle",
+      "liquidity": {
+        "cancelled": "Likidite ekleme iptal edildi",
+        "failed": "Likidite eklenemedi"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "V2 likiditesi ekleme iptal edildi",
+          "failed": "V2 likiditesi eklenemedi"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Likidite eklendi",
+      "v2": {
+        "liquidity": "V2 likiditesi eklendi"
+      }
+    },
+    "addedLiquidity": "Likidite eklendi",
+    "adding": {
+      "liquidity": "Likidite ekleniyor",
+      "v2": {
+        "liquidity": "V2 likiditesi ekleniyor"
+      }
+    },
+    "addLiquidity": "Likidite ekle",
+    "addressOrENS": "Cüzdan adresi veya ENS adı",
+    "advanced": "Gelişmiş",
+    "all": "Tümü",
+    "allTime": "Her zaman",
+    "and": "ve",
+    "app": "Uygulama",
+    "approval": {
+      "cancelled": "Onay iptal edildi",
+      "failed": "Onay başarısız oldu"
+    },
+    "approve": "Onayla",
+    "approved": "Onaylandı",
+    "approvePending": "Onay bekliyor...",
+    "approveSpend": "{{symbol}} harcamayı onayla",
+    "approving": "Onaylanıyor",
+    "areYouSure": "Emin misiniz?",
+    "automatic": "Otomatik",
+    "availableIn": "Uniswap şurada mevcuttur: <locale />",
+    "availableOnIOSAndroid": "iOS ve Android'de mevcut",
+    "availableOnIOSAndroidChrome": "iOS, Android ve Chrome'da mevcut",
+    "backToPositions": "Pozisyonlara geri dön",
+    "blocked": {
+      "ifError": "Bunun hatalı olduğunu düşünüyorsan lütfen <emailAddress /> adresine, adresini içeren bir e-posta gönder.",
+      "reason": "Bu adres, bir veya daha fazla <link>engellenen aktivite</link> ile ilişkili olduğu için Uniswap Labs arayüzünde engellendi."
+    },
+    "blockedAddress": "Engellenen adres",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Borç alma iptal edildi",
+      "failed": "Borç alma başarısız oldu"
+    },
+    "borrowed": "Borç alındı",
+    "borrowing": "Borçlanma",
+    "bought": "Alındı",
+    "brandAssets": "Marka varlıkları",
+    "burn": {
+      "cancelled": "Yazma iptal edildi",
+      "failed": "Yazma başarısız oldu"
+    },
+    "burned": "Yazıldı",
+    "burning": "Yazılıyor",
+    "button": {
+      "accept": "Kabul et",
+      "back": "Geri",
+      "buy": "Al",
+      "cancel": "İptal",
+      "checkin": "Giriş",
+      "close": "Kapat",
+      "confirm": "Onayla",
+      "connect": "Bağlan",
+      "continue": "Devam",
+      "copied": "Kopyalandı",
+      "copy": "Kopyala",
+      "create": "Oluştur",
+      "delete": "Sil",
+      "disconnect": "Bağlantıyı kes",
+      "dismiss": "Kapat",
+      "done": "Bitti",
+      "edit": "Düzenle",
+      "enable": "Etkinleştir",
+      "finish": "Bitir",
+      "goBack": "Geri dön",
+      "later": "Belki sonra",
+      "learn": "Daha fazla bilgi edin",
+      "next": "Sonraki",
+      "notNow": "Şimdi değil",
+      "ok": "Tamam",
+      "paste": "Yapıştır",
+      "pay": "Öde",
+      "proceed": "Devam et",
+      "receive": "Al",
+      "remove": "Kaldır",
+      "reset": "Sıfırla",
+      "retry": "Yeniden dene",
+      "reveal": "Ortaya çıkar",
+      "review": "İncele",
+      "save": "Kaydet",
+      "scrollDown": "Aşağı kaydır",
+      "sell": "Sat",
+      "send": "Gönder",
+      "setup": "Ayarla",
+      "share": "Paylaş",
+      "showLess": "Daha az göster",
+      "showMore": "Daha fazla göster",
+      "sign": "İmzala",
+      "skip": "Atla",
+      "swap": "Swap et",
+      "tryAgain": "Tekrar dene",
+      "understand": "Anladım",
+      "unlock": "Kilidini aç",
+      "view": "Görüntüle",
+      "viewDetails": "Ayrıntıları görüntüle",
+      "yes": "Evet"
+    },
+    "buy": {
+      "cancelled": "Alım iptal edildi",
+      "failed": "Alım başarısız oldu",
+      "label": "Al"
+    },
+    "buyAndSell": "Uniswap'ta al ve sat",
+    "buying": "Alış",
+    "by": "Şununla:",
+    "cancel": {
+      "failed": "İptal başarısız oldu"
+    },
+    "cancellation": {
+      "cancelled": "İptal işlemi iptal edildi"
+    },
+    "cancellationSubmitted": "İptal gönderildi",
+    "cancellationSuccessful": "İptal başarılı",
+    "cancelled": "İptal edildi",
+    "cancelling": "İptal ediliyor",
+    "cancelOrder": "Emri iptal et",
+    "card": {
+      "error": {
+        "description": "Bir şeyler yanlış gitti",
+        "title": "Hay aksi! Bir şeyler yanlış gitti."
+      }
+    },
+    "careers": "Kariyer",
+    "chart": "Grafik",
+    "checkNetwork": "Ağ durumunu <link>buradan</link> kontrol et.",
+    "chromeExtension": "Uzantı",
+    "claim": {
+      "cancelled": "Tahsilat iptal edildi",
+      "failed": "Tahsilat başarısız oldu"
+    },
+    "claimed": "Tahsil edildi",
+    "claiming": "Tahsil ediliyor",
+    "claimUnis": "UNI token'larını tahsil et",
+    "clear": "Temizle",
+    "close": "Kapat",
+    "closed": "Kapalı",
+    "collect": {
+      "button": "Tahsil et",
+      "fees": {
+        "cancelled": "Ücret tahsilatı iptal edildi",
+        "failed": "Ücret tahsilatı başarısız oldu"
+      }
+    },
+    "collected": {
+      "fees": "Tahsil edilen ücretler"
+    },
+    "collecting": {
+      "fees": "Ücret tahsilatı"
+    },
+    "company": "Şirket",
+    "confirm": "Onayla",
+    "confirmCancellation": "İptal işlemini onayla",
+    "confirmSend": {
+      "button": "Göndermeyi onayla"
+    },
+    "confirmSwap": "Cüzdanda swap işlemini onayla",
+    "confirmTimedOut": "Onay zaman aşımına uğradı. Lütfen tekrar dene.",
+    "confirmWallet": "Cüzdanda onayla",
+    "connect": {
+      "button": "Bağla"
+    },
+    "connectAWallet": {
+      "button": "Bir cüzdan bağla"
+    },
+    "connectWallet": {
+      "button": "Cüzdanı bağla"
+    },
+    "contactUs": {
+      "button": "Bize ulaş"
+    },
+    "contractInteraction": "Sözleşme Etkileşimi",
+    "copied": "Kopyalandı",
+    "copy": {
+      "address": "Adresi kopyala"
+    },
+    "copyLink": {
+      "button": "Bağlantıyı kopyala"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Havuz oluşturma işlemi iptal edildi",
+        "failed": "Havuz oluşturulamadı"
+      }
+    },
+    "created": {
+      "date": "Oluşturulma: {{date}}",
+      "pool": "Havuz oluşturuldu"
+    },
+    "creating": {
+      "pool": "Havuz oluşturuluyor"
+    },
+    "currency": "Para birimi",
+    "custom": "Özel",
+    "customRange": "Özel aralık",
+    "dataOutdated": "Veriler güncel olmayabilir",
+    "default": "Varsayılan",
+    "defaultTradeOptions": "Varsayılan alım satım seçenekleri",
+    "delegate": {
+      "cancelled": "Devretme iptal edildi",
+      "failed": "Devretme başarısız oldu"
+    },
+    "delegated": "Devredildi",
+    "delegating": "Devrediliyor",
+    "deploy": {
+      "cancelled": "Dağıtım iptal edildi",
+      "failed": "Dağıtım başarısız oldu"
+    },
+    "deployed": "Dağıtıldı",
+    "deploying": "Dağıtılıyor",
+    "deposit": {
+      "cancelled": "Yatırma iptal edildi",
+      "failed": "Yatırma başarısız oldu",
+      "toNetwork": "Token'ları {{label}} ağına yatır."
+    },
+    "deposited": "Yatırıldı",
+    "depositing": "Yatırılıyor",
+    "depositTokens": "Token'ları yatır",
+    "detected": "Tespit edildi",
+    "developers": "Geliştiriciler",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "Kapat",
+    "displaySettings": "Görüntüleme ayarları",
+    "dnsRegistrar": "DNS Kayıt Şirketi",
+    "donate": "Bağışla",
+    "done": "Bitti",
+    "dontShowAgain": "Bunu tekrar gösterme",
+    "download": "İndir",
+    "downloadAppStore": "App Store'dan indir",
+    "downloadPlayStore": "Play Store'dan indir",
+    "downloadUniswap": "Uniswap'ı indir",
+    "downloadUniswapApp": "Uniswap uygulamasını indir",
+    "dynamic": "Dinamik",
+    "edit": {
+      "button": "Düzenle"
+    },
+    "error": {
+      "details": "Hata ayrıntıları",
+      "general": "Bir şeyler yanlış gitti",
+      "label": "Hata",
+      "request": "Üzgünüz, isteğin işlenirken bir hata oluştu. Destek talep ediyorsan bu hatanın ayrıntılarını mutlaka kopyala.",
+      "somethingWrong": "Bir şeyler yanlış gitti!",
+      "wrong": {
+        "tryAgain": "Bir şeyler yanlış gitti. Lütfen tekrar dene."
+      }
+    },
+    "errorConnecting": {
+      "error": "Bağlanırken hata oluştu"
+    },
+    "errorLoadingData": {
+      "error": "Veriler yüklenirken hata oluştu"
+    },
+    "ethereumNameService": "Ethereum Ad Hizmeti",
+    "etherscan": {
+      "link": "Etherscan'de görüntüle"
+    },
+    "ethRegistrarController": "ETH Kayıt Şirketi Denetleyicisi",
+    "execute": {
+      "cancelled": "Yürütme iptal edildi",
+      "failed": "Yürütme başarısız oldu"
+    },
+    "executed": "Yürütüldü",
+    "executing": "Yürütülüyor",
+    "expired": "Süresi doldu",
+    "expiry": "Süre dolumu",
+    "explore": "Keşfet",
+    "explorer": "Gezgin",
+    "exploreTokens": "Token'ları keşfet",
+    "extension": "Uniswap Uzantısı",
+    "failed": {
+      "error": "Başarısız oldu"
+    },
+    "failedSwitchNetwork": "Ağlar değiştirilemedi",
+    "fee": "Ücret",
+    "fees": "Ücretler",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolB}} başına {{symbolA}}",
+    "fetchingRoute": "Rota getiriliyor",
+    "floor": "Taban",
+    "floorPrice": "Taban fiyat",
+    "for": "Şunun için:",
+    "fullRange": "Tam aralık",
+    "getApp": "Uygulamayı indir",
+    "getHelp": {
+      "button": "Yardım al"
+    },
+    "getStarted": "Başla",
+    "getSupport": {
+      "button": "Destek al"
+    },
+    "getTheApp": "Uygulamayı indir",
+    "getUniswapWallet": "Uniswap Cüzdan'ı edin",
+    "governance": "Yönetişim",
+    "happyHolidays": "Uniswap ekibinden Mutlu Yıllar!",
+    "helpCenter": "Yardım merkezi",
+    "hidden": "Gizli",
+    "hide": {
+      "button": "Gizle"
+    },
+    "highPrice": "Yüksek fiyat",
+    "includes": "Şunu içerir:",
+    "info": {
+      "label": "Bilgi"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Alıcı seç"
+      },
+      "password": {
+        "confirm": "Şifreyi onayla",
+        "error": {
+          "mismatch": "Şifreler eşleşmiyor",
+          "weak": "Bu şifre çok zayıf"
+        },
+        "new": "Yeni şifre",
+        "placeholder": "Şifre",
+        "strength": {
+          "medium": "Orta",
+          "strong": "Güçlü",
+          "weak": "Zayıf"
+        }
+      },
+      "search": "Arama"
+    },
+    "insufficient": {
+      "funds": "Yetersiz fon"
+    },
+    "insufficientBalance": {
+      "error": "Yetersiz bakiye"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Ağ maliyetini karşılamak için yeterli fon yok"
+    },
+    "insufficientLiquidity": "Yetersiz likidite",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Yetersiz {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Geçersiz işlem çifti",
+    "invalidRecipient": {
+      "error": "Geçersiz alıcı"
+    },
+    "iOSAndroid": "iOS ve Android",
+    "language": "Dil",
+    "lastPrice": "Son fiyat",
+    "learnMoreSwap": "Swap işlemleri hakkında daha fazla bilgi edin",
+    "legalAndPrivacy": "Yasal ve Gizlilik",
+    "less": "Daha az",
+    "limit": {
+      "cancel_one": "Limiti iptal et",
+      "cancel_other": "{{count}} limiti iptal et",
+      "cancelled": "Limit iptal edildi",
+      "executed": "Limit uygulandı",
+      "expired": "Limitin süresi doldu",
+      "failed": "Limit başarısız oldu",
+      "opened": "Limit açıldı",
+      "pending": "Limit beklemede"
+    },
+    "limits": {
+      "approachMax": "Maksimum 100 limitine yaklaşılıyor",
+      "cancelProceed": "Devam etmek için limitleri iptal et",
+      "expires": "{{timestamp}} itibarıyla süresi dolacak",
+      "open": "Limitleri aç",
+      "when": "{{price}} {{outSymbol}}/{{inSymbol}} olduğunda"
+    },
+    "links": "Bağlantılar",
+    "liquidity": {
+      "removed": "Likidite kaldırıldı"
+    },
+    "loading": "Yükleniyor",
+    "loadingAllowance": "Erişim izni olan varlıklar yükleniyor",
+    "loadMore": "Daha fazlasını yükle",
+    "longText": {
+      "button": {
+        "less": "Daha az göster",
+        "more": "Devamını oku"
+      }
+    },
+    "lowPrice": "Düşük fiyat",
+    "manage": "Yönet",
+    "market": {
+      "label": "Piyasa"
+    },
+    "marketPrice": {
+      "fetching": "Piyasa fiyatı getiriliyor...",
+      "label": "Piyasa fiyatı:",
+      "unavailable": "Piyasa fiyatı bulunamadı. Fon kaybetmemek için lütfen kendi araştırmanı yap."
+    },
+    "max": "Maks.",
+    "message": "Mesaj Gönder",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Likidite taşıma iptal edildi",
+        "failed": "Likidite taşıma başarısız oldu"
+      },
+      "position": "Pozisyonu taşı",
+      "v3": "V3'e taşı"
+    },
+    "migrated": {
+      "liquidity": "Likidite taşındı"
+    },
+    "migrating": {
+      "liquidity": "Likidite taşınıyor"
+    },
+    "min": "Min.",
+    "mint": {
+      "cancelled": "Mint etme işlemi iptal edildi",
+      "failed": "Mint etme başarısız oldu"
+    },
+    "minted": "Mint edildi",
+    "minting": "Mint ediliyor",
+    "mobile": "Mobil",
+    "more": "Daha fazla",
+    "multiDevice": "Çoklu cihaz",
+    "navigation": {
+      "settings": "Ayarlar",
+      "systemSettings": "Ayarlar"
+    },
+    "navigationButton": "Gezinme düğmesi",
+    "needHelp": "Yardıma mı ihtiyacın var?",
+    "networkCost": "Ağ maliyeti",
+    "neverMind": "Göz ardı et",
+    "new": {
+      "exclamation": "Yeni!"
+    },
+    "nft": "NFT",
+    "nfts": "NFT'ler",
+    "noActivity": "Henüz etkinlik yok",
+    "noAmount": {
+      "error": "Bir tutar gir"
+    },
+    "noData": "Veri yok",
+    "noResults": "Sonuç bulunamadı.",
+    "notAvailableInRegion": {
+      "error": "Bölgende mevcut değil"
+    },
+    "notCreated": {
+      "label": "Oluşturulmadı"
+    },
+    "notSupported": "Desteklenmiyor",
+    "oneDay": {
+      "short": "1 g"
+    },
+    "oneHour": {
+      "short": "1 sa"
+    },
+    "oneMonth": "1 ay",
+    "oneWeek": "1 hafta",
+    "oneYear": "1 yıl",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "Emir iptal edildi",
+    "orderExecuted": "Emir gerçekleştirildi",
+    "orderExpired": "Emrin süresi doldu",
+    "orderPending": "Emir beklemede",
+    "outOfRange": "Aralık dışı",
+    "pageNotFound": "Sayfa bulunamadı!",
+    "passkey": {
+      "count": "Geçiş anahtarı {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "Geçen gün",
+    "pastFiveMinutes": "Son beş dakika",
+    "pastHour": "Geçen saat",
+    "pastMonth": "Geçen ay",
+    "pastWeek": "Geçen hafta",
+    "pastYear": "Geçen yıl",
+    "pay": {
+      "button": "Öde"
+    },
+    "pending": {
+      "cancellation": "İptal bekleniyor"
+    },
+    "pendingEllipsis": "Bekleniyor...",
+    "permit2": "İzin2",
+    "pool": "Havuz",
+    "pools": "Havuzlar",
+    "poweredBy": "<name /> tarafından destekleniyor",
+    "price": "Fiyat",
+    "priceImpact": "Fiyat etkisi uyarısı",
+    "priceUpdated": "Fiyat güncellendi",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "İşaretlendiğinde, verilerinizi kişiselleştirilmiş reklamlar için üçüncü taraf iş ortaklarımızla paylaşmayız. Bu kutunun işaretini kaldırarak paylaşımı dilediğiniz zaman etkinleştirebilirsiniz.",
+        "label": "Bilgilerimi paylaşma"
+      },
+      "description": "Hizmetlerimizi başka web siteleri ve platformlarda tanıtmak amacıyla, cihaz tanımlayıcılarını reklam iş ortaklarımızla paylaşabiliriz. Söz konusu eylemin yürürlükteki yasalar çerçevesinde satış, paylaşım veya hedefli reklamcılık olarak nitelendirildiği durumlarda, \"bilgilerimi paylaşma\" kutusunu işaretleyerek ayrılabilirsiniz. Gizlilik uygulamalarımız hakkında daha fazla bilgi için lütfen <privacyLink>Gizlilik Politikası</privacyLink> belgemizi inceleyin.",
+      "disclaimer": "Seçiminizin yalnızca bu cihazdaki bu tarayıcı için geçerli olacağını lütfen unutmayın. Hizmetlerimize erişmek için kullandığınız tarayıcıdaki Genel Gizlilik Kontrolü ayarını etkinleştirerek de ayrılabilirsiniz. Daha fazla seçenek görüntülemek için ayarlarınıza gidin."
+    },
+    "privacyPolicy": "Gizlilik Politikası",
+    "proceed": "İlerle",
+    "proceedInWallet": {
+      "short": "Cüzdanda ilerle"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "Genel Çözümleyici",
+    "purchased": "Satın alındı",
+    "queue": {
+      "cancelled": "Kuyruğa alma iptal edildi",
+      "failed": "Kuyruğa alma başarısız oldu"
+    },
+    "queued": "Kuyruğa alındı",
+    "queuing": "Kuyruğa alınıyor",
+    "rate": "Oran",
+    "readMore": "Devamını oku",
+    "receive": {
+      "cancelled": "Alma iptal edildi",
+      "failed": "Alma başarısız oldu"
+    },
+    "received": "Alındı",
+    "receiving": "Alınıyor",
+    "recent": "En son",
+    "rejected": "Reddedildi",
+    "reload": {
+      "label": "Uygulamayı yeniden yükle"
+    },
+    "remove": {
+      "label": "Kaldır",
+      "liquidity": {
+        "cancelled": "Likidite kaldırma iptal edildi",
+        "failed": "Likidite kaldırılamadı"
+      }
+    },
+    "removedLiquidity": "Likidite kaldırıldı",
+    "removeItem": "Ögeyi kaldır",
+    "removing": {
+      "liquidity": "Likidite kaldırılıyor"
+    },
+    "repaid": "Geri ödendi",
+    "repay": {
+      "cancelled": "Geri ödeme iptal edildi",
+      "failed": "Geri ödeme başarısız oldu"
+    },
+    "repaying": "Geri ödeme yapılıyor",
+    "resetLimit": "{{symbol}} limitini sıfırla",
+    "resetLimitWallet": "Cüzdandaki {{symbol}} limitini sıfırla",
+    "resettingLimit": "{{symbol}} limiti sıfırlanıyor...",
+    "resolveIssues_one": "Sorunu çöz",
+    "resolveIssues_other": "{{count}} sorunu çöz",
+    "restricted": {
+      "region": "Kısıtlı bölge"
+    },
+    "reverseRegistrar": "Ters Kayıt Sistemi",
+    "revoke": {
+      "approval": {
+        "failed": "Onay iptal edilemedi"
+      }
+    },
+    "revoked": {
+      "approval": "Onay iptal edildi"
+    },
+    "revokedApproval": "Onay İptal Edildi",
+    "revoking": {
+      "approval": "Onay iptal ediliyor"
+    },
+    "samePrice": "Aynı fiyat",
+    "scanQRDownload": "İndirmek için QR kodunu telefonunla tara",
+    "selectRegion": {
+      "label": "Bölgeni seç"
+    },
+    "selectToken": {
+      "label": "Bir token seç"
+    },
+    "selfCustodial": "Kendi kendine emanet",
+    "sell": {
+      "label": "Sat"
+    },
+    "send": {
+      "button": "Gönder",
+      "cancelled": "Gönderme iptal edildi",
+      "failed": "Gönderme başarısız oldu"
+    },
+    "sending": "Gönderiliyor",
+    "sent": "Gönderildi",
+    "settings": "Ayarlar",
+    "share": {
+      "shareToTwitter": "Twitter'da paylaş",
+      "twitter": "Twitter'da paylaş"
+    },
+    "show": {
+      "button": "Göster"
+    },
+    "showLess": {
+      "button": "Daha az göster"
+    },
+    "showMore": {
+      "button": "Daha fazla göster"
+    },
+    "signatureExpired": "İmzanın süresi doldu.",
+    "signMessage": "Mesajı imzala",
+    "signMessageWallet": "Cüzdandaki mesajı imzala",
+    "sold": "Satıldı",
+    "stats": "İstatistikler",
+    "status": "Durum",
+    "stayConnected": "Bağlı kal",
+    "step": {
+      "number": "Adım {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Teklif gönderme iptal edildi",
+        "failed": "Teklif gönderilemedi"
+      }
+    },
+    "submitted": {
+      "proposal": "Teklif gönderildi"
+    },
+    "submitting": {
+      "proposal": "Teklif gönderiliyor"
+    },
+    "swap": {
+      "cancelled": "Swap iptal edildi",
+      "expired": "Swap süresi doldu",
+      "failed": "Swap başarısız oldu"
+    },
+    "swapped": "Swap edildi",
+    "swapPending": "Swap bekleniyor...",
+    "swapping": "Swap ediliyor",
+    "switchNetworks": "Ağları değiştir",
+    "termsOfService": "Hizmet Şartları",
+    "text": {
+      "connected": "Bağlı",
+      "contract": "Sözleşme",
+      "disconnected": "Bağlantı kesildi",
+      "error": "Hata",
+      "notAvailable": "Yok",
+      "recipient": "Kime",
+      "sender": "Kimden",
+      "unknown": "Bilinmiyor"
+    },
+    "thisMonth": "Bu ay",
+    "thisToken": "Bu token",
+    "thisWeek": "Bu hafta",
+    "thisYear": "Bu yıl",
+    "time": {
+      "days": "gün",
+      "days_one": "gün",
+      "days_other": "gün",
+      "hours": "saat",
+      "hours_one": "saat",
+      "hours_other": "saat",
+      "minute": {
+        "amt": "{{time}} dk"
+      },
+      "minutes": "dakika",
+      "months": "ay",
+      "months_one": "ay",
+      "months_other": "ay",
+      "past": {
+        "days": {
+          "short": "{{days}} g"
+        },
+        "hours": {
+          "short": "{{hours}} sa"
+        },
+        "minutes": {
+          "short": "{{minutes}} dk"
+        },
+        "months": {
+          "short": "{{months}} ay"
+        },
+        "seconds": {
+          "short": "{{seconds}} sn"
+        }
+      },
+      "weeks": "hafta",
+      "weeks_one": "hafta",
+      "weeks_other": "hafta"
+    },
+    "to": "kime",
+    "today": "Bugün",
+    "tokenA": "Token A",
+    "tokenAmount": "Token miktarı",
+    "tokenB": "Token B",
+    "tokenName": "Token adı",
+    "tokens": "Token'lar",
+    "totalUniswapTVL": "Toplam Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "Alım Satım",
+    "trademarkPolicy": "Ticari Marka Politikası",
+    "transactionDetails": "İşlem ayrıntıları",
+    "transactionId": "İşlem Kimliği",
+    "transactionPending": "İşlem beklemede",
+    "transactions": "İşlemler",
+    "transactionSettings": "İşlem Ayarları",
+    "transfer_one": "transfer",
+    "transfer_other": "transfer",
+    "tryAgain": {
+      "error": "Tekrar dene"
+    },
+    "twitter": "Twitter",
+    "type": {
+      "label": "Tip"
+    },
+    "unavailable": "Mevcut değil",
+    "unhide": "Göster",
+    "uniGovernance": "UNI Yönetişimi",
+    "uniswapMobile": "Uniswap Mobil",
+    "uniswapProtocol": "Uniswap Protokolü",
+    "uniswapWallet": "Uniswap cüzdan",
+    "uniswapX": "UniswapX",
+    "unknown": "Bilinmeyen",
+    "unknownApproval": "Bilinmeyen Onay",
+    "unknownBridge": "Bilinmeyen Köprü",
+    "unknownError": {
+      "error": "Bilinmeyen Hata"
+    },
+    "unknownLend": "Bilinmeyen Borç",
+    "unknownMint": "Bilinmeyen Mint",
+    "unknownSend": "Bilinmeyen Gönderim",
+    "unknownSwap": "Bilinmeyen Swap",
+    "unsupportedAsset_one": "Desteklenmeyen varlık",
+    "unsupportedAsset_other": "Desteklenmeyen varlıklar",
+    "unwrap": {
+      "button": "Aç",
+      "failed": "Açma başarısız oldu"
+    },
+    "unwrapped": "Açıldı",
+    "unwrapping": "Açılıyor",
+    "view": {
+      "profile": "Profili görüntüle"
+    },
+    "viewOnExplorer": "Gezgin'de görüntüle",
+    "volume": "Hacim",
+    "vote": {
+      "cancelled": "Oy iptal edildi",
+      "failed": "Oy başarısız oldu"
+    },
+    "voted": "Oy verildi",
+    "voting": "Oy veriliyor",
+    "wallet": {
+      "approve": "Cüzdanda onayla",
+      "label": "Cüzdan"
+    },
+    "walletForSwapping": "Swap işlemi için geliştirilmiş cüzdan. iOS ve Android'de mevcuttur.",
+    "warning": "Uyarı",
+    "webApp": "Web uygulaması",
+    "website": "Web sitesi",
+    "whyApprove": "Neden bir token'ı onaylamam gerekiyor?",
+    "whySign": "İmzalar neden gerekli?",
+    "whyWrap": "Neden {{symbol}} varlığımı sarmam gerekiyor?",
+    "withdraw": {
+      "failed": "Çekim başarısız oldu"
+    },
+    "withdrawal": {
+      "amount": "Çekim tutarı",
+      "cancelled": "Çekim iptal edildi"
+    },
+    "withdrawing": "Çekiliyor",
+    "withdrew": "Çekildi",
+    "withinRange": "Aralık içinde",
+    "wrap": {
+      "cancelled": "Sarma iptal edildi",
+      "failed": "Sarma başarısız oldu"
+    },
+    "wrapIn": "{{symbol}} token'ını cüzdanda sar",
+    "wrapped": "Sarıldı",
+    "wrapping": "Sarılıyor",
+    "wrappingToken": "{{symbol}} sarılıyor...",
+    "wrongNetwork": "Yanlış ağ",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Hesabında bu swap işlemini tamamlamak için yeterli fon yoktu."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Hesabında bu swap işlemini tamamlamak için yeterli fon yok."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Limitin şu anda karşılanamıyor. Lütfen tekrar dene."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Swap işlemin şu anda gerçekleştirilemiyor. Lütfen tekrar dene."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Satın aldığın",
+    "youRecieve": "Aldığın",
+    "youreSending": "Gönderdiğin"
+  },
+  "currency": {
+    "aud": "Avustralya doları",
+    "brl": "Brezilya reali",
+    "cad": "Kanada doları",
+    "cny": "Çin yuanı",
+    "eur": "avro",
+    "gbp": "İngiliz sterlini",
+    "hkd": "Hong Kong doları",
+    "idr": "Endonezya rupiahı",
+    "inr": "Hint rupisi",
+    "jpy": "Japon yeni",
+    "krw": "Güney Kore wonu",
+    "ngn": "Nijerya nairası",
+    "pkr": "Pakistan rupisi",
+    "rub": "Rus rublesi",
+    "sgd": "Singapur doları",
+    "thb": "Tayland bahtı",
+    "try": "Türk lirası",
+    "uah": "Ukrayna grivnası",
+    "usd": "Amerikan doları",
+    "vnd": "Vietnam dongu"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Onayla",
+        "fallbackTitle": "Token'lara erişmek için bu siteyi onayla",
+        "helptext": "Bu sitenin bu token'a erişmesine ve token'ı işlemler için harcamasına izin ver. Bu siteye güvendiğinden emin ol.",
+        "label": "Cüzdan",
+        "title": "{{tokenSymbol}} token'ına erişimi onayla"
+      },
+      "base": {
+        "title": "İşlem talebi"
+      },
+      "bridge": {
+        "description": "ETH, USDC ve daha fazlasını {{numChains}} üzerinde ağ arasında taşı.",
+        "title": "Köprülemeye mi çalışıyorsun?"
+      },
+      "connect": {
+        "helptext": "Bu sitenin cüzdan adresini ve bakiyeni görüntülemesine ve işlemler için onay istemesine izin ver.",
+        "title": "Siteye bağlan"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Ham veriler"
+        },
+        "function": {
+          "label": "İşlev"
+        }
+      },
+      "permit2": {
+        "description": "İzin2, birden fazla dapp genelinde token onaylarını yönetir.",
+        "header": "İzin2'yi imzala"
+      },
+      "reject": {
+        "action": "Tümünü reddet",
+        "info": "<highlight>{{totalRequestCount}}</highlight> işlem talebin var"
+      },
+      "revoke": {
+        "action": "İptal et",
+        "helptext": "Bu sitenin, bu token'ı işlemlerde harcamaya yönelik erişimi iptal etmesine izin ver. Bu siteye güvendiğinden emin ol.",
+        "title": "{{tokenSymbol}} token'ına erişimi iptal et"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Bu mesaj işlenemeyen karakterler içeriyor. Bu siteye güvendiğinden emin ol.",
+        "decodeError": "Mesajın kodu çözülemedi",
+        "header": "İmza talebi",
+        "irregular": {
+          "description": "Devam etmeden önce bu siteye güvendiğinden emin ol",
+          "understand": "Riskleri anlıyorum"
+        },
+        "toggleDataView": {
+          "raw": "Ham verileri görüntüle",
+          "readable": "Orijinal verileri görüntüle"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Doğrusu olduğundan emin ol",
+          "title": "Bu aktif cüzdanın değil"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Buradan giriş yap"
+      },
+      "getStarted": {
+        "description": "Telefonunda veya tarayıcında kullanabileceğin Uniswap Cüzdan'ı indirerek başla.",
+        "title": "Uniswap'ı kullanmaya başla"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Aşağıdan kaydolarak veya telefonundan ya da tarayıcından ulaşabileceğin cüzdanımızı indirerek saniyeler içinde kullanmaya başla."
+        },
+        "title": "Uniswap'a kaydol"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap ürünleri, en iyi zincir içi deneyimi sunmak için kusursuz bir şekilde birlikte çalışır."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "Bu, Uniswap protokolüne alım satım için token'ına erişim izni verir. Güvenlik nedeniyle 30 gün sonra sona erer."
+    },
+    "dataUnavailable": "Veriler şu anda kullanılamıyor; bir düzeltme üzerinde çalışıyoruz",
+    "id": "Hata Kimliği: {{eventId}}",
+    "noData": "Veri bulunamadı",
+    "request": {
+      "provideId": "Üzgünüz, talebin işlenirken bir hata oluştu. Destek talep ediyorsan hata kimliğini sağladığından emin ol."
+    },
+    "tokenApproval": "Token onayı başarısız oldu",
+    "tokenApprovalEdited": {
+      "message": "Cüzdanında ayarlanan onay tutarı bu işlemi tamamlamak için çok düşük. Lütfen tekrar dene ve tutarı artır."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Bir şey çöktü.",
+      "restart": "Uygulamayı yeniden başlat",
+      "title": "Hay aksi!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Daha fazla havuz keşfet"
+    },
+    "search": {
+      "action": {
+        "clear": "Temizle",
+        "viewEtherscan": "{{blockExplorerName}} üzerinde görüntüle"
+      },
+      "empty": {
+        "full": "<highlight>\"{{searchQuery}}\"</highlight> için sonuç bulunamadı"
+      },
+      "error": "Arama sonuçları yüklenemedi",
+      "label": {
+        "ownedBy": "Sahibi: {{ownerAddress}}"
+      },
+      "placeholder": "Token'ları ve cüzdanları ara",
+      "section": {
+        "nft": "NFT Koleksiyonları",
+        "popularNFT": "Popüler NFT koleksiyonları",
+        "popularTokenInfo": "Popüler token'lar, Uniswap'ta son 24 saatte gerçekleşen alım satım hacmine göre belirlenir.",
+        "popularTokens": "Popüler token'lar",
+        "recent": "Son aramalar",
+        "tokens": "Token'lar",
+        "wallets": "Cüzdanlar"
+      }
+    },
+    "tokens": {
+      "error": "Token'lar yüklenemedi",
+      "favorite": {
+        "action": {
+          "add": "Favori token",
+          "edit": "Favorileri düzenle",
+          "remove": "Favoriyi kaldır"
+        },
+        "title": {
+          "default": "Favori token'lar",
+          "edit": "Favori token'ları düzenle"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} Piyasa Değeri",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Hacim"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Piyasa değeri",
+          "priceDecrease": "Fiyat düşüşü",
+          "priceIncrease": "Fiyat artışı",
+          "totalValueLocked": "TVL",
+          "volume": "Hacim"
+        },
+        "option": {
+          "marketCap": "Piyasa değeri",
+          "priceDecrease": "Fiyat düşüşü (24 saat)",
+          "priceIncrease": "Fiyat artışı (24 saat)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap hacmi (24 saat)"
+        }
+      },
+      "top": {
+        "title": "En iyi token'lar"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Favori cüzdan",
+          "edit": "Favorileri düzenle",
+          "remove": "Favoriyi kaldır"
+        },
+        "title": {
+          "default": "Favori cüzdanlar",
+          "edit": "Favori cüzdanları düzenle"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "Ağ",
+      "networks": "Ağlar",
+      "popup": {
+        "trouble": "Bağlanırken sorun mu yaşıyorsun?"
+      },
+      "titleConnected": "Bağlı",
+      "titleNotConnected": "Bağlı değil"
+    },
+    "lock": {
+      "button": {
+        "forgot": "Şifreni mi unuttun?",
+        "reset": "Cüzdanı sıfırla",
+        "submit": "Kilidini aç"
+      },
+      "password": {
+        "error": "Yanlış şifre. Tekrar dene",
+        "reset": {
+          "initial": {
+            "description": "Uniswap, şifreni kurtarmana yardımcı olamaz. 12 kelimelik kurtarma cümleni tekrar girerek cüzdanını sıfırlaman gerekir.",
+            "help": "Kurtarma cümlemi nerede bulabilirim?",
+            "title": "Şifremi unuttum"
+          },
+          "speedbump": {
+            "description": "Cüzdanını sıfırlamadan önce 12 kelimelik kurtarma cümlen olduğundan emin ol. Aksi hâlde fonlarını kurtaramazsın.",
+            "help": "Kurtarma cümlemi kaybettim",
+            "title": "Devam etmeden önce"
+          }
+        }
+      },
+      "subtitle": "Kilidi açmak için şifreni gir",
+      "title": "Tekrar hoş geldin"
+    },
+    "network": {
+      "notSupported": "Desteklenmeyen ağ"
+    },
+    "open": "Uniswap Uzantısını Aç",
+    "popup": {
+      "chrome": {
+        "button": "Uzantıyı aç",
+        "description": "Bu işlemi Uniswap uzantısını açarak tamamla.",
+        "title": "Uniswap'ta devam et"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "Uygulamalara bağlanırken Uniswap Uzantısına öncelik ver.",
+        "title": "Varsayılan cüzdan olarak ayarlamak"
+      },
+      "password": {
+        "enter": {
+          "title": "Mevcut şifreni gir"
+        },
+        "error": {
+          "wrong": "Yanlış şifre"
+        },
+        "placeholder": "Mevcut şifre"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Yedekle",
+        "message": "Cüzdanına ve fonlarına erişimini kaybetmemek için kurtarma cümleni yedeklediğinden emin ol.",
+        "title": "Tarayıcının depolama alanı tükeniyor"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "Egzotik işlem çiftleri için en iyisi.",
+    "bestForMost": "Çoğu işlem çifti için en iyisi.",
+    "bestForStablePairs": "İstikrarlı işlem çiftleri için en iyisi.",
+    "bestForVeryStable": "Çok istikrarlı işlem çiftleri için en iyisi.",
+    "dynamic": "Dinamik ücret",
+    "percentEarned": "Ücretlerden kazanacağın yüzde.",
+    "selectPercent": "%{{pct}} seç",
+    "selectPercentDescription": "Bu kademede %{{pct}} oranında likidite seçildi",
+    "tier": {
+      "create": {
+        "button": "Yeni ücret kademesi oluştur",
+        "description": "Yeni bir kademe oluşturmak yeni bir havuzda başlatmaya neden olur ve normalden daha yüksek ağ maliyetlerine yol açar."
+      },
+      "description": {
+        "v2": "Likidite sağlayarak kazanılan tutar. Tüm v2 havuzlarının sabit %0,3 ücreti vardır. Daha fazla seçenek için v4'te likidite sağlayın."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Dinamik ücret kademesine sahip bir havuz oluşturmak üzeresin. Devam etmeden önce, seçilen kancanın dinamik ücretleri desteklediğinden lütfen emin ol."
+        }
+      },
+      "highestTvl": "En yüksek TVL",
+      "label": "Ücretlerden kazanacağın yüzde",
+      "missing": {
+        "description": "Aradığın kademeyi bulamıyor musun?"
+      },
+      "new": "Yeni kademe",
+      "percent": {
+        "select": "{{percentage}} için seçim"
+      },
+      "recommended": {
+        "description": "Seçilen token çifti için en yüksek likidite payına göre tavsiye edilmiştir."
+      },
+      "search": {
+        "short": "Kademeleri ara"
+      },
+      "select": {
+        "existing": {
+          "button": "Mevcut ücret kademesini seç"
+        }
+      }
+    },
+    "tierExact": "{{fee}} ücret kademesi",
+    "unavailable": "Kazanılan ücretler, likidite kaldırılana kadar v2 pozisyonları için görünür değildir.",
+    "uncollected": "Tahsil edilmemiş ücretler içeriyor:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Şununla sat:"
+    },
+    "connection": {
+      "quote": "{{currencySymbol}} değerinde {{amount}} satılıyor"
+    },
+    "error": {
+      "balance": "Bakiyeyi aşıyor"
+    },
+    "summary": {
+      "total": "{{fiatAmount}} karşılığında {{cryptoAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Geri dön",
+      "divider": "Desteklenmeyen token'lar",
+      "message": "Bu token'ın satışı desteklenmiyor. Bu varlığı desteklenen token'lardan biriyle swap et.",
+      "swap": "Desteklenen bir token ile swap et",
+      "title": "Desteklenmeyen token"
+    },
+    "welcome": {
+      "tooltip": "Kripto paranı banka hesabına veya banka kartına sat."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Token seç"
+    },
+    "cexTransferModal": {
+      "description": "Bölgende kartla kripto para alımı desteklenmiyor. Cüzdanına fon yatırmak için varlıkları merkezi bir borsa hesabından transfer et.",
+      "title": "Başlamak için transfer et"
+    },
+    "checkout": {
+      "title": "Şununla ödeme yap:"
+    },
+    "checkoutWith": "Şununla ödeme yap:",
+    "chooseProvider": {
+      "description": "İşleminle ilişkili ücretleri görmek için sağlayıcının portalına yönlendirileceksin."
+    },
+    "completeTransactionHeader": "İşlemi {{serviceProvider}} ile tamamla",
+    "connection": {
+      "error": "Bağlantı başarısız oldu",
+      "errorDescription": "{{serviceProvider}} ile bağlantı kurulurken bir sorun oluştu.",
+      "message": "Seni {{serviceProvider}} sağlayıcısına bağlıyoruz",
+      "quote": "{{currencySymbol}} değerinde {{amount}} alınıyor",
+      "terms": "Devam ederek, uygulanabilir olduğu şekilde {{serviceProvider}} ile Hizmet Şartları ve Gizlilik Politikasına tabi olacağını kabul etmiş olursun."
+    },
+    "continueInTab": "Devam etmek için {{serviceProvider}} sekmesine git. Bu kipi kapatmak artık güvenli.",
+    "disclaimer": "Devam ederek, uygulanabilir olduğu şekilde {{serviceProvider}} ile <tosLink>Hizmet Şartları</tosLink> ve <privacyLink>Gizlilik Politikasına</privacyLink> tabi olacağını kabul etmiş olursun.",
+    "error": {
+      "default": "Bir şeyler yanlış gitti.",
+      "load": "Alınacak token'lar yüklenemedi",
+      "max": "Maksimum {{amount}}",
+      "min": "Minimum {{amount}}",
+      "noQuotes": "Son fiyat bulunamadı.",
+      "unavailable": "Bu hizmet bölgende kullanılamıyor",
+      "unsupported": "Bölgede desteklenmiyor",
+      "usd": "Yalnızca USD cinsinden satın alınabilir"
+    },
+    "exchangeRate": "{{inputAmount}} {{inputSymbol}} karşılığında {{outputAmount}} {{outputSymbol}}",
+    "noQuotes": {
+      "error": "Son fiyat bulunamadı"
+    },
+    "purchasedOn": "{{serviceProvider}} üzerinden satın alındı",
+    "quote": {
+      "advice": "İşleminle ilişkili ücretleri görmek için sağlayıcının portalına yönlendirileceksin.",
+      "type": {
+        "list": "{{optionsList}} ve diğer seçenekler",
+        "other": "Diğer seçenekler",
+        "recent": "Son kullanılan"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Bir hesaptan"
+        }
+      },
+      "title": "Kripto para al",
+      "transferFunds": "Başka bir cüzdan veya hesaptan kripto para transfer ederek cüzdanına fon ekle"
+    },
+    "region": {
+      "placeholder": "Ülkeye veya bölgeye göre ara",
+      "title": "Bölgeni seç"
+    },
+    "summary": {
+      "total": "{{fiatAmount}} karşılığında {{cryptoAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Şimdi güncelle",
+      "learn": "Nasıl güncelleyeceğini öğren",
+      "recoveryPhrase": "Kurtarma cümlesini görüntüle"
+    },
+    "description": {
+      "extension": "Uygulamanın yeni bir sürümü mevcut. Uniswap Uzantısı'nı kullanmaya devam etmek için lütfen uygulamayı en son sürüme güncelle.",
+      "wallet": "Uygulamanın yeni bir sürümü mevcut. Uniswap Cüzdan'ı kullanmaya devam etmek için lütfen uygulamayı en son sürüme güncelle."
+    },
+    "label": {
+      "recoveryPhrase": "Kurtarma cümlesi"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "Genel tercihler"
+  },
+  "hero": {
+    "scroll": "Daha fazlasını öğrenmek için kaydır",
+    "subtitle": "En büyük zincir içi pazar yeri. Ethereum ve 11'den fazla diğer zincirde kripto para alıp satabilirsin.",
+    "swap": {
+      "title": "Dilediğin zaman, <br/> dilediğin yerde swap yap."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Gizli NFT'ler hakkında daha fazla bilgi edin"
+        },
+        "text": {
+          "button": "Gizli NFT'ler ({{numHidden}})",
+          "extension": "Bunlar potansiyel dolandırıcılıklar ve gizlediğin NFT'lerdir. Bir NFT'yi gizlemek için üzerine sağ tıklayabilirsin.",
+          "mobile": "Bunlar potansiyel dolandırıcılıklar ve gizlediğin NFT'lerdir. Bir NFT'yi göstermek için üzerine uzun süre basabilirsin.",
+          "title": "Gizli NFT'ler"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Gizli token'lar hakkında daha fazla bilgi edin"
+        },
+        "text": {
+          "button": "Gizli token'lar ({{numHidden}})",
+          "info": "Bunlar potansiyel dolandırıcılıklar, küçük bakiyeler ve gizlediğin token'lardır. Gizli token'lar toplam cüzdan bakiyene dâhil değildir.",
+          "title": "Gizli token'lar"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Token veya NFT al",
+        "description": {
+          "default": "Token'ları veya NFT'leri onayladığında, alıp sattığında veya transfer ettiğinde işlemlerin burada görünecek.",
+          "external": "Bu cüzdan işlem yaptığında işlemler burada görünür."
+        },
+        "title": "Henüz etkinlik yok"
+      },
+      "error": {
+        "load": "Etkinlik yüklenemedi"
+      },
+      "title": "Etkinlik"
+    },
+    "banner": {
+      "offline": "Çevrimdışı moddasın",
+      "testnetMode": {
+        "nav": "Test ağı modundasın. Bunu ayarlardan kapat.",
+        "outage": {
+          "monad": {
+            "description": "Ağ istikrarı sorunlarından ötürü, Uniswap arayüzünden Monad Testnet'e erişim geçici olarak durduruldu. Testnet fonları durumdan etkilenmedi. Sorunlar çözüldüğünde erişim yeniden sağlanacaktır.",
+            "title": "Monad geçici olarak durduruldu"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "Daha fazlasını keşfetmek için \"arama\" seçeneğine dokun",
+      "title": "Token'ları keşfet"
+    },
+    "extension": {
+      "error": "Hesaplar yüklenirken hata oluştu"
+    },
+    "label": {
+      "buy": "Al",
+      "for": "Al/Sat",
+      "receive": "Al",
+      "send": "Gönder",
+      "swap": "Swap"
+    },
+    "nfts": {
+      "title": "NFT'ler"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Banka kartı veya banka hesabıyla satın al.",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "Swap işlemine ve göndermeye başlamak için bu cüzdanın kurtarma cümlesini gir.",
+            "title": "Cüzdanı içe aktar"
+          },
+          "receive": {
+            "description": "Başka bir cüzdandan veya hesaptan transfer et.",
+            "title": "Kripto para al"
+          }
+        },
+        "description": "Bu cüzdan token aldığında veya cüzdana token geçtiğinde token'lar burada görünür.",
+        "title": "Henüz token yok",
+        "welcome": {
+          "description": "Görünüşe göre yeni bir cüzdanın var. İlk swap işlemini yapmadan önce cüzdanına fon ekleyelim."
+        }
+      },
+      "error": {
+        "fetch": "Token bakiyeleri getirilemedi",
+        "load": "Token bakiyeleri yüklenemedi"
+      },
+      "title": "Token'lar"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Bir hesaptan",
+        "description": "Başka bir cüzdan veya hesaptan kripto para transfer ederek cüzdanına fon ekle",
+        "title": "Kripto para al"
+      }
+    },
+    "warning": {
+      "viewOnly": "Bu, salt görüntülenebilir bir cüzdan"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Uniswap Protokolünde swap işlemi yap veya likidite sağla",
+      "title": "Uniswap Arayüzü"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Yeni nesil açık uygulamaları ve araçları oluştur.",
+    "connectWithUs": "Bizimle iletişime geç",
+    "devDocs": "Geliştirici belgeleri",
+    "directToDeFi": "Doğrudan DeFi'ye git",
+    "followOnX": "En son güncellemeler için @Uniswap hesabını X'te takip et",
+    "protocolDescription": "Uniswap ürünleri Uniswap Protokolü tarafından desteklenir. Protokol, Ethereum'daki binlerce token ve 7'den fazla ek zincirde haftalık milyarlarca dolarlık hacimle en büyük zincir içi pazar yeridir.",
+    "provideLiquidity": {
+      "message": "Uniswap Protokolünde havuzlara likidite sağla ve swap işlemlerinden ücret kazan."
+    },
+    "swapSimple": "Swap işlemi artık çok kolay. 11'den fazla zincirde binlerce token'a eriş.",
+    "teamInsights": "Ekipten bilgiler ve haberler",
+    "trusted": "Milyonların güvendiği çözüm"
+  },
+  "language": {
+    "afrikaans": "Afrikanca",
+    "arabic": "Arapça",
+    "catalan": "Katalanca",
+    "chineseSimplified": "Basitleştirilmiş Çince",
+    "chineseTraditional": "Geleneksel Çince",
+    "czech": "Çekçe",
+    "danish": "Danca",
+    "dutch": "Felemenkçe",
+    "english": "İngilizce",
+    "finnish": "Fince",
+    "french": "Fransızca",
+    "greek": "Yunanca",
+    "hebrew": "İbranice",
+    "hindi": "Hintçe",
+    "hungarian": "Macarca",
+    "indonesian": "Endonezya dili",
+    "italian": "İtalyanca",
+    "japanese": "Japonca",
+    "korean": "Korece",
+    "malay": "Malayca",
+    "norwegian": "Norveççe",
+    "polish": "Lehçe",
+    "portuguese": "Portekizce",
+    "romanian": "Romence",
+    "russian": "Rusça",
+    "serbian": "Sırpça",
+    "spanishLatam": "İspanyolca (Latin Amerika)",
+    "spanishSpain": "İspanyolca (İspanya)",
+    "spanishUs": "İspanyolca (ABD)",
+    "swahili": "Svahili",
+    "swedish": "İsveççe",
+    "turkish": "Türkçe",
+    "ukrainian": "Ukraynaca",
+    "urdu": "Urduca",
+    "vietnamese": "Vietnamca"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 açık limit",
+      "count_other": "{{count}} açık limit"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Limit fiyatın piyasadan %{{percentage}} daha yüksek. Devam etmek için limit fiyatını ayarla.",
+        "title": "Piyasa fiyatının üzerinde {{tokenSymbol}} satın alınıyor"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Güncel piyasa fiyatını hesaplayamıyoruz. Piyasa fiyatının altında bir emir göndermekten kaçınmak için lütfen ağ bağlantını kontrol et ve tekrar dene.",
+        "title": "Piyasa fiyatı mevcut değil"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Limit fiyatın piyasadan %{{percentage}} daha düşük. Devam etmek için limit fiyatını ayarla.",
+        "title": "Piyasa fiyatının altında {{tokenSymbol}} satılıyor"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Limitler için yalnızca Ana ağ token'ları kullanılabilir."
+        },
+        "uniswapx": "Token'lar belirtilen fiyata ulaştığında limitler tam olarak uygulanmayabilir. <link />"
+      }
+    },
+    "learnMore": "Limitler hakkında daha fazla bilgi edin",
+    "price": {
+      "input": {
+        "label": "1 <tokenSymbol /> değeri şu olduğunda:"
+      },
+      "label": "Limit fiyatı"
+    },
+    "selectSupportedTokens": "Desteklenen token'ları seç"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Kanca adresi gir"
+      }
+    },
+    "learnMoreLabel": "Likidite sağlama hakkında bilgi edin",
+    "notEnough": {
+      "label": "Doğru USD değerini göstermek için yeterli likidite yok."
+    },
+    "provideOnProtocols": "Farklı protokollerde likidite sağlamak"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likiditesi: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Uniswap'ta havuzlara {{version}} likidite ekle"
+    },
+    "positions": {
+      "closed": {
+        "title": "Kapalı pozisyonlar"
+      },
+      "page": {
+        "title": "Uniswap'ta {{quoteSymbol}}/{{baseSymbol}} havuz likiditesini yönet",
+        "version": {
+          "description": "Aktif {{version}} likidite pozisyonlarını görüntüle. Yeni pozisyonlar ekle.",
+          "title": "Uniswap'ta havuz likiditesini {{version}} yönet"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "İzin verildi",
+    "allowLpMigration": "LP token'ının taşınmasına izin ver",
+    "connectAccount": "Bu pozisyonun sahibi olan bir hesap bağlaman gerek.",
+    "connectWallet": "V2 likiditeni görüntülemek için bir cüzdana bağlan.",
+    "contract": "Uniswap taşıma sözleşmesi",
+    "firstLP": "Bu Uniswap V3 havuzunun ilk likidite sağlayıcısısın. Likiditen güncel {{source}} fiyatından taşınacak.",
+    "highGasCost": "Havuzu oluşturmak için gereken Gas ücretini de içerdiği için işlem maliyetin çok daha yüksek olacaktır.",
+    "invalidRange": "Geçersiz aralık seçildi. Min. fiyat, maks. fiyattan düşük olmalı.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP token'ları",
+    "migrating": "Taşınıyor",
+    "missingV2Position": "v2 pozisyonlarından birini göremiyor musun? <Link>İçe aktar.</Link>",
+    "noV2Liquidity": "V2 likiditesi bulunamadı.",
+    "positionNoFees": "Piyasa fiyatı aralığına gelene kadar pozisyonun ücret kazandırmayacak veya alım satımlarda kullanılmayacak.",
+    "priceDifference": "Fiyat farkı: ",
+    "priceWarning": "Uniswap V3'e yalnızca doğru olduğuna inandığın fiyat üzerinden likidite yatırmalısın. <br /> Fiyat yanlış görünüyorsa fiyatı değiştirmek için swap işlemi yapabilir veya başka birinin bunu yapmasını bekleyebilirsin.",
+    "refund": "Seçilen fiyat aralığı nedeniyle cüzdanına en az {{amtA}} {{symA}} ve {{amtB}} {{symB}} iade edilecek.",
+    "selectFeeTier": "Ücret kademesi seç",
+    "setRange": "Fiyat aralığını belirle",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Fiyatı:",
+    "v2Description": "Bu araç {{source}} likiditeni güvenli bir şekilde V3'e taşıyacak. <0>Uniswap taşıma sözleşmesi</0> sayesinde süreç güvene bel bağlamak zorunda kalmadan yürütülür ↗",
+    "v2Instruction": "Aşağıda gösterilen her havuz için, likiditeni Uniswap V2'den kaldırmak ve Uniswap V3'e yatırmak üzere Taşı seçeneğine tıkla.",
+    "v2Title": "V2 likiditesini taşı",
+    "v3Price": "V3 {{sym}} Fiyatı:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Geçersiz fiyat girişi"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Uniswap Cüzdan uygulamasını edin"
+      },
+      "title": "Uniswap: Kripto Para ve NFT Cüzdanı"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "İtibari para giriş rampası MoonPay USA LLC tarafından destekleniyor",
+    "restricted": {
+      "region": "Moonpay bazı bölgelerde kullanılamaz. Daha fazlasını öğrenmek için tıkla."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Hesap oluştur"
+    },
+    "logIn": {
+      "button": "Giriş yap"
+    },
+    "signIn": {
+      "button": "Oturum aç"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "Kaydol"
+    },
+    "tabs": {
+      "createPosition": "Pozisyon oluştur",
+      "viewPositions": "Pozisyonları görüntüle"
+    }
+  },
+  "network": {
+    "lostConnection": "Ağ bağlantın kesilmiş olabilir.",
+    "mightBeDown": "{{network}} şu anda çökmüş olabilir veya ağ bağlantın kesilmiş olabilir.",
+    "warning": "Ağ uyarısı"
+  },
+  "nft": {
+    "addToBag": "Sepete ekle",
+    "authorsCollectionOnUni": "{{name}} adlı kullanıcının Uniswap'taki NFT koleksiyonu",
+    "bag": "Sepet",
+    "blockedCollection": "Bu koleksiyon engellendi",
+    "blockedOpenSea": "OpenSea'de engellendi",
+    "buyTransferNFTToStart": "Başlamak için NFT'leri al veya bu cüzdana transfer et.",
+    "buyTransferTokensToStart": "Başlamak için token'ları alıp bu cüzdana yatır veya transfer et.",
+    "card": {
+      "notAvailable": "İçerik henüz <br /> mevcut değil"
+    },
+    "chainSupportComingSoon": "{{chainName}} desteği yakında geliyor",
+    "collectionOnUni": "Uniswap'ta NFT koleksiyonu",
+    "collectonOnAddress": "Uniswap'ta NFT koleksiyonu - {{address}}",
+    "complete": "Tamamlandı!",
+    "editListings": "Listelenen NFT'leri düzenle",
+    "event": "Etkinlik",
+    "explore": "NFT'leri keşfet",
+    "learnWhy": "Nedenini öğren",
+    "list": {
+      "header": {
+        "lastPrice": "Son"
+      },
+      "title": "NFT'leri listele"
+    },
+    "listedSignificantly_one": "Bir NFT, koleksiyonun taban fiyatının {{percentage}} altında listeleniyor. Devam etmek istediğinden emin misin?",
+    "listedSignificantly_other": "{{count}} NFT, koleksiyonun taban fiyatının önemli ölçüde altında listeleniyor. Devam etmek istediğinden emin misin?",
+    "listForSale": "Satış için listele",
+    "lowPrice": "Düşük listelenen NFT fiyatı",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} ücretleri"
+      }
+    },
+    "maxFees": "Maksimum ücretler",
+    "maxRoyalties": "Maksimum içerik üreticisi telif hakları",
+    "noItems": "Görüntülenecek öge yok",
+    "noneAtAddress": "Bu adreste koleksiyon varlığı yok",
+    "noPools": "Henüz havuz yok",
+    "notListed": "Listelenmedi",
+    "proceedsIfSold": "Satılması durumunda gelir",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Zaten {{tokenAmountWithSymbol}} üzerinden listelendi",
+          "belowFloor": "Taban fiyatın {{percentage}} altında."
+        }
+      }
+    },
+    "refundsInEth": "Kullanılamayan ögeler için iade ödemeleri ETH olarak yapılacaktır",
+    "removeFromBag": "Sepetten çıkar",
+    "reportSpam": "Spam olarak bildir",
+    "returnToExplore": "NFT Keşfet'e dön",
+    "returnToMy": "NFT'lerime dön",
+    "setPrices": "Devam etmek için fiyatları ayarla",
+    "startListing": "Listelemeyi başlat",
+    "successListed": "Başarıyla listelendi",
+    "unavailableToList": "Listeleme için kullanılamıyor",
+    "whyTransaction": {
+      "reason": "Bir NFT'nin listelenmesi, her NFT koleksiyonu için tek seferlik pazar yeri onayı gerektirir."
+    },
+    "willAppearHere": "Zincir içi işlemlerin ve kripto para satın alımların burada görünür.",
+    "wishGranted": "Uniswap dileğini yerine getirdi!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Koleksiyonu onayla",
+        "approve_other": "Koleksiyonları onayla",
+        "sign_one": "Listelenen NFT'yi imzala",
+        "sign_other": "Listelenen NFT'leri imzala"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "Maks. {{percentChanged}}"
+      }
+    },
+    "my": "NFT'lerim",
+    "noneYet": "Henüz NFT yok",
+    "sell": "NFT'leri sat"
+  },
+  "notFound": {
+    "oops": "Hata oldu, beni Swap'a geri götür"
+  },
+  "notice": {
+    "uk": {
+      "label": "Birleşik Krallık sorumluluk reddi beyanı:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} gizlendi",
+      "unhidden": "{{assetName}} gösteriliyor"
+    },
+    "copied": {
+      "address": "Adres kopyalandı",
+      "calldata": "Çağrı verileri kopyalandı",
+      "contractAddress": "Sözleşme adresi kopyalandı",
+      "failed": "Panoya kopyalanamadı",
+      "image": "Resim kopyalandı",
+      "nftUrl": "NFT URL'si kopyalandı",
+      "tokenUrl": "Token URL'si kopyalandı",
+      "transactionId": "İşlem kimliği kopyalandı",
+      "unitag": "Kullanıcı adı kopyalandı"
+    },
+    "countryChange": "Ülke {{countryName}} olarak değiştirildi",
+    "network": {
+      "changed": "{{network}} ağına geçiş yapıldı"
+    },
+    "passwordChanged": "Şifre değiştirildi",
+    "restore": {
+      "success": "Cüzdan geri yüklendi!"
+    },
+    "send": {
+      "network": "{{network}} ağında gönderiliyor"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Bildirildi"
+      }
+    },
+    "swap": {
+      "network": "{{network}} ağında swap işlemi yapılıyor",
+      "pending": {
+        "swap": "Swap beklemede",
+        "unwrap": "Açma beklemede",
+        "wrap": "Sarma beklemede"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "{{currencySymbol}} onayı iptal edildi.",
+        "fail": "{{currencySymbol}}, {{address}} ile kullanım için onaylanamadı.",
+        "success": "{{currencySymbol}}, {{address}} ile kullanım için onaylandı."
+      },
+      "pending": "İşlem beklemede",
+      "swap": {
+        "canceled": "{{inputCurrencySymbol}}-{{outputCurrencySymbol}} swap işlemi iptal edildi.",
+        "expired": "{{outputCurrencyAmountWithSymbol}} karşılığında {{inputCurrencyAmountWithSymbol}} swap işleminin süresi doldu.",
+        "fail": "{{outputCurrencyAmountWithSymbol}} karşılığında {{inputCurrencyAmountWithSymbol}} swap edilemedi.",
+        "success": "{{outputCurrencyAmountWithSymbol}} karşılığında {{inputCurrencyAmountWithSymbol}} swap edildi."
+      },
+      "transfer": {
+        "canceled": "{{tokenNameOrAddress}} gönderme iptal edildi",
+        "fail": "{{walletNameOrAddress}} konumuna {{tokenNameOrAddress}} gönderilemedi",
+        "received": "{{walletNameOrAddress}} konumundan {{tokenNameOrAddress}} alındı",
+        "success": "{{walletNameOrAddress}} konumuna {{tokenNameOrAddress}} gönderildi"
+      },
+      "unknown": {
+        "fail": {
+          "full": "{{addressOrEnsName}} ile işlem yapılamadı",
+          "short": "İşlem başarısız"
+        },
+        "success": {
+          "full": "{{addressOrEnsName}} ile işlem yapıldı",
+          "short": "İşlem onaylandı"
+        }
+      },
+      "unwrap": {
+        "canceled": "{{inputCurrencySymbol}} açma işlemi iptal edildi.",
+        "fail": "{{inputCurrencyAmountWithSymbol}} açılamadı.",
+        "success": "{{inputCurrencyAmountWithSymbol}} açıldı ve {{outputCurrencyAmountWithSymbol}} alındı."
+      },
+      "wrap": {
+        "canceled": "{{inputCurrencySymbol}} sarma işlemi iptal edildi.",
+        "fail": "{{inputCurrencyAmountWithSymbol}} sarılamadı.",
+        "success": "{{inputCurrencyAmountWithSymbol}} sarıldı ve {{outputCurrencyAmountWithSymbol}} alındı."
+      }
+    },
+    "transfer": {
+      "pending": "Gönderme beklemede"
+    },
+    "walletConnect": {
+      "confirmed": "İşlem {{dappName}} ile onaylandı",
+      "connected": "Bağlandı",
+      "disconnected": "Bağlantı kesildi",
+      "failed": "{{dappName}} ile işlem başarısız oldu",
+      "networkChanged": {
+        "full": "{{networkName}} ağına geçiş yapıldı",
+        "short": "Ağ değiştirildi"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Uniswap Uzantısıyla devam et",
+      "title": "Başarılı!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Bunu bir kağıda yazıp güvenli bir yerde, örneğin kasada saklamanı öneririz.",
+        "displayWarning": {
+          "description": "Devam etmeden önce aşağıdakileri dikkatle oku.",
+          "note": {
+            "access": "Bu kurtarma cümlesi, cüzdanına ve fonlarına tam erişim sağlar",
+            "secure": "Bunu gizli bir şekilde görüntüle ve kimseyle paylaşma",
+            "storage": "Bir yere yaz ve güvenli bir yerde sakla"
+          },
+          "title": "Bilmen gereken bazı önemli detaylar"
+        },
+        "error": "Geçersiz veya yanlış yazılmış kelime",
+        "placeholder": "Gizli kelime",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} tamamlandı",
+        "selectedWordPlaceholder": "Kelime seç",
+        "subtitle_one": "Kurtarma cümlendeki {{count}}. kelime hangisi?",
+        "subtitle_two": "Kurtarma cümlendeki {{count}}. kelime hangisi?",
+        "subtitle_few": "Kurtarma cümlendeki {{count}}. kelime hangisi?",
+        "subtitle_other": "Kurtarma cümlendeki {{count}}. kelime hangisi?",
+        "title": "Doğru yazdığından emin olalım"
+      },
+      "option": {
+        "badge": {
+          "quick": "Hızlı"
+        },
+        "cloud": {
+          "description": "Cüzdanını {{cloudProviderName}} üzerinden yedekle, kurtarma şifresiyle koru.",
+          "title": "Bir kurtarma şifresi belirle"
+        },
+        "manual": {
+          "description": "12 gizli kelimeni bir kağıda yaz ve güvenli bir yerde sakla.",
+          "title": "Kurtarma cümlesini bir yere yaz"
+        }
+      },
+      "reminder": {
+        "description": "Cüzdanını yedeklemek, telefonunu kaybetmen veya yeni bir cihaz alman durumunda varlıklarını her zaman kurtarabilmeni sağlar.",
+        "title": "Cüzdanını yedekleme zamanı geldi",
+        "warning": {
+          "description": "Bir yedekleme yöntemi ayarlamadığın takdirde, telefonunu kaybetmen, uygulamayı silmen veya yeni bir cihaz alman durumunda cüzdanını kurtarmak mümkün değildir.",
+          "title": "Fonlarını kaybedebilirsin"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Unutman durumunda bunu senin için sıfırlayamayız. Güvenli bir yere yaz veya bir şifre yöneticisinde güvenli bir şekilde sakla.",
+          "disclaimer": "Uniswap Labs'ın kurtarma şifremi sıfırlayamayacağını anlıyorum.",
+          "title": "Bu şifreyi kaydetmen önemli"
+        },
+        "manual": {
+          "description": "Kurtarma cümleni doğru şekilde yazdığından ve bunu güvenli bir yerde saklayabileceğinden emin ol.",
+          "disclaimer": "Bunu kaybedersem Uniswap Labs'ın cüzdanımı kurtaramayacağını anlıyorum.",
+          "title": "Bitirmeden önce..."
+        }
+      },
+      "subtitle": "Uygulamayı silersen veya cihazını kaybedersen cüzdanını bu şekilde kurtarabilirsin.",
+      "title": {
+        "existing": "Cüzdanını yedekle",
+        "new": "Yedekleme yöntemini seç"
+      },
+      "view": {
+        "disclaimer": "Kurtarma cümlemi kaybedersem Uniswap Labs'ın kurtarma cümlemi geri yüklememe yardımcı olamayacağını anlıyorum.",
+        "subtitle": {
+          "message1": "Devam etmeden önce aşağıdakileri dikkatle oku",
+          "message2": "Cüzdanını kurtarmak için bu gizli kelimelerin 12'sini de girmen gerekir."
+        },
+        "title": "Kurtarma cümleni bir yere yaz",
+        "warning": {
+          "message1": "Bu kurtarma cümlesi, cüzdanına ve fonlarına tam erişim sağlar",
+          "message2": "Bir yere yaz ve güvenli bir yerde sakla",
+          "message3": "Bunu gizli bir şekilde görüntüle ve <u>kimseyle paylaşma</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Fonlarını kurtarmak için bunu girmen gerekir. Unutman durumunda senin için geri alamayız.",
+        "title": "Kurtarma şifreni onayla"
+      },
+      "createPassword": {
+        "description": "Fonlarını kurtarmak için bunu girmen gerekir. Unutman durumunda senin için geri alamayız.",
+        "title": "Kurtarma şifreni oluştur"
+      }
+    },
+    "complete": {
+      "button": "Uniswap Uzantısını Aç",
+      "description": "Cüzdanın kripto para gönderip almaya hazır. Uniswap Uzantısını aşağıdaki kısayolla aç.",
+      "go_to_uniswap": "Uniswap Web Uygulamasına git",
+      "pin": {
+        "description": "Uniswap Uzantısını araç çubuğuna eklemek için sabitle simgesine tıkla.",
+        "title": "Uniswap Uzantısını Sabitle"
+      },
+      "title": "Hazırsın"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Cüzdanının kilidini açmak ve kurtarma cümlene erişmek için buna ihtiyacın olacak",
+        "title": {
+          "default": "Şifre oluştur",
+          "reset": "Şifreni sıfırla"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap Uzantısı yalnızca masaüstündeki Chrome ile uyumludur.",
+          "title": "Mobil cihazlarda Chrome henüz desteklenmiyor"
+        },
+        "description": "Uniswap Uzantısı şu anda yalnızca Chrome ile uyumlu.",
+        "title": "Bu tarayıcı henüz desteklenmiyor"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Telefonunu kaybetmen veya yeni bir telefon alman ihtimaline karşı bir kurtarma planı oluştur.",
+          "title": "Cüzdanını yedekle"
+        },
+        "fund": {
+          "description": "Kripto para alarak veya başka bir hesaptan transfer yaparak cüzdanına fon ekle.",
+          "title": "İlk token'ını al"
+        },
+        "label": {
+          "required": "Gerekli",
+          "swipe": "Kaydır"
+        },
+        "pushNotifications": {
+          "description": "Favori token'ların için fiyat uyarılarını, piyasa trendlerini ve daha fazlasını al.",
+          "title": "Güncellemelerden haberdar ol"
+        },
+        "unitag": {
+          "description": "Kişiselleştirilmiş bir web3 profili oluştur ve adresini arkadaşlarınla kolayca paylaş.",
+          "title": "{{unitagDomain}} kullanıcı adını talep et"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 kelime geçersiz veya yanlış yazılmış",
+        "invalidWords_other": "{{count}} kelime geçersiz veya yanlış yazılmış"
+      },
+      "method": {
+        "import": {
+          "message": "Başka bir kripto para cüzdanından kurtarma cümleni gir.",
+          "title": "Bir cüzdanı içe aktar"
+        },
+        "passkey": {
+          "message": "Uniswap cüzdanını mevcut bir geçiş anahtarını kullanarak senkronize et.",
+          "title": "Geçiş anahtarıyla giriş yap"
+        },
+        "restore": {
+          "message": {
+            "android": "Yedeklediğin cüzdanları Google Drive hesabına ekle.",
+            "ios": "Yedeklediğin cüzdanları iCloud hesabına ekle."
+          },
+          "title": "Bir cüzdanı geri yükle"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Yukarıdakilerin hiçbirini istemiyor musun?"
+        },
+        "subtitle": "Tekrar oturum açmak istediğin cüzdanı seç.",
+        "title": "Uniswap'a tekrar hoş geldin",
+        "wallet": {
+          "button": "Kurtarma cümlesini görüntüle",
+          "count_one": "+1 diğer cüzdan",
+          "count_other": "+{{count}} diğer cüzdan"
+        },
+        "warning": {
+          "caption": "Lütfen diğer tüm cüzdanlarını yedeklediğinden emin ol. Bunları geri yüklemek istersen kurtarma cümlelerine veya karşılık gelen {{cloudProvider}} yedeklerine ihtiyacın olacak.",
+          "title": "Emin misin?"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "QR kodu aracılığıyla mobil uygulamadan bir cüzdanı içe aktar.",
+          "title": "Uniswap Mobil'i kullan"
+        },
+        "passkey": {
+          "subtitle": "Uniswap cüzdanını mevcut bir geçiş anahtarını kullanarak senkronize et.",
+          "title": "Geçiş anahtarıyla giriş yap"
+        },
+        "recoveryPhrase": {
+          "subtitle": "Başka bir kripto para cüzdanından kurtarma cümleni gir.",
+          "title": "Bir cüzdanı içe aktar"
+        },
+        "title": "Giriş yap veya bir cüzdanı içe aktar"
+      },
+      "title": "Cüzdanını nasıl eklemek istediğini seç"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Kurtarma cümlem 12 kelimeden oluşuyor",
+        "importing": "İçe aktarılıyor...",
+        "longPhrase": "Kurtarma cümlem daha uzun"
+      },
+      "error": {
+        "invalidPhrase": "Girdiğin cümle geçersiz"
+      },
+      "subtitle": "12 kelimelik kurtarma cümleni yaz veya yapıştır",
+      "title": "Kurtarma cümleni gir"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Zaten bir cüzdanım var",
+        "signInOrImport": "Giriş yap veya içe aktar"
+      },
+      "mobileScan": {
+        "button": "İçe aktarmak için QR kodunu tara",
+        "title": "Uniswap uygulaman var mı?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Mevcut bir cüzdanı ekle",
+        "create": "Cüzdan oluştur",
+        "createAccount": "Hesap oluştur"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "Bitir"
+        },
+        "subtitle": "Bu takma adı yalnızca sen görebilirsin",
+        "title": "Cüzdanına bir isim ver"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Bildirim almak için cihazının ayarlarında Uniswap Cüzdan bildirimlerini aç.",
+        "title": "Bildirim izni"
+      },
+      "subtitle": "Favori token'ların işlem durumları ve büyük fiyat değişiklikleri için güncel bilgileri al.",
+      "title": "Bildirimleri aç"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Hesabın, kendi güvenli şifre depolama sistemin tarafından korunuyor."
+      },
+      "biometric": {
+        "scan": "Telefon, tablet veya tarayıcı... Biyometrini taraman, giriş yapman için yeterli."
+      },
+      "create": "Geçiş anahtarını oluştur",
+      "use": {
+        "recovery": {
+          "phrase": "Bunun yerine bir kurtarma cümlesi kullan"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Doğru anladığından emin olalım. Kurtarma cümleni kaybetmen veya yanlış not etmen durumunda fonlarını kurtaramazsın.",
+          "default": "Kurtarma cümleni kaybetmen veya yanlış not etmen durumunda fonlarını kurtaramazsın."
+        },
+        "title": "Doğru anladığından emin olalım"
+      },
+      "view": {
+        "subtitle": "Cüzdanını kurtarmak için bu gizli kelimelerin 12'sini de girmen gerekir.",
+        "title": {
+          "hasPassword": "Eğer şifreni unutursan..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Hazırım",
+          "message": "Kurtarma cümlen, senin ve cümleye sahip olan herkesin sana ait fonlara erişmesini sağlar. Kurtarma cümleni kimseyle paylaşmadığından emin ol.",
+          "title": "Bu adımı gizli bir yerde uygula"
+        },
+        "screenshot": {
+          "message": "Sana ait fotoğraflara erişim elde eden herkes senin cüzdanına erişebilir. Bunun yerine kelimelerini bir yere yazmanı öneririz.",
+          "title": "Ekran görüntüleri güvenli değildir"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Cüzdan güvenliği hakkında daha fazla bilgi edin",
+        "subtitle": "Cüzdanının kilidini açmak için yeni şifreni kullan.",
+        "title": "Şifre sıfırlama"
+      }
+    },
+    "scan": {
+      "error": "QR kodu yüklenirken bir hata oluştu",
+      "otp": {
+        "error": "Gönderdiğin kod hatalı veya gönderilirken bir hata oluştu. Lütfen tekrar dene.",
+        "failed": "Başarısız denemeler: {{number}}",
+        "subtitle": "6 karakterli kod için Uniswap mobil uygulamanı kontrol et",
+        "title": "Tek kullanımlık kodu gir"
+      },
+      "subtitle": "Cüzdanını içe aktarmaya başlamak için QR kodunu Uniswap mobil uygulamasıyla tara.",
+      "title": "Cüzdanı uygulamadan içe aktar",
+      "troubleScanning": {
+        "message": "Kurtarma cümlesiyle içe aktar",
+        "title": "Taramada sorun mu yaşıyorsun?"
+      },
+      "wifi": "Telefonunu bilgisayarınla aynı WiFi ağına bağla."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Biyometriyi kullanmak için öncelikle Ayarlar bölümünde ayarla",
+            "ios": "{{biometricsMethod}} yöntemini kullanmak için sistem ayarlarında erişime izin ver"
+          },
+          "title": {
+            "android": "Biyometri devre dışı",
+            "ios": "{{biometricsMethod}} devre dışı"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Biyometriyi etkinleştir",
+          "ios": "{{biometricsMethod}} yöntemini etkinleştir"
+        },
+        "setup": "Ayarla"
+      },
+      "subtitle": {
+        "android": "İşlemlerin gönderilmesi için biyometriyi zorunlu kılarak ekstra bir güvenlik katmanı ekle.",
+        "ios": "İşlemlerin gönderilmesi için {{biometricsMethod}} yöntemini zorunlu kılarak ekstra bir güvenlik katmanı ekle."
+      },
+      "title": "Cüzdanını koru"
+    },
+    "selectWallets": {
+      "error": "Adresler yüklenemedi",
+      "title": {
+        "default": "İçe aktarılacak cüzdanları seç",
+        "error": "Cüzdanları içe aktarırken hata oluştu"
+      }
+    },
+    "termsOfService": "Devam ederek <highlightTerms>Hizmet Şartlarını</highlightTerms> ve <highlightPrivacy>Gizlilik Politikasını</highlightPrivacy> kabul etmiş oluyorum",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Kurtarma cümlesi nedir?"
+      }
+    },
+    "wallet": {
+      "continue": "Güvenliği koruyalım",
+      "defaultName": "Cüzdan {{number}}",
+      "description": {
+        "full": "Burası token'lar, NFT'ler ve tüm alım satımların için kişisel alanın. Fonlarını güvende tutmak için ayarlamayı tamamla."
+      },
+      "title": "Yeni cüzdanına hoş geldin"
+    },
+    "welcome": {
+      "subtitle": "Cüzdanının kurulumunu tamamlayalım.",
+      "title": "Hoş geldin!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Bu zincirde yine de sorun yaşamadan swap işlemi yapabilir ve likidite sağlayabilirsin."
+    },
+    "title": "{{versionName}} yakında geri dönecek"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "Geçiş anahtarını kullanmakta veya buna erişmekte sorun mu yaşıyorsun? Yardım için Uniswap Destek sayfasına git.",
+        "title": "Geçiş anahtarlarıyla ilgili yardım"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "İzin2, token onaylarının farklı uygulamalar arasında paylaşılmasına ve yönetilmesine olanak tanır."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "Aktif adım aralığı",
+    "addAs": "{{nativeWrappedSymbol}} olarak ekle",
+    "apr": {
+      "description": "Yıllık hesap, 1 günlük ücretlere göre yapıldı"
+    },
+    "aprText": "Pool APR",
+    "balances": "Havuz bakiyeleri",
+    "closedCTA": {
+      "description": "Bunları, sayfanın üstündeki filtreyi kullanarak görebilirsin.",
+      "title": "Kapalı pozisyonları mı arıyorsun?"
+    },
+    "collectAs": "{{nativeWrappedSymbol}} olarak tahsil et",
+    "collectFees": "Ücretleri tahsil et",
+    "create": {
+      "info": "Seçimlerin, daha düşük başlangıç likiditesi ve daha yüksek oynaklıkla sonuçlanabilecek yeni bir likidite havuzu oluşturacak. Bu riskleri en aza indirmek için mevcut bir havuza ekleme yapmayı değerlendir."
+    },
+    "createdPosition": {
+      "cancelled": "Pozisyon oluşturma işlemi iptal edildi",
+      "failed": "Pozisyon oluşturma işlemi başarısız"
+    },
+    "details": "Havuz ayrıntıları",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "Gezginler",
+    "import": {
+      "link": {
+        "description": "Bazı v2 pozisyonları otomatik olarak görüntülenmez."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Bazı v2 pozisyonları otomatik olarak görüntülenmez. Pozisyonlarını içe aktarıp görüntülemek için bir token çifti seç."
+          }
+        }
+      },
+      "success": "Havuz içe aktarıldı"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "Havuz bilgileri",
+    "limitFluctuation": {
+      "warning": "Limitlerin uygulanmasının gerçek zamanlı piyasa dalgalanmalarına ve Ethereum ağ tıkanıklığına bağlı olarak değişebileceğini lütfen unutma. Token'lar belirtilen fiyata ulaştığında limitler tam olarak uygulanmayabilir."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "İşlemin için gerekli veriler getirilirken hata oluştu."
+        }
+      },
+      "outOfSync": {
+        "message": "Bu havuzdaki fiyatlar, seçilen token'ların piyasa fiyatlarından farklı. Kayıp yaşamamak için fiyat aralığını uygun şekilde ayarla veya havuzun yeniden dengelenmesini bekle."
+      }
+    },
+    "maxPrice": "Maks. fiyat",
+    "migrateLiquidity": "Likiditeyi taşı",
+    "migrateLiquidityDisabledTooltip": "Bu zincir v4 likidite havuzlarını desteklemiyor.",
+    "migrateToV4": "V4'e taşı",
+    "minPrice": "Min. fiyat",
+    "newPosition": {
+      "plus": "+ Yeni pozisyon",
+      "title": "Yeni pozisyon"
+    },
+    "newSpecificPosition": "Yeni {{symbol}} pozisyonu",
+    "openPosition": {
+      "cta": "Bir havuza likidite ekle ve pozisyonlarını burada görüntüle"
+    },
+    "openToStart": "Başlamak için yeni bir pozisyon aç veya bir havuz oluştur.",
+    "percent": "%{{pct}} havuz",
+    "pooled": "{{sym}} havuza alındı:",
+    "position": "Pozisyon",
+    "positions": {
+      "title": "Pozisyonların",
+      "transaction": {
+        "settings": "İşlem ayarları"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Bu pozisyon için şu an USD değeri mevcut değil. Yatırılan token tutarları için pozisyon bilgilerini gör."
+      }
+    },
+    "priceRange": "Fiyat aralığı",
+    "refresh": {
+      "prices": "Fiyatları yenile"
+    },
+    "removeLiquidity": "Likiditeyi kaldır",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "Getiri havuzundaki havuz token'ları:"
+    },
+    "selectPair": "İşlem çifti seç",
+    "share": {
+      "label": "Havuz payın:"
+    },
+    "specificPosition": "{{symbol}} pozisyonu",
+    "tokenPair": "Token çifti",
+    "top": {
+      "tvl": "TVL'ye göre en iyi havuzlar"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "Toplam havuz token'ların:",
+    "uncollectedFees": "Tahsil edilmemiş ücretler",
+    "v2": "v2 havuzları",
+    "v3": "v3 havuzları",
+    "viewPools": "View pools",
+    "volOverTvl": "1 günlük hacim/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30 günlük hacim"
+      }
+    },
+    "withdrawAs": "{{nativeWrappedSymbol}} olarak çek"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "Çift seçiminle eşleşen v2 havuzları."
+      },
+      "notFound": {
+        "description": "Eşleşen v2 havuzları bulunamadı. Token seçimini bir kez daha kontrol et ve doğru cüzdana bağlı olduğundan emin ol."
+      }
+    }
+  },
+  "pools": {
+    "explore": "Havuzları keşfet"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Kancalar, havuzların akıllı sözleşmelerle etkileşime girmesini sağlayan ve çeşitli olanakların kilidini açan gelişmiş bir özelliktir. Bazıları kötü amaçlı olabileceğinden veya beklenmeyen sonuçlara yol açabileceğinden kanca eklerken dikkatli ol."
+    },
+    "addingHook": {
+      "disclaimer": "Kanca eklemenin beklenmedik sonuçları olabilir. Kendi araştırmanı yap ve alabileceğin riski hesap ederek ilerle.",
+      "hideProperties": "Özellikleri gizle",
+      "invalidAddress": "Geçerli bir kanca adresi gir",
+      "viewProperties": "Özellikleri görüntüle"
+    },
+    "create": {
+      "invalidPrice": "Geçersiz fiyat",
+      "invalidRange": "Geçersiz aralık",
+      "modal": {
+        "header": "Pozisyon oluşturuluyor"
+      }
+    },
+    "currentValue": "Mevcut pozisyon değeri",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "Girilen başlangıç fiyatı, piyasa fiyatından %{{value}} düşük ve bu durum fon kaybıyla sonuçlanabilir. Devam etmek istiyor musun?",
+            "more": "Girilen başlangıç fiyatı, piyasa fiyatından %{{value}} yüksek ve bu durum fon kaybıyla sonuçlanabilir. Devam etmek istiyor musun?"
+          },
+          "title": "Piyasa ile büyük fiyat farkı"
+        }
+      },
+      "description": "Likidite katkın için token miktarlarını belirt."
+    },
+    "depositedCurrency": "{{currencySymbol}} yatırıldı",
+    "fot": {
+      "warning": {
+        "cta": "v2 pozisyonu oluştur"
+      }
+    },
+    "hook": {
+      "disclaimer": "Bu kancayı eklemenin getirebileceği olası riskleri anlıyorum.",
+      "donateWarning": "Bu işaret, kazanılan ücretlerde değişiklik yaratabilir.",
+      "liquidityWarning": "Bu işaret, havuzun yeni likidite eklenmesini engellemesine neden olabilir. İşlemin geri alınabilir.",
+      "removeWarning": "Bu durum, fonlarının kilitlenmesine veya ücret tahsil etmenin engellenmesine neden olabilir.",
+      "swapWarning": "Bu işaret, likidite sağlayıcılarının Tam Zamanında likiditeden daha kolay yararlanmalarına imkan tanıyabilir ve sonuçta elde edilen ücretler daha düşük olabilir.",
+      "warningHeader": "Önemli: Kanca riskleri belirlendi",
+      "warningInfo": "Bu kancayla ilişkili olası riskler belirledik. Devam etme kararı vermeden önce lütfen bu kancanın nasıl işlediğini anladığından emin ol."
+    },
+    "increase": {
+      "fot": "{{token}} ve diğer “Transfer Ücreti” token'ları için likidite ekleme işlemi desteklenmez."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "Piyasa fiyatından %{{ value }} düşük",
+        "positive": "Piyasa fiyatından %{{ value }} yüksek"
+      },
+      "info": "Yeni havuz oluştururken her iki token için de başlangıç çevrim kurunu belirlemelisin. Bu kur, başlangıç piyasa fiyatını yansıtacaktır.",
+      "set": "Başlangıç fiyatını belirle",
+      "useMarketPrice": "Piyasa fiyatını kullan"
+    },
+    "migrate": {
+      "liquidity": "Pozisyonları taşırken token çiftini değiştiremezsin ancak işlevselliği artırmak için bir kanca ekleyebilirsin.",
+      "v4unsupportedChain": "Bu zincir, v4 havuzları için desteklenmiyor."
+    },
+    "new": {
+      "protocol": "Yeni {{protocol}} pozisyonu"
+    },
+    "notFound": {
+      "description": "Bu pozisyonla ilgili detaylar mevcut değil. Lütfen doğru cüzdana bağlı olduğunu kontrol et."
+    },
+    "protocol": "{{protocol}} pozisyonu",
+    "provide": {
+      "liquidity": "Likidite sağlamak istediğin token'ları seç. Desteklenen tüm ağlardaki token'ları seçebilirsin.",
+      "liquidityDescription": {
+        "creatingPool": "Havuz oluştururken tam kapsamlı likidite ayarlanması, tüm olası fiyatlarda sürekli piyasa katılımını garanti altına alır, basitlik sunar ancak daha yüksek geçici kayıp potansiyeli vardır.",
+        "custom": "Özel aralık, likiditeni belirli fiyat sınırları içinde konsantre etmeni sağlayarak sermaye verimliliğini ve ücret kazançlarını artırır ancak daha aktif bir yönetim gerektirir."
+      },
+      "outOfRange": {
+        "closePosition": "Kapalı pozisyon",
+        "description": "Bu pozisyonun aralığı, taşıma sırasında ayarlanamaz. Yeni bir aralık belirlemek için bu pozisyonu kapat ve yeni bir v4 pozisyonu aç.",
+        "title": "Aralık dışı bir pozisyonu taşıyorsun"
+      }
+    },
+    "removeHook": "Kancayı kaldır",
+    "resetDescription": "Token'larınız, fiyat ve aralık seçimleriniz sıfırlanacaktır.",
+    "setRange": {
+      "inputsBelow": "Aralığını belirlemek için aşağıdaki girişleri kullan."
+    },
+    "step": {
+      "deposit": "Yatırılacak tutarları gir",
+      "price": "Başlangıç fiyatını ve yatırma tutarlarını ayarla",
+      "range": "Fiyat aralığını ve yatırma tutarlarını ayarla",
+      "select": "Token çiftini ve ücretleri seç"
+    },
+    "value": "Pozisyon değeri",
+    "valueUnavailable": "Bu pozisyon için şu an USD değeri mevcut değil. Yatırılan token tutarları için pozisyon bilgilerini gör.",
+    "wrapped": {
+      "unwrap": "Aç {{wrappedToken}}",
+      "warning": {
+        "info": "Daha uygun maliyetli ve etkili bir likidite sağlamak için {{wrappedToken}} token'ını aç ve {{nativeToken}} yatır."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Mevcut pozisyonlarını görüntülemek için cüzdanını bağla."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Uygulama, zaman içinde gelişmek için anonimleştirilmiş kullanım istatistiklerini günlüğe kaydeder.",
+    "autoRouter": "Uygulama, Uniswap Labs sunucusundan en uygun alım satım rotasını getiriyor.",
+    "infura": "Uygulama, zincir içi verileri getirir ve bir Infura API'si ile sözleşme çağrıları oluşturur.",
+    "thirdPartyApis": "Bu uygulama aşağıdaki üçüncü taraf API'leri kullanır:",
+    "trm": "Uygulama, cüzdan adresini güvenli bir şekilde alır, risk ve uyumluluk amaçları doğrultusunda bunu TRM Labs Inc. ile paylaşır.",
+    "uniswaptos": "Uniswap Labs'ın Hizmet Şartları"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 uygulama bağlandı",
+      "connections_other": "{{count}} uygulama bağlandı"
+    },
+    "error": {
+      "camera": {
+        "message": "Bir kodu taramak için sistem ayarlarında Kamera erişimine izin ver",
+        "title": "Kamera devre dışı bırakıldı"
+      },
+      "none": "QR kodu bulunamadı"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Bir QR kodu tara",
+        "show": "QR kodumu göster"
+      },
+      "error": {
+        "message": "Tekrar denemeden önce geçerli bir Ethereum adresi QR kodunu taradığından emin ol.",
+        "title": "Geçersiz QR Kodu"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Mesaj bulunamadı."
+      },
+      "method": {
+        "default": "{{dappNameOrUrl}} konumundan talep",
+        "signature": "{{dappNameOrUrl}} konumundan imza talebi",
+        "transaction": "{{dappNameOrUrl}} konumundan işlem talebi"
+      },
+      "withAmount": "{{dappName}} dapp'inin en fazla <highlight>{{amount}}</highlight> {{currencySymbol}} kullanmasına izin verilsin mi?",
+      "withoutAmount": "{{dappName}} dapp'inin {{currencySymbol}} varlıklarını kullanmasına izin verilsin mi?"
+    },
+    "status": {
+      "connecting": "Bağlanıyor...",
+      "loading": "Yükleniyor..."
+    },
+    "title": "Bir QR kodu tara",
+    "wallet": {
+      "networks": "Desteklenen Ağlar",
+      "title": "Desteklediğimiz {{numOfNetworks}} ağın hepsinde token ve NFT gönderebilir ve alabilirsin."
+    }
+  },
+  "range": {
+    "outOfView": "Görünüm dışı aralık"
+  },
+  "removeLiquidity": {
+    "pooled": "{{symbol}} havuza alındı:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "Bu, Uniswap protokolüne alım satım için token'ına erişim izni verir."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Mümkün olduğunda daha iyi fiyatlar ve Gas ücreti alınmayan swap işlemleri için likidite kaynaklarını bir araya getirir.",
+    "cheapest": {
+      "v4": "Uniswap müşterisi, fiyatı ve ağ maliyetlerini dikkate alarak ideal alım satım seçeneğini belirler."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Süresi doldu",
+      "subtitle": "Bu kodu Uniswap Uzantısına gir. Kurtarma cümlen güvenli bir şekilde şifrelenir ve aktarılır.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "{{hours}} sa {{minutes}} dk {{seconds}} sn içinde yeni kod",
+          "minutes": "{{minutes}} dk {{seconds}} sn içinde yeni kod",
+          "seconds": "{{seconds}} sn içinde yeni kod"
+        }
+      },
+      "title": "Uniswap tek seferlik kod"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Evet, devam et"
+      },
+      "label": {
+        "browser": "Tarayıcı",
+        "device": "Cihaz"
+      },
+      "subtitle": "Yalnızca güvenilir bir cihazda Uniswap Uzantısından bir QR kodu tarıyorsan devam et.",
+      "title": "Cüzdanını içe aktarmaya mı çalışıyorsun?",
+      "warning": "Uniswap'ı taklit eden sitelere ve uygulamalara karşı dikkatli ol. Aksi takdirde cüzdanın tehlikeye girebilir."
+    },
+    "error": {
+      "encryption": "Kurtarma ifadesi hazırlanamadı.",
+      "noCode": "OTP alınmadı. Lütfen tekrar dene.",
+      "timeout": {
+        "message": "Cüzdanını senkronize etmeye devam etmek için Uniswap Uzantısındaki QR kodunu tekrar tara.",
+        "title": "Bağlantın zaman aşımına uğradı"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Bu QR kodunu taramak için telefonunun bilgisayarınla aynı Wi-Fi ağına bağlı olması ve tüm VPN'lerin geçici olarak kapatılması gerekir.",
+        "title": "WiFi ağını değiştir"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Yakında: {{chainName}} Zincirinde token'ları ara ve keşfet",
+    "input": {
+      "placeholder": "Token'ları ve havuzları ara"
+    },
+    "results": {
+      "count_one": "1 öge",
+      "count_other": "{{count}} öge"
+    },
+    "ukDisclaimer": "Birleşik Krallık'ta ikamet edenler için sorumluluk reddi beyanı"
+  },
+  "send": {
+    "button": {
+      "review": "Transferi incele"
+    },
+    "gas": {
+      "error": {
+        "title": "Yok"
+      },
+      "networkCost": {
+        "title": "Ağ maliyeti"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Bakiye: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Alıcı seç",
+      "input": {
+        "placeholder": "ENS veya adresi ara"
+      },
+      "previous_one": "1 önceki transfer",
+      "previous_other": "{{count}} önceki transfer",
+      "results": {
+        "empty": "Sonuç bulunamadı",
+        "error": "Yazdığın adres mevcut değil ya da yanlış yazılmış."
+      },
+      "section": {
+        "favorite": "Favori cüzdanlar",
+        "recent": "En son",
+        "search": "Arama sonuçları",
+        "viewOnly": "Salt görüntülenebilir cüzdanlar",
+        "yours": "Cüzdanların"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Bu cüzdana yalnızca kurtarma cümlesine sahipsen veya cüzdanın sahibini tanıyorsan fon gönder.",
+          "title": "Bunu salt görüntülenebilir bir cüzdan olarak kullanıyorsun"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Bir cüzdan adresine token gönderdiğinde token'lar burada görünür",
+          "title": "Kaydedilmiş cüzdan yok"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Gönderiyorsun"
+      },
+      "summary": {
+        "button": {
+          "title": "Göndermeyi onayla"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Yazdığın adres mevcut değil ya da yanlış yazılmış.",
+        "title": "Sonuç bulunamadı"
+      },
+      "placeholder": "ENS veya adresi ara"
+    },
+    "title": "Gönder",
+    "warning": {
+      "blocked": {
+        "default": "Bu cüzdan engellendi",
+        "modal": {
+          "message": "Bu adres, bir veya daha fazla engellenen etkinlikle ilişkili olduğundan Uniswap Cüzdan'da engellendi. Bunun hatalı olduğunu düşünüyorsan lütfen compliance@uniswap.org adresine e-posta gönder.",
+          "title": "Engellenen adres"
+        },
+        "recipient": "Alıcının cüzdanı engellendi"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "Bir token adresine fon göndermeye çalışıyorsun. Bu işlem kalıcı fon kaybına yol açabilir.",
+          "heading": "Token adresi algılandı"
+        },
+        "message": "Bir token adresine fon göndermeye çalışıyorsun. Bu tür bir adrese kripto para göndermek kalıcı fon kaybına yol açabilir.",
+        "title": "Bu bir token adresi"
+      },
+      "insufficientFunds": {
+        "message": "Göndermek istediğin tutarı girdiğin andan itibaren {{currencySymbol}} bakiyen azaldı",
+        "title": "Yeterli {{currencySymbol}} yok"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "<highlight>{{networkName}} üzerinde göndermek için yeterli {{currencySymbol}} yok</highlight>",
+          "withoutNetwork": "Göndermek için yeterli <highlight>{{currencySymbol}}</highlight> yok"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "Tamam",
+            "cancel": "İptal",
+            "confirm": "Onayla"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Kullanıcı adı",
+          "walletAddress": "Cüzdan Adresi"
+        },
+        "message": "Bu adresle daha önce işlem yapmadın. Devam etmeden önce lütfen adresin doğru olduğunu onayla.",
+        "title": "Yeni adres"
+      },
+      "self": {
+        "message": "Mevcut cüzdanına fon göndermeye çalışıyorsun. Bu adrese kripto para göndermek ekstra ağ maliyetlerine neden olur.",
+        "title": "Bu, mevcut cüzdanın"
+      },
+      "smartContract": {
+        "message": "Bir akıllı sözleşme adresine fon göndermek üzeresin. Bunun doğru adres olduğundan ve token alabileceğinden emin ol. Aksi halde fonlarını kalıcı olarak kaybedebilirsin.",
+        "title": "Bu bir akıllı sözleşme adresi"
+      },
+      "viewOnly": {
+        "message": "Varlıkları göndermek için bu cüzdanı kurtarma cümlesi aracılığıyla içe aktarman gerekir.",
+        "title": "Bu cüzdan salt görüntülenebilir"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Son Kullanılanlar"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Gönderme işlemini incele"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Kurtarma cümlesini göster"
+      },
+      "action": {
+        "hide": "Kurtarma cümlesini gizle"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Bunu yapmadığım takdirde Uniswap Labs'ın cüzdanımı kurtarmama yardım edemeyeceğini anlıyorum.",
+          "title": "Kurtarma cümlemi kaydettim"
+        },
+        "initial": {
+          "subtitle": "Kurtarma cümleni kaydettiğinden emin ol. Aksi takdirde fonlarına erişimini kaybedersin",
+          "title": "Devam etmeden önce"
+        },
+        "password": {
+          "error": "Yanlış şifre. Tekrar dene"
+        },
+        "subtitle": "Onaylamak için şifreni gir",
+        "title": "Kurtarma cümleni kaldırıyorsun"
+      },
+      "title": "Kurtarma cümlen",
+      "view": {
+        "warning": {
+          "message1": "Kurtarma cümleni bilen herkes cüzdanına ve fonlarına erişebilir",
+          "message2": "Bunu gizli bir şekilde görüntüle",
+          "message3": "Kimseyle paylaşma",
+          "message4": "Hiçbir web sitesine veya uygulamaya girme",
+          "title": "Devam etmeden önce"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "Kurtarma cümleni bilen herkes cüzdanına ve fonlarına erişebilir.",
+          "title": "Bunu gizli bir yerde görüntüle"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Ayarlar'dan etkinleştir",
+      "feedback": "Geri bildirim gönder",
+      "help": "Yardım al",
+      "lock": "Cüzdanı kilitle",
+      "privacy": "Gizlilik politikası",
+      "terms": "Hizmet şartları"
+    },
+    "footer": "Sevgiyle hazırlandı, \nUniswap Ekibi 🦄",
+    "hideSmallBalances": {
+      "subtitle": "1 USD altındaki bakiyeler portföyünden gizlenecek."
+    },
+    "maxSlippage": "Maks. slipaj",
+    "section": {
+      "about": "Hakkında",
+      "preferences": "Tercihler",
+      "privacyAndSecurity": "Gizlilik ve güvenlik",
+      "support": "Destek",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} diğer cüzdan"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Otomatik",
+          "dark": {
+            "subtitle": "Her zaman karanlık temayı kullan.",
+            "title": "Karanlık"
+          },
+          "device": {
+            "subtitle": "Cihazının ayarlarına uyumlanır.",
+            "title": "Otomatik"
+          },
+          "light": {
+            "subtitle": "Her zaman aydınlık temayı kullan.",
+            "title": "Aydınlık"
+          }
+        },
+        "title": "Tema"
+      },
+      "backup": {
+        "create": {
+          "description": "Bir şifre belirlemek, kurtarma cümlesi yedeğini şifreleyerek {{cloudProviderName}} hesabının güvenliğinin ihlal edilmesi durumunda ekstra bir koruma düzeyi sağlar.",
+          "title": "{{cloudProviderName}} konumuna yedekle"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Bu cüzdanlar bir kurtarma cümlesini ortak kullandığından, bu cüzdanların aşağıdaki yedekleri de silinecek",
+            "title": "Emin misin?"
+          },
+          "warning": "{{cloudProviderName}} yedeğini silersen cüzdanını yalnızca kurtarma cümlenin manuel olarak alınan yedeğiyle kurtarabilirsin. Kurtarma cümleni kaybedersen Uniswap Labs, varlıklarını kurtaramaz."
+        },
+        "error": {
+          "message": {
+            "full": "Kurtarma cümlesi {{cloudProviderName}} konumuna yedeklenemiyor. Lütfen {{cloudProviderName}} seçeneğinin etkinleştirildiğinden ve kullanılabilir depolama alanı olduğundan emin ol ve tekrar dene.",
+            "short": "Yedek silinemiyor"
+          },
+          "title": "{{cloudProviderName}} hatası"
+        },
+        "modal": {
+          "description": "Kurtarma cümleni henüz {{cloudProviderName}} konumuna yedeklemedin. Bunu yaptığında herhangi bir cihazdan {{cloudProviderName}} konumunda oturum açarak cüzdanını kurtarabilirsin.",
+          "title": "Kurtarma cümlesi {{cloudProviderName}} konumuna yedeklensin mi?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Şifreler eşleşmiyor"
+          },
+          "medium": "Bu orta derecede güçlü bir şifre",
+          "placeholder": {
+            "confirm": "Şifreyi onayla",
+            "create": "Şifre oluştur"
+          },
+          "strong": "Bu güçlü bir şifre",
+          "weak": "Bu zayıf bir şifre"
+        },
+        "recoveryPhrase": {
+          "label": "Kurtarma cümlesi"
+        },
+        "selected": "{{cloudProviderName}} yedeği",
+        "status": {
+          "action": {
+            "delete": "Yedeği sil"
+          },
+          "complete": "{{cloudProviderName}} konumuna yedeklendi",
+          "description": "Kurtarma cümleni {{cloudProviderName}} konumuna yedeklediğinde herhangi bir cihazdan {{cloudProviderName}} hesabında oturum açarak cüzdanını kurtarabilirsin.",
+          "inProgress": "{{cloudProviderName}} konumuna yedekleniyor...",
+          "recoveryPhrase": {
+            "backed": "Yedeklendi"
+          },
+          "title": "{{cloudProviderName}} yedeği"
+        }
+      },
+      "beta": {
+        "tooltip": "Çok yakında"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Uygulamayı açmak için yüz tanıma/parmak izi iste.",
+            "ios": "Uygulamayı açmak için {{biometricsMethod}} iste."
+          },
+          "title": "Uygulama erişimi"
+        },
+        "auth": "Lütfen kimliğini doğrula",
+        "off": {
+          "message": {
+            "android": "Biyometri şu anda Uniswap Cüzdan için kapalı; bunu sistem ayarlarından açabilirsin.",
+            "ios": "{{biometricsMethod}} şu anda Uniswap Cüzdan için kapalı; bunu sistem ayarlarından açabilirsin."
+          },
+          "title": {
+            "android": "Biyometri kapalı",
+            "ios": "{{biometricsMethod}} kapalı"
+          }
+        },
+        "title": "Yüz tanıma/Parmak izi ile kilit açma",
+        "transactions": {
+          "subtitle": {
+            "android": "İşlem yapmak için yüz tanıma/parmak izi iste.",
+            "ios": "İşlem yapmak için {{biometricsMethod}} iste."
+          },
+          "title": "İşlemler"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Biyometri, cihazında ayarlanmamış. Biyometri kullanmak için öncelikle Ayarlar bölümünde ayarla.",
+            "ios": "{{biometricsMethod}}, cihazında ayarlanmamış. {{biometricsMethod}} kullanmak için öncelikle Ayarlar bölümünde ayarla."
+          },
+          "title": {
+            "android": "Biyometri ayarlanmadı",
+            "ios": "{{biometricsMethod}} ayarlanmadı"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Biyometriyi açmazsan cihazına erişim elde eden herkes sana ait Uniswap Cüzdan'ı açabilir ve işlem yapabilir.",
+            "ios": "{{biometricsMethod}} özelliğini açmazsan cihazına erişim elde eden herkes sana ait Uniswap Cüzdan'ı açabilir ve işlem yapabilir."
+          },
+          "title": "Emin misin?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Tümünün bağlantısını kes",
+        "noConnectionsDescription": "\"Cüzdanı Bağla\" veya \"Giriş Yap\" düğmesiyle bir uygulamaya bağlan."
+      },
+      "currency": {
+        "title": "Yerel para birimi"
+      },
+      "hapticTouch": {
+        "title": "Haptik dokunuş"
+      },
+      "helpCenter": {
+        "title": "Yardım merkezi"
+      },
+      "language": {
+        "button": {
+          "navigate": "Ayarlara git"
+        },
+        "description": {
+          "extension": "Uniswap varsayılan olarak sistem dil ayarlarını kullanır. Dil tercihini değiştirmek için sistem ayarlarına git.",
+          "mobile": "Uniswap varsayılan olarak cihazının dil ayarlarını kullanır. Dil tercihini değiştirmek için cihaz ayarlarında \"Uniswap\" seçeneğine git ve \"Dil\" seçeneğine dokun."
+        },
+        "title": "Dil"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Transferler, istekler ve diğer etkinlikler",
+            "title": "Cüzdan etkinliği"
+          },
+          "priceAlerts": {
+            "description": "Favorilere eklenen token'larda büyük fiyat değişiklikleri",
+            "title": "Fiyat uyarıları"
+          },
+          "updates": {
+            "description": "Öneriler ve yeni özellikler",
+            "title": "Uniswap Güncellemeleri"
+          }
+        },
+        "title": "Bildirimler"
+      },
+      "password": {
+        "title": "Şifreyi değiştir"
+      },
+      "permissions": {
+        "title": "İzinler"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Uniswap Labs ürünlerindeki deneyimini iyileştirmek için anonimleştirilmiş kullanım verilerini kullanırız. Bu devre dışı bırakıldığında yalnızca hataları ve temel kullanımı izleriz.",
+          "title": "Uygulama analizleri"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Şifreni gir"
+        },
+        "title": "Kurtarma cümlesi"
+      },
+      "smallBalances": {
+        "title": "Portföy bakiyesi"
+      },
+      "unknownTokens": {
+        "subtitle": "Potansiyel dolandırıcılık token'ları portföyünden gizlenecek.",
+        "title": "Bilinmeyen token'ları gizle"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Etiketi düzenle",
+          "editProfile": "Profili düzenle",
+          "remove": "Cüzdanı kaldır"
+        },
+        "connection": {
+          "banner": {
+            "description": "Profil resmine tıklayarak cüzdan ayarlarından bağlantıları yönet.",
+            "title": "Bağlantılar taşındı"
+          }
+        },
+        "connections": {
+          "title": "Bağlantılar"
+        },
+        "editLabel": {
+          "description": "Etiketler herkese açık değildir. Yerel olarak depolanırlar ve bunları yalnızca siz görebilirsiniz.",
+          "save": "Değişiklikleri kaydet"
+        },
+        "label": "Takma ad",
+        "testnetMode": {
+          "description": "Bu, geliştiricilerin gerçek varlıklar kullanmadan özellikleri ve işlemleri denemeleri için test ağlarını açar. Test ağlarındaki token'lar gerçek bir değere sahip değildir.",
+          "title": "Test ağı modu"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Uniswap'ı {{label}} üzerinde kullanmak için cüzdanının ayarlarından ağı değiştir."
+    },
+    "title": "Ayarlar",
+    "version": "Sürüm {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "Akıllı cüzdanlar, güvenli akıllı sözleşmeleri kullanarak daha hızlı ve düşük maliyetli işlemler sunar.",
+      "info": "Halihazırda başka bir uygulamadan akıllı cüzdan özellikleri kullanan cüzdanlar etkilenmez."
+    },
+    "enabledModal": {
+      "description": "Güncellemeler, yapacağın bir sonraki swap işleminde etki gösterecek.",
+      "title": "Akıllı cüzdan etkin"
+    },
+    "postSwapNudge": {
+      "description": "Akıllı cüzdan, güvenli akıllı sözleşmeleri kullanarak daha hızlı ve düşük maliyetli işlemler sunar.",
+      "enable": "Akıllı cüzdanı etkinleştir",
+      "title": "Bir sonraki swap işleminde tasarruf et"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "Bu adresle daha önce işlem yapmadın. Devam etmeden önce adresin doğru olduğundan emin ol.",
+        "title": "Yeni adres"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Token'ları özel bir adres türü olan bir akıllı sözleşmeye göndermek üzeresin. Göndermeyi planladığın adresin bu olup olmadığını bir kez daha kontrol et. Yanlışsa token'larını kalıcı olarak kaybedebilirsin.",
+        "title": "Bu bir cüzdan adresi mi?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24 saatlik ücretler",
+    "24volume": "24 saatlik hacim",
+    "allTimeFees": "Tüm zamanların LP ücretleri",
+    "allTimeSwappers": "Tüm zamanların swap yapanları",
+    "allTimeVolume": "Tüm zamanların hacmi",
+    "fdv": {
+      "description": "Tamamen seyreltilmiş değerleme (FDV), tüm token'ların dolaşımda olduğunu varsayarak toplam piyasa değerini hesaplar."
+    },
+    "marketCap": {
+      "description": "Piyasa değeri, bir varlığın dolaşımdaki arzının toplam piyasa değeridir."
+    },
+    "tvl": {
+      "description": "Toplam kilitli değer (TVL), tüm Uniswap likidite havuzlarında mevcut olan toplam varlık tutarıdır."
+    },
+    "volume": {
+      "1d": {
+        "description": "1 günlük hacim, son 24 saat içinde Uniswap'ta işlem gören varlık tutarıdır.",
+        "long": "1 günlük hacim",
+        "short": "1 günlük hacim"
+      },
+      "description": "Hacim, seçilen zaman dilimi boyunca Uniswap'ta işlem gören varlık tutarıdır."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} varlığına izin ver (bir kez)"
+    },
+    "approvalNeeded": "Bu token'ın kullanılması için onay gerekli.",
+    "approvalPending": "Onay beklemede",
+    "approveAndSubmit": "Onayla ve gönder",
+    "approveAndSwap": "Onayla ve swap et",
+    "approveInWallet": "Cüzdanında onayla",
+    "balance": {
+      "amount": "Bakiye: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "En verimli rotanın, ağ maliyetlerinde ~{{gasPrice}} tutacağı tahmin ediliyor. "
+    },
+    "bridging": {
+      "estimatedTime": "Tahmini süre",
+      "title": "Ağlar arasında swap",
+      "warning": {
+        "description": "{{fromNetwork}} ağından {{toNetwork}} ağına swap işlemi gerçekleştiriyorsun. Bu işlem \"köprüleme\" olarak da adlandırılır ve token'larını bir ağdan diğerine taşır."
+      }
+    },
+    "button": {
+      "max": "Maks.",
+      "review": "İncele",
+      "submitting": {
+        "keep": {
+          "open": "Cüzdanını açık tut..."
+        }
+      },
+      "swap": "Swap",
+      "swapAnyways": "Yine de swap et",
+      "unwrap": "Aç",
+      "wrap": "Sar"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Ülkeye veya bölgeye göre ara"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Swap işlemin iptal işleminden önce gerçekleştirilebilir. Ağ maliyetlerin iade edilemez. Devam etmek istiyor musun?",
+      "cannotExecute_other": "Swap işlemlerin iptal işleminden önce gerçekleştirilebilir. Ağ maliyetlerin iade edilemez. Devam etmek istiyor musun?"
+    },
+    "confirmLimit": "Limiti onayla",
+    "confirmSwap": "Swap işlemini onayla",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "İşlem son tarihi"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Token ücreti"
+      },
+      "newQuote": {
+        "input": "Yeni giriş",
+        "output": "Yeni çıkış"
+      },
+      "orderRouting": "Emir yönlendirme",
+      "orderRoutingInfo": "Bu swap işlemi, varlıkları ağlar arasında taşırken güvenliği, hızlı yürütmeyi ve düşük fiyatları önceliklendiren merkeziyetsiz bir protokol olan Across üzerinden yönlendirilir.",
+      "poweredBy": "Destekleyen:",
+      "rate": "Oran",
+      "slippage": "Maks. slipaj",
+      "uniswapFee": "Ücret"
+    },
+    "error": {
+      "default": "Slipaj toleransını artırman gerekebilir. Not: Transfer ücreti ve rebase token'lar Uniswap V3 ile uyumlu değildir.",
+      "expectedToFail": "Swap işleminin başarısız olması bekleniyor.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} girişi kullanılamıyor",
+      "modifiedByWallet": "Swap işlemin cüzdanın aracılığıyla değiştirildi. Bu hatalı bir işlemse lütfen hemen iptal et; aksi hâlde fonlarını kaybetme riskiyle karşı karşıya kalırsın.",
+      "rejected": "İşlem reddedildi",
+      "undefinedObject": "Bu swap işlemini yürütmeye çalışırken bir hata oluştu. Slipaj toleransını artırman gerekebilir. Bu işe yaramazsa işlem yaptığın token ile uyumsuzluk oluşabilir. Not: Transfer ücreti ve rebase token'lar Uniswap V3 ile uyumlu değildir.",
+      "unknown": "Bilinmeyen hata.",
+      "v2": {
+        "expired": "Son tarih geçtiği için bu işlem gönderilemedi. Lütfen işlem son tarihinin çok kısa ayarlanmadığından emin ol.",
+        "k": "Swap işlemi, x*y=k Uniswap değişmezini karşılamadı. Bu genellikle swap ettiğin token'lardan birinin transfer sırasında özel bir davranış içerdiği anlamına gelir.",
+        "slippage": "Bu işlem, fiyat hareketinden veya transfer ücretinden dolayı başarılı olamayacak. Slipaj toleransını artırmayı dene",
+        "transferInput": "Giriş token'ı transfer edilemiyor. Giriş token'ı ile ilgili bir sorun olabilir.",
+        "transferOutput": "Çıkış token'ı transfer edilemiyor. Çıkış token'ı ile ilgili bir sorun olabilir."
+      },
+      "v3": {
+        "slippage": "Bu işlem fiyat hareketi nedeniyle başarılı olamayacak. Slipaj toleransını artırmayı dene. Not: Transfer ücreti ve rebase token'lar Uniswap V3 ile uyumlu değildir.",
+        "transferOutput": "Çıkış token'ı transfer edilemiyor. Çıkış token'ı ile ilgili bir sorun olabilir. Not: Transfer ücreti ve rebase token'lar Uniswap V3 ile uyumlu değildir."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Mevcut likidite nedeniyle giriş ve çıkış değerlerin arasında büyük bir fark olacak."
+    },
+    "fail": {
+      "message": "Slipajı daha yüksek bir değere ayarlamayı dene.",
+      "uniswapX": "UniswapX ile swap işlemi tamamlanamadı. Swap işlemini klasik Uniswap API üzerinden yönlendirmek için tekrar dene."
+    },
+    "fees": {
+      "experience": "Bu ücret, Uniswap ile en iyi deneyimi elde etmen için bazı token çiftlerine uygulanır. Çıkış token'ı cinsinden ödenir ve son fiyata halihazırda dâhil edilmiştir.",
+      "noFee": "Uniswap ile en iyi deneyimi elde etmen için seçilen token çiftlerine ücretler uygulanır. Bu swap ile ilgili herhangi bir ücret uygulanmaz."
+    },
+    "fetchingBestPrice": "En iyi fiyat getiriliyor...",
+    "fetchingPrice": "Fiyat getiriliyor...",
+    "finalizingQuote": "Fiyat son hâline getiriliyor...",
+    "form": {
+      "header": "Swap",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Token ücretleri nedeniyle swap tutarları yalnızca giriş alanı kullanılarak girilebilir"
+          }
+        },
+        "restore": "Swap işlemi için cüzdanını geri yükle"
+      }
+    },
+    "frontrun": {
+      "warning": "İşlemin önden gerçekleştirilebilir ve tercih edilmeyen bir alım satımla sonuçlanabilir."
+    },
+    "header": {
+      "viewOnly": "Salt görüntülenebilir"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "Fiyat etkisi hesaplamaları, düşük likiditeye sahip çiftlerde kullanılamayabilir."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "Giriş değeri tahmini bir değerdir. En fazla <amount /> satacaksın; aksi takdirde işlem geri alınır."
+    },
+    "limit": "Limit",
+    "limitedAssets": {
+      "warning": "Bazı varlıklar, akıllı sözleşmelerle iyi çalışmayabileceği veya yasal nedenlerden dolayı alım satıma izin veremediğimiz için bu arayüz üzerinden kullanılamaz."
+    },
+    "limitFilled": "Limit doldu!",
+    "limitSubmitted": "Limit gönderildi",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Piyasa fiyatı belirlediğin fiyat aralığının dışında. Yalnızca tek varlık yatırma işlemleri yapılabilir."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Harcamanın garanti edildiği maksimum tutar. Fiyatın daha fazla farklılık göstermesi durumunda işlemin geri alınır."
+    },
+    "minPriceSlip": {
+      "revert": "Fiyat, alacağın tutar {{amount}} altına düşecek şekilde hareket ederse işlemin geri alınır."
+    },
+    "networkCost": {
+      "paidIn": "{{chainName}} ağında işlem yapılabilmesi için ağ maliyeti {{sym}} olarak ödenir."
+    },
+    "orderRouting": "Emir yönlendirme",
+    "outputEstimated": {
+      "atLeast": "Çıkış değeri tahmini bir değerdir. En az <amount /> alacaksın; aksi takdirde işlem geri alınır."
+    },
+    "payAnyway": "Yine de Öde",
+    "payAtMost": "Maksimum ödenecek:",
+    "payWith": "Şununla öde:",
+    "placeOrder": "Emir ver",
+    "priceImpact": "Fiyat etkisi",
+    "receive": {
+      "atLeast": "Minimum alınacak:"
+    },
+    "request": {
+      "title": {
+        "full": "{{inputCurrencySymbol}} → {{outputCurrencySymbol}} arasında swap yap",
+        "short": "Token'ları Swap Et"
+      }
+    },
+    "review": {
+      "summary": "Swap işlemi yapıyorsun"
+    },
+    "reviewLimit": "Limiti incele",
+    "route": {
+      "optimizedGasCost": "Bu rota, bölünmüş rotaları, çoklu atlamaları ve her adımın ağ maliyetlerini dikkate alır."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "İşlemin bu süreden daha uzun süre beklemede kalırsa geri alınır. (Maksimum: 3 gün)",
+        "warning": "Uzun son tarih"
+      },
+      "protection": {
+        "description": "Swap koruması açıkken Ethereum işlemleriniz sandviç saldırılarına karşı korunur ve başarısızlık olasılığı azalır.",
+        "subtitle": {
+          "supported": "{{chainName}} Ağı",
+          "unavailable": "{{chainName}} zincirinde mevcut değil"
+        },
+        "title": "Swap koruması"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap müşterisi, fiyatı ve ağ maliyetlerini dikkate alarak en ucuz alım satım seçeneğini belirler."
+            },
+            "tooltip": "Rota, tahmini fiyat etkisini ve ağ maliyetlerini dikkate alarak v2, v3 ve belirli v4 havuzlarına göre belirlenir."
+          },
+          "v2": {
+            "title": "v2 havuzları"
+          },
+          "v3": {
+            "title": "v3 havuzları"
+          },
+          "v4": {
+            "title": "v4 havuzları"
+          }
+        },
+        "title": "Alım satım seçenekleri"
+      },
+      "slippage": {
+        "alert": "Yüksek slipaj",
+        "control": {
+          "auto": "Otomatik"
+        },
+        "description": "Fiyatın slipaj yüzdesinden daha fazla değişmesi durumunda işlemin geri alınır.",
+        "input": {
+          "message": "Fiyatın daha fazla farklılık göstermesi durumunda işlemin geri alınır. Alacağın garanti edilen minimum tutarı aşağıda görebilirsin.",
+          "receive": {
+            "title": "Minimum alınacak:"
+          }
+        },
+        "output": {
+          "message": "Fiyatın daha fazla farklılık göstermesi durumunda işlemin geri alınır. Harcaman gereken maksimum tutarı aşağıda görebilirsin.",
+          "spend": {
+            "title": "Maksimum harcanacak:"
+          }
+        },
+        "warning": {
+          "description": "%20'nin üzerinde bir slipajın, tercih edilmeyen bir alım satımla sonuçlanması muhtemeldir. \"Front-run\" işlemle karşılaşma riskini azaltmak için daha düşük ayarlar kullan.",
+          "hover": "Bu işlem, tercih edilmeyen bir alım satımla sonuçlanabilir. Slipaj ayarını düşürmeyi dene.",
+          "max": "{{maxSlippageTolerance}} altında bir değer gir",
+          "message": "Slipaj gereğinden fazla olabilir",
+          "min": "0'dan büyük bir değer gir"
+        }
+      },
+      "title": "Swap ayarları",
+      "transactionRevertPrice": "Fiyatın bu yüzdenin üzerinde olumsuz yönde değişmesi durumunda işlemin geri alınır."
+    },
+    "signAndSwap": "İmzala ve swap et",
+    "slippage": {
+      "amt": "{{amt}} slipaj",
+      "bridging": "Ağlar arasında swap işlemi yaparken slipaj olmaz",
+      "settings": {
+        "title": "Maks. slipaj"
+      },
+      "tooltip": "İşlemin geri alınmadan önceki maksimum fiyat hareketi."
+    },
+    "slippageBelow": {
+      "warning": "{{amt}} altındaki slipaj, işlemin başarısız olmasına neden olabilir"
+    },
+    "submitted": "Swap gönderildi",
+    "success": "Swap başarılı!",
+    "tokenOwnFees": "Bazı token'lar alınırken veya satılırken token'ı çıkaran tarafça belirlenen bir ücret tahsil edilir. Bu ücretlerin hiçbiri Uniswap tarafından alınmaz.",
+    "total": "Toplam",
+    "tradeRoutes": "Alım satım rotaları",
+    "transaction": {
+      "deadline": "İşlem son tarihi",
+      "revertAfter": "İşlemin bu süreden daha uzun süre beklemede kalırsa geri alınır."
+    },
+    "unsupportedAssets": {
+      "readMore": "Desteklenmeyen varlıklar hakkında daha fazlasını oku"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Daha büyük bir tutar gir"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Slipajını artırmayı dene.",
+        "titleMay": "Bu swap başarısız olabilir"
+      },
+      "insufficientBalance": {
+        "title": "Yeterli {{currencySymbol}} yok"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "{{networkName}} ağında {{ tokenSymbol }} karşılığında swap et",
+          "buy": "{{ tokenSymbol }} satın al",
+          "buyWithCard": "Kartla satın al"
+        },
+        "message": {
+          "withNetwork": "<highlight>{{networkName}} üzerinde swap etmek için yeterli {{currencySymbol}} yok</highlight>",
+          "withoutNetwork": "Swap etmek için yeterli <highlight>{{currencySymbol}}</highlight> yok"
+        },
+        "title": "Ağ maliyetini karşılamaya yetecek kadar {{currencySymbol}} yok"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} token'ına izin ver (bir kez)",
+        "highRelativeToValue": {
+          "unichain": "Ağ maliyeti, toplam işlem değerinin %10'unu aşıyor. Bu, işleminin blokzincirde işlenmesinin maliyetidir."
+        },
+        "message": {
+          "unichain": "Bu, işleminin blokzincirde işlenmesinin maliyetidir.",
+          "uniswapX": {
+            "unichain": "Bu, işleminin blokzincir üzerinde işlenmesinin maliyetidir. <gradient>UniswapX</gradient> daha iyi fiyatlar ve Gas ücreti alınmayan swap işlemleri için likidite kaynaklarını bir araya getirir."
+          }
+        },
+        "wrap": "ETH'yi sar"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Köprüleme son fiyatı bulunamadı. Şu anki resmi köprüyü kullanmayı dene."
+        },
+        "title": "Son fiyat bulunamadı"
+      },
+      "noRoutesFound": {
+        "message": "Seçtiğin token'lar için şu an kullanılabilir rota yok. Lütfen farklı bir çift dene veya daha sonra tekrar kontrol et.",
+        "title": "Kullanılabilir rota yok"
+      },
+      "offline": {
+        "message": "İnternet bağlantın kesilmiş veya ağ çökmüş olabilir. Lütfen internet bağlantını kontrol et ve tekrar dene.",
+        "title": "Çevrimdışısın"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Bu işlem, bu havuzun piyasa fiyatı üzerinde {{priceImpactValue}} fiyat etkisine neden olacak ve fon kaybına yol açacak."
+        },
+        "title": {
+          "veryHigh": "Çok yüksek fiyat etkisi ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Uygulamayı kapattığın için işlemin gönderilemedi.",
+        "approvalFailed": "Token onayı başarısız olduğundan işlemin gönderilemedi.",
+        "stale": "Uygulamayı kapattığın veya onay çok uzun sürdüğü için işlemin gönderilemedi.",
+        "submissionFailed": "İşlemin gönderilirken bir sorun oluştu.",
+        "title": "Swap iptal edildi",
+        "wrap": {
+          "message": "ETH'lerin WETH olarak sarılı kalacak."
+        },
+        "wrapFailed": "Sarma işlemi başarısız olduğundan işlemin gönderilemedi."
+      },
+      "rateLimit": {
+        "message": "Lütfen birkaç dakika sonra tekrar dene.",
+        "title": "Oran limiti aşıldı"
+      },
+      "router": {
+        "message": "Bağlantın kesilmiş veya ağ çökmüş olabilir. Sorun devam ederse lütfen daha sonra tekrar dene.",
+        "title": "Bu alım satım şu anda tamamlanamıyor"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} engellendi"
+      },
+      "tokenBlockedFallback": {
+        "button": "Token engellendi"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Uniswap ile en iyi deneyimi elde etmen için ücretler uygulanır. Bu swap ile ilgili herhangi bir ücret yoktur.",
+          "included": "Uniswap ile en iyi deneyimi elde etmen için ücretler uygulanır ve bu, son fiyata zaten dâhil edilmiştir."
+        },
+        "title": "Swap ücreti"
+      },
+      "viewOnly": {
+        "message": "Token'ları swap etmek için kurtarma cümlesi aracılığıyla bu cüzdanı içe aktarman gerekir."
+      }
+    },
+    "wrap": {
+      "token": "{{sym}} token'ını sar"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Diğer ağlarda",
+      "otherNetworksBalance": "Diğer ağlardaki bakiye",
+      "title": "Bakiyen"
+    },
+    "button": {
+      "getToken": "{{ tokenSymbol }} edin",
+      "getTokenFallback": "Token edin"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "{{network}} ağına geç",
+      "title": "Bu token mevcut değil",
+      "titleWithChain": "Bu token {{network}} üzerinde mevcut değil"
+    },
+    "loading": {
+      "title": {
+        "default": "<tokenLink /> için token verileri",
+        "withChain": "{{chainName}} zincirinde <tokenLink /> için token verileri"
+      }
+    },
+    "nameNotFound": "Ad bulunamadı",
+    "noInfoAvailable": "Token bilgisi mevcut değil",
+    "noTestnetSupportDescription": "Bazı test ağları token'ların swap, gönderme veya alım işlemlerini desteklemez.",
+    "stats": {
+      "unsupportedChainDescription": "{{chain}} için token istatistikleri ve grafikleri {{infoLink}} adresinde mevcuttur"
+    },
+    "symbolNotFound": "Sembol bulunamadı"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Bu işlem için test ağı modunun devre dışı bırakılması gerekiyor. Test ağı modunu dilediğin zaman ayarlardan yeniden etkinleştirebilirsin.",
+          "toTestnetMode": "Bu işlem için test ağı modunun etkinleştirilmesi gerekiyor. Test ağlarındaki token'lar gerçek bir değere sahip değildir. Test ağı modunu dilediğin zaman ayarlardan devre dışı bırakabilirsin."
+        },
+        "title": {
+          "toProdMode": "Test ağı modunu devre dışı bırak",
+          "toTestnetMode": "Test ağı modunu etkinleştir"
+        }
+      }
+    },
+    "unsupported": "Bu işlevsellik test ağı modunda desteklenmiyor."
+  },
+  "themeToggle": {
+    "theme": "Tema"
+  },
+  "title": {
+    "buySellTradeEthereum": "Uniswap'ta Ethereum ve önde gelen diğer token'ları alıp sat ve bunlarla işlem yap",
+    "createGovernanceOn": "Uniswap'ta yeni bir yönetişim teklifi oluştur",
+    "createGovernanceTo": "UNI sahipleri tarafından oylanacak yeni bir yönetişim teklifi oluştur. UNI token'ları, Uniswap yönetişimindeki oy hisselerini temsil eder.",
+    "earnFees": "Likidite havuzlarına token ekleyerek başkaları Uniswap'ta swap işlemi yaptığında ücret kazan.",
+    "easilyRemove": "Uniswap v2'deki likiditeni kolayca çekip Uniswap v3'e yatır.",
+    "easilyRemoveV4": "Uniswap v2 ve v3'teki likiditeni kolayca çekip Uniswap v4'e yatır.",
+    "explore": "Uniswap'taki NFT'leri keşfet",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "NFT koleksiyonunu yönet. NFT'lerin ile ilgili özellikleri, alım satım etkinliklerini, açıklamaları ve diğer ayrıntıları görüntüle.",
+    "migratev2": "v2 havuzu likiditesini Uniswap v3'e taşı",
+    "migratev3": "Havuz likiditesini Uniswap v4'e taşı",
+    "placeLimit": "Uniswap'ta limit emirleri ver",
+    "realTime": "Gerçek zamanlı fiyatlar, grafikler, işlem verileri ve daha fazlası.",
+    "removeLiquidityv2": "Uniswap'ta havuz likiditesini (v2) kaldır",
+    "removePoolLiquidity": "Uniswap'ta havuz likiditesini kaldır",
+    "removeTokensv2": "Token'larını v2 likidite havuzlarından çıkar.",
+    "removev3Liquidity": "Token'larını v3 likidite havuzlarından çıkar.",
+    "sendTokens": "Uniswap'ta token gönder",
+    "swappingMadeSimple": "Swap işlemi artık çok kolay. Ethereum, Base, Arbitrum, Polygon ve diğer platformlarda kripto para alıp sat. Milyonlarca kişinin güvendiği çözüm.",
+    "tradeTokens": "Token alıp sat ve likidite sağla. Gerçek zamanlı fiyatlar, grafikler, işlem verileri ve daha fazlası.",
+    "uniswapTradeCrypto": "Uniswap | En iyi DeFi platformunda güvenli bir şekilde kripto para ve NFT alıp sat",
+    "uniToken": "UNI token'ları, Uniswap yönetişimindeki oy hisselerini temsil eder. Her teklife kendin oy verebilir veya oylarını bir üçüncü tarafa devredebilirsin.",
+    "voteOnGov": "Uniswap'ta yönetişim tekliflerine oy ver"
+  },
+  "token": {
+    "balances": {
+      "main": "Bakiyen",
+      "other": "Diğer ağlardaki bakiyeler",
+      "viewOnly": "{{ownerAddress}} bakiyesi"
+    },
+    "bridge": "{{label}} token köprüsü",
+    "chart": {
+      "candlestick": {
+        "unavailable": "Bu token için mum grafikleri kullanılamıyor"
+      },
+      "tooltip": "Ücretler: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Test ağı token'ları için token detayları mevcut değil."
+      }
+    },
+    "error": {
+      "unknown": "Bilinmeyen token"
+    },
+    "fee": {
+      "buy": {
+        "label": "alım ücreti"
+      },
+      "label": "ücret",
+      "sell": {
+        "label": "satış ücreti"
+      }
+    },
+    "links": {
+      "title": "Bağlantılar",
+      "twitter": "Twitter",
+      "website": "Web sitesi"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Bir şeyler yanlış gitti.",
+        "title": "Fiyat grafiği yüklenemedi"
+      },
+      "timeRangeLabel": {
+        "all": "Her zaman",
+        "day": {
+          "verbose": "1 Gün"
+        },
+        "hour": "1 sa",
+        "month": {
+          "verbose": "1 Ay"
+        },
+        "week": {
+          "verbose": "1 Hafta"
+        },
+        "year": {
+          "verbose": "1 Yıl"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} mevcut değil",
+          "tokensNotAvailable": "{{tokenSymbol0}} ve {{tokenSymbol1}} mevcut değil"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs bu ücretlerin hiçbirini almaz."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Her zaman kendi araştırmanı yap",
+        "blocked": {
+          "description": {
+            "default_one": "Bu token'ı Uniswap Uygulamasını kullanarak alıp satamazsın.",
+            "default_other": "Bu token'ları Uniswap Uygulamasını kullanarak alıp satamazsın."
+          }
+        },
+        "copyContractAddress": {
+          "message": "Bu, sözleşme adresidir ve blokzincir üzerindeki token'lar için benzersiz bir tanımlayıcı olarak işlev görür. Bu adrese gönderdiğiniz kripto parayı kaybedersiniz.",
+          "title": "Bu adrese kripto para gönderme"
+        },
+        "dontShowWarningAgain": "Bana bu uyarıyı bir daha gösterme",
+        "doYourOwnResearch": "Devam etmeden önce mutlaka kendi araştırmanı yap.",
+        "feeDescription": "{{action}} durumunda <fee /> alıyor",
+        "flaggedAsMalicious": "Kötü amaçlı olarak işaretlendi",
+        "fotHigh": {
+          "title": "Yüksek ücret tespit edildi"
+        },
+        "fotLow": {
+          "title": "Ücret tespit edildi"
+        },
+        "fotVeryHigh": {
+          "title": "Çok yüksek ücret tespit edildi"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} satılamaz olarak işaretlendi. Bu token'ı swap etmek fonlarını kaybetmene neden olabilir.",
+          "title": "%100 satış ücreti tespit edildi"
+        },
+        "impersonator": {
+          "title": "Taklitçi token tespit edildi"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}}, Blockaid tarafından kötü amaçlı olarak işaretlendi."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}}, swap etmek istediğiniz token olmayabilir."
+            }
+          },
+          "title": "Kötü amaçlı token algılandı"
+        },
+        "mayResultInLoss": "Swap edilmesi fon kaybına yol açabilir.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}}, önde gelen ABD merkezi borsalarında işlem görmüyor."
+          }
+        },
+        "notListedOnExchanges": "Önde gelen ABD borsalarında işlem görmüyor",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}}, Blockaid tarafından şüpheli olarak işaretlendi."
+          },
+          "modal": {
+            "message": "{{tokenSymbol}}, Blockaid tarafından potansiyel bal tuzağı olarak işaretlendi. Devam etmeden önce mutlaka kendi araştırmanı yap."
+          },
+          "title": "Potansiyel bal tuzağı tespit edildi"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }}, satılamaz olarak işaretlendi.",
+          "title": "%100 satış ücreti tespit edildi"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}}, Blockaid tarafından spam olarak işaretlendi.",
+          "title": "Spam token'ı algılandı"
+        },
+        "spamsUsers": "Kullanıcılara spam gönderiyor",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} satın alındığında {{buyFeePercent}} ücret, satıldığında ise {{sellFeePercent}} ücret tahsil edilir."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}}, satın alındığında {{feePercent}} ücret tahsil edilir."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}}, satıldığında {{feePercent}} ücret tahsil edilir."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} alındığında veya satıldığında ücret tahsil edilir."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "Uniswap Cüzdan'ı kullanarak bu token'ı alıp satamazsın."
+      },
+      "medium": {
+        "message": {
+          "plural": "Bu token'lar önde gelen ABD merkezi borsalarında işlem görmüyor. Devam etmeden önce mutlaka kendi araştırmanı yap."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Arama sonuçları yüklenemedi"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Tamamen Seyreltilmiş Değerleme",
+      "marketCap": "Piyasa Değeri",
+      "priceHighYear": "52 Hf - En Yüksek",
+      "priceLowYear": "52 Hf - En Düşük",
+      "section": {
+        "about": "{{token}} hakkında"
+      },
+      "title": "İstatistikler",
+      "translation": {
+        "original": "Orijinali göster",
+        "translate": "{{language}} diline çevir"
+      },
+      "volume": "24 Saatlik Hacim"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Giriş token'ı"
+      },
+      "output": {
+        "fallback": "Çıkış token'ı"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Uniswap Protokolünde swap işlemleri ETH ile başlayıp bitebilir. Bununla birlikte, swap işlemi sırasında ETH, WETH'e sarılır."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "{{ tokenSymbol }} edinmek için, ağ maliyetlerini karşılamak üzere {{ nativeTokenSymbol }} bakiyen olması gerekiyor.",
+      "title": "{{ nativeTokenName }} token'ına ihtiyacın var"
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Token'ı gizle",
+      "unhide": "Token'ı göster"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "{{blockExplorerName}} üzerinde görüntüle"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "NFT koleksiyonu yüklenemedi"
+          }
+        },
+        "label": {
+          "items": "Ögeler",
+          "owners": "Sahipler",
+          "priceFloor": "Taban",
+          "swapVolume": "Hacim"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "NFT ayrıntıları yüklenemedi"
+          }
+        },
+        "network": "Ağ",
+        "owner": "Sahibi",
+        "price": "Mevcut fiyat",
+        "recentPrice": "Son satış fiyatı",
+        "traits": "Özellikler"
+      },
+      "empty": {
+        "description": "NFT bulunamadı"
+      },
+      "error": {
+        "unavailable": "İçerik mevcut değil"
+      },
+      "hidden": {
+        "action": {
+          "hide": "NFT'yi gizle",
+          "unhide": "NFT'yi göster"
+        }
+      },
+      "link": {
+        "collection": "Koleksiyon web sitesi"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFT'ler yüklenemedi"
+          }
+        },
+        "none": {
+          "button": "NFT'leri al",
+          "description": {
+            "default": "Başlamak için NFT'leri başka bir cüzdandan transfer et.",
+            "external": "Bu cüzdan NFT aldığında veya cüzdana NFT geçtiğinde NFT'ler burada görünür."
+          },
+          "title": "Henüz NFT yok"
+        }
+      }
+    },
+    "noneFound": "Token bulunamadı.",
+    "selector": {
+      "button": {
+        "choose": "Token seç",
+        "clear": "Tümünü temizle"
+      },
+      "empty": {
+        "buy": {
+          "message": "Token göndermek için bir kart veya banka kullanarak kripto para satın al.",
+          "title": "Kripto para al"
+        },
+        "receive": {
+          "title": "Token'ları al"
+        },
+        "title": "Henüz token yok"
+      },
+      "error": {
+        "load": "Token'lar yüklenemedi"
+      },
+      "search": {
+        "empty": "<highlight>{{searchText}}</highlight> için sonuç bulunamadı",
+        "placeholder": "Token ara"
+      },
+      "section": {
+        "bridging": "Ağlar arasında swap",
+        "favorite": "Favoriler",
+        "otherNetworksSearchResults": "Başka ağlarda token'lar bulundu",
+        "otherSearchResults": "{{network}} ağındaki diğer token'lar",
+        "recent": "Son aramalar",
+        "search": "Arama sonuçları",
+        "trending": "24 saatlik hacme göre token'lar",
+        "yours": "Token'larınız"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Havuzlarda ara",
+          "tokens": "Token ara",
+          "transactions": "İşlem ara"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "İşlemi iptal et",
+        "description": "Bu işlemi ağ tarafından işlenmeden önce iptal edersen orijinal ağ maliyeti yerine yeni bir ağ maliyeti ödersin.",
+        "title": "Bu işlem iptal edilsin mi?"
+      },
+      "copy": "İşlem kimliğini kopyala",
+      "copyProvider": "{{providerName}} işlem kimliğini kopyala"
+    },
+    "amount": {
+      "unlimited": "Sınırsız"
+    },
+    "date": "{{date}} tarihinde gönderildi",
+    "details": {
+      "dappName": "Uygulama",
+      "from": "Kimden",
+      "networkFee": "Ağ maliyeti",
+      "providerFee": "Sağlayıcı ücreti",
+      "swapRate": "Oran",
+      "transaction": "İşlem",
+      "uniswapFee": "Ücret (%{{ feePercent }})"
+    },
+    "insufficientLiquidity": "İşlemi tamamlamak için havuz likiditesi yetersiz",
+    "network": {
+      "all": "Tüm ağlar"
+    },
+    "networkCost": {
+      "label": "Ağ maliyeti",
+      "maxNativeBalance": {
+        "description": "Bu işlemin ağ maliyetini karşılamak için düşük tutarda bir ağ token'ı bakiyesi rezerve edildi.",
+        "title": "Maksimum bakiyemi neden kullanamıyorum?"
+      },
+      "veryHigh": {
+        "label": "Çok yüksek ağ maliyeti"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "İşlem iptal edilemiyor",
+        "replace": "İşlem değiştirilemiyor"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Onay iptal edildi",
+        "canceling": "Onay iptal ediliyor",
+        "failed": "Onaylanamadı",
+        "pending": "Onaylanıyor",
+        "success": "Onaylandı",
+        "successDapp": "{{externalDappName}} üzerinde onaylandı"
+      },
+      "buy": {
+        "canceled": "Alma iptal edildi",
+        "canceling": "Alım iptal ediliyor",
+        "failed": "Alım başarısız oldu",
+        "pending": "Alım yapılıyor",
+        "success": "Alındı",
+        "successDapp": "{{externalDappName}} dapp'inde alındı"
+      },
+      "confirm": {
+        "canceled": "Onaylama iptal edildi",
+        "canceling": "İptal bekleniyor",
+        "failed": "Onaylanamadı",
+        "pending": "İşlem devam ediyor",
+        "success": "İşlem onaylandı",
+        "successDapp": "İşlem {{externalDappName}} üzerinde onaylandı"
+      },
+      "mint": {
+        "canceled": "Mint etme iptal edildi",
+        "canceling": "Mint etme iptal ediliyor",
+        "failed": "Mint etme başarısız oldu",
+        "pending": "Mint ediliyor",
+        "success": "Mint edildi",
+        "successDapp": "{{externalDappName}} dapp'inde mint edildi"
+      },
+      "purchase": {
+        "canceled": "Satın alma iptal edildi",
+        "canceling": "Satın alma iptal ediliyor",
+        "failedOn": "{{serviceProvider}} üzerinden satın alma başarısız oldu",
+        "pendingOn": "{{serviceProvider}} üzerinden satın alınıyor",
+        "successOn": "{{serviceProvider}} üzerinden satın alındı"
+      },
+      "receive": {
+        "canceled": "Alma işlemi iptal edildi",
+        "canceling": "Alma işlemi iptal ediliyor",
+        "failedFrom": "{{serviceProvider}} sağlayıcısından alınamadı",
+        "pendingFrom": "{{serviceProvider}} sağlayıcısından alınıyor",
+        "success": "Alındı",
+        "successDapp": "{{externalDappName}} dapp'inde alındı",
+        "successFrom": "{{serviceProvider}} sağlayıcısından alındı"
+      },
+      "revoke": {
+        "canceled": "İptal işlemi iptal edildi",
+        "canceling": "İptal işlemi iptal ediliyor",
+        "failed": "İptal edilemedi",
+        "pending": "İptal ediliyor",
+        "success": "İptal edildi",
+        "successDapp": "{{externalDappName}} dapp'inde iptal edildi"
+      },
+      "sale": {
+        "canceled": "Satış iptal edildi",
+        "canceling": "Satış iptal ediliyor",
+        "failedOn": "{{serviceProvider}} üzerinden Satış Başarısız",
+        "pendingCard": {
+          "msg": "Kripto para satışı hakkında daha fazla bilgi edin.",
+          "title": "Satışım neden hâlâ beklemede?"
+        },
+        "pendingOn": "{{serviceProvider}} üzerinden Satılıyor",
+        "successOn": "{{serviceProvider}} üzerinden Satıldı"
+      },
+      "sell": {
+        "canceled": "Satış iptal edildi",
+        "canceling": "Satış iptal ediliyor",
+        "failed": "Satış başarısız oldu",
+        "pending": "Satılıyor",
+        "success": "Satıldı",
+        "successDapp": "{{externalDappName}} dapp'inde satıldı"
+      },
+      "send": {
+        "canceled": "Gönderme iptal edildi",
+        "canceling": "Gönderme iptal ediliyor",
+        "failed": "Gönderilemedi",
+        "pending": "Gönderiliyor",
+        "success": "Gönderildi",
+        "successDapp": "{{externalDappName}} dapp'inde gönderildi"
+      },
+      "swap": {
+        "canceled": "Swap iptal edildi",
+        "canceling": "Swap iptal ediliyor",
+        "expired": "Swap süresi doldu",
+        "failed": "Swap işlemi yapılamadı",
+        "insufficientFunds": "Yetersiz fon",
+        "pending": "Swap ediliyor",
+        "success": "Swap edildi",
+        "successDapp": "{{externalDappName}} üzerinde swap edildi"
+      },
+      "unwrap": {
+        "canceled": "Açma iptal edildi",
+        "canceling": "Açma iptal ediliyor",
+        "failed": "Açma başarısız oldu",
+        "pending": "Açılıyor",
+        "success": "Açıldı",
+        "successDapp": "{{externalDappName}} dapp'inde açıldı"
+      },
+      "wrap": {
+        "canceled": "Sarma iptal edildi",
+        "canceling": "Sarma iptal ediliyor",
+        "failed": "Sarma başarısız oldu",
+        "pending": "Sarılıyor",
+        "success": "Sarıldı",
+        "successDapp": "{{externalDappName}} üzerinde sarıldı"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}}, {{recipientAddress}} adresine",
+      "sent": "{{tokenAmountWithSymbol}}, {{senderAddress}} adresinden"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "Bu işlemin ağ maliyetini karşılamak için {{networkName}} ağında ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) bakiyen olması gerekiyor."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "Bu token için swap yapmak üzere {{networkName}} ağında daha fazla {{tokenSymbol}} bakiyen olması gerekiyor."
+          },
+          "title": {
+            "withNetwork": "{{networkName}} ağında yeterli {{tokenSymbol}} yok",
+            "withoutNetwork": "Yeterli {{tokenSymbol}} yok"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Ağ token'ı bakiyenin çoğunu harcamak üzeresin. Bu işlem sonucunda, ilerideki ağ maliyetlerini karşılamaya yetecek fon kalmayabilir.",
+        "title": "Düşük ağ token'ı bakiyesi"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "İşlem iptal edilemiyor",
+        "status": "İşlem durumu kontrol edilirken hata oluştu"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> daha iyi fiyatlar ve Gas ücreti alınmayan swap işlemleri için likidite kaynaklarını bir araya getirir.",
+    "learnMore": "UniswapX ile swap işlemleri hakkında daha fazla bilgi edin"
+  },
+  "uniswapx": {
+    "description": "UniswapX daha iyi fiyatlar ve Gas ücreti alınmayan swap işlemleri için likidite kaynaklarını bir araya getirir.",
+    "included": "<icon /> <gradient>UniswapX</gradient>  içerir",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 kesin son fiyatı başarısız oldu. Klasik swap işlemiyle yeniden dene."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Hemen talep et"
+      },
+      "subtitle": "Kişiselleştirilmiş bir web3 profili oluştur ve adresini arkadaşlarınla kolayca paylaş.",
+      "title": {
+        "compact": "<highlight>{{unitagDomain}} kullanıcı adını</highlight> talep et ve özelleştirilebilir profilini oluştur.",
+        "full": "{{unitagDomain}} kullanıcı adını talep et"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Fotoğraf galerisinden seç",
+        "computer": "Bilgisayardan yükle",
+        "nft": "Bir NFT seç",
+        "remove": "Profil resmini kaldır"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Profili özelleştir",
+        "description": "{{unitagAddress}} kripto para gönderip almaya hazır. Web3 profilini özelleştirerek cüzdanını oluşturmaya devam et.",
+        "success": {
+          "long": "Başarılı!",
+          "short": "başarılı!"
+        }
+      },
+      "error": {
+        "addressLimit": "Bu adres için kullanıcı adında maksimum sayıda değişiklik yaptın",
+        "avatar": "Avatar ayarlanamadı. Daha sonra tekrar dene.",
+        "default": "Kullanıcı adı talep edilemedi. Daha sonra tekrar dene.",
+        "deviceLimit": "Bu cihaz için etkin olabilecek maksimum kullanıcı adı sayısına ulaştın",
+        "general": "Kullanıcı adı talep edilemiyor",
+        "unavailable": "Bu kullanıcı adı mevcut değil",
+        "unknown": "Bilinmeyen hata"
+      },
+      "username": {
+        "default": "adın"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Kullanıcı adını ve özelleştirilebilir profil ayrıntılarını silmek üzeresin. Bu işlemi daha sonra geri alamazsın.",
+        "title": "Emin misin?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "kullanıcı adı"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Kullanıcı adını değiştirmek üzeresin. Değiştirdiğinde bu adı bir daha hiçbir zaman talep edemezsin.",
+        "title": "Emin misin?"
+      },
+      "title": "Kullanıcı adını düzenle",
+      "warning": {
+        "default": "Kullanıcı adını değiştirdiğinde bu adı bir daha hiçbir zaman talep edemezsin. Adı sadece <highlight>2</highlight> kez değiştirebilirsin.",
+        "max": "Maksimum 2 kullanıcı adı değişikliği sayısına ulaştın."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Bir kullanıcı adı talep et",
+        "description": "0x adreslerine veda et. Kullanıcı adları, kripto para gönderip almayı kolaylaştıran okunabilir adlardır.",
+        "title": "Kullanıcı adlarıyla tanış",
+        "upsell": {
+          "customizable": "Özelleştirilebilir profiller",
+          "ens": "ENS alt alan adları tarafından desteklenir",
+          "free": "Talep edilebilir"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "ENS alt alan adları tarafından desteklenir",
+        "free": "Talep edilebilir",
+        "profile": "Özelleştirilebilir profiller"
+      },
+      "subtitle": "0x adreslerine veda et. Kullanıcı adları, kripto para gönderip almayı kolaylaştıran okunabilir adlardır.",
+      "title": "Kullanıcı adlarıyla tanış"
+    },
+    "notification": {
+      "delete": {
+        "error": "Kullanıcı adı silinemedi. Daha sonra tekrar dene.",
+        "title": "Kullanıcı adı silindi"
+      },
+      "profile": {
+        "error": "Profil güncellenemedi. Daha sonra tekrar dene.",
+        "title": "Profil güncellendi"
+      },
+      "username": {
+        "error": "Kullanıcı adı değiştirilemedi. Daha sonra tekrar dene.",
+        "title": "Kullanıcı adı değiştirildi"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Bu, insanların kripto para gönderebileceği kişiselleştirilmiş adresiniz.",
+        "title": {
+          "choose": "Kullanıcı adını oluştur",
+          "claim": "Kullanıcı adını talep et"
+        }
+      },
+      "info": {
+        "description": "Kullanıcı adları karmaşık 0x adreslerini okunabilir adlara dönüştürür. Bir {{unitagDomain}} kullanıcı adı talep ederek kolayca kripto para gönderip alabilir ve herkese açık bir web3 profili oluşturabilirsin.",
+        "title": "Basitleştirilmiş bir adres"
+      },
+      "profile": {
+        "subtitle": "Kendininkini yükle veya benzersiz Unicon'un ile devam et. Bunu dilediğin zaman değiştirebilirsin.",
+        "title": "Bir profil fotoğrafı seç"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Kullanıcı adını sil",
+        "edit": "Kullanıcı adını düzenle"
+      },
+      "bio": {
+        "label": "Biyografi",
+        "placeholder": "Profilin için bir biyografi yaz"
+      },
+      "links": {
+        "twitter": "Twitter"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Kullanıcı adları yalnızca harf ve rakamlardan oluşabilir",
+        "max": "Kullanıcı adları {{number}} karakterden fazla olamaz",
+        "min": "Kullanıcı adları en az {{number}} karakterden oluşmalı",
+        "uppercase": "Kullanıcı adları yalnızca küçük harf ve rakamlardan oluşabilir"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "{{chain}} zincirinde yeterli {{tokenSymbol}} yok"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 bu ağda mevcut değil."
+  },
+  "wallet": {
+    "appSignIn": "Uygulama ile giriş yap",
+    "connectingAgreement": "Bir cüzdan bağlayarak Uniswap Labs'ın <termsLink>Hizmet Şartlarını</termsLink> ve <privacyLink>Gizlilik Politikasını</privacyLink> kabul etmiş olursun.",
+    "connectionFailed": {
+      "message": "Bağlantı girişimi başarısız oldu. Lütfen tekrar dene'ye tıkla ve cüzdanına bağlanma adımlarını izle."
+    },
+    "other": "Diğer cüzdanlar",
+    "scanToConnect": "Bağlanmak için QR kodunu tara",
+    "wrongNet": "Cüzdanın yanlış ağa bağlı."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "WalletConnect aracılığıyla kod tarayarak bir uygulamaya bağlan"
+      },
+      "manage": {
+        "empty": {
+          "title": "Bağlı uygulama yok"
+        },
+        "title": "Bağlantılar"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Cüzdan şu anda {{chainNames}} zincirlerini destekliyor. Lütfen bu zincirlerde yalnızca \"{{dappName}}\" kullan",
+        "title": "Bağlantı Hatası"
+      },
+      "general": {
+        "message": "WalletConnect'te bir sorun oluştu. Lütfen tekrar dene",
+        "title": "WalletConnect Hatası"
+      },
+      "scantastic": {
+        "message": "QR kodunla ilgili bir sorun oluştu. Lütfen tekrar dene",
+        "title": "Geçersiz QR Kodu"
+      },
+      "unsupported": {
+        "message": "Tekrar denemeden önce geçerli bir WalletConnect, Ethereum adresi veya Uniswap Uzantısı QR kodunu taradığından emin ol.",
+        "title": "Geçersiz QR Kodu"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 artık desteklenmiyor. Bağlanmaya çalıştığın uygulamanın WalletConnect v2'ye yükseltilmesi gerekiyor.",
+        "title": "Geçersiz QR Kodu"
+      },
+      "uwu": {
+        "scan": "Bu QR kodunu tararken bir sorun oluştu.",
+        "title": "UwU Bağlantı hatası",
+        "unsupported": "Bu QR kodu desteklenmiyor."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Bağlan",
+        "scrollDown": "Bağlanmak için aşağı kaydır"
+      },
+      "switchAccount": "Hesap değiştir",
+      "title": "{{dappName}} dapp'ine bağlan"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Varlıklarını izinsiz transfer et",
+        "viewTokenBalances": "Token bakiyelerini görüntüle",
+        "viewWalletAddress": "Cüzdan adresini görüntüle"
+      },
+      "title": "Site izinleri"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "İmzalamak için aşağı kaydır",
+        "sign": "İmzala"
+      },
+      "details": {
+        "label": {
+          "function": "İşlev",
+          "sending": "Gönderiliyor",
+          "token": "Token",
+          "tokens": "Token'lar"
+        }
+      },
+      "error": {
+        "insufficientFunds": "Bu işlemi tamamlamak için yeterli {{currencySymbol}} bakiyen yok.",
+        "network": "İnternet veya ağ bağlantısı hatası"
+      },
+      "warning": {
+        "general": {
+          "message": "Dikkatli ol: Bu mesaj varlıkların transfer edilmesine neden olabilir"
+        },
+        "message": "Mesajları veya işlemleri imzalamak için cüzdanın kurtarma cümlesini içe aktarman gerekir.",
+        "title": "Bu cüzdan salt görüntüleme modunda"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "{{network}} ağında token'ları keşfet ve araştır. En iyi havuzları keşfet. Gerçek zamanlı fiyatları, alım satım hacmini, TVL'yi, grafikleri ve işlem verilerini görüntüle.",
+      "title": {
+        "pools": "Uniswap'ta {{network}} ağındaki en iyi havuzları keşfet",
+        "tokens": "Uniswap'ta {{network}} ağındaki en iyi token'ları keşfet",
+        "transactions": "Uniswap'ta {{network}} ağındaki en popüler işlemleri keşfet"
+      }
+    }
+  }
+}

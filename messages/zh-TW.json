@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "領取 {{amount}} 個獎勵us knowLet us know"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "多個助記詞已備份至 {{cloudProviderName}}。",
+        "title": "選擇要還原的備份"
+      },
+      "button": {
+        "restore": {
+          "android": "從 Google 雲端硬碟還原",
+          "ios": "從 iCloud 還原"
+        }
+      },
+      "empty": {
+        "description": "你似乎未將任何助記詞備份至 {{cloudProviderName}}。",
+        "title": "找到 0 個備份"
+      },
+      "error": {
+        "backup": {
+          "message": "由於缺乏權限、授權中斷或雲端錯誤，因此導致備份匯入失敗",
+          "title": "匯入備份時發生錯誤"
+        },
+        "password": {
+          "title": "密碼無效。請再試一次。"
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "現在不要",
+            "settings": "前往設定"
+          },
+          "message": {
+            "android": "請確認你登入此裝置的 Google 帳戶已啟用 Google 雲端硬碟，然後再試一次。",
+            "ios": "請確認你登入此裝置的 Apple ID 已啟用 iCloud Drive，然後再試一次。"
+          },
+          "title": {
+            "android": "Google 雲端硬碟無法使用",
+            "ios": "iCloud Drive 無法使用"
+          }
+        }
+      },
+      "loading": {
+        "title": "正在搜尋備份..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "嘗試次數過多。請 1 小時後再試。",
+          "hours_other": "嘗試次數過多。請 {{count}} 小時後再試。",
+          "minutes_one": "嘗試次數過多。請 1 分鐘後再試。",
+          "minutes_other": "嘗試次數過多。請 {{count}} 分鐘後再試。"
+        }
+      },
+      "password": {
+        "input": "輸入密碼",
+        "recoveryPhrase": "請改為輸入你的助記詞",
+        "subtitle": "需要此密碼，才能從 {{cloudProviderName}} 復原你的助記詞備份。",
+        "title": "輸入備份密碼"
+      }
+    },
+    "drawer": {
+      "gitVersion": "版本： \n",
+      "modal": {
+        "body": "使用 Uniswap App 安全地儲存和交換代幣。適用於 iOS 和 Android。",
+        "dont": "沒有 Uniswap 錢包？",
+        "scan": "使用 Uniswap 錢包掃描"
+      },
+      "spamToggle": "隱藏未知代幣和 NFT"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "I’ve backed up my recovery phrase and understand that Uniswap Labs can’t help me recover my wallet if I failed to do so.",
+        "description": "Make sure you’ve backed up your recovery phrase using the Uniswap mobile app or browser extension.",
+        "descriptionEmphasized": "Without your recovery phrase, you may be unable to access your wallet.",
+        "speedbump": {
+          "description": "Before continuing, complete the following steps to avoid losing access to your wallet and all funds.",
+          "step1": "Download the Uniswap mobile app or browser extension",
+          "step2": "Back up your recovery phrase",
+          "title": "Are you sure?"
+        },
+        "title": "Delete passkey?"
+      },
+      "sign": {
+        "in": {
+          "title": "Sign in with passkey"
+        }
+      },
+      "type": {
+        "crossplatform": "Phone, tablet, or security key",
+        "platform": "Browser or operating system"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "由於你的餘額低於輸入的金額，這份訂單已經取消。"
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "由於你的餘額低於輸入的金額，這份訂單將不會履行。提高餘額以解決此問題。"
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "助記詞是存取錢包時所需要的<highlight>一組字詞</highlight>，<highlight>就像密碼一樣。</highlight>",
+        "part2": "你可以在新裝置上<highlight>輸入</highlight>助記詞<highlight>來還原你的錢包</highlight>及其內容。",
+        "part3": "但是，如果<highlight>你遺失助記詞</highlight>，就會<highlight>失去使用錢包的權限</highlight>。",
+        "part4": "你無需記住助記詞，只需<highlight>備份至 {{cloudProviderName}}</highlight> 並使用密碼保護即可。",
+        "part5": "你也可以手動備份，亦即<highlight>寫下</highlight>助記詞並儲存在安全的位置。",
+        "part6": "建議使用<highlight>這兩種類型的備份</highlight>，因為如果遺失助記詞，你將無法還原錢包。"
+      },
+      "error": {
+        "invalid": "短語無效",
+        "invalidWord": "字詞無效：{{word}}",
+        "phraseLength": "助記詞必須為 12-24 個字詞",
+        "wrong": "助記詞錯誤"
+      },
+      "helpText": {
+        "import": "如何找到我的助記詞？",
+        "restoring": "嘗試再次搜尋"
+      },
+      "input": "輸入你的助記詞",
+      "remove": {
+        "final": {
+          "description": "請確認你已寫下助記詞或備份到 {{cloudProviderName}} 上。<highlight>否則你將無法使用資金。</highlight>",
+          "title": "你即將移除<highlight>助記詞</highlight>"
+        },
+        "import": {
+          "description": "你每次只能儲存一個助記詞。若要繼續匯入新的助記詞，你將需要從此裝置中移除現有的助記詞和任何相關聯錢包。"
+        },
+        "initial": {
+          "description": "此操作將會從裝置中移除你的錢包以及助記詞。",
+          "title": "你即將移除 <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "你的助記詞將一直儲存，直到你刪除所有剩餘的錢包。"
+        }
+      },
+      "subtitle": {
+        "import": "你的助記詞只會儲存在裝置本機上。",
+        "restoring": "請在下方輸入你的助記詞，或嘗試再次搜尋備份。"
+      },
+      "title": {
+        "import": "輸入你的助記詞",
+        "restoring": "找不到備份"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "複製地址",
+        "manageConnections": "管理連線",
+        "report": "回報個人資料",
+        "viewExplorer": "在 {{blockExplorerName}} 上檢視"
+      },
+      "button": {
+        "add": "增加錢包",
+        "addViewOnly": "增加僅供檢視的錢包",
+        "create": "建立新錢包",
+        "import": "匯入新錢包",
+        "manage": "錢包設定",
+        "remove": "移除錢包",
+        "restore": "復原你的錢包",
+        "watch": "查看錢包"
+      },
+      "create": {
+        "placeholder": "錢包 {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "錢包標籤"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "編輯個人資料"
+          },
+          "title": "編輯標籤"
+        },
+        "viewOnly": "僅供檢視的錢包"
+      },
+      "menu": {
+        "claimUsername": "領取使用者名稱",
+        "copy": {
+          "title": "複製錢包地址"
+        },
+        "edit": {
+          "title": "編輯標籤"
+        },
+        "manageConnections": "管理連線",
+        "remove": {
+          "title": "移除錢包"
+        }
+      },
+      "remove": {
+        "check": "我已備份助記詞，並了解若未進行備份，Uniswap Labs 將無法協助我恢復錢包。",
+        "title": "移除 {{name}}",
+        "viewOnly": "你隨時可以輸入錢包地址來增加僅供檢視的錢包。"
+      },
+      "restore": {
+        "description": "由於你使用的是新裝置，因此你需要還原助記詞或輸入雲端備份密碼才能繼續。"
+      },
+      "select": {
+        "error": "無法載入地址",
+        "loading": {
+          "subtitle": "你的錢包將顯示在下方。",
+          "title": "正在搜尋錢包"
+        },
+        "title_one_one": "找到一個錢包",
+        "title_one_other": "選取要匯入的錢包"
+      },
+      "viewOnly": {
+        "button": "匯入錢包",
+        "description": "若要交換、購買、傳送和接收代幣，你需要匯入此錢包的助記詞。",
+        "title": "此錢包僅供檢視"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "已匯入此地址",
+          "notFound": "找不到地址",
+          "smartContract": "地址為智慧型合約"
+        },
+        "message": "增加僅供檢視的錢包，可讓你試用 App 或追蹤錢包。你無法兌換或傳送資金。",
+        "placeholder": "ENS 或地址",
+        "title": "輸入錢包地址"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} 待處理",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} rewards collected"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} 從 {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} 到 {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} 交換 {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} 和 {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "資產池份額"
+  },
+  "addressInput": {
+    "recipient": "接收方"
+  },
+  "analytics": {
+    "allow": {
+      "message": "我們使用匿名資料來增強你使用 Uniswap Labs 產品的體驗。"
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "不太喜歡"
+    },
+    "description": "如果你使用此 App 的體驗良好，請告訴我們",
+    "extension": {
+      "review": {
+        "description": "歡迎到 Chrome 線上應用程式商店留下星級評等與評論。",
+        "title": "評論 Uniswap Extension？"
+      },
+      "title": "喜歡 Uniswap Extension 嗎？"
+    },
+    "feedback": {
+      "button": {
+        "send": "傳送意見回饋"
+      },
+      "description": "讓我們知道如何改善你的體驗",
+      "title": "我們很遺憾聽到你這樣說。"
+    },
+    "mobile": {
+      "title": "喜歡 Uniswap 錢包嗎？"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}} 分 {{seconds}} 秒",
+      "minutesOnly": "~{{minutes}} 分鐘",
+      "secondsOnly": "~{{seconds}} 秒"
+    }
+  },
+  "chart": {
+    "candlestick": "K 線",
+    "error": {
+      "pools": "無法顯示目前資產池的過往記錄資料。",
+      "tokens": "無法顯示目前代幣的過往記錄資料。"
+    },
+    "line": "折線圖",
+    "missingData": "缺乏圖表資料",
+    "price": {
+      "label": {
+        "close": "關閉",
+        "high": "高點",
+        "low": "低點",
+        "open": "打開"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "此設定不適用於目前圖表"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "感謝你成為 Uniswap 社群的一員 <heart />",
+    "uni": {
+      "arrived": "UNI 已經到達"
+    }
+  },
+  "common": {
+    "accept": "接受",
+    "activity": "活動",
+    "add": {
+      "label": "新增",
+      "liquidity": {
+        "cancelled": "新增流動資產已取消",
+        "failed": "新增流動資產失敗"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "新增 V2 流動資產已取消",
+          "failed": "新增 V2 流動資產失敗"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "已新增流動資產",
+      "v2": {
+        "liquidity": "已新增 V2 流動資產"
+      }
+    },
+    "addedLiquidity": "已新增流動資產",
+    "adding": {
+      "liquidity": "正在新增流動資產",
+      "v2": {
+        "liquidity": "正在新增 V2 流動資產"
+      }
+    },
+    "addLiquidity": "新增流動資產",
+    "addressOrENS": "錢包地址或 ENS 名稱",
+    "advanced": "進階",
+    "all": "全部",
+    "allTime": "全部時間",
+    "and": "和",
+    "app": "App",
+    "approval": {
+      "cancelled": "已取消核准",
+      "failed": "核准失敗"
+    },
+    "approve": "核准",
+    "approved": "已核准",
+    "approvePending": "待核准...",
+    "approveSpend": "核准 {{symbol}} 支出",
+    "approving": "正在核准",
+    "areYouSure": "確定繼續？",
+    "automatic": "自動",
+    "availableIn": "Uniswap 適用於：<locale />",
+    "availableOnIOSAndroid": "適用於 iOS 和 Android",
+    "availableOnIOSAndroidChrome": "適用於 iOS、Android 和 Chrome",
+    "backToPositions": "返回部位",
+    "blocked": {
+      "ifError": "如果你認為這是錯誤的，請傳送一封包含地址的電子郵件至 <emailAddress />",
+      "reason": "此地址已經由 Uniswap Labs 介面封鎖，原因是其涉及一或多項<link>遭到封鎖的活動</link>。"
+    },
+    "blockedAddress": "已封鎖的地址",
+    "blog": "部落格",
+    "borrow": {
+      "cancelled": "已取消借入",
+      "failed": "借入失敗"
+    },
+    "borrowed": "已借入",
+    "borrowing": "正在借入",
+    "bought": "已購買",
+    "brandAssets": "品牌資產",
+    "burn": {
+      "cancelled": "銷毀已取消",
+      "failed": "銷毀失敗"
+    },
+    "burned": "已銷毀",
+    "burning": "正在銷毀",
+    "button": {
+      "accept": "接受",
+      "back": "返回",
+      "buy": "購買",
+      "cancel": "取消",
+      "checkin": "簽到",
+      "close": "關閉",
+      "confirm": "確認",
+      "connect": "連線",
+      "continue": "繼續",
+      "copied": "已複製",
+      "copy": "複製",
+      "create": "建立",
+      "delete": "刪除",
+      "disconnect": "中斷連線",
+      "dismiss": "關閉",
+      "done": "完成",
+      "edit": "編輯",
+      "enable": "啟用",
+      "finish": "結束",
+      "goBack": "返回",
+      "later": "稍後再說",
+      "learn": "深入了解",
+      "next": "下一步",
+      "notNow": "現在不要",
+      "ok": "確定",
+      "paste": "貼上",
+      "pay": "支付",
+      "proceed": "繼續",
+      "receive": "接收",
+      "remove": "移除",
+      "reset": "重置",
+      "retry": "重試",
+      "reveal": "揭示",
+      "review": "審核",
+      "save": "儲存",
+      "scrollDown": "向下捲動",
+      "sell": "出售",
+      "send": "傳送",
+      "setup": "設定",
+      "share": "分享",
+      "showLess": "顯示更少",
+      "showMore": "顯示更多",
+      "sign": "簽署",
+      "skip": "略過",
+      "swap": "交換",
+      "tryAgain": "再試一次",
+      "understand": "我了解",
+      "unlock": "解鎖",
+      "view": "檢視",
+      "viewDetails": "檢視詳情",
+      "yes": "是的"
+    },
+    "buy": {
+      "cancelled": "已取消購買",
+      "failed": "購買失敗",
+      "label": "購買"
+    },
+    "buyAndSell": "在 Uniswap 買賣",
+    "buying": "正在購買",
+    "by": "操作者",
+    "cancel": {
+      "failed": "取消失敗"
+    },
+    "cancellation": {
+      "cancelled": "取消操作已撤銷"
+    },
+    "cancellationSubmitted": "已提交取消",
+    "cancellationSuccessful": "取消成功",
+    "cancelled": "已取消",
+    "cancelling": "正在取消",
+    "cancelOrder": "取消訂單",
+    "card": {
+      "error": {
+        "description": "發生錯誤",
+        "title": "糟糕！發生錯誤。"
+      }
+    },
+    "careers": "職業",
+    "chart": "圖表",
+    "checkNetwork": "<link>在此處</link>檢查網路狀態。",
+    "chromeExtension": "擴充",
+    "claim": {
+      "cancelled": "已取消領取",
+      "failed": "領取失敗"
+    },
+    "claimed": "已領取",
+    "claiming": "正在領取",
+    "claimUnis": "領取你的 UNI 代幣",
+    "clear": "清除",
+    "close": "關閉",
+    "closed": "已結束",
+    "collect": {
+      "button": "收取",
+      "fees": {
+        "cancelled": "已取消收取交易費用",
+        "failed": "收取交易費用失敗"
+      }
+    },
+    "collected": {
+      "fees": "已收取交易費用"
+    },
+    "collecting": {
+      "fees": "正在收取交易費用"
+    },
+    "company": "公司",
+    "confirm": "確認",
+    "confirmCancellation": "確認取消",
+    "confirmSend": {
+      "button": "確認傳送"
+    },
+    "confirmSwap": "確認錢包中的代幣交換",
+    "confirmTimedOut": "確認逾時。請重試。",
+    "confirmWallet": "在錢包中確認",
+    "connect": {
+      "button": "連線"
+    },
+    "connectAWallet": {
+      "button": "連線錢包"
+    },
+    "connectWallet": {
+      "button": "連線錢包"
+    },
+    "contactUs": {
+      "button": "聯絡我們"
+    },
+    "contractInteraction": "合約互動",
+    "copied": "已複製",
+    "copy": {
+      "address": "複製地址"
+    },
+    "copyLink": {
+      "button": "複製連結"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "已取消建立資產池",
+        "failed": "建立資產池失敗"
+      }
+    },
+    "created": {
+      "date": "建立日期：{{date}}",
+      "pool": "已建立資產池"
+    },
+    "creating": {
+      "pool": "正在建立資產池"
+    },
+    "currency": "貨幣",
+    "custom": "自訂",
+    "customRange": "定制範圍",
+    "dataOutdated": "資料可能已過時",
+    "default": "預設",
+    "defaultTradeOptions": "預設交易選項",
+    "delegate": {
+      "cancelled": "已取消委託",
+      "failed": "委託失敗"
+    },
+    "delegated": "已委託",
+    "delegating": "正在委託",
+    "deploy": {
+      "cancelled": "已取消部署",
+      "failed": "部署失敗"
+    },
+    "deployed": "已部署",
+    "deploying": "正在部署",
+    "deposit": {
+      "cancelled": "已取消存入",
+      "failed": "存入失敗",
+      "toNetwork": "將代幣存入 {{label}} 網路。"
+    },
+    "deposited": "已存入",
+    "depositing": "正在存入",
+    "depositTokens": "存入代幣",
+    "detected": "已偵測到",
+    "developers": "開發人員",
+    "device": {
+      "other": "Other device"
+    },
+    "dismiss": "關閉",
+    "displaySettings": "顯示設定",
+    "dnsRegistrar": "DNS 註冊商",
+    "donate": "捐贈",
+    "done": "完成",
+    "dontShowAgain": "不要再顯示這個",
+    "download": "下載",
+    "downloadAppStore": "在 App Store 下載",
+    "downloadPlayStore": "在 Play store 下載",
+    "downloadUniswap": "下載 Uniswap",
+    "downloadUniswapApp": "下載 Uniswap App",
+    "dynamic": "動態",
+    "edit": {
+      "button": "編輯"
+    },
+    "error": {
+      "details": "錯誤詳細資訊",
+      "general": "發生錯誤",
+      "label": "錯誤",
+      "request": "抱歉，處理你的請求時發生錯誤。如果你請求支援，請務必複製此錯誤的詳細資訊。",
+      "somethingWrong": "發生錯誤！",
+      "wrong": {
+        "tryAgain": "發生錯誤。請再試一次。"
+      }
+    },
+    "errorConnecting": {
+      "error": "連線時出錯"
+    },
+    "errorLoadingData": {
+      "error": "載入資料時出錯"
+    },
+    "ethereumNameService": "以太幣名稱服務",
+    "etherscan": {
+      "link": "在 Etherscan 上查看"
+    },
+    "ethRegistrarController": "ETH 註冊控制器",
+    "execute": {
+      "cancelled": "已取消執行",
+      "failed": "執行失敗"
+    },
+    "executed": "已執行",
+    "executing": "執行中",
+    "expired": "已到期",
+    "expiry": "到期日",
+    "explore": "探索",
+    "explorer": "Explorer",
+    "exploreTokens": "探索代幣",
+    "extension": "Uniswap Extension",
+    "failed": {
+      "error": "失敗"
+    },
+    "failedSwitchNetwork": "切換網路失敗",
+    "fee": "交易費用",
+    "fees": "交易費用",
+    "feesEarned": "Fees earned",
+    "feesEarnedPerBase": "{{symbolA}} 每 {{symbolB}}",
+    "fetchingRoute": "正在取得路徑",
+    "floor": "地板價",
+    "floorPrice": "地板價",
+    "for": "為",
+    "fullRange": "全範圍",
+    "getApp": "取得 App",
+    "getHelp": {
+      "button": "取得說明"
+    },
+    "getStarted": "開始使用",
+    "getSupport": {
+      "button": "取得支援"
+    },
+    "getTheApp": "取得 App",
+    "getUniswapWallet": "取得 Uniswap 錢包",
+    "governance": "治理",
+    "happyHolidays": "Uniswap 團隊祝你佳節愉快！",
+    "helpCenter": "說明中心",
+    "hidden": "已隱藏",
+    "hide": {
+      "button": "隱藏"
+    },
+    "highPrice": "價格高",
+    "includes": "包括",
+    "info": {
+      "label": "資訊"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "選擇接收方"
+      },
+      "password": {
+        "confirm": "確認密碼",
+        "error": {
+          "mismatch": "密碼不相符",
+          "weak": "此密碼強度不足"
+        },
+        "new": "新密碼",
+        "placeholder": "密碼",
+        "strength": {
+          "medium": "中等強度",
+          "strong": "高強度",
+          "weak": "低強度"
+        }
+      },
+      "search": "搜尋"
+    },
+    "insufficient": {
+      "funds": "資金不足"
+    },
+    "insufficientBalance": {
+      "error": "餘額不足"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "資金不足以支付網路費"
+    },
+    "insufficientLiquidity": "流動資產不足",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "不足 {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "貨幣對無效",
+    "invalidRecipient": {
+      "error": "接收方無效"
+    },
+    "iOSAndroid": "iOS 和 Android",
+    "language": "語言",
+    "lastPrice": "最新價格",
+    "learnMoreSwap": "進一步了解交換",
+    "legalAndPrivacy": "法律與私隱權",
+    "less": "較少",
+    "limit": {
+      "cancel_one": "取消限制",
+      "cancel_other": "取消 {{count}} 次限制",
+      "cancelled": "已取消限制",
+      "executed": "已執行限制",
+      "expired": "限制已過期",
+      "failed": "限制失敗",
+      "opened": "已開啟限制",
+      "pending": "限制待處理"
+    },
+    "limits": {
+      "approachMax": "接近 100 (最大限制)",
+      "cancelProceed": "取消限制以繼續",
+      "expires": "{{timestamp}} 到期",
+      "open": "開放限制",
+      "when": "當 {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "連結",
+    "liquidity": {
+      "removed": "已移除流動資產"
+    },
+    "loading": "正在載入",
+    "loadingAllowance": "正在載入限額",
+    "loadMore": "載入更多內容",
+    "longText": {
+      "button": {
+        "less": "顯示更少",
+        "more": "顯示更多"
+      }
+    },
+    "lowPrice": "低價",
+    "manage": "管理",
+    "market": {
+      "label": "市場"
+    },
+    "marketPrice": {
+      "fetching": "正在獲取市場價格...",
+      "label": "市場價格：",
+      "unavailable": "未找到市場價格。請自行研究，以免造成資金損失。"
+    },
+    "max": "最大",
+    "message": "訊息",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "已取消遷移流動資產",
+        "failed": "遷移流動資產失敗"
+      },
+      "position": "遷移部位",
+      "v3": "遷移至 V3"
+    },
+    "migrated": {
+      "liquidity": "流動資產已遷移"
+    },
+    "migrating": {
+      "liquidity": "正在遷移流動資產"
+    },
+    "min": "最低",
+    "mint": {
+      "cancelled": "已取消鑄造",
+      "failed": "鑄造失敗"
+    },
+    "minted": "已鑄造",
+    "minting": "正在鑄造",
+    "mobile": "行動端",
+    "more": "更多",
+    "multiDevice": "跨裝置",
+    "navigation": {
+      "settings": "設定",
+      "systemSettings": "設定"
+    },
+    "navigationButton": "導航按鈕",
+    "needHelp": "需要協助嗎？",
+    "networkCost": "網路費",
+    "neverMind": "沒關係",
+    "new": {
+      "exclamation": "新版本！"
+    },
+    "nft": "NFT",
+    "nfts": "NFT",
+    "noActivity": "尚無活動",
+    "noAmount": {
+      "error": "輸入金額"
+    },
+    "noData": "無資料",
+    "noResults": "找不到結果。",
+    "notAvailableInRegion": {
+      "error": "在你所在地區不適用"
+    },
+    "notCreated": {
+      "label": "未建立"
+    },
+    "notSupported": "不支援",
+    "oneDay": {
+      "short": "1 天"
+    },
+    "oneHour": {
+      "short": "1 小時"
+    },
+    "oneMonth": "1 個月",
+    "oneWeek": "1 星期",
+    "oneYear": "1 年",
+    "opensea": {
+      "link": "View on OpenSea"
+    },
+    "orderCancelled": "已取消訂單",
+    "orderExecuted": "已執行訂單",
+    "orderExpired": "訂單已過期",
+    "orderPending": "訂單待處理",
+    "outOfRange": "超出範圍",
+    "pageNotFound": "找不到頁面！",
+    "passkey": {
+      "count": "通行金鑰 {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "Choose where to save your new passkey."
+      }
+    },
+    "pastDay": "過去一天",
+    "pastFiveMinutes": "過去五分鐘",
+    "pastHour": "過去一小時",
+    "pastMonth": "過去一個月",
+    "pastWeek": "過去一週",
+    "pastYear": "過去一年",
+    "pay": {
+      "button": "支付"
+    },
+    "pending": {
+      "cancellation": "待取消"
+    },
+    "pendingEllipsis": "待處理...",
+    "permit2": "Permit2",
+    "pool": "資產池",
+    "pools": "資產池",
+    "poweredBy": "由 <name /> 提供技術支援",
+    "price": "價格",
+    "priceImpact": "價格影響警告",
+    "priceUpdated": "價格已更新",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "如果你勾選此項，則我們不會與第三方合作夥伴分享你的資料以進行個人化廣告推廣。你可隨時取消勾選此方塊以啟用分享。",
+        "label": "請勿分享我的資訊"
+      },
+      "description": "我們可能會與我們的廣告合作夥伴分享裝置標識符資訊，以便在其他網站和平台上推廣我們的服務。如果根據適用法律，此行為屬於銷售、分享或定向廣告，你可以勾選「請勿分享我的資訊」方塊以選擇退出。有關我們隱私權實務操作的更多資訊，請查閱我們的<privacyLink>隱私權政策</privacyLink>。",
+      "disclaimer": "請注意，你的選擇僅適用於此裝置上的當前瀏覽器。你也可在用於存取我們服務的瀏覽器中啟用全域私隱權控制設定以選擇退出。如需查看更多選項，請前往你的設定。"
+    },
+    "privacyPolicy": "私隱權政策",
+    "proceed": "繼續",
+    "proceedInWallet": {
+      "short": "在錢包中進行"
+    },
+    "protocol": {
+      "v2": "Uniswap v2",
+      "v3": "Uniswap v3",
+      "v4": "Uniswap v4"
+    },
+    "publicResolver": "公共解析器",
+    "purchased": "已購入",
+    "queue": {
+      "cancelled": "已取消佇列",
+      "failed": "佇列失敗"
+    },
+    "queued": "已排入佇列",
+    "queuing": "正在排隊",
+    "rate": "費率",
+    "readMore": "顯示更多",
+    "receive": {
+      "cancelled": "已取消接收",
+      "failed": "接收失敗"
+    },
+    "received": "已接收",
+    "receiving": "正在接收",
+    "recent": "最近的",
+    "rejected": "已遭拒",
+    "reload": {
+      "label": "重新載入 App"
+    },
+    "remove": {
+      "label": "移除",
+      "liquidity": {
+        "cancelled": "已取消移除流動資產",
+        "failed": "移除流動資產失敗"
+      }
+    },
+    "removedLiquidity": "已移除流動資產",
+    "removeItem": "刪除項目",
+    "removing": {
+      "liquidity": "正在移除流動資產"
+    },
+    "repaid": "已償還",
+    "repay": {
+      "cancelled": "還款取消",
+      "failed": "還款失敗"
+    },
+    "repaying": "正在償還",
+    "resetLimit": "重設 {{symbol}} 限制",
+    "resetLimitWallet": "重設 {{symbol}} 錢包限額",
+    "resettingLimit": "正在重設 {{symbol}} 限制...",
+    "resolveIssues_one": "解決問題",
+    "resolveIssues_other": "解決 {{count}} 個問題",
+    "restricted": {
+      "region": "限制區域"
+    },
+    "reverseRegistrar": "反向註冊器",
+    "revoke": {
+      "approval": {
+        "failed": "撤銷核准失敗"
+      }
+    },
+    "revoked": {
+      "approval": "已撤銷核准"
+    },
+    "revokedApproval": "已撤銷核准",
+    "revoking": {
+      "approval": "正在撤銷核准"
+    },
+    "samePrice": "價格相同",
+    "scanQRDownload": "用手機掃描 QR 碼即可下載",
+    "selectRegion": {
+      "label": "選擇你的地區"
+    },
+    "selectToken": {
+      "label": "選擇代幣"
+    },
+    "selfCustodial": "自托管",
+    "sell": {
+      "label": "出售"
+    },
+    "send": {
+      "button": "傳送",
+      "cancelled": "已取消傳送",
+      "failed": "傳送失敗"
+    },
+    "sending": "正在傳送",
+    "sent": "已傳送",
+    "settings": "設定",
+    "share": {
+      "shareToTwitter": "分享到推特",
+      "twitter": "在推特上分享"
+    },
+    "show": {
+      "button": "展示"
+    },
+    "showLess": {
+      "button": "顯示更少"
+    },
+    "showMore": {
+      "button": "顯示更多"
+    },
+    "signatureExpired": "你的簽名已過期。",
+    "signMessage": "簽署訊息",
+    "signMessageWallet": "在錢包中簽署訊息",
+    "sold": "已出售",
+    "stats": "統計資料",
+    "status": "狀態",
+    "stayConnected": "保持聯繫",
+    "step": {
+      "number": "步驟 {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "已取消提交提案",
+        "failed": "提交提案失敗"
+      }
+    },
+    "submitted": {
+      "proposal": "已提交提案"
+    },
+    "submitting": {
+      "proposal": "正在提交提案"
+    },
+    "swap": {
+      "cancelled": "已取消交換",
+      "expired": "交換已過期",
+      "failed": "交換失敗"
+    },
+    "swapped": "已交換",
+    "swapPending": "交換待處理...",
+    "swapping": "正在交換",
+    "switchNetworks": "切換網路",
+    "termsOfService": "服務條款",
+    "text": {
+      "connected": "已連線",
+      "contract": "合約",
+      "disconnected": "已中斷連線",
+      "error": "錯誤",
+      "notAvailable": "不適用",
+      "recipient": "到",
+      "sender": "從",
+      "unknown": "未知"
+    },
+    "thisMonth": "本月",
+    "thisToken": "此代幣",
+    "thisWeek": "本週",
+    "thisYear": "今年",
+    "time": {
+      "days": "天",
+      "days_one": "天",
+      "days_other": "天",
+      "hours": "小時",
+      "hours_one": "小時",
+      "hours_other": "小時",
+      "minute": {
+        "amt": "{{time}} 分鐘"
+      },
+      "minutes": "分鐘",
+      "months": "月",
+      "months_one": "月",
+      "months_other": "月",
+      "past": {
+        "days": {
+          "short": "{{days}} 天"
+        },
+        "hours": {
+          "short": "{{hours}} 小時"
+        },
+        "minutes": {
+          "short": "{{minutes}} 分鐘"
+        },
+        "months": {
+          "short": "{{months}} 個月"
+        },
+        "seconds": {
+          "short": "{{seconds}} 秒"
+        }
+      },
+      "weeks": "星期",
+      "weeks_one": "週",
+      "weeks_other": "週"
+    },
+    "to": "到",
+    "today": "今天",
+    "tokenA": "代幣 A",
+    "tokenAmount": "代幣數量",
+    "tokenB": "代幣 B",
+    "tokenName": "代幣名稱",
+    "tokens": "代幣",
+    "totalUniswapTVL": "總 Uniswap TVL",
+    "totalValueLocked": "TVL",
+    "trade": "貿易",
+    "trademarkPolicy": "商標政策",
+    "transactionDetails": "交易詳情",
+    "transactionId": "交易 ID",
+    "transactionPending": "交易待處理",
+    "transactions": "交易",
+    "transactionSettings": "交易設定",
+    "transfer_one": "轉移",
+    "transfer_other": "轉移",
+    "tryAgain": {
+      "error": "再試一次"
+    },
+    "twitter": "推特",
+    "type": {
+      "label": "類型"
+    },
+    "unavailable": "不適用",
+    "unhide": "取消隱藏",
+    "uniGovernance": "UNI 治理",
+    "uniswapMobile": "Uniswap 行動版",
+    "uniswapProtocol": "Uniswap Protocol",
+    "uniswapWallet": "Uniswap 錢包",
+    "uniswapX": "UniswapX",
+    "unknown": "未知",
+    "unknownApproval": "未知核准",
+    "unknownBridge": "未知橋",
+    "unknownError": {
+      "error": "未知錯誤"
+    },
+    "unknownLend": "未知借出",
+    "unknownMint": "未知鑄造",
+    "unknownSend": "未知傳送",
+    "unknownSwap": "未知交換",
+    "unsupportedAsset_one": "不支援的資產",
+    "unsupportedAsset_other": "不支援的資產",
+    "unwrap": {
+      "button": "拆封",
+      "failed": "拆封失敗"
+    },
+    "unwrapped": "已拆封",
+    "unwrapping": "正在拆封",
+    "view": {
+      "profile": "檢視個人資料"
+    },
+    "viewOnExplorer": "在 Explorer 上檢視",
+    "volume": "成交量",
+    "vote": {
+      "cancelled": "投票取消",
+      "failed": "投票失敗"
+    },
+    "voted": "已投票",
+    "voting": "正在投票",
+    "wallet": {
+      "approve": "在錢包中核准",
+      "label": "錢包"
+    },
+    "walletForSwapping": "專為交換而設計的錢包。適用於 iOS 和 Android。",
+    "warning": "警告",
+    "webApp": "網路 App",
+    "website": "網站",
+    "whyApprove": "為什麼我需要核准代幣？",
+    "whySign": "為什麼需要簽名？",
+    "whyWrap": "為什麼我必須包裝 {{symbol}}？",
+    "withdraw": {
+      "failed": "提領失敗"
+    },
+    "withdrawal": {
+      "amount": "提領金額",
+      "cancelled": "已取消提領"
+    },
+    "withdrawing": "正在提領",
+    "withdrew": "已提取",
+    "withinRange": "在範圍內",
+    "wrap": {
+      "cancelled": "包裝已取消",
+      "failed": "包裝失敗"
+    },
+    "wrapIn": "在錢包中包裝 {{symbol}}",
+    "wrapped": "已包裝",
+    "wrapping": "正在包裝",
+    "wrappingToken": "正在包裝 {{symbol}}...",
+    "wrongNetwork": "錯誤的網路",
+    "yesterday": "Yesterday",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "你的帳戶資金不足，無法完成本次交換。"
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "你的帳戶資金不足，無法完成本次交換。"
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "目前無法達到你的限制。請再試一次。"
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "你的交換目前無法完成。請再試一次。"
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "你正在購入",
+    "youRecieve": "你收到",
+    "youreSending": "你正在傳送"
+  },
+  "currency": {
+    "aud": "澳幣",
+    "brl": "巴西雷亞爾",
+    "cad": "加幣",
+    "cny": "人民幣",
+    "eur": "歐元",
+    "gbp": "英鎊",
+    "hkd": "港幣",
+    "idr": "印尼盾",
+    "inr": "印度盧比",
+    "jpy": "日圓",
+    "krw": "韓元",
+    "ngn": "奈及利亞奈拉",
+    "pkr": "巴基斯坦盧比",
+    "rub": "俄羅斯盧布",
+    "sgd": "新加坡元",
+    "thb": "泰銖",
+    "try": "土耳其里拉",
+    "uah": "烏克蘭格里夫納",
+    "usd": "美元",
+    "vnd": "越南盾"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "核准",
+        "fallbackTitle": "核准此網站存取代幣",
+        "helptext": "允許此網站存取並使用此代幣進行交易。請確認你信任此網站。",
+        "label": "錢包",
+        "title": "核准存取 {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "交易請求"
+      },
+      "bridge": {
+        "description": "在 {{numChains}}+ 網路之間移動 ETH、USDC 等。",
+        "title": "是否嘗試橋接？"
+      },
+      "connect": {
+        "helptext": "允許此網站查看你的錢包地址、餘額並請求交易核准。",
+        "title": "連線到網站"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "原始資料"
+        },
+        "function": {
+          "label": "函數"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 管理多個 dapp 的代幣核准。",
+        "header": "簽署 Permit2"
+      },
+      "reject": {
+        "action": "全部拒絕",
+        "info": "你有 <highlight>{{totalRequestCount}}</highlight> 個交易請求"
+      },
+      "revoke": {
+        "action": "撤銷",
+        "helptext": "允許此網站撤銷使用此代幣進行交易的存取權限。請確認你信任此網站。",
+        "title": "撤銷存取權限 {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "此訊息包含無法呈現的字元。請確認你信任此網站。",
+        "decodeError": "解碼訊息失敗",
+        "header": "簽名請求",
+        "irregular": {
+          "description": "繼續之前，請確保此網站值得信賴",
+          "understand": "我瞭解風險"
+        },
+        "toggleDataView": {
+          "raw": "查看原始資料",
+          "readable": "查看原始資料"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "確認資料正確無誤",
+          "title": "這不是你使用中的錢包"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "在這裡登入"
+      },
+      "getStarted": {
+        "description": "首先下載可在你的手機或瀏覽器上使用的 Uniswap 錢包。",
+        "title": "開始使用 Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "只需在下方注冊或下載我們的錢包（手機或瀏覽器均適用），即可在數秒內開始使用。"
+        },
+        "title": "註冊 Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap 產品無縫協作，創造最佳的鏈上體驗。"
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "這為 Uniswap Protocol 提供了對你的代幣進行交易的存取權。為了安全起見，它會在 30 天後過期。"
+    },
+    "dataUnavailable": "目前無法取得資料；我們正在努力修復問題",
+    "id": "錯誤 ID：{{eventId}}",
+    "noData": "找不到資料",
+    "request": {
+      "provideId": "抱歉，處理你的請求時發生錯誤。如果你請求支援，請務必提供你的錯誤 ID。"
+    },
+    "tokenApproval": "代幣核准失敗",
+    "tokenApprovalEdited": {
+      "message": "你錢包中設定的核准金額過低，無法完成此交易。請再試一次並增加金額。"
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "發生故障。",
+      "restart": "重新啟動 App",
+      "title": "糟糕！"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "探索更多資產池"
+    },
+    "search": {
+      "action": {
+        "clear": "清除",
+        "viewEtherscan": "在 {{blockExplorerName}} 上檢視"
+      },
+      "empty": {
+        "full": "找不到 <highlight>\"{{searchQuery}}\"</highlight> 的結果"
+      },
+      "error": "無法載入搜尋結果",
+      "label": {
+        "ownedBy": "擁有者：{{ownerAddress}}"
+      },
+      "placeholder": "搜尋代幣和錢包",
+      "section": {
+        "nft": "NFT 系列",
+        "popularNFT": "熱門 NFT 系列",
+        "popularTokenInfo": "熱門代幣是根據過去 24 小時內 Uniswap 上的交易量來識別的。",
+        "popularTokens": "熱門代幣",
+        "recent": "最近的搜尋",
+        "tokens": "代幣",
+        "wallets": "錢包"
+      }
+    },
+    "tokens": {
+      "error": "無法載入代幣",
+      "favorite": {
+        "action": {
+          "add": "常用代幣",
+          "edit": "編輯常用項目",
+          "remove": "移除常用項目"
+        },
+        "title": {
+          "default": "常用代幣",
+          "edit": "編輯常用代幣"
+        }
+      },
+      "metadata": {
+        "marketCap": "市值 {{number}}",
+        "totalValueLocked": "TVL {{number}}",
+        "volume": "成交量 {{number}}"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "市值",
+          "priceDecrease": "價格下降",
+          "priceIncrease": "價格上漲",
+          "totalValueLocked": "TVL",
+          "volume": "成交量"
+        },
+        "option": {
+          "marketCap": "市值",
+          "priceDecrease": "價格下降 (24 小時)",
+          "priceIncrease": "價格上漲 (24 小時)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap 成交量 (24 小時)"
+        }
+      },
+      "top": {
+        "title": "熱門代幣"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "常用錢包",
+          "edit": "編輯常用項目",
+          "remove": "移除常用項目"
+        },
+        "title": {
+          "default": "常用錢包",
+          "edit": "編輯常用錢包"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "網路",
+      "networks": "網路",
+      "popup": {
+        "trouble": "連線有問題嗎？"
+      },
+      "titleConnected": "已連線",
+      "titleNotConnected": "未連線"
+    },
+    "lock": {
+      "button": {
+        "forgot": "忘記密碼？",
+        "reset": "重設錢包",
+        "submit": "解鎖"
+      },
+      "password": {
+        "error": "密碼錯誤。再試一次",
+        "reset": {
+          "initial": {
+            "description": "Uniswap 無法協助復原你的密碼。你需要重新輸入 12 個字詞的助記詞，才能重設錢包。",
+            "help": "在哪裡可以找到我的助記詞？",
+            "title": "忘記密碼"
+          },
+          "speedbump": {
+            "description": "重設錢包前，請確保你已備妥 12 個字詞的助記詞。否則你將無法恢復資金。",
+            "help": "我遺失了助記詞",
+            "title": "在繼續之前"
+          }
+        }
+      },
+      "subtitle": "輸入你的密碼以解鎖",
+      "title": "歡迎回來"
+    },
+    "network": {
+      "notSupported": "不支援的網絡"
+    },
+    "open": "開啟 Uniswap Extension",
+    "popup": {
+      "chrome": {
+        "button": "開啟擴充功能",
+        "description": "透過開啟 Uniswap Extension 來完成此操作。",
+        "title": "在 Uniswap 中繼續"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "連接到 App 時優先考慮 Uniswap Extension。",
+        "title": "建立預設錢包"
+      },
+      "password": {
+        "enter": {
+          "title": "輸入目前的密碼"
+        },
+        "error": {
+          "wrong": "密碼錯誤"
+        },
+        "placeholder": "目前的密碼"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "備份",
+        "message": "請務必備份你的助記詞，否則將無法存取錢包和資金。",
+        "title": "你的瀏覽器儲存空間即將不足"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "Import your Uniswap account by signing in with an existing passkey.",
+    "invalidReferrer": "Please close this page and try again."
+  },
+  "fee": {
+    "bestForExotic": "最適合外來貨幣對。",
+    "bestForMost": "最適合多数貨幣對。",
+    "bestForStablePairs": "最適合穩定貨幣對。",
+    "bestForVeryStable": "最適合非常穩定的貨幣對。",
+    "dynamic": "動態交易費用",
+    "percentEarned": "你將賺取的交易費用百分比。",
+    "selectPercent": "{{pct}}% 選擇",
+    "selectPercentDescription": "{{pct}}% 的流動資產選擇了此等級",
+    "tier": {
+      "create": {
+        "button": "建立新交易費用等級",
+        "description": "建立新等級將在新資產池中初始化，並導致比平常更高的網路費。"
+      },
+      "description": {
+        "v2": "提供流動資產所賺取的金額。所有 v2 資產池都有固定的 0.3% 交易費用。如需更多選擇，請在 v4 上提供流動資產。"
+      },
+      "dynamic": {
+        "create": {
+          "info": "你即將建立一個具有動態交易費用等級的資產池。在繼續之前，請確保所選的掛鉤支援動態交易費用。"
+        }
+      },
+      "highestTvl": "最高 TVL",
+      "label": "你將賺取的交易費用百分比",
+      "missing": {
+        "description": "找不到你要找的等級？"
+      },
+      "new": "新等級",
+      "percent": {
+        "select": "{{percentage}} 選擇"
+      },
+      "recommended": {
+        "description": "根據選定代幣對的最高流動性份額進行推薦。"
+      },
+      "search": {
+        "short": "搜尋等級"
+      },
+      "select": {
+        "existing": {
+          "button": "選擇現有交易費用等級"
+        }
+      }
+    },
+    "tierExact": "{{fee}} 交易費用等級",
+    "unavailable": "在流動資產移除前，賺取的交易費用不會顯示在 v2 部位。",
+    "uncollected": "包含未收取的交易費用："
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "出售方式"
+    },
+    "connection": {
+      "quote": "出售價值 {{amount}} 的 {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "超過餘額"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} 換 {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "返回",
+      "divider": "不支援的代幣",
+      "message": "該代幣不支援出售。將此資產交換為受支援的代幣之一。",
+      "swap": "交換為受支援的代幣",
+      "title": "不支援的代幣"
+    },
+    "welcome": {
+      "tooltip": "將你的加密貨幣出售到你的銀行帳戶或簽帳卡。"
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "選擇代幣"
+    },
+    "cexTransferModal": {
+      "description": "你所在的地區不支援使用卡片購買加密貨幣。自中心化交易所帳戶轉移資產，並儲值至你的錢包。",
+      "title": "轉移以開始"
+    },
+    "checkout": {
+      "title": "結帳時使用"
+    },
+    "checkoutWith": "結帳時使用",
+    "chooseProvider": {
+      "description": "你將繼續前往提供者的入口網站查看交易相關費用。"
+    },
+    "completeTransactionHeader": "透過 {{serviceProvider}} 完成交易",
+    "connection": {
+      "error": "連線失敗",
+      "errorDescription": "與 {{serviceProvider}} 連線時發生錯誤。",
+      "message": "將你連線至 {{serviceProvider}}",
+      "quote": "購買 {{amount}} (價值 {{currencySymbol}})",
+      "terms": "繼續即表示你同意遵守 {{serviceProvider}} 的服務條款和隱私權政策 (如適用)。"
+    },
+    "continueInTab": "前往 {{serviceProvider}} 索引標籤繼續。現在可以安全地關閉此模式了。",
+    "disclaimer": "繼續即表示你同意遵守 {{serviceProvider}} 的<tosLink>服務條款</tosLink>和<privacyLink>隱私權政策</privacyLink> (如適用)。",
+    "error": {
+      "default": "發生錯誤。",
+      "load": "無法載入要購買的代幣",
+      "max": "最高 {{amount}}",
+      "min": "最低 {{amount}}",
+      "noQuotes": "未找到報價。",
+      "unavailable": "你所在的地區無法使用此服務",
+      "unsupported": "非支援地區",
+      "usd": "只能以美元購買"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} 換 {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "未找到報價"
+    },
+    "purchasedOn": "購買於 {{serviceProvider}}",
+    "quote": {
+      "advice": "你將繼續前往提供者的入口網站查看交易相關費用。",
+      "type": {
+        "list": "{{optionsList}}，以及其他選項",
+        "other": "其他選項",
+        "recent": "最近使用過"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "來自帳戶"
+        }
+      },
+      "title": "接收加密貨幣",
+      "transferFunds": "從另一個錢包或帳戶轉移加密貨幣來儲值你的錢包"
+    },
+    "region": {
+      "placeholder": "依國家或地區搜尋",
+      "title": "選擇你的地區"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} 換 {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "立即更新",
+      "learn": "了解更新方式",
+      "recoveryPhrase": "檢視助記詞"
+    },
+    "description": {
+      "extension": "此 App 有新版本可用。若要繼續使用 Uniswap Extension，請將其更新至最新版本。",
+      "wallet": "此 App 有新版本可用。若要繼續使用 Uniswap 錢包，請將其更新至最新版本。"
+    },
+    "label": {
+      "recoveryPhrase": "助記詞"
+    },
+    "title": {
+      "recommendedStatus": "A new version is available"
+    }
+  },
+  "globalPreferences": {
+    "title": "全域偏好設定"
+  },
+  "hero": {
+    "scroll": "捲動以了解更多",
+    "subtitle": "最大的鏈上市場。在以太幣和其他超過 11 個區塊鏈上購買和出售加密貨幣。",
+    "swap": {
+      "title": "隨時隨地<br/>代幣交換。"
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "了解有關隱藏 NFT 的更多信息"
+        },
+        "text": {
+          "button": "隱藏的 NFT ({{numHidden}})",
+          "extension": "這些是你隱藏的潛在騙局和 NFT。你可以使用滑鼠右鍵按一下 NFT 將其取消隱藏。",
+          "mobile": "這些是你隱藏的潛在騙局和 NFT。你可以長按 NFT 將其取消隱藏。",
+          "title": "隱藏的 NFT"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "了解有關隱藏代幣的更多資訊"
+        },
+        "text": {
+          "button": "隱藏代幣 ({{numHidden}})",
+          "info": "隱藏代幣是潛在的詐騙、小額餘額和你隱藏的代幣。隱藏代幣不包含在你的錢包總餘額中。",
+          "title": "隱藏代幣"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "接收代幣或 NFT",
+        "description": {
+          "default": "當你核准、交易或轉移代幣或 NFT 時，此處會顯示你的交易。",
+          "external": "當此錢包進行交易時，交易會顯示在這裡。"
+        },
+        "title": "尚無活動"
+      },
+      "error": {
+        "load": "無法載入活動"
+      },
+      "title": "活動"
+    },
+    "banner": {
+      "offline": "你處於離線模式",
+      "testnetMode": {
+        "nav": "你處於測試網模式。在設定中將其關閉。",
+        "outage": {
+          "monad": {
+            "description": "由於網路穩定性問題，暫時無法透過 Uniswap 介面存取 Monad Testnet。Testnet 資金不受影響。問題解決後，存取將恢復。",
+            "title": "Monad 暫時停止"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "按一下「搜尋」探索更多",
+      "title": "探索代幣"
+    },
+    "extension": {
+      "error": "載入帳戶時發生錯誤"
+    },
+    "label": {
+      "buy": "購買",
+      "for": "購買/出售",
+      "receive": "接收",
+      "send": "傳送",
+      "swap": "交換"
+    },
+    "nfts": {
+      "title": "NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "使用簽帳金融卡或銀行帳戶購買。",
+            "title": "Buy crypto"
+          },
+          "import": {
+            "description": "輸入此錢包的助記詞，開始交換和傳送。",
+            "title": "匯入錢包"
+          },
+          "receive": {
+            "description": "從另一個錢包或帳戶轉移。",
+            "title": "接收加密貨幣"
+          }
+        },
+        "description": "當此錢包購買或接收代幣時，會顯示在此處。",
+        "title": "尚無代幣",
+        "welcome": {
+          "description": "你似乎有一個新錢包。在你進行第一次交換之前，讓我們先加值。"
+        }
+      },
+      "error": {
+        "fetch": "無法取得代幣餘額",
+        "load": "無法載入代幣餘額"
+      },
+      "title": "代幣"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "來自帳戶",
+        "description": "從另一個錢包或帳戶轉移加密貨幣來儲值你的錢包",
+        "title": "接收加密貨幣"
+      }
+    },
+    "warning": {
+      "viewOnly": "此錢包僅供檢視"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "在 Uniswap Protocol 上進行交換或提供流動資產",
+      "title": "Uniswap 介面"
+    }
+  },
+  "landing": {
+    "buildNextGen": "建立下一代開放應用程式和工具。",
+    "connectWithUs": "與我們聯繫",
+    "devDocs": "開發人員文件",
+    "directToDeFi": "直接進入 DeFi",
+    "followOnX": "在 X 上關注 @Uniswap 以獲取最新更新",
+    "protocolDescription": "Uniswap 產品由 Uniswap Protocol 提供支援。該協定是最大的鏈上市集，乙太坊和其他超過 7 個區塊鏈上的數千種代幣每週交易量達數十億美元。",
+    "provideLiquidity": {
+      "message": "為 Uniswap Protocol 上的資產池提供流動資產，並賺取代幣交換費用。"
+    },
+    "swapSimple": "代幣交換超簡單，11 種鏈上的數千種代幣任你存取。",
+    "teamInsights": "團隊的見解和新聞",
+    "trusted": "受到數百萬人信賴"
+  },
+  "language": {
+    "afrikaans": "阿非利卡文",
+    "arabic": "阿拉伯語",
+    "catalan": "加泰隆尼亞語",
+    "chineseSimplified": "簡體中文",
+    "chineseTraditional": "繁體中文",
+    "czech": "捷克語",
+    "danish": "丹麥語",
+    "dutch": "荷蘭文",
+    "english": "英文",
+    "finnish": "芬蘭文",
+    "french": "法文",
+    "greek": "希臘文",
+    "hebrew": "希伯來文",
+    "hindi": "印地文",
+    "hungarian": "匈牙利文",
+    "indonesian": "印尼文",
+    "italian": "義大利語",
+    "japanese": "日文",
+    "korean": "韓文",
+    "malay": "馬來文",
+    "norwegian": "挪威文",
+    "polish": "波蘭文",
+    "portuguese": "葡萄牙文",
+    "romanian": "羅馬尼亞語",
+    "russian": "俄文",
+    "serbian": "塞爾維亞文",
+    "spanishLatam": "西班牙文 (拉丁美洲)",
+    "spanishSpain": "西班牙文 (西班牙)",
+    "spanishUs": "西班牙文 (美國)",
+    "swahili": "斯瓦希里語",
+    "swedish": "瑞典文",
+    "turkish": "土耳其文",
+    "ukrainian": "烏克蘭文",
+    "urdu": "烏都文",
+    "vietnamese": "越南文"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 個開放限制",
+      "count_other": "{{count}} 個開放限制"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "你的限價比市價高 {{percentage}}%。調整你的限價以繼續。",
+        "title": "購入高於市價的 {{tokenSymbol}}"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "我們無法計算目前的市場價格。為避免提交低於市場價格的訂單，請檢查你的網路連線並重試。",
+        "title": "市價不適用"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "你的限價比市價低 {{percentage}}%。調整你的限價以繼續。",
+        "title": "正在以低於市價出售 {{tokenSymbol}}"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "只有主網代幣有限制。"
+        },
+        "uniswapx": "當代幣達到指定價格時，限制可能不會準確執行。<link />"
+      }
+    },
+    "learnMore": "了解有關限制的更多資訊",
+    "price": {
+      "input": {
+        "label": "當 1 個 <tokenSymbol /> 價值達到"
+      },
+      "label": "限價"
+    },
+    "selectSupportedTokens": "選取支援的代幣"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "輸入掛鉤地址"
+      }
+    },
+    "learnMoreLabel": "了解流動資產提供",
+    "notEnough": {
+      "label": "沒有足夠的流動資產來顯示準確的美元價值。"
+    },
+    "provideOnProtocols": "在不同協定上提供流動資產"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} 流動資產：{{amount}}"
+      }
+    },
+    "page": {
+      "title": "為 Uniswap 上的資產池{{version}} 新增流動資產"
+    },
+    "positions": {
+      "closed": {
+        "title": "已平倉部位"
+      },
+      "page": {
+        "title": "管理 Uniswap 上的 {{quoteSymbol}}/{{baseSymbol}} 資產池的流動資產",
+        "version": {
+          "description": "檢視你的主動 {{version}} 流動資產部位。新增部位。",
+          "title": "在 Uniswap 上管理資產池的流動資產{{version}}"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "已允許",
+    "allowLpMigration": "允許 LP 代幣遷移",
+    "connectAccount": "你必須連接擁有該部位的帳戶。",
+    "connectWallet": "連線至錢包以查看你的 V2 流動資產。",
+    "contract": "Uniswap 遷移合約",
+    "firstLP": "你是該 Uniswap V3 資產池的第一個流動性提供者。你的流動資產將以目前的 {{source}} 價格遷移。",
+    "highGasCost": "你的交易成本會高得多，原因是其內含建立資產池的燃料費。",
+    "invalidRange": "選擇的範圍無效。最低價格必須低於最高價格。",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP 代幣",
+    "migrating": "正在遷移",
+    "missingV2Position": "沒看到你的 v2 部位？<Link>匯入它。</Link>",
+    "noV2Liquidity": "未發現 V2 流動資產。",
+    "positionNoFees": "在市價進入你設定的範圍之前，你的部位不會賺取費用或用於交易。",
+    "priceDifference": "價格差異： ",
+    "priceWarning": "你應該只以你認為正確的價格將流動資產存入 Uniswap V3。<br /> 如果價格看起來不正確，你可以進行交換來調整價格，或等待其他人這樣做。",
+    "refund": "由於已選擇價格範圍，至少 {{amtA}} {{symA}} 和 {{amtB}} {{symB}} 將退還至你的錢包。",
+    "selectFeeTier": "選擇交易費用等級",
+    "setRange": "設定價格範圍",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} 價格：",
+    "v2Description": "該工具將安全地將你的 {{source}} 流動資產遷移至 V3。由於 <0>Uniswap 遷移合約</0> ↗，該流程完全無信任",
+    "v2Instruction": "對於下方顯示的各個資產池，按一下「遷移」以從 Uniswap V2 中移除你的流動資產，並將其存入 Uniswap V3。",
+    "v2Title": "遷移 V2 流動資產",
+    "v3Price": "V3 {{sym}} 價格："
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "輸入的價格無效"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "取得 Uniswap 錢包 App"
+      },
+      "title": "Uniswap：加密貨幣與 NFT 錢包"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "由 MoonPay USA LLC 提供支援的法幣交換通道",
+    "restricted": {
+      "region": "Moonpay 在某些地區無法使用。按一下了解更多。"
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "建立帳戶"
+    },
+    "logIn": {
+      "button": "登入"
+    },
+    "signIn": {
+      "button": "登入"
+    },
+    "signInOrConnect": {
+      "title": "Sign in or connect"
+    },
+    "signUp": {
+      "button": "註冊"
+    },
+    "tabs": {
+      "createPosition": "建立部位",
+      "viewPositions": "檢視部位"
+    }
+  },
+  "network": {
+    "lostConnection": "你可能失去了網路連線。",
+    "mightBeDown": "{{network}} 可能目前無法使用，或你可能失去了網路連線。",
+    "warning": "網路警告"
+  },
+  "nft": {
+    "addToBag": "新增至購物車",
+    "authorsCollectionOnUni": "Uniswap 上的 {{name}} NFT 系列",
+    "bag": "購物車",
+    "blockedCollection": "該系列已被封鎖",
+    "blockedOpenSea": "已在 OpenSea 上封鎖",
+    "buyTransferNFTToStart": "購買 NFT 或將 NFT 轉移到此錢包即可開始使用。",
+    "buyTransferTokensToStart": "購買代幣或將代幣轉移到此錢包即可開始。",
+    "card": {
+      "notAvailable": "內容<br />尚無法使用"
+    },
+    "chainSupportComingSoon": "{{chainName}} 支援即將推出",
+    "collectionOnUni": "Uniswap 上的 NFT 系列",
+    "collectonOnAddress": "Uniswap 上的 NFT 系列 - {{address}}",
+    "complete": "完成！",
+    "editListings": "編輯商品",
+    "event": "事件",
+    "explore": "探索 NFT",
+    "learnWhy": "了解原因",
+    "list": {
+      "header": {
+        "lastPrice": "最新"
+      },
+      "title": "列出 NFT"
+    },
+    "listedSignificantly_one": "一個 NFT 的售價低於該系列的地板價 {{percentage}}。確定要繼續嗎？",
+    "listedSignificantly_other": "{{count}} 個 NFT 的售價遠低於該系列的地板價。確定要繼續嗎？",
+    "listForSale": "列出出售",
+    "lowPrice": "商品價格偏低",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} 交易費用"
+      }
+    },
+    "maxFees": "最高交易費用",
+    "maxRoyalties": "最高創作者版稅",
+    "noItems": "沒有可顯示的項目",
+    "noneAtAddress": "該地址不存在系列資產",
+    "noPools": "尚未有資產池",
+    "notListed": "未列為商品",
+    "proceedsIfSold": "出售後的收益",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "已經列出在 {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} 低於地板價。"
+        }
+      }
+    },
+    "refundsInEth": "無法購買的商品將以 ETH 形式退款",
+    "removeFromBag": "從購物車中移除",
+    "reportSpam": "檢舉為垃圾訊息",
+    "returnToExplore": "返回 NFT 探索頁面",
+    "returnToMy": "返回我的 NFT",
+    "setPrices": "設定價格以繼續",
+    "startListing": "開始列出商品",
+    "successListed": "已成功列為商品",
+    "unavailableToList": "無法列出商品",
+    "whyTransaction": {
+      "reason": "列出 NFT 需要對每個 NFT 系列進行一次性市集核准。"
+    },
+    "willAppearHere": "你的鏈上交易和加密貨幣購買將顯示在此。",
+    "wishGranted": "Uniswap 滿足了你的願望！"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "核准系列",
+        "approve_other": "核准系列",
+        "sign_one": "簽署商品",
+        "sign_other": "簽署商品"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "最大 {{percentChanged}}"
+      }
+    },
+    "my": "我的 NFT",
+    "noneYet": "尚無 NFT",
+    "sell": "出售 NFT"
+  },
+  "notFound": {
+    "oops": "糟糕，讓我返回交換"
+  },
+  "notice": {
+    "uk": {
+      "label": "英國免責聲明："
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} 已隱藏",
+      "unhidden": "{{assetName}} 已取消隱藏"
+    },
+    "copied": {
+      "address": "已複製地址",
+      "calldata": "已複製 Calldata",
+      "contractAddress": "已複製合約地址",
+      "failed": "無法複製到剪貼簿",
+      "image": "已複製影像",
+      "nftUrl": "已複製 NFT URL",
+      "tokenUrl": "已複製代幣 URL",
+      "transactionId": "已複製交易 ID",
+      "unitag": "使用者名稱已複製"
+    },
+    "countryChange": "切換到 {{countryName}}",
+    "network": {
+      "changed": "切換到 {{network}}"
+    },
+    "passwordChanged": "密碼已變更",
+    "restore": {
+      "success": "已還原錢包！"
+    },
+    "send": {
+      "network": "正在 {{network}} 上傳送"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "已檢舉"
+      }
+    },
+    "swap": {
+      "network": "正在 {{network}} 上交換",
+      "pending": {
+        "swap": "交換待處理",
+        "unwrap": "拆封待處理",
+        "wrap": "包裝待處理"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "已取消 {{currencySymbol}} 核准。",
+        "fail": "無法核准 {{currencySymbol}} 與 {{address}} 一起使用。",
+        "success": "已核准 {{currencySymbol}} 與 {{address}} 一起使用。"
+      },
+      "pending": "交易待處理",
+      "swap": {
+        "canceled": "已取消 {{inputCurrencySymbol}}-{{outputCurrencySymbol}} 交換。",
+        "expired": "{{inputCurrencyAmountWithSymbol}} 換 {{outputCurrencyAmountWithSymbol}} 的交換已過期。",
+        "fail": "無法將 {{inputCurrencyAmountWithSymbol}} 交換為 {{outputCurrencyAmountWithSymbol}}。",
+        "success": "已將 {{inputCurrencyAmountWithSymbol}} 交換為 {{outputCurrencyAmountWithSymbol}}。"
+      },
+      "transfer": {
+        "canceled": "已取消 {{tokenNameOrAddress}} 傳送",
+        "fail": "無法傳送 {{tokenNameOrAddress}} 至 {{walletNameOrAddress}}",
+        "received": "收到 {{tokenNameOrAddress}} 來自 {{walletNameOrAddress}}",
+        "success": "已將 {{tokenNameOrAddress}} 傳送到 {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "無法與 {{addressOrEnsName}} 進行交易",
+          "short": "交易失敗"
+        },
+        "success": {
+          "full": "已與 {{addressOrEnsName}} 進行交易",
+          "short": "交易已確認"
+        }
+      },
+      "unwrap": {
+        "canceled": "已取消 {{inputCurrencySymbol}} 拆封。",
+        "fail": "無法將 {{inputCurrencyAmountWithSymbol}} 拆封。",
+        "success": "已將 {{inputCurrencyAmountWithSymbol}} 拆封並接收 {{outputCurrencyAmountWithSymbol}}。"
+      },
+      "wrap": {
+        "canceled": "已取消 {{inputCurrencySymbol}} 包裝。",
+        "fail": "無法包裝 {{inputCurrencyAmountWithSymbol}}。",
+        "success": "已包裝 {{inputCurrencyAmountWithSymbol}} 並接收 {{outputCurrencyAmountWithSymbol}}。"
+      }
+    },
+    "transfer": {
+      "pending": "傳送待處理"
+    },
+    "walletConnect": {
+      "confirmed": "已確認與 {{dappName}} 交易",
+      "connected": "已連線",
+      "disconnected": "已中斷連線",
+      "failed": "與 {{dappName}} 的交易失敗",
+      "networkChanged": {
+        "full": "切換到 {{networkName}}",
+        "short": "已切換網路"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "繼續使用 Uniswap Extension",
+      "title": "成功！"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "我們建議抄到紙上並收在安全的地方，例如保險箱。",
+        "displayWarning": {
+          "description": "在繼續之前請仔細閱讀以下內容。",
+          "note": {
+            "access": "此助記詞可讓你完整存取錢包和資金",
+            "secure": "請私下查看此內容，切勿與任何人分享",
+            "storage": "請寫下來並保存在安全的地點"
+          },
+          "title": "一些重要的事情要知道"
+        },
+        "error": "單字無效或拼字錯誤",
+        "placeholder": "秘密字詞",
+        "progress": "已完成 {{completedStepsCount}}/{{totalStepsCount}}",
+        "selectedWordPlaceholder": "選擇字詞",
+        "subtitle_one": "你的助記詞中的第 {{count}} 個字詞為何？",
+        "subtitle_two": "你的助記詞中的第 {{count}} 個字詞為何？",
+        "subtitle_few": "你的助記詞中的第 {{count}} 個字詞為何？",
+        "subtitle_other": "你的助記詞中的第 {{count}} 個字詞為何？",
+        "title": "請確保你已正確記錄"
+      },
+      "option": {
+        "badge": {
+          "quick": "快速"
+        },
+        "cloud": {
+          "description": "透過 {{cloudProviderName}} 備份你的錢包，並受恢復密碼保護。",
+          "title": "設定恢復密碼"
+        },
+        "manual": {
+          "description": "將你的 12 個秘密字詞記錄在一張紙上，並將其存放在安全的地方。",
+          "title": "寫下助記詞"
+        }
+      },
+      "reminder": {
+        "description": "備份錢包可確保你在遺失手機或購買新裝置時始終可以恢復資產。",
+        "title": "是時候備份你的錢包了",
+        "warning": {
+          "description": "如果你不設定備份方法，那麼當你遺失手機、刪除應用程式或購買新裝置時，你將無法恢復錢包。",
+          "title": "你可能會損失你的資金"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "如果你忘記了，我們無法為你重設。請將其抄寫下來，或者將其安全存放在密碼管理工具中。",
+          "disclaimer": "我了解 Uniswap Labs 無法重設我的恢復密碼。",
+          "title": "保存此密碼很重要"
+        },
+        "manual": {
+          "description": "確保你正確寫下了助記詞並有一個安全的地方來儲存它。",
+          "disclaimer": "我了解如果我遺失了錢包，Uniswap Labs 無法找回我的錢包。",
+          "title": "在你完成之前..."
+        }
+      },
+      "subtitle": "如果你刪除 App 或遺失設備，這就是你恢復錢包的方法。",
+      "title": {
+        "existing": "備份你的錢包",
+        "new": "選擇你的備份方法"
+      },
+      "view": {
+        "disclaimer": "我了解，如果我遺失了助記詞，Uniswap Labs 無法協助我進行還原。",
+        "subtitle": {
+          "message1": "在繼續之前請仔細閱讀以下內容",
+          "message2": "你需要輸入全部 12 個秘密字詞，才能恢復錢包。"
+        },
+        "title": "寫下你的助記詞",
+        "warning": {
+          "message1": "此助記詞可讓你完整存取錢包和資金",
+          "message2": "請寫下來並保存在安全的地點",
+          "message3": "請私下查看此內容，<u>切勿與任何人分享</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "你需要輸入此短語，才能復原資金。如果你忘記了，我們無法為你擷取。",
+        "title": "確認你的恢復密碼"
+      },
+      "createPassword": {
+        "description": "你需要輸入此短語，才能復原資金。如果你忘記了，我們無法為你擷取。",
+        "title": "建立你的恢復密碼"
+      }
+    },
+    "complete": {
+      "button": "開啟 Uniswap Extension",
+      "description": "你的錢包已準備好傳送和接收加密貨幣。使用下方的捷徑開啟 Uniswap Extension。",
+      "go_to_uniswap": "前往 Uniswap 網頁 App",
+      "pin": {
+        "description": "按一下圖釘圖示，將 Uniswap Extension 新增到工具列。",
+        "title": "釘選 Uniswap Extension"
+      },
+      "title": "你已準備就緒"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "解鎖錢包和存取助記詞時，需要使用此資料",
+        "title": {
+          "default": "建立密碼",
+          "reset": "重設你的密碼"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap Extension 僅與桌面版 Chrome 相容。",
+          "title": "行動裝置上的 Chrome 尚不受支援"
+        },
+        "description": "Uniswap Extension 目前僅與 Chrome 相容。",
+        "title": "尚不支援此瀏覽器"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "如果你遺失手機或購買新手機，請制定恢復計畫。",
+          "title": "備份你的錢包"
+        },
+        "fund": {
+          "description": "透過購買加密貨幣或從其他帳戶轉帳來為你的錢包充值。",
+          "title": "獲取你的第一個代幣"
+        },
+        "label": {
+          "required": "必需的",
+          "swipe": "滑動"
+        },
+        "pushNotifications": {
+          "description": "接收你所收藏代幣的價格提醒、市場趨勢等資訊。",
+          "title": "隨時瞭解最新情況"
+        },
+        "unitag": {
+          "description": "建立個人化 Web3 個人資料，並輕鬆與朋友分享地址。",
+          "title": "領取你的 {{unitagDomain}} 使用者名稱"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "有 1 個字詞無效或拼錯",
+        "invalidWords_other": "有 {{count}} 個字詞無效或拼錯"
+      },
+      "method": {
+        "import": {
+          "message": "輸入另一個加密貨幣錢包的助記詞。",
+          "title": "匯入錢包"
+        },
+        "passkey": {
+          "message": "使用現有通行金鑰同步你的 Uniswap 錢包。",
+          "title": "使用通行金鑰登入"
+        },
+        "restore": {
+          "message": {
+            "android": "將你已備份的錢包新增至 Google 雲端硬碟帳戶。",
+            "ios": "將你已備份的錢包新增至 iCloud 帳戶。"
+          },
+          "title": "還原錢包"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "不想要以上任何一個嗎？"
+        },
+        "subtitle": "選擇你要重新登入的錢包。",
+        "title": "歡迎回到 Uniswap",
+        "wallet": {
+          "button": "檢視助記詞",
+          "count_one": "+1 個其他錢包",
+          "count_other": "+{{count}} 個其他錢包"
+        },
+        "warning": {
+          "caption": "請確認你已備份所有其他錢包。如果你想要進行還原，你將需要其助記詞或相應的 {{cloudProvider}} 備份。",
+          "title": "確定繼續？"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "透過 QR 碼從行動應用程式匯入錢包。",
+          "title": "使用 Uniswap 行動版"
+        },
+        "passkey": {
+          "subtitle": "使用現有通行金鑰同步你的 Uniswap 錢包。",
+          "title": "使用通行金鑰登入"
+        },
+        "recoveryPhrase": {
+          "subtitle": "輸入另一個加密貨幣錢包的助記詞。",
+          "title": "匯入錢包"
+        },
+        "title": "登入或匯入錢包"
+      },
+      "title": "選擇想要增加錢包的方式"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "我的助記詞是 12 個字詞",
+        "importing": "正在匯入...",
+        "longPhrase": "我的助記詞較長"
+      },
+      "error": {
+        "invalidPhrase": "你輸入的短語無效"
+      },
+      "subtitle": "輸入或貼上 12 個字詞的助記詞",
+      "title": "輸入你的助記詞"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "Continue in the secure sign-in window."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "我已經有錢包了",
+        "signInOrImport": "登入或匯入"
+      },
+      "mobileScan": {
+        "button": "掃描 QR 碼以匯入",
+        "title": "有 Uniswap App 嗎？"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "新增現有錢包",
+        "create": "建立錢包",
+        "createAccount": "建立帳戶"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "This is a public name anyone can use to send you crypto."
+      },
+      "wallet": {
+        "button": {
+          "text": "結束"
+        },
+        "subtitle": "此暱稱只有你自己可見",
+        "title": "為你的錢包取一個名字"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "若要接收通知，請在裝置設定中開啟 Uniswap 錢包的通知。",
+        "title": "通知權限"
+      },
+      "subtitle": "隨時了解收藏代幣的交易狀態和主要價格變化。",
+      "title": "開啟通知"
+    },
+    "passkey": {
+      "account": {
+        "protection": "你的帳戶受你自己儲存的安全密碼保護。"
+      },
+      "biometric": {
+        "scan": "只需用手機、平板電腦或瀏覽器掃描生物識別即可登入。"
+      },
+      "create": "建立你的通行金鑰",
+      "use": {
+        "recovery": {
+          "phrase": "改為使用助記詞"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "讓我們確認一下你真的明白。如果你遺失或錯誤記下此密碼，你將無法恢復資金。",
+          "default": "如果你遺失或錯誤記下此密碼，你將無法恢復資金。"
+        },
+        "title": "讓我們確認一下你真的明白"
+      },
+      "view": {
+        "subtitle": "你需要輸入全部 12 個秘密字詞，才能恢復錢包。",
+        "title": {
+          "hasPassword": "如果你忘了密碼..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "我準備好了",
+          "message": "助記詞可讓你 (以及任何擁有助記詞的人) 存取你的資金。請務必妥善保密。",
+          "title": "請私下執行此步驟"
+        },
+        "screenshot": {
+          "message": "任何能夠存取你相片的人，都可以存取你的錢包。建議你將字詞寫下來。",
+          "title": "螢幕擷取畫面並不安全"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "深入了解錢包安全",
+        "subtitle": "使用你的新密碼來解鎖錢包。",
+        "title": "重設密碼"
+      }
+    },
+    "scan": {
+      "error": "載入 QR 碼時發生錯誤",
+      "otp": {
+        "error": "你提交的代碼不正確，或提交時發生錯誤。請再試一次。",
+        "failed": "嘗試失敗：{{number}}",
+        "subtitle": "查看 Uniswap 行動版 App 中的 6 字元代碼",
+        "title": "輸入一次性代碼"
+      },
+      "subtitle": "使用 Uniswap 行動版 App 掃描 QR 碼，即可開始匯入你的錢包。",
+      "title": "從 App 匯入錢包",
+      "troubleScanning": {
+        "message": "透過助記詞匯入",
+        "title": "掃描時遇到問題？"
+      },
+      "wifi": "將手機連線至與電腦相同的 WiFi 網路。"
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "若要使用生物辨識功能，請先在設定中進行設置",
+            "ios": "若要使用 {{biometricsMethod}}，請在系統設定中允許存取"
+          },
+          "title": {
+            "android": "已停用生物辨識功能",
+            "ios": "已停用 {{biometricsMethod}}"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "啟用生物辨識功能",
+          "ios": "啟用 {{biometricsMethod}}"
+        },
+        "setup": "設定"
+      },
+      "subtitle": {
+        "android": "要求透過生物辨識功能來傳送交易，多加一層安全防護。",
+        "ios": "要求透過 {{biometricsMethod}} 來傳送交易，多加一層安全防護。"
+      },
+      "title": "保護你的錢包"
+    },
+    "selectWallets": {
+      "error": "無法載入地址",
+      "title": {
+        "default": "選擇要匯入的錢包",
+        "error": "匯入錢包時發生錯誤"
+      }
+    },
+    "termsOfService": "繼續即表示我同意<highlightTerms>服務條款</highlightTerms>和<highlightPrivacy>私隱權政策</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "什麼是助記詞？"
+      }
+    },
+    "wallet": {
+      "continue": "確保安全保管",
+      "defaultName": "錢包 {{number}}",
+      "description": {
+        "full": "這是你用來存放代幣、NFT 和進行所有交易的私人空間。完成設定以確保你的資金安全。"
+      },
+      "title": "歡迎使用你的新錢包"
+    },
+    "welcome": {
+      "subtitle": "我們來完成你的錢包設定。",
+      "title": "歡迎！"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "你仍然可以毫無問題地在該鏈上進行交換並提供流動資產。"
+    },
+    "title": "{{versionName}} 很快就會回來"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "使用或存取通行金鑰時遇到問題？請造訪 Uniswap 支援尋求協助。",
+        "title": "幫助解決通行金鑰問題"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 允許在不同應用程式之間共用和管理代幣核准。"
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "活躍價格點範圍",
+    "addAs": "新增為 {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "以 1 天交易費用計算年化"
+    },
+    "aprText": "Pool APR",
+    "balances": "資產池餘額",
+    "closedCTA": {
+      "description": "你可以使用頁面頂部的篩選器來查看這些部位。",
+      "title": "在尋找你的已平倉部位？"
+    },
+    "collectAs": "收取為 {{nativeWrappedSymbol}}",
+    "collectFees": "收取交易費用",
+    "create": {
+      "info": "你選擇項目後，將會建立一個新的流動資產池，這可能會導致初始資產流動性降低且波動性增加。要減輕風險，可考慮新增到現有的資產池。"
+    },
+    "createdPosition": {
+      "cancelled": "已取消建立部位",
+      "failed": "建立部位失敗"
+    },
+    "details": "資產池詳細資訊",
+    "earnings": {
+      "empty": "You have no earnings yet"
+    },
+    "explorers": "Explorer",
+    "import": {
+      "link": {
+        "description": "某些 v2 部位不會自動顯示。"
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "某些 v2 部位不會自動顯示。請選取代幣對以匯入並檢視你的部位。"
+          }
+        }
+      },
+      "success": "資產池已匯入"
+    },
+    "incentives": {
+      "administeredRewards": "Rewards for liquidity provisioning are administered by the Uniswap Foundation.",
+      "collect": "Collect",
+      "collectedRewards": "Collected rewards",
+      "collectFailed": "Collect failed, please try again.",
+      "collectFailedNoRetry": "Collecting rewards failed.",
+      "collectingRewards": "Collecting rewards",
+      "collectRewards": "Collect rewards",
+      "collectRewardsCancelled": "Collect rewards cancelled",
+      "eligible": "Eligible pools have token rewards so you can earn more",
+      "rewardsEarned": "Rewards earned",
+      "uni": {
+        "description": "Earn UNI rewards by providing liquidity to eligible pools",
+        "findMore": "Find more pools with UNI rewards"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "Rewards couldn’t be retrieved. This might be due to a network issue. Try reloading the page."
+        }
+      }
+    },
+    "info": "資產池資訊",
+    "limitFluctuation": {
+      "warning": "請注意，限制的執行可能會根據即時市場波動和以太幣網路擁塞情況而有所不同。當代幣達到指定價格時，限制可能不會準確執行。"
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "獲取交易所需的資料時出錯。"
+        }
+      },
+      "outOfSync": {
+        "message": "該資產池中的價格與所選代幣的市場價格存在差異。請相應調整你的價格範圍，或等待資產池再平衡，以避免損失。"
+      }
+    },
+    "maxPrice": "最高價格",
+    "migrateLiquidity": "遷移流動資產",
+    "migrateLiquidityDisabledTooltip": "此鏈不支援 v4 流動資產資產池。",
+    "migrateToV4": "遷移至 v4",
+    "minPrice": "最低價格",
+    "newPosition": {
+      "plus": "+ 新部位",
+      "title": "新部位"
+    },
+    "newSpecificPosition": "新 {{symbol}} 部位",
+    "openPosition": {
+      "cta": "向流動資產池新增流動資金並檢視你此處的部位"
+    },
+    "openToStart": "開啟新部位或建立資產池以開始。",
+    "percent": "{{pct}}% 資產池",
+    "pooled": "已匯集 {{sym}}：",
+    "position": "部位",
+    "positions": {
+      "title": "你的部位",
+      "transaction": {
+        "settings": "交易設定"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "目前無法獲得該部位的美元價值。請查看部位詳情以瞭解存入的代幣金額。"
+      }
+    },
+    "priceRange": "價格範圍",
+    "refresh": {
+      "prices": "重新整理價格"
+    },
+    "removeLiquidity": "移除流動資產",
+    "rewardAPR": {
+      "percent": "{{pct}} reward APR"
+    },
+    "rewards": "Rewards",
+    "rewardsPool": {
+      "label": "在獎勵資產池中匯集代幣："
+    },
+    "selectPair": "選擇貨幣對",
+    "share": {
+      "label": "你的資產池份額："
+    },
+    "specificPosition": "{{symbol}} 部位",
+    "tokenPair": "代幣對",
+    "top": {
+      "tvl": "按 TVL 列出的熱門資產池"
+    },
+    "totalAPR": "Total APR",
+    "totalTokens": "你的資產池代幣總數：",
+    "uncollectedFees": "未收取交易費用",
+    "v2": "v2 資產池",
+    "v3": "v3 資產池",
+    "viewPools": "View pools",
+    "volOverTvl": "1 天成交量/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30 天交易量"
+      }
+    },
+    "withdrawAs": "提領為 {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "與你選取的代幣對相符的 v2 資產池。"
+      },
+      "notFound": {
+        "description": "未找到相符的 v2 資產池。請仔細檢查你選取的代幣，並確保你已連接至正確的錢包。"
+      }
+    }
+  },
+  "pools": {
+    "explore": "探索資產池"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "掛鉤是一項進階功能，使資產池能夠與智慧型合約互動，進而解鎖各種功能。在新增掛鉤時請務必小心，因為有些掛鉤可能是惡意的或會導致意外後果。"
+    },
+    "addingHook": {
+      "disclaimer": "新增掛鉤可能會有未預期的後果。請進行研究並自行承擔風險。",
+      "hideProperties": "隱藏屬性",
+      "invalidAddress": "輸入有效的掛鉤地址",
+      "viewProperties": "檢視屬性"
+    },
+    "create": {
+      "invalidPrice": "價格無效",
+      "invalidRange": "範圍無效",
+      "modal": {
+        "header": "正在建立部位"
+      }
+    },
+    "currentValue": "目前部位值",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "輸入的初始價格比市場價格低 {{value}}％，可能會導致資金損失。你要繼續嗎？",
+            "more": "輸入的初始價格比市場價格高 {{value}}％，可能會導致資金損失。你要繼續嗎？"
+          },
+          "title": "與市場價格差異較大"
+        }
+      },
+      "description": "指定你的流動資產貢獻的代幣金額。"
+    },
+    "depositedCurrency": "已存入 {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "建立 v2 部位"
+      }
+    },
+    "hook": {
+      "disclaimer": "我瞭解新增此掛鉤所涉及的潛在風險。",
+      "donateWarning": "此標誌可能會導致所賺取的交易費用發生變化。",
+      "liquidityWarning": "此標誌可能導致資產池阻止新增流動資產。你的交易可能會還原。",
+      "removeWarning": "可能會導致你的資金被鎖定或阻止你收取交易費用。",
+      "swapWarning": "此標誌可能允許流動資產提供者更容易利用即時流動資產，從而可能導致賺取的交易費用減少。",
+      "warningHeader": "重要提示：發現掛鉤風險",
+      "warningInfo": "我們發現此掛鉤有潛在風險。在繼續之前，請確保你瞭解此掛鉤的操作原理。"
+    },
+    "increase": {
+      "fot": "不支援為 {{token}} 和其他「轉帳費用」代幣新增流動性。"
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "較市場價格低 {{ value }}%",
+        "positive": "較市場價格高 {{ value }}%"
+      },
+      "info": "建立新資產池時，必須設定兩種代幣的起始匯率。此費率將反映初始市場價格。",
+      "set": "設定初始價格",
+      "useMarketPrice": "使用市場價格"
+    },
+    "migrate": {
+      "liquidity": "遷移部位時，你無法變更代幣對，但可以新增掛鉤來增強功能。",
+      "v4unsupportedChain": "此鏈不支援 v4 資產池。"
+    },
+    "new": {
+      "protocol": "新 {{protocol}} 部位"
+    },
+    "notFound": {
+      "description": "無法取得該部位的詳細資料。請檢查你連接的錢包是否正確。"
+    },
+    "protocol": "{{protocol}} 部位",
+    "provide": {
+      "liquidity": "選擇你想要為其提供流動資產的代幣。你可以在所有支援的網路上選擇代幣。",
+      "liquidityDescription": {
+        "creatingPool": "在建立資產池時設定全方位流動性可確保在所有可能的價格範圍內持續參與市場，此方式簡單便利，但有可能帶來更高的無常損失。",
+        "custom": "你可透過自訂範圍將流動資產集中在特定的價格範圍內，提高資本效率和交易費用收益，但需要更積極的管理。"
+      },
+      "outOfRange": {
+        "closePosition": "平倉部位",
+        "description": "遷移期間無法調整此部位的範圍。要設定新的範圍，請平倉此部位並開設新的 v4 部位。",
+        "title": "你正在遷移超出範圍的部位"
+      }
+    },
+    "removeHook": "移除掛鉤",
+    "resetDescription": "你的代幣、價格和範圍選擇將會重設。",
+    "setRange": {
+      "inputsBelow": "使用以下輸入值設定你的範圍。"
+    },
+    "step": {
+      "deposit": "輸入存款金額",
+      "price": "設定初始價格和存款金額",
+      "range": "設定價格範圍和存款金額",
+      "select": "選擇代幣對和交易費用"
+    },
+    "value": "部位值",
+    "valueUnavailable": "目前無法獲得該部位的美元價值。請查看部位詳情以瞭解存入的代幣金額。",
+    "wrapped": {
+      "unwrap": "拆封 {{wrappedToken}}",
+      "warning": {
+        "info": "拆封 {{wrappedToken}} 並存入 {{nativeToken}} 以提供更具成本效益和高效的流動資產。"
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "連線至你的錢包以查看你目前的部位。"
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "該 App 會記錄匿名使用統計資料，以便隨著時間的推移進行改進。",
+    "autoRouter": "該 App 從 Uniswap Labs 伺服器取得最佳交易路徑。",
+    "infura": "該 App 獲取鏈上資料並使用 Infura API 建立合約呼叫。",
+    "thirdPartyApis": "此 App 使用以下第三方 API：",
+    "trm": "該 App 會安全地收集你的錢包地址，並出於風險和合規原因與 TRM Labs Inc. 共享。",
+    "uniswaptos": "Uniswap Labs 的服務條款"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "已連線 1 個 App",
+      "connections_other": "已連線 {{count}} 個 App"
+    },
+    "error": {
+      "camera": {
+        "message": "若要掃描代碼，請在系統設定中允許「相機」存取權",
+        "title": "已停用相機"
+      },
+      "none": "找不到 QR 碼"
+    },
+    "recipient": {
+      "action": {
+        "scan": "掃描 QR 碼",
+        "show": "顯示我的 QR 碼"
+      },
+      "error": {
+        "message": "請確認你掃描的是有效的以太幣地址 QR 碼，然後再試一次。",
+        "title": "QR 碼無效"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "找不到訊息。"
+      },
+      "method": {
+        "default": "請求來自 {{dappNameOrUrl}}",
+        "signature": "簽名請求來自 {{dappNameOrUrl}}",
+        "transaction": "交易請求來自 {{dappNameOrUrl}}"
+      },
+      "withAmount": "是否允許 {{dappName}} 使用最多<highlight> {{amount}} </highlight>個 {{currencySymbol}}？",
+      "withoutAmount": "是否允許 {{dappName}} 使用你的 {{currencySymbol}}？"
+    },
+    "status": {
+      "connecting": "正在連線...",
+      "loading": "載入中..."
+    },
+    "title": "掃描 QR 碼",
+    "wallet": {
+      "networks": "支援的網路",
+      "title": "你可以在我們所有 {{numOfNetworks}} 支援的網路上傳送和接收代幣和 NFT。"
+    }
+  },
+  "range": {
+    "outOfView": "範圍不可見"
+  },
+  "removeLiquidity": {
+    "pooled": "合併 {{symbol}}："
+  },
+  "revoke": {
+    "failed": {
+      "message": "這為 Uniswap 通訊協定提供了對你的代幣進行交易的存取權。"
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "如果可以，請聚合流動資產來源，以獲得更優惠的價格以及免燃料費的交換。",
+    "cheapest": {
+      "v4": "Uniswap 用戶端根據價格和網路費來選擇最佳交易選項。"
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "已到期",
+      "subtitle": "在 Uniswap Extension 中輸入此代碼。你的助記詞將會安全地加密和轉移。",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "在 {{hours}} 小時 {{minutes}} 分鐘 {{seconds}} 秒後產生新代碼",
+          "minutes": "在 {{minutes}} 分鐘 {{seconds}} 秒後產生新代碼",
+          "seconds": "在 {{seconds}} 秒後產生新代碼"
+        }
+      },
+      "title": "Uniswap 一次性代碼"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "是的，請繼續"
+      },
+      "label": {
+        "browser": "瀏覽器",
+        "device": "裝置"
+      },
+      "subtitle": "你必須在受信任裝置上從 Uniswap Extension 掃描 QR 碼，才能繼續。",
+      "title": "你是否正在嘗試匯入錢包？",
+      "warning": "謹防冒充 Uniswap 的網站和 App。否則你的錢包可能會外洩。"
+    },
+    "error": {
+      "encryption": "無法準備助記詞。",
+      "noCode": "未收到驗證碼。請再試一次。",
+      "timeout": {
+        "message": "再次掃描 Uniswap Extension 上的 QR 碼，繼續同步你的錢包。",
+        "title": "你的連線已逾時"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "要掃描此 QR 碼，你的手機必須連線至與電腦相同的 Wi-Fi 網絡，並且應暫時關閉所有 VPN。",
+        "title": "切換你的 WiFi 網絡"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "即將推出：在 {{chainName}} 鏈上搜尋並探索代幣",
+    "input": {
+      "placeholder": "搜尋代幣和資產池"
+    },
+    "results": {
+      "count_one": "1 個項目",
+      "count_other": "{{count}} 個項目"
+    },
+    "ukDisclaimer": "針對英國居民的免責聲明"
+  },
+  "send": {
+    "button": {
+      "review": "審核轉帳"
+    },
+    "gas": {
+      "error": {
+        "title": "不適用"
+      },
+      "networkCost": {
+        "title": "網路費"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "餘額：{{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "選擇接收方",
+      "input": {
+        "placeholder": "搜尋 ENS 或地址"
+      },
+      "previous_one": "1 筆先前的轉帳",
+      "previous_other": "{{count}} 筆先前的轉帳",
+      "results": {
+        "empty": "找不到結果",
+        "error": "你輸入的地址不存在或拼字錯誤。"
+      },
+      "section": {
+        "favorite": "常用錢包",
+        "recent": "最近的",
+        "search": "搜尋結果",
+        "viewOnly": "僅供檢視的錢包",
+        "yours": "你的錢包"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "只有在你擁有助記詞或認識錢包擁有者的情況下，才能將資金傳送至此錢包。",
+          "title": "你擁有的此錢包僅供查看"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "當你將代幣傳送到錢包地址時，會顯示在此處",
+          "title": "未儲存任何錢包"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "你正在傳送"
+      },
+      "summary": {
+        "button": {
+          "title": "確認傳送"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "你輸入的地址不存在或拼字錯誤。",
+        "title": "找不到結果"
+      },
+      "placeholder": "搜尋 ENS 或地址"
+    },
+    "title": "傳送",
+    "warning": {
+      "blocked": {
+        "default": "此錢包已遭到封鎖",
+        "modal": {
+          "message": "此地址已遭 Uniswap 錢包封鎖，原因是其涉及一或多項遭到封鎖的活動，如果你認為此狀態有誤，請寄送電子郵件至 compliance@uniswap.org。",
+          "title": "已封鎖的地址"
+        },
+        "recipient": "接收方錢包已遭到封鎖"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "你正在嘗試將資金傳送到代幣地址。這可能會導致永久性的資金損失。",
+          "heading": "偵測到代幣地址"
+        },
+        "message": "你正在嘗試將資金傳送到代幣地址。將加密貨幣傳送到此類地址，可能會導致資金永久損失。",
+        "title": "此為代幣地址"
+      },
+      "insufficientFunds": {
+        "message": "由於你輸入了要傳送的金額，因此 {{currencySymbol}} 餘額已減少",
+        "title": "{{currencySymbol}} 不足"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "<highlight>{{networkName}}</highlight> 上的 {{currencySymbol}} 不足，無法傳送",
+          "withoutNetwork": "<highlight>{{currencySymbol}}</highlight> 不足，無法傳送"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "確定",
+            "cancel": "取消",
+            "confirm": "確認"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "使用者名稱",
+          "walletAddress": "錢包地址"
+        },
+        "message": "你不曾使用此地址進行交易。請先確認地址正確，然後再繼續。",
+        "title": "新地址"
+      },
+      "self": {
+        "message": "你正在嘗試將資金傳送到你目前的錢包。將加密貨幣傳送到該地址將產生不必要的網路費。",
+        "title": "這是你目前的錢包"
+      },
+      "smartContract": {
+        "message": "你即將向智慧型合約地址傳送資金。請確保此地址正確無誤並且可以接收代幣。否則可能會導致資金永久損失。",
+        "title": "這是智慧型合約地址"
+      },
+      "viewOnly": {
+        "message": "你需要透過助記詞匯入此錢包，才能傳送資產。",
+        "title": "此錢包僅供檢視"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "最近的"
+    }
+  },
+  "sendReviewModal": {
+    "title": "審核傳送"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "顯示助記詞"
+      },
+      "action": {
+        "hide": "隱藏助記詞"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "我了解若未完成此步驟，Uniswap Labs 將無法協助我復原錢包。",
+          "title": "我已儲存助記詞"
+        },
+        "initial": {
+          "subtitle": "請確認你已儲存助記詞。否則你將無法存取你的錢包",
+          "title": "在繼續之前"
+        },
+        "password": {
+          "error": "密碼錯誤。再試一次"
+        },
+        "subtitle": "輸入你的密碼進行確認",
+        "title": "你即將移除助記詞"
+      },
+      "title": "你的助記詞",
+      "view": {
+        "warning": {
+          "message1": "任何知道你助記詞的人，都可以存取你的錢包和資金",
+          "message2": "請私下檢視此內容",
+          "message3": "請勿與任何人分享",
+          "message4": "切勿將其輸入任何網站或應用程式",
+          "title": "在繼續之前"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "任何知道你助記詞的人，都可以存取你的錢包和資金。",
+          "title": "請私下檢視此內容"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "在「設定」中啟用",
+      "feedback": "傳送意見回饋",
+      "help": "取得說明",
+      "lock": "鎖定錢包",
+      "privacy": "私隱權政策",
+      "terms": "服務條款"
+    },
+    "footer": "Uniswap 團隊 🦄\n用心打造",
+    "hideSmallBalances": {
+      "subtitle": "你的投資組合中將隱藏 1 美元以下的餘額。"
+    },
+    "maxSlippage": "滑價上限",
+    "section": {
+      "about": "關於",
+      "preferences": "偏好設定",
+      "privacyAndSecurity": "隱私與安全",
+      "support": "支援",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} 個其他錢包"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "自動",
+          "dark": {
+            "subtitle": "一律使用深色主題。",
+            "title": "深色"
+          },
+          "device": {
+            "subtitle": "根據你的裝置設定調整。",
+            "title": "自動"
+          },
+          "light": {
+            "subtitle": "一律使用淺色主題。",
+            "title": "淺色"
+          }
+        },
+        "title": "主題"
+      },
+      "backup": {
+        "create": {
+          "description": "設定密碼之後，你的助記詞備份將會加密，可在 {{cloudProviderName}} 帳戶遭到盜用時多一層防護。",
+          "title": "備份到 {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "這時也將一併刪除下列錢包的備份，原因是這些錢包共用助記詞",
+            "title": "確定繼續？"
+          },
+          "warning": "如果刪除 {{cloudProviderName}} 備份，你只能透過手動備份助記詞來復原錢包。如果遺失助記詞，Uniswap Labs 將無法復原你的資產。"
+        },
+        "error": {
+          "message": {
+            "full": "無法將助記詞備份到 {{cloudProviderName}}。請確認你已啟用 {{cloudProviderName}} 並具有可用儲存空間，然後再試一次。",
+            "short": "無法刪除備份"
+          },
+          "title": "{{cloudProviderName}} 錯誤"
+        },
+        "modal": {
+          "description": "你尚未將助記詞備份到 {{cloudProviderName}}。備份之後，只要在任意裝置上登入 {{cloudProviderName}}，即可復原你的錢包。",
+          "title": "是否將助記詞備份到 {{cloudProviderName}}？"
+        },
+        "password": {
+          "error": {
+            "mismatch": "密碼不相符"
+          },
+          "medium": "此為中等強度密碼",
+          "placeholder": {
+            "confirm": "確認密碼",
+            "create": "建立密碼"
+          },
+          "strong": "此為高強度密碼",
+          "weak": "此為低強度密碼"
+        },
+        "recoveryPhrase": {
+          "label": "助記詞"
+        },
+        "selected": "{{cloudProviderName}} 備份",
+        "status": {
+          "action": {
+            "delete": "刪除備份"
+          },
+          "complete": "已備份到 {{cloudProviderName}}",
+          "description": "將助記詞備份到 {{cloudProviderName}} 後，只需在任意裝置上登入你的 {{cloudProviderName}} 帳戶，即可復原錢包。",
+          "inProgress": "正在備份到 {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "已備份"
+          },
+          "title": "{{cloudProviderName}} 備份"
+        }
+      },
+      "beta": {
+        "tooltip": "即將推出"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "需要臉部辨識/指紋，才能開啟 App。",
+            "ios": "需要 {{biometricsMethod}}，才能開啟 App。"
+          },
+          "title": "App 存取權"
+        },
+        "auth": "請驗證",
+        "off": {
+          "message": {
+            "android": "Uniswap 錢包的生物辨識功能目前已關閉，你可以在系統設定中開啟。",
+            "ios": "Uniswap 錢包的 {{biometricsMethod}} 功能目前已關閉，你可以在系統設定中開啟。"
+          },
+          "title": {
+            "android": "生物辨識功能已關閉",
+            "ios": "{{biometricsMethod}} 功能已關閉"
+          }
+        },
+        "title": "臉部/指紋解鎖",
+        "transactions": {
+          "subtitle": {
+            "android": "需要臉部辨識/指紋才能進行交易。",
+            "ios": "需要 {{biometricsMethod}} 才能進行交易。"
+          },
+          "title": "交易"
+        },
+        "unavailable": {
+          "message": {
+            "android": "你的裝置未設定生物辨識功能。若要使用生物特徵辨識功能，請先在「設定」中進行設置。",
+            "ios": "你的裝置未設定 {{biometricsMethod}} 功能。若要使用 {{biometricsMethod}} 功能，請先在「設定」中進行設置。"
+          },
+          "title": {
+            "android": "未設定生物辨識功能",
+            "ios": "未設定 {{biometricsMethod}}"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "如果沒有啟用生物辨識功能，任何有權存取你裝置的人都可以開啟 Uniswap 錢包並進行交易。",
+            "ios": "如果沒有啟用 {{biometricsMethod}}，任何有權存取你裝置的人都可以開啟 Uniswap 錢包並進行交易。"
+          },
+          "title": "確定繼續？"
+        }
+      },
+      "connections": {
+        "disconnectAll": "斷開所有連接",
+        "noConnectionsDescription": "透過尋找「連接錢包」或「登入」按鈕連接到 App。"
+      },
+      "currency": {
+        "title": "當地貨幣"
+      },
+      "hapticTouch": {
+        "title": "回饋觸覺觸摸"
+      },
+      "helpCenter": {
+        "title": "說明中心"
+      },
+      "language": {
+        "button": {
+          "navigate": "前往設定"
+        },
+        "description": {
+          "extension": "Uniswap 預設為你的系統語言設定。若要變更你的偏好語言，請前往系統設定。",
+          "mobile": "預設情況下，Uniswap 使用你裝置的語言設定。若要變更你的偏好語言，請前往裝置設定中的「Uniswap」，然後點選「語言」。"
+        },
+        "title": "語言"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "轉移、請求和其他活動",
+            "title": "錢包活動"
+          },
+          "priceAlerts": {
+            "description": "收藏代幣價格大幅變化",
+            "title": "價格提醒"
+          },
+          "updates": {
+            "description": "建議和新功能",
+            "title": "來自 Uniswap 的更新"
+          }
+        },
+        "title": "通知"
+      },
+      "password": {
+        "title": "變更密碼"
+      },
+      "permissions": {
+        "title": "權限"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "我們會運用匿名使用資料來提升你的 Uniswap Labs 產品體驗。停用後，我們只會追蹤錯誤和基本使用方式。",
+          "title": "App 分析"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "輸入你的密碼"
+        },
+        "title": "助記詞"
+      },
+      "smallBalances": {
+        "title": "投資組合餘額"
+      },
+      "unknownTokens": {
+        "subtitle": "你的投資組合中將隱藏潛在的詐騙代幣。",
+        "title": "隱藏未知代幣"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "編輯標籤",
+          "editProfile": "編輯個人資料",
+          "remove": "移除錢包"
+        },
+        "connection": {
+          "banner": {
+            "description": "點擊你的個人資料圖片，透過錢包設定管理連線。",
+            "title": "連線已變動"
+          }
+        },
+        "connections": {
+          "title": "連線"
+        },
+        "editLabel": {
+          "description": "標籤不公開。標籤會儲存在本機，而且只有你可看見。",
+          "save": "儲存變更"
+        },
+        "label": "暱稱",
+        "testnetMode": {
+          "description": "這將為開發人員開啟測試網，以便在不使用真實資產的情況下嘗試功能和交易。測試網上的代幣不具有任何實際價值。",
+          "title": "測試網模式"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "若要在 {{label}}上使用 Uniswap，請在錢包設定中切換網路。"
+    },
+    "title": "設定",
+    "version": "{{appVersion}} 版"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "智慧錢包使用安全的智慧型合約提供更快的低費用交易。",
+      "info": "若錢包已使用其他 App 的智慧錢包功能，則不會受到影響。"
+    },
+    "enabledModal": {
+      "description": "更新將在你下次交換時生效。",
+      "title": "智慧錢包已啟用"
+    },
+    "postSwapNudge": {
+      "description": "智慧錢包使用安全的智慧型合約提供更快的低費用交易。",
+      "enable": "啟用智慧錢包",
+      "title": "節省下一次交換的費用"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "你不曾使用此地址進行交易。在繼續之前請確保地址正確。",
+        "title": "新地址"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "你即將傳送代幣到特殊類型的地址 - 智慧型合約。請仔細確認此地址是否為你的傳送目標。如果地址錯誤，你的代幣可能會永久遺失。",
+        "title": "這是錢包地址嗎？"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24 小時交易費用",
+    "24volume": "24 小時成交量",
+    "allTimeFees": "全時 LP 交易費用",
+    "allTimeSwappers": "全時交換者",
+    "allTimeVolume": "全時交易量",
+    "fdv": {
+      "description": "完全稀釋估值 (FDV) 計算假設所有代幣都在流通的總市場價值。"
+    },
+    "marketCap": {
+      "description": "市值是資產流通供應的總市場價值。"
+    },
+    "tvl": {
+      "description": "總鎖定價值 (TVL) 是所有 Uniswap 流動資產池中可用資產的總量。"
+    },
+    "volume": {
+      "1d": {
+        "description": "1 天交易量是過去 24 小時內在 Uniswap 上交易的資產數量。",
+        "long": "1 天成交量",
+        "short": "1 天交易量"
+      },
+      "description": "交易量是指在選定時間範圍內在 Uniswap 上交易的資產數量。"
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "允許 {{sym}} (一次)"
+    },
+    "approvalNeeded": "使用此代幣需要獲得核准。 ",
+    "approvalPending": "待核准",
+    "approveAndSubmit": "核准並提交",
+    "approveAndSwap": "核准並交換",
+    "approveInWallet": "在你的錢包中核准",
+    "balance": {
+      "amount": "餘額：{{amount}}"
+    },
+    "bestRoute": {
+      "cost": "最有效路徑的網路費預估為 ~{{gasPrice}} 。 "
+    },
+    "bridging": {
+      "estimatedTime": "預計時間",
+      "title": "跨網路交換",
+      "warning": {
+        "description": "你正在從 {{fromNetwork}} 交換到 {{toNetwork}}。這也稱為「橋接」，它將你的代幣從一個網路移動到另一個網路。"
+      }
+    },
+    "button": {
+      "max": "最大",
+      "review": "審核",
+      "submitting": {
+        "keep": {
+          "open": "保持錢包開啟..."
+        }
+      },
+      "swap": "交換",
+      "swapAnyways": "無論如何都要交換",
+      "unwrap": "拆封",
+      "wrap": "包裝"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "依國家或地區搜尋"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "你的交換可能在處理取消之前就已經執行。你的網路費無法退還。是否要繼續？",
+      "cannotExecute_other": "你的交換可能在處理取消之前就已經執行。你的網路費無法退還。是否要繼續？"
+    },
+    "confirmLimit": "確認限額",
+    "confirmSwap": "確認交換",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "交易截止日期"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "代幣交易費用"
+      },
+      "newQuote": {
+        "input": "新輸入",
+        "output": "新轉出"
+      },
+      "orderRouting": "訂單路徑",
+      "orderRoutingInfo": "這種交換是透過 Across 進行的，Across 是一種去中心化協議，可以跨網路轉移資產，同時優先考慮安全性、快速執行和低廉的價格。",
+      "poweredBy": "提供技術支援者",
+      "rate": "費率",
+      "slippage": "滑價上限",
+      "uniswapFee": "交易費用"
+    },
+    "error": {
+      "default": "你可能需要增加滑價容忍度。請注意：轉帳費用和變基代幣與 Uniswap V3 不相容。",
+      "expectedToFail": "你的交換預計會失敗。",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} 輸入不可用",
+      "modifiedByWallet": "你的交換已通過你的錢包修改。如果這是一個錯誤，請立即取消，否則可能會損失你的資金。",
+      "rejected": "交易已遭拒",
+      "undefinedObject": "嘗試執行此交換時發生錯誤。你可能需要增加滑價容忍度。如果這不起作用，則可能與你正在交易的代幣不相容。請注意：轉帳費用和變基代幣與 Uniswap V3 不相容。",
+      "unknown": "未知錯誤。",
+      "v2": {
+        "expired": "這項交易無法傳送，原因是截止日期已過。請檢查你的交易截止日期是否太短。",
+        "k": "交換不滿足 Uniswap 不變數 x*y=k。這通常意味著你要交換的代幣之一在傳輸時包含自訂行為。",
+        "slippage": "由於價格變動或轉帳費用，該交易不會成功。嘗試增加滑價容忍度",
+        "transferInput": "轉入代幣無法轉移。轉入代幣可能有問題。",
+        "transferOutput": "轉出代幣無法轉移。轉出代幣可能有問題。"
+      },
+      "v3": {
+        "slippage": "由於價格變動，本次交易不會成功。嘗試增加滑價容忍度。請注意：轉帳費用和變基代幣與 Uniswap V3 不相容。",
+        "transferOutput": "轉出代幣無法轉移。轉出代幣可能有問題。請注意：轉帳費用和變基代幣與 Uniswap V3 不相容。"
+      }
+    },
+    "estimatedDifference": {
+      "label": "由於目前的流動資產，你的轉入值和轉出值之間會有很大差異。"
+    },
+    "fail": {
+      "message": "嘗試將滑價調整為更高的值。",
+      "uniswapX": "無法透過 UniswapX 完成交換。再次嘗試你的交換，以透過傳統 Uniswap API 路徑。"
+    },
+    "fees": {
+      "experience": "此交易費用適用於部分代幣對，以確保 Uniswap 的最佳體驗。它在轉出代幣中支付，並且已經計入報價。",
+      "noFee": "費用適用於選定的代幣對，以確保 Uniswap 的最佳體驗。此交換不收取任何費用。"
+    },
+    "fetchingBestPrice": "獲取最佳價格...",
+    "fetchingPrice": "正在獲取價格...",
+    "finalizingQuote": "最終報價...",
+    "form": {
+      "header": "交換",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "由於有代幣費用，因此只能在輸入欄位輸入交換金額"
+          }
+        },
+        "restore": "還原錢包並進行交換"
+      }
+    },
+    "frontrun": {
+      "warning": "你的交易可能會搶先交易，導致不利交易。"
+    },
+    "header": {
+      "viewOnly": "僅供檢視"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "對於流動性較低的代幣對，可能無法進行價格影響計算。"
+      }
+    },
+    "inputEstimated": {
+      "atMost": "輸入是估計值。你最多只能出售 <amount />，否則交易將還原。"
+    },
+    "limit": "限制",
+    "limitedAssets": {
+      "warning": "有些資產無法經由此介面提供使用，原因是它們可能無法與智慧型合約很好地配合，或者我們考慮法律原因而不允許其進行交易。"
+    },
+    "limitFilled": "限額已滿！",
+    "limitSubmitted": "限額已提交",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "市場價格超出了你指定的價格範圍。僅限單一資產存款。"
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "你保證花費的最高金額。如果價格進一步下滑，你的交易將還原。"
+    },
+    "minPriceSlip": {
+      "revert": "如果價格變動使你收到的金額少於 {{amount}}，你的交易將還原。"
+    },
+    "networkCost": {
+      "paidIn": "為了進行交易，需要在 {{chainName}} 網路上的 {{sym}} 中支付網路費。"
+    },
+    "orderRouting": "訂單路徑",
+    "outputEstimated": {
+      "atLeast": "轉出是估計值。你將至少收到 <amount />，否則交易將還原。"
+    },
+    "payAnyway": "無論如何都支付",
+    "payAtMost": "支付上限",
+    "payWith": "付款方式",
+    "placeOrder": "下訂單",
+    "priceImpact": "價格影響",
+    "receive": {
+      "atLeast": "至少收到"
+    },
+    "request": {
+      "title": {
+        "full": "交換 {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "交換代幣"
+      }
+    },
+    "review": {
+      "summary": "你正在交換"
+    },
+    "reviewLimit": "審核限制",
+    "route": {
+      "optimizedGasCost": "該路徑考慮了分割路徑、多跳以及每個步驟的網路費。"
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "如果你的交易處於待處理狀態超過該時間，則交易將會撤回。(最長時間：3 天)。",
+        "warning": "緊急截止日期"
+      },
+      "protection": {
+        "description": "啟用交換保護後，你的以太幣交易將免受三明治攻擊，並減少失敗的可能性。",
+        "subtitle": {
+          "supported": "{{chainName}} 網路",
+          "unavailable": "不適用於 {{chainName}}"
+        },
+        "title": "交換保護"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap 用戶端根據價格和網路費來選擇最便宜的交易選項。"
+            },
+            "tooltip": "根據預估的價格影響和網路費，並考慮到 v2、v3 和某些 v4 資產池，來確定路徑。"
+          },
+          "v2": {
+            "title": "v2 資產池"
+          },
+          "v3": {
+            "title": "v3 資產池"
+          },
+          "v4": {
+            "title": "v4 資產池"
+          }
+        },
+        "title": "交易選項"
+      },
+      "slippage": {
+        "alert": "滑價高",
+        "control": {
+          "auto": "自動"
+        },
+        "description": "如果價格變化超過滑點百分比，你的交易將還原。",
+        "input": {
+          "message": "如果價格進一步下滑，你的交易將還原。以下是你保證可收到的最低金額。",
+          "receive": {
+            "title": "至少收到"
+          }
+        },
+        "output": {
+          "message": "如果價格進一步下滑，你的交易將還原。以下是你需要花費的最高金額。",
+          "spend": {
+            "title": "花費最多"
+          }
+        },
+        "warning": {
+          "description": "滑價超過 20% 可能會導致交易不利。為了降低被搶先交易的風險，請降低設定。",
+          "hover": "這可能會導致不利交易。請嘗試降低滑價設定。",
+          "max": "輸入小於 {{maxSlippageTolerance}} 的值",
+          "message": "滑價可能高於必要值",
+          "min": "輸入大於 0 的值"
+        }
+      },
+      "title": "交換設定",
+      "transactionRevertPrice": "如果價格不利變化超過此百分比，你的交易將還原。"
+    },
+    "signAndSwap": "簽名和交換",
+    "slippage": {
+      "amt": "{{amt}} 滑價",
+      "bridging": "跨網路交換時不會出現滑價",
+      "settings": {
+        "title": "滑價上限"
+      },
+      "tooltip": "在你交易前的最高價格變動將還原。"
+    },
+    "slippageBelow": {
+      "warning": "滑價低於 {{amt}} 可能會導致交易失敗"
+    },
+    "submitted": "交換已提交",
+    "success": "交換成功！",
+    "tokenOwnFees": "有些代幣在購買或出售時會收取交易費用，該交易費用由代幣發行者設定。Uniswap 不收取任何此類交易費用。",
+    "total": "總計",
+    "tradeRoutes": "交易路徑",
+    "transaction": {
+      "deadline": "交易截止日期",
+      "revertAfter": "如果你的交易處於待處理狀態超過該時間，則交易將會撤回。"
+    },
+    "unsupportedAssets": {
+      "readMore": "了解有關不支援的資產的更多資訊"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "輸入更大的金額"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "嘗試增加滑價。",
+        "titleMay": "此次交換可能會失敗"
+      },
+      "insufficientBalance": {
+        "title": "你的 {{currencySymbol}} 不足"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "在 {{networkName}} 上交換 {{ tokenSymbol }}",
+          "buy": "購買 {{ tokenSymbol }}",
+          "buyWithCard": "用卡片購買"
+        },
+        "message": {
+          "withNetwork": "<highlight>{{networkName}}</highlight> 上的 {{currencySymbol}} 不足，無法交換",
+          "withoutNetwork": "<highlight>{{currencySymbol}}</highlight>不足，無法交換"
+        },
+        "title": "你的 {{currencySymbol}} 不足，無法支付網路費"
+      },
+      "networkFee": {
+        "allow": "允許 {{ inputTokenSymbol }} (一次)",
+        "highRelativeToValue": {
+          "unichain": "網路費超過交易總價值的 10％。這是在區塊鏈上處理交易的成本。"
+        },
+        "message": {
+          "unichain": "這是在區塊鏈上處理交易的成本。",
+          "uniswapX": {
+            "unichain": "這是在區塊鏈上處理交易的成本。<gradient>UniswapX</gradient> 集結流動資產來源，因此能提供更優惠的價格以及免燃料費的交換。"
+          }
+        },
+        "wrap": "包裝 ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "未找到橋接報價。此時嘗試使用官方橋接。"
+        },
+        "title": "未找到報價"
+      },
+      "noRoutesFound": {
+        "message": "目前你選擇的代幣尚無可用路徑。請嘗試不同的組合或稍後再查看。",
+        "title": "沒有可用的路徑"
+      },
+      "offline": {
+        "message": "網際網路連線可能已中斷，或網路可能已關閉。請檢查你的網際網路連線，然後再試一次。",
+        "title": "你已離線"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "本次交易將會對此資產池的市場價格產生 {{priceImpactValue}} 價格衝擊，並導致資金損失。"
+        },
+        "title": {
+          "veryHigh": "非常高的價格影響 ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "由於你關閉了 App，因此你的交易未提交。",
+        "approvalFailed": "你的交易未提交，原因是代幣核准失敗。",
+        "stale": "你的交易未提交，原因是 App 已經關閉或核准時間過長。",
+        "submissionFailed": "提交你的交易時發生問題。",
+        "title": "已取消交換",
+        "wrap": {
+          "message": "你的 ETH 將包裝為 WETH。"
+        },
+        "wrapFailed": "你的交易未提交，原因是包裝交易失敗。"
+      },
+      "rateLimit": {
+        "message": "請在幾分鐘後再試。",
+        "title": "超過速率限制"
+      },
+      "router": {
+        "message": "連線可能已中斷，或網路可能已關閉。如果問題仍然存在，請稍後再試。",
+        "title": "目前無法完成此交易"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} 已被封鎖"
+      },
+      "tokenBlockedFallback": {
+        "button": "代幣已被封鎖"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "收取交易費用是為了確保 Uniswap 的最佳體驗。此交換不收取任何費用。",
+          "included": "收取交易費用是為了確保 Uniswap 的最佳體驗，並已計入此報價中。"
+        },
+        "title": "交換交易費⽤"
+      },
+      "viewOnly": {
+        "message": "你需要透過助記詞匯入此錢包，才能交換代幣。"
+      }
+    },
+    "wrap": {
+      "token": "包裝 {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "在其他網路上",
+      "otherNetworksBalance": "其他網路上的餘額",
+      "title": "你的餘額"
+    },
+    "button": {
+      "getToken": "取得 {{ tokenSymbol }}",
+      "getTokenFallback": "取得代幣"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "切換到 {{network}}",
+      "title": "此代幣不存在",
+      "titleWithChain": "此代幣不存在於 {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "<tokenLink /> 的代幣資料",
+        "withChain": "{{chainName}} 上 <tokenLink /> 的代幣資料"
+      }
+    },
+    "nameNotFound": "找不到名稱",
+    "noInfoAvailable": "沒有可用的代幣資訊",
+    "noTestnetSupportDescription": "某些測試網不支援交換、發送或購買代幣。",
+    "stats": {
+      "unsupportedChainDescription": "{{chain}} 的代幣統計資料和圖表可在 {{infoLink}} 上找到"
+    },
+    "symbolNotFound": "找不到 Symbol"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "你需要停用測試網模式才可進行此操作。你可在設定中隨時重新啟用測試網模式。",
+          "toTestnetMode": "你需要啟用測試網模式才可進行此操作。測試網上的代幣不具有任何實際價值。你可在設定中隨時停用測試網模式。"
+        },
+        "title": {
+          "toProdMode": "停用測試網模式",
+          "toTestnetMode": "啟用測試網模式"
+        }
+      }
+    },
+    "unsupported": "測試網模式不支援此功能。"
+  },
+  "themeToggle": {
+    "theme": "主題"
+  },
+  "title": {
+    "buySellTradeEthereum": "在 Uniswap 上購買、出售和交易以太幣和其他頂級代幣",
+    "createGovernanceOn": "在 Uniswap 上建立新的治理提案",
+    "createGovernanceTo": "建立一個新的治理提案，供 UNI 持有者投票。UNI 代幣代表 Uniswap 治理中的投票份額。",
+    "earnFees": "你可以在其他人將代幣新增到流動資產池，以在 Uniswap 上進行交換時賺取交易費用。",
+    "easilyRemove": "輕鬆從 Uniswap v2 中移除流動資產，並將其存入 Uniswap v3。",
+    "easilyRemoveV4": "輕鬆將你的流動資產從 Uniswap v2 和 v3 中取出，存入 Uniswap v4。",
+    "explore": "在 Uniswap 上探索 NFT",
+    "extensionPasskeySignIn": "Sign In with Passkey",
+    "manageNFT": "管理你的 NFT 系列。查看你的 NFT 相關特徵、交易活動、描述和其他詳細資訊。",
+    "migratev2": "將 v2 資產池流動資產遷移至 Uniswap v3",
+    "migratev3": "將資產池的流動資產遷移至 Uniswap v4",
+    "placeLimit": "在 Uniswap 上下限價單",
+    "realTime": "即時價格、圖表、交易資料和其他。",
+    "removeLiquidityv2": "移除 Uniswap 上的資產池流動資產 (v2)",
+    "removePoolLiquidity": "移除 Uniswap 上的資產池流動資產",
+    "removeTokensv2": "從 v2 流動資產池中移除你的代幣。",
+    "removev3Liquidity": "從 v3 流動資產池中移除你的代幣。",
+    "sendTokens": "在 Uniswap 上傳送代幣",
+    "swappingMadeSimple": "交換變得簡單。在乙太幣、Base、Arbitrum、Polygon 上購買和出售加密貨幣。受到數百萬人的信賴。",
+    "tradeTokens": "交易代幣並提供流動資產。即時價格、圖表、交易資料和其他。",
+    "uniswapTradeCrypto": "Uniswap | 在頂級 DeFi 平台上安全地交易加密貨幣和 NFT",
+    "uniToken": "UNI 代幣代表 Uniswap 治理中的投票份額。你可以自己對每個提案進行投票，也可以將你的投票委託給第三方。",
+    "voteOnGov": "對 Uniswap 治理提案進行投票"
+  },
+  "token": {
+    "balances": {
+      "main": "你的餘額",
+      "other": "其他網路上的餘額",
+      "viewOnly": "{{ownerAddress}} 的餘額"
+    },
+    "bridge": "{{label}} 代幣橋",
+    "chart": {
+      "candlestick": {
+        "unavailable": "此代幣沒有 K 線圖表"
+      },
+      "tooltip": "交易費用：{{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "測試網代幣的代幣詳細資料不可用。"
+      }
+    },
+    "error": {
+      "unknown": "未知代幣"
+    },
+    "fee": {
+      "buy": {
+        "label": "購買交易費用"
+      },
+      "label": "交易費用",
+      "sell": {
+        "label": "出售交易費用"
+      }
+    },
+    "links": {
+      "title": "連結",
+      "twitter": "推特",
+      "website": "網站"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "發生錯誤。",
+        "title": "無法載入價格圖表"
+      },
+      "timeRangeLabel": {
+        "all": "歷來全部",
+        "day": {
+          "verbose": "1 天"
+        },
+        "hour": "1 小時",
+        "month": {
+          "verbose": "1 個月"
+        },
+        "week": {
+          "verbose": "1 週"
+        },
+        "year": {
+          "verbose": "1 年"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} 不可用",
+          "tokensNotAvailable": "{{tokenSymbol0}} 和 {{tokenSymbol1}} 不可用"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs 不收取任何此類交易費用。"
+      },
+      "warning": {
+        "alwaysDoYourResearch": "盡責調查",
+        "blocked": {
+          "description": {
+            "default_one": "你無法使用 Uniswap App 進行交易此代幣。",
+            "default_other": "你無法使用 Uniswap App 進行交易這些代幣。"
+          }
+        },
+        "copyContractAddress": {
+          "message": "這是合約地址，作為代幣在區塊鏈上的唯一識別碼。你傳送到該地址的任何加密貨幣都將遺失。",
+          "title": "請勿傳送加密貨幣至該地址"
+        },
+        "dontShowWarningAgain": "不要再向我顯示此警告",
+        "doYourOwnResearch": "在繼續之前一定要先盡責調查。",
+        "feeDescription": "當{{action}}時收取 <fee />",
+        "flaggedAsMalicious": "標記為惡意",
+        "fotHigh": {
+          "title": "偵測到高額交易費用"
+        },
+        "fotLow": {
+          "title": "偵測到交易費用"
+        },
+        "fotVeryHigh": {
+          "title": "偵測到非常高的交易費用"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} 已標示為不可售。交換此代幣可能會導致你的資金損失。",
+          "title": "偵測到 100% 出售交易費用"
+        },
+        "impersonator": {
+          "title": "偵測到冒充代幣"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} 已被 Blockaid 標記為惡意。"
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} 可能不是你想要交換的代幣。"
+            }
+          },
+          "title": "偵測到惡意代幣"
+        },
+        "mayResultInLoss": "交換它可能會導致資金損失。",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} 不在美國主要集中交易所進行交易。"
+          }
+        },
+        "notListedOnExchanges": "未在美國的主要交易所上市",
+        "potentialHoneypot": {
+          "card": {
+            "message": "{{tokenSymbol}} 已被 Blockaid 標記為可疑。"
+          },
+          "modal": {
+            "message": "{{tokenSymbol}} 已被 Blockaid 標記為潛在蜜罐。繼續之前，請務必自行調查。"
+          },
+          "title": "偵測到潛在蜜罐"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} 已被標記為不可售。",
+          "title": "偵測到 100% 出售交易費用"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} 已被 Blockaid 標記為垃圾代幣。",
+          "title": "偵測到垃圾代幣"
+        },
+        "spamsUsers": "垃圾代幣使用者",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} 購買時收取 {{buyFeePercent}} 交易費用，出售時收取 {{sellFeePercent}}。"
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} 購買時收取 {{feePercent}} 交易費用。"
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} 出售時收取 {{feePercent}} 交易費用。"
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} 購買或出售時會收取交易費用。"
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "你無法使用 Uniswap 錢包進行交易此代幣。"
+      },
+      "medium": {
+        "message": {
+          "plural": "這些代幣不在美國領先的中心化交易所進行交易。在繼續之前一定要先進行自己的研究。"
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "無法載入搜尋結果"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "完全稀釋估值",
+      "marketCap": "市值",
+      "priceHighYear": "52 週高點",
+      "priceLowYear": "52 週低點",
+      "section": {
+        "about": "關於 {{token}}"
+      },
+      "title": "統計資料",
+      "translation": {
+        "original": "顯示原始內容",
+        "translate": "翻譯成 {{language}}"
+      },
+      "volume": "24 小時成交量"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "轉入代幣"
+      },
+      "output": {
+        "fallback": "轉出代幣"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Uniswap Protocol 上的交換可以透過 ETH 開始和結束。然而，在交換過程中，ETH 被包裝為 WETH。"
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "要取得 {{ tokenSymbol }}，你需要 {{ nativeTokenSymbol }} 來支付網路費。",
+      "title": "你需要 {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "隱藏代幣",
+      "unhide": "顯示代幣"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "在 {{blockExplorerName}} 上檢視"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "無法載入 NFT 系列"
+          }
+        },
+        "label": {
+          "items": "項目",
+          "owners": "擁有者",
+          "priceFloor": "地板價",
+          "swapVolume": "成交量"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "Contract address"
+        },
+        "error": {
+          "load": {
+            "title": "無法載入 NFT 詳細資料"
+          }
+        },
+        "network": "網路",
+        "owner": "擁有者",
+        "price": "目前價格",
+        "recentPrice": "最後出售價",
+        "traits": "屬性"
+      },
+      "empty": {
+        "description": "找不到 NFT"
+      },
+      "error": {
+        "unavailable": "內容無法使用"
+      },
+      "hidden": {
+        "action": {
+          "hide": "隱藏 NFT",
+          "unhide": "取消隱藏 NFT"
+        }
+      },
+      "link": {
+        "collection": "系列網站"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "無法載入 NFT"
+          }
+        },
+        "none": {
+          "button": "接收 NFT",
+          "description": {
+            "default": "從另一個錢包轉移 NFT 後，即可開始。",
+            "external": "當此錢包購買或接收 NFT 時，此處將顯示內容。"
+          },
+          "title": "尚無 NFT"
+        }
+      }
+    },
+    "noneFound": "找不到代幣。",
+    "selector": {
+      "button": {
+        "choose": "選擇代幣",
+        "clear": "全部清除"
+      },
+      "empty": {
+        "buy": {
+          "message": "使用信用卡或銀行帳戶購買加密貨幣，以傳送代幣。",
+          "title": "購買加密貨幣"
+        },
+        "receive": {
+          "title": "接收代幣"
+        },
+        "title": "尚無代幣"
+      },
+      "error": {
+        "load": "無法載入代幣"
+      },
+      "search": {
+        "empty": "找不到 <highlight>{{searchText}}</highlight> 的結果",
+        "placeholder": "搜尋代幣"
+      },
+      "section": {
+        "bridging": "跨網路交換",
+        "favorite": "常用項目",
+        "otherNetworksSearchResults": "在其他網路上發現的代幣",
+        "otherSearchResults": "{{network}} 上的其他代幣",
+        "recent": "最近的搜尋",
+        "search": "搜尋結果",
+        "trending": "24 小時代幣交易量",
+        "yours": "你的代幣"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "搜尋資產池",
+          "tokens": "搜尋代幣",
+          "transactions": "搜尋交易"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "取消交易",
+        "description": "如果你在網路處理該交易之前取消該交易，你將支付新的網路費，而不是原來的網路費。",
+        "title": "是否取消此交易？"
+      },
+      "copy": "複製交易 ID",
+      "copyProvider": "複製 {{providerName}} 交易 ID"
+    },
+    "amount": {
+      "unlimited": "無限"
+    },
+    "date": "於 {{date}} 提交",
+    "details": {
+      "dappName": "App",
+      "from": "從",
+      "networkFee": "網路費",
+      "providerFee": "提供者交易費用",
+      "swapRate": "費率",
+      "transaction": "交易",
+      "uniswapFee": "交易費用 ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "資產池的流動資產不足，無法完成交易",
+    "network": {
+      "all": "所有網路"
+    },
+    "networkCost": {
+      "label": "網路費",
+      "maxNativeBalance": {
+        "description": "保留少量網路代幣餘額以支付本交易的網路費。",
+        "title": "為什麼我不能使用我的最大餘額？"
+      },
+      "veryHigh": {
+        "label": "網路費非常高"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "無法取消交易",
+        "replace": "無法取代交易"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "已取消核准",
+        "canceling": "正在取消核准",
+        "failed": "核准失敗",
+        "pending": "正在核准",
+        "success": "已核准",
+        "successDapp": "已於 {{externalDappName}} 核准"
+      },
+      "buy": {
+        "canceled": "已取消購買",
+        "canceling": "正在取消購買",
+        "failed": "購買失敗",
+        "pending": "正在購買",
+        "success": "已購買",
+        "successDapp": "已於 {{externalDappName}} 購買"
+      },
+      "confirm": {
+        "canceled": "已取消確認",
+        "canceling": "待取消",
+        "failed": "確認失敗",
+        "pending": "交易進行中",
+        "success": "交易已確認",
+        "successDapp": "已於 {{externalDappName}} 確認交易"
+      },
+      "mint": {
+        "canceled": "已取消鑄造",
+        "canceling": "正在取消鑄造",
+        "failed": "鑄造失敗",
+        "pending": "正在鑄造",
+        "success": "已鑄造",
+        "successDapp": "已於 {{externalDappName}} 鑄造"
+      },
+      "purchase": {
+        "canceled": "已取消購入",
+        "canceling": "正在取消購入",
+        "failedOn": "在 {{serviceProvider}} 購入失敗",
+        "pendingOn": "正在 {{serviceProvider}} 購入",
+        "successOn": "購買於 {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "已取消接收",
+        "canceling": "正在取消接收",
+        "failedFrom": "無法從 {{serviceProvider}} 接收",
+        "pendingFrom": "接收自 {{serviceProvider}}",
+        "success": "已接收",
+        "successDapp": "已於 {{externalDappName}} 接收",
+        "successFrom": "已從 {{serviceProvider}} 接收"
+      },
+      "revoke": {
+        "canceled": "已取消撤銷",
+        "canceling": "正在取消撤銷",
+        "failed": "撤銷失敗",
+        "pending": "正在撤銷",
+        "success": "已撤銷",
+        "successDapp": "已於 {{externalDappName}} 撤銷"
+      },
+      "sale": {
+        "canceled": "已取消出售",
+        "canceling": "正在取消出售",
+        "failedOn": "透過 {{serviceProvider}} 出售失敗",
+        "pendingCard": {
+          "msg": "瞭解有關出售加密貨幣的更多資訊。",
+          "title": "為什麼我的出售仍處於待處理狀態？"
+        },
+        "pendingOn": "正在透過 {{serviceProvider}} 出售",
+        "successOn": "已透過 {{serviceProvider}} 出售"
+      },
+      "sell": {
+        "canceled": "已取消出售",
+        "canceling": "正在取消出售",
+        "failed": "出售失敗",
+        "pending": "正在出售",
+        "success": "已出售",
+        "successDapp": "已於 {{externalDappName}} 出售"
+      },
+      "send": {
+        "canceled": "已取消傳送",
+        "canceling": "正在取消傳送",
+        "failed": "無法傳送",
+        "pending": "正在傳送",
+        "success": "已傳送",
+        "successDapp": "已於 {{externalDappName}} 傳送"
+      },
+      "swap": {
+        "canceled": "已取消交換",
+        "canceling": "正在取消交換",
+        "expired": "交換已過期",
+        "failed": "交換失敗",
+        "insufficientFunds": "資金不足",
+        "pending": "正在交換",
+        "success": "已交換",
+        "successDapp": "已於 {{externalDappName}} 交換"
+      },
+      "unwrap": {
+        "canceled": "已取消拆封",
+        "canceling": "正在取消拆封",
+        "failed": "拆封失敗",
+        "pending": "正在拆封",
+        "success": "已拆封",
+        "successDapp": "已於 {{externalDappName}} 拆封"
+      },
+      "wrap": {
+        "canceled": "已取消包裝",
+        "canceling": "正在取消包裝",
+        "failed": "包裝失敗",
+        "pending": "正在包裝",
+        "success": "已包裝",
+        "successDapp": "已於 {{externalDappName}} 包裝"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} 到 {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} 從 {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "你需要在 {{networkName}} 上提供大約 {{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) 來支付此交易的網路費。"
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "要交換此代幣，你需要在 {{networkName}} 上提供更多 {{tokenSymbol}}。"
+          },
+          "title": {
+            "withNetwork": "{{networkName}} 上的 {{tokenSymbol}} 不足",
+            "withoutNetwork": "不夠 {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "你即將花掉大部分網路代幣餘額。這將導致資金不足以支付未來的網路費。",
+        "title": "網路代幣餘額不足"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "無法取消交易",
+        "status": "檢查交易狀態時發生錯誤"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> 匯集流動資產來源，以獲得更優惠的價格以及免燃料費的交換。",
+    "learnMore": "了解有關使用 UniswapX 進行交換的更多資訊"
+  },
+  "uniswapx": {
+    "description": "UniswapX 集結流動資產來源，以獲得更優惠的價格以及免燃料費的交換。",
+    "included": "包括 <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 固定報價失敗。使用經典交換重試。"
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "立即領取"
+      },
+      "subtitle": "建立個人化 Web3 個人資料，並輕鬆與朋友分享地址。",
+      "title": {
+        "compact": "<highlight>領取你的 {{unitagDomain}} 使用者名稱</highlight>，建立可自訂個人資料。",
+        "full": "領取你的 {{unitagDomain}} 使用者名稱"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "從相簿中選擇",
+        "computer": "從電腦上傳",
+        "nft": "選擇 NFT",
+        "remove": "刪除個人資料圖片"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "自訂個人資料",
+        "description": "{{unitagAddress}} 已準備好傳送和接收加密貨幣。自訂你的 Web3 個人資料以繼續建立錢包。",
+        "success": {
+          "long": "你完成了！",
+          "short": "完成了！"
+        }
+      },
+      "error": {
+        "addressLimit": "你對此地址的使用者名稱變更次數已達到上限",
+        "avatar": "無法設定頭像。請稍後再試。",
+        "default": "無法領取使用者名稱。請稍後再試。",
+        "deviceLimit": "你已達到此裝置可用的使用者名稱數量上限",
+        "general": "無法領取使用者名稱",
+        "unavailable": "此使用者名稱無法使用",
+        "unknown": "未知錯誤"
+      },
+      "username": {
+        "default": "你的名字"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "你即將刪除使用者名稱和可自訂的個人詳細資料。你將無法再次領取。",
+        "title": "確定繼續？"
+      }
+    },
+    "editProfile": {
+      "placeholder": "使用者名稱"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "你即將變更使用者名稱。一旦變更，將無法再次領取。",
+        "title": "確定繼續？"
+      },
+      "title": "編輯你的用戶名",
+      "warning": {
+        "default": "一旦你變更了用戶名，你將無法再次領取它。你只能更改 <highlight>2</highlight> 次。",
+        "max": "你已達到變更 2 次使用者名稱的次數上限。"
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "領取使用者名稱",
+        "description": "告別 0x 地址。使用者名稱為可讀名稱，可更輕鬆傳送和接收加密貨幣。",
+        "title": "介紹使用者名稱",
+        "upsell": {
+          "customizable": "可自訂的個人資料",
+          "ens": "由 ENS 子網域提供支援",
+          "free": "免費領取"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "由 ENS 子網域提供支援",
+        "free": "免費領取",
+        "profile": "可自訂的個人資料"
+      },
+      "subtitle": "告別 0x 地址。使用者名稱為可讀名稱，可更輕鬆傳送和接收加密貨幣。",
+      "title": "介紹使用者名稱"
+    },
+    "notification": {
+      "delete": {
+        "error": "無法刪除使用者名稱。請稍後再試。",
+        "title": "使用者名稱已刪除"
+      },
+      "profile": {
+        "error": "無法更新個人資料。請稍後再試。",
+        "title": "個人資料已更新"
+      },
+      "username": {
+        "error": "無法變更使用者名稱。請稍後再試。",
+        "title": "使用者名稱已變更"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "這是你的個人化地址，他人可以傳送加密貨幣至此。",
+        "title": {
+          "choose": "建立你的使用者名稱",
+          "claim": "領取你的使用者名稱"
+        }
+      },
+      "info": {
+        "description": "使用者名稱會將複雜的 0x 地址轉換為可讀取名稱。透過領取 {{unitagDomain}} 使用者名稱，你可以輕鬆傳送和接收加密貨幣，並建立公開 Web3 個人資料。",
+        "title": "簡化地址"
+      },
+      "profile": {
+        "subtitle": "上傳自己的 Unicon，或繼續使用你獨有的 Unicon。你之後可以隨時變更此設定。",
+        "title": "選擇個人資料相片"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "刪除使用者名稱",
+        "edit": "編輯使用者名稱"
+      },
+      "bio": {
+        "label": "簡介",
+        "placeholder": "輸入你的個人資料簡介"
+      },
+      "links": {
+        "twitter": "推特"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "使用者名稱只能包含字母和數字",
+        "max": "使用者名稱不能超過 {{number}} 個字元",
+        "min": "使用者名稱必須至少包含 {{number}} 個字元",
+        "uppercase": "使用者名稱只能包含小寫字母和數字"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "{{chain}} 上的 {{tokenSymbol}} 不足"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 在此網路上不適用。"
+  },
+  "wallet": {
+    "appSignIn": "使用 App 登入",
+    "connectingAgreement": "連線錢包即表示你同意 Uniswap Labs 的<termsLink>服務條款</termsLink>並同意其<privacyLink>隱私權政策</privacyLink>。",
+    "connectionFailed": {
+      "message": "連線嘗試失敗。請按一下再試一次，並按照步驟在你的錢包中進行連線。"
+    },
+    "other": "其他錢包",
+    "scanToConnect": "掃描 QR 碼連線",
+    "wrongNet": "你的錢包連線至了錯誤的網路。"
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "透過 WalletConnect 掃描代碼，以連線到 App"
+      },
+      "manage": {
+        "empty": {
+          "title": "未連線至任何 App"
+        },
+        "title": "連線"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap 錢包目前支援 {{chainNames}}。僅限在這些鏈上使用 \"{{dappName}}\"",
+        "title": "連線錯誤"
+      },
+      "general": {
+        "message": "WalletConnect 發生問題。請再試一次",
+        "title": "WalletConnect 錯誤"
+      },
+      "scantastic": {
+        "message": "你的 QR 碼有問題。請再試一次",
+        "title": "QR 碼無效"
+      },
+      "unsupported": {
+        "message": "請確認你掃描的是有效的 WalletConnect、以太幣地址或 Uniswap Extension QR 碼，然後再試一次。",
+        "title": "QR 碼無效"
+      },
+      "unsupportedV1": {
+        "message": "不再支援 WalletConnect v1。你嘗試連線的應用程式需要升級到 WalletConnect v2。",
+        "title": "QR 碼無效"
+      },
+      "uwu": {
+        "scan": "掃描此 QR 碼時發生問題。",
+        "title": "UwU 連結錯誤",
+        "unsupported": "不支援此 QR 碼。"
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "連線",
+        "scrollDown": "向下捲動以連線"
+      },
+      "switchAccount": "切換帳戶",
+      "title": "連線到 {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "未經同意轉移資產",
+        "viewTokenBalances": "檢視你的代幣餘額",
+        "viewWalletAddress": "檢視你的錢包地址"
+      },
+      "title": "站點權限"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "向下捲動以簽署",
+        "sign": "簽署"
+      },
+      "details": {
+        "label": {
+          "function": "函數",
+          "sending": "正在傳送",
+          "token": "代幣",
+          "tokens": "代幣"
+        }
+      },
+      "error": {
+        "insufficientFunds": "你的 {{currencySymbol}} 不足，無法完成此交易。",
+        "network": "網際網路或網路連線錯誤"
+      },
+      "warning": {
+        "general": {
+          "message": "注意：此訊息可能會轉移資產"
+        },
+        "message": "為了簽署訊息或交易，你需要匯入錢包的助記詞。",
+        "title": "該錢包處於僅供查看模式"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "在 {{network}} 上尋找和研究代幣。探索熱門資產池。查看即時價格、交易量、TVL、圖表和交易資料。",
+      "title": {
+        "pools": "探索 Uniswap 上 {{network}} 的熱門資產池",
+        "tokens": "探索 Uniswap 上 {{network}} 的熱門代幣",
+        "transactions": "探索 Uniswap 上 {{network}} 的熱門交易"
+      }
+    }
+  }
+}

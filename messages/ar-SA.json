@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "المطالبة بمكافأة {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "هناك العديد من عبارات الاسترداد التي تم نسخها احتياطيًا إلى {{cloudProviderName}}.",
+        "title": "حدد نسخة احتياطية لاستعادتها"
+      },
+      "button": {
+        "restore": {
+          "android": "استعادة من جوجل درايف",
+          "ios": "استعادة من iCloud"
+        }
+      },
+      "empty": {
+        "description": "يبدو أنك لم تقم بنسخ أي من عبارات الاسترداد احتياطيًا إلى {{cloudProviderName}}.",
+        "title": "تم العثور على 0 نسخ احتياطية"
+      },
+      "error": {
+        "backup": {
+          "message": "فشل استيراد النسخ الاحتياطية بسبب نقص الأذونات، أو انقطاع التفويض، أو بسبب خطأ في السحابة",
+          "title": "حدث خطأ أثناء استيراد النسخ الاحتياطية"
+        },
+        "password": {
+          "title": "رمز مرور خاطئ. حاول مرة اخرى."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "ليس الآن",
+            "settings": "اذهب للاعدادات"
+          },
+          "message": {
+            "android": "يرجى التحقق من تسجيل الدخول إلى حساب Google مع تمكين Google Drive على هذا الجهاز والمحاولة مرة أخرى.",
+            "ios": "يرجى التحقق من تسجيل الدخول إلى معرف Apple مع تمكين iCloud Drive على هذا الجهاز والمحاولة مرة أخرى."
+          },
+          "title": {
+            "android": "جوجل درايف غير متوفر",
+            "ios": "iCloud Drive غير متوفر"
+          }
+        }
+      },
+      "loading": {
+        "title": "جارٍ البحث عن النسخ الاحتياطية..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "محاولات كثيرة. حاول مرة أخرى خلال ساعة واحدة.",
+          "hours_other": "محاولات كثيرة. حاول مرة أخرى خلال {{count}} ساعات.",
+          "minutes_one": "محاولات كثيرة. حاول مرة أخرى خلال دقيقة واحدة.",
+          "minutes_other": "محاولات كثيرة. حاول مرة أخرى خلال {{count}} دقائق."
+        }
+      },
+      "password": {
+        "input": "أدخل كلمة المرور",
+        "recoveryPhrase": "أدخل عبارة الاسترداد بدلاً من ذلك",
+        "subtitle": "كلمة المرور هذه مطلوبة لاستعادة النسخة الاحتياطية لعبارة الاسترداد من {{cloudProviderName}}.",
+        "title": "أدخل كلمة المرور الاحتياطية"
+      }
+    },
+    "drawer": {
+      "gitVersion": "إصدار: ",
+      "modal": {
+        "body": "قم بتخزين الرموز المميزة ومبادلةها بأمان باستخدام تطبيق Uniswap. متوفر على نظامي iOS وAndroid.",
+        "dont": "ليس لديك محفظة Uniswap؟",
+        "scan": "المسح باستخدام Uniswap Wallet"
+      },
+      "spamToggle": "إخفاء الرموز غير المعروفة وNFTs"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "لقد قمت بعمل نسخة احتياطية لعبارة الاسترداد الخاصة بي وأدرك أن Uniswap Labs لا يمكنها مساعدتي في استرداد محفظتي إذا فشلت في القيام بذلك.",
+        "description": "تأكد من أنك قمت بعمل نسخة احتياطية لعبارة الاسترداد الخاصة بك باستخدام تطبيق Uniswap للجوال أو ملحق المتصفح.",
+        "descriptionEmphasized": "بدون عبارة الاسترداد الخاصة بك، قد لا تتمكن من الوصول إلى محفظتك.",
+        "speedbump": {
+          "description": "قبل الاستمرار، قم بإكمال الخطوات التالية لتجنب فقدان الوصول إلى محفظتك وجميع الأموال.",
+          "step1": "قم بتنزيل تطبيق Uniswap للجوال أو ملحق المتصفح",
+          "step2": "قم بعمل نسخة احتياطية لعبارة الاسترداد الخاصة بك",
+          "title": "هل أنت متأكد؟"
+        },
+        "title": "حذف مفتاح المرور؟"
+      },
+      "sign": {
+        "in": {
+          "title": "تسجيل الدخول باستخدام مفتاح المرور"
+        }
+      },
+      "type": {
+        "crossplatform": "الهاتف أو الجهاز اللوحي أو مفتاح الأمان",
+        "platform": "المتصفح أو نظام التشغيل"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "تم إلغاء هذا الطلب نظرًا لأن رصيدك انخفض إلى أقل من المبلغ المُدخل."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "لن يتم تنفيذ هذا الطلب نظرًا لأن رصيدك انخفض إلى أقل من المبلغ المُدخل. زيادة رصيدك لإصلاح."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "عبارة الاسترداد (أو العبارة الأولية) هي <highlight>مجموعة من الكلمات</highlight> مطلوبة للوصول إلى محفظتك، <highlight>مثل كلمة المرور.</highlight>",
+        "part2": "يمكنك <highlight>إدخال</highlight> عبارة الاسترداد الخاصة بك على جهاز جديد <highlight>لاستعادة محفظتك</highlight> ومحتوياتها.",
+        "part3": "ولكن، إذا فقدت <highlight>عبارة الاسترداد</highlight>، فسوف تفقد <highlight>إمكانية الوصول</highlight> إلى محفظتك.",
+        "part4": "بدلاً من حفظ عبارة الاسترداد، يمكنك <highlight>نسخها احتياطيًا إلى {{cloudProviderName}}</highlight> وحمايتها بكلمة مرور.",
+        "part5": "يمكنك أيضًا إجراء نسخ احتياطي لعبارة الاسترداد يدويًا عن طريق <highlight>كتابتها</highlight> وتخزينها في مكان آمن.",
+        "part6": "نوصي باستخدام <highlight>كلا النوعين من النسخ الاحتياطية</highlight>، لأنه إذا فقدت عبارة الاسترداد، فلن تتمكن من استعادة محفظتك."
+      },
+      "error": {
+        "invalid": "عبارة غير صالحة",
+        "invalidWord": "كلمة غير صالحة: {{word}}",
+        "phraseLength": "يجب أن تكون عبارة الاسترداد من 12 إلى 24 كلمة",
+        "wrong": "عبارة استرداد خاطئة"
+      },
+      "helpText": {
+        "import": "كيف يمكنني العثور على عبارة الاسترداد الخاصة بي؟",
+        "restoring": "حاول البحث مرة أخرى"
+      },
+      "input": "اكتب عبارة الاسترداد الخاصة بك",
+      "remove": {
+        "final": {
+          "description": "تأكد من كتابة عبارة الاسترداد أو نسخها احتياطيًا على {{cloudProviderName}}. <highlight>لن تتمكن من الوصول إلى أموالك بطريقة أخرى.</highlight>",
+          "title": "أنت تقوم بإزالة عبارة الاسترداد <highlight></highlight>"
+        },
+        "import": {
+          "description": "يمكنك تخزين عبارة استرداد واحدة فقط في كل مرة. لمواصلة استيراد واحدة جديدة، ستحتاج إلى إزالة عبارة الاسترداد الحالية وأي محافظ مرتبطة بها من هذا الجهاز."
+        },
+        "initial": {
+          "description": "سيؤدي هذا إلى إزالة محفظتك من هذا الجهاز بالإضافة إلى عبارة الاسترداد الخاصة بك.",
+          "title": "أنت تقوم بإزالة <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "ستظل عبارة الاسترداد الخاصة بك مخزنة حتى تقوم بحذف جميع المحافظ المتبقية."
+        }
+      },
+      "subtitle": {
+        "import": "سيتم تخزين عبارة الاسترداد محليًا على جهازك فقط.",
+        "restoring": "أدخل عبارة الاسترداد أدناه، أو حاول البحث عن النسخ الاحتياطية مرة أخرى."
+      },
+      "title": {
+        "import": "أدخل عبارة الاسترداد الخاصة بك",
+        "restoring": "لم يتم العثور على نسخ احتياطية"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "نسخ العنوان",
+        "manageConnections": "إدارة الاتصالات",
+        "report": "الملف الشخصي تقرير",
+        "viewExplorer": "عرض على {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "أضف محفظة",
+        "addViewOnly": "أضف محفظة للعرض فقط",
+        "create": "إنشاء محفظة جديدة",
+        "import": "استيراد محفظة جديدة",
+        "manage": "إعدادات المحفظة",
+        "remove": "إزالة المحفظة",
+        "restore": "استعادة محفظتك",
+        "watch": "مشاهدة المحفظة"
+      },
+      "create": {
+        "placeholder": "المحفظة {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "تسمية المحفظة"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "تعديل الملف الشخصي"
+          },
+          "title": "تحرير التسمية"
+        },
+        "viewOnly": "محافظ للعرض فقط"
+      },
+      "menu": {
+        "claimUsername": "المطالبة باسم المستخدم",
+        "copy": {
+          "title": "انسخ عنوان المحفظة"
+        },
+        "edit": {
+          "title": "تحرير التسمية"
+        },
+        "manageConnections": "إدارة اتصالات",
+        "remove": {
+          "title": "إزالة المحفظة"
+        }
+      },
+      "remove": {
+        "check": "لقد قمت بعمل نسخة احتياطية من عبارة الاسترداد الخاصة بي وأدركت أن Uniswap Labs لا يمكنها مساعدتي في استعادة محفظتي إذا فشلت في القيام بذلك.",
+        "title": "إزالة {{name}}",
+        "viewOnly": "يمكنك دائمًا إضافة محافظ للعرض الخلفي فقط عن طريق إدخال عنوان المحفظة."
+      },
+      "restore": {
+        "description": "نظرًا لاستخدامك جهازًا جديدًا، فستحتاج إلى استعادة عبارة الاسترداد أو إدخال كلمة مرور النسخ الاحتياطي السحابي للمتابعة."
+      },
+      "select": {
+        "error": "تعذر تحميل العناوين",
+        "loading": {
+          "subtitle": "سوف تظهر محافظك أدناه.",
+          "title": "البحث عن محافظ"
+        },
+        "title_one_one": "تم العثور على محفظة واحدة",
+        "title_one_other": "حدد محافظ للاستيراد"
+      },
+      "viewOnly": {
+        "button": "استيراد المحفظة",
+        "description": "لمبادلة الرموز المميزة وشرائها وإرسالها واستلامها، يتعين عليك استيراد عبارة الاسترداد الخاصة بهذه المحفظة.",
+        "title": "هذه المحفظة للعرض فقط"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "تم استيراد هذا العنوان بالفعل",
+          "notFound": "لم يتم العثور على العنوان",
+          "smartContract": "العنوان هو عقد ذكي"
+        },
+        "message": "تتيح لك إضافة محفظة للعرض فقط تجربة التطبيق أو تتبع المحفظة. لن تتمكن من مبادلة أو إرسال الأموال.",
+        "placeholder": "إنس أو العنوان",
+        "title": "أدخل عنوان المحفظة"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} معلق",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} تم جمع المكافآت"
+      },
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} من {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} إلى {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolA}} لـ {{amountWithSymbolB}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} و {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "حصة من بركة"
+  },
+  "addressInput": {
+    "recipient": "متلقي"
+  },
+  "analytics": {
+    "allow": {
+      "message": "نحن نستخدم بيانات مجهولة المصدر لتعزيز تجربتك مع منتجات Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "ليس حقيقيًا"
+    },
+    "description": "أخبرنا إذا كانت لديك تجربة جيدة مع هذا التطبيق",
+    "extension": {
+      "review": {
+        "description": "اختر تقييمًا نجميًا واترك مراجعة على متجر Chrome الإلكتروني.",
+        "title": "مراجعة ملحق Uniswap؟"
+      },
+      "title": "هل تستمتع بامتداد Uniswap؟"
+    },
+    "feedback": {
+      "button": {
+        "send": "ارسل رأيك"
+      },
+      "description": "اسمحوا لنا أن نعرف كيف يمكننا تحسين تجربتك",
+      "title": "نأسف لسماع ذلك."
+    },
+    "mobile": {
+      "title": "هل تستمتع بمحفظة Uniswap؟"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}دقيقة {{seconds}}ثانية",
+      "minutesOnly": "~{{minutes}}دقيقة",
+      "secondsOnly": "~{{seconds}}س"
+    }
+  },
+  "chart": {
+    "candlestick": "شمعدان",
+    "error": {
+      "pools": "غير قادر على عرض البيانات التاريخية للمجمع الحالي.",
+      "tokens": "غير قادر على عرض البيانات التاريخية للرمز المميز الحالي."
+    },
+    "line": "خط الرسم البياني",
+    "missingData": "بيانات الرسم البياني مفقودة",
+    "price": {
+      "label": {
+        "close": "يغلق",
+        "high": "عالي",
+        "low": "قليل",
+        "open": "يفتح"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "هذا الإعداد غير متوفر للمخطط الحالي"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "شكرًا لكونك جزءًا من مجتمع Uniswap <heart />",
+    "uni": {
+      "arrived": "وصلت UNI"
+    }
+  },
+  "common": {
+    "accept": "يقبل",
+    "activity": "نشاط",
+    "add": {
+      "label": "يضيف",
+      "liquidity": {
+        "cancelled": "تم إلغاء إضافة السيولة",
+        "failed": "فشلت إضافة السيولة"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "تم إلغاء إضافة السيولة V2",
+          "failed": "فشلت إضافة سيولة V2"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "السيولة المضافة",
+      "v2": {
+        "liquidity": "تمت إضافة سيولة V2"
+      }
+    },
+    "addedLiquidity": "السيولة المضافة",
+    "adding": {
+      "liquidity": "إضافة السيولة",
+      "v2": {
+        "liquidity": "إضافة سيولة V2"
+      }
+    },
+    "addLiquidity": "أضف السيولة",
+    "addressOrENS": "عنوان المحفظة أو اسم ENS",
+    "advanced": "متقدم",
+    "all": "الجميع",
+    "allTime": "كل الوقت",
+    "and": "و",
+    "app": "برنامج",
+    "approval": {
+      "cancelled": "تم إلغاء الموافقة",
+      "failed": "فشلت الموافقة"
+    },
+    "approve": "يعتمد",
+    "approved": "موافقة",
+    "approvePending": "في انتظار الموافقة...",
+    "approveSpend": "الموافقة على الإنفاق {{symbol}}",
+    "approving": "الموافقة",
+    "areYouSure": "هل أنت متأكد؟",
+    "automatic": "آلي",
+    "availableIn": "Uniswap متاح في: <locale />",
+    "availableOnIOSAndroid": "متوفر على نظامي iOS وAndroid",
+    "availableOnIOSAndroidChrome": "متوفر على أنظمة iOS، وAndroid، وChrome",
+    "backToPositions": "العودة إلى المواقف",
+    "blocked": {
+      "ifError": "إذا كنت تعتقد أن هذا خطأ، فيرجى إرسال بريد إلكتروني يتضمن عنوانك إلى <emailAddress />",
+      "reason": "تم حظر هذا العنوان على واجهة Uniswap Labs لأنه مرتبط بواحد أو أكثر من الأنشطة المحظورة <link></link>."
+    },
+    "blockedAddress": "العنوان المحظور",
+    "blog": "مدونة",
+    "borrow": {
+      "cancelled": "تم إلغاء الاقتراض",
+      "failed": "فشل الاقتراض"
+    },
+    "borrowed": "اقترضت، استعارت",
+    "borrowing": "الاقتراض",
+    "bought": "مُشترى",
+    "brandAssets": "أصول العلامة التجارية",
+    "burn": {
+      "cancelled": "تم إلغاء الحرق",
+      "failed": "فشل الحرق"
+    },
+    "burned": "أحرق",
+    "burning": "احتراق",
+    "button": {
+      "accept": "يقبل",
+      "back": "خلف",
+      "buy": "يشتري",
+      "cancel": "يلغي",
+      "checkin": "تحقق في",
+      "close": "يغلق",
+      "confirm": "يتأكد",
+      "connect": "يتصل",
+      "continue": "يكمل",
+      "copied": "نسخ",
+      "copy": "ينسخ",
+      "create": "يخلق",
+      "delete": "يمسح",
+      "disconnect": "قطع الاتصال",
+      "dismiss": "رفض",
+      "done": "منتهي",
+      "edit": "يحرر",
+      "enable": "يُمكَِن",
+      "finish": "ينهي",
+      "goBack": "عُد",
+      "later": "ربما في وقت لاحق",
+      "learn": "يتعلم أكثر",
+      "next": "التالي",
+      "notNow": "ليس الآن",
+      "ok": "نعم",
+      "paste": "معجون",
+      "pay": "يدفع",
+      "proceed": "يتابع",
+      "receive": "يستلم",
+      "remove": "يزيل",
+      "reset": "إعادة ضبط",
+      "retry": "أعد المحاولة",
+      "reveal": "يكشف",
+      "review": "مراجعة",
+      "save": "يحفظ",
+      "scrollDown": "حرك الفأرة لأسفل",
+      "sell": "يبيع",
+      "send": "يرسل",
+      "setup": "يثبت",
+      "share": "يشارك",
+      "showLess": "عرض أقل",
+      "showMore": "أظهر المزيد",
+      "sign": "لافتة",
+      "skip": "يتخطى",
+      "swap": "تبديل",
+      "tryAgain": "حاول ثانية",
+      "understand": "أفهم",
+      "unlock": "الغاء القفل",
+      "view": "منظر",
+      "viewDetails": "عرض التفاصيل",
+      "yes": "نعم"
+    },
+    "buy": {
+      "cancelled": "تم إلغاء الشراء",
+      "failed": "فشل الشراء",
+      "label": "يشتري"
+    },
+    "buyAndSell": "البيع والشراء على Uniswap",
+    "buying": "شراء",
+    "by": "بواسطة",
+    "cancel": {
+      "failed": "فشل الإلغاء"
+    },
+    "cancellation": {
+      "cancelled": "تم إلغاء الإلغاء"
+    },
+    "cancellationSubmitted": "تم إرسال الإلغاء",
+    "cancellationSuccessful": "تم الإلغاء بنجاح",
+    "cancelled": "ألغيت",
+    "cancelling": "الإلغاء",
+    "cancelOrder": "الغاء الطلب",
+    "card": {
+      "error": {
+        "description": "هناك خطأ ما",
+        "title": "أُووبس! هناك خطأ ما."
+      }
+    },
+    "careers": "وظائف",
+    "chart": "جدول",
+    "checkNetwork": "تحقق من حالة الشبكة <link>هنا.</link>",
+    "chromeExtension": "امتداد",
+    "claim": {
+      "cancelled": "تم إلغاء المطالبة",
+      "failed": "فشلت المطالبة"
+    },
+    "claimed": "ادعى",
+    "claiming": "المطالبة",
+    "claimUnis": "المطالبة برموز UNI الخاصة بك",
+    "clear": "واضح",
+    "close": "يغلق",
+    "closed": "مغلق",
+    "collect": {
+      "button": "يجمع",
+      "fees": {
+        "cancelled": "تم إلغاء رسوم التحصيل",
+        "failed": "فشل جمع الرسوم"
+      }
+    },
+    "collected": {
+      "fees": "الرسوم المجمعة"
+    },
+    "collecting": {
+      "fees": "تحصيل الرسوم"
+    },
+    "company": "شركة",
+    "confirm": "يتأكد",
+    "confirmCancellation": "تأكيد الالغاء",
+    "confirmSend": {
+      "button": "تأكيد الإرسال"
+    },
+    "confirmSwap": "تأكيد المبادلة في المحفظة",
+    "confirmTimedOut": "انتهت مهلة التأكيد. الرجاء اعادة المحاولة.",
+    "confirmWallet": "تأكيد في المحفظة",
+    "connect": {
+      "button": "يتصل"
+    },
+    "connectAWallet": {
+      "button": "قم بتوصيل المحفظة"
+    },
+    "connectWallet": {
+      "button": "ربط المحفظة"
+    },
+    "contactUs": {
+      "button": "اتصل بنا"
+    },
+    "contractInteraction": "تفاعل العقد",
+    "copied": "نسخ",
+    "copy": {
+      "address": "نسخ العنوان"
+    },
+    "copyLink": {
+      "button": "نسخ الوصلة"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "تم إلغاء إنشاء التجمع",
+        "failed": "فشل إنشاء التجمع"
+      }
+    },
+    "created": {
+      "date": "تم الإنشاء {{date}}",
+      "pool": "تجمع تم إنشاؤه"
+    },
+    "creating": {
+      "pool": "إنشاء تجمع"
+    },
+    "currency": "عملة",
+    "custom": "مخصص",
+    "customRange": "مجموعة مخصصة",
+    "dataOutdated": "قد تكون البيانات قديمة",
+    "default": "تقصير",
+    "defaultTradeOptions": "خيارات التجارة الافتراضية",
+    "delegate": {
+      "cancelled": "تم إلغاء المندوب",
+      "failed": "فشل المندوب"
+    },
+    "delegated": "مفوض",
+    "delegating": "تفويض",
+    "deploy": {
+      "cancelled": "تم إلغاء النشر",
+      "failed": "فشل النشر"
+    },
+    "deployed": "نشر",
+    "deploying": "جارٍ النشر",
+    "deposit": {
+      "cancelled": "تم إلغاء الإيداع",
+      "failed": "فشل الإيداع",
+      "toNetwork": "قم بإيداع الرموز المميزة في شبكة {{label}} ."
+    },
+    "deposited": "المودعة",
+    "depositing": "الإيداع",
+    "depositTokens": "إيداع الرموز",
+    "detected": "مُكتَشَف",
+    "developers": "المطورين",
+    "device": {
+      "other": "جهاز آخر"
+    },
+    "dismiss": "رفض",
+    "displaySettings": "اعدادات العرض",
+    "dnsRegistrar": "مسجل DNS",
+    "donate": "يتبرع",
+    "done": "منتهي",
+    "dontShowAgain": "لا تعرض هذا مرة أخرى",
+    "download": "تحميل",
+    "downloadAppStore": "تنزيل في متجر التطبيقات",
+    "downloadPlayStore": "تنزيل في متجر Play",
+    "downloadUniswap": "تحميل يونيسواب",
+    "downloadUniswapApp": "قم بتحميل تطبيق يونيسواب",
+    "dynamic": "متحرك",
+    "edit": {
+      "button": "يحرر"
+    },
+    "error": {
+      "details": "تفاصيل الخطأ",
+      "general": "هناك خطأ ما",
+      "label": "خطأ",
+      "request": "عذرًا، حدث خطأ أثناء معالجة طلبك. إذا طلبت الدعم، فتأكد من نسخ تفاصيل هذا الخطأ.",
+      "somethingWrong": "هناك خطأ ما!",
+      "wrong": {
+        "tryAgain": "هناك خطأ ما. حاول مرة اخرى."
+      }
+    },
+    "errorConnecting": {
+      "error": "خطأ في الاتصال"
+    },
+    "errorLoadingData": {
+      "error": "حدث خطأ أثناء تحميل البيانات"
+    },
+    "ethereumNameService": "خدمة اسم الايثيريوم",
+    "etherscan": {
+      "link": "عرض على Etherscan"
+    },
+    "ethRegistrarController": "مراقب مسجل ETH",
+    "execute": {
+      "cancelled": "تم إلغاء التنفيذ",
+      "failed": "فشل التنفيذ"
+    },
+    "executed": "أعدم",
+    "executing": "تنفيذ",
+    "expired": "منتهي الصلاحية",
+    "expiry": "انقضاء",
+    "explore": "يستكشف",
+    "explorer": "إكسبلورر",
+    "exploreTokens": "استكشاف الرموز",
+    "extension": "ملحق يونيسواب",
+    "failed": {
+      "error": "فشل"
+    },
+    "failedSwitchNetwork": "فشل في تبديل الشبكات",
+    "fee": "مصاريف",
+    "fees": "مصاريف",
+    "feesEarned": "الرسوم المكتسبة",
+    "feesEarnedPerBase": "{{symbolA}} لكل {{symbolB}}",
+    "fetchingRoute": "جارٍ جلب المسار",
+    "floor": "أرضية",
+    "floorPrice": "أدنى سعر",
+    "for": "ل",
+    "fullRange": "مجموعة كاملة",
+    "getApp": "احصل على التطبيق",
+    "getHelp": {
+      "button": "احصل على مساعدة"
+    },
+    "getStarted": "البدء",
+    "getSupport": {
+      "button": "احصل على الدعم"
+    },
+    "getTheApp": "احصل على التطبيق",
+    "getUniswapWallet": "احصل على محفظة Uniswap",
+    "governance": "الحكم",
+    "happyHolidays": "إجازة سعيدة من فريق Uniswap!",
+    "helpCenter": "مركز المساعدة",
+    "hidden": "مختفي",
+    "hide": {
+      "button": "يخفي"
+    },
+    "highPrice": "غالي السعر",
+    "includes": "يشمل",
+    "info": {
+      "label": "معلومات"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "حدد المستلم"
+      },
+      "password": {
+        "confirm": "تأكيد كلمة المرور",
+        "error": {
+          "mismatch": "كلمات المرور غير متطابقة",
+          "weak": "كلمة المرور هذه ضعيفة جدًا"
+        },
+        "new": "كلمة المرور الجديدة",
+        "placeholder": "كلمة المرور",
+        "strength": {
+          "medium": "واسطة",
+          "strong": "قوي",
+          "weak": "ضعيف"
+        }
+      },
+      "search": "يبحث"
+    },
+    "insufficient": {
+      "funds": "رصيد غير كاف"
+    },
+    "insufficientBalance": {
+      "error": "رصيد غير كاف"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "عدم كفاية الأموال لتغطية تكاليف الشبكة"
+    },
+    "insufficientLiquidity": "سيولة غير كافية",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "غير كافي {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "زوج غير صالح",
+    "invalidRecipient": {
+      "error": "مستلم غير صالح"
+    },
+    "iOSAndroid": "iOS وأندرويد",
+    "language": "لغة",
+    "lastPrice": "السعر الاخير",
+    "learnMoreSwap": "تعلم المزيد عن المقايضة",
+    "legalAndPrivacy": "القانونية والخصوصية",
+    "less": "أقل",
+    "limit": {
+      "cancel_one": "إلغاء الحد",
+      "cancel_other": "إلغاء {{count}} الحدود",
+      "cancelled": "تم إلغاء الحد",
+      "executed": "تم تنفيذ الحد",
+      "expired": "انتهى الحد",
+      "failed": "فشل الحد",
+      "opened": "تم فتح الحد",
+      "pending": "الحد معلق"
+    },
+    "limits": {
+      "approachMax": "يقترب من 100 الحد الأقصى",
+      "cancelProceed": "قم بإلغاء الحدود للمتابعة",
+      "expires": "تنتهي الصلاحية {{timestamp}}",
+      "open": "حدود مفتوحة",
+      "when": "عندما {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "روابط",
+    "liquidity": {
+      "removed": "تمت إزالة السيولة"
+    },
+    "loading": "تحميل",
+    "loadingAllowance": "بدل التحميل",
+    "loadMore": "تحميل المزيد",
+    "longText": {
+      "button": {
+        "less": "أقرأ أقل",
+        "more": "اقرأ أكثر"
+      }
+    },
+    "lowPrice": "سعر منخفض",
+    "manage": "يدير",
+    "market": {
+      "label": "سوق"
+    },
+    "marketPrice": {
+      "fetching": "جاري جلب سعر السوق...",
+      "label": "سعر السوق:",
+      "unavailable": "لم يتم العثور على سعر السوق. يُرجى إجراء بحثك الخاص لتجنب خسارة الأموال."
+    },
+    "max": "الأعلى",
+    "message": "رسالة",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "تم إلغاء ترحيل السيولة",
+        "failed": "فشل ترحيل السيولة"
+      },
+      "position": "نقل الموقع",
+      "v3": "الانتقال إلى الإصدار 3"
+    },
+    "migrated": {
+      "liquidity": "السيولة المهاجرة"
+    },
+    "migrating": {
+      "liquidity": "هجرة السيولة"
+    },
+    "min": "الحد الأدنى",
+    "mint": {
+      "cancelled": "تم إلغاء النعناع",
+      "failed": "فشل النعناع"
+    },
+    "minted": "سكت",
+    "minting": "سك العملة",
+    "mobile": "متحرك",
+    "more": "أكثر",
+    "multiDevice": "متعدد الأجهزة",
+    "navigation": {
+      "settings": "إعدادات",
+      "systemSettings": "إعدادات"
+    },
+    "navigationButton": "زر التنقل",
+    "needHelp": "تحتاج مساعدة؟",
+    "networkCost": "تكلفة الشبكة",
+    "neverMind": "لا تهتم",
+    "new": {
+      "exclamation": "جديد!"
+    },
+    "nft": "NFT",
+    "nfts": "الرموز غير القابلة للاستبدال",
+    "noActivity": "لا يوجد نشاط بعد",
+    "noAmount": {
+      "error": "أدخل المبلغ"
+    },
+    "noData": "لايوجد بيانات",
+    "noResults": "لم يتم العثور على نتائج.",
+    "notAvailableInRegion": {
+      "error": "غير متوفر في منطقتك"
+    },
+    "notCreated": {
+      "label": "لم يتم إنشاؤه"
+    },
+    "notSupported": "غير مدعوم",
+    "oneDay": {
+      "short": "1د"
+    },
+    "oneHour": {
+      "short": "1 ح"
+    },
+    "oneMonth": "شهر واحد",
+    "oneWeek": "أسبوع 1",
+    "oneYear": "1 سنة",
+    "opensea": {
+      "link": "عرض على OpenSea"
+    },
+    "orderCancelled": "تم الغاء الأمر او الطلب",
+    "orderExecuted": "تم تنفيذ الأمر",
+    "orderExpired": "انتهت صلاحية الطلب",
+    "orderPending": "انتظار الطلب",
+    "outOfRange": "خارج النطاق",
+    "pageNotFound": "الصفحة غير موجودة!",
+    "passkey": {
+      "count": "مفتاح المرور {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "اختر المكان الذي تريد حفظ مفتاح المرور الجديد فيه."
+      }
+    },
+    "pastDay": "اليوم السابق",
+    "pastFiveMinutes": "الخمس دقائق الماضية",
+    "pastHour": "ساعة الماضية",
+    "pastMonth": "الشهر الماضي",
+    "pastWeek": "الأسبوع الماضي",
+    "pastYear": "السنة الفائتة",
+    "pay": {
+      "button": "يدفع"
+    },
+    "pending": {
+      "cancellation": "في انتظار الإلغاء"
+    },
+    "pendingEllipsis": "قيد الانتظار...",
+    "permit2": "تصريح2",
+    "pool": "حمام سباحة",
+    "pools": "حمامات سباحة",
+    "poweredBy": "مدعوم بواسطة <name />",
+    "price": "سعر",
+    "priceImpact": "تحذير من تأثير الأسعار",
+    "priceUpdated": "تم تحديث السعر",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "عند تحديد هذا المربع، لن نشارك بياناتك مع شركاء تابعين لجهات خارجية لأغراض الدعاية المخصصة. يمكنك تمكين المشاركة في أي وقت عن طريق إلغاء تحديد هذا المربع.",
+        "label": "لا تشارك معلوماتي"
+      },
+      "description": "يجوز لنا مشاركة معرفات الأجهزة مع شركائنا الإعلانيين للترويج لخدماتنا على مواقع الويب والمنصات الأخرى. عندما يكون هذا مؤهلاً كبيع أو مشاركة أو إعلان مستهدف بموجب القوانين المعمول بها، يمكنك إلغاء الاشتراك من خلال تحديد مربع \"عدم مشاركة معلوماتي\". لمزيد من المعلومات حول ممارسات الخصوصية لدينا، يرجى مراجعة سياسة الخصوصية <privacyLink>الخاصة بنا</privacyLink>.",
+      "disclaimer": "يرجى ملاحظة أن اختيارك سينطبق فقط على هذا المتصفح على هذا الجهاز. يمكنك أيضًا إلغاء الاشتراك من خلال تمكين إعداد التحكم العالمي في الخصوصية ضمن المتصفح الذي تستخدمه للوصول إلى خدماتنا. للاطلاع على المزيد من الخيارات، انتقل إلى الإعدادات."
+    },
+    "privacyPolicy": "سياسة الخصوصية",
+    "proceed": "يتابع",
+    "proceedInWallet": {
+      "short": "المضي قدما في المحفظة"
+    },
+    "protocol": {
+      "v2": "Uniswap الإصدار 2",
+      "v3": "Uniswap الإصدار 3",
+      "v4": "Uniswap الإصدار 4"
+    },
+    "publicResolver": "الحل العام",
+    "purchased": "تم شراؤها",
+    "queue": {
+      "cancelled": "تم إلغاء قائمة الانتظار",
+      "failed": "فشلت قائمة الانتظار"
+    },
+    "queued": "في قائمة الانتظار",
+    "queuing": "الطابور",
+    "rate": "معدل",
+    "readMore": "اقرأ أكثر",
+    "receive": {
+      "cancelled": "تم إلغاء الاستلام",
+      "failed": "فشل الاستلام"
+    },
+    "received": "تلقى",
+    "receiving": "يستلم",
+    "recent": "مؤخرًا",
+    "rejected": "مرفوض",
+    "reload": {
+      "label": "أعد تحميل التطبيق"
+    },
+    "remove": {
+      "label": "يزيل",
+      "liquidity": {
+        "cancelled": "إلغاء إزالة السيولة",
+        "failed": "فشل إزالة السيولة"
+      }
+    },
+    "removedLiquidity": "تمت إزالة السيولة",
+    "removeItem": "إزالة بند",
+    "removing": {
+      "liquidity": "إزالة السيولة"
+    },
+    "repaid": "سداد",
+    "repay": {
+      "cancelled": "تم إلغاء السداد",
+      "failed": "فشل السداد"
+    },
+    "repaying": "سداد",
+    "resetLimit": "إعادة تعيين {{symbol}} الحد",
+    "resetLimitWallet": "إعادة تعيين {{symbol}} الحد في المحفظة",
+    "resettingLimit": "إعادة تعيين {{symbol}} الحد...",
+    "resolveIssues_one": "حل المشكلة",
+    "resolveIssues_other": "حل مشاكل {{count}}",
+    "restricted": {
+      "region": "المنطقة المحظورة"
+    },
+    "reverseRegistrar": "عكس المسجل",
+    "revoke": {
+      "approval": {
+        "failed": "فشل إلغاء الموافقة"
+      }
+    },
+    "revoked": {
+      "approval": "تم إلغاء الموافقة"
+    },
+    "revokedApproval": "الموافقة الملغاة",
+    "revoking": {
+      "approval": "إلغاء الموافقة"
+    },
+    "samePrice": "نفس السعر",
+    "scanQRDownload": "امسح رمز الاستجابة السريعة ضوئيًا باستخدام هاتفك للتنزيل",
+    "selectRegion": {
+      "label": "اختر منطقتك"
+    },
+    "selectToken": {
+      "label": "حدد رمزًا مميزًا"
+    },
+    "selfCustodial": "الحراسة الذاتية",
+    "sell": {
+      "label": "يبيع"
+    },
+    "send": {
+      "button": "يرسل",
+      "cancelled": "تم إلغاء الإرسال",
+      "failed": "فشل إرسال"
+    },
+    "sending": "إرسال",
+    "sent": "مرسل",
+    "settings": "إعدادات",
+    "share": {
+      "shareToTwitter": "شارك على تويتر",
+      "twitter": "حصة على التغريد"
+    },
+    "show": {
+      "button": "يعرض"
+    },
+    "showLess": {
+      "button": "عرض أقل"
+    },
+    "showMore": {
+      "button": "أظهر المزيد"
+    },
+    "signatureExpired": "لقد انتهت صلاحية توقيعك.",
+    "signMessage": "توقيع الرسالة",
+    "signMessageWallet": "تسجيل الرسالة في المحفظة",
+    "sold": "مُباع",
+    "stats": "احصائيات",
+    "status": "حالة",
+    "stayConnected": "ابق على اتصال",
+    "step": {
+      "number": "الخطوة {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "تم إلغاء تقديم الاقتراح",
+        "failed": "فشل تقديم الاقتراح"
+      }
+    },
+    "submitted": {
+      "proposal": "تم تقديم الاقتراح"
+    },
+    "submitting": {
+      "proposal": "تقديم الاقتراح"
+    },
+    "swap": {
+      "cancelled": "تم إلغاء المبادلة",
+      "expired": "انتهت صلاحية المبادلة",
+      "failed": "فشل المبادلة"
+    },
+    "swapped": "مبادلة",
+    "swapPending": "المبادلة معلقة...",
+    "swapping": "مبادلة",
+    "switchNetworks": "تبديل الشبكات",
+    "termsOfService": "شروط الخدمة",
+    "text": {
+      "connected": "متصل",
+      "contract": "عقد",
+      "disconnected": "انقطع الاتصال",
+      "error": "خطأ",
+      "notAvailable": "لا يوجد",
+      "recipient": "ل",
+      "sender": "من",
+      "unknown": "مجهول"
+    },
+    "thisMonth": "هذا الشهر",
+    "thisToken": "هذه الرمز",
+    "thisWeek": "هذا الاسبوع",
+    "thisYear": "هذا العام",
+    "time": {
+      "days": "أيام",
+      "days_one": "يوم",
+      "days_other": "أيام",
+      "hours": "ساعات",
+      "hours_one": "ساعة",
+      "hours_other": "ساعات",
+      "minute": {
+        "amt": "{{time}}م"
+      },
+      "minutes": "دقائق",
+      "months": "شهور",
+      "months_one": "شهر",
+      "months_other": "شهور",
+      "past": {
+        "days": {
+          "short": "{{days}}د"
+        },
+        "hours": {
+          "short": "{{hours}}ح"
+        },
+        "minutes": {
+          "short": "{{minutes}}م"
+        },
+        "months": {
+          "short": "{{months}}مو"
+        },
+        "seconds": {
+          "short": "{{seconds}}س"
+        }
+      },
+      "weeks": "أسابيع",
+      "weeks_one": "أسبوع",
+      "weeks_other": "أسابيع"
+    },
+    "to": "ل",
+    "today": "اليوم",
+    "tokenA": "الرمز أ",
+    "tokenAmount": "مبلغ رمزي",
+    "tokenB": "الرمز ب",
+    "tokenName": "اسم الرمز المميز",
+    "tokens": "الرموز",
+    "totalUniswapTVL": "إجمالي Uniswap TVL",
+    "totalValueLocked": "تفل",
+    "trade": "تجارة",
+    "trademarkPolicy": "سياسة العلامات التجارية",
+    "transactionDetails": "تفاصيل الصفقه",
+    "transactionId": "رقم المعاملة",
+    "transactionPending": "الصفقة معلقة",
+    "transactions": "المعاملات",
+    "transactionSettings": "إعدادات المعاملات",
+    "transfer_one": "تحويل",
+    "transfer_other": "التحويلات",
+    "tryAgain": {
+      "error": "حاول ثانية"
+    },
+    "twitter": "تويتر",
+    "type": {
+      "label": "يكتب"
+    },
+    "unavailable": "غير متوفره",
+    "unhide": "إظهار",
+    "uniGovernance": "حوكمة UNI",
+    "uniswapMobile": "يونيسواب موبايل",
+    "uniswapProtocol": "بروتوكول يونيسواب",
+    "uniswapWallet": "محفظة يونيسواب",
+    "uniswapX": "يونيسوابكس",
+    "unknown": "مجهول",
+    "unknownApproval": "موافقة غير معروفة",
+    "unknownBridge": "جسر غير معروف",
+    "unknownError": {
+      "error": "خطأ غير معروف"
+    },
+    "unknownLend": "إقراض غير معروف",
+    "unknownMint": "نعناع غير معروف",
+    "unknownSend": "إرسال غير معروف",
+    "unknownSwap": "مبادلة غير معروفة",
+    "unsupportedAsset_one": "مادة عرض غير مدعومة",
+    "unsupportedAsset_other": "الأصول غير المدعومة",
+    "unwrap": {
+      "button": "بسط",
+      "failed": "فشل إلغاء التغليف"
+    },
+    "unwrapped": "يفك ربطة",
+    "unwrapping": "فك التغليف",
+    "view": {
+      "profile": "عرض الملف الشخصي"
+    },
+    "viewOnExplorer": "عرض على اكسبلورر",
+    "volume": "مقدار",
+    "vote": {
+      "cancelled": "تم إلغاء التصويت",
+      "failed": "فشل التصويت"
+    },
+    "voted": "تم التصويت",
+    "voting": "التصويت",
+    "wallet": {
+      "approve": "الموافقة في المحفظة",
+      "label": "محفظة"
+    },
+    "walletForSwapping": "المحفظة المصممة للمبادلة. متوفر على نظامي iOS وAndroid.",
+    "warning": "تحذير",
+    "webApp": "التطبيق على شبكة الإنترنت",
+    "website": "موقع إلكتروني",
+    "whyApprove": "لماذا يتعين علي الموافقة على الرمز المميز؟",
+    "whySign": "لماذا التوقيعات مطلوبة؟",
+    "whyWrap": "لماذا يجب علي أن أغلف {{symbol}}؟",
+    "withdraw": {
+      "failed": "فشل الانسحاب"
+    },
+    "withdrawal": {
+      "amount": "مبلغ السحب",
+      "cancelled": "تم إلغاء السحب"
+    },
+    "withdrawing": "الانسحاب",
+    "withdrew": "انسحب",
+    "withinRange": "في النطاق",
+    "wrap": {
+      "cancelled": "تم إلغاء الالتفاف",
+      "failed": "فشل الالتفاف"
+    },
+    "wrapIn": "لف  {{symbol}} في المحفظة",
+    "wrapped": "مغطى",
+    "wrapping": "يلف",
+    "wrappingToken": "التفاف  {{symbol}}...",
+    "wrongNetwork": "شبكة خاطئة",
+    "yesterday": "أمس",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "لم يكن لدى حسابك أموال كافية لإكمال عملية المبادلة هذه."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "لا يحتوي حسابك على أموال كافية لإكمال عملية المبادلة هذه."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "لا يمكن الوفاء بالحد الخاص بك في هذا الوقت. حاول مرة اخرى."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "لا يمكن تنفيذ المبادلة الخاصة بك في هذا الوقت. حاول مرة اخرى."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "أنت تشتري",
+    "youRecieve": "انت تستقبل",
+    "youreSending": "أنت ترسل"
+  },
+  "currency": {
+    "aud": "دولار استرالي",
+    "brl": "ريال برازيلي",
+    "cad": "الدولار الكندي",
+    "cny": "اليوان الصيني",
+    "eur": "اليورو",
+    "gbp": "الجنيه البريطاني",
+    "hkd": "الدولار هونج كونج",
+    "idr": "الروبية الاندونيسية",
+    "inr": "الروبية الهندية",
+    "jpy": "الين الياباني",
+    "krw": "الوون الكوري الجنوبي",
+    "ngn": "نيرة نيجيرية",
+    "pkr": "روبية باكستانية",
+    "rub": "الروبل الروسي",
+    "sgd": "دولار سينغافوري",
+    "thb": "البات التايلندي",
+    "try": "الليرة التركية",
+    "uah": "الهريفنيا الأوكرانية",
+    "usd": "دولار الولايات المتحدة",
+    "vnd": "دونغ الفيتنامية"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "يعتمد",
+        "fallbackTitle": "الموافقة على هذا الموقع للوصول إلى الرموز المميزة",
+        "helptext": "السماح لهذا الموقع بالوصول إلى هذا الرمز المميز وإنفاقه للمعاملات. تأكد من ثقتك بهذا الموقع.",
+        "label": "محفظة",
+        "title": "الموافقة على الوصول إلى {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "طلب الصفقة"
+      },
+      "bridge": {
+        "description": "انقل ETH وUSDC والمزيد عبر شبكات {{numChains}}+.",
+        "title": "تحاول الجسر؟"
+      },
+      "connect": {
+        "helptext": "اسمح لهذا الموقع بعرض عنوان محفظتك ورصيدك وطلب الموافقات على المعاملات.",
+        "title": "الاتصال بالموقع"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "مسودة بيانات"
+        },
+        "function": {
+          "label": "وظيفة"
+        }
+      },
+      "permit2": {
+        "description": "يدير Permit2 موافقات الرمز المميز عبر تطبيقات dapp متعددة.",
+        "header": "تصريح التوقيع2"
+      },
+      "reject": {
+        "action": "رفض الكل",
+        "info": "لديك <highlight>{{totalRequestCount}}</highlight> طلبات المعاملات"
+      },
+      "revoke": {
+        "action": "سحب او إبطال",
+        "helptext": "اسمح لهذا الموقع بإلغاء الوصول إلى إنفاق هذا الرمز المميز للمعاملات. تأكد من ثقتك بهذا الموقع.",
+        "title": "قم بإلغاء الوصول إلى {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "تحتوي هذه الرسالة على أحرف غير قابلة للعرض. تأكد من ثقتك بهذا الموقع.",
+        "decodeError": "فشل في فك تشفير الرسالة",
+        "header": "طلب التوقيع",
+        "irregular": {
+          "description": "تأكد من ثقتك بهذا الموقع قبل المتابعة",
+          "understand": "أنا أفهم المخاطر"
+        },
+        "toggleDataView": {
+          "raw": "عرض البيانات الخام",
+          "readable": "عرض البيانات الأصلية"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "تأكد من أنه هو الصحيح",
+          "title": "هذه ليست محفظتك النشطة"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "سجل الدخول هنا"
+      },
+      "getStarted": {
+        "description": "ابدأ بتنزيل محفظة Uniswap، المتوفرة على هاتفك أو متصفحك.",
+        "title": "ابدأ مع Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "ابدأ في ثوانٍ بالتسجيل أدناه أو قم بتنزيل محفظتنا المتوفرة على هاتفك أو متصفحك."
+        },
+        "title": "سجل مع Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "تعمل منتجات Uniswap معًا بسلاسة لإنشاء أفضل تجربة على السلسلة."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "يوفر هذا لبروتوكول Uniswap إمكانية الوصول إلى الرمز المميز الخاص بك للتداول. لأسباب أمنية، تنتهي صلاحيتها بعد 30 يومًا."
+    },
+    "dataUnavailable": "البيانات غير متوفرة في الوقت الراهن؛ نحن نعمل على حل المشكلة",
+    "id": "معرف الخطأ: {{eventId}}",
+    "noData": "لاتوجد بيانات",
+    "request": {
+      "provideId": "عذرًا، حدث خطأ أثناء معالجة طلبك. إذا طلبت الدعم، فتأكد من تقديم معرف الخطأ الخاص بك."
+    },
+    "tokenApproval": "فشلت الموافقة على الرمز المميز",
+    "tokenApprovalEdited": {
+      "message": "مبلغ الموافقة المحدد في محفظتك منخفض للغاية لإتمام هذه المعاملة. يرجى المحاولة مرة أخرى وزيادة المبلغ."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "لقد تحطم شيء ما.",
+      "restart": "أعد تشغيل التطبيق",
+      "title": "اه أوه!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "اكتشف المزيد من المسابح"
+    },
+    "search": {
+      "action": {
+        "clear": "واضح",
+        "viewEtherscan": "عرض على {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "لم يتم العثور على نتائج ل <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "تعذر تحميل نتائج البحث",
+      "label": {
+        "ownedBy": "يملكها {{ownerAddress}}"
+      },
+      "placeholder": "بحث الرموز والمحافظ",
+      "section": {
+        "nft": "مجموعات NFT",
+        "popularNFT": "مجموعات NFT الشهيرة",
+        "popularTokenInfo": "يتم تحديد الرموز الشهيرة بناءً على حجم تداولها على Uniswap خلال الـ 24 ساعة الماضية.",
+        "popularTokens": "الرموز الشعبية",
+        "recent": "عمليات البحث الأخيرة",
+        "tokens": "الرموز",
+        "wallets": "محافظ"
+      }
+    },
+    "tokens": {
+      "error": "تعذر تحميل الرموز المميزة",
+      "favorite": {
+        "action": {
+          "add": "الرمز المفضل",
+          "edit": "تحرير المفضلة",
+          "remove": "إزالة المفضلة"
+        },
+        "title": {
+          "default": "الرموز المفضلة",
+          "edit": "تحرير الرموز المفضلة"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} مكاب",
+        "totalValueLocked": "{{number}} تلفزيون إل",
+        "volume": "{{number}} المجلد"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "القيمة السوقية",
+          "priceDecrease": "انخفاض الأسعار",
+          "priceIncrease": "زيادة الأسعار",
+          "totalValueLocked": "تفل",
+          "volume": "مقدار"
+        },
+        "option": {
+          "marketCap": "القيمة السوقية",
+          "priceDecrease": "انخفاض السعر (24 ساعة)",
+          "priceIncrease": "زيادة الأسعار (24 ساعة)",
+          "totalValueLocked": "يونيسواب TVL",
+          "volume": "حجم Uniswap (24 ساعة)"
+        }
+      },
+      "top": {
+        "title": "أعلى الرموز"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "الإصدار 3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "المحفظة المفضلة",
+          "edit": "تحرير المفضلة",
+          "remove": "إزالة المفضلة"
+        },
+        "title": {
+          "default": "المحافظ المفضلة",
+          "edit": "تحرير المحافظ المفضلة"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "شبكة",
+      "networks": "الشبكات",
+      "popup": {
+        "trouble": "هل تواجه مشكلة في الاتصال؟"
+      },
+      "titleConnected": "متصل",
+      "titleNotConnected": "غير متصل"
+    },
+    "lock": {
+      "button": {
+        "forgot": "هل نسيت كلمة السر?",
+        "reset": "إعادة ضبط المحفظة",
+        "submit": "الغاء القفل"
+      },
+      "password": {
+        "error": "كلمة مرور خاطئة. حاول ثانية",
+        "reset": {
+          "initial": {
+            "description": "لا يمكن لـ Uniswap مساعدتك في استعادة كلمة المرور الخاصة بك. تحتاج إلى إعادة ضبط محفظتك عن طريق إعادة إدخال عبارة الاسترداد المكونة من 12 كلمة.",
+            "help": "أين أجد عبارة الاسترداد الخاصة بي؟",
+            "title": "هل نسيت كلمة السر"
+          },
+          "speedbump": {
+            "description": "تأكد من حصولك على عبارة الاسترداد المكونة من 12 كلمة قبل إعادة تعيين محفظتك. وإلا فلن تتمكن من استرداد أموالك.",
+            "help": "لقد فقدت عبارة الاسترداد الخاصة بي",
+            "title": "قبل المتابعة"
+          }
+        }
+      },
+      "subtitle": "أدخل كلمة المرور الخاصة بك لفتح",
+      "title": "مرحبًا بعودتك"
+    },
+    "network": {
+      "notSupported": "شبكة غير مدعومة"
+    },
+    "open": "افتح ملحق Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "تمديد مفتوح",
+        "description": "أكمل هذا الإجراء بفتح ملحق Uniswap.",
+        "title": "متابعة في Uniswap"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "إعطاء الأولوية لامتداد Uniswap عند الاتصال بالتطبيقات.",
+        "title": "إنشاء محفظة افتراضية"
+      },
+      "password": {
+        "enter": {
+          "title": "أدخل كلمة المرور الحالية"
+        },
+        "error": {
+          "wrong": "كلمة مرور خاطئة"
+        },
+        "placeholder": "كلمة السر الحالية"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "دعم",
+        "message": "تأكد من عمل نسخة احتياطية من عبارة الاسترداد الخاصة بك لمنع فقدان الوصول إلى محفظتك وأموالك.",
+        "title": "نفدت سعة تخزين متصفحك"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "قم باستيراد حساب Uniswap الخاص بك عن طريق تسجيل الدخول باستخدام مفتاح المرور الحالي.",
+    "invalidReferrer": "يرجى إغلاق هذه الصفحة والمحاولة مرة أخرى."
+  },
+  "fee": {
+    "bestForExotic": "الأفضل للأزواج الغريبة.",
+    "bestForMost": "الأفضل لمعظم الأزواج.",
+    "bestForStablePairs": "الأفضل للأزواج المستقرة.",
+    "bestForVeryStable": "الأفضل للأزواج المستقرة جدًا.",
+    "dynamic": "رسوم ديناميكية",
+    "percentEarned": "النسبة المئوية التي ستكسبها من الرسوم.",
+    "selectPercent": "{{pct}}% اختر",
+    "selectPercentDescription": "{{pct}}% من السيولة المختارة لهذا المستوى",
+    "tier": {
+      "create": {
+        "button": "إنشاء مستوى رسوم جديد",
+        "description": "سيؤدي إنشاء طبقة جديدة إلى تهيئة مجموعة جديدة مما يؤدي إلى تكاليف شبكة أعلى من المعتاد."
+      },
+      "description": {
+        "v2": "المبلغ المكتسب من خلال توفير السيولة. جميع مجموعات v2 لديها رسوم ثابتة بنسبة 0.3%. لمزيد من الخيارات، قم بتوفير السيولة على v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "أنت على وشك إنشاء مجموعة ذات مستوى رسوم ديناميكي. قبل المتابعة، يرجى التأكد من أن الخطاف المحدد يدعم الرسوم الديناميكية."
+        }
+      },
+      "highestTvl": "أعلى قيمة TVL",
+      "label": "النسبة المئوية التي ستربحها من الرسوم",
+      "missing": {
+        "description": "لم تتمكن من العثور على المستوى الذي تبحث عنه؟"
+      },
+      "new": "طبقة جديدة",
+      "percent": {
+        "select": "{{percentage}} حدد"
+      },
+      "recommended": {
+        "description": "يوصى به بناءً على وجود أعلى حصة من السيولة لزوج الرمز المحدد."
+      },
+      "search": {
+        "short": "مستويات البحث"
+      },
+      "select": {
+        "existing": {
+          "button": "حدد مستوى الرسوم الحالي"
+        }
+      }
+    },
+    "tierExact": "{{fee}} فئة الرسوم",
+    "unavailable": "لن تكون الرسوم المكتسبة مرئية لمراكز v2 حتى تتم إزالة السيولة.",
+    "uncollected": "يتضمن الرسوم غير المحصلة:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "بيع مع"
+    },
+    "connection": {
+      "quote": "بيع ما قيمته {{amount}} من {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "يتجاوز التوازن"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} لـ {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "عُد",
+      "divider": "الرموز غير المدعومة",
+      "message": "لا يُسمَح ببيع هذا الرمز. قم بتبديل هذا الأصل بأحد الرموز المدعومة.",
+      "swap": "التبديل إلى رمز مدعوم",
+      "title": "الرمز غير مدعوم"
+    },
+    "welcome": {
+      "tooltip": "بيع عملتك المشفرة إلى حسابك المصرفي أو بطاقة الخصم الخاصة بك."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "اختر الرمز"
+    },
+    "cexTransferModal": {
+      "description": "لا يُدعم شراء العملات المشفرة باستخدام البطاقة في منطقتك. انقل الأصول من حساب تبادل مركزي لتمويل محفظتك.",
+      "title": "نقل للبدء"
+    },
+    "checkout": {
+      "title": "تحقق من مع"
+    },
+    "checkoutWith": "تحقق من مع",
+    "chooseProvider": {
+      "description": "ستستمر في الوصول إلى بوابة المزود لمعرفة الرسوم المرتبطة بمعاملتك."
+    },
+    "completeTransactionHeader": "أكمل المعاملة باستخدام {{serviceProvider}}",
+    "connection": {
+      "error": "فشل الاتصال",
+      "errorDescription": "حدث خطأ ما أثناء الاتصال بـ {{serviceProvider}}.",
+      "message": "يوصلك إلى {{serviceProvider}}",
+      "quote": "شراء {{amount}} بقيمة {{currencySymbol}}",
+      "terms": "من خلال المتابعة، فإنك تقر بأنك ستخضع لـ شروط الخدمة و سياسة الخصوصية مع {{serviceProvider}}، حسب الاقتضاء."
+    },
+    "continueInTab": "انتقل إلى علامة التبويب {{serviceProvider}} للمتابعة. من الآمن إغلاق هذا الوضع الآن.",
+    "disclaimer": "من خلال المتابعة، فإنك تقر بأنك ستخضع لـ <tosLink>شروط الخدمة</tosLink> و <privacyLink>سياسة الخصوصية</privacyLink> مع {{serviceProvider}}، حسب الاقتضاء.",
+    "error": {
+      "default": "هناك خطأ ما.",
+      "load": "تعذر تحميل الرموز المميزة للشراء",
+      "max": "الحد الأقصى {{amount}}",
+      "min": "الحد الأدنى {{amount}}",
+      "noQuotes": "لم يتم العثور على اقتباسات.",
+      "unavailable": "هذه الخدمة غير متوفرة في منطقتك",
+      "unsupported": "غير معتمد في المنطقة",
+      "usd": "متاح فقط للشراء بالدولار الأمريكي"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} لـ {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "لم يتم العثور على اقتباسات"
+    },
+    "purchasedOn": "تم الشراء على {{serviceProvider}}",
+    "quote": {
+      "advice": "ستستمر في الوصول إلى بوابة المزود لمعرفة الرسوم المرتبطة بمعاملتك.",
+      "type": {
+        "list": "{{optionsList}}وخيارات أخرى",
+        "other": "خيارات أخرى",
+        "recent": "مستخدم حديثا"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "من حساب"
+        }
+      },
+      "title": "تلقي التشفير",
+      "transferFunds": "قم بتمويل محفظتك عن طريق تحويل العملات المشفرة من محفظة أو حساب آخر"
+    },
+    "region": {
+      "placeholder": "البحث حسب البلد أو المنطقة",
+      "title": "اختر منطقتك"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} لـ {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "تحديث الآن",
+      "learn": "تعرف على كيفية التحديث",
+      "recoveryPhrase": "عرض عبارة الاسترداد"
+    },
+    "description": {
+      "extension": "يتوفر إصدار جديد من التطبيق. لمواصلة استخدام ملحق Uniswap، يرجى تحديثه إلى أحدث إصدار.",
+      "wallet": "يتوفر إصدار جديد من التطبيق. لمواصلة استخدام محفظة Uniswap، يرجى تحديثها إلى أحدث إصدار."
+    },
+    "label": {
+      "recoveryPhrase": "عبارة الاسترداد"
+    },
+    "title": {
+      "recommendedStatus": "إصدار جديد متاح"
+    }
+  },
+  "globalPreferences": {
+    "title": "التفضيلات العالمية"
+  },
+  "hero": {
+    "scroll": "قم بالتمرير لمعرفة المزيد",
+    "subtitle": "أكبر سوق onchain. قم بشراء وبيع العملات المشفرة على Ethereum وأكثر من 11 سلاسل أخرى.",
+    "swap": {
+      "title": "قم بالتبديل في أي وقت، <br/> في أي مكان."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "تعرف على المزيد حول NFTs المخفية"
+        },
+        "text": {
+          "button": "NFTs مخفية ({{numHidden}})",
+          "extension": "هذه هي عمليات الاحتيال المحتملة ورموز NFT التي قمت بإخفائها. يمكنك النقر بزر الماوس الأيمن على رمز NFT لإظهاره.",
+          "mobile": "هذه هي عمليات الاحتيال المحتملة ورموز NFT التي قمت بإخفائها. يمكنك الضغط لفترة طويلة على رمز NFT لإظهاره.",
+          "title": "NFTs مخفية"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "تعرف على المزيد حول الرموز المخفية"
+        },
+        "text": {
+          "button": "الرموز المخفية ({{numHidden}})",
+          "info": "هذه هي عمليات الاحتيال المحتملة والأرصدة الصغيرة والرموز التي قمت بإخفائها. الرموز المخفية لا يتم تضمينها في إجمالي رصيد محفظتك.",
+          "title": "الرموز المخفية"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "احصل على الرموز المميزة أو NFTs",
+        "description": {
+          "default": "عند الموافقة على الرموز المميزة أو NFTs أو تداولها أو نقلها، ستظهر معاملاتك هنا.",
+          "external": "عندما تقوم هذه المحفظة بإجراء المعاملات، ستظهر هنا."
+        },
+        "title": "لا يوجد نشاط بعد"
+      },
+      "error": {
+        "load": "تعذر تحميل النشاط"
+      },
+      "title": "نشاط"
+    },
+    "banner": {
+      "offline": "أنت في وضع غير متصل بالشبكة",
+      "testnetMode": {
+        "nav": "أنت في وضع الشبكة التجريبية. قم بإيقاف تشغيله في الإعدادات.",
+        "outage": {
+          "monad": {
+            "description": "تم إيقاف الوصول إلى شبكة Monad التجريبية مؤقتًا عبر واجهة Uniswap بسبب مشاكل في استقرار الشبكة. لم تتأثر أموال الشبكة التجريبية. سيتم استعادة الوصول بعد حل هذه المشاكل.",
+            "title": "تم إيقاف الموناد مؤقتًا"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "انقر هنا لاستكشاف الآلاف من الرموز المميزة والرموز غير القابلة للاستبدال (NFTs) والمزيد",
+      "title": "استكشاف الرموز"
+    },
+    "extension": {
+      "error": "حدث خطأ أثناء تحميل الحسابات"
+    },
+    "label": {
+      "buy": "يشتري",
+      "for": "شراء/بيع",
+      "receive": "يستلم",
+      "send": "يرسل",
+      "swap": "تبديل"
+    },
+    "nfts": {
+      "title": "الرموز غير القابلة للاستبدال"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "الشراء باستخدام بطاقة الخصم أو الحساب البنكي.",
+            "title": "شراء التشفير"
+          },
+          "import": {
+            "description": "أدخل عبارة الاسترداد الخاصة بهذه المحفظة لبدء التبديل والإرسال.",
+            "title": "استيراد المحفظة"
+          },
+          "receive": {
+            "description": "نقل من محفظة أو حساب آخر.",
+            "title": "تلقي التشفير"
+          }
+        },
+        "description": "عندما تقوم هذه المحفظة بشراء الرموز المميزة أو استلامها، ستظهر هنا.",
+        "title": "لا توجد رموز حتى الآن",
+        "welcome": {
+          "description": "يبدو أن لديك محفظة جديدة. دعنا نحصل على التمويل قبل إجراء المبادلة الأولى."
+        }
+      },
+      "error": {
+        "fetch": "فشل جلب أرصدة الرموز المميزة",
+        "load": "تعذر تحميل أرصدة الرموز المميزة"
+      },
+      "title": "الرموز"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "من حساب",
+        "description": "قم بتمويل محفظتك عن طريق تحويل العملات المشفرة من محفظة أو حساب آخر",
+        "title": "تلقي التشفير"
+      }
+    },
+    "warning": {
+      "viewOnly": "هذه محفظة للعرض فقط"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "مبادلة أو توفير السيولة على بروتوكول Uniswap",
+      "title": "واجهة يونيسواب"
+    }
+  },
+  "landing": {
+    "buildNextGen": "قم ببناء الجيل القادم من التطبيقات والأدوات المفتوحة.",
+    "connectWithUs": "اتصل بنا",
+    "devDocs": "مستندات المطور",
+    "directToDeFi": "انتقل مباشرة إلى DeFi",
+    "followOnX": "اتبعUniswap على X للحصول على آخر التحديثات",
+    "protocolDescription": "يتم تشغيل منتجات Uniswap بواسطة بروتوكول Uniswap. يعد البروتوكول أكبر سوق على السلسلة، حيث يبلغ حجم التداول الأسبوعي مليارات الدولارات عبر آلاف الرموز المميزة على Ethereum وأكثر من 7 سلاسل إضافية.",
+    "provideLiquidity": {
+      "message": "قم بتوفير السيولة للمجمعات الموجودة على بروتوكول Uniswap واكسب رسومًا على المقايضات."
+    },
+    "swapSimple": "أصبح المبادلة أمرًا بسيطًا. يمكنك الوصول إلى آلاف الرموز المميزة في أكثر من 11 سلاسل.",
+    "teamInsights": "رؤى وأخبار من الفريق",
+    "trusted": "موثوق بها من قبل الملايين"
+  },
+  "language": {
+    "afrikaans": "الأفريكانية",
+    "arabic": "عربي",
+    "catalan": "الكاتالونية",
+    "chineseSimplified": "الصينية المبسطة",
+    "chineseTraditional": "تقاليد صينية",
+    "czech": "التشيكية",
+    "danish": "دانماركي",
+    "dutch": "هولندي",
+    "english": "إنجليزي",
+    "finnish": "الفنلندية",
+    "french": "فرنسي",
+    "greek": "اليونانية",
+    "hebrew": "العبرية",
+    "hindi": "الهندية",
+    "hungarian": "المجرية",
+    "indonesian": "الاندونيسية",
+    "italian": "ايطالي",
+    "japanese": "اليابانية",
+    "korean": "كوري",
+    "malay": "لغة الملايو",
+    "norwegian": "النرويجية",
+    "polish": "بولندي",
+    "portuguese": "البرتغالية",
+    "romanian": "روماني",
+    "russian": "الروسية",
+    "serbian": "الصربية",
+    "spanishLatam": "الإسبانية (أمريكا اللاتينية)",
+    "spanishSpain": "الإسبانية (إسبانيا)",
+    "spanishUs": "الإسبانية (الولايات المتحدة)",
+    "swahili": "السواحلية",
+    "swedish": "السويدية",
+    "turkish": "اللغة التركية",
+    "ukrainian": "الأوكرانية",
+    "urdu": "الأردية",
+    "vietnamese": "الفيتنامية"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 الحد المفتوح",
+      "count_other": "{{count}} حدود مفتوحة"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "سعر الحد الخاص بك أعلى بنسبة {{percentage}}% من السوق. اضبط سعر الحد الخاص بك للمضي قدمًا.",
+        "title": "شراء {{tokenSymbol}} أعلى من سعر السوق"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "نحن غير قادرين على حساب سعر السوق الحالي. لتجنب تقديم طلب بسعر أقل من سعر السوق، يرجى التحقق من اتصال الشبكة والمحاولة مرة أخرى.",
+        "title": "سعر السوق غير متوفر"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "سعر الحد الخاص بك هو {{percentage}}٪ أقل من السوق. اضبط سعر الحد الخاص بك للمضي قدمًا.",
+        "title": "البيع {{tokenSymbol}} أقل من سعر السوق"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "رموز الشبكة الرئيسية فقط متاحة للحدود."
+        },
+        "uniswapx": "قد لا يتم تنفيذ الحدود تمامًا عندما تصل الرموز المميزة إلى السعر المحدد. <link />"
+      }
+    },
+    "learnMore": "تعرف على المزيد حول الحدود",
+    "price": {
+      "input": {
+        "label": "عندما يكون 1 <tokenSymbol /> يستحق"
+      },
+      "label": "سعر الحد"
+    },
+    "selectSupportedTokens": "حدد الرموز المدعومة"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "أدخل عنوان الخطاف"
+      }
+    },
+    "learnMoreLabel": "تعرف على توفير السيولة",
+    "notEnough": {
+      "label": "لا توجد سيولة كافية لإظهار قيمة دقيقة للدولار الأمريكي."
+    },
+    "provideOnProtocols": "توفير السيولة على بروتوكولات مختلفة"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} السيولة: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "أضف السيولة إلى المجمعات{{version}} على Uniswap"
+    },
+    "positions": {
+      "closed": {
+        "title": "المراكز المغلقة"
+      },
+      "page": {
+        "title": "إدارة {{quoteSymbol}}/{{baseSymbol}} تجمع السيولة على Uniswap",
+        "version": {
+          "description": "عرض مراكز السيولة النشطة الخاصة بك {{version}} . إضافة مناصب جديدة.",
+          "title": "إدارة سيولة المجمع{{version}} على Uniswap"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "مسموح",
+    "allowLpMigration": "السماح بترحيل رمز LP المميز",
+    "connectAccount": "يجب عليك ربط الحساب الذي يملك هذا الموضع.",
+    "connectWallet": "اتصل بالمحفظة لعرض سيولة V2 الخاصة بك.",
+    "contract": "عقد الهجرة Uniswap",
+    "firstLP": "أنت المزود الأول للسيولة لمجموعة Uniswap V3 هذه. سوف تهاجر السيولة الخاصة بك بالسعر الحالي {{source}} .",
+    "highGasCost": "ستكون تكلفة معاملتك أعلى بكثير لأنها تتضمن الغاز اللازم لإنشاء المجمع.",
+    "invalidRange": "النطاق المحدد غير صالح. يجب أن يكون الحد الأدنى للسعر أقل من الحد الأقصى للسعر.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} رموز LP",
+    "migrating": "الهجرة",
+    "missingV2Position": "ألا ترى أحد مواقع v2 الخاصة بك؟ <link>استيراده.</link>",
+    "noV2Liquidity": "لم يتم العثور على سيولة V2.",
+    "positionNoFees": "لن يكسب مركزك رسومًا ولن يتم استخدامه في الصفقات حتى يتحرك سعر السوق إلى النطاق الخاص بك.",
+    "priceDifference": "فرق السعر: ",
+    "priceWarning": "يجب عليك فقط إيداع السيولة في Uniswap V3 بالسعر الذي تعتقد أنه صحيح. <br /> إذا بدا السعر غير صحيح، فيمكنك إما إجراء مبادلة لتحريك السعر أو الانتظار حتى يقوم شخص آخر بذلك.",
+    "refund": "سيتم رد {{amtA}} {{symA}} و {{amtB}} {{symB}} على الأقل إلى محفظتك بسبب النطاق السعري المحدد.",
+    "selectFeeTier": "حدد مستوى الرسوم",
+    "setRange": "تحديد النطاق السعري",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} السعر:",
+    "v2Description": "ستقوم هذه الأداة بترحيل سيولة {{source}} الخاصة بك بأمان إلى V3. العملية غير موثوقة تمامًا بفضل <0>عقد الترحيل Uniswap</0> ↗",
+    "v2Instruction": "بالنسبة لكل مجموعة موضحة أدناه، انقر فوق ترحيل لإزالة السيولة الخاصة بك من Uniswap V2 وإيداعها في Uniswap V3.",
+    "v2Title": "ترحيل السيولة V2",
+    "v3Price": "V3 {{sym}} السعر:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "إدخال السعر غير صالح"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "احصل على تطبيق Uniswap Wallet"
+      },
+      "title": "Uniswap: محفظة العملات المشفرة وNFT"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "فيات onramp مدعوم من MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay غير متوفر في بعض المناطق. اضغط لتتعلم المزيد."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "إنشاء حساب"
+    },
+    "logIn": {
+      "button": "تسجيل الدخول"
+    },
+    "signIn": {
+      "button": "تسجيل الدخول"
+    },
+    "signInOrConnect": {
+      "title": "تسجيل الدخول أو الاتصال"
+    },
+    "signUp": {
+      "button": "اشتراك"
+    },
+    "tabs": {
+      "createPosition": "إنشاء موقف",
+      "viewPositions": "عرض المواقف"
+    }
+  },
+  "network": {
+    "lostConnection": "ربما تكون قد فقدت اتصالك بالشبكة.",
+    "mightBeDown": "ربما يكون {{network}} معطلاً الآن، أو ربما فقدت اتصالك بالشبكة.",
+    "warning": "تحذير الشبكة"
+  },
+  "nft": {
+    "addToBag": "أضف الى الحقيبة",
+    "authorsCollectionOnUni": "{{name}}مجموعة NFT على Uniswap",
+    "bag": "شنطة",
+    "blockedCollection": "تم حظر هذه المجموعة",
+    "blockedOpenSea": "محظور على OpenSea",
+    "buyTransferNFTToStart": "قم بشراء أو نقل NFTs إلى هذه المحفظة للبدء.",
+    "buyTransferTokensToStart": "قم بشراء الرموز المميزة أو نقلها إلى هذه المحفظة للبدء.",
+    "card": {
+      "notAvailable": "المحتوى ليس <br /> متاحًا بعد"
+    },
+    "chainSupportComingSoon": "{{chainName}} الدعم قريبا",
+    "collectionOnUni": "مجموعة NFT على Uniswap",
+    "collectonOnAddress": "مجموعة NFT على Uniswap - {{address}}",
+    "complete": "مكتمل!",
+    "editListings": "تحرير القوائم",
+    "event": "حدث",
+    "explore": "اكتشف NFTs",
+    "learnWhy": "تعلم لماذا",
+    "list": {
+      "header": {
+        "lastPrice": "آخر"
+      },
+      "title": "قائمة NFTs"
+    },
+    "listedSignificantly_one": "تم إدراج NFT واحد {{percentage}} أسفل سعر المجموعة. هل أنت متأكد أنك تريد الاستمرار؟",
+    "listedSignificantly_other": "{{count}} تم إدراج NFTs أقل بكثير من السعر الأساسي للمجموعة. هل أنت متأكد أنك تريد الاستمرار؟",
+    "listForSale": "قائمة للبيع",
+    "lowPrice": "سعر القائمة منخفض",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} الرسوم"
+      }
+    },
+    "maxFees": "الرسوم القصوى",
+    "maxRoyalties": "الحد الأقصى لعائدات المبدعين",
+    "noItems": "لا توجد عناصر لعرضها",
+    "noneAtAddress": "لا توجد أصول تحصيل في هذا العنوان",
+    "noPools": "لا حمامات حتى الآن",
+    "notListed": "غير مدرج",
+    "proceedsIfSold": "العائدات إذا بيعت",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "مدرج بالفعل في {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} أقل من سعر الأرضية."
+        }
+      }
+    },
+    "refundsInEth": "سيتم رد المبالغ المستردة مقابل العناصر غير المتوفرة بعملة ETH",
+    "removeFromBag": "إزالة من الحقيبة",
+    "reportSpam": "الإبلاغ عن البريد العشوائي",
+    "returnToExplore": "العودة إلى استكشاف NFT",
+    "returnToMy": "العودة إلى NFTs الخاصة بي",
+    "setPrices": "تحديد الأسعار للمتابعة",
+    "startListing": "ابدأ الإدراج",
+    "successListed": "تم الإدراج بنجاح",
+    "unavailableToList": "غير متاح للإدراج",
+    "whyTransaction": {
+      "reason": "يتطلب إدراج NFT موافقة السوق لمرة واحدة لكل مجموعة NFT."
+    },
+    "willAppearHere": "ستظهر هنا معاملاتك onchain ومشترياتك من العملات المشفرة.",
+    "wishGranted": "لقد منحت Uniswap رغبتك!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "الموافقة على الجمع",
+        "approve_other": "الموافقة على المجموعات",
+        "sign_one": "قائمة التوقيع",
+        "sign_other": "قوائم التوقيع"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} الحد الأقصى"
+      }
+    },
+    "my": "بلدي NFTs",
+    "noneYet": "لا يوجد NFTs حتى الآن",
+    "sell": "بيع NFTs"
+  },
+  "notFound": {
+    "oops": "عفوًا، أعدني إلى Swap"
+  },
+  "notice": {
+    "uk": {
+      "label": "إخلاء المسؤولية في المملكة المتحدة:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} مخفي",
+      "unhidden": "{{assetName}} غير مخفي"
+    },
+    "copied": {
+      "address": "تم نسخ العنوان",
+      "calldata": "تم نسخ بيانات المكالمة",
+      "contractAddress": "تم نسخ عنوان العقد",
+      "failed": "فشل النسخ إلى الحافظة",
+      "image": "تم نسخ الصورة",
+      "nftUrl": "تم نسخ عنوان URL الخاص بـ NFT",
+      "tokenUrl": "تم نسخ عنوان URL للرمز المميز",
+      "transactionId": "تم نسخ معرف المعاملة",
+      "unitag": "تم نسخ اسم المستخدم"
+    },
+    "countryChange": "تم التبديل إلى {{countryName}}",
+    "network": {
+      "changed": "تم التبديل إلى {{network}}"
+    },
+    "passwordChanged": "تم تغيير كلمة السر",
+    "restore": {
+      "success": "استعادة المحفظة!"
+    },
+    "send": {
+      "network": "يتم الإرسال على {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "تم الإبلاغ عنه"
+      }
+    },
+    "swap": {
+      "network": "المبادلة على {{network}}",
+      "pending": {
+        "swap": "المبادلة معلقة",
+        "unwrap": "إلغاء التغليف معلق",
+        "wrap": "التفاف معلق"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "تم الإلغاء {{currencySymbol}} الموافقة.",
+        "fail": "فشلت الموافقة على {{currencySymbol}} للاستخدام مع {{address}}.",
+        "success": "تمت الموافقة على {{currencySymbol}} للاستخدام مع {{address}}."
+      },
+      "pending": "الصفقة معلقة",
+      "swap": {
+        "canceled": "تم الإلغاء {{inputCurrencySymbol}}-{{outputCurrencySymbol}} المبادلة.",
+        "expired": "{{inputCurrencyAmountWithSymbol}} لـ {{outputCurrencyAmountWithSymbol}} انتهت صلاحية المبادلة.",
+        "fail": "فشل تبديل {{inputCurrencyAmountWithSymbol}} بـ {{outputCurrencyAmountWithSymbol}}.",
+        "success": "تم تبديل {{inputCurrencyAmountWithSymbol}} بـ {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "تم الإلغاء {{tokenNameOrAddress}} إرسال",
+        "fail": "فشل في إرسال {{tokenNameOrAddress}} إلى {{walletNameOrAddress}}",
+        "received": "تم استلام {{tokenNameOrAddress}} من {{walletNameOrAddress}}",
+        "success": "تم الإرسال {{tokenNameOrAddress}} إلى {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "فشل التعامل مع {{addressOrEnsName}}",
+          "short": "فشل الاجراء"
+        },
+        "success": {
+          "full": "تم التعامل مع {{addressOrEnsName}}",
+          "short": "تم تأكيد المعاملة"
+        }
+      },
+      "unwrap": {
+        "canceled": "تم الإلغاء {{inputCurrencySymbol}} إلغاء التغليف.",
+        "fail": "فشل في فك {{inputCurrencyAmountWithSymbol}}.",
+        "success": "تم فك التغليف {{inputCurrencyAmountWithSymbol}} وتم استلام {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "تم إلغاء {{inputCurrencySymbol}} التفاف.",
+        "fail": "فشل في الالتفاف {{inputCurrencyAmountWithSymbol}}.",
+        "success": "ملفوفة {{inputCurrencyAmountWithSymbol}} ومستلمة {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "إرسال معلق"
+    },
+    "walletConnect": {
+      "confirmed": "تم تأكيد المعاملة بـ {{dappName}}",
+      "connected": "متصل",
+      "disconnected": "انقطع الاتصال",
+      "failed": "فشلت المعاملة مع {{dappName}}",
+      "networkChanged": {
+        "full": "تم التبديل إلى {{networkName}}",
+        "short": "الشبكات المحولة"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "تابع على ملحق Uniswap",
+      "title": "نجاح!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "نقترح كتابة هذا على قطعة من الورق وتخزينها في مكان آمن، مثل الخزنة.",
+        "displayWarning": {
+          "description": "اقرأ ما يلي بعناية قبل الاستمرار.",
+          "note": {
+            "access": "تمنحك عبارة الاسترداد هذه إمكانية الوصول الكامل إلى محفظتك وأموالك",
+            "secure": "شاهد هذا بشكل خاص ولا تشاركه مع أي شخص",
+            "storage": "اكتبها واحتفظ بها في مكان آمن"
+          },
+          "title": "بعض الأشياء المهمة التي يجب معرفتها"
+        },
+        "error": "كلمة غير صالحة أو بها أخطاء إملائية",
+        "placeholder": "كلمة سرية",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} مكتمل",
+        "selectedWordPlaceholder": "اختر كلمة",
+        "subtitle_one": "ما هي الكلمة الأولى {{count}}في عبارة الاسترداد الخاصة بك؟",
+        "subtitle_two": "ما هي الكلمة {{count}}الثانية في عبارة الاسترداد؟",
+        "subtitle_few": "ما هي الكلمة {{count}}الثالثة في عبارة الاسترداد الخاصة بك؟",
+        "subtitle_other": "ما هي الكلمة {{count}}في عبارة الاسترداد؟",
+        "title": "دعونا نتأكد من أنك قمت بتسجيله بشكل صحيح"
+      },
+      "option": {
+        "badge": {
+          "quick": "سريع"
+        },
+        "cloud": {
+          "description": "قم بعمل نسخة احتياطية لمحفظتك عبر {{cloudProviderName}}، المحمية بكلمة مرور الاسترداد.",
+          "title": "تعيين كلمة مرور الاسترداد"
+        },
+        "manual": {
+          "description": "سجل كلماتك السرية الـ12 على قطعة من الورق واحتفظ بها في مكان آمن.",
+          "title": "اكتب عبارة الاسترداد"
+        }
+      },
+      "reminder": {
+        "description": "يضمن لك الاحتفاظ بنسخة احتياطية من محفظتك إمكانية استرداد أصولك دائمًا إذا فقدت هاتفك أو حصلت على جهاز جديد.",
+        "title": "حان الوقت لعمل نسخة احتياطية لمحفظتك",
+        "warning": {
+          "description": "إذا لم تقم بإعداد طريقة نسخ احتياطي، فلن يكون لديك طريقة لاسترداد محفظتك إذا فقدت هاتفك، أو حذفت التطبيق، أو حصلت على جهاز جديد.",
+          "title": "قد تفقد أموالك"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "إذا نسيت كلمة المرور، فلن نتمكن من إعادة تعيينها لك. اكتبها في مكان آمن أو قم بتخزينها بأمان في مدير كلمات المرور.",
+          "disclaimer": "أتفهم أن Uniswap Labs لا يمكنه إعادة تعيين كلمة المرور الخاصة بالاسترداد.",
+          "title": "من المهم حفظ هذه الكلمة المرورية"
+        },
+        "manual": {
+          "description": "تأكد من كتابة عبارة الاسترداد الخاصة بك بشكل صحيح وأن لديك مكانًا آمنًا لتخزينها.",
+          "disclaimer": "أتفهم أن Uniswap Labs لن يتمكن من استعادة محفظتي إذا فقدتها.",
+          "title": "قبل الانتهاء..."
+        }
+      },
+      "subtitle": "هكذا ستستعيد محفظتك إذا قمت بحذف التطبيق أو فقدت جهازك.",
+      "title": {
+        "existing": "قم بعمل نسخة احتياطية من محفظتك",
+        "new": "اختر طريقة النسخ الاحتياطي الخاصة بك"
+      },
+      "view": {
+        "disclaimer": "أدرك أنه إذا فقدت عبارة الاسترداد الخاصة بي، فلن تتمكن Uniswap Labs من مساعدتي في استعادتها.",
+        "subtitle": {
+          "message1": "اقرأ ما يلي بعناية قبل المتابعة",
+          "message2": "ستحتاج إلى إدخال جميع هذه الكلمات السرية الـ 12 لاستعادة محفظتك."
+        },
+        "title": "اكتب عبارة الاسترداد الخاصة بك",
+        "warning": {
+          "message1": "تمنحك عبارة الاسترداد هذه إمكانية الوصول الكامل إلى محفظتك وأموالك",
+          "message2": "اكتبها واحتفظ بها في مكان آمن",
+          "message3": "شاهد هذا على الخاص و <u>لا تشاركه مع أي شخص</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "سوف تحتاج إلى إدخال هذا الرمز لاسترداد أموالك. إذا نسيت إدخاله، فلن نتمكن من استرداده لك.",
+        "title": "تأكيد كلمة المرور الخاصة بالاسترداد"
+      },
+      "createPassword": {
+        "description": "سوف تحتاج إلى إدخال هذا الرمز لاسترداد أموالك. إذا نسيت إدخاله، فلن نتمكن من استرداده لك.",
+        "title": "قم بإنشاء كلمة مرور الاسترداد الخاصة بك"
+      }
+    },
+    "complete": {
+      "button": "افتح ملحق Uniswap",
+      "description": "محفظتك جاهزة لإرسال واستقبال العملات المشفرة. افتح ملحق Uniswap باستخدام الاختصار أدناه.",
+      "go_to_uniswap": "انتقل إلى تطبيق الويب Uniswap",
+      "pin": {
+        "description": "انقر فوق أيقونة الدبوس لإضافة Uniswap Extension إلى شريط الأدوات الخاص بك.",
+        "title": "تثبيت ملحق Uniswap"
+      },
+      "title": "أنت جاهز تمامًا"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "ستحتاج إلى هذا لفتح محفظتك والوصول إلى عبارة الاسترداد الخاصة بك",
+        "title": {
+          "default": "إنشاء كلمة المرور",
+          "reset": "اعد ضبط كلمه السر"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "ملحق Uniswap متوافق فقط مع Chrome على سطح المكتب.",
+          "title": "Chrome على الهاتف المحمول غير مدعوم (حتى الآن)"
+        },
+        "description": "ملحق Uniswap متوافق فقط مع Chrome في الوقت الحالي.",
+        "title": "هذا المتصفح غير مدعوم (حتى الآن)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "قم بإعداد خطة استرداد إذا فقدت هاتفك أو حصلت على هاتف جديد.",
+          "title": "قم بعمل نسخة احتياطية من محفظتك"
+        },
+        "fund": {
+          "description": "قم بتمويل محفظتك عن طريق شراء العملات المشفرة أو التحويل من حساب آخر.",
+          "title": "احصل على أول رمز مميز لك"
+        },
+        "label": {
+          "required": "مطلوب",
+          "swipe": "مرر سريعًا"
+        },
+        "pushNotifications": {
+          "description": "احصل على تنبيهات الأسعار الخاصة بالرموز المفضلة لديك واتجاهات السوق والمزيد.",
+          "title": "ابقى على اطلاع"
+        },
+        "unitag": {
+          "description": "قم بإنشاء ملف تعريف web3 مخصص وشارك عنوانك بسهولة مع الأصدقاء.",
+          "title": "قم بالمطالبة باسم المستخدم {{unitagDomain}} الخاص بك"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "كلمة واحدة غير صالحة أو بها خطأ إملائي",
+        "invalidWords_other": "{{count}} الكلمات غير صالحة أو بها أخطاء إملائية"
+      },
+      "method": {
+        "import": {
+          "message": "أدخل عبارة الاسترداد الخاصة بك من محفظة تشفير أخرى.",
+          "title": "استيراد المحفظة"
+        },
+        "passkey": {
+          "message": "قم بمزامنة محفظة Uniswap الخاصة بك باستخدام مفتاح المرور الموجود.",
+          "title": "تسجيل الدخول باستخدام مفتاح المرور"
+        },
+        "restore": {
+          "message": {
+            "android": "أضف المحافظ التي قمت بنسخها احتياطيًا إلى حساب Google Drive الخاص بك.",
+            "ios": "أضف المحافظ التي قمت بنسخها احتياطيًا إلى حساب iCloud الخاص بك."
+          },
+          "title": "استعادة المحفظة"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "لا تريد أي مما سبق؟"
+        },
+        "subtitle": "اختر المحفظة التي تريد تسجيل الدخول إليها مرة أخرى.",
+        "title": "مرحبًا بك مرة أخرى في Uniswap",
+        "wallet": {
+          "button": "عرض عبارة الاسترداد",
+          "count_one": "+1 محفظة أخرى",
+          "count_other": "+{{count}} محافظ أخرى"
+        },
+        "warning": {
+          "caption": "يرجى التأكد من عمل نسخة احتياطية لجميع المحافظ الأخرى. إذا كنت ترغب في استعادتها في أي وقت، فستحتاج إلى عبارات الاسترداد الخاصة بها أو النسخ الاحتياطية المقابلة لها {{cloudProvider}} .",
+          "title": "هل أنت متأكد؟"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "استيراد المحفظة من تطبيق الهاتف المحمول عبر رمز الاستجابة السريعة.",
+          "title": "استخدم Uniswap Mobile"
+        },
+        "passkey": {
+          "subtitle": "قم بمزامنة محفظة Uniswap الخاصة بك باستخدام مفتاح المرور الموجود.",
+          "title": "تسجيل الدخول باستخدام مفتاح المرور"
+        },
+        "recoveryPhrase": {
+          "subtitle": "أدخل عبارة الاسترداد الخاصة بك من محفظة تشفير أخرى.",
+          "title": "استيراد المحفظة"
+        },
+        "title": "تسجيل الدخول أو استيراد المحفظة"
+      },
+      "title": "اختر الطريقة التي تريد بها إضافة محفظتك"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "عبارة الاسترداد الخاصة بي هي 12 كلمة",
+        "importing": "جاري الاستيراد...",
+        "longPhrase": "عبارة الاسترداد الخاصة بي أطول"
+      },
+      "error": {
+        "invalidPhrase": "العبارة التي أدخلتها غير صالحة"
+      },
+      "subtitle": "اكتب أو الصق عبارة الاسترداد المكونة من 12 كلمة",
+      "title": "أدخل عبارة الاسترداد الخاصة بك"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "متابعة في نافذة تسجيل الدخول الآمن."
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "لدي بالفعل محفظة",
+        "signInOrImport": "تسجيل الدخول أو الاستيراد"
+      },
+      "mobileScan": {
+        "button": "مسح رمز الاستجابة السريعة للاستيراد",
+        "title": "هل لديك تطبيق Uniswap؟"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "إضافة محفظة موجودة",
+        "create": "إنشاء محفظة",
+        "createAccount": "إنشاء حساب"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "هذا اسم عام يمكن لأي شخص استخدامه لإرسال العملات المشفرة إليك."
+      },
+      "wallet": {
+        "button": {
+          "text": "ينهي"
+        },
+        "subtitle": "هذا اللقب مرئي لك فقط",
+        "title": "أعط محفظتك اسمًا"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "لتلقي الإشعارات، قم بتشغيل إشعارات Uniswap Wallet في إعدادات جهازك.",
+        "title": "إذن الإخطارات"
+      },
+      "subtitle": "ابق على اطلاع دائم بحالة المعاملات والتغييرات الرئيسية في أسعار الرموز المفضلة لديك.",
+      "title": "تشغيل الإشعارات"
+    },
+    "passkey": {
+      "account": {
+        "protection": "سيتم حماية حسابك بواسطة تخزين كلمة المرور الخاصة بك بشكل آمن."
+      },
+      "biometric": {
+        "scan": "الهاتف أو الجهاز اللوحي أو المتصفح - ما عليك سوى مسح بياناتك الحيوية وسيتم تسجيل دخولك."
+      },
+      "create": "إنشاء مفتاح المرور الخاص بك",
+      "use": {
+        "recovery": {
+          "phrase": "استخدم عبارة الاسترداد بدلاً من ذلك"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "دعنا نتأكد من صحة ما كتبته. إذا فقدت هذا أو كتبته بشكل غير صحيح، فلن تتمكن من استرداد أموالك.",
+          "default": "إذا فقدت هذا المبلغ أو كتبته بطريقة غير صحيحة، فلن تتمكن من استرداد أموالك."
+        },
+        "title": "دعونا نؤكد أنك حصلت على الأمر بشكل صحيح"
+      },
+      "view": {
+        "subtitle": "ستحتاج إلى إدخال جميع هذه الكلمات السرية الـ 12 لاستعادة محفظتك.",
+        "title": {
+          "hasPassword": "إذا نسيت كلمة المرور الخاصة بك..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "أنا مستعد",
+          "message": "عبارة الاسترداد الخاصة بك هي ما يمنحك (ولأي شخص لديه) إمكانية الوصول إلى أموالك. تأكد من الاحتفاظ بها لنفسك.",
+          "title": "قم بهذه الخطوة في مكان خاص"
+        },
+        "screenshot": {
+          "message": "يمكن لأي شخص يمكنه الوصول إلى صورك الوصول إلى محفظتك. ننصحك بكتابة كلماتك بدلاً من ذلك.",
+          "title": "لقطات الشاشة ليست آمنة"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "تعرف على المزيد حول سلامة المحفظة",
+        "subtitle": "استخدم كلمة المرور الجديدة لفتح محفظتك.",
+        "title": "إعادة تعيين كلمة المرور"
+      }
+    },
+    "scan": {
+      "error": "حدث خطأ أثناء تحميل رمز الاستجابة السريعة",
+      "otp": {
+        "error": "الرمز الذي أرسلته غير صحيح، أو حدث خطأ أثناء الإرسال. حاول مرة اخرى.",
+        "failed": "المحاولات الفاشلة: {{number}}",
+        "subtitle": "تحقق من تطبيق الهاتف المحمول Uniswap الخاص بك للحصول على الرمز المكون من 6 أحرف",
+        "title": "أدخل الرمز لمرة واحدة"
+      },
+      "subtitle": "امسح رمز الاستجابة السريعة ضوئيًا باستخدام تطبيق Uniswap للهاتف المحمول لبدء استيراد محفظتك.",
+      "title": "استيراد المحفظة من التطبيق",
+      "troubleScanning": {
+        "message": "الاستيراد عبر عبارة الاسترداد",
+        "title": "مشكلة في المسح الضوئي؟"
+      },
+      "wifi": "قم بتوصيل هاتفك بنفس شبكة WiFi المتصل بها جهاز الكمبيوتر الخاص بك."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "لاستخدام القياسات الحيوية، قم بإعدادها أولاً في الإعدادات",
+            "ios": "لاستخدام {{biometricsMethod}}، اسمح بالوصول في إعدادات النظام"
+          },
+          "title": {
+            "android": "تم تعطيل القياسات الحيوية",
+            "ios": "{{biometricsMethod}} معطل"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "تمكين القياسات الحيوية",
+          "ios": "تمكين {{biometricsMethod}}"
+        },
+        "setup": "يثبت"
+      },
+      "subtitle": {
+        "android": "أضف طبقة إضافية من الأمان من خلال طلب القياسات الحيوية لإرسال المعاملات.",
+        "ios": "أضف طبقة إضافية من الأمان من خلال طلب {{biometricsMethod}} لإرسال المعاملات."
+      },
+      "title": "حماية محفظتك"
+    },
+    "selectWallets": {
+      "error": "تعذر تحميل العناوين",
+      "title": {
+        "default": "اختر محافظ للاستيراد",
+        "error": "حدث خطأ أثناء استيراد المحافظ"
+      }
+    },
+    "termsOfService": "من خلال المتابعة، أوافق على<highlightTerms> شروط الخدمة </highlightTerms>وأوافق على<highlightPrivacy> سياسة الخصوصية</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "ما هي عبارة الاسترداد؟"
+      }
+    },
+    "wallet": {
+      "continue": "دعونا نبقيها آمنة",
+      "defaultName": "المحفظة {{number}}",
+      "description": {
+        "full": "هذه هي مساحتك الشخصية للرموز المميزة والرموز غير القابلة للاستبدال (NFTs) وجميع تداولاتك. قم بإنهاء إعداده للحفاظ على أمان أموالك."
+      },
+      "title": "مرحبًا بك في محفظتك الجديدة"
+    },
+    "welcome": {
+      "subtitle": "دعنا ننتهي من إعداد محفظتك.",
+      "title": "مرحباً!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "لا يزال بإمكانك مبادلة وتوفير السيولة على هذه السلسلة دون مشكلة."
+    },
+    "title": "{{versionName}} سيعود قريبًا"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "هل تواجه مشكلة في استخدام كلمة المرور أو الوصول إليها؟ تفضل بزيارة دعم Uniswap للحصول على المساعدة.",
+        "title": "المساعدة في مفاتيح المرور"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "يسمح Permit2 بمشاركة الموافقات الرمزية وإدارتها عبر تطبيقات مختلفة."
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "نطاق القراد النشط",
+    "addAs": "أضف كـ {{nativeWrappedSymbol}}",
+    "apr": {
+      "description": "يتم احتسابها سنويًا بناءً على رسوم يوم واحد"
+    },
+    "aprText": "معدل الفائدة السنوي للمسبح",
+    "balances": "أرصدة المجمع",
+    "closedCTA": {
+      "description": "يمكنك رؤيتهم باستخدام الفلتر الموجود أعلى الصفحة.",
+      "title": "هل تبحث عن مواقفك المغلقة؟"
+    },
+    "collectAs": "اجمع كـ {{nativeWrappedSymbol}}",
+    "collectFees": "جمع الرسوم",
+    "create": {
+      "info": "ستؤدي اختياراتك إلى إنشاء مجموعة سيولة جديدة قد تؤدي إلى انخفاض السيولة الأولية وزيادة التقلبات. فكر في إضافة استثمارات إلى مجموعة موجودة لتقليل هذه المخاطر."
+    },
+    "createdPosition": {
+      "cancelled": "تم إلغاء إنشاء الموضع",
+      "failed": "فشل إنشاء الموضع"
+    },
+    "details": "تفاصيل المسبح",
+    "earnings": {
+      "empty": "ليس لديك أي أرباح حتى الآن"
+    },
+    "explorers": "المستكشفون",
+    "import": {
+      "link": {
+        "description": "لا يتم عرض بعض مواضع v2 تلقائيًا."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "لا يتم عرض بعض مواضع الإصدار 2 تلقائيًا. حدد زوجًا من الرموز لاستيرادها وعرض مواضعك."
+          }
+        }
+      },
+      "success": "تم استيراد المسبح"
+    },
+    "incentives": {
+      "administeredRewards": "يتم إدارة المكافآت الخاصة بتوفير السيولة من قبل مؤسسة Uniswap.",
+      "collect": "يجمع",
+      "collectedRewards": "المكافآت المجمعة",
+      "collectFailed": "فشل التجميع، يرجى المحاولة مرة أخرى.",
+      "collectFailedNoRetry": "فشلت عملية جمع المكافآت.",
+      "collectingRewards": "جمع المكافآت",
+      "collectRewards": "جمع المكافآت",
+      "collectRewardsCancelled": "تم إلغاء جمع المكافآت",
+      "eligible": "تتمتع المجمعات المؤهلة بمكافآت رمزية حتى تتمكن من كسب المزيد",
+      "rewardsEarned": "المكافآت المكتسبة",
+      "uni": {
+        "description": "احصل على مكافآت UNI من خلال توفير السيولة للمجموعات المؤهلة",
+        "findMore": "ابحث عن المزيد من المسابح مع مكافآت UNI"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "تعذّر استرداد المكافآت. قد يكون السبب مشكلة في الشبكة. حاول إعادة تحميل الصفحة."
+        }
+      }
+    },
+    "info": "معلومات عن المسبح",
+    "limitFluctuation": {
+      "warning": "يرجى العلم أن تنفيذ الحدود قد يختلف بناءً على تقلبات السوق في الوقت الفعلي وازدحام شبكة Ethereum. قد لا يتم تنفيذ الحدود تمامًا عندما تصل الرموز المميزة إلى السعر المحدد."
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "حدث خطأ أثناء جلب البيانات المطلوبة لمعاملتك."
+        }
+      },
+      "outOfSync": {
+        "message": "تختلف الأسعار في هذا المجمع عن أسعار السوق للرموز المحددة. قم بتعديل نطاق السعر وفقًا لذلك أو انتظر حتى يستعيد المجمع توازنه لتجنب الخسائر."
+      }
+    },
+    "maxPrice": "السعر الأقصى",
+    "migrateLiquidity": "نقل السيولة",
+    "migrateLiquidityDisabledTooltip": "هذه السلسلة لا تدعم مجمعات السيولة v4.",
+    "migrateToV4": "الانتقال إلى الإصدار 4",
+    "minPrice": "سعر دقيقة",
+    "newPosition": {
+      "plus": "+ مركز جديد",
+      "title": "موقف جديد"
+    },
+    "newSpecificPosition": "موضع جديد {{symbol}}",
+    "openPosition": {
+      "cta": "أضف السيولة إلى مجموعة واعرض مراكزك هنا"
+    },
+    "openToStart": "افتح مركزًا جديدًا أو أنشئ مجموعة للبدء.",
+    "percent": "{{pct}}% تجمع",
+    "pooled": "مجمعة {{sym}}:",
+    "position": "موضع",
+    "positions": {
+      "title": "مواقفك",
+      "transaction": {
+        "settings": "إعدادات المعاملات"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "القيمة بالدولار الأمريكي غير متاحة حاليًا لهذا المركز. راجع تفاصيل المركز لمعرفة مبالغ الرموز المودعة."
+      }
+    },
+    "priceRange": "نطاق السعر",
+    "refresh": {
+      "prices": "تحديث الأسعار"
+    },
+    "removeLiquidity": "إزالة السيولة",
+    "rewardAPR": {
+      "percent": "{{pct}} معدل النسبة السنوية للمكافأة"
+    },
+    "rewards": "المكافآت",
+    "rewardsPool": {
+      "label": "الرموز المميزة في مجموعة المكافآت:"
+    },
+    "selectPair": "حدد الزوج",
+    "share": {
+      "label": "حصتك في المسبح:"
+    },
+    "specificPosition": "{{symbol}} الموضع",
+    "tokenPair": "زوج الرمز",
+    "top": {
+      "tvl": "أفضل حمامات السباحة حسب TVL"
+    },
+    "totalAPR": "إجمالي معدل النسبة السنوية",
+    "totalTokens": "مجموع الرموز المجمعة الخاصة بك:",
+    "uncollectedFees": "الرسوم غير المحصلة",
+    "v2": "حمامات v2",
+    "v3": "حمامات v3",
+    "viewPools": "عرض حمامات السباحة",
+    "volOverTvl": "1D حجم/حجم الصورة",
+    "volume": {
+      "thirtyDay": {
+        "short": "حجم 30D"
+      }
+    },
+    "withdrawAs": "سحب كـ {{nativeWrappedSymbol}}"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "تجمعات v2 التي تتوافق مع اختيار الزوج الخاص بك."
+      },
+      "notFound": {
+        "description": "لم يتم العثور على مجموعات v2 متطابقة. تحقق مرة أخرى من اختيار الرمز الخاص بك وتأكد من اتصالك بالمحفظة الصحيحة."
+      }
+    }
+  },
+  "pools": {
+    "explore": "استكشاف حمامات السباحة"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "تعتبر الخطافات ميزة متقدمة تتيح للمجموعات التفاعل مع العقود الذكية، مما يفتح المجال أمام قدرات مختلفة. توخ الحذر عند إضافة الخطافات، حيث قد تكون بعضها ضارة أو تسبب عواقب غير مقصودة."
+    },
+    "addingHook": {
+      "disclaimer": "قد يؤدي إضافة الخطافات إلى عواقب غير مقصودة. قم بإجراء البحث واستمر على مسؤوليتك الخاصة.",
+      "hideProperties": "إخفاء الخصائص",
+      "invalidAddress": "أدخل عنوان ربط صالحًا",
+      "viewProperties": "عرض الخصائص"
+    },
+    "create": {
+      "invalidPrice": "سعر غير صالح",
+      "invalidRange": "نطاق غير صالح",
+      "modal": {
+        "header": "إنشاء موقف"
+      }
+    },
+    "currentValue": "قيمة الموضع الحالي",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "السعر الأولي المُدخل أقل بنسبة {{value}}% من سعر السوق، وقد يُؤدي إلى خسارة أموالك. هل ترغب في المُتابعة؟",
+            "more": "السعر الأولي المُدخل أعلى بنسبة {{value}}% من سعر السوق، وقد يُؤدي إلى خسارة أموالك. هل ترغب في المُتابعة؟"
+          },
+          "title": "فرق كبير في السعر مع السوق"
+        }
+      },
+      "description": "قم بتحديد المبالغ الرمزية لمساهمتك في السيولة."
+    },
+    "depositedCurrency": "تم الإيداع {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "إنشاء موضع v2"
+      }
+    },
+    "hook": {
+      "disclaimer": "أتفهم المخاطر المحتملة التي قد تترتب على إضافة هذا الخطاف.",
+      "donateWarning": "قد يؤدي هذا العلم إلى تغييرات في الرسوم المكتسبة.",
+      "liquidityWarning": "قد يتسبب هذا العلم في منع المجمع من إضافة سيولة جديدة. قد يتم التراجع عن معاملتك.",
+      "removeWarning": "قد يؤدي ذلك إلى قفل أموالك أو منعك من تحصيل الرسوم.",
+      "swapWarning": "قد يسمح هذا العلم لمزودي السيولة بالاستفادة من السيولة في الوقت المناسب بسهولة أكبر، مما قد يؤدي إلى انخفاض الرسوم المكتسبة.",
+      "warningHeader": "هام: تم تحديد مخاطر الخطاف",
+      "warningInfo": "لقد حددنا المخاطر المحتملة المرتبطة بهذا الخطاف. يرجى التأكد من فهمك لكيفية عمل هذا الخطاف قبل اتخاذ قرار المتابعة."
+    },
+    "increase": {
+      "fot": "لا يتم دعم إضافة السيولة لـ {{token}} وغيرها من رموز \"الرسوم عند التحويل\"."
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}أقل بنسبة % من سعر السوق",
+        "positive": "{{ value }}أكثر من سعر السوق بنسبة %"
+      },
+      "info": "عند إنشاء تجمع جديد، يجب تحديد سعر الصرف الابتدائي لكلا الرمزين. سيعكس هذا السعر سعر السوق الأولي.",
+      "set": "تحديد السعر الأولي",
+      "useMarketPrice": "استخدم سعر السوق"
+    },
+    "migrate": {
+      "liquidity": "عند ترحيل المواضع، لا يمكنك تغيير زوج الرمز الخاص بك، ولكن يمكنك إضافة خطاف لتحسين الوظائف.",
+      "v4unsupportedChain": "هذه السلسلة غير مدعومة لمجموعات v4."
+    },
+    "new": {
+      "protocol": "موضع جديد {{protocol}}"
+    },
+    "notFound": {
+      "description": "التفاصيل المتعلقة بهذا الموضع غير متوفرة. يرجى التأكد من اتصالك بالمحفظة الصحيحة."
+    },
+    "protocol": "{{protocol}} الموضع",
+    "provide": {
+      "liquidity": "اختر الرموز التي تريد توفير السيولة لها. يمكنك تحديد الرموز على جميع الشبكات المدعومة.",
+      "liquidityDescription": {
+        "creatingPool": "إن تحديد نطاق السيولة الكامل عند إنشاء تجمع يضمن المشاركة المستمرة في السوق عبر جميع الأسعار الممكنة، مما يوفر البساطة ولكن مع إمكانية حدوث خسارة غير دائمة أكبر.",
+        "custom": "يتيح لك النطاق المخصص التركيز على السيولة ضمن حدود سعرية محددة، مما يعزز كفاءة رأس المال وأرباح الرسوم ولكنه يتطلب إدارة أكثر نشاطًا."
+      },
+      "outOfRange": {
+        "closePosition": "إغلاق الموضع",
+        "description": "لا يمكن تعديل نطاق هذا الموضع أثناء الترحيل. لتعيين نطاق جديد، أغلق هذا الموضع وافتح موضع v4 جديد.",
+        "title": "أنت تقوم بنقل موضع خارج النطاق"
+      }
+    },
+    "removeHook": "إزالة الخطاف",
+    "resetDescription": "سيتم إعادة تعيين اختيارات الرموز والسعر والنطاق الخاصة بك.",
+    "setRange": {
+      "inputsBelow": "استخدم المدخلات أدناه لتعيين النطاق الخاص بك."
+    },
+    "step": {
+      "deposit": "أدخل مبالغ الإيداع",
+      "price": "تحديد السعر الأولي ومبالغ الإيداع",
+      "range": "تحديد نطاق السعر ومبالغ الإيداع",
+      "select": "حدد زوج الرمز والرسوم"
+    },
+    "value": "قيمة الموضع",
+    "valueUnavailable": "القيمة بالدولار الأمريكي غير متاحة حاليًا لهذا المركز. راجع تفاصيل المركز لمعرفة مبالغ الرموز المودعة.",
+    "wrapped": {
+      "unwrap": "افتح {{wrappedToken}}",
+      "warning": {
+        "info": "قم بفك {{wrappedToken}} وقم بإيداع {{nativeToken}} لتوفير سيولة أكثر فعالية من حيث التكلفة والكفاءة."
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "قم بتوصيل محفظتك لعرض مواقفك الحالية."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "يسجل التطبيق إحصائيات الاستخدام مجهولة المصدر من أجل التحسين بمرور الوقت.",
+    "autoRouter": "يجلب التطبيق مسار التجارة الأمثل من خادم Uniswap Labs.",
+    "infura": "يقوم التطبيق بجلب البيانات الموجودة على السلسلة وإنشاء مكالمات تعاقدية باستخدام واجهة برمجة تطبيقات Infura.",
+    "thirdPartyApis": "يستخدم هذا التطبيق واجهات برمجة التطبيقات التابعة لجهات خارجية التالية:",
+    "trm": "يجمع التطبيق عنوان محفظتك بشكل آمن ويشاركه مع شركة TRM Labs Inc. لأسباب تتعلق بالمخاطر والامتثال.",
+    "uniswaptos": "شروط خدمة Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "تم ربط تطبيق واحد",
+      "connections_other": "{{count}} التطبيقات متصلة"
+    },
+    "error": {
+      "camera": {
+        "message": "لمسح رمز ضوئيًا، اسمح بالوصول إلى الكاميرا في إعدادات النظام",
+        "title": "تم تعطيل الكاميرا"
+      },
+      "none": "لم يتم العثور على رمز الاستجابة السريعة"
+    },
+    "recipient": {
+      "action": {
+        "scan": "مسح رمز الاستجابة السريعة",
+        "show": "إظهار رمز الاستجابة السريعة الخاص بي"
+      },
+      "error": {
+        "message": "تأكد من قيامك بمسح رمز QR صالح لعنوان Ethereum قبل المحاولة مرة أخرى.",
+        "title": "رمز الاستجابة السريعة غير صالح"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "لم يتم العثور على رسالة."
+      },
+      "method": {
+        "default": "طلب من {{dappNameOrUrl}}",
+        "signature": "طلب التوقيع من {{dappNameOrUrl}}",
+        "transaction": "طلب المعاملة من {{dappNameOrUrl}}"
+      },
+      "withAmount": "السماح لـ {{dappName}} باستخدام ما يصل إلى<highlight> {{amount}} </highlight>{{currencySymbol}}؟",
+      "withoutAmount": "هل تسمح لـ {{dappName}} باستخدام {{currencySymbol}}؟"
+    },
+    "status": {
+      "connecting": "توصيل...",
+      "loading": "تحميل..."
+    },
+    "title": "مسح رمز الاستجابة السريعة",
+    "wallet": {
+      "networks": "الشبكات المدعومة",
+      "title": "يمكنك إرسال واستقبال الرموز والرموز غير القابلة للاستبدال على جميع شبكاتنا المدعومة {{numOfNetworks}} ."
+    }
+  },
+  "range": {
+    "outOfView": "المدى خارج نطاق الرؤية"
+  },
+  "removeLiquidity": {
+    "pooled": "مجمعة {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "يتيح هذا لبروتوكول Uniswap الوصول إلى الرمز الخاص بك للتداول."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "عند توفرها، يتم تجميع مصادر السيولة للحصول على أسعار أفضل ومقايضات خالية من الغاز.",
+    "cheapest": {
+      "v4": "يقوم عميل Uniswap باختيار خيار التداول الأمثل مع الأخذ في الاعتبار السعر وتكاليف الشبكة."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "منتهي الصلاحية",
+      "subtitle": "أدخل هذا الرمز في ملحق Uniswap. سيتم تشفير ونقل عبارة الاسترداد بأمان.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "كود جديد في {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "كود جديد في {{minutes}}m {{seconds}}s",
+          "seconds": "كود جديد في {{seconds}}s"
+        }
+      },
+      "title": "Uniswap رمز لمرة واحدة"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "نعم، استمر"
+      },
+      "label": {
+        "browser": "المتصفح",
+        "device": "جهاز"
+      },
+      "subtitle": "تابع فقط إذا كنت تقوم بمسح رمز الاستجابة السريعة من Uniswap Extension على جهاز موثوق به.",
+      "title": "هل تحاول استيراد محفظتك؟",
+      "warning": "احذر من المواقع والتطبيقات التي تنتحل صفة Uniswap. وإلا فقد تتعرض محفظتك للخطر."
+    },
+    "error": {
+      "encryption": "فشل في إعداد عبارة البذور.",
+      "noCode": "لم يتم تلقي كلمة المرور لمرة واحدة. حاول مرة اخرى.",
+      "timeout": {
+        "message": "قم بمسح رمز الاستجابة السريعة الموجود على ملحق Uniswap مرة أخرى لمواصلة مزامنة محفظتك.",
+        "title": "انتهت مهلة اتصالك"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "لمسح رمز الاستجابة السريعة هذا، يجب أن يكون هاتفك متصلاً بنفس شبكة WiFi المتصل بها جهاز الكمبيوتر الخاص بك ويجب إيقاف تشغيل أي شبكات VPN مؤقتًا.",
+        "title": "قم بتبديل شبكة WiFi الخاصة بك"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "قريبًا: ابحث عن الرموز واستكشفها على {{chainName}} Chain",
+    "input": {
+      "placeholder": "البحث عن الرموز والمجموعات"
+    },
+    "results": {
+      "count_one": "1 عنصر",
+      "count_other": "{{count}} العناصر"
+    },
+    "ukDisclaimer": "إخلاء المسؤولية للمقيمين في المملكة المتحدة"
+  },
+  "send": {
+    "button": {
+      "review": "مراجعة النقل"
+    },
+    "gas": {
+      "error": {
+        "title": "لا يوجد"
+      },
+      "networkCost": {
+        "title": "تكلفة الشبكة"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "الرصيد: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "حدد المستلم",
+      "input": {
+        "placeholder": "بحث ENS أو العنوان"
+      },
+      "previous_one": "1 تحويل سابق",
+      "previous_other": "{{count}} الإنتقالات السابقة",
+      "results": {
+        "empty": "لم يتم العثور على نتائج",
+        "error": "العنوان الذي كتبته إما غير موجود أو تم كتابته بشكل غير صحيح."
+      },
+      "section": {
+        "favorite": "المحافظ المفضلة",
+        "recent": "مؤخرًا",
+        "search": "نتائج البحث",
+        "viewOnly": "محافظ للعرض فقط",
+        "yours": "محافظك"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "لا ترسل الأموال إلى هذه المحفظة إلا إذا كان لديك عبارة الاسترداد أو تعرف مالك المحفظة.",
+          "title": "لديك هذه كمحفظة للعرض فقط"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "عند إرسال الرموز المميزة إلى عنوان المحفظة، ستظهر هنا",
+          "title": "لم يتم حفظ أي محافظ"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "أنت ترسل"
+      },
+      "summary": {
+        "button": {
+          "title": "تأكيد الإرسال"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "العنوان الذي كتبته إما غير موجود أو تم كتابته بشكل غير صحيح.",
+        "title": "لم يتم العثور على نتائج"
+      },
+      "placeholder": "بحث ENS أو العنوان"
+    },
+    "title": "يرسل",
+    "warning": {
+      "blocked": {
+        "default": "هذه المحفظة محظورة",
+        "modal": {
+          "message": "تم حظر هذا العنوان على Uniswap Wallet لأنه مرتبط بنشاط محظور واحد أو أكثر. إذا كنت تعتقد أن هذا خطأ، فيرجى إرسال بريد إلكتروني إلى العنوان@uniswap.org.",
+          "title": "العنوان المحظور"
+        },
+        "recipient": "محفظة المستلم محظورة"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "أنت تحاول إرسال الأموال إلى عنوان رمزي. قد يؤدي هذا إلى خسارة دائمة للأموال.",
+          "heading": "تم اكتشاف عنوان الرمز"
+        },
+        "message": "أنت تحاول إرسال الأموال إلى عنوان رمزي. قد يؤدي إرسال العملات المشفرة إلى هذا النوع من العناوين إلى خسارة دائمة للأموال.",
+        "title": "هذا عنوان رمزي"
+      },
+      "insufficientFunds": {
+        "message": "لقد انخفض رصيد {{currencySymbol}} الخاص بك منذ أن قمت بإدخال المبلغ الذي ترغب في إرساله",
+        "title": "لا يكفي {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "لا يكفي <highlight>{{currencySymbol}} على {{networkName}}</highlight> للإرسال",
+          "withoutNetwork": "لا يكفي <highlight>{{currencySymbol}}</highlight> للإرسال"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "نعم",
+            "cancel": "يلغي",
+            "confirm": "يتأكد"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "إنس",
+          "username": "اسم المستخدم",
+          "walletAddress": "عنوان المحفظة"
+        },
+        "message": "لم تقم بالتعامل مع هذا العنوان من قبل. يرجى التأكد من صحة العنوان قبل المتابعة.",
+        "title": "عنوان جديد"
+      },
+      "self": {
+        "message": "أنت تحاول إرسال الأموال إلى محفظتك الحالية. سيؤدي إرسال التشفير إلى هذا العنوان إلى تكبد تكاليف شبكة غير ضرورية.",
+        "title": "هذه هي محفظتك الحالية"
+      },
+      "smartContract": {
+        "message": "أنت على وشك إرسال أموال إلى عنوان عقد ذكي. تأكد من أن هذا هو العنوان الصحيح وأنه يمكنه تلقي الرموز. إذا لم يكن كذلك، فقد يؤدي هذا إلى خسارة دائمة للأموال.",
+        "title": "هذا هو عنوان العقد الذكي"
+      },
+      "viewOnly": {
+        "message": "تحتاج إلى استيراد هذه المحفظة عبر عبارة الاسترداد لإرسال الأصول.",
+        "title": "هذه المحفظة للعرض فقط"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "الأخيرة"
+    }
+  },
+  "sendReviewModal": {
+    "title": "إرسال المراجعة"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "إظهار عبارة الاسترداد"
+      },
+      "action": {
+        "hide": "إخفاء عبارة الاسترداد"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "أدرك أن Uniswap Labs لا يمكنها مساعدتي في استعادة محفظتي إذا فشلت في القيام بذلك.",
+          "title": "لقد قمت بحفظ عبارة الاسترداد الخاصة بي"
+        },
+        "initial": {
+          "subtitle": "تأكد من حفظ عبارة الاسترداد الخاصة بك. وإلا فسوف تفقد الوصول إلى محفظتك",
+          "title": "قبل المتابعة"
+        },
+        "password": {
+          "error": "كلمة مرور خاطئة. حاول ثانية"
+        },
+        "subtitle": "أدخل كلمة المرور الخاصة بك للتأكيد",
+        "title": "أنت تقوم بإزالة عبارة الاسترداد "
+      },
+      "title": "عبارة الاسترداد الخاصة بك",
+      "view": {
+        "warning": {
+          "message1": "يمكن لأي شخص يعرف عبارة الاسترداد الخاصة بك الوصول إلى محفظتك وأموالك",
+          "message2": "شاهد هذا على انفراد",
+          "message3": "لا تشارك مع أي شخص",
+          "message4": "لا تدخله أبدًا إلى أي مواقع ويب أو تطبيقات",
+          "title": "قبل المتابعة"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "يمكن لأي شخص يعرف عبارة الاسترداد الخاصة بك الوصول إلى محفظتك وأموالك.",
+          "title": "شاهد هذا في مكان خاص"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "تمكين في الإعدادات",
+      "feedback": "ارسل رأيك",
+      "help": "احصل على مساعدة",
+      "lock": "قفل المحفظة",
+      "privacy": "سياسة الخصوصية",
+      "terms": "شروط الخدمة"
+    },
+    "footer": "صُنع بكل حب، \nفريق Uniswap 🦄",
+    "hideSmallBalances": {
+      "subtitle": "سيتم إخفاء الأرصدة التي تقل عن 1 دولار أمريكي من محفظتك."
+    },
+    "maxSlippage": "الأعلى. انزلاق",
+    "section": {
+      "about": "عن",
+      "preferences": "التفضيلات",
+      "privacyAndSecurity": "الخصوصية والأمان",
+      "support": "يدعم",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} محافظ أخرى"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "آلي",
+          "dark": {
+            "subtitle": "استخدم دائمًا المظهر الداكن.",
+            "title": "مظلم"
+          },
+          "device": {
+            "subtitle": "يتكيف مع إعدادات جهازك.",
+            "title": "آلي"
+          },
+          "light": {
+            "subtitle": "استخدم دائمًا المظهر الفاتح.",
+            "title": "ضوء"
+          }
+        },
+        "title": "سمة"
+      },
+      "backup": {
+        "create": {
+          "description": "سيؤدي تعيين كلمة مرور إلى تشفير النسخة الاحتياطية لعبارة الاسترداد، مما يضيف مستوى إضافيًا من الحماية في حالة تعرض حسابك {{cloudProviderName}} للاختراق.",
+          "title": "قم بالنسخ الاحتياطي إلى {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "ونظرًا لأن هذه المحافظ تشترك في عبارة استرداد، فإنها ستحذف أيضًا النسخ الاحتياطية لهذه المحافظ أدناه",
+            "title": "هل أنت متأكد؟"
+          },
+          "warning": "إذا قمت بحذف النسخة الاحتياطية {{cloudProviderName}} ، فلن تتمكن من استرداد محفظتك إلا من خلال نسخة احتياطية يدوية لعبارة الاسترداد الخاصة بك. لا تستطيع Uniswap Labs استرداد الأصول الخاصة بك إذا فقدت عبارة الاسترداد الخاصة بك."
+        },
+        "error": {
+          "message": {
+            "full": "غير قادر على عمل نسخة احتياطية لعبارة الاسترداد إلى {{cloudProviderName}}. يرجى التأكد من تمكين {{cloudProviderName}} مع مساحة التخزين المتوفرة والمحاولة مرة أخرى.",
+            "short": "غير قادر على حذف النسخة الاحتياطية"
+          },
+          "title": "{{cloudProviderName}} خطأ"
+        },
+        "modal": {
+          "description": "لم تقم بعمل نسخة احتياطية لعبارة الاسترداد الخاصة بك إلى {{cloudProviderName}} حتى الآن. ومن خلال القيام بذلك، يمكنك استرداد محفظتك بمجرد تسجيل الدخول إلى {{cloudProviderName}} على أي جهاز.",
+          "title": "نسخ عبارة الاسترداد احتياطيًا إلى {{cloudProviderName}}؟"
+        },
+        "password": {
+          "error": {
+            "mismatch": "كلمة المرور غير مطابقة"
+          },
+          "medium": "هذه كلمة مرور متوسطة",
+          "placeholder": {
+            "confirm": "تأكيد كلمة المرور",
+            "create": "إنشاء كلمة المرور"
+          },
+          "strong": "هذه كلمة مرور قوية",
+          "weak": "هذه كلمة مرور ضعيفة"
+        },
+        "recoveryPhrase": {
+          "label": "عبارة الاسترداد"
+        },
+        "selected": "{{cloudProviderName}} النسخ الاحتياطي",
+        "status": {
+          "action": {
+            "delete": "حذف النسخة الاحتياطية"
+          },
+          "complete": "تم النسخ الاحتياطي إلى {{cloudProviderName}}",
+          "description": "من خلال نسخ عبارة الاسترداد احتياطيًا إلى {{cloudProviderName}}، يمكنك استرداد محفظتك بمجرد تسجيل الدخول إلى حسابك {{cloudProviderName}} على أي جهاز.",
+          "inProgress": "جارٍ النسخ الاحتياطي إلى {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "استعيدت"
+          },
+          "title": "{{cloudProviderName}} النسخ الاحتياطي"
+        }
+      },
+      "beta": {
+        "tooltip": "قريباً"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "يتطلب الوجه/بصمة الإصبع لفتح التطبيق.",
+            "ios": "يتطلب {{biometricsMethod}} لفتح التطبيق."
+          },
+          "title": "الوصول إلى التطبيق"
+        },
+        "auth": "يرجى المصادقة",
+        "off": {
+          "message": {
+            "android": "تم إيقاف القياسات الحيوية حاليًا لـ Uniswap Wallet، ويمكنك تشغيلها في إعدادات النظام لديك.",
+            "ios": "{{biometricsMethod}} معطل حاليًا لـ Uniswap Wallet — يمكنك تشغيله في إعدادات النظام لديك."
+          },
+          "title": {
+            "android": "تم إيقاف القياسات الحيوية",
+            "ios": "تم إيقاف تشغيل {{biometricsMethod}}"
+          }
+        },
+        "title": "فتح القفل عن طريق الوجه/بصمة الإصبع",
+        "transactions": {
+          "subtitle": {
+            "android": "يتطلب الوجه/بصمة الإصبع لإتمام المعاملات.",
+            "ios": "يتطلب {{biometricsMethod}} لإتمام المعاملة."
+          },
+          "title": "المعاملات"
+        },
+        "unavailable": {
+          "message": {
+            "android": "لم يتم إعداد القياسات الحيوية على جهازك. لاستخدام القياسات الحيوية، قم بإعدادها أولاً في الإعدادات.",
+            "ios": "{{biometricsMethod}} لم يتم إعداده على جهازك. لاستخدام {{biometricsMethod}}، قم بإعداده أولاً في الإعدادات."
+          },
+          "title": {
+            "android": "لم يتم إعداد القياسات الحيوية",
+            "ios": "{{biometricsMethod}} لم يتم إعداده"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "إذا لم تقم بتشغيل القياسات الحيوية، فيمكن لأي شخص يمكنه الوصول إلى جهازك فتح Uniswap Wallet وإجراء المعاملات.",
+            "ios": "إذا لم تقم بتشغيل {{biometricsMethod}}، فيمكن لأي شخص يمكنه الوصول إلى جهازك فتح Uniswap Wallet وإجراء المعاملات."
+          },
+          "title": "هل أنت متأكد؟"
+        }
+      },
+      "connections": {
+        "disconnectAll": "افصل كل شيء",
+        "noConnectionsDescription": "قم بالاتصال بالتطبيق من خلال البحث عن زر \"Connect Wallet\" أو \"تسجيل الدخول\"."
+      },
+      "currency": {
+        "title": "العملة المحلية"
+      },
+      "hapticTouch": {
+        "title": "اللمسة اللمسية"
+      },
+      "helpCenter": {
+        "title": "مركز المساعدة"
+      },
+      "language": {
+        "button": {
+          "navigate": "اذهب للاعدادات"
+        },
+        "description": {
+          "extension": "يتم تعيين Uniswap افتراضيًا على إعدادات لغة النظام لديك. لتغيير لغتك المفضلة، انتقل إلى إعدادات النظام لديك.",
+          "mobile": "يُضبط Uniswap افتراضيًا على لغة جهازك. لتغيير لغتك المفضلة، انتقل إلى \"Uniswap\" في إعدادات جهازك وانقر على \"اللغة\"."
+        },
+        "title": "لغة"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "التحويلات والطلبات والأنشطة الأخرى",
+            "title": "نشاط المحفظة"
+          },
+          "priceAlerts": {
+            "description": "تغييرات كبيرة في أسعار الرموز المفضلة",
+            "title": "تنبيهات الأسعار"
+          },
+          "updates": {
+            "description": "التوصيات والميزات الجديدة",
+            "title": "تحديثات من Uniswap"
+          }
+        },
+        "title": "إشعارات"
+      },
+      "password": {
+        "title": "تغيير كلمة المرور"
+      },
+      "permissions": {
+        "title": "الأذونات"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "نحن نستخدم بيانات استخدام مجهولة المصدر لتحسين تجربتك عبر منتجات Uniswap Labs. عند التعطيل، فإننا نتتبع الأخطاء والاستخدام الأساسي فقط.",
+          "title": "تحليلات التطبيق"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "ادخل رقمك السري"
+        },
+        "title": "عبارة الاسترداد"
+      },
+      "smallBalances": {
+        "title": "رصيد المحفظة"
+      },
+      "unknownTokens": {
+        "subtitle": "سيتم إخفاء رموز الاحتيال المحتملة من محفظتك.",
+        "title": "إخفاء الرموز غير المعروفة"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "تحرير التسمية",
+          "editProfile": "تعديل الملف الشخصي",
+          "remove": "إزالة المحفظة"
+        },
+        "connection": {
+          "banner": {
+            "description": "يمكنك إدارة الاتصالات عبر إعدادات المحفظة، وذلك بالنقر على صورة ملفك الشخصي.",
+            "title": "لقد انتقلت الاتصالات"
+          }
+        },
+        "connections": {
+          "title": "الاتصالات"
+        },
+        "editLabel": {
+          "description": "التسميات ليست عامة. يتم تخزينها محليًا وتكون مرئية لك فقط.",
+          "save": "حفظ التغييرات"
+        },
+        "label": "كنية",
+        "testnetMode": {
+          "description": "يؤدي هذا إلى تشغيل شبكات الاختبار للمطورين لتجربة الميزات والمعاملات دون استخدام أصول حقيقية. لا تحمل الرموز الموجودة على شبكات الاختبار أي قيمة حقيقية.",
+          "title": "وضع الشبكة الاختبارية"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "لاستخدام Uniswap على {{label}}، قم بتبديل الشبكة في إعدادات محفظتك."
+    },
+    "title": "إعدادات",
+    "version": "الإصدار {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "توفر المحافظ الذكية معاملات أسرع وأقل تكلفة باستخدام عقود ذكية آمنة.",
+      "info": "لن تتأثر المحافظ التي تستخدم بالفعل ميزات المحفظة الذكية من تطبيق آخر."
+    },
+    "enabledModal": {
+      "description": "سيتم تطبيق التحديثات في عملية التبديل التالية.",
+      "title": "تم تمكين المحفظة الذكية"
+    },
+    "postSwapNudge": {
+      "description": "توفر المحفظة الذكية معاملات أسرع وبتكلفة منخفضة باستخدام عقود ذكية آمنة.",
+      "enable": "تمكين المحفظة الذكية",
+      "title": "وفر في عملية المبادلة القادمة"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "لم تقم بالتعامل مع هذا العنوان من قبل. تأكد من أنه العنوان الصحيح قبل المتابعة.",
+        "title": "عنوان جديد"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "أنت على وشك إرسال الرموز المميزة إلى نوع خاص من العناوين - عقد ذكي. تحقق مرة أخرى من العنوان الذي تنوي الإرسال إليه. إذا كان الأمر خاطئًا، فقد تفقد الرموز المميزة الخاصة بك إلى الأبد.",
+        "title": "هل هذا عنوان المحفظة؟"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "رسوم 24 ساعة",
+    "24volume": "حجم 24 ساعة",
+    "allTimeFees": "رسوم LP طوال الوقت",
+    "allTimeSwappers": "مقايضة كل الوقت",
+    "allTimeVolume": "حجم كل الوقت",
+    "fdv": {
+      "description": "يحسب التقييم المخفف بالكامل (FDV) إجمالي القيمة السوقية على افتراض أن جميع الرموز المميزة متداولة."
+    },
+    "marketCap": {
+      "description": "القيمة السوقية هي القيمة السوقية الإجمالية للعرض المتداول للأصل."
+    },
+    "tvl": {
+      "description": "القيمة الإجمالية المقفلة (TVL) هي المبلغ الإجمالي للأصول المتاحة عبر جميع مجموعات السيولة Uniswap."
+    },
+    "volume": {
+      "1d": {
+        "description": "حجم اليوم الواحد هو مقدار الأصول التي تم تداولها على Uniswap خلال الـ 24 ساعة الماضية.",
+        "long": "حجم أحادي الأبعاد",
+        "short": "1D المجلد"
+      },
+      "description": "الحجم هو مقدار الأصول التي تم تداولها على Uniswap خلال الإطار الزمني المحدد."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "السماح {{sym}} (مرة واحدة)"
+    },
+    "approvalNeeded": "هناك حاجة إلى موافقة لاستخدام هذا الرمز المميز. ",
+    "approvalPending": "في انتظار الموافقة",
+    "approveAndSubmit": "الموافقة والتقديم",
+    "approveAndSwap": "الموافقة والمبادلة",
+    "approveInWallet": "الموافقة في محفظتك",
+    "balance": {
+      "amount": "الرصيد: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "من المتوقع أن تبلغ تكلفة الطريق الأكثر كفاءة حوالي{{gasPrice}} في تكاليف الشبكة. "
+    },
+    "bridging": {
+      "estimatedTime": "الوقت المقدر",
+      "title": "التبديل عبر الشبكات",
+      "warning": {
+        "description": "أنت تقوم بالتبديل من {{fromNetwork}} إلى {{toNetwork}}. يُعرف هذا أيضًا باسم \"الربط\"، والذي ينقل رموزك من شبكة إلى أخرى."
+      }
+    },
+    "button": {
+      "max": "الأعلى",
+      "review": "مراجعة",
+      "submitting": {
+        "keep": {
+          "open": "أبقِ محفظتك مفتوحة..."
+        }
+      },
+      "swap": "تبديل",
+      "swapAnyways": "تبادل على أية حال",
+      "unwrap": "بسط",
+      "wrap": "طَوّق"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "البحث حسب البلد أو المنطقة"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "يمكن تنفيذ المبادلة الخاصة بك قبل معالجة الإلغاء. لا يمكن استرداد تكاليف الشبكة الخاصة بك. هل ترغب في المتابعة؟",
+      "cannotExecute_other": "يمكن تنفيذ مقايضاتك قبل معالجة الإلغاء. لا يمكن استرداد تكاليف الشبكة الخاصة بك. هل ترغب في المتابعة؟"
+    },
+    "confirmLimit": "تأكيد الحد",
+    "confirmSwap": "تأكيد المبادلة",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "الموعد النهائي لـ Tx."
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "رسوم رمزية"
+      },
+      "newQuote": {
+        "input": "مدخلات جديدة",
+        "output": "إخراج جديد"
+      },
+      "orderRouting": "توجيه الطلب",
+      "orderRoutingInfo": "يتم توجيه هذا التبادل عبر Across، وهو بروتوكول لامركزي ينقل الأصول عبر الشبكات مع إعطاء الأولوية للسلامة والتنفيذ السريع والأسعار المنخفضة.",
+      "poweredBy": "مدعوم بواسطة",
+      "rate": "معدل",
+      "slippage": "أقصى انزلاق",
+      "uniswapFee": "مصاريف"
+    },
+    "error": {
+      "default": "قد تحتاج إلى زيادة قدرتك على تحمل الانزلاق. ملاحظة: الرموز المميزة للرسوم عند النقل وإعادة الأساس غير متوافقة مع Uniswap V3.",
+      "expectedToFail": "من المتوقع أن تفشل المبادلة الخاصة بك.",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} الإدخال غير متاح",
+      "modifiedByWallet": "تم تعديل المبادلة الخاصة بك من خلال محفظتك. إذا كان هذا خطأً، فيرجى الإلغاء فورًا وإلا ستخاطر بخسارة أموالك.",
+      "rejected": "تم رفض المعاملة",
+      "undefinedObject": "حدث خطأ أثناء محاولة تنفيذ عملية المبادلة هذه. قد تحتاج إلى زيادة قدرتك على تحمل الانزلاق. إذا لم ينجح ذلك، فقد يكون هناك عدم توافق مع الرمز المميز الذي تتداوله. ملاحظة: الرموز المميزة للرسوم عند النقل وإعادة الأساس غير متوافقة مع Uniswap V3.",
+      "unknown": "خطأ غير معروف.",
+      "v2": {
+        "expired": "تعذر إرسال هذه المعاملة نظرًا لانتهاء الموعد النهائي. يرجى التأكد من أن الموعد النهائي لمعاملتك ليس منخفضًا جدًا.",
+        "k": "لم يكن Uniswap الثابت x*y=k راضيًا عن المبادلة. يعني هذا عادةً أن أحد الرموز المميزة التي تقوم بتبديلها يتضمن سلوكًا مخصصًا عند النقل.",
+        "slippage": "لن تنجح هذه المعاملة سواء بسبب حركة السعر أو رسوم التحويل. حاول زيادة قدرتك على تحمل الانزلاق",
+        "transferInput": "لا يمكن نقل رمز الإدخال. قد تكون هناك مشكلة في رمز الإدخال.",
+        "transferOutput": "لا يمكن نقل رمز الإخراج. قد تكون هناك مشكلة في رمز الإخراج."
+      },
+      "v3": {
+        "slippage": "لن تنجح هذه الصفقة بسبب حركة السعر. حاول زيادة قدرتك على تحمل الانزلاق. ملحوظة: رسوم النقل ورموز إعادة التأسيس غير متوافقة مع Uniswap V3.",
+        "transferOutput": "لا يمكن نقل رمز الإخراج. قد تكون هناك مشكلة في رمز الإخراج. ملحوظة: رسوم النقل ورموز إعادة التأسيس غير متوافقة مع Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "سيكون هناك فرق كبير بين قيم المدخلات والمخرجات بسبب السيولة الحالية."
+    },
+    "fail": {
+      "message": "حاول تعديل الانزلاق إلى قيمة أعلى.",
+      "uniswapX": "لا يمكن إكمال عملية المبادلة باستخدام UniswapX. حاول إجراء المبادلة مرة أخرى لتوجيهها عبر Uniswap API الكلاسيكي."
+    },
+    "fees": {
+      "experience": "يتم تطبيق هذه الرسوم على بعض أزواج الرموز لضمان أفضل تجربة مع Uniswap. يتم دفعها في الرمز الناتج وقد تم تضمينها بالفعل في السعر.",
+      "noFee": "يتم تطبيق الرسوم على أزواج الرموز المميزة لضمان أفضل تجربة مع Uniswap. لا توجد رسوم مرتبطة بهذا المبادلة."
+    },
+    "fetchingBestPrice": "جلب أفضل الأسعار ...",
+    "fetchingPrice": "جارٍ جلب السعر...",
+    "finalizingQuote": "الانتهاء من الاقتباس...",
+    "form": {
+      "header": "تبديل",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "نظرًا لرسوم الرمز المميز، لا يمكن إدخال مبالغ المبادلة إلا باستخدام حقل الإدخال"
+          }
+        },
+        "restore": "استعادة محفظتك للتبديل"
+      }
+    },
+    "frontrun": {
+      "warning": "قد تكون معاملتك في المقدمة وتؤدي إلى تجارة غير مواتية."
+    },
+    "header": {
+      "viewOnly": "للاطلاع فقط"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "قد لا تكون حسابات تأثير السعر متاحة للأزواج ذات السيولة المنخفضة."
+      }
+    },
+    "inputEstimated": {
+      "atMost": "يتم تقدير المدخلات. سوف تبيع على الأكثر <amount /> أو ستعود المعاملة."
+    },
+    "limit": "حد",
+    "limitedAssets": {
+      "warning": "بعض الأصول غير متاحة من خلال هذه الواجهة لأنها قد لا تعمل بشكل جيد مع العقود الذكية أو لأننا غير قادرين على السماح بالتداول لأسباب قانونية."
+    },
+    "limitFilled": "الحد ممتلئ!",
+    "limitSubmitted": "الحد المقدم",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "سعر السوق خارج النطاق السعري المحدد. الودائع ذات الأصول الواحدة فقط."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "الحد الأقصى للمبلغ الذي نضمن لك إنفاقه. إذا انخفض السعر أكثر من ذلك، فسيتم إرجاع معاملتك."
+    },
+    "minPriceSlip": {
+      "revert": "إذا تحرك السعر بحيث تتلقى أقل من {{amount}}، فسيتم إرجاع معاملتك."
+    },
+    "networkCost": {
+      "paidIn": "يتم دفع تكلفة الشبكة بـ {{sym}} على الشبكة {{chainName}} من أجل إجراء المعاملات."
+    },
+    "orderRouting": "توجيه الطلب",
+    "outputEstimated": {
+      "atLeast": "ويقدر الناتج. سوف تتلقى على الأقل <amount /> أو سيتم إرجاع المعاملة."
+    },
+    "payAnyway": "ادفع على أي حال",
+    "payAtMost": "ادفع على الأكثر",
+    "payWith": "ادفع عن طريق",
+    "placeOrder": "مكان الامر",
+    "priceImpact": "تأثير السعر",
+    "receive": {
+      "atLeast": "تلقي على الأقل"
+    },
+    "request": {
+      "title": {
+        "full": "مبادلة {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "مبادلة الرموز"
+      }
+    },
+    "review": {
+      "summary": "أنت تقوم بالتبديل"
+    },
+    "reviewLimit": "حد المراجعة",
+    "route": {
+      "optimizedGasCost": "يأخذ هذا المسار في الاعتبار المسارات المنقسمة والقفزات المتعددة وتكاليف الشبكة لكل خطوة."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "سيتم استرداد معاملتك إذا ظلت معلقة لأكثر من هذه الفترة الزمنية. (الحد الأقصى: 3 أيام).",
+        "warning": "الموعد النهائي مرتفع"
+      },
+      "protection": {
+        "description": "مع تشغيل حماية المبادلة، ستتم حماية معاملاتك على الإيثيريوم من هجمات الساندويتش، مع تقليل فرص الفشل.",
+        "subtitle": {
+          "supported": "{{chainName}} الشبكة",
+          "unavailable": "غير متوفر على {{chainName}}"
+        },
+        "title": "حماية المبادلة"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "يقوم عميل Uniswap باختيار خيار التداول الأرخص مع الأخذ في الاعتبار السعر وتكاليف الشبكة."
+            },
+            "tooltip": "يتم تحديد المسار مع الأخذ في الاعتبار مجموعات v2 وv3 وv4 معينة، مع الأخذ في الاعتبار تأثير السعر المقدر وتكاليف الشبكة."
+          },
+          "v2": {
+            "title": "حمامات v2"
+          },
+          "v3": {
+            "title": "حمامات v3"
+          },
+          "v4": {
+            "title": "حمامات سباحة v4"
+          }
+        },
+        "title": "خيارات التجارة"
+      },
+      "slippage": {
+        "alert": "انزلاق عالي",
+        "control": {
+          "auto": "آلي"
+        },
+        "description": "سيتم إرجاع معاملتك إذا تغير السعر بأكثر من نسبة الانزلاق.",
+        "input": {
+          "message": "إذا انخفض السعر أكثر من ذلك، فسيتم إرجاع معاملتك. فيما يلي الحد الأدنى للمبلغ الذي نضمن حصولك عليه.",
+          "receive": {
+            "title": "تلقي على الأقل"
+          }
+        },
+        "output": {
+          "message": "إذا انخفض السعر أكثر من ذلك، فسيتم إرجاع معاملتك. فيما يلي الحد الأقصى للمبلغ الذي قد تحتاج إلى إنفاقه.",
+          "spend": {
+            "title": "قضاء على الأكثر"
+          }
+        },
+        "warning": {
+          "description": "من المرجح أن يؤدي الانزلاق فوق 20% إلى تداول غير مواتٍ. لتقليل خطر الانطلاق، قم بخفض إعداداتك.",
+          "hover": "قد يؤدي هذا إلى تداول غير مواتٍ. حاول خفض إعدادات الانزلاق.",
+          "max": "أدخل قيمة أقل من {{maxSlippageTolerance}}",
+          "message": "قد يكون الانزلاق أعلى من اللازم",
+          "min": "أدخل قيمة أكبر من 0"
+        }
+      },
+      "title": "إعدادات المبادلة",
+      "transactionRevertPrice": "سيتم إرجاع معاملتك إذا تغير السعر بشكل غير مناسب بأكثر من هذه النسبة."
+    },
+    "signAndSwap": "التوقيع والمبادلة",
+    "slippage": {
+      "amt": "{{amt}} الإنزلاق",
+      "bridging": "لا يوجد انزلاق عند التبديل عبر الشبكات",
+      "settings": {
+        "title": "إعدادات الانزلاق"
+      },
+      "tooltip": "سيتم إرجاع الحد الأقصى لحركة السعر قبل معاملتك."
+    },
+    "slippageBelow": {
+      "warning": "قد يؤدي الانزلاق تحت {{amt}} إلى فشل الصفقة"
+    },
+    "submitted": "تم تقديم المبادلة",
+    "success": "مبادلة النجاح!",
+    "tokenOwnFees": "تأخذ بعض الرموز المميزة رسومًا عند شرائها أو بيعها، والتي يحددها مصدر الرمز المميز. لا يتلقى Uniswap أيًا من هذه الرسوم.",
+    "total": "المجموع",
+    "tradeRoutes": "طرق التجارة",
+    "transaction": {
+      "deadline": "الموعد النهائي للمعاملة",
+      "revertAfter": "سيتم إرجاع معاملتك إذا كانت معلقة لأكثر من هذه الفترة الزمنية."
+    },
+    "unsupportedAssets": {
+      "readMore": "اقرأ المزيد عن الأصول غير المدعومة"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "أدخل مبلغًا أكبر"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "حاول زيادة الانزلاق الخاص بك.",
+        "titleMay": "قد تفشل هذه المبادلة"
+      },
+      "insufficientBalance": {
+        "title": "ليس لديك ما يكفي {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "قم بالتبديل إلى {{ tokenSymbol }} على {{networkName}}",
+          "buy": "شراء {{ tokenSymbol }}",
+          "buyWithCard": "شراء بالبطاقة"
+        },
+        "message": {
+          "withNetwork": "لا يكفي <highlight>{{currencySymbol}} على {{networkName}}</highlight> للتبديل",
+          "withoutNetwork": "لا يكفي <highlight>{{currencySymbol}}</highlight> للتبديل"
+        },
+        "title": "ليس لديك ما يكفي {{currencySymbol}} لتغطية تكلفة الشبكة"
+      },
+      "networkFee": {
+        "allow": "السماح {{ inputTokenSymbol }} (مرة واحدة)",
+        "highRelativeToValue": {
+          "unichain": "تتجاوز تكلفة الشبكة 10% من إجمالي قيمة معاملتك. هذه هي تكلفة معالجة معاملتك على blockchain."
+        },
+        "message": {
+          "unichain": "هذه هي تكلفة معالجة معاملتك على blockchain.",
+          "uniswapX": {
+            "unichain": "هذه هي تكلفة معالجة معاملتك على blockchain. <gradient>UniswapX</gradient> يجمع مصادر السيولة للحصول على أسعار أفضل ومقايضات خالية من الغاز."
+          }
+        },
+        "wrap": "لف إيثريوم"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "لم يتم العثور على اقتباسات ربط. حاول استخدام الرابط الرسمي في هذا الوقت."
+        },
+        "title": "لم يتم العثور على اقتباسات"
+      },
+      "noRoutesFound": {
+        "message": "لا تتوفر حاليًا أي مسارات للرموز المحددة. يُرجى تجربة زوج مختلف أو التحقق مرة أخرى لاحقًا.",
+        "title": "لا توجد طرق متاحة"
+      },
+      "offline": {
+        "message": "ربما فقدت الاتصال بالإنترنت أو ربما تكون الشبكة معطلة. يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.",
+        "title": "أنت غير متصل بالإنترنت"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "ستؤدي هذه الصفقة إلى تأثير سعري بنسبة {{priceImpactValue}} على سعر السوق لهذا المجمع وسوف تؤدي إلى خسارة الأموال."
+        },
+        "title": {
+          "veryHigh": "تأثير سعر مرتفع جدًا ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "لم يتم إرسال معاملتك لأنك أغلقت التطبيق.",
+        "approvalFailed": "لم يتم إرسال معاملتك بسبب فشل الموافقة على الرمز المميز.",
+        "stale": "لم يتم إرسال معاملتك لأنك أغلقت التطبيق أو لأن الموافقة استغرقت وقتًا طويلاً.",
+        "submissionFailed": "حدثت مشكلة أثناء إرسال معاملتك.",
+        "title": "تم إلغاء المبادلة",
+        "wrap": {
+          "message": "ستظل عملة ETH الخاصة بك ملفوفة باسم WETH."
+        },
+        "wrapFailed": "لم يتم إرسال معاملتك بسبب فشل معاملة الالتفاف."
+      },
+      "rateLimit": {
+        "message": "يرجى المحاولة مرة أخرى في بضع دقائق.",
+        "title": "حد معدل تجاوز"
+      },
+      "router": {
+        "message": "ربما فقدت الاتصال أو ربما تكون الشبكة معطلة. إذا استمرت المشكلة، يرجى المحاولة مرة أخرى لاحقًا.",
+        "title": "لا يمكن إكمال هذه التجارة الآن"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} محظور"
+      },
+      "tokenBlockedFallback": {
+        "button": "تم حظر الرمز"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "يتم تطبيق الرسوم لضمان أفضل تجربة مع Uniswap. لا توجد رسوم مرتبطة بهذا المبادلة.",
+          "included": "يتم تطبيق الرسوم لضمان أفضل تجربة مع Uniswap، وقد تم أخذها في الاعتبار بالفعل في هذا العرض."
+        },
+        "title": "رسوم المبادلة"
+      },
+      "viewOnly": {
+        "message": "تحتاج إلى استيراد هذه المحفظة عبر عبارة الاسترداد لمبادلة الرموز المميزة."
+      }
+    },
+    "wrap": {
+      "token": "التفاف {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "على الشبكات الأخرى",
+      "otherNetworksBalance": "التوازن على الشبكات الأخرى",
+      "title": "رصيدك"
+    },
+    "button": {
+      "getToken": "احصل على {{ tokenSymbol }}",
+      "getTokenFallback": "احصل على الرمز"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "قم بالتبديل إلى {{network}}",
+      "title": "هذا الرمز غير موجود",
+      "titleWithChain": "هذا الرمز غير موجود على {{network}}"
+    },
+    "loading": {
+      "title": {
+        "default": "بيانات الرمز المميز لـ <tokenLink />",
+        "withChain": "بيانات الرمز المميز لـ <tokenLink /> على {{chainName}}"
+      }
+    },
+    "nameNotFound": "لم يتم العثور على الاسم",
+    "noInfoAvailable": "لا توجد معلومات رمزية متاحة",
+    "noTestnetSupportDescription": "بعض شبكات الاختبار لا تدعم تبادل الرموز أو إرسالها أو شرائها.",
+    "stats": {
+      "unsupportedChainDescription": "إحصائيات ومخططات الرمز المميز لـ {{chain}} متاحة على {{infoLink}}"
+    },
+    "symbolNotFound": "لم يتم العثور على الرمز"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "يتطلب هذا الإجراء تعطيل وضع الشبكة التجريبية. يمكن إعادة تمكين وضع الشبكة التجريبية في أي وقت ضمن الإعدادات.",
+          "toTestnetMode": "يتطلب هذا الإجراء تمكين وضع الشبكة التجريبية. لا تحمل الرموز الموجودة على الشبكات التجريبية أي قيمة حقيقية. يمكن تعطيل وضع الشبكة التجريبية في أي وقت ضمن الإعدادات."
+        },
+        "title": {
+          "toProdMode": "تعطيل وضع الشبكة التجريبية",
+          "toTestnetMode": "تمكين وضع الشبكة التجريبية"
+        }
+      }
+    },
+    "unsupported": "لا يتم دعم هذه الوظيفة في وضع الشبكة التجريبية."
+  },
+  "themeToggle": {
+    "theme": "سمة"
+  },
+  "title": {
+    "buySellTradeEthereum": "قم بشراء وبيع وتداول Ethereum وغيرها من الرموز المميزة على Uniswap",
+    "createGovernanceOn": "قم بإنشاء مقترح حوكمة جديد على Uniswap",
+    "createGovernanceTo": "إنشاء مقترح حوكمة جديد ليتم التصويت عليه من قبل أصحاب UNI. تمثل رموز UNI حصص التصويت في إدارة Uniswap.",
+    "earnFees": "اربح رسومًا عندما يقوم الآخرون بالمبادلة على Uniswap عن طريق إضافة الرموز المميزة إلى مجمعات السيولة.",
+    "easilyRemove": "قم بإزالة السيولة الخاصة بك بسهولة من Uniswap v2 وقم بالإيداع في Uniswap v3.",
+    "easilyRemoveV4": "يمكنك بسهولة إزالة السيولة الخاصة بك من Uniswap v2 و v3 لإيداعها في Uniswap v4.",
+    "explore": "اكتشف NFTs على Uniswap",
+    "extensionPasskeySignIn": "تسجيل الدخول باستخدام مفتاح المرور",
+    "manageNFT": "إدارة مجموعة NFT الخاصة بك. اعرض السمات ونشاط التداول والأوصاف والتفاصيل الأخرى حول NFTs الخاصة بك.",
+    "migratev2": "قم بترحيل سيولة المجمع v2 إلى Uniswap v3",
+    "migratev3": "نقل سيولة المجمع إلى Uniswap v4",
+    "placeLimit": "ضع أوامر محدودة على Uniswap",
+    "realTime": "الأسعار في الوقت الفعلي، والرسوم البيانية، وبيانات المعاملات، والمزيد.",
+    "removeLiquidityv2": "قم بإزالة سيولة المجمع (الإصدار الثاني) على Uniswap",
+    "removePoolLiquidity": "قم بإزالة سيولة المجمع على Uniswap",
+    "removeTokensv2": "قم بإزالة الرموز المميزة الخاصة بك من مجمعات السيولة v2.",
+    "removev3Liquidity": "قم بإزالة الرموز المميزة الخاصة بك من مجمعات السيولة v3.",
+    "sendTokens": "أرسل الرموز المميزة على Uniswap",
+    "swappingMadeSimple": "أصبح المبادلة أمرًا بسيطًا. يمكنك شراء وبيع العملات المشفرة على Ethereum وBase وArbitrum وPolygon والمزيد. موثوق بها من قبل الملايين.",
+    "tradeTokens": "تداول الرموز وتوفير السيولة. الأسعار في الوقت الفعلي، والرسوم البيانية، وبيانات المعاملات، والمزيد.",
+    "uniswapTradeCrypto": "يونيسواب | تداول العملات المشفرة وNFTs بأمان على أفضل منصة DeFi",
+    "uniToken": "تمثل رموز UNI حصص التصويت في إدارة Uniswap. يمكنك التصويت على كل مقترح بنفسك أو تفويض أصواتك لطرف ثالث.",
+    "voteOnGov": "التصويت على مقترحات الإدارة على Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "رصيدك",
+      "other": "أرصدة على الشبكات الأخرى",
+      "viewOnly": "{{ownerAddress}}رصيد"
+    },
+    "bridge": "{{label}} جسر رمزي",
+    "chart": {
+      "candlestick": {
+        "unavailable": "لا تتوفر مخططات الشموع لهذه الرمز"
+      },
+      "tooltip": "الرسوم: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "تفاصيل الرمز غير متوفرة لرموز الشبكة التجريبية."
+      }
+    },
+    "error": {
+      "unknown": "رمز غير معروف"
+    },
+    "fee": {
+      "buy": {
+        "label": "رسوم الشراء"
+      },
+      "label": "مصاريف",
+      "sell": {
+        "label": "رسوم البيع"
+      }
+    },
+    "links": {
+      "title": "روابط",
+      "twitter": "تويتر",
+      "website": "موقع إلكتروني"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "هناك خطأ ما.",
+        "title": "تعذر تحميل مخطط الأسعار"
+      },
+      "timeRangeLabel": {
+        "all": "كل الوقت",
+        "day": {
+          "verbose": "يوم واحد"
+        },
+        "hour": "1 ح",
+        "month": {
+          "verbose": "1 شهر"
+        },
+        "week": {
+          "verbose": "1 اسبوع"
+        },
+        "year": {
+          "verbose": "1 سنة"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} غير متاح",
+          "tokensNotAvailable": "{{tokenSymbol0}} و {{tokenSymbol1}} غير متاحين"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "لا تتلقى Uniswap Labs أيًا من هذه الرسوم."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "قم دائمًا بإجراء بحثك",
+        "blocked": {
+          "description": {
+            "default_one": "لا يمكنك تداول هذا الرمز المميز باستخدام تطبيق Uniswap.",
+            "default_other": "لا يمكنك تداول هذه الرموز المميزة باستخدام تطبيق Uniswap."
+          }
+        },
+        "copyContractAddress": {
+          "message": "هذا عنوان عقد يعمل كمعرف فريد للرموز على blockchain. سيتم فقد أي عملة مشفرة ترسلها إلى هذا العنوان.",
+          "title": "لا ترسل العملات المشفرة إلى هذا العنوان"
+        },
+        "dontShowWarningAgain": "لا تظهر لي هذا التحذير مرة أخرى",
+        "doYourOwnResearch": "قم دائمًا بإجراء البحث بنفسك قبل المتابعة.",
+        "feeDescription": "يتم شحن <fee /> عند {{action}}",
+        "flaggedAsMalicious": "تم وضع علامة عليه على أنه ضار",
+        "fotHigh": {
+          "title": "تم اكتشاف رسوم عالية"
+        },
+        "fotLow": {
+          "title": "تم اكتشاف الرسوم"
+        },
+        "fotVeryHigh": {
+          "title": "تم اكتشاف رسوم عالية جدًا"
+        },
+        "honeypot": {
+          "message": "تم تصنيف {{tokenSymbol}} على أنه غير قابل للبيع. قد يؤدي تبديل هذا الرمز إلى خسارة أموالك.",
+          "title": "تم اكتشاف رسوم بيع بنسبة 100%"
+        },
+        "impersonator": {
+          "title": "تم الكشف عن رمز المقلد"
+        },
+        "malicious": {
+          "general": {
+            "message": "تم تصنيف {{tokenSymbol}} على أنه ضار بواسطة Blockaid."
+          },
+          "impersonator": {
+            "message": {
+              "short": "قد لا يكون {{tokenSymbol}} هو الرمز الذي تبحث عن مبادلته."
+            }
+          },
+          "title": "تم الكشف عن رمز ضار"
+        },
+        "mayResultInLoss": "قد يؤدي تبديله إلى خسارة الأموال.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} لا يتم تداوله في البورصات المركزية الأمريكية الرائدة."
+          }
+        },
+        "notListedOnExchanges": "غير مدرج في البورصات الأمريكية الرائدة",
+        "potentialHoneypot": {
+          "card": {
+            "message": "تم وضع علامة {{tokenSymbol}} على أنها مشبوهة بواسطة Blockaid."
+          },
+          "modal": {
+            "message": "تم تصنيف {{tokenSymbol}} كأداة احتيال محتملة من قِبل Blockaid. ابحث جيدًا قبل المتابعة."
+          },
+          "title": "تم اكتشاف مصيدة عسل محتملة"
+        },
+        "sellFee100": {
+          "message": "تم وضع علامة على {{ tokenSymbol }} على أنها غير قابلة للبيع.",
+          "title": "تم اكتشاف رسوم بيع بنسبة 100%"
+        },
+        "spam": {
+          "message": "تم تصنيف {{tokenSymbol}} على أنه بريد عشوائي بواسطة Blockaid.",
+          "title": "تم اكتشاف رمز البريد العشوائي"
+        },
+        "spamsUsers": "البريد العشوائي للمستخدمين",
+        "tokenChargesFee": {
+          "both": {
+            "message": "تتقاضى {{tokenSymbol}} رسومًا قدرها {{buyFeePercent}} عند الشراء و {{sellFeePercent}} عند البيع."
+          },
+          "buy": {
+            "message": "تفرض {{tokenSymbol}} رسومًا قدرها {{feePercent}} عند الشراء."
+          },
+          "sell": {
+            "message": "تفرض {{tokenSymbol}} رسومًا قدرها {{feePercent}} عند البيع."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} يتقاضى رسومًا عند الشراء أو البيع."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "لا يمكنك تداول هذا الرمز المميز باستخدام Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "لا يتم تداول هذه الرموز في البورصات المركزية الرائدة في الولايات المتحدة. لذا، احرص دائمًا على إجراء بحثك الخاص قبل المتابعة."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "تعذر تحميل نتائج البحث"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "التقييم المخفف بالكامل",
+      "marketCap": "القيمة السوقية",
+      "priceHighYear": "52 واط عالية",
+      "priceLowYear": "52 واط منخفض",
+      "section": {
+        "about": "حول {{token}}"
+      },
+      "title": "احصائيات",
+      "translation": {
+        "original": "إظهار النسخة الأصلية",
+        "translate": "ترجم إلى {{language}}"
+      },
+      "volume": "حجم 24 ساعة"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "رمز الإدخال"
+      },
+      "output": {
+        "fallback": "رمز الإخراج"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "يمكن أن تبدأ عمليات المبادلة على بروتوكول Uniswap وتنتهي بـ ETH. ومع ذلك، أثناء المبادلة، يتم تغليف ETH في WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "للحصول على {{ tokenSymbol }}، تحتاج إلى {{ nativeTokenSymbol }} لتغطية تكاليف الشبكة.",
+      "title": "أنت بحاجة إلى {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "إخفاء الرمز",
+      "unhide": "إظهار الرمز المميز"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "عرض على {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "تعذر تحميل مجموعة NFT"
+          }
+        },
+        "label": {
+          "items": "أغراض",
+          "owners": "أصحاب",
+          "priceFloor": "أرضية",
+          "swapVolume": "مقدار"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "عنوان العقد"
+        },
+        "error": {
+          "load": {
+            "title": "تعذر تحميل تفاصيل NFT"
+          }
+        },
+        "network": "شبكة",
+        "owner": "مملوكة ل",
+        "price": "السعر الحالي",
+        "recentPrice": "سعر البيع الأخير",
+        "traits": "سمات"
+      },
+      "empty": {
+        "description": "لم يتم العثور على NFTs"
+      },
+      "error": {
+        "unavailable": "المحتوى غير متوفر"
+      },
+      "hidden": {
+        "action": {
+          "hide": "إخفاء NFT",
+          "unhide": "إظهار NFT"
+        }
+      },
+      "link": {
+        "collection": "موقع المجموعة"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "تعذر تحميل NFTs"
+          }
+        },
+        "none": {
+          "button": "احصل على NFTs",
+          "description": {
+            "default": "انقل NFTs من محفظة أخرى للبدء.",
+            "external": "عندما تشتري هذه المحفظة رموز NFT أو تستقبلها، ستظهر هنا."
+          },
+          "title": "لا يوجد NFTs حتى الآن"
+        }
+      }
+    },
+    "noneFound": "لم يتم العثور على الرموز المميزة.",
+    "selector": {
+      "button": {
+        "choose": "حدد الرمز المميز",
+        "clear": "امسح الكل"
+      },
+      "empty": {
+        "buy": {
+          "message": "قم بشراء العملات المشفرة باستخدام بطاقة أو بنك لإرسال الرموز المميزة.",
+          "title": "شراء التشفير"
+        },
+        "receive": {
+          "title": "تلقي الرموز"
+        },
+        "title": "لا توجد رموز حتى الآن"
+      },
+      "error": {
+        "load": "تعذر تحميل الرموز المميزة"
+      },
+      "search": {
+        "empty": "لم يتم العثور على نتائج ل <highlight>{{searchText}}</highlight>",
+        "placeholder": "رموز البحث"
+      },
+      "section": {
+        "bridging": "التبديل عبر الشبكات",
+        "favorite": "المفضلة",
+        "otherNetworksSearchResults": "الرموز الموجودة على شبكات أخرى",
+        "otherSearchResults": "رموز أخرى على {{network}}",
+        "recent": "عمليات البحث الأخيرة",
+        "search": "نتائج البحث",
+        "trending": "الرموز حسب حجم 24 ساعة",
+        "yours": "الرموز الخاصة بك"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "بحث في حمامات السباحة",
+          "tokens": "رموز البحث",
+          "transactions": "البحث عن المعاملات"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "إلغاء الصفقة",
+        "description": "إذا قمت بإلغاء هذه المعاملة قبل معالجتها بواسطة الشبكة، فستدفع تكلفة شبكة جديدة بدلاً من التكلفة الأصلية.",
+        "title": "هل تريد إلغاء هذه الصفقة؟"
+      },
+      "copy": "نسخ معرف المعاملة",
+      "copyProvider": "انسخ {{providerName}} معرف المعاملة"
+    },
+    "amount": {
+      "unlimited": "غير محدود"
+    },
+    "date": "تم الإرسال في {{date}}",
+    "details": {
+      "dappName": "برنامج",
+      "from": "من",
+      "networkFee": "تكلفة الشبكة",
+      "providerFee": "رسوم مقدم الخدمة",
+      "swapRate": "معدل",
+      "transaction": "عملية",
+      "uniswapFee": "الرسوم ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "عدم كفاية السيولة المجمعة لإتمام الصفقة",
+    "network": {
+      "all": "جميع الشبكات"
+    },
+    "networkCost": {
+      "label": "تكلفة الشبكة",
+      "maxNativeBalance": {
+        "description": "يتم حجز مبلغ صغير من رصيد رمز الشبكة لتغطية تكلفة الشبكة لهذه المعاملة.",
+        "title": "لماذا لا أستطيع استخدام الحد الأقصى لرصيدى؟"
+      },
+      "veryHigh": {
+        "label": "تكلفة الشبكة عالية جدًا"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "غير قادر على إلغاء المعاملة",
+        "replace": "غير قادر على استبدال المعاملة"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "تم إلغاء الموافقة",
+        "canceling": "إلغاء الموافقة",
+        "failed": "فشلت الموافقة",
+        "pending": "الموافقة",
+        "success": "موافقة",
+        "successDapp": "تمت الموافقة عليه في {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "تم إلغاء الشراء",
+        "canceling": "إلغاء الشراء",
+        "failed": "فشل في الشراء",
+        "pending": "شراء",
+        "success": "مُشترى",
+        "successDapp": "تم شراؤه على {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "تم الإلغاء تأكيد",
+        "canceling": "في انتظار الإلغاء",
+        "failed": "فشل التأكيد",
+        "pending": "المعاملة قيد التقدم",
+        "success": "تم تأكيد المعاملة",
+        "successDapp": "تم تأكيد المعاملة على {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "نعناع ملغى",
+        "canceling": "إلغاء النعناع",
+        "failed": "فشل في النعناع",
+        "pending": "سك العملة",
+        "success": "سكت",
+        "successDapp": "تم سكها على {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "تم إلغاء الشراء",
+        "canceling": "إلغاء الشراء",
+        "failedOn": "فشل الشراء على {{serviceProvider}}",
+        "pendingOn": "الشراء على {{serviceProvider}}",
+        "successOn": "تم الشراء على {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "تم إلغاء الاستلام",
+        "canceling": "إلغاء الاستلام",
+        "failedFrom": "فشل الاستلام من {{serviceProvider}}",
+        "pendingFrom": "الاستلام من {{serviceProvider}}",
+        "success": "تلقى",
+        "successDapp": "تم الاستلام في {{externalDappName}}",
+        "successFrom": "تم الاستلام من {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "تم الإلغاء",
+        "canceling": "إلغاء إبطال",
+        "failed": "فشل في الإلغاء",
+        "pending": "إبطال",
+        "success": "إلغاء - فسخ",
+        "successDapp": "تم الإلغاء في {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "تم إلغاء البيع",
+        "canceling": "الغاء البيع",
+        "failedOn": "فشل البيع عبر {{serviceProvider}}",
+        "pendingCard": {
+          "msg": "تعرف على المزيد حول بيع العملات المشفرة.",
+          "title": "لماذا لا يزال بيعي معلقا؟"
+        },
+        "pendingOn": "البيع عبر {{serviceProvider}}",
+        "successOn": "تم البيع عبر {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "تم إلغاء البيع",
+        "canceling": "إلغاء البيع",
+        "failed": "فشل في البيع",
+        "pending": "يبيع",
+        "success": "مُباع",
+        "successDapp": "تم بيعه بتاريخ {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "تم إلغاء الإرسال",
+        "canceling": "إلغاء الإرسال",
+        "failed": "فشل فى الارسال",
+        "pending": "إرسال",
+        "success": "مرسل",
+        "successDapp": "تم الإرسال في {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "تم إلغاء المبادلة",
+        "canceling": "إلغاء المبادلة",
+        "expired": "انتهت صلاحية المبادلة",
+        "failed": "فشل المبادلة",
+        "insufficientFunds": "رصيد غير كاف",
+        "pending": "مبادلة",
+        "success": "مبادلة",
+        "successDapp": "تم التبديل على {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "إلغاء بسط",
+        "canceling": "إلغاء بسط",
+        "failed": "فشل في فك التغليف",
+        "pending": "فك التغليف",
+        "success": "يفك ربطة",
+        "successDapp": "غير ملفوف على {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "التفاف ملغى",
+        "canceling": "إلغاء التفاف",
+        "failed": "فشل في الالتفاف",
+        "pending": "يلف",
+        "success": "مغطى",
+        "successDapp": "ملفوفة على {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} إلى {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} من {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "أنت بحاجة إلى ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) على {{networkName}} لتغطية تكلفة الشبكة لهذه المعاملة."
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "لتبديل هذا الرمز، تحتاج إلى المزيد من {{tokenSymbol}} على {{networkName}}."
+          },
+          "title": {
+            "withNetwork": "لا يكفي {{tokenSymbol}} على {{networkName}}",
+            "withoutNetwork": "لا يكفي {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "أنت على وشك إنفاق معظم رصيد رمز الشبكة الخاص بك. وقد يؤدي هذا إلى عدم بقاء أموال كافية لتغطية تكاليف الشبكة في المستقبل.",
+        "title": "رصيد رمز الشبكة منخفض"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "غير قادر على إلغاء المعاملة",
+        "status": "حدث خطأ أثناء التحقق من حالة المعاملة"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> تجميع مصادر السيولة للحصول على أسعار أفضل ومقايضات خالية من الغاز.",
+    "learnMore": "تعرف على المزيد حول المبادلة باستخدام UniswapX"
+  },
+  "uniswapx": {
+    "description": "يقوم UniswapX بتجميع مصادر السيولة للحصول على أسعار أفضل ومقايضات خالية من الغاز.",
+    "included": "يشمل <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>يوني سواب إكس</gradient> <info />",
+    "label": "يونيسوابكس",
+    "v2QuoteFailed": "فشل الاقتباس الثابت UniswapX v2. أعد المحاولة باستخدام المبادلة الكلاسيكية."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "يدعون الآن"
+      },
+      "subtitle": "قم بإنشاء ملف تعريف web3 مخصص وشارك عنوانك بسهولة مع الأصدقاء.",
+      "title": {
+        "compact": "<highlight>اطلب اسم المستخدم الخاص بك {{unitagDomain}}</highlight> وقم ببناء ملفك الشخصي القابل للتخصيص.",
+        "full": "قم بالمطالبة باسم المستخدم {{unitagDomain}} الخاص بك"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "اختر من لفة الكاميرا",
+        "computer": "تحميل من الكمبيوتر",
+        "nft": "اختر NFT",
+        "remove": "إزالة الصورة الشخصية"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "تخصيص الملف الشخصي",
+        "description": "{{unitagAddress}} جاهز لإرسال واستقبال العملات المشفرة. استمر في إنشاء محفظتك عن طريق تخصيص ملف تعريف web3 الخاص بك.",
+        "success": {
+          "long": "لك ذالك!",
+          "short": "فهمتها!"
+        }
+      },
+      "error": {
+        "addressLimit": "لقد قمت بالفعل بإجراء الحد الأقصى لعدد التغييرات على اسم المستخدم الخاص بك لهذا العنوان",
+        "avatar": "لا يمكن تعيين الصورة الرمزية. حاول مرة أخرى في وقت لاحق.",
+        "default": "لا يمكن المطالبة باسم المستخدم. حاول مرة أخرى في وقت لاحق.",
+        "deviceLimit": "لقد وصلت إلى الحد الأقصى لعدد أسماء المستخدمين التي يمكن أن تكون نشطة لهذا الجهاز",
+        "general": "غير قادر على المطالبة باسم المستخدم",
+        "unavailable": "اسم المستخدم هذا غير متوفر",
+        "unknown": "خطأ غير معروف"
+      },
+      "username": {
+        "default": "اسمك"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "أنت على وشك حذف اسم المستخدم الخاص بك وتفاصيل الملف الشخصي القابلة للتخصيص. لن تتمكن من استعادتها.",
+        "title": "هل أنت متأكد؟"
+      }
+    },
+    "editProfile": {
+      "placeholder": "اسم المستخدم"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "أنت على وشك تغيير اسم المستخدم الخاص بك. بمجرد تغييره، لا يمكنك المطالبة به مرة أخرى أبدًا.",
+        "title": "هل أنت متأكد؟"
+      },
+      "title": "تعديل اسم المستخدم الخاص بك",
+      "warning": {
+        "default": "بمجرد تغيير اسم المستخدم الخاص بك، لن تتمكن من المطالبة به مرة أخرى. يمكنك فقط تغييره <highlight>2</highlight> مرة.",
+        "max": "لقد وصلت إلى الحد الأقصى لعدد تغييري اسم مستخدم."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "المطالبة باسم المستخدم",
+        "description": "قل وداعًا للعناوين 0x. أسماء المستخدمين هي أسماء قابلة للقراءة تسهل إرسال واستقبال العملات المشفرة.",
+        "title": "إدخال أسماء المستخدمين",
+        "upsell": {
+          "customizable": "ملفات تعريف قابلة للتخصيص",
+          "ens": "مدعوم من نطاقات ENS الفرعية",
+          "free": "حرية المطالبة"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "مدعوم من نطاقات ENS الفرعية",
+        "free": "حرية المطالبة",
+        "profile": "ملفات تعريف قابلة للتخصيص"
+      },
+      "subtitle": "قل وداعًا للعناوين 0x. أسماء المستخدمين هي أسماء قابلة للقراءة تسهل إرسال واستقبال العملات المشفرة.",
+      "title": "إدخال أسماء المستخدمين"
+    },
+    "notification": {
+      "delete": {
+        "error": "لا يمكن حذف اسم المستخدم. حاول مرة أخرى في وقت لاحق.",
+        "title": "تم حذف اسم المستخدم"
+      },
+      "profile": {
+        "error": "لا يمكن تحديث الملف الشخصي. حاول مرة أخرى في وقت لاحق.",
+        "title": "تحديث الملف الشخصي"
+      },
+      "username": {
+        "error": "لا يمكن تغيير اسم المستخدم. حاول مرة أخرى في وقت لاحق.",
+        "title": "تم تغيير اسم المستخدم"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "هذا هو عنوانك الشخصي الذي يمكن للأشخاص إرسال العملات المشفرة إليه.",
+        "title": {
+          "choose": "إنشاء اسم المستخدم الخاص بك",
+          "claim": "المطالبة باسم المستخدم الخاص بك"
+        }
+      },
+      "info": {
+        "description": "تقوم أسماء المستخدمين بتحويل عناوين 0x المعقدة إلى أسماء قابلة للقراءة. من خلال المطالبة باسم مستخدم {{unitagDomain}} ، يمكنك بسهولة إرسال واستقبال العملات المشفرة وإنشاء ملف تعريف web3 عام.",
+        "title": "عنوان مبسط"
+      },
+      "profile": {
+        "subtitle": "قم بتحميل ما لديك أو التزم بـ Unicon الفريد الخاص بك. يمكنك دائمًا تغيير هذا لاحقًا.",
+        "title": "اختر صورة الملف الشخصي"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "حذف اسم المستخدم",
+        "edit": "تحرير اسم المستخدم"
+      },
+      "bio": {
+        "label": "السيرة الذاتية",
+        "placeholder": "اكتب السيرة الذاتية لملفك الشخصي"
+      },
+      "links": {
+        "twitter": "تويتر"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "يمكن أن تحتوي أسماء المستخدمين على أحرف وأرقام فقط",
+        "max": "لا يمكن أن تزيد أسماء المستخدمين عن {{number}} أحرف",
+        "min": "يجب أن تتكون أسماء المستخدمين من {{number}} حرفًا على الأقل",
+        "uppercase": "يمكن أن تحتوي أسماء المستخدمين على أحرف وأرقام صغيرة فقط"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "لا يكفي {{tokenSymbol}} على {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 غير متوفر على هذه الشبكة."
+  },
+  "wallet": {
+    "appSignIn": "تسجيل الدخول باستخدام التطبيق",
+    "connectingAgreement": "من خلال ربط المحفظة، فإنك توافق على <termsLink>شروط الخدمة</termsLink> الخاصة بـ Uniswap Labs وتوافق على <privacyLink>سياسة الخصوصية</privacyLink>الخاصة بها.",
+    "connectionFailed": {
+      "message": "فشلت محاولة الاتصال. الرجاء الضغط على \"المحاولة\" مرة أخرى واتباع الخطوات للاتصال في محفظتك."
+    },
+    "other": "محافظ أخرى",
+    "scanToConnect": "مسح رمز الاستجابة السريعة للاتصال",
+    "wrongNet": "محفظتك متصلة بالشبكة الخاطئة."
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "اتصل بأحد التطبيقات عن طريق مسح الرمز ضوئيًا عبر WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "لا توجد تطبيقات متصلة"
+        },
+        "title": "الاتصالات"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "تدعم محفظة Uniswap حاليًا {{chainNames}}. الرجاء استخدام \"{{dappName}}\" فقط في هذه السلاسل",
+        "title": "خطأ في الإتصال"
+      },
+      "general": {
+        "message": "حدثت مشكلة في WalletConnect. حاول مرة اخرى",
+        "title": "خطأ في WalletConnect"
+      },
+      "scantastic": {
+        "message": "حدثت مشكلة في رمز الاستجابة السريعة الخاص بك. حاول مرة اخرى",
+        "title": "رمز الاستجابة السريعة غير صالح"
+      },
+      "unsupported": {
+        "message": "تأكد من قيامك بمسح رمز QR صالح لـ WalletConnect أو Ethereum أو Uniswap Extension قبل المحاولة مرة أخرى.",
+        "title": "رمز الاستجابة السريعة غير صالح"
+      },
+      "unsupportedV1": {
+        "message": "لم يعد WalletConnect v1 مدعومًا. يحتاج التطبيق الذي تحاول الاتصال به إلى الترقية إلى WalletConnect v2.",
+        "title": "رمز الاستجابة السريعة غير صالح"
+      },
+      "uwu": {
+        "scan": "حدثت مشكلة أثناء مسح رمز الاستجابة السريعة هذا.",
+        "title": "خطأ في رابط UwU",
+        "unsupported": "رمز الاستجابة السريعة هذا غير مدعوم."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "يتصل",
+        "scrollDown": "قم بالتمرير لأسفل للاتصال"
+      },
+      "switchAccount": "تبديل الحساب",
+      "title": "اتصل بـ {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "نقل الأصول الخاصة بك دون موافقة",
+        "viewTokenBalances": "عرض أرصدة الرمز المميز الخاص بك",
+        "viewWalletAddress": "عرض عنوان محفظتك"
+      },
+      "title": "أذونات الموقع"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "قم بالتمرير لأسفل للتوقيع",
+        "sign": "لافتة"
+      },
+      "details": {
+        "label": {
+          "function": "وظيفة",
+          "sending": "إرسال",
+          "token": "رمز مميز",
+          "tokens": "الرموز"
+        }
+      },
+      "error": {
+        "insufficientFunds": "ليس لديك ما يكفي من {{currencySymbol}} لإكمال هذه المعاملة.",
+        "network": "خطأ في الاتصال بالإنترنت أو الشبكة"
+      },
+      "warning": {
+        "general": {
+          "message": "كن حذرًا: هذه الرسالة قد تنقل الأصول"
+        },
+        "message": "من أجل التوقيع على الرسائل أو المعاملات، ستحتاج إلى استيراد عبارة استرداد المحفظة.",
+        "title": "هذه المحفظة في وضع العرض فقط"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "اكتشف الرموز المميزة وابحث عنها على {{network}}. اكتشف أفضل حمامات السباحة. عرض الأسعار في الوقت الحقيقي، وحجم التداول، وTVL، والرسوم البيانية، وبيانات المعاملات.",
+      "title": {
+        "pools": "استكشف أفضل المجمعات على {{network}} على Uniswap",
+        "tokens": "اكتشف أهم الرموز المميزة على {{network}} على Uniswap",
+        "transactions": "اكتشف أهم المعاملات على {{network}} على Uniswap"
+      }
+    }
+  }
+}

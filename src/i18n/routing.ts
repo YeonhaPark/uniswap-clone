@@ -1,0 +1,45 @@
+import { defineRouting } from "next-intl/routing";
+
+export const routing = defineRouting({
+  // A list of all locales that are supported
+  locales: [
+    "af-ZA",
+    "ar-SA",
+    "ca-ES",
+    "zh",
+    "zh-Hant",
+    "cs-CZ",
+    "da-DK",
+    "nl-NL",
+    "en-US",
+    "fi-FI",
+    "fr-FR",
+    "el-GR",
+    "he-IL",
+    "hi-IN",
+    "hu-HU",
+    "id-ID",
+    "it-IT",
+    "ja-JP",
+    "ko-KR",
+    "ms-MY",
+    "no-NO",
+    "pl-PL",
+    "pt-PT",
+    "ro-RO",
+    "ru-RU",
+    "sr-SP",
+    "es-ES",
+    "es-419",
+    "es-US",
+    "sw-TZ",
+    "sv-SE",
+    "tr-TR",
+    "uk-UA",
+    "ur-PK",
+    "vi-VN",
+  ],
+
+  // Used when no locale matches
+  defaultLocale: "en-US",
+});

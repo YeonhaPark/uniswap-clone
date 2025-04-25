@@ -1,0 +1,4514 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "{{amount}} انعام کا دعوی کریں۔"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "آپ کے {{cloudProviderName}}میں بیک اپ کے متعدد ریکوری جملے ہیں۔",
+        "title": "بحال کرنے کے لیے بیک اپ منتخب کریں۔"
+      },
+      "button": {
+        "restore": {
+          "android": "گوگل ڈرائیو سے بحال کریں۔",
+          "ios": "iCloud سے بحال کریں۔"
+        }
+      },
+      "empty": {
+        "description": "ایسا لگتا ہے کہ آپ نے {{cloudProviderName}}میں اپنے کسی بھی بازیابی کے جملے کا بیک اپ نہیں لیا ہے۔",
+        "title": "0 بیک اپ ملے"
+      },
+      "error": {
+        "backup": {
+          "message": "اجازتوں کی کمی، اجازت میں رکاوٹ، یا بادل کی خرابی کی وجہ سے بیک اپ درآمد کرنے میں ناکام",
+          "title": "بیک اپ درآمد کرتے وقت خرابی۔"
+        },
+        "password": {
+          "title": "غلط پاسورڈ. دوبارہ کوشش کریں."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "ابھی نہیں",
+            "settings": "ترتیبات پر جائیں۔"
+          },
+          "message": {
+            "android": "براہ کرم توثیق کریں کہ آپ اس ڈیوائس پر Google Drive کے فعال کردہ Google اکاؤنٹ میں لاگ ان ہیں اور دوبارہ کوشش کریں۔",
+            "ios": "براہ کرم تصدیق کریں کہ آپ ایپل آئی ڈی میں لاگ ان ہیں جس میں اس ڈیوائس پر iCloud Drive فعال ہے اور دوبارہ کوشش کریں۔"
+          },
+          "title": {
+            "android": "Google Drive دستیاب نہیں ہے۔",
+            "ios": "iCloud Drive دستیاب نہیں ہے۔"
+          }
+        }
+      },
+      "loading": {
+        "title": "بیک اپس تلاش کر رہا ہے..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "بہت زیادہ کوششیں 1 گھنٹے میں دوبارہ کوشش کریں۔",
+          "hours_other": "بہت زیادہ کوششیں {{count}} گھنٹے میں دوبارہ کوشش کریں۔",
+          "minutes_one": "بہت زیادہ کوششیں 1 منٹ میں دوبارہ کوشش کریں۔",
+          "minutes_other": "بہت زیادہ کوششیں {{count}} منٹ میں دوبارہ کوشش کریں۔"
+        }
+      },
+      "password": {
+        "input": "پاس ورڈ درج کریں",
+        "recoveryPhrase": "اس کے بجائے اپنا بازیابی کا جملہ درج کریں۔",
+        "subtitle": "یہ پاس ورڈ {{cloudProviderName}}سے آپ کی بازیابی کے جملے کا بیک اپ بازیافت کرنے کے لیے درکار ہے۔",
+        "title": "بیک اپ پاس ورڈ درج کریں۔"
+      }
+    },
+    "drawer": {
+      "gitVersion": "ورژن: ",
+      "modal": {
+        "body": "Uniswap ایپ کے ساتھ ٹوکنز کو محفوظ طریقے سے اسٹور اور تبدیل کریں۔ iOS اور Android پر دستیاب ہے۔",
+        "dont": "کیا آپ کے پاس یونیسیاپ والیٹ نہیں ہے؟",
+        "scan": "Unswap Wallet کے ساتھ اسکین کریں۔"
+      },
+      "spamToggle": "نامعلوم ٹوکنز اور NFTs چھپائیں۔"
+    },
+    "passkey": {
+      "delete": {
+        "acknowledge": "میں نے اپنے بازیابی کے جملے کا بیک اپ لیا ہے اور یہ سمجھتا ہوں کہ اگر میں ایسا کرنے میں ناکام ہو گیا ہوں تو Uniswap Labs مجھے اپنے بٹوے کی بازیابی میں مدد نہیں کر سکتی۔",
+        "description": "یقینی بنائیں کہ آپ نے Uniswap موبائل ایپ یا براؤزر ایکسٹینشن کا استعمال کرتے ہوئے اپنے بازیابی کے جملے کا بیک اپ لیا ہے۔",
+        "descriptionEmphasized": "آپ کی بازیابی کے فقرے کے بغیر، آپ اپنے بٹوے تک رسائی حاصل کرنے سے قاصر ہو سکتے ہیں۔",
+        "speedbump": {
+          "description": "جاری رکھنے سے پہلے، اپنے بٹوے اور تمام فنڈز تک رسائی سے محروم ہونے سے بچنے کے لیے درج ذیل اقدامات کو مکمل کریں۔",
+          "step1": "Unswap موبائل ایپ یا براؤزر ایکسٹینشن ڈاؤن لوڈ کریں۔",
+          "step2": "اپنے بازیابی کے جملے کا بیک اپ لیں۔",
+          "title": "کیا تمہیں یقین ہے؟"
+        },
+        "title": "پاس کلید کو حذف کریں؟"
+      },
+      "sign": {
+        "in": {
+          "title": "پاس کی کے ساتھ سائن ان کریں۔"
+        }
+      },
+      "type": {
+        "crossplatform": "فون، ٹیبلیٹ یا سیکیورٹی کلید",
+        "platform": "براؤزر یا آپریٹنگ سسٹم"
+      }
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "یہ آرڈر منسوخ کر دیا گیا کیونکہ آپ کا بیلنس ان پٹ رقم سے کم ہو گیا تھا۔"
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "یہ آرڈر نہیں بھرے گا کیونکہ آپ کا بیلنس ان پٹ کی رقم سے کم ہے۔ ٹھیک کرنے کے لیے اپنا بیلنس بڑھائیں۔"
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "بازیافت کا جملہ (یا بیج کا جملہ) <highlight>الفاظ کا مجموعہ ہے</highlight> آپ کے بٹوے تک رسائی کے لیے درکار ہے، <highlight>جیسے پاس ورڈ۔</highlight>",
+        "part2": "آپ اپنے بٹوے</highlight> اور اس کے مواد کو بحال کرنے کے لیے <highlight></highlight> ایک نئے آلے پر اپنا بازیابی کا جملہ <highlight>درج کر سکتے ہیں۔",
+        "part3": "لیکن، اگر آپ <highlight>اپنا بازیابی کا جملہ کھو دیتے ہیں</highlight>، تو آپ <highlight>اپنے بٹوے تک رسائی</highlight> سے محروم ہو جائیں گے۔",
+        "part4": "اپنے بازیابی کے جملے کو یاد رکھنے کے بجائے، آپ <highlight>اس کا بیک اپ {{cloudProviderName}}</highlight> میں لے سکتے ہیں اور پاس ورڈ کے ساتھ اس کی حفاظت کر سکتے ہیں۔",
+        "part5": "آپ <highlight>اسے</highlight> لکھ کر اور اسے محفوظ جگہ پر اسٹور کر کے بھی دستی طور پر بیک اپ لے سکتے ہیں۔",
+        "part6": "ہم <highlight>دونوں قسم کے بیک اپ استعمال کرنے کی تجویز کرتے ہیں</highlight>کیونکہ اگر آپ اپنا بازیابی کا جملہ کھو دیتے ہیں، تو آپ اپنے بٹوے کو بحال نہیں کر پائیں گے۔"
+      },
+      "error": {
+        "invalid": "غلط جملہ",
+        "invalidWord": "غلط لفظ: {{word}}",
+        "phraseLength": "بازیافت کا جملہ 12-24 الفاظ کا ہونا چاہیے۔",
+        "wrong": "غلط بازیابی کا جملہ"
+      },
+      "helpText": {
+        "import": "میں اپنے بحالی کا جملہ کیسے تلاش کروں؟",
+        "restoring": "دوبارہ تلاش کرنے کی کوشش کریں۔"
+      },
+      "input": "اپنا بازیابی کا جملہ ٹائپ کریں۔",
+      "remove": {
+        "final": {
+          "description": "یقینی بنائیں کہ آپ نے اپنا بازیابی کا جملہ لکھا ہے یا {{cloudProviderName}}پر اس کا بیک اپ لیا ہے۔ <highlight>دوسری صورت میں آپ اپنے فنڈز تک رسائی حاصل نہیں کر سکیں گے۔</highlight>",
+          "title": "آپ اپنا <highlight>بازیابی کا جملہ</highlight>ہٹا رہے ہیں"
+        },
+        "import": {
+          "description": "آپ ایک وقت میں صرف ایک بازیابی کا جملہ ذخیرہ کر سکتے ہیں۔ ایک نیا درآمد کرنا جاری رکھنے کے لیے، آپ کو اس آلہ سے اپنے موجودہ بازیابی کے فقرے اور کسی بھی متعلقہ بٹوے کو ہٹانے کی ضرورت ہوگی۔"
+        },
+        "initial": {
+          "description": "یہ آپ کے بازیابی کے جملے کے ساتھ اس آلہ سے آپ کے بٹوے کو ہٹا دے گا۔",
+          "title": "آپ <highlight>{{walletName}}</highlight>کو ہٹا رہے ہیں"
+        },
+        "mnemonic": {
+          "description": "آپ کا بازیابی کا جملہ اس وقت تک محفوظ رہے گا جب تک آپ باقی تمام بٹوے حذف نہیں کر دیتے۔"
+        }
+      },
+      "subtitle": {
+        "import": "آپ کی بازیابی کا جملہ صرف مقامی طور پر آپ کے آلے پر اسٹور کیا جائے گا۔",
+        "restoring": "نیچے اپنا بازیابی کا جملہ درج کریں، یا بیک اپس کو دوبارہ تلاش کرنے کی کوشش کریں۔"
+      },
+      "title": {
+        "import": "اپنی بازیابی کا جملہ درج کریں۔",
+        "restoring": "کوئی بیک اپ نہیں ملا"
+      }
+    },
+    "wallet": {
+      "action": {
+        "copy": "ایڈریس کاپی کریں۔",
+        "manageConnections": "رابطوں کا نظم کریں۔",
+        "report": "پروفائل کی اطلاع دیں۔",
+        "viewExplorer": "{{blockExplorerName}}پر دیکھیں"
+      },
+      "button": {
+        "add": "پرس شامل کریں۔",
+        "addViewOnly": "صرف دیکھنے کے لیے والیٹ شامل کریں۔",
+        "create": "ایک نیا پرس بنائیں",
+        "import": "ایک نیا پرس درآمد کریں۔",
+        "manage": "والیٹ کی ترتیبات",
+        "remove": "پرس کو ہٹا دیں۔",
+        "restore": "اپنا پرس بازیافت کریں۔",
+        "watch": "ایک پرس دیکھیں"
+      },
+      "create": {
+        "placeholder": "والیٹ {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "بٹوے کا لیبل"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "پروفائل میں ترمیم کریں"
+          },
+          "title": "لیبل میں ترمیم کریں۔"
+        },
+        "viewOnly": "صرف دیکھنے کے بٹوے"
+      },
+      "menu": {
+        "claimUsername": "صارف نام کا دعوی کریں۔",
+        "copy": {
+          "title": "پرس کا پتہ کاپی کریں۔"
+        },
+        "edit": {
+          "title": "لیبل میں ترمیم کریں۔"
+        },
+        "manageConnections": "رابطوں کا انتظام کریں۔",
+        "remove": {
+          "title": "پرس کو ہٹا دیں۔"
+        }
+      },
+      "remove": {
+        "check": "میں نے اپنے بازیابی کے جملے کا بیک اپ لیا اور سمجھ گیا کہ اگر میں ایسا کرنے میں ناکام ہو گیا تو یونی سویپ لیبز میرے بٹوے کی بازیافت میں میری مدد نہیں کر سکتی۔",
+        "title": "{{name}}کو ہٹا دیں۔",
+        "viewOnly": "آپ ہمیشہ والیٹ کا پتہ درج کر کے صرف دیکھنے کے لیے بٹوے واپس شامل کر سکتے ہیں۔"
+      },
+      "restore": {
+        "description": "چونکہ آپ ایک نئے آلے پر ہیں، آپ کو اپنا بازیابی کا جملہ بحال کرنا ہوگا یا جاری رکھنے کے لیے اپنا کلاؤڈ بیک اپ پاس ورڈ درج کرنا ہوگا۔"
+      },
+      "select": {
+        "error": "پتے لوڈ نہیں ہو سکے۔",
+        "loading": {
+          "subtitle": "آپ کے بٹوے نیچے ظاہر ہوں گے۔",
+          "title": "بٹوے تلاش کر رہے ہیں۔"
+        },
+        "title_one_one": "ایک پرس ملا",
+        "title_one_other": "درآمد کرنے کے لیے بٹوے منتخب کریں۔"
+      },
+      "viewOnly": {
+        "button": "پرس درآمد کریں۔",
+        "description": "ٹوکنز کو تبدیل کرنے، خریدنے، بھیجنے اور وصول کرنے کے لیے، آپ کو اس والیٹ کی بازیابی کا جملہ درآمد کرنا ہوگا۔",
+        "title": "یہ پرس صرف دیکھنے کے لیے ہے۔"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "یہ پتہ پہلے سے درآمد شدہ ہے۔",
+          "notFound": "پتہ نہیں ملا",
+          "smartContract": "پتہ ایک سمارٹ معاہدہ ہے۔"
+        },
+        "message": "صرف دیکھنے کے لیے والیٹ شامل کرنا آپ کو ایپ آزمانے یا بٹوے کو ٹریک کرنے کی اجازت دیتا ہے۔ آپ فنڈز تبدیل یا بھیجنے کے قابل نہیں ہوں گے۔",
+        "placeholder": "ENS یا پتہ",
+        "title": "بٹوے کا پتہ درج کریں۔"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} زیر التواء",
+    "transaction": {
+      "lpRewards": {
+        "descriptor": "{{symbol}} انعامات جمع ہوئے۔"
+      },
+      "receive": {
+        "descriptor": "{{walletAddress}}سے {{amountWithSymbol}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} سے {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": "{{amountWithSymbolB}}کے لیے {{amountWithSymbolA}}"
+      },
+      "tokens": {
+        "descriptor": "{{amountWithSymbolA}} اور {{amountWithSymbolB}}"
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "پول کا حصہ"
+  },
+  "addressInput": {
+    "recipient": "وصول کنندہ"
+  },
+  "analytics": {
+    "allow": {
+      "message": "ہم Unswap Labs مصنوعات کے ساتھ آپ کے تجربے کو بڑھانے کے لیے گمنام ڈیٹا استعمال کرتے ہیں۔"
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "واقعی نہیں۔"
+    },
+    "description": "ہمیں بتائیں کہ کیا آپ کو اس ایپ کے ساتھ اچھا تجربہ ہے۔",
+    "extension": {
+      "review": {
+        "description": "ایک ستارہ کی درجہ بندی منتخب کریں اور Chrome ویب اسٹور پر ایک جائزہ چھوڑیں۔",
+        "title": "Unswap ایکسٹینشن کا جائزہ لیں؟"
+      },
+      "title": "Uniswap ایکسٹینشن سے لطف اندوز ہو رہے ہیں؟"
+    },
+    "feedback": {
+      "button": {
+        "send": "رائے بھیجیں"
+      },
+      "description": "ہمیں بتائیں کہ ہم آپ کے تجربے کو کیسے بہتر بنا سکتے ہیں۔",
+      "title": "ہمیں یہ سن کر افسوس ہوا۔"
+    },
+    "mobile": {
+      "title": "Unswap والیٹ سے لطف اندوز ہو رہے ہیں؟"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}منٹ {{seconds}}s",
+      "minutesOnly": "~{{minutes}}منٹ",
+      "secondsOnly": "{{seconds}}s"
+    }
+  },
+  "chart": {
+    "candlestick": "موم بتی",
+    "error": {
+      "pools": "موجودہ پول کے لیے تاریخی ڈیٹا ڈسپلے کرنے سے قاصر ہے۔",
+      "tokens": "موجودہ ٹوکن کے لیے تاریخی ڈیٹا ظاہر کرنے سے قاصر ہے۔"
+    },
+    "line": "لائن چارٹ",
+    "missingData": "چارٹ ڈیٹا غائب ہے۔",
+    "price": {
+      "label": {
+        "close": "بند کریں",
+        "high": "اعلی",
+        "low": "کم",
+        "open": "کھولیں۔"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "یہ ترتیب موجودہ چارٹ کے لیے دستیاب نہیں ہے۔"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Unswap کمیونٹی کا حصہ بننے کا شکریہ <heart />",
+    "uni": {
+      "arrived": "یو این آئی آچکی ہے۔"
+    }
+  },
+  "common": {
+    "accept": "قبول کریں۔",
+    "activity": "سرگرمی",
+    "add": {
+      "label": "شامل کریں۔",
+      "liquidity": {
+        "cancelled": "لیکویڈیٹی شامل کریں منسوخ کر دی گئیں۔",
+        "failed": "لیکویڈیٹی شامل کرنا ناکام ہو گیا۔"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "V2 لیکویڈیٹی شامل کریں منسوخ کر دی گئی۔",
+          "failed": "V2 لیکویڈیٹی شامل کرنا ناکام ہو گیا۔"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "اضافی لیکویڈیٹی",
+      "v2": {
+        "liquidity": "V2 لیکویڈیٹی شامل کی گئی۔"
+      }
+    },
+    "addedLiquidity": "اضافی لیکویڈیٹی",
+    "adding": {
+      "liquidity": "لیکویڈیٹی شامل کرنا",
+      "v2": {
+        "liquidity": "V2 لیکویڈیٹی شامل کرنا"
+      }
+    },
+    "addLiquidity": "لیکویڈیٹی شامل کریں۔",
+    "addressOrENS": "والیٹ کا پتہ یا ENS نام",
+    "advanced": "اعلی درجے کی",
+    "all": "تمام",
+    "allTime": "تمام وقت",
+    "and": "اور",
+    "app": "ایپ",
+    "approval": {
+      "cancelled": "منظوری منسوخ کر دی گئی۔",
+      "failed": "منظوری ناکام ہو گئی۔"
+    },
+    "approve": "منظور کرو",
+    "approved": "منظورشدہ",
+    "approvePending": "ابھی منظور نہیں ہوا...",
+    "approveSpend": "{{symbol}} خرچ کی منظوری دیں۔",
+    "approving": "منظور کرنا",
+    "areYouSure": "کیا تمہیں یقین ہے؟",
+    "automatic": "آٹو",
+    "availableIn": "ان کی تبدیلی دستیاب ہے اس میں: <locale />",
+    "availableOnIOSAndroid": "iOS اور Android پر دستیاب ہے۔",
+    "availableOnIOSAndroidChrome": "iOS، Android اور Chrome پر دستیاب ہے۔",
+    "backToPositions": "واپس عہدوں پر",
+    "blocked": {
+      "ifError": "اگر آپ کو لگتا ہے کہ یہ ایک غلطی ہے، تو براہ کرم <emailAddress />پر اپنے ایڈریس سمیت ایک ای میل بھیجیں۔",
+      "reason": "یہ پتہ Uniswap Labs انٹرفیس پر بلاک ہے کیونکہ یہ ایک یا زیادہ <link>بلاک شدہ سرگرمیوں سے وابستہ ہے</link>۔"
+    },
+    "blockedAddress": "بلاک شدہ پتہ",
+    "blog": "بلاگ",
+    "borrow": {
+      "cancelled": "قرضہ منسوخ کر دیا گیا۔",
+      "failed": "قرض لینا ناکام ہو گیا۔"
+    },
+    "borrowed": "ادھار لیا ۔",
+    "borrowing": "ادھار لینا",
+    "bought": "خریدا",
+    "brandAssets": "برانڈ اثاثے",
+    "burn": {
+      "cancelled": "برن منسوخ کر دیا گیا۔",
+      "failed": "جلنا ناکام ہو گیا۔"
+    },
+    "burned": "جل گیا۔",
+    "burning": "جل رہا ہے۔",
+    "button": {
+      "accept": "قبول کریں۔",
+      "back": "پیچھے",
+      "buy": "خریدنے",
+      "cancel": "منسوخ کریں۔",
+      "checkin": "چیک ان",
+      "close": "بند کریں",
+      "confirm": "تصدیق کریں۔",
+      "connect": "جڑیں۔",
+      "continue": "جاری رہے",
+      "copied": "کاپی",
+      "copy": "کاپی",
+      "create": "بنانا",
+      "delete": "حذف کریں۔",
+      "disconnect": "منقطع کرنا",
+      "dismiss": "برطرف کرنا",
+      "done": "ہو گیا",
+      "edit": "ترمیم",
+      "enable": "فعال",
+      "finish": "ختم کرنا",
+      "goBack": "واپس جاو",
+      "later": "شاید بعد میں",
+      "learn": "اورجانیے",
+      "next": "اگلے",
+      "notNow": "ابھی نہیں",
+      "ok": "ٹھیک ہے",
+      "paste": "چسپاں کریں۔",
+      "pay": "ادا کریں۔",
+      "proceed": "آگے بڑھو",
+      "receive": "وصول کریں۔",
+      "remove": "دور",
+      "reset": "دوبارہ ترتیب دیں۔",
+      "retry": "دوبارہ کوشش کریں۔",
+      "reveal": "ظاہر کرنا",
+      "review": "جائزہ لیں",
+      "save": "محفوظ کریں۔",
+      "scrollDown": "نیچے سکرول کریں",
+      "sell": "بیچنا",
+      "send": "بھیجیں",
+      "setup": "سیٹ اپ",
+      "share": "بانٹیں",
+      "showLess": "کم دکھائیں۔",
+      "showMore": "مزید دکھائیں",
+      "sign": "دستخط",
+      "skip": "چھوڑ دو",
+      "swap": "تبادلہ",
+      "tryAgain": "دوبارہ کوشش کریں",
+      "understand": "میں سمجھتا ہوں۔",
+      "unlock": "غیر مقفل کریں۔",
+      "view": "دیکھیں",
+      "viewDetails": "تفصیلات دیکھیں",
+      "yes": "جی ہاں"
+    },
+    "buy": {
+      "cancelled": "خریدنا منسوخ",
+      "failed": "خریدنا ناکام ہو گیا۔",
+      "label": "خریدنے"
+    },
+    "buyAndSell": "Uniswap پر خریدیں اور فروخت کریں۔",
+    "buying": "خریدنا",
+    "by": "کی طرف سے",
+    "cancel": {
+      "failed": "منسوخ کرنا ناکام ہو گیا۔"
+    },
+    "cancellation": {
+      "cancelled": "منسوخی منسوخ کر دی گئی۔"
+    },
+    "cancellationSubmitted": "منسوخی جمع کرائی گئی۔",
+    "cancellationSuccessful": "منسوخی کامیاب",
+    "cancelled": "منسوخ",
+    "cancelling": "منسوخ کرنا",
+    "cancelOrder": "آرڈر منسوخ کر دیں",
+    "card": {
+      "error": {
+        "description": "کچھ غلط ہو گیا",
+        "title": "افوہ! کچھ غلط ہو گیا."
+      }
+    },
+    "careers": "کیریئرز",
+    "chart": "چارٹ",
+    "checkNetwork": "نیٹ ورک کی حیثیت <link>یہاں چیک کریں۔</link>",
+    "chromeExtension": "توسیع",
+    "claim": {
+      "cancelled": "دعویٰ منسوخ کر دیا گیا۔",
+      "failed": "دعویٰ ناکام ہو گیا۔"
+    },
+    "claimed": "دعویٰ کیا۔",
+    "claiming": "دعویٰ کرنا",
+    "claimUnis": "اپنے UNI ٹوکن کا دعوی کریں۔",
+    "clear": "صاف",
+    "close": "بند کریں",
+    "closed": "بند",
+    "collect": {
+      "button": "جمع کرنا",
+      "fees": {
+        "cancelled": "منسوخ شدہ فیس جمع کریں۔",
+        "failed": "فیس جمع کرنے میں ناکام"
+      }
+    },
+    "collected": {
+      "fees": "جمع شدہ فیس"
+    },
+    "collecting": {
+      "fees": "فیس جمع کرنا"
+    },
+    "company": "کمپنی",
+    "confirm": "تصدیق کریں۔",
+    "confirmCancellation": "منسوخی کی تصدیق کریں۔",
+    "confirmSend": {
+      "button": "بھیجنے کی تصدیق کریں۔"
+    },
+    "confirmSwap": "بٹوے میں تبادلہ کی تصدیق کریں۔",
+    "confirmTimedOut": "تصدیق کا وقت ختم ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "confirmWallet": "بٹوے میں تصدیق کریں۔",
+    "connect": {
+      "button": "جڑیں۔"
+    },
+    "connectAWallet": {
+      "button": "بٹوے کو جوڑیں۔"
+    },
+    "connectWallet": {
+      "button": "بٹوے کو جوڑیں۔"
+    },
+    "contactUs": {
+      "button": "ہم سے رابطہ کریں۔"
+    },
+    "contractInteraction": "معاہدہ تعامل",
+    "copied": "کاپی",
+    "copy": {
+      "address": "ایڈریس کاپی کریں۔"
+    },
+    "copyLink": {
+      "button": "لنک کاپی کریں۔"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "پول بنانا منسوخ کر دیا گیا۔",
+        "failed": "پول بنانا ناکام ہوگیا۔"
+      }
+    },
+    "created": {
+      "date": "{{date}}بنایا گیا۔",
+      "pool": "پول بنایا"
+    },
+    "creating": {
+      "pool": "پول بنانا"
+    },
+    "currency": "کرنسی",
+    "custom": "اپنی مرضی کے مطابق",
+    "customRange": "اپنی مرضی کی حد",
+    "dataOutdated": "ڈیٹا پرانا ہو سکتا ہے۔",
+    "default": "طے شدہ",
+    "defaultTradeOptions": "پہلے سے طے شدہ تجارتی اختیارات",
+    "delegate": {
+      "cancelled": "مندوب منسوخ کر دیا گیا۔",
+      "failed": "مندوب ناکام ہوگیا۔"
+    },
+    "delegated": "تفویض کردہ",
+    "delegating": "تفویض کرنا",
+    "deploy": {
+      "cancelled": "تعیناتی منسوخ کر دی گئی۔",
+      "failed": "تعیناتی ناکام ہو گئی۔"
+    },
+    "deployed": "تعینات",
+    "deploying": "تعیناتی",
+    "deposit": {
+      "cancelled": "ڈپازٹ منسوخ ہو گیا۔",
+      "failed": "ڈپازٹ ناکام ہو گیا۔",
+      "toNetwork": "ٹوکنز {{label}} نیٹ ورک پر جمع کریں۔"
+    },
+    "deposited": "جمع کرایا",
+    "depositing": "جمع کرنا",
+    "depositTokens": "ٹوکن جمع کروائیں۔",
+    "detected": "پتہ چلا",
+    "developers": "ڈویلپرز",
+    "device": {
+      "other": "دوسرا آلہ"
+    },
+    "dismiss": "برطرف کرنا",
+    "displaySettings": "ڈسپلے کی ترتیبات",
+    "dnsRegistrar": "ڈی این ایس رجسٹرار",
+    "donate": "عطیہ کریں۔",
+    "done": "ہو گیا",
+    "dontShowAgain": "اسے دوبارہ مت دکھائیں۔",
+    "download": "ڈاؤن لوڈ کریں",
+    "downloadAppStore": "ایپ اسٹور میں ڈاؤن لوڈ کریں۔",
+    "downloadPlayStore": "پلے اسٹور میں ڈاؤن لوڈ کریں۔",
+    "downloadUniswap": "Unswap ڈاؤن لوڈ کریں۔",
+    "downloadUniswapApp": "Uniswap ایپ ڈاؤن لوڈ کریں۔",
+    "dynamic": "متحرک",
+    "edit": {
+      "button": "ترمیم"
+    },
+    "error": {
+      "details": "خرابی کی تفصیلات",
+      "general": "کچھ غلط ہو گیا",
+      "label": "خرابی",
+      "request": "معذرت، آپ کی درخواست پر کارروائی کرتے وقت ایک خرابی پیش آگئی۔ اگر آپ تعاون کی درخواست کرتے ہیں، تو اس غلطی کی تفصیلات کو کاپی کرنا یقینی بنائیں۔",
+      "somethingWrong": "کچھ غلط ہو گیا!",
+      "wrong": {
+        "tryAgain": "کچھ غلط ہو گیا۔ دوبارہ کوشش کریں۔"
+      }
+    },
+    "errorConnecting": {
+      "error": "منسلک کرنے میں خرابی"
+    },
+    "errorLoadingData": {
+      "error": "ڈیٹا لوڈ کرنے میں خرابی۔"
+    },
+    "ethereumNameService": "ایتھریم نام کی خدمت",
+    "etherscan": {
+      "link": "Etherscan پر دیکھیں"
+    },
+    "ethRegistrarController": "ای ٹی ایچ رجسٹرار کنٹرولر",
+    "execute": {
+      "cancelled": "عملدرآمد منسوخ کر دیا گیا۔",
+      "failed": "عملدرآمد ناکام ہو گیا۔"
+    },
+    "executed": "پھانسی دی گئی۔",
+    "executing": "پھانسی دینا",
+    "expired": "میعاد ختم",
+    "expiry": "ختم",
+    "explore": "دریافت کریں۔",
+    "explorer": "ایکسپلورر",
+    "exploreTokens": "ٹوکن دریافت کریں۔",
+    "extension": "یونی اَیپ ایکسٹینشن",
+    "failed": {
+      "error": "ناکام"
+    },
+    "failedSwitchNetwork": "نیٹ ورکس کو سوئچ کرنے میں ناکام",
+    "fee": "فیس",
+    "fees": "فیس",
+    "feesEarned": "فیس کمائی",
+    "feesEarnedPerBase": "{{symbolA}} فی {{symbolB}}",
+    "fetchingRoute": "راستہ نکالنا",
+    "floor": "فرش",
+    "floorPrice": "منزل کی قیمت",
+    "for": "کے لیے",
+    "fullRange": "مکمل رینج",
+    "getApp": "ایپ حاصل کریں۔",
+    "getHelp": {
+      "button": "مدد حاصل کرو"
+    },
+    "getStarted": "شروع کرو",
+    "getSupport": {
+      "button": "مدد حاصل کریں"
+    },
+    "getTheApp": "اپلی کیشن حاصل",
+    "getUniswapWallet": "Unswap والیٹ حاصل کریں۔",
+    "governance": "گورننس",
+    "happyHolidays": "Unswap ٹیم کی طرف سے تعطیلات مبارک ہو!",
+    "helpCenter": "مدداور تعاون کا مرکز",
+    "hidden": "پوشیدہ",
+    "hide": {
+      "button": "چھپائیں"
+    },
+    "highPrice": "اعلی قیمت",
+    "includes": "شامل",
+    "info": {
+      "label": "معلومات"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "وصول کنندہ کو منتخب کریں۔"
+      },
+      "password": {
+        "confirm": "پاس ورڈ کی تصدیق کریں۔",
+        "error": {
+          "mismatch": "پاس ورڈز مماثل نہیں ہیں۔",
+          "weak": "یہ پاس ورڈ بہت کمزور ہے۔"
+        },
+        "new": "نیا پاس ورڈ",
+        "placeholder": "پاس ورڈ",
+        "strength": {
+          "medium": "درمیانہ",
+          "strong": "مضبوط",
+          "weak": "کمزور"
+        }
+      },
+      "search": "تلاش کریں۔"
+    },
+    "insufficient": {
+      "funds": "ناکافی فنڈز"
+    },
+    "insufficientBalance": {
+      "error": "ناکافی توازن"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "نیٹ ورک کی لاگت کو پورا کرنے کے لیے ناکافی فنڈز"
+    },
+    "insufficientLiquidity": "ناکافی لیکویڈیٹی",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "ناکافی {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "غلط جوڑا",
+    "invalidRecipient": {
+      "error": "غلط وصول کنندہ"
+    },
+    "iOSAndroid": "iOS اور Android",
+    "language": "زبان",
+    "lastPrice": "آخری قیمت",
+    "learnMoreSwap": "تبادلہ کے بارے میں مزید جانیں۔",
+    "legalAndPrivacy": "قانونی اور رازداری",
+    "less": "کم",
+    "limit": {
+      "cancel_one": "حد منسوخ کریں۔",
+      "cancel_other": "{{count}} حدود کو منسوخ کریں۔",
+      "cancelled": "حد منسوخ کر دی گئی۔",
+      "executed": "حد لگائی گئی۔",
+      "expired": "حد ختم ہو گئی۔",
+      "failed": "حد ناکام ہوگئی",
+      "opened": "حد کھل گئی۔",
+      "pending": "زیر التواء حد"
+    },
+    "limits": {
+      "approachMax": "100 کی زیادہ سے زیادہ حد کے قریب",
+      "cancelProceed": "آگے بڑھنے کے لیے حدود کو منسوخ کریں۔",
+      "expires": "میعاد ختم ہو جائے گی {{timestamp}}",
+      "open": "کھلی حدود",
+      "when": "جب {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "لنکس",
+    "liquidity": {
+      "removed": "لیکویڈیٹی ہٹا دی گئی۔"
+    },
+    "loading": "لوڈ ہو رہا ہے۔",
+    "loadingAllowance": "لوڈنگ الاؤنس",
+    "loadMore": "مزید لوڈ کریں۔",
+    "longText": {
+      "button": {
+        "less": "کم پڑھیں",
+        "more": "مزید پڑھ"
+      }
+    },
+    "lowPrice": "کم قیمت",
+    "manage": "انتظام کریں۔",
+    "market": {
+      "label": "مارکیٹ"
+    },
+    "marketPrice": {
+      "fetching": "مارکیٹ کی قیمت حاصل کی جا رہی ہے...",
+      "label": "مارکیٹ کی قیمت:",
+      "unavailable": "بازار کی قیمت نہیں ملی۔ فنڈز کے نقصان سے بچنے کے لیے براہِ کرم خود تحقیق کریں۔"
+    },
+    "max": "زیادہ سے زیادہ",
+    "message": "پیغام",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "منتقلی لیکویڈیٹی منسوخ کر دی گئی۔",
+        "failed": "منتقلی لیکویڈیٹی ناکام ہوگئی"
+      },
+      "position": "ہجرت کی پوزیشن",
+      "v3": "V3 پر منتقل کریں۔"
+    },
+    "migrated": {
+      "liquidity": "منتقلی لیکویڈیٹی"
+    },
+    "migrating": {
+      "liquidity": "منتقلی لیکویڈیٹی"
+    },
+    "min": "کم از کم",
+    "mint": {
+      "cancelled": "ٹکسال منسوخ",
+      "failed": "ٹکسال ناکام ہو گیا۔"
+    },
+    "minted": "ٹکسال",
+    "minting": "ٹکسال",
+    "mobile": "موبائل",
+    "more": "مزید",
+    "multiDevice": "ملٹی ڈیوائس",
+    "navigation": {
+      "settings": "ترتیبات",
+      "systemSettings": "ترتیبات"
+    },
+    "navigationButton": "نیویگیشن بٹن",
+    "needHelp": "مدد چاہیے؟",
+    "networkCost": "نیٹ ورک کی قیمت",
+    "neverMind": "کوئی بات نہیں",
+    "new": {
+      "exclamation": "نیا!"
+    },
+    "nft": "این ایف ٹی",
+    "nfts": "NFTs",
+    "noActivity": "ابھی تک کوئی سرگرمی نہیں ہے۔",
+    "noAmount": {
+      "error": "ایک رقم درج کریں۔"
+    },
+    "noData": "کوئی مواد نہیں",
+    "noResults": "کوئی نتیجہ نہیں.",
+    "notAvailableInRegion": {
+      "error": "آپ کے علاقے میں دستیاب نہیں ہے۔"
+    },
+    "notCreated": {
+      "label": "پیدا نہیں کیا گیا۔"
+    },
+    "notSupported": "تعاون یافتہ نہیں۔",
+    "oneDay": {
+      "short": "1D"
+    },
+    "oneHour": {
+      "short": "1 ایچ"
+    },
+    "oneMonth": "1 مہینہ",
+    "oneWeek": "1 ہفتہ",
+    "oneYear": "1 سال",
+    "opensea": {
+      "link": "OpenSea پر دیکھیں"
+    },
+    "orderCancelled": "آرڈر منسوخ کر دیا گیا۔",
+    "orderExecuted": "حکم پر عمل ہوا۔",
+    "orderExpired": "آرڈر کی میعاد ختم ہوگئی",
+    "orderPending": "آرڈر زیر التواء",
+    "outOfRange": "پہنچ سے دور",
+    "pageNotFound": "صفحہ نہیں ملا!",
+    "passkey": {
+      "count": "پاسکی {{number}}"
+    },
+    "passkeys": {
+      "add": {
+        "description": "منتخب کریں کہ اپنی نئی پاسکی کو کہاں محفوظ کرنا ہے۔"
+      }
+    },
+    "pastDay": "گزشتہ دن",
+    "pastFiveMinutes": "پچھلے پانچ منٹ",
+    "pastHour": "گزشتہ گھنٹے",
+    "pastMonth": "پچھلے مہینے",
+    "pastWeek": "گزشتہ ہفتہ",
+    "pastYear": "پچھلے سال",
+    "pay": {
+      "button": "ادا کریں۔"
+    },
+    "pending": {
+      "cancellation": "زیر التواء منسوخی"
+    },
+    "pendingEllipsis": "زیر التواء...",
+    "permit2": "اجازت 2",
+    "pool": "پول",
+    "pools": "تالاب",
+    "poweredBy": "<name />کے ذریعے تقویت یافتہ",
+    "price": "قیمت",
+    "priceImpact": "قیمت پر اثر کا انتباہ",
+    "priceUpdated": "قیمت اپ ڈیٹ کر دی گئی۔",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "چیک کیے جانے پر، ہم آپ کے ڈیٹا کو ذاتی نوعیت کے اشتہارات کے لیے فریق ثالث کے شراکت داروں کے ساتھ شیئر نہیں کریں گے۔ آپ اس باکس کو غیر نشان زد کر کے کسی بھی وقت اشتراک کو فعال کر سکتے ہیں۔",
+        "label": "میری معلومات کا اشتراک نہ کریں۔"
+      },
+      "description": "ہم دیگر ویب سائٹس اور پلیٹ فارمز پر اپنی خدمات کو فروغ دینے کے لیے اپنے اشتہاری شراکت داروں کے ساتھ ڈیوائس شناخت کنندگان کا اشتراک کر سکتے ہیں۔ جہاں یہ قابل اطلاق قوانین کے تحت فروخت، اشتراک یا ٹارگٹ ایڈورٹائزنگ کے طور پر اہل ہے، آپ \"میری معلومات کا اشتراک نہ کریں\" باکس کو نشان زد کر کے آپٹ آؤٹ کر سکتے ہیں۔ ہمارے رازداری کے طریقوں کے بارے میں مزید معلومات کے لیے براہ کرم ہماری <privacyLink>رازداری کی پالیسی</privacyLink>کا جائزہ لیں۔",
+      "disclaimer": "براہ کرم نوٹ کریں کہ آپ کا انتخاب صرف اس ڈیوائس پر اس براؤزر پر لاگو ہوگا۔ آپ اس براؤزر کے اندر گلوبل پرائیویسی کنٹرول سیٹنگ کو فعال کر کے بھی آپٹ آؤٹ کر سکتے ہیں جسے آپ ہماری خدمات تک رسائی کے لیے استعمال کرتے ہیں۔ مزید اختیارات دیکھنے کے لیے، اپنی ترتیبات پر جائیں۔"
+    },
+    "privacyPolicy": "رازداری کی پالیسی",
+    "proceed": "آگے بڑھو",
+    "proceedInWallet": {
+      "short": "بٹوے میں آگے بڑھیں۔"
+    },
+    "protocol": {
+      "v2": "Unswap v2",
+      "v3": "Unswap v3",
+      "v4": "Unswap v4"
+    },
+    "publicResolver": "عوامی حل کرنے والا",
+    "purchased": "خریدا گیا۔",
+    "queue": {
+      "cancelled": "قطار منسوخ کر دی گئی۔",
+      "failed": "قطار ناکام ہوگئی"
+    },
+    "queued": "قطار میں لگ گیا۔",
+    "queuing": "قطار لگانا",
+    "rate": "شرح",
+    "readMore": "مزید پڑھ",
+    "receive": {
+      "cancelled": "منسوخ شدہ وصول کریں۔",
+      "failed": "وصول کرنا ناکام ہو گیا۔"
+    },
+    "received": "موصول ہوا۔",
+    "receiving": "وصول کرنا",
+    "recent": "حالیہ",
+    "rejected": "مسترد",
+    "reload": {
+      "label": "ایپ کو دوبارہ لوڈ کریں۔"
+    },
+    "remove": {
+      "label": "دور",
+      "liquidity": {
+        "cancelled": "لیکویڈیٹی کو ہٹانا منسوخ کر دیا گیا۔",
+        "failed": "لیکویڈیٹی کو ہٹانا ناکام ہو گیا۔"
+      }
+    },
+    "removedLiquidity": "لیکویڈیٹی کو ہٹا دیا گیا۔",
+    "removeItem": "آئٹم کو ہٹا دیں۔",
+    "removing": {
+      "liquidity": "لیکویڈیٹی کو ہٹانا"
+    },
+    "repaid": "چکایا",
+    "repay": {
+      "cancelled": "واپسی منسوخ کر دی گئی۔",
+      "failed": "ادائیگی ناکام ہوگئی"
+    },
+    "repaying": "ادا کرنا",
+    "resetLimit": "{{symbol}} کی حد کو دوبارہ ترتیب دیں۔",
+    "resetLimitWallet": "والیٹ میں {{symbol}} کی حد کو دوبارہ ترتیب دیں۔",
+    "resettingLimit": "{{symbol}} کی حد کو دوبارہ ترتیب دیا جا رہا ہے...",
+    "resolveIssues_one": "مسئلہ حل کریں۔",
+    "resolveIssues_other": "{{count}} مسائل کو حل کریں۔",
+    "restricted": {
+      "region": "محدود علاقہ"
+    },
+    "reverseRegistrar": "ریورس رجسٹرار",
+    "revoke": {
+      "approval": {
+        "failed": "منظوری منسوخ کرنا ناکام ہو گیا۔"
+      }
+    },
+    "revoked": {
+      "approval": "منظوری منسوخ کر دی گئی۔"
+    },
+    "revokedApproval": "منظوری منسوخ کر دی گئی۔",
+    "revoking": {
+      "approval": "منظوری منسوخ کرنا"
+    },
+    "samePrice": "وہی قیمت",
+    "scanQRDownload": "ڈاؤن لوڈ کرنے کے لیے اپنے فون سے QR کوڈ اسکین کریں۔",
+    "selectRegion": {
+      "label": "اپنا علاقہ منتخب کریں۔"
+    },
+    "selectToken": {
+      "label": "ایک ٹوکن منتخب کریں۔"
+    },
+    "selfCustodial": "خود نگہبانی۔",
+    "sell": {
+      "label": "بیچنا"
+    },
+    "send": {
+      "button": "بھیجیں",
+      "cancelled": "بھیجنا منسوخ ہو گیا۔",
+      "failed": "بھیجنا ناکام ہو گیا۔"
+    },
+    "sending": "بھیج رہا ہے۔",
+    "sent": "بھیجا",
+    "settings": "ترتیبات",
+    "share": {
+      "shareToTwitter": "ٹویٹر پر شیئر کریں۔",
+      "twitter": "ٹویٹر پر شیئر کریں۔"
+    },
+    "show": {
+      "button": "دکھائیں۔"
+    },
+    "showLess": {
+      "button": "کم دکھائیں۔"
+    },
+    "showMore": {
+      "button": "مزید دکھائیں"
+    },
+    "signatureExpired": "آپ کے دستخط کی میعاد ختم ہو گئی ہے۔",
+    "signMessage": "پیغام پر دستخط کریں۔",
+    "signMessageWallet": "بٹوے میں پیغام پر دستخط کریں۔",
+    "sold": "فروخت",
+    "stats": "اعدادوشمار",
+    "status": "حیثیت",
+    "stayConnected": "جڑے رہیے",
+    "step": {
+      "number": "مرحلہ {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "پیش کش منسوخ کر دی گئی۔",
+        "failed": "تجویز جمع کرانے میں ناکام"
+      }
+    },
+    "submitted": {
+      "proposal": "تجویز پیش کی۔"
+    },
+    "submitting": {
+      "proposal": "تجویز پیش کرنا"
+    },
+    "swap": {
+      "cancelled": "تبادلہ منسوخ کر دیا گیا۔",
+      "expired": "تبادلہ کی میعاد ختم ہوگئی",
+      "failed": "تبادلہ ناکام ہو گیا۔"
+    },
+    "swapped": "ادل بدل",
+    "swapPending": "تبادلہ زیر التواء...",
+    "swapping": "تبادلہ کرنا",
+    "switchNetworks": "نیٹ ورکس کو سوئچ کریں۔",
+    "termsOfService": "سروس کی شرائط",
+    "text": {
+      "connected": "جڑا ہوا",
+      "contract": "معاہدہ",
+      "disconnected": "منقطع",
+      "error": "خرابی",
+      "notAvailable": "N / A",
+      "recipient": "کو",
+      "sender": "سے",
+      "unknown": "نامعلوم"
+    },
+    "thisMonth": "اس مہینے",
+    "thisToken": "یہ ٹوکن",
+    "thisWeek": "اس ہفتے",
+    "thisYear": "اس سال",
+    "time": {
+      "days": "دن",
+      "days_one": "دن",
+      "days_other": "دن",
+      "hours": "گھنٹے",
+      "hours_one": "گھنٹہ",
+      "hours_other": "گھنٹے",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "منٹ",
+      "months": "مہینے",
+      "months_one": "مہینہ",
+      "months_other": "مہینے",
+      "past": {
+        "days": {
+          "short": "{{days}}d"
+        },
+        "hours": {
+          "short": "{{hours}}h"
+        },
+        "minutes": {
+          "short": "{{minutes}}میٹر"
+        },
+        "months": {
+          "short": "{{months}}mo"
+        },
+        "seconds": {
+          "short": "{{seconds}}s"
+        }
+      },
+      "weeks": "ہفتے",
+      "weeks_one": "ہفتہ",
+      "weeks_other": "ہفتے"
+    },
+    "to": "کو",
+    "today": "آج",
+    "tokenA": "ٹوکن اے",
+    "tokenAmount": "ٹوکن کی رقم",
+    "tokenB": "ٹوکن بی",
+    "tokenName": "ٹوکن کا نام",
+    "tokens": "ٹوکنز",
+    "totalUniswapTVL": "ٹوٹل یونیسیاپ TVL",
+    "totalValueLocked": "ٹی وی ایل",
+    "trade": "تجارت",
+    "trademarkPolicy": "ٹریڈ مارک پالیسی",
+    "transactionDetails": "لین دین کی تفصیلات",
+    "transactionId": "ٹرانزیکشن ID",
+    "transactionPending": "لین دین زیر التواء ہے۔",
+    "transactions": "لین دین",
+    "transactionSettings": "لین دین کی ترتیبات",
+    "transfer_one": "منتقلی",
+    "transfer_other": "منتقلی",
+    "tryAgain": {
+      "error": "دوبارہ کوشش کریں"
+    },
+    "twitter": "ٹویٹر",
+    "type": {
+      "label": "قسم"
+    },
+    "unavailable": "دستیاب نہیں۔",
+    "unhide": "چھپائیں",
+    "uniGovernance": "یو این آئی گورننس",
+    "uniswapMobile": "موبائل کو تبدیل کریں۔",
+    "uniswapProtocol": "غیر تبدیل شدہ پروٹوکول",
+    "uniswapWallet": "بٹوے کو تبدیل کریں۔",
+    "uniswapX": "UniswapX",
+    "unknown": "نامعلوم",
+    "unknownApproval": "نامعلوم منظوری",
+    "unknownBridge": "نامعلوم پل",
+    "unknownError": {
+      "error": "نامعلوم خامی"
+    },
+    "unknownLend": "نامعلوم قرضہ",
+    "unknownMint": "نامعلوم ٹکسال",
+    "unknownSend": "نامعلوم بھیجیں۔",
+    "unknownSwap": "نامعلوم تبادلہ",
+    "unsupportedAsset_one": "غیر تعاون یافتہ اثاثہ",
+    "unsupportedAsset_other": "غیر تعاون یافتہ اثاثے",
+    "unwrap": {
+      "button": "کھولنا",
+      "failed": "کھولنا ناکام ہو گیا۔"
+    },
+    "unwrapped": "لپیٹے ہوئے ۔",
+    "unwrapping": "کھولنا",
+    "view": {
+      "profile": "پروفائل دیکھیں"
+    },
+    "viewOnExplorer": "ایکسپلورر پر دیکھیں",
+    "volume": "حجم",
+    "vote": {
+      "cancelled": "ووٹ منسوخ کر دیا گیا۔",
+      "failed": "ووٹ ناکام ہو گیا۔"
+    },
+    "voted": "ووٹ دیا۔",
+    "voting": "ووٹنگ",
+    "wallet": {
+      "approve": "بٹوے میں منظور کریں۔",
+      "label": "پرس"
+    },
+    "walletForSwapping": "پرس تبدیل کرنے کے لیے بنایا گیا ہے۔ iOS اور Android پر دستیاب ہے۔",
+    "warning": "وارننگ",
+    "webApp": "ویب ایپ",
+    "website": "ویب سائٹ",
+    "whyApprove": "مجھے ٹوکن منظور کرنے کی کیا ضرورت ہے؟",
+    "whySign": "دستخط کیوں ضروری ہیں؟",
+    "whyWrap": "مجھے اپنا {{symbol}}لپیٹنا کیوں ہے؟",
+    "withdraw": {
+      "failed": "واپسی ناکام ہوگئی"
+    },
+    "withdrawal": {
+      "amount": "واپسی کی رقم",
+      "cancelled": "واپسی منسوخ کر دی گئی۔"
+    },
+    "withdrawing": "واپس لینا",
+    "withdrew": "واپس لے لیا۔",
+    "withinRange": "رینج میں",
+    "wrap": {
+      "cancelled": "لپیٹنا منسوخ کر دیا گیا۔",
+      "failed": "لپیٹنا ناکام ہوگیا۔"
+    },
+    "wrapIn": "بٹوے میں  {{symbol}} لپیٹیں۔",
+    "wrapped": "لپیٹے ہوئے",
+    "wrapping": "ریپنگ",
+    "wrappingToken": "ریپنگ  {{symbol}}...",
+    "wrongNetwork": "غلط نیٹ ورک",
+    "yesterday": "کل",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "اس تبادلہ کو مکمل کرنے کے لیے آپ کے اکاؤنٹ میں ناکافی فنڈز تھے۔"
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "اس تبادلہ کو مکمل کرنے کے لیے آپ کے اکاؤنٹ میں ناکافی فنڈز ہیں۔"
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "آپ کی حد اس وقت پوری نہیں ہو سکی۔ دوبارہ کوشش کریں۔"
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "آپ کا تبادلہ اس وقت پورا نہیں ہو سکا۔ دوبارہ کوشش کریں۔"
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "آپ خرید رہے ہیں۔",
+    "youRecieve": "آپ وصول کرتے ہیں۔",
+    "youreSending": "آپ بھیج رہے ہیں۔"
+  },
+  "currency": {
+    "aud": "آسٹریلوی ڈالر",
+    "brl": "برازیلین ریال",
+    "cad": "کینیڈین ڈالر",
+    "cny": "چینی یوآن",
+    "eur": "یورو",
+    "gbp": "برطانوی پاؤنڈ",
+    "hkd": "ہانگ کانگ ڈالر",
+    "idr": "انڈونیشین روپیہ",
+    "inr": "ہندوستانی روپیہ",
+    "jpy": "جاپانی ین",
+    "krw": "جنوبی کوریائی وون",
+    "ngn": "نائجیرین نائرا",
+    "pkr": "پاکستانی روپیہ",
+    "rub": "روسی روبل",
+    "sgd": "سنگاپور ڈالر",
+    "thb": "تھائی بھات",
+    "try": "ترک لیرا",
+    "uah": "یوکرین ہریونیا",
+    "usd": "امریکی ڈالر",
+    "vnd": "ویتنامی ڈونگ"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "منظور کرو",
+        "fallbackTitle": "اخراجات کے ٹوکن کو منظور کریں۔",
+        "helptext": "اس سائٹ کو اپنے بٹوے سے اس ٹوکن تک رسائی اور خرچ کرنے کی اجازت دیں۔",
+        "label": "پرس",
+        "title": "{{tokenSymbol}}خرچ کی منظوری دیں۔"
+      },
+      "base": {
+        "title": "لین دین کی درخواست"
+      },
+      "bridge": {
+        "description": "ETH، USDC اور مزید کو {{numChains}}+ نیٹ ورکس میں منتقل کریں۔",
+        "title": "پل کرنے کی کوشش کر رہے ہیں؟"
+      },
+      "connect": {
+        "helptext": "اس سائٹ کو آپ کے بٹوے کا پتہ، بیلنس دیکھنے اور لین دین کے لیے منظوری کی درخواست کرنے کی اجازت دیں۔",
+        "title": "سائٹ سے جڑیں۔"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "خام ڈیٹا"
+        },
+        "function": {
+          "label": "فنکشن"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 متعدد ڈیپ میں ٹوکن منظوریوں کا انتظام کرتا ہے۔",
+        "header": "پرمٹ 2 پر دستخط کریں۔"
+      },
+      "reject": {
+        "action": "سب کو مسترد کریں۔",
+        "info": "آپ کے پاس <highlight>{{totalRequestCount}}</highlight> ٹرانزیکشن کی درخواستیں ہیں"
+      },
+      "revoke": {
+        "action": "منسوخ کریں۔",
+        "helptext": "لین دین کے لیے اس ٹوکن کو خرچ کرنے کے لیے اس سائٹ کو رسائی منسوخ کرنے کی اجازت دیں۔ یقینی بنائیں کہ آپ اس سائٹ پر بھروسہ کرتے ہیں۔",
+        "title": "{{tokenSymbol}}تک رسائی منسوخ کریں۔"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "اس پیغام میں ناقابل تجدید حروف شامل ہیں۔ یقینی بنائیں کہ آپ اس سائٹ پر بھروسہ کرتے ہیں۔",
+        "decodeError": "پیغام کو ڈی کوڈ کرنے میں ناکام",
+        "header": "دستخط کی درخواست",
+        "irregular": {
+          "description": "آگے بڑھنے سے پہلے یقینی بنائیں کہ آپ اس سائٹ پر بھروسہ کرتے ہیں۔",
+          "understand": "میں خطرات کو سمجھتا ہوں۔"
+        },
+        "toggleDataView": {
+          "raw": "خام ڈیٹا دیکھیں",
+          "readable": "اصل ڈیٹا دیکھیں"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "یقینی بنائیں کہ یہ صحیح ہے۔",
+          "title": "یہ آپ کا فعال بٹوہ نہیں ہے۔"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "یہاں سائن ان کریں۔"
+      },
+      "getStarted": {
+        "description": "اپنے فون یا براؤزر پر دستیاب Uniswap Wallet کو ڈاؤن لوڈ کرکے شروع کریں۔",
+        "title": "Unswap کے ساتھ شروع کریں۔"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "ذیل میں سائن اپ کرکے سیکنڈوں میں شروع کریں یا ہمارے بٹوے کو ڈاؤن لوڈ کریں، جو آپ کے فون یا براؤزر پر دستیاب ہے۔"
+        },
+        "title": "Uniswap کے ساتھ سائن اپ کریں۔"
+      },
+      "uniswapProducts": {
+        "subtitle": "Unswap مصنوعات بہترین onchain تجربہ تخلیق کرنے کے لیے بغیر کسی رکاوٹ کے ایک ساتھ کام کرتی ہیں۔"
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "یہ تجارت کے لیے آپ کے ٹوکن تک یونی سویپ پروٹوکول تک رسائی فراہم کرتا ہے۔ سیکورٹی کے لیے، یہ 30 دنوں کے بعد ختم ہو جاتا ہے۔"
+    },
+    "dataUnavailable": "اس وقت ڈیٹا دستیاب نہیں ہے۔ ہم ٹھیک کرنے پر کام کر رہے ہیں۔",
+    "id": "خرابی کی شناخت: {{eventId}}",
+    "noData": "کوئی ڈیٹا نہیں ملا",
+    "request": {
+      "provideId": "معذرت، آپ کی درخواست پر کارروائی کرتے وقت ایک خرابی پیش آگئی۔ اگر آپ سپورٹ کی درخواست کرتے ہیں تو اپنی ایرر آئی ڈی فراہم کرنا یقینی بنائیں۔"
+    },
+    "tokenApproval": "ٹوکن کی منظوری ناکام ہو گئی۔",
+    "tokenApprovalEdited": {
+      "message": "اس لین دین کو مکمل کرنے کے لیے آپ کے بٹوے میں منظور کی گئی رقم بہت کم ہے۔ براہ کرم دوبارہ کوشش کریں اور رقم بڑھائیں۔"
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "کچھ کریش ہو گیا۔",
+      "restart": "ایپ کو دوبارہ شروع کریں۔",
+      "title": "اوہ!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "مزید پول دریافت کریں۔"
+    },
+    "search": {
+      "action": {
+        "clear": "صاف",
+        "viewEtherscan": "{{blockExplorerName}}پر دیکھیں"
+      },
+      "empty": {
+        "full": "<highlight>\"{{searchQuery}}\"</highlight>کے لیے کوئی نتیجہ نہیں ملا"
+      },
+      "error": "تلاش کے نتائج لوڈ نہیں ہو سکے۔",
+      "label": {
+        "ownedBy": "{{ownerAddress}}کی ملکیت ہے۔"
+      },
+      "placeholder": "ٹوکن اور بٹوے تلاش کریں۔",
+      "section": {
+        "nft": "NFT مجموعہ",
+        "popularNFT": "NFT کے مقبول مجموعے۔",
+        "popularTokenInfo": "مقبول ٹوکنز کی شناخت گزشتہ 24 گھنٹوں کے دوران یونی سویپ پر ان کے تجارتی حجم کی بنیاد پر کی جاتی ہے۔",
+        "popularTokens": "مقبول ٹوکنز",
+        "recent": "حالیہ تلاشیں۔",
+        "tokens": "ٹوکنز",
+        "wallets": "بٹوے"
+      }
+    },
+    "tokens": {
+      "error": "ٹوکن لوڈ نہیں ہو سکے۔",
+      "favorite": {
+        "action": {
+          "add": "پسندیدہ ٹوکن",
+          "edit": "پسندیدہ میں ترمیم کریں۔",
+          "remove": "پسندیدہ کو ہٹا دیں۔"
+        },
+        "title": {
+          "default": "پسندیدہ ٹوکن",
+          "edit": "پسندیدہ ٹوکن میں ترمیم کریں۔"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} ایم سی کیپ",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} والیوم"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "مارکیٹ کیپ",
+          "priceDecrease": "قیمت میں کمی",
+          "priceIncrease": "قیمت میں اضافہ",
+          "totalValueLocked": "ٹی وی ایل",
+          "volume": "حجم"
+        },
+        "option": {
+          "marketCap": "مارکیٹ کیپ",
+          "priceDecrease": "قیمت میں کمی (24H)",
+          "priceIncrease": "قیمت میں اضافہ (24H)",
+          "totalValueLocked": "ٹی وی ایل کو تبدیل کریں۔",
+          "volume": "غیر تبدیل شدہ والیوم (24H)"
+        }
+      },
+      "top": {
+        "title": "ٹاپ ٹوکنز"
+      }
+    },
+    "v2TVL": "v2 TVL",
+    "v3TVL": "v3 TVL",
+    "v4TVL": "v4 TVL",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "پسندیدہ پرس",
+          "edit": "پسندیدہ میں ترمیم کریں۔",
+          "remove": "پسندیدہ کو ہٹا دیں۔"
+        },
+        "title": {
+          "default": "پسندیدہ بٹوے",
+          "edit": "پسندیدہ بٹوے میں ترمیم کریں۔"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "network": "نیٹ ورک",
+      "networks": "نیٹ ورکس",
+      "popup": {
+        "trouble": "جڑنے میں دشواری؟"
+      },
+      "titleConnected": "جڑا ہوا",
+      "titleNotConnected": "منسلک نہیں"
+    },
+    "lock": {
+      "button": {
+        "forgot": "پاسورڈ بھول گے؟",
+        "reset": "بٹوے کو دوبارہ ترتیب دیں۔",
+        "submit": "غیر مقفل کریں۔"
+      },
+      "password": {
+        "error": "غلط پاس ورڈ. دوبارہ کوشش کریں",
+        "reset": {
+          "initial": {
+            "description": "Uniswap آپ کے پاس ورڈ کی بازیافت میں مدد نہیں کر سکتا۔ آپ کو اپنا 12 الفاظ پر مشتمل ریکوری جملہ دوبارہ درج کرکے اپنے بٹوے کو دوبارہ ترتیب دینے کی ضرورت ہے۔",
+            "help": "میں اپنا بازیابی کا جملہ کہاں سے تلاش کروں؟",
+            "title": "پاسورڈ بھول گے"
+          },
+          "speedbump": {
+            "description": "اپنے بٹوے کو دوبارہ ترتیب دینے سے پہلے یقینی بنائیں کہ آپ کے پاس 12 الفاظ پر مشتمل ریکوری جملہ ہے۔ بصورت دیگر آپ اپنے فنڈز کی وصولی نہیں کر سکیں گے۔",
+            "help": "میں نے اپنی بازیابی کا جملہ کھو دیا۔",
+            "title": "اس سے پہلے کہ آپ جاری رکھیں"
+          }
+        }
+      },
+      "subtitle": "غیر مقفل کرنے کے لیے اپنا پاس ورڈ درج کریں۔",
+      "title": "خوش آمدید"
+    },
+    "network": {
+      "notSupported": "غیر تعاون یافتہ نیٹ ورک"
+    },
+    "open": "Unswap ایکسٹینشن کھولیں۔",
+    "popup": {
+      "chrome": {
+        "button": "ایکسٹینشن کھولیں۔",
+        "description": "یونی سویپ ایکسٹینشن کھول کر اس عمل کو مکمل کریں۔",
+        "title": "Unswap میں جاری رکھیں"
+      }
+    },
+    "settings": {
+      "defaultWallet": {
+        "message": "ایپس سے منسلک ہوتے وقت یونی سویپ ایکسٹینشن کو ترجیح دیں۔",
+        "title": "ڈیفالٹ والیٹ بنائیں"
+      },
+      "password": {
+        "enter": {
+          "title": "اپنا موجودہ پاس ورڈ درج کریں"
+        },
+        "error": {
+          "wrong": "غلط پاس ورڈ"
+        },
+        "placeholder": "موجودہ خفیہ لفظ"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "بیک اپ",
+        "message": "اپنے بٹوے اور فنڈز تک رسائی سے محروم ہونے سے بچنے کے لیے اپنے بازیابی کے جملے کا بیک اپ لینا یقینی بنائیں۔",
+        "title": "آپ کے براؤزر کی اسٹوریج ختم ہو رہی ہے۔"
+      }
+    }
+  },
+  "extensionPasskeySignInPopUp": {
+    "description": "موجودہ پاس کی کے ساتھ سائن ان کر کے اپنا یونی سویپ اکاؤنٹ درآمد کریں۔",
+    "invalidReferrer": "براہ کرم یہ صفحہ بند کریں اور دوبارہ کوشش کریں۔"
+  },
+  "fee": {
+    "bestForExotic": "غیر ملکی جوڑوں کے لیے بہترین۔",
+    "bestForMost": "زیادہ تر جوڑوں کے لیے بہترین۔",
+    "bestForStablePairs": "مستحکم جوڑوں کے لیے بہترین۔",
+    "bestForVeryStable": "بہت مستحکم جوڑوں کے لیے بہترین۔",
+    "dynamic": "متحرک فیس",
+    "percentEarned": "% جو آپ فیس میں کمائیں گے۔",
+    "selectPercent": "{{pct}}% منتخب کریں۔",
+    "selectPercentDescription": "{{pct}}% لیکویڈیٹی نے اس درجے کو منتخب کیا۔",
+    "tier": {
+      "create": {
+        "button": "فیس کا نیا درجہ بنائیں",
+        "description": "ایک نئے درجے کی تخلیق ایک نئے پول میں شروع ہوگی اور اس کے نتیجے میں نیٹ ورک کے معمول کے اخراجات سے زیادہ ہوں گے۔"
+      },
+      "description": {
+        "v2": "رقم جو لیکویڈیٹی فراہم کرتی ہے۔ تمام v2 پولز نے 0.3% فیس مقرر کی ہے۔ مزید اختیارات کے لیے، v4 پر لیکویڈیٹی فراہم کریں۔"
+      },
+      "dynamic": {
+        "create": {
+          "info": "آپ متحرک فیس ٹائر کے ساتھ ایک پول بنانے والے ہیں۔ آگے بڑھنے سے پہلے، براہ کرم یقینی بنائیں کہ منتخب کردہ ہک متحرک فیس کو سپورٹ کرتا ہے۔"
+        }
+      },
+      "highestTvl": "اعلی ترین TVL",
+      "label": "% جو آپ فیس میں کمائیں گے۔",
+      "missing": {
+        "description": "آپ جس درجے کی تلاش کر رہے ہیں اسے نہیں مل سکتا؟"
+      },
+      "new": "نیا درجہ",
+      "percent": {
+        "select": "{{percentage}} منتخب کریں۔"
+      },
+      "recommended": {
+        "description": "منتخب ٹوکن جوڑے کے لیے لیکویڈیٹی کا سب سے زیادہ حصہ رکھنے کی بنیاد پر تجویز کردہ۔"
+      },
+      "search": {
+        "short": "تلاش کے درجات"
+      },
+      "select": {
+        "existing": {
+          "button": "موجودہ فیس ٹائر منتخب کریں۔"
+        }
+      }
+    },
+    "tierExact": "{{fee}} فیس کا درجہ",
+    "unavailable": "کمائی ہوئی فیس v2 پوزیشنز کے لیے اس وقت تک نظر نہیں آتی جب تک لیکویڈیٹی کو ہٹا نہیں دیا جاتا۔",
+    "uncollected": "غیر جمع شدہ فیسیں شامل ہیں:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "کے ساتھ فروخت کریں۔"
+    },
+    "connection": {
+      "quote": "{{currencySymbol}}کی قیمت {{amount}} فروخت کرنا"
+    },
+    "error": {
+      "balance": "توازن سے زیادہ"
+    },
+    "summary": {
+      "total": "{{fiatAmount}}کے لیے {{cryptoAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "واپس جاو",
+      "divider": "غیر تعاون یافتہ ٹوکنز",
+      "message": "یہ ٹوکن فروخت کے لیے تعاون یافتہ نہیں ہے۔ اس اثاثے کو تعاون یافتہ ٹوکنز میں سے ایک میں تبدیل کریں۔",
+      "swap": "ایک معاون ٹوکن میں تبدیل کریں۔",
+      "title": "غیر تعاون یافتہ ٹوکن"
+    },
+    "welcome": {
+      "tooltip": "اپنے کرپٹو کو اپنے بینک اکاؤنٹ یا ڈیبٹ کارڈ میں بیچیں۔"
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "ٹوکن کا انتخاب کریں۔"
+    },
+    "cexTransferModal": {
+      "description": "کارڈ کے ساتھ کرپٹو خریدنا آپ کے علاقے میں تعاون یافتہ نہیں ہے۔ اپنے بٹوے کو فنڈ دینے کے لیے سینٹرلائزڈ ایکسچینج اکاؤنٹ سے اثاثے منتقل کریں۔",
+      "title": "شروع کرنے کے لیے منتقل کریں۔"
+    },
+    "checkout": {
+      "title": "کے ساتھ چیک آؤٹ"
+    },
+    "checkoutWith": "کے ساتھ چیک آؤٹ",
+    "chooseProvider": {
+      "description": "آپ اپنے لین دین سے وابستہ فیس دیکھنے کے لیے فراہم کنندہ کے پورٹل پر جائیں گے۔"
+    },
+    "completeTransactionHeader": "{{serviceProvider}}کے ساتھ لین دین مکمل کریں۔",
+    "connection": {
+      "error": "رابطہ ناکام",
+      "errorDescription": "{{serviceProvider}}کے ساتھ جڑنے میں کچھ غلط ہو گیا۔",
+      "message": "آپ کو {{serviceProvider}}سے جوڑ رہا ہے۔",
+      "quote": "{{currencySymbol}}کی قیمت {{amount}} خریدنا",
+      "terms": "جاری رکھ کر، آپ تسلیم کرتے ہیں کہ آپ {{serviceProvider}}کے ساتھ سروس کی شرائط اور رازداری کی پالیسی کے تابع ہوں گے، جیسا کہ قابل اطلاق ہے۔"
+    },
+    "continueInTab": "جاری رکھنے کے لیے {{serviceProvider}} ٹیب پر جائیں۔ اب اس موڈل کو بند کرنا محفوظ ہے۔",
+    "disclaimer": "جاری رکھ کر، آپ تسلیم کرتے ہیں کہ آپ <tosLink>سروس کی شرائط</tosLink> اور <privacyLink>رازداری کی پالیسی</privacyLink> کے ساتھ {{serviceProvider}}کے ساتھ مشروط ہوں گے، جیسا کہ قابل اطلاق ہے۔",
+    "error": {
+      "default": "کچھ غلط ہو گیا.",
+      "load": "خریدنے کے لیے ٹوکن لوڈ نہیں ہو سکے۔",
+      "max": "زیادہ سے زیادہ {{amount}}",
+      "min": "کم از کم {{amount}}",
+      "noQuotes": "کوئی اقتباسات نہیں ملے۔",
+      "unavailable": "یہ سروس آپ کے علاقے میں دستیاب نہیں ہے۔",
+      "unsupported": "خطے میں تعاون یافتہ نہیں ہے۔",
+      "usd": "صرف USD میں خریدنے کے لیے دستیاب ہے۔"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} برائے {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "کوئی اقتباسات نہیں ملے"
+    },
+    "purchasedOn": "{{serviceProvider}}پر خریدا گیا۔",
+    "quote": {
+      "advice": "آپ اپنے لین دین سے وابستہ فیس دیکھنے کے لیے فراہم کنندہ کے پورٹل پر جائیں گے۔",
+      "type": {
+        "list": "{{optionsList}}، اور دیگر اختیارات",
+        "other": "دوسرے اختیارات",
+        "recent": "حال ہی میں استعمال کیا گیا۔"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "اکاؤنٹ سے"
+        }
+      },
+      "title": "کرپٹو وصول کریں۔",
+      "transferFunds": "دوسرے بٹوے یا اکاؤنٹ سے کریپٹو منتقل کر کے اپنے بٹوے کو فنڈ دیں۔"
+    },
+    "region": {
+      "placeholder": "ملک یا علاقے کے لحاظ سے تلاش کریں۔",
+      "title": "اپنا علاقہ منتخب کریں۔"
+    },
+    "summary": {
+      "total": "{{fiatAmount}}کے لیے {{cryptoAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "ابھی اپ ڈیٹ کریں۔",
+      "learn": "اپ ڈیٹ کرنے کا طریقہ سیکھیں۔",
+      "recoveryPhrase": "بحالی کا جملہ دیکھیں"
+    },
+    "description": {
+      "extension": "ایپ کا نیا ورژن دستیاب ہے۔ Uniswap ایکسٹینشن کا استعمال جاری رکھنے کے لیے، براہ کرم اسے تازہ ترین ورژن میں اپ ڈیٹ کریں۔",
+      "wallet": "ایپ کا نیا ورژن دستیاب ہے۔ Uniswap Wallet کا استعمال جاری رکھنے کے لیے، براہ کرم اسے تازہ ترین ورژن میں اپ ڈیٹ کریں۔"
+    },
+    "label": {
+      "recoveryPhrase": "بازیابی کا جملہ"
+    },
+    "title": {
+      "recommendedStatus": "ایک نیا ورژن دستیاب ہے۔"
+    }
+  },
+  "globalPreferences": {
+    "title": "عالمی ترجیحات"
+  },
+  "hero": {
+    "scroll": "مزید جاننے کے لیے سکرول کریں۔",
+    "subtitle": "سب سے بڑا آنچین مارکیٹ پلیس۔ Ethereum اور 11+ دیگر زنجیروں پر کرپٹو خریدیں اور فروخت کریں۔",
+    "swap": {
+      "title": "کسی بھی وقت، <br/> کہیں بھی تبدیل کریں۔"
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "پوشیدہ NFTs کے بارے میں مزید جانیں۔"
+        },
+        "text": {
+          "button": "پوشیدہ NFTs ({{numHidden}})",
+          "extension": "یہ ممکنہ گھوٹالے اور NFTs ہیں جنہیں آپ نے چھپایا ہے۔ آپ اسے چھپانے کے لیے NFT پر دائیں کلک کر سکتے ہیں۔",
+          "mobile": "یہ ممکنہ گھوٹالے اور NFTs ہیں جنہیں آپ نے چھپایا ہے۔ آپ اسے چھپانے کے لیے NFT پر دیر تک دبا سکتے ہیں۔",
+          "title": "پوشیدہ NFTs"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "پوشیدہ ٹوکنز کے بارے میں مزید جانیں۔"
+        },
+        "text": {
+          "button": "پوشیدہ ٹوکنز ({{numHidden}})",
+          "info": "یہ ممکنہ گھپلے، چھوٹے بیلنس، اور ٹوکنز ہیں جنہیں آپ نے چھپایا ہے۔ پوشیدہ ٹوکنز آپ کے بٹوے کے کل بیلنس میں شامل نہیں ہیں۔",
+          "title": "پوشیدہ ٹوکن"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "ٹوکن یا NFTs وصول کریں۔",
+        "description": {
+          "default": "جب آپ ٹوکنز یا NFTs کو منظور کرتے ہیں، تجارت کرتے ہیں یا ٹرانسفر کرتے ہیں تو آپ کے لین دین یہاں ظاہر ہوں گے۔",
+          "external": "جب یہ پرس لین دین کرتا ہے تو وہ یہاں ظاہر ہوں گے۔"
+        },
+        "title": "ابھی تک کوئی سرگرمی نہیں ہے۔"
+      },
+      "error": {
+        "load": "سرگرمی لوڈ نہیں ہو سکی"
+      },
+      "title": "سرگرمی"
+    },
+    "banner": {
+      "offline": "آپ آف لائن موڈ میں ہیں۔",
+      "testnetMode": {
+        "nav": "آپ ٹیسٹ نیٹ موڈ میں ہیں۔ اسے ترتیبات میں ٹوگل کریں۔",
+        "outage": {
+          "monad": {
+            "description": "نیٹ ورک کے استحکام کے مسائل کی وجہ سے Uniswap انٹرفیس کے ذریعے Monad Testnet تک رسائی کو عارضی طور پر روک دیا گیا ہے۔ ٹیسٹ نیٹ فنڈز متاثر نہیں ہوتے ہیں۔ مسائل حل ہونے کے بعد رسائی بحال کر دی جائے گی۔",
+            "title": "موند نے وقتی طور پر توقف کیا۔"
+          }
+        }
+      }
+    },
+    "explore": {
+      "footer": "ہزاروں ٹوکنز، NFTs، اور مزید دریافت کرنے کے لیے یہاں تھپتھپائیں۔",
+      "title": "ٹوکن دریافت کریں۔"
+    },
+    "extension": {
+      "error": "اکاؤنٹس لوڈ کرنے میں خرابی۔"
+    },
+    "label": {
+      "buy": "خریدنے",
+      "for": "خریدیں/فروخت کریں۔",
+      "receive": "وصول کریں۔",
+      "send": "بھیجیں",
+      "swap": "تبادلہ"
+    },
+    "nfts": {
+      "title": "NFTs"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "ڈیبٹ کارڈ یا بینک اکاؤنٹ سے خریداری کریں۔",
+            "title": "کریپٹو لیں"
+          },
+          "import": {
+            "description": "تبادلہ اور بھیجنا شروع کرنے کے لیے اس بٹوے کی بازیابی کا جملہ درج کریں۔",
+            "title": "پرس درآمد کریں۔"
+          },
+          "receive": {
+            "description": "دوسرے بٹوے یا اکاؤنٹ سے ٹرانسفر کریں۔",
+            "title": "کرپٹو وصول کریں۔"
+          }
+        },
+        "description": "جب یہ پرس ٹوکن خریدتا یا وصول کرتا ہے، تو وہ یہاں ظاہر ہوں گے۔",
+        "title": "ابھی تک کوئی ٹوکن نہیں ہے۔",
+        "welcome": {
+          "description": "ایسا لگتا ہے کہ آپ کے پاس نیا پرس ہے۔ آئیے آپ اپنا پہلا تبادلہ کرنے سے پہلے اس کی مالی اعانت حاصل کریں۔"
+        }
+      },
+      "error": {
+        "fetch": "ٹوکن بیلنس حاصل کرنے میں ناکام",
+        "load": "ٹوکن بیلنس لوڈ نہیں ہو سکے۔"
+      },
+      "title": "ٹوکنز"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "اکاؤنٹ سے",
+        "description": "دوسرے بٹوے یا اکاؤنٹ سے کریپٹو منتقل کر کے اپنے بٹوے کو فنڈ دیں۔",
+        "title": "کرپٹو وصول کریں۔"
+      }
+    },
+    "warning": {
+      "viewOnly": "یہ صرف دیکھنے والا پرس ہے۔"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "تبادلہ کریں یا یونی سویپ پروٹوکول پر لیکویڈیٹی فراہم کریں۔",
+      "title": "Unswap انٹرفیس"
+    }
+  },
+  "landing": {
+    "buildNextGen": "کھلی ایپلیکیشنز اور ٹولز کی اگلی نسل بنائیں۔",
+    "connectWithUs": "ہم سے رجوع فرمائیں",
+    "devDocs": "ڈویلپر دستاویزات",
+    "directToDeFi": "براہ راست DeFi پر جائیں۔",
+    "followOnX": "تازہ ترین اپ ڈیٹس کے لیے X پر @Uniswap کو فالو کریں۔",
+    "protocolDescription": "یونی سویپ پروڈکٹس یونی سویپ پروٹوکول سے چلتی ہیں۔ پروٹوکول سب سے بڑا آنچین مارکیٹ پلیس ہے، جس میں Ethereum پر ہزاروں ٹوکنز اور 7+ اضافی زنجیروں میں ہفتہ وار حجم میں اربوں ڈالر ہیں۔",
+    "provideLiquidity": {
+      "message": "یونی سویپ پروٹوکول پر پولز کو لیکویڈیٹی فراہم کریں اور سویپ پر فیس کمائیں۔"
+    },
+    "swapSimple": "تبدیل کرنا آسان بنا دیا گیا۔ 11+ زنجیروں پر ہزاروں ٹوکنز تک رسائی حاصل کریں۔",
+    "teamInsights": "ٹیم کی طرف سے بصیرت اور خبریں۔",
+    "trusted": "لاکھوں کا بھروسہ"
+  },
+  "language": {
+    "afrikaans": "افریقی",
+    "arabic": "عربی",
+    "catalan": "کاتالان",
+    "chineseSimplified": "آسان چینی زبان",
+    "chineseTraditional": "چینی، روایتی",
+    "czech": "چیک",
+    "danish": "ڈینش",
+    "dutch": "ڈچ",
+    "english": "انگریزی",
+    "finnish": "فنش",
+    "french": "فرانسیسی",
+    "greek": "یونانی",
+    "hebrew": "عبرانی",
+    "hindi": "ہندی",
+    "hungarian": "ہنگری",
+    "indonesian": "انڈونیشین",
+    "italian": "اطالوی",
+    "japanese": "جاپانی",
+    "korean": "کورین",
+    "malay": "مالائی",
+    "norwegian": "ناروے",
+    "polish": "پولش",
+    "portuguese": "پرتگالی",
+    "romanian": "رومانیہ",
+    "russian": "روسی",
+    "serbian": "سربیائی",
+    "spanishLatam": "ہسپانوی (لاطینی امریکہ)",
+    "spanishSpain": "ہسپانوی (اسپین)",
+    "spanishUs": "ہسپانوی (امریکی)",
+    "swahili": "سواحلی",
+    "swedish": "سویڈش",
+    "turkish": "ترکی",
+    "ukrainian": "یوکرینی",
+    "urdu": "اردو",
+    "vietnamese": "ویتنامی"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 کھلی حد",
+      "count_other": "{{count}} کھلی حدود"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "آپ کی حد قیمت مارکیٹ سے {{percentage}}% زیادہ ہے۔ آگے بڑھنے کے لیے اپنی حد کی قیمت کو ایڈجسٹ کریں۔",
+        "title": "{{tokenSymbol}} مارکیٹ کی قیمت سے زیادہ خریدنا"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "ہم موجودہ مارکیٹ قیمت کا حساب لگانے سے قاصر ہیں۔ مارکیٹ کی قیمت سے کم آرڈر جمع کرانے سے بچنے کے لیے، براہ کرم اپنا نیٹ ورک کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+        "title": "مارکیٹ قیمت دستیاب نہیں ہے۔"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "آپ کی حد قیمت مارکیٹ سے {{percentage}}% کم ہے۔ آگے بڑھنے کے لیے اپنی حد کی قیمت کو ایڈجسٹ کریں۔",
+        "title": "مارکیٹ کی قیمت سے نیچے {{tokenSymbol}} فروخت کرنا"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "صرف مینیٹ ٹوکن حدود کے لیے دستیاب ہیں۔"
+        },
+        "uniswapx": "جب ٹوکن متعین قیمت تک پہنچ جائیں تو حدیں بالکل ٹھیک نہیں ہو سکتی ہیں۔ <link />"
+      }
+    },
+    "learnMore": "حدود کے بارے میں مزید جانیں۔",
+    "price": {
+      "input": {
+        "label": "جب 1 <tokenSymbol /> کی قیمت ہوتی ہے۔"
+      },
+      "label": "قیمت کو محدود کریں۔"
+    },
+    "selectSupportedTokens": "تعاون یافتہ ٹوکن منتخب کریں۔"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "ہک ایڈریس درج کریں۔"
+      }
+    },
+    "learnMoreLabel": "لیکویڈیٹی کی فراہمی کے بارے میں جانیں۔",
+    "notEnough": {
+      "label": "درست USD قدر دکھانے کے لیے کافی لیکویڈیٹی نہیں ہے۔"
+    },
+    "provideOnProtocols": "مختلف پروٹوکولز پر لیکویڈیٹی فراہم کرنا"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} لیکویڈیٹی: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "یونی سویپ پر{{version}} پولز میں لیکویڈیٹی شامل کریں۔"
+    },
+    "positions": {
+      "closed": {
+        "title": "بند پوزیشنز"
+      },
+      "page": {
+        "title": "Uniswap پر {{quoteSymbol}}/{{baseSymbol}} پول لیکویڈیٹی کا نظم کریں",
+        "version": {
+          "description": "اپنی فعال {{version}} لیکویڈیٹی پوزیشنز دیکھیں۔ نئی پوزیشنیں شامل کریں۔",
+          "title": "یونی سویپ پر پول لیکویڈیٹی{{version}} کا نظم کریں۔"
+        }
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "اجازت ہے۔",
+    "allowLpMigration": "ایل پی ٹوکن کی منتقلی کی اجازت دیں۔",
+    "connectAccount": "آپ کو ایک اکاؤنٹ جوڑنا چاہیے جو اس پوزیشن کا مالک ہو۔",
+    "connectWallet": "اپنی V2 لیکویڈیٹی دیکھنے کے لیے بٹوے سے جڑیں۔",
+    "contract": "ہجرت کا معاہدہ تبدیل کریں۔",
+    "firstLP": "آپ اس Uniswap V3 پول کے لیے پہلے لیکویڈیٹی فراہم کنندہ ہیں۔ آپ کی لیکویڈیٹی موجودہ {{source}} قیمت پر منتقل ہو جائے گی۔",
+    "highGasCost": "آپ کے لین دین کی لاگت بہت زیادہ ہوگی کیونکہ اس میں پول بنانے کے لیے گیس شامل ہے۔",
+    "invalidRange": "غلط رینج منتخب کی گئی۔ کم از کم قیمت زیادہ سے زیادہ قیمت سے کم ہونی چاہیے۔",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} LP ٹوکنز",
+    "migrating": "ہجرت کرنا",
+    "missingV2Position": "آپ کی v2 پوزیشنوں میں سے ایک نظر نہیں آرہی ہے؟ <link>اسے درآمد کریں۔</link>",
+    "noV2Liquidity": "کوئی V2 لیکویڈیٹی نہیں ملی۔",
+    "positionNoFees": "آپ کی پوزیشن فیس حاصل نہیں کرے گی یا تجارت میں اس وقت تک استعمال نہیں ہوگی جب تک کہ مارکیٹ کی قیمت آپ کی حد میں نہ آجائے۔",
+    "priceDifference": "قیمت کا فرق: ",
+    "priceWarning": "آپ کو صرف اس قیمت پر Uniswap V3 میں لیکویڈیٹی جمع کرنی چاہیے جو آپ کے خیال میں درست ہے۔ <br /> اگر قیمت غلط معلوم ہوتی ہے، تو آپ قیمت کو منتقل کرنے کے لیے یا تو تبادلہ کر سکتے ہیں یا کسی اور کے ایسا کرنے کا انتظار کر سکتے ہیں۔",
+    "refund": "کم از کم {{amtA}} {{symA}} اور {{amtB}} {{symB}} منتخب کردہ قیمت کی حد کی وجہ سے آپ کے بٹوے میں واپس کر دیے جائیں گے۔",
+    "selectFeeTier": "فیس کا درجہ منتخب کریں۔",
+    "setRange": "قیمت کی حد مقرر کریں۔",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} قیمت:",
+    "v2Description": "یہ ٹول محفوظ طریقے سے آپ کی {{source}} لیکویڈیٹی کو V3 میں منتقل کر دے گا۔ <0>Uniswap منتقلی کے معاہدے کی بدولت یہ عمل مکمل طور پر بے اعتبار ہے۔</0> ↗",
+    "v2Instruction": "ذیل میں دکھائے گئے ہر پول کے لیے، Uniswap V2 سے اپنی لیکویڈیٹی کو ہٹانے اور اسے Uniswap V3 میں جمع کرنے کے لیے منتقلی پر کلک کریں۔",
+    "v2Title": "V2 لیکویڈیٹی کو منتقل کریں۔",
+    "v3Price": "V3 {{sym}} قیمت:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "غلط قیمت ان پٹ"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Unswap Wallet ایپ حاصل کریں۔"
+      },
+      "title": "بدلاؤ: کرپٹو اور این ایف ٹی والیٹ"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "MoonPay USA LLC کے ذریعے تقویت یافتہ Fiat onramp",
+    "restricted": {
+      "region": "Moonpay کچھ علاقوں میں دستیاب نہیں ہے۔ مزید جاننے کے لیے کلک کریں۔"
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "اکاؤنٹ بنائیں"
+    },
+    "logIn": {
+      "button": "لاگ ان کریں۔"
+    },
+    "signIn": {
+      "button": "سائن ان کریں۔"
+    },
+    "signInOrConnect": {
+      "title": "سائن ان کریں یا جڑیں۔"
+    },
+    "signUp": {
+      "button": "سائن اپ کریں۔"
+    },
+    "tabs": {
+      "createPosition": "پوزیشن بنائیں",
+      "viewPositions": "پوزیشنیں دیکھیں"
+    }
+  },
+  "network": {
+    "lostConnection": "ہو سکتا ہے آپ کا نیٹ ورک کنکشن ختم ہو گیا ہو۔",
+    "mightBeDown": "{{network}} ہو سکتا ہے ابھی بند ہو، یا آپ کا نیٹ ورک کنکشن ختم ہو گیا ہو۔",
+    "warning": "نیٹ ورک وارننگ"
+  },
+  "nft": {
+    "addToBag": "بیگ میں ڈال دو",
+    "authorsCollectionOnUni": "Uniswap پر {{name}}کا NFT مجموعہ",
+    "bag": "بیگ",
+    "blockedCollection": "یہ مجموعہ مسدود ہے۔",
+    "blockedOpenSea": "OpenSea پر مسدود",
+    "buyTransferNFTToStart": "شروع کرنے کے لیے اس پرس میں NFTs خریدیں یا منتقل کریں۔",
+    "buyTransferTokensToStart": "شروع کرنے کے لیے اس بٹوے میں ٹوکن خریدیں یا منتقل کریں۔",
+    "card": {
+      "notAvailable": "مواد ابھی تک <br /> دستیاب نہیں ہے۔"
+    },
+    "chainSupportComingSoon": "{{chainName}} سپورٹ جلد آرہی ہے۔",
+    "collectionOnUni": "Unswap پر NFT مجموعہ",
+    "collectonOnAddress": "Uniswap پر NFT مجموعہ - {{address}}",
+    "complete": "مکمل!",
+    "editListings": "فہرستوں میں ترمیم کریں۔",
+    "event": "تقریب",
+    "explore": "NFTs دریافت کریں۔",
+    "learnWhy": "جانیں کیوں",
+    "list": {
+      "header": {
+        "lastPrice": "آخری"
+      },
+      "title": "NFTs کی فہرست بنائیں"
+    },
+    "listedSignificantly_one": "ایک NFT مجموعہ کی منزل کی قیمت کے نیچے {{percentage}} درج ہے۔ کیا آپ واقعی جاری رکھنا چاہتے ہیں؟",
+    "listedSignificantly_other": "{{count}} NFTs مجموعہ کی منزل کی قیمت سے نمایاں طور پر نیچے درج ہیں۔ کیا آپ واقعی جاری رکھنا چاہتے ہیں؟",
+    "listForSale": "فہرست برائے فروخت",
+    "lowPrice": "کم لسٹنگ کی قیمت",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} فیس"
+      }
+    },
+    "maxFees": "زیادہ سے زیادہ فیس",
+    "maxRoyalties": "زیادہ سے زیادہ تخلیق کار کی رائلٹی",
+    "noItems": "ڈسپلے کرنے کے لیے کوئی آئٹمز نہیں۔",
+    "noneAtAddress": "اس پتے پر جمع کرنے کے کوئی اثاثے موجود نہیں ہیں۔",
+    "noPools": "ابھی تک کوئی پول نہیں ہے۔",
+    "notListed": "فہرست میں شامل نہیں",
+    "proceedsIfSold": "اگر فروخت کیا جائے تو آگے بڑھتا ہے۔",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "پہلے ہی {{tokenAmountWithSymbol}}پر درج ہے۔",
+          "belowFloor": "{{percentage}} منزل کی قیمت سے نیچے۔"
+        }
+      }
+    },
+    "refundsInEth": "غیر دستیاب اشیاء کے لیے رقم کی واپسی ETH میں دی جائے گی۔",
+    "removeFromBag": "بیگ سے ہٹا دیں۔",
+    "reportSpam": "سپیم کے بطور رپورٹ کریں۔",
+    "returnToExplore": "NFT ایکسپلور پر واپس جائیں۔",
+    "returnToMy": "میرے NFTs پر واپس جائیں۔",
+    "setPrices": "جاری رکھنے کے لیے قیمتیں سیٹ کریں۔",
+    "startListing": "فہرست سازی شروع کریں۔",
+    "successListed": "کامیابی کے ساتھ درج کیا گیا۔",
+    "unavailableToList": "فہرست سازی کے لیے دستیاب نہیں ہے۔",
+    "whyTransaction": {
+      "reason": "NFT کی فہرست بنانے کے لیے ہر NFT مجموعہ کے لیے ایک بار مارکیٹ پلیس کی منظوری درکار ہوتی ہے۔"
+    },
+    "willAppearHere": "آپ کی آنچین ٹرانزیکشنز اور کرپٹو خریداریاں یہاں ظاہر ہوں گی۔",
+    "wishGranted": "Unswap نے آپ کی خواہش پوری کر دی ہے!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "جمع کرنے کی منظوری دیں۔",
+        "approve_other": "جمع کرنے کی منظوری دیں۔",
+        "sign_one": "سائن لسٹنگ",
+        "sign_other": "فہرستوں پر دستخط کریں۔"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} زیادہ سے زیادہ"
+      }
+    },
+    "my": "میرے NFTs",
+    "noneYet": "ابھی تک کوئی NFTs نہیں ہیں۔",
+    "sell": "NFTs فروخت کریں۔"
+  },
+  "notFound": {
+    "oops": "افوہ، مجھے تبادلہ پر واپس لے جائیں۔"
+  },
+  "notice": {
+    "uk": {
+      "label": "یوکے ڈس کلیمر:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} پوشیدہ",
+      "unhidden": "{{assetName}} چھپا ہوا ہے۔"
+    },
+    "copied": {
+      "address": "پتہ کاپی ہو گیا۔",
+      "calldata": "کالڈیٹا کاپی ہو گیا۔",
+      "contractAddress": "کنٹریکٹ ایڈریس کاپی ہو گیا۔",
+      "failed": "کلپ بورڈ پر کاپی کرنے میں ناکام",
+      "image": "تصویر کاپی ہو گئی۔",
+      "nftUrl": "NFT URL کاپی ہو گیا۔",
+      "tokenUrl": "ٹوکن URL کاپی ہو گیا۔",
+      "transactionId": "ٹرانزیکشن ID کاپی ہو گئی۔",
+      "unitag": "صارف نام کاپی ہو گیا۔"
+    },
+    "countryChange": "{{countryName}}پر تبدیل ہو گیا۔",
+    "network": {
+      "changed": "{{network}}پر تبدیل ہو گیا۔"
+    },
+    "passwordChanged": "پاس ورڈ بدل گیا۔",
+    "restore": {
+      "success": "پرس بحال ہو گیا!"
+    },
+    "send": {
+      "network": "{{network}}پر بھیج رہا ہے۔"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "رپورٹ کیا"
+      }
+    },
+    "swap": {
+      "network": "{{network}}پر تبادلہ",
+      "pending": {
+        "swap": "تبادلہ زیر التواء ہے۔",
+        "unwrap": "کھولنا زیر التواء ہے۔",
+        "wrap": "ریپ زیر التواء"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "{{currencySymbol}} منظوری منسوخ کر دی گئی۔",
+        "fail": "{{address}}کے ساتھ استعمال کے لیے {{currencySymbol}} منظور کرنے میں ناکام۔",
+        "success": "{{address}}کے ساتھ استعمال کے لیے {{currencySymbol}} کی منظوری دی گئی۔"
+      },
+      "pending": "لین دین زیر التواء ہے۔",
+      "swap": {
+        "canceled": "{{inputCurrencySymbol}}-{{outputCurrencySymbol}} تبادلہ منسوخ کر دیا گیا۔",
+        "expired": "{{inputCurrencyAmountWithSymbol}} برائے {{outputCurrencyAmountWithSymbol}} سویپ کی میعاد ختم ہو گئی۔",
+        "fail": "{{outputCurrencyAmountWithSymbol}}کے لیے {{inputCurrencyAmountWithSymbol}} تبدیل کرنے میں ناکام۔",
+        "success": "{{outputCurrencyAmountWithSymbol}}کے بدلے {{inputCurrencyAmountWithSymbol}} تبدیل کیا۔"
+      },
+      "transfer": {
+        "canceled": "منسوخ {{tokenNameOrAddress}} بھیجیں۔",
+        "fail": "{{tokenNameOrAddress}} کو {{walletNameOrAddress}}کو بھیجنے میں ناکام",
+        "received": "{{walletNameOrAddress}}سے {{tokenNameOrAddress}} موصول ہوا۔",
+        "success": "{{tokenNameOrAddress}} کو {{walletNameOrAddress}}کو بھیجا گیا۔"
+      },
+      "unknown": {
+        "fail": {
+          "full": "{{addressOrEnsName}}کے ساتھ لین دین کرنے میں ناکام",
+          "short": "لین دین ناکام ہو گیا۔"
+        },
+        "success": {
+          "full": "{{addressOrEnsName}}کے ساتھ لین دین کیا گیا۔",
+          "short": "لین دین کی تصدیق ہو گئی۔"
+        }
+      },
+      "unwrap": {
+        "canceled": "{{inputCurrencySymbol}} کھولنا منسوخ کر دیا گیا۔",
+        "fail": "{{inputCurrencyAmountWithSymbol}}کھولنے میں ناکام۔",
+        "success": "{{inputCurrencyAmountWithSymbol}} کو کھولا اور {{outputCurrencyAmountWithSymbol}}موصول ہوا۔"
+      },
+      "wrap": {
+        "canceled": "{{inputCurrencySymbol}} ریپ منسوخ کر دیا گیا۔",
+        "fail": "{{inputCurrencyAmountWithSymbol}}کو لپیٹنے میں ناکام۔",
+        "success": "{{inputCurrencyAmountWithSymbol}} لپیٹ کر {{outputCurrencyAmountWithSymbol}}موصول ہوا۔"
+      }
+    },
+    "transfer": {
+      "pending": "زیر التواء بھیجیں۔"
+    },
+    "walletConnect": {
+      "confirmed": "{{dappName}}کے ساتھ لین دین کی تصدیق ہو گئی۔",
+      "connected": "جڑا ہوا",
+      "disconnected": "منقطع",
+      "failed": "{{dappName}}کے ساتھ لین دین ناکام ہو گیا۔",
+      "networkChanged": {
+        "full": "{{networkName}}پر تبدیل ہو گیا۔",
+        "short": "سوئچ کردہ نیٹ ورکس"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "یونی سویپ ایکسٹینشن پر جاری رکھیں",
+      "title": "کامیابی!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "ہم تجویز کرتے ہیں کہ اسے کاغذ کے ٹکڑے پر لکھیں اور اسے محفوظ جگہ پر محفوظ کریں، جیسے کہ محفوظ۔",
+        "displayWarning": {
+          "description": "جاری رکھنے سے پہلے درج ذیل کو غور سے پڑھیں۔",
+          "note": {
+            "access": "یہ بازیافت جملہ آپ کو اپنے بٹوے اور فنڈز تک مکمل رسائی فراہم کرتا ہے۔",
+            "secure": "اسے نجی طور پر دیکھیں اور کسی کے ساتھ اس کا اشتراک نہ کریں۔",
+            "storage": "اسے لکھ کر محفوظ جگہ پر رکھیں"
+          },
+          "title": "جاننے کے لیے کچھ ضروری باتیں"
+        },
+        "error": "غلط یا غلط ہجے والا لفظ",
+        "placeholder": "خفیہ لفظ",
+        "progress": "{{completedStepsCount}}مکمل ہوا{{totalStepsCount}}",
+        "selectedWordPlaceholder": "لفظ منتخب کریں۔",
+        "subtitle_one": "آپ کے بازیافت کے فقرے میں <highlight/>{{count}}st</highlight/> لفظ کیا ہے؟",
+        "subtitle_two": "آپ کے بازیافت کے فقرے میں <highlight/>{{count}}nd</highlight/> لفظ کیا ہے؟",
+        "subtitle_few": "آپ کے بازیافت کے فقرے میں <highlight/>{{count}}rd</highlight/> لفظ کیا ہے؟",
+        "subtitle_other": "آپ کے بازیافت کے فقرے میں <highlight/>{{count}}واں</highlight/> لفظ کیا ہے؟",
+        "title": "آئیے یقینی بنائیں کہ آپ نے اسے صحیح طریقے سے ریکارڈ کیا ہے۔"
+      },
+      "option": {
+        "badge": {
+          "quick": "جلدی"
+        },
+        "cloud": {
+          "description": "{{cloudProviderName}}کے ذریعے اپنے بٹوے کا بیک اپ لیں، ریکوری پاس ورڈ سے محفوظ ہے۔",
+          "title": "ریکوری پاس ورڈ سیٹ کریں۔"
+        },
+        "manual": {
+          "description": "اپنے 12 خفیہ الفاظ کو کاغذ کے ٹکڑے پر ریکارڈ کریں اور اسے محفوظ جگہ پر محفوظ کریں۔",
+          "title": "بازیافت کا جملہ لکھیں۔"
+        }
+      },
+      "reminder": {
+        "description": "اپنے بٹوے کا بیک اپ لینا یقینی بناتا ہے کہ اگر آپ کبھی بھی اپنا فون کھو دیتے ہیں یا کوئی نیا آلہ حاصل کرتے ہیں تو آپ ہمیشہ اپنے اثاثوں کو بازیافت کر سکتے ہیں۔",
+        "title": "اپنے بٹوے کا بیک اپ لینے کا وقت آگیا ہے۔",
+        "warning": {
+          "description": "اگر آپ بیک اپ کا طریقہ ترتیب نہیں دیتے ہیں، اگر آپ اپنا فون کھو دیتے ہیں، ایپ کو حذف کر دیتے ہیں یا نیا آلہ حاصل کرتے ہیں تو آپ کے پاس اپنا بٹوہ بازیافت کرنے کا کوئی طریقہ نہیں ہوگا۔",
+          "title": "آپ اپنے فنڈز کھو سکتے ہیں۔"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "اگر آپ اسے کبھی بھول جاتے ہیں، تو ہم آپ کے لیے اسے دوبارہ ترتیب نہیں دے سکتے۔ اسے محفوظ جگہ پر لکھیں یا پاس ورڈ مینیجر میں محفوظ طریقے سے اسٹور کریں۔",
+          "disclaimer": "میں سمجھتا ہوں کہ Uniswap Labs میرا ریکوری پاس ورڈ دوبارہ ترتیب نہیں دے سکتا۔",
+          "title": "اس پاس ورڈ کو محفوظ کرنا ضروری ہے۔"
+        },
+        "manual": {
+          "description": "اس بات کو یقینی بنائیں کہ آپ نے اپنا بازیابی کا جملہ صحیح لکھا ہے اور اسے ذخیرہ کرنے کے لیے ایک محفوظ جگہ ہے۔",
+          "disclaimer": "میں سمجھتا ہوں کہ اگر میں اسے کھو دیتا ہوں تو Uniswap Labs میرا پرس بازیافت نہیں کر سکتا۔",
+          "title": "ختم ہونے سے پہلے..."
+        }
+      },
+      "subtitle": "اگر آپ ایپ کو حذف کرتے ہیں یا اپنا آلہ کھو دیتے ہیں تو اس طرح آپ اپنا بٹوہ بازیافت کریں گے۔",
+      "title": {
+        "existing": "اپنے بٹوے کا بیک اپ لیں۔",
+        "new": "اپنا بیک اپ طریقہ منتخب کریں۔"
+      },
+      "view": {
+        "disclaimer": "میں سمجھتا ہوں کہ اگر میں اپنا بازیابی کا جملہ کھو دیتا ہوں، تو Uniswap Labs اسے بحال کرنے میں میری مدد نہیں کر سکتی",
+        "subtitle": {
+          "message1": "جاری رکھنے سے پہلے درج ذیل کو غور سے پڑھیں",
+          "message2": "اپنے بٹوے کو بازیافت کرنے کے لیے آپ کو ان تمام 12 خفیہ الفاظ درج کرنے ہوں گے۔"
+        },
+        "title": "اپنی بازیابی کا جملہ لکھیں۔",
+        "warning": {
+          "message1": "یہ بازیافت جملہ آپ کو اپنے بٹوے اور فنڈز تک مکمل رسائی فراہم کرتا ہے۔",
+          "message2": "اسے لکھ کر محفوظ جگہ پر رکھیں",
+          "message3": "اسے نجی طور پر دیکھیں اور <u>کسی کے ساتھ اس کا اشتراک نہ کریں</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "آپ کو اپنے فنڈز کی وصولی کے لیے اسے درج کرنے کی ضرورت ہوگی۔ اگر آپ اسے کبھی بھول جاتے ہیں، تو ہم آپ کے لیے اسے دوبارہ حاصل نہیں کر سکتے۔",
+        "title": "اپنے ریکوری پاس ورڈ کی تصدیق کریں۔"
+      },
+      "createPassword": {
+        "description": "آپ کو اپنے فنڈز کی وصولی کے لیے اسے درج کرنے کی ضرورت ہوگی۔ اگر آپ اسے کبھی بھول جاتے ہیں، تو ہم آپ کے لیے اسے دوبارہ حاصل نہیں کر سکتے۔",
+        "title": "اپنا ریکوری پاس ورڈ بنائیں"
+      }
+    },
+    "complete": {
+      "button": "Unswap ایکسٹینشن کھولیں۔",
+      "description": "آپ کا بٹوہ کرپٹو بھیجنے اور وصول کرنے کے لیے تیار ہے۔ نیچے دیے گئے شارٹ کٹ کے ساتھ Unswap ایکسٹینشن کھولیں۔",
+      "go_to_uniswap": "Unswap ویب ایپ پر جائیں۔",
+      "pin": {
+        "description": "اپنے ٹول بار میں یونی سویپ ایکسٹینشن شامل کرنے کے لیے پن آئیکن پر کلک کریں۔",
+        "title": "پن یونی سویپ ایکسٹینشن"
+      },
+      "title": "آپ بالکل تیار ہیں۔"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "آپ کو اپنے بٹوے کو غیر مقفل کرنے اور اپنے بازیابی کے جملہ تک رسائی حاصل کرنے کے لیے اس کی ضرورت ہوگی۔",
+        "title": {
+          "default": "پاسورڈ بنائیں",
+          "reset": "آپ کا پاس ورڈ دوبارہ ترتیب دیں"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap ایکسٹینشن صرف ڈیسک ٹاپ پر Chrome کے ساتھ مطابقت رکھتا ہے۔",
+          "title": "موبائل پر کروم تعاون یافتہ نہیں ہے (ابھی تک)"
+        },
+        "description": "Unswap ایکسٹینشن ابھی صرف کروم کے ساتھ مطابقت رکھتا ہے۔",
+        "title": "یہ براؤزر تعاون یافتہ نہیں ہے (ابھی تک)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "اگر آپ کبھی اپنا فون کھو دیتے ہیں یا نیا حاصل کرتے ہیں تو بازیابی کا منصوبہ ترتیب دیں۔",
+          "title": "اپنے بٹوے کا بیک اپ لیں۔"
+        },
+        "fund": {
+          "description": "کرپٹو خرید کر یا دوسرے اکاؤنٹ سے ٹرانسفر کر کے اپنے بٹوے کو فنڈ دیں۔",
+          "title": "اپنا پہلا ٹوکن حاصل کریں۔"
+        },
+        "label": {
+          "required": "درکار ہے۔",
+          "swipe": "سوائپ کریں۔"
+        },
+        "pushNotifications": {
+          "description": "اپنے پسندیدہ ٹوکنز، مارکیٹ کے رجحانات، اور مزید پر قیمت کے انتباہات حاصل کریں۔",
+          "title": "باخبر رہیں"
+        },
+        "unitag": {
+          "description": "ایک ذاتی ویب 3 پروفائل بنائیں اور آسانی سے اپنے ایڈریس کو دوستوں کے ساتھ شیئر کریں۔",
+          "title": "اپنے {{unitagDomain}} صارف نام کا دعوی کریں۔"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 لفظ غلط یا غلط ہجے والا ہے۔",
+        "invalidWords_other": "{{count}} الفاظ غلط یا غلط ہجے ہیں۔"
+      },
+      "method": {
+        "import": {
+          "message": "کسی دوسرے کرپٹو والیٹ سے اپنی بازیابی کا جملہ درج کریں۔",
+          "title": "ایک پرس درآمد کریں۔"
+        },
+        "passkey": {
+          "message": "موجودہ پاسکی کا استعمال کرتے ہوئے اپنے یونی سویپ والیٹ کو سنک کریں۔",
+          "title": "پاس کی کے ساتھ سائن ان کریں۔"
+        },
+        "restore": {
+          "message": {
+            "android": "بٹوے شامل کریں جن کا آپ نے اپنے Google Drive اکاؤنٹ میں بیک اپ لیا ہے۔",
+            "ios": "بٹوے شامل کریں جن کا آپ نے اپنے iCloud اکاؤنٹ میں بیک اپ لیا ہے۔"
+          },
+          "title": "پرس بحال کریں۔"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "مندرجہ بالا میں سے کوئی نہیں چاہتے؟"
+        },
+        "subtitle": "منتخب کریں کہ آپ کس پرس میں دوبارہ لاگ ان کرنا چاہتے ہیں۔",
+        "title": "Unswap میں دوبارہ خوش آمدید",
+        "wallet": {
+          "button": "بحالی کا جملہ دیکھیں",
+          "count_one": "+1 دوسرا بٹوہ",
+          "count_other": "+{{count}} دوسرے بٹوے"
+        },
+        "warning": {
+          "caption": "براہ کرم یقینی بنائیں کہ آپ نے دیگر تمام بٹوے کا بیک اپ لیا ہے۔ اگر آپ کبھی بھی انہیں بحال کرنا چاہتے ہیں، تو آپ کو ان کے بازیابی کے فقرے یا متعلقہ {{cloudProvider}} بیک اپس کی ضرورت ہوگی۔",
+          "title": "کیا تمہیں یقین ہے؟"
+        }
+      },
+      "selectMethod": {
+        "mobileApp": {
+          "subtitle": "موبائل ایپ سے QR کوڈ کے ذریعے پرس درآمد کریں۔",
+          "title": "Unswap موبائل استعمال کریں۔"
+        },
+        "passkey": {
+          "subtitle": "موجودہ پاسکی کا استعمال کرتے ہوئے اپنے یونی سویپ والیٹ کو سنک کریں۔",
+          "title": "پاس کی کے ساتھ سائن ان کریں۔"
+        },
+        "recoveryPhrase": {
+          "subtitle": "کسی دوسرے کرپٹو والیٹ سے اپنی بازیابی کا جملہ درج کریں۔",
+          "title": "ایک پرس درآمد کریں۔"
+        },
+        "title": "سائن ان کریں یا پرس درآمد کریں۔"
+      },
+      "title": "منتخب کریں کہ آپ اپنا بٹوہ کیسے شامل کرنا چاہتے ہیں۔"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "میرا بازیافت جملہ 12 الفاظ کا ہے۔",
+        "importing": "درآمد کر رہا ہے...",
+        "longPhrase": "میرا بازیابی کا جملہ لمبا ہے۔"
+      },
+      "error": {
+        "invalidPhrase": "آپ کا درج کردہ جملہ غلط ہے۔"
+      },
+      "subtitle": "اپنے 12 الفاظ پر مشتمل ریکوری کا جملہ ٹائپ یا پیسٹ کریں۔",
+      "title": "اپنی بازیابی کا جملہ درج کریں۔"
+    },
+    "importPasskey": {
+      "continueInSecureWindow": "محفوظ سائن ان ونڈو میں جاری رکھیں۔"
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "میرے پاس پہلے سے ہی پرس ہے۔",
+        "signInOrImport": "سائن ان کریں یا درآمد کریں۔"
+      },
+      "mobileScan": {
+        "button": "درآمد کرنے کے لیے QR کوڈ اسکین کریں۔",
+        "title": "Uniswap ایپ ہے؟"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "ایک موجودہ پرس شامل کریں۔",
+        "create": "ایک نیا پرس بنائیں",
+        "createAccount": "ایک اکاؤنٹ بنائیں"
+      }
+    },
+    "name": {
+      "choose": {
+        "subtitle": "یہ ایک عوامی نام ہے جسے کوئی بھی آپ کو کرپٹو بھیجنے کے لیے استعمال کر سکتا ہے۔"
+      },
+      "wallet": {
+        "button": {
+          "text": "ختم کرنا"
+        },
+        "subtitle": "یہ عرفی نام صرف آپ کو نظر آتا ہے۔",
+        "title": "اپنے بٹوے کو ایک نام دیں۔"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "اطلاعات موصول کرنے کے لیے، اپنے آلے کی ترتیبات میں Unswap Wallet کے لیے اطلاعات کو آن کریں۔",
+        "title": "اطلاعات کی اجازت"
+      },
+      "subtitle": "لین دین کے حالات اور پسندیدہ ٹوکنز کی قیمتوں میں اہم تبدیلیوں کے بارے میں اپ ڈیٹ رہیں۔",
+      "title": "اطلاعات کو آن کریں۔"
+    },
+    "passkey": {
+      "account": {
+        "protection": "آپ کا اکاؤنٹ آپ کے اپنے محفوظ پاس ورڈ اسٹوریج سے محفوظ ہے۔"
+      },
+      "biometric": {
+        "scan": "فون، ٹیبلیٹ، یا براؤزر — بس اپنے بایومیٹرکس کو اسکین کریں اور آپ لاگ ان ہو جائیں گے۔"
+      },
+      "create": "اپنی پاسکی بنائیں",
+      "use": {
+        "recovery": {
+          "phrase": "اس کے بجائے بازیافت کا جملہ استعمال کریں۔"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "آئیے تصدیق کرتے ہیں کہ آپ نے اسے صحیح سمجھا۔ اگر آپ اسے کھو دیتے ہیں یا اسے غلط طریقے سے لکھ دیتے ہیں، تو آپ اپنے فنڈز واپس نہیں کر پائیں گے۔",
+          "default": "اگر آپ اسے کھو دیتے ہیں یا اسے غلط طریقے سے لکھ دیتے ہیں، تو آپ اپنے فنڈز واپس نہیں کر پائیں گے۔"
+        },
+        "title": "آئیے تصدیق کرتے ہیں کہ آپ نے اسے صحیح سمجھا"
+      },
+      "view": {
+        "subtitle": "اپنے بٹوے کو بازیافت کرنے کے لیے آپ کو ان تمام 12 خفیہ الفاظ درج کرنے ہوں گے۔",
+        "title": {
+          "hasPassword": "اگر آپ کبھی اپنا پاس ورڈ بھول جاتے ہیں..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "میں تیار ہوں",
+          "message": "آپ کی بازیابی کا جملہ وہی ہے جو آپ کو (اور جس کے پاس ہے) آپ کے فنڈز تک رسائی فراہم کرتا ہے۔ اسے اپنے پاس ضرور رکھیں۔",
+          "title": "یہ قدم کسی نجی جگہ پر کریں۔"
+        },
+        "screenshot": {
+          "message": "آپ کی تصاویر تک رسائی حاصل کرنے والا کوئی بھی شخص آپ کے بٹوے تک رسائی حاصل کر سکتا ہے۔ ہمارا مشورہ ہے کہ آپ اس کے بجائے اپنے الفاظ لکھ لیں۔",
+          "title": "اسکرین شاٹس محفوظ نہیں ہیں۔"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "بٹوے کی حفاظت کے بارے میں مزید جانیں۔",
+        "subtitle": "اپنے بٹوے کو غیر مقفل کرنے کے لیے اپنا نیا پاس ورڈ استعمال کریں۔",
+        "title": "پاس ورڈ ری سیٹ"
+      }
+    },
+    "scan": {
+      "error": "QR کوڈ لوڈ کرنے میں ایک خرابی تھی۔",
+      "otp": {
+        "error": "آپ کا جمع کردہ کوڈ غلط ہے، یا جمع کرانے میں ایک خامی تھی۔ دوبارہ کوشش کریں.",
+        "failed": "ناکام کوششیں: {{number}}",
+        "subtitle": "6-حروف کے کوڈ کے لیے اپنا یونیسیاپ موبائل ایپ چیک کریں۔",
+        "title": "ایک بار کا کوڈ درج کریں۔"
+      },
+      "subtitle": "اپنے بٹوے کی درآمد شروع کرنے کے لیے یونی سویپ موبائل ایپ سے QR کوڈ اسکین کریں۔",
+      "title": "ایپ سے پرس درآمد کریں۔",
+      "troubleScanning": {
+        "message": "بازیافت کے فقرے کے ذریعے درآمد کریں۔",
+        "title": "سکین کرنے میں دشواری؟"
+      },
+      "wifi": "اپنے فون کو اسی WiFi نیٹ ورک سے جوڑیں جس میں آپ کا کمپیوٹر ہے۔"
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "بائیو میٹرکس استعمال کرنے کے لیے، اسے پہلے سیٹنگز میں سیٹ کریں۔",
+            "ios": "{{biometricsMethod}}استعمال کرنے کے لیے، سسٹم سیٹنگز میں رسائی کی اجازت دیں۔"
+          },
+          "title": {
+            "android": "بائیو میٹرکس غیر فعال ہے۔",
+            "ios": "{{biometricsMethod}} غیر فعال ہے۔"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "بایومیٹرکس کو فعال کریں۔",
+          "ios": "{{biometricsMethod}}کو فعال کریں۔"
+        },
+        "setup": "سیٹ اپ"
+      },
+      "subtitle": {
+        "android": "لین دین بھیجنے کے لیے بائیو میٹرکس کی ضرورت کے ذریعے سیکیورٹی کی ایک اضافی پرت شامل کریں۔",
+        "ios": "لین دین بھیجنے کے لیے {{biometricsMethod}} کی ضرورت کے ذریعے سیکیورٹی کی ایک اضافی پرت شامل کریں۔"
+      },
+      "title": "اپنے بٹوے کی حفاظت کریں۔"
+    },
+    "selectWallets": {
+      "error": "پتے لوڈ نہیں ہو سکے۔",
+      "title": {
+        "default": "درآمد کرنے کے لیے بٹوے کا انتخاب کریں۔",
+        "error": "بٹوے درآمد کرنے میں خرابی۔"
+      }
+    },
+    "termsOfService": "جاری رکھ کر، میں<highlightTerms> سروس کی شرائط </highlightTerms>سے اتفاق کرتا ہوں اور<highlightPrivacy> رازداری کی پالیسی</highlightPrivacy>سے اتفاق کرتا ہوں",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "بازیابی کا جملہ کیا ہے؟"
+      }
+    },
+    "wallet": {
+      "continue": "آئیے اسے محفوظ رکھیں",
+      "defaultName": "والیٹ {{number}}",
+      "description": {
+        "full": "ٹوکنز، NFTs، اور آپ کی تمام تجارتوں کے لیے یہ آپ کی ذاتی جگہ ہے۔ اپنے فنڈز کو محفوظ رکھنے کے لیے اسے ترتیب دینا مکمل کریں۔"
+      },
+      "title": "آپ کے نئے بٹوے میں خوش آمدید"
+    },
+    "welcome": {
+      "subtitle": "آئیے آپ کے بٹوے کا سیٹ اپ مکمل کریں۔",
+      "title": "خوش آمدید!"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "آپ اب بھی بغیر کسی مسئلے کے اس چین پر لیکویڈیٹی کو تبدیل اور فراہم کر سکتے ہیں۔"
+    },
+    "title": "{{versionName}} جلد ہی واپس آجائے گا۔"
+  },
+  "passkeys": {
+    "help": {
+      "modal": {
+        "subtitle": "اپنے پاس کی کو استعمال کرنے یا اس تک رسائی حاصل کرنے میں دشواری ہو رہی ہے؟ مدد کے لیے Uniswap سپورٹ پر جائیں۔",
+        "title": "پاس کنیز کے ساتھ مدد کریں۔"
+      }
+    }
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "پرمٹ 2 ٹوکن منظوریوں کو مختلف ایپلی کیشنز میں شیئر کرنے اور ان کا نظم کرنے کی اجازت دیتا ہے۔"
+      }
+    }
+  },
+  "pool": {
+    "activeRange": "فعال ٹک رینج",
+    "addAs": "{{nativeWrappedSymbol}}کے بطور شامل کریں۔",
+    "apr": {
+      "description": "1 دن کی فیس پر مبنی سالانہ"
+    },
+    "aprText": "پول اے پی آر",
+    "balances": "پول بیلنس",
+    "closedCTA": {
+      "description": "آپ صفحہ کے اوپری حصے میں فلٹر کا استعمال کرکے انہیں دیکھ سکتے ہیں۔",
+      "title": "اپنی بند پوزیشنوں کی تلاش ہے؟"
+    },
+    "collectAs": "{{nativeWrappedSymbol}}کے بطور جمع کریں۔",
+    "collectFees": "فیس جمع کریں۔",
+    "create": {
+      "info": "آپ کے انتخاب ایک نیا لیکویڈیٹی پول بنائیں گے جس کے نتیجے میں ابتدائی لیکویڈیٹی کم ہو سکتی ہے اور اتار چڑھاؤ میں اضافہ ہو سکتا ہے۔ ان خطرات کو کم کرنے کے لیے موجودہ پول میں شامل کرنے پر غور کریں۔"
+    },
+    "createdPosition": {
+      "cancelled": "پوزیشن بنائیں منسوخ کر دی گئی۔",
+      "failed": "پوزیشن بنانا ناکام ہو گیا۔"
+    },
+    "details": "پول کی تفصیلات",
+    "earnings": {
+      "empty": "آپ کی ابھی تک کوئی کمائی نہیں ہے۔"
+    },
+    "explorers": "متلاشی",
+    "import": {
+      "link": {
+        "description": "کچھ v2 پوزیشنز خود بخود ظاہر نہیں ہوتی ہیں۔"
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "کچھ v2 پوزیشنز خود بخود ظاہر نہیں ہوتی ہیں۔ درآمد کرنے اور اپنی پوزیشن دیکھنے کے لیے ایک ٹوکن جوڑا منتخب کریں۔"
+          }
+        }
+      },
+      "success": "پول درآمد شدہ"
+    },
+    "incentives": {
+      "administeredRewards": "لیکویڈیٹی پروویژننگ کے انعامات کا انتظام Uniswap فاؤنڈیشن کے ذریعے کیا جاتا ہے۔",
+      "collect": "جمع کرنا",
+      "collectedRewards": "جمع شدہ انعامات",
+      "collectFailed": "جمع کرنا ناکام ہوگیا، براہ کرم دوبارہ کوشش کریں۔",
+      "collectFailedNoRetry": "انعامات جمع کرنے میں ناکام۔",
+      "collectingRewards": "انعامات جمع کرنا",
+      "collectRewards": "انعامات جمع کریں۔",
+      "collectRewardsCancelled": "منسوخ شدہ انعامات جمع کریں۔",
+      "eligible": "اہل پولز کے پاس ٹوکن انعامات ہیں تاکہ آپ مزید کما سکیں",
+      "rewardsEarned": "انعامات حاصل کئے",
+      "uni": {
+        "description": "اہل پولز کو لیکویڈیٹی فراہم کرکے UNI انعامات حاصل کریں۔",
+        "findMore": "UNI انعامات کے ساتھ مزید پول تلاش کریں۔"
+      },
+      "yourRewards": {
+        "error": {
+          "description": "انعامات حاصل نہیں کیے جا سکے۔ یہ نیٹ ورک کے مسئلے کی وجہ سے ہو سکتا ہے۔ صفحہ کو دوبارہ لوڈ کرنے کی کوشش کریں۔"
+        }
+      }
+    },
+    "info": "پول کی معلومات",
+    "limitFluctuation": {
+      "warning": "براہ کرم آگاہ رہیں کہ ریئل ٹائم مارکیٹ کے اتار چڑھاو اور Ethereum نیٹ ورک کی بھیڑ کی بنیاد پر حدوں کا نفاذ مختلف ہو سکتا ہے۔ جب ٹوکن متعین قیمت تک پہنچ جائیں تو حدیں بالکل ٹھیک نہیں ہوسکتی ہیں۔"
+    },
+    "liquidity": {
+      "data": {
+        "error": {
+          "message": "آپ کے لین دین کے لیے درکار ڈیٹا حاصل کرنے میں ایک خرابی تھی۔"
+        }
+      },
+      "outOfSync": {
+        "message": "اس پول میں قیمتیں منتخب ٹوکنز کی مارکیٹ کی قیمتوں سے مختلف ہوتی ہیں۔ اس کے مطابق اپنی قیمت کی حد کو ایڈجسٹ کریں یا نقصان سے بچنے کے لیے پول کے دوبارہ توازن کا انتظار کریں۔"
+      }
+    },
+    "maxPrice": "زیادہ سے زیادہ قیمت",
+    "migrateLiquidity": "لیکویڈیٹی کو منتقل کریں۔",
+    "migrateLiquidityDisabledTooltip": "یہ سلسلہ v4 لیکویڈیٹی پولز کو سپورٹ نہیں کرتا ہے۔",
+    "migrateToV4": "v4 پر منتقل کریں۔",
+    "minPrice": "کم از کم قیمت",
+    "newPosition": {
+      "plus": "+ نئی پوزیشن",
+      "title": "نئی پوزیشن"
+    },
+    "newSpecificPosition": "نئی {{symbol}} پوزیشن",
+    "openPosition": {
+      "cta": "ایک پول میں لیکویڈیٹی شامل کریں اور اپنی پوزیشنیں یہاں دیکھیں"
+    },
+    "openToStart": "شروع کرنے کے لیے ایک نئی پوزیشن کھولیں یا ایک پول بنائیں۔",
+    "percent": "{{pct}}% پول",
+    "pooled": "جمع شدہ {{sym}}:",
+    "position": "پوزیشن",
+    "positions": {
+      "title": "آپ کے عہدے",
+      "transaction": {
+        "settings": "لین دین کی ترتیبات"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "USD قدر فی الحال اس پوزیشن کے لیے دستیاب نہیں ہے۔ جمع شدہ ٹوکن رقوم کے لیے پوزیشن کی تفصیلات دیکھیں۔"
+      }
+    },
+    "priceRange": "قیمت کی حد",
+    "refresh": {
+      "prices": "قیمتیں تازہ کریں۔"
+    },
+    "removeLiquidity": "لیکویڈیٹی کو ہٹا دیں۔",
+    "rewardAPR": {
+      "percent": "{{pct}} انعام APR"
+    },
+    "rewards": "انعامات",
+    "rewardsPool": {
+      "label": "انعامات کے تالاب میں پول ٹوکن:"
+    },
+    "selectPair": "جوڑا منتخب کریں۔",
+    "share": {
+      "label": "آپ کا پول شیئر:"
+    },
+    "specificPosition": "{{symbol}} پوزیشن",
+    "tokenPair": "ٹوکن جوڑا",
+    "top": {
+      "tvl": "TVL کے ذریعہ ٹاپ پولز"
+    },
+    "totalAPR": "کل اپریل",
+    "totalTokens": "آپ کے کل پول ٹوکنز:",
+    "uncollectedFees": "غیر جمع شدہ فیس",
+    "v2": "v2 تالاب",
+    "v3": "v3 تالاب",
+    "viewPools": "تالاب دیکھیں",
+    "volOverTvl": "1D والیوم/TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D والیوم"
+      }
+    },
+    "withdrawAs": "{{nativeWrappedSymbol}}کے بطور واپس لیں۔"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "آپ کے جوڑے کے انتخاب سے مماثل v2 پول۔"
+      },
+      "notFound": {
+        "description": "کوئی مماثل v2 پول نہیں ملا۔ اپنے ٹوکن کے انتخاب کو دو بار چیک کریں اور یقینی بنائیں کہ آپ صحیح بٹوے سے جڑے ہوئے ہیں۔"
+      }
+    }
+  },
+  "pools": {
+    "explore": "تالابوں کو دریافت کریں۔"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "ہکس ایک جدید خصوصیت ہے جو پولز کو سمارٹ کنٹریکٹس کے ساتھ تعامل کرنے کے قابل بناتی ہے، مختلف صلاحیتوں کو کھول کر۔ ہکس شامل کرتے وقت احتیاط برتیں، کیونکہ کچھ نقصان دہ ہو سکتے ہیں یا غیر ارادی نتائج کا سبب بن سکتے ہیں۔"
+    },
+    "addingHook": {
+      "disclaimer": "ہکس شامل کرنے کے غیر ارادی نتائج ہو سکتے ہیں۔ اپنی تحقیق کریں اور اپنی ذمہ داری پر آگے بڑھیں۔",
+      "hideProperties": "پراپرٹیز چھپائیں۔",
+      "invalidAddress": "ایک درست ہک ایڈریس درج کریں۔",
+      "viewProperties": "پراپرٹیز دیکھیں"
+    },
+    "create": {
+      "invalidPrice": "غلط قیمت",
+      "invalidRange": "غلط رینج",
+      "modal": {
+        "header": "پوزیشن بنانا"
+      }
+    },
+    "currentValue": "موجودہ پوزیشن کی قیمت",
+    "deposit": {
+      "confirm": {
+        "create": {
+          "description": {
+            "less": "درج کردہ ابتدائی قیمت {{value}}% مارکیٹ کی قیمت سے کم ہے اور اس کے نتیجے میں فنڈز کا نقصان ہو سکتا ہے۔ کیا آپ آگے بڑھنا چاہتے ہیں؟",
+            "more": "درج کی گئی ابتدائی قیمت {{value}}% مارکیٹ قیمت سے زیادہ ہے اور اس کے نتیجے میں فنڈز کا نقصان ہو سکتا ہے۔ کیا آپ آگے بڑھنا چاہتے ہیں؟"
+          },
+          "title": "مارکیٹ کے ساتھ قیمت کا بڑا فرق"
+        }
+      },
+      "description": "اپنی لیکویڈیٹی شراکت کے لیے ٹوکن کی رقم کی وضاحت کریں۔"
+    },
+    "depositedCurrency": "جمع شدہ {{currencySymbol}}",
+    "fot": {
+      "warning": {
+        "cta": "v2 پوزیشن بنائیں"
+      }
+    },
+    "hook": {
+      "disclaimer": "میں اس ہک کو شامل کرنے میں شامل ممکنہ خطرات کو سمجھتا ہوں۔",
+      "donateWarning": "اس جھنڈے کے نتیجے میں کمائی گئی فیسوں میں تبدیلی ہو سکتی ہے۔",
+      "liquidityWarning": "یہ جھنڈا پول کو نئی لیکویڈیٹی کے اضافے کو روکنے کا سبب بن سکتا ہے۔ آپ کا لین دین واپس ہو سکتا ہے۔",
+      "removeWarning": "آپ کے فنڈز کو لاک کرنے یا آپ کو فیس جمع کرنے سے روک سکتا ہے۔",
+      "swapWarning": "یہ جھنڈا لیکویڈیٹی فراہم کرنے والوں کو جسٹ ان ٹائم لیکویڈیٹی سے زیادہ آسانی سے فائدہ اٹھانے کی اجازت دے سکتا ہے، جس کے نتیجے میں کم فیس کمائی جا سکتی ہے۔",
+      "warningHeader": "اہم: ہک کے خطرات کی نشاندہی کی گئی۔",
+      "warningInfo": "ہم نے اس ہک کے ساتھ ممکنہ خطرات کی نشاندہی کی ہے۔ آگے بڑھنے کا فیصلہ کرنے سے پہلے براہ کرم یقینی بنائیں کہ آپ سمجھتے ہیں کہ یہ ہک کیسے کام کرتا ہے۔"
+    },
+    "increase": {
+      "fot": "{{token}} اور دیگر \"ٹرانسفر پر فیس\" ٹوکنز کے لیے لیکویڈیٹی شامل کرنا تعاون یافتہ نہیں ہے۔"
+    },
+    "initialPrice": {
+      "difference": {
+        "negative": "{{ value }}% مارکیٹ قیمت سے کم",
+        "positive": "{{ value }}% مارکیٹ قیمت سے زیادہ"
+      },
+      "info": "نیا پول بناتے وقت، آپ کو دونوں ٹوکنز کے لیے ابتدائی زر مبادلہ کی شرح مقرر کرنی چاہیے۔ یہ شرح مارکیٹ کی ابتدائی قیمت کی عکاسی کرے گی۔",
+      "set": "ابتدائی قیمت مقرر کریں۔",
+      "useMarketPrice": "مارکیٹ کی قیمت استعمال کریں۔"
+    },
+    "migrate": {
+      "liquidity": "پوزیشنز کو منتقل کرتے وقت، آپ اپنے ٹوکن جوڑے کو تبدیل نہیں کر سکتے، لیکن آپ فعالیت کو بڑھانے کے لیے ایک ہک شامل کر سکتے ہیں۔",
+      "v4unsupportedChain": "یہ سلسلہ v4 پولز کے لیے تعاون یافتہ نہیں ہے۔"
+    },
+    "new": {
+      "protocol": "نئی {{protocol}} پوزیشن"
+    },
+    "notFound": {
+      "description": "اس پوزیشن کی تفصیلات دستیاب نہیں ہیں۔ براہ کرم چیک کریں کہ آپ صحیح بٹوے سے جڑے ہوئے ہیں۔"
+    },
+    "protocol": "{{protocol}} پوزیشن",
+    "provide": {
+      "liquidity": "وہ ٹوکن منتخب کریں جن کے لیے آپ لیکویڈیٹی فراہم کرنا چاہتے ہیں۔ آپ تمام تعاون یافتہ نیٹ ورکس پر ٹوکن منتخب کر سکتے ہیں۔",
+      "liquidityDescription": {
+        "creatingPool": "پول بناتے وقت پوری رینج کی لیکویڈیٹی کا تعین کرنا تمام ممکنہ قیمتوں میں مارکیٹ کی مسلسل شرکت کو یقینی بناتا ہے، جو کہ سادگی کی پیشکش کرتا ہے لیکن زیادہ غیر مستقل نقصان کا امکان رکھتا ہے۔",
+        "custom": "کسٹم رینج آپ کو اپنی لیکویڈیٹی کو مخصوص قیمت کی حدود کے اندر مرکوز کرنے کی اجازت دیتی ہے، جس سے سرمائے کی کارکردگی اور فیس کی آمدنی میں اضافہ ہوتا ہے لیکن زیادہ فعال انتظام کی ضرورت ہوتی ہے۔"
+      },
+      "outOfRange": {
+        "closePosition": "قریبی پوزیشن",
+        "description": "منتقلی کے دوران اس پوزیشن کی حد کو ایڈجسٹ نہیں کیا جا سکتا۔ نئی رینج سیٹ کرنے کے لیے، اس پوزیشن کو بند کریں اور ایک نئی v4 پوزیشن کھولیں۔",
+        "title": "آپ حد سے باہر کی پوزیشن کو منتقل کر رہے ہیں۔"
+      }
+    },
+    "removeHook": "ہک کو ہٹا دیں۔",
+    "resetDescription": "آپ کے ٹوکن، قیمت، اور رینج کے انتخاب کو دوبارہ ترتیب دیا جائے گا۔",
+    "setRange": {
+      "inputsBelow": "اپنی رینج سیٹ کرنے کے لیے نیچے دیے گئے ان پٹس کا استعمال کریں۔"
+    },
+    "step": {
+      "deposit": "ڈپازٹ کی رقم درج کریں۔",
+      "price": "ابتدائی قیمت اور جمع کی رقم مقرر کریں۔",
+      "range": "قیمت کی حد اور جمع کی رقم مقرر کریں۔",
+      "select": "ٹوکن جوڑا اور فیس منتخب کریں۔"
+    },
+    "value": "پوزیشن کی قدر",
+    "valueUnavailable": "USD قدر فی الحال اس پوزیشن کے لیے دستیاب نہیں ہے۔ جمع شدہ ٹوکن رقوم کے لیے پوزیشن کی تفصیلات دیکھیں۔",
+    "wrapped": {
+      "unwrap": "کھولیں {{wrappedToken}}",
+      "warning": {
+        "info": "اپنا {{wrappedToken}} کھولیں اور {{nativeToken}} جمع کریں تاکہ زیادہ لاگت سے موثر اور موثر لیکویڈیٹی فراہم کی جا سکے۔"
+      }
+    }
+  },
+  "positions": {
+    "welcome": {
+      "connect": "اپنی موجودہ پوزیشنیں دیکھنے کے لیے اپنے بٹوے کو جوڑیں۔"
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "ایپ وقت کے ساتھ ساتھ بہتر بنانے کے لیے گمنام استعمال کے اعدادوشمار کو لاگ کرتی ہے۔",
+    "autoRouter": "ایپ یونی سویپ لیبز سرور سے بہترین تجارتی راستہ حاصل کرتی ہے۔",
+    "infura": "ایپ آن چین ڈیٹا حاصل کرتی ہے اور ایک Infura API کے ساتھ معاہدہ کالیں بناتی ہے۔",
+    "thirdPartyApis": "یہ ایپ درج ذیل تھرڈ پارٹی APIs استعمال کرتی ہے:",
+    "trm": "ایپ محفوظ طریقے سے آپ کے بٹوے کا پتہ جمع کرتی ہے اور اسے خطرے اور تعمیل کی وجوہات کی بنا پر TRM Labs Inc. کے ساتھ شیئر کرتی ہے۔",
+    "uniswaptos": "لیبز کی سروس کی شرائط کو تبدیل کریں۔"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 ایپ منسلک ہے۔",
+      "connections_other": "{{count}} ایپس منسلک ہیں۔"
+    },
+    "error": {
+      "camera": {
+        "message": "کوڈ اسکین کرنے کے لیے، سسٹم کی ترتیبات میں کیمرے تک رسائی کی اجازت دیں۔",
+        "title": "کیمرہ غیر فعال ہے۔"
+      },
+      "none": "کوئی QR کوڈ نہیں ملا"
+    },
+    "recipient": {
+      "action": {
+        "scan": "QR کوڈ اسکین کریں۔",
+        "show": "میرا QR کوڈ دکھائیں۔"
+      },
+      "error": {
+        "message": "دوبارہ کوشش کرنے سے پہلے یقینی بنائیں کہ آپ درست Ethereum ایڈریس QR کوڈ اسکین کر رہے ہیں۔",
+        "title": "غلط QR کوڈ"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "کوئی پیغام نہیں ملا۔"
+      },
+      "method": {
+        "default": "{{dappNameOrUrl}}سے درخواست",
+        "signature": "{{dappNameOrUrl}}سے دستخط کی درخواست",
+        "transaction": "{{dappNameOrUrl}}سے لین دین کی درخواست"
+      },
+      "withAmount": "{{dappName}} کو<highlight> {{amount}} </highlight>{{currencySymbol}}تک استعمال کرنے کی اجازت دیں؟",
+      "withoutAmount": "{{dappName}} کو اپنا {{currencySymbol}}استعمال کرنے کی اجازت دیں؟"
+    },
+    "status": {
+      "connecting": "منسلک ہو رہا ہے...",
+      "loading": "لوڈ ہو رہا ہے..."
+    },
+    "title": "QR کوڈ اسکین کریں۔",
+    "wallet": {
+      "networks": "تعاون یافتہ نیٹ ورکس",
+      "title": "آپ ہمارے تمام {{numOfNetworks}} تعاون یافتہ نیٹ ورکس پر ٹوکن اور NFTs بھیج اور وصول کر سکتے ہیں۔"
+    }
+  },
+  "range": {
+    "outOfView": "حد نگاہ سے باہر"
+  },
+  "removeLiquidity": {
+    "pooled": "جمع شدہ {{symbol}}:"
+  },
+  "revoke": {
+    "failed": {
+      "message": "یہ تجارت کے لیے آپ کے ٹوکن تک یونی سویپ پروٹوکول تک رسائی فراہم کرتا ہے۔"
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "دستیاب ہونے پر، بہتر قیمتوں اور گیس سے پاک تبادلہ کے لیے لیکویڈیٹی ذرائع کو جمع کرتا ہے۔",
+    "cheapest": {
+      "v4": "Uniswap کلائنٹ قیمت اور نیٹ ورک کی لاگت کے لحاظ سے بہترین تجارتی آپشن کا انتخاب کرتا ہے۔"
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "میعاد ختم",
+      "subtitle": "یونی سویپ ایکسٹینشن میں یہ کوڈ درج کریں۔ آپ کی بازیابی کے جملہ کو محفوظ طریقے سے خفیہ اور منتقل کیا جائے گا۔",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "نیا کوڈ {{hours}}h {{minutes}}m {{seconds}}s میں",
+          "minutes": "{{minutes}}m {{seconds}}s میں نیا کوڈ",
+          "seconds": "{{seconds}}s میں نیا کوڈ"
+        }
+      },
+      "title": "ایک بار کا کوڈ تبدیل کریں۔"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "ہاں، جاری رکھیں"
+      },
+      "label": {
+        "browser": "براؤزر",
+        "device": "ڈیوائس"
+      },
+      "subtitle": "صرف اس صورت میں جاری رکھیں جب آپ ایک قابل اعتماد ڈیوائس پر یونی سویپ ایکسٹینشن سے QR کوڈ اسکین کر رہے ہوں۔",
+      "title": "کیا آپ اپنا پرس درآمد کرنے کی کوشش کر رہے ہیں؟",
+      "warning": "Unswap کی نقالی کرنے والی سائٹس اور ایپس سے ہوشیار رہیں۔ بصورت دیگر آپ کے بٹوے سے سمجھوتہ کیا جا سکتا ہے۔"
+    },
+    "error": {
+      "encryption": "بیج کا جملہ تیار کرنے میں ناکام۔",
+      "noCode": "کوئی OTP موصول نہیں ہوا۔ دوبارہ کوشش کریں.",
+      "timeout": {
+        "message": "اپنے بٹوے کی مطابقت پذیری جاری رکھنے کے لیے یونی سویپ ایکسٹینشن پر QR کوڈ دوبارہ اسکین کریں۔",
+        "title": "آپ کے کنکشن کا وقت ختم ہو گیا۔"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "اس QR کوڈ کو اسکین کرنے کے لیے، آپ کا فون اسی وائی فائی نیٹ ورک سے منسلک ہونا چاہیے جس میں آپ کا کمپیوٹر ہے اور کسی بھی VPN کو عارضی طور پر بند کر دیا جانا چاہیے۔",
+        "title": "اپنا وائی فائی نیٹ ورک سوئچ کریں۔"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "جلد آرہا ہے: {{chainName}} چین پر ٹوکن تلاش کریں اور دریافت کریں۔",
+    "input": {
+      "placeholder": "ٹوکن اور پول تلاش کریں۔"
+    },
+    "results": {
+      "count_one": "1 آئٹم",
+      "count_other": "{{count}} آئٹمز"
+    },
+    "ukDisclaimer": "برطانیہ کے رہائشیوں کے لیے دستبرداری"
+  },
+  "send": {
+    "button": {
+      "review": "منتقلی کا جائزہ لیں۔"
+    },
+    "gas": {
+      "error": {
+        "title": "N / A"
+      },
+      "networkCost": {
+        "title": "نیٹ ورک کی قیمت"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "بیلنس: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "وصول کنندہ کو منتخب کریں۔",
+      "input": {
+        "placeholder": "ENS یا پتہ تلاش کریں۔"
+      },
+      "previous_one": "1 پچھلی منتقلی۔",
+      "previous_other": "{{count}} پچھلی منتقلیاں",
+      "results": {
+        "empty": "کوئی نتیجہ نہیں",
+        "error": "آپ نے جو ایڈریس ٹائپ کیا ہے وہ یا تو موجود نہیں ہے یا ہجے غلط ہے۔"
+      },
+      "section": {
+        "favorite": "پسندیدہ بٹوے",
+        "recent": "حالیہ",
+        "search": "تلاش کے نتائج",
+        "viewOnly": "صرف دیکھنے کے بٹوے",
+        "yours": "آپ کے بٹوے"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "صرف اس بٹوے میں فنڈز بھیجیں اگر آپ کے پاس بازیابی کا جملہ ہے یا آپ کے پاس بٹوے کے مالک کو جانتے ہیں۔",
+          "title": "آپ کے پاس یہ صرف دیکھنے کے لیے والیٹ کے طور پر ہے۔"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "جب آپ بٹوے کے پتے پر ٹوکن بھیجتے ہیں، تو وہ یہاں نظر آئیں گے۔",
+          "title": "کوئی بٹوہ محفوظ نہیں ہوا۔"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "آپ بھیج رہے ہیں۔"
+      },
+      "summary": {
+        "button": {
+          "title": "بھیجنے کی تصدیق کریں۔"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "آپ نے جو ایڈریس ٹائپ کیا ہے وہ یا تو موجود نہیں ہے یا ہجے غلط ہے۔",
+        "title": "کوئی نتیجہ نہیں"
+      },
+      "placeholder": "ENS یا پتہ تلاش کریں۔"
+    },
+    "title": "بھیجیں",
+    "warning": {
+      "blocked": {
+        "default": "یہ پرس مسدود ہے۔",
+        "modal": {
+          "message": "یہ پتہ Unswap Wallet پر مسدود ہے کیونکہ یہ ایک یا زیادہ مسدود سرگرمیوں سے وابستہ ہے۔ اگر آپ کو لگتا ہے کہ یہ ایک غلطی ہے، تو براہ کرم compliance@uniswap.org پر ای میل کریں۔",
+          "title": "بلاک شدہ پتہ"
+        },
+        "recipient": "وصول کنندہ کا پرس مسدود ہے۔"
+      },
+      "erc20": {
+        "checkbox": {
+          "description": "آپ ٹوکن ایڈریس پر فنڈز بھیجنے کی کوشش کر رہے ہیں۔ اس کے نتیجے میں فنڈز کا مستقل نقصان ہو سکتا ہے۔",
+          "heading": "ٹوکن ایڈریس کا پتہ چلا"
+        },
+        "message": "آپ ٹوکن ایڈریس پر فنڈز بھیجنے کی کوشش کر رہے ہیں۔ اس قسم کے پتے پر کرپٹو بھیجنے کے نتیجے میں فنڈز کا مستقل نقصان ہو سکتا ہے۔",
+        "title": "یہ ایک ٹوکن ایڈریس ہے۔"
+      },
+      "insufficientFunds": {
+        "message": "آپ کے {{currencySymbol}} بیلنس میں کمی آئی ہے جب سے آپ نے وہ رقم داخل کی ہے جو آپ بھیجنا چاہتے ہیں۔",
+        "title": "کافی نہیں {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "بھیجنے کے لیے <highlight>{{currencySymbol}} {{networkName}}</highlight> پر کافی نہیں",
+          "withoutNetwork": "بھیجنے کے لیے کافی <highlight>{{currencySymbol}}</highlight>"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "ٹھیک ہے",
+            "cancel": "منسوخ کریں۔",
+            "confirm": "تصدیق کریں۔"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ای این ایس",
+          "username": "صارف نام",
+          "walletAddress": "بٹوے کا پتہ"
+        },
+        "message": "آپ نے پہلے اس ایڈریس سے لین دین نہیں کیا ہے۔ جاری رکھنے سے پہلے براہ کرم تصدیق کریں کہ پتہ درست ہے۔",
+        "title": "نیا پتہ"
+      },
+      "self": {
+        "message": "آپ اپنے موجودہ بٹوے میں فنڈز بھیجنے کی کوشش کر رہے ہیں۔ اس ایڈریس پر کرپٹو بھیجنے سے نیٹ ورک کے غیر ضروری اخراجات اٹھیں گے۔",
+        "title": "یہ آپ کا موجودہ پرس ہے۔"
+      },
+      "smartContract": {
+        "message": "آپ سمارٹ کنٹریکٹ ایڈریس پر فنڈز بھیجنے والے ہیں۔ یقینی بنائیں کہ یہ درست پتہ ہے اور یہ ٹوکن وصول کر سکتا ہے۔ اگر نہیں، تو اس کے نتیجے میں فنڈز کا مستقل نقصان ہو سکتا ہے۔",
+        "title": "یہ ایک سمارٹ کنٹریکٹ ایڈریس ہے۔"
+      },
+      "viewOnly": {
+        "message": "اثاثے بھیجنے کے لیے آپ کو اس بٹوے کو بازیابی کے فقرے کے ذریعے درآمد کرنے کی ضرورت ہے۔",
+        "title": "یہ پرس صرف دیکھنے کے لیے ہے۔"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "حالیہ"
+    }
+  },
+  "sendReviewModal": {
+    "title": "جائزہ بھیجیں۔"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "بازیابی کا جملہ دکھائیں۔"
+      },
+      "action": {
+        "hide": "بازیابی کا جملہ چھپائیں۔"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "میں سمجھتا ہوں کہ اگر میں ایسا کرنے میں ناکام ہو گیا تو Uniswap Labs میرے بٹوے کو بازیافت کرنے میں میری مدد نہیں کر سکتی",
+          "title": "میں نے اپنا ریکوری جملہ محفوظ کر لیا۔"
+        },
+        "initial": {
+          "subtitle": "یقینی بنائیں کہ آپ نے اپنا بازیابی جملہ محفوظ کر لیا ہے۔ دوسری صورت میں آپ اپنے فنڈز تک رسائی کھو دیں گے۔",
+          "title": "اس سے پہلے کہ آپ جاری رکھیں"
+        },
+        "password": {
+          "error": "غلط پاس ورڈ. دوبارہ کوشش کریں"
+        },
+        "subtitle": "جاری رکھنے کے لیے اپنا پاس ورڈ درج کریں۔",
+        "title": "آپ اپنا بازیابی کا جملہ ہٹا رہے ہیں۔"
+      },
+      "title": "آپ کی بازیابی کا جملہ",
+      "view": {
+        "warning": {
+          "message1": "کوئی بھی جو آپ کی بازیابی کے فقرے کو جانتا ہے وہ آپ کے بٹوے اور فنڈز تک رسائی حاصل کر سکتا ہے۔",
+          "message2": "اسے نجی طور پر دیکھیں",
+          "message3": "اسے کسی کے ساتھ شیئر نہ کریں۔",
+          "message4": "اسے کبھی بھی کسی ویب سائٹ یا ایپس میں داخل نہ کریں۔",
+          "title": "اس سے پہلے کہ آپ جاری رکھیں"
+        }
+      },
+      "warning": {
+        "view": {
+          "message": "کوئی بھی جو آپ کی بازیابی کے جملے کو جانتا ہے وہ آپ کے بٹوے اور فنڈز تک رسائی حاصل کر سکتا ہے۔",
+          "title": "اسے کسی نجی جگہ پر دیکھیں"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "ترتیبات میں فعال کریں۔",
+      "feedback": "رائے بھیجیں",
+      "help": "مدد حاصل کرو",
+      "lock": "پرس مقفل کریں۔",
+      "privacy": "رازداری کی پالیسی",
+      "terms": "سروس کی شرائط"
+    },
+    "footer": "محبت کے ساتھ بنایا گیا، \nUnswap ٹیم 🦄",
+    "hideSmallBalances": {
+      "subtitle": "1 USD سے کم بیلنس آپ کے پورٹ فولیو سے چھپائے جائیں گے۔"
+    },
+    "maxSlippage": "زیادہ سے زیادہ پھسلنا",
+    "section": {
+      "about": "کے بارے میں",
+      "preferences": "ترجیحات",
+      "privacyAndSecurity": "رازداری اور سلامتی",
+      "support": "حمایت",
+      "wallet": {
+        "hidden": {
+          "row": {
+            "title": "{{numHidden}} دوسرے بٹوے"
+          }
+        }
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "آٹو",
+          "dark": {
+            "subtitle": "ہمیشہ ڈارک تھیم استعمال کریں۔",
+            "title": "اندھیرا"
+          },
+          "device": {
+            "subtitle": "آپ کے آلے کی سیٹنگز کو اپناتا ہے۔",
+            "title": "آٹو"
+          },
+          "light": {
+            "subtitle": "ہمیشہ ہلکی تھیم استعمال کریں۔",
+            "title": "روشنی"
+          }
+        },
+        "title": "خیالیہ"
+      },
+      "backup": {
+        "create": {
+          "description": "پاس ورڈ ترتیب دینے سے آپ کی بازیابی کے فقرے کا بیک اپ انکرپٹ ہو جائے گا، اگر آپ کے {{cloudProviderName}} اکاؤنٹ سے کبھی سمجھوتہ کیا جاتا ہے تو تحفظ کی ایک اضافی سطح کا اضافہ ہو گا۔",
+          "title": "{{cloudProviderName}}تک بیک اپ کریں۔"
+        },
+        "delete": {
+          "confirm": {
+            "message": "چونکہ یہ بٹوے بازیابی کے فقرے کا اشتراک کرتے ہیں، اس لیے یہ ذیل میں ان بٹوے کے بیک اپ کو بھی حذف کر دے گا۔",
+            "title": "کیا تمہیں یقین ہے؟"
+          },
+          "warning": "اگر آپ اپنا {{cloudProviderName}} بیک اپ حذف کرتے ہیں، تو آپ صرف اپنے بازیابی کے جملے کے دستی بیک اپ کے ساتھ ہی اپنے بٹوے کو بازیافت کر سکیں گے۔ اگر آپ اپنا بازیابی کا جملہ کھو دیتے ہیں تو Uniswap Labs آپ کے اثاثوں کو بازیافت نہیں کر سکتی۔"
+        },
+        "error": {
+          "message": {
+            "full": "{{cloudProviderName}}میں بازیافت کے جملے کا بیک اپ لینے سے قاصر ہے۔ براہ کرم یقینی بنائیں کہ آپ نے دستیاب اسٹوریج کی جگہ کے ساتھ {{cloudProviderName}} کو فعال کیا ہے اور دوبارہ کوشش کریں۔",
+            "short": "بیک اپ کو حذف کرنے سے قاصر"
+          },
+          "title": "{{cloudProviderName}} غلطی"
+        },
+        "modal": {
+          "description": "آپ نے ابھی تک اپنے بازیابی کے جملے کا {{cloudProviderName}} میں بیک اپ نہیں لیا ہے۔ ایسا کرنے سے، آپ کسی بھی ڈیوائس پر {{cloudProviderName}} میں لاگ ان ہو کر اپنا پرس بازیافت کر سکتے ہیں۔",
+          "title": "{{cloudProviderName}}پر بحالی کے جملے کا بیک اپ لیں؟"
+        },
+        "password": {
+          "error": {
+            "mismatch": "پاس ورڈ میچ نہیں کرتے"
+          },
+          "medium": "یہ درمیانے درجے کا پاس ورڈ ہے۔",
+          "placeholder": {
+            "confirm": "پاس ورڈ کی تصدیق کریں۔",
+            "create": "پاسورڈ بنائیں"
+          },
+          "strong": "یہ ایک مضبوط پاس ورڈ ہے۔",
+          "weak": "یہ ایک کمزور پاس ورڈ ہے۔"
+        },
+        "recoveryPhrase": {
+          "label": "بازیابی کا جملہ"
+        },
+        "selected": "{{cloudProviderName}} بیک اپ",
+        "status": {
+          "action": {
+            "delete": "بیک اپ کو حذف کریں۔"
+          },
+          "complete": "{{cloudProviderName}}تک بیک اپ لیا گیا۔",
+          "description": "{{cloudProviderName}}میں آپ کے بازیابی کے جملے کا بیک اپ لے کر، آپ کسی بھی ڈیوائس پر اپنے {{cloudProviderName}} اکاؤنٹ میں لاگ ان ہو کر اپنا پرس بازیافت کر سکتے ہیں۔",
+          "inProgress": "{{cloudProviderName}}تک بیک اپ لیا جا رہا ہے...",
+          "recoveryPhrase": {
+            "backed": "بیک اپ لیا گیا۔"
+          },
+          "title": "{{cloudProviderName}} بیک اپ"
+        }
+      },
+      "beta": {
+        "tooltip": "جلد آرہا ہے۔"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "ایپ کھولنے کے لیے چہرے/فنگر پرنٹ کی ضرورت ہے۔",
+            "ios": "ایپ کھولنے کے لیے {{biometricsMethod}} کی ضرورت ہے۔"
+          },
+          "title": "ایپ تک رسائی"
+        },
+        "auth": "براہ کرم تصدیق کریں۔",
+        "off": {
+          "message": {
+            "android": "بایومیٹرکس فی الحال Uniswap Wallet کے لیے بند ہے — آپ اسے اپنے سسٹم کی ترتیبات میں آن کر سکتے ہیں۔",
+            "ios": "{{biometricsMethod}} فی الحال Unswap Wallet کے لیے بند ہے — آپ اسے اپنے سسٹم کی ترتیبات میں آن کر سکتے ہیں۔"
+          },
+          "title": {
+            "android": "بائیو میٹرکس بند ہے۔",
+            "ios": "{{biometricsMethod}} بند ہے۔"
+          }
+        },
+        "title": "چہرہ/فنگر پرنٹ انلاک",
+        "transactions": {
+          "subtitle": {
+            "android": "لین دین کے لیے چہرے/فنگر پرنٹ کی ضرورت ہے۔",
+            "ios": "لین دین کے لیے {{biometricsMethod}} کی ضرورت ہے۔"
+          },
+          "title": "لین دین"
+        },
+        "unavailable": {
+          "message": {
+            "android": "آپ کے آلے پر بایومیٹرکس سیٹ اپ نہیں ہے۔ بائیو میٹرکس استعمال کرنے کے لیے، اسے پہلے سیٹنگز میں سیٹ کریں۔",
+            "ios": "{{biometricsMethod}} آپ کے آلے پر سیٹ اپ نہیں ہے۔ {{biometricsMethod}}استعمال کرنے کے لیے، اسے پہلے سیٹنگز میں سیٹ کریں۔"
+          },
+          "title": {
+            "android": "بائیو میٹرکس سیٹ اپ نہیں ہے۔",
+            "ios": "{{biometricsMethod}} سیٹ اپ نہیں ہے۔"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "اگر آپ بایومیٹرکس کو آن نہیں کرتے ہیں، تو کوئی بھی جو آپ کے آلے تک رسائی حاصل کرتا ہے وہ Unswap Wallet کھول سکتا ہے اور لین دین کرسکتا ہے۔",
+            "ios": "اگر آپ {{biometricsMethod}}کو آن نہیں کرتے ہیں، تو کوئی بھی جو آپ کے آلے تک رسائی حاصل کرتا ہے وہ Unswap Wallet کھول سکتا ہے اور لین دین کرسکتا ہے۔"
+          },
+          "title": "کیا تمہیں یقین ہے؟"
+        }
+      },
+      "connections": {
+        "disconnectAll": "سب کو منقطع کریں۔",
+        "noConnectionsDescription": "\"کنیکٹ والیٹ\" یا \"لاگ ان\" بٹن تلاش کرکے ایپ سے جڑیں۔"
+      },
+      "currency": {
+        "title": "مقامی کرنسی"
+      },
+      "hapticTouch": {
+        "title": "ہیپٹک ٹچ"
+      },
+      "helpCenter": {
+        "title": "مدداور تعاون کا مرکز"
+      },
+      "language": {
+        "button": {
+          "navigate": "ترتیبات پر جائیں۔"
+        },
+        "description": {
+          "extension": "آپ کے سسٹم لینگویج سیٹنگز میں ڈیفالٹس کو تبدیل کریں۔ اپنی ترجیحی زبان کو تبدیل کرنے کے لیے، اپنے سسٹم کی ترتیبات پر جائیں۔",
+          "mobile": "اپنے آلے کی لینگویج سیٹنگز میں ڈیفالٹس کو تبدیل کریں۔ اپنی ترجیحی زبان کو تبدیل کرنے کے لیے، اپنے آلے کی ترتیبات میں \"Uniswap\" پر جائیں اور \"Language\" پر ٹیپ کریں۔"
+        },
+        "title": "زبان"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "منتقلی، درخواستیں، اور دیگر سرگرمیاں",
+            "title": "بٹوے کی سرگرمی"
+          },
+          "priceAlerts": {
+            "description": "پسندیدہ ٹوکنز کے لیے قیمتوں میں بڑی تبدیلیاں",
+            "title": "قیمت کے انتباہات"
+          },
+          "updates": {
+            "description": "سفارشات اور نئی خصوصیات",
+            "title": "Uniswap سے اپ ڈیٹس"
+          }
+        },
+        "title": "اطلاعات"
+      },
+      "password": {
+        "title": "پاس ورڈ تبدیل کریں"
+      },
+      "permissions": {
+        "title": "اجازتیں"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "ہم Unswap Labs پروڈکٹس میں آپ کے تجربے کو بڑھانے کے لیے گمنام استعمال کا ڈیٹا استعمال کرتے ہیں۔ غیر فعال ہونے پر، ہم صرف غلطیوں اور ضروری استعمال کو ٹریک کرتے ہیں۔",
+          "title": "ایپ کے تجزیات"
+        }
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "اپنا پاس ورڈ درج کریں"
+        },
+        "title": "بازیابی کا جملہ"
+      },
+      "smallBalances": {
+        "title": "پورٹ فولیو بیلنس"
+      },
+      "unknownTokens": {
+        "subtitle": "ممکنہ اسکام ٹوکنز آپ کے پورٹ فولیو سے چھپائے جائیں گے۔",
+        "title": "نامعلوم ٹوکنز چھپائیں۔"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "لیبل میں ترمیم کریں۔",
+          "editProfile": "پروفائل میں ترمیم کریں",
+          "remove": "پرس کو ہٹا دیں۔"
+        },
+        "connection": {
+          "banner": {
+            "description": "اپنی پروفائل امیج پر کلک کرکے والیٹ سیٹنگز کے ذریعے کنکشنز کا نظم کریں۔",
+            "title": "رابطے منتقل ہو گئے ہیں۔"
+          }
+        },
+        "connections": {
+          "title": "کنکشنز"
+        },
+        "editLabel": {
+          "description": "لیبل عوامی نہیں ہیں۔ وہ مقامی طور پر ذخیرہ کیے جاتے ہیں اور صرف آپ کو دکھائی دیتے ہیں۔",
+          "save": "تبدیلیاں محفوظ کرو"
+        },
+        "label": "عرفی نام",
+        "testnetMode": {
+          "description": "یہ ڈیولپرز کے لیے ٹیسٹ نیٹ کو آن کر دیتا ہے تاکہ وہ اصلی اثاثے استعمال کیے بغیر خصوصیات اور لین دین کو آزما سکیں۔ testnets پر ٹوکن کی کوئی حقیقی قدر نہیں ہوتی۔",
+          "title": "ٹیسٹ نیٹ موڈ"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "{{label}}پر Uniswap استعمال کرنے کے لیے، اپنے بٹوے کی ترتیبات میں نیٹ ورک کو تبدیل کریں۔"
+    },
+    "title": "ترتیبات",
+    "version": "ورژن {{appVersion}}"
+  },
+  "smartWallets": {
+    "educationalModal": {
+      "description": "سمارٹ بٹوے محفوظ سمارٹ معاہدوں کا استعمال کرتے ہوئے تیز، کم لاگت کے لین دین فراہم کرتے ہیں۔",
+      "info": "پہلے سے کسی دوسری ایپ سے اسمارٹ والیٹ کی خصوصیات استعمال کرنے والے والٹس متاثر نہیں ہوں گے۔"
+    },
+    "enabledModal": {
+      "description": "اپ ڈیٹس آپ کے اگلے سویپ پر لاگو ہوں گی۔",
+      "title": "اسمارٹ والیٹ فعال ہے۔"
+    },
+    "postSwapNudge": {
+      "description": "سمارٹ والیٹ محفوظ سمارٹ معاہدوں کا استعمال کرتے ہوئے تیز، کم لاگت کے لین دین فراہم کرتا ہے۔",
+      "enable": "سمارٹ والیٹ کو فعال کریں۔",
+      "title": "اپنے اگلے تبادلہ پر محفوظ کریں۔"
+    }
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "آپ نے پہلے اس ایڈریس سے لین دین نہیں کیا ہے۔ جاری رکھنے سے پہلے یقینی بنائیں کہ یہ درست پتہ ہے۔",
+        "title": "نیا پتہ"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "آپ ایک خاص قسم کے پتے پر ٹوکن بھیجنے والے ہیں - ایک سمارٹ معاہدہ۔ دو بار چیک کریں کہ یہ وہ پتہ ہے جس پر آپ بھیجنا چاہتے ہیں۔ اگر یہ غلط ہے تو، آپ کے ٹوکن ہمیشہ کے لیے ضائع ہو سکتے ہیں۔",
+        "title": "کیا یہ بٹوے کا پتہ ہے؟"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24H فیس",
+    "24volume": "24H والیوم",
+    "allTimeFees": "ہمہ وقتی ایل پی فیس",
+    "allTimeSwappers": "ہر وقت بدلنے والے",
+    "allTimeVolume": "تمام وقت کا حجم",
+    "fdv": {
+      "description": "مکمل طور پر گھٹا ہوا ویلیوایشن (FDV) کل مارکیٹ ویلیو کا حساب لگاتا ہے یہ فرض کرتے ہوئے کہ تمام ٹوکن گردش میں ہیں۔"
+    },
+    "marketCap": {
+      "description": "مارکیٹ کیپٹلائزیشن کسی اثاثے کی گردش کرنے والی سپلائی کی کل مارکیٹ ویلیو ہے۔"
+    },
+    "tvl": {
+      "description": "ٹوٹل ویلیو لاکڈ (TVL) تمام Uniswap لیکویڈیٹی پولز میں دستیاب اثاثہ کی مجموعی رقم ہے۔"
+    },
+    "volume": {
+      "1d": {
+        "description": "1 دن کا حجم اس اثاثہ کی رقم ہے جس کی گزشتہ 24 گھنٹوں کے دوران یونی سویپ پر تجارت کی گئی ہے۔",
+        "long": "1D والیوم",
+        "short": "1D والیوم"
+      },
+      "description": "حجم اس اثاثہ کی رقم ہے جس کی تجارت منتخب وقت کے فریم کے دوران Uniswap پر کی گئی ہے۔"
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "{{sym}} کی اجازت دیں (ایک بار)"
+    },
+    "approvalNeeded": "اس ٹوکن کو استعمال کرنے کے لیے منظوری درکار ہے۔ ",
+    "approvalPending": "ابھی منظور نہیں ہوا",
+    "approveAndSubmit": "منظور کریں اور جمع کرائیں۔",
+    "approveAndSwap": "منظور کریں اور تبادلہ کریں۔",
+    "approveInWallet": "اپنے بٹوے میں منظور کریں۔",
+    "balance": {
+      "amount": "بیلنس: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "نیٹ ورک کی لاگت میں سب سے زیادہ موثر راستے کا تخمینہ ~{{gasPrice}} لاگت کا ہے۔ "
+    },
+    "bridging": {
+      "estimatedTime": "تخمینہ وقت",
+      "title": "نیٹ ورکس میں تبادلہ",
+      "warning": {
+        "description": "آپ {{fromNetwork}} سے {{toNetwork}}میں تبدیل ہو رہے ہیں۔ اسے \"برجنگ\" کے نام سے بھی جانا جاتا ہے، جو آپ کے ٹوکنز کو ایک نیٹ ورک سے دوسرے نیٹ ورک میں منتقل کرتا ہے۔"
+      }
+    },
+    "button": {
+      "max": "زیادہ سے زیادہ",
+      "review": "جائزہ لیں",
+      "submitting": {
+        "keep": {
+          "open": "اپنا بٹوہ کھلا رکھیں..."
+        }
+      },
+      "swap": "تبادلہ",
+      "swapAnyways": "بہرحال تبادلہ کریں۔",
+      "unwrap": "کھولنا",
+      "wrap": "لپیٹنا"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "ملک یا علاقے کے لحاظ سے تلاش کریں۔"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "منسوخی پر کارروائی سے پہلے آپ کا تبادلہ عمل میں آ سکتا ہے۔ آپ کے نیٹ ورک کے اخراجات واپس نہیں کیے جا سکتے۔ کیا آپ آگے بڑھنا چاہتے ہیں؟",
+      "cannotExecute_other": "منسوخی پر کارروائی سے پہلے آپ کی تبدیلیاں عمل میں آ سکتی ہیں۔ آپ کے نیٹ ورک کے اخراجات واپس نہیں کیے جا سکتے۔ کیا آپ آگے بڑھنا چاہتے ہیں؟"
+    },
+    "confirmLimit": "حد کی تصدیق کریں۔",
+    "confirmSwap": "تبادلہ کی تصدیق کریں۔",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. آخری تاریخ"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "ٹوکن فیس"
+      },
+      "newQuote": {
+        "input": "نیا ان پٹ",
+        "output": "نیا آؤٹ پٹ"
+      },
+      "orderRouting": "آرڈر روٹنگ",
+      "orderRoutingInfo": "اس سویپ کو اکروس کے ذریعے روٹ کیا جاتا ہے، ایک وکندریقرت پروٹوکول جو حفاظت، تیز رفتار عمل درآمد، اور کم قیمتوں کو ترجیح دیتے ہوئے نیٹ ورکس میں اثاثوں کو منتقل کرتا ہے۔",
+      "poweredBy": "کی طرف سے طاقت",
+      "rate": "شرح",
+      "slippage": "زیادہ سے زیادہ پھسلنا",
+      "uniswapFee": "فیس"
+    },
+    "error": {
+      "default": "آپ کو اپنی پھسلن کی رواداری کو بڑھانے کی ضرورت پڑسکتی ہے۔ نوٹ: فیس آن ٹرانسفر اور ری بیس ٹوکن یونی سویپ V3 کے ساتھ مطابقت نہیں رکھتے۔",
+      "expectedToFail": "آپ کا تبادلہ ناکام ہونے کی توقع ہے۔",
+      "fiatInputUnavailable": "{{fiatCurrencyCode}} ان پٹ دستیاب نہیں ہے۔",
+      "modifiedByWallet": "آپ کے بدلے میں آپ کے بٹوے کے ذریعے ترمیم کی گئی تھی۔ اگر یہ غلطی تھی، تو براہ کرم فوری طور پر منسوخ کریں یا اپنے فنڈز کھونے کا خطرہ مول لیں۔",
+      "rejected": "لین دین مسترد کر دیا گیا۔",
+      "undefinedObject": "اس سویپ کو انجام دینے کی کوشش کرتے وقت ایک خرابی پیش آگئی۔ آپ کو اپنی پھسلن کی رواداری کو بڑھانے کی ضرورت پڑسکتی ہے۔ اگر یہ کام نہیں کرتا ہے، تو ہو سکتا ہے کہ آپ جس ٹوکن کی تجارت کر رہے ہیں اس کے ساتھ عدم مطابقت ہو۔ نوٹ: فیس آن ٹرانسفر اور ری بیس ٹوکن یونی سویپ V3 کے ساتھ مطابقت نہیں رکھتے۔",
+      "unknown": "نامعلوم خامی.",
+      "v2": {
+        "expired": "یہ لین دین نہیں بھیجا جا سکا کیونکہ آخری تاریخ گزر چکی ہے۔ براہ کرم چیک کریں کہ آپ کی لین دین کی آخری تاریخ بہت کم نہیں ہے۔",
+        "k": "Unswap invariant x*y=k سویپ سے مطمئن نہیں تھا۔ اس کا عام طور پر مطلب ہے کہ آپ جن ٹوکنز کو تبدیل کر رہے ہیں ان میں سے ایک منتقلی پر حسب ضرورت رویے کو شامل کرتا ہے۔",
+        "slippage": "یہ لین دین یا تو قیمت کی نقل و حرکت یا منتقلی پر فیس کی وجہ سے کامیاب نہیں ہوگا۔ اپنی پھسلن برداشت کو بڑھانے کی کوشش کریں۔",
+        "transferInput": "ان پٹ ٹوکن کو منتقل نہیں کیا جا سکتا۔ ان پٹ ٹوکن میں کوئی مسئلہ ہو سکتا ہے۔",
+        "transferOutput": "آؤٹ پٹ ٹوکن کو منتقل نہیں کیا جا سکتا۔ آؤٹ پٹ ٹوکن میں کوئی مسئلہ ہو سکتا ہے۔"
+      },
+      "v3": {
+        "slippage": "قیمت کی حرکت کی وجہ سے یہ لین دین کامیاب نہیں ہوگا۔ اپنی پھسلن برداشت کو بڑھانے کی کوشش کریں۔ نوٹ: ٹرانسفر اور ریبیس ٹوکنز پر فیس Uniswap V3 کے ساتھ مطابقت نہیں رکھتی۔",
+        "transferOutput": "آؤٹ پٹ ٹوکن کو منتقل نہیں کیا جا سکتا۔ آؤٹ پٹ ٹوکن میں کوئی مسئلہ ہو سکتا ہے۔ نوٹ: ٹرانسفر اور ریبیس ٹوکنز پر فیس Uniswap V3 کے ساتھ مطابقت نہیں رکھتی۔"
+      }
+    },
+    "estimatedDifference": {
+      "label": "موجودہ لیکویڈیٹی کی وجہ سے آپ کے ان پٹ اور آؤٹ پٹ کی قدروں میں بڑا فرق ہوگا۔"
+    },
+    "fail": {
+      "message": "پھسلن کو زیادہ قدر میں ایڈجسٹ کرنے کی کوشش کریں۔",
+      "uniswapX": "تبادلہ کو UniswapX کے ساتھ مکمل نہیں کیا جا سکا۔ کلاسک Uniswap API کے ذریعے اسے روٹ کرنے کے لیے اپنے سویپ کو دوبارہ آزمائیں۔"
+    },
+    "fees": {
+      "experience": "یہ فیس کچھ ٹوکن جوڑوں پر لاگو ہوتی ہے تاکہ Uniswap کے ساتھ بہترین تجربہ کو یقینی بنایا جا سکے۔ اس کی ادائیگی آؤٹ پٹ ٹوکن میں کی جاتی ہے اور اسے پہلے ہی اقتباس میں شامل کیا جا چکا ہے۔",
+      "noFee": "Uniswap کے ساتھ بہترین تجربہ کو یقینی بنانے کے لیے منتخب ٹوکن جوڑوں پر فیس لاگو کی جاتی ہے۔ اس تبادلہ سے وابستہ کوئی فیس نہیں ہے۔"
+    },
+    "fetchingBestPrice": "بہترین قیمت حاصل کر رہا ہے...",
+    "fetchingPrice": "قیمت حاصل کی جا رہی ہے...",
+    "finalizingQuote": "اقتباس کو حتمی شکل دی جا رہی ہے...",
+    "form": {
+      "header": "تبادلہ",
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "ٹوکن فیس کی وجہ سے، ادل بدل کی رقم صرف ان پٹ فیلڈ کا استعمال کرتے ہوئے درج کی جا سکتی ہے۔"
+          }
+        },
+        "restore": "اپنے بٹوے کو تبدیل کرنے کے لیے بحال کریں۔"
+      }
+    },
+    "frontrun": {
+      "warning": "آپ کا لین دین سب سے آگے ہو سکتا ہے اور اس کے نتیجے میں ناگوار تجارت ہو سکتی ہے۔"
+    },
+    "header": {
+      "viewOnly": "صرف دیکھنے کے لیے"
+    },
+    "impactOfTrade": {
+      "uniswapx": {
+        "missing": "قیمت کے اثرات کے حساب کتاب کم لیکویڈیٹی والے جوڑوں کے لیے دستیاب نہیں ہو سکتے ہیں۔"
+      }
+    },
+    "inputEstimated": {
+      "atMost": "ان پٹ کا تخمینہ لگایا گیا ہے۔ آپ زیادہ سے زیادہ <amount /> پر فروخت کریں گے یا لین دین واپس ہو جائے گا۔"
+    },
+    "limit": "حد",
+    "limitedAssets": {
+      "warning": "کچھ اثاثے اس انٹرفیس کے ذریعے دستیاب نہیں ہیں کیونکہ ہو سکتا ہے وہ سمارٹ معاہدوں کے ساتھ اچھی طرح کام نہ کریں یا ہم قانونی وجوہات کی بنا پر تجارت کی اجازت دینے سے قاصر ہیں۔"
+    },
+    "limitFilled": "حد ہو گئی!",
+    "limitSubmitted": "حد جمع کر دی گئی۔",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "مارکیٹ کی قیمت آپ کی مخصوص قیمت کی حد سے باہر ہے۔ صرف واحد اثاثہ جمع۔"
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "زیادہ سے زیادہ رقم جس کی آپ کو خرچ کرنے کی ضمانت ہے۔ اگر قیمت مزید کم ہو جاتی ہے، تو آپ کا لین دین واپس ہو جائے گا۔"
+    },
+    "minPriceSlip": {
+      "revert": "اگر قیمت اس طرح بڑھ جاتی ہے کہ آپ کو {{amount}}سے کم وصول ہوں گے تو آپ کا لین دین واپس ہو جائے گا۔"
+    },
+    "networkCost": {
+      "paidIn": "لین دین کرنے کے لیے نیٹ ورک کی قیمت {{chainName}} نیٹ ورک پر {{sym}} میں ادا کی جاتی ہے۔"
+    },
+    "orderRouting": "آرڈر روٹنگ",
+    "outputEstimated": {
+      "atLeast": "آؤٹ پٹ کا تخمینہ لگایا گیا ہے۔ آپ کو کم از کم <amount /> ملے گا یا لین دین واپس ہو جائے گا۔"
+    },
+    "payAnyway": "بہرحال ادائیگی کریں۔",
+    "payAtMost": "زیادہ سے زیادہ ادائیگی کریں۔",
+    "payWith": "کے ساتھ ادائیگی کریں۔",
+    "placeOrder": "حکم صادر کریں",
+    "priceImpact": "قیمت کا اثر",
+    "receive": {
+      "atLeast": "کم از کم وصول کریں۔"
+    },
+    "request": {
+      "title": {
+        "full": "تبادلہ {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "ٹوکن تبدیل کریں۔"
+      }
+    },
+    "review": {
+      "summary": "آپ تبادلہ کر رہے ہیں۔"
+    },
+    "reviewLimit": "جائزہ کی حد",
+    "route": {
+      "optimizedGasCost": "یہ راستہ تقسیم راستوں، متعدد ہاپس، اور ہر قدم کے نیٹ ورک کے اخراجات پر غور کرتا ہے۔"
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "اگر آپ کا لین دین اس مدت سے زیادہ زیر التوا ہے تو وہ واپس آجائے گا۔ (زیادہ سے زیادہ: 3 دن)۔",
+        "warning": "ہائی ڈیڈ لائن"
+      },
+      "protection": {
+        "description": "سویپ پروٹیکشن آن کے ساتھ، آپ کے ایتھریم ٹرانزیکشنز کو سینڈوچ حملوں سے محفوظ رکھا جائے گا، ناکامی کے کم امکانات کے ساتھ۔",
+        "subtitle": {
+          "supported": "{{chainName}} نیٹ ورک",
+          "unavailable": "{{chainName}}پر دستیاب نہیں ہے۔"
+        },
+        "title": "تبادلہ تحفظ"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Uniswap کلائنٹ قیمت اور نیٹ ورک کی لاگت کے لحاظ سے سب سے سستے تجارتی آپشن کا انتخاب کرتا ہے۔"
+            },
+            "tooltip": "ایک راستے کی شناخت v2، v3، اور کچھ v4 پولز کو مدنظر رکھتے ہوئے کی جاتی ہے، تخمینہ قیمت کے اثرات اور نیٹ ورک کی لاگت میں فیکٹرنگ۔"
+          },
+          "v2": {
+            "title": "v2 تالاب"
+          },
+          "v3": {
+            "title": "v3 تالاب"
+          },
+          "v4": {
+            "title": "v4 تالاب"
+          }
+        },
+        "title": "تجارت کے اختیارات"
+      },
+      "slippage": {
+        "alert": "اونچی پھسلن",
+        "control": {
+          "auto": "آٹو"
+        },
+        "description": "اگر قیمت slippage فیصد سے زیادہ تبدیل ہوتی ہے تو آپ کا لین دین واپس آجائے گا۔",
+        "input": {
+          "message": "اگر قیمت مزید کم ہو جاتی ہے، تو آپ کا لین دین واپس ہو جائے گا۔ ذیل میں وہ کم از کم رقم ہے جو آپ کو وصول کرنے کی ضمانت ہے۔",
+          "receive": {
+            "title": "کم از کم وصول کریں۔"
+          }
+        },
+        "output": {
+          "message": "اگر قیمت مزید کم ہو جاتی ہے، تو آپ کا لین دین واپس ہو جائے گا۔ ذیل میں آپ کو زیادہ سے زیادہ رقم خرچ کرنے کی ضرورت ہوگی۔",
+          "spend": {
+            "title": "زیادہ سے زیادہ خرچ کریں۔"
+          }
+        },
+        "warning": {
+          "description": "20% سے اوپر کی پھسلن کے نتیجے میں ایک ناموافق تجارت کا امکان ہے۔ فرنٹ رن ہونے کے خطرے کو کم کرنے کے لیے، اپنی سیٹنگز کو کم کریں۔",
+          "hover": "اس کے نتیجے میں ناگوار تجارت ہو سکتی ہے۔ اپنی slippage ترتیب کو کم کرنے کی کوشش کریں۔",
+          "max": "{{maxSlippageTolerance}}سے کم قدر درج کریں۔",
+          "message": "پھسلنا ضرورت سے زیادہ ہو سکتا ہے۔",
+          "min": "0 سے بڑی قدر درج کریں۔"
+        }
+      },
+      "title": "تبدیلی کی ترتیبات",
+      "transactionRevertPrice": "اگر قیمت اس فیصد سے زیادہ ناموافق طور پر تبدیل ہوتی ہے تو آپ کا لین دین واپس آجائے گا۔"
+    },
+    "signAndSwap": "دستخط کریں اور تبادلہ کریں۔",
+    "slippage": {
+      "amt": "{{amt}} پھسلنا",
+      "bridging": "نیٹ ورکس میں تبادلہ کرتے وقت کوئی پھسلن نہیں ہوتی",
+      "settings": {
+        "title": "پھسلن کی ترتیبات"
+      },
+      "tooltip": "آپ کے لین دین سے پہلے قیمت کی زیادہ سے زیادہ حرکت واپس آجائے گی۔"
+    },
+    "slippageBelow": {
+      "warning": "{{amt}} کے نیچے پھسلنے کے نتیجے میں ٹرانزیکشن ناکام ہو سکتی ہے۔"
+    },
+    "submitted": "تبادلہ جمع کرایا",
+    "success": "تبدیلی کامیابی!",
+    "tokenOwnFees": "کچھ ٹوکن جب خریدے یا بیچے جاتے ہیں تو فیس لیتے ہیں، جو ٹوکن جاری کرنے والے کی طرف سے مقرر کیا جاتا ہے۔ Uniswap ان میں سے کوئی فیس وصول نہیں کرتا ہے۔",
+    "total": "کل",
+    "tradeRoutes": "تجارتی راستے",
+    "transaction": {
+      "deadline": "لین دین کی آخری تاریخ",
+      "revertAfter": "اگر آپ کا لین دین اس مدت سے زیادہ عرصے سے زیر التوا ہے تو وہ واپس آجائے گا۔"
+    },
+    "unsupportedAssets": {
+      "readMore": "غیر تعاون یافتہ اثاثوں کے بارے میں مزید پڑھیں"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "ایک بڑی رقم درج کریں۔"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "اپنی پھسلن کو بڑھانے کی کوشش کریں۔",
+        "titleMay": "یہ تبادلہ ناکام ہو سکتا ہے۔"
+      },
+      "insufficientBalance": {
+        "title": "آپ کے پاس کافی {{currencySymbol}}نہیں ہے۔"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "{{networkName}}پر {{ tokenSymbol }} کے لیے تبادلہ کریں۔",
+          "buy": "{{ tokenSymbol }}خریدیں۔",
+          "buyWithCard": "کارڈ کے ساتھ خریدیں۔"
+        },
+        "message": {
+          "withNetwork": "تبدیل کرنے کے لیے کافی <highlight>{{currencySymbol}} پر {{networkName}}</highlight>",
+          "withoutNetwork": "تبدیل کرنے کے لیے کافی نہیں <highlight>{{currencySymbol}}</highlight>"
+        },
+        "title": "آپ کے پاس نیٹ ورک کی لاگت کو پورا کرنے کے لیے کافی {{currencySymbol}} نہیں ہے۔"
+      },
+      "networkFee": {
+        "allow": "{{ inputTokenSymbol }} کی اجازت دیں (ایک بار)",
+        "highRelativeToValue": {
+          "unichain": "نیٹ ورک کی لاگت آپ کے لین دین کی کل قیمت کے 10% سے زیادہ ہے۔ یہ بلاکچین پر آپ کے لین دین پر کارروائی کرنے کی لاگت ہے۔"
+        },
+        "message": {
+          "unichain": "یہ بلاکچین پر آپ کے لین دین پر کارروائی کرنے کی لاگت ہے۔",
+          "uniswapX": {
+            "unichain": "یہ بلاکچین پر آپ کے لین دین پر کارروائی کرنے کی لاگت ہے۔ <gradient>UniswapX</gradient> بہتر قیمتوں اور گیس سے پاک تبادلہ کے لیے لیکویڈیٹی ذرائع کو جمع کرتا ہے۔"
+          }
+        },
+        "wrap": "ETH لپیٹیں۔"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "کوئی برجنگ کوٹس نہیں ملے۔ اس وقت سرکاری پل استعمال کرنے کی کوشش کریں۔"
+        },
+        "title": "کوئی اقتباسات نہیں ملے"
+      },
+      "noRoutesFound": {
+        "message": "آپ کے منتخب کردہ ٹوکنز کے لیے فی الحال کوئی راستہ دستیاب نہیں ہے۔ براہ کرم ایک مختلف جوڑا آزمائیں یا بعد میں دوبارہ چیک کریں۔",
+        "title": "کوئی راستہ دستیاب نہیں ہے۔"
+      },
+      "offline": {
+        "message": "ہو سکتا ہے آپ کا انٹرنیٹ کنکشن ختم ہو گیا ہو یا نیٹ ورک بند ہو جائے۔ براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں۔",
+        "title": "آپ آف لائن ہیں۔"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "اس لین دین کے نتیجے میں اس پول کی مارکیٹ قیمت پر {{priceImpactValue}} قیمت کا اثر پڑے گا اور اس کے نتیجے میں فنڈز کا نقصان ہوگا۔"
+        },
+        "title": {
+          "veryHigh": "بہت زیادہ قیمت کا اثر ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "آپ کا ٹرانزیکشن جمع نہیں ہو سکا کیونکہ آپ نے ایپ بند کر دی تھی۔",
+        "approvalFailed": "ٹوکن کی منظوری ناکام ہونے کی وجہ سے آپ کا لین دین جمع نہیں ہو سکا۔",
+        "stale": "آپ کا ٹرانزیکشن جمع نہیں ہو سکا کیونکہ آپ نے ایپ بند کر دی تھی یا منظوری میں کافی وقت لگا تھا۔",
+        "submissionFailed": "آپ کی ٹرانزیکشن جمع کرانے میں ایک مسئلہ تھا۔",
+        "title": "تبادلہ منسوخ کر دیا گیا۔",
+        "wrap": {
+          "message": "آپ کا ETH WETH کے طور پر لپٹا رہے گا۔"
+        },
+        "wrapFailed": "آپ کا لین دین جمع نہیں ہو سکا کیونکہ ریپ ٹرانزیکشن ناکام ہو گیا۔"
+      },
+      "rateLimit": {
+        "message": "براہ کرم چند منٹوں میں دوبارہ کوشش کریں۔",
+        "title": "شرح کی حد سے تجاوز کر گیا۔"
+      },
+      "router": {
+        "message": "ہو سکتا ہے آپ کا کنکشن ختم ہو گیا ہو یا نیٹ ورک بند ہو جائے۔ اگر مسئلہ برقرار رہتا ہے، تو براہ کرم بعد میں دوبارہ کوشش کریں۔",
+        "title": "یہ تجارت ابھی مکمل نہیں ہو سکتی"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} مسدود ہے۔"
+      },
+      "tokenBlockedFallback": {
+        "button": "ٹوکن مسدود ہے۔"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Uniswap کے ساتھ بہترین تجربہ کو یقینی بنانے کے لیے فیس کا اطلاق ہوتا ہے۔ اس تبادلہ کے ساتھ کوئی فیس وابستہ نہیں ہے۔",
+          "included": "Uniswap کے ساتھ بہترین تجربہ کو یقینی بنانے کے لیے فیس کا اطلاق کیا جاتا ہے، اور اس اقتباس میں پہلے ہی شامل کیا جا چکا ہے۔"
+        },
+        "title": "تبادلہ فیس"
+      },
+      "viewOnly": {
+        "message": "ٹوکنز کو تبدیل کرنے کے لیے آپ کو ریکوری فقرے کے ذریعے یہ پرس درآمد کرنا ہوگا۔"
+      }
+    },
+    "wrap": {
+      "token": "لپیٹیں {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "دوسرے نیٹ ورکس پر",
+      "otherNetworksBalance": "دوسرے نیٹ ورکس پر بیلنس",
+      "title": "آپ کا بیلنس"
+    },
+    "button": {
+      "getToken": "{{ tokenSymbol }}حاصل کریں۔",
+      "getTokenFallback": "ٹوکن حاصل کریں۔"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "{{network}}پر سوئچ کریں۔",
+      "title": "یہ ٹوکن موجود نہیں ہے۔",
+      "titleWithChain": "یہ ٹوکن {{network}}پر موجود نہیں ہے۔"
+    },
+    "loading": {
+      "title": {
+        "default": "<tokenLink />کے لیے ٹوکن ڈیٹا",
+        "withChain": "{{chainName}}پر <tokenLink /> کے لیے ٹوکن ڈیٹا"
+      }
+    },
+    "nameNotFound": "نام نہیں ملا",
+    "noInfoAvailable": "کوئی ٹوکن معلومات دستیاب نہیں ہے۔",
+    "noTestnetSupportDescription": "کچھ ٹیسٹ نیٹ ٹوکن تبدیل کرنے، بھیجنے یا خریدنے کی حمایت نہیں کرتے ہیں۔",
+    "stats": {
+      "unsupportedChainDescription": "{{chain}} کے لیے ٹوکن کے اعدادوشمار اور چارٹ {{infoLink}}پر دستیاب ہیں"
+    },
+    "symbolNotFound": "علامت نہیں ملی"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "اس کارروائی کے لیے ٹیسٹ نیٹ موڈ کو غیر فعال کرنے کی ضرورت ہے۔ ٹیسٹ نیٹ موڈ کو ترتیبات کے اندر کسی بھی وقت دوبارہ فعال کیا جا سکتا ہے۔",
+          "toTestnetMode": "اس کارروائی کے لیے ٹیسٹ نیٹ وضع کو فعال کرنے کی ضرورت ہے۔ testnets پر ٹوکن کی کوئی حقیقی قدر نہیں ہوتی۔ ٹیسٹ نیٹ موڈ کو ترتیبات کے اندر کسی بھی وقت غیر فعال کیا جا سکتا ہے۔"
+        },
+        "title": {
+          "toProdMode": "ٹیسٹ نیٹ موڈ کو غیر فعال کریں۔",
+          "toTestnetMode": "ٹیسٹ نیٹ موڈ کو فعال کریں۔"
+        }
+      }
+    },
+    "unsupported": "یہ فعالیت ٹیسٹ نیٹ موڈ میں تعاون یافتہ نہیں ہے۔"
+  },
+  "themeToggle": {
+    "theme": "خیالیہ"
+  },
+  "title": {
+    "buySellTradeEthereum": "Uniswap پر Ethereum اور دیگر ٹاپ ٹوکن خریدیں، بیچیں اور تجارت کریں۔",
+    "createGovernanceOn": "Uniswap پر گورننس کی ایک نئی تجویز بنائیں",
+    "createGovernanceTo": "گورننس کی ایک نئی تجویز بنائیں جس پر UNI ہولڈرز ووٹ ڈالیں۔ UNI ٹوکن یونی سویپ گورننس میں ووٹنگ شیئرز کی نمائندگی کرتے ہیں۔",
+    "earnFees": "جب دوسرے یونی سویپ پر لیکویڈیٹی پولز میں ٹوکن شامل کر کے بدلتے ہیں تو فیس کمائیں۔",
+    "easilyRemove": "اپنی لیکویڈیٹی کو آسانی سے Uniswap v2 سے ہٹائیں اور Uniswap v3 میں جمع کریں۔",
+    "easilyRemoveV4": "Uniswap v2 اور v3 سے اپنی لیکویڈیٹی کو آسانی سے ہٹا کر Uniswap v4 میں جمع کریں۔",
+    "explore": "Unswap پر NFTs کو دریافت کریں۔",
+    "extensionPasskeySignIn": "پاسکی کے ساتھ سائن ان کریں۔",
+    "manageNFT": "اپنے NFT مجموعہ کا نظم کریں۔ اپنے NFTs پر خصائص، تجارتی سرگرمی، تفصیل اور دیگر تفصیلات دیکھیں۔",
+    "migratev2": "v2 پول لیکویڈیٹی کو Uniswap v3 میں منتقل کریں۔",
+    "migratev3": "پول لیکویڈیٹی کو Uniswap v4 میں منتقل کریں۔",
+    "placeLimit": "Unswap پر حد کے آرڈر دیں۔",
+    "realTime": "ریئل ٹائم قیمتیں، چارٹس، لین دین کا ڈیٹا، اور بہت کچھ۔",
+    "removeLiquidityv2": "Uniswap پر پول لیکویڈیٹی (v2) کو ہٹا دیں۔",
+    "removePoolLiquidity": "Uniswap پر پول لیکویڈیٹی کو ہٹا دیں۔",
+    "removeTokensv2": "v2 لیکویڈیٹی پولز سے اپنے ٹوکنز کو ہٹا دیں۔",
+    "removev3Liquidity": "v3 لیکویڈیٹی پولز سے اپنے ٹوکنز کو ہٹا دیں۔",
+    "sendTokens": "Uniswap پر ٹوکن بھیجیں۔",
+    "swappingMadeSimple": "تبدیل کرنا آسان بنا دیا گیا۔ Ethereum، Base، Arbitrum، Polygon، اور مزید پر کرپٹو خریدیں اور بیچیں۔ لاکھوں کا بھروسہ۔",
+    "tradeTokens": "ٹریڈ ٹوکنز اور لیکویڈیٹی فراہم کرتے ہیں۔ ریئل ٹائم قیمتیں، چارٹس، لین دین کا ڈیٹا، اور بہت کچھ۔",
+    "uniswapTradeCrypto": "یون بدل | ٹاپ DeFi پلیٹ فارم پر محفوظ طریقے سے کرپٹو اور NFTs کی تجارت کریں۔",
+    "uniToken": "UNI ٹوکن یونی سویپ گورننس میں ووٹنگ شیئرز کی نمائندگی کرتے ہیں۔ آپ ہر تجویز پر خود ووٹ دے سکتے ہیں یا اپنے ووٹ کسی تیسرے فریق کو دے سکتے ہیں۔",
+    "voteOnGov": "Uniswap پر گورننس کی تجاویز پر ووٹ دیں۔"
+  },
+  "token": {
+    "balances": {
+      "main": "آپ کا بیلنس",
+      "other": "دوسرے نیٹ ورکس پر بیلنس",
+      "viewOnly": "{{ownerAddress}}کا بیلنس"
+    },
+    "bridge": "{{label}} ٹوکن پل",
+    "chart": {
+      "candlestick": {
+        "unavailable": "کینڈل سٹک چارٹس اس ٹوکن کے لیے دستیاب نہیں ہیں۔"
+      },
+      "tooltip": "فیس: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "ٹیسٹ نیٹ ٹوکنز کے لیے ٹوکن کی تفصیلات دستیاب نہیں ہیں۔"
+      }
+    },
+    "error": {
+      "unknown": "نامعلوم ٹوکن"
+    },
+    "fee": {
+      "buy": {
+        "label": "خریدنے کی فیس"
+      },
+      "label": "فیس",
+      "sell": {
+        "label": "فروخت کی فیس"
+      }
+    },
+    "links": {
+      "title": "لنکس",
+      "twitter": "ٹویٹر",
+      "website": "ویب سائٹ"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "کچھ غلط ہو گیا.",
+        "title": "قیمت کا چارٹ لوڈ نہیں ہو سکا"
+      },
+      "timeRangeLabel": {
+        "all": "تمام وقت",
+        "day": {
+          "verbose": "1 دن"
+        },
+        "hour": "1 ایچ",
+        "month": {
+          "verbose": "1 مہینہ"
+        },
+        "week": {
+          "verbose": "1 ہفتہ"
+        },
+        "year": {
+          "verbose": "1 سال"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} دستیاب نہیں ہے۔",
+          "tokensNotAvailable": "{{tokenSymbol0}} اور {{tokenSymbol1}} دستیاب نہیں ہیں۔"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs ان میں سے کوئی فیس وصول نہیں کرتی ہے۔"
+      },
+      "warning": {
+        "alwaysDoYourResearch": "ہمیشہ اپنی تحقیق کریں۔",
+        "blocked": {
+          "description": {
+            "default_one": "آپ Uniswap ایپ کا استعمال کر کے اس ٹوکن کی تجارت نہیں کر سکتے۔",
+            "default_other": "آپ ان ٹوکنز کی تجارت Uniswap ایپ کا استعمال نہیں کر سکتے۔"
+          }
+        },
+        "copyContractAddress": {
+          "message": "یہ ایک کنٹریکٹ ایڈریس ہے، جو بلاکچین پر ٹوکنز کے لیے ایک منفرد شناخت کنندہ کے طور پر کام کرتا ہے۔ آپ جو بھی کرپٹو اس ایڈریس پر بھیجیں گے وہ ضائع ہو جائے گا۔",
+          "title": "اس ایڈریس پر کرپٹو مت بھیجیں۔"
+        },
+        "dontShowWarningAgain": "مجھے یہ وارننگ دوبارہ مت دکھائیں۔",
+        "doYourOwnResearch": "آگے بڑھنے سے پہلے ہمیشہ اپنی تحقیق کریں۔",
+        "feeDescription": "<fee /> چارج کرتا ہے جب {{action}}",
+        "flaggedAsMalicious": "نقصان دہ کے طور پر نشان زد کیا گیا۔",
+        "fotHigh": {
+          "title": "زیادہ فیس کا پتہ چلا"
+        },
+        "fotLow": {
+          "title": "فیس کا پتہ چلا"
+        },
+        "fotVeryHigh": {
+          "title": "بہت زیادہ فیس کا پتہ چلا"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} کو ناقابل فروخت کے طور پر جھنڈا لگایا گیا ہے۔ اس ٹوکن کو تبدیل کرنے سے آپ کے فنڈز ضائع ہو سکتے ہیں۔",
+          "title": "100% سیل فیس کا پتہ چلا"
+        },
+        "impersonator": {
+          "title": "نقالی ٹوکن کا پتہ چلا"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} کو بلاک ایڈ کے ذریعہ نقصان دہ کے طور پر جھنڈا لگایا گیا ہے۔"
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} وہ ٹوکن نہیں ہو سکتا جسے آپ تبدیل کرنا چاہتے ہیں۔"
+            }
+          },
+          "title": "نقصان دہ ٹوکن کا پتہ چلا"
+        },
+        "mayResultInLoss": "اسے تبدیل کرنے سے فنڈز کا نقصان ہو سکتا ہے۔",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} معروف امریکی مرکزی تبادلے پر تجارت نہیں کی جاتی ہے۔"
+          }
+        },
+        "notListedOnExchanges": "معروف امریکی تبادلے میں درج نہیں ہے۔",
+        "potentialHoneypot": {
+          "card": {
+            "message": "بلاک ایڈ کے ذریعہ {{tokenSymbol}} کو مشکوک کے طور پر نشان زد کیا گیا ہے۔"
+          },
+          "modal": {
+            "message": "بلاک ایڈ کے ذریعہ {{tokenSymbol}} کو ایک ممکنہ ہنی پاٹ کے طور پر نشان زد کیا گیا ہے۔ آگے بڑھنے سے پہلے ہمیشہ اپنی تحقیق کریں۔"
+          },
+          "title": "ممکنہ ہنی پاٹ کا پتہ چلا"
+        },
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} کو ناقابل فروخت کے طور پر جھنڈا لگایا گیا ہے۔",
+          "title": "100% سیل فیس کا پتہ چلا"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} کو بلاک ایڈ کے ذریعہ اسپام کے طور پر جھنڈا لگایا گیا ہے۔",
+          "title": "اسپام ٹوکن کا پتہ چلا"
+        },
+        "spamsUsers": "سپیم صارفین",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} خریدے جانے پر {{buyFeePercent}} اور بیچنے پر {{sellFeePercent}} فیس لیتا ہے۔"
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} خریدنے پر {{feePercent}} فیس لیتا ہے۔"
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} فروخت ہونے پر {{feePercent}} فیس لیتا ہے۔"
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} خریدنے یا بیچنے پر فیس لیتا ہے۔"
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "آپ Unswap Wallet کا استعمال کرتے ہوئے اس ٹوکن کی تجارت نہیں کر سکتے۔"
+      },
+      "medium": {
+        "message": {
+          "plural": "ان ٹوکنز کی تجارت امریکہ کے معروف مرکزی تبادلے پر نہیں کی جاتی ہے۔ آگے بڑھنے سے پہلے ہمیشہ اپنی تحقیق کریں۔"
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "تلاش کے نتائج لوڈ نہیں ہو سکے۔"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "مکمل طور پر کمزور تشخیص",
+      "marketCap": "مارکیٹ کیپ",
+      "priceHighYear": "52W ہائی",
+      "priceLowYear": "52W کم",
+      "section": {
+        "about": "{{token}}کے بارے میں"
+      },
+      "title": "اعدادوشمار",
+      "translation": {
+        "original": "اصل دکھائیں۔",
+        "translate": "{{language}}میں ترجمہ کریں۔"
+      },
+      "volume": "24h والیوم"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "ان پٹ ٹوکن"
+      },
+      "output": {
+        "fallback": "آؤٹ پٹ ٹوکن"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Uniswap پروٹوکول پر تبدیلیاں ETH کے ساتھ شروع اور ختم ہو سکتی ہیں۔ تاہم، تبادلہ کے دوران، ETH کو WETH میں لپیٹ دیا جاتا ہے۔"
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "{{ tokenSymbol }}حاصل کرنے کے لیے، آپ کو نیٹ ورک کے اخراجات پورے کرنے کے لیے {{ nativeTokenSymbol }} کی ضرورت ہے۔",
+      "title": "آپ کو {{ nativeTokenName }} کی ضرورت ہے۔  "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "ٹوکن چھپائیں۔",
+      "unhide": "ٹوکن چھپائیں"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "{{blockExplorerName}}پر دیکھیں"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "NFT مجموعہ لوڈ نہیں ہو سکا"
+          }
+        },
+        "label": {
+          "items": "اشیاء",
+          "owners": "مالکان",
+          "priceFloor": "فرش",
+          "swapVolume": "حجم"
+        }
+      },
+      "details": {
+        "contract": {
+          "address": "معاہدہ کا پتہ"
+        },
+        "error": {
+          "load": {
+            "title": "NFT تفصیلات لوڈ نہیں کی جا سکیں"
+          }
+        },
+        "network": "نیٹ ورک",
+        "owner": "کی ملکیت",
+        "price": "موجودہ قیمت",
+        "recentPrice": "آخری فروخت کی قیمت",
+        "traits": "خصلتیں"
+      },
+      "empty": {
+        "description": "کوئی NFTs نہیں ملے"
+      },
+      "error": {
+        "unavailable": "مواد دستیاب نہیں ہے۔"
+      },
+      "hidden": {
+        "action": {
+          "hide": "NFT چھپائیں۔",
+          "unhide": "NFT ظاہر کریں۔"
+        }
+      },
+      "link": {
+        "collection": "جمع کرنے کی ویب سائٹ"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFTs لوڈ نہیں ہو سکے۔"
+          }
+        },
+        "none": {
+          "button": "NFTs وصول کریں۔",
+          "description": {
+            "default": "شروع کرنے کے لیے دوسرے بٹوے سے NFTs منتقل کریں۔",
+            "external": "جب یہ والیٹ NFTs خریدتا یا وصول کرتا ہے، تو وہ یہاں ظاہر ہوں گے۔"
+          },
+          "title": "ابھی تک کوئی NFTs نہیں ہیں۔"
+        }
+      }
+    },
+    "noneFound": "کوئی ٹوکن نہیں ملا۔",
+    "selector": {
+      "button": {
+        "choose": "ٹوکن منتخب کریں۔",
+        "clear": "تمام کو صاف کریں"
+      },
+      "empty": {
+        "buy": {
+          "message": "ٹوکن بھیجنے کے لیے کارڈ یا بینک سے کرپٹو خریدیں۔",
+          "title": "کریپٹو لیں"
+        },
+        "receive": {
+          "title": "ٹوکن وصول کریں۔"
+        },
+        "title": "ابھی تک کوئی ٹوکن نہیں ہے۔"
+      },
+      "error": {
+        "load": "ٹوکن لوڈ نہیں ہو سکے۔"
+      },
+      "search": {
+        "empty": "<highlight>{{searchText}}</highlight>کے لیے کوئی نتیجہ نہیں ملا",
+        "placeholder": "ٹوکن تلاش کریں۔"
+      },
+      "section": {
+        "bridging": "نیٹ ورکس میں تبادلہ کریں۔",
+        "favorite": "پسندیدہ",
+        "otherNetworksSearchResults": "ٹوکن دوسرے نیٹ ورکس پر ملے",
+        "otherSearchResults": "{{network}}پر دیگر ٹوکن",
+        "recent": "حالیہ تلاشیں۔",
+        "search": "تلاش کے نتائج",
+        "trending": "ٹوکنز بذریعہ 24H والیوم",
+        "yours": "آپ کے ٹوکنز"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "تالاب تلاش کریں۔",
+          "tokens": "ٹوکن تلاش کریں۔",
+          "transactions": "لین دین تلاش کریں۔"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "لین دین منسوخ کریں۔",
+        "description": "اگر آپ اس ٹرانزیکشن کو نیٹ ورک کے ذریعے کارروائی کرنے سے پہلے منسوخ کر دیتے ہیں، تو آپ اصل کی بجائے ایک نئی نیٹ ورک لاگت ادا کریں گے۔",
+        "title": "اس لین دین کو منسوخ کریں؟"
+      },
+      "copy": "ٹرانزیکشن ID کاپی کریں۔",
+      "copyProvider": "{{providerName}} ٹرانزیکشن ID کاپی کریں۔"
+    },
+    "amount": {
+      "unlimited": "لا محدود"
+    },
+    "date": "{{date}}پر جمع کرایا گیا۔",
+    "details": {
+      "dappName": "ایپ",
+      "from": "سے",
+      "networkFee": "نیٹ ورک کی قیمت",
+      "providerFee": "فراہم کنندہ کی فیس",
+      "swapRate": "شرح",
+      "transaction": "لین دین",
+      "uniswapFee": "فیس ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "لین دین مکمل کرنے کے لیے ناکافی پول لیکویڈیٹی",
+    "network": {
+      "all": "تمام نیٹ ورکس"
+    },
+    "networkCost": {
+      "label": "نیٹ ورک کی قیمت",
+      "maxNativeBalance": {
+        "description": "نیٹ ورک ٹوکن بیلنس کی تھوڑی سی رقم اس لین دین کی نیٹ ورک لاگت کو پورا کرنے کے لیے محفوظ ہے۔",
+        "title": "میں اپنا زیادہ سے زیادہ بیلنس کیوں استعمال نہیں کر سکتا؟"
+      },
+      "veryHigh": {
+        "label": "بہت زیادہ نیٹ ورک کی قیمت"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "لین دین منسوخ کرنے سے قاصر",
+        "replace": "لین دین کو تبدیل کرنے سے قاصر ہے۔"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "منظوری منسوخ کر دی گئی۔",
+        "canceling": "منظوری منسوخ کر رہا ہے۔",
+        "failed": "منظور کرنے میں ناکام",
+        "pending": "منظور کرنا",
+        "success": "منظورشدہ",
+        "successDapp": "{{externalDappName}}کو منظور ہوا۔"
+      },
+      "buy": {
+        "canceled": "خریداری منسوخ کر دی گئی۔",
+        "canceling": "خریداری منسوخ کر رہا ہے۔",
+        "failed": "خریدنے میں ناکام",
+        "pending": "خریدنا",
+        "success": "خریدا",
+        "successDapp": "{{externalDappName}}پر خریدا گیا۔"
+      },
+      "confirm": {
+        "canceled": "تصدیق منسوخ کر دی گئی۔",
+        "canceling": "زیر التواء منسوخی",
+        "failed": "تصدیق کرنے میں ناکام",
+        "pending": "لین دین جاری ہے۔",
+        "success": "لین دین کی تصدیق ہو گئی۔",
+        "successDapp": "{{externalDappName}}پر لین دین کی تصدیق ہو گئی۔"
+      },
+      "mint": {
+        "canceled": "منسوخ شدہ ٹکسال",
+        "canceling": "ٹکسال منسوخ کرنا",
+        "failed": "ٹکسال میں ناکام",
+        "pending": "ٹکسال",
+        "success": "ٹکسال",
+        "successDapp": "{{externalDappName}}پر ٹکسال کیا گیا۔"
+      },
+      "purchase": {
+        "canceled": "خریداری منسوخ کر دی گئی۔",
+        "canceling": "خریداری منسوخ کر رہا ہے۔",
+        "failedOn": "{{serviceProvider}}پر خریداری میں ناکام",
+        "pendingOn": "{{serviceProvider}}پر خریداری",
+        "successOn": "{{serviceProvider}}پر خریدا گیا۔"
+      },
+      "receive": {
+        "canceled": "وصولی منسوخ کر دی گئی۔",
+        "canceling": "وصول کرنا منسوخ کرنا",
+        "failedFrom": "{{serviceProvider}}سے وصول کرنے میں ناکام",
+        "pendingFrom": "{{serviceProvider}}سے وصول کیا جا رہا ہے۔",
+        "success": "موصول ہوا۔",
+        "successDapp": "{{externalDappName}}پر موصول ہوا۔",
+        "successFrom": "{{serviceProvider}}سے موصول ہوا۔"
+      },
+      "revoke": {
+        "canceled": "منسوخ کر دیا گیا۔",
+        "canceling": "منسوخی منسوخ کر رہا ہے۔",
+        "failed": "منسوخ کرنے میں ناکام",
+        "pending": "منسوخ کرنا",
+        "success": "منسوخ کر دیا گیا۔",
+        "successDapp": "{{externalDappName}}کو منسوخ کر دیا گیا۔"
+      },
+      "sale": {
+        "canceled": "منسوخ شدہ فروخت",
+        "canceling": "فروخت منسوخ کرنا",
+        "failedOn": "{{serviceProvider}}کے ذریعے فروخت ناکام ہو گئی۔",
+        "pendingCard": {
+          "msg": "کرپٹو فروخت کرنے کے بارے میں مزید جانیں۔",
+          "title": "میری فروخت ابھی تک کیوں زیر التوا ہے؟"
+        },
+        "pendingOn": "{{serviceProvider}}کے ذریعے فروخت کرنا",
+        "successOn": "{{serviceProvider}}کے ذریعے فروخت کیا گیا۔"
+      },
+      "sell": {
+        "canceled": "منسوخ شدہ فروخت",
+        "canceling": "فروخت منسوخ کرنا",
+        "failed": "فروخت کرنے میں ناکام",
+        "pending": "فروخت کرنا",
+        "success": "فروخت",
+        "successDapp": "{{externalDappName}}پر فروخت ہوا۔"
+      },
+      "send": {
+        "canceled": "بھیجنا منسوخ کر دیا گیا۔",
+        "canceling": "بھیجنا منسوخ کر رہا ہے۔",
+        "failed": "بھیجنے میں ناکام",
+        "pending": "بھیج رہا ہے۔",
+        "success": "بھیجا",
+        "successDapp": "{{externalDappName}}پر بھیجا گیا۔"
+      },
+      "swap": {
+        "canceled": "منسوخ شدہ تبادلہ",
+        "canceling": "تبادلہ منسوخ کرنا",
+        "expired": "تبادلہ کی میعاد ختم ہوگئی",
+        "failed": "تبادلہ کرنے میں ناکام",
+        "insufficientFunds": "ناکافی فنڈز",
+        "pending": "تبادلہ کرنا",
+        "success": "ادل بدل",
+        "successDapp": "{{externalDappName}}پر تبدیل کیا گیا۔"
+      },
+      "unwrap": {
+        "canceled": "کھولنا منسوخ کر دیا گیا۔",
+        "canceling": "کھولنا منسوخ کرنا",
+        "failed": "کھولنے میں ناکام",
+        "pending": "کھولنا",
+        "success": "لپیٹے ہوئے ۔",
+        "successDapp": "{{externalDappName}}پر کھول دیا گیا۔"
+      },
+      "wrap": {
+        "canceled": "منسوخ شدہ لپیٹ",
+        "canceling": "لپیٹنا منسوخ کرنا",
+        "failed": "لپیٹنے میں ناکام",
+        "pending": "ریپنگ",
+        "success": "لپیٹے ہوئے",
+        "successDapp": "{{externalDappName}}پر لپٹا"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} سے {{recipientAddress}}",
+      "sent": "{{senderAddress}}سے {{tokenAmountWithSymbol}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": {
+            "noAction": "اس ٹرانزیکشن کی نیٹ ورک لاگت کو پورا کرنے کے لیے آپ کو {{networkName}} پر ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) کی ضرورت ہے۔"
+          },
+          "messageSwapWithoutTokenAmount": {
+            "noAction": "اس ٹوکن کو تبدیل کرنے کے لیے، آپ کو {{networkName}}پر مزید {{tokenSymbol}} کی ضرورت ہے۔"
+          },
+          "title": {
+            "withNetwork": "{{networkName}}پر {{tokenSymbol}} کافی نہیں ہے۔",
+            "withoutNetwork": "کافی نہیں {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "آپ اپنا زیادہ تر نیٹ ورک ٹوکن بیلنس خرچ کرنے والے ہیں۔ یہ مستقبل کے نیٹ ورک کے اخراجات کو پورا کرنے کے لیے ناکافی فنڈز چھوڑ سکتا ہے۔",
+        "title": "کم نیٹ ورک ٹوکن بیلنس"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "لین دین منسوخ کرنے سے قاصر",
+        "status": "ٹرانزیکشن اسٹیٹس چیک کرتے وقت خرابی"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> بہتر قیمتوں اور گیس سے پاک تبادلہ کے لیے لیکویڈیٹی ذرائع کو جمع کرتا ہے۔",
+    "learnMore": "UniswapX کے ساتھ تبادلہ کرنے کے بارے میں مزید جانیں۔"
+  },
+  "uniswapx": {
+    "description": "UniswapX بہتر قیمتوں اور گیس سے پاک تبادلہ کے لیے لیکویڈیٹی ذرائع کو جمع کرتا ہے۔",
+    "included": "شامل ہے <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "UniswapX v2 ہارڈ اقتباس ناکام ہو گیا۔ کلاسک سویپ کے ساتھ دوبارہ کوشش کریں۔"
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "ابھی اس کا دعوی کریں"
+      },
+      "subtitle": "ایک ذاتی ویب 3 پروفائل بنائیں اور آسانی سے اپنے ایڈریس کو دوستوں کے ساتھ شیئر کریں۔",
+      "title": {
+        "compact": "<highlight>اپنے {{unitagDomain}} صارف نام کا دعوی کریں</highlight> اور اپنی مرضی کے مطابق پروفائل بنائیں۔",
+        "full": "اپنے {{unitagDomain}} صارف نام کا دعوی کریں۔"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "کیمرہ رول میں سے انتخاب کریں۔",
+        "computer": "کمپیوٹر سے اپ لوڈ کریں۔",
+        "nft": "ایک NFT منتخب کریں۔",
+        "remove": "پروفائل تصویر ہٹا دیں۔"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "پروفائل کو حسب ضرورت بنائیں",
+        "description": "{{unitagAddress}} کرپٹو بھیجنے اور وصول کرنے کے لیے تیار ہے۔ اپنے web3 پروفائل کو حسب ضرورت بنا کر اپنا بٹوہ تیار کرنا جاری رکھیں۔",
+        "success": {
+          "long": "تم اسے سمجھ گئے!",
+          "short": "یہ مل گیا!"
+        }
+      },
+      "error": {
+        "addressLimit": "آپ پہلے ہی اس ایڈریس کے لیے اپنے صارف نام میں زیادہ سے زیادہ تبدیلیاں کر چکے ہیں۔",
+        "avatar": "اوتار سیٹ نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔",
+        "default": "صارف نام کا دعوی نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔",
+        "deviceLimit": "آپ نے صارف ناموں کی زیادہ سے زیادہ تعداد کو مارا ہے جو اس آلہ کے لیے فعال ہو سکتے ہیں۔",
+        "general": "صارف نام کا دعوی کرنے سے قاصر",
+        "unavailable": "یہ صارف کا نام دستیاب نہیں ہے",
+        "unknown": "نامعلوم خامی"
+      },
+      "username": {
+        "default": "تمھارا نام"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "آپ اپنا صارف نام اور حسب ضرورت پروفائل کی تفصیلات حذف کرنے والے ہیں۔ آپ اس پر دوبارہ دعوی نہیں کر سکیں گے۔",
+        "title": "کیا تمہیں یقین ہے؟"
+      }
+    },
+    "editProfile": {
+      "placeholder": "صارف نام"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "آپ اپنا صارف نام تبدیل کرنے والے ہیں۔ ایک بار جب آپ اسے تبدیل کرتے ہیں، تو آپ دوبارہ اس کا دعوی نہیں کر سکتے۔",
+        "title": "کیا تمہیں یقین ہے؟"
+      },
+      "title": "اپنے صارف نام میں ترمیم کریں۔",
+      "warning": {
+        "default": "ایک بار جب آپ اپنا صارف نام تبدیل کر لیتے ہیں، تو آپ دوبارہ اس کا دعوی نہیں کر سکتے۔ آپ اسے صرف <highlight>2</highlight> بار تبدیل کر سکتے ہیں۔",
+        "max": "آپ 2 صارف ناموں کی تبدیلیوں کی زیادہ سے زیادہ تعداد تک پہنچ گئے ہیں۔"
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "صارف نام کا دعوی کریں۔",
+        "description": "0x پتوں کو الوداع کہیں۔ صارف نام پڑھنے کے قابل نام ہیں جو کرپٹو بھیجنے اور وصول کرنا آسان بناتے ہیں۔",
+        "title": "صارف ناموں کا تعارف",
+        "upsell": {
+          "customizable": "حسب ضرورت پروفائلز",
+          "ens": "ENS ذیلی ڈومینز کے ذریعے تقویت یافتہ",
+          "free": "دعوی کرنے کے لئے آزاد"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "ENS ذیلی ڈومینز کے ذریعے تقویت یافتہ",
+        "free": "دعوی کرنے کے لئے آزاد",
+        "profile": "حسب ضرورت پروفائلز"
+      },
+      "subtitle": "0x پتوں کو الوداع کہیں۔ صارف نام پڑھنے کے قابل نام ہیں جو کرپٹو بھیجنے اور وصول کرنا آسان بناتے ہیں۔",
+      "title": "صارف ناموں کا تعارف"
+    },
+    "notification": {
+      "delete": {
+        "error": "صارف نام حذف نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔",
+        "title": "صارف نام حذف کر دیا گیا۔"
+      },
+      "profile": {
+        "error": "پروفائل کو اپ ڈیٹ نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔",
+        "title": "پروفائل اپ ڈیٹ ہو گیا۔"
+      },
+      "username": {
+        "error": "صارف نام تبدیل نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔",
+        "title": "صارف نام تبدیل کر دیا گیا۔"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "یہ آپ کا ذاتی پتہ ہے جس پر لوگ کرپٹو بھیج سکتے ہیں۔",
+        "title": {
+          "choose": "اپنا صارف نام بنائیں",
+          "claim": "اپنے صارف نام کا دعوی کریں۔"
+        }
+      },
+      "info": {
+        "description": "صارف نام پیچیدہ 0x پتوں کو پڑھنے کے قابل ناموں میں تبدیل کرتے ہیں۔ {{unitagDomain}} صارف نام کا دعوی کر کے، آپ آسانی سے کرپٹو بھیج اور وصول کر سکتے ہیں اور ایک عوامی ویب3 پروفائل بنا سکتے ہیں۔",
+        "title": "ایک آسان پتہ"
+      },
+      "profile": {
+        "subtitle": "اپنا اپ لوڈ کریں یا اپنے منفرد یونیکون کے ساتھ قائم رہیں۔ آپ اسے بعد میں ہمیشہ تبدیل کر سکتے ہیں۔",
+        "title": "پروفائل تصویر منتخب کریں۔"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "صارف نام حذف کریں۔",
+        "edit": "صارف نام میں ترمیم کریں۔"
+      },
+      "bio": {
+        "label": "بایو",
+        "placeholder": "اپنے پروفائل کے لیے بائیو ٹائپ کریں۔"
+      },
+      "links": {
+        "twitter": "ٹویٹر"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "صارف ناموں میں صرف حروف اور اعداد شامل ہو سکتے ہیں۔",
+        "max": "صارف نام {{number}} حروف سے زیادہ نہیں ہو سکتے",
+        "min": "صارف نام کم از کم {{number}} حروف کے ہونے چاہئیں",
+        "uppercase": "صارف ناموں میں صرف چھوٹے حروف اور اعداد شامل ہو سکتے ہیں۔"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "{{chain}}پر {{tokenSymbol}} کافی نہیں ہے۔"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 اس نیٹ ورک پر دستیاب نہیں ہے۔"
+  },
+  "wallet": {
+    "appSignIn": "ایپ کے ساتھ سائن ان کریں۔",
+    "connectingAgreement": "بٹوے کو جوڑ کر، آپ یونی سویپ لیبز کی <termsLink>سروس کی شرائط</termsLink> اور اس کی <privacyLink>رازداری کی پالیسی</privacyLink>سے اتفاق کرتے ہیں۔",
+    "connectionFailed": {
+      "message": "کنکشن کی کوشش ناکام ہوگئی۔ براہ کرم دوبارہ کوشش کریں پر کلک کریں اور اپنے بٹوے میں جڑنے کے لیے اقدامات پر عمل کریں۔"
+    },
+    "other": "دوسرے بٹوے",
+    "scanToConnect": "منسلک ہونے کے لیے QR کوڈ اسکین کریں۔",
+    "wrongNet": "آپ کا بٹوہ غلط نیٹ ورک سے جڑا ہوا ہے۔"
+  },
+  "walletConnect": {
+    "dapps": {
+      "empty": {
+        "description": "WalletConnect کے ذریعے کوڈ اسکین کرکے ایپ سے جڑیں۔"
+      },
+      "manage": {
+        "empty": {
+          "title": "کوئی ایپس منسلک نہیں ہیں۔"
+        },
+        "title": "کنکشنز"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Unswap Wallet فی الحال {{chainNames}}کو سپورٹ کرتا ہے۔ براہ کرم ان زنجیروں پر صرف \"{{dappName}}\" استعمال کریں۔",
+        "title": "رابطے میں خرابی"
+      },
+      "general": {
+        "message": "WalletConnect کے ساتھ ایک مسئلہ تھا۔ دوبارہ کوشش کریں",
+        "title": "WalletConnect کی خرابی۔"
+      },
+      "scantastic": {
+        "message": "آپ کے QR کوڈ میں ایک مسئلہ تھا۔ دوبارہ کوشش کریں",
+        "title": "غلط QR کوڈ"
+      },
+      "unsupported": {
+        "message": "دوبارہ کوشش کرنے سے پہلے یقینی بنائیں کہ آپ ایک درست WalletConnect، Ethereum پتہ، یا Uniswap Extension QR کوڈ اسکین کر رہے ہیں۔",
+        "title": "غلط QR کوڈ"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 مزید تعاون یافتہ نہیں ہے۔ آپ جس ایپلیکیشن سے منسلک ہونے کی کوشش کر رہے ہیں اسے WalletConnect v2 میں اپ گریڈ کرنے کی ضرورت ہے۔",
+        "title": "غلط QR کوڈ"
+      },
+      "uwu": {
+        "scan": "اس QR کوڈ کو اسکین کرنے میں ایک مسئلہ تھا۔",
+        "title": "UwU لنک کی خرابی۔",
+        "unsupported": "یہ QR کوڈ تعاون یافتہ نہیں ہے۔"
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "جڑیں۔",
+        "scrollDown": "جڑنے کے لیے نیچے سکرول کریں۔"
+      },
+      "switchAccount": "کھاتہ بدلیں",
+      "title": "{{dappName}}سے جڑیں۔"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "رضامندی کے بغیر اپنے اثاثے منتقل کریں۔",
+        "viewTokenBalances": "اپنے ٹوکن بیلنس دیکھیں",
+        "viewWalletAddress": "اپنے بٹوے کا پتہ دیکھیں"
+      },
+      "title": "سائٹ کی اجازتیں۔"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "سائن کرنے کے لیے نیچے سکرول کریں۔",
+        "sign": "دستخط"
+      },
+      "details": {
+        "label": {
+          "function": "فنکشن",
+          "sending": "بھیج رہا ہے۔",
+          "token": "ٹوکن",
+          "tokens": "ٹوکنز"
+        }
+      },
+      "error": {
+        "insufficientFunds": "اس لین دین کو مکمل کرنے کے لیے آپ کے پاس کافی {{currencySymbol}} نہیں ہے۔",
+        "network": "انٹرنیٹ یا نیٹ ورک کنکشن کی خرابی۔"
+      },
+      "warning": {
+        "general": {
+          "message": "محتاط رہیں: یہ پیغام اثاثوں کو منتقل کر سکتا ہے۔"
+        },
+        "message": "پیغامات یا لین دین پر دستخط کرنے کے لیے، آپ کو والیٹ کی بازیابی کا جملہ درآمد کرنا ہوگا۔",
+        "title": "یہ پرس صرف دیکھنے کے موڈ میں ہے۔"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "{{network}}پر ٹوکن دریافت اور تحقیق کریں۔ اوپر کے تالابوں کو دریافت کریں۔ ریئل ٹائم قیمتیں، تجارتی حجم، TVL، چارٹس، اور لین دین کا ڈیٹا دیکھیں۔",
+      "title": {
+        "pools": "Uniswap پر {{network}} پر ٹاپ پولز کو دریافت کریں۔",
+        "tokens": "Uniswap پر {{network}} پر ٹاپ ٹوکن دریافت کریں۔",
+        "transactions": "Uniswap پر {{network}} پر سرفہرست لین دین کو دریافت کریں۔"
+      }
+    }
+  }
+}

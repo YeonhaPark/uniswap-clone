@@ -1,0 +1,4508 @@
+{
+  "account": {
+    "authHeader": {
+      "claimReward": "Získejte odměnu {{amount}}"
+    },
+    "cloud": {
+      "backup": {
+        "subtitle": "Do vašeho {{cloudProviderName}}je zálohováno několik frází pro obnovení.",
+        "title": "Vyberte zálohu, kterou chcete obnovit"
+      },
+      "button": {
+        "restore": {
+          "android": "Obnovit z Disku Google",
+          "ios": "Obnovit z iCloud"
+        }
+      },
+      "empty": {
+        "description": "Zdá se, že jste nezazálohovali žádnou ze svých obnovovacích frází do {{cloudProviderName}}.",
+        "title": "Bylo nalezeno 0 záloh"
+      },
+      "error": {
+        "backup": {
+          "message": "Import záloh se nezdařil kvůli nedostatku oprávnění, přerušení autorizace nebo kvůli chybě cloudu",
+          "title": "Chyba při importu záloh"
+        },
+        "password": {
+          "title": "Neplatné heslo. Prosím zkuste to znovu."
+        },
+        "unavailable": {
+          "button": {
+            "cancel": "Teď ne",
+            "settings": "Jdi do nastavení"
+          },
+          "message": {
+            "android": "Ověřte prosím, že jste přihlášeni k účtu Google s povoleným Diskem Google na tomto zařízení, a zkuste to znovu.",
+            "ios": "Ověřte, zda jste na tomto zařízení přihlášeni k Apple ID s povoleným iCloud Drive, a zkuste to znovu."
+          },
+          "title": {
+            "android": "Disk Google není k dispozici",
+            "ios": "iCloud Drive není k dispozici"
+          }
+        }
+      },
+      "loading": {
+        "title": "Vyhledávání záloh..."
+      },
+      "lockout": {
+        "time": {
+          "hours_one": "Příliš mnoho pokusů. Zkuste to znovu za 1 hodinu.",
+          "hours_other": "Příliš mnoho pokusů. Zkuste to znovu za {{count}} hodin.",
+          "minutes_one": "Příliš mnoho pokusů. Zkuste to znovu za 1 minutu.",
+          "minutes_other": "Příliš mnoho pokusů. Zkuste to znovu za {{count}} minut."
+        }
+      },
+      "password": {
+        "input": "Zadejte heslo",
+        "recoveryPhrase": "Místo toho zadejte svou frázi pro obnovení",
+        "subtitle": "Toto heslo je vyžadováno k obnovení zálohy fráze pro obnovení z {{cloudProviderName}}.",
+        "title": "Zadejte záložní heslo"
+      }
+    },
+    "drawer": {
+      "gitVersion": "Verze: ",
+      "modal": {
+        "body": "Bezpečně ukládejte a vyměňujte tokeny pomocí aplikace Uniswap. K dispozici pro iOS a Android.",
+        "dont": "Nemáte Uniswap peněženku?",
+        "scan": "Skenujte pomocí Uniswap Wallet"
+      },
+      "spamToggle": "Skryjte neznámé tokeny a NFT"
+    },
+    "porfolio": {
+      "activity": {
+        "cancelledBelow": "Tato objednávka byla zrušena, protože váš zůstatek klesl pod vstupní částku."
+      }
+    },
+    "portfolio": {
+      "activity": {
+        "signLimit": "Tato objednávka nebude vyřízena, protože váš zůstatek klesl pod vstupní částku. Chcete-li opravit, zvyšte svůj zůstatek."
+      }
+    },
+    "recoveryPhrase": {
+      "education": {
+        "part1": "Fráze pro obnovení (nebo počáteční fráze) je <highlight>sada slov</highlight> požadovaných pro přístup k vaší peněžence, <highlight>jako heslo.</highlight>",
+        "part2": "Můžete <highlight>zadat</highlight> svou frázi pro obnovení na novém zařízení <highlight>a obnovit tak svou peněženku</highlight> a její obsah.",
+        "part3": "Pokud ale <highlight>ztratíte frázi pro obnovení</highlight>, ztratíte <highlight>přístup</highlight> ke své peněžence.",
+        "part4": "Místo toho, abyste si zapamatovali frázi pro obnovení, můžete ji <highlight>zálohovat na {{cloudProviderName}}</highlight> a chránit ji heslem.",
+        "part5": "Svou frázi pro obnovení můžete také ručně zálohovat tak, že si ji <highlight>zapíšete</highlight> a uložíte ji na bezpečné místo.",
+        "part6": "Doporučujeme používat <highlight>oba typy záloh</highlight>, protože pokud ztratíte frázi pro obnovení, nebudete moci obnovit svou peněženku."
+      },
+      "error": {
+        "invalid": "Neplatná fráze",
+        "invalidWord": "Neplatné slovo: {{word}}",
+        "phraseLength": "Fráze pro obnovení musí mít 12–24 slov",
+        "wrong": "Špatná fráze pro obnovení"
+      },
+      "helpText": {
+        "import": "Jak najdu svou frázi pro obnovení?",
+        "restoring": "Zkuste hledat znovu"
+      },
+      "input": "Zadejte frázi pro obnovení",
+      "remove": {
+        "final": {
+          "description": "Ujistěte se, že jste si svou frázi pro obnovení zapsali nebo ji zálohovali na {{cloudProviderName}}. <highlight>Jinak se ke svým prostředkům nedostanete.</highlight>",
+          "title": "Odstraňujete frázi pro obnovení <highlight></highlight>"
+        },
+        "import": {
+          "description": "Najednou můžete uložit pouze jednu frázi pro obnovení. Chcete-li pokračovat v importu nového, budete muset z tohoto zařízení odstranit aktuální frázi pro obnovení a všechny související peněženky."
+        },
+        "initial": {
+          "description": "Tím z tohoto zařízení odstraníte svou peněženku spolu s vaší frází pro obnovení.",
+          "title": "Odebíráte <highlight>{{walletName}}</highlight>"
+        },
+        "mnemonic": {
+          "description": "Sdílí stejnou frázi obnovení jako {{walletNames, list}}. Vaše fráze pro obnovení zůstane uložena, dokud nesmažete všechny zbývající peněženky."
+        }
+      },
+      "subtitle": {
+        "import": "Vaše fráze pro obnovení bude uložena pouze lokálně ve vašem zařízení.",
+        "restoring": "Níže zadejte frázi pro obnovení nebo zkuste znovu vyhledat zálohy."
+      },
+      "title": {
+        "import": "Zadejte frázi pro obnovení",
+        "restoring": "Nebyly nalezeny žádné zálohy"
+      }
+    },
+    "transactionSummary": {
+      "addLiquidity": "Přidejte {{baseSymbol}}/{{quoteSymbol}} V3 likviditu",
+      "addLiquidityv2": "Přidejte <baseAmountAndToken /> a <quoteAmountAndToken /> do Uniswap V2",
+      "approve": "Schválit {{tokenSymbol}}",
+      "claimFor": "Nárokujte <currency /> za {{username}}",
+      "claimReward": "Získejte odměnu UNI za {{username}}",
+      "collectFees": "Sbírejte poplatky {{symbol0}}/{{symbol1}}",
+      "createAddLiquidity": "Vytvořte skupinu a přidejte {{baseSymbol}}/{{quoteSymbol}} V3 likviditu",
+      "createPool": "Vytvořte {{baseSymbol}}/{{quoteSymbol}} V3 fond",
+      "decision": {
+        "abstain": "Hlasujte pro zdržení se hlasování o návrhu {{proposalKey}} s důvodem &quot;{{reason}}&quot;",
+        "against": "Hlasujte proti návrhu {{proposalKey}} s důvodem &quot;{{reason}}&quot;",
+        "for": "Hlasujte pro návrh {{proposalKey}} s důvodem &quot;{{reason: info.reason}}&quot;"
+      },
+      "delegateSummary": "Delegujte hlasovací právo na {{username}}",
+      "depositLiquidity": "Likvidita vkladů",
+      "executeProposal": "Provést návrh {{proposalKey}}.",
+      "migrateLiquidity": "Migrujte {{baseSymbol}}/{{quoteSymbol}} likviditu do V3",
+      "queueProposal": "Návrh fronty {{proposalKey}}.",
+      "removeLiquiditySummary": "Odeberte <base /> a <quote />",
+      "revoke": "Zrušit {{tokenSymbol}}",
+      "sendSummary": "Odesláno <amount /> uživateli {{recipient}}",
+      "submitProposal": "Odeslat nový návrh",
+      "swapExactIn": "Vyměňte přesně <amount1 /> za <amount2 />",
+      "swapExactOut": "Vyměňte <amount1 /> za přesně <amount2 />",
+      "unwrapTo": "Rozbalte <amount /> na {{symbol}}",
+      "vote": {
+        "abstain": "Hlasujte pro zdržení se hlasování o návrhu {{proposalKey}}",
+        "against": "Hlasujte proti návrhu {{proposalKey}}",
+        "for": "Hlasujte pro návrh {{proposalKey}}"
+      },
+      "withdrawLiquidity": "Vybrat uloženou likviditu",
+      "wrapTo": "Zabalte <amount /> do {{symbol}}"
+    },
+    "wallet": {
+      "action": {
+        "copy": "Zkopírujte adresu peněženky",
+        "report": "Nahlásit profil",
+        "settings": "Nastavení peněženky",
+        "viewExplorer": "Zobrazit na {{blockExplorerName}}"
+      },
+      "button": {
+        "add": "Přidat peněženku",
+        "addViewOnly": "Přidejte peněženku pouze pro zobrazení",
+        "create": "Vytvořte novou peněženku",
+        "import": "Importujte novou peněženku",
+        "manage": "Spravovat peněženku",
+        "remove": "Odstraňte peněženku",
+        "restore": "Obnovit peněženku",
+        "watch": "Sledujte peněženku"
+      },
+      "create": {
+        "placeholder": "Peněženka {{index}}"
+      },
+      "edit": {
+        "label": {
+          "input": {
+            "placeholder": "Štítek peněženky"
+          }
+        }
+      },
+      "header": {
+        "button": {
+          "disabled": {
+            "title": "Upravit profil"
+          },
+          "title": "Upravit štítek"
+        },
+        "other": "Vaše další peněženky",
+        "viewOnly": "Peněženky pouze pro prohlížení"
+      },
+      "menu": {
+        "copy": {
+          "title": "Zkopírujte adresu peněženky"
+        },
+        "edit": {
+          "title": "Upravit štítek"
+        },
+        "remove": {
+          "title": "Odstraňte peněženku"
+        }
+      },
+      "remove": {
+        "check": "Zálohoval jsem svou frázi pro obnovení a chápu, že Uniswap Labs mi nemůže pomoci obnovit mé peněženky, pokud tak neučiním.",
+        "title": "Odebrat {{name}}",
+        "viewOnly": "Peněženky s možností zpětného zobrazení můžete vždy přidat zadáním adresy peněženky."
+      },
+      "restore": {
+        "description": "Protože používáte nové zařízení, budete muset obnovit svou frázi pro obnovení. To vám umožní vyměňovat a odesílat tokeny."
+      },
+      "select": {
+        "error": "Adresy se nepodařilo načíst",
+        "loading": {
+          "subtitle": "Vaše peněženky se zobrazí níže.",
+          "title": "Hledání peněženek"
+        },
+        "title_one_one": "Jedna peněženka nalezena",
+        "title_one_other": "Vyberte peněženky k importu"
+      },
+      "viewOnly": {
+        "button": "Import peněženky",
+        "description": "Chcete-li vyměnit, koupit, odeslat a přijmout tokeny, musíte importovat frázi pro obnovení této peněženky.",
+        "title": "Tato peněženka je pouze pro prohlížení"
+      },
+      "watch": {
+        "error": {
+          "alreadyImported": "Tato adresa je již importována",
+          "notFound": "Adresa nenalezena",
+          "smartContract": "Adresa je chytrá smlouva"
+        },
+        "message": "Přidání peněženky pouze pro zobrazení vám umožní vyzkoušet aplikaci nebo sledovat peněženku. Nebudete moci swapovat nebo posílat prostředky.",
+        "placeholder": "ENS nebo adresa",
+        "title": "Zadejte adresu peněženky"
+      }
+    }
+  },
+  "activity": {
+    "pending": "{{pendingActivityCount}} Čeká na vyřízení",
+    "transaction": {
+      "receive": {
+        "descriptor": "{{amountWithSymbol}} z {{walletAddress}}"
+      },
+      "send": {
+        "descriptor": "{{amountWithSymbol}} až {{walletAddress}}"
+      },
+      "swap": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> pro <amountWithSymbolB />"
+        }
+      },
+      "tokens": {
+        "descriptor": {
+          "formatted": "<amountWithSymbolA /> a <amountWithSymbolB />"
+        }
+      }
+    }
+  },
+  "addLiquidity": {
+    "shareOfPool": "Podíl bazénu"
+  },
+  "addressInput": {
+    "recipient": "Příjemce"
+  },
+  "analytics": {
+    "allow": {
+      "message": "Anonymizovaná data používáme k vylepšení vaší zkušenosti s produkty Uniswap Labs."
+    }
+  },
+  "appRating": {
+    "button": {
+      "notReally": "Spíš ne"
+    },
+    "description": "Dejte nám vědět, zda máte s touto aplikací dobré zkušenosti",
+    "extension": {
+      "review": {
+        "description": "Vyberte hodnocení hvězdičkami a zanechte recenzi v Internetovém obchodě Chrome.",
+        "title": "Zkontrolovat rozšíření Uniswap?"
+      },
+      "title": "Líbí se vám rozšíření Uniswap?"
+    },
+    "feedback": {
+      "button": {
+        "send": "Poslat zpětnou vazbu"
+      },
+      "description": "Dejte nám vědět, jak můžeme zlepšit vaši zkušenost",
+      "title": "To nás mrzí."
+    },
+    "mobile": {
+      "title": "Líbí se vám Uniswap Wallet?"
+    }
+  },
+  "bridging": {
+    "estimatedTime": {
+      "minutesAndSeconds": "~{{minutes}}min {{seconds}}s",
+      "minutesOnly": "~{{minutes}}min",
+      "secondsOnly": "~{{seconds}}s"
+    }
+  },
+  "burn": {
+    "input": {
+      "enterAPercent": {
+        "error": "Zadejte procento"
+      }
+    }
+  },
+  "chart": {
+    "candlestick": "Svícen",
+    "error": {
+      "pools": "Nelze zobrazit historická data pro aktuální fond.",
+      "tokens": "Nelze zobrazit historická data pro aktuální token."
+    },
+    "line": "Spojnicový graf",
+    "missingData": "Chybí data grafu",
+    "price": {
+      "label": {
+        "close": "Zavřít",
+        "high": "Vysoký",
+        "low": "Nízký",
+        "open": "OTEVŘENO"
+      }
+    },
+    "settings": {
+      "unavailable": {
+        "label": "Toto nastavení není pro aktuální graf k dispozici"
+      }
+    }
+  },
+  "claim": {
+    "thanks": "Děkujeme, že jste součástí komunity Uniswap <heart />",
+    "uni": {
+      "arrived": "UNI dorazila"
+    }
+  },
+  "common": {
+    "accept": "Akceptovat",
+    "activity": "Aktivita",
+    "add": {
+      "label": "Přidat",
+      "liquidity": {
+        "cancelled": "Přidání likvidity zrušeno",
+        "failed": "Přidání likvidity se nezdařilo"
+      },
+      "v2": {
+        "liquidity": {
+          "cancelled": "Přidání likvidity V2 zrušeno",
+          "failed": "Přidání likvidity V2 se nezdařilo"
+        }
+      }
+    },
+    "added": {
+      "liquidity": "Přidaná likvidita",
+      "v2": {
+        "liquidity": "Přidána likvidita V2"
+      }
+    },
+    "addedLiquidity": "Přidána likvidita",
+    "adding": {
+      "liquidity": "Přidání likvidity",
+      "v2": {
+        "liquidity": "Přidání likvidity V2"
+      }
+    },
+    "addLiquidity": "Přidejte likviditu",
+    "addressOrENS": "Adresa peněženky nebo název ENS",
+    "advanced": "Moderní",
+    "all": "Vše",
+    "allTime": "Pořád",
+    "amount": {
+      "label": "Množství"
+    },
+    "amountDeposited": {
+      "label": "{{amount}} Vloženo"
+    },
+    "and": "a",
+    "app": "Aplikace",
+    "approval": {
+      "cancelled": "Schválení zrušeno",
+      "failed": "Schválení se nezdařilo"
+    },
+    "approve": "Schvalovat",
+    "approved": "Schválený",
+    "approvePending": "Čeká se na schválení...",
+    "approveSpend": "Schválit {{symbol}} výdaje",
+    "approving": "Schvalování",
+    "areYouSure": "Jsi si jistá?",
+    "automatic": "Auto",
+    "availableIn": "Uniswap dostupný v: <locale />",
+    "availableOnIOSAndroid": "K dispozici pro iOS a Android",
+    "availableOnIOSAndroidChrome": "K dispozici pro iOS, Android a Chrome",
+    "backToPositions": "Zpět na pozice",
+    "blocked": {
+      "ifError": "Pokud se domníváte, že se jedná o chybu, zašlete prosím e-mail s vaší adresou na adresu <emailAddress />",
+      "reason": "Tato adresa je v rozhraní Uniswap Labs blokována, protože je spojena s jednou nebo více <link>blokovanými aktivitami</link>."
+    },
+    "blockedAddress": "Blokovaná adresa",
+    "blog": "Blog",
+    "borrow": {
+      "cancelled": "Půjčka zrušena",
+      "failed": "Půjčka se nezdařila"
+    },
+    "borrowed": "Půjčeno",
+    "borrowing": "Půjčování",
+    "bought": "Koupeno",
+    "brandAssets": "Podklady značky",
+    "burn": {
+      "cancelled": "Vypalování zrušeno",
+      "failed": "Vypálení se nezdařilo"
+    },
+    "burned": "Spálený",
+    "burning": "Hořící",
+    "button": {
+      "accept": "Akceptovat",
+      "back": "Zadní",
+      "buy": "Koupit",
+      "cancel": "zrušení",
+      "checkin": "Přihlaste se",
+      "close": "Zavřít",
+      "confirm": "Potvrdit",
+      "connect": "Připojit",
+      "continue": "Pokračovat",
+      "copied": "Zkopírováno",
+      "copy": "kopírovat",
+      "create": "Vytvořit",
+      "delete": "Vymazat",
+      "disconnect": "Odpojit",
+      "dismiss": "Zavrhnout",
+      "done": "Hotovo",
+      "edit": "Upravit",
+      "enable": "Umožnit",
+      "finish": "Dokončit",
+      "goBack": "Vraťte se",
+      "later": "Možná později",
+      "learn": "Zjistěte více",
+      "next": "další",
+      "notNow": "Teď ne",
+      "ok": "OK",
+      "paste": "Vložit",
+      "pay": "Platit",
+      "receive": "Dostávat",
+      "remove": "Odstranit",
+      "reset": "Resetovat",
+      "restore": "Obnovit",
+      "retry": "Zkuste to znovu",
+      "reveal": "Odhalit",
+      "review": "Posouzení",
+      "save": "Uložit",
+      "scrollDown": "Posunout dolů",
+      "sell": "Prodat",
+      "send": "Poslat",
+      "setup": "Založit",
+      "share": "Podíl",
+      "showLess": "Ukaž méně",
+      "showMore": "Zobrazit více",
+      "sign": "Podepsat",
+      "skip": "Přeskočit",
+      "swap": "Vyměňte",
+      "tryAgain": "Zkus to znovu",
+      "understand": "Chápu",
+      "view": "Pohled",
+      "viewDetails": "Zobrazit podrobnosti",
+      "yes": "Ano"
+    },
+    "buy": {
+      "cancelled": "Nákup zrušen",
+      "failed": "Nákup se nezdařil",
+      "label": "Koupit"
+    },
+    "buyAndSell": "Nakupujte a prodávejte na Uniswapu",
+    "buying": "Nákup",
+    "by": "Podle",
+    "cancel": {
+      "failed": "Zrušení se nezdařilo"
+    },
+    "cancellation": {
+      "cancelled": "Zrušení zrušeno"
+    },
+    "cancellationSubmitted": "Storno odesláno",
+    "cancellationSuccessful": "Zrušení bylo úspěšné",
+    "cancelled": "Zrušeno",
+    "cancelling": "Probíhá zrušení",
+    "cancelOrder": "Zrušit objednávku",
+    "card": {
+      "error": {
+        "description": "Něco se pokazilo",
+        "title": "Jejda! Něco se pokazilo."
+      }
+    },
+    "careers": "Kariéra",
+    "chartType": "Typ grafu",
+    "checkNetwork": "Zde zkontrolujte stav sítě <link>.</link>",
+    "chromeExtension": "Rozšíření",
+    "claim": {
+      "cancelled": "Reklamace zrušena",
+      "failed": "Reklamace se nezdařila"
+    },
+    "claimed": "Nárokováno",
+    "claiming": "Nárokování",
+    "claimUnis": "Získejte své UNI tokeny",
+    "clear": "Jasný",
+    "close": "Zavřít",
+    "closed": "ZAVŘENO",
+    "collect": {
+      "button": "Sbírat",
+      "fees": {
+        "cancelled": "Výběr poplatků zrušen",
+        "failed": "Výběr poplatků se nezdařil"
+      }
+    },
+    "collected": {
+      "fees": "Vybrané poplatky"
+    },
+    "collecting": {
+      "fees": "Vybírání poplatků"
+    },
+    "company": "Společnost",
+    "confirm": "Potvrdit",
+    "confirmCancellation": "Potvrďte zrušení",
+    "confirmSend": {
+      "button": "Potvrďte odeslání"
+    },
+    "confirmSwap": "Potvrďte swap v peněžence",
+    "confirmTimedOut": "Vypršel časový limit potvrzení. Zkuste to znovu.",
+    "confirmTransaction": {
+      "button": "Potvrďte tuto transakci ve své peněžence"
+    },
+    "confirmWallet": "Potvrďte v peněžence",
+    "connect": {
+      "button": "Připojit"
+    },
+    "connectAWallet": {
+      "button": "Připojte peněženku"
+    },
+    "connectingWallet": "Připojování peněženky...",
+    "connectWallet": {
+      "button": "Připojte peněženku"
+    },
+    "contactUs": {
+      "button": "Kontaktujte nás"
+    },
+    "contractInteraction": "Interakce se smlouvou",
+    "copied": "Zkopírováno",
+    "copy": {
+      "address": "Zkopírujte adresu"
+    },
+    "copyLink": {
+      "button": "Kopírovat odkaz"
+    },
+    "create": {
+      "pool": {
+        "cancelled": "Vytvoření fondu bylo zrušeno",
+        "failed": "Vytvoření fondu se nezdařilo"
+      }
+    },
+    "created": {
+      "pool": "Vytvořený bazén"
+    },
+    "creating": {
+      "pool": "Vytváření bazénu"
+    },
+    "currency": "Měna",
+    "currentPrice": {
+      "label": "Aktuální cena:",
+      "unavailable": "Aktuální cena není k dispozici"
+    },
+    "custom": "Zvyk",
+    "customRange": "Vlastní rozsah",
+    "dataOutdated": "Data mohou být zastaralá",
+    "default": "Výchozí",
+    "defaultTradeOptions": "Výchozí obchodní možnosti",
+    "delegate": {
+      "cancelled": "Delegace zrušena",
+      "failed": "Delegát selhal"
+    },
+    "delegated": "Delegovaný",
+    "delegating": "Delegování",
+    "deploy": {
+      "cancelled": "Nasazení zrušeno",
+      "failed": "Nasazení se nezdařilo"
+    },
+    "deployed": "Nasazeno",
+    "deploying": "Nasazení",
+    "deposit": {
+      "cancelled": "Vklad zrušen",
+      "failed": "Vklad se nezdařil",
+      "toNetwork": "Vložte tokeny do sítě {{label}} ."
+    },
+    "deposited": "Uloženo",
+    "depositing": "Ukládání",
+    "depositTokens": "Vkladové tokeny",
+    "detailed": {
+      "label": "Detailní"
+    },
+    "detected": "Zjištěno",
+    "developers": "Vývojáři",
+    "dismiss": "Zavrhnout",
+    "displaySettings": "Nastavení obrazovky",
+    "dnsRegistrar": "Registrátor DNS",
+    "donate": "Darovat",
+    "dontShowAgain": "Už to nezobrazovat",
+    "download": "Stažení",
+    "downloadAppStore": "Stáhněte si v App Store",
+    "downloadPlayStore": "Stáhnout v Obchodě Play",
+    "downloadUniswap": "Stáhněte si Uniswap",
+    "downloadUniswapApp": "Stáhněte si aplikaci Uniswap",
+    "dynamic": "Dynamický",
+    "edit": {
+      "button": "Upravit"
+    },
+    "error": {
+      "general": "Něco se pokazilo",
+      "label": "Chyba",
+      "request": "Omlouváme se, při zpracování vašeho požadavku došlo k chybě. Pokud požadujete podporu, nezapomeňte zkopírovat podrobnosti o této chybě.",
+      "somethingWrong": "Něco se pokazilo!",
+      "wrong": {
+        "tryAgain": "Něco se pokazilo. Prosím zkuste to znovu."
+      }
+    },
+    "errorConnecting": {
+      "error": "Chyba při připojování"
+    },
+    "errorLoadingData": {
+      "error": "Chyba při načítání dat"
+    },
+    "ethereumNameService": "Ethereum Name Service",
+    "etherscan": {
+      "link": "Zobrazit na Etherscan"
+    },
+    "ethRegistrarController": "Registrátor ETH",
+    "execute": {
+      "cancelled": "Provedení zrušeno",
+      "failed": "Provedení se nezdařilo"
+    },
+    "executed": "Popraven",
+    "executing": "Provádění",
+    "expired": "Platnost vypršela",
+    "expiry": "Uplynutí",
+    "explore": "Prozkoumat",
+    "explorer": "Badatel",
+    "exploreTokens": "Prozkoumejte tokeny",
+    "extension": "Uniswap rozšíření",
+    "failed": {
+      "error": "Nepodařilo se"
+    },
+    "failedSwitchNetwork": "Přepnutí sítí se nezdařilo",
+    "fee": "Poplatek",
+    "fees": "Poplatky",
+    "feesEarned": {
+      "label": "{{symbol}} Získané poplatky:"
+    },
+    "feesEarnedPerBase": "{{symbolA}} za {{symbolB}}",
+    "fetchingRoute": "Načítání trasy",
+    "floor": "Podlaha",
+    "floorPrice": "Podlahová cena",
+    "for": "Pro",
+    "fullRange": "Plný rozsah",
+    "getApp": "Získejte aplikaci",
+    "getHelp": {
+      "button": "Získejte pomoc"
+    },
+    "getStarted": "Začněte",
+    "getSupport": {
+      "button": "Dostat podporu"
+    },
+    "getTheApp": "Získat aplikaci",
+    "getUniswapWallet": "Získejte Uniswap Wallet",
+    "governance": "Vládnutí",
+    "happyHolidays": "Veselé svátky od týmu Uniswap!",
+    "helpCenter": "Centrum nápovědy",
+    "hidden": "Skrytý",
+    "hide": {
+      "button": "Skrýt"
+    },
+    "highPrice": "Vysoká cena",
+    "includes": "Zahrnuje",
+    "info": {
+      "label": "Info"
+    },
+    "input": {
+      "noRecipient": {
+        "error": "Vyberte příjemce"
+      },
+      "password": {
+        "confirm": "Potvrďte heslo",
+        "error": {
+          "mismatch": "Hesla se neshodují",
+          "weak": "Toto heslo je příliš slabé"
+        },
+        "new": "Nové heslo",
+        "placeholder": "Heslo",
+        "strength": {
+          "medium": "Střední",
+          "strong": "Silný",
+          "weak": "Slabý"
+        }
+      },
+      "search": "Vyhledávání"
+    },
+    "insufficient": {
+      "funds": "Nedostatečné finanční prostředky"
+    },
+    "insufficientBalance": {
+      "error": "Nedostatečná rovnováha"
+    },
+    "insufficientFundsForNetworkFee": {
+      "error": "Nedostatek finančních prostředků na pokrytí síťových nákladů"
+    },
+    "insufficientLiquidity": "Nedostatečná likvidita",
+    "insufficientTokenBalance": {
+      "error": {
+        "simple": "Nedostatečné {{tokenSymbol}}"
+      }
+    },
+    "invalidPair": "Neplatný pár",
+    "invalidRecipient": {
+      "error": "Neplatný příjemce"
+    },
+    "iOSAndroid": "iOS a Android",
+    "language": "Jazyk",
+    "lastPrice": "Poslední cena",
+    "learnMoreSwap": "Zjistěte více o swapech",
+    "legalAndPrivacy": "Právní otázky a soukromí",
+    "less": "Méně",
+    "limit": {
+      "cancel_one": "Zrušit limit",
+      "cancel_other": "Zrušte limity {{count}}",
+      "cancelled": "Limit zrušen",
+      "executed": "Limit byl proveden",
+      "expired": "Limit vypršel",
+      "failed": "Limit se nezdařil",
+      "opened": "Limit otevřen",
+      "pending": "Limit čeká na vyřízení"
+    },
+    "limits": {
+      "approachMax": "Blíží se maximální limit 100",
+      "cancelProceed": "Chcete-li pokračovat, zrušte limity",
+      "expires": "Platnost vyprší {{timestamp}}",
+      "open": "Otevřené limity",
+      "when": "když {{price}} {{outSymbol}}/{{inSymbol}}"
+    },
+    "links": "Odkazy",
+    "liquidity": {
+      "removed": "Likvidita odstraněna"
+    },
+    "loading": "načítání",
+    "loadingAllowance": "Přídavek na zatížení",
+    "loadMore": "Načíst více",
+    "longText": {
+      "button": {
+        "less": "Méně čtěte",
+        "more": "Přečtěte si více"
+      }
+    },
+    "lowPrice": "Nízká cena",
+    "manage": "Spravovat",
+    "market": {
+      "label": "Trh"
+    },
+    "max": "Max",
+    "migrate": {
+      "liquidity": {
+        "cancelled": "Migrace likvidity zrušena",
+        "failed": "Migrace likvidity selhala"
+      },
+      "position": "Migrovat pozici",
+      "v3": "Migrujte na V3"
+    },
+    "migrated": {
+      "liquidity": "Migrovaná likvidita"
+    },
+    "migrating": {
+      "liquidity": "Migrace likvidity"
+    },
+    "min": "Min",
+    "mint": {
+      "cancelled": "Mincovna zrušena",
+      "failed": "Mincovna selhala"
+    },
+    "minted": "Ražené",
+    "minting": "Ražba",
+    "mobile": "Mobilní",
+    "more": "Více",
+    "multiDevice": "Více zařízení",
+    "navigation": {
+      "settings": "Nastavení",
+      "systemSettings": "Nastavení"
+    },
+    "navigationButton": "Navigační tlačítko",
+    "needHelp": "Potřebovat pomoc?",
+    "networkCost": "Náklady na síť",
+    "neverMind": "Nevadí",
+    "new": {
+      "exclamation": "Nový!"
+    },
+    "nfts": "NFT",
+    "noActivity": "Zatím žádná aktivita",
+    "noAmount": {
+      "error": "Zadejte částku"
+    },
+    "noData": "Žádná data",
+    "noResults": "Nebyly nalezeny žádné výsledky.",
+    "notAvailableInRegion": {
+      "error": "Není k dispozici ve vaší oblasti"
+    },
+    "notCreated": {
+      "label": "Nevytvořeno"
+    },
+    "notSupported": "Není podporováno",
+    "oneDay": "1 den",
+    "oneHour": "1 hodina",
+    "oneMonth": "1 měsíc",
+    "oneWeek": "1 týden",
+    "oneYear": "1 rok",
+    "orderCancelled": "Objednávka zrušena",
+    "orderExecuted": "Objednávka provedena",
+    "orderExpired": "Platnost objednávky vypršela",
+    "orderPending": "Objednávka čeká na vyřízení",
+    "outOfRange": "Mimo dosah",
+    "pageNotFound": "Stránka nenalezena!",
+    "passkey": "Přístupový klíč",
+    "pastDay": "Minulý den",
+    "pastFiveMinutes": "Posledních pět minut",
+    "pastHour": "Poslední hodina",
+    "pastMonth": "Minulý měsíc",
+    "pastWeek": "Minulý týden",
+    "pastYear": "Minulý rok",
+    "pay": {
+      "button": "Platit"
+    },
+    "pending": {
+      "cancellation": "Čeká na zrušení"
+    },
+    "pendingEllipsis": "Čekající...",
+    "permit2": "Povolení2",
+    "pool": "Bazén",
+    "pools": "Bazény",
+    "positionUnavailable": "Pozice není k dispozici",
+    "poweredBy": "Provozováno na <name />",
+    "preview": "Náhled",
+    "price": "Cena",
+    "priceImpact": "Upozornění na cenový dopad",
+    "priceUpdated": "Cena aktualizována",
+    "privacyChoices": {
+      "checkbox": {
+        "description": "Po zaškrtnutí nebudeme vaše údaje sdílet s partnery třetích stran pro personalizovanou reklamu. Sdílení můžete kdykoli povolit zrušením zaškrtnutí tohoto políčka.",
+        "label": "Nesdílejte mé informace"
+      },
+      "description": "Můžeme sdílet identifikátory zařízení s našimi reklamními partnery za účelem propagace našich služeb na jiných webech a platformách. Pokud se to podle platných zákonů kvalifikuje jako prodej, sdílení nebo cílená reklama, můžete se odhlásit zaškrtnutím políčka „nesdílet moje údaje“. Další informace o našich postupech ochrany osobních údajů naleznete v našich <privacyLink>Zásadách ochrany osobních údajů</privacyLink>.",
+      "disclaimer": "Upozorňujeme, že váš výběr bude platit pouze pro tento prohlížeč v tomto zařízení. Můžete se také odhlásit povolením nastavení Global Privacy Control v prohlížeči, který používáte pro přístup k našim službám. Chcete-li zobrazit další možnosti, přejděte do nastavení."
+    },
+    "privacyPolicy": "Zásady ochrany osobních údajů",
+    "proceed": "Pokračovat",
+    "proceedInWallet": {
+      "short": "Pokračujte v peněžence"
+    },
+    "protocol": "Protokol",
+    "publicResolver": "Veřejný řešitel",
+    "purchased": "Zakoupeno",
+    "queue": {
+      "cancelled": "Fronta zrušena",
+      "failed": "Fronta se nezdařila"
+    },
+    "queued": "Ve frontě",
+    "queuing": "Zařazení do fronty",
+    "rate": "Hodnotit",
+    "readMore": "Přečtěte si více",
+    "receive": {
+      "cancelled": "Příjem zrušen",
+      "failed": "Příjem se nezdařil"
+    },
+    "received": "Přijato",
+    "receiving": "Příjem",
+    "recent": "Nedávné",
+    "rejected": "Odmítnuto",
+    "reload": {
+      "label": "Znovu načtěte aplikaci"
+    },
+    "remove": {
+      "label": "Odstranit",
+      "liquidity": {
+        "cancelled": "Odstraňte likviditu zrušena",
+        "failed": "Odebrání likvidity se nezdařilo"
+      }
+    },
+    "removeAmount": "Odebrat množství",
+    "removedLiquidity": "Odstraněná likvidita",
+    "removeItem": "Odebrat položku",
+    "removing": {
+      "liquidity": "Odstranění likvidity"
+    },
+    "repaid": "Splaceno",
+    "repay": {
+      "cancelled": "Splácení zrušeno",
+      "failed": "Splácení se nezdařilo"
+    },
+    "repaying": "Splácení",
+    "resetLimit": "Resetovat limit {{symbol}}",
+    "resetLimitWallet": "Resetujte limit {{symbol}} v peněžence",
+    "resettingLimit": "Resetování limitu {{symbol}} ...",
+    "resolveIssues_one": "Vyřešte problém",
+    "resolveIssues_other": "Vyřešte {{count}} problémů",
+    "restricted": {
+      "region": "Omezený region"
+    },
+    "return": {
+      "label": "Vrátit se"
+    },
+    "returnToTop": "Návrat nahoru",
+    "reverseRegistrar": "Zpětný registrátor",
+    "revoke": {
+      "approval": {
+        "failed": "Zrušení schválení se nezdařilo"
+      }
+    },
+    "revoked": {
+      "approval": "Odvoláno schválení"
+    },
+    "revokedApproval": "Zrušené schválení",
+    "revoking": {
+      "approval": "Odvolání schválení"
+    },
+    "samePrice": "Stejná cena",
+    "scanQRDownload": "Ke stažení naskenujte QR kód pomocí telefonu",
+    "selectRegion": {
+      "label": "Vyberte svůj region"
+    },
+    "selectToken": {
+      "label": "Vyberte token"
+    },
+    "selfCustodial": "Samovazba",
+    "sell": {
+      "label": "Prodat"
+    },
+    "send": {
+      "button": "Poslat",
+      "cancelled": "Odeslání zrušeno",
+      "failed": "Odeslání se nezdařilo"
+    },
+    "sending": "Odesílání",
+    "sent": "Odesláno",
+    "settings": "Nastavení",
+    "share": {
+      "shareToTwitter": "Sdílejte na Twitteru",
+      "twitter": "Sdílejte na Twitteru"
+    },
+    "show": {
+      "button": "Ukázat"
+    },
+    "showLess": {
+      "button": "Ukaž méně"
+    },
+    "showMore": {
+      "button": "Zobrazit více"
+    },
+    "signatureExpired": "Platnost vašeho podpisu vypršela.",
+    "signMessage": "Podepsat zprávu",
+    "signMessageWallet": "Podepsat zprávu v peněžence",
+    "simple": {
+      "label": "Jednoduchý"
+    },
+    "sold": "Prodáno",
+    "stats": "Statistiky",
+    "status": "Postavení",
+    "stayConnected": "Zůstaň připojen",
+    "step": {
+      "number": "Krok {{number}}"
+    },
+    "submit": {
+      "proposal": {
+        "cancelled": "Odeslání návrhu bylo zrušeno",
+        "failed": "Odeslání návrhu se nezdařilo"
+      }
+    },
+    "submitted": {
+      "proposal": "Podaný návrh"
+    },
+    "submitting": {
+      "proposal": "Podání návrhu"
+    },
+    "success": "Úspěch",
+    "swap": {
+      "cancelled": "Výměna zrušena",
+      "expired": "Platnost swapu vypršela",
+      "failed": "Výměna se nezdařila"
+    },
+    "swapped": "Vyměněno",
+    "swapPending": "Čeká se na výměnu...",
+    "swapping": "Výměna",
+    "switchNetworks": "Přepnout sítě",
+    "termsOfService": "Podmínky služby",
+    "text": {
+      "connected": "Připojeno",
+      "contract": "Smlouva",
+      "disconnected": "Odpojeno",
+      "error": "Chyba",
+      "notAvailable": "N/A",
+      "recipient": "Na",
+      "sender": "Z",
+      "unknown": "Neznámý"
+    },
+    "thisMonth": "Tento měsíc",
+    "thisWeek": "Tento týden",
+    "thisYear": "Tento rok",
+    "time": {
+      "days": "dní",
+      "days_one": "den",
+      "days_other": "dní",
+      "hours": "hodin",
+      "hours_one": "hodina",
+      "hours_other": "hodin",
+      "minute": {
+        "amt": "{{time}}m"
+      },
+      "minutes": "minut",
+      "months": "měsíce",
+      "months_one": "měsíc",
+      "months_other": "měsíce",
+      "past": {
+        "days": "Před {{days}}d",
+        "hours": "Před {{hours}}h",
+        "minutes": "Před {{minutes}}m",
+        "months": "{{months}}před měsícem",
+        "seconds": "Před {{seconds}}s"
+      },
+      "weeks": "týdnů",
+      "weeks_one": "týden",
+      "weeks_other": "týdnů"
+    },
+    "tip": {
+      "label": "Spropitné:"
+    },
+    "to": "na",
+    "today": "Dnes",
+    "tokenA": "Token A",
+    "tokenAmount": "Tokenová částka",
+    "tokenB": "Token B",
+    "tokenName": "Název tokenu",
+    "tokens": "Tokeny",
+    "totalValueLocked": "TVL",
+    "trade": "Obchod",
+    "trademarkPolicy": "Zásady používání ochranných známek",
+    "transactionDetails": "Detaily transakce",
+    "transactionId": "ID transakce",
+    "transactionPending": "Transakce čeká na vyřízení",
+    "transactions": "Transakce",
+    "transactionSettings": "Nastavení transakcí",
+    "transactionSubmitted": "Transakce odeslána",
+    "transfer_one": "převod",
+    "transfer_other": "převody",
+    "tryAgain": {
+      "error": "Zkus to znovu"
+    },
+    "twitter": "Cvrlikání",
+    "type": {
+      "label": "Typ"
+    },
+    "unavailable": "Není k dispozici",
+    "uniGovernance": "Správa UNI",
+    "uniswapMobile": "Uniswap Mobile",
+    "uniswapProtocol": "Uniswap protokol",
+    "uniswapTVL": "Uniswap TVL",
+    "uniswapWallet": "Uniswap peněženka",
+    "uniswapX": "UniswapX",
+    "unknown": "Neznámý",
+    "unknownApproval": "Neznámé schválení",
+    "unknownBridge": "Neznámý most",
+    "unknownError": {
+      "error": "Neznámá chyba"
+    },
+    "unknownLend": "Neznámá půjčka",
+    "unknownMint": "Neznámá mincovna",
+    "unknownSend": "Neznámé Odeslat",
+    "unknownSwap": "Neznámá výměna",
+    "unsupportedAsset_one": "Nepodporované dílo",
+    "unsupportedAsset_other": "Nepodporovaná aktiva",
+    "unwrap": {
+      "button": "Rozbalit",
+      "failed": "Rozbalení se nezdařilo"
+    },
+    "unwrapped": "Rozbalené",
+    "unwrapping": "Rozbalování",
+    "view": {
+      "profile": "Zobrazit profil"
+    },
+    "viewOnBlockExplorer": "Zobrazit v Průzkumníku bloků",
+    "viewOnExplorer": "Zobrazit v Průzkumníku",
+    "volume": "Hlasitost",
+    "vote": {
+      "cancelled": "Hlasování zrušeno",
+      "failed": "Hlasování se nezdařilo"
+    },
+    "voted": "Hlasováno",
+    "voting": "Hlasování",
+    "wallet": {
+      "approve": "Schválit v peněžence",
+      "label": "Peněženka"
+    },
+    "walletForSwapping": "Peněženka stvořená pro výměnu. K dispozici pro iOS a Android.",
+    "warning": "Varování",
+    "webApp": "Webová aplikace",
+    "website": "webová stránka",
+    "whyApprove": "Proč musím schvalovat token?",
+    "whySign": "Proč jsou vyžadovány podpisy?",
+    "whyWrap": "Proč musím zabalit svůj {{symbol}}?",
+    "withdraw": {
+      "failed": "Výběr se nezdařil"
+    },
+    "withdrawal": {
+      "amount": "Částka výběru",
+      "cancelled": "Výběr zrušen"
+    },
+    "withdrawing": "Odebírání",
+    "withdrew": "Stáhl se",
+    "withinRange": "V dosahu",
+    "wrap": {
+      "button": "Zabalit",
+      "cancelled": "Zabalení zrušeno",
+      "failed": "Zabalení se nezdařilo"
+    },
+    "wrapIn": "Zabalte  {{symbol}} do peněženky",
+    "wrapped": "Zabalené",
+    "wrapping": "Obal",
+    "wrappingToken": "Balení  {{symbol}}...",
+    "wrongNetwork": "Špatná síť",
+    "your": {
+      "account": {
+        "had": {
+          "insufficient": {
+            "funds": "Váš účet neměl dostatek prostředků k dokončení této výměny."
+          }
+        },
+        "has": {
+          "insufficient": {
+            "funds": "Na vašem účtu není dostatek prostředků k dokončení této výměny."
+          }
+        }
+      },
+      "limit": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Váš limit se v tuto chvíli nepodařilo splnit. Prosím zkuste to znovu."
+            }
+          }
+        }
+      },
+      "swap": {
+        "could": {
+          "not": {
+            "be": {
+              "fulfilled": "Váš swap nemohl být v tuto chvíli proveden. Prosím zkuste to znovu."
+            }
+          }
+        }
+      }
+    },
+    "youreBuying": "Kupujete",
+    "youRecieve": "Obdržíš",
+    "youreSending": "Ty posíláš",
+    "youWillReceive": "Obdržíte"
+  },
+  "currency": {
+    "aud": "Australský dolar",
+    "brl": "Brazilský Real",
+    "cad": "Kanadský dolar",
+    "cny": "Čínský jüan",
+    "eur": "Euro",
+    "gbp": "Britská libra",
+    "hkd": "Hongkongský dolar",
+    "idr": "Indonéská rupie",
+    "inr": "indická rupie",
+    "jpy": "japonský jen",
+    "krw": "Jihokorejský won",
+    "ngn": "Nigerijská Naira",
+    "pkr": "Pákistánská rupie",
+    "rub": "Ruský rubl",
+    "sgd": "Singapurský dolar",
+    "thb": "thajský baht",
+    "try": "Turecká lira",
+    "uah": "Ukrajinská hřivna",
+    "usd": "Americký dolar",
+    "vnd": "Vietnamský Dong"
+  },
+  "dapp": {
+    "request": {
+      "approve": {
+        "action": "Schvalovat",
+        "fallbackTitle": "Schvalte tento web pro přístup k tokenům",
+        "helptext": "Povolit tomuto webu přístup a utratit tento token za transakce. Ujistěte se, že tomuto webu důvěřujete.",
+        "label": "Peněženka",
+        "title": "Schvalte přístup k {{tokenSymbol}}"
+      },
+      "base": {
+        "title": "Žádost o transakci"
+      },
+      "bridge": {
+        "description": "Přesuňte ETH, USDC a další přes {{numChains}}+ sítě.",
+        "title": "Snažíte se přemostit?"
+      },
+      "connect": {
+        "helptext": "Umožněte tomuto webu zobrazit adresu vaší peněženky, zůstatek a požádat o schválení transakcí.",
+        "title": "Připojte se k webu"
+      },
+      "fallback": {
+        "calldata": {
+          "label": "Nezpracovaná data"
+        },
+        "function": {
+          "label": "Funkce"
+        }
+      },
+      "permit2": {
+        "description": "Permit2 spravuje schvalování tokenů ve více aplikacích.",
+        "header": "Podepište povolení 2"
+      },
+      "reject": {
+        "action": "Odmítnout vše",
+        "info": "Máte <highlight>{{totalRequestCount}}</highlight> požadavků na transakce"
+      },
+      "revoke": {
+        "action": "Zrušit",
+        "helptext": "Povolit tomuto webu zrušit přístup k útratě tohoto tokenu za transakce. Ujistěte se, že tomuto webu důvěřujete.",
+        "title": "Odebrat přístup k {{tokenSymbol}}"
+      },
+      "signature": {
+        "containsUnrenderableCharacters": "Tato zpráva obsahuje nevykreslitelné znaky. Ujistěte se, že tomuto webu důvěřujete.",
+        "error": {
+          "712-spec-compliance": "SignTypedDataRequestContent přijatá data k podpisu, která nesplňují specifikaci EIP-712."
+        },
+        "header": "Žádost o podpis",
+        "toggleDataView": {
+          "raw": "Zobrazit nezpracovaná data",
+          "readable": "Zobrazit původní data"
+        }
+      },
+      "warning": {
+        "notActive": {
+          "message": "Ujistěte se, že je to ten pravý",
+          "title": "Toto není vaše aktivní peněženka"
+        }
+      }
+    }
+  },
+  "downloadApp": {
+    "modal": {
+      "alreadyHaveWallet": {
+        "signInLink": "Přihlaste se zde"
+      },
+      "getStarted": {
+        "description": "Začněte stažením peněženky Uniswap, která je k dispozici ve vašem telefonu nebo prohlížeči.",
+        "title": "Začněte s Uniswap"
+      },
+      "signUp": {
+        "description": {
+          "embeddedWallet": "Začněte během několika sekund tím, že se níže zaregistrujete nebo si stáhnete naši peněženku, která je dostupná ve vašem telefonu nebo prohlížeči."
+        },
+        "title": "Zaregistrujte se pomocí Uniswap"
+      },
+      "uniswapProducts": {
+        "subtitle": "Uniswap produkty bezproblémově spolupracují a vytvářejí ten nejlepší onchain zážitek."
+      }
+    }
+  },
+  "error": {
+    "access": {
+      "expiry": "To poskytuje přístup protokolu Uniswap k vašemu tokenu pro obchodování. Z bezpečnostních důvodů vyprší po 30 dnech."
+    },
+    "dataUnavailable": "Data jsou v tuto chvíli nedostupná; pracujeme na opravě",
+    "id": "ID chyby: {{eventId}}",
+    "noData": "Nenalezena žádná data",
+    "request": {
+      "provideId": "Omlouváme se, při zpracování vašeho požadavku došlo k chybě. Pokud požadujete podporu, nezapomeňte uvést své ID chyby."
+    },
+    "tokenApproval": "Schválení tokenu se nezdařilo",
+    "tokenApprovalEdited": {
+      "message": "Schválená částka nastavená ve vaší peněžence je příliš nízká na dokončení této transakce. Zkuste to znovu a zvyšte částku."
+    }
+  },
+  "errors": {
+    "crash": {
+      "message": "Něco se zhroutilo.",
+      "restart": "Restartujte aplikaci",
+      "title": "A jé!"
+    }
+  },
+  "explore": {
+    "more": {
+      "pools": "Prozkoumejte další bazény"
+    },
+    "search": {
+      "action": {
+        "clear": "Jasný",
+        "viewEtherscan": "Zobrazit na {{blockExplorerName}}"
+      },
+      "empty": {
+        "full": "Nebyly nalezeny žádné výsledky pro <highlight>\"{{searchQuery}}\"</highlight>"
+      },
+      "error": "Výsledky vyhledávání se nepodařilo načíst",
+      "label": {
+        "ownedBy": "Vlastníkem {{ownerAddress}}"
+      },
+      "placeholder": "Prohledejte tokeny a peněženky",
+      "section": {
+        "nft": "Sbírky NFT",
+        "popularNFT": "Populární kolekce NFT",
+        "popularTokenInfo": "Populární tokeny jsou identifikovány na základě jejich objemu obchodování na Uniswapu za posledních 24 hodin.",
+        "popularTokens": "Populární tokeny",
+        "recent": "Nedávná vyhledávání",
+        "tokens": "Tokeny",
+        "wallets": "Peněženky"
+      }
+    },
+    "tokens": {
+      "error": "Tokeny se nepodařilo načíst",
+      "favorite": {
+        "action": {
+          "add": "Oblíbený token",
+          "edit": "Upravit oblíbené",
+          "remove": "Odebrat oblíbené"
+        },
+        "title": {
+          "default": "Oblíbené žetony",
+          "edit": "Upravte oblíbené tokeny"
+        }
+      },
+      "metadata": {
+        "marketCap": "{{number}} MCap",
+        "totalValueLocked": "{{number}} TVL",
+        "volume": "{{number}} Sv"
+      },
+      "sort": {
+        "label": {
+          "marketCap": "Tržní kapitalizace",
+          "priceDecrease": "Snížení ceny",
+          "priceIncrease": "Navýšení ceny",
+          "totalValueLocked": "TVL",
+          "volume": "Hlasitost"
+        },
+        "option": {
+          "marketCap": "Tržní kapitalizace",
+          "priceDecrease": "Snížení ceny (24 hodin)",
+          "priceIncrease": "Zvýšení ceny (24 hodin)",
+          "totalValueLocked": "Uniswap TVL",
+          "volume": "Uniswap objem (24h)"
+        }
+      },
+      "top": {
+        "title": "Top tokeny"
+      }
+    },
+    "unableToDisplayHistorical": "Nelze zobrazit historická data objemu pro aktuální řetězec.",
+    "unableToDisplayHistoricalTVL": "Nelze zobrazit historická data TVL pro aktuální řetězec.",
+    "uniVolume": "Uniswap svazek",
+    "wallets": {
+      "favorite": {
+        "action": {
+          "add": "Oblíbená peněženka",
+          "edit": "Upravit oblíbené",
+          "remove": "Odebrat oblíbené"
+        },
+        "title": {
+          "default": "Oblíbené peněženky",
+          "edit": "Upravte oblíbené peněženky"
+        }
+      }
+    }
+  },
+  "extension": {
+    "connection": {
+      "networks": "sítě",
+      "popup": {
+        "trouble": "Máte potíže s připojením?"
+      },
+      "popupWithButton": "Vaše peněženka není připojena k tomuto webu.",
+      "titleConnected": "Připojeno",
+      "titleNotConnected": "Nepřipojený"
+    },
+    "lock": {
+      "button": {
+        "forgot": "zapomenuté heslo?",
+        "reset": "Resetovat peněženku",
+        "submit": "Odemknout"
+      },
+      "password": {
+        "error": "Špatné heslo. Zkus to znovu",
+        "reset": {
+          "initial": {
+            "description": "Uniswap nemůže pomoci obnovit vaše heslo. Musíte resetovat svou peněženku opětovným zadáním 12slovné fráze pro obnovení.",
+            "help": "Kde najdu svou frázi pro obnovení?",
+            "title": "Zapomenuté heslo"
+          },
+          "speedbump": {
+            "description": "Před resetováním peněženky se ujistěte, že máte svou 12slovou frázi pro obnovení. V opačném případě nebudete moci získat zpět své prostředky.",
+            "help": "Ztratil jsem frázi pro zotavení",
+            "title": "Než budete pokračovat"
+          }
+        }
+      },
+      "subtitle": "Pro odemknutí zadejte heslo",
+      "title": "Vítej zpět"
+    },
+    "network": {
+      "notSupported": "Nepodporovaná síť"
+    },
+    "open": "Otevřete rozšíření Uniswap",
+    "popup": {
+      "chrome": {
+        "button": "Otevřete rozšíření",
+        "description": "Dokončete tuto akci otevřením rozšíření Uniswap.",
+        "title": "Pokračujte v Uniswapu"
+      }
+    },
+    "settings": {
+      "password": {
+        "enter": {
+          "title": "Zadejte své současné heslo"
+        },
+        "error": {
+          "wrong": "Špatné heslo"
+        },
+        "placeholder": "Aktuální heslo"
+      }
+    },
+    "warning": {
+      "storage": {
+        "button": "Záloha",
+        "message": "Nezapomeňte si zálohovat frázi pro obnovení, abyste neztratili přístup ke své peněžence a finančním prostředkům.",
+        "title": "V prohlížeči dochází místo"
+      }
+    }
+  },
+  "fee": {
+    "bestForExotic": "Nejlepší pro exotické páry.",
+    "bestForMost": "Nejlepší pro většinu párů.",
+    "bestForStablePairs": "Nejlepší pro stabilní páry.",
+    "bestForVeryStable": "Nejlepší pro velmi stabilní páry.",
+    "dynamic": "Dynamický poplatek",
+    "percentEarned": "% získáte na poplatcích.",
+    "selectPercent": "{{pct}}% vybrat",
+    "selectPercentDescription": "{{pct}}% likvidity vybrané pro tuto úroveň",
+    "tier": {
+      "create": {
+        "button": "Vytvořte novou úroveň poplatků",
+        "description": "Vytvoření nové vrstvy bude inicializovat v novém fondu a bude mít za následek vyšší než obvyklé síťové náklady."
+      },
+      "description": {
+        "v2": "Vydělaná částka poskytující likviditu. Všechny fondy v2 mají fixní poplatky 0,3 %. Pro více možností poskytněte likviditu na v4."
+      },
+      "dynamic": {
+        "create": {
+          "info": "Chystáte se vytvořit fond s dynamickou úrovní poplatků. Než budete pokračovat, ujistěte se, že vybraný háček podporuje dynamické poplatky."
+        }
+      },
+      "highestTvl": "Nejvyšší TVL",
+      "label": "% získáte na poplatcích",
+      "missing": {
+        "description": "Nemůžete najít úroveň, kterou hledáte?"
+      },
+      "new": "Nová úroveň",
+      "percent": {
+        "select": "{{percentage}} vyberte"
+      },
+      "recommended": {
+        "description": "Doporučeno na základě nejvyššího podílu likvidity pro vybraný pár tokenů."
+      },
+      "search": {
+        "short": "Hledejte úrovně"
+      },
+      "select": {
+        "existing": {
+          "button": "Vyberte stávající úroveň poplatků"
+        }
+      }
+    },
+    "tierExact": "{{fee}} úroveň poplatku",
+    "unavailable": "Vydělané poplatky nejsou u pozic v2 viditelné, dokud není odstraněna likvidita.",
+    "uncollected": "Zahrnuje nevybrané poplatky:"
+  },
+  "fiatOffRamp": {
+    "checkout": {
+      "title": "Prodej s"
+    },
+    "connection": {
+      "quote": "Prodej {{amount}} v hodnotě {{currencySymbol}}"
+    },
+    "error": {
+      "balance": "Překračuje rovnováhu"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} pro {{fiatAmount}}"
+    },
+    "unsupportedToken": {
+      "back": "Vraťte se",
+      "divider": "Nepodporované tokeny",
+      "message": "Prodej tohoto tokenu není podporován. Vyměňte toto aktivum za jeden z podporovaných tokenů.",
+      "swap": "Vyměňte za podporovaný token",
+      "title": "Nepodporovaný token"
+    },
+    "welcome": {
+      "tooltip": "Prodejte své krypto na svůj bankovní účet nebo debetní kartu."
+    }
+  },
+  "fiatOnRamp": {
+    "button": {
+      "chooseToken": "Vyberte token"
+    },
+    "cexTransferModal": {
+      "description": "Nákup kryptoměn kartou není ve vašem regionu podporován. Převeďte aktiva z centralizovaného výměnného účtu, abyste mohli financovat svou peněženku.",
+      "title": "Začněte převodem"
+    },
+    "checkout": {
+      "title": "Pokladna s"
+    },
+    "checkoutWith": "Pokladna s",
+    "chooseProvider": {
+      "description": "Budete pokračovat na portál poskytovatele, kde uvidíte poplatky spojené s vaší transakcí."
+    },
+    "completeTransactionHeader": "Dokončete transakci s {{serviceProvider}}",
+    "connection": {
+      "error": "Připojení se nezdařilo",
+      "errorDescription": "Při připojování k {{serviceProvider}}se něco pokazilo.",
+      "message": "Připojujeme vás k {{serviceProvider}}",
+      "quote": "Nákup {{amount}} v hodnotě {{currencySymbol}}",
+      "terms": "Pokračováním potvrzujete, že se na vás budou vztahovat Podmínky služby a Zásady ochrany osobních údajů s {{serviceProvider}}, podle toho, co je relevantní."
+    },
+    "continueInTab": "Přejděte na kartu {{serviceProvider}} a pokračujte. Nyní je bezpečné tento modal zavřít.",
+    "disclaimer": "Pokračováním potvrzujete, že se na vás budou vztahovat <tosLink>Podmínky služby</tosLink> a <privacyLink>Zásady ochrany osobních údajů</privacyLink> s {{serviceProvider}}, podle toho, co je relevantní.",
+    "error": {
+      "default": "Něco se pokazilo.",
+      "load": "Nepodařilo se načíst tokeny k nákupu",
+      "max": "Maximum {{amount}}",
+      "min": "Minimálně {{amount}}",
+      "noQuotes": "Nebyly nalezeny žádné citace.",
+      "unavailable": "Tato služba není ve vašem regionu dostupná",
+      "unsupported": "Není podporováno v regionu",
+      "usd": "Lze zakoupit pouze v USD"
+    },
+    "exchangeRate": "{{outputAmount}} {{outputSymbol}} pro {{inputAmount}} {{inputSymbol}}",
+    "noQuotes": {
+      "error": "Nebyly nalezeny žádné citace"
+    },
+    "purchasedOn": "Zakoupeno {{serviceProvider}}",
+    "quote": {
+      "advice": "Budete pokračovat na portál poskytovatele, kde uvidíte poplatky spojené s vaší transakcí.",
+      "type": {
+        "list": "{{optionsList}}a další možnosti",
+        "other": "Jiné možnosti",
+        "recent": "Nedávno použité"
+      }
+    },
+    "receiveCrypto": {
+      "modal": {
+        "sectionTitle": {
+          "fromAccount": "Z účtu"
+        }
+      },
+      "title": "Přijímat kryptoměny",
+      "transferFunds": "Financujte svou peněženku převodem kryptoměn z jiné peněženky nebo účtu"
+    },
+    "region": {
+      "placeholder": "Vyhledávání podle země nebo regionu",
+      "title": "Vyberte svůj region"
+    },
+    "summary": {
+      "total": "{{cryptoAmount}} pro {{fiatAmount}}"
+    }
+  },
+  "forceUpgrade": {
+    "action": {
+      "confirm": "Aktualizujte nyní",
+      "learn": "Přečtěte si, jak aktualizovat",
+      "recoveryPhrase": "Zobrazit frázi pro obnovení"
+    },
+    "description": {
+      "extension": "K dispozici je nová verze aplikace. Chcete-li nadále používat rozšíření Uniswap, aktualizujte jej na nejnovější verzi.",
+      "wallet": "K dispozici je nová verze aplikace. Chcete-li nadále používat peněženku Uniswap, aktualizujte ji na nejnovější verzi."
+    },
+    "label": {
+      "recoveryPhrase": "Fráze obnovy"
+    },
+    "title": "Aktualizujte na nejnovější verzi"
+  },
+  "globalPreferences": {
+    "title": "Globální preference"
+  },
+  "hero": {
+    "scroll": "Posuňte se a dozvíte se více",
+    "subtitle": "Největší onchain tržiště. Nakupujte a prodávejte kryptoměny na Ethereu a dalších 11+ řetězcích.",
+    "swap": {
+      "title": "Výměna kdykoli, <br/> kdekoli."
+    }
+  },
+  "hidden": {
+    "nfts": {
+      "info": {
+        "banner": {
+          "text": "Zjistěte více o skrytých NFT"
+        },
+        "text": {
+          "button": "Skryté NFT ({{numHidden}})",
+          "extension": "Toto jsou potenciální podvody a NFT, které jste skryli. Můžete kliknout pravým tlačítkem na NFT a zobrazit jej.",
+          "mobile": "Toto jsou potenciální podvody a NFT, které jste skryli. NFT můžete dlouhým stisknutím odkrýt.",
+          "title": "Skryté NFT"
+        }
+      }
+    },
+    "tokens": {
+      "info": {
+        "banner": {
+          "text": "Další informace o skrytých tokenech"
+        },
+        "text": {
+          "button": "Skryté tokeny ({{numHidden}})",
+          "info": "Toto jsou potenciální podvody, malé zůstatky a tokeny, které jste skryli. Skryté tokeny nejsou zahrnuty do celkového zůstatku v peněžence.",
+          "title": "Skryté tokeny"
+        }
+      }
+    }
+  },
+  "home": {
+    "activity": {
+      "empty": {
+        "button": "Přijímejte tokeny nebo NFT",
+        "description": {
+          "default": "Když schválíte, obchodujete nebo převádíte tokeny nebo NFT, vaše transakce se zobrazí zde.",
+          "external": "Až tato peněženka provede transakce, zobrazí se zde."
+        },
+        "title": "Zatím žádná aktivita"
+      },
+      "error": {
+        "load": "Aktivitu se nepodařilo načíst"
+      },
+      "title": "Aktivita"
+    },
+    "banner": {
+      "offline": "Jste v režimu offline",
+      "testnetMode": {
+        "nav": "Jste v režimu testovací sítě. Vypněte to v nastavení."
+      }
+    },
+    "explore": {
+      "footer": "Klepnutím sem prozkoumáte tisíce tokenů, NFT a další",
+      "title": "Prozkoumejte tokeny"
+    },
+    "extension": {
+      "error": "Chyba při načítání účtů"
+    },
+    "label": {
+      "buy": "Koupit",
+      "for": "Koupit/prodat",
+      "receive": "Dostávat",
+      "send": "Poslat",
+      "swap": "Vyměňte"
+    },
+    "nfts": {
+      "title": "NFT"
+    },
+    "tokens": {
+      "empty": {
+        "action": {
+          "buy": {
+            "description": "Nákup debetní kartou nebo bankovním účtem.",
+            "title": "Kupte si Crypto"
+          },
+          "import": {
+            "description": "Zadejte obnovovací frázi této peněženky a začněte vyměňovat a odesílat.",
+            "title": "Import peněženky"
+          },
+          "receive": {
+            "description": "Převod z jiné peněženky nebo účtu.",
+            "title": "Přijímat kryptoměny"
+          }
+        },
+        "description": "Když tato peněženka zakoupí nebo obdrží tokeny, zobrazí se zde.",
+        "title": "Zatím žádné tokeny",
+        "welcome": {
+          "description": "Vypadá to, že máte novou peněženku. Pojďme to zafinancovat, než provedete svou první výměnu."
+        }
+      },
+      "error": {
+        "fetch": "Nepodařilo se načíst zůstatky tokenů",
+        "load": "Zůstatky tokenů se nepodařilo načíst"
+      },
+      "title": "Tokeny"
+    },
+    "upsell": {
+      "receive": {
+        "cta": "Z účtu",
+        "description": "Financujte svou peněženku převodem kryptoměn z jiné peněženky nebo účtu",
+        "title": "Přijímat kryptoměny"
+      }
+    },
+    "warning": {
+      "viewOnly": "Toto je peněženka pouze pro prohlížení"
+    }
+  },
+  "interface": {
+    "metatags": {
+      "description": "Swap nebo poskytnutí likvidity na Uniswap protokolu",
+      "title": "Uniswap rozhraní"
+    }
+  },
+  "landing": {
+    "buildNextGen": "Vytvářejte další generaci otevřených aplikací a nástrojů.",
+    "connectWithUs": "spojit se s námi",
+    "devDocs": "Dokumenty pro vývojáře",
+    "directToDeFi": "Přejděte přímo na DeFi",
+    "followOnX": "Sledujte @Uniswap na X pro nejnovější aktualizace",
+    "protocolDescription": "Produkty Uniswap jsou poháněny protokolem Uniswap. Protokol je největším onchain tržištěm s miliardami dolarů v týdenním objemu v tisících tokenů na Ethereu a 7+ dalších řetězcích.",
+    "provideLiquidity": {
+      "message": "Poskytujte likviditu poolům na Uniswap protokolu a získejte poplatky za swapy."
+    },
+    "swapSimple": "Výměna byla jednoduchá. Získejte přístup k tisícům tokenů na 11+ řetězcích.",
+    "teamInsights": "Postřehy a novinky od týmu",
+    "trusted": "Věří miliony"
+  },
+  "language": {
+    "afrikaans": "afrikánština",
+    "arabic": "arabština",
+    "catalan": "katalánština",
+    "chineseSimplified": "Zjednodušená čínština",
+    "chineseTraditional": "čínština, tradiční",
+    "czech": "čeština",
+    "danish": "dánština",
+    "dutch": "holandský",
+    "english": "Angličtina",
+    "finnish": "finština",
+    "french": "francouzština",
+    "greek": "řecký",
+    "hebrew": "hebrejština",
+    "hindi": "hindština",
+    "hungarian": "maďarský",
+    "indonesian": "indonéština",
+    "italian": "italština",
+    "japanese": "japonský",
+    "korean": "korejština",
+    "malay": "malajština",
+    "norwegian": "norský",
+    "polish": "polština",
+    "portuguese": "portugalština",
+    "romanian": "rumunština",
+    "russian": "ruština",
+    "serbian": "srbština",
+    "spanishLatam": "španělština (Latinská Amerika)",
+    "spanishSpain": "španělština (Španělsko)",
+    "spanishUs": "španělština (USA)",
+    "swahili": "svahilština",
+    "swedish": "švédský",
+    "turkish": "turečtina",
+    "ukrainian": "ukrajinština",
+    "urdu": "Urdu",
+    "vietnamese": "vietnamština"
+  },
+  "limit": {
+    "open": {
+      "count_one": "1 otevřený limit",
+      "count_other": "{{count}} otevřené limity"
+    }
+  },
+  "limitPrice": {
+    "buyingAboveMarketPrice": {
+      "error": {
+        "description": "Vaše limitní cena je o {{percentage}}% vyšší než tržní. Chcete-li pokračovat, upravte svou limitní cenu.",
+        "title": "Nákup {{tokenSymbol}} nad tržní cenou"
+      }
+    },
+    "marketPriceNotAvailable": {
+      "error": {
+        "description": "Aktuální tržní cenu nejsme schopni spočítat. Chcete-li se vyhnout odeslání objednávky pod tržní cenou, zkontrolujte připojení k síti a zkuste to znovu.",
+        "title": "Tržní cena není k dispozici"
+      }
+    },
+    "sellingBelowMarketPrice": {
+      "error": {
+        "description": "Vaše limitní cena je o {{percentage}}% nižší než tržní. Chcete-li pokračovat, upravte svou limitní cenu.",
+        "title": "Prodej {{tokenSymbol}} pod tržní cenou"
+      }
+    }
+  },
+  "limits": {
+    "form": {
+      "disclaimer": {
+        "mainnet": {
+          "short": "Pro limity jsou k dispozici pouze tokeny sítě Mainnet."
+        },
+        "uniswapx": "Limity se nemusí splnit přesně, když tokeny dosáhnou zadané ceny. <link />"
+      }
+    },
+    "learnMore": "Zjistěte více o limitech",
+    "price": {
+      "input": {
+        "label": "Když má hodnotu 1 <tokenSymbol />"
+      },
+      "label": "Limitní cena"
+    },
+    "selectSupportedTokens": "Vyberte podporované tokeny"
+  },
+  "liquidity": {
+    "hooks": {
+      "address": {
+        "input": "Zadejte adresu háčku"
+      }
+    },
+    "learnMoreLabel": "Přečtěte si o poskytování likvidity",
+    "notEnough": {
+      "label": "Nedostatek likvidity k zobrazení přesné hodnoty USD."
+    },
+    "provideOnProtocols": "Poskytování likvidity na různých protokolech"
+  },
+  "liquidityPool": {
+    "chart": {
+      "tooltip": {
+        "amount": "{{token}} likvidita: {{amount}}"
+      }
+    },
+    "page": {
+      "title": "Přidejte likviditu do poolů{{version}} na Uniswapu"
+    },
+    "positions": {
+      "closed": {
+        "title": "Uzavřené pozice"
+      },
+      "page": {
+        "title": "Spravujte {{quoteSymbol}}/{{baseSymbol}} likviditu fondu na Uniswapu",
+        "version": {
+          "description": "Prohlédněte si své aktivní {{version}} pozice likvidity. Přidejte nové pozice.",
+          "title": "Spravujte likviditu fondu{{version}} na Uniswapu"
+        }
+      },
+      "price": {
+        "formatted": "<amountWithSymbol /> za <outputToken />"
+      }
+    }
+  },
+  "migrate": {
+    "allowed": "Povoleno",
+    "allowLpMigration": "Povolit migraci tokenu LP",
+    "connectAccount": "Musíte připojit účet.",
+    "connectWallet": "Připojte se k peněžence a zobrazte svou likviditu V2.",
+    "contract": "Uniswap migrační smlouva",
+    "firstLP": "Jste prvním poskytovatelem likvidity pro tento fond Uniswap V3. Vaše likvidita bude migrovat za aktuální cenu {{source}} .",
+    "highGasCost": "Vaše transakční náklady budou mnohem vyšší, protože zahrnují plyn na vytvoření fondu.",
+    "invalidRange": "Vybrán neplatný rozsah. Minimální cena musí být nižší než maximální cena.",
+    "lpNFT": "{{symA}}/{{symB}} LP NFT",
+    "lpTokens": "{{symA}}/{{symB}} žetony LP",
+    "migrating": "Migrace",
+    "missingV2Position": "Nevidíte jednu ze svých pozic v2? <link>Importujte jej.</link>",
+    "noV2Liquidity": "Nebyla nalezena žádná likvidita V2.",
+    "positionNoFees": "Vaše pozice nebude vydělávat poplatky ani nebude použita v obchodech, dokud se tržní cena neposune do vašeho rozmezí.",
+    "priceDifference": "Cenový rozdíl: ",
+    "priceWarning": "Do Uniswap V3 byste měli vkládat likviditu pouze za cenu, kterou považujete za správnou. <br /> Pokud se cena zdá nesprávná, můžete buď provést swap a cenu přesunout, nebo počkat, až to udělá někdo jiný.",
+    "refund": "Do vaší peněženky bude vráceno alespoň {{amtA}} {{symA}} a {{amtB}} {{symB}} vzhledem k vybranému cenovému rozpětí.",
+    "selectFeeTier": "Vyberte úroveň poplatků",
+    "setRange": "Nastavit cenové rozpětí",
+    "symbolPrice": "{{protocolName}} {{tokenSymbol}} Cena:",
+    "v2Description": "Tento nástroj bezpečně migruje vaši {{source}} likviditu do V3. Proces je zcela nedůvěryhodný díky smlouvě o migraci <0>Uniswap</0> ↗",
+    "v2Instruction": "U každého níže zobrazeného fondu klikněte na migrovat, abyste odstranili svou likviditu z Uniswap V2 a vložili ji do Uniswap V3.",
+    "v2Title": "Migrujte likviditu V2",
+    "v3Price": "V3 {{sym}} Cena:"
+  },
+  "mint": {
+    "v3": {
+      "input": {
+        "invalidPrice": {
+          "error": "Neplatný údaj o ceně"
+        }
+      }
+    }
+  },
+  "mobileAppPromo": {
+    "banner": {
+      "getTheApp": {
+        "link": "Získejte aplikaci Uniswap Wallet"
+      },
+      "title": "Uniswap: Crypto & NFT Wallet"
+    }
+  },
+  "moonpay": {
+    "poweredBy": "Fiat onramp poháněný společností MoonPay USA LLC",
+    "restricted": {
+      "region": "Moonpay není v některých regionech k dispozici. Kliknutím se dozvíte více."
+    }
+  },
+  "nav": {
+    "createAccount": {
+      "button": "Vytvořit účet"
+    },
+    "logIn": {
+      "button": "Přihlaste se"
+    },
+    "signIn": {
+      "button": "Přihlaste se"
+    },
+    "signUp": {
+      "button": "Zaregistrujte se"
+    },
+    "tabs": {
+      "createPosition": "Vytvořte pozici",
+      "viewPositions": "Zobrazit pozice"
+    }
+  },
+  "network": {
+    "lostConnection": "Možná jste ztratili připojení k síti.",
+    "mightBeDown": "{{network}} může být právě teď mimo provoz nebo jste možná ztratili připojení k síti.",
+    "warning": "Upozornění sítě"
+  },
+  "nft": {
+    "addToBag": "Přidat do batohu",
+    "authorsCollectionOnUni": "{{name}}sbírka NFT na Uniswapu",
+    "bag": "Taška",
+    "blockedCollection": "Tato sbírka je zablokována",
+    "blockedOpenSea": "Blokováno na OpenSea",
+    "buyTransferNFTToStart": "Začněte nákupem nebo převodem NFT do této peněženky.",
+    "buyTransferTokensToStart": "Začněte nákupem nebo převodem tokenů do této peněženky.",
+    "card": {
+      "notAvailable": "Obsah zatím není <br /> dostupný"
+    },
+    "chainSupportComingSoon": "{{chainName}} podpora již brzy",
+    "collection": {
+      "title": "Prozkoumejte a nakupujte na Uniswapu"
+    },
+    "collectionOnUni": "Kolekce NFT na Uniswapu",
+    "collectonOnAddress": "Sbírka NFT na Uniswap - {{address}}",
+    "complete": "Kompletní!",
+    "editListings": "Upravit výpisy",
+    "event": "událost",
+    "explore": "Prozkoumejte NFT",
+    "learnWhy": "Přečtěte si proč",
+    "list": {
+      "header": {
+        "lastPrice": "Poslední"
+      },
+      "title": "Seznam NFT"
+    },
+    "listedSignificantly_one": "Jeden NFT je uveden {{percentage}} pod minimální cenou kolekce. Jste si jistý, že chcete pokračovat?",
+    "listedSignificantly_other": "{{count}} NFT jsou uvedeny výrazně pod minimální cenou kolekce. Jste si jistý, že chcete pokračovat?",
+    "listForSale": "Seznam na prodej",
+    "lowPrice": "Nízká katalogová cena",
+    "marketplace": {
+      "royalty": {
+        "header": "{{marketName}} poplatky"
+      }
+    },
+    "maxFees": "Max poplatky",
+    "maxRoyalties": "Maximální autorské honoráře",
+    "noItems": "Žádné položky k zobrazení",
+    "noneAtAddress": "Na této adrese neexistují žádná aktiva sbírky",
+    "noPools": "Zatím žádné bazény",
+    "notListed": "Nezapsáno",
+    "proceedsIfSold": "Výtěžek v případě prodeje",
+    "profile": {
+      "priceInput": {
+        "warning": {
+          "alreadyListed": "Již uvedeno na {{tokenAmountWithSymbol}}",
+          "belowFloor": "{{percentage}} pod minimální cenou."
+        }
+      }
+    },
+    "refundsInEth": "Náhrady za nedostupné položky budou uvedeny v ETH",
+    "removeFromBag": "Vyjměte ze sáčku",
+    "reportSpam": "Nahlásit jako spam",
+    "returnToExplore": "Návrat do NFT Explore",
+    "returnToMy": "Návrat na Moje NFT",
+    "setPrices": "Chcete-li pokračovat, nastavte ceny",
+    "startListing": "Začněte zapisovat",
+    "successListed": "Úspěšně uvedeno",
+    "sweep": "Zametat",
+    "unavailableToList": "Nedostupné pro výpis",
+    "whyTransaction": {
+      "reason": "Zalistování NFT vyžaduje jednorázový souhlas tržiště pro každou kolekci NFT."
+    },
+    "willAppearHere": "Zde se zobrazí vaše onchain transakce a krypto nákupy.",
+    "wishGranted": "Uniswap splnil vaše přání!"
+  },
+  "nfts": {
+    "collection": {
+      "action": {
+        "approve_one": "Schválit sbírku",
+        "approve_other": "Schvalovat sbírky",
+        "sign_one": "Výpis znamení",
+        "sign_other": "Podepsat výpisy"
+      }
+    },
+    "marketplace": {
+      "fees": {
+        "deltaMax": "{{percentChanged}} max"
+      }
+    },
+    "my": "Moje NFT",
+    "noneYet": "Zatím žádné NFT",
+    "sell": "Prodám NFT",
+    "viewAndSell": "Prohlížejte a prodávejte NFT"
+  },
+  "notFound": {
+    "oops": "Jejda, vezměte mě zpět do Swapu"
+  },
+  "notice": {
+    "uk": {
+      "label": "Zřeknutí se odpovědnosti Spojeného království:"
+    }
+  },
+  "notification": {
+    "assetVisibility": {
+      "hidden": "{{assetName}} skryto",
+      "unhidden": "{{assetName}} zobrazeno"
+    },
+    "copied": {
+      "address": "Adresa zkopírována",
+      "calldata": "Data volání byla zkopírována",
+      "contractAddress": "Adresa smlouvy zkopírována",
+      "failed": "Kopírování do schránky se nezdařilo",
+      "image": "Obrázek zkopírován",
+      "nftUrl": "Adresa URL NFT byla zkopírována",
+      "tokenUrl": "Adresa URL tokenu byla zkopírována",
+      "transactionId": "ID transakce zkopírováno",
+      "unitag": "Uživatelské jméno bylo zkopírováno"
+    },
+    "countryChange": "Přepnuto na {{countryName}}",
+    "network": {
+      "changed": "Přepnuto na {{network}}"
+    },
+    "passwordChanged": "heslo změněno",
+    "restore": {
+      "success": "Peněženka obnovena!"
+    },
+    "send": {
+      "network": "Odesílání na {{network}}"
+    },
+    "spam": {
+      "NFT": {
+        "successful": "Nahlášeno"
+      }
+    },
+    "swap": {
+      "network": "Výměna na {{network}}",
+      "pending": {
+        "swap": "Čeká se na výměnu",
+        "unwrap": "Rozbalení čeká na vyřízení",
+        "wrap": "Čeká se na zabalení"
+      }
+    },
+    "transaction": {
+      "approve": {
+        "canceled": "Zrušeno {{currencySymbol}} schválit.",
+        "fail": "Nepodařilo se schválit {{currencySymbol}} pro použití s {{address}}.",
+        "success": "Schváleno {{currencySymbol}} pro použití s {{address}}."
+      },
+      "pending": "Transakce čeká na vyřízení",
+      "swap": {
+        "canceled": "Zrušeno {{inputCurrencySymbol}}-{{outputCurrencySymbol}} swap.",
+        "expired": "{{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}} swap vypršel.",
+        "fail": "Nepodařilo se vyměnit {{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}}.",
+        "success": "Vyměněno {{inputCurrencyAmountWithSymbol}} za {{outputCurrencyAmountWithSymbol}}."
+      },
+      "transfer": {
+        "canceled": "Zrušeno {{tokenNameOrAddress}} odeslání",
+        "fail": "Odeslání {{tokenNameOrAddress}} na {{walletNameOrAddress}}se nezdařilo",
+        "received": "Přijato {{tokenNameOrAddress}} od {{walletNameOrAddress}}",
+        "success": "Odesláno {{tokenNameOrAddress}} uživateli {{walletNameOrAddress}}"
+      },
+      "unknown": {
+        "fail": {
+          "full": "Transakce s {{addressOrEnsName}}se nezdařila",
+          "short": "Transakce selhala"
+        },
+        "success": {
+          "full": "Transakce s {{addressOrEnsName}}",
+          "short": "Transakce potvrzena"
+        }
+      },
+      "unwrap": {
+        "canceled": "Zrušeno {{inputCurrencySymbol}} rozbalení.",
+        "fail": "Nepodařilo se rozbalit {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Rozbaleno {{inputCurrencyAmountWithSymbol}} a přijato {{outputCurrencyAmountWithSymbol}}."
+      },
+      "wrap": {
+        "canceled": "Zrušeno {{inputCurrencySymbol}} zalomení.",
+        "fail": "Nepodařilo se zabalit {{inputCurrencyAmountWithSymbol}}.",
+        "success": "Zabaleno {{inputCurrencyAmountWithSymbol}} a přijato {{outputCurrencyAmountWithSymbol}}."
+      }
+    },
+    "transfer": {
+      "pending": "Odeslat čeká na vyřízení"
+    },
+    "walletConnect": {
+      "confirmed": "Transakce potvrzena {{dappName}}",
+      "connected": "Připojeno",
+      "disconnected": "Odpojeno",
+      "failed": "Transakce se nezdařila s {{dappName}}",
+      "networkChanged": {
+        "full": "Přepnuto na {{networkName}}",
+        "short": "Přepínané sítě"
+      }
+    }
+  },
+  "notifications": {
+    "scantastic": {
+      "subtitle": "Pokračujte na Uniswap Extension",
+      "title": "Úspěch!"
+    }
+  },
+  "onboarding": {
+    "backup": {
+      "manual": {
+        "banner": "Doporučujeme to napsat na kus papíru a uložit na bezpečné místo, jako je trezor.",
+        "displayWarning": {
+          "description": "Než budete pokračovat, přečtěte si pozorně následující.",
+          "note": {
+            "access": "Tato obnovovací fráze vám dává plný přístup k vaší peněžence a finančním prostředkům",
+            "secure": "Prohlížejte si to soukromě a s nikým to nesdílejte",
+            "storage": "Zapište si to a uschovejte na bezpečném místě"
+          },
+          "title": "Některé důležité věci, které byste měli vědět"
+        },
+        "error": "Neplatné nebo chybně napsané slovo",
+        "placeholder": "Skryté slovo",
+        "progress": "{{completedStepsCount}}/{{totalStepsCount}} dokončeno",
+        "selectedWordPlaceholder": "Vyberte slovo",
+        "subtitle_one": "Jaké je první slovo {{count}}ve vaší frázi pro obnovení?",
+        "subtitle_two": "Jaké je slovo {{count}}ve vaší frázi pro obnovení?",
+        "subtitle_few": "Jaké je {{count}}slovo ve vaší frázi pro obnovení?",
+        "subtitle_other": "Jaké je {{count}}slovo ve vaší frázi pro obnovení?",
+        "title": "Ujistíme se, že jste to nahráli správně"
+      },
+      "option": {
+        "badge": {
+          "quick": "Rychlý"
+        },
+        "cloud": {
+          "description": "Zálohujte svou peněženku přes {{cloudProviderName}}, chráněnou heslem pro obnovení.",
+          "title": "Nastavte heslo pro obnovení"
+        },
+        "manual": {
+          "description": "Zaznamenejte si svých 12 tajných slov na kus papíru a uložte jej na bezpečném místě.",
+          "title": "Zapište si frázi pro obnovení"
+        }
+      },
+      "reminder": {
+        "description": "Zálohování vaší peněženky zajišťuje, že můžete kdykoli obnovit svá aktiva, pokud ztratíte telefon nebo získáte nové zařízení.",
+        "title": "Je čas zálohovat peněženku",
+        "warning": {
+          "description": "Pokud nenastavíte metodu zálohování, nebudete mít možnost obnovit svou peněženku, pokud ztratíte telefon, smažete aplikaci nebo získáte nové zařízení.",
+          "title": "Mohli byste přijít o své prostředky"
+        }
+      },
+      "speedBump": {
+        "cloud": {
+          "description": "Pokud ji někdy zapomenete, nemůžeme ji za vás resetovat. Zapište si jej na bezpečné místo nebo jej bezpečně uložte do správce hesel.",
+          "disclaimer": "Chápu, že Uniswap Labs nemůže obnovit mé heslo pro obnovení.",
+          "title": "Je důležité si toto heslo uložit"
+        },
+        "manual": {
+          "description": "Ujistěte se, že jste si frázi pro obnovení zapsali správně a mějte ji na bezpečném místě.",
+          "disclaimer": "Chápu, že Uniswap Labs nemůže obnovit moji peněženku, pokud ji ztratím.",
+          "title": "Než skončíte..."
+        }
+      },
+      "subtitle": "Tímto způsobem obnovíte svou peněženku, pokud smažete aplikaci nebo ztratíte své zařízení.",
+      "title": {
+        "existing": "Zálohujte si peněženku",
+        "new": "Vyberte způsob zálohování"
+      },
+      "view": {
+        "disclaimer": "Chápu, že pokud ztratím svou frázi pro obnovení, Uniswap Labs mi ji nemůže pomoci obnovit.",
+        "subtitle": {
+          "message1": "Než budete pokračovat, přečtěte si pozorně následující",
+          "message2": "Chcete-li obnovit svou peněženku, budete muset zadat všech 12 těchto tajných slov."
+        },
+        "title": "Zapište si frázi pro zotavení",
+        "warning": {
+          "message1": "Tato obnovovací fráze vám dává plný přístup k vaší peněžence a finančním prostředkům",
+          "message2": "Zapište si to a uschovejte na bezpečném místě",
+          "message3": "Zobrazit toto soukromě a <u>to s nikým nesdílet</u>"
+        }
+      }
+    },
+    "cloud": {
+      "confirm": {
+        "description": "Toto budete muset zadat, abyste získali zpět své prostředky. Pokud ji někdy zapomenete, nemůžeme ji pro vás získat.",
+        "title": "Potvrďte heslo pro obnovení"
+      },
+      "createPassword": {
+        "description": "Toto budete muset zadat, abyste získali zpět své prostředky. Pokud ji někdy zapomenete, nemůžeme ji pro vás získat.",
+        "title": "Vytvořte si heslo pro obnovení"
+      }
+    },
+    "complete": {
+      "button": "Otevřete rozšíření Uniswap",
+      "description": "Vaše peněženka je připravena odesílat a přijímat kryptoměny. Otevřete Uniswap Extension pomocí zástupce níže.",
+      "go_to_uniswap": "Přejděte na webovou aplikaci Uniswap",
+      "pin": {
+        "description": "Kliknutím na ikonu špendlíku přidáte rozšíření Uniswap na svůj panel nástrojů.",
+        "title": "Pin Uniswap rozšíření"
+      },
+      "title": "Vše je připraveno"
+    },
+    "extension": {
+      "password": {
+        "subtitle": "Budete to potřebovat k odemknutí peněženky a přístupu k obnovovací frázi",
+        "title": {
+          "default": "Vytvořit heslo",
+          "reset": "Obnovit heslo"
+        }
+      },
+      "unsupported": {
+        "android": {
+          "description": "Uniswap Extension je kompatibilní pouze s Chrome na počítači.",
+          "title": "Chrome pro mobily není (zatím) podporován"
+        },
+        "description": "Uniswap Extension je momentálně kompatibilní pouze s Chrome.",
+        "title": "Tento prohlížeč není podporován (zatím)"
+      }
+    },
+    "home": {
+      "intro": {
+        "backup": {
+          "description": "Nastavte si plán obnovy, pokud někdy ztratíte telefon nebo získáte nový.",
+          "title": "Zálohujte si peněženku"
+        },
+        "bridging": {
+          "description_one": "Přesuňte ETH, USDC a další přes {{count}}+ sítě.",
+          "description_other": "Přesuňte ETH, USDC a další přes {{count}}+ sítě."
+        },
+        "fund": {
+          "description": "Financujte svou peněženku nákupem kryptoměn nebo převodem z jiného účtu.",
+          "title": "Získejte svůj první token"
+        },
+        "label": {
+          "required": "Požadovaný",
+          "swipe": "Výpad"
+        },
+        "unitag": {
+          "description": "Vytvořte si personalizovaný web3 profil a snadno sdílejte svou adresu s přáteli.",
+          "title": "Získejte své uživatelské jméno {{unitagDomain}}"
+        },
+        "welcome": {
+          "description": "Dokončete nastavení peněženky a začněte vyměňovat během několika sekund.",
+          "title": "Vítejte v Uniswapu"
+        }
+      }
+    },
+    "import": {
+      "error": {
+        "invalidWords_one": "1 slovo je neplatné nebo špatně napsané",
+        "invalidWords_other": "{{count}} slova jsou neplatná nebo nesprávně napsaná"
+      },
+      "method": {
+        "import": {
+          "message": "Zadejte svou frázi pro obnovení z jiné kryptopeněženky",
+          "title": "Importujte peněženku"
+        },
+        "restore": {
+          "message": {
+            "android": "Přidejte peněženky, které jste si zálohovali, do svého účtu Disku Google",
+            "ios": "Přidejte peněženky, které jste si zazálohovali, do svého účtu iCloud"
+          },
+          "title": "Obnovit peněženku"
+        }
+      },
+      "onDeviceRecovery": {
+        "other_options": {
+          "label": "Nechcete nic z výše uvedeného?"
+        },
+        "subtitle": "Vyberte, do které peněženky se chcete znovu přihlásit.",
+        "title": "Vítejte zpět v Uniswapu",
+        "wallet": {
+          "button": "Zobrazit frázi pro obnovení",
+          "count_one": "+1 další peněženka",
+          "count_other": "+{{count}} další peněženky"
+        },
+        "warning": {
+          "caption": "Ujistěte se, že jste si zazálohovali všechny ostatní peněženky. Pokud je někdy budete chtít obnovit, budete potřebovat jejich obnovovací fráze nebo odpovídající {{cloudProvider}} zálohy.",
+          "title": "Jsi si jistá?"
+        }
+      },
+      "title": "Vyberte, jak chcete přidat svou peněženku"
+    },
+    "importMnemonic": {
+      "button": {
+        "default": "Moje obnovovací fráze je 12 slov",
+        "importing": "Import...",
+        "longPhrase": "Moje obnovovací fráze je delší"
+      },
+      "error": {
+        "invalidPhrase": "Zadaná fráze je neplatná"
+      },
+      "subtitle": "Zadejte nebo vložte svou 12slovou frázi pro obnovení",
+      "title": "Zadejte frázi pro obnovení"
+    },
+    "intro": {
+      "button": {
+        "alreadyHave": "Už mám peněženku"
+      },
+      "mobileScan": {
+        "button": "Naskenujte QR kód pro import",
+        "title": "Máte aplikaci Uniswap?"
+      }
+    },
+    "landing": {
+      "button": {
+        "add": "Přidejte existující peněženku",
+        "create": "Vytvořte si peněženku"
+      }
+    },
+    "name": {
+      "wallet": {
+        "button": {
+          "text": "Dokončit"
+        },
+        "subtitle": "Tato přezdívka je viditelná pouze vám",
+        "title": "Dejte své peněžence jméno"
+      }
+    },
+    "notification": {
+      "permission": {
+        "message": "Chcete-li dostávat upozornění, zapněte v nastavení zařízení upozornění pro Uniswap Wallet.",
+        "title": "Oprávnění k oznámením"
+      },
+      "subtitle": "Zůstaňte informováni o stavech transakcí a hlavních změnách cen oblíbených tokenů",
+      "title": "Zapněte oznámení"
+    },
+    "passkey": {
+      "account": {
+        "protection": "Váš účet je chráněn vaším vlastním bezpečným úložištěm hesel."
+      },
+      "biometric": {
+        "scan": "Telefon, tablet nebo prohlížeč – stačí naskenovat své biometrické údaje a budete přihlášeni."
+      },
+      "create": "Vytvořte si svůj přístupový klíč",
+      "use": {
+        "recovery": {
+          "phrase": "Místo toho použijte frázi pro obnovení"
+        }
+      }
+    },
+    "recoveryPhrase": {
+      "confirm": {
+        "subtitle": {
+          "combined": "Potvrďme, že jsi to pochopil správně. Pokud toto ztratíte nebo zapíšete nesprávně, nebudete moci získat zpět své prostředky.",
+          "default": "Pokud toto ztratíte nebo zapíšete nesprávně, nebudete moci získat zpět své prostředky."
+        },
+        "title": "Potvrďme, že jsi to pochopil správně"
+      },
+      "view": {
+        "subtitle": "Chcete-li obnovit svou peněženku, budete muset zadat všech 12 těchto tajných slov.",
+        "title": {
+          "hasPassword": "Pokud někdy zapomenete heslo..."
+        }
+      },
+      "warning": {
+        "final": {
+          "button": "Jsem připraven",
+          "message": "Vaše fráze pro obnovení je to, co vám (a komukoli, kdo ji má) poskytuje přístup k vašim prostředkům. Určitě si to nechte pro sebe.",
+          "title": "Tento krok proveďte na soukromém místě"
+        },
+        "screenshot": {
+          "message": "Kdokoli, kdo získá přístup k vašim fotografiím, má přístup k vaší peněžence. Doporučujeme, abyste si svá slova zapsali.",
+          "title": "Snímky obrazovky nejsou zabezpečené"
+        }
+      }
+    },
+    "resetPassword": {
+      "complete": {
+        "safety": "Zjistěte více o bezpečnosti peněženky",
+        "subtitle": "K odemknutí peněženky použijte své nové heslo.",
+        "title": "Resetovat heslo"
+      }
+    },
+    "scan": {
+      "button": "Skenujte pomocí aplikace Uniswap",
+      "error": "Je nám líto, ale QR kód momentálně nemůžeme načíst. Zkuste prosím jiný způsob registrace.",
+      "otp": {
+        "error": "Zadaný kód je nesprávný nebo došlo k chybě při odesílání. Prosím zkuste to znovu.",
+        "failed": "Neúspěšné pokusy: {{number}}",
+        "subtitle": "Zkontrolujte svou mobilní aplikaci Uniswap pro 6místný kód",
+        "title": "Zadejte jednorázový kód"
+      },
+      "subtitle": "Naskenujte QR kód pomocí mobilní aplikace Uniswap a začněte importovat svou peněženku.",
+      "title": "Importujte peněženku z aplikace",
+      "wifi": "Připojte telefon ke stejné síti WiFi jako počítač."
+    },
+    "security": {
+      "alert": {
+        "biometrics": {
+          "message": {
+            "android": "Chcete-li používat biometrii, nejprve ji nastavte v nastavení",
+            "ios": "Chcete-li použít {{biometricsMethod}}, povolte přístup v nastavení systému"
+          },
+          "title": {
+            "android": "Biometrie je zakázána",
+            "ios": "{{biometricsMethod}} je zakázáno"
+          }
+        }
+      },
+      "button": {
+        "confirm": {
+          "android": "Povolit biometrii",
+          "ios": "Povolit {{biometricsMethod}}"
+        },
+        "setup": "Založit"
+      },
+      "subtitle": {
+        "android": "Přidejte další vrstvu zabezpečení tím, že budete vyžadovat biometrické údaje pro odesílání transakcí.",
+        "ios": "Přidejte další vrstvu zabezpečení tím, že požadujete {{biometricsMethod}} pro odesílání transakcí."
+      },
+      "title": "Chraňte svou peněženku"
+    },
+    "selectWallets": {
+      "error": "Adresy se nepodařilo načíst",
+      "title": {
+        "default": "Vyberte peněženky, které chcete importovat",
+        "error": "Při importu peněženek došlo k chybě"
+      }
+    },
+    "termsOfService": "Pokračováním souhlasím s<highlightTerms> Smluvními podmínkami </highlightTerms>a souhlasím se<highlightPrivacy> Zásadami ochrany osobních údajů</highlightPrivacy>",
+    "tooltip": {
+      "recoveryPhrase": {
+        "trigger": "Co je to obnovovací fráze?"
+      }
+    },
+    "wallet": {
+      "continue": "Nechme to v bezpečí",
+      "defaultName": "Peněženka {{number}}",
+      "description": {
+        "full": "Toto je váš osobní prostor pro tokeny, NFT a všechny vaše obchody. Dokončete nastavení, aby byly vaše prostředky v bezpečí."
+      },
+      "title": "Vítejte ve své nové peněžence"
+    }
+  },
+  "outageBanner": {
+    "message": {
+      "sub": "Stále můžete swapovat a poskytovat likviditu na tomto řetězci bez problémů."
+    },
+    "title": "{{versionName}} se brzy vrátí"
+  },
+  "permit": {
+    "approval": {
+      "fail": {
+        "message": "Permit2 umožňuje sdílení a správu tokenů napříč různými aplikacemi."
+      }
+    }
+  },
+  "pool": {
+    "activePositions": {
+      "appear": "Zde se zobrazí vaše aktivní pozice likvidity V3."
+    },
+    "activeRange": "Aktivní rozsah klíšťat",
+    "addAs": "Přidat jako {{nativeWrappedSymbol}}",
+    "addLiquidity": {
+      "seoTitle": "Přidejte likviditu na {{tokenPair}} ({{chain}}) na Uniswapu"
+    },
+    "addMoreLiquidity": "Přidejte více likvidity",
+    "apr": {
+      "description": "Anualizováno na základě poplatků za 1 den"
+    },
+    "areCreating": "Vytváříte bazén",
+    "areFirst": "Jste prvním poskytovatelem likvidity.",
+    "back": "Zpět k bazénu",
+    "balances": "Bazénové zůstatky",
+    "closedCTA": {
+      "description": "Můžete je zobrazit pomocí filtru v horní části stránky.",
+      "title": "Hledáte své uzavřené pozice?"
+    },
+    "collectAs": "Sbírejte jako {{nativeWrappedSymbol}}",
+    "collected": " Shromážděno",
+    "collectFees": "Vybírat poplatky",
+    "collecting": "Sbírání",
+    "collectingFeesWithdraw": "Výběr poplatků za vás stáhne aktuálně dostupné poplatky.",
+    "confirmSupply": "Potvrďte dodávku",
+    "connection": {
+      "networkUnsupported": "Vaše připojená síť není podporována."
+    },
+    "create": {
+      "info": "Vaše volby vytvoří nový fond likvidity, který může mít za následek nižší počáteční likviditu a zvýšenou volatilitu. Zvažte přidání do stávajícího fondu, abyste tato rizika minimalizovali.",
+      "pair": "Vytvořte pár"
+    },
+    "createAndSupply": "Vytvořte bazén a zásobu",
+    "createdPosition": {
+      "cancelled": "Vytvoření pozice zrušeno",
+      "failed": "Vytvoření pozice se nezdařilo"
+    },
+    "depositAmounts": "Částky vkladů",
+    "earnFees": "Přidáním likvidity získáte 0,3 % ze všech obchodů na tomto páru úměrně vašemu podílu na poolu. Poplatky se přičítají do fondu, narůstají v reálném čase a lze je nárokovat stažením likvidity.",
+    "estimatePercentToRevert": "Výkon se odhaduje. Pokud se cena změní o více než {{allowed}}% vaše transakce se vrátí zpět.",
+    "explorers": "Průzkumníci",
+    "exporeAnalytics": "Prozkoumejte Uniswap Analytics.",
+    "hideClosed": "Skryjte uzavřené pozice",
+    "import": {
+      "link": {
+        "description": "Některé pozice v2 se nezobrazují automaticky."
+      },
+      "positions": {
+        "v2": {
+          "selectPair": {
+            "description": "Některé pozice v2 se nezobrazují automaticky. Vyberte pár tokenů, který chcete importovat a zobrazit své pozice."
+          }
+        }
+      },
+      "success": "Bazén importován"
+    },
+    "increaseLiquidity": "Zvyšte likviditu",
+    "info": "Informace o bazénu",
+    "initialShare": "Počáteční ceny a podíl v bazénu",
+    "learn": "Učit se",
+    "learnAbout": "Přečtěte si více o poskytování likvidity",
+    "learnLiquidity": "Přečtěte si o poskytování likvidity",
+    "learnv3LP": "Podívejte se na náš průvodce v3 LP a průvodce migrací.",
+    "limitFluctuation": {
+      "warning": "Mějte prosím na paměti, že plnění limitů se může lišit v závislosti na fluktuacích trhu v reálném čase a přetížení sítě Ethereum. Limity se nemusí splnit přesně, když tokeny dosáhnou zadané ceny."
+    },
+    "liquidity": {
+      "connectToAdd": "Připojte se k peněžence a zobrazte svou likviditu.",
+      "data": {
+        "error": {
+          "message": "Při načítání dat požadovaných pro vaši transakci došlo k chybě."
+        }
+      },
+      "earn": {
+        "fee": "Poskytovatelé likvidity vydělávají 0,3% poplatek za všechny obchody úměrný jejich podílu na poolu. Poplatky se přičítají do fondu, narůstají v reálném čase a lze je nárokovat stažením likvidity."
+      },
+      "outOfSync": {
+        "message": "Ceny v tomto fondu se liší podle tržních cen vybraných tokenů. Upravte odpovídajícím způsobem své cenové rozpětí nebo počkejte, až se fond vyrovná, abyste předešli ztrátám."
+      },
+      "ownershipWarning": {
+        "message": "Nejste vlastníkem této pozice LP. Nebudete moci vybrat likviditu z této pozice, pokud nevlastníte následující adresu: {{ownerAddress}}"
+      },
+      "rewards": "Odměny poskytovatele likvidity",
+      "taxWarning": {
+        "message": "Jeden nebo více těchto tokenů má daně z převodů. Přidání likvidity pomocí V3 může vést ke ztrátě finančních prostředků. Zkuste místo toho použít V2."
+      }
+    },
+    "liquidityPoolFeesNotice": "Když přidáte likviditu, obdržíte žetony fondu představující vaši pozici. Tyto tokeny automaticky získávají poplatky úměrné vašemu podílu na fondu a lze je kdykoli uplatnit.",
+    "manageRewardsLiquidity": "Spravujte likviditu ve fondu odměn",
+    "max": {
+      "label": "Max:"
+    },
+    "maxPrice": "Max cena",
+    "migrateLiquidity": "Migrujte likviditu",
+    "migrateLiquidityDisabledTooltip": "Tento řetězec nepodporuje fondy likvidity v4.",
+    "migrateToV4": "Migrujte na v4",
+    "min": {
+      "label": "min:"
+    },
+    "minPrice": "Cena min",
+    "mustBeInitialized": "Tento fond musí být inicializován, než budete moci přidat likviditu. Pro inicializaci vyberte počáteční cenu fondu. Poté zadejte své cenové rozpětí likvidity a částku vkladu. Poplatky za plyn budou kvůli inicializační transakci vyšší než obvykle.",
+    "newPosition": {
+      "plus": "+ Nová pozice",
+      "title": "Nová pozice"
+    },
+    "newSpecificPosition": "Nová pozice {{symbol}}",
+    "noLiquidity": "Nebyla nalezena žádná likvidita.",
+    "onceHappyReview": "Jakmile budete se sazbou spokojeni, klikněte na nabídku a zkontrolujte ji.",
+    "openPosition": {
+      "cta": "Přidejte likviditu do poolu a prohlédněte si své pozice zde"
+    },
+    "openToStart": "Začněte otevřením nové pozice nebo vytvořením fondu.",
+    "owner": "Majitel",
+    "percent": "{{pct}}% fondu",
+    "pooled": "Sdruženo {{sym}}:",
+    "position": {
+      "100": {
+        "at": "Vaše pozice bude za tuto cenu 100 % {{symbol}} ."
+      },
+      "networkConnect": "Chcete-li zobrazit pozici, musíte být připojeni k síti, do které patří.",
+      "willBe100": "Vaše pozice bude za tuto cenu 100% složena z {{sym}}"
+    },
+    "positions": {
+      "title": "Vaše pozice",
+      "transaction": {
+        "settings": "Nastavení transakcí"
+      },
+      "usdValueUnavailable": {
+        "tooltip": "Hodnota v USD je pro tuto pozici momentálně nedostupná. Pro vložené částky tokenů viz podrobnosti o pozici."
+      }
+    },
+    "priceRange": "Cenové rozpětí",
+    "rangeBadge": {
+      "tooltip": {
+        "outsideRange": "Cena tohoto bazénu je mimo vámi vybraný rozsah. Vaše pozice aktuálně nevydělává poplatky.",
+        "text": "Vaše pozice má nulovou likviditu a nevydělává poplatky.",
+        "withinRange": "Cena tohoto bazénu je ve vámi zvoleném rozmezí. Vaše pozice aktuálně vydělává poplatky."
+      }
+    },
+    "rates": "Sazby",
+    "ratioTokenToPrice": "Poměr žetonů, které přidáte, určí cenu tohoto fondu.",
+    "refresh": {
+      "prices": "Obnovit ceny"
+    },
+    "removeLiquidity": "Odstraňte likviditu",
+    "rewardsPool": {
+      "label": "Žetony fondu ve fondu odměn:"
+    },
+    "selectedRange": "Vybraný rozsah",
+    "selectPair": "Vyberte pár",
+    "share": {
+      "label": "Váš podíl na bazénu:"
+    },
+    "shareOf": "Podíl fondu:",
+    "showClosed": "Zobrazit uzavřené pozice",
+    "specificPosition": "{{symbol}} pozici",
+    "startingPrice": "Od {{sym}} Cena:",
+    "supply": "Zásobování",
+    "supplyingMaths": "Dodáváme {{amtA}} {{symA}} a {{amtB}} {{symB}}",
+    "tokenPair": "Tokenový pár",
+    "top": {
+      "tvl": "Nejlepší bazény podle TVL"
+    },
+    "totalTokens": "Vaše celkové žetony fondu:",
+    "uncollectedFees": "Nevybrané poplatky",
+    "v2": {
+      "add": "Přidejte likviditu V2",
+      "migratev3": "Migrujte likviditu do V3"
+    },
+    "v2liquidity": "Likvidita V2",
+    "v3": "v3 bazény",
+    "v4": "v4 bazény",
+    "viewUncollectedFees": "Prohlédněte si nevybrané poplatky a analýzy",
+    "volOverTvl": "1D obj./TVL",
+    "volume": {
+      "thirtyDay": {
+        "short": "30D sv"
+      }
+    },
+    "withdrawAs": "Odeberte jako {{nativeWrappedSymbol}}",
+    "yourv2": "Vaše likvidita V2"
+  },
+  "poolFinder": {
+    "availablePools": {
+      "found": {
+        "description": "v2 bazény odpovídající vašemu výběru páru."
+      },
+      "notFound": {
+        "description": "Nebyly nalezeny žádné odpovídající fondy v2. Znovu zkontrolujte výběr tokenu a ujistěte se, že jste připojeni ke správné peněžence."
+      }
+    }
+  },
+  "pools": {
+    "approving": {
+      "amount": "Schvalování {{amount}}"
+    },
+    "explore": "Prozkoumejte bazény"
+  },
+  "position": {
+    "addHook": {
+      "tooltip": "Háky jsou pokročilou funkcí, která umožňuje fondům komunikovat s chytrými smlouvami a odemykat různé možnosti. Při přidávání háčků buďte opatrní, protože některé mohou být škodlivé nebo způsobit nezamýšlené následky."
+    },
+    "addingHook": {
+      "disclaimer": "Přidání háčků může mít nezamýšlené následky. Proveďte svůj výzkum a pokračujte na vlastní nebezpečí.",
+      "hideProperties": "Skrýt vlastnosti",
+      "invalidAddress": "Zadejte platnou adresu zavěšení",
+      "viewProperties": "Zobrazit vlastnosti"
+    },
+    "appearHere": "Zde se zobrazí vaše pozice.",
+    "create": {
+      "invalidPrice": "Neplatná cena",
+      "invalidRange": "Neplatný rozsah",
+      "modal": {
+        "header": "Vytváření pozice"
+      }
+    },
+    "currentValue": "Hodnota aktuální pozice",
+    "deposit": {
+      "description": "Uveďte symbolické částky pro váš příspěvek likvidity."
+    },
+    "depositedCurrency": "Vloženo {{currencySymbol}}",
+    "hook": {
+      "disclaimer": "Chápu potenciální rizika spojená s přidáním tohoto háčku.",
+      "donateWarning": "Tento příznak může vést ke změnám získaných poplatků.",
+      "liquidityWarning": "Tento příznak může způsobit, že fond zablokuje přidávání nové likvidity. Vaše transakce se může vrátit.",
+      "removeWarning": "Může způsobit uzamčení vašich prostředků nebo blokování vybírání poplatků.",
+      "swapWarning": "Tento příznak může poskytovatelům likvidity umožnit snadněji využívat likviditu Just-In-Time, což může vést k nižším získaným poplatkům.",
+      "warningHeader": "Důležité: Zjištěna rizika háčků",
+      "warningInfo": "Identifikovali jsme potenciální rizika s tímto hákem. Než se rozhodnete pokračovat, ujistěte se, že rozumíte tomu, jak tento háček funguje."
+    },
+    "initialPrice": {
+      "info": "Nastavte počáteční směnný kurz mezi dvěma tokeny, které poskytujete."
+    },
+    "migrate": {
+      "liquidity": "Při migraci pozic nemůžete změnit svůj pár tokenů, ale můžete přidat háček pro vylepšení funkčnosti.",
+      "v4unsupportedChain": "Tento řetězec není podporován pro fondy v4."
+    },
+    "new": {
+      "protocol": "Nová pozice {{protocol}}"
+    },
+    "noLiquidity": "Údaje o likviditě nejsou k dispozici.",
+    "noLiquidityData": "Neexistují žádné údaje o likviditě.",
+    "notFound": {
+      "description": "Podrobnosti o této pozici nejsou k dispozici. Zkontrolujte, zda jste připojeni ke správné peněžence."
+    },
+    "protocol": "{{protocol}} pozici",
+    "provide": {
+      "liquidity": "Vyberte tokeny, pro které chcete poskytnout likviditu. Tokeny můžete vybrat ve všech podporovaných sítích.",
+      "liquidityDescription": {
+        "custom": "Vlastní rozsah vám umožňuje soustředit vaši likviditu v rámci konkrétních cenových hranic, čímž se zvyšuje kapitálová efektivita a výnosy z poplatků, ale vyžaduje se aktivnější správa."
+      }
+    },
+    "removeHook": "Odstraňte háček",
+    "resetDescription": "Vaše výběry tokenů, ceny a rozsahu budou resetovány.",
+    "setRange": {
+      "inputsBelow": "Pomocí níže uvedených vstupů nastavte svůj rozsah."
+    },
+    "step": {
+      "deposit": "Zadejte částky vkladu",
+      "price": "Nastavte počáteční cenu",
+      "range": "Nastavit cenové rozpětí",
+      "select": "Vyberte pár tokenů a poplatky"
+    },
+    "value": "Hodnota pozice",
+    "valueUnavailable": "Hodnota v USD je pro tuto pozici momentálně nedostupná. Pro vložené částky tokenů viz podrobnosti o pozici.",
+    "your": "Tvoje pozice"
+  },
+  "positions": {
+    "welcome": {
+      "connect": "Připojte svou peněženku, abyste viděli své aktuální pozice."
+    }
+  },
+  "privacy": {
+    "anonymizedLogs": "Aplikace zaznamenává anonymizované statistiky používání, aby se postupem času zlepšovala.",
+    "autoRouter": "Aplikace načte optimální obchodní cestu ze serveru Uniswap Labs.",
+    "infura": "Aplikace načítá data v řetězci a vytváří smluvní volání pomocí Infura API.",
+    "thirdPartyApis": "Tato aplikace používá následující rozhraní API třetích stran:",
+    "trm": "Aplikace bezpečně shromažďuje adresu vaší peněženky a sdílí ji s TRM Labs Inc. z důvodu rizika a dodržování předpisů.",
+    "uniswaptos": "Podmínky služby Uniswap Labs"
+  },
+  "qrScanner": {
+    "button": {
+      "connections_one": "1 připojená aplikace",
+      "connections_other": "{{count}} připojených aplikací"
+    },
+    "error": {
+      "camera": {
+        "message": "Chcete-li naskenovat kód, povolte v nastavení systému přístup k fotoaparátu",
+        "title": "Kamera je deaktivována"
+      },
+      "none": "Nebyl nalezen žádný QR kód"
+    },
+    "recipient": {
+      "action": {
+        "scan": "Naskenujte QR kód",
+        "show": "Ukaž můj QR kód"
+      },
+      "error": {
+        "message": "Než to zkusíte znovu, ujistěte se, že skenujete platný QR kód adresy Ethereum.",
+        "title": "Neplatný QR kód"
+      }
+    },
+    "request": {
+      "message": {
+        "unavailable": "Nebyla nalezena žádná zpráva."
+      },
+      "method": {
+        "default": "Žádost od {{dappNameOrUrl}}",
+        "signature": "Žádost o podpis od {{dappNameOrUrl}}",
+        "transaction": "Žádost o transakci od {{dappNameOrUrl}}"
+      },
+      "withAmount": "Povolit {{dappName}} použít až<highlight> {{amount}} </highlight>{{currencySymbol}}?",
+      "withoutAmount": "Povolit {{dappName}} používat vaše {{currencySymbol}}?"
+    },
+    "status": {
+      "connecting": "Spojovací...",
+      "loading": "Načítání..."
+    },
+    "title": "Naskenujte QR kód",
+    "wallet": {
+      "networks": "Podporované sítě",
+      "title": "Můžete odesílat a přijímat tokeny a NFT ve všech našich {{numOfNetworks}} podporovaných sítích."
+    }
+  },
+  "range": {
+    "outOfView": "Rozsah mimo dohled"
+  },
+  "removeLiquidity": {
+    "collectFees": "Budete také vybírat poplatky získané z této pozice.",
+    "outputEstimated": "Výkon se odhaduje. Pokud se cena změní o více než {{allowed}}% vaše transakce se vrátí zpět.",
+    "pendingText": "Odebírání {{amtA}} {{symA}} a {{amtB}} {{symB}}",
+    "pooled": "Sdruženo {{symbol}}:",
+    "removing": "Odebírání {{amt1}} {{symbol1}} a {{amt2}} {{symbol2}}",
+    "removingTokensTip": "Tip: Odebráním tokenů fondu převedete vaši pozici zpět na podkladové tokeny aktuálním tempem, úměrným vašemu podílu na fondu. Nevybrané poplatky jsou zahrnuty v částkách, které obdržíte.",
+    "uniBurned": "UNI {{a}}/{{b}} Spáleno"
+  },
+  "revoke": {
+    "failed": {
+      "message": "To poskytuje přístup protokolu Uniswap k vašemu tokenu pro obchodování."
+    }
+  },
+  "routing": {
+    "aggregateLiquidity": "Jsou-li k dispozici, agreguje zdroje likvidity za lepší ceny a swapy bez plynu.",
+    "cheapest": {
+      "v4": "Klient Uniswap vybere optimální obchodní variantu s ohledem na cenu a síťové náklady."
+    }
+  },
+  "scantastic": {
+    "code": {
+      "expired": "Platnost vypršela",
+      "subtitle": "Zadejte tento kód do rozšíření Uniswap. Vaše fráze pro obnovení bude bezpečně zašifrována a přenesena.",
+      "timeRemaining": {
+        "shorthand": {
+          "hours": "Nový kód za {{hours}}h {{minutes}}m {{seconds}}s",
+          "minutes": "Nový kód za {{minutes}}m {{seconds}}s",
+          "seconds": "Nový kód za {{seconds}}s"
+        }
+      },
+      "title": "Uniswap jednorázový kód"
+    },
+    "confirmation": {
+      "button": {
+        "continue": "Ano, pokračovat"
+      },
+      "label": {
+        "browser": "Prohlížeč",
+        "device": "přístroj"
+      },
+      "subtitle": "Pokračujte pouze v případě, že skenujete QR kód z Uniswap Extension na důvěryhodném zařízení.",
+      "title": "Pokoušíte se importovat svou peněženku?",
+      "warning": "Dejte si pozor na weby a aplikace vydávající se za Uniswap. Jinak může být ohrožena vaše peněženka."
+    },
+    "error": {
+      "encryption": "Nepodařilo se připravit počáteční frázi.",
+      "noCode": "Nebylo přijato žádné OTP. Prosím zkuste to znovu.",
+      "timeout": {
+        "message": "Znovu naskenujte QR kód na Uniswap Extension a pokračujte v synchronizaci vaší peněženky.",
+        "title": "Vypršel časový limit vašeho připojení"
+      }
+    },
+    "modal": {
+      "ipMismatch": {
+        "description": "Pro naskenování tohoto QR kódu musí být váš telefon připojen ke stejné WiFi síti jako váš počítač a všechny VPN by měly být dočasně vypnuty.",
+        "title": "Přepněte svou WiFi síť"
+      }
+    }
+  },
+  "search": {
+    "chainComing": "Již brzy: hledejte a prozkoumávejte žetony v řetězci {{chainName}}",
+    "results": {
+      "count_one": "1 položka",
+      "count_other": "{{count}} položek"
+    },
+    "ukDisclaimer": "Zřeknutí se odpovědnosti pro obyvatele Spojeného království"
+  },
+  "send": {
+    "button": {
+      "review": "Zkontrolujte přenos"
+    },
+    "gas": {
+      "error": {
+        "title": "N/A"
+      },
+      "networkCost": {
+        "title": "Náklady na síť"
+      }
+    },
+    "input": {
+      "token": {
+        "balance": {
+          "title": "Zůstatek: {{balance}} {{symbol}}"
+        }
+      }
+    },
+    "recipient": {
+      "header": "Vyberte příjemce",
+      "input": {
+        "placeholder": "Vyhledejte ENS nebo adresu"
+      },
+      "previous_one": "1 předchozí převod",
+      "previous_other": "{{count}} předchozí převody",
+      "results": {
+        "empty": "Nebyly nalezeny žádné výsledky",
+        "error": "Adresa, kterou jste zadali, buď neexistuje, nebo je napsána špatně."
+      },
+      "section": {
+        "favorite": "Oblíbené peněženky",
+        "recent": "Nedávné",
+        "search": "Výsledky vyhledávání",
+        "viewOnly": "Peněženky pouze pro prohlížení",
+        "yours": "Vaše peněženky"
+      },
+      "warning": {
+        "viewOnly": {
+          "message": "Do této peněženky posílejte prostředky pouze v případě, že máte frázi pro obnovení nebo znáte vlastníka peněženky.",
+          "title": "Máte to jako peněženku pouze pro prohlížení"
+        }
+      }
+    },
+    "recipientSelect": {
+      "search": {
+        "empty": {
+          "message": "Když odešlete tokeny na adresu peněženky, zobrazí se zde",
+          "title": "Nejsou uloženy žádné peněženky"
+        }
+      }
+    },
+    "review": {
+      "modal": {
+        "title": "Ty posíláš"
+      },
+      "summary": {
+        "button": {
+          "title": "Potvrďte odeslání"
+        }
+      }
+    },
+    "search": {
+      "empty": {
+        "subtitle": "Adresa, kterou jste zadali, buď neexistuje, nebo je napsána špatně.",
+        "title": "Nebyly nalezeny žádné výsledky"
+      },
+      "placeholder": "Vyhledejte ENS nebo adresu"
+    },
+    "title": "Poslat",
+    "warning": {
+      "blocked": {
+        "default": "Tato peněženka je zablokovaná",
+        "modal": {
+          "message": "Tato adresa je na Uniswap Wallet blokována, protože je spojena s jednou nebo více zablokovanými aktivitami. Pokud se domníváte, že se jedná o chybu, zašlete e-mail na adresu compliance@uniswap.org.",
+          "title": "Blokovaná adresa"
+        },
+        "recipient": "Peněženka příjemce je zablokována"
+      },
+      "erc20": {
+        "message": "Pokoušíte se poslat prostředky na tokenovou adresu. Odeslání kryptoměn na tento typ adresy může mít za následek trvalou ztrátu finančních prostředků.",
+        "title": "Toto je tokenová adresa"
+      },
+      "insufficientFunds": {
+        "message": "Váš zůstatek {{currencySymbol}} se snížil, protože jste zadali částku, kterou chcete poslat",
+        "title": "Nestačí {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "message": {
+          "withNetwork": "Nedostatek <highlight>{{currencySymbol}} na {{networkName}}</highlight> k odeslání",
+          "withoutNetwork": "Nedostatek <highlight>{{currencySymbol}}</highlight> k odeslání"
+        }
+      },
+      "modal": {
+        "button": {
+          "cta": {
+            "blocking": "OK",
+            "cancel": "zrušení",
+            "confirm": "Potvrdit"
+          }
+        }
+      },
+      "newAddress": {
+        "details": {
+          "ENS": "ENS",
+          "username": "Uživatelské jméno",
+          "walletAddress": "Adresa peněženky"
+        },
+        "message": "S touto adresou jste dosud neprováděli žádné transakce. Než budete pokračovat, potvrďte, že je adresa správná.",
+        "title": "Nová adresa"
+      },
+      "restore": "Obnovte svou peněženku k odeslání",
+      "self": {
+        "message": "Pokoušíte se poslat peníze do své aktuální peněženky. Odesláním kryptoměny na tuto adresu vzniknou zbytečné síťové náklady.",
+        "title": "Toto je vaše aktuální peněženka"
+      },
+      "smartContract": {
+        "message": "Chystáte se odeslat tokeny na speciální typ adresy – inteligentní smlouvu. Znovu zkontrolujte, zda se jedná o adresu, na kterou chcete odeslat. Pokud je to špatně, vaše žetony mohou být navždy ztraceny.",
+        "title": "Je to adresa peněženky?"
+      },
+      "viewOnly": {
+        "message": "Chcete-li odeslat aktiva, musíte tuto peněženku importovat pomocí fráze pro obnovení.",
+        "title": "Tato peněženka je pouze pro prohlížení"
+      }
+    }
+  },
+  "sendRecipientForm": {
+    "recentAddresses": {
+      "label": "Nedávné"
+    }
+  },
+  "sendReviewModal": {
+    "title": "Odeslat recenzi"
+  },
+  "setting": {
+    "recoveryPhrase": {
+      "account": {
+        "show": "Zobrazit frázi pro obnovení"
+      },
+      "action": {
+        "hide": "Skrýt frázi pro obnovení"
+      },
+      "remove": {
+        "confirm": {
+          "subtitle": "Chápu, že Uniswap Labs mi nemůže pomoci obnovit moji peněženku, pokud tak neučiním.",
+          "title": "Uložil jsem si frázi pro obnovení"
+        },
+        "initial": {
+          "subtitle": "Ujistěte se, že jste si uložili frázi pro obnovení. Jinak ztratíte přístup ke svým peněženkám",
+          "title": "Než budete pokračovat"
+        },
+        "password": {
+          "error": "Špatné heslo. Zkus to znovu"
+        },
+        "subtitle": "Pro potvrzení zadejte své heslo",
+        "title": "Odstraňujete frázi pro obnovení "
+      },
+      "title": "Vaše obnovovací fráze",
+      "view": {
+        "warning": {
+          "message1": "Kdokoli, kdo zná vaši frázi pro obnovení, má přístup k vaší peněžence a finančním prostředkům",
+          "message2": "Zobrazit toto v soukromí",
+          "message3": "S nikým nesdílejte",
+          "message4": "Nikdy jej nezadávejte na žádné webové stránky nebo aplikace",
+          "title": "Než budete pokračovat"
+        }
+      },
+      "warning": {
+        "screenshot": {
+          "message": "Kdokoli, kdo získá přístup k vašim fotografiím, má přístup k vaší peněžence. Doporučujeme, abyste si svá slova zapsali.",
+          "title": "Snímky obrazovky nejsou zabezpečené"
+        },
+        "view": {
+          "message": "Kdokoli, kdo zná vaši frázi pro obnovení, má přístup k vaší peněžence a finančním prostředkům.",
+          "title": "Zobrazit na soukromém místě"
+        }
+      }
+    }
+  },
+  "settings": {
+    "action": {
+      "enableInSettings": "Povolit v Nastavení",
+      "feedback": "Sdílejte zpětnou vazbu",
+      "help": "Získejte pomoc",
+      "lock": "Zamknout peněženku",
+      "privacy": "Zásady ochrany osobních údajů",
+      "terms": "Podmínky služby"
+    },
+    "footer": "Vyrobeno s láskou, \nUniswap Team 🦄",
+    "hideSmallBalances": "Skryjte malé zůstatky",
+    "maxSlippage": "Max. uklouznutí",
+    "screen": {
+      "appearance": {
+        "title": "Vzhled"
+      }
+    },
+    "section": {
+      "about": "O",
+      "preferences": "Předvolby",
+      "security": "Bezpečnostní",
+      "support": "Podpěra, podpora",
+      "wallet": {
+        "button": {
+          "viewAll": "Zobrazit vše",
+          "viewLess": "Zobrazit méně"
+        },
+        "label": {
+          "viewOnly": "Pouze zobrazení"
+        },
+        "title": "Nastavení peněženky"
+      }
+    },
+    "setting": {
+      "appearance": {
+        "option": {
+          "auto": "Auto",
+          "dark": {
+            "subtitle": "Vždy používejte tmavý režim",
+            "title": "Tmavý režim"
+          },
+          "device": {
+            "subtitle": "Výchozí pro vzhled vašeho zařízení",
+            "title": "Nastavení zařízení"
+          },
+          "light": {
+            "subtitle": "Vždy používejte světelný režim",
+            "title": "Světelný režim"
+          }
+        },
+        "title": "Vzhled"
+      },
+      "backup": {
+        "create": {
+          "description": "Nastavením hesla zašifrujete zálohu fráze pro obnovení a přidáte další úroveň ochrany, pokud bude váš účet {{cloudProviderName}} někdy kompromitován.",
+          "title": "Zálohujte na {{cloudProviderName}}"
+        },
+        "delete": {
+          "confirm": {
+            "message": "Protože tyto peněženky sdílejí frázi pro obnovení, odstraní také zálohy těchto peněženek níže",
+            "title": "Jsi si jistá?"
+          },
+          "warning": "Pokud smažete zálohu {{cloudProviderName}} , budete moci obnovit svou peněženku pouze pomocí ruční zálohy vaší fráze pro obnovení. Uniswap Labs nemůže obnovit vaše aktiva, pokud ztratíte frázi pro obnovení."
+        },
+        "error": {
+          "message": {
+            "full": "Nelze zálohovat frázi pro obnovení na {{cloudProviderName}}. Ujistěte se, že máte povoleno {{cloudProviderName}} s dostupným úložným prostorem, a zkuste to znovu.",
+            "short": "Zálohu nelze smazat"
+          },
+          "title": "{{cloudProviderName}} chyba"
+        },
+        "modal": {
+          "description": "Dosud jste nezálohovali svou frázi pro obnovení do {{cloudProviderName}} . Tímto způsobem můžete obnovit svou peněženku pouhým přihlášením do {{cloudProviderName}} na jakémkoli zařízení.",
+          "title": "Zálohovat frázi pro obnovení na {{cloudProviderName}}?"
+        },
+        "password": {
+          "error": {
+            "mismatch": "Hesla se neshodují"
+          },
+          "medium": "Toto je střední heslo",
+          "placeholder": {
+            "confirm": "Potvrďte heslo",
+            "create": "Vytvořit heslo"
+          },
+          "strong": "Toto je silné heslo",
+          "weak": "Toto je slabé heslo"
+        },
+        "recoveryPhrase": {
+          "label": "Fráze obnovy"
+        },
+        "selected": "{{cloudProviderName}} záloha",
+        "status": {
+          "action": {
+            "delete": "Smazat zálohu"
+          },
+          "complete": "Zálohováno na {{cloudProviderName}}",
+          "description": "Když si svou frázi pro obnovení zálohujete na {{cloudProviderName}}, můžete obnovit svou peněženku pouhým přihlášením ke svému účtu {{cloudProviderName}} na jakémkoli zařízení.",
+          "inProgress": "Zálohování do {{cloudProviderName}}...",
+          "recoveryPhrase": {
+            "backed": "Zálohovaný"
+          },
+          "title": "{{cloudProviderName}} záloha"
+        }
+      },
+      "beta": {
+        "tooltip": "Již brzy"
+      },
+      "biometrics": {
+        "appAccess": {
+          "subtitle": {
+            "android": "Vyžadovat biometrické údaje k otevření aplikace",
+            "ios": "Vyžadovat {{biometricsMethod}} k otevření aplikace"
+          },
+          "title": "Přístup k aplikaci"
+        },
+        "auth": "Prosím o ověření",
+        "off": {
+          "message": {
+            "android": "Biometrie je momentálně pro Uniswap Wallet vypnutá – můžete ji zapnout v nastavení systému.",
+            "ios": "{{biometricsMethod}} je aktuálně vypnuto pro Uniswap Wallet – můžete ji zapnout v nastavení systému."
+          },
+          "title": {
+            "android": "Biometrie je vypnutá",
+            "ios": "{{biometricsMethod}} je vypnuto"
+          }
+        },
+        "title": "Biometrie",
+        "transactions": {
+          "subtitle": {
+            "android": "K transakci vyžadovat biometrické údaje",
+            "ios": "K transakci vyžadovat {{biometricsMethod}}"
+          },
+          "title": "Transakce"
+        },
+        "unavailable": {
+          "message": {
+            "android": "Ve vašem zařízení není nastavena biometrie. Chcete-li používat biometrii, nejprve ji nastavte v Nastavení.",
+            "ios": "{{biometricsMethod}} není ve vašem zařízení nastaveno. Chcete-li používat {{biometricsMethod}}, nejprve jej nastavte v Nastavení."
+          },
+          "title": {
+            "android": "Biometrie není nastavena",
+            "ios": "{{biometricsMethod}} není nastaveno"
+          }
+        },
+        "warning": {
+          "message": {
+            "android": "Pokud nezapnete biometrii, kdokoli, kdo získá přístup k vašemu zařízení, může otevřít Uniswap Wallet a provádět transakce.",
+            "ios": "Pokud nezapnete {{biometricsMethod}}, kdokoli, kdo získá přístup k vašemu zařízení, může otevřít Uniswap Wallet a provádět transakce."
+          },
+          "title": "Jsi si jistá?"
+        }
+      },
+      "connections": {
+        "disconnectAll": "Odpojit vše",
+        "noConnectionsDescription": "Připojte se k aplikaci vyhledáním tlačítka „Připojit peněženku“ nebo „Přihlásit se“."
+      },
+      "currency": {
+        "title": "Místní měna"
+      },
+      "hapticTouch": {
+        "title": "Haptický dotek"
+      },
+      "helpCenter": {
+        "title": "Centrum nápovědy"
+      },
+      "language": {
+        "button": {
+          "navigate": "Jdi do nastavení"
+        },
+        "description": {
+          "extension": "Uniswap výchozí nastavení jazyka vašeho systému. Chcete-li změnit preferovaný jazyk, přejděte do nastavení systému.",
+          "mobile": "Uniswap výchozí nastavení jazyka vašeho zařízení. Chcete-li změnit preferovaný jazyk, přejděte v nastavení zařízení na „Uniswap“ a klepněte na „Jazyk“."
+        },
+        "title": "Jazyk"
+      },
+      "notifications": {
+        "row": {
+          "activity": {
+            "description": "Převody, požadavky a další aktivity",
+            "title": "Aktivita peněženky"
+          },
+          "priceAlerts": {
+            "description": "Velké změny cen za oblíbené tokeny",
+            "title": "Upozornění na cenu"
+          },
+          "updates": {
+            "description": "Doporučení a nové funkce",
+            "title": "Aktualizace z Uniswapu"
+          }
+        },
+        "title": "Oznámení"
+      },
+      "password": {
+        "title": "Změnit heslo"
+      },
+      "privacy": {
+        "analytics": {
+          "description": "Anonymní údaje o používání používáme k vylepšení vašich zkušeností s produkty Uniswap Labs. Když je zakázáno, sledujeme pouze chyby a nezbytné použití.",
+          "title": "Povolit analýzu"
+        },
+        "title": "Soukromí"
+      },
+      "recoveryPhrase": {
+        "password": {
+          "title": "Zadejte heslo"
+        },
+        "title": "Fráze obnovy"
+      },
+      "smallBalances": {
+        "title": "Skryjte malé zůstatky"
+      },
+      "unknownTokens": {
+        "title": "Skryjte neznámé tokeny"
+      },
+      "wallet": {
+        "action": {
+          "editLabel": "Upravit štítek",
+          "editProfile": "Upravit profil",
+          "remove": "Odstraňte peněženku"
+        },
+        "connections": {
+          "title": "Spojení"
+        },
+        "editLabel": {
+          "description": "Štítky nejsou veřejné. Jsou uloženy lokálně a jsou viditelné pouze pro vás.",
+          "save": "Uložit změny"
+        },
+        "label": "Přezdívka",
+        "testnetMode": {
+          "description": "To zapíná testovací sítě pro vývojáře, aby mohli vyzkoušet funkce a transakce bez použití skutečných aktiv. Tokeny na testovacích sítích nemají žádnou skutečnou hodnotu.",
+          "title": "Režim Testnet"
+        }
+      }
+    },
+    "switchNetwork": {
+      "warning": "Chcete-li používat Uniswap na {{label}}, přepněte síť v nastavení peněženky."
+    },
+    "title": "Nastavení",
+    "version": "Verze {{appVersion}}"
+  },
+  "speedBump": {
+    "newAddress": {
+      "warning": {
+        "description": "S touto adresou jste dosud neprováděli žádné transakce. Než budete pokračovat, ujistěte se, že se jedná o správnou adresu.",
+        "title": "Nová adresa"
+      }
+    },
+    "smartContractAddress": {
+      "warning": {
+        "description": "Chystáte se odeslat tokeny na speciální typ adresy – smart kontrakt. Znovu zkontrolujte, zda se jedná o adresu, na kterou chcete odeslat. Pokud je to špatně, vaše žetony mohou být navždy ztraceny.",
+        "title": "Je to adresa peněženky?"
+      }
+    }
+  },
+  "stats": {
+    "24fees": "24h poplatky",
+    "24volume": "Hlasitost 24h",
+    "allTimeFees": "Všechny poplatky za LP",
+    "allTimeSwappers": "Swapeři všech časů",
+    "allTimeVolume": "Celoroční objem",
+    "fdv": {
+      "description": "Plně zředěné ocenění (FDV) vypočítá celkovou tržní hodnotu za předpokladu, že všechny tokeny jsou v oběhu."
+    },
+    "marketCap": {
+      "description": "Tržní kapitalizace je celková tržní hodnota obíhající nabídky aktiva."
+    },
+    "tvl": {
+      "description": "Total value locked (TVL) je souhrnná částka aktiv dostupných ve všech fondech likvidity Uniswap v3."
+    },
+    "volume": {
+      "1d": {
+        "description": "Objem za 1 den je množství aktiv, které bylo zobchodováno na Uniswap v3 během posledních 24 hodin.",
+        "short": "1D sv"
+      },
+      "description": "Objem je množství aktiva, které bylo obchodováno na Uniswap v3 během zvoleného časového rámce."
+    }
+  },
+  "swap": {
+    "allow": {
+      "oneTime": "Povolit {{sym}} (jednou)"
+    },
+    "approvalNeeded": "Použití tohoto tokenu vyžaduje schválení. ",
+    "approvalPending": "Čeká se na schválení",
+    "approveAndSubmit": "Schválit a odeslat",
+    "approveAndSwap": "Schválit a vyměnit",
+    "approveInWallet": "Schválit v peněžence",
+    "balance": {
+      "amount": "Zůstatek: {{amount}}"
+    },
+    "bestRoute": {
+      "cost": "Odhaduje se, že nejúčinnější trasa stojí ~{{gasPrice}} nákladů na síť. "
+    },
+    "bridging": {
+      "estimatedTime": "Odhad. čas",
+      "title": "Výměna napříč sítěmi",
+      "warning": {
+        "description": "Přepínáte z {{fromNetwork}} na {{toNetwork}}. Toto je také známé jako \"přemostění\", které přesune vaše tokeny z jedné sítě do druhé."
+      }
+    },
+    "button": {
+      "max": "Max",
+      "review": "Posouzení",
+      "submitting": {
+        "keep": {
+          "open": "Mějte peněženku otevřenou..."
+        }
+      },
+      "swap": "Vyměňte",
+      "swapAnyways": "Každopádně vyměnit",
+      "unwrap": "Rozbalit",
+      "wrap": "Zabalit"
+    },
+    "buy": {
+      "countryModal": {
+        "placeholder": "Vyhledávání podle země nebo regionu"
+      }
+    },
+    "cancel": {
+      "cannotExecute_one": "Váš swap se může provést před zpracováním zrušení. Vaše síťové náklady nelze vrátit. Přejete si pokračovat?",
+      "cannotExecute_other": "Vaše swapy se mohou provést před zpracováním zrušení. Vaše síťové náklady nelze vrátit. Přejete si pokračovat?"
+    },
+    "confirmLimit": "Potvrďte limit",
+    "confirmSwap": "Potvrďte výměnu",
+    "deadline": {
+      "settings": {
+        "title": {
+          "short": "Tx. lhůta"
+        }
+      }
+    },
+    "details": {
+      "feeOnTransfer": {
+        "default": "Token poplatek"
+      },
+      "newQuote": {
+        "input": "Nový vstup",
+        "output": "Nový výstup"
+      },
+      "orderRouting": "Směrování objednávky",
+      "orderRoutingInfo": "Tento swap je směrován přes Across, decentralizovaný protokol, který přesouvá aktiva napříč sítěmi a přitom upřednostňuje bezpečnost, rychlé provedení a nízké ceny.",
+      "poweredBy": "Provozováno na",
+      "rate": "Hodnotit",
+      "slippage": "Maximální prokluz",
+      "uniswapFee": "Poplatek"
+    },
+    "enterAmount": "Zadejte částku {{sym}}",
+    "error": {
+      "default": "Možná budete muset zvýšit toleranci prokluzu. Poznámka: Tokeny poplatků za převod a rebase nejsou kompatibilní s Uniswap V3.",
+      "expectedToFail": "Očekává se, že váš swap selže.",
+      "modifiedByWallet": "Váš swap byl upraven prostřednictvím vaší peněženky. Pokud to byla chyba, okamžitě ji zrušte, jinak riskujete ztrátu svých prostředků.",
+      "rejected": "Transakce zamítnuta",
+      "undefinedObject": "Při pokusu o provedení tohoto swapu došlo k chybě. Možná budete muset zvýšit toleranci prokluzu. Pokud to nefunguje, může dojít k nekompatibilitě s tokenem, který obchodujete. Poznámka: Tokeny poplatků za převod a rebase nejsou kompatibilní s Uniswap V3.",
+      "unknown": "Neznámá chyba.",
+      "v2": {
+        "expired": "Tuto transakci nebylo možné odeslat, protože vypršel termín. Zkontrolujte prosím, zda váš termín transakce není příliš krátký.",
+        "k": "Uniswapový invariant x*y=k nebyl splněn swapem. To obvykle znamená, že jeden z tokenů, které vyměňujete, zahrnuje vlastní chování při přenosu.",
+        "slippage": "Tato transakce nebude úspěšná ani kvůli pohybu ceny, ani poplatku za převod. Zkuste zvýšit toleranci prokluzu",
+        "transferInput": "Vstupní token nelze přenést. Může být problém se vstupním tokenem.",
+        "transferOutput": "Výstupní token nelze přenést. Může být problém s výstupním tokenem."
+      },
+      "v3": {
+        "slippage": "Tato transakce nebude úspěšná kvůli pohybu cen. Zkuste zvýšit toleranci prokluzu. Poznámka: Poplatky za převod a rebase tokeny nejsou kompatibilní s Uniswap V3.",
+        "transferOutput": "Výstupní token nelze přenést. Může být problém s výstupním tokenem. Poznámka: Poplatky za převod a rebase tokeny nejsou kompatibilní s Uniswap V3."
+      }
+    },
+    "estimatedDifference": {
+      "label": "Mezi vašimi vstupními a výstupními hodnotami bude velký rozdíl kvůli aktuální likviditě."
+    },
+    "fail": {
+      "message": "Zkuste upravit prokluz na vyšší hodnotu.",
+      "uniswapX": "Swap nebylo možné dokončit pomocí UniswapX. Zkuste svůj swap znovu a směrujte jej přes klasické Uniswap API."
+    },
+    "fees": {
+      "experience": "Tento poplatek se vztahuje na některé páry tokenů, aby byla zajištěna nejlepší zkušenost s Uniswap. Je zaplacena ve výstupním tokenu a již byla započítána do cenové nabídky.",
+      "noFee": "Poplatky jsou účtovány na vybrané páry tokenů, aby byla zajištěna nejlepší zkušenost s Uniswap. S touto výměnou není spojen žádný poplatek."
+    },
+    "fetchingBestPrice": "Načítání nejlepší ceny...",
+    "fetchingPrice": "Načítání ceny...",
+    "finalizingQuote": "Dokončování cenové nabídky...",
+    "form": {
+      "header": "Vyměňte",
+      "insufficientLiquidity": "Nedostatečná likvidita pro tento obchod.",
+      "pocketUniverseExtension": {
+        "warning": "Rozšíření Pocket Universe porušuje naše <termsLink /> úpravou našeho produktu způsobem, který je zavádějící a může poškodit uživatele. Deaktivujte prosím rozšíření a znovu načtěte stránku."
+      },
+      "warning": {
+        "output": {
+          "fotFees": {
+            "fallback": "Kvůli poplatkům za tokeny lze swapové částky zadat pouze pomocí vstupního pole"
+          }
+        },
+        "restore": "Obnovte svou peněženku k výměně"
+      }
+    },
+    "frontrun": {
+      "warning": "Vaše transakce může být frontrun a výsledkem může být nevýhodný obchod."
+    },
+    "header": {
+      "viewOnly": "Pouze zobrazení"
+    },
+    "impactOfTrade": "Vliv vašeho obchodu na tržní cenu tohoto fondu.",
+    "inputEstimated": {
+      "atMost": "Vstup se odhaduje. Prodáte maximálně <amount /> nebo se transakce vrátí zpět."
+    },
+    "limit": "Omezit",
+    "limitedAssets": {
+      "warning": "Některá aktiva nejsou prostřednictvím tohoto rozhraní dostupná, protože nemusí dobře fungovat s chytrými smlouvami nebo z právních důvodů nemůžeme povolit obchodování."
+    },
+    "limitFilled": "Limit naplněn!",
+    "limitSubmitted": "Limit odeslán",
+    "marketPrice": {
+      "outsideRange": {
+        "label": "Tržní cena je mimo vámi zadaný cenový rozsah. Pouze jednorázový vklad."
+      }
+    },
+    "maxPriceSlip": {
+      "revert": "Maximální částka, kterou zaručeně utratíte. Pokud cena klesne ještě více, vaše transakce se vrátí zpět."
+    },
+    "minPriceSlip": {
+      "revert": "Pokud se cena posune tak, že obdržíte méně než {{amount}}, vaše transakce se vrátí zpět."
+    },
+    "networkCost": {
+      "paidIn": "Síťové náklady se platí v {{sym}} v síti {{chainName}} za účelem transakce."
+    },
+    "orderRouting": "Směrování objednávky",
+    "outputEstimated": {
+      "atLeast": "Výkon se odhaduje. Obdržíte alespoň <amount /> , jinak se transakce vrátí zpět."
+    },
+    "payAnyway": "Každopádně zaplatit",
+    "payAtMost": "Maximálně zaplatit",
+    "payWith": "Platit",
+    "placeOrder": "Objednejte si",
+    "priceImpact": "Vliv ceny",
+    "receive": {
+      "atLeast": "Přijmout alespoň"
+    },
+    "request": {
+      "title": {
+        "full": "Vyměňte {{inputCurrencySymbol}} → {{outputCurrencySymbol}}",
+        "short": "Vyměňte si tokeny"
+      }
+    },
+    "review": {
+      "summary": "Vyměňujete se"
+    },
+    "reviewLimit": "Limit kontroly",
+    "route": {
+      "optimizedGasCost": "Tato trasa bere v úvahu rozdělené trasy, více skoků a síťové náklady každého kroku."
+    },
+    "settings": {
+      "deadline": {
+        "tooltip": "Vaše transakce bude vrácena, pokud bude nevyřízena déle než toto časové období. (Maximálně: 3 dny).",
+        "warning": "Vysoký termín"
+      },
+      "protection": {
+        "description": "Se zapnutou ochranou swapu budou vaše transakce Ethereum chráněny před sendvičovými útoky se sníženou pravděpodobností selhání.",
+        "subtitle": {
+          "supported": "{{chainName}} Síť",
+          "unavailable": "Není k dispozici na {{chainName}}"
+        },
+        "title": "Ochrana proti výměně"
+      },
+      "routingPreference": {
+        "option": {
+          "default": {
+            "description": {
+              "preV4": "Klient Uniswap vybere nejlevnější obchodní variantu s ohledem na cenu a síťové náklady."
+            },
+            "tooltip": "Trasa je identifikována s ohledem na v2, v3 a určité fondy v4, přičemž se zohlední odhadovaný cenový dopad a síťové náklady."
+          },
+          "v2": {
+            "title": "v2 bazény"
+          },
+          "v3": {
+            "title": "v3 bazény"
+          },
+          "v4": {
+            "title": "v4 bazény"
+          }
+        },
+        "title": "Obchodní opce"
+      },
+      "slippage": {
+        "alert": "Vysoký skluz",
+        "control": {
+          "auto": "Auto"
+        },
+        "description": "Vaše transakce se vrátí, pokud se cena změní více než procento skluzu.",
+        "input": {
+          "message": "Pokud cena klesne ještě více, vaše transakce se vrátí. Níže je uvedena minimální částka, kterou zaručeně obdržíte.",
+          "receive": {
+            "title": "Přijmout alespoň"
+          }
+        },
+        "output": {
+          "message": "Pokud cena klesne ještě více, vaše transakce se vrátí zpět. Níže je uvedena maximální částka, kterou budete muset utratit.",
+          "spend": {
+            "title": "Maximálně utratit"
+          }
+        },
+        "warning": {
+          "description": "Skluz nad 20 % pravděpodobně povede k nepříznivému obchodu. Chcete-li snížit riziko, že bude spuštěn zepředu, snižte nastavení.",
+          "hover": "To může mít za následek nevýhodný obchod. Zkuste snížit nastavení prokluzu.",
+          "max": "Zadejte hodnotu menší než {{maxSlippageTolerance}}",
+          "message": "Prokluz může být vyšší, než je nutné",
+          "min": "Zadejte hodnotu větší než 0"
+        }
+      },
+      "title": "Prohodit nastavení",
+      "transactionRevertPrice": "Vaše transakce se vrátí zpět, pokud se cena nepříznivě změní o více než toto procento."
+    },
+    "signAndSwap": "Podepište a vyměňte",
+    "slippage": {
+      "amt": "{{amt}} skluz",
+      "bridging": "Žádné prokluzování při výměně mezi sítěmi",
+      "settings": {
+        "title": "Nastavení skluzu"
+      },
+      "tooltip": "Maximální pohyb ceny před vaší transakcí se vrátí."
+    },
+    "slippageBelow": {
+      "warning": "Skluz pod {{amt}} může vést k neúspěšné transakci"
+    },
+    "submitted": "Výměna odeslána",
+    "success": "Úspěch výměny!",
+    "taxTooltip": {
+      "label": "Pouze přesné zadání",
+      "noTokenSelected": "Poplatky za vybraný výstupní token neumožňují přesné přesné výstupy. Místo toho použijte pole „Prodat“.",
+      "tokenSelected": "{{tokenSymbol}} poplatky neumožňují přesné přesné výstupy. Místo toho použijte pole „Prodat“."
+    },
+    "tokenOwnFees": "Některé tokeny si při nákupu nebo prodeji účtují poplatek, který nastavuje vydavatel tokenu. Uniswap neobdrží žádný z těchto poplatků.",
+    "total": "Celkový",
+    "tradeRoutes": "Obchodní cesty",
+    "transaction": {
+      "deadline": "Termín transakce",
+      "revertAfter": "Vaše transakce se vrátí zpět, pokud čeká na vyřízení déle než toto časové období."
+    },
+    "unsupportedAssets": {
+      "readMore": "Přečtěte si další informace o nepodporovaných aktivech"
+    },
+    "warning": {
+      "enterLargerAmount": {
+        "title": "Zadejte větší částku"
+      },
+      "expectedFailure": {
+        "increaseSlippage": "Zkuste zvýšit svůj skluz.",
+        "titleMay": "Tato výměna může selhat"
+      },
+      "insufficientBalance": {
+        "title": "Nemáte dost {{currencySymbol}}"
+      },
+      "insufficientGas": {
+        "button": {
+          "bridge": "Vyměňte za {{ tokenSymbol }} na {{networkName}}",
+          "buy": "Koupit {{ tokenSymbol }}",
+          "buyWithCard": "Koupit kartou"
+        },
+        "message": {
+          "withNetwork": "Nedostatek <highlight>{{currencySymbol}} na {{networkName}}</highlight> k výměně",
+          "withoutNetwork": "Na výměnu nestačí <highlight>{{currencySymbol}}</highlight>"
+        },
+        "title": "Nemáte dostatek {{currencySymbol}} na pokrytí nákladů na síť"
+      },
+      "networkFee": {
+        "allow": "Povolit {{ inputTokenSymbol }} (jednou)",
+        "highRelativeToValue": {
+          "unichain": "Síťové náklady přesahují 10 % z celkové hodnoty transakce."
+        },
+        "message": {
+          "unichain": "Jedná se o náklady na zpracování vaší transakce na blockchainu.",
+          "uniswapX": {
+            "unichain": "Jedná se o náklady na zpracování vaší transakce na blockchainu. <gradient>UniswapX</gradient> agreguje zdroje likvidity za lepší ceny a swapy bez plynu."
+          }
+        },
+        "wrap": "Zabalte ETH"
+      },
+      "noQuotesFound": {
+        "bridging": {
+          "message": "Nebyly nalezeny žádné překlenovací citace. Zkuste v tuto chvíli použít oficiální most."
+        },
+        "title": "Nebyly nalezeny žádné citace"
+      },
+      "noRoutesFound": {
+        "message": "Pro vámi vybrané tokeny momentálně nejsou k dispozici žádné trasy. Zkuste prosím jiný pár nebo to zkuste znovu později.",
+        "title": "Nejsou k dispozici žádné trasy"
+      },
+      "offline": {
+        "message": "Možná jste ztratili připojení k internetu nebo síť nefunguje. Zkontrolujte prosím připojení k internetu a zkuste to znovu.",
+        "title": "Jste offline"
+      },
+      "priceImpact": {
+        "message": {
+          "veryHigh": "Tato transakce bude mít za následek {{priceImpactValue}} cenový dopad na tržní cenu tohoto poolu a bude mít za následek ztrátu finančních prostředků."
+        },
+        "title": {
+          "veryHigh": "Velmi vysoký dopad na cenu ({{priceImpactValue}})"
+        }
+      },
+      "queuedOrder": {
+        "appClosed": "Vaše transakce nebyla odeslána, protože jste aplikaci uzavřeli.",
+        "approvalFailed": "Vaše transakce nebyla odeslána, protože schválení tokenu se nezdařilo.",
+        "stale": "Vaše transakce nebyla odeslána, protože jste aplikaci zavřeli nebo schválení trvalo příliš dlouho.",
+        "submissionFailed": "Při odesílání vaší transakce došlo k problému.",
+        "title": "Výměna zrušena",
+        "wrap": {
+          "message": "Vaše ETH zůstane zabaleno jako WETH."
+        },
+        "wrapFailed": "Vaše transakce nebyla odeslána, protože transakce zalomení se nezdařila."
+      },
+      "rateLimit": {
+        "message": "Zkuste to znovu za několik minut.",
+        "title": "Překročen limit sazby"
+      },
+      "router": {
+        "message": "Možná jste ztratili připojení nebo síť nefunguje. Pokud problém přetrvává, zkuste to znovu později.",
+        "title": "Tento obchod nelze nyní dokončit"
+      },
+      "tokenBlocked": {
+        "button": "{{tokenSymbol}} je zablokováno"
+      },
+      "uniswapFee": {
+        "message": {
+          "default": "Aby byla zajištěna nejlepší zkušenost s Uniswap, jsou účtovány poplatky. S touto výměnou není spojen žádný poplatek.",
+          "included": "Aby byla zajištěna nejlepší zkušenost s Uniswap, jsou účtovány poplatky, které již byly započítány do této nabídky."
+        },
+        "title": "Výměnný poplatek"
+      },
+      "viewOnly": {
+        "message": "Chcete-li vyměnit tokeny, musíte tuto peněženku importovat pomocí fráze pro obnovení."
+      }
+    },
+    "wrap": {
+      "token": "Zabalte {{sym}}"
+    }
+  },
+  "tdp": {
+    "balanceSummary": {
+      "otherNetworks": "Na jiných sítích",
+      "otherNetworksBalance": "Zůstatek na jiných sítích",
+      "title": "Tvůj zůstatek"
+    },
+    "invalidTokenPage": {
+      "switchChainPrompt": "Přepněte na {{network}}",
+      "title": "Tento token neexistuje",
+      "titleWithChain": "Tento token na {{network}}neexistuje"
+    },
+    "loading": {
+      "title": {
+        "default": "data tokenu pro <tokenLink />",
+        "withChain": "data tokenu pro <tokenLink /> na {{chainName}}"
+      }
+    },
+    "nameNotFound": "Jméno nenalezeno",
+    "noInfoAvailable": "Nejsou k dispozici žádné informace o tokenu",
+    "noTestnetSupportDescription": "Některé testovací sítě nepodporují výměnu, odesílání nebo nákup tokenů.",
+    "stats": {
+      "unsupportedChainDescription": "Statistiky tokenů a grafy pro {{chain}} jsou k dispozici na {{infoLink}}"
+    },
+    "symbolNotFound": "Symbol nenalezen"
+  },
+  "testnet": {
+    "modal": {
+      "swapDeepLink": {
+        "description": {
+          "toProdMode": "Tato akce vyžaduje deaktivaci režimu testovací sítě. Režim Testnet lze kdykoli znovu povolit v rámci nastavení.",
+          "toTestnetMode": "Tato akce vyžaduje, aby byl povolen režim testovací sítě. Tokeny na testovacích sítích nemají žádnou skutečnou hodnotu. Režim Testnet lze kdykoli vypnout v rámci nastavení."
+        },
+        "title": {
+          "toProdMode": "Zakázat režim testnet",
+          "toTestnetMode": "Povolit režim testovací sítě"
+        }
+      }
+    },
+    "unsupported": "Tato funkce není podporována v režimu testovací sítě."
+  },
+  "themeToggle": {
+    "theme": "Téma"
+  },
+  "title": {
+    "betterPricesMoreListings": "Lepší ceny. Další výpisy. Nakupujte, prodávejte a obchodujte s NFT na špičkových tržištích, jako je OpenSea. Prozkoumejte trendy kolekce.",
+    "buySellTradeEthereum": "Nakupujte, prodávejte a obchodujte s Ethereem a dalšími špičkovými tokeny na Uniswapu",
+    "createGovernanceOn": "Vytvořte nový návrh správy na Uniswap",
+    "createGovernanceTo": "Vytvořte nový návrh řízení, o kterém budou hlasovat držitelé UNI. UNI tokeny představují akcie s hlasovacím právem ve správě Uniswap.",
+    "earnFees": "Získejte poplatky, když jiní swapují na Uniswapu, přidáním tokenů do likviditních fondů.",
+    "easilyRemove": "Snadno odeberte svou likviditu z Uniswapu v2 a vložte do Uniswapu v3.",
+    "easilyRemoveV4": "Snadno odeberte svou likviditu z Uniswap v2 a v3 a vložte ji do Uniswap v4.",
+    "explore": "Prozkoumejte NFT na Uniswapu",
+    "exploreNFTs": "Prozkoumejte a nakupujte NFT na nejlepších tržištích na Uniswapu",
+    "manageNFT": "Spravujte svou sbírku NFT. Zobrazte vlastnosti, obchodní aktivitu, popisy a další podrobnosti o vašich NFT.",
+    "migratev2": "Migrujte likviditu fondu v2 na Uniswap v3",
+    "migratev3": "Migrujte likviditu fondu na Uniswap v4",
+    "placeLimit": "Zadávejte limitní příkazy na Uniswap",
+    "realTime": "Ceny v reálném čase, grafy, data transakcí a další.",
+    "removeLiquidityv2": "Odstraňte likviditu fondu (v2) na Uniswapu",
+    "removePoolLiquidity": "Odstraňte likviditu fondu na Uniswapu",
+    "removeTokensv2": "Odstraňte své tokeny z fondů likvidity v2.",
+    "removev3Liquidity": "Odstraňte své tokeny z fondu likvidity v3.",
+    "sendTokens": "Pošlete tokeny na Uniswap",
+    "swappingMadeSimple": "Výměna byla jednoduchá. Nakupujte a prodávejte kryptoměny na Ethereum, Base, Arbitrum, Polygon a dalších. Věří miliony.",
+    "tradeTokens": "Obchodujte s tokeny a poskytujte likviditu. Ceny v reálném čase, grafy, data transakcí a další.",
+    "uniswapTradeCrypto": "Uniswap | Obchodujte s krypto a NFT bezpečně na špičkové platformě DeFi",
+    "uniToken": "UNI tokeny představují akcie s hlasovacím právem ve správě Uniswap. O každém návrhu můžete hlasovat sami nebo své hlasy delegovat na třetí stranu.",
+    "voteOnGov": "Hlasujte o návrzích správy na Uniswap"
+  },
+  "token": {
+    "balances": {
+      "main": "Tvůj zůstatek",
+      "other": "Zůstatky na jiných sítích",
+      "viewOnly": "Zůstatek {{ownerAddress}}"
+    },
+    "bridge": "{{label}} token bridge",
+    "chart": {
+      "tooltip": "Poplatky: {{amount}}"
+    },
+    "details": {
+      "testnet": {
+        "unsupported": "Podrobnosti o tokenu nejsou pro tokeny testnet k dispozici."
+      }
+    },
+    "error": {
+      "unknown": "Neznámý token"
+    },
+    "fee": {
+      "buy": {
+        "label": "koupit poplatek"
+      },
+      "label": "poplatek",
+      "sell": {
+        "label": "prodejní poplatek"
+      }
+    },
+    "links": {
+      "title": "Odkazy",
+      "twitter": "Cvrlikání",
+      "website": "webová stránka"
+    },
+    "priceExplorer": {
+      "error": {
+        "description": "Něco se pokazilo.",
+        "title": "Cenový graf se nepodařilo načíst"
+      },
+      "timeRangeLabel": {
+        "all": "Pořád",
+        "day": {
+          "verbose": "1 den"
+        },
+        "hour": "1H",
+        "month": {
+          "verbose": "1 měsíc"
+        },
+        "week": {
+          "verbose": "1 týden"
+        },
+        "year": {
+          "verbose": "1 rok"
+        }
+      }
+    },
+    "safety": {
+      "blocked": {
+        "title": {
+          "tokenNotAvailable": "{{tokenSymbol}} není k dispozici",
+          "tokensNotAvailable": "{{tokenSymbol0}} a {{tokenSymbol1}} nejsou k dispozici"
+        }
+      },
+      "fees": {
+        "uniswapLabsDoesNotReceive": "Uniswap Labs neobdrží žádný z těchto poplatků."
+      },
+      "warning": {
+        "alwaysDoYourResearch": "Vždy si proveďte svůj výzkum",
+        "blocked": {
+          "description": {
+            "default_one": "S tímto tokenem nemůžete obchodovat pomocí aplikace Uniswap.",
+            "default_other": "S těmito tokeny nemůžete obchodovat pomocí aplikace Uniswap."
+          }
+        },
+        "dontShowWarningAgain": "Už mi toto varování nezobrazovat",
+        "doYourOwnResearch": "Než budete pokračovat, vždy si proveďte svůj vlastní průzkum.",
+        "feeDescription": "Účtuje <fee /> , když {{action}}",
+        "flaggedAsMalicious": "Označeno jako škodlivé",
+        "fotHigh": {
+          "title": "Byl zjištěn vysoký poplatek"
+        },
+        "fotLow": {
+          "title": "Poplatek zjištěn"
+        },
+        "fotVeryHigh": {
+          "title": "Byl zjištěn velmi vysoký poplatek"
+        },
+        "honeypot": {
+          "message": "{{tokenSymbol}} bylo označeno jako neprodejné. Výměna tohoto tokenu může vést ke ztrátě vašich prostředků.",
+          "title": "Zjištěn 100% prodejní poplatek"
+        },
+        "impersonator": {
+          "title": "Byl zjištěn token imitátoru"
+        },
+        "malicious": {
+          "general": {
+            "message": "{{tokenSymbol}} byl aplikací Blockaid označen jako škodlivý."
+          },
+          "impersonator": {
+            "message": {
+              "short": "{{tokenSymbol}} nemusí být token, který chcete vyměnit."
+            }
+          },
+          "title": "Byl zjištěn škodlivý token"
+        },
+        "mayResultInLoss": "Jeho výměna může mít za následek ztrátu finančních prostředků.",
+        "medium": {
+          "heading": {
+            "named": "{{tokenSymbol}} se neobchoduje na předních amerických centralizovaných burzách."
+          }
+        },
+        "notListedOnExchanges": "Není kotováno na předních amerických burzách",
+        "sellFee100": {
+          "message": "{{ tokenSymbol }} bylo označeno jako neprodejné.",
+          "title": "Zjištěn 100% prodejní poplatek"
+        },
+        "spam": {
+          "message": "{{tokenSymbol}} byl označen jako spam službou Blockaid.",
+          "title": "Byl zjištěn token spamu"
+        },
+        "spamsUsers": "Spamuje uživatele",
+        "tokenChargesFee": {
+          "both": {
+            "message": "{{tokenSymbol}} účtuje poplatek {{buyFeePercent}} při nákupu a {{sellFeePercent}} při prodeji."
+          },
+          "buy": {
+            "message": "{{tokenSymbol}} si při nákupu účtuje {{feePercent}} poplatek."
+          },
+          "sell": {
+            "message": "{{tokenSymbol}} si při prodeji účtuje poplatek {{feePercent}} ."
+          },
+          "unknownFee": {
+            "message": "{{tokenSymbol}} účtuje poplatek při nákupu nebo prodeji."
+          }
+        }
+      }
+    },
+    "safetyLevel": {
+      "blocked": {
+        "message": "S tímto tokenem nemůžete obchodovat pomocí Uniswap Wallet."
+      },
+      "medium": {
+        "message": {
+          "plural": "Tyto tokeny nejsou obchodovány na předních amerických centralizovaných burzách. Než budete pokračovat, vždy si proveďte svůj vlastní průzkum."
+        }
+      }
+    },
+    "selector": {
+      "search": {
+        "error": "Výsledky vyhledávání se nepodařilo načíst"
+      }
+    },
+    "stats": {
+      "fullyDilutedValuation": "Zcela zředěné ocenění",
+      "marketCap": "Tržní kapitalizace",
+      "priceHighYear": "52W vysoký",
+      "priceLowYear": "52W Nízký",
+      "section": {
+        "about": "Asi {{token}}"
+      },
+      "title": "Statistiky",
+      "translation": {
+        "original": "Ukázat originál",
+        "translate": "Přeložit do {{language}}"
+      },
+      "volume": "24h objem"
+    },
+    "symbol": {
+      "input": {
+        "fallback": "Vstupní token"
+      },
+      "output": {
+        "fallback": "Výstupní token"
+      }
+    },
+    "wrap": {
+      "fail": {
+        "message": "Swapy na Uniswap protokolu mohou začínat a končit ETH. Během swapu je však ETH zabaleno do WETH."
+      }
+    },
+    "zeroNativeBalance": {
+      "description": "Chcete-li získat {{ tokenSymbol }}, musíte nejprve {{ nativeTokenSymbol }} zaplatit za síť. Začněte financováním své peněženky pomocí {{ nativeTokenSymbol }}.",
+      "title": "Potřebujete {{ nativeTokenName }} "
+    }
+  },
+  "tokens": {
+    "action": {
+      "hide": "Skrýt token",
+      "unhide": "Odkrýt token"
+    },
+    "nfts": {
+      "action": {
+        "viewOnExplorer": "Zobrazit na {{blockExplorerName}}"
+      },
+      "collection": {
+        "error": {
+          "load": {
+            "title": "Kolekci NFT se nepodařilo načíst"
+          }
+        },
+        "label": {
+          "items": "Položky",
+          "owners": "Vlastníci",
+          "priceFloor": "Podlaha",
+          "swapVolume": "Hlasitost"
+        }
+      },
+      "details": {
+        "error": {
+          "load": {
+            "title": "Podrobnosti NFT se nepodařilo načíst"
+          }
+        },
+        "network": "Síť",
+        "owner": "Ve vlastnictví",
+        "price": "Aktuální cena",
+        "recentPrice": "Poslední prodejní cena",
+        "traits": "Vlastnosti"
+      },
+      "empty": {
+        "description": "Nebyly nalezeny žádné NFT"
+      },
+      "error": {
+        "unavailable": "Obsah není k dispozici"
+      },
+      "hidden": {
+        "action": {
+          "hide": "Skrýt NFT",
+          "unhide": "Odkrýt NFT"
+        }
+      },
+      "link": {
+        "collection": "Webová stránka sbírky"
+      },
+      "list": {
+        "error": {
+          "load": {
+            "title": "NFT se nepodařilo načíst"
+          }
+        },
+        "none": {
+          "button": "Přijímat NFT",
+          "description": {
+            "default": "Začněte převodem NFT z jiné peněženky.",
+            "external": "Když tato peněženka zakoupí nebo přijme NFT, zobrazí se zde."
+          },
+          "title": "Zatím žádné NFT"
+        }
+      }
+    },
+    "noneFound": "Nebyly nalezeny žádné tokeny.",
+    "selector": {
+      "button": {
+        "choose": "Vyberte token",
+        "clear": "Vymazat vše"
+      },
+      "empty": {
+        "buy": {
+          "message": "Kupte si kryptoměnu kartou nebo bankou a posílejte tokeny.",
+          "title": "Kupte si kryptoměnu"
+        },
+        "receive": {
+          "title": "Přijímat tokeny"
+        },
+        "title": "Zatím žádné tokeny"
+      },
+      "error": {
+        "load": "Tokeny se nepodařilo načíst"
+      },
+      "search": {
+        "empty": "Pro dotaz <highlight>{{searchText}}</highlight>nebyly nalezeny žádné výsledky",
+        "placeholder": "Hledat tokeny"
+      },
+      "section": {
+        "bridging": "Výměna napříč sítěmi",
+        "favorite": "Oblíbené",
+        "otherSearchResults": "Další tokeny na {{network}}",
+        "recent": "Nedávná vyhledávání",
+        "search": "Výsledky vyhledávání",
+        "trending": "Tokeny podle objemu 24 hodin",
+        "yours": "Vaše žetony"
+      }
+    },
+    "table": {
+      "search": {
+        "placeholder": {
+          "pools": "Prohledejte bazény",
+          "tokens": "Hledat tokeny"
+        }
+      }
+    }
+  },
+  "transaction": {
+    "action": {
+      "cancel": {
+        "button": "Zrušit transakci",
+        "description": "Pokud tuto transakci zrušíte dříve, než ji síť zpracuje, budete místo původních nákladů platit novou síť.",
+        "title": "Zrušit tuto transakci?"
+      },
+      "copy": "Zkopírujte ID transakce",
+      "copyProvider": "Zkopírujte {{providerName}} ID transakce"
+    },
+    "amount": {
+      "unlimited": "Neomezený"
+    },
+    "confirmation": {
+      "completionTime_one": "Transakce dokončena za <highlight>{{count}}</highlight> za sekundu 🎉",
+      "completionTime_other": "Transakce dokončena za <highlight>{{count}}</highlight> sekund 🎉",
+      "pending": {
+        "wallet": "Potvrďte transakci v peněžence"
+      },
+      "submitted": {
+        "currency": {
+          "add": "Přidejte {{currency}}",
+          "added": "Přidáno {{currency}}"
+        }
+      },
+      "waiting": "čekání na potvrzení"
+    },
+    "date": "Odesláno {{date}}",
+    "details": {
+      "dappName": "Aplikace",
+      "from": "Z",
+      "networkFee": "Náklady na síť",
+      "providerFee": "Poplatek poskytovatele",
+      "swapRate": "Hodnotit",
+      "transaction": "Transakce",
+      "uniswapFee": "Poplatek ({{ feePercent }}%)"
+    },
+    "insufficientLiquidity": "Nedostatečná likvidita fondu k dokončení transakce",
+    "network": {
+      "all": "Všechny sítě"
+    },
+    "networkCost": {
+      "label": "Náklady na síť",
+      "maxNativeBalance": {
+        "description": "Malá částka zůstatku síťového tokenu je vyhrazena na pokrytí síťových nákladů této transakce.",
+        "title": "Proč nemohu použít svůj maximální zůstatek?"
+      },
+      "veryHigh": {
+        "label": "Velmi vysoké náklady na síť"
+      }
+    },
+    "notification": {
+      "error": {
+        "cancel": "Transakci nelze zrušit",
+        "replace": "Transakci nelze nahradit"
+      }
+    },
+    "status": {
+      "approve": {
+        "canceled": "Zrušeno schválení",
+        "canceling": "Zrušení schválit",
+        "failed": "Schválení se nezdařilo",
+        "pending": "Schvalování",
+        "success": "Schválený",
+        "successDapp": "Schváleno {{externalDappName}}"
+      },
+      "buy": {
+        "canceled": "Zrušený nákup",
+        "canceling": "Rušení nákupu",
+        "failed": "Nákup se nezdařil",
+        "pending": "Nákup",
+        "success": "Koupeno",
+        "successDapp": "Zakoupeno {{externalDappName}}"
+      },
+      "confirm": {
+        "canceled": "Zrušeno potvrzení",
+        "canceling": "Čeká na zrušení",
+        "failed": "Nepodařilo se potvrdit",
+        "pending": "Probíhá transakce",
+        "success": "Transakce potvrzena",
+        "successDapp": "Transakce potvrzena {{externalDappName}}"
+      },
+      "mint": {
+        "canceled": "Zrušená máta",
+        "canceling": "Zrušení máty",
+        "failed": "Nepodařilo se razit",
+        "pending": "Ražba",
+        "success": "Ražené",
+        "successDapp": "Raženo dne {{externalDappName}}"
+      },
+      "purchase": {
+        "canceled": "Zrušený nákup",
+        "canceling": "Zrušení nákupu",
+        "failedOn": "Nákup dne {{serviceProvider}}se nezdařil",
+        "pendingOn": "Nákup na {{serviceProvider}}",
+        "successOn": "Zakoupeno {{serviceProvider}}"
+      },
+      "receive": {
+        "canceled": "Příjem byl zrušen",
+        "canceling": "Rušení příjmu",
+        "failedFrom": "Nepodařilo se přijmout od {{serviceProvider}}",
+        "pendingFrom": "Příjem z {{serviceProvider}}",
+        "success": "Přijato",
+        "successDapp": "Přijato {{externalDappName}}",
+        "successFrom": "Přijato z {{serviceProvider}}"
+      },
+      "revoke": {
+        "canceled": "Zrušeno odvolání",
+        "canceling": "Rušení odvolání",
+        "failed": "Odvolání se nezdařilo",
+        "pending": "Odvolávání",
+        "success": "Odvoláno",
+        "successDapp": "Odvoláno dne {{externalDappName}}"
+      },
+      "sale": {
+        "canceled": "Zrušený prodej",
+        "canceling": "Zrušení prodeje",
+        "failedOn": "Prodej se nezdařil přes {{serviceProvider}}",
+        "pendingOn": "Prodej přes {{serviceProvider}}",
+        "successOn": "Prodáváno přes {{serviceProvider}}"
+      },
+      "sell": {
+        "canceled": "Prodej zrušen",
+        "canceling": "Zrušení prodeje",
+        "failed": "Nepodařilo se prodat",
+        "pending": "Prodejní",
+        "success": "Prodáno",
+        "successDapp": "Prodáno {{externalDappName}}"
+      },
+      "send": {
+        "canceled": "Odeslání bylo zrušeno",
+        "canceling": "Rušení odeslání",
+        "failed": "nepodařilo se odeslat",
+        "pending": "Odesílání",
+        "success": "Odesláno",
+        "successDapp": "Odesláno dne {{externalDappName}}"
+      },
+      "swap": {
+        "canceled": "Zrušená výměna",
+        "canceling": "Rušení swapu",
+        "expired": "Platnost swapu vypršela",
+        "failed": "Výměna se nezdařila",
+        "insufficientFunds": "Nedostatečné finanční prostředky",
+        "pending": "Výměna",
+        "success": "Vyměněno",
+        "successDapp": "Vyměněno {{externalDappName}}"
+      },
+      "unwrap": {
+        "canceled": "Rozbalení zrušeno",
+        "canceling": "Rušení rozbalení",
+        "failed": "Rozbalení se nezdařilo",
+        "pending": "Rozbalování",
+        "success": "Rozbalené",
+        "successDapp": "Rozbaleno na {{externalDappName}}"
+      },
+      "wrap": {
+        "canceled": "Zrušený zábal",
+        "canceling": "Rušení zábalu",
+        "failed": "Zabalení se nezdařilo",
+        "pending": "Obal",
+        "success": "Zabalené",
+        "successDapp": "Zabalené na {{externalDappName}}"
+      }
+    },
+    "summary": {
+      "received": "{{tokenAmountWithSymbol}} až {{recipientAddress}}",
+      "sent": "{{tokenAmountWithSymbol}} z {{senderAddress}}"
+    },
+    "warning": {
+      "insufficientGas": {
+        "modal": {
+          "message": "K pokrytí síťových nákladů této transakce potřebujete ~{{tokenAmount}} {{tokenSymbol}} (<fiatTokenAmount/>) na {{networkName}} .",
+          "title": {
+            "withNetwork": "Nedostatek {{tokenSymbol}} na {{networkName}}",
+            "withoutNetwork": "Nestačí {{tokenSymbol}}"
+          }
+        }
+      },
+      "maxNative": {
+        "message": "Chystáte se utratit většinu svého zůstatku síťových tokenů. To může zanechat nedostatek finančních prostředků na pokrytí budoucích síťových nákladů.",
+        "title": "Nízký zůstatek síťových tokenů"
+      }
+    },
+    "watcher": {
+      "error": {
+        "cancel": "Transakci nelze zrušit",
+        "status": "Chyba při kontrole stavu transakce"
+      }
+    }
+  },
+  "unichain": {
+    "promotion": {
+      "bridging": {
+        "description": "Vyměňte za Unichain",
+        "tooltip": {
+          "description": "Propojte své ETH, abyste mohli začít na Unichainu."
+        }
+      },
+      "cold": {
+        "description": "Rychlejší výměny. Nižší poplatky. Unichain je domovem DeFi.",
+        "title": "Představujeme Unichain"
+      },
+      "modal": {
+        "description": "Rychlejší výměny. Nižší poplatky. Unichain je domovem cross-chain likvidity.",
+        "detail": {
+          "costs": "Nižší náklady na vytváření poolů a správu pozic.",
+          "fees": "Ušetřete 95 % na poplatcích ve srovnání s Ethereem.",
+          "instant": "Okamžitě vyměňte"
+        }
+      },
+      "tooltip": {
+        "description": "Rychlejší výměny. Nižší poplatky. Unichain je domovem cross-chain likvidity.",
+        "switch": "Přepněte na Unichain",
+        "title": "Unichain je tady"
+      },
+      "warm": {
+        "description": "Vyměňujte své oblíbené žetony rychleji a s nižšími náklady na plyn.",
+        "title": "Začněte swapovat na Unichainu"
+      }
+    }
+  },
+  "uniswapX": {
+    "aggregatesLiquidity": "<logo /> agreguje zdroje likvidity za lepší ceny a swapy bez plynu.",
+    "learnMore": "Zjistěte více o swapování pomocí UniswapX"
+  },
+  "uniswapx": {
+    "description": "UniswapX agreguje zdroje likvidity za lepší ceny a swapy bez plynu.",
+    "included": "Zahrnuje <icon /> <gradient>UniswapX</gradient>",
+    "item": "<icon /> <gradient>UniswapX</gradient> <info />",
+    "label": "UniswapX",
+    "v2QuoteFailed": "Pevná nabídka UniswapX v2 se nezdařila. Zkuste to znovu s klasickou výměnou."
+  },
+  "unitags": {
+    "banner": {
+      "button": {
+        "claim": "Nyní tvrdí"
+      },
+      "subtitle": "Vytvořte si personalizovaný web3 profil a snadno sdílejte svou adresu s přáteli.",
+      "title": {
+        "compact": "<highlight>Získejte své {{unitagDomain}} uživatelské jméno</highlight> a vytvořte si svůj přizpůsobitelný profil.",
+        "full": "Získejte své uživatelské jméno {{unitagDomain}}"
+      }
+    },
+    "choosePhoto": {
+      "option": {
+        "cameraRoll": "Vyberte si z fotoaparátu",
+        "computer": "Nahrát z počítače",
+        "nft": "Vyberte NFT",
+        "remove": "Odebrat profilový obrázek"
+      }
+    },
+    "claim": {
+      "confirmation": {
+        "customize": "Přizpůsobte profil",
+        "description": "{{unitagAddress}} je připraveno odesílat a přijímat kryptoměny. Pokračujte v budování své peněženky přizpůsobením svého profilu web3.",
+        "success": {
+          "long": "Máš to!",
+          "short": "mám to!"
+        }
+      },
+      "error": {
+        "addressLimit": "Pro tuto adresu jste již provedli maximální počet změn svého uživatelského jména",
+        "appCheck": "Uživatelské jméno nelze nárokovat. Zkuste to prosím znovu zítra.",
+        "avatar": "Avatara se nepodařilo nastavit. Zkuste to později znovu.",
+        "default": "Uživatelské jméno nelze nárokovat. Zkuste to později znovu.",
+        "deviceLimit": "Dosáhli jste maximálního počtu uživatelských jmen, která mohou být pro toto zařízení aktivní",
+        "general": "Uživatelské jméno nelze nárokovat",
+        "unavailable": "Toto uživatelské jméno není k dispozici",
+        "unknown": "Neznámá chyba"
+      },
+      "username": {
+        "default": "tvé jméno"
+      }
+    },
+    "delete": {
+      "confirm": {
+        "subtitle": "Chystáte se smazat své uživatelské jméno a přizpůsobitelné podrobnosti profilu. Nebudete jej moci získat zpět.",
+        "title": "Jsi si jistá?"
+      }
+    },
+    "editProfile": {
+      "placeholder": "uživatelské jméno"
+    },
+    "editUsername": {
+      "confirm": {
+        "subtitle": "Chystáte se změnit své uživatelské jméno. Jakmile to jednou změníte, už si to nikdy nemůžete nárokovat.",
+        "title": "Jsi si jistá?"
+      },
+      "title": "Upravte své uživatelské jméno",
+      "warning": {
+        "default": "Jakmile své uživatelské jméno změníte, už si ho nikdy nebudete moci nárokovat. Můžete jej změnit pouze <highlight>2</highlight> krát.",
+        "max": "Dosáhli jste maximálního počtu 2 změn uživatelských jmen."
+      }
+    },
+    "extension": {
+      "intro": {
+        "buttton": "Vyžádejte si uživatelské jméno",
+        "description": "Rozlučte se s 0x adresami. Uživatelská jména jsou čitelná jména, která usnadňují odesílání a přijímání kryptoměn.",
+        "title": "Představujeme uživatelská jména",
+        "upsell": {
+          "customizable": "Přizpůsobitelné profily",
+          "ens": "Provozováno na subdoménách ENS",
+          "free": "Zdarma k reklamaci"
+        }
+      }
+    },
+    "intro": {
+      "features": {
+        "ens": "Provozováno na subdoménách ENS",
+        "free": "Zdarma k reklamaci",
+        "profile": "Přizpůsobitelné profily"
+      },
+      "subtitle": "Rozlučte se s 0x adresami. Uživatelská jména jsou čitelná jména, která usnadňují odesílání a přijímání kryptoměn.",
+      "title": "Představujeme uživatelská jména"
+    },
+    "notification": {
+      "delete": {
+        "error": "Uživatelské jméno se nepodařilo smazat. Zkuste to později znovu.",
+        "title": "Uživatelské jméno bylo smazáno"
+      },
+      "profile": {
+        "error": "Profil nelze aktualizovat. Zkuste to později znovu.",
+        "title": "profil aktualizován"
+      },
+      "username": {
+        "error": "Uživatelské jméno nelze změnit. Zkuste to později znovu.",
+        "title": "Uživatelské jméno změněno"
+      }
+    },
+    "onboarding": {
+      "claim": {
+        "subtitle": "Toto je vaše personalizovaná adresa, na kterou mohou lidé posílat kryptoměny.",
+        "title": {
+          "choose": "Vytvořte si uživatelské jméno",
+          "claim": "Získejte své uživatelské jméno"
+        }
+      },
+      "info": {
+        "description": "Uživatelská jména transformují složité adresy 0x na čitelné názvy. Nárokováním uživatelského jména {{unitagDomain}} můžete snadno odesílat a přijímat kryptoměny a vytvořit si veřejný web3 profil.",
+        "title": "Zjednodušená adresa"
+      },
+      "profile": {
+        "subtitle": "Nahrajte svůj vlastní nebo se držte svého jedinečného Uniconu. Vždy to můžete později změnit.",
+        "title": "Vyberte profilovou fotku"
+      }
+    },
+    "profile": {
+      "action": {
+        "delete": "Smazat uživatelské jméno",
+        "edit": "Upravit uživatelské jméno"
+      },
+      "bio": {
+        "label": "Bio",
+        "placeholder": "Zadejte životopis pro svůj profil"
+      },
+      "links": {
+        "twitter": "Cvrlikání"
+      }
+    },
+    "username": {
+      "error": {
+        "chars": "Uživatelská jména mohou obsahovat pouze písmena a číslice",
+        "max": "Uživatelská jména nemohou mít více než {{number}} znaků",
+        "min": "Uživatelská jména musí mít alespoň {{number}} znaků",
+        "uppercase": "Uživatelská jména mohou obsahovat pouze malá písmena a čísla"
+      }
+    }
+  },
+  "uwulink": {
+    "error": {
+      "insufficientTokens": "Nedostatek {{tokenSymbol}} na {{chain}}"
+    }
+  },
+  "v2": {
+    "notAvailable": "Uniswap V2 není v této síti dostupný.",
+    "switchTo": "Přepnout na v2"
+  },
+  "v3": {
+    "blast": {
+      "yield": {
+        "usdbAndWeth": "Na Blast USDB a WETH mění základ tokenů, které automaticky získávají výnos. Kvůli nekompatibilitě s Uniswap v3 nebudou pozice LP s USDB nebo WETH získávat rebasingový výnos, ale v Uniswap v2 ano."
+      }
+    },
+    "continue": "Pokračovat na v3",
+    "rebase": {
+      "unavailable": "Rebasing není na v3 k dispozici"
+    }
+  },
+  "wallet": {
+    "appSignIn": "Přihlaste se pomocí aplikace",
+    "connectingAgreement": "Připojením peněženky souhlasíte s <termsLink>Smluvními podmínkami společnosti Uniswap Labs</termsLink> a souhlasíte s jejími <privacyLink>Zásadami ochrany osobních údajů</privacyLink>.",
+    "connectionFailed": {
+      "message": "Pokus o připojení se nezdařil. Klikněte prosím na zkusit znovu a postupujte podle pokynů pro připojení v peněžence."
+    },
+    "other": "Ostatní peněženky",
+    "scanToConnect": "Pro připojení naskenujte QR kód",
+    "wrongNet": "Vaše peněženka je připojena k nesprávné síti."
+  },
+  "walletConnect": {
+    "dapps": {
+      "connection": "<highlight>Připojeno k </highlight>{{dappNameOrUrl}}",
+      "empty": {
+        "description": "Připojte se k aplikaci naskenováním kódu přes WalletConnect"
+      },
+      "manage": {
+        "empty": {
+          "title": "Nejsou připojeny žádné aplikace"
+        },
+        "title": "Spojení"
+      }
+    },
+    "error": {
+      "connection": {
+        "message": "Uniswap Wallet aktuálně podporuje {{chainNames}}. Na těchto řetězech používejte pouze \"{{dappName}}\".",
+        "title": "Chyba připojení"
+      },
+      "general": {
+        "message": "Vyskytl se problém s WalletConnect. Prosím zkuste to znovu",
+        "title": "Chyba připojení WalletConnect"
+      },
+      "scantastic": {
+        "message": "Vyskytl se problém s vaším QR kódem. Prosím zkuste to znovu",
+        "title": "Neplatný QR kód"
+      },
+      "unsupported": {
+        "message": "Než to zkusíte znovu, ujistěte se, že skenujete platný kód WalletConnect, Ethereum nebo Uniswap Extension QR kód.",
+        "title": "Neplatný QR kód"
+      },
+      "unsupportedV1": {
+        "message": "WalletConnect v1 již není podporován. Aplikace, ke které se pokoušíte připojit, potřebuje upgradovat na WalletConnect v2.",
+        "title": "Neplatný QR kód"
+      },
+      "uwu": {
+        "scan": "Při skenování tohoto QR kódu došlo k problému.",
+        "title": "Chyba odkazu UwU",
+        "unsupported": "Tento QR kód není podporován."
+      }
+    },
+    "pending": {
+      "button": {
+        "connect": "Připojit",
+        "scrollDown": "Přejděte dolů a připojte se"
+      },
+      "switchAccount": "Přepnout účet",
+      "switchNetwork": "Přepnout síť",
+      "title": "Připojte se k {{dappName}}"
+    },
+    "permissions": {
+      "option": {
+        "transferAssets": "Převeďte svá aktiva bez souhlasu",
+        "viewTokenBalances": "Prohlédněte si zůstatky tokenů",
+        "viewWalletAddress": "Zobrazit adresu peněženky"
+      },
+      "title": "Oprávnění webu"
+    },
+    "request": {
+      "button": {
+        "scrollDown": "Přejděte dolů a podepište",
+        "sign": "Podepsat"
+      },
+      "details": {
+        "label": {
+          "function": "Funkce",
+          "sending": "Odesílání",
+          "token": "Žeton",
+          "tokens": "Tokeny"
+        }
+      },
+      "error": {
+        "insufficientFunds": "K dokončení této transakce nemáte dostatek {{currencySymbol}} .",
+        "network": "Chyba připojení k internetu nebo síti"
+      },
+      "warning": {
+        "general": {
+          "message": "Buďte opatrní: tato zpráva může převést aktiva"
+        },
+        "message": "Abyste mohli podepisovat zprávy nebo transakce, budete muset importovat frázi pro obnovení peněženky.",
+        "title": "Tato peněženka je v režimu pouze pro prohlížení"
+      }
+    }
+  },
+  "web": {
+    "explore": {
+      "description": "Objevujte a zkoumajte tokeny na {{network}}. Prozkoumejte nejlepší bazény. Zobrazte ceny v reálném čase, objem obchodů, TVL, grafy a data transakcí.",
+      "title": {
+        "pools": "Prozkoumejte nejlepší fondy na {{network}} na Uniswap",
+        "tokens": "Prozkoumejte nejlepší tokeny na {{network}} na Uniswap",
+        "transactions": "Prozkoumejte nejlepší transakce na {{network}} na Uniswapu"
+      }
+    }
+  }
+}
