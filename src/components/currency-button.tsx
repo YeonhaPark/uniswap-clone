@@ -37,7 +37,7 @@ export default function CurrencyButton({
       </div>
     </div>
   ) : (
-    <div className="bg-accent1 border-surface21 flex h-[36px] items-stretch rounded-full border px-3 text-white">
+    <div className="bg-accent1 border-surface2 flex h-[36px] cursor-pointer items-stretch rounded-full border px-3 text-white">
       <div className="font-basel flex shrink-0 basis-auto items-center justify-center gap-1.5 break-words whitespace-nowrap">
         {t("selector.button.choose")}
         <div className="flex items-center">

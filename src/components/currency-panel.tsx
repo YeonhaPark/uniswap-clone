@@ -37,8 +37,10 @@ export default function CurrencyPanel({
   return (
     <div
       className={cn(
-        "rounded-[20px] border border-transparent",
-        isActive ? "border-surface3 bg-transparent" : "bg-surface2"
+        "cursor-pointer rounded-[20px] border border-transparent",
+        isActive
+          ? "border-surface3 hover:border-surface3-hovered bg-transparent"
+          : "bg-surface2 hover:bg-surface2-hovered"
       )}
     >
       <div className="flex shrink-0 cursor-pointer flex-col">
