@@ -31,7 +31,7 @@ export default function AnimatedSwitch() {
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
   return (
-    <div className="border-surface3 relative flex w-full items-center justify-between rounded-full border bg-transparent p-1">
+    <div className="border-surface3 relative flex items-center justify-between rounded-full border bg-transparent p-1">
       <div
         className="bg-surface3 hover:bg-surface3-hovered absolute top-1 bottom-1 left-1 z-0 h-[32px] w-[64px] rounded-full transition-transform duration-300 ease-in-out"
         style={{ transform: `translateX(${selected * 100}%)` }}

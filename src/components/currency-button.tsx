@@ -2,7 +2,6 @@ import Image from "next/image";
 import ChevronDown from "@/src/components/icons/chevron-down";
 import { Currency, TokenImage } from "@/types";
 import { useTranslations } from "next-intl";
-import { Button } from "./ui/button";
 
 interface CurrencyButtonProps {
   selectedCurrency: Currency;
@@ -38,7 +37,7 @@ export default function CurrencyButton({
       </div>
     </div>
   ) : (
-    <div className="bg-accent1 flex h-[36px] items-stretch rounded-full border border-[#f2f2f2] px-3 text-white shadow-[0_0_10px_rgba(34,34,34,0.04)]">
+    <div className="bg-accent1 border-surface21 flex h-[36px] items-stretch rounded-full border px-3 text-white">
       <div className="font-basel flex shrink-0 basis-auto items-center justify-center gap-1.5 break-words whitespace-nowrap">
         {t("selector.button.choose")}
         <div className="flex items-center">
