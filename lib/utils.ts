@@ -12,7 +12,10 @@ const usdRates: Record<Currency, number> = {
   USDC: USDC,
 };
 
-export function rate(from: Currency, to: Currency): number {
+export function rate(from: Currency | null, to: Currency | null): number {
+  if (from === null || to === null) {
+    return 0;
+  }
   return usdRates[to] / usdRates[from];
 }
 

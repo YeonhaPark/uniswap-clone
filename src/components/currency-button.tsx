@@ -4,7 +4,7 @@ import { Currency, TokenImage } from "@/types";
 import { useTranslations } from "next-intl";
 
 interface CurrencyButtonProps {
-  selectedCurrency: Currency;
+  selectedCurrency: Currency | null;
 }
 {
   /* <Button className="flex shrink-0 basis-auto flex-col items-stretch rounded-full border border-[#f2f2f2] bg-pink-500 px-3 shadow-[0_0_10px_rgba(34,34,34,0.04)]">

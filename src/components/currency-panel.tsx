@@ -9,7 +9,7 @@ import CurrencySelectModal from "./currency-select-modal";
 interface CurrencyPanelProps {
   transactionType: TransactionType;
   isActive: boolean;
-  currency: Currency;
+  currency: Currency | null;
   setCurrency: (currency: Currency | null) => void;
   amount: number;
   setAmount: (amount: number) => void;
@@ -52,7 +52,7 @@ export default function CurrencyPanel({
             <div className="mr-2 shrink grow">
               <div className="flex cursor-pointer flex-col">
                 <CurrencyInput
-                  maxDecimals={Decimals[currency]}
+                  maxDecimals={Decimals[currency || "USDC"]}
                   onChange={handleChange}
                   value={input}
                 />

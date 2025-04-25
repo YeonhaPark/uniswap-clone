@@ -2,7 +2,7 @@
 import { Button } from "./ui/button";
 import SwitchCurrencyButton from "./switch-currency-button";
 import CurrencyPanel from "@/src/components/currency-panel";
-import { rate, swap } from "@/lib/utils";
+import { cn, rate, swap } from "@/lib/utils";
 import { Currency, TransactionType } from "@/types";
 import { useEffect, useState } from "react";
 import ChevronDown from "@/src/components/icons/chevron-down";
@@ -11,14 +11,14 @@ import GasInfo from "@/src/components/swap/gas-info";
 import SwapSetting from "./swap/swap-settings";
 
 export default function Swap() {
-  const [sellCurrency, setSellCurrency] = useState<Currency>("USDC");
+  const [sellCurrency, setSellCurrency] = useState<Currency | null>("USDC");
   const [buyCurrency, setBuyCurrency] = useState<Currency | null>(null);
   const [sellAmount, setSellAmount] = useState<number>(0);
   const [buyAmount, setBuyAmount] = useState<number>(0);
   const [amountType, setAmountType] = useState<TransactionType>("Sell");
   const [rotated, setRotated] = useState<boolean>(false);
   useEffect(() => {
-    if (buyCurrency === null) return;
+    if (buyCurrency === null || sellCurrency === null) return;
     if (amountType === "Sell") {
       const result = swap(sellCurrency, buyCurrency, sellAmount);
       setBuyAmount(result);
@@ -66,19 +66,23 @@ export default function Swap() {
               Connect Wallet
             </span>
           </Button>
-          <div className="min-h-[40px] pt-3">
+          <div
+            className={(cn("min-h-[40px] pt-3"), buyCurrency ? "" : "hidden")}
+          >
             <div className="font-basel text-neutral2 flex justify-between px-2 py-1 text-sm">
-              <div>
-                {`1 ${buyCurrency} = ${rate(sellCurrency, buyCurrency)} ${sellCurrency}`}
-                &nbsp;
-                <span className="text-neutral3">{`($${sellAmount.toLocaleString(
-                  "en-US",
-                  {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2,
-                  }
-                )})`}</span>
-              </div>
+              {
+                <div>
+                  {`1 ${buyCurrency} = ${rate(sellCurrency, buyCurrency)} ${sellCurrency}`}
+                  &nbsp;
+                  <span className="text-neutral3">{`($${sellAmount.toLocaleString(
+                    "en-US",
+                    {
+                      minimumFractionDigits: 2,
+                      maximumFractionDigits: 2,
+                    }
+                  )})`}</span>
+                </div>
+              }
               <div className="flex items-center gap-1">
                 <div className="flex items-center gap-1">
                   <Gas /> $0.76
