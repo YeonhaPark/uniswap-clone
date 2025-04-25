@@ -20,8 +20,8 @@ export default function CurrencySelectModal({
   currency,
 }: {
   trigger: ReactNode;
-  setCurrency: (currency: Currency) => void;
-  currency: Currency;
+  setCurrency: (currency: Currency | null) => void;
+  currency: Currency | null;
 }) {
   const [open, setOpen] = useState(false);
   const t = useTranslations();
